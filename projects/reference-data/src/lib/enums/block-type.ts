@@ -11,5 +11,6 @@ export enum BlockType {
 	RITUAL = 9,
 	REVEAL_CARD = 10,
 	GAME_RESET = 11,
+	MOVE_MINION = 12,
 	ACTION = 99,
 }

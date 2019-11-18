@@ -13,6 +13,7 @@ export * from './lib/enums/game-type';
 export * from './lib/enums/meta-tags';
 export * from './lib/enums/mulligan';
 export * from './lib/enums/playstate';
+export * from './lib/enums/race';
 export * from './lib/enums/scenario-id';
 export * from './lib/enums/step';
 export * from './lib/enums/zone';
