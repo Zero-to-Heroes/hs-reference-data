@@ -54,27 +54,39 @@ export enum ScenarioId {
 	GALAKROND_EXPLORER_CHAP_1_FIGHT_1 = 3469, // Chap 1, Fight 1, Explorer (Finley vs Boom)
 	GALAKROND_EXPLORER_CHAP_1_FIGHT_2 = 3470, // Chap 1, Fight 2, Explorer (Khadgar vs Avalanchan)
 	GALAKROND_EXPLORER_CHAP_1_FIGHT_3 = 3471, // Chap 1, Fight 3, Explorer (Elise vs Kriziki the Wind)
-	GALAKROND_EXPLORER_CHAP_2_FIGHT_1 = 3472, // Chap 2, Fight 1, Explorer (Finley vs Madam Lazul)
+	GALAKROND_EXPLORER_CHAP_2_FIGHT_1 = 3472, // Chap 2, Fight 1, Explorer (Finley vs Puppetmaster Lazul)
 	GALAKROND_EXPLORER_CHAP_2_FIGHT_2 = 3473, // Chap 2, Fight 2, Explorer (vs Cultist Dawnshatter)
 	GALAKROND_EXPLORER_CHAP_2_FIGHT_3 = 3475, // Chap 2, Fight 3, Explorer (vs Hagatha the Vengeful)
+	GALAKROND_EXPLORER_CHAP_3_FIGHT_1 = 3477, // Chap 3, Fight 1, Explorer (vs Rotwing)
+	GALAKROND_EXPLORER_CHAP_3_FIGHT_2 = 3478, // Chap 3, Fight 2, Explorer (vs Dragonslayer Skruk)
+	GALAKROND_EXPLORER_CHAP_3_FIGHT_3 = 3479, // Chap 3, Fight 3, Explorer (vs The Slipstream)
 	GALAKROND_EVIL_CHAP_1_FIGHT_1 = 3484, // Chap 1, Fight 1, EVIL (Kriziki vs Finley)
 	GALAKROND_EVIL_CHAP_1_FIGHT_2 = 3488, // Chap 1, Fight 2, EVIL (vs Chenvaala)
 	GALAKROND_EVIL_CHAP_1_FIGHT_3 = 3489, // Chap 1, Fight 3, EVIL (Boom vs Reno)
-	GALAKROND_EVIL_CHAP_2_FIGHT_1 = 3490, // Chap 2, Fight 1, EVIL (Waxmancer vs Dragoncaster Askaraa)
+	GALAKROND_EVIL_CHAP_2_FIGHT_1 = 3490, // Chap 2, Fight 1, EVIL (Waxmancer vs Dragoncaster Askaara)
 	GALAKROND_EVIL_CHAP_2_FIGHT_2 = 3491, // Chap 2, Fight 2, EVIL (Kronx vs United Sr Explorers)
-	GALAKROND_EVIL_CHAP_2_FIGHT_3 = 3493, // Chap 2, Fight 3, EVIL (Hagatha vs Nitthog)
+	GALAKROND_EVIL_CHAP_2_FIGHT_3 = 3493, // Chap 2, Fight 3, EVIL (Hagatha vs Nithogg)
+	GALAKROND_EVIL_CHAP_3_FIGHT_1 = 3494, // Chap 3, Fight 1, EVIL (vs Dragonrider Talritha)
+	GALAKROND_EVIL_CHAP_3_FIGHT_2 = 3495, // Chap 3, Fight 2, EVIL (vs The Wanderer)
+	GALAKROND_EVIL_CHAP_3_FIGHT_3 = 3497, // Chap 3, Fight 3, EVIL (vs The Dragonflights)
 	GALAKROND_EXPLORER_CHAP_1_FIGHT_1_HEROIC = 3556, // Heroic Chap 1, Fight 1, Explorer (vs Boom)
 	GALAKROND_EXPLORER_CHAP_1_FIGHT_2_HEROIC = 3583, // Heroic Chap 1, Fight 2, Explorer (vs Avalanchan)
 	GALAKROND_EXPLORER_CHAP_1_FIGHT_3_HEROIC = 3584, // Heroic Chap 1, Fight 3, Explorer (vs Kriziki)
 	GALAKROND_EXPLORER_CHAP_2_FIGHT_1_HEROIC = 3585, // Heroic Chap 2, Fight 1, Explorer (Finley vs Madam Lazul)
 	GALAKROND_EXPLORER_CHAP_2_FIGHT_2_HEROIC = 3586, // Heroic Chap 2, Fight 2, Explorer (vs Cultist Dawnshatter)
 	GALAKROND_EXPLORER_CHAP_2_FIGHT_3_HEROIC = 3587, // Heroic Chap 2, Fight 3, Explorer (vs Hagatha the Vengeful)
+	GALAKROND_EXPLORER_CHAP_3_FIGHT_1_HEROIC = 3588, // Heroic Chap 3, Fight 1, Explorer (vs Rotwing)
+	GALAKROND_EXPLORER_CHAP_3_FIGHT_2_HEROIC = 3589, // Heroic Chap 3, Fight 2, Explorer (vs Dragonslayer Skruk)
+	GALAKROND_EXPLORER_CHAP_3_FIGHT_3_HEROIC = 3590, // Heroic Chap 3, Fight 3, Explorer (vs The Slipstream)
 	GALAKROND_EVIL_CHAP_1_FIGHT_1_HEROIC = 3594, // Heroic Chap 1, Fight 1, EVIL (vs Finley)
 	GALAKROND_EVIL_CHAP_1_FIGHT_2_HEROIC = 3595, // Heroic Chap 1, Fight 2, EVIL (vs Chenvaala)
 	GALAKROND_EVIL_CHAP_1_FIGHT_3_HEROIC = 3596, // Heroic Chap 1, Fight 3, EVIL (vs Reno)
 	GALAKROND_EVIL_CHAP_2_FIGHT_1_HEROIC = 3597, // Heroic Chap 2, Fight 1, EVIL (Waxmancer vs Dragoncaster Askaraa)
 	GALAKROND_EVIL_CHAP_2_FIGHT_2_HEROIC = 3598, // Heroic Chap 2, Fight 2, EVIL (Kronx vs United Sr Explorers)
 	GALAKROND_EVIL_CHAP_2_FIGHT_3_HEROIC = 3599, // Heroic Chap 2, Fight 3, EVIL (Hagatha vs Nitthog)
+	GALAKROND_EVIL_CHAP_3_FIGHT_1_HEROIC = 3600, // Heroic Chap 3, Fight 1, EVIL (vs Dragonrider Talritha)
+	GALAKROND_EVIL_CHAP_3_FIGHT_2_HEROIC = 3601, // Heroic Chap 3, Fight 2, EVIL (vs The Wanderer)
+	GALAKROND_EVIL_CHAP_3_FIGHT_3_HEROIC = 3602, // Heroic Chap 3, Fight 3, EVIL (vs The Dragonflights)
 }
 
 export const GALAKROND_EXPLORER = [
@@ -84,12 +96,18 @@ export const GALAKROND_EXPLORER = [
 	ScenarioId.GALAKROND_EXPLORER_CHAP_2_FIGHT_1,
 	ScenarioId.GALAKROND_EXPLORER_CHAP_2_FIGHT_2,
 	ScenarioId.GALAKROND_EXPLORER_CHAP_2_FIGHT_3,
+	ScenarioId.GALAKROND_EXPLORER_CHAP_3_FIGHT_1,
+	ScenarioId.GALAKROND_EXPLORER_CHAP_3_FIGHT_2,
+	ScenarioId.GALAKROND_EXPLORER_CHAP_3_FIGHT_3,
 	ScenarioId.GALAKROND_EXPLORER_CHAP_1_FIGHT_1_HEROIC,
 	ScenarioId.GALAKROND_EXPLORER_CHAP_1_FIGHT_2_HEROIC,
 	ScenarioId.GALAKROND_EXPLORER_CHAP_1_FIGHT_3_HEROIC,
 	ScenarioId.GALAKROND_EXPLORER_CHAP_2_FIGHT_1_HEROIC,
 	ScenarioId.GALAKROND_EXPLORER_CHAP_2_FIGHT_2_HEROIC,
 	ScenarioId.GALAKROND_EXPLORER_CHAP_2_FIGHT_3_HEROIC,
+	ScenarioId.GALAKROND_EXPLORER_CHAP_3_FIGHT_1_HEROIC,
+	ScenarioId.GALAKROND_EXPLORER_CHAP_3_FIGHT_2_HEROIC,
+	ScenarioId.GALAKROND_EXPLORER_CHAP_3_FIGHT_3_HEROIC,
 ];
 
 export const GALAKROND_EVIL = [
@@ -99,12 +117,18 @@ export const GALAKROND_EVIL = [
 	ScenarioId.GALAKROND_EVIL_CHAP_2_FIGHT_1,
 	ScenarioId.GALAKROND_EVIL_CHAP_2_FIGHT_2,
 	ScenarioId.GALAKROND_EVIL_CHAP_2_FIGHT_3,
+	ScenarioId.GALAKROND_EVIL_CHAP_3_FIGHT_1,
+	ScenarioId.GALAKROND_EVIL_CHAP_3_FIGHT_2,
+	ScenarioId.GALAKROND_EVIL_CHAP_3_FIGHT_3,
 	ScenarioId.GALAKROND_EVIL_CHAP_1_FIGHT_1_HEROIC,
 	ScenarioId.GALAKROND_EVIL_CHAP_1_FIGHT_2_HEROIC,
 	ScenarioId.GALAKROND_EVIL_CHAP_1_FIGHT_3_HEROIC,
 	ScenarioId.GALAKROND_EVIL_CHAP_2_FIGHT_1_HEROIC,
 	ScenarioId.GALAKROND_EVIL_CHAP_2_FIGHT_2_HEROIC,
 	ScenarioId.GALAKROND_EVIL_CHAP_2_FIGHT_3_HEROIC,
+	ScenarioId.GALAKROND_EVIL_CHAP_3_FIGHT_1_HEROIC,
+	ScenarioId.GALAKROND_EVIL_CHAP_3_FIGHT_2_HEROIC,
+	ScenarioId.GALAKROND_EVIL_CHAP_3_FIGHT_3_HEROIC,
 ];
 
 export const GALAKROND_ALL = [...GALAKROND_EXPLORER, ...GALAKROND_EVIL];
