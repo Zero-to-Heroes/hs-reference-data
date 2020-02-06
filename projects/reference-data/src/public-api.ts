@@ -2,6 +2,7 @@
  * Public API Surface of reference-data
  */
 
+export * from './lib/card-ids';
 export * from './lib/enums/block-type';
 export * from './lib/enums/card-class';
 export * from './lib/enums/card-rarity';
