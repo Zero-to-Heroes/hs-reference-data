@@ -533,6 +533,8 @@ export enum GameTag {
 	ALLOW_GAME_SPEEDUP = 1526,
 	POISONOUS_INSTANT = 1528,
 	FORCE_NO_CUSTOM_SPELLS = 1529,
+	START_OF_COMBAT = 1531,
+	SPAWN_TIME_COUNT = 1556,
 
 	// Not sure what this is, it seems to indicate that a temporary effect (shadow madness, corruption) is active?,
 	_333 = 333,

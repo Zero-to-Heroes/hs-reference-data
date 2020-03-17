@@ -111,6 +111,7 @@ export namespace CardIds {
 			export const Chromaggus = 'BRM_031';
 			export const BlackwingTechnician = 'BRM_033';
 			export const BlackwingCorruptor = 'BRM_034';
+			export const KaelthasSunstrider = 'BT_255';
 			export const WindUpBurglebot = 'CFM_025';
 			export const StreetTrickster = 'CFM_039';
 			export const RedManaWyrm = 'CFM_060';
@@ -1957,7 +1958,6 @@ export namespace CardIds {
 			export const Doomhammer = 'EX1_567';
 			export const ManaTideTotem = 'EX1_575';
 			export const Windspeaker = 'EX1_587';
-			export const MoguFleshshaperTavernBrawl = 'FB_Champs_ULD_169';
 			export const Reincarnate = 'FP1_025';
 			export const HagathaTheWitch = 'GIL_504';
 			export const MurksparkEel = 'GIL_530';
@@ -1982,6 +1982,7 @@ export namespace CardIds {
 			export const Thrall_KingRastakhanHeroHeroSkins = 'HERO_02b';
 			export const Thrall_TheThunderKingHeroHeroSkins = 'HERO_02c';
 			export const Thrall_WarchiefThrallHeroHeroSkins = 'HERO_02d';
+			export const Thrall_LadyVashjHeroHeroSkinsEnchantment = 'HERO_02e';
 			export const Cryostasis = 'ICC_056';
 			export const Brrrloc = 'ICC_058';
 			export const Avalanche = 'ICC_078';
@@ -2029,7 +2030,7 @@ export namespace CardIds {
 			export const Likkim = 'TRL_352';
 			export const Wartbringer = 'TRL_522';
 			export const SandstormElemental = 'ULD_158';
-			export const MoguFleshshaperULDUM = 'ULD_169';
+			export const MoguFleshshaper = 'ULD_169';
 			export const WeaponizedWasp = 'ULD_170';
 			export const TotemicSurge = 'ULD_171';
 			export const PlagueOfMurlocs = 'ULD_172';
@@ -3431,6 +3432,14 @@ export namespace CardIds {
 			export const WorkForMadameLazulTavernBrawl = 'TB_Henchmania_DiscoverD';
 			export const WorkForMadameLazulEnchantTavernBrawl = 'TB_Henchmania_DiscoverDe';
 			export const VoControllerNotPlayerFacingTavernBrawl = 'TB_Henchmania_VOController';
+			export const WarglaivesOfAzzinothTavernBrawl = 'TB_HunterPrince_01';
+			export const SkullOfGuldanTavernBrawl = 'TB_HunterPrince_02';
+			export const SkullofGuldan_EmbracePowerEnchantmentTavernBrawl = 'TB_HunterPrince_02e';
+			export const MetamorphosisTavernBrawl = 'TB_HunterPrince_03';
+			export const Metamorphosis_DemonicBlastTavernBrawl1 = 'TB_HunterPrince_03a';
+			export const Metamorphosis_DemonicBlastTavernBrawl2 = 'TB_HunterPrince_03b';
+			export const DemonClawsTavernBrawl = 'TB_HunterPrince_04';
+			export const DemonClaws_DemonClawsEnchantmentTavernBrawl = 'TB_HunterPrince_04ench';
 			export const BloomBotTavernBrawl = 'TB_Ignoblegarden1';
 			export const RoomBotTavernBrawl1 = 'TB_Ignoblegarden2';
 			export const RoomBotTavernBrawl2 = 'TB_Ignoblegarden2e';
@@ -3438,6 +3447,7 @@ export namespace CardIds {
 			export const NoblegardenEggTavernBrawl1 = 'TB_IgnoblegardenEgg';
 			export const KingTogwaggleTavernBrawl1 = 'TB_John_002h';
 			export const MagicCandleTavernBrawl2 = 'TB_John_002p';
+			export const KaelthasBrawlEnchantTavernBrawl = 'TB_Kaelthas_Ench';
 			export const PartyPortalTavernBrawl = 'TB_KaraPortal_001';
 			export const CallMedivaTavernBrawl = 'TB_KaraPortal_002';
 			export const SaddenedHeroEnchantTavernBrawl = 'TB_KaraPortal_003';
@@ -5911,6 +5921,7 @@ export namespace CardIds {
 			export const FrenziedFelwing_FrenziedEnchantment = 'YOD_032e';
 			export const BoompistolBully_SmokescreenEnchantment = 'YOD_033e';
 			export const SkyGenralKragg_SharkbaitToken = 'YOD_038t';
+			export const KaelthasSunstrider_SunstriderEnchantment = 'BT_255e';
 			export const NzothTheCorruptor = 'WE1_035';
 			export const SylvanasWindrunner = 'WE1_036';
 			export const RagnarosTheFirelordWILD_EVENT = 'WE1_037';
@@ -5918,7 +5929,6 @@ export namespace CardIds {
 			export const EmperorThaurissanWILD_EVENT = 'WE1_039';
 			export const NathrezimOverseer = 'BGS_001';
 			export const NathrezimOverseer_ImpishEnchantment = 'BGS_001e';
-			export const SoulJuggler = 'BGS_002';
 			export const WrathWeaver = 'BGS_004';
 			export const WrathWeaver_WrathWovenEnchantment = 'BGS_004e';
 			export const SneedsOldShredder = 'BGS_006';
@@ -6009,6 +6019,7 @@ export namespace CardIds {
 			export const MillhouseManastormTavernBrawl = 'TB_BaconShop_HERO_49';
 			export const DeathwingTavernBrawl = 'TB_BaconShop_HERO_52';
 			export const YseraTavernBrawl = 'TB_BaconShop_HERO_53';
+			export const FungalmancerFlurglTavernBrawl = 'TB_BaconShop_HERO_55';
 			export const AlexstraszaTavernBrawl = 'TB_BaconShop_HERO_56';
 			export const NozdormuTavernBrawl = 'TB_BaconShop_HERO_57';
 			export const MalygosTavernBrawl = 'TB_BaconShop_HERO_58';
@@ -6075,6 +6086,8 @@ export namespace CardIds {
 			export const ManastormTavernBrawl = 'TB_BaconShop_HP_054';
 			export const ManastormedEnchantmentTavernBrawl = 'TB_Baconshop_HP_054e';
 			export const Cost1MoreEnchantmentTavernBrawl = 'TB_Baconshop_HP_054e2';
+			export const GoneFishingTavernBrawl = 'TB_BaconShop_HP_056';
+			export const AdventureTavernBrawl = 'TB_BaconShop_HP_057';
 			export const AllWillBurnTavernBrawl = 'TB_BaconShop_HP_061';
 			export const ALLWillBurn_AllWillBurnEnchantmentTavernBrawl = 'TB_BaconShop_HP_061e';
 			export const DreamPortalTavernBrawl = 'TB_BaconShop_HP_062';
@@ -6140,7 +6153,6 @@ export namespace CardIds {
 			export const MenagerieMagicianTavernBrawl = 'TB_BaconUps_073';
 			export const MenagerieMagician_ASimpleTrickEnchantmentTavernBrawl = 'TB_BaconUps_073e';
 			export const VirmenSensei_GetBigEnchantmentTavernBrawl = 'TB_BaconUps_074e';
-			export const SoulJugglerTavernBrawl = 'TB_BaconUps_075';
 			export const WrathWeaverTavernBrawl = 'TB_BaconUps_079';
 			export const WrathWeaver_WrathWovenEnchantmentTavernBrawl = 'TB_BaconUps_079e';
 			export const SneedsOldShredderTavernBrawl = 'TB_BaconUps_080';
@@ -6219,6 +6231,7 @@ export namespace CardIds {
 			export const SoldiersOfTheColdDark = 'FB_LK001';
 			export const RemorselessWinterTavernBrawl = 'FB_LK005';
 			export const ToMyAidUnderling = 'FB_LK006';
+			export const DeathKnightArthasTavernBrawl = 'TB_HunterPrince_ArthasH';
 			export const TheLichKing_FrostmourneToken = 'ICC_314t1';
 			export const TheLichKing_ArmyOfTheDeadToken = 'ICC_314t2';
 			export const TheLichKing_DoomPactToken = 'ICC_314t3';
@@ -6682,6 +6695,7 @@ export namespace CardIds {
 			export const NextHeroHunterEnch = 'FB_TagTeam_Hunter_Ench';
 			export const SecondClassHunterTavernBrawl = 'TB_ClassRandom_Hunter';
 			export const DeathstalkerRexxarTavernBrawl1 = 'TB_DK_Rexxar';
+			export const IllidanStormrageTavernBrawl = 'TB_HunterPrince_IllidanH';
 			export const BrannBronzebeardTavernBrawl2 = 'TB_LEAGUE_REVIVAL_BrannAIHero';
 			export const DinoBuddiesTavernBrawl = 'TB_LEAGUE_REVIVAL_BrannAIHp';
 			export const BrannBronzebeardTavernBrawl3 = 'TB_LEAGUE_REVIVAL_BrannHistory';
@@ -8017,9 +8031,12 @@ export namespace CardIds {
 			export const TotemicCall_TotemicCallHeroSkins3 = 'CS2_049_H3';
 			export const TotemicSlamHeroSkins3 = 'CS2_049_H3_AT_132';
 			export const TotemicCall_TotemicCallHeroSkins4 = 'CS2_049_H4';
+			export const TotemicSlamHeroSkins4 = 'CS2_049_H4_AT_132';
+			export const TotemicCall_TotemicCallHeroSkins5 = 'CS2_049_H5';
 			export const Hex = 'FB_Champs_EX1_246';
 			export const FlametongueTotem = 'FB_Champs_EX1_565';
 			export const SpiritClaws = 'FB_Champs_KAR_063';
+			export const MoguFleshshaper = 'FB_Champs_ULD_169';
 			export const ShamanTavernBrawl1 = 'FB_Juggernaut_Shaman';
 			export const OpponentsClassShamanEnch = 'FB_Juggernaut_Shaman_Ench';
 			export const ShamanTavernBrawl2 = 'FB_LK_Shaman_copy';
@@ -8461,6 +8478,7 @@ export namespace CardIds {
 			export const ChaosGazer_WitheringAwayEnchantment = 'YOD_027e';
 			export const ImpGangBoss = 'WE1_015';
 			export const RenounceDarkness = 'WE1_032';
+			export const SoulJuggler = 'BGS_002';
 			export const ImpMama = 'BGS_044';
 			export const ImpMama_ProtectMamaEnchantment = 'BGS_044e';
 			export const ImpGangBossTavernBrawl = 'TB_BaconUps_030';
@@ -8472,6 +8490,7 @@ export namespace CardIds {
 			export const MalganisTavernBrawl = 'TB_BaconUps_060';
 			export const MalGanis_GraspOfMalganisEnchantmentTavernBrawl = 'TB_BaconUps_060e';
 			export const CrystalweaverTavernBrawl = 'TB_BaconUps_070';
+			export const SoulJugglerTavernBrawl = 'TB_BaconUps_075';
 			export const FloatingWatcherTavernBrawl = 'TB_BaconUps_101';
 			export const FloatingWatcher_BrowFurrowEnchantmentTavernBrawl = 'TB_BaconUps_101e';
 			export const FiendishServantTavernBrawl = 'TB_BaconUps_112';
