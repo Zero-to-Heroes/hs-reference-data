@@ -111,7 +111,36 @@ export namespace CardIds {
 			export const Chromaggus = 'BRM_031';
 			export const BlackwingTechnician = 'BRM_033';
 			export const BlackwingCorruptor = 'BRM_034';
+			export const RustswornInitiate = 'BT_008';
+			export const FelfinNavigator = 'BT_010';
+			export const TeronGorefiend = 'BT_126';
+			export const ScrapyardColossus = 'BT_155';
+			export const ImprisonedVilefiend = 'BT_156';
+			export const TerrorguardEscapee = 'BT_159';
+			export const RustswornCultist = 'BT_160';
+			export const ReplicatOTron = 'BT_190';
 			export const KaelthasSunstrider = 'BT_255';
+			export const FrozenShadoweaver = 'BT_714';
+			export const BonechewerBrawler = 'BT_715';
+			export const BonechewerVanguard = 'BT_716';
+			export const BurrowingScorpid = 'BT_717';
+			export const RuststeedRaider = 'BT_720';
+			export const BlisteringRot = 'BT_721';
+			export const GuardianAugmerchant = 'BT_722';
+			export const RocketAugmerchant = 'BT_723';
+			export const EtherealAugmerchant = 'BT_724';
+			export const DragonmawSkyStalker = 'BT_726';
+			export const SoulboundAshtongue = 'BT_727';
+			export const DisguisedWanderer = 'BT_728';
+			export const WasteWarden = 'BT_729';
+			export const OverconfidentOrc = 'BT_730';
+			export const InfectiousSporeling = 'BT_731';
+			export const ScavengingShivarra = 'BT_732';
+			export const MoargArtificer = 'BT_733';
+			export const SupremeAbyssal = 'BT_734';
+			export const Alar = 'BT_735';
+			export const MaievShadowsong = 'BT_737';
+			export const Magtheridon = 'BT_850';
 			export const WindUpBurglebot = 'CFM_025';
 			export const StreetTrickster = 'CFM_039';
 			export const RedManaWyrm = 'CFM_060';
@@ -393,7 +422,7 @@ export namespace CardIds {
 			export const Nightblade = 'EX1_593';
 			export const CultMaster = 'EX1_595';
 			export const ImpMaster = 'EX1_597';
-			export const IllidanStormrage = 'EX1_614';
+			export const Xavius = 'EX1_614';
 			export const ManaWraith = 'EX1_616';
 			export const MoltenGiant = 'EX1_620';
 			export const ZombieChow = 'FP1_001';
@@ -635,6 +664,7 @@ export namespace CardIds {
 			export const ZolaTheGorgon = 'LOOT_516';
 			export const MasterOakheart = 'LOOT_521';
 			export const TheDarkness = 'LOOT_526';
+			export const TheDarkness_DarknessAwaitsEnchantment = 'LOOT_526e';
 			export const VoidRipper = 'LOOT_529';
 			export const SpitefulSummoner = 'LOOT_539';
 			export const Dragonhatcher = 'LOOT_540';
@@ -879,6 +909,16 @@ export namespace CardIds {
 			export const Mulchmuncher = 'BOT_523';
 			export const VolcanicLumberer = 'BRM_009';
 			export const DruidOfTheFlame = 'BRM_010';
+			export const ImprisonedSatyr = 'BT_127';
+			export const FungalFortunes = 'BT_128';
+			export const Germination = 'BT_129';
+			export const Overgrowth = 'BT_130';
+			export const YsielWindsinger = 'BT_131';
+			export const Ironbark = 'BT_132';
+			export const MarshHydra = 'BT_133';
+			export const Bogbeam = 'BT_134';
+			export const GlowflySwarm = 'BT_135';
+			export const ArchsporeMsshifn = 'BT_136';
 			export const KunTheForgottenKing = 'CFM_308';
 			export const JadeBehemoth = 'CFM_343';
 			export const JadeIdol = 'CFM_602';
@@ -1051,6 +1091,16 @@ export namespace CardIds {
 			export const CybertechChip = 'BOT_438';
 			export const QuickShot = 'BRM_013';
 			export const CoreRager = 'BRM_014';
+			export const NagrandSlam = 'BT_163';
+			export const AugmentedPorcupine = 'BT_201';
+			export const Helboar = 'BT_202';
+			export const PackTactics = 'BT_203';
+			export const ScrapShot = 'BT_205';
+			export const ZixorApexPredator = 'BT_210';
+			export const ImprisonedFelmaw = 'BT_211';
+			export const MoknathalLion = 'BT_212';
+			export const ScavengersIngenuity = 'BT_213';
+			export const BeastmasterLeoroxx = 'BT_214';
 			export const HiddenCache = 'CFM_026';
 			export const Alleycat = 'CFM_315';
 			export const RatPack = 'CFM_316';
@@ -1220,6 +1270,16 @@ export namespace CardIds {
 			export const CosmicAnomaly = 'BOT_604';
 			export const Flamewaker = 'BRM_002';
 			export const DragonsBreath = 'BRM_003';
+			export const IncantersFlow = 'BT_002';
+			export const NetherwindPortal = 'BT_003';
+			export const ImprisonedObserver = 'BT_004';
+			export const Evocation = 'BT_006';
+			export const Starscryer = 'BT_014';
+			export const FontOfPower = 'BT_021';
+			export const ApexisSmuggler = 'BT_022';
+			export const AstromancerSolarian = 'BT_028';
+			export const DeepFreeze = 'BT_072';
+			export const ApexisBlast = 'BT_291';
 			export const FreezingPotion = 'CFM_021';
 			export const VolcanicPotion = 'CFM_065';
 			export const KabalLackey = 'CFM_066';
@@ -1391,6 +1451,16 @@ export namespace CardIds {
 			export const KangorsEndlessArmy = 'BOT_912';
 			export const SolemnVigil = 'BRM_001';
 			export const DragonConsort = 'BRM_018';
+			export const ImprisonedSungill = 'BT_009';
+			export const LibramOfJustice = 'BT_011';
+			export const UnderlightAnglingRod = 'BT_018';
+			export const MurgurMurgurgle = 'BT_019';
+			export const AldorAttendant = 'BT_020';
+			export const LibramOfHope = 'BT_024';
+			export const LibramOfWisdom = 'BT_025';
+			export const AldorTruthseeker = 'BT_026';
+			export const HandOfAdal = 'BT_292';
+			export const LadyLiadrin = 'BT_334';
 			export const GrimestreetProtector = 'CFM_062';
 			export const SmugglersRun = 'CFM_305';
 			export const GrimestreetEnforcer = 'CFM_639';
@@ -1562,6 +1632,16 @@ export namespace CardIds {
 			export const ZereksCloningGallery = 'BOT_567';
 			export const TwilightWhelp = 'BRM_004';
 			export const Resurrect = 'BRM_017';
+			export const ReliquaryOfSouls = 'BT_197';
+			export const SoulMirror = 'BT_198';
+			export const Renew = 'BT_252';
+			export const PsycheSplit = 'BT_253';
+			export const SethekkVeilweaver = 'BT_254';
+			export const DragonmawOverseer = 'BT_256';
+			export const Apotheosis = 'BT_257';
+			export const ImprisonedHomunculus = 'BT_258';
+			export const DragonmawSentinel = 'BT_262';
+			export const SkeletalDragon = 'BT_341';
 			export const RazaTheChained = 'CFM_020';
 			export const PotionOfMadness = 'CFM_603';
 			export const GreaterHealingPotion = 'CFM_604';
@@ -1604,6 +1684,12 @@ export namespace CardIds {
 			export const MindBlast = 'DS1_233';
 			export const CabalShadowPriest = 'EX1_091';
 			export const Radiance = 'EX1_192';
+			export const PsychicConjurer = 'EX1_193';
+			export const PowerInfusion = 'EX1_194';
+			export const KulTiranChaplain = 'EX1_195';
+			export const ScarletSubjugator = 'EX1_196';
+			export const ShadowWordRuin = 'EX1_197';
+			export const NatalieSeline = 'EX1_198';
 			export const Silence = 'EX1_332';
 			export const ShadowMadness = 'EX1_334';
 			export const Lightspawn = 'EX1_335';
@@ -1733,6 +1819,16 @@ export namespace CardIds {
 			export const CrazedChemist = 'BOT_576';
 			export const GangUp = 'BRM_007';
 			export const DarkIronSkulker = 'BRM_008';
+			export const Bamboozle = 'BT_042';
+			export const ShadowjewelerHanar = 'BT_188';
+			export const Spymistress = 'BT_701';
+			export const AshtongueSlayer = 'BT_702';
+			export const CursedVagrant = 'BT_703';
+			export const Ambush = 'BT_707';
+			export const DirtyTricks = 'BT_709';
+			export const GreyheartSage = 'BT_710';
+			export const BlackjackStunner = 'BT_711';
+			export const Akama = 'BT_713';
 			export const LuckydoBuccaneer = 'CFM_342';
 			export const CounterfeitCoin = 'CFM_630';
 			export const LotusAssassin = 'CFM_634';
@@ -1904,6 +2000,16 @@ export namespace CardIds {
 			export const OmegaMind = 'BOT_543';
 			export const LavaShock = 'BRM_011';
 			export const FireguardDestroyer = 'BRM_012';
+			export const SerpentshrinePortal = 'BT_100';
+			export const VividSpores = 'BT_101';
+			export const BoggspineKnuckles = 'BT_102';
+			export const BogstrokClacker = 'BT_106';
+			export const LadyVashj = 'BT_109';
+			export const Torrent = 'BT_110';
+			export const TotemicReflection = 'BT_113';
+			export const ShatteredRumbler = 'BT_114';
+			export const Marshspawn = 'BT_115';
+			export const TheLurkerBelow = 'BT_230';
 			export const JinyuWaterspeaker = 'CFM_061';
 			export const CallInTheFinishers = 'CFM_310';
 			export const JadeChieftain = 'CFM_312';
@@ -2076,6 +2182,16 @@ export namespace CardIds {
 			export const DemonicProject = 'BOT_913';
 			export const Demonwrath = 'BRM_005';
 			export const ImpGangBoss = 'BRM_006';
+			export const KelidanTheBreaker = 'BT_196';
+			export const UnstableFelbolt = 'BT_199';
+			export const HandOfGuldan = 'BT_300';
+			export const NightshadeMatron = 'BT_301';
+			export const TheDarkPortal = 'BT_302';
+			export const EnhancedDreadlord = 'BT_304';
+			export const ImprisonedScrapImp = 'BT_305';
+			export const ShadowCouncil = 'BT_306';
+			export const Darkglare = 'BT_307';
+			export const KanrethadEbonlocke = 'BT_309';
 			export const FelfirePotion = 'CFM_094';
 			export const BlastcrystalPotion = 'CFM_608';
 			export const Crystalweaver = 'CFM_610';
@@ -2248,6 +2364,16 @@ export namespace CardIds {
 			export const Supercollider = 'BOT_406';
 			export const Revenge = 'BRM_015';
 			export const AxeFlinger = 'BRM_016';
+			export const Bladestorm = 'BT_117';
+			export const WarmaulChallenger = 'BT_120';
+			export const ImprisonedGanarg = 'BT_121';
+			export const KargathBladefist = 'BT_123';
+			export const CorsairCache = 'BT_124';
+			export const BloodboilBrute = 'BT_138';
+			export const BonechewerRaider = 'BT_140';
+			export const SwordAndBoard = 'BT_233';
+			export const ScrapGolem = 'BT_249';
+			export const BulwarkOfAzzinoth = 'BT_781';
 			export const PublicDefender = 'CFM_300';
 			export const BrassKnuckles = 'CFM_631';
 			export const HobartGrapplehammer = 'CFM_643';
@@ -2395,6 +2521,56 @@ export namespace CardIds {
 			export const BoomSquad = 'YOD_023';
 			export const BombWrangler = 'YOD_024';
 		}
+
+		export namespace Demonhunter {
+			export const ChaosStrike = 'BT_035';
+			export const CoordinatedStrike = 'BT_036';
+			export const ShadowhoofSlayer = 'BT_142';
+			export const CommandTheIllidari = 'BT_173';
+			export const TwinSlice = 'BT_175';
+			export const KaynSunfury = 'BT_187';
+			export const ChaosNova = 'BT_235';
+			export const Flamereaper = 'BT_271';
+			export const Netherwalker = 'BT_321';
+			export const SightlessWatcher = 'BT_323';
+			export const Battlefiend = 'BT_351';
+			export const SatyrOverseer = 'BT_352';
+			export const BladeDance = 'BT_354';
+			export const WrathscaleNaga = 'BT_355';
+			export const UrzulHorror = 'BT_407';
+			export const RagingFelscreamer = 'BT_416';
+			export const AshtongueBattlelord = 'BT_423';
+			export const FeastOfSouls = 'BT_427';
+			export const Metamorphosis = 'BT_429';
+			export const WarglaivesOfAzzinoth = 'BT_430';
+			export const CrimsonSigilRunner = 'BT_480';
+			export const Nethrandamus = 'BT_481';
+			export const PitCommander = 'BT_486';
+			export const HulkingOverfiend = 'BT_487';
+			export const SoulSplit = 'BT_488';
+			export const ConsumeMagic = 'BT_490';
+			export const SpectralSight = 'BT_491';
+			export const PriestessOfFury = 'BT_493';
+			export const GlaiveboundAdept = 'BT_495';
+			export const FuriousFelfin = 'BT_496';
+			export const FelSummoner = 'BT_509';
+			export const WrathspikeBrute = 'BT_510';
+			export const InnerDemon = 'BT_512';
+			export const ImmolationAura = 'BT_514';
+			export const SkullOfGuldan = 'BT_601';
+			export const SoulCleave = 'BT_740';
+			export const Blur = 'BT_752';
+			export const ManaBurn = 'BT_753';
+			export const CoilfangWarlord = 'BT_761';
+			export const EyeBeam = 'BT_801';
+			export const IllidariFelblade = 'BT_814';
+			export const AldrachiWarblades = 'BT_921';
+			export const Umberwing = 'BT_922';
+			export const ImprisonedAntaen = 'BT_934';
+			export const AltruisTheOutcast = 'BT_937';
+			export const IllidanStormrageHero = 'HERO_10';
+			export const IllidanStormrage_DemonicIllidanHeroHeroSkins = 'HERO_10a';
+		}
 	}
 
 	export namespace NonCollectible {
@@ -2463,6 +2639,7 @@ export namespace CardIds {
 			export const Preparation_PreparationEnchantment1 = 'EX1_145e';
 			export const DireWolfAlpha_StrengthOfThePackEnchantment = 'EX1_162o';
 			export const ArcaneDevourer_ArcaneGorgedEnchantment = 'EX1_187e';
+			export const ScarletSubjugator_SubjugatedEnchantment = 'EX1_196e';
 			export const SummoningPortal_PortalSummoningEnchantment = 'EX1_315e';
 			export const TaurenWarrior_EnragedEnchantment = 'EX1_390e';
 			export const AmaniBerserker_EnragedEnchantment = 'EX1_393e';
@@ -2475,7 +2652,7 @@ export namespace CardIds {
 			export const AuchenaiSoulpriest_SoulweavingEnchantment = 'EX1_591e';
 			export const Imp = 'EX1_598';
 			export const SorcerersApprentice_ApprenticesAssitanceEnchantment = 'EX1_608e';
-			export const IllidanStormrage_FlameOfAzzinothToken = 'EX1_614t';
+			export const Xavius_XavianSatyrToken = 'EX1_614t';
 			export const ManaWraith_ManaDrainEnchantment = 'EX1_616e';
 			export const FinkleEinhorn = 'EX1_finkle';
 			export const Squirrel = 'EX1_tk28';
@@ -2486,6 +2663,7 @@ export namespace CardIds {
 			export const CaptainGreenskin_GreenskinsCommandEnchantment = 'NEW1_024o';
 			export const BloodsailCorsair_BolsteredEnchantment = 'NEW1_025e';
 			export const VioletTeacher_VioletApprenticeToken = 'NEW1_026t';
+			export const SouthseaCaptain_YarrrEnchantment = 'NEW1_027e';
 			export const MillhouseManastorm_KillMillhouseToken = 'NEW1_029t';
 			export const MasterSwordsmith_EquippedEnchantment = 'NEW1_037e';
 			export const Gruul_GrowthEnchantment = 'NEW1_038o';
@@ -2500,7 +2678,6 @@ export namespace CardIds {
 			export const Poultryizer = 'Mekka4';
 			export const Transformed = 'Mekka4e';
 			export const Chicken = 'Mekka4t';
-			export const SouthseaCaptain_YarrrEnchantment = 'NEW1_027e';
 			export const EliteTaurenChieftain_IAmMurloc = 'PRO_001a';
 			export const EliteTaurenChieftain_Murloc = 'PRO_001at';
 			export const EliteTaurenChieftain_RoguesDoIt = 'PRO_001b';
@@ -2540,7 +2717,7 @@ export namespace CardIds {
 			export const ShadeofNaxxramas_ConsumeEnchantment = 'FP1_005e';
 			export const Deathcharger = 'FP1_006';
 			export const NerubianEgg_NerubianToken = 'FP1_007t';
-			export const SludgeBelcher_SlimeToken = 'FP1_012t';
+			export const SludgeBelcher_PutridSlimeToken = 'FP1_012t';
 			export const Stalagg_ThaddiusToken = 'FP1_014t';
 			export const NerubarWeblord_WebbedEnchantment = 'FP1_017e';
 			export const Undertaker_DarknessCallsEnchantmentNAXX = 'FP1_028e';
@@ -3352,6 +3529,7 @@ export namespace CardIds {
 			export const MasterSchemerTavernBrawl = 'TB_EVILBRM_RafaamHeroPower2';
 			export const SafeTavernBrawl = 'TB_Face_Ench1';
 			export const SwatFlyTavernBrawl = 'TB_FactionWar_Boss_Rag_0';
+			export const FelRagnarosTheFirelordTavernBrawl = 'TB_FelFirefest_FelRagnaros';
 			export const MeltTavernBrawl = 'TB_Firefest2_001';
 			export const FreezeInsectTavernBrawl = 'TB_Firefest2_002';
 			export const CelebrateFireFestival_FireyEnchantmentTavernBrawl = 'TB_Firefest2_003e';
@@ -3456,6 +3634,11 @@ export namespace CardIds {
 			export const GreatFatherKoboldEnchantTavernBrawl = 'TB_KoboldGiftEnch';
 			export const LargeWaxyGiftTavernBrawl = 'TB_KoboldGiftMinion';
 			export const GreatFatherKoboldSpellTavernBrawl = 'TB_KoboldGiftSpell';
+			export const AnubarakTavernBrawl = 'TB_KT_Anubarak';
+			export const SkitterTavernBrawl = 'TB_KT_AnubarakHP';
+			export const AssistantBigglesworthTavernBrawl = 'TB_KT_Bigglesworth';
+			export const FaerlinaTavernBrawl = 'TB_KT_Faerlina';
+			export const TheLichKingTavernBrawl1 = 'TB_KT_LichKing';
 			export const MassiveRunebladeTavernBrawl = 'TB_KTRAF_08w';
 			export const AnubrekhanTavernBrawl = 'TB_KTRAF_1';
 			export const NothThePlaguebringerTavernBrawl = 'TB_KTRAF_10';
@@ -5921,7 +6104,62 @@ export namespace CardIds {
 			export const FrenziedFelwing_FrenziedEnchantment = 'YOD_032e';
 			export const BoompistolBully_SmokescreenEnchantment = 'YOD_033e';
 			export const SkyGenralKragg_SharkbaitToken = 'YOD_038t';
+			export const RustswornInitiate_ImpcasterToken = 'BT_008t';
+			export const FelfinNavigator_FelfinFueledEnchantment = 'BT_010e';
+			export const LibramofJustice_JudgmentOfJusticeEnchantment = 'BT_011e';
+			export const AldorAttendant_AldorAttendantEnchantment = 'BT_020e';
+			export const AldorTruthseeker_AldorTruthseekerEnchantment = 'BT_026e';
+			export const TotemicReflection_TotemlyAwesomeEnchantment = 'BT_113e';
+			export const TeronGorefiend_ShadowyConstructEnchantment = 'BT_126e';
+			export const TeronGorefiend_VengefulSpiritEnchantment = 'BT_126e2';
+			export const Germination_MitosisEnchantment = 'BT_129e';
+			export const YsielWindsinger_YsielWindsingerEnchantment = 'BT_131e';
+			export const BonechewerRaider_WorgMountedEnchantment = 'BT_140e';
+			export const ScrapyardColossus_FelcrackedColossusToken = 'BT_155t';
+			export const TerrorguardEscapee_HuntressToken = 'BT_159t';
+			export const RustswornCultist_RustswornPactEnchantment = 'BT_160e';
+			export const RustswornCultist_RustedDevilToken = 'BT_160t';
+			export const KaynSunfury_DeathsDanceEnchantment1 = 'BT_187e';
+			export const KaynSunfury_DeathsDanceEnchantment2 = 'BT_187e2';
+			export const KelidantheBreaker_ComeCloserEnchantment = 'BT_196e';
+			export const ScrapShot_ScrapmetalClawsEnchantment = 'BT_205e';
 			export const KaelthasSunstrider_SunstriderEnchantment = 'BT_255e';
+			export const TheDarkPortal_DarkPortalEnchantment = 'BT_302e';
+			export const KanrethadEbonlocke_BlackHarvestEnchantment = 'BT_309e';
+			export const FuriousFelfin_FinnedAndFuriousEnchantment = 'BT_496e';
+			export const SkullofGuldan_EmbracePowerEnchantment = 'BT_601e';
+			export const BlackjackStunner_StunnedEnchantment = 'BT_711e';
+			export const BonechewerBrawler_BrawlingEnchantment = 'BT_715e';
+			export const BonechewerVanguard_VictoriousEnchantment = 'BT_716e';
+			export const RuststeedRaider_RideEternalEnchantment = 'BT_720e';
+			export const BlisteringRot_LivingRotToken = 'BT_721t';
+			export const EtherealAugmerchant_EtherealAugmentEnchantment = 'BT_724e';
+			export const DragonmawSkyStalker_DragonriderToken = 'BT_726t';
+			export const DisguisedWanderer_RustswornInquisitorToken = 'BT_728t';
+			export const Alar_AshesOfAlarToken = 'BT_735t';
+			export const MaievShadowsong_ImprisonedEnchantment = 'BT_737e';
+			export const Magtheridon_ImprisonedEnchantment = 'BT_850e';
+			export const Magtheridon_HellfireWarderToken = 'BT_850t';
+			export const QueenAzshara = 'Prologue_Azshara';
+			export const Warglaives = 'Prologue_AzzinothHP';
+			export const CaptainVarothen = 'Prologue_Captain';
+			export const DemonicPortal = 'Prologue_DemonicPortal';
+			export const Felhound = 'Prologue_Felhound';
+			export const RoyalGuardian = 'Prologue_Guard';
+			export const IllidanStormrageBLACK_TEMPLE = 'Prologue_Illidan_DH';
+			export const JarodShadowsong = 'Prologue_Jarod';
+			export const MightOfNature = 'Prologue_Jarod_Ench';
+			export const PriestessMaiev = 'Prologue_Maiev';
+			export const KurtalosRavencrest = 'Prologue_Ravencrest';
+			export const RavencrestLancer = 'Prologue_Ravencrest_Lancer';
+			export const Sargeras = 'Prologue_Sargeras';
+			export const DarkUnstableEnergy = 'Prologue_UnstableEnergy';
+			export const FieryUnstableEnergy = 'Prologue_UnstableEnergy2';
+			export const FelUnstableEnergy = 'Prologue_UnstableEnergy3';
+			export const HandmaidenVashj = 'Prologue_Vashj';
+			export const WitherSoul = 'Prologue_XaviusHP';
+			export const WitheredSoul = 'Prologue_XaviusHPe';
+			export const IllidanStormrageTavernBrawl1 = 'TB_HERO_ILLIDAN2';
 			export const NzothTheCorruptor = 'WE1_035';
 			export const SylvanasWindrunner = 'WE1_036';
 			export const RagnarosTheFirelordWILD_EVENT = 'WE1_037';
@@ -5975,6 +6213,8 @@ export namespace CardIds {
 			export const MasterDemonologist_DemonicFuryEnchantment = 'BGS_059e';
 			export const DrakonidEnforcer = 'BGS_067';
 			export const DrakonidEnforcer_DivinityEnchantment = 'BGS_067e';
+			export const DeflectOBot = 'BGS_071';
+			export const DeflectoBot_DeflectOShieldEnchantment = 'BGS_071e';
 			export const Baconshop1playerenchantTavernBrawl = 'TB_BaconShop_1P_PlayerE';
 			export const RefreshTavernBrawl1 = 'TB_BaconShop_1p_Reroll_Button';
 			export const _3OfkindcheckplayerenchantEnchantmentTavernBrawl = 'TB_BaconShop_3ofKindChecke';
@@ -5984,6 +6224,7 @@ export namespace CardIds {
 			export const DragToSellTavernBrawl = 'TB_BaconShop_DragSell';
 			export const EdwinVancleefTavernBrawl = 'TB_BaconShop_HERO_01';
 			export const GalakrondTavernBrawl = 'TB_BaconShop_HERO_02';
+			export const IllidanStormrageTavernBrawl2 = 'TB_BaconShop_HERO_08';
 			export const TradePrinceGallywixTavernBrawl = 'TB_BaconShop_HERO_10';
 			export const RagnarosTheFirelordTavernBrawlBATTLEGROUNDS = 'TB_BaconShop_HERO_11';
 			export const TheRatKingTavernBrawl = 'TB_BaconShop_HERO_12';
@@ -5995,7 +6236,7 @@ export namespace CardIds {
 			export const GiantfinTavernBrawl = 'TB_BaconShop_HERO_19';
 			export const ProfessorPutricideTavernBrawl = 'TB_BaconShop_HERO_20';
 			export const TheGreatAkazamzarakTavernBrawl = 'TB_BaconShop_HERO_21';
-			export const TheLichKingTavernBrawl = 'TB_BaconShop_HERO_22';
+			export const TheLichKingTavernBrawl2 = 'TB_BaconShop_HERO_22';
 			export const ShudderwockTavernBrawl1 = 'TB_BaconShop_HERO_23';
 			export const LichBazhialTavernBrawl1 = 'TB_BaconShop_HERO_25';
 			export const SindragosaTavernBrawl = 'TB_BaconShop_HERO_27';
@@ -6199,6 +6440,10 @@ export namespace CardIds {
 			export const MasterDemonologist_DemonicFuryEnchantmentTavernBrawl = 'TB_BaconUps_119e';
 			export const CobaltScalebaneTavernBrawl = 'TB_BaconUps_120';
 			export const CobaltScalebane_DragonscalesEnchantmentTavernBrawl = 'TB_BaconUps_120e';
+			export const DeflectOBotTavernBrawl = 'TB_BaconUps_123';
+			export const DeflectoBot_DeflectOShieldEnchantmentTavernBrawl = 'TB_BaconUps_123e';
+			export const FelfinNavigatorTavernBrawl = 'TB_BaconUps_124';
+			export const FelfinNavigator_FelfinFueledEnchantmentTavernBrawl = 'TB_BaconUps_124e';
 		}
 
 		export namespace Invalid {
@@ -6225,6 +6470,7 @@ export namespace CardIds {
 			export const GraveRune_GraveRuneEnchantment = 'DRG_302e';
 			export const GorutheMightree_TreePowerEnchantment = 'DRG_319e5';
 			export const GalakrondsClaw = 'DRGA_24w';
+			export const ScavengersIngenuity_PackTacticsEnchantment = 'BT_213e';
 		}
 
 		export namespace Deathknight {
@@ -6380,6 +6626,7 @@ export namespace CardIds {
 			export const AmmunaeTavernBrawl = 'TB_TempleOutrun_Ammunae';
 			export const EliseStarseekerTavernBrawl4 = 'TB_TempleOutrun_Elise';
 			export const OctosariTavernBrawl = 'TB_TempleOutrun_Octosari';
+			export const EliseOfTheWastelandTavernBrawl = 'TB_Thunderdome_Elise';
 			export const RavenIdol_BreakFree = 'LOE_115a';
 			export const RavenIdol_Awakened = 'LOE_115b';
 			export const Infest_NerubianSpores = 'OG_045a';
@@ -6637,6 +6884,19 @@ export namespace CardIds {
 			export const RisingWinds_SwoopIn = 'YOD_001c';
 			export const RisingWinds_EagleToken = 'YOD_001t';
 			export const RisingWinds_RisingWindsToken = 'YOD_001ts';
+			export const ImprisonedSatyr_ImprisonedSatyrEnchantment = 'BT_127e';
+			export const Ironbark_IronbarkEnchantment = 'BT_132e';
+			export const GlowflySwarm_GlowflyToken = 'BT_135t';
+			export const ArchsporeMsshifn_MsshifnPrimeToken = 'BT_136t';
+			export const ArchsporeMsshifn_MsshifnProtecToken = 'BT_136ta';
+			export const ArchsporeMsshifn_MsshifnAttacToken = 'BT_136tb';
+			export const ArchsporeMsshifn_FungalGuardianToken = 'BT_136tt';
+			export const ArchsporeMsshifn_FungalBruiserToken = 'BT_136tt2';
+			export const ArchsporeMsshifn_FungalGargantuanToken = 'BT_136tt3';
+			export const Cenarius = 'Prologue_Cenarius';
+			export const NaturesGrasp = 'Prologue_CenariusHP';
+			export const MoongladePortal = 'Prologue_MoongladePortal';
+			export const MalfurionStormrageTavernBrawl = 'TB_HERO_MALFURION';
 			export const AstralCommunion = 'WE1_021';
 			export const KunTheForgottenKing = 'WE1_022';
 			export const MountedRaptor = 'BGS_025';
@@ -6669,7 +6929,7 @@ export namespace CardIds {
 			export const FreezingTrap_TrappedEnchantment = 'EX1_611e';
 			export const HemetNesingwary = 'TU4d_001';
 			export const ShotgunBlast = 'TU4d_003';
-			export const IllidanStormrage = 'TU4e_001';
+			export const IllidanStormrageMissions = 'TU4e_001';
 			export const Glaivezooka_GlaivezookaEnchantment = 'GVG_043e';
 			export const KingofBeasts_TheKingEnchantment = 'GVG_046e';
 			export const MetaltoothLeaper_MetalTeethEnchantment = 'GVG_048e';
@@ -6695,7 +6955,7 @@ export namespace CardIds {
 			export const NextHeroHunterEnch = 'FB_TagTeam_Hunter_Ench';
 			export const SecondClassHunterTavernBrawl = 'TB_ClassRandom_Hunter';
 			export const DeathstalkerRexxarTavernBrawl1 = 'TB_DK_Rexxar';
-			export const IllidanStormrageTavernBrawl = 'TB_HunterPrince_IllidanH';
+			export const IllidanStormrageTavernBrawl3 = 'TB_HunterPrince_IllidanH';
 			export const BrannBronzebeardTavernBrawl2 = 'TB_LEAGUE_REVIVAL_BrannAIHero';
 			export const DinoBuddiesTavernBrawl = 'TB_LEAGUE_REVIVAL_BrannAIHp';
 			export const BrannBronzebeardTavernBrawl3 = 'TB_LEAGUE_REVIVAL_BrannHistory';
@@ -6832,7 +7092,7 @@ export namespace CardIds {
 			export const Chronoshot = 'TOT_340';
 			export const HyenaAlpha_HyenaToken = 'ULD_154t';
 			export const UnsealtheVault_RoarEnchantment = 'ULD_155e';
-			export const UnsealtheVault_RamkahenRoar = 'ULD_155p';
+			export const UnsealtheVault_PharaohsWarmask = 'ULD_155p';
 			export const DinotamerBrann_DukeToken = 'ULD_156t';
 			export const DinotamerBrann_DuchessToken = 'ULD_156t2';
 			export const DinotamerBrann_KingKrushToken = 'ULD_156t3';
@@ -6921,6 +7181,12 @@ export namespace CardIds {
 			export const WarchiefSylvanasHeroic = 'DRGA_BOSS_38h';
 			export const ForTheHorde = 'DRGA_BOSS_38p';
 			export const FreshScent_FreshScentToken = 'YOD_005ts';
+			export const NagrandSlam_ClefthoofToken = 'BT_163t';
+			export const Helboar_ScentOfBloodEnchantment = 'BT_202e';
+			export const PackTactics_PackmateEnchantment = 'BT_203e';
+			export const ZixorApexPredator_ZixorPrimeToken = 'BT_210t';
+			export const FelWhipTavernBrawl = 'TB_ReturningPlayer_HoundmastHP';
+			export const HakkarTheHoundmasterTavernBrawl = 'TB_ReturningPlayer_Houndmastr2';
 			export const LockAndLoad = 'WE1_026';
 			export const CallOfTheWild = 'WE1_027';
 			export const VenomstrikeTrapTavernBrawl = 'TB_Bacon_Secrets_01';
@@ -6969,6 +7235,7 @@ export namespace CardIds {
 			export const FireblastRank2HeroSkins3 = 'CS2_034_H3_AT_132';
 			export const Fireblast_FireblastHeroSkins4 = 'CS2_034_H4';
 			export const JainaProudmoore_CelesteHeroSkins = 'HERO_08d';
+			export const ArcaneMissiles = 'DH_Prologue_EX1_277';
 			export const ManaWyrm = 'FB_Champs_NEW1_012';
 			export const MageTavernBrawl1 = 'FB_Juggernaut_Mage';
 			export const OpponentsClassMageEnch = 'FB_Juggernaut_Mage_Ench';
@@ -7002,6 +7269,11 @@ export namespace CardIds {
 			export const ChillTavernBrawl = 'TB_Firefest2_004';
 			export const FrostbiteTavernBrawl = 'TB_Firefest2_005';
 			export const IceBlock_ImmuneTavernBrawl = 'TB_Iceblock';
+			export const ArchmageAntonidasTavernBrawl = 'TB_KT_Antonidas';
+			export const JainaProudmooreTavernBrawl = 'TB_KT_Jaina';
+			export const ArchmageKelthuzadTavernBrawl1 = 'TB_KT_KelThuzad';
+			export const ArchmageKelthuzadTavernBrawl2 = 'TB_KT_KelThuzad2';
+			export const KelthuzadTheNecromancerTavernBrawl = 'TB_KT_KelThuzad3';
 			export const RenoJacksonTavernBrawl2 = 'TB_LEAGUE_REVIVAL_RenoAIHero';
 			export const GatlingWandTavernBrawl = 'TB_LEAGUE_REVIVAL_RenoAIHp';
 			export const RenoJacksonTavernBrawl3 = 'TB_LEAGUE_REVIVAL_RenoHistory';
@@ -7015,6 +7287,7 @@ export namespace CardIds {
 			export const RenosJunkpileTavernBrawl = 'TB_RoadToNR_RenosJunk';
 			export const PrimodinoTavernBrawl = 'TB_RoadToNR_UngoroDino';
 			export const WhiteKingTavernBrawlTavernBrawl2 = 'TB_RoadToNR_WhiteKing';
+			export const MaliciousMaliceballTavernBrawl = 'TB_Starseekers_Maliceball';
 			export const ElementalSecretsTavernBrawl = 'TB_TagTeam_Mage';
 			export const NoMorePleaseTavernBrawl = 'TB_TempleOutrun_Bucket1';
 			export const IsisetTavernBrawl = 'TB_TempleOutrun_Isiset';
@@ -7030,7 +7303,7 @@ export namespace CardIds {
 			export const ArchmagesApprentice = 'KARA_00_08';
 			export const MageArmor = 'KARA_00_09';
 			export const MysteriousRune = 'KARA_00_10';
-			export const Evocation = 'KARA_00_11';
+			export const GuardianSEvocation = 'KARA_00_11';
 			export const ShadeOfAran = 'KARA_12_01';
 			export const ShadeOfAranHeroic = 'KARA_12_01H';
 			export const FlameWreath = 'KARA_12_03';
@@ -7240,6 +7513,10 @@ export namespace CardIds {
 			export const ChronomicalDistortion = 'DRGA_BOSS_36p2';
 			export const EchoOfMeToken = 'DRGA_BOSS_36t2';
 			export const WhatDoesThisDoHeroic = 'YOD_009h';
+			export const IncantersFlow_IncantersFlowEnchantment = 'BT_002e';
+			export const Evocation_EvocationEnchantment = 'BT_006e';
+			export const AstromancerSolarian_SolarianPrimeToken = 'BT_028t';
+			export const HighborneSorcerer = 'Prologue_Sorcerer';
 			export const BabblingBook = 'WE1_006';
 			export const Flamewaker = 'WE1_023';
 			export const GlyphGuardianBATTLEGROUNDS = 'BGS_045';
@@ -7490,6 +7767,12 @@ export namespace CardIds {
 			export const WillOfTheForsakenToken = 'DRGA_BOSS_23t';
 			export const WillOfTheForsakenEnchantmentToken = 'DRGA_BOSS_23te';
 			export const AirRaid_AirRaidToken = 'YOD_012ts';
+			export const ImprisonedSungill_SungillStreamrunnerToken = 'BT_009t';
+			export const LibramofJustice_OverdueJusticeToken = 'BT_011t';
+			export const MurgurMurgurgle_MurgurglePrimeToken = 'BT_019t';
+			export const LibramofHope_AncientGuardianToken = 'BT_024t';
+			export const LibramofWisdom_LightsWisdomEnchantment = 'BT_025e';
+			export const HandofAdal_HandOfAdalEnchantment = 'BT_292e';
 			export const MysteriousChallenger = 'WE1_024';
 			export const Avenge = 'WE1_025';
 			export const HolyMackerel = 'BGS_068';
@@ -7512,7 +7795,10 @@ export namespace CardIds {
 			export const PowerWordShield_PowerWordShieldEnchantment = 'CS2_004e';
 			export const DivineSpirit_DivineSpiritEnchantment = 'CS2_236e';
 			export const ShatteredSunCleric_ClericsBlessingEnchantment = 'EX1_019e';
+			export const PowerInfusion_PowerInfusionEnchantment = 'EX1_194e';
 			export const InnerFire_InnerFireEnchantment = 'CS1_129e';
+			export const KulTiranChaplain_AidedEnchantment = 'EX1_195e';
+			export const NatalieSeline_ForgottenShadowsEnchantment = 'EX1_198e';
 			export const ShadowMadness_ShadowMadnessEnchantment = 'EX1_334e';
 			export const Mindgames_ShadowOfNothingToken = 'EX1_345t';
 			export const TempleEnforcer_InfusionEnchantment = 'EX1_623e';
@@ -7714,6 +8000,13 @@ export namespace CardIds {
 			export const UnitedSrExplorersHeroic = 'DRGA_BOSS_27h';
 			export const KingAnduinHeroic = 'DRGA_BOSS_37h';
 			export const ForTheAlliance = 'DRGA_BOSS_37p';
+			export const ReliquaryofSouls_ReliquaryPrimeToken = 'BT_197t';
+			export const PsycheSplit_TwinVisionEnchantment = 'BT_253e';
+			export const DragonmawOverseer_BootedEnchantment = 'BT_256e';
+			export const Apotheosis_ApotheosisEnchantment = 'BT_257e';
+			export const DragonmawSentinel_NetherSightEnchantment = 'BT_262e';
+			export const Xavius = 'Prologue_Xavius';
+			export const TyrandeWhisperwindTavernBrawl = 'TB_HERO_Tyrande';
 			export const Lightbomb = 'WE1_030';
 			export const Voljin = 'WE1_031';
 			export const GhastcoilerBATTLEGROUNDS = 'BGS_008';
@@ -7983,6 +8276,11 @@ export namespace CardIds {
 			export const PrepareTheCannons2 = 'DRGA_BOSS_31p_H';
 			export const PrepareTheCannons3 = 'DRGA_BOSS_31p2';
 			export const Waxmancy_ForgedInWaxEnchantment = 'YOD_018e';
+			export const MokNathalLion_StalkingEnchantment = 'BT_212e';
+			export const AshtongueSlayer_GuileOfTheAshtongueEnchantment = 'BT_702e';
+			export const CursedVagrant_CursedShadowToken = 'BT_703t';
+			export const Ambush_BrokenAmbusherToken = 'BT_707t';
+			export const Akama_AkamaPrimeToken = 'BT_713t';
 			export const ShakuTheCollector = 'WE1_028';
 			export const Swashburglar = 'WE1_029';
 			export const LightfangEnforcer_BlessedEnchantment = 'BGS_009e';
@@ -8226,6 +8524,9 @@ export namespace CardIds {
 			export const Stormrage1 = 'DRGA_BOSS_20p';
 			export const Stormrage2 = 'DRGA_BOSS_20p_H';
 			export const EyeoftheStorm_StormblockerToken = 'YOD_041t';
+			export const VividSpores_GlowcappedEnchantment = 'BT_101e';
+			export const LadyVashj_VashjPrimeToken = 'BT_109t';
+			export const LadyVashj_VashjPrimeEnchantmentToken = 'BT_109te';
 			export const ThingFromBelow = 'WE1_013';
 			export const Evolve = 'WE1_014';
 		}
@@ -8259,6 +8560,7 @@ export namespace CardIds {
 			export const LifeTap_LifeTapHeroSkins1 = 'CS2_056_H1';
 			export const LifeTap_LifeTapHeroSkins2 = 'CS2_056_H2';
 			export const LifeTap_LifeTapHeroSkins3 = 'CS2_056_H3';
+			export const ShadowBolt = 'DH_Prologue_CS2_057';
 			export const SwarmingTavernBrawl = 'EVILBRM_DALA_Warlock_02';
 			export const DrawTavernBrawl3 = 'EVILBRM_DALA_Warlock_03';
 			export const InControlTavernBrawl = 'EVILBRM_DALA_Warlock_07';
@@ -8284,6 +8586,7 @@ export namespace CardIds {
 			export const BloodreaverGuldanTavernBrawl = 'TB_DK_Guldan';
 			export const NefarianTavernBrawlTavernBrawl5 = 'TB_EVILBRM_Nefarian';
 			export const RafaamTavernBrawl2 = 'TB_EVILBRM_RafaamH';
+			export const MechaJaraxxusWipTavernBrawl = 'TB_Jaraxxus_Hero';
 			export const DarkPharaohTekahnTavernBrawl = 'TB_LEAGUE_REVIVAL_TekahnAIHero';
 			export const EvilGraspTavernBrawl = 'TB_LEAGUE_REVIVAL_TekahnAIHp';
 			export const DarkWandererTavernBrawl = 'TB_SPT_DPromo_Hero';
@@ -8476,6 +8779,12 @@ export namespace CardIds {
 			export const RafaamGalakrondHeroic = 'DRGA_BOSS_33h';
 			export const RafaamGalakrondHeroic_RafaamGalakrond = 'DRGA_BOSS_33h2';
 			export const ChaosGazer_WitheringAwayEnchantment = 'YOD_027e';
+			export const EnhancedDreadlord_DesperateDreadlordToken = 'BT_304t';
+			export const ImprisonedScrapImp_ScrapWeaponsEnchantment = 'BT_305e';
+			export const ShadowCouncil_RitualSummonsEnchantment = 'BT_306e';
+			export const KanrethadEbonlocke_KanrethadPrimeToken = 'BT_309t';
+			export const Mannoroth = 'Prologue_Mannoroth';
+			export const Felstorm = 'Prologue_MannorothHP';
 			export const ImpGangBoss = 'WE1_015';
 			export const RenounceDarkness = 'WE1_032';
 			export const SoulJuggler = 'BGS_002';
@@ -8554,6 +8863,7 @@ export namespace CardIds {
 			export const UndermineTavernBrawl = 'TB_Henchmania_ChuH';
 			export const ImprovisedExplosiveTavernBrawl = 'TB_Henchmania_ChuHt';
 			export const MrChuTavernBrawl = 'TB_Henchmania_MrChu';
+			export const DrBoomMadReAnimatorTavernBrawl = 'TB_Jaraxxus_BoomHero';
 			export const ChargeEnchantmentTavernBrawl = 'TB_MP_01e';
 			export const TheCowKingTavernBrawl = 'TB_SPT_DPromo_Hero2';
 			export const VisionsOfTheAssassinTavernBrawl = 'TB_SPT_DPromoSecre8';
@@ -8778,6 +9088,9 @@ export namespace CardIds {
 			export const TheWandererHeroic_TheWanderer = 'DRGA_BOSS_30h2';
 			export const PrepareTheCannons4 = 'DRGA_BOSS_30p';
 			export const PrepareTheCannons5 = 'DRGA_BOSS_30p_H';
+			export const KargathBladefist_KargathPrimeToken = 'BT_123t';
+			export const CorsairCache_VoidSharpenedEnchantment = 'BT_124e';
+			export const Azzinoth = 'Prologue_Azzinoth';
 			export const VarianWrynn = 'WE1_033';
 			export const BloodhoofBrave = 'WE1_034';
 			export const HeraldOfFlameBATTLEGROUNDS = 'BGS_032';
@@ -8801,6 +9114,34 @@ export namespace CardIds {
 		export namespace Whizbang {
 			export const WhizbangTheWonderfulHeroic = 'BOT_914h';
 			export const ZayleShadowCloakHeroic = 'DAL_800h';
+		}
+
+		export namespace Demonhunter {
+			export const ChaosStrike_ChaosStrikeEnchantment = 'BT_035e';
+			export const CoordinatedStrike_IllidariInitiateToken = 'BT_036t';
+			export const ShadowhoofSlayer_SharpenedClawsEnchantment = 'BT_142e';
+			export const SatyrOverseer_IllidariSatyrToken = 'BT_352t';
+			export const InnerDemon_DemonPowerEnchantment = 'BT_512e';
+			export const IllidanStormrage_DemonClaws1 = 'HERO_10p';
+			export const IllidanStormrage_DemonsBite1 = 'HERO_10p_UP';
+			export const IllidanStormrage_DemonClaws2 = 'HERO_10pe';
+			export const IllidanStormrage_DemonsBite2 = 'HERO_10pe_UP';
+			export const Metamorphosis_DemonicBlast1 = 'BT_429p';
+			export const Metamorphosis_DemonicBlast2 = 'BT_429p2';
+			export const CoilfangWarlord_ConchguardWarlordToken = 'BT_761t';
+			export const ChaosNova = 'Prologue_ChaosNova';
+			export const ChaosStrike = 'Prologue_ChaosStrike';
+			export const ManaBurn = 'Prologue_ManaBurn';
+			export const WingmenTavernBrawl = 'TB_BaconShop_HP_069';
+			export const TwinSlice_TwinSliceEnchantment = 'BT_175e';
+			export const TwinSlice_SecondSliceToken = 'BT_175t';
+			export const Battlefiend_FelheartenedEnchantment = 'BT_351e';
+			export const UrzulHorror_LostSoulToken = 'BT_407t';
+			export const RagingFelscreamer_FelscreamEnchantment = 'BT_416e';
+			export const Blur_BlurEnchantment = 'BT_752e';
+			export const ManaBurn_ManaBurnedEnchantment = 'BT_753e';
+			export const IllidariFelblade_NimbleEnchantment = 'BT_814e';
+			export const Umberwing_FelwingToken = 'BT_922t';
 		}
 	}
 }
