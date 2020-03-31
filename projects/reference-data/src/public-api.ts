@@ -18,3 +18,4 @@ export * from './lib/enums/race';
 export * from './lib/enums/scenario-id';
 export * from './lib/enums/step';
 export * from './lib/enums/zone';
+export * from './lib/services/all-cards.service';
