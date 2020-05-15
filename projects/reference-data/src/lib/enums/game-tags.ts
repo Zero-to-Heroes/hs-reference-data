@@ -544,6 +544,10 @@ export enum GameTag {
 	SPAWN_TIME_COUNT = 1556,
 	SKIP_MULLIGAN = 1561,
 	COPIED_FROM_ENTITY_ID = 1565,
+	BACON_VERDANTSPHERES = 1598,
+	FORCE_NO_CUSTOM_LIFETIME_SPELLS = 1613,
+	FORCE_NO_CUSTOM_SUMMON_SPELLS = 1614,
+	FORCE_NO_CUSTOM_KEYWORD_SPELLS = 1615,
 
 	// Not sure what this is, it seems to indicate that a temporary effect (shadow madness, corruption) is active?,
 	_333 = 333,
