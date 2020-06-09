@@ -548,6 +548,10 @@ export enum GameTag {
 	FORCE_NO_CUSTOM_LIFETIME_SPELLS = 1613,
 	FORCE_NO_CUSTOM_SUMMON_SPELLS = 1614,
 	FORCE_NO_CUSTOM_KEYWORD_SPELLS = 1615,
+	REPLACEMENT_ENTITY = 1632,
+	COIN_MANA_GEM_FOR_CHOICE_CARDS = 1643,
+	METAMORPHOSIS = 1644,
+	HERO_POWER_ENTITY = 1646,
 
 	// Not sure what this is, it seems to indicate that a temporary effect (shadow madness, corruption) is active?,
 	_333 = 333,
