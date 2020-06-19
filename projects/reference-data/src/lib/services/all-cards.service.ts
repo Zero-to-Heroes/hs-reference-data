@@ -1,7 +1,7 @@
 import { ReferenceCard } from '../models/reference-cards/reference-card';
 import { http } from './utils';
 
-const CARDS_CDN_URL = 'https://static.zerotoheroes.com/hearthstone/jsoncards/cards.json?v=2';
+const CARDS_CDN_URL = 'https://static.zerotoheroes.com/hearthstone/jsoncards/cards.json?v=3';
 
 export class AllCardsService {
 	private allCards: ReferenceCard[];
@@ -23,7 +23,7 @@ export class AllCardsService {
 			console.debug('getCard', 'cards not initialized yet', id);
 			return {} as ReferenceCard;
 		}
-		const candidates = this.allCards.filter(card => card.id === id);
+		const candidates = this.allCards.filter((card) => card.id === id);
 		if (!candidates || candidates.length === 0) {
 			console.debug('Could not find card for id', id, new Error().stack);
 			return {} as ReferenceCard;
@@ -39,7 +39,7 @@ export class AllCardsService {
 			console.debug('getCardFromDbfId', 'cards not initialized yet', dbfId);
 			return {} as ReferenceCard;
 		}
-		return this.allCards.find(card => card.dbfId === dbfId);
+		return this.allCards.find((card) => card.dbfId === dbfId);
 	}
 
 	public getCardsFromDbfIds(dbfIds: number[]): ReferenceCard[] {
@@ -47,7 +47,7 @@ export class AllCardsService {
 			console.debug('getCardsFromDbfIds', 'cards not initialized yet', dbfIds);
 			return [];
 		}
-		return this.allCards.filter(card => dbfIds.indexOf(card.dbfId) !== -1);
+		return this.allCards.filter((card) => dbfIds.indexOf(card.dbfId) !== -1);
 	}
 
 	public getCards(): ReferenceCard[] {
