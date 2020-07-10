@@ -16,6 +16,7 @@ export interface ReferenceCard {
 	readonly flavor: string;
 	readonly type: string;
 	readonly mechanics: string[];
+	readonly referencedTags?: string[];
 	readonly rarity?: RarityTYpe;
 	readonly collectible?: boolean;
 	readonly race?: string;
