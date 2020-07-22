@@ -16,7 +16,7 @@ export enum Race {
 	MURLOC = 14,
 	DEMON = 15,
 	SCOURGE = 16,
-	MECHANICAL = 17,
+	MECH = 17,
 	ELEMENTAL = 18,
 	OGRE = 19,
 	BEAST = 20,
