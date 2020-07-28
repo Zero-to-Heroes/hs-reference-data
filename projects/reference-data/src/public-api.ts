@@ -5,6 +5,7 @@
 export * from './lib/card-ids';
 export * from './lib/enums/block-type';
 export * from './lib/enums/bnet-region';
+export * from './lib/enums/board';
 export * from './lib/enums/card-class';
 export * from './lib/enums/card-rarity';
 export * from './lib/enums/card-type';
