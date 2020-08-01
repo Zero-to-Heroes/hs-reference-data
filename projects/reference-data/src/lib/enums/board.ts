@@ -23,5 +23,5 @@ export enum Board {
 	ULDUM_CITY = 75,
 	DRAGONBLIGHT = 78,
 	OUTLAND = 84,
-	// SCHOLOMANCE=,
+	SCHOLOMANCE = 86,
 }

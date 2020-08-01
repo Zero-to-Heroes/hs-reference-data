@@ -558,6 +558,7 @@ export enum GameTag {
 	COIN_MANA_GEM_FOR_CHOICE_CARDS = 1643,
 	METAMORPHOSIS = 1644,
 	HERO_POWER_ENTITY = 1646,
+	DISCOVER_STUDIES_VISUAL = 1650,
 
 	// Not sure what this is, it seems to indicate that a temporary effect (shadow madness, corruption) is active?,
 	_333 = 333,
