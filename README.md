@@ -27,3 +27,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 rm -rf dist/reference-data/ && ng build reference-data && npm publish dist/reference-data/ --access public
+
+aws s3 cp projects/reference-data/src/lib/cards.json s3://static.zerotoheroes.com/hearthstone/jsoncards/ --acl public-read
