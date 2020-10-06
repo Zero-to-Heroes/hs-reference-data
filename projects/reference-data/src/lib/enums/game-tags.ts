@@ -562,6 +562,7 @@ export enum GameTag {
 	CHOICE_NAME_DISPLAY_TYPE = 1687,
 	CHOICE_ACTOR_TYPE = 1692,
 	PLAYER_ID_LOOKUP = 1740,
+	BACON_AVALANCHE = 1744,
 
 	// Not sure what this is, it seems to indicate that a temporary effect (shadow madness, corruption) is active?,
 	_333 = 333,
