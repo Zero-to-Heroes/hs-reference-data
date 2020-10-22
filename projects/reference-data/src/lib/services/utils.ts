@@ -10,18 +10,18 @@ function partitionArray<T>(array: readonly T[], partitionSize: number): readonly
 }
 
 async function http(request: string): Promise<any> {
-	return new Promise(resolve => {
+	return new Promise((resolve) => {
 		fetch(request)
 			.then(
-				response => {
+				(response) => {
 					// console.log('received response, reading text body');
 					return response.text();
 				},
-				error => {
-					console.warn('could not retrieve review', error);
+				(error) => {
+					console.warn('could not load cards', error, error.message);
 				},
 			)
-			.then(body => {
+			.then((body) => {
 				// console.log('sending back body', body && body.length);
 				resolve(body);
 			});
@@ -29,7 +29,7 @@ async function http(request: string): Promise<any> {
 }
 
 async function sleep(ms) {
-	return new Promise(resolve => setTimeout(resolve, ms));
+	return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 export { partitionArray, http, sleep };

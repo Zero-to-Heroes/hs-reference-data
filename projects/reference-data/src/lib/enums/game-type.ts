@@ -20,4 +20,6 @@ export enum GameType {
 	GT_RESERVED_18_2 = 25,
 	GT_RESERVED_18_22 = 26,
 	GT_RESERVED_18_23 = 27,
+	GT_PVPDR_PAID = 28,
+	GT_PVPDR = 29,
 }
