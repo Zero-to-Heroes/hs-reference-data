@@ -58,6 +58,8 @@ export enum ScenarioId {
 
 	BATTLEGROUNDS = 3539,
 
+	DUELS = 3466,
+
 	GALAKROND_EXPLORER_CHAP_1_FIGHT_1 = 3469, // Chap 1, Fight 1, Explorer (Finley vs Boom)
 	GALAKROND_EXPLORER_CHAP_1_FIGHT_2 = 3470, // Chap 1, Fight 2, Explorer (Khadgar vs Avalanchan)
 	GALAKROND_EXPLORER_CHAP_1_FIGHT_3 = 3471, // Chap 1, Fight 3, Explorer (Elise vs Kriziki the Wind)
