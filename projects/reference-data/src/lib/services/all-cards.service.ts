@@ -15,7 +15,7 @@ export class AllCardsService {
 
 	// We keep this synchronous because we ensure, in the game init pipeline, that loading cards
 	// is the first thing we do
-	public getCard(id: string): ReferenceCard {
+	public getCard(id: string, errorWhenUndefined = true): ReferenceCard {
 		if (this.cache[id]) {
 			return this.cache[id];
 		}
@@ -24,7 +24,7 @@ export class AllCardsService {
 			return {} as ReferenceCard;
 		}
 		const candidates = this.allCards.filter((card) => card.id === id);
-		if (!candidates || candidates.length === 0) {
+		if (errorWhenUndefined && (!candidates || candidates.length === 0)) {
 			console.debug('Could not find card for id', id, new Error().stack);
 			return {} as ReferenceCard;
 		}
@@ -39,7 +39,7 @@ export class AllCardsService {
 			console.debug('getCardFromDbfId', 'cards not initialized yet', dbfId);
 			return {} as ReferenceCard;
 		}
-		return this.allCards.find((card) => card.dbfId === dbfId);
+		return this.allCards.find((card) => card.dbfId === +dbfId);
 	}
 
 	public getCardsFromDbfIds(dbfIds: number[]): ReferenceCard[] {
