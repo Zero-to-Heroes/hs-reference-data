@@ -62,11 +62,12 @@ export class AllCardsService {
 				return;
 			}
 			this.cache = {};
-			console.debug('[all-cards] retrieving local cards');
+			console.debug('[all-cards] retrieving cards from CDN');
 			const cardsStr = await http(CARDS_CDN_URL);
 			if (!cardsStr || cardsStr.length === 0) {
 				console.error('[all-cards] could not load cards', CARDS_CDN_URL);
 			}
+			console.debug('[all-cards] retrieved all cards');
 			this.allCards = JSON.parse(cardsStr);
 			for (const card of this.allCards) {
 				if (card.id) {

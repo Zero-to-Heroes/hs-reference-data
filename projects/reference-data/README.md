@@ -1,29 +1,10 @@
-# ReferenceData
+# Copy the files to S3
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.13.
+```
+aws s3 cp ./projects/reference-data/src/lib/cards.json s3://static.zerotoheroes.com/hearthstone/jsoncards/ --acl public-read
+aws s3 cp ./projects/reference-data/src/lib/hs-achievements.json s3://static.zerotoheroes.com/hearthstone/jsoncards/ --acl public-read
+```
 
-## Code scaffolding
-
-Run `ng generate component component-name --project reference-data` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project reference-data`.
-
-> Note: Don't forget to add `--project reference-data` or else it will be added to the default project in your `angular.json` file.
-
-## Build
-
-Run `ng build reference-data` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Publishing
-
-After building your library with `ng build reference-data`, go to the dist folder `cd dist/reference-data` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test reference-data` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# Dev stuff
 
 rm -rf dist/reference-data/ && ng build reference-data && npm publish dist/reference-data/ --access public
-
-aws s3 cp ./projects/reference-data/src/lib/cards.json s3://static.zerotoheroes.com/hearthstone/jsoncards/ --acl public-read
