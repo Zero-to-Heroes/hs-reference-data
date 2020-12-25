@@ -586,6 +586,7 @@ export enum GameTag {
 	DARKMOON_TICKET = 1776,
 	NUM_SPELLS_PLAYED_THIS_GAME = 1780,
 	BACON_COMEONECOMEALL = 1789,
+	SHOW_DISCOVER_FROM_DECK = 1816,
 
 	// Not sure what this is, it seems to indicate that a temporary effect (shadow madness, corruption) is active?,
 	_333 = 333,
