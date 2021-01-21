@@ -587,6 +587,9 @@ export enum GameTag {
 	NUM_SPELLS_PLAYED_THIS_GAME = 1780,
 	BACON_COMEONECOMEALL = 1789,
 	SHOW_DISCOVER_FROM_DECK = 1816,
+	MINI_SET = 1824,
+	CANT_TRIGGER_DEATHRATTLE = 1831,
+	CANT_MOVE_MINION = 1848,
 
 	// Not sure what this is, it seems to indicate that a temporary effect (shadow madness, corruption) is active?,
 	_333 = 333,

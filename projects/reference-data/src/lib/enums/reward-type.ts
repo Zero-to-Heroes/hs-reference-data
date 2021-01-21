@@ -15,4 +15,5 @@ export enum RewardType {
 	ADVENTURE_HERO_POWER = 13,
 	ARCANE_ORBS = 14,
 	DECK = 15,
+	MINI_SET = 16,
 }

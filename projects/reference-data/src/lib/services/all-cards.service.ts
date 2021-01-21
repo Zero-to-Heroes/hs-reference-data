@@ -2,7 +2,7 @@ import { CardIds } from '../card-ids';
 import { ReferenceCard } from '../models/reference-cards/reference-card';
 import { http } from './utils';
 
-const CARDS_CDN_URL = 'https://static.zerotoheroes.com/hearthstone/jsoncards/cards.json?v=10';
+const CARDS_CDN_URL = 'https://static.zerotoheroes.com/hearthstone/jsoncards/cards.json?v=11';
 
 export class AllCardsService {
 	private allCards: ReferenceCard[];
@@ -231,6 +231,16 @@ export const getBaseCardId = (cardId: string): string => {
 			return 'DMF_730';
 		case 'DMF_526a':
 			return 'DMF_526';
+		case CardIds.NonCollectible.Druid.DreamingDrake_DreamingDrakeToken:
+			return CardIds.Collectible.Druid.DreamingDrake;
+		case CardIds.NonCollectible.Paladin.LibramofJudgment_LibramOfJudgmentToken:
+			return CardIds.Collectible.Paladin.LibramOfJudgment;
+		case CardIds.NonCollectible.Neutral.LuckysoulHoarder_LuckysoulHoarderToken:
+			return CardIds.Collectible.Neutral.LuckysoulHoarder;
+		case CardIds.NonCollectible.Neutral.NitroboostPoison_NitroboostPoisonToken:
+			return CardIds.Collectible.Neutral.NitroboostPoison;
+		// The "improve during run" cards in Duels
+
 		// Transfer Student should be handled on a case by case basis
 	}
 
