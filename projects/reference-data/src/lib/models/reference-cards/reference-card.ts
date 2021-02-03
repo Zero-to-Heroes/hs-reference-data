@@ -7,6 +7,7 @@ export interface ReferenceCard {
 	readonly name: string;
 	readonly set: string;
 	readonly playerClass: ReferencePlayerClass;
+	readonly classes?: readonly string[];
 	readonly cardClass: string;
 	readonly cost?: number;
 	readonly attack?: number;
