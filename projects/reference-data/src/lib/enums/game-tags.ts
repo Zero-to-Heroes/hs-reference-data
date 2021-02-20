@@ -590,6 +590,8 @@ export enum GameTag {
 	MINI_SET = 1824,
 	CANT_TRIGGER_DEATHRATTLE = 1831,
 	CANT_MOVE_MINION = 1848,
+	DARKMOON_FAIRE_PRIZES_ACTIVE = 1895,
+	IGNORE_DECK_RULESET = 1896,
 
 	// Not sure what this is, it seems to indicate that a temporary effect (shadow madness, corruption) is active?,
 	_333 = 333,
