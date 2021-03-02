@@ -2,7 +2,7 @@ import { CardIds } from '../card-ids';
 import { ReferenceCard } from '../models/reference-cards/reference-card';
 import { http } from './utils';
 
-const CARDS_CDN_URL = 'https://static.zerotoheroes.com/hearthstone/jsoncards/cards.json?v=11';
+const CARDS_CDN_URL = 'https://static.zerotoheroes.com/hearthstone/jsoncards/cards.json?v=12';
 
 export class AllCardsService {
 	private allCards: ReferenceCard[];
