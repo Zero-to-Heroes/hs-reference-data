@@ -2,7 +2,7 @@ import { CardIds } from '../card-ids';
 import { ReferenceCard } from '../models/reference-cards/reference-card';
 import { http } from './utils';
 
-const CARDS_CDN_URL = 'https://static.zerotoheroes.com/hearthstone/jsoncards/cards.json?v=12';
+const CARDS_CDN_URL = 'https://static.zerotoheroes.com/hearthstone/jsoncards/cards.json';
 
 export class AllCardsService {
 	private allCards: ReferenceCard[];
@@ -55,7 +55,7 @@ export class AllCardsService {
 		return this.allCards;
 	}
 
-	public async initializeCardsDb(): Promise<void> {
+	public async initializeCardsDb(version: string = ''): Promise<void> {
 		return new Promise<void>(async (resolve, reject) => {
 			if (this.allCards) {
 				// console.debug('[all-cards] already loaded all cards');
@@ -64,9 +64,9 @@ export class AllCardsService {
 			}
 			this.cache = {};
 			console.debug('[all-cards] retrieving cards from CDN');
-			const cardsStr = await http(CARDS_CDN_URL);
+			const cardsStr = await http(CARDS_CDN_URL + version);
 			if (!cardsStr || cardsStr.length === 0) {
-				console.error('[all-cards] could not load cards', CARDS_CDN_URL);
+				console.error('[all-cards] could not load cards', CARDS_CDN_URL + version);
 			}
 			console.debug('[all-cards] retrieved all cards');
 			this.allCards = JSON.parse(cardsStr);
