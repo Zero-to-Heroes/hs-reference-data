@@ -240,6 +240,37 @@ export const getBaseCardId = (cardId: string): string => {
 		case CardIds.NonCollectible.Neutral.NitroboostPoison_NitroboostPoisonToken:
 			return CardIds.Collectible.Neutral.NitroboostPoison;
 		// The "improve during run" cards in Duels
+		// Upgradable ranked spells
+		case CardIds.NonCollectible.Hunter.TameBeastRank1_TameBeastRank2Token:
+		case CardIds.NonCollectible.Hunter.TameBeastRank1_TameBeastRank3Token:
+			return CardIds.Collectible.Hunter.TameBeastRank1;
+		case CardIds.NonCollectible.Shaman.ChainLightningRank1_ChainLightningRank2Token:
+		case CardIds.NonCollectible.Shaman.ChainLightningRank1_ChainLightningRank3Token:
+			return CardIds.Collectible.Shaman.ChainLightningRank1;
+		case CardIds.NonCollectible.Mage.FlurryRank1_FlurryRank2Token:
+		case CardIds.NonCollectible.Mage.FlurryRank1_FlurryRank3Token:
+			return CardIds.Collectible.Mage.FlurryRank1;
+		case CardIds.NonCollectible.Priest.CondemnRank1_CondemnRank2Token:
+		case CardIds.NonCollectible.Priest.CondemnRank1_CondemnRank3Token:
+			return CardIds.Collectible.Priest.CondemnRank1;
+		case CardIds.NonCollectible.Rogue.WickedStabRank1_WickedStabRank2Token:
+		case CardIds.NonCollectible.Rogue.WickedStabRank1_WickedStabRank3Token:
+			return CardIds.Collectible.Rogue.WickedStabRank1;
+		case CardIds.NonCollectible.Druid.LivingSeedRank1_LivingSeedRank2Token:
+		case CardIds.NonCollectible.Druid.LivingSeedRank1_LivingSeedRank3Token:
+			return CardIds.Collectible.Druid.LivingSeedRank1;
+		case CardIds.NonCollectible.Paladin.ConvictionRank1_ConvictionRank2Token:
+		case CardIds.NonCollectible.Paladin.ConvictionRank1_ConvictionRank3Token:
+			return CardIds.Collectible.Paladin.ConvictionRank1;
+		case CardIds.NonCollectible.Warrior.ConditioningRank1_ConditioningRank2Token:
+		case CardIds.NonCollectible.Warrior.ConditioningRank1_ConditioningRank3Token:
+			return CardIds.Collectible.Warrior.ConditioningRank1;
+		case CardIds.NonCollectible.Demonhunter.FuryRank1_FuryRank2Token:
+		case CardIds.NonCollectible.Demonhunter.FuryRank1_FuryRank3Token:
+			return CardIds.Collectible.Demonhunter.FuryRank1;
+		case CardIds.NonCollectible.Warlock.ImpSwarmRank1_ImpSwarmRank2Token:
+		case CardIds.NonCollectible.Warlock.ImpSwarmRank1_ImpSwarmRank3Token:
+			return CardIds.Collectible.Warlock.ImpSwarmRank1;
 
 		// Transfer Student should be handled on a case by case basis
 	}

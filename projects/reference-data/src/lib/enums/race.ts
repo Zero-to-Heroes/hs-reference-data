@@ -27,4 +27,5 @@ export enum Race {
 	BLANK = 25,
 	ALL = 26,
 	EGG = 38,
+	QUILBOAR = 43,
 }

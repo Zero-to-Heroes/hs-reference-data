@@ -25,4 +25,5 @@ export enum Board {
 	OUTLAND = 84,
 	SCHOLOMANCE = 86,
 	DARKMOON_FAIRE = 89,
+	THE_BARRENS = 91,
 }
