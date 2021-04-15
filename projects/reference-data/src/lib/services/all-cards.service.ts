@@ -154,26 +154,21 @@ export const getBaseCardId = (cardId: string): string => {
 		case 'DAL_366t4':
 			return 'DAL_366';
 		// Galakrond
-		case 'DRG_600t2':
-			return 'DRG_600';
-		case 'DRG_600t3':
-			return 'DRG_600';
-		case 'DRG_610t2':
-			return 'DRG_610';
-		case 'DRG_610t3':
-			return 'DRG_610';
-		case 'DRG_620t2':
-			return 'DRG_620';
-		case 'DRG_620t3':
-			return 'DRG_620';
-		case 'DRG_650t2':
-			return 'DRG_650';
-		case 'DRG_650t3':
-			return 'DRG_650';
-		case 'DRG_660t2':
-			return 'DRG_660';
-		case 'DRG_660t3':
-			return 'DRG_660';
+		case CardIds.NonCollectible.Shaman.GalakrondtheTempest_GalakrondTheApocalypseToken:
+		case CardIds.NonCollectible.Shaman.GalakrondtheTempest_GalakrondAzerothsEndToken:
+			return CardIds.Collectible.Shaman.GalakrondTheTempest;
+		case CardIds.NonCollectible.Warlock.GalakrondtheWretched_GalakrondTheApocalypseToken:
+		case CardIds.NonCollectible.Warlock.GalakrondtheWretched_GalakrondAzerothsEndToken:
+			return CardIds.Collectible.Warlock.GalakrondTheWretched;
+		case CardIds.NonCollectible.Priest.GalakrondtheUnspeakable_GalakrondTheApocalypseToken:
+		case CardIds.NonCollectible.Priest.GalakrondtheUnspeakable_GalakrondAzerothsEndToken:
+			return CardIds.Collectible.Priest.GalakrondTheUnspeakable;
+		case CardIds.NonCollectible.Rogue.GalakrondtheNightmare_GalakrondTheApocalypseToken:
+		case CardIds.NonCollectible.Rogue.GalakrondtheNightmare_GalakrondAzerothsEndToken:
+			return CardIds.Collectible.Rogue.GalakrondTheNightmare;
+		case CardIds.NonCollectible.Warrior.GalakrondtheUnbreakable_GalakrondTheApocalypseToken:
+		case CardIds.NonCollectible.Warrior.GalakrondtheUnbreakable_GalakrondAzerothsEndToken:
+			return CardIds.Collectible.Warrior.GalakrondTheUnbreakable;
 		// Corrupted
 		case 'DMF_054t':
 			return 'DMF_054';
