@@ -24,4 +24,5 @@ export * from './lib/enums/scene';
 export * from './lib/enums/step';
 export * from './lib/enums/zone';
 export * from './lib/services/all-cards.service';
+export * from './lib/services/cards-info';
 export * from './lib/services/hs-utils';

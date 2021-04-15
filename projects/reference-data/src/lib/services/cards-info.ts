@@ -113,7 +113,7 @@ export const allDuelsTreasureCardIds = [
 	CardIds.NonCollectible.Neutral.SurlyMobTavernBrawl,
 	CardIds.NonCollectible.Neutral.TheExorcisorTavernBrawl,
 	CardIds.NonCollectible.Neutral.VampiricFangsToken,
-	CardIds.NonCollectible.Neutral.Worshipper,
+	CardIds.NonCollectible.Neutral.WorshipperHeroic,
 	// Actives Pool 2
 	CardIds.NonCollectible.Neutral.ArchmageStaffTavernBrawl,
 	CardIds.NonCollectible.Neutral.BookOfTheDeadTavernBrawl,
@@ -128,7 +128,7 @@ export const allDuelsTreasureCardIds = [
 	CardIds.NonCollectible.Neutral.PhaorisBladeTavernBrawl,
 	CardIds.NonCollectible.Neutral.StaffOfScales,
 	CardIds.NonCollectible.Neutral.WandOfDisintegrationTavernBrawl,
-	CardIds.NonCollectible.Neutral.LocuuuustsTavernBrawl2,
+	CardIds.NonCollectible.Neutral.LocuuuustsTavernBrawl1,
 	// Actives Ultra Rare
 	CardIds.NonCollectible.Neutral.ChaosTheoryTavernBrawl,
 	CardIds.NonCollectible.Neutral.OverpoweredTavernBrawl2,
