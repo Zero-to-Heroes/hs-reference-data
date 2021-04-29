@@ -67,9 +67,11 @@ export class AllCardsService {
 			const cardsStr = await http(CARDS_CDN_URL + version);
 			if (!cardsStr || cardsStr.length === 0) {
 				console.error('[all-cards] could not load cards', CARDS_CDN_URL + version);
+				this.allCards = [];
+			} else {
+				console.debug('[all-cards] retrieved all cards');
+				this.allCards = JSON.parse(cardsStr);
 			}
-			console.debug('[all-cards] retrieved all cards');
-			this.allCards = JSON.parse(cardsStr);
 			for (const card of this.allCards) {
 				if (card.id) {
 					this.cache[card.id] = card;
