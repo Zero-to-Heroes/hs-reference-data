@@ -21,7 +21,7 @@ export class AllCardsService {
 			return this.cache[id];
 		}
 		if (!this.allCards) {
-			console.debug('getCard', 'cards not initialized yet', id);
+			// console.debug('getCard', 'cards not initialized yet', id);
 			return {} as ReferenceCard;
 		}
 		const candidates = this.allCards.filter((card) => card.id === id);
@@ -37,7 +37,7 @@ export class AllCardsService {
 
 	public getCardFromDbfId(dbfId: number): ReferenceCard {
 		if (!this.allCards) {
-			console.debug('getCardFromDbfId', 'cards not initialized yet', dbfId);
+			// console.debug('getCardFromDbfId', 'cards not initialized yet', dbfId);
 			return {} as ReferenceCard;
 		}
 		return this.allCards.find((card) => card.dbfId === +dbfId);
@@ -45,7 +45,7 @@ export class AllCardsService {
 
 	public getCardsFromDbfIds(dbfIds: number[]): ReferenceCard[] {
 		if (!this.allCards) {
-			console.debug('getCardsFromDbfIds', 'cards not initialized yet', dbfIds);
+			// console.debug('getCardsFromDbfIds', 'cards not initialized yet', dbfIds);
 			return [];
 		}
 		return this.allCards.filter((card) => dbfIds.indexOf(card.dbfId) !== -1);
@@ -63,13 +63,13 @@ export class AllCardsService {
 				return;
 			}
 			this.cache = {};
-			console.debug('[all-cards] retrieving cards from CDN');
-			const cardsStr = await http(CARDS_CDN_URL + version);
-			if (!cardsStr || cardsStr.length === 0) {
-				console.error('[all-cards] could not load cards', CARDS_CDN_URL + version);
+			// console.debug('[all-cards] retrieving cards from CDN');
+			const cardsStr: string = await http(CARDS_CDN_URL + version);
+			if (!cardsStr || cardsStr.length === 0 || cardsStr.startsWith('<')) {
+				console.error('[all-cards] could not load cards', CARDS_CDN_URL + version, cardsStr);
 				this.allCards = [];
 			} else {
-				console.debug('[all-cards] retrieved all cards');
+				// console.debug('[all-cards] retrieved all cards');
 				this.allCards = JSON.parse(cardsStr);
 			}
 			for (const card of this.allCards) {
