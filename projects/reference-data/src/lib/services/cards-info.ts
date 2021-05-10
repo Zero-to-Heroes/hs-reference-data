@@ -125,7 +125,7 @@ export const allDuelsTreasureCardIds = [
 	CardIds.NonCollectible.Neutral.GnomishArmyKnife,
 	CardIds.NonCollectible.Neutral.BananaSplitTavernBrawl,
 	CardIds.NonCollectible.Neutral.CanopicJarsTavernBrawl1,
-	CardIds.NonCollectible.Neutral.PhaorisBladeTavernBrawl,
+	CardIds.NonCollectible.Neutral.PhaorisBladeULDUM,
 	CardIds.NonCollectible.Neutral.StaffOfScales,
 	CardIds.NonCollectible.Neutral.WandOfDisintegrationTavernBrawl,
 	CardIds.NonCollectible.Neutral.LocuuuustsTavernBrawl1,
