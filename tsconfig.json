@@ -1,26 +1,29 @@
 {
-	"compileOnSave": false,
 	"compilerOptions": {
-		"baseUrl": "./",
-		"outDir": "./dist/out-tsc",
-		"sourceMap": true,
-		"declaration": false,
-		"downlevelIteration": true,
-		"experimentalDecorators": true,
-		"module": "es2020",
-		"moduleResolution": "node",
-		"importHelpers": true,
 		"target": "es2015",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"sourceMap": true,
+		"strictNullChecks": false,
+		"removeComments": true,
+		"noImplicitAny": false,
+		"suppressImplicitAnyIndexErrors": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true,
+		"inlineSources": true,
+		"declaration": true,
+		"outDir": "./dist",
+		"lib": ["dom", "es2015"],
+		"baseUrl": ".",
 		"typeRoots": ["node_modules/@types"],
-		"lib": ["es2018", "dom"],
+		"types": ["node"],
 		"paths": {
-			"replay-parser": ["dist/replay-parser"],
-			"replay-parser/*": ["dist/replay-parser/*"]
+			"core-js/es7/reflect": ["node_modules/core-js/proposals/reflect-metadata"]
 		}
 	},
-	"angularCompilerOptions": {
-		"fullTemplateTypeCheck": true,
-		"strictInjectionParameters": true
-	},
-	"exclude": ["dist"]
+	"include": ["src"],
+	"exclude": ["node_modules/*", "test"]
 }

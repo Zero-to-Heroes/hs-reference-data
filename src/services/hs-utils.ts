@@ -1,6 +1,6 @@
-import { GameFormat } from '../../public-api';
 import { GameFormatString } from '../enums/game-format';
 import { ReferenceCard } from '../models/reference-cards/reference-card';
+import { GameFormat } from '../public-api';
 import { AllCardsService } from './all-cards.service';
 
 export const formatFormat = (format: GameFormat): GameFormatString => {

@@ -1,31 +1,14 @@
-# HsReferenceData
+# Copy the files to S3
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
+```
+aws s3 cp ./src/lib/cards.json s3://static.zerotoheroes.com/hearthstone/jsoncards/ --acl public-read
+aws s3 cp ./src/lib/hs-achievements.json s3://static.zerotoheroes.com/hearthstone/jsoncards/ --acl public-read
+aws s3 cp ./src/lib/card-backs.json s3://static.zerotoheroes.com/hearthstone/data/ --acl public-read
+aws s3 cp ./src/lib/deck-templates.json s3://static.zerotoheroes.com/hearthstone/data/ --acl public-read
+```
 
-## Development server
+Generate the card back data from the Blizzard API, eg
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Dev stuff
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-rm -rf dist/reference-data/ && ng build reference-data && npm publish dist/reference-data/ --access public
-
-aws s3 cp projects/reference-data/src/lib/cards.json s3://static.zerotoheroes.com/hearthstone/jsoncards/ --acl public-read
+rm -rf dist && tsc && rm -rf dist/node_modules && npm publish --access public
