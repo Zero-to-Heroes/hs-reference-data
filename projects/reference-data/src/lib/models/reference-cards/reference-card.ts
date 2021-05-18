@@ -24,4 +24,7 @@ export interface ReferenceCard {
 	readonly techLevel?: number;
 	readonly durability?: number;
 	readonly armor?: number;
+	readonly battlegroundsHero?: boolean;
+	readonly battlegroundsPremiumDbfId?: number;
+	readonly battlegroundsNormalDbfId?: number;
 }
