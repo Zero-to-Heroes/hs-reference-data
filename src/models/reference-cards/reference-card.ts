@@ -1,3 +1,4 @@
+import { SpellSchool } from '../../enums/spell-school';
 import { RarityTYpe } from './rarity.type';
 import { ReferencePlayerClass } from './reference-player-class';
 
@@ -29,4 +30,5 @@ export interface ReferenceCard {
 	readonly battlegroundsHero?: boolean;
 	readonly battlegroundsPremiumDbfId?: number;
 	readonly battlegroundsNormalDbfId?: number;
+	readonly spellSchool?: SpellSchool;
 }
