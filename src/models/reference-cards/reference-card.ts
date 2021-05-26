@@ -12,7 +12,9 @@ export interface ReferenceCard {
 	readonly cost?: number;
 	readonly attack?: number;
 	readonly health?: number;
-	readonly audio: any[];
+	readonly audio?: {
+		[audioKey: string]: readonly string[];
+	};
 	readonly text: string;
 	readonly flavor: string;
 	readonly type: string;
