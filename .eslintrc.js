@@ -51,6 +51,7 @@ module.exports = {
 		],
 		'@typescript-eslint/no-use-before-define': 0,
 		'@typescript-eslint/ban-ts-comment': 'off',
+		'@typescript-eslint/no-namespace': 'off',
 		'linebreak-style': 0,
 		'prettier/prettier': [
 			'error',

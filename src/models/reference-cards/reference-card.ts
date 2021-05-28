@@ -1,4 +1,3 @@
-import { SpellSchool } from '../../enums/spell-school';
 import { RarityTYpe } from './rarity.type';
 import { ReferencePlayerClass } from './reference-player-class';
 
@@ -17,6 +16,7 @@ export interface ReferenceCard {
 		[audioKey: string]: readonly string[];
 	};
 	readonly text: string;
+	readonly collectionText: string;
 	readonly flavor: string;
 	readonly type: string;
 	readonly mechanics: string[];
@@ -30,5 +30,8 @@ export interface ReferenceCard {
 	readonly battlegroundsHero?: boolean;
 	readonly battlegroundsPremiumDbfId?: number;
 	readonly battlegroundsNormalDbfId?: number;
-	readonly spellSchool?: SpellSchool;
+	// TODO: change this to use the enum later?
+	readonly spellSchool?: string;
+	readonly artist?: string;
+	readonly questRewardDbfId?: number;
 }
