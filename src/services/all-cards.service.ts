@@ -55,7 +55,7 @@ export class AllCardsService {
 		return this.allCards;
 	}
 
-	public async initializeCardsDb(version: string = ''): Promise<void> {
+	public async initializeCardsDb(version = ''): Promise<void> {
 		return new Promise<void>(async (resolve, reject) => {
 			if (this.allCards) {
 				// console.debug('[all-cards] already loaded all cards');
@@ -156,20 +156,20 @@ export const getBaseCardId = (cardId: string): string => {
 		case 'DAL_366t4':
 			return 'DAL_366';
 		// Galakrond
-		case CardIds.NonCollectible.Shaman.GalakrondtheTempest_GalakrondTheApocalypseToken:
-		case CardIds.NonCollectible.Shaman.GalakrondtheTempest_GalakrondAzerothsEndToken:
+		case CardIds.NonCollectible.Shaman.GalakrondTheTempest_GalakrondTheApocalypseToken:
+		case CardIds.NonCollectible.Shaman.GalakrondTheTempest_GalakrondAzerothsEndToken:
 			return CardIds.Collectible.Shaman.GalakrondTheTempest;
-		case CardIds.NonCollectible.Warlock.GalakrondtheWretched_GalakrondTheApocalypseToken:
-		case CardIds.NonCollectible.Warlock.GalakrondtheWretched_GalakrondAzerothsEndToken:
+		case CardIds.NonCollectible.Warlock.GalakrondTheWretched_GalakrondTheApocalypseToken:
+		case CardIds.NonCollectible.Warlock.GalakrondTheWretched_GalakrondAzerothsEndToken:
 			return CardIds.Collectible.Warlock.GalakrondTheWretched;
-		case CardIds.NonCollectible.Priest.GalakrondtheUnspeakable_GalakrondTheApocalypseToken:
-		case CardIds.NonCollectible.Priest.GalakrondtheUnspeakable_GalakrondAzerothsEndToken:
+		case CardIds.NonCollectible.Priest.GalakrondTheUnspeakable_GalakrondTheApocalypseToken:
+		case CardIds.NonCollectible.Priest.GalakrondTheUnspeakable_GalakrondAzerothsEndToken:
 			return CardIds.Collectible.Priest.GalakrondTheUnspeakable;
-		case CardIds.NonCollectible.Rogue.GalakrondtheNightmare_GalakrondTheApocalypseToken:
-		case CardIds.NonCollectible.Rogue.GalakrondtheNightmare_GalakrondAzerothsEndToken:
+		case CardIds.NonCollectible.Rogue.GalakrondTheNightmare_GalakrondTheApocalypseToken:
+		case CardIds.NonCollectible.Rogue.GalakrondTheNightmare_GalakrondAzerothsEndToken:
 			return CardIds.Collectible.Rogue.GalakrondTheNightmare;
-		case CardIds.NonCollectible.Warrior.GalakrondtheUnbreakable_GalakrondTheApocalypseToken:
-		case CardIds.NonCollectible.Warrior.GalakrondtheUnbreakable_GalakrondAzerothsEndToken:
+		case CardIds.NonCollectible.Warrior.GalakrondTheUnbreakable_GalakrondTheApocalypseToken:
+		case CardIds.NonCollectible.Warrior.GalakrondTheUnbreakable_GalakrondAzerothsEndToken:
 			return CardIds.Collectible.Warrior.GalakrondTheUnbreakable;
 		// Corrupted
 		case 'DMF_054t':
@@ -230,7 +230,7 @@ export const getBaseCardId = (cardId: string): string => {
 			return 'DMF_526';
 		case CardIds.NonCollectible.Druid.DreamingDrake_DreamingDrakeToken:
 			return CardIds.Collectible.Druid.DreamingDrake;
-		case CardIds.NonCollectible.Paladin.LibramofJudgment_LibramOfJudgmentToken:
+		case CardIds.NonCollectible.Paladin.LibramOfJudgment_LibramOfJudgmentToken:
 			return CardIds.Collectible.Paladin.LibramOfJudgment;
 		case CardIds.NonCollectible.Neutral.LuckysoulHoarder_LuckysoulHoarderToken:
 			return CardIds.Collectible.Neutral.LuckysoulHoarder;

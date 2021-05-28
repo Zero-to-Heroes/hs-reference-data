@@ -16,12 +16,7 @@ export const formatFormat = (format: GameFormat): GameFormatString => {
 };
 
 export const isBattlegroundsCard = (card: ReferenceCard): boolean => {
-	return (
-		!!card.techLevel ||
-		!!card.battlegroundsNormalDbfId ||
-		!!card.battlegroundsPremiumDbfId ||
-		card.set === 'Battlegrounds'
-	);
+	return !!card.techLevel || !!card.battlegroundsNormalDbfId || !!card.battlegroundsPremiumDbfId;
 };
 
 export const getEffectiveTechLevel = (card: ReferenceCard, allCards: AllCardsService): number => {
