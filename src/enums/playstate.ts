@@ -7,6 +7,5 @@ export enum PlayState {
 	LOST = 5,
 	TIED = 6,
 	DISCONNECTED = 7,
-	QUIT = 8,
 	CONCEDED = 8,
 }

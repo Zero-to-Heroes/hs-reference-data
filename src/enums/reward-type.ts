@@ -1,4 +1,5 @@
 export enum RewardType {
+	NONE = -1,
 	ARCANE_DUST = 0,
 	BOOSTER_PACK = 1,
 	CARD = 2,
