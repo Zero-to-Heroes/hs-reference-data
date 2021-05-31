@@ -21,6 +21,7 @@ export * from './enums/multi-class-group';
 export * from './enums/playstate';
 export * from './enums/race';
 export * from './enums/reward-type';
+export * from './enums/scenario-groups';
 export * from './enums/scenario-id';
 export * from './enums/scene';
 export * from './enums/spell-school';
