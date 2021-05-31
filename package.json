@@ -8,7 +8,8 @@
 		"test": "jest",
 		"build": "npm audit fix && webpack --env.buildEnv=prod --color",
 		"clean": "rm -rf -v dist/*",
-		"increment-version": "npm --no-git-tag-version version patch && git add . && git commit -m \"increment version\""
+		"increment-version": "npm --no-git-tag-version version patch && git add . && git commit -m \"increment version\"",
+		"publish-version": "rm -rf dist && tsc && rm -rf dist/node_modules && npm publish --access public"
 	},
 	"repository": {},
 	"author": "",
