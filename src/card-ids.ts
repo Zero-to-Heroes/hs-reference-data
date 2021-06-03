@@ -1214,6 +1214,11 @@ export namespace CardIds {
 			export const StampedingKodoVanilla = 'VAN_NEW1_041';
 			export const EliteTaurenChieftainVanilla = 'VAN_PRO_001';
 			export const FlesheatingGhoulVanilla = 'VAN_tt_004';
+			export const DevouringEctoplasm = 'WC_027';
+			export const MeetingStone = 'WC_028';
+			export const SelflessSidekick = 'WC_029';
+			export const MutanusTheDevourer1 = 'WC_030';
+			export const ArchdruidNaralex = 'WC_035';
 			export const EscapedManasaber = 'YOD_006';
 			export const SkydivingInstructor = 'YOD_028';
 			export const Hailbringer = 'YOD_029';
@@ -1259,7 +1264,7 @@ export namespace CardIds {
 			export const CelestialAlignment = 'BAR_539';
 			export const PlaguemawTheRotting1 = 'BAR_540';
 			export const MarkOfTheSpikeshell = 'BAR_549';
-			export const GuffRunetotem = 'BAR_720';
+			export const GuffRunetotem1 = 'BAR_720';
 			export const BiologyProject = 'BOT_054';
 			export const JuicyPsychmelon = 'BOT_404';
 			export const Dendrologist = 'BOT_419';
@@ -1388,6 +1393,7 @@ export namespace CardIds {
 			export const MalfurionStormrage_CenarionMalfurionHeroSkins = 'HERO_06e';
 			export const MalfurionStormrage_HamuulRunetotemHeroSkins = 'HERO_06f';
 			export const MalfurionStormrage_StormsRageMalfurionHeroSkins = 'HERO_06g';
+			export const MalfurionStormrage_EmeraldMalfurionHeroSkins = 'HERO_06i';
 			export const Fatespinner = 'ICC_047';
 			export const Webweave = 'ICC_050';
 			export const DruidOfTheSwarm = 'ICC_051';
@@ -1489,6 +1495,9 @@ export namespace CardIds {
 			export const SavageryVanilla = 'VAN_EX1_578';
 			export const StarfallVanilla = 'VAN_NEW1_007';
 			export const AncientOfLoreVanilla = 'VAN_NEW1_008';
+			export const FangboundDruid = 'WC_004';
+			export const LadyAnacondra1 = 'WC_006';
+			export const DeviateDreadfang = 'WC_036';
 			export const RisingWinds = 'YOD_001';
 			export const WingedGuardian = 'YOD_003';
 			export const SteelBeetle = 'YOD_040';
@@ -1515,7 +1524,7 @@ export namespace CardIds {
 			export const KolkarPackRunner = 'BAR_035';
 			export const WarsongWrangler = 'BAR_037';
 			export const TavishStormpike = 'BAR_038';
-			export const BarakKodobane = 'BAR_551';
+			export const BarakKodobane1 = 'BAR_551';
 			export const WoundPrey = 'BAR_801';
 			export const BombToss = 'BOT_033';
 			export const BoommasterFlark = 'BOT_034';
@@ -1746,6 +1755,9 @@ export namespace CardIds {
 			export const FreezingTrapVanilla = 'VAN_EX1_611';
 			export const DeadlyShotVanilla = 'VAN_EX1_617';
 			export const AnimalCompanionVanilla = 'VAN_NEW1_031';
+			export const Serpentbloom = 'WC_007';
+			export const SindoreiScentfinder = 'WC_008';
+			export const VenomstrikeBow = 'WC_037';
 			export const ChopshopCopter = 'YOD_004';
 			export const FreshScent1 = 'YOD_005';
 			export const RotnestDrake = 'YOD_036';
@@ -2002,6 +2014,9 @@ export namespace CardIds {
 			export const KirinTorMageVanilla = 'VAN_EX1_612';
 			export const ManaWyrmVanilla = 'VAN_NEW1_012';
 			export const SpellbenderVanilla = 'VAN_tt_010';
+			export const ShatteringBlast = 'WC_041';
+			export const FrostweaveDungeoneer = 'WC_805';
+			export const Floecaster = 'WC_806';
 			export const AnimatedAvalanche = 'YOD_007';
 			export const ArcaneAmplifier = 'YOD_008';
 			export const TheAmazingReno1 = 'YOD_009';
@@ -2026,7 +2041,7 @@ export namespace CardIds {
 			export const SwordOfTheFallen = 'BAR_875';
 			export const NorthwatchCommander = 'BAR_876';
 			export const VeteranWarmedic = 'BAR_878';
-			export const CannonmasterSmythe = 'BAR_879';
+			export const CannonmasterSmythe1 = 'BAR_879';
 			export const ConvictionRank1 = 'BAR_880';
 			export const InvigoratingSermon = 'BAR_881';
 			export const CarielRoame = 'BAR_902';
@@ -2161,7 +2176,7 @@ export namespace CardIds {
 			export const UtherLightbringer_HorsemanUtherHeroSkins = 'HERO_04f';
 			export const UtherLightbringer_UtherLawbringerHeroSkins = 'HERO_04g';
 			export const UtherLightbringer_GuanYuUtherHeroSkins = 'HERO_04h';
-			export const UtherLightbringer_JudgementUtherHeroSkins = 'HERO_04i';
+			export const UtherLightbringer_JudgmentUtherHeroSkins = 'HERO_04i';
 			export const ArrogantCrusader = 'ICC_034';
 			export const RighteousProtector = 'ICC_038';
 			export const DarkConviction = 'ICC_039';
@@ -2266,6 +2281,9 @@ export namespace CardIds {
 			export const TirionFordringVanilla = 'VAN_EX1_383';
 			export const AvengingWrathVanilla = 'VAN_EX1_384';
 			export const EqualityVanilla = 'VAN_EX1_619';
+			export const SeedcloudBuckler = 'WC_032';
+			export const JudgmentOfJustice = 'WC_033';
+			export const PartyUp = 'WC_034';
 			export const Shotbot = 'YOD_010';
 			export const AirRaid1 = 'YOD_012';
 			export const Scalelord = 'YOD_043';
@@ -2533,6 +2551,9 @@ export namespace CardIds {
 			export const HolyFireVanilla = 'VAN_EX1_624';
 			export const ShadowformVanilla = 'VAN_EX1_625';
 			export const MassDispelVanilla = 'VAN_EX1_626';
+			export const DevoutDungeoneer = 'WC_013';
+			export const AgainstAllOdds = 'WC_014';
+			export const ClericOfAnshe = 'WC_803';
 			export const ClericOfScales = 'YOD_013';
 			export const AeonReaver = 'YOD_014';
 			export const DarkProphecy = 'YOD_015';
@@ -2787,6 +2808,9 @@ export namespace CardIds {
 			export const VanishVanilla = 'VAN_NEW1_004';
 			export const KidnapperVanilla = 'VAN_NEW1_005';
 			export const MasterOfDisguiseVanilla = 'VAN_NEW1_014';
+			export const WaterMoccasin = 'WC_015';
+			export const ShroudOfConcealment = 'WC_016';
+			export const SavoryDeviateDelight = 'WC_017';
 			export const Skyvateer = 'YOD_016';
 			export const ShadowSculptor = 'YOD_017';
 			export const Waxmancy = 'YOD_018';
@@ -3044,6 +3068,9 @@ export namespace CardIds {
 			export const ManaTideTotemVanilla = 'VAN_EX1_575';
 			export const WindspeakerVanilla = 'VAN_EX1_587';
 			export const AlakirTheWindlordVanilla = 'VAN_NEW1_010';
+			export const PrimalDungeoneer = 'WC_005';
+			export const PerpetualFlame = 'WC_020';
+			export const WailingVapor = 'WC_042';
 			export const ExplosiveEvolution = 'YOD_020';
 			export const EyeOfTheStorm = 'YOD_041';
 			export const TheFistOfRaDen = 'YOD_042';
@@ -3302,6 +3329,9 @@ export namespace CardIds {
 			export const LordJaraxxusVanilla = 'VAN_EX1_323';
 			export const DemonfireVanilla = 'VAN_EX1_596';
 			export const SacrificialPactVanilla = 'VAN_NEW1_003';
+			export const UnstableShadowBlast = 'WC_021';
+			export const FinalGasp = 'WC_022';
+			export const StealerOfSouls = 'WC_023';
 			export const TwistedKnowledge = 'YOD_025';
 			export const FiendishServant = 'YOD_026';
 			export const ChaosGazer = 'YOD_027';
@@ -3559,6 +3589,9 @@ export namespace CardIds {
 			export const InnerRageVanilla = 'VAN_EX1_607';
 			export const KorkronEliteVanilla = 'VAN_NEW1_011';
 			export const CommandingShoutVanilla = 'VAN_NEW1_036';
+			export const ManAtArms = 'WC_024';
+			export const WhetstoneHatchet = 'WC_025';
+			export const KreshLordOfTurtling = 'WC_026';
 			export const RiskySkipper = 'YOD_022';
 			export const BoomSquad = 'YOD_023';
 			export const BombWrangler = 'YOD_024';
@@ -3676,6 +3709,9 @@ export namespace CardIds {
 			export const BloodHerald = 'SCH_618';
 			export const SoulshardLapidary = 'SCH_704';
 			export const VilefiendTrainer = 'SCH_705';
+			export const SigilOfSummoning = 'WC_003';
+			export const TaintheartTormenter = 'WC_040';
+			export const Felrattler = 'WC_701';
 			export const IllidariStudies = 'YOP_001';
 			export const Felsaber = 'YOP_002';
 		}
@@ -3937,6 +3973,10 @@ export namespace CardIds {
 			export const DynamicDuoBattlegrounds = 'BG20_207_G';
 			export const DynamicDuo_BoarsFavorEnchantment2 = 'BG20_207_Ge';
 			export const DynamicDuo_BoarsFavorEnchantment1 = 'BG20_207e';
+			export const HexruinMarauder = 'BG20_210';
+			export const HexruinMarauderBattlegrounds = 'BG20_210_G';
+			export const HexruinMarauder_HexruinFuryEnchantment = 'BG20_210_Ge';
+			export const HexruinMarauder_HexruinStrengthEnchantment = 'BG20_210e';
 			export const SunBaconRelaxer = 'BG20_301';
 			export const SunBaconRelaxerBattlegrounds = 'BG20_301_G';
 			export const AggemThorncurse = 'BG20_302';
@@ -3964,6 +4004,10 @@ export namespace CardIds {
 			export const Voljin_SpiritSwap2 = 'BG20_HERO_201p2';
 			export const SpiritSwap_SpiritSwappedEnchantment = 'BG20_HERO_201p2e';
 			export const MarkedForSwapEnchantment = 'BG20_HERO_201p3e';
+			export const NaturalBalance_GuffsBuffEnchantment = 'BG20_HERO_242pe';
+			export const MutanusTheDevourer2 = 'BG20_HERO_301';
+			export const MutanusTheDevourer_Devour = 'BG20_HERO_301p';
+			export const Devour_SpatUponEnchantment = 'BG20_HERO_301pe';
 			export const NathrezimOverseer = 'BGS_001';
 			export const NathrezimOverseer_ImpishEnchantment = 'BGS_001e';
 			export const WrathWeaver = 'BGS_004';
@@ -4149,6 +4193,12 @@ export namespace CardIds {
 			export const EarthenTentacleToken = 'BOM_02_EarthenTentacle_07t';
 			export const FrostbittenTentacleToken = 'BOM_02_FrostbittenTentacle_07t';
 			export const MysticalTentacleToken = 'BOM_02_MysticalTentacle_07t';
+			export const DeviateNightmareToken = 'BOM_03_DeviateNightmare_06t';
+			export const BubblingFissureToken1 = 'BOM_03_FirstFissure_02t';
+			export const Devour_DevouredEnchantment = 'BOM_03_Mutanus_07pe1';
+			export const BubblingFissureToken2 = 'BOM_03_SecondFissure_02t';
+			export const BubblingFissureToken3 = 'BOM_03_ThirdFissure_02t';
+			export const ThunderBluffToken = 'BOM_03_ThunderBluff_01t';
 			export const SpudME = 'BOTA_101';
 			export const BatteryPack = 'BOTA_102';
 			export const UndercoverReporter = 'BOTA_200';
@@ -6558,7 +6608,7 @@ export namespace CardIds {
 			export const SearingLash = 'LOOTA_BOSS_30p';
 			export const Charrrrrge = 'LOOTA_BOSS_31p';
 			export const MetabolizedMagic = 'LOOTA_BOSS_33p';
-			export const Devour = 'LOOTA_BOSS_34p';
+			export const Devour1 = 'LOOTA_BOSS_34p';
 			export const DampenMagic = 'LOOTA_BOSS_35p';
 			export const SproutingSpore = 'LOOTA_BOSS_36p';
 			export const ArcaneInfusion = 'LOOTA_BOSS_37p';
@@ -6826,6 +6876,7 @@ export namespace CardIds {
 			export const CrazedWorshipper_PowerOfFaithEnchantment = 'OG_321e';
 			export const CyclopianHorror_EveOfDestructionEnchantment = 'OG_337e';
 			export const SkeramCultist_VassalsSubservienceEnchantment = 'OG_339e';
+			export const RasiedEnchantment = 'OM_02_Xyrella_01p2e';
 			export const ArmorPlating = 'PART_001';
 			export const ArmorPlating_ArmorPlatingEnchantment = 'PART_001e';
 			export const TimeRewinder = 'PART_002';
@@ -7374,7 +7425,8 @@ export namespace CardIds {
 			export const Planting_PlantingEnchantment = 'Story_08_Plantinge';
 			export const PriestessMaiev2 = 'Story_08_PriestessMaiev';
 			export const PriestessMaievToken = 'Story_08_PriestessMaievDormant';
-			export const FirelordsRage = 'Story_08_Ragnaros_007p';
+			export const PriestessMaiev3 = 'Story_08_PriestessMaievFake';
+			export const VarokSaurfang5 = 'Story_08_Saurfang';
 			export const SurvivalOfTheHorde_SurvivingEnchantment = 'Story_08_Saurfang_008pe';
 			export const SentinelHuntress = 'Story_08_SentinelHuntress';
 			export const FiredUpEnchantment = 'Story_08_SonofFlamee';
@@ -7451,6 +7503,7 @@ export namespace CardIds {
 			export const _3ofkindcheckplayerenchantEnchantmentBattlegrounds = 'TB_BaconShop_3ofKindChecke';
 			export const Baconshop8playerenchantEnchantmentBattlegrounds = 'TB_BaconShop_8P_PlayerE';
 			export const RefreshBattlegrounds1 = 'TB_BaconShop_8p_Reroll_Button';
+			export const CheckTriplesBattlegrounds = 'TB_BaconShop_CheckTriples';
 			export const DragToBuyBattlegrounds = 'TB_BaconShop_DragBuy';
 			export const DragToSellBattlegrounds = 'TB_BaconShop_DragSell';
 			export const EdwinVancleefBattlegrounds = 'TB_BaconShop_HERO_01';
@@ -7628,7 +7681,6 @@ export namespace CardIds {
 			export const PrizeWallBattlegrounds = 'TB_BaconShop_HP_106';
 			export const SproutItOutBattlegrounds = 'TB_BaconShop_HP_107';
 			export const SproutItOut_SproutItOutEnchantmentBattlegrounds = 'TB_BaconShop_HP_107e';
-			export const MoshinEnchantmentBattlegrounds = 'TB_BaconShop_HP_108e';
 			export const IncreasedStatsForTripleEnchantmentBattlegrounds = 'TB_BaconShop_IncreasedStats';
 			export const TripleRewardBattlegrounds = 'TB_BaconShop_Triples_01';
 			export const MecharooBattlegrounds = 'TB_BaconUps_002';
@@ -8784,9 +8836,24 @@ export namespace CardIds {
 			export const VioletTeacher_VioletApprenticeVanillaToken = 'VAN_NEW1_026t';
 			export const SouthseaCaptain_YarrrVanillaEnchantment = 'VAN_NEW1_027e';
 			export const MillhouseManastorm_LiveMillhouseLegacyEnchantment = 'VAN_NEW1_029e';
+			export const EliteTaurenChieftain_PowerOfTheHordeVanilla = 'VAN_PRO_001c';
 			export const FlameOfAzzinothVanillaToken = 'VAN_TU4e_002t';
 			export const SkeletonVanilla = 'VAN_skele11';
 			export const DamagedGolemVanilla = 'VAN_skele21';
+			export const DevoutDungeoneer_RayOfLightEnchantment = 'WC_013e';
+			export const StealerOfSouls_StolenSoulEnchantment = 'WC_023e';
+			export const MutanusTheDevourer_DevouredEnchantment = 'WC_030e';
+			export const PartyUp_DeadlyAdventurerToken = 'WC_034t';
+			export const PartyUp_BurlyAdventurerToken = 'WC_034t2';
+			export const PartyUp_DevoutAdventurerToken = 'WC_034t3';
+			export const PartyUp_RelentlessAdventurerToken = 'WC_034t4';
+			export const PartyUp_ArcaneAdventurerToken = 'WC_034t5';
+			export const PartyUp_SneakyAdventurerToken = 'WC_034t6';
+			export const PartyUp_VitalAdventurerToken = 'WC_034t7';
+			export const PartyUp_SwiftAdventurerToken = 'WC_034t8';
+			export const ArchdruidNaralex_DreamingEnchantment = 'WC_035e';
+			export const ArchdruidNaralex_AsleepEnchantment = 'WC_035e2';
+			export const TaintheartTormenter_TormentedEnchantment = 'WC_040e';
 			export const NzothTheCorruptor2 = 'WE1_035';
 			export const SylvanasWindrunner1 = 'WE1_036';
 			export const RagnarosTheFirelord2 = 'WE1_037';
@@ -8844,6 +8911,8 @@ export namespace CardIds {
 			export const MarkOfTheSpikeshell_EverbarkEnchantment = 'BAR_549e';
 			export const GuffRunetotem_GuffsBuffEnchantment = 'BAR_720e';
 			export const NaturesChampionLegacy = 'BCON_008';
+			export const GuffRunetotem2 = 'BG20_HERO_242';
+			export const GuffRunetotem_NaturalBalance = 'BG20_HERO_242p';
 			export const MountedRaptor2 = 'BGS_025';
 			export const GuffToken = 'BOM_01_Guff_02t';
 			export const Guff1 = 'BOM_01_Guff_03p2';
@@ -8857,6 +8926,35 @@ export namespace CardIds {
 			export const Guff4 = 'BOM_01_Guff_07p2';
 			export const Guff_GuffsAffinityEnchantment4 = 'BOM_01_Guff_07p2e';
 			export const RezTheRoof = 'BOM_01_Plaguemaw_03p';
+			export const AnAngryTreant = 'BOM_03_AngryTreant_001hb';
+			export const NaturesGrasp2 = 'BOM_03_AngryTreant_01p';
+			export const BabyKodoToken = 'BOM_03_BabyKodo_01t';
+			export const GuffTrips = 'BOM_03_GuffTrips_01s';
+			export const GuffTrips_TrippedEnchantment = 'BOM_03_GuffTrips_01se1';
+			export const Guff6 = 'BOM_03_Guff_001hp';
+			export const Guff7 = 'BOM_03_Guff_002hp';
+			export const Guff8 = 'BOM_03_Guff_003hp';
+			export const Guff9 = 'BOM_03_Guff_004hp';
+			export const Guff10 = 'BOM_03_Guff_005hp';
+			export const Guff11 = 'BOM_03_Guff_006hp';
+			export const Guff12 = 'BOM_03_Guff_007hp';
+			export const Guff13 = 'BOM_03_Guff_008hp';
+			export const GuffsBuffs1 = 'BOM_03_Guff_01p';
+			export const GuffsBuffs_BuffRunetotemEnchantment1 = 'BOM_03_Guff_01pe';
+			export const AskForHelp6 = 'BOM_03_Guff_02p';
+			export const AskForHelp7 = 'BOM_03_Guff_03p';
+			export const AskForHelp8 = 'BOM_03_Guff_04p';
+			export const AskForHelp9 = 'BOM_03_Guff_05p';
+			export const AskForHelp10 = 'BOM_03_Guff_06p';
+			export const AskForHelp11 = 'BOM_03_Guff_07p';
+			export const GuffsBuffs2 = 'BOM_03_Guff_08p';
+			export const GuffsBuffs_BuffRunetotemEnchantment2 = 'BOM_03_Guff_08pe';
+			export const HamuulRunetotemToken2 = 'BOM_03_Hamuul_01t';
+			export const ThePowerOfLove = 'BOM_03_PowerOfLove_08s';
+			export const ThePowerOfLove_PowerOfLoveEnchantment = 'BOM_03_PowerOfLove_08se1';
+			export const RestAndRelaxation = 'BOM_03_RestAndRelaxation_03s';
+			export const SuddenlySnapjaw = 'BOM_03_Snapjaw_04s';
+			export const LilSnapjawToken = 'BOM_03_Snapjaw_04t';
 			export const Contamination1 = 'BOTA_241';
 			export const Contamination_ContaminatedEnchantment = 'BOTA_241e';
 			export const TendingTauren_OldGrowth = 'BOT_422a';
@@ -9136,7 +9234,7 @@ export namespace CardIds {
 			export const HarvestTimeTavernBrawl = 'PVPDR_YOP_DruidP1';
 			export const AwakenedAncientTavernBrawl = 'PVPDR_YOP_DruidT1';
 			export const Cenarius1 = 'Prologue_Cenarius';
-			export const NaturesGrasp = 'Prologue_CenariusHP';
+			export const NaturesGrasp1 = 'Prologue_CenariusHP';
 			export const MoongladePortal2 = 'Prologue_MoongladePortal';
 			export const SpeakerGidra_OutspokenEnchantment = 'SCH_182e';
 			export const NatureStudies_NatureStudiesEnchantment = 'SCH_333e';
@@ -9167,10 +9265,10 @@ export namespace CardIds {
 			export const Fertilize = 'Story_08_Fertilize';
 			export const ForestOwl = 'Story_08_ForestOwl';
 			export const HamuulRunetotem = 'Story_08_Hamuul';
-			export const HamuulRunetotemToken = 'Story_08_HamuulDormant';
-			export const Malfurion9 = 'Story_08_MalfurionBear';
+			export const HamuulRunetotemToken1 = 'Story_08_HamuulDormant';
+			export const BearForm = 'Story_08_MalfurionBear';
 			export const FeralStrength = 'Story_08_MalfurionBear_001p';
-			export const MalfurionToken = 'Story_08_MalfurionCat';
+			export const CatFormToken = 'Story_08_MalfurionCat';
 			export const FeralFrenzy = 'Story_08_MalfurionCat_001p';
 			export const Malfurion1 = 'Story_08_Malfurion_001hp';
 			export const Malfurion2 = 'Story_08_Malfurion_002hp';
@@ -9189,7 +9287,6 @@ export namespace CardIds {
 			export const NatureStudies2 = 'Story_08_NatureStudies';
 			export const Planting = 'Story_08_Planting';
 			export const Powershifting = 'Story_08_Powershifting';
-			export const VarokSaurfang4 = 'Story_08_Saurfang_008h2';
 			export const StormRage = 'Story_08_StormRage';
 			export const WayOfTheArchdruid = 'Story_08_WayofArchdruid';
 			export const Weeding = 'Story_08_Weeding';
@@ -9377,6 +9474,9 @@ export namespace CardIds {
 			export const Starfall_StarlordVanilla = 'VAN_NEW1_007b';
 			export const AncientOfLore_AncientTeachingsVanilla = 'VAN_NEW1_008a';
 			export const AncientOfLore_AncientSecretsVanilla = 'VAN_NEW1_008b';
+			export const FangboundDruid_NightmareTrappedEnchantmentToken = 'WC_004t';
+			export const LadyAnacondra_NaturalEmpowermentEnchantment = 'WC_006e';
+			export const DeviateDreadfang_DeviateViperToken = 'WC_036t1';
 			export const AstralCommunion2 = 'WE1_021';
 			export const KunTheForgottenKing2 = 'WE1_022';
 			export const RisingWinds_TakeFlight = 'YOD_001b';
@@ -9417,6 +9517,8 @@ export namespace CardIds {
 			export const TavishsLoot = 'BOM_02_TavishsLoot_01s';
 			export const ThreeCoins = 'BOM_02_ThreeCoins_01s';
 			export const TwoCoins = 'BOM_02_TwoCoins_01s';
+			export const BarakKodobane2 = 'BOM_03_Barak_003hb';
+			export const KolkarMight = 'BOM_03_Barak_03p';
 			export const FireworksTech_PrimedEnchantment = 'BOT_038e';
 			export const SpiderBomb_SpiderBombEnchantment = 'BOT_251e';
 			export const CybertechChip_ChippedEnchantment = 'BOT_438e';
@@ -9798,6 +9900,7 @@ export namespace CardIds {
 			export const MishaVanilla = 'VAN_NEW1_032';
 			export const LeokkVanilla = 'VAN_NEW1_033';
 			export const HufferVanilla = 'VAN_NEW1_034';
+			export const Serpentbloom_SerpentsBiteEnchantment = 'WC_007e';
 			export const LockAndLoad2 = 'WE1_026';
 			export const CallOfTheWild2 = 'WE1_027';
 			export const FreshScent2 = 'YOD_005ts';
@@ -9819,7 +9922,11 @@ export namespace CardIds {
 			export const Dawngrasp2 = 'BOM_01_Dawngrasp_06p4';
 			export const Dawngrasp3 = 'BOM_01_Dawngrasp_07p4';
 			export const _0ct0Bot = 'BOM_02_Octobot_007hb';
-			export const EightLeggedFreak = 'BOM_02_Octobot_07p';
+			export const EightArmedFreak = 'BOM_02_Octobot_07p';
+			export const Dawngrasp4 = 'BOM_03_Dawngrasp_02p';
+			export const DawngraspToken = 'BOM_03_Dawngrasp_08t';
+			export const Vapos = 'BOM_03_Vapos_002hb';
+			export const Elementary = 'BOM_03_Vapos_02p';
 			export const LunasPocketGalaxy_StarstruckEnchantment = 'BOT_257e';
 			export const CelestialEmissary_CelestialPowerEnchantment1 = 'BOT_531e';
 			export const CelestialEmissary_CelestialPowerEnchantment2 = 'BOT_531e2';
@@ -10252,6 +10359,11 @@ export namespace CardIds {
 			export const EngineerWhirleygig = 'BOM_02_Whirleygig_004hb';
 			export const OnTheLoose = 'BOM_02_Whirleygig_04p';
 			export const OnTheLoose_OnTheLooseEnchantment = 'BOM_02_Whirleygig_04pe';
+			export const APartyOfAdventurers = 'BOM_03_Party_005hb';
+			export const HelpWanted = 'BOM_03_Party_05p';
+			export const CannonmasterSmythe2 = 'BOM_03_Smythe_004hb';
+			export const ToYourStations = 'BOM_03_Smythe_04p';
+			export const NorthwatchSoldierToken = 'BOM_03_Soldier_04t';
 			export const PrismaticLens_SwappedCostEnchantment = 'BOT_436e';
 			export const MechanoEgg_RobosaurToken = 'BOT_537t';
 			export const GlowstoneTechnician_LightInfusedEnchantment = 'BOT_910e';
@@ -10591,6 +10703,7 @@ export namespace CardIds {
 			export const NobleSacrifice_DefenderVanilla = 'VAN_EX1_130a';
 			export const ReinforceVanilla = 'VAN_HERO_04bp';
 			export const TheSilverHandVanilla = 'VAN_HERO_04bp2';
+			export const JudgmentOfJustice_JudgedEnchantment = 'WC_033e';
 			export const MysteriousChallenger2 = 'WE1_024';
 			export const Avenge3 = 'WE1_025';
 			export const AirRaid2 = 'YOD_012ts';
@@ -10610,6 +10723,7 @@ export namespace CardIds {
 			export const Ghastcoiler2 = 'BGS_008';
 			export const BabyElekkToken = 'BOM_02_BabyElekk_02t';
 			export const GaronaHalforcen4 = 'BOM_02_Garona_008hb';
+			export const NaaruShardToken = 'BOM_02_NaaruShard_06t';
 			export const SerenaBloodfeather2 = 'BOM_02_Serena_002hb';
 			export const ShadowWing = 'BOM_02_Serena_02p';
 			export const Xyrella3 = 'BOM_02_Xyrella_001hp';
@@ -10626,6 +10740,7 @@ export namespace CardIds {
 			export const Resurrect2 = 'BOM_02_Xyrella_01p2';
 			export const AMothersVow = 'BOM_02_XyrellasPrayer_01s';
 			export const XyrellasPrayer = 'BOM_02_XyrellasPrayer_06s';
+			export const VoidShardToken = 'BOM_03_VoidShard_07t';
 			export const ExtraArms_ArmedEnchantment = 'BOT_219e';
 			export const ExtraArms_MoreArmsToken = 'BOT_219t';
 			export const MoreArms_MoreArmedEnchantment = 'BOT_219te';
@@ -10951,6 +11066,9 @@ export namespace CardIds {
 			export const ScabbsToken = 'BOM_02_Scabbs_06t';
 			export const TrixieSprockets = 'BOM_02_Trixie_005hb';
 			export const Bullseye = 'BOM_02_Trixie_05p';
+			export const LadyAnacondra2 = 'BOM_03_Anacondra_006hb';
+			export const SerpentsBite = 'BOM_03_Anacondra_06p';
+			export const SerpentsBite_DrippingFangsEnchantment = 'BOM_03_Anacondra_06pe';
 			export const AcademicEspionage_AcademicEspionageEnchantment = 'BOT_087e';
 			export const MyraRotspring_NecroalchemyEnchantment = 'BOT_243e';
 			export const PogoHopper_KineticEnergyEnchantment = 'BOT_283e';
@@ -11200,6 +11318,7 @@ export namespace CardIds {
 			export const FanOfKnivesRank2 = 'Story_06_Valeera_08p';
 			export const BristlingWyvern = 'Story_06_Wyvern';
 			export const AedalasBlackmoore = 'Story_07_Blackmoore_001hb';
+			export const UndercityHuckster3 = 'Story_08_UndercityHuckster';
 			export const BaduuPrimeTavernBrawl = 'TB_BBR3_BOSS_06';
 			export const BaduuPrime_CorruptedByRustTavernBrawl = 'TB_BBR3_BOSS_06p';
 			export const SmartSavingsBattlegrounds = 'TB_BaconShop_HP_008';
@@ -11323,6 +11442,8 @@ export namespace CardIds {
 			export const Preparation_PreparationVanillaEnchantment1 = 'VAN_EX1_145o';
 			export const DaggerMasteryVanilla = 'VAN_HERO_03bp';
 			export const PoisonedDaggersVanilla = 'VAN_HERO_03bp2';
+			export const ShroudOfConcealment_CloakingEnchantment = 'WC_016e';
+			export const ShroudOfConcealment_CloakedEnchantment = 'WC_016e2';
 			export const ShakuTheCollector2 = 'WE1_028';
 			export const Swashburglar2 = 'WE1_029';
 			export const Waxmancy_ForgedInWaxEnchantment = 'YOD_018e';
@@ -11353,11 +11474,18 @@ export namespace CardIds {
 			export const Brukan6 = 'BOM_01_Brukan_05p1';
 			export const Brukan7 = 'BOM_01_Brukan_06p1';
 			export const Brukan8 = 'BOM_01_Brukan_07p1';
-			export const BrukanToken = 'BOM_01_Brukan_08t';
+			export const BrukanToken1 = 'BOM_01_Brukan_08t';
 			export const IshaAwak = 'BOM_01_IshaAwak_004hb';
 			export const Regurgitate = 'BOM_01_IshaAwak_04p';
 			export const SludgeBeast = 'BOM_02_SludgeBeast_003hb';
-			export const AcidicBody = 'BOM_02_SludgeBeast_03p';
+			export const GlubBlub = 'BOM_02_SludgeBeast_03p';
+			export const Brukan9 = 'BOM_03_Brukan_02p';
+			export const Brukan_BrukansGiftsEnchantment = 'BOM_03_Brukan_02pe1';
+			export const BrukanToken2 = 'BOM_03_Brukan_08t';
+			export const Murstrosity = 'BOM_03_Murstrosity_07p';
+			export const MurstrousEnchantment = 'BOM_03_Murstrous_07e';
+			export const Mutanus = 'BOM_03_Mutanus_007hb';
+			export const Devour2 = 'BOM_03_Mutanus_07p';
 			export const ElectraStormsurge_ElectricEnchantment = 'BOT_411e';
 			export const ElectraStormsurge_ElectrickingEnchantment = 'BOT_411e2';
 			export const LavaShock_LavaShockEnchantmentToken = 'BRM_011t';
@@ -11581,6 +11709,7 @@ export namespace CardIds {
 			export const EquipChargedDoomhammer2 = 'Story_07_Thrall_008p';
 			export const WildSpiritWolf = 'Story_07_WildSpiritWolf';
 			export const Ragnaros = 'Story_08_Ragnaros_007hb';
+			export const FirelordsRage = 'Story_08_Ragnaros_007p';
 			export const HagathaTheVengefulTavernBrawl = 'TB_BBR3_BOSS_01';
 			export const HagathaTheVengeful_SwampqueensTouchTavernBrawl = 'TB_BBR3_BOSS_01p';
 			export const EvolvingElectricityBattlegrounds = 'TB_BaconShop_HP_067';
@@ -11697,6 +11826,7 @@ export namespace CardIds {
 			export const TotemicSlamVanilla = 'VAN_HERO_02bp2';
 			export const StrengthOfEarthVanillaEnchantment = 'VAN_HERO_02e2';
 			export const HealingTotemVanilla = 'VAN_NEW1_009';
+			export const WailingVapor_RisingGasEnchantment = 'WC_042e';
 			export const ThingFromBelow2 = 'WE1_013';
 			export const Evolve3 = 'WE1_014';
 			export const EyeOfTheStorm_StormblockerToken = 'YOD_041t';
@@ -11719,11 +11849,17 @@ export namespace CardIds {
 			export const ImpMama_ProtectMamaEnchantment = 'BGS_044e';
 			export const FeeglyTheExiled = 'BOM_01_Feegly_007hb';
 			export const PowerOfTheShard = 'BOM_01_Feegly_07p';
-			export const TamsinToken = 'BOM_01_Tamsin_03t';
+			export const TamsinToken1 = 'BOM_01_Tamsin_03t';
 			export const Tamsin1 = 'BOM_01_Tamsin_04p3';
 			export const Tamsin2 = 'BOM_01_Tamsin_05p3';
 			export const Tamsin3 = 'BOM_01_Tamsin_06p3';
 			export const Tamsin4 = 'BOM_01_Tamsin_07p3';
+			export const VoidNaralex = 'BOM_03_Naralex_008hb';
+			export const Naralex = 'BOM_03_Naralex_008hb2';
+			export const VoidShard = 'BOM_03_Naralex_08p';
+			export const Tamsin5 = 'BOM_03_Tamsin_02p';
+			export const Tamsin_TamsinsPowerEnchantment = 'BOM_03_Tamsin_02pe1';
+			export const TamsinToken2 = 'BOM_03_Tamsin_08t';
 			export const PhasingPortal = 'BOTA_601';
 			export const SoulRepressor = 'BOTA_603';
 			export const NethersoulBuster_NetherchargedEnchantment = 'BOT_226e';
@@ -12124,10 +12260,14 @@ export namespace CardIds {
 			export const SecurityGolemToken = 'BOM_01_SecurityGolem_05t';
 			export const StrengthAndHonor_copy = 'BOM_01_StrengthAndHonor_05s_Copy';
 			export const ArmoredSlam = 'BOM_01_Twinbraid_06p';
+			export const BigRedButton2 = 'BOM_02_BigRedButton_04p';
 			export const Haywire = 'BOM_02_Haywire_05s';
 			export const KargalBattlescar2 = 'BOM_02_Kargal_001hb';
 			export const KeepWatch = 'BOM_02_Kargal_01p';
-			export const BigRedButton = 'BOM_02_Xyrella_05p';
+			export const BigRedButton1 = 'BOM_02_Xyrella_05p';
+			export const Rokara10 = 'BOM_03_Rokara_02p';
+			export const Rokara_RokarasMightEnchantment = 'BOM_03_Rokara_02pe1';
+			export const RokaraToken = 'BOM_03_Rokara_08t';
 			export const WeaponsProject_GearbladeToken = 'BOT_042t';
 			export const RocketBoots_RocketBootsEnchantment = 'BOT_067e';
 			export const TheBoomship_RocketeerEnchantment = 'BOT_069e';
@@ -12409,6 +12549,7 @@ export namespace CardIds {
 			export const OrgrimDoomhammer2 = 'Story_07_Stranger_003hb2';
 			export const Thrall4 = 'Story_07_Thrall_001hp';
 			export const Thrall5 = 'Story_07_Thrall_002hp';
+			export const VarokSaurfang4 = 'Story_08_Saurfang_008h2';
 			export const SurvivalOfTheHorde = 'Story_08_Saurfang_008p';
 			export const DrBoomTavernBrawl = 'TB_BBR3_BOSS_04';
 			export const MotherShahrazTavernBrawl = 'TB_BBR3_BOSS_11';
@@ -12548,6 +12689,9 @@ export namespace CardIds {
 			export const ChargeVanillaEnchantment = 'VAN_CS2_103e2_Puzzle';
 			export const ArmorUpVanilla2 = 'VAN_HERO_01bp';
 			export const TankUpVanilla = 'VAN_HERO_01bp2';
+			export const ManAtArms_ArmedEnchantment = 'WC_024e';
+			export const WhetstoneHatchet_ArmedEnchantment = 'WC_025e';
+			export const KreshLordOfTurtling_TurtleSpikeToken = 'WC_026t';
 			export const VarianWrynn2 = 'WE1_033';
 			export const BloodhoofBrave2 = 'WE1_034';
 		}
@@ -12672,6 +12816,7 @@ export namespace CardIds {
 			export const DemonsBiteVanilla = 'VAN_HERO_10bp2';
 			export const DemonClaws_DemonClawsVanillaEnchantment = 'VAN_HERO_10bpe';
 			export const DemonsBiteVanillaEnchantment = 'VAN_HERO_10pe2';
+			export const SigilOfSummoning_WailingDemonToken = 'WC_003t';
 		}
 	}
 }
