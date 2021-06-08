@@ -41,7 +41,7 @@ export const allDuelsTreasureCardIds = [
 	CardIds.NonCollectible.Neutral.WitherTheWeakTavernBrawl,
 	// Passives Pool 2
 	CardIds.NonCollectible.Neutral.AvengingArmamentsTavernBrawl,
-	CardIds.NonCollectible.Neutral.BattleTotem1,
+	CardIds.NonCollectible.Neutral.BattleTotem2,
 	CardIds.NonCollectible.Neutral.BookOfWonders,
 	CardIds.NonCollectible.Neutral.Caltrops,
 	CardIds.NonCollectible.Neutral.CorruptedFelstoneTavernBrawl,
@@ -62,7 +62,7 @@ export const allDuelsTreasureCardIds = [
 	CardIds.NonCollectible.Neutral.SpecialDeliveryTavernBrawl,
 	CardIds.NonCollectible.Neutral.SpreadingSaplingsTavernBrawl,
 	CardIds.NonCollectible.Neutral.StarvingTavernBrawl,
-	CardIds.NonCollectible.Neutral.TotemOfTheDead1,
+	CardIds.NonCollectible.Neutral.TotemOfTheDead2,
 	// Passives Ultra Rare
 	CardIds.NonCollectible.Neutral.BandOfBees,
 	CardIds.NonCollectible.Neutral.CapturedFlag,
@@ -102,7 +102,7 @@ export const allDuelsTreasureCardIds = [
 	CardIds.NonCollectible.Neutral.MutatingInjection,
 	CardIds.NonCollectible.Neutral.NecroticPoisonTavernBrawl,
 	CardIds.NonCollectible.Neutral.OldMilitiaHornTavernBrawl,
-	CardIds.NonCollectible.Neutral.PartyPortalTavernBrawl1,
+	CardIds.NonCollectible.Neutral.PartyPortalTavernBrawl2,
 	CardIds.NonCollectible.Neutral.PrincessTavernBrawl,
 	CardIds.NonCollectible.Neutral.PureColdTavernBrawl,
 	CardIds.NonCollectible.Neutral.PuzzleBoxTavernBrawl,
