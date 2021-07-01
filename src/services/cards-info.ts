@@ -44,6 +44,7 @@ export const allDuelsTreasureCardIds = [
 	CardIds.NonCollectible.Neutral.BattleTotem2,
 	CardIds.NonCollectible.Neutral.BookOfWonders,
 	CardIds.NonCollectible.Neutral.Caltrops,
+	CardIds.NonCollectible.Neutral.CannibalismTavernBrawl,
 	CardIds.NonCollectible.Neutral.CorruptedFelstoneTavernBrawl,
 	CardIds.NonCollectible.Neutral.DisksOfLegend,
 	CardIds.NonCollectible.Neutral.DoubleTime,
@@ -64,7 +65,7 @@ export const allDuelsTreasureCardIds = [
 	CardIds.NonCollectible.Neutral.StarvingTavernBrawl,
 	CardIds.NonCollectible.Neutral.TotemOfTheDead2,
 	// Passives Ultra Rare
-	CardIds.NonCollectible.Neutral.BandOfBees,
+	CardIds.NonCollectible.Neutral.BandOfBeesTavernBrawl,
 	CardIds.NonCollectible.Neutral.CapturedFlag,
 	CardIds.NonCollectible.Neutral.ElixirOfVigor,
 	CardIds.NonCollectible.Neutral.ManastormTavernBrawl,
