@@ -18,4 +18,5 @@ export enum SceneMode {
 	BACON = 16,
 	GAME_MODE = 17,
 	PVP_DUNGEON_RUN = 18,
+	BACON_COLLECTION = 19,
 }

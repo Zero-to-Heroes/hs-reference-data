@@ -33,4 +33,5 @@ export enum Board {
 	BOOK_OF_HEROES = 87,
 	DARKMOON_FAIRE = 89,
 	BARRENS = 91,
+	STORMWIND_2 = 106,
 }
