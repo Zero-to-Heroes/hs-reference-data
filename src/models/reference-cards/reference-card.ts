@@ -28,6 +28,7 @@ export interface ReferenceCard {
 	readonly durability?: number;
 	readonly armor?: number;
 	readonly battlegroundsHero?: boolean;
+	readonly battlegroundsHeroSkin?: boolean;
 	readonly battlegroundsPremiumDbfId?: number;
 	readonly battlegroundsNormalDbfId?: number;
 	// TODO: change this to use the enum later?
