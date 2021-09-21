@@ -5,8 +5,9 @@ import { http } from './utils';
 const CARDS_CDN_URL = 'https://static.zerotoheroes.com/hearthstone/jsoncards/cards.json?v=0';
 
 export class AllCardsService {
-	private allCards: ReferenceCard[];
-	private cache: any = {};
+	// private allCards: ReferenceCard[];
+	private cache: { [cardId: string]: ReferenceCard } = {};
+	private cacheDbfId: { [cardDbfId: string]: ReferenceCard } = {};
 
 	constructor() {
 		// We don't call it in the constructor because we want the app to be in control
@@ -17,64 +18,56 @@ export class AllCardsService {
 	// We keep this synchronous because we ensure, in the game init pipeline, that loading cards
 	// is the first thing we do
 	public getCard(id: string, errorWhenUndefined = true): ReferenceCard {
-		if (this.cache[id]) {
-			return this.cache[id];
-		}
-		if (!this.allCards) {
-			// console.debug('getCard', 'cards not initialized yet', id);
-			return {} as ReferenceCard;
-		}
-		const candidates = this.allCards.filter((card) => card.id === id);
-		if (errorWhenUndefined && (!candidates || candidates.length === 0)) {
-			console.debug('Could not find card for id', id, new Error().stack);
-			return {} as ReferenceCard;
-		}
-		if (candidates.length === 1) {
-			this.cache[id] = candidates[0];
-		}
-		return candidates[0];
+		return this.cache[id] ?? ({} as ReferenceCard);
+		// if (this.cache[id]) {
+		// }
+		// const candidates = Object.values(this.cache).filter((card) => card.id === id);
+		// if (errorWhenUndefined && (!candidates || candidates.length === 0)) {
+		// 	console.debug('Could not find card for id', id, new Error().stack);
+		// 	return {} as ReferenceCard;
+		// }
+		// if (candidates.length === 1) {
+		// 	this.cache[id] = candidates[0];
+		// }
+		// return candidates[0];
 	}
 
 	public getCardFromDbfId(dbfId: number): ReferenceCard {
-		if (!this.allCards) {
-			// console.debug('getCardFromDbfId', 'cards not initialized yet', dbfId);
-			return {} as ReferenceCard;
-		}
-		return this.allCards.find((card) => card.dbfId === +dbfId);
+		return this.cacheDbfId[dbfId] ?? ({} as ReferenceCard);
 	}
 
 	public getCardsFromDbfIds(dbfIds: number[]): ReferenceCard[] {
-		if (!this.allCards) {
-			// console.debug('getCardsFromDbfIds', 'cards not initialized yet', dbfIds);
-			return [];
-		}
-		return this.allCards.filter((card) => dbfIds.indexOf(card.dbfId) !== -1);
+		return dbfIds.map((dbfId) => this.getCardFromDbfId(dbfId));
 	}
 
 	public getCards(): ReferenceCard[] {
-		return this.allCards;
+		return Object.values(this.cache);
 	}
 
 	public async initializeCardsDb(version = ''): Promise<void> {
-		console.debug('[all-cards] asked to retrieve cards from CDN', version, new Error().stack);
+		// console.debug('[all-cards] asked to retrieve cards from CDN', version, new Error().stack);
 		return new Promise<void>(async (resolve, reject) => {
-			if (this.allCards) {
+			const allCards = Object.values(this.cache);
+			if (!!allCards?.length) {
 				// console.debug('[all-cards] already loaded all cards');
 				resolve();
 				return;
 			}
 			this.cache = {};
+			this.cacheDbfId = {};
 			const cardsStr: string = await http(CARDS_CDN_URL + version);
 			if (!cardsStr || cardsStr.length === 0 || cardsStr.startsWith('<')) {
 				console.error('[all-cards] could not load cards', CARDS_CDN_URL + version, cardsStr);
-				this.allCards = [];
 			} else {
 				// console.debug('[all-cards] retrieved all cards');
-				this.allCards = JSON.parse(cardsStr);
-			}
-			for (const card of this.allCards) {
-				if (card.id) {
-					this.cache[card.id] = card;
+				const allCards: readonly ReferenceCard[] = JSON.parse(cardsStr);
+				for (const card of allCards) {
+					if (card.id) {
+						this.cache[card.id] = card;
+					}
+					if (card.dbfId) {
+						this.cacheDbfId[card.dbfId] = card;
+					}
 				}
 			}
 			resolve();
@@ -156,21 +149,21 @@ export const getBaseCardId = (cardId: string): string => {
 		case 'DAL_366t4':
 			return 'DAL_366';
 		// Galakrond
-		case CardIds.NonCollectible.Shaman.GalakrondTheTempest_GalakrondTheApocalypseToken:
-		case CardIds.NonCollectible.Shaman.GalakrondTheTempest_GalakrondAzerothsEndToken:
-			return CardIds.Collectible.Shaman.GalakrondTheTempest;
-		case CardIds.NonCollectible.Warlock.GalakrondTheWretched_GalakrondTheApocalypseToken:
-		case CardIds.NonCollectible.Warlock.GalakrondTheWretched_GalakrondAzerothsEndToken:
-			return CardIds.Collectible.Warlock.GalakrondTheWretched;
-		case CardIds.NonCollectible.Priest.GalakrondTheUnspeakable_GalakrondTheApocalypseToken:
-		case CardIds.NonCollectible.Priest.GalakrondTheUnspeakable_GalakrondAzerothsEndToken:
-			return CardIds.Collectible.Priest.GalakrondTheUnspeakable;
-		case CardIds.NonCollectible.Rogue.GalakrondTheNightmare_GalakrondTheApocalypseToken:
-		case CardIds.NonCollectible.Rogue.GalakrondTheNightmare_GalakrondAzerothsEndToken:
-			return CardIds.Collectible.Rogue.GalakrondTheNightmare;
-		case CardIds.NonCollectible.Warrior.GalakrondTheUnbreakable_GalakrondTheApocalypseToken:
-		case CardIds.NonCollectible.Warrior.GalakrondTheUnbreakable_GalakrondAzerothsEndToken:
-			return CardIds.Collectible.Warrior.GalakrondTheUnbreakable;
+		case CardIds.GalakrondTheTempest_GalakrondTheApocalypseToken:
+		case CardIds.GalakrondTheTempest_GalakrondAzerothsEndToken:
+			return CardIds.GalakrondTheTempest;
+		case CardIds.GalakrondTheWretched_GalakrondTheApocalypseToken:
+		case CardIds.GalakrondTheWretched_GalakrondAzerothsEndToken:
+			return CardIds.GalakrondTheWretched;
+		case CardIds.GalakrondTheUnspeakable_GalakrondTheApocalypseToken:
+		case CardIds.GalakrondTheUnspeakable_GalakrondAzerothsEndToken:
+			return CardIds.GalakrondTheUnspeakable;
+		case CardIds.GalakrondTheNightmare_GalakrondTheApocalypseToken:
+		case CardIds.GalakrondTheNightmare_GalakrondAzerothsEndToken:
+			return CardIds.GalakrondTheNightmare;
+		case CardIds.GalakrondTheUnbreakable_GalakrondTheApocalypseToken:
+		case CardIds.GalakrondTheUnbreakable_GalakrondAzerothsEndToken:
+			return CardIds.GalakrondTheUnbreakable;
 		// Corrupted
 		case 'DMF_054t':
 			return 'DMF_054';
@@ -228,52 +221,52 @@ export const getBaseCardId = (cardId: string): string => {
 			return 'DMF_730';
 		case 'DMF_526a':
 			return 'DMF_526';
-		case CardIds.NonCollectible.Druid.DreamingDrake_DreamingDrakeToken:
-			return CardIds.Collectible.Druid.DreamingDrake;
-		case CardIds.NonCollectible.Paladin.LibramOfJudgment_LibramOfJudgmentToken:
-			return CardIds.Collectible.Paladin.LibramOfJudgment;
-		case CardIds.NonCollectible.Neutral.LuckysoulHoarder_LuckysoulHoarderToken:
-			return CardIds.Collectible.Neutral.LuckysoulHoarder;
-		case CardIds.NonCollectible.Neutral.NitroboostPoison_NitroboostPoisonToken:
-			return CardIds.Collectible.Neutral.NitroboostPoison;
+		case CardIds.DreamingDrake_DreamingDrakeToken:
+			return CardIds.DreamingDrake;
+		case CardIds.LibramOfJudgment_LibramOfJudgmentToken:
+			return CardIds.LibramOfJudgment;
+		case CardIds.LuckysoulHoarder_LuckysoulHoarderToken:
+			return CardIds.LuckysoulHoarder;
+		case CardIds.NitroboostPoison_NitroboostPoisonToken:
+			return CardIds.NitroboostPoison;
 		// The "improve during run" cards in Duels
 		// Upgradable ranked spells
-		case CardIds.NonCollectible.Hunter.TameBeastRank1_TameBeastRank2Token:
-		case CardIds.NonCollectible.Hunter.TameBeastRank1_TameBeastRank3Token:
-			return CardIds.Collectible.Hunter.TameBeastRank1;
-		case CardIds.NonCollectible.Shaman.ChainLightningRank1_ChainLightningRank2Token:
-		case CardIds.NonCollectible.Shaman.ChainLightningRank1_ChainLightningRank3Token:
-			return CardIds.Collectible.Shaman.ChainLightningRank1;
-		case CardIds.NonCollectible.Mage.FlurryRank1_FlurryRank2Token:
-		case CardIds.NonCollectible.Mage.FlurryRank1_FlurryRank3Token:
-			return CardIds.Collectible.Mage.FlurryRank1;
-		case CardIds.NonCollectible.Priest.CondemnRank1_CondemnRank2Token:
-		case CardIds.NonCollectible.Priest.CondemnRank1_CondemnRank3Token:
-			return CardIds.Collectible.Priest.CondemnRank1;
-		case CardIds.NonCollectible.Rogue.WickedStabRank1_WickedStabRank2Token:
-		case CardIds.NonCollectible.Rogue.WickedStabRank1_WickedStabRank3Token:
-			return CardIds.Collectible.Rogue.WickedStabRank1;
-		case CardIds.NonCollectible.Druid.LivingSeedRank1_LivingSeedRank2Token:
-		case CardIds.NonCollectible.Druid.LivingSeedRank1_LivingSeedRank3Token:
-			return CardIds.Collectible.Druid.LivingSeedRank1;
-		case CardIds.NonCollectible.Paladin.ConvictionRank1_ConvictionRank2Token:
-		case CardIds.NonCollectible.Paladin.ConvictionRank1_ConvictionRank3Token:
-			return CardIds.Collectible.Paladin.ConvictionRank1;
-		case CardIds.NonCollectible.Warrior.ConditioningRank1_ConditioningRank2Token:
-		case CardIds.NonCollectible.Warrior.ConditioningRank1_ConditioningRank3Token:
-			return CardIds.Collectible.Warrior.ConditioningRank1;
-		case CardIds.NonCollectible.Demonhunter.FuryRank1_FuryRank2Token:
-		case CardIds.NonCollectible.Demonhunter.FuryRank1_FuryRank3Token:
-			return CardIds.Collectible.Demonhunter.FuryRank1;
-		case CardIds.NonCollectible.Warlock.ImpSwarmRank1_ImpSwarmRank2Token:
-		case CardIds.NonCollectible.Warlock.ImpSwarmRank1_ImpSwarmRank3Token:
-			return CardIds.Collectible.Warlock.ImpSwarmRank1;
+		case CardIds.TameBeastRank1_TameBeastRank2Token:
+		case CardIds.TameBeastRank1_TameBeastRank3Token:
+			return CardIds.TameBeastRank1;
+		case CardIds.ChainLightningRank1_ChainLightningRank2Token:
+		case CardIds.ChainLightningRank1_ChainLightningRank3Token:
+			return CardIds.ChainLightningRank1;
+		case CardIds.FlurryRank1_FlurryRank2Token:
+		case CardIds.FlurryRank1_FlurryRank3Token:
+			return CardIds.FlurryRank1;
+		case CardIds.CondemnRank1_CondemnRank2Token:
+		case CardIds.CondemnRank1_CondemnRank3Token:
+			return CardIds.CondemnRank1;
+		case CardIds.WickedStabRank1_WickedStabRank2Token:
+		case CardIds.WickedStabRank1_WickedStabRank3Token:
+			return CardIds.WickedStabRank1;
+		case CardIds.LivingSeedRank1_LivingSeedRank2Token:
+		case CardIds.LivingSeedRank1_LivingSeedRank3Token:
+			return CardIds.LivingSeedRank1;
+		case CardIds.ConvictionRank1_ConvictionRank2Token:
+		case CardIds.ConvictionRank1_ConvictionRank3Token:
+			return CardIds.ConvictionRank1;
+		case CardIds.ConditioningRank1_ConditioningRank2Token:
+		case CardIds.ConditioningRank1_ConditioningRank3Token:
+			return CardIds.ConditioningRank1;
+		case CardIds.FuryRank1_FuryRank2Token:
+		case CardIds.FuryRank1_FuryRank3Token:
+			return CardIds.FuryRank1;
+		case CardIds.ImpSwarmRank1_ImpSwarmRank2Token:
+		case CardIds.ImpSwarmRank1_ImpSwarmRank3Token:
+			return CardIds.ImpSwarmRank1;
 
 		// Transfer Student should be handled on a case by case basis
 	}
 
-	if (cardId.startsWith(CardIds.Collectible.Neutral.TransferStudent)) {
-		return CardIds.Collectible.Neutral.TransferStudent;
+	if (cardId.startsWith(CardIds.TransferStudent)) {
+		return CardIds.TransferStudent;
 	}
 
 	return cardId;
