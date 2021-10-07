@@ -28,4 +28,10 @@ export enum Race {
 	ALL = 26,
 	EGG = 38,
 	QUILBOAR = 43,
+	CENTAUR = 80,
+	FURBOLG = 81,
+	HIGHELF = 83,
+	TREANT = 84,
+	OWLKIN = 85,
+	HALFORC = 88,
 }

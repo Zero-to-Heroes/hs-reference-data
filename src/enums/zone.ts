@@ -7,5 +7,5 @@ export enum Zone {
 	REMOVEDFROMGAME = 5,
 	SETASIDE = 6,
 	SECRET = 7,
-	STUB_ZONE_8 = 8,
+	LETTUCE_ABILITY = 8,
 }

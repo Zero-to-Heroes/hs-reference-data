@@ -13,4 +13,5 @@ export enum CardType {
 	BLANK = 11,
 	GAME_MODE_BUTTON = 12,
 	MOVE_MINION_HOVER_TARGET = 22,
+	LETTUCE_ABILITY = 23,
 }
