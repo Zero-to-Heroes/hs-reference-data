@@ -43,4 +43,5 @@ export interface ReferenceCard {
 	readonly mercenaryPassiveAbility: boolean;
 	readonly mercenaryEquipment: boolean;
 	readonly mercenaryTreasure: boolean;
+	readonly mercenaryAbilityCooldown: number;
 }
