@@ -2,7 +2,7 @@ import { CardIds } from '../card-ids';
 import { ReferenceCard } from '../models/reference-cards/reference-card';
 import { http } from './utils';
 
-const CARDS_CDN_URL = 'https://static.zerotoheroes.com/hearthstone/jsoncards/cards.json?v=0';
+const CARDS_CDN_URL = 'https://static.zerotoheroes.com/hearthstone/jsoncards';
 
 export class AllCardsService {
 	// private allCards: ReferenceCard[];
@@ -44,7 +44,7 @@ export class AllCardsService {
 		return Object.values(this.cache);
 	}
 
-	public async initializeCardsDb(version = ''): Promise<void> {
+	public async initializeCardsDb(version = '', cardsFile = 'cards.json'): Promise<void> {
 		// console.debug('[all-cards] asked to retrieve cards from CDN', version, new Error().stack);
 		return new Promise<void>(async (resolve, reject) => {
 			const allCards = Object.values(this.cache);
@@ -55,9 +55,10 @@ export class AllCardsService {
 			}
 			this.cache = {};
 			this.cacheDbfId = {};
-			const cardsStr: string = await http(CARDS_CDN_URL + version);
+			const url = `${CARDS_CDN_URL}/${cardsFile}?v=${version}`;
+			const cardsStr: string = await http(url);
 			if (!cardsStr || cardsStr.length === 0 || cardsStr.startsWith('<')) {
-				console.error('[all-cards] could not load cards', CARDS_CDN_URL + version, cardsStr);
+				console.error('[all-cards] could not load cards', url, cardsStr);
 			} else {
 				// console.debug('[all-cards] retrieved all cards');
 				const allCards: readonly ReferenceCard[] = JSON.parse(cardsStr);
