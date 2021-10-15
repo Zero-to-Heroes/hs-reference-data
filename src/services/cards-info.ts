@@ -50,7 +50,7 @@ export const allDuelsTreasureCardIds = [
 	CardIds.CorruptedFelstoneTavernBrawl,
 	CardIds.DeathlyDeathTavernBrawl,
 	CardIds.DisksOfLegend,
-	CardIds.DoubleTime1,
+	CardIds.DoubleTime,
 	CardIds.DragonboneRitualTavernBrawl,
 	CardIds.EerieStoneTavernBrawl,
 	CardIds.EmeraldGogglesTavernBrawl,
