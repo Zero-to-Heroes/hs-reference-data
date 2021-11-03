@@ -37,7 +37,7 @@ export const allDuelsTreasureCardIds = [
 	CardIds.RobesOfShrinkingTavernBrawl,
 	CardIds.RocketBackpacksTavernBrawl,
 	// CardIds.ScatteredCaltropsTavernBrawl,
-	CardIds.SmallBackpacksTavernBrawl,
+	// CardIds.SmallBackpacks,
 	// CardIds.SmallPouchesTavernBrawl,
 	CardIds.StaffOfPainTavernBrawl,
 	CardIds.StakingAClaimTavernBrawl,
@@ -79,7 +79,7 @@ export const allDuelsTreasureCardIds = [
 	CardIds.ManastormTavernBrawl,
 	CardIds.RobeOfTheMagi,
 	CardIds.Stargazing,
-	
+
 	// Actives Pool 1
 	CardIds.AmalgamateTavernBrawl,
 	CardIds.AstralPortalTavernBrawl,

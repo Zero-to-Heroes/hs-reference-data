@@ -20,7 +20,6 @@ export * from './enums/mulligan';
 export * from './enums/multi-class-group';
 export * from './enums/playstate';
 export * from './enums/race';
-export * from './enums/rarity';
 export * from './enums/reward-type';
 export * from './enums/scenario-groups';
 export * from './enums/scenario-id';
