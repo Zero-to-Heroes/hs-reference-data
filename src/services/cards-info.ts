@@ -131,6 +131,7 @@ export const allDuelsTreasureCardIds = [
 	CardIds.HyperblasterTavernBrawl,
 	CardIds.AncientReflectionsTavernBrawl,
 	CardIds.BagOfStuffingTavernBrawl,
+	CardIds.Questionquestionquestion_BlackSoulstoneTavernBrawl,
 	CardIds.BladeOfTheBurningSun,
 	CardIds.GnomishArmyKnife,
 	CardIds.BananaSplitTavernBrawl,
