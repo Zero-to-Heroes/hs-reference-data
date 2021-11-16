@@ -1,3 +1,4 @@
+// TAG_CARD_SET.cs (but not always fully up-to-date)
 export enum CardSet {
 	INVALID = 0,
 	TEST_TEMPORARY = 1,
@@ -51,4 +52,5 @@ export enum CardSet {
 	CORE = 1637,
 	VANILLA = 1646,
 	MERCENARIES_DEV = 1705,
+	ALTERAC_VALLEY = 1626,
 }
