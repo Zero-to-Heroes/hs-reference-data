@@ -15,6 +15,7 @@ export * from './enums/choice-type';
 export * from './enums/game-format';
 export * from './enums/game-tags';
 export * from './enums/game-type';
+export * from './enums/mercenary-selector';
 export * from './enums/meta-tags';
 export * from './enums/mulligan';
 export * from './enums/multi-class-group';
