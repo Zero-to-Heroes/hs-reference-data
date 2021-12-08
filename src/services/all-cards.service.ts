@@ -44,7 +44,7 @@ export class AllCardsService {
 		return Object.values(this.cache);
 	}
 
-	public async initializeCardsDb(version = '', cardsFile = 'cards.json'): Promise<void> {
+	public async initializeCardsDb(version = '', cardsFile = 'cards_enUS.json'): Promise<void> {
 		// console.debug('[all-cards] asked to retrieve cards from CDN', version, new Error().stack);
 		return new Promise<void>(async (resolve, reject) => {
 			const allCards = Object.values(this.cache);
