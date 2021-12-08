@@ -44,4 +44,11 @@ export interface ReferenceCard {
 	readonly mercenaryEquipment: boolean;
 	readonly mercenaryTreasure: boolean;
 	readonly mercenaryAbilityCooldown: number;
+
+	readonly locales?: readonly CardLocale[];
+}
+
+export interface CardLocale {
+	readonly locale: string;
+	readonly name: string;
 }
