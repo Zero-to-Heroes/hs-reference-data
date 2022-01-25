@@ -1,7 +1,6 @@
 import { CardIds } from '../card-ids';
 
-export const allDuelsTreasureCardIds = [
-	// Passives Pool 1
+export const duelsPassivePool1 = [
 	CardIds.AllShallServeTavernBrawl,
 	CardIds.AllTogetherNowTavernBrawl,
 	CardIds.ArcaneFluxTavernBrawl,
@@ -10,14 +9,14 @@ export const allDuelsTreasureCardIds = [
 	CardIds.BitterColdTavernBrawl,
 	CardIds.BookOfWonders,
 	CardIds.CannibalismTavernBrawl,
-	CardIds.ConduitOfTheStormsTavernBrawl,
+	// CardIds.ConduitOfTheStormsTavernBrawl,
 	CardIds.CrystalGemTavernBrawl,
 	CardIds.DivineIlluminationTavernBrawl,
 	CardIds.DragonbloodTavernBrawl,
 	CardIds.DragonAffinityTavernBrawl,
-	CardIds.EverChangingElixirTavernBrawl,
+	// CardIds.EverChangingElixirTavernBrawl,
 	CardIds.FirekeepersIdolTavernBrawl,
-	CardIds.FireshaperTavernBrawl,
+	// CardIds.FireshaperTavernBrawl,
 	CardIds.FreezeSolidTavernBrawl,
 	CardIds.FromTheSwampTavernBrawl,
 	CardIds.GrommashsArmguardsTavernBrawl,
@@ -36,10 +35,12 @@ export const allDuelsTreasureCardIds = [
 	CardIds.RecyclingTavernBrawl,
 	// CardIds.RhoninsScryingOrbTavernBrawl,
 	CardIds.RighteousReservesTavernBrawl,
+	CardIds.RingOfPhaseshiftingTavernBrawl,
 	CardIds.RobeOfTheApprenticeTavernBrawl,
 	CardIds.RobesOfShrinkingTavernBrawl,
 	CardIds.RocketBackpacksTavernBrawl,
 	// CardIds.ScatteredCaltropsTavernBrawl,
+	CardIds.Shadowcasting101TavernBrawl,
 	CardIds.SmallBackpacksTavernBrawl,
 	// CardIds.SmallPouchesTavernBrawl,
 	CardIds.StaffOfPainTavernBrawl,
@@ -50,8 +51,9 @@ export const allDuelsTreasureCardIds = [
 	CardIds.UnholyGiftTavernBrawl,
 	CardIds.UnlockedPotential,
 	CardIds.WitherTheWeakTavernBrawl,
+];
 
-	// Passives Pool 2
+export const duelsPassivePool2 = [
 	CardIds.AvengingArmamentsTavernBrawl,
 	CardIds.BattleStanceTavernBrawl,
 	CardIds.BattleTotem2,
@@ -62,44 +64,54 @@ export const allDuelsTreasureCardIds = [
 	CardIds.DeathlyDeathTavernBrawl,
 	CardIds.DisksOfLegend,
 	CardIds.DoubleTime,
+	CardIds.DraconicDreamTavernBrawl,
 	CardIds.DragonboneRitualTavernBrawl,
 	CardIds.EerieStoneTavernBrawl,
 	CardIds.ElixirOfVigorTavernBrawl,
 	CardIds.EmeraldGogglesTavernBrawl,
 	CardIds.EnduranceTrainingTavernBrawl,
-	CardIds.ExpeditedBurialTavernBrawl,
+	CardIds.FlamesOfTheKirinTorTavernBrawl,
 	CardIds.FlameWavesTavernBrawl,
 	CardIds.GlacialDownpourTavernBrawl,
 	CardIds.GreedyGainsTavernBrawl,
+	CardIds.GuardianLightTavernBrawl,
 	CardIds.HagathasEmbraceTavernBrawl,
+	CardIds.HeavyArmorTavernBrawl,
 	CardIds.IdolsOfEluneTavernBrawl,
 	CardIds.ImpCredibleTrousersTavernBrawl,
 	CardIds.IronRootsTavernBrawl,
 	CardIds.KhadgarsScryingOrb,
-	CardIds.MantleOfIgnitionTavernBrawl,
 	CardIds.MeekMasteryTavernBrawl,
+	CardIds.MulchMadnessTavernBrawl,
 	CardIds.MummyMagic,
 	CardIds.OopsAllSpellsTavernBrawl,
 	CardIds.OrbOfRevelationTavernBrawl,
 	CardIds.PartyReplacementTavernBrawl,
 	CardIds.RallyTheTroopsTavernBrawl,
 	CardIds.RingOfBlackIceTavernBrawl,
+	CardIds.RingOfRefreshmentTavernBrawl,
 	CardIds.RunicHelmTavernBrawl,
 	CardIds.ScepterOfSummoning,
 	CardIds.SpecialDeliveryTavernBrawl,
 	CardIds.SpreadingSaplingsTavernBrawl,
+	CardIds.SunstridersCrownTavernBrawl,
 	CardIds.TotemOfTheDead2,
-	// Passives Ultra Rare
+	CardIds.UnstableMagicTavernBrawl,
+];
+
+export const duelsPassivePool2UltraRare = [
 	CardIds.BandOfBeesTavernBrawl,
 	CardIds.CapturedFlag,
+	CardIds.ExpeditedBurialTavernBrawl,
 	CardIds.ManastormTavernBrawl,
+	CardIds.MantleOfIgnitionTavernBrawl,
 	CardIds.RobeOfTheMagi,
 	CardIds.Stargazing,
+];
 
-	// Actives Pool 1
+export const duelsActivePool1 = [
 	CardIds.AmalgamateTavernBrawl,
 	CardIds.AstralPortalTavernBrawl,
-	CardIds.BagOfCoinsTavernBrawl,
 	CardIds.BeastlyBeautyTavernBrawl,
 	CardIds.BubbaTavernBrawl,
 	CardIds.ButchTavernBrawl,
@@ -140,8 +152,11 @@ export const allDuelsTreasureCardIds = [
 	CardIds.TheExorcisorTavernBrawl,
 	CardIds.VampiricFangsToken,
 	CardIds.WorshipperHeroic,
-	// Actives Pool 2
+];
+
+export const duelsActivePool2 = [
 	CardIds.ArchmageStaffTavernBrawl,
+	CardIds.BagOfCoinsTavernBrawl,
 	CardIds.BookOfTheDeadTavernBrawl,
 	CardIds.GrimmerPatron,
 	CardIds.HyperblasterTavernBrawl,
@@ -155,12 +170,22 @@ export const allDuelsTreasureCardIds = [
 	CardIds.PhaorisBlade,
 	CardIds.StaffOfScales,
 	CardIds.WandOfDisintegrationTavernBrawl,
-	CardIds.LocuuuustsTavernBrawl,
-	// Actives Ultra Rare
+];
+
+export const duelsActivePool2UltraRare = [
 	CardIds.ChaosTheoryTavernBrawl,
 	CardIds.OverpoweredTavernBrawl,
 	CardIds.DreamgroveRing,
 	CardIds.EmbersOfRagnarosTavernBrawl,
 	CardIds.WaxRager,
 	CardIds.WishTavernBrawl,
+];
+
+export const allDuelsTreasureCardIds = [
+	...duelsPassivePool1,
+	...duelsPassivePool2,
+	...duelsPassivePool2UltraRare,
+	...duelsActivePool1,
+	...duelsActivePool2,
+	...duelsActivePool2UltraRare,
 ];
