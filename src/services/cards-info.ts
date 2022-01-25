@@ -15,7 +15,7 @@ export const allDuelsTreasureCardIds = [
 	CardIds.DivineIlluminationTavernBrawl,
 	CardIds.DragonbloodTavernBrawl,
 	CardIds.DragonAffinityTavernBrawl,
-	CardIds.EverChangingElixir,
+	CardIds.EverChangingElixirTavernBrawl,
 	CardIds.FirekeepersIdolTavernBrawl,
 	CardIds.FireshaperTavernBrawl,
 	CardIds.FreezeSolidTavernBrawl,
