@@ -79,7 +79,7 @@ export const allDuelsTreasureCardIds = [
 	CardIds.MantleOfIgnitionTavernBrawl,
 	CardIds.MeekMasteryTavernBrawl,
 	CardIds.MummyMagic,
-	CardIds.OoopsAllSpellsTavernBrawl,
+	CardIds.OopsAllSpellsTavernBrawl,
 	CardIds.OrbOfRevelationTavernBrawl,
 	CardIds.PartyReplacementTavernBrawl,
 	CardIds.RallyTheTroopsTavernBrawl,
