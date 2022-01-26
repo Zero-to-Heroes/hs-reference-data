@@ -294,7 +294,7 @@ export const allDuelsSignatureTreasures = [
 // Since it doesn't change often it's ok to maintain it manually, at least for now
 export const duelsHeroConfigs = [
 	{
-		hero: CardIds.StarStudentStelina,
+		hero: CardIds.StarStudentStelinaTavernBrawl,
 		heroPowers: [
 			CardIds.InfernalStrikeTavernBrawl,
 			CardIds.OutlanderTavernBrawl,
