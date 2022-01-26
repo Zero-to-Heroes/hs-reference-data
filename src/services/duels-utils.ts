@@ -40,7 +40,6 @@ export const duelsPassivePool1 = [
 	CardIds.RobesOfShrinkingTavernBrawl,
 	CardIds.RocketBackpacksTavernBrawl,
 	// CardIds.ScatteredCaltropsTavernBrawl,
-	CardIds.Shadowcasting101TavernBrawl,
 	CardIds.SmallBackpacksTavernBrawl,
 	// CardIds.SmallPouchesTavernBrawl,
 	CardIds.StaffOfPainTavernBrawl,
@@ -106,6 +105,7 @@ export const duelsPassivePool2UltraRare = [
 	CardIds.ManastormTavernBrawl,
 	CardIds.MantleOfIgnitionTavernBrawl,
 	CardIds.RobeOfTheMagi,
+	CardIds.Shadowcasting101TavernBrawl,
 	CardIds.Stargazing,
 ];
 
