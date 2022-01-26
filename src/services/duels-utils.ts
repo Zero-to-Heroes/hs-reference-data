@@ -207,6 +207,18 @@ export const allDuelsHeroes = [
 
 export const normalizeDuelsHeroCardId = (heroCardId: string): string => {
 	switch (heroCardId) {
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl1:
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl2:
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl3:
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl4:
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl5:
+			return CardIds.VanndarStormpikeTavernBrawl;
+		case CardIds.Drekthar_DrektharTavernBrawl1:
+		case CardIds.Drekthar_DrektharTavernBrawl2:
+		case CardIds.Drekthar_DrektharTavernBrawl3:
+		case CardIds.Drekthar_DrektharTavernBrawl4:
+		case CardIds.Drekthar_DrektharTavernBrawl5:
+			return CardIds.DrektharTavernBrawl;
 		default:
 			return heroCardId;
 	}
