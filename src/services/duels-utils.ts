@@ -2,7 +2,6 @@ import { CardIds } from '../card-ids';
 
 export const duelsPassivePool1 = [
 	CardIds.AllShallServeTavernBrawl,
-	CardIds.AllTogetherNowTavernBrawl,
 	CardIds.ArcaneFluxTavernBrawl,
 	CardIds.ArcaniteCrystalTavernBrawl,
 	CardIds.ArcticArmorTavernBrawl,
@@ -53,15 +52,14 @@ export const duelsPassivePool1 = [
 ];
 
 export const duelsPassivePool2 = [
+	CardIds.AllTogetherNowTavernBrawl,
 	CardIds.AvengingArmamentsTavernBrawl,
 	CardIds.BattleStanceTavernBrawl,
-	CardIds.BattleTotem2,
 	// CardIds.Caltrops,
 	CardIds.BronzeSignetTavernBrawl,
 	CardIds.CloakOfEmeraldDreamsTavernBrawl,
 	CardIds.CorruptedFelstoneTavernBrawl,
 	CardIds.DeathlyDeathTavernBrawl,
-	CardIds.DisksOfLegend,
 	CardIds.DoubleTime,
 	CardIds.DraconicDreamTavernBrawl,
 	CardIds.DragonboneRitualTavernBrawl,
@@ -94,19 +92,21 @@ export const duelsPassivePool2 = [
 	CardIds.SpecialDeliveryTavernBrawl,
 	CardIds.SpreadingSaplingsTavernBrawl,
 	CardIds.SunstridersCrownTavernBrawl,
-	CardIds.TotemOfTheDead2,
 	CardIds.UnstableMagicTavernBrawl,
 ];
 
 export const duelsPassivePool2UltraRare = [
 	CardIds.BandOfBeesTavernBrawl,
+	CardIds.BattleTotem2,
 	CardIds.CapturedFlag,
+	CardIds.DisksOfLegend,
 	CardIds.ExpeditedBurialTavernBrawl,
 	CardIds.ManastormTavernBrawl,
 	CardIds.MantleOfIgnitionTavernBrawl,
 	CardIds.RobeOfTheMagi,
 	CardIds.Shadowcasting101TavernBrawl,
 	CardIds.Stargazing,
+	CardIds.TotemOfTheDead2,
 ];
 
 export const duelsActivePool1 = [
