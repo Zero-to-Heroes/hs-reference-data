@@ -99,7 +99,7 @@ export const duelsPassivePool2UltraRare = [
 	CardIds.BandOfBeesTavernBrawl,
 	CardIds.BattleTotem2,
 	CardIds.CapturedFlag,
-	CardIds.DisksOfLegend,
+	CardIds.DisksOfLegendTavernBrawl,
 	CardIds.ExpeditedBurialTavernBrawl,
 	CardIds.ManastormTavernBrawl,
 	CardIds.MantleOfIgnitionTavernBrawl,
