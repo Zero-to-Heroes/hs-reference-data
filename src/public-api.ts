@@ -31,6 +31,7 @@ export * from './enums/spell-school';
 export * from './enums/step';
 export * from './enums/tag-role';
 export * from './enums/task-status';
+export * from './enums/village-visitor-type';
 export * from './enums/zone';
 export * from './models/reference-cards/rarity.type';
 export * from './models/reference-cards/reference-card';
