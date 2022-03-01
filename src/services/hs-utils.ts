@@ -1,3 +1,4 @@
+import { CardIds } from '../card-ids';
 import { GameFormatString } from '../enums/game-format';
 import { ReferenceCard } from '../models/reference-cards/reference-card';
 import { GameFormat } from '../public-api';
@@ -36,3 +37,34 @@ export const getEffectiveTechLevel = (card: ReferenceCard, allCards: AllCardsSer
 
 	return 1;
 };
+
+export const COIN_IDS = [
+	CardIds.TheCoinCore,
+	CardIds.TheCoin1,
+	CardIds.TheCoin2,
+	CardIds.TheCoin3,
+	CardIds.TheCoin4,
+	CardIds.TheCoin5,
+	CardIds.TheCoin6,
+	CardIds.TheCoin7,
+	CardIds.TheCoin8,
+	CardIds.TheCoin9,
+	CardIds.TheCoin10,
+	CardIds.TheCoin11,
+	CardIds.TheCoin12,
+	CardIds.TheCoin13,
+];
+
+export const WATCH_POST_IDS = [CardIds.FarWatchPost, CardIds.MorshanWatchPost, CardIds.CrossroadsWatchPost];
+
+export const LIBRAM_IDS = [
+	CardIds.LibramOfJustice1,
+	CardIds.LibramOfJustice2,
+	CardIds.LibramOfHope,
+	CardIds.LibramOfWisdom1,
+	CardIds.LibramOfWisdom2,
+	CardIds.LibramOfJudgment,
+	CardIds.LibramOfJudgment_LibramOfJudgmentToken,
+	CardIds.LibramOfHoliness,
+	CardIds.LibramOfCompassion,
+];
