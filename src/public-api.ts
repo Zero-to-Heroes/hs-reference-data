@@ -20,6 +20,7 @@ export * from './enums/mercenary-selector';
 export * from './enums/meta-tags';
 export * from './enums/mulligan';
 export * from './enums/multi-class-group';
+export * from './enums/option-type';
 export * from './enums/playstate';
 export * from './enums/race';
 export * from './enums/reward-item-type';

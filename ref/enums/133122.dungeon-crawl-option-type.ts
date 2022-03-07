@@ -1,4 +1,4 @@
-export enum OptionType {
+export enum DungeonCrawlOptionType {
 	INVALID = 0,
 	LOOT = 1,
 	TREASURE = 2,
