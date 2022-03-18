@@ -1,3 +1,4 @@
+// BoosterDbId.cs, not always up-to-date
 export enum BoosterType {
 	INVALID = 0,
 	CLASSIC = 1,
@@ -42,6 +43,7 @@ export enum BoosterType {
 	ALTERAC_VALLEY = 665,
 	GOLDEN_THE_BARRENS = 686,
 	YEAR_OF_PHOENIX = 688,
+	THE_SUNKEN_CITY = 694,
 	STANDARD_BUNDLE = 713,
 	WILD_PACK = 714,
 	GOLDEN_STANDARD_BUNDLE = 716,
