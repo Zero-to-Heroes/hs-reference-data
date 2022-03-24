@@ -36,6 +36,7 @@ export interface ReferenceCard {
 	readonly spellSchool?: string;
 	readonly artist?: string;
 	readonly questRewardDbfId?: number;
+	readonly deckDuplicateDbfId?: number;
 
 	readonly mercenary: boolean;
 	readonly mercenaryRole: string;
