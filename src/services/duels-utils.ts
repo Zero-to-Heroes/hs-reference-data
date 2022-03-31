@@ -410,15 +410,15 @@ export const duelsHeroConfigs = [
 		],
 	},
 	{
-		hero: CardIds.InstructorFireheart,
+		hero: CardIds.InstructorFireheartTavernBrawlToken,
 		heroPowers: [CardIds.StormcatcherTavernBrawl, CardIds.TotemicPowerTavernBrawl, CardIds.FavoredRacerTavernBrawl],
 		signatureTreasures: [
 			CardIds.ChaosStormTavernBrawl,
-			CardIds.ElementalChaosTavernBrawlToken,
 			CardIds.FluctuatingTotemTavernBrawlToken,
 			CardIds.InvokeTheVoidTavernBrawlToken,
 			CardIds.PayloadTotemSpecialistTavernBrawl,
 			CardIds.TempestsFuryTavernBrawlToken,
+			CardIds.ZukaraTheWildTavernBrawl,
 		],
 	},
 	{
