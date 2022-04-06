@@ -53,6 +53,8 @@ export const COIN_IDS = [
 	CardIds.TheCoin11,
 	CardIds.TheCoin12,
 	CardIds.TheCoin13,
+	CardIds.TheCoin14,
+	CardIds.TheCoin15,
 ];
 
 export const WATCH_POST_IDS = [CardIds.FarWatchPost, CardIds.MorshanWatchPost, CardIds.CrossroadsWatchPost];
