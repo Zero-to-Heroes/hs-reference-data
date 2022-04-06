@@ -54,4 +54,5 @@ export enum CardSet {
 	VANILLA = 1646,
 	THE_SUNKEN_CITY = 1658,
 	MERCENARIES_DEV = 1705,
+	OLD_CORE_230 = 1810, // Cards that were moved out of the core set with 23.0
 }
