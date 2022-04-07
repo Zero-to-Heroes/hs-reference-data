@@ -209,6 +209,10 @@ export const allDuelsHeroes = [
 	CardIds.InfiltratorLilianTavernBrawl,
 	CardIds.VanndarStormpikeTavernBrawl,
 	CardIds.DrektharTavernBrawl,
+	CardIds.RenoJacksonTavernBrawl5,
+	CardIds.SirFinleyTavernBrawl5,
+	CardIds.EliseStarseekerTavernBrawl4,
+	CardIds.BrannBronzebeardTavernBrawl5,
 ];
 
 export const normalizeDuelsHeroCardId = (heroCardId: string): string => {
