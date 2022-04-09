@@ -83,7 +83,6 @@ export const duelsPassivePool2 = [
 	CardIds.ImpCredibleTrousersTavernBrawl,
 	CardIds.IronRootsTavernBrawl,
 	CardIds.KhadgarsScryingOrb,
-	CardIds.LegendaryLootTavernBrawl,
 	CardIds.MeekMasteryTavernBrawl,
 	CardIds.MulchMadnessTavernBrawl,
 	CardIds.MummyMagic,
@@ -97,7 +96,6 @@ export const duelsPassivePool2 = [
 	CardIds.SpecialDeliveryTavernBrawl,
 	CardIds.SpreadingSaplingsTavernBrawl,
 	CardIds.SunstridersCrownTavernBrawl,
-	CardIds.UnstableMagicTavernBrawl,
 ];
 
 export const duelsPassivePool2UltraRare = [
@@ -106,6 +104,7 @@ export const duelsPassivePool2UltraRare = [
 	CardIds.CapturedFlag,
 	CardIds.DisksOfLegendTavernBrawl,
 	CardIds.ExpeditedBurialTavernBrawl,
+	CardIds.LegendaryLootTavernBrawl,
 	CardIds.ManastormTavernBrawl,
 	CardIds.MantleOfIgnitionTavernBrawl,
 	CardIds.RobeOfTheMagi,
@@ -113,6 +112,7 @@ export const duelsPassivePool2UltraRare = [
 	CardIds.Shadowcasting101TavernBrawl,
 	CardIds.Stargazing,
 	CardIds.TotemOfTheDead2,
+	CardIds.UnstableMagicTavernBrawl,
 ];
 
 export const duelsActivePool1 = [
