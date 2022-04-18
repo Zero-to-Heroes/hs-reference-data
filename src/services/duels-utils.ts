@@ -234,6 +234,33 @@ export const normalizeDuelsHeroCardId = (heroCardId: string): string => {
 	}
 };
 
+export const normalizeDuelsHeroCardIdForDeckCode = (heroCardId: string): string => {
+	switch (heroCardId) {
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl1:
+			return CardIds.IllidanStormrageHeroSkins;
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl2:
+			return CardIds.RexxarHeroSkins;
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl3:
+			return CardIds.UtherLightbringerHeroSkins;
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl4:
+			return CardIds.AnduinWrynnHeroSkins;
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl5:
+			return CardIds.ValeeraSanguinarHeroSkins;
+		case CardIds.Drekthar_DrektharTavernBrawl1:
+			return CardIds.MalfurionStormrageHeroSkins;
+		case CardIds.Drekthar_DrektharTavernBrawl2:
+			return CardIds.JainaProudmooreHeroSkins;
+		case CardIds.Drekthar_DrektharTavernBrawl3:
+			return CardIds.ThrallHeroSkins;
+		case CardIds.Drekthar_DrektharTavernBrawl4:
+			return CardIds.GuldanHeroSkins;
+		case CardIds.Drekthar_DrektharTavernBrawl5:
+			return CardIds.GarroshHellscreamHeroSkins;
+		default:
+			return heroCardId;
+	}
+};
+
 // Maybe it's possible to extract this from the game files or memory somehow?
 // Since it doesn't change often it's ok to maintain it manually, at least for now
 export const duelsHeroConfigs = [
