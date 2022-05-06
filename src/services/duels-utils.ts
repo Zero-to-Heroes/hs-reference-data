@@ -379,7 +379,11 @@ export const duelsHeroConfigs = [
 	{
 		hero: CardIds.InstructorFireheartTavernBrawlToken,
 		heroClasses: [CardClass.SHAMAN],
-		heroPowers: [CardIds.StormcatcherTavernBrawl, CardIds.TotemicPowerTavernBrawl, CardIds.FavoredRacerTavernBrawl],
+		heroPowers: [
+			CardIds.StormcatcherTavernBrawl,
+			CardIds.TotemicPowerTavernBrawl,
+			CardIds.FerociousFlurryTavernBrawl,
+		],
 		signatureTreasures: [
 			CardIds.ChaosStormTavernBrawl,
 			CardIds.FluctuatingTotemTavernBrawlToken,
