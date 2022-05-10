@@ -445,7 +445,7 @@
 					"id": 154,
 					"level": 30,
 					"name": "Smolderwing",
-					"requiredCompletedBountyId": 143,
+					"requiredCompletedBountyId": 0,
 					"rewardMercenaryIds": [
 						298,
 						236,
@@ -615,7 +615,7 @@
 					"id": 165,
 					"level": 30,
 					"name": "Smolderwing",
-					"requiredCompletedBountyId": 143,
+					"requiredCompletedBountyId": 0,
 					"rewardMercenaryIds": [
 						298,
 						236,
@@ -631,6 +631,50 @@
 			"id": 11,
 			"name": "Onyxia's Lair",
 			"sortOrder": 6
+		},
+		{
+			"bounties": [
+				{
+					"difficultyMode": 0,
+					"enabled": 1,
+					"finalBossCardId": 86873,
+					"heroic": 0,
+					"id": 168,
+					"level": 30,
+					"name": "Corrupted Murlocs",
+					"requiredCompletedBountyId": 0,
+					"rewardMercenaryIds": [
+						341,
+						312,
+						306
+					],
+					"setId": 13,
+					"sortOrder": 0
+				},
+				{
+					"difficultyMode": 0,
+					"enabled": 1,
+					"finalBossCardId": 86873,
+					"heroic": 1,
+					"id": 173,
+					"level": 30,
+					"name": "Corrupted Murlocs",
+					"requiredCompletedBountyId": 0,
+					"rewardMercenaryIds": [
+						341,
+						312,
+						306
+					],
+					"setId": 13,
+					"sortOrder": 0
+				}
+			],
+			"descriptionHeroic": "Something fishy's going on. You'll need a noseplug as you investigate Darkshore (Heroic).",
+			"descriptionLegendary": "[PH]Darkshore Legendary",
+			"descriptionNormal": "Murlocs and Naga are just the beginning of what's been troubling Kalimdor's shores. ",
+			"id": 13,
+			"name": "Darkshore",
+			"sortOrder": 7
 		},
 		{
 			"bounties": [
@@ -2058,12 +2102,12 @@
 					"isDefaultVariation": true
 				},
 				{
-					"artVariationId": 2,
+					"artVariationId": 656,
 					"cardId": 64515,
 					"isDefaultVariation": false
 				},
 				{
-					"artVariationId": 3,
+					"artVariationId": 657,
 					"cardId": 63822,
 					"isDefaultVariation": false
 				}
@@ -22181,7 +22225,7 @@
 					]
 				}
 			],
-			"cardDbfId": 78205,
+			"cardDbfId": 90351,
 			"equipments": [
 			],
 			"id": 228,
@@ -22189,7 +22233,7 @@
 			"skins": [
 				{
 					"artVariationId": 389,
-					"cardId": 78205,
+					"cardId": 90351,
 					"isDefaultVariation": true
 				}
 			],
@@ -24353,16 +24397,6 @@
 					"artVariationId": 419,
 					"cardId": 80835,
 					"isDefaultVariation": true
-				},
-				{
-					"artVariationId": 420,
-					"cardId": 80835,
-					"isDefaultVariation": false
-				},
-				{
-					"artVariationId": 421,
-					"cardId": 80835,
-					"isDefaultVariation": false
 				}
 			],
 			"specializationId": 298,
@@ -40711,6 +40745,980 @@
 		},
 		{
 			"abilities": [
+				{
+					"abilityId": 836,
+					"cardDbfId": 86997,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 86997,
+							"coinCraftCost": 100,
+							"tier": 2
+						}
+					]
+				}
+			],
+			"cardDbfId": 86901,
+			"equipments": [
+			],
+			"id": 330,
+			"name": "Twin-fin Fin Twin",
+			"skins": [
+				{
+					"artVariationId": 585,
+					"cardId": 86901,
+					"isDefaultVariation": true
+				}
+			],
+			"specializationId": 386,
+			"specializationName": "",
+			"stats": [
+				{
+					"attack": 4,
+					"health": 8,
+					"level": 1
+				},
+				{
+					"attack": 4,
+					"health": 8,
+					"level": 2
+				},
+				{
+					"attack": 4,
+					"health": 9,
+					"level": 3
+				},
+				{
+					"attack": 4,
+					"health": 10,
+					"level": 4
+				},
+				{
+					"attack": 4,
+					"health": 11,
+					"level": 5
+				},
+				{
+					"attack": 5,
+					"health": 12,
+					"level": 6
+				},
+				{
+					"attack": 5,
+					"health": 13,
+					"level": 7
+				},
+				{
+					"attack": 5,
+					"health": 14,
+					"level": 8
+				},
+				{
+					"attack": 5,
+					"health": 15,
+					"level": 9
+				},
+				{
+					"attack": 5,
+					"health": 16,
+					"level": 10
+				},
+				{
+					"attack": 6,
+					"health": 17,
+					"level": 11
+				},
+				{
+					"attack": 6,
+					"health": 18,
+					"level": 12
+				},
+				{
+					"attack": 6,
+					"health": 19,
+					"level": 13
+				},
+				{
+					"attack": 6,
+					"health": 20,
+					"level": 14
+				},
+				{
+					"attack": 6,
+					"health": 21,
+					"level": 15
+				},
+				{
+					"attack": 7,
+					"health": 21,
+					"level": 16
+				},
+				{
+					"attack": 7,
+					"health": 22,
+					"level": 17
+				},
+				{
+					"attack": 7,
+					"health": 23,
+					"level": 18
+				},
+				{
+					"attack": 7,
+					"health": 24,
+					"level": 19
+				},
+				{
+					"attack": 7,
+					"health": 25,
+					"level": 20
+				},
+				{
+					"attack": 8,
+					"health": 26,
+					"level": 21
+				},
+				{
+					"attack": 8,
+					"health": 27,
+					"level": 22
+				},
+				{
+					"attack": 8,
+					"health": 28,
+					"level": 23
+				},
+				{
+					"attack": 8,
+					"health": 29,
+					"level": 24
+				},
+				{
+					"attack": 8,
+					"health": 30,
+					"level": 25
+				},
+				{
+					"attack": 9,
+					"health": 31,
+					"level": 26
+				},
+				{
+					"attack": 9,
+					"health": 32,
+					"level": 27
+				},
+				{
+					"attack": 9,
+					"health": 33,
+					"level": 28
+				},
+				{
+					"attack": 9,
+					"health": 34,
+					"level": 29
+				},
+				{
+					"attack": 10,
+					"health": 35,
+					"level": 30
+				}
+			]
+		},
+		{
+			"abilities": [
+				{
+					"abilityId": 837,
+					"cardDbfId": 86999,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 86999,
+							"coinCraftCost": 100,
+							"tier": 2
+						}
+					]
+				},
+				{
+					"abilityId": 838,
+					"cardDbfId": 87000,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 87000,
+							"coinCraftCost": 100,
+							"tier": 2
+						}
+					]
+				}
+			],
+			"cardDbfId": 86998,
+			"equipments": [
+			],
+			"id": 331,
+			"name": "Murloc on a Break",
+			"skins": [
+				{
+					"artVariationId": 586,
+					"cardId": 86998,
+					"isDefaultVariation": true
+				}
+			],
+			"specializationId": 387,
+			"specializationName": "",
+			"stats": [
+				{
+					"attack": 1,
+					"health": 8,
+					"level": 1
+				},
+				{
+					"attack": 1,
+					"health": 9,
+					"level": 2
+				},
+				{
+					"attack": 1,
+					"health": 10,
+					"level": 3
+				},
+				{
+					"attack": 1,
+					"health": 12,
+					"level": 4
+				},
+				{
+					"attack": 1,
+					"health": 13,
+					"level": 5
+				},
+				{
+					"attack": 1,
+					"health": 15,
+					"level": 6
+				},
+				{
+					"attack": 1,
+					"health": 16,
+					"level": 7
+				},
+				{
+					"attack": 1,
+					"health": 18,
+					"level": 8
+				},
+				{
+					"attack": 1,
+					"health": 19,
+					"level": 9
+				},
+				{
+					"attack": 1,
+					"health": 21,
+					"level": 10
+				},
+				{
+					"attack": 1,
+					"health": 22,
+					"level": 11
+				},
+				{
+					"attack": 1,
+					"health": 23,
+					"level": 12
+				},
+				{
+					"attack": 1,
+					"health": 25,
+					"level": 13
+				},
+				{
+					"attack": 1,
+					"health": 26,
+					"level": 14
+				},
+				{
+					"attack": 1,
+					"health": 28,
+					"level": 15
+				},
+				{
+					"attack": 1,
+					"health": 29,
+					"level": 16
+				},
+				{
+					"attack": 1,
+					"health": 31,
+					"level": 17
+				},
+				{
+					"attack": 1,
+					"health": 32,
+					"level": 18
+				},
+				{
+					"attack": 1,
+					"health": 34,
+					"level": 19
+				},
+				{
+					"attack": 1,
+					"health": 35,
+					"level": 20
+				},
+				{
+					"attack": 1,
+					"health": 36,
+					"level": 21
+				},
+				{
+					"attack": 1,
+					"health": 38,
+					"level": 22
+				},
+				{
+					"attack": 1,
+					"health": 39,
+					"level": 23
+				},
+				{
+					"attack": 1,
+					"health": 41,
+					"level": 24
+				},
+				{
+					"attack": 1,
+					"health": 42,
+					"level": 25
+				},
+				{
+					"attack": 1,
+					"health": 44,
+					"level": 26
+				},
+				{
+					"attack": 1,
+					"health": 45,
+					"level": 27
+				},
+				{
+					"attack": 1,
+					"health": 47,
+					"level": 28
+				},
+				{
+					"attack": 1,
+					"health": 48,
+					"level": 29
+				},
+				{
+					"attack": 1,
+					"health": 50,
+					"level": 30
+				}
+			]
+		},
+		{
+			"abilities": [
+				{
+					"abilityId": 575,
+					"cardDbfId": 63746,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 63746,
+							"coinCraftCost": 100,
+							"tier": 1
+						}
+					]
+				},
+				{
+					"abilityId": 319,
+					"cardDbfId": 66306,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 66306,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"cardDbfId": 66307,
+							"coinCraftCost": 50,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 65443,
+							"coinCraftCost": 125,
+							"tier": 3
+						},
+						{
+							"cardDbfId": 76503,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 76508,
+							"coinCraftCost": 150,
+							"tier": 5
+						}
+					]
+				}
+			],
+			"cardDbfId": 87003,
+			"equipments": [
+			],
+			"id": 332,
+			"name": "Bilefin Tidehunter",
+			"skins": [
+				{
+					"artVariationId": 587,
+					"cardId": 87003,
+					"isDefaultVariation": true
+				}
+			],
+			"specializationId": 388,
+			"specializationName": "",
+			"stats": [
+				{
+					"attack": 4,
+					"health": 8,
+					"level": 1
+				},
+				{
+					"attack": 4,
+					"health": 8,
+					"level": 2
+				},
+				{
+					"attack": 4,
+					"health": 9,
+					"level": 3
+				},
+				{
+					"attack": 4,
+					"health": 10,
+					"level": 4
+				},
+				{
+					"attack": 4,
+					"health": 11,
+					"level": 5
+				},
+				{
+					"attack": 4,
+					"health": 12,
+					"level": 6
+				},
+				{
+					"attack": 4,
+					"health": 13,
+					"level": 7
+				},
+				{
+					"attack": 4,
+					"health": 14,
+					"level": 8
+				},
+				{
+					"attack": 4,
+					"health": 15,
+					"level": 9
+				},
+				{
+					"attack": 4,
+					"health": 16,
+					"level": 10
+				},
+				{
+					"attack": 5,
+					"health": 17,
+					"level": 11
+				},
+				{
+					"attack": 5,
+					"health": 18,
+					"level": 12
+				},
+				{
+					"attack": 5,
+					"health": 19,
+					"level": 13
+				},
+				{
+					"attack": 5,
+					"health": 20,
+					"level": 14
+				},
+				{
+					"attack": 5,
+					"health": 21,
+					"level": 15
+				},
+				{
+					"attack": 5,
+					"health": 21,
+					"level": 16
+				},
+				{
+					"attack": 5,
+					"health": 22,
+					"level": 17
+				},
+				{
+					"attack": 5,
+					"health": 23,
+					"level": 18
+				},
+				{
+					"attack": 5,
+					"health": 24,
+					"level": 19
+				},
+				{
+					"attack": 5,
+					"health": 25,
+					"level": 20
+				},
+				{
+					"attack": 6,
+					"health": 26,
+					"level": 21
+				},
+				{
+					"attack": 6,
+					"health": 27,
+					"level": 22
+				},
+				{
+					"attack": 6,
+					"health": 28,
+					"level": 23
+				},
+				{
+					"attack": 6,
+					"health": 29,
+					"level": 24
+				},
+				{
+					"attack": 6,
+					"health": 30,
+					"level": 25
+				},
+				{
+					"attack": 6,
+					"health": 31,
+					"level": 26
+				},
+				{
+					"attack": 6,
+					"health": 32,
+					"level": 27
+				},
+				{
+					"attack": 6,
+					"health": 33,
+					"level": 28
+				},
+				{
+					"attack": 6,
+					"health": 34,
+					"level": 29
+				},
+				{
+					"attack": 7,
+					"health": 35,
+					"level": 30
+				}
+			]
+		},
+		{
+			"abilities": [
+				{
+					"abilityId": 839,
+					"cardDbfId": 87010,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 87010,
+							"coinCraftCost": 100,
+							"tier": 2
+						}
+					]
+				}
+			],
+			"cardDbfId": 87006,
+			"equipments": [
+			],
+			"id": 333,
+			"name": "Voidgill",
+			"skins": [
+				{
+					"artVariationId": 588,
+					"cardId": 87006,
+					"isDefaultVariation": true
+				}
+			],
+			"specializationId": 389,
+			"specializationName": "",
+			"stats": [
+				{
+					"attack": 4,
+					"health": 8,
+					"level": 1
+				},
+				{
+					"attack": 4,
+					"health": 8,
+					"level": 2
+				},
+				{
+					"attack": 4,
+					"health": 9,
+					"level": 3
+				},
+				{
+					"attack": 4,
+					"health": 10,
+					"level": 4
+				},
+				{
+					"attack": 4,
+					"health": 11,
+					"level": 5
+				},
+				{
+					"attack": 4,
+					"health": 11,
+					"level": 6
+				},
+				{
+					"attack": 4,
+					"health": 12,
+					"level": 7
+				},
+				{
+					"attack": 4,
+					"health": 13,
+					"level": 8
+				},
+				{
+					"attack": 4,
+					"health": 14,
+					"level": 9
+				},
+				{
+					"attack": 4,
+					"health": 15,
+					"level": 10
+				},
+				{
+					"attack": 4,
+					"health": 15,
+					"level": 11
+				},
+				{
+					"attack": 4,
+					"health": 16,
+					"level": 12
+				},
+				{
+					"attack": 4,
+					"health": 17,
+					"level": 13
+				},
+				{
+					"attack": 4,
+					"health": 18,
+					"level": 14
+				},
+				{
+					"attack": 4,
+					"health": 19,
+					"level": 15
+				},
+				{
+					"attack": 4,
+					"health": 19,
+					"level": 16
+				},
+				{
+					"attack": 4,
+					"health": 20,
+					"level": 17
+				},
+				{
+					"attack": 4,
+					"health": 21,
+					"level": 18
+				},
+				{
+					"attack": 4,
+					"health": 22,
+					"level": 19
+				},
+				{
+					"attack": 4,
+					"health": 23,
+					"level": 20
+				},
+				{
+					"attack": 4,
+					"health": 23,
+					"level": 21
+				},
+				{
+					"attack": 4,
+					"health": 24,
+					"level": 22
+				},
+				{
+					"attack": 4,
+					"health": 25,
+					"level": 23
+				},
+				{
+					"attack": 4,
+					"health": 26,
+					"level": 24
+				},
+				{
+					"attack": 4,
+					"health": 27,
+					"level": 25
+				},
+				{
+					"attack": 4,
+					"health": 27,
+					"level": 26
+				},
+				{
+					"attack": 4,
+					"health": 28,
+					"level": 27
+				},
+				{
+					"attack": 4,
+					"health": 29,
+					"level": 28
+				},
+				{
+					"attack": 4,
+					"health": 30,
+					"level": 29
+				},
+				{
+					"attack": 5,
+					"health": 31,
+					"level": 30
+				}
+			]
+		},
+		{
+			"abilities": [
+				{
+					"abilityId": 317,
+					"cardDbfId": 70807,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 70807,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"cardDbfId": 70806,
+							"coinCraftCost": 50,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 70805,
+							"coinCraftCost": 125,
+							"tier": 3
+						},
+						{
+							"cardDbfId": 76493,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 76494,
+							"coinCraftCost": 150,
+							"tier": 5
+						}
+					]
+				}
+			],
+			"cardDbfId": 87016,
+			"equipments": [
+			],
+			"id": 334,
+			"name": "Clownfish",
+			"skins": [
+				{
+					"artVariationId": 589,
+					"cardId": 87016,
+					"isDefaultVariation": true
+				}
+			],
+			"specializationId": 390,
+			"specializationName": "",
+			"stats": [
+				{
+					"attack": 4,
+					"health": 8,
+					"level": 1
+				},
+				{
+					"attack": 4,
+					"health": 8,
+					"level": 2
+				},
+				{
+					"attack": 4,
+					"health": 9,
+					"level": 3
+				},
+				{
+					"attack": 4,
+					"health": 10,
+					"level": 4
+				},
+				{
+					"attack": 4,
+					"health": 11,
+					"level": 5
+				},
+				{
+					"attack": 5,
+					"health": 12,
+					"level": 6
+				},
+				{
+					"attack": 5,
+					"health": 12,
+					"level": 7
+				},
+				{
+					"attack": 5,
+					"health": 13,
+					"level": 8
+				},
+				{
+					"attack": 5,
+					"health": 14,
+					"level": 9
+				},
+				{
+					"attack": 5,
+					"health": 15,
+					"level": 10
+				},
+				{
+					"attack": 6,
+					"health": 16,
+					"level": 11
+				},
+				{
+					"attack": 6,
+					"health": 17,
+					"level": 12
+				},
+				{
+					"attack": 6,
+					"health": 17,
+					"level": 13
+				},
+				{
+					"attack": 6,
+					"health": 18,
+					"level": 14
+				},
+				{
+					"attack": 6,
+					"health": 19,
+					"level": 15
+				},
+				{
+					"attack": 7,
+					"health": 20,
+					"level": 16
+				},
+				{
+					"attack": 7,
+					"health": 21,
+					"level": 17
+				},
+				{
+					"attack": 7,
+					"health": 22,
+					"level": 18
+				},
+				{
+					"attack": 7,
+					"health": 22,
+					"level": 19
+				},
+				{
+					"attack": 7,
+					"health": 23,
+					"level": 20
+				},
+				{
+					"attack": 8,
+					"health": 24,
+					"level": 21
+				},
+				{
+					"attack": 8,
+					"health": 25,
+					"level": 22
+				},
+				{
+					"attack": 8,
+					"health": 26,
+					"level": 23
+				},
+				{
+					"attack": 8,
+					"health": 27,
+					"level": 24
+				},
+				{
+					"attack": 8,
+					"health": 27,
+					"level": 25
+				},
+				{
+					"attack": 9,
+					"health": 28,
+					"level": 26
+				},
+				{
+					"attack": 9,
+					"health": 29,
+					"level": 27
+				},
+				{
+					"attack": 9,
+					"health": 30,
+					"level": 28
+				},
+				{
+					"attack": 9,
+					"health": 31,
+					"level": 29
+				},
+				{
+					"attack": 10,
+					"health": 32,
+					"level": 30
+				}
+			]
+		},
+		{
+			"abilities": [
 			],
 			"cardDbfId": 87031,
 			"equipments": [
@@ -40880,335 +41888,1753 @@
 		{
 			"abilities": [
 				{
-					"abilityId": 563,
-					"cardDbfId": 73677,
+					"abilityId": 552,
+					"cardDbfId": 73555,
 					"mercenaryRequiredLevel": 1,
 					"tiers": [
 						{
-							"cardDbfId": 73677,
+							"cardDbfId": 73555,
 							"coinCraftCost": 0,
 							"tier": 1
 						},
 						{
-							"cardDbfId": 73678,
+							"cardDbfId": 73554,
 							"coinCraftCost": 50,
 							"tier": 2
 						},
 						{
-							"cardDbfId": 73679,
-							"coinCraftCost": 150,
+							"cardDbfId": 73536,
+							"coinCraftCost": 125,
 							"tier": 3
+						},
+						{
+							"cardDbfId": 76897,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 76898,
+							"coinCraftCost": 150,
+							"tier": 5
 						}
 					]
 				},
 				{
-					"abilityId": 171,
-					"cardDbfId": 66294,
+					"abilityId": 269,
+					"cardDbfId": 66164,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 66164,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"cardDbfId": 66165,
+							"coinCraftCost": 50,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 65399,
+							"coinCraftCost": 125,
+							"tier": 3
+						},
+						{
+							"cardDbfId": 76408,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 76409,
+							"coinCraftCost": 150,
+							"tier": 5
+						}
+					]
+				}
+			],
+			"cardDbfId": 87032,
+			"equipments": [
+			],
+			"id": 336,
+			"name": "Sunken Scavenger",
+			"skins": [
+				{
+					"artVariationId": 591,
+					"cardId": 87032,
+					"isDefaultVariation": true
+				}
+			],
+			"specializationId": 391,
+			"specializationName": "",
+			"stats": [
+				{
+					"attack": 4,
+					"health": 8,
+					"level": 1
+				},
+				{
+					"attack": 4,
+					"health": 8,
+					"level": 2
+				},
+				{
+					"attack": 4,
+					"health": 9,
+					"level": 3
+				},
+				{
+					"attack": 4,
+					"health": 10,
+					"level": 4
+				},
+				{
+					"attack": 4,
+					"health": 11,
+					"level": 5
+				},
+				{
+					"attack": 5,
+					"health": 12,
+					"level": 6
+				},
+				{
+					"attack": 5,
+					"health": 13,
+					"level": 7
+				},
+				{
+					"attack": 5,
+					"health": 14,
+					"level": 8
+				},
+				{
+					"attack": 5,
+					"health": 15,
+					"level": 9
+				},
+				{
+					"attack": 5,
+					"health": 16,
+					"level": 10
+				},
+				{
+					"attack": 6,
+					"health": 17,
+					"level": 11
+				},
+				{
+					"attack": 6,
+					"health": 18,
+					"level": 12
+				},
+				{
+					"attack": 6,
+					"health": 19,
+					"level": 13
+				},
+				{
+					"attack": 6,
+					"health": 20,
+					"level": 14
+				},
+				{
+					"attack": 6,
+					"health": 21,
+					"level": 15
+				},
+				{
+					"attack": 7,
+					"health": 22,
+					"level": 16
+				},
+				{
+					"attack": 7,
+					"health": 23,
+					"level": 17
+				},
+				{
+					"attack": 7,
+					"health": 24,
+					"level": 18
+				},
+				{
+					"attack": 7,
+					"health": 25,
+					"level": 19
+				},
+				{
+					"attack": 7,
+					"health": 26,
+					"level": 20
+				},
+				{
+					"attack": 8,
+					"health": 27,
+					"level": 21
+				},
+				{
+					"attack": 8,
+					"health": 28,
+					"level": 22
+				},
+				{
+					"attack": 8,
+					"health": 29,
+					"level": 23
+				},
+				{
+					"attack": 8,
+					"health": 30,
+					"level": 24
+				},
+				{
+					"attack": 8,
+					"health": 31,
+					"level": 25
+				},
+				{
+					"attack": 9,
+					"health": 32,
+					"level": 26
+				},
+				{
+					"attack": 9,
+					"health": 33,
+					"level": 27
+				},
+				{
+					"attack": 9,
+					"health": 34,
+					"level": 28
+				},
+				{
+					"attack": 9,
+					"health": 35,
+					"level": 29
+				},
+				{
+					"attack": 10,
+					"health": 36,
+					"level": 30
+				}
+			]
+		},
+		{
+			"abilities": [
+				{
+					"abilityId": 328,
+					"cardDbfId": 71417,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 71417,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"cardDbfId": 71416,
+							"coinCraftCost": 50,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 70820,
+							"coinCraftCost": 125,
+							"tier": 3
+						},
+						{
+							"cardDbfId": 76482,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 76483,
+							"coinCraftCost": 150,
+							"tier": 5
+						}
+					]
+				},
+				{
+					"abilityId": 70,
+					"cardDbfId": 66437,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 66437,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"cardDbfId": 66436,
+							"coinCraftCost": 50,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 63807,
+							"coinCraftCost": 125,
+							"tier": 3
+						},
+						{
+							"cardDbfId": 76485,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 76486,
+							"coinCraftCost": 150,
+							"tier": 5
+						}
+					]
+				},
+				{
+					"abilityId": 329,
+					"cardDbfId": 71421,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 71421,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"cardDbfId": 71420,
+							"coinCraftCost": 50,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 70829,
+							"coinCraftCost": 125,
+							"tier": 3
+						},
+						{
+							"cardDbfId": 76489,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 76490,
+							"coinCraftCost": 150,
+							"tier": 5
+						}
+					]
+				}
+			],
+			"cardDbfId": 87033,
+			"equipments": [
+			],
+			"id": 337,
+			"name": "Shell Lurker",
+			"skins": [
+				{
+					"artVariationId": 592,
+					"cardId": 87033,
+					"isDefaultVariation": true
+				}
+			],
+			"specializationId": 392,
+			"specializationName": "",
+			"stats": [
+				{
+					"attack": 4,
+					"health": 8,
+					"level": 1
+				},
+				{
+					"attack": 4,
+					"health": 8,
+					"level": 2
+				},
+				{
+					"attack": 4,
+					"health": 9,
+					"level": 3
+				},
+				{
+					"attack": 4,
+					"health": 10,
+					"level": 4
+				},
+				{
+					"attack": 4,
+					"health": 11,
+					"level": 5
+				},
+				{
+					"attack": 4,
+					"health": 11,
+					"level": 6
+				},
+				{
+					"attack": 4,
+					"health": 12,
+					"level": 7
+				},
+				{
+					"attack": 4,
+					"health": 13,
+					"level": 8
+				},
+				{
+					"attack": 4,
+					"health": 14,
+					"level": 9
+				},
+				{
+					"attack": 4,
+					"health": 14,
+					"level": 10
+				},
+				{
+					"attack": 4,
+					"health": 15,
+					"level": 11
+				},
+				{
+					"attack": 4,
+					"health": 16,
+					"level": 12
+				},
+				{
+					"attack": 4,
+					"health": 17,
+					"level": 13
+				},
+				{
+					"attack": 4,
+					"health": 17,
+					"level": 14
+				},
+				{
+					"attack": 4,
+					"health": 18,
+					"level": 15
+				},
+				{
+					"attack": 4,
+					"health": 19,
+					"level": 16
+				},
+				{
+					"attack": 4,
+					"health": 20,
+					"level": 17
+				},
+				{
+					"attack": 4,
+					"health": 20,
+					"level": 18
+				},
+				{
+					"attack": 4,
+					"health": 21,
+					"level": 19
+				},
+				{
+					"attack": 4,
+					"health": 22,
+					"level": 20
+				},
+				{
+					"attack": 4,
+					"health": 23,
+					"level": 21
+				},
+				{
+					"attack": 4,
+					"health": 23,
+					"level": 22
+				},
+				{
+					"attack": 4,
+					"health": 24,
+					"level": 23
+				},
+				{
+					"attack": 4,
+					"health": 25,
+					"level": 24
+				},
+				{
+					"attack": 4,
+					"health": 26,
+					"level": 25
+				},
+				{
+					"attack": 4,
+					"health": 26,
+					"level": 26
+				},
+				{
+					"attack": 4,
+					"health": 27,
+					"level": 27
+				},
+				{
+					"attack": 4,
+					"health": 28,
+					"level": 28
+				},
+				{
+					"attack": 4,
+					"health": 29,
+					"level": 29
+				},
+				{
+					"attack": 5,
+					"health": 30,
+					"level": 30
+				}
+			]
+		},
+		{
+			"abilities": [
+				{
+					"abilityId": 847,
+					"cardDbfId": 87103,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 87103,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"cardDbfId": 87105,
+							"coinCraftCost": 50,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 87106,
+							"coinCraftCost": 125,
+							"tier": 3
+						},
+						{
+							"cardDbfId": 87107,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 87108,
+							"coinCraftCost": 150,
+							"tier": 5
+						}
+					]
+				},
+				{
+					"abilityId": 848,
+					"cardDbfId": 87110,
 					"mercenaryRequiredLevel": 5,
 					"tiers": [
 						{
-							"cardDbfId": 66294,
+							"cardDbfId": 87110,
 							"coinCraftCost": 0,
 							"tier": 1
 						},
 						{
-							"cardDbfId": 66295,
+							"cardDbfId": 87115,
 							"coinCraftCost": 50,
 							"tier": 2
 						},
 						{
-							"cardDbfId": 65358,
-							"coinCraftCost": 100,
+							"cardDbfId": 87116,
+							"coinCraftCost": 125,
 							"tier": 3
+						},
+						{
+							"cardDbfId": 87117,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 87120,
+							"coinCraftCost": 150,
+							"tier": 5
 						}
 					]
 				},
 				{
-					"abilityId": 364,
-					"cardDbfId": 70964,
+					"abilityId": 849,
+					"cardDbfId": 87121,
 					"mercenaryRequiredLevel": 15,
 					"tiers": [
 						{
-							"cardDbfId": 70964,
+							"cardDbfId": 87121,
 							"coinCraftCost": 0,
 							"tier": 1
 						},
 						{
-							"cardDbfId": 70963,
+							"cardDbfId": 87122,
 							"coinCraftCost": 50,
 							"tier": 2
 						},
 						{
-							"cardDbfId": 70960,
-							"coinCraftCost": 150,
+							"cardDbfId": 87123,
+							"coinCraftCost": 125,
 							"tier": 3
+						},
+						{
+							"cardDbfId": 87124,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 87125,
+							"coinCraftCost": 150,
+							"tier": 5
 						}
 					]
 				}
 			],
-			"cardDbfId": 64567,
+			"cardDbfId": 87091,
 			"equipments": [
 				{
-					"cardDbfId": 71588,
-					"equipmentId": 178,
-					"tiers": [
-						{
-							"cardDbfId": 71588,
-							"coinCraftCost": 0,
-							"tier": 1
-						},
-						{
-							"attackModifier": 0,
-							"cardDbfId": 70965,
-							"coinCraftCost": 100,
-							"healthModifier": 0,
-							"tier": 2
-						},
-						{
-							"cardDbfId": 71589,
-							"coinCraftCost": 150,
-							"tier": 3
-						},
-						{
-							"attackModifier": 0,
-							"cardDbfId": 71590,
-							"coinCraftCost": 175,
-							"healthModifier": 0,
-							"tier": 4
-						}
-					]
-				},
-				{
-					"cardDbfId": 73692,
-					"equipmentId": 179,
+					"cardDbfId": 87126,
+					"equipmentId": 356,
 					"tiers": [
 						{
 							"attackModifier": 0,
-							"cardDbfId": 73692,
+							"cardDbfId": 87126,
 							"coinCraftCost": 0,
 							"healthModifier": 0,
 							"tier": 1
 						},
 						{
-							"cardDbfId": 73693,
+							"cardDbfId": 87128,
 							"coinCraftCost": 100,
 							"tier": 2
 						},
 						{
 							"attackModifier": 0,
-							"cardDbfId": 71149,
+							"cardDbfId": 87129,
 							"coinCraftCost": 150,
 							"healthModifier": 0,
 							"tier": 3
 						},
 						{
-							"cardDbfId": 73694,
+							"cardDbfId": 87130,
 							"coinCraftCost": 175,
 							"tier": 4
 						}
 					]
 				},
 				{
-					"cardDbfId": 73695,
-					"equipmentId": 180,
+					"cardDbfId": 87131,
+					"equipmentId": 357,
 					"tiers": [
 						{
-							"cardDbfId": 73695,
+							"attackModifier": 0,
+							"cardDbfId": 87131,
 							"coinCraftCost": 0,
+							"healthModifier": 0,
 							"tier": 1
 						},
 						{
-							"attackModifier": 0,
-							"cardDbfId": 73696,
+							"cardDbfId": 87132,
 							"coinCraftCost": 100,
-							"healthModifier": 0,
 							"tier": 2
 						},
 						{
-							"cardDbfId": 71150,
+							"cardDbfId": 87133,
 							"coinCraftCost": 150,
 							"tier": 3
 						},
 						{
-							"attackModifier": 0,
-							"cardDbfId": 73697,
+							"cardDbfId": 87134,
 							"coinCraftCost": 175,
-							"healthModifier": 0,
+							"tier": 4
+						}
+					]
+				},
+				{
+					"cardDbfId": 87135,
+					"equipmentId": 358,
+					"tiers": [
+						{
+							"cardDbfId": 87135,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"cardDbfId": 87138,
+							"coinCraftCost": 100,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 87139,
+							"coinCraftCost": 150,
+							"tier": 3
+						},
+						{
+							"cardDbfId": 87140,
+							"coinCraftCost": 175,
 							"tier": 4
 						}
 					]
 				}
 			],
-			"id": 35,
-			"name": "Medivh",
+			"id": 341,
+			"name": "N'Zoth",
 			"skins": [
 				{
-					"artVariationId": 71,
-					"cardId": 64567,
+					"artVariationId": 600,
+					"cardId": 87091,
 					"isDefaultVariation": true
 				},
 				{
-					"artVariationId": 72,
-					"cardId": 64566,
+					"artVariationId": 601,
+					"cardId": 87092,
 					"isDefaultVariation": false
 				},
 				{
-					"artVariationId": 73,
-					"cardId": 64565,
+					"artVariationId": 602,
+					"cardId": 87093,
 					"isDefaultVariation": false
 				}
 			],
-			"specializationId": 63,
-			"specializationName": "Arcane",
+			"specializationId": 396,
+			"specializationName": "Combo",
 			"stats": [
 				{
-					"attack": 1,
+					"attack": 3,
 					"health": 10,
 					"level": 1
 				},
 				{
-					"attack": 1,
-					"health": 11,
+					"attack": 3,
+					"health": 12,
 					"level": 2
 				},
 				{
-					"attack": 1,
-					"health": 13,
+					"attack": 3,
+					"health": 14,
 					"level": 3
 				},
 				{
-					"attack": 1,
-					"health": 14,
+					"attack": 3,
+					"health": 16,
 					"level": 4
 				},
 				{
-					"attack": 1,
-					"health": 16,
+					"attack": 3,
+					"health": 18,
 					"level": 5
 				},
 				{
-					"attack": 1,
-					"health": 17,
+					"attack": 4,
+					"health": 21,
 					"level": 6
 				},
 				{
-					"attack": 1,
-					"health": 19,
+					"attack": 4,
+					"health": 23,
 					"level": 7
 				},
 				{
-					"attack": 1,
-					"health": 20,
+					"attack": 4,
+					"health": 25,
 					"level": 8
 				},
 				{
-					"attack": 1,
-					"health": 22,
+					"attack": 4,
+					"health": 27,
 					"level": 9
 				},
 				{
-					"attack": 1,
-					"health": 23,
+					"attack": 4,
+					"health": 30,
 					"level": 10
 				},
 				{
-					"attack": 1,
-					"health": 25,
+					"attack": 5,
+					"health": 32,
 					"level": 11
 				},
 				{
-					"attack": 1,
-					"health": 27,
+					"attack": 5,
+					"health": 34,
 					"level": 12
 				},
 				{
-					"attack": 1,
-					"health": 28,
+					"attack": 5,
+					"health": 36,
 					"level": 13
 				},
 				{
-					"attack": 1,
-					"health": 30,
+					"attack": 5,
+					"health": 39,
 					"level": 14
 				},
 				{
-					"attack": 1,
-					"health": 31,
+					"attack": 5,
+					"health": 41,
 					"level": 15
 				},
 				{
-					"attack": 2,
-					"health": 33,
+					"attack": 6,
+					"health": 43,
 					"level": 16
 				},
 				{
-					"attack": 2,
-					"health": 34,
+					"attack": 6,
+					"health": 45,
 					"level": 17
 				},
 				{
-					"attack": 2,
-					"health": 36,
+					"attack": 6,
+					"health": 48,
 					"level": 18
 				},
 				{
-					"attack": 2,
-					"health": 37,
+					"attack": 6,
+					"health": 50,
 					"level": 19
 				},
 				{
-					"attack": 2,
-					"health": 39,
+					"attack": 6,
+					"health": 52,
 					"level": 20
 				},
 				{
-					"attack": 2,
-					"health": 41,
+					"attack": 7,
+					"health": 54,
 					"level": 21
 				},
 				{
-					"attack": 2,
-					"health": 42,
+					"attack": 7,
+					"health": 57,
 					"level": 22
 				},
 				{
-					"attack": 2,
-					"health": 44,
+					"attack": 7,
+					"health": 59,
 					"level": 23
 				},
 				{
-					"attack": 2,
-					"health": 45,
+					"attack": 7,
+					"health": 61,
 					"level": 24
 				},
 				{
-					"attack": 2,
-					"health": 47,
+					"attack": 7,
+					"health": 63,
 					"level": 25
 				},
 				{
-					"attack": 2,
-					"health": 48,
+					"attack": 8,
+					"health": 66,
 					"level": 26
 				},
 				{
-					"attack": 2,
-					"health": 50,
+					"attack": 8,
+					"health": 68,
 					"level": 27
 				},
 				{
-					"attack": 2,
-					"health": 51,
+					"attack": 8,
+					"health": 70,
 					"level": 28
 				},
 				{
-					"attack": 2,
-					"health": 53,
+					"attack": 8,
+					"health": 72,
 					"level": 29
 				},
 				{
+					"attack": 9,
+					"health": 75,
+					"level": 30
+				}
+			]
+		},
+		{
+			"abilities": [
+				{
+					"abilityId": 328,
+					"cardDbfId": 71417,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 71417,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"cardDbfId": 71416,
+							"coinCraftCost": 50,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 70820,
+							"coinCraftCost": 125,
+							"tier": 3
+						},
+						{
+							"cardDbfId": 76482,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 76483,
+							"coinCraftCost": 150,
+							"tier": 5
+						}
+					]
+				},
+				{
+					"abilityId": 840,
+					"cardDbfId": 87035,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 87035,
+							"coinCraftCost": 100,
+							"tier": 2
+						}
+					]
+				},
+				{
+					"abilityId": 234,
+					"cardDbfId": 66310,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 66310,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"cardDbfId": 66311,
+							"coinCraftCost": 50,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 65458,
+							"coinCraftCost": 125,
+							"tier": 3
+						},
+						{
+							"cardDbfId": 76495,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 76497,
+							"coinCraftCost": 150,
+							"tier": 5
+						}
+					]
+				}
+			],
+			"cardDbfId": 87034,
+			"equipments": [
+			],
+			"id": 346,
+			"name": "Dark-Depths Feastbringer",
+			"skins": [
+				{
+					"artVariationId": 611,
+					"cardId": 87034,
+					"isDefaultVariation": true
+				}
+			],
+			"specializationId": 401,
+			"specializationName": "",
+			"stats": [
+				{
+					"attack": 4,
+					"health": 8,
+					"level": 1
+				},
+				{
+					"attack": 4,
+					"health": 9,
+					"level": 2
+				},
+				{
+					"attack": 4,
+					"health": 10,
+					"level": 3
+				},
+				{
+					"attack": 4,
+					"health": 12,
+					"level": 4
+				},
+				{
+					"attack": 4,
+					"health": 13,
+					"level": 5
+				},
+				{
+					"attack": 5,
+					"health": 14,
+					"level": 6
+				},
+				{
+					"attack": 5,
+					"health": 16,
+					"level": 7
+				},
+				{
+					"attack": 5,
+					"health": 17,
+					"level": 8
+				},
+				{
+					"attack": 5,
+					"health": 19,
+					"level": 9
+				},
+				{
+					"attack": 5,
+					"health": 20,
+					"level": 10
+				},
+				{
+					"attack": 6,
+					"health": 21,
+					"level": 11
+				},
+				{
+					"attack": 6,
+					"health": 23,
+					"level": 12
+				},
+				{
+					"attack": 6,
+					"health": 24,
+					"level": 13
+				},
+				{
+					"attack": 6,
+					"health": 25,
+					"level": 14
+				},
+				{
+					"attack": 6,
+					"health": 27,
+					"level": 15
+				},
+				{
+					"attack": 7,
+					"health": 28,
+					"level": 16
+				},
+				{
+					"attack": 7,
+					"health": 30,
+					"level": 17
+				},
+				{
+					"attack": 7,
+					"health": 31,
+					"level": 18
+				},
+				{
+					"attack": 7,
+					"health": 32,
+					"level": 19
+				},
+				{
+					"attack": 7,
+					"health": 34,
+					"level": 20
+				},
+				{
+					"attack": 8,
+					"health": 35,
+					"level": 21
+				},
+				{
+					"attack": 8,
+					"health": 36,
+					"level": 22
+				},
+				{
+					"attack": 8,
+					"health": 38,
+					"level": 23
+				},
+				{
+					"attack": 8,
+					"health": 39,
+					"level": 24
+				},
+				{
+					"attack": 8,
+					"health": 41,
+					"level": 25
+				},
+				{
+					"attack": 9,
+					"health": 42,
+					"level": 26
+				},
+				{
+					"attack": 9,
+					"health": 43,
+					"level": 27
+				},
+				{
+					"attack": 9,
+					"health": 45,
+					"level": 28
+				},
+				{
+					"attack": 9,
+					"health": 46,
+					"level": 29
+				},
+				{
+					"attack": 10,
+					"health": 48,
+					"level": 30
+				}
+			]
+		},
+		{
+			"abilities": [
+				{
+					"abilityId": 328,
+					"cardDbfId": 71417,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 71417,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"cardDbfId": 71416,
+							"coinCraftCost": 50,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 70820,
+							"coinCraftCost": 125,
+							"tier": 3
+						},
+						{
+							"cardDbfId": 76482,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 76483,
+							"coinCraftCost": 150,
+							"tier": 5
+						}
+					]
+				},
+				{
+					"abilityId": 70,
+					"cardDbfId": 66437,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 66437,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"cardDbfId": 66436,
+							"coinCraftCost": 50,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 63807,
+							"coinCraftCost": 125,
+							"tier": 3
+						},
+						{
+							"cardDbfId": 76485,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 76486,
+							"coinCraftCost": 150,
+							"tier": 5
+						}
+					]
+				},
+				{
+					"abilityId": 329,
+					"cardDbfId": 71421,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 71421,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"cardDbfId": 71420,
+							"coinCraftCost": 50,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 70829,
+							"coinCraftCost": 125,
+							"tier": 3
+						},
+						{
+							"cardDbfId": 76489,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 76490,
+							"coinCraftCost": 150,
+							"tier": 5
+						}
+					]
+				}
+			],
+			"cardDbfId": 90357,
+			"equipments": [
+			],
+			"id": 347,
+			"name": "Shell Lurker",
+			"skins": [
+				{
+					"artVariationId": 612,
+					"cardId": 90357,
+					"isDefaultVariation": true
+				}
+			],
+			"specializationId": 402,
+			"specializationName": "",
+			"stats": [
+				{
+					"attack": 4,
+					"health": 8,
+					"level": 1
+				},
+				{
+					"attack": 4,
+					"health": 9,
+					"level": 2
+				},
+				{
+					"attack": 4,
+					"health": 10,
+					"level": 3
+				},
+				{
+					"attack": 4,
+					"health": 12,
+					"level": 4
+				},
+				{
+					"attack": 4,
+					"health": 13,
+					"level": 5
+				},
+				{
+					"attack": 5,
+					"health": 14,
+					"level": 6
+				},
+				{
+					"attack": 5,
+					"health": 16,
+					"level": 7
+				},
+				{
+					"attack": 5,
+					"health": 17,
+					"level": 8
+				},
+				{
+					"attack": 5,
+					"health": 19,
+					"level": 9
+				},
+				{
+					"attack": 5,
+					"health": 20,
+					"level": 10
+				},
+				{
+					"attack": 6,
+					"health": 21,
+					"level": 11
+				},
+				{
+					"attack": 6,
+					"health": 23,
+					"level": 12
+				},
+				{
+					"attack": 6,
+					"health": 24,
+					"level": 13
+				},
+				{
+					"attack": 6,
+					"health": 25,
+					"level": 14
+				},
+				{
+					"attack": 6,
+					"health": 27,
+					"level": 15
+				},
+				{
+					"attack": 7,
+					"health": 28,
+					"level": 16
+				},
+				{
+					"attack": 7,
+					"health": 30,
+					"level": 17
+				},
+				{
+					"attack": 7,
+					"health": 31,
+					"level": 18
+				},
+				{
+					"attack": 7,
+					"health": 32,
+					"level": 19
+				},
+				{
+					"attack": 7,
+					"health": 34,
+					"level": 20
+				},
+				{
+					"attack": 8,
+					"health": 35,
+					"level": 21
+				},
+				{
+					"attack": 8,
+					"health": 36,
+					"level": 22
+				},
+				{
+					"attack": 8,
+					"health": 38,
+					"level": 23
+				},
+				{
+					"attack": 8,
+					"health": 39,
+					"level": 24
+				},
+				{
+					"attack": 8,
+					"health": 41,
+					"level": 25
+				},
+				{
+					"attack": 9,
+					"health": 42,
+					"level": 26
+				},
+				{
+					"attack": 9,
+					"health": 43,
+					"level": 27
+				},
+				{
+					"attack": 9,
+					"health": 45,
+					"level": 28
+				},
+				{
+					"attack": 9,
+					"health": 46,
+					"level": 29
+				},
+				{
+					"attack": 10,
+					"health": 48,
+					"level": 30
+				}
+			]
+		},
+		{
+			"abilities": [
+				{
+					"abilityId": 853,
+					"cardDbfId": 87714,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 87714,
+							"coinCraftCost": 100,
+							"tier": 2
+						}
+					]
+				},
+				{
+					"abilityId": 415,
+					"cardDbfId": 71447,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 71447,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"cardDbfId": 71446,
+							"coinCraftCost": 50,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 71301,
+							"coinCraftCost": 125,
+							"tier": 3
+						},
+						{
+							"cardDbfId": 76442,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 76443,
+							"coinCraftCost": 150,
+							"tier": 5
+						}
+					]
+				}
+			],
+			"cardDbfId": 87711,
+			"equipments": [
+			],
+			"id": 352,
+			"name": "Worgen Worshiper",
+			"skins": [
+				{
+					"artVariationId": 617,
+					"cardId": 87711,
+					"isDefaultVariation": true
+				}
+			],
+			"specializationId": 407,
+			"specializationName": "",
+			"stats": [
+				{
+					"attack": 4,
+					"health": 8,
+					"level": 1
+				},
+				{
+					"attack": 4,
+					"health": 9,
+					"level": 2
+				},
+				{
+					"attack": 4,
+					"health": 10,
+					"level": 3
+				},
+				{
+					"attack": 4,
+					"health": 12,
+					"level": 4
+				},
+				{
+					"attack": 4,
+					"health": 13,
+					"level": 5
+				},
+				{
+					"attack": 5,
+					"health": 14,
+					"level": 6
+				},
+				{
+					"attack": 5,
+					"health": 16,
+					"level": 7
+				},
+				{
+					"attack": 5,
+					"health": 17,
+					"level": 8
+				},
+				{
+					"attack": 5,
+					"health": 19,
+					"level": 9
+				},
+				{
+					"attack": 5,
+					"health": 20,
+					"level": 10
+				},
+				{
+					"attack": 6,
+					"health": 21,
+					"level": 11
+				},
+				{
+					"attack": 6,
+					"health": 23,
+					"level": 12
+				},
+				{
+					"attack": 6,
+					"health": 24,
+					"level": 13
+				},
+				{
+					"attack": 6,
+					"health": 25,
+					"level": 14
+				},
+				{
+					"attack": 6,
+					"health": 27,
+					"level": 15
+				},
+				{
+					"attack": 7,
+					"health": 28,
+					"level": 16
+				},
+				{
+					"attack": 7,
+					"health": 30,
+					"level": 17
+				},
+				{
+					"attack": 7,
+					"health": 31,
+					"level": 18
+				},
+				{
+					"attack": 7,
+					"health": 32,
+					"level": 19
+				},
+				{
+					"attack": 7,
+					"health": 34,
+					"level": 20
+				},
+				{
+					"attack": 8,
+					"health": 35,
+					"level": 21
+				},
+				{
+					"attack": 8,
+					"health": 36,
+					"level": 22
+				},
+				{
+					"attack": 8,
+					"health": 38,
+					"level": 23
+				},
+				{
+					"attack": 8,
+					"health": 39,
+					"level": 24
+				},
+				{
+					"attack": 8,
+					"health": 41,
+					"level": 25
+				},
+				{
+					"attack": 9,
+					"health": 42,
+					"level": 26
+				},
+				{
+					"attack": 9,
+					"health": 43,
+					"level": 27
+				},
+				{
+					"attack": 9,
+					"health": 45,
+					"level": 28
+				},
+				{
+					"attack": 9,
+					"health": 46,
+					"level": 29
+				},
+				{
+					"attack": 10,
+					"health": 48,
+					"level": 30
+				}
+			]
+		},
+		{
+			"abilities": [
+			],
+			"cardDbfId": 90848,
+			"equipments": [
+			],
+			"id": 375,
+			"name": "Event N'zoth",
+			"skins": [
+				{
+					"artVariationId": 664,
+					"cardId": 90848,
+					"isDefaultVariation": true
+				}
+			],
+			"stats": [
+				{
+					"attack": 2,
+					"health": 10,
+					"level": 1
+				},
+				{
+					"attack": 2,
+					"health": 12,
+					"level": 2
+				},
+				{
+					"attack": 2,
+					"health": 14,
+					"level": 3
+				},
+				{
+					"attack": 2,
+					"health": 16,
+					"level": 4
+				},
+				{
+					"attack": 2,
+					"health": 18,
+					"level": 5
+				},
+				{
 					"attack": 3,
+					"health": 20,
+					"level": 6
+				},
+				{
+					"attack": 3,
+					"health": 22,
+					"level": 7
+				},
+				{
+					"attack": 3,
+					"health": 24,
+					"level": 8
+				},
+				{
+					"attack": 3,
+					"health": 26,
+					"level": 9
+				},
+				{
+					"attack": 4,
+					"health": 28,
+					"level": 10
+				},
+				{
+					"attack": 4,
+					"health": 30,
+					"level": 11
+				},
+				{
+					"attack": 4,
+					"health": 32,
+					"level": 12
+				},
+				{
+					"attack": 4,
+					"health": 34,
+					"level": 13
+				},
+				{
+					"attack": 5,
+					"health": 36,
+					"level": 14
+				},
+				{
+					"attack": 5,
+					"health": 38,
+					"level": 15
+				},
+				{
+					"attack": 5,
+					"health": 41,
+					"level": 16
+				},
+				{
+					"attack": 5,
+					"health": 43,
+					"level": 17
+				},
+				{
+					"attack": 6,
+					"health": 45,
+					"level": 18
+				},
+				{
+					"attack": 6,
+					"health": 47,
+					"level": 19
+				},
+				{
+					"attack": 6,
+					"health": 49,
+					"level": 20
+				},
+				{
+					"attack": 6,
+					"health": 51,
+					"level": 21
+				},
+				{
+					"attack": 7,
+					"health": 53,
+					"level": 22
+				},
+				{
+					"attack": 7,
 					"health": 55,
+					"level": 23
+				},
+				{
+					"attack": 7,
+					"health": 57,
+					"level": 24
+				},
+				{
+					"attack": 7,
+					"health": 59,
+					"level": 25
+				},
+				{
+					"attack": 8,
+					"health": 61,
+					"level": 26
+				},
+				{
+					"attack": 8,
+					"health": 63,
+					"level": 27
+				},
+				{
+					"attack": 8,
+					"health": 65,
+					"level": 28
+				},
+				{
+					"attack": 8,
+					"health": 67,
+					"level": 29
+				},
+				{
+					"attack": 9,
+					"health": 70,
 					"level": 30
 				}
 			]
@@ -58684,7 +61110,7 @@
 					"title": "Scurry, Weak Ones"
 				},
 				{
-					"description": "Destroy 40 Dragons using Dragonslayer Shot.",
+					"description": "Destroy 40 Dragons.",
 					"id": 26912,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -80550,7 +82976,7 @@
 					"title": "Dragons, Assemble!"
 				},
 				{
-					"description": "Deal 300 Arcane Damage with this Mercenary.",
+					"description": "Deal 300 damage.",
 					"id": 28639,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -82988,7 +85414,7 @@
 					"title": "Let's Do This!"
 				},
 				{
-					"description": "Deal 50 or more damage in one turn using Leeeeeroooy Jenkiiins! 20 times.",
+					"description": "Deal 500 damage.",
 					"id": 28835,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -85114,6 +87540,594 @@
 						}
 					],
 					"title": "The Murky Lord"
+				}
+			]
+		},
+		{
+			"id": 1331,
+			"mercenaryId": 375,
+			"mercenaryVisitorId": 2043,
+			"taskChainType": 1,
+			"tasks": [
+				{
+					"description": "Complete Icehowl Bounty without any Blocks of Ice on the board in Winterspring.",
+					"id": 29027,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 1,
+							"type": 18
+						}
+					],
+					"title": "Ice Sculpting"
+				},
+				{
+					"description": "Deal 100 damage with N'zoth's Corrupted Viscera in a single battle.",
+					"id": 29032,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 1,
+							"type": 18
+						}
+					],
+					"title": "Damage Supreme"
+				},
+				{
+					"description": "Land a killing blow with N'zoth's Spawn of N'zoth against Gigafin or Gigafin's Maw in Corrupted Murlocs Bounty in Darkshore.",
+					"id": 29035,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 1,
+							"type": 18
+						}
+					],
+					"title": "Visions of Conquest"
+				},
+				{
+					"description": "Complete Corrupted Murlocs Bounty with at least 1 Murloc in Darkshore.",
+					"id": 29026,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 50,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 25,
+							"type": 14
+						}
+					],
+					"title": "Raiding the Shore"
+				},
+				{
+					"description": "Complete Mi'da Bounty without using any Holy abilities in Onyxia's Lair.",
+					"id": 29028,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 50,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 25,
+							"type": 14
+						}
+					],
+					"title": "One With the Void"
+				},
+				{
+					"description": "Complete Galvangar Bounty using 6 of Human, Dwarf and Elf characters in Alterac Valley.",
+					"id": 29029,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 50,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 25,
+							"type": 14
+						}
+					],
+					"title": "Bunker Crashers"
+				},
+				{
+					"description": "Complete Heroic Rotimer Bounty with at least 2 Murlocs in Alterac Valley.",
+					"id": 29030,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 50,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 25,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 25,
+							"type": 14
+						}
+					],
+					"title": "Murlocs in the Valley"
+				},
+				{
+					"description": "Complete Emperor Thaurissan Bounty without setting off powdered kegs.",
+					"id": 29033,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 75,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 50,
+							"type": 14
+						}
+					],
+					"title": "Emperor Dethroned"
+				},
+				{
+					"description": "Complete Heroic Dragonbone Golem fight triggering at least 10 Deathrattles in Onyxia's Lair.",
+					"id": 29031,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 60,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 50,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 25,
+							"type": 14
+						}
+					],
+					"title": "Bones and Golems"
+				},
+				{
+					"description": "Complete Heroic Popsicooler Bounty with at least 3 Murlocs in Alterac Valley.",
+					"id": 29034,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 75,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 50,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 50,
+							"type": 14
+						}
+					],
+					"title": "Murlocs on Ice"
+				}
+			]
+		},
+		{
+			"id": 1333,
+			"mercenaryId": 341,
+			"mercenaryVisitorId": 2045,
+			"taskChainType": 0,
+			"tasks": [
+				{
+					"description": "Use undefined 5 times.",
+					"id": 29044,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 20,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 50,
+							"type": 14
+						}
+					],
+					"title": "Fishy Start"
+				},
+				{
+					"description": "Use undefined 5 times.",
+					"id": 29045,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": 87135,
+							"mercenarySelector": 0,
+							"quantity": 1,
+							"type": 15
+						}
+					],
+					"title": "Immediate Bargain"
+				},
+				{
+					"description": "Use undefined 5 times.",
+					"id": 29046,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 25,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 50,
+							"type": 14
+						}
+					],
+					"title": "Swarm Them!"
+				},
+				{
+					"description": "Deal 150 damage.",
+					"id": 29047,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 30,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 50,
+							"type": 14
+						}
+					],
+					"title": "Hateful Days"
+				},
+				{
+					"description": "Complete a bounty while at level 30.",
+					"id": 29048,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 35,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 50,
+							"type": 14
+						}
+					],
+					"title": "Only Option"
+				},
+				{
+					"description": "Destroy 40 minions.",
+					"id": 29049,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 40,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 50,
+							"type": 14
+						}
+					],
+					"title": "Fish Or Two"
+				},
+				{
+					"description": "Complete 2 Heroic Bounties.",
+					"id": 29050,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 35,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 55,
+							"type": 14
+						}
+					],
+					"title": "No Problem"
+				},
+				{
+					"description": "Use the Boon: Caster coin 4 times.",
+					"id": 29051,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 30,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 60,
+							"type": 14
+						}
+					],
+					"title": "Zero Chance of Losing"
+				},
+				{
+					"description": "Complete 4 Bounties.",
+					"id": 29052,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 35,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 60,
+							"type": 14
+						}
+					],
+					"title": "Other Option Actually"
+				},
+				{
+					"description": "Use the Spirit Healer coin 2 times.",
+					"id": 29053,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 40,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 60,
+							"type": 14
+						}
+					],
+					"title": "Terrible Things"
+				},
+				{
+					"description": "Deal 450 damage with Old Gods with a team that includes this Mercenary.",
+					"id": 29054,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 45,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 60,
+							"type": 14
+						}
+					],
+					"title": "Hooray for Old Gods"
+				},
+				{
+					"description": "Deal 100 damage to Heroic bosses.",
+					"id": 29055,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 50,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 60,
+							"type": 14
+						}
+					],
+					"title": "Idle Tides"
+				},
+				{
+					"description": "Complete 4 Heroic Bounties.",
+					"id": 29056,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 50,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 70,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 50,
+							"type": 14
+						}
+					],
+					"title": "Super Void"
+				},
+				{
+					"description": "Use undefined 7 times.",
+					"id": 29057,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 50,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 70,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 75,
+							"type": 14
+						}
+					],
+					"title": "Catastrophic Outcome"
+				},
+				{
+					"description": "Defeat 10 Demons.",
+					"id": 29058,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 75,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 70,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 75,
+							"type": 14
+						}
+					],
+					"title": "Utopia for Fish"
+				},
+				{
+					"description": "Deal 900 damage.",
+					"id": 29059,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 1,
+							"type": 4
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 70,
+							"type": 14
+						}
+					],
+					"title": "Terrific Things"
+				},
+				{
+					"description": "Deal 450 damage. ",
+					"id": 29060,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 1,
+							"type": 4
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 75,
+							"type": 14
+						}
+					],
+					"title": "Extra Old"
+				},
+				{
+					"description": "Destroy 40 minions.",
+					"id": 29061,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 80,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 1,
+							"type": 4
+						}
+					],
+					"title": "Exclaiming The End"
 				}
 			]
 		}
