@@ -37,6 +37,7 @@ export interface ReferenceCard {
 	readonly artist?: string;
 	readonly questRewardDbfId?: number;
 	readonly deckDuplicateDbfId?: number;
+	readonly relatedCardDbfIds: readonly number[];
 
 	readonly mercenary: boolean;
 	readonly mercenaryRole: string;

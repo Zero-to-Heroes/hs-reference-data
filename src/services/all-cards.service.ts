@@ -44,7 +44,7 @@ export class AllCardsService {
 		return Object.values(this.cache);
 	}
 
-	public async initializeCardsDb(version = '', cardsFile = 'cards_enUS.json'): Promise<void> {
+	public async initializeCardsDb(version = '', cardsFile = 'cards_enUS.json', useLocal = false): Promise<void> {
 		// console.debug('[all-cards] asked to retrieve cards from CDN', version, new Error().stack);
 		return new Promise<void>(async (resolve, reject) => {
 			const allCards = Object.values(this.cache);
@@ -55,7 +55,9 @@ export class AllCardsService {
 			}
 			this.cache = {};
 			this.cacheDbfId = {};
-			const url = `${CARDS_CDN_URL}/${cardsFile}?v=${version}`;
+			const baseUrl = useLocal ? '.' : CARDS_CDN_URL;
+			version = useLocal ? `${version}${Math.random()}` : version;
+			const url = `${baseUrl}/${cardsFile}?v=${version}`;
 			const cardsStr: string = await http(url);
 			if (!cardsStr || cardsStr.length === 0 || cardsStr.startsWith('<')) {
 				console.error('[all-cards] could not load cards', url, cardsStr);
