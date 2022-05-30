@@ -108,6 +108,10 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.AzsharanSentinel]: [CardIds.AzsharanSentinel_SunkenSentinelToken],
 	[CardIds.AzsharanSweeper]: [CardIds.AzsharanSweeper_SunkenSweeperToken],
 	[CardIds.AzsharanTrident]: [CardIds.AzsharanTrident_SunkenTridentToken],
+	[CardIds.AzsharanVessel_SunkenVesselToken]: [
+		CardIds.AzsharanVessel_AzsharanPirateToken,
+		CardIds.AzsharanVessel_SunkenPirateToken,
+	],
 	[CardIds.AzsharanVessel]: [
 		CardIds.AzsharanVessel_SunkenVesselToken,
 		CardIds.AzsharanVessel_AzsharanPirateToken,
