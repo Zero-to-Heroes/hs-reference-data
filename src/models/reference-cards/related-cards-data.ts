@@ -1,5 +1,5 @@
-import { CardIds } from 'src/card-ids';
-import { ReferenceCard } from 'src/public-api';
+import { CardIds } from '../../card-ids';
+import { ReferenceCard } from './reference-card';
 
 const ADVENTURER_TOKENS = [
 	CardIds.PartyUp_BurlyAdventurerToken,
