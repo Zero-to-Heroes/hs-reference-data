@@ -12195,7 +12195,7 @@ export const enum CardIds {
 	QuilboarFuryLettuceEnchantment = 'LETL_ZoneMob_001',
 	VicarsGraceLettuceEnchantment = 'LETL_ZoneMob_002',
 	NotADealLettuceEnchantment = 'LLT23_803H3e',
-	_20/20AttackLettuceEnchantment = 'LLT23_823P1ce',
+	AttackLettuceEnchantment = 'LLT23_823P1ce',
 	SunRaiderPhaerix1 = 'LOEA01_01',
 	SunRaiderPhaerix_SunRaiderPhaerixHeroic = 'LOEA01_01h',
 	BlessingsOfTheSun = 'LOEA01_02',
