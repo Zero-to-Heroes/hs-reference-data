@@ -53,7 +53,6 @@ export const duelsPassivePool1 = [
 	CardIds.StickyFingersTavernBrawl,
 	CardIds.TheFloorIsLavaTavernBrawl,
 	CardIds.UnholyGiftTavernBrawl,
-	CardIds.UnlockedPotential,
 	CardIds.WitherTheWeakTavernBrawl,
 ];
 
@@ -97,6 +96,7 @@ export const duelsPassivePool2 = [
 	CardIds.SpecialDeliveryTavernBrawl,
 	CardIds.SpreadingSaplingsTavernBrawl,
 	CardIds.SunstridersCrownTavernBrawl,
+	CardIds.UnlockedPotential,
 ];
 
 export const duelsPassivePool2UltraRare = [
