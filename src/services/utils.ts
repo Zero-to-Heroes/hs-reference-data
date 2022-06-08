@@ -9,6 +9,29 @@ function partitionArray<T>(array: readonly T[], partitionSize: number): readonly
 	return result;
 }
 
+async function httpWithRetries(request: string, retriesLeft = 1, timeBetweenRetries = 1000): Promise<any> {
+	console.log('fetch with retries', request, retriesLeft, timeBetweenRetries);
+	if (retriesLeft <= 0) {
+		console.error('could not load cards', request);
+		return null;
+	}
+
+	let result = null;
+	try {
+		result = await http(request);
+		console.log('loaded cards', result?.length);
+	} catch (e) {
+		console.warn('Exception while getting cards', e);
+	}
+	if (!result || result.startsWith('<')) {
+		console.log('no result, sleeping');
+		await sleep(timeBetweenRetries);
+		console.log('retrying');
+		return httpWithRetries(request, retriesLeft - 1);
+	}
+	return result;
+}
+
 async function http(request: string): Promise<any> {
 	return new Promise((resolve) => {
 		fetch(request)
@@ -18,7 +41,8 @@ async function http(request: string): Promise<any> {
 					return response.text();
 				},
 				(error) => {
-					console.warn('could not load cards', error, error.message);
+					console.warn('could not load cards', error, error.message, JSON.stringify(error));
+					return null;
 				},
 			)
 			.then((body) => {
@@ -32,4 +56,4 @@ async function sleep(ms) {
 	return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-export { partitionArray, http, sleep };
+export { partitionArray, http, httpWithRetries, sleep };

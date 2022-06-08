@@ -1,8 +1,8 @@
 import { CardIds } from '../card-ids';
 import { ReferenceCard } from '../models/reference-cards/reference-card';
-import { http } from './utils';
+import { httpWithRetries } from './utils';
 
-const CARDS_CDN_URL = 'https://static.firestoneapp.com/json/cards';
+const CARDS_CDN_URL = 'https://static.firestoneapp.com/data/cards';
 
 export class AllCardsService {
 	// private allCards: ReferenceCard[];
@@ -58,7 +58,7 @@ export class AllCardsService {
 			const baseUrl = useLocal ? '.' : CARDS_CDN_URL;
 			version = useLocal ? `${version}${Math.random()}` : version;
 			const url = `${baseUrl}/${cardsFile}?v=${version}`;
-			const cardsStr: string = await http(url);
+			const cardsStr: string = await httpWithRetries(url, 5);
 			if (!cardsStr || cardsStr.length === 0 || cardsStr.startsWith('<')) {
 				console.error('[all-cards] could not load cards', url, cardsStr);
 			} else {
