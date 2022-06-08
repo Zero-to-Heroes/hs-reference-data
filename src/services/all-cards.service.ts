@@ -5,7 +5,6 @@ import { httpWithRetries } from './utils';
 const CARDS_CDN_URL = 'https://static.firestoneapp.com/data/cards';
 
 export class AllCardsService {
-	// private allCards: ReferenceCard[];
 	private cache: { [cardId: string]: ReferenceCard } = {};
 	private cacheDbfId: { [cardDbfId: string]: ReferenceCard } = {};
 
@@ -19,17 +18,6 @@ export class AllCardsService {
 	// is the first thing we do
 	public getCard(id: string, errorWhenUndefined = true): ReferenceCard {
 		return this.cache[id] ?? ({} as ReferenceCard);
-		// if (this.cache[id]) {
-		// }
-		// const candidates = Object.values(this.cache).filter((card) => card.id === id);
-		// if (errorWhenUndefined && (!candidates || candidates.length === 0)) {
-		// 	console.debug('Could not find card for id', id, new Error().stack);
-		// 	return {} as ReferenceCard;
-		// }
-		// if (candidates.length === 1) {
-		// 	this.cache[id] = candidates[0];
-		// }
-		// return candidates[0];
 	}
 
 	public getCardFromDbfId(dbfId: number): ReferenceCard {
