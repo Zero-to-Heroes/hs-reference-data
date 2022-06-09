@@ -45,10 +45,9 @@ export class AllCardsService {
 			this.cacheDbfId = {};
 			const baseUrl = useLocal ? '.' : CARDS_CDN_URL;
 			version = useLocal ? `${version}${Math.random()}` : version;
-			const url = `${baseUrl}/${cardsFile}?v=${version}`;
-			const cardsStr: string = await httpWithRetries(url, 5);
+			const cardsStr: string = await loadCards(baseUrl, cardsFile, version);
 			if (!cardsStr || cardsStr.length === 0 || cardsStr.startsWith('<')) {
-				console.error('[all-cards] could not load cards', url, cardsStr);
+				console.error('[all-cards] could not load cards', baseUrl, version, cardsStr);
 			} else {
 				// console.debug('[all-cards] retrieved all cards');
 				const allCards: readonly ReferenceCard[] = JSON.parse(cardsStr);
@@ -65,6 +64,17 @@ export class AllCardsService {
 		});
 	}
 }
+
+const loadCards = async (baseUrl: string, cardsFile: string, version: string): Promise<string> => {
+	const url = `${baseUrl}/${cardsFile}?v=${version}`;
+	let cardsStr: string = await httpWithRetries(url, 2);
+	if (!cardsStr || cardsStr.length === 0 || cardsStr.startsWith('<')) {
+		const urlNoAudio = `${baseUrl}/no_audio/${cardsFile}?v=${version}`;
+		console.warn('[all-cards] could not load cards, defaulting to no_audio', urlNoAudio);
+		cardsStr = await httpWithRetries(urlNoAudio, 2);
+	}
+	return cardsStr;
+};
 
 // The spellstones are present in the AI decklist in their basic version
 // However, if the AI plays the spellstone's upgraded version, we need to remove
