@@ -35,22 +35,22 @@ export class AllCardsService {
 	public async initializeCardsDb(version = '', cardsFile = 'cards_enUS.json', useLocal = false): Promise<void> {
 		// console.debug('[all-cards] asked to retrieve cards from CDN', version, new Error().stack);
 		return new Promise<void>(async (resolve, reject) => {
-			const allCards = Object.values(this.cache);
+			let allCards: readonly ReferenceCard[] = Object.values(this.cache);
 			if (!!allCards?.length) {
 				// console.debug('[all-cards] already loaded all cards');
 				resolve();
 				return;
 			}
+
 			this.cache = {};
 			this.cacheDbfId = {};
 			const baseUrl = useLocal ? '.' : CARDS_CDN_URL;
 			version = useLocal ? `${version}${Math.random()}` : version;
-			const cardsStr: string = await loadCards(baseUrl, cardsFile, version);
-			if (!cardsStr || cardsStr.length === 0 || cardsStr.startsWith('<')) {
-				console.error('[all-cards] could not load cards', baseUrl, version, cardsStr);
+			allCards = await loadCards(baseUrl, cardsFile, version);
+			if (!allCards?.length) {
+				console.error('[all-cards] could not load cards', baseUrl, version, allCards);
 			} else {
-				// console.debug('[all-cards] retrieved all cards');
-				const allCards: readonly ReferenceCard[] = JSON.parse(cardsStr);
+				console.log('[all-cards] retrieved all cards', allCards?.length);
 				for (const card of allCards) {
 					if (card.id) {
 						this.cache[card.id] = card;
@@ -65,15 +65,37 @@ export class AllCardsService {
 	}
 }
 
-const loadCards = async (baseUrl: string, cardsFile: string, version: string): Promise<string> => {
+const loadCards = async (baseUrl: string, cardsFile: string, version: string): Promise<readonly ReferenceCard[]> => {
 	const url = `${baseUrl}/${cardsFile}?v=${version}`;
-	let cardsStr: string = await httpWithRetries(url, 2);
-	if (!cardsStr || cardsStr.length === 0 || cardsStr.startsWith('<')) {
-		const urlNoAudio = `${baseUrl}/no_audio/${cardsFile}?v=${version}`;
-		console.warn('[all-cards] could not load cards, defaulting to no_audio', urlNoAudio);
-		cardsStr = await httpWithRetries(urlNoAudio, 2);
+	let cardsStr: string = await httpWithRetries(url, 1);
+	if (!!cardsStr?.length && !cardsStr.startsWith('<')) {
+		return JSON.parse(cardsStr) as readonly ReferenceCard[];
 	}
-	return cardsStr;
+
+	console.warn('[all-cards] could not load cards, defaulting to split');
+	const numberOfSplits = 3;
+	const result: ReferenceCard[] = [];
+	for (let i = 0; i < numberOfSplits; i++) {
+		const splitUrl = `${baseUrl}/split/${cardsFile}.${i}?v=${version}`;
+		console.log('[all-cards] loading split', splitUrl);
+		cardsStr = await httpWithRetries(splitUrl, 1);
+		if (!!cardsStr?.length && !cardsStr.startsWith('<')) {
+			const splitCards: readonly ReferenceCard[] = JSON.parse(cardsStr);
+			console.log('loaded split cards', splitCards?.length);
+			result.push(...splitCards);
+		}
+	}
+	if (!!result?.length) {
+		return result;
+	}
+
+	const urlNoAudio = `${baseUrl}/no_audio/${cardsFile}?v=${version}`;
+	console.warn('[all-cards] could not load cards, defaulting to no_audio', urlNoAudio);
+	cardsStr = await httpWithRetries(urlNoAudio, 1);
+	if (!!cardsStr?.length && !cardsStr.startsWith('<')) {
+		return JSON.parse(cardsStr) as readonly ReferenceCard[];
+	}
+	return [];
 };
 
 // The spellstones are present in the AI decklist in their basic version
