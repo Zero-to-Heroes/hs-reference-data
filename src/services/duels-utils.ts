@@ -101,7 +101,7 @@ export const duelsPassivePool2 = [
 
 export const duelsPassivePool2UltraRare = [
 	CardIds.BandOfBeesTavernBrawl,
-	CardIds.BattleTotem2,
+	CardIds.BattleTotem_LOOTA_846,
 	CardIds.CapturedFlag,
 	CardIds.DisksOfLegendTavernBrawl,
 	// CardIds.DisksOfLegend,
@@ -113,7 +113,7 @@ export const duelsPassivePool2UltraRare = [
 	CardIds.ScepterOfSummoning,
 	CardIds.Shadowcasting101TavernBrawl,
 	CardIds.Stargazing,
-	CardIds.TotemOfTheDead2,
+	CardIds.TotemOfTheDead_LOOTA_845,
 	CardIds.UnstableMagicTavernBrawl,
 ];
 
@@ -140,15 +140,15 @@ export const duelsActivePool1 = [
 	CardIds.JawsTavernBrawl,
 	CardIds.LoyalHenchmanTavernBrawl,
 	CardIds.LoyalSidekickTavernBrawl,
-	CardIds.LoomingPresence1,
+	CardIds.LoomingPresence_LOEA_01,
 	CardIds.MageArmorTavernBrawl,
 	CardIds.MaskOfMimicryTavernBrawl,
 	CardIds.MindpocalypseTavernBrawl,
 	CardIds.MurlocHolmesTavernBrawl,
-	CardIds.MutatingInjection1,
+	CardIds.MutatingInjection_NAX11_04,
 	CardIds.NecroticPoisonTavernBrawl,
 	CardIds.OldMilitiaHornTavernBrawl,
-	CardIds.PartyPortalTavernBrawl2,
+	CardIds.PartyPortalTavernBrawl_PVPDR_SCH_Active08,
 	CardIds.PrincessTavernBrawl,
 	CardIds.PureColdTavernBrawl,
 	CardIds.PuzzleBoxTavernBrawl,
@@ -166,17 +166,17 @@ export const duelsActivePool2 = [
 	CardIds.ArchmageStaffTavernBrawl,
 	CardIds.BagOfCoinsTavernBrawl,
 	CardIds.BookOfTheDeadTavernBrawl,
-	CardIds.GrimmerPatron1,
+	CardIds.GrimmerPatron_DALA_705,
 	CardIds.HyperblasterTavernBrawl,
 	CardIds.AncientReflectionsTavernBrawl,
 	CardIds.BagOfStuffingTavernBrawl,
 	CardIds.Questionquestionquestion_BlackSoulstoneTavernBrawl,
 	CardIds.BladeOfTheBurningSun,
-	CardIds.GnomishArmyKnife1,
+	CardIds.GnomishArmyKnife_DALA_702,
 	CardIds.BananaSplitTavernBrawl,
 	CardIds.CanopicJarsTavernBrawl,
-	CardIds.PhaorisBlade1,
-	CardIds.StaffOfScales1,
+	CardIds.PhaorisBladeTavernBrawl,
+	CardIds.StaffOfScales_ULDA_008,
 	CardIds.WandOfDisintegrationTavernBrawl,
 ];
 
@@ -185,7 +185,7 @@ export const duelsActivePool2UltraRare = [
 	CardIds.OverpoweredTavernBrawl,
 	CardIds.DreamgroveRing,
 	CardIds.EmbersOfRagnarosTavernBrawl,
-	CardIds.WaxRager1,
+	CardIds.WaxRager_LOOTA_840,
 	CardIds.WishTavernBrawl,
 ];
 
@@ -198,40 +198,21 @@ export const allDuelsTreasureCardIds = [
 	...duelsActivePool2UltraRare,
 ];
 
-export const allDuelsHeroes = [
-	CardIds.MindrenderIlluciaTavernBrawl,
-	CardIds.RattlegoreTavernBrawl,
-	CardIds.TuralyonTheTenuredTavernBrawl,
-	CardIds.StarStudentStelinaTavernBrawl,
-	CardIds.ProfessorSlateTavernBrawl,
-	CardIds.ForestWardenOmuTavernBrawl,
-	CardIds.MozakiMasterDuelistTavernBrawl,
-	CardIds.ArchwitchWillowTavernBrawl,
-	CardIds.InstructorFireheartTavernBrawlToken,
-	CardIds.InfiltratorLilianTavernBrawl,
-	CardIds.VanndarStormpikeTavernBrawl,
-	CardIds.DrektharTavernBrawl,
-	CardIds.RenoJacksonTavernBrawl5,
-	CardIds.SirFinleyTavernBrawl5,
-	CardIds.EliseStarseekerTavernBrawl4,
-	CardIds.BrannBronzebeardTavernBrawl5,
-];
-
 export const normalizeDuelsHeroCardId = (heroCardId: string): string => {
 	switch (heroCardId) {
 		case CardIds.VanndarStormpikeTavernBrawl:
-		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl1:
-		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl2:
-		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl3:
-		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl4:
-		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl5:
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv1:
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv2:
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv3:
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv4:
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv5:
 			return CardIds.VanndarStormpikeTavernBrawl;
 		case CardIds.DrektharTavernBrawl:
-		case CardIds.Drekthar_DrektharTavernBrawl1:
-		case CardIds.Drekthar_DrektharTavernBrawl2:
-		case CardIds.Drekthar_DrektharTavernBrawl3:
-		case CardIds.Drekthar_DrektharTavernBrawl4:
-		case CardIds.Drekthar_DrektharTavernBrawl5:
+		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv1:
+		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv2:
+		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv3:
+		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv4:
+		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv5:
 			return CardIds.DrektharTavernBrawl;
 		default:
 			return heroCardId;
@@ -240,25 +221,25 @@ export const normalizeDuelsHeroCardId = (heroCardId: string): string => {
 
 export const normalizeDuelsHeroCardIdForDeckCode = (heroCardId: string): string => {
 	switch (heroCardId) {
-		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl1:
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv1:
 			return CardIds.IllidanStormrageHeroSkins;
-		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl2:
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv2:
 			return CardIds.RexxarHeroSkins;
-		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl3:
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv3:
 			return CardIds.UtherLightbringerHeroSkins;
-		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl4:
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv4:
 			return CardIds.AnduinWrynnHeroSkins;
-		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl5:
+		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv5:
 			return CardIds.ValeeraSanguinarHeroSkins;
-		case CardIds.Drekthar_DrektharTavernBrawl1:
+		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv1:
 			return CardIds.MalfurionStormrageHeroSkins;
-		case CardIds.Drekthar_DrektharTavernBrawl2:
+		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv2:
 			return CardIds.JainaProudmooreHeroSkins;
-		case CardIds.Drekthar_DrektharTavernBrawl3:
+		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv3:
 			return CardIds.ThrallHeroSkins;
-		case CardIds.Drekthar_DrektharTavernBrawl4:
+		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv4:
 			return CardIds.GuldanHeroSkins;
-		case CardIds.Drekthar_DrektharTavernBrawl5:
+		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv5:
 			return CardIds.GarroshHellscreamHeroSkins;
 		default:
 			return heroCardId;
@@ -441,11 +422,11 @@ export const duelsHeroConfigs = [
 	{
 		hero: CardIds.DrektharTavernBrawl,
 		alternateHeroes: [
-			CardIds.Drekthar_DrektharTavernBrawl1,
-			CardIds.Drekthar_DrektharTavernBrawl2,
-			CardIds.Drekthar_DrektharTavernBrawl3,
-			CardIds.Drekthar_DrektharTavernBrawl4,
-			CardIds.Drekthar_DrektharTavernBrawl5,
+			CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv1,
+			CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv2,
+			CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv3,
+			CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv4,
+			CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv5,
 		],
 		heroPowers: [
 			CardIds.WarmastersFrenzyTavernBrawl,
@@ -464,11 +445,11 @@ export const duelsHeroConfigs = [
 	{
 		hero: CardIds.VanndarStormpikeTavernBrawl,
 		alternateHeroes: [
-			CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl1,
-			CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl2,
-			CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl3,
-			CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl4,
-			CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl5,
+			CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv1,
+			CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv2,
+			CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv3,
+			CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv4,
+			CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv5,
 		],
 		heroPowers: [CardIds.PromoteTavernBrawl, CardIds.SendInTheScoutTavernBrawl, CardIds.BattleTacticsTavernBrawl],
 		signatureTreasures: [
@@ -481,7 +462,7 @@ export const duelsHeroConfigs = [
 		],
 	},
 	{
-		hero: CardIds.RenoJacksonTavernBrawl5,
+		hero: CardIds.RenoJacksonTavernBrawl_PVPDR_Hero_Reno,
 		heroClasses: [CardClass.MAGE, CardClass.ROGUE],
 		heroPowers: [
 			CardIds.AmateurMageTavernBrawl,
@@ -498,9 +479,13 @@ export const duelsHeroConfigs = [
 		],
 	},
 	{
-		hero: CardIds.SirFinleyTavernBrawl5,
+		hero: CardIds.SirFinleyTavernBrawl_PVPDR_Hero_Finley,
 		heroClasses: [CardClass.PALADIN, CardClass.SHAMAN],
-		heroPowers: [CardIds.NewRecruitsTavernBrawl, CardIds.BubbleBlowerTavernBrawl, CardIds.PowerUpTavernBrawl2],
+		heroPowers: [
+			CardIds.NewRecruitsTavernBrawl,
+			CardIds.BubbleBlowerTavernBrawl,
+			CardIds.PowerUpTavernBrawl_PVPDR_Finley_HP3,
+		],
 		signatureTreasures: [
 			CardIds.FinleysPithHelmetTavernBrawl,
 			CardIds.MaxwellMightySteedTavernBrawl,
@@ -511,7 +496,7 @@ export const duelsHeroConfigs = [
 		],
 	},
 	{
-		hero: CardIds.EliseStarseekerTavernBrawl4,
+		hero: CardIds.EliseStarseekerTavernBrawl_PVPDR_Hero_Elise,
 		heroClasses: [CardClass.DRUID, CardClass.PRIEST],
 		heroPowers: [CardIds.ElisesMightTavernBrawl, CardIds.DruidicTeachingTavernBrawl, CardIds.StarseekerTavernBrawl],
 		signatureTreasures: [
@@ -524,9 +509,13 @@ export const duelsHeroConfigs = [
 		],
 	},
 	{
-		hero: CardIds.BrannBronzebeardTavernBrawl5,
+		hero: CardIds.BrannBronzebeardTavernBrawl_PVPDR_Hero_Brann,
 		heroClasses: [CardClass.HUNTER, CardClass.WARRIOR],
-		heroPowers: [CardIds.SpreadShotTavernBrawl, CardIds.WellEquippedTavernBrawl2, CardIds.DinoTrackingTavernBrawl],
+		heroPowers: [
+			CardIds.SpreadShotTavernBrawl,
+			CardIds.WellEquippedTavernBrawl_PVPDR_Brann_HP2,
+			CardIds.DinoTrackingTavernBrawl,
+		],
 		signatureTreasures: [
 			CardIds.OlFaithfulTavernBrawl,
 			CardIds.BrannsSaddleTavernBrawl,
@@ -539,3 +528,5 @@ export const duelsHeroConfigs = [
 ];
 
 export const allDuelsSignatureTreasures = duelsHeroConfigs.flatMap((info) => info.signatureTreasures);
+
+export const allDuelsHeroes = duelsHeroConfigs.map((conf) => conf.hero);
