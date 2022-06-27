@@ -66,7 +66,8 @@ export class AllCardsService {
 }
 
 const loadCards = async (baseUrl: string, cardsFile: string, version: string): Promise<readonly ReferenceCard[]> => {
-	const url = `${baseUrl}/${cardsFile}?v=${version}`;
+	const versionString = !!version?.length ? `?v=${version}` : '';
+	const url = `${baseUrl}/${cardsFile}${versionString}`;
 	let cardsStr: string = await httpWithRetries(url, 1);
 	if (!!cardsStr?.length && !cardsStr.startsWith('<')) {
 		return JSON.parse(cardsStr) as readonly ReferenceCard[];
