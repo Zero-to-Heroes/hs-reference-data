@@ -1672,7 +1672,7 @@
 			"descriptionLegendary": "奧特蘭克山谷傳說難度",
 			"descriptionNormal": "冰冷的山谷、火熱的戰鬥，聯盟與部落已在此地爭鬥多年。",
 			"id": 10,
-			"name": "決戰奧山",
+			"name": "奧特蘭克山谷",
 			"sortOrder": 5
 		},
 		{
@@ -2268,7 +2268,7 @@
 					"name": "卡爾洛斯‧地獄吼",
 					"requiredCompletedBountyId": 193,
 					"rewardMercenaryIds": [
-						50,
+						308,
 						376,
 						374
 					],
@@ -2307,7 +2307,7 @@
 						305
 					],
 					"setId": 14,
-					"sortOrder": 9
+					"sortOrder": 10
 				},
 				{
 					"difficultyMode": 0,
@@ -2341,7 +2341,7 @@
 						305
 					],
 					"setId": 14,
-					"sortOrder": 9
+					"sortOrder": 10
 				},
 				{
 					"difficultyMode": 0,
@@ -2419,7 +2419,7 @@
 					"id": 213,
 					"level": 30,
 					"name": "艾薩拉女王 Heroic",
-					"requiredCompletedBountyId": 182,
+					"requiredCompletedBountyId": 180,
 					"rewardMercenaryIds": [
 						290,
 						376,
@@ -2438,7 +2438,7 @@
 					"name": "卡爾洛斯‧地獄吼 Heroic",
 					"requiredCompletedBountyId": 193,
 					"rewardMercenaryIds": [
-						50,
+						308,
 						376,
 						374
 					],
@@ -2450,7 +2450,7 @@
 			"descriptionLegendary": "[PH]Darkshore Legendary",
 			"descriptionNormal": "辛艾薩拉在一萬年前沉到了海底，你會發掘什麼樣的秘密呢？",
 			"id": 14,
-			"name": "海底歷險記",
+			"name": "沉沒之城",
 			"sortOrder": 8
 		}
 	],
@@ -52281,6 +52281,370 @@
 		{
 			"abilities": [
 				{
+					"abilityId": 850,
+					"cardDbfId": 87646,
+					"mercenaryRequiredLevel": 1,
+					"tiers": [
+						{
+							"cardDbfId": 87646,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"cardDbfId": 87649,
+							"coinCraftCost": 50,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 87650,
+							"coinCraftCost": 125,
+							"tier": 3
+						},
+						{
+							"cardDbfId": 87651,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 87652,
+							"coinCraftCost": 150,
+							"tier": 5
+						}
+					]
+				},
+				{
+					"abilityId": 851,
+					"cardDbfId": 87654,
+					"mercenaryRequiredLevel": 5,
+					"tiers": [
+						{
+							"cardDbfId": 87654,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"cardDbfId": 87656,
+							"coinCraftCost": 50,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 87657,
+							"coinCraftCost": 125,
+							"tier": 3
+						},
+						{
+							"cardDbfId": 87658,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 87659,
+							"coinCraftCost": 150,
+							"tier": 5
+						}
+					]
+				},
+				{
+					"abilityId": 852,
+					"cardDbfId": 87660,
+					"mercenaryRequiredLevel": 15,
+					"tiers": [
+						{
+							"cardDbfId": 87660,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"cardDbfId": 87662,
+							"coinCraftCost": 50,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 87663,
+							"coinCraftCost": 125,
+							"tier": 3
+						},
+						{
+							"cardDbfId": 87665,
+							"coinCraftCost": 150,
+							"tier": 4
+						},
+						{
+							"cardDbfId": 87666,
+							"coinCraftCost": 150,
+							"tier": 5
+						}
+					]
+				}
+			],
+			"cardDbfId": 85970,
+			"equipments": [
+				{
+					"cardDbfId": 87667,
+					"equipmentId": 359,
+					"tiers": [
+						{
+							"cardDbfId": 87667,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"cardDbfId": 87668,
+							"coinCraftCost": 100,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 87669,
+							"coinCraftCost": 150,
+							"tier": 3
+						},
+						{
+							"cardDbfId": 87670,
+							"coinCraftCost": 175,
+							"tier": 4
+						}
+					]
+				},
+				{
+					"cardDbfId": 87671,
+					"equipmentId": 360,
+					"tiers": [
+						{
+							"cardDbfId": 87671,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"attackModifier": 0,
+							"cardDbfId": 87673,
+							"coinCraftCost": 100,
+							"healthModifier": 0,
+							"tier": 2
+						},
+						{
+							"cardDbfId": 87674,
+							"coinCraftCost": 150,
+							"tier": 3
+						},
+						{
+							"attackModifier": 0,
+							"cardDbfId": 87675,
+							"coinCraftCost": 175,
+							"healthModifier": 0,
+							"tier": 4
+						}
+					]
+				},
+				{
+					"cardDbfId": 87677,
+					"equipmentId": 361,
+					"tiers": [
+						{
+							"cardDbfId": 87677,
+							"coinCraftCost": 0,
+							"tier": 1
+						},
+						{
+							"attackModifier": 0,
+							"cardDbfId": 87678,
+							"coinCraftCost": 100,
+							"healthModifier": 0,
+							"tier": 2
+						},
+						{
+							"attackModifier": 0,
+							"cardDbfId": 87679,
+							"coinCraftCost": 150,
+							"healthModifier": 0,
+							"tier": 3
+						},
+						{
+							"attackModifier": 0,
+							"cardDbfId": 87680,
+							"coinCraftCost": 175,
+							"healthModifier": 0,
+							"tier": 4
+						}
+					]
+				}
+			],
+			"id": 308,
+			"name": "Yogg-Saron",
+			"skins": [
+				{
+					"artVariationId": 553,
+					"cardId": 85970,
+					"isDefaultVariation": true
+				},
+				{
+					"artVariationId": 554,
+					"cardId": 85971,
+					"isDefaultVariation": false
+				},
+				{
+					"artVariationId": 555,
+					"cardId": 85972,
+					"isDefaultVariation": false
+				}
+			],
+			"specializationId": 366,
+			"specializationName": "Speed Control",
+			"stats": [
+				{
+					"attack": 3,
+					"health": 10,
+					"level": 1
+				},
+				{
+					"attack": 3,
+					"health": 12,
+					"level": 2
+				},
+				{
+					"attack": 3,
+					"health": 14,
+					"level": 3
+				},
+				{
+					"attack": 3,
+					"health": 16,
+					"level": 4
+				},
+				{
+					"attack": 3,
+					"health": 18,
+					"level": 5
+				},
+				{
+					"attack": 4,
+					"health": 21,
+					"level": 6
+				},
+				{
+					"attack": 4,
+					"health": 23,
+					"level": 7
+				},
+				{
+					"attack": 4,
+					"health": 25,
+					"level": 8
+				},
+				{
+					"attack": 4,
+					"health": 27,
+					"level": 9
+				},
+				{
+					"attack": 4,
+					"health": 30,
+					"level": 10
+				},
+				{
+					"attack": 5,
+					"health": 32,
+					"level": 11
+				},
+				{
+					"attack": 5,
+					"health": 34,
+					"level": 12
+				},
+				{
+					"attack": 5,
+					"health": 36,
+					"level": 13
+				},
+				{
+					"attack": 5,
+					"health": 39,
+					"level": 14
+				},
+				{
+					"attack": 5,
+					"health": 41,
+					"level": 15
+				},
+				{
+					"attack": 6,
+					"health": 43,
+					"level": 16
+				},
+				{
+					"attack": 6,
+					"health": 45,
+					"level": 17
+				},
+				{
+					"attack": 6,
+					"health": 48,
+					"level": 18
+				},
+				{
+					"attack": 6,
+					"health": 50,
+					"level": 19
+				},
+				{
+					"attack": 6,
+					"health": 52,
+					"level": 20
+				},
+				{
+					"attack": 7,
+					"health": 54,
+					"level": 21
+				},
+				{
+					"attack": 7,
+					"health": 57,
+					"level": 22
+				},
+				{
+					"attack": 7,
+					"health": 59,
+					"level": 23
+				},
+				{
+					"attack": 7,
+					"health": 61,
+					"level": 24
+				},
+				{
+					"attack": 7,
+					"health": 63,
+					"level": 25
+				},
+				{
+					"attack": 8,
+					"health": 66,
+					"level": 26
+				},
+				{
+					"attack": 8,
+					"health": 68,
+					"level": 27
+				},
+				{
+					"attack": 8,
+					"health": 70,
+					"level": 28
+				},
+				{
+					"attack": 8,
+					"health": 72,
+					"level": 29
+				},
+				{
+					"attack": 9,
+					"health": 75,
+					"level": 30
+				}
+			]
+		},
+		{
+			"abilities": [
+				{
 					"abilityId": 808,
 					"cardDbfId": 86086,
 					"mercenaryRequiredLevel": 1,
@@ -67942,6 +68306,174 @@
 					"level": 30
 				}
 			]
+		},
+		{
+			"abilities": [
+			],
+			"cardDbfId": 94438,
+			"equipments": [
+			],
+			"id": 413,
+			"name": "Event Yogg-Saron",
+			"skins": [
+				{
+					"artVariationId": 762,
+					"cardId": 94438,
+					"isDefaultVariation": true
+				}
+			],
+			"stats": [
+				{
+					"attack": 2,
+					"health": 12,
+					"level": 1
+				},
+				{
+					"attack": 2,
+					"health": 14,
+					"level": 2
+				},
+				{
+					"attack": 2,
+					"health": 16,
+					"level": 3
+				},
+				{
+					"attack": 2,
+					"health": 19,
+					"level": 4
+				},
+				{
+					"attack": 2,
+					"health": 21,
+					"level": 5
+				},
+				{
+					"attack": 3,
+					"health": 23,
+					"level": 6
+				},
+				{
+					"attack": 3,
+					"health": 26,
+					"level": 7
+				},
+				{
+					"attack": 3,
+					"health": 28,
+					"level": 8
+				},
+				{
+					"attack": 3,
+					"health": 30,
+					"level": 9
+				},
+				{
+					"attack": 3,
+					"health": 33,
+					"level": 10
+				},
+				{
+					"attack": 4,
+					"health": 35,
+					"level": 11
+				},
+				{
+					"attack": 4,
+					"health": 37,
+					"level": 12
+				},
+				{
+					"attack": 4,
+					"health": 40,
+					"level": 13
+				},
+				{
+					"attack": 4,
+					"health": 42,
+					"level": 14
+				},
+				{
+					"attack": 4,
+					"health": 44,
+					"level": 15
+				},
+				{
+					"attack": 5,
+					"health": 47,
+					"level": 16
+				},
+				{
+					"attack": 5,
+					"health": 49,
+					"level": 17
+				},
+				{
+					"attack": 5,
+					"health": 51,
+					"level": 18
+				},
+				{
+					"attack": 5,
+					"health": 54,
+					"level": 19
+				},
+				{
+					"attack": 5,
+					"health": 56,
+					"level": 20
+				},
+				{
+					"attack": 6,
+					"health": 58,
+					"level": 21
+				},
+				{
+					"attack": 6,
+					"health": 61,
+					"level": 22
+				},
+				{
+					"attack": 6,
+					"health": 63,
+					"level": 23
+				},
+				{
+					"attack": 6,
+					"health": 65,
+					"level": 24
+				},
+				{
+					"attack": 6,
+					"health": 68,
+					"level": 25
+				},
+				{
+					"attack": 7,
+					"health": 70,
+					"level": 26
+				},
+				{
+					"attack": 7,
+					"health": 72,
+					"level": 27
+				},
+				{
+					"attack": 7,
+					"health": 75,
+					"level": 28
+				},
+				{
+					"attack": 7,
+					"health": 77,
+					"level": 29
+				},
+				{
+					"attack": 8,
+					"health": 80,
+					"level": 30
+				}
+			]
 		}
 	],
 	"mercenaryLevels": [
@@ -68242,7 +68774,7 @@
 					"title": "痛苦停歇"
 				},
 				{
-					"description": "使用熱血沸騰1獲得195點攻擊力。",
+					"description": "使用熱血沸騰1獲得150點攻擊力。",
 					"id": 26768,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -68282,7 +68814,7 @@
 					"title": "心靈之火"
 				},
 				{
-					"description": "以熱血沸騰1造成致死75次。",
+					"description": "以熱血沸騰1造成致死25次。",
 					"id": 26770,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -68856,7 +69388,7 @@
 					"title": "人人都來一箭！"
 				},
 				{
-					"description": "使用強效秘法飛彈1造成245點傷害。",
+					"description": "使用強效秘法飛彈1造成175點傷害。",
 					"id": 26821,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -69404,7 +69936,7 @@
 					"title": "鎚子找釘頭"
 				},
 				{
-					"description": "在隊伍中有這個傭兵時，造成450點神聖傷害。",
+					"description": "造成100點傷害。",
 					"id": 26810,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -71214,7 +71746,7 @@
 					"title": "戈魯爾需要力量"
 				},
 				{
-					"description": "使用龍喉盜獵者1摧毀45個敵人。",
+					"description": "造成150點傷害。",
 					"id": 26907,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -71320,7 +71852,7 @@
 					"title": "真弱，全上吧"
 				},
 				{
-					"description": "摧毀40個龍類。",
+					"description": "摧毀10個龍類。",
 					"id": 26912,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -71694,7 +72226,7 @@
 					"title": "來地獄服侍我"
 				},
 				{
-					"description": "治療450點傷害。",
+					"description": "造成450點傷害。",
 					"id": 26932,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -73458,7 +73990,7 @@
 					"title": "犧牲與榮耀"
 				},
 				{
-					"description": "在隊伍中有這個傭兵時，造成450點神聖傷害。",
+					"description": "在隊伍中有這個傭兵時，造成100點神聖傷害。",
 					"id": 27027,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -73518,7 +74050,7 @@
 					"title": "神性火焰"
 				},
 				{
-					"description": "在隊伍中有這個傭兵時，造成450點神聖傷害。",
+					"description": "在隊伍中有這個傭兵時，造成150點神聖傷害。",
 					"id": 27030,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -73852,7 +74384,7 @@
 					"title": "殺無赦"
 				},
 				{
-					"description": "以25點以上的攻擊力完成30場戰鬥。",
+					"description": "以25點以上的攻擊力完成15場戰鬥。",
 					"id": 27048,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -74226,7 +74758,7 @@
 					"title": "彈無虛發"
 				},
 				{
-					"description": "在一回合使用瞄準射擊1造成30點以上傷害15次。",
+					"description": "在一回合使用瞄準射擊1造成30點以上傷害10次。",
 					"id": 27068,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -74954,7 +75486,7 @@
 					"title": "磨利你的牙齒"
 				},
 				{
-					"description": "使用魔暴龍1摧毀40個敵人。",
+					"description": "使用魔暴龍1摧毀20個敵人。",
 					"id": 27107,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -75506,7 +76038,7 @@
 					"title": "刀劍傷人"
 				},
 				{
-					"description": "使用穆克拉的大哥摧毀75個敵人。",
+					"description": "使用穆克拉的大哥摧毀25個敵人。",
 					"id": 27135,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -76076,7 +76608,7 @@
 					"title": "實地研究"
 				},
 				{
-					"description": "使用冰霜長矛1造成200點傷害。",
+					"description": "使用冰霜長矛1造成50點傷害。",
 					"id": 27167,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -76096,7 +76628,7 @@
 					"title": "學術完整性"
 				},
 				{
-					"description": "凍結30個敵人。",
+					"description": "凍結20個敵人。",
 					"id": 27168,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -76450,7 +76982,7 @@
 					"title": "偶然的機會"
 				},
 				{
-					"description": "使用水元素1摧毀45個敵人。",
+					"description": "造成200點傷害。",
 					"id": 27187,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -79502,7 +80034,7 @@
 					"title": "炙熱任務"
 				},
 				{
-					"description": "在一回合使用火球風暴1摧毀三個敵人15次。",
+					"description": "在一回合使用火球風暴1摧毀三個敵人5次。",
 					"id": 27350,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -79816,7 +80348,7 @@
 					"title": "保衛聯盟"
 				},
 				{
-					"description": "在隊伍中有這個傭兵時，造成450點神聖傷害。",
+					"description": "在隊伍中有這個傭兵時，造成100點神聖傷害。",
 					"id": 27367,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -80824,7 +81356,7 @@
 					"title": "我挺得住"
 				},
 				{
-					"description": "在隊伍中有這個傭兵時，造成115點神聖傷害。",
+					"description": "造成50點傷害。",
 					"id": 27421,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -80998,7 +81530,7 @@
 					"title": "簡單任務"
 				},
 				{
-					"description": "在隊伍中有這個傭兵時，造成450點神聖傷害。",
+					"description": "在隊伍中有這個傭兵時，造成150點神聖傷害。",
 					"id": 27430,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -81418,7 +81950,7 @@
 					"title": "謹慎行事"
 				},
 				{
-					"description": "使用為了部落1獲得15點攻擊力。",
+					"description": "使用為了部落1獲得250點攻擊力。",
 					"id": 27452,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -81792,7 +82324,7 @@
 					"title": "制服靈魂"
 				},
 				{
-					"description": "使用暗影奔騰觸發暗影連擊30次。",
+					"description": "使用暗影奔騰觸發暗影連擊15次。",
 					"id": 27712,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -82120,7 +82652,7 @@
 					"title": "猛烈痛擊"
 				},
 				{
-					"description": "在一回合使用奮勇打擊1造成30點以上傷害15次。",
+					"description": "在一回合使用奮勇打擊1造成30點以上傷害5次。",
 					"id": 27490,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -84036,7 +84568,7 @@
 					"title": "克服難關"
 				},
 				{
-					"description": "使用閃避巨龍1造成490點傷害。",
+					"description": "使用閃避巨龍1造成250點傷害。",
 					"id": 27592,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -86234,7 +86766,7 @@
 					"title": "煉獄火連殺"
 				},
 				{
-					"description": "使用魔獄火1造成685點傷害。",
+					"description": "使用魔獄火1造成150點傷害。",
 					"id": 27730,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -86726,7 +87258,7 @@
 					"title": "擊潰魔法使用者"
 				},
 				{
-					"description": "擁有45點攻擊力的巨大的惡魔將領。",
+					"description": "擁有20點攻擊力的巨大的惡魔將領。",
 					"id": 27755,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -86982,7 +87514,7 @@
 					"title": "強化燃燒軍團的力量"
 				},
 				{
-					"description": "以魔化鞭笞1防止150點治療。",
+					"description": "以魔化鞭笞1防止30點治療。",
 					"id": 27770,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -87182,7 +87714,7 @@
 					"title": "不勝即亡"
 				},
 				{
-					"description": "使用戰鬥怒吼1獲得144點攻擊力。",
+					"description": "使用戰鬥怒吼1獲得80點攻擊力。",
 					"id": 27461,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -89152,7 +89684,7 @@
 					"title": "特許權力"
 				},
 				{
-					"description": "使用魚肉大餐1獲得900點生命值。",
+					"description": "使用魚肉大餐1獲得300點生命值。",
 					"id": 28071,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -90228,7 +90760,7 @@
 					"title": "沒有木頭了"
 				},
 				{
-					"description": "使用鋸鋸鋸！1對兩側敵人造成180點傷害。",
+					"description": "使用鋸鋸鋸！1對兩側敵人造成75點傷害。",
 					"id": 28127,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -91396,7 +91928,7 @@
 					"title": "迪菲亞的公差"
 				},
 				{
-					"description": "在一回合使用應急武器1摧毀兩個敵人6次。",
+					"description": "在一回合使用應急武器1摧毀兩個敵人2次。",
 					"id": 28270,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -94438,7 +94970,7 @@
 					"title": "迪菲亞的公差"
 				},
 				{
-					"description": "在一回合使用應急武器1摧毀兩個敵人6次。",
+					"description": "在一回合使用應急武器1摧毀兩個敵人2次。",
 					"id": 28270,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -97778,7 +98310,7 @@
 					"title": "打倒團隊首領"
 				},
 				{
-					"description": "在一回合使用龍巢大掃除1造成50點以上傷害40次。",
+					"description": "在一回合使用龍巢大掃除1造成50點以上傷害10次。",
 					"id": 28816,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -99226,7 +99758,7 @@
 					"title": "霜狼的最後通諜"
 				},
 				{
-					"description": "以此傭兵造成600點魔化傷害。",
+					"description": "以此傭兵造成150點魔化傷害。",
 					"id": 28975,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -106826,7 +107358,7 @@
 					"title": "萬人擁戴"
 				},
 				{
-					"description": "使用無縛之怒15次。",
+					"description": "使用無縛之怒11次。",
 					"id": 29350,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -106966,7 +107498,7 @@
 					"title": "舉世無雙"
 				},
 				{
-					"description": "使用無縛之怒110次。",
+					"description": "使用無縛之怒11次。",
 					"id": 29357,
 					"mercenaryOverrideId": null,
 					"rewards": [
@@ -107922,6 +108454,564 @@
 						}
 					],
 					"title": "命定結果"
+				}
+			]
+		},
+		{
+			"id": 1357,
+			"mercenaryId": 308,
+			"mercenaryVisitorId": 2066,
+			"taskChainType": 0,
+			"tasks": [
+				{
+					"description": "使用undefined5次。",
+					"id": 29431,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 20,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 50,
+							"type": 14
+						}
+					],
+					"title": "尤格薩輪"
+				},
+				{
+					"description": "使用undefined5次。",
+					"id": 29432,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": 87677,
+							"mercenarySelector": 0,
+							"quantity": 1,
+							"type": 15
+						}
+					],
+					"title": "尤惠價格"
+				},
+				{
+					"description": "在隊伍中有這個傭兵時，以古神造成100點傷害。",
+					"id": 29433,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 25,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 50,
+							"type": 14
+						}
+					],
+					"title": "到底尤沒尤"
+				},
+				{
+					"description": "造成150點傷害。",
+					"id": 29434,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 30,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 50,
+							"type": 14
+						}
+					],
+					"title": "與尤格共舞"
+				},
+				{
+					"description": "在30級時，完成一個懸賞任務。",
+					"id": 29435,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 35,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 50,
+							"type": 14
+						}
+					],
+					"title": "到底尤沒尤"
+				},
+				{
+					"description": "摧毀20個手下",
+					"id": 29436,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 40,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 50,
+							"type": 14
+						}
+					],
+					"title": "尤格廚房"
+				},
+				{
+					"description": "完成2個英雄難度懸賞任務。",
+					"id": 29437,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 35,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 55,
+							"type": 14
+						}
+					],
+					"title": "尤格很優"
+				},
+				{
+					"description": "使用undefined7次。",
+					"id": 29438,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 30,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 60,
+							"type": 14
+						}
+					],
+					"title": "尤格怎麼做"
+				},
+				{
+					"description": "使用undefined7次。",
+					"id": 29439,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 35,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 60,
+							"type": 14
+						}
+					],
+					"title": "尤格尤格得第一"
+				},
+				{
+					"description": "在隊伍中有這個傭兵時，以古神造成250點傷害。",
+					"id": 29440,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 40,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 60,
+							"type": 14
+						}
+					],
+					"title": "神奇的尤格"
+				},
+				{
+					"description": "造成450點傷害。",
+					"id": 29441,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 45,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 60,
+							"type": 14
+						}
+					],
+					"title": "好尤喔"
+				},
+				{
+					"description": "前往神秘節點、恩澤或靈魂醫者2次",
+					"id": 29442,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 50,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 60,
+							"type": 14
+						}
+					],
+					"title": "會不會很尤？"
+				},
+				{
+					"description": "完成4個英雄難度懸賞任務。",
+					"id": 29443,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 50,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 70,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 50,
+							"type": 14
+						}
+					],
+					"title": "尤格的城堡"
+				},
+				{
+					"description": "造成450點傷害。",
+					"id": 29444,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 50,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 70,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 75,
+							"type": 14
+						}
+					],
+					"title": "誰想當尤格？"
+				},
+				{
+					"description": "完成6個懸賞任務。",
+					"id": 29445,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 75,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 70,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 75,
+							"type": 14
+						}
+					],
+					"title": "尤格戰士"
+				},
+				{
+					"description": "摧毀40個手下",
+					"id": 29446,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 1,
+							"type": 4
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 70,
+							"type": 14
+						}
+					],
+					"title": "尤格變變變"
+				},
+				{
+					"description": "完成5個英雄難度懸賞任務。",
+					"id": 29447,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 1,
+							"type": 4
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 75,
+							"type": 14
+						}
+					],
+					"title": "我愛尤格，尤格愛我"
+				},
+				{
+					"description": "對英雄難度首領造成450點傷害。",
+					"id": 29448,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 1,
+							"quantity": 80,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 1,
+							"type": 4
+						}
+					],
+					"title": "尤格中的尤格"
+				}
+			]
+		},
+		{
+			"id": 1358,
+			"mercenaryId": 413,
+			"mercenaryVisitorId": 2067,
+			"taskChainType": 1,
+			"tasks": [
+				{
+					"description": "在冬泉谷以不摧毀任何霜凍圖騰的情況下擊敗雪爪。",
+					"id": 29451,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 1,
+							"type": 18
+						}
+					],
+					"title": "神聖習俗"
+				},
+				{
+					"description": "使用尤格薩倫的尤格來啦技能並贏得一場戰鬥。",
+					"id": 29455,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 1,
+							"type": 18
+						}
+					],
+					"title": "完美盤算"
+				},
+				{
+					"description": "使用尤格薩倫在一場戰鬥中治療及造成50點傷害。",
+					"id": 29458,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 1,
+							"type": 18
+						}
+					],
+					"title": "統御天下"
+				},
+				{
+					"description": "只以3個傭兵完成腐爛的普雷莫爾懸賞任務。",
+					"id": 29449,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 75,
+							"type": 14
+						}
+					],
+					"title": "沒有中場休息"
+				},
+				{
+					"description": "在冬泉谷以最少2個夜精靈完成雪怪獵人拉奈爾懸賞任務。",
+					"id": 29450,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 50,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 25,
+							"type": 14
+						}
+					],
+					"title": "紮營"
+				},
+				{
+					"description": "在冬泉谷不使用任何火焰技能並完成冰霜領主艾胡恩懸賞任務。",
+					"id": 29452,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 50,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 50,
+							"type": 14
+						}
+					],
+					"title": "保持冷靜"
+				},
+				{
+					"description": "在黑石山只使用施法者完成英雄難度的寇仁‧恐酒懸賞任務。",
+					"id": 29454,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 50,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 2,
+							"quantity": 50,
+							"type": 14
+						}
+					],
+					"title": "絕對會醉倒"
+				},
+				{
+					"description": "在冬泉谷於你的傭兵全部存活的情況下，完成英雄難度雪崩怪戰鬥。",
+					"id": 29456,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 100,
+							"type": 14
+						}
+					],
+					"title": "高山救援"
+				},
+				{
+					"description": "在黑海岸以至少2個納迦完成英雄難度的深淵海妖懸賞任務。",
+					"id": 29453,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 75,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 50,
+							"type": 14
+						}
+					],
+					"title": "淺水"
+				},
+				{
+					"description": "在沉沒之城以至少3個納迦完成英雄難度的珊瑚元素懸賞任務。",
+					"id": 29457,
+					"mercenaryOverrideId": null,
+					"rewards": [
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 75,
+							"type": 14
+						},
+						{
+							"equipmentDbfId": null,
+							"mercenarySelector": 0,
+							"quantity": 50,
+							"type": 14
+						}
+					],
+					"title": "深海潛水"
 				}
 			]
 		}
