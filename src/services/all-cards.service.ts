@@ -32,7 +32,7 @@ export class AllCardsService {
 		return Object.values(this.cache);
 	}
 
-	public async initializeCardsDb(version = '', cardsFile = 'cards_enUS.json', useLocal = false): Promise<void> {
+	public async initializeCardsDb(version = '', cardsFile = 'cards_enUS.gz.json', useLocal = false): Promise<void> {
 		// console.debug('[all-cards] asked to retrieve cards from CDN', version, new Error().stack);
 		return new Promise<void>(async (resolve, reject) => {
 			let allCards: readonly ReferenceCard[] = Object.values(this.cache);
@@ -77,7 +77,7 @@ const loadCards = async (baseUrl: string, cardsFile: string, version: string): P
 	const numberOfSplits = 3;
 	const result: ReferenceCard[] = [];
 	for (let i = 0; i < numberOfSplits; i++) {
-		const splitUrl = `${baseUrl}/split/${cardsFile}.${i}?v=${version}`;
+		const splitUrl = `${baseUrl}/split/${cardsFile}.${i}${versionString}`;
 		console.log('[all-cards] loading split', splitUrl);
 		cardsStr = await httpWithRetries(splitUrl, 1);
 		if (!!cardsStr?.length && !cardsStr.startsWith('<')) {
