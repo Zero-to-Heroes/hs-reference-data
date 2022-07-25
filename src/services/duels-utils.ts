@@ -175,7 +175,7 @@ export const duelsActivePool2 = [
 	CardIds.GnomishArmyKnife_DALA_702,
 	CardIds.BananaSplitTavernBrawl,
 	CardIds.CanopicJarsTavernBrawl,
-	CardIds.PhaorisBladeTavernBrawl,
+	CardIds.PhaorisBlade_ULDA_043,
 	CardIds.StaffOfScales_ULDA_008,
 	CardIds.WandOfDisintegrationTavernBrawl,
 ];
