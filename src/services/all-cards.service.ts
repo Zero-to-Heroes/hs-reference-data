@@ -286,6 +286,38 @@ export const getBaseCardId = (cardId: string): string => {
 		case CardIds.ImpSwarmRank1_ImpSwarmRank3Token:
 			return CardIds.ImpSwarmRank1;
 
+		// Infused
+		case CardIds.MischievousImp:
+			return CardIds.MischievousImp_InfusedToken;
+		case CardIds.ImpKingRafaam:
+			return CardIds.ImpKingRafaam_InfusedToken;
+		case CardIds.StonebornAccuser:
+			return CardIds.StonebornAccuser_InfusedToken;
+		case CardIds.Murlocula:
+			return CardIds.Murlocula_InfusedToken;
+		case CardIds.FamishedFool:
+			return CardIds.FamishedFool_InfusedToken;
+		case CardIds.SinfueledGolem:
+			return CardIds.SinfueledGolem_InfusedToken;
+		case CardIds.InsatiableDevourer:
+			return CardIds.InsatiableDevourer_InfusedToken;
+		case CardIds.SireDenathrius:
+			return CardIds.SireDenathrius_InfusedToken;
+		case CardIds.PriestOfTheDeceased:
+			return CardIds.PriestOfTheDeceased_InfusedToken;
+		case CardIds.ArtificerXymox:
+			return CardIds.ArtificerXymox_InfusedToken;
+		case CardIds.BuffetBiggun:
+			return CardIds.BuffetBiggun_InfusedToken;
+		case CardIds.ImbuedAxe:
+			return CardIds.ImbuedAxe_InfusedToken;
+		case CardIds.CleanTheScene:
+			return CardIds.CleanTheScene_InfusedToken;
+		case CardIds.ConvincingDisguise:
+			return CardIds.ConvincingDisguise_InfusedToken;
+		case CardIds.PlotOfSin:
+			return CardIds.PlotOfSin_InfusedToken;
+
 		// Transfer Student should be handled on a case by case basis
 	}
 
