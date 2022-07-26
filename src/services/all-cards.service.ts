@@ -288,39 +288,38 @@ export const getBaseCardId = (cardId: string): string => {
 
 		// Infused
 		case CardIds.MischievousImp:
-			return CardIds.MischievousImp_InfusedToken;
+			return CardIds.MischievousImp_MischievousImpToken;
 		case CardIds.ImpKingRafaam:
-			return CardIds.ImpKingRafaam_InfusedToken;
+			return CardIds.ImpKingRafaam_ImpKingRafaamToken;
 		case CardIds.StonebornAccuser:
-			return CardIds.StonebornAccuser_InfusedToken;
+			return CardIds.StonebornAccuser_StonebornAccuserToken;
 		case CardIds.Murlocula:
-			return CardIds.Murlocula_InfusedToken;
+			return CardIds.Murlocula_MurloculaToken;
 		case CardIds.FamishedFool:
-			return CardIds.FamishedFool_InfusedToken;
+			return CardIds.FamishedFool_FamishedFoolToken;
 		case CardIds.SinfueledGolem:
-			return CardIds.SinfueledGolem_InfusedToken;
+			return CardIds.SinfueledGolem_SinfueledGolemToken;
 		case CardIds.InsatiableDevourer:
-			return CardIds.InsatiableDevourer_InfusedToken;
+			return CardIds.InsatiableDevourer_InsatiableDevourerToken;
 		case CardIds.SireDenathrius:
-			return CardIds.SireDenathrius_InfusedToken;
+			return CardIds.SireDenathrius_SireDenathriusToken;
 		case CardIds.PriestOfTheDeceased:
-			return CardIds.PriestOfTheDeceased_InfusedToken;
+			return CardIds.PriestOfTheDeceased_PriestOfTheDeceasedToken;
 		case CardIds.ArtificerXymox:
-			return CardIds.ArtificerXymox_InfusedToken;
+			return CardIds.ArtificerXymox_ArtificerXymoxToken;
 		case CardIds.BuffetBiggun:
-			return CardIds.BuffetBiggun_InfusedToken;
+			return CardIds.BuffetBiggun_BuffetBiggunToken;
 		case CardIds.ImbuedAxe:
-			return CardIds.ImbuedAxe_InfusedToken;
+			return CardIds.ImbuedAxe_ImbuedAxeToken;
 		case CardIds.CleanTheScene:
-			return CardIds.CleanTheScene_InfusedToken;
+			return CardIds.CleanTheScene_CleanTheSceneToken;
 		case CardIds.ConvincingDisguise:
-			return CardIds.ConvincingDisguise_InfusedToken;
+			return CardIds.ConvincingDisguise_ConvincingDisguiseToken;
 		case CardIds.PlotOfSin:
-			return CardIds.PlotOfSin_InfusedToken;
-
-		// Transfer Student should be handled on a case by case basis
+			return CardIds.PlotOfSin_PlotOfSinToken;
 	}
 
+	// Transfer Student should be handled on a case by case basis
 	if (cardId.startsWith(CardIds.TransferStudent)) {
 		return CardIds.TransferStudent;
 	}

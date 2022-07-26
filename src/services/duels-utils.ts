@@ -129,7 +129,7 @@ export const duelsActivePool1 = [
 	CardIds.ButchTavernBrawl,
 	CardIds.BladeOfQueldelarTavernBrawl,
 	CardIds.BloodMoonTavernBrawl,
-	CardIds.ClockworkAssistantTavernBrawl,
+	CardIds.ClockworkAssistantTavernBrawl_PVPDR_SCH_Active48,
 	CardIds.CoinPouchTavernBrawl,
 	CardIds.CreepyCurioTavernBrawl,
 	CardIds.CrustyTheCrustaceanTavernBrawl,
@@ -148,14 +148,14 @@ export const duelsActivePool1 = [
 	CardIds.MageArmorTavernBrawl,
 	CardIds.MaskOfMimicryTavernBrawl,
 	CardIds.MindpocalypseTavernBrawl,
-	CardIds.MurlocHolmesTavernBrawl,
+	CardIds.DetectiveMurlocHolmesTavernBrawl,
 	CardIds.MutatingInjection_NAX11_04,
 	CardIds.NecroticPoisonTavernBrawl,
 	CardIds.OldMilitiaHornTavernBrawl,
 	CardIds.PartyPortalTavernBrawl_PVPDR_SCH_Active08,
 	CardIds.PrincessTavernBrawl,
 	CardIds.PureColdTavernBrawl,
-	CardIds.PuzzleBoxTavernBrawl,
+	CardIds.PuzzleBoxTavernBrawl_PVPDR_SCH_Active02,
 	CardIds.RoyalGift,
 	CardIds.SowTheSeedsTavernBrawl,
 	CardIds.SpyglassTavernBrawl,
@@ -185,7 +185,7 @@ export const duelsActivePool2 = [
 ];
 
 export const duelsActivePool2UltraRare = [
-	CardIds.ChaosTheoryTavernBrawl,
+	CardIds.ChaosTheoryTavernBrawl_PVPDR_SCH_Active49,
 	CardIds.OverpoweredTavernBrawl,
 	CardIds.DreamgroveRing,
 	CardIds.EmbersOfRagnarosTavernBrawl,
@@ -532,7 +532,11 @@ export const duelsHeroConfigs = [
 	{
 		hero: CardIds.DariusCrowleyTavernBrawl,
 		heroClasses: [CardClass.WARRIOR],
-		heroPowers: [CardIds.Fire, CardIds.FireAway, CardIds.FireAtThee],
+		heroPowers: [
+			CardIds.FireTavernBrawl_PVPDR_Darius_P1,
+			CardIds.FireAwayTavernBrawl,
+			CardIds.FireAtTheeTavernBrawl,
+		],
 		signatureTreasures: [
 			CardIds.SafeHarborTavernBrawl,
 			CardIds.GrizzledReinforcementTavernBrawl,
