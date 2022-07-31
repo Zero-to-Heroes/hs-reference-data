@@ -15,6 +15,7 @@ export interface ReferenceCard {
 	readonly audio?: {
 		[audioKey: string]: readonly string[];
 	};
+	readonly audio2?: ReferenceCardAudio;
 	readonly text: string;
 	readonly collectionText: string;
 	readonly flavor: string;
@@ -53,4 +54,20 @@ export interface ReferenceCard {
 export interface CardLocale {
 	readonly locale: string;
 	readonly name: string;
+}
+
+export interface ReferenceCardAudio {
+	// The main sounds, like Play, Death, etc.
+	[audioKey: string]: {
+		// Each sound can be a juxtaposition of several effects
+		[effectKey: string]: {
+			// These sounds are always played
+			readonly mainSounds: readonly string[];
+			// One of each of these is played, with a probability depending on its weight
+			readonly randomSounds: readonly {
+				readonly weight: number;
+				readonly sound: string;
+			}[];
+		};
+	};
 }
