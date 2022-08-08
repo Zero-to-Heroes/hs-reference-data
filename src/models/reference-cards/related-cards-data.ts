@@ -1350,6 +1350,21 @@ export const RELATED_CARDS_DATA: {
 		CardIds.LadyNazjar_LadyNazjarToken_TID_709t2,
 		CardIds.LadyNazjar_LadyNazjarToken_TID_709t3,
 	],
+	[CardIds.LadyNazjar_LadyNazjarToken_TID_709t]: [
+		CardIds.LadyNazjar_TID_709,
+		CardIds.LadyNazjar_LadyNazjarToken_TID_709t2,
+		CardIds.LadyNazjar_LadyNazjarToken_TID_709t3,
+	],
+	[CardIds.LadyNazjar_LadyNazjarToken_TID_709t2]: [
+		CardIds.LadyNazjar_TID_709,
+		CardIds.LadyNazjar_LadyNazjarToken_TID_709t,
+		CardIds.LadyNazjar_LadyNazjarToken_TID_709t3,
+	],
+	[CardIds.LadyNazjar_LadyNazjarToken_TID_709t3]: [
+		CardIds.LadyNazjar_TID_709,
+		CardIds.LadyNazjar_LadyNazjarToken_TID_709t,
+		CardIds.LadyNazjar_LadyNazjarToken_TID_709t2,
+	],
 	[CardIds.CommandOfNeptulon]: [CardIds.CommandOfNeptulon_WaterRevenantToken],
 	[CardIds.Ozumat_TID_711]: [
 		CardIds.Ozumat_OzumatsTentacleToken_TID_711t,
