@@ -546,7 +546,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.VeteranWarmedic]: [CardIds.VeteranWarmedic_BattlefieldMedicToken],
 	[CardIds.VibrantSquirrel]: [CardIds.VibrantSquirrel_AcornToken, CardIds.VibrantSquirrel_SatisfiedSquirrelToken],
 	[CardIds.VileCall]: [CardIds.VileCall_RavenousVilefiendToken],
-	[CardIds.WickedShipment]: [CardIds.ImpGangBoss_ImpToken],
+	[CardIds.WickedShipment]: [CardIds.FiendishCircle_ImpCoreToken],
 	[CardIds.NourishCore]: [CardIds.Nourish_EnrichLegacy, CardIds.Nourish_RampantGrowthLegacy],
 	[CardIds.NourishLegacy]: [CardIds.Nourish_EnrichLegacy, CardIds.Nourish_RampantGrowthLegacy],
 	[CardIds.WickedStabRank1]: [
@@ -912,7 +912,7 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.Duskbat]: [CardIds.Duskbat_BatToken],
 	[CardIds.FiendishCircle]: [CardIds.FiendishCircle_ImpToken],
-	[CardIds.FiendishCircleCore_CORE_GIL_191]: [CardIds.FiendishCircle_ImpToken],
+	[CardIds.FiendishCircleCore_CORE_GIL_191]: [CardIds.FiendishCircle_ImpCoreToken],
 	[CardIds.FiendishCircleCore_Story_09_FiendishCircle]: [CardIds.FiendishCircle_ImpToken],
 	[CardIds.ImpGangBoss]: [CardIds.ImpGangBoss_ImpToken],
 	[CardIds.ImpGangBossCore]: [CardIds.ImpGangBoss_ImpToken],
