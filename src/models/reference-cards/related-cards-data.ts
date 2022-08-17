@@ -1440,4 +1440,15 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.NightcloakSanctum]: [CardIds.VolatileSkeleton],
 	[CardIds.Deathborne]: [CardIds.VolatileSkeleton],
 	[CardIds.BeOurGuestTavernBrawl]: [CardIds.TheCountess_LegendaryInvitationToken],
+	[CardIds.EnvoyRustwix]: [
+		CardIds.Akama_AkamaPrimeToken,
+		CardIds.AstromancerSolarian_SolarianPrimeToken,
+		CardIds.KanrethadEbonlocke_KanrethadPrimeToken,
+		CardIds.KargathBladefist_KargathPrimeToken,
+		CardIds.LadyVashj_VashjPrimeToken,
+		CardIds.MurgurMurgurgle_MurgurglePrimeToken,
+		CardIds.ArchsporeMsshifn_MsshifnPrimeToken,
+		CardIds.ReliquaryOfSouls_ReliquaryPrimeToken,
+		CardIds.ZixorApexPredator_ZixorPrimeToken,
+	],
 };
