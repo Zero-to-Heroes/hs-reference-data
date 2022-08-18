@@ -193,10 +193,10 @@ export const duelsActivePool2UltraRare = [
 	CardIds.WishTavernBrawl,
 ];
 
+export const allDuelsPassiveTreasures = [...duelsPassivePool1, ...duelsPassivePool2, ...duelsPassivePool2UltraRare];
+
 export const allDuelsTreasureCardIds = [
-	...duelsPassivePool1,
-	...duelsPassivePool2,
-	...duelsPassivePool2UltraRare,
+	...allDuelsPassiveTreasures,
 	...duelsActivePool1,
 	...duelsActivePool2,
 	...duelsActivePool2UltraRare,
