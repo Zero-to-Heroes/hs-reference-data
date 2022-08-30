@@ -289,7 +289,7 @@ export const getBaseCardId = (cardId: string): string => {
 		// Infused
 		case CardIds.MischievousImp:
 			return CardIds.MischievousImp_MischievousImpToken;
-		case CardIds.ImpKingRafaam:
+		case CardIds.ImpKingRafaam_REV_789:
 			return CardIds.ImpKingRafaam_ImpKingRafaamToken;
 		case CardIds.StonebornAccuser:
 			return CardIds.StonebornAccuser_StonebornAccuserToken;
@@ -301,11 +301,11 @@ export const getBaseCardId = (cardId: string): string => {
 			return CardIds.SinfueledGolem_SinfueledGolemToken;
 		case CardIds.InsatiableDevourer:
 			return CardIds.InsatiableDevourer_InsatiableDevourerToken;
-		case CardIds.SireDenathrius:
+		case CardIds.SireDenathrius_REV_906:
 			return CardIds.SireDenathrius_SireDenathriusToken;
 		case CardIds.PriestOfTheDeceased:
 			return CardIds.PriestOfTheDeceased_PriestOfTheDeceasedToken;
-		case CardIds.ArtificerXymox:
+		case CardIds.ArtificerXymox_REV_937:
 			return CardIds.ArtificerXymox_ArtificerXymoxToken;
 		case CardIds.BuffetBiggun:
 			return CardIds.BuffetBiggun_BuffetBiggunToken;
