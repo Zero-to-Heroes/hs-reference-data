@@ -24,6 +24,7 @@ export * from './enums/multi-class-group';
 export * from './enums/playstate';
 export * from './enums/race';
 export * from './enums/reward-item-type';
+export * from './enums/reward-track-type';
 export * from './enums/reward-type';
 export * from './enums/scenario-groups';
 export * from './enums/scenario-id';
