@@ -1435,6 +1435,7 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.StoneboundGargon]: [CardIds.StoneboundGargon_StoneboundGargonToken],
 	[CardIds.FrozenTouch]: [CardIds.FrozenTouch_FrozenTouchToken],
+	[CardIds.FrozenTouch_FrozenTouchToken]: [CardIds.FrozenTouch],
 	[CardIds.ColdCase]: [CardIds.VolatileSkeleton],
 	[CardIds.BrittleBonesTavernBrawl]: [CardIds.VolatileSkeleton],
 	[CardIds.NightcloakSanctum]: [CardIds.VolatileSkeleton],
