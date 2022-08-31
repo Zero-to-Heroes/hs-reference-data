@@ -72,3 +72,5 @@ export const LIBRAM_IDS = [
 	CardIds.LibramOfHoliness,
 	CardIds.LibramOfCompassion,
 ];
+
+export const RELIC_IDS = [CardIds.RelicOfDimensions, CardIds.RelicOfExtinction, CardIds.RelicOfPhantasms];
