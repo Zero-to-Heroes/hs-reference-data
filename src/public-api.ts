@@ -22,6 +22,7 @@ export * from './enums/meta-tags';
 export * from './enums/mulligan';
 export * from './enums/multi-class-group';
 export * from './enums/playstate';
+export * from './enums/quest-pool-type';
 export * from './enums/race';
 export * from './enums/reward-item-type';
 export * from './enums/reward-track-type';
