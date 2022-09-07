@@ -484,7 +484,7 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.RamCommander]: [CardIds.RamCommander_BattleRamToken],
 	[CardIds.RammingMount]: [CardIds.RammingMount_TavishsRamToken],
-	[CardIds.RatsOfExtraordinarySize]: [CardIds.RatPack_RatToken_CFM_316t],
+	[CardIds.RatsOfExtraordinarySize]: [CardIds.RodentNest_RatToken],
 	[CardIds.Reefwalker]: PIRANHA_TOKENS,
 	[CardIds.RemoteControlledGolem_SW_097]: [CardIds.RemoteControlledGolem_GolemPartsToken],
 	[CardIds.RodentNest]: [CardIds.RodentNest_RatToken],
@@ -689,7 +689,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.ClearTheWay]: [CardIds.ClearTheWay_GryphonToken],
 	[CardIds.LearnDraconic]: [CardIds.LearnDraconic_DraconicEmissaryToken],
 	[CardIds.SecureTheDeck]: [CardIds.ClawLegacy],
-	[CardIds.ToxicReinforcements]: [CardIds.ToxicReinforcements_LeperGnomeToken],
+	[CardIds.ToxicReinforcements]: [CardIds.LeperGnomeLegacy_EX1_029],
 	[CardIds.Treenforcements]: [
 		CardIds.Treenforcements_SmallRepairs,
 		CardIds.Treenforcements_SpinEmUp,
