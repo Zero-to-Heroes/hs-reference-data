@@ -1434,6 +1434,17 @@ export const RELATED_CARDS_DATA: {
 		CardIds.HuntsmanAltimor_BarghastToken,
 		CardIds.HuntsmanAltimor_MargoreToken,
 	],
+	[CardIds.HuntsmanAltimor_HuntsmanAltimorToken_REV_353t]: [
+		CardIds.HuntsmanAltimor_HuntsmanAltimorToken_REV_353t2,
+		CardIds.HuntsmanAltimor_HecutisToken,
+		CardIds.HuntsmanAltimor_BarghastToken,
+		CardIds.HuntsmanAltimor_MargoreToken,
+	],
+	[CardIds.HuntsmanAltimor_HuntsmanAltimorToken_REV_353t2]: [
+		CardIds.HuntsmanAltimor_HecutisToken,
+		CardIds.HuntsmanAltimor_BarghastToken,
+		CardIds.HuntsmanAltimor_MargoreToken,
+	],
 	[CardIds.StoneboundGargon]: [CardIds.StoneboundGargon_StoneboundGargonToken],
 	[CardIds.FrozenTouch]: [CardIds.FrozenTouch_FrozenTouchToken],
 	[CardIds.FrozenTouch_FrozenTouchToken]: [CardIds.FrozenTouch],
