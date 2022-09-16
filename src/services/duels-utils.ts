@@ -551,3 +551,4 @@ export const duelsHeroConfigs = [
 export const allDuelsSignatureTreasures = duelsHeroConfigs.flatMap((info) => info.signatureTreasures);
 
 export const allDuelsHeroes = duelsHeroConfigs.map((conf) => conf.hero);
+export const allDuelsHeroesExtended = duelsHeroConfigs.flatMap((conf) => [conf.hero, ...(conf.alternateHeroes ?? [])]);
