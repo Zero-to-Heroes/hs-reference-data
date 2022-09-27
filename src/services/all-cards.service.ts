@@ -317,6 +317,14 @@ export const getBaseCardId = (cardId: string): string => {
 			return CardIds.ConvincingDisguise_ConvincingDisguiseToken;
 		case CardIds.PlotOfSin:
 			return CardIds.PlotOfSin_PlotOfSinToken;
+		case CardIds.AllFelBreaksLoose:
+			return CardIds.AllFelBreaksLoose_AllFelBreaksLooseToken;
+		case CardIds.Shadehound:
+			return CardIds.Shadehound_ShadehoundToken;
+		case CardIds.TotemicEvidence:
+			return CardIds.TotemicEvidence_TotemicEvidenceToken;
+		case CardIds.SylvanasTheAccused:
+			return CardIds.SylvanasTheAccused_SylvanasTheAccusedToken;
 	}
 
 	// Transfer Student should be handled on a case by case basis
