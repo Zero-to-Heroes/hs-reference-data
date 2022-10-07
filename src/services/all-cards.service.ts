@@ -74,7 +74,7 @@ const loadCards = async (baseUrl: string, cardsFile: string, version: string): P
 	}
 
 	console.warn('[all-cards] could not load cards, defaulting to split');
-	const numberOfSplits = 3;
+	const numberOfSplits = 4;
 	const result: ReferenceCard[] = [];
 	for (let i = 0; i < numberOfSplits; i++) {
 		const splitUrl = `${baseUrl}/split/${cardsFile}.${i}${versionString}`;
