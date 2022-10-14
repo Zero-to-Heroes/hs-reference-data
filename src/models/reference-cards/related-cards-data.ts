@@ -1488,4 +1488,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.ExploreTheSeas]: [CardIds.DangerousWaters, CardIds.NoTurningBack, CardIds.ExplorersSceptor],
 	[CardIds.DangerousWaters]: [CardIds.NoTurningBack, CardIds.ExplorersSceptor],
 	[CardIds.NoTurningBack]: [CardIds.ExplorersSceptor],
+	[CardIds.WildGrowthCore]: [CardIds.WildGrowth_ExcessManaLegacyToken],
+	[CardIds.WildGrowthLegacy]: [CardIds.WildGrowth_ExcessManaLegacyToken],
+	[CardIds.WildGrowthVanilla]: [CardIds.WildGrowth_ExcessManaLegacyToken],
 };
