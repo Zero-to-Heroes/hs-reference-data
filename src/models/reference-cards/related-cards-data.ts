@@ -134,6 +134,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.BeaststalkerTavish_ImprovedOpenTheCagesToken,
 		CardIds.BeaststalkerTavish_ImprovedPackTacticsToken,
 		CardIds.BeaststalkerTavish_ImprovedSnakeTrapToken,
+		CardIds.MotionDenied_ImprovedMotionDeniedToken,
 		CardIds.BeaststalkerTavish_SummonPet,
 		...ANIMAL_COMPANION_TOKENS,
 	],
@@ -1491,4 +1492,8 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.WildGrowthCore]: [CardIds.WildGrowth_ExcessManaLegacyToken],
 	[CardIds.WildGrowthLegacy]: [CardIds.WildGrowth_ExcessManaLegacyToken],
 	[CardIds.WildGrowthVanilla]: [CardIds.WildGrowth_ExcessManaLegacyToken],
+	[CardIds.TwistTheCoffers_CacheOfCashToken]: [CardIds.TheCoinCore],
+	[CardIds.FeralSpiritCore]: [CardIds.SpiritWolfLegacy],
+	[CardIds.FeralSpiritLegacy]: [CardIds.SpiritWolfLegacy],
+	[CardIds.FeralSpiritVanilla]: [CardIds.SpiritWolfVanilla],
 };
