@@ -16,14 +16,20 @@ export class AllCardsService {
 
 	// We keep this synchronous because we ensure, in the game init pipeline, that loading cards
 	// is the first thing we do
-	public getCard(id: string, errorWhenUndefined = true): ReferenceCard {
-		return this.cache[id] ?? ({} as ReferenceCard);
+	public getCard(id: string | number, errorWhenUndefined = true): ReferenceCard {
+		return this.cache[id] ?? this.cacheDbfId[id] ?? ({} as ReferenceCard);
 	}
 
+	public getMultipleCards(ids: (string | number)[]): ReferenceCard[] {
+		return ids.map((id) => this.getCard(id));
+	}
+
+	/** @deprecated use getCard instead */
 	public getCardFromDbfId(dbfId: number): ReferenceCard {
 		return this.cacheDbfId[dbfId] ?? ({} as ReferenceCard);
 	}
 
+	/** @deprecated use getMultipleCards instead */
 	public getCardsFromDbfIds(dbfIds: number[]): ReferenceCard[] {
 		return dbfIds.map((dbfId) => this.getCardFromDbfId(dbfId));
 	}
