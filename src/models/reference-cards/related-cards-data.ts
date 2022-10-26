@@ -1496,4 +1496,138 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.FeralSpiritCore]: [CardIds.SpiritWolfLegacy],
 	[CardIds.FeralSpiritLegacy]: [CardIds.SpiritWolfLegacy],
 	[CardIds.FeralSpiritVanilla]: [CardIds.SpiritWolfVanilla],
+
+	//Mercenaries treasures
+
+	[CardIds.ComeOnDown1Lettuce]: [CardIds.DevouringHungerLettuce, CardIds.MindflayerGogglesLettuce, CardIds.CurseOfFleshLettuce, CardIds.HandOfFateLettuce, CardIds.MysteryboxLettuce],
+	[CardIds.ComeOnDown2Lettuce]: [CardIds.DevouringHungerLettuce, CardIds.MindflayerGogglesLettuce, CardIds.CurseOfFleshLettuce, CardIds.HandOfFateLettuce, CardIds.MysteryboxLettuce],
+	[CardIds.ComeOnDown3Lettuce]: [CardIds.DevouringHungerLettuce, CardIds.MindflayerGogglesLettuce, CardIds.CurseOfFleshLettuce, CardIds.HandOfFateLettuce, CardIds.MysteryboxLettuce],
+
+	[CardIds.CheckmateLettuce]: [CardIds.Knight_KnightLettuce, CardIds.Rook_RookLettuce, CardIds.Bishop_BishopLettuce],
+
+	[CardIds.SproutingTentacles1Lettuce]: [CardIds.SpawnOfNzoth1_SpawnOfNzoth1Lettuce],
+	[CardIds.SproutingTentacles2Lettuce]: [CardIds.SpawnOfNzoth2_SpawnOfNzoth2Lettuce],
+	[CardIds.SproutingTentacles3Lettuce]: [CardIds.SpawnOfNzoth3_SpawnOfNzoth3Lettuce],
+	[CardIds.SproutingTentacles4Lettuce]: [CardIds.SpawnOfNzoth4_SpawnOfNzoth4Lettuce],
+	[CardIds.SproutingTentacles5Lettuce]: [CardIds.SpawnOfNzoth5_SpawnOfNzoth5Lettuce],
+
+	[CardIds.TotemicCalling1Lettuce]: [CardIds.StoneclawTotem1Lettuce, CardIds.TotemicMastery1_HealingTotem1LettuceToken],
+	[CardIds.TotemicCalling2Lettuce]: [CardIds.StoneclawTotem2Lettuce, CardIds.TotemicMastery2_HealingTotem2LettuceToken],
+	[CardIds.TotemicCalling3Lettuce]: [CardIds.StoneclawTotem3Lettuce, CardIds.TotemicMastery3_HealingTotem3LettuceToken],
+	[CardIds.TotemicCalling4Lettuce]: [CardIds.StoneclawTotem4Lettuce, CardIds.TotemicMastery4_HealingTotem4LettuceToken],
+	[CardIds.TotemicCalling5Lettuce]: [CardIds.StoneclawTotem5Lettuce, CardIds.HealingTotem5LettuceToken],
+
+	//Mercenaries equipment
+
+	[CardIds.TotemicMastery1Lettuce]: [CardIds.TotemicMastery1_GroundingTotem1LettuceToken],
+	[CardIds.TotemicMastery2Lettuce]: [CardIds.TotemicMastery2_GroundingTotem2LettuceToken],
+	[CardIds.TotemicMastery3Lettuce]: [CardIds.TotemicMastery3_GroundingTotem3LettuceToken],
+	[CardIds.TotemicMastery4Lettuce]: [CardIds.TotemicMastery4_GroundingTotem4LettuceToken],
+
+	[CardIds.UnstableRunes1Lettuce]: [CardIds.UnstableRunes1_ArcaneWard1LettuceToken],
+	[CardIds.UnstableRunes2Lettuce]: [CardIds.UnstableRunes2_ArcaneWard2LettuceToken],
+	[CardIds.UnstableRunes3Lettuce]: [CardIds.UnstableRunes3_ArcaneWard3LettuceToken],
+	[CardIds.UnstableRunes4Lettuce]: [CardIds.UnstableRunes4_ArcaneWard4LettuceToken],
+
+	//Mercenaries abilities
+
+	[CardIds.AnimalCompanion1Lettuce]: [ CardIds.AnimalCompanion1_Misha1LettuceToken, CardIds.AnimalCompanion1_Leokk1LettuceToken, CardIds.AnimalCompanion1_Huffer1LettuceToken],
+	[CardIds.AnimalCompanion2Lettuce]: [ CardIds.AnimalCompanion2_Misha2LettuceToken, CardIds.AnimalCompanion2_Leokk2LettuceToken, CardIds.AnimalCompanion2_Huffer2LettuceToken],
+	[CardIds.AnimalCompanion3Lettuce]: [ CardIds.AnimalCompanion3_Misha3LettuceToken, CardIds.AnimalCompanion3_Leokk3LettuceToken, CardIds.AnimalCompanion3_Huffer3LettuceToken],
+	[CardIds.AnimalCompanion4Lettuce]: [ CardIds.AnimalCompanion4_Misha4LettuceToken, CardIds.AnimalCompanion4_Leokk4LettuceToken, CardIds.AnimalCompanion4_Huffer4LettuceToken],
+	[CardIds.AnimalCompanion5Lettuce]: [ CardIds.AnimalCompanion5_Misha5LettuceToken, CardIds.AnimalCompanion5_Leokk5LettuceToken, CardIds.AnimalCompanion5_Huffer5LettuceToken],
+
+	[CardIds.Knowledge1Lettuce]: [CardIds.TaleOfTheMogu1Lettuce, CardIds.TaleOfTheHozen1Lettuce, CardIds.TaleOfTheSaurok1Lettuce],
+	[CardIds.Knowledge2Lettuce]: [CardIds.TaleOfTheMogu2Lettuce, CardIds.TaleOfTheHozen2Lettuce, CardIds.TaleOfTheSaurok2Lettuce],
+	[CardIds.Knowledge3Lettuce]: [CardIds.TaleOfTheMogu3Lettuce, CardIds.TaleOfTheHozen3Lettuce, CardIds.TaleOfTheSaurok3Lettuce],
+	[CardIds.Knowledge4Lettuce]: [CardIds.TaleOfTheMogu4Lettuce, CardIds.TaleOfTheHozen4Lettuce, CardIds.TaleOfTheSaurok4Lettuce],
+	[CardIds.Knowledge5Lettuce]: [CardIds.TaleOfTheMogu5Lettuce, CardIds.TaleOfTheHozen5Lettuce, CardIds.TaleOfTheSaurok5Lettuce],
+	
+	[CardIds.BuildAGolem1Lettuce]: [CardIds.BuildAGolem1_Harder1Lettuce, CardIds.BuildAGolem1_Better1Lettuce, CardIds.BuildAGolem1_Faster1Lettuce],
+	[CardIds.BuildAGolem2Lettuce]: [CardIds.BuildAGolem2_Harder2Lettuce, CardIds.BuildAGolem2_Better2Lettuce, CardIds.BuildAGolem2_Faster2Lettuce],
+	[CardIds.BuildAGolem3Lettuce]: [CardIds.BuildAGolem3_Harder3Lettuce, CardIds.BuildAGolem3_Better3Lettuce, CardIds.BuildAGolem3_Faster3Lettuce],
+	[CardIds.BuildAGolem4Lettuce]: [CardIds.BuildAGolem4_Harder4Lettuce, CardIds.BuildAGolem4_Better4Lettuce, CardIds.BuildAGolem4_Faster4Lettuce],
+	[CardIds.BuildAGolem5Lettuce]: [CardIds.BuildAGolem5_Harder5Lettuce, CardIds.BuildAGolem5_Better5Lettuce, CardIds.BuildAGolem5_Faster5Lettuce],
+
+	[CardIds.IrrefusableDeal1Lettuce]: [CardIds.DealOfTimeLettuce_LT24_007P2a, CardIds.DealOfVanityLettuce_LT24_007P2b, CardIds.DealOfFearLettuce_LT24_007P2c],
+	[CardIds.IrrefusableDeal2Lettuce]: [CardIds.DealOfTimeLettuce_LT24_007P2a, CardIds.DealOfVanityLettuce_LT24_007P2b, CardIds.DealOfFearLettuce_LT24_007P2c],
+	[CardIds.IrrefusableDeal3Lettuce]: [CardIds.DealOfTimeLettuce_LT24_007P2a, CardIds.DealOfVanityLettuce_LT24_007P2b, CardIds.DealOfFearLettuce_LT24_007P2c],
+	[CardIds.IrrefusableDeal4Lettuce]: [CardIds.DealOfTimeLettuce_LT24_007P2a, CardIds.DealOfVanityLettuce_LT24_007P2b, CardIds.DealOfFearLettuce_LT24_007P2c],
+	[CardIds.IrrefusableDeal5Lettuce]: [CardIds.DealOfTimeLettuce_LT24_007P2a, CardIds.DealOfVanityLettuce_LT24_007P2b, CardIds.DealOfFearLettuce_LT24_007P2c],
+
+	[CardIds.AndTheKillerIs1Lettuce]: [CardIds.FirstToArrive1Lettuce, CardIds.FirstToArrive1Lettuce, CardIds.ObviouslyTheMurderer1Lettuce],
+	[CardIds.AndTheKillerIs2Lettuce]: [CardIds.FirstToArrive2Lettuce, CardIds.FirstToArrive2Lettuce, CardIds.ObviouslyTheMurderer2Lettuce],
+	[CardIds.AndTheKillerIs3Lettuce]: [CardIds.FirstToArrive3Lettuce, CardIds.FirstToArrive3Lettuce, CardIds.ObviouslyTheMurderer3Lettuce],
+	[CardIds.AndTheKillerIs4Lettuce]: [CardIds.FirstToArrive4Lettuce, CardIds.FirstToArrive4Lettuce, CardIds.ObviouslyTheMurderer4Lettuce],
+	[CardIds.AndTheKillerIs5Lettuce]: [CardIds.FirstToArrive5Lettuce, CardIds.FirstToArrive5Lettuce, CardIds.ObviouslyTheMurderer5Lettuce],
+
+	[CardIds.EmeraldDream1Lettuce]: [CardIds.EmeraldDrake1Lettuce_LT24_002P2x_01, CardIds.Nightmare1Lettuce, CardIds.YseraAwakens1Lettuce],
+	[CardIds.EmeraldDream2Lettuce]: [CardIds.EmeraldDrake2Lettuce_LT24_002P2x_02, CardIds.Nightmare2Lettuce, CardIds.YseraAwakens2Lettuce],
+	[CardIds.EmeraldDream3Lettuce]: [CardIds.EmeraldDrake3Lettuce_LT24_002P2x_03, CardIds.Nightmare3Lettuce, CardIds.YseraAwakens3Lettuce],
+	[CardIds.EmeraldDream4Lettuce]: [CardIds.EmeraldDrake4Lettuce_LT24_002P2x_04, CardIds.Nightmare4Lettuce, CardIds.YseraAwakens4Lettuce],
+	[CardIds.EmeraldDream5Lettuce]: [CardIds.EmeraldDrake5Lettuce_LT24_002P2x_05, CardIds.Nightmare5Lettuce, CardIds.YseraAwakens5Lettuce],
+
+	[CardIds.GoFish1Lettuce]: [CardIds.Swordfish1Lettuce, CardIds.ShimmeringSunfish1Lettuce, CardIds.HelmetHermit1Lettuce],
+	[CardIds.GoFish2Lettuce]: [CardIds.Swordfish2Lettuce, CardIds.ShimmeringSunfish2Lettuce, CardIds.HelmetHermit2Lettuce],
+	[CardIds.GoFish3Lettuce]: [CardIds.Swordfish3Lettuce, CardIds.ShimmeringSunfish3Lettuce, CardIds.HelmetHermit3Lettuce],
+	[CardIds.GoFish4Lettuce]: [CardIds.Swordfish4Lettuce, CardIds.ShimmeringSunfish4Lettuce, CardIds.HelmetHermit4Lettuce],
+	[CardIds.GoFish5Lettuce]: [CardIds.Swordfish5Lettuce, CardIds.ShimmeringSunfish5Lettuce, CardIds.HelmetHermit5Lettuce],
+
+
+	[CardIds.PrepareTheCannons1Lettuce]: [CardIds.PrepareTheCannons1_EudorasCannon1Lettuce],
+	[CardIds.PrepareTheCannons2Lettuce]: [CardIds.PrepareTheCannons2_EudorasCannon2Lettuce],
+	[CardIds.PrepareTheCannons3Lettuce]: [CardIds.PrepareTheCannons3_EudorasCannon3Lettuce],
+	[CardIds.PrepareTheCannons4Lettuce]: [CardIds.PrepareTheCannons4_EudorasCannon4Lettuce],
+	[CardIds.PrepareTheCannons5Lettuce]: [CardIds.PrepareTheCannons5_EudorasCannon5Lettuce],
+
+	[CardIds.SummonRavenFamiliar1Lettuce]: [CardIds.SummonRavenFamiliar1_RavenFamiliar1Lettuce, CardIds.SummonRavenFamiliar1_BirdsOfAFeather1Lettuce],
+	[CardIds.SummonRavenFamiliar2Lettuce]: [CardIds.SummonRavenFamiliar2_RavenFamiliar2Lettuce, CardIds.SummonRavenFamiliar2_BirdsOfAFeather2Lettuce],
+	[CardIds.SummonRavenFamiliar3Lettuce]: [CardIds.SummonRavenFamiliar3_RavenFamiliar3Lettuce, CardIds.SummonRavenFamiliar3_BirdsOfAFeather3Lettuce],
+	[CardIds.SummonRavenFamiliar4Lettuce]: [CardIds.SummonRavenFamiliar4_RavenFamiliar4Lettuce, CardIds.SummonRavenFamiliar4_BirdsOfAFeather4Lettuce],
+	[CardIds.SummonRavenFamiliar5Lettuce]: [CardIds.SummonRavenFamiliar5_RavenFamiliar5Lettuce, CardIds.SummonRavenFamiliar5_BirdsOfAFeather5Lettuce],
+	
+	[CardIds.CommandDemon1Lettuce]: [CardIds.WildImp1Lettuce],
+	[CardIds.CommandDemon2Lettuce]: [CardIds.WildImp2Lettuce],
+	[CardIds.CommandDemon3Lettuce]: [CardIds.WildImp3Lettuce],
+	[CardIds.CommandDemon4Lettuce]: [CardIds.WildImp4Lettuce],
+	[CardIds.CommandDemon5Lettuce]: [CardIds.WildImp5Lettuce],
+
+	[CardIds.BurningBladePortal1Lettuce]: [CardIds.WildImp1Lettuce],
+	[CardIds.BurningBladePortal2Lettuce]: [CardIds.WildImp2Lettuce],
+	[CardIds.BurningBladePortal3Lettuce]: [CardIds.WildImp3Lettuce],
+	[CardIds.BurningBladePortal4Lettuce]: [CardIds.WildImp4Lettuce],
+	[CardIds.BurningBladePortal5Lettuce]: [CardIds.WildImp5Lettuce],
+
+
+	[CardIds.QuestForTheGoldenMonkey1Lettuce]: [CardIds.EmbarkOnTheQuest1Lettuce, CardIds.AvoidTheDartTrap1Lettuce, CardIds.NavigateTheJungle1Lettuce, CardIds.EscapeTheRollingBoulder1Lettuce, CardIds.TheGoldenMonkey1Lettuce_LT23_032P3f1],
+	[CardIds.QuestForTheGoldenMonkey2Lettuce]: [CardIds.EmbarkOnTheQuest2Lettuce, CardIds.AvoidTheDartTrap2Lettuce, CardIds.NavigateTheJungle2Lettuce, CardIds.EscapeTheRollingBoulder2Lettuce, CardIds.TheGoldenMonkey2Lettuce_LT23_032P3f2],
+	[CardIds.QuestForTheGoldenMonkey3Lettuce]: [CardIds.EmbarkOnTheQuest3Lettuce, CardIds.AvoidTheDartTrap3Lettuce, CardIds.NavigateTheJungle3Lettuce, CardIds.EscapeTheRollingBoulder3Lettuce, CardIds.TheGoldenMonkey3Lettuce_LT23_032P3f3],
+	[CardIds.QuestForTheGoldenMonkey4Lettuce]: [CardIds.EmbarkOnTheQuest4Lettuce, CardIds.AvoidTheDartTrap4Lettuce, CardIds.NavigateTheJungle4Lettuce, CardIds.EscapeTheRollingBoulder4Lettuce, CardIds.TheGoldenMonkey4Lettuce_LT23_032P3f4],
+	[CardIds.QuestForTheGoldenMonkey5Lettuce]: [CardIds.EmbarkOnTheQuest5Lettuce, CardIds.AvoidTheDartTrap5Lettuce, CardIds.NavigateTheJungle5Lettuce, CardIds.EscapeTheRollingBoulder5Lettuce, CardIds.TheGoldenMonkey5Lettuce_LT23_032P3f],
+
+	[CardIds.Anathema1Lettuce]: [CardIds.Benediction1Lettuce],
+	[CardIds.Anathema2Lettuce]: [CardIds.Benediction2Lettuce],
+	[CardIds.Anathema3Lettuce]: [CardIds.Benediction3Lettuce],
+	[CardIds.Anathema4Lettuce]: [CardIds.Benediction4Lettuce],
+	[CardIds.Anathema5Lettuce]: [CardIds.Benediction5Lettuce],
+
+	[CardIds.TrueShape1Lettuce]: [CardIds.Reshape1Lettuce],
+	[CardIds.TrueShape2Lettuce]: [CardIds.Reshape2Lettuce],
+	[CardIds.TrueShape3Lettuce]: [CardIds.Reshape3Lettuce],
+	[CardIds.TrueShape4Lettuce]: [CardIds.Reshape4Lettuce],
+	[CardIds.TrueShape5Lettuce]: [CardIds.Reshape5Lettuce],
+
+	[CardIds.FelCorruption1Lettuce]: [CardIds.Shamanism1Lettuce],
+	[CardIds.FelCorruption2Lettuce]: [CardIds.Shamanism2Lettuce],
+	[CardIds.FelCorruption3Lettuce]: [CardIds.Shamanism3Lettuce],
+	[CardIds.FelCorruption4Lettuce]: [CardIds.Shamanism4Lettuce],
+	[CardIds.FelCorruption5Lettuce]: [CardIds.Shamanism5Lettuce],
+
+	[CardIds.TrueForm1Lettuce]: [CardIds.FelReign1Lettuce],
+	[CardIds.TrueForm2Lettuce]: [CardIds.FelReign2Lettuce],
+	[CardIds.TrueForm3Lettuce]: [CardIds.FelReign3Lettuce],
+	[CardIds.TrueForm4Lettuce]: [CardIds.FelReign4Lettuce],
+	[CardIds.TrueForm5Lettuce]: [CardIds.FelReign5Lettuce],
+
+	[CardIds.GennGreymaneLettuce_LT24_008H_01]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
 };
