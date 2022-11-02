@@ -1028,7 +1028,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.DruidOfTheSwarm_DruidOfTheSwarmToken_ICC_051t2,
 		CardIds.DruidOfTheSwarm_DruidOfTheSwarmToken_ICC_051t3,
 	],
-	[CardIds.VenomstrikeTrap_ICC_200]: [CardIds.EmperorCobraLegacy],
+	[CardIds.VenomstrikeTrap_ICC_200]: [CardIds.EmperorCobraLegacy_EX1_170],
 	[CardIds.ValkyrSoulclaimer]: [CardIds.NecroticGeist_GhoulToken],
 	[CardIds.Vryghoul]: [CardIds.NecroticGeist_GhoulToken],
 	[CardIds.ArrogantCrusader]: [CardIds.NecroticGeist_GhoulToken],

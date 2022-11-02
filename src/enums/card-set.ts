@@ -56,4 +56,5 @@ export enum CardSet {
 	REVENDRETH = 1691,
 	MERCENARIES_DEV = 1705,
 	OLD_CORE_230 = 1810, // Cards that were moved out of the core set with 23.0
+	RETURN_OF_THE_LICH_KING = 1776,
 }
