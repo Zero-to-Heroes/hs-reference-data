@@ -1667,27 +1667,27 @@ export const RELATED_CARDS_DATA: {
 
 	[CardIds.AndTheKillerIs1Lettuce]: [
 		CardIds.FirstToArrive1Lettuce,
-		CardIds.FirstToArrive1Lettuce,
+		CardIds.LastOnTheScene1Lettuce,
 		CardIds.ObviouslyTheMurderer1Lettuce,
 	],
 	[CardIds.AndTheKillerIs2Lettuce]: [
 		CardIds.FirstToArrive2Lettuce,
-		CardIds.FirstToArrive2Lettuce,
+		CardIds.LastOnTheScene2Lettuce,
 		CardIds.ObviouslyTheMurderer2Lettuce,
 	],
 	[CardIds.AndTheKillerIs3Lettuce]: [
 		CardIds.FirstToArrive3Lettuce,
-		CardIds.FirstToArrive3Lettuce,
+		CardIds.LastOnTheScene3Lettuce,
 		CardIds.ObviouslyTheMurderer3Lettuce,
 	],
 	[CardIds.AndTheKillerIs4Lettuce]: [
 		CardIds.FirstToArrive4Lettuce,
-		CardIds.FirstToArrive4Lettuce,
+		CardIds.LastOnTheScene4Lettuce,
 		CardIds.ObviouslyTheMurderer4Lettuce,
 	],
 	[CardIds.AndTheKillerIs5Lettuce]: [
 		CardIds.FirstToArrive5Lettuce,
-		CardIds.FirstToArrive5Lettuce,
+		CardIds.LastOnTheScene5Lettuce,
 		CardIds.ObviouslyTheMurderer5Lettuce,
 	],
 
@@ -1788,6 +1788,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.NavigateTheJungle1Lettuce,
 		CardIds.EscapeTheRollingBoulder1Lettuce,
 		CardIds.TheGoldenMonkey1Lettuce_LT23_032P3f1,
+		CardIds.TheGoldenMonkey1Lettuce_LT23_032P3m1,
 	],
 	[CardIds.QuestForTheGoldenMonkey2Lettuce]: [
 		CardIds.EmbarkOnTheQuest2Lettuce,
@@ -1795,6 +1796,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.NavigateTheJungle2Lettuce,
 		CardIds.EscapeTheRollingBoulder2Lettuce,
 		CardIds.TheGoldenMonkey2Lettuce_LT23_032P3f2,
+		CardIds.TheGoldenMonkey2Lettuce_LT23_032P3m2,
 	],
 	[CardIds.QuestForTheGoldenMonkey3Lettuce]: [
 		CardIds.EmbarkOnTheQuest3Lettuce,
@@ -1802,6 +1804,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.NavigateTheJungle3Lettuce,
 		CardIds.EscapeTheRollingBoulder3Lettuce,
 		CardIds.TheGoldenMonkey3Lettuce_LT23_032P3f3,
+		CardIds.TheGoldenMonkey3Lettuce_LT23_032P3m3,
 	],
 	[CardIds.QuestForTheGoldenMonkey4Lettuce]: [
 		CardIds.EmbarkOnTheQuest4Lettuce,
@@ -1809,6 +1812,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.NavigateTheJungle4Lettuce,
 		CardIds.EscapeTheRollingBoulder4Lettuce,
 		CardIds.TheGoldenMonkey4Lettuce_LT23_032P3f4,
+		CardIds.TheGoldenMonkey4Lettuce_LT23_032P3m4,
 	],
 	[CardIds.QuestForTheGoldenMonkey5Lettuce]: [
 		CardIds.EmbarkOnTheQuest5Lettuce,
@@ -1816,6 +1820,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.NavigateTheJungle5Lettuce,
 		CardIds.EscapeTheRollingBoulder5Lettuce,
 		CardIds.TheGoldenMonkey5Lettuce_LT23_032P3f,
+		CardIds.TheGoldenMonkey5Lettuce_LT23_032P3m5,
 	],
 
 	[CardIds.Anathema1Lettuce]: [CardIds.Benediction1Lettuce],
@@ -1842,7 +1847,65 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.TrueForm4Lettuce]: [CardIds.FelReign4Lettuce],
 	[CardIds.TrueForm5Lettuce]: [CardIds.FelReign5Lettuce],
 
-	[CardIds.GennGreymaneLettuce_LT24_008H_01]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
+	[CardIds.WickedStab1Lettuce]: [
+		CardIds.WickedStab1_WickedStab1Lettuce_LETL_480_01x, 
+		CardIds.WickedStab1_WickedStab1Lettuce_LETL_480_01y, 
+		CardIds.WickedStab1_WickedStab1Lettuce_LETL_480_01z,
+	],
+	[CardIds.WickedStab2Lettuce]: [
+		CardIds.WickedStab2_WickedStab2Lettuce_LETL_480_02x, 
+		CardIds.WickedStab2_WickedStab2Lettuce_LETL_480_02y, 
+		CardIds.WickedStab2_WickedStab2Lettuce_LETL_480_02z,
+	],
+	[CardIds.WickedStab3Lettuce]: [
+		CardIds.WickedStab3_WickedStab3Lettuce_LETL_480_03x, 
+		CardIds.WickedStab3_WickedStab3Lettuce_LETL_480_03y, 
+		CardIds.WickedStab3_WickedStab3Lettuce_LETL_480_03z,
+	],
+	[CardIds.WickedStab4Lettuce]: [
+		CardIds.WickedStab4_WickedStab4Lettuce_LETL_480_04x, 
+		CardIds.WickedStab4_WickedStab4Lettuce_LETL_480_04y, 
+		CardIds.WickedStab4_WickedStab4Lettuce_LETL_480_04z,
+	],
+	[CardIds.WickedStab5Lettuce]: [
+		CardIds.WickedStab5_WickedStab5Lettuce_LETL_480_05x, 
+		CardIds.WickedStab5_WickedStab5Lettuce_LETL_480_05y, 
+		CardIds.WickedStab5_WickedStab5Lettuce_LETL_480_05z,
+	],
+	
+	[CardIds.PrincessPower1Lettuce]: [CardIds.WhatImCapableOfLettuce],
+	[CardIds.PrincessPower2Lettuce]: [CardIds.WhatImCapableOfLettuce],
+	[CardIds.PrincessPower3Lettuce]: [CardIds.WhatImCapableOfLettuce],
+	[CardIds.PrincessPower4Lettuce]: [CardIds.WhatImCapableOfLettuce],
+	[CardIds.PrincessPower5Lettuce]: [CardIds.WhatImCapableOfLettuce],
+	
+	[CardIds.FrostBurn1Lettuce]: [CardIds.Burn1Lettuce, CardIds.Frost1Lettuce],
+	[CardIds.FrostBurn2Lettuce]: [CardIds.Burn2Lettuce, CardIds.Frost2Lettuce],
+	[CardIds.FrostBurn3Lettuce]: [CardIds.Burn3Lettuce, CardIds.Frost3Lettuce],
+	[CardIds.FrostBurn4Lettuce]: [CardIds.Burn4Lettuce, CardIds.Frost4Lettuce],
+	[CardIds.FrostBurn5Lettuce]: [CardIds.Burn5Lettuce, CardIds.Frost5Lettuce],
+
+	[CardIds.BlisteringBullet1Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
+	[CardIds.BlisteringBullet2Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
+	[CardIds.BlisteringBullet3Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
+	[CardIds.BlisteringBullet4Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
+	[CardIds.BlisteringBullet5Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
+
+	[CardIds.SmoothTransformation1Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04, CardIds.GennGreymaneLettuce_LT24_008H_01],
+	[CardIds.SmoothTransformation2Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04, CardIds.GennGreymaneLettuce_LT24_008H_01],
+	[CardIds.SmoothTransformation3Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04, CardIds.GennGreymaneLettuce_LT24_008H_01],
+	[CardIds.SmoothTransformation4Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04, CardIds.GennGreymaneLettuce_LT24_008H_01],
+
+	[CardIds.BloodMoon1Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
+	[CardIds.BloodMoon2Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
+	[CardIds.BloodMoon3Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
+	[CardIds.BloodMoon4Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
+
+	[CardIds.NemsyNecrofizzleLettuce_LT24_010H_01]: [CardIds.BoggyLettuce_LT24_010m],
+	[CardIds.NemsyNecrofizzleLettuce_LT24_010H_02]: [CardIds.BoggyLettuce_LT24_010m],
+	[CardIds.NemsyNecrofizzleLettuce_LT24_010H_03]: [CardIds.BoggyLettuce_LT24_010m],
+
+
 
 	[CardIds.TempestsFuryTavernBrawlToken]: [CardIds.LightningBoltCore],
 	[CardIds.OldMilitiaHornTavernBrawl]: [
