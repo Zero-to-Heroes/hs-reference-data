@@ -1038,7 +1038,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.GrimNecromancer]: [CardIds.GrimNecromancer_SkeletonToken],
 	[CardIds.GrimNecromancerCore]: [CardIds.GrimNecromancer_SkeletonToken],
 	[CardIds.RattlingRascal]: [CardIds.RattlingRascal_SkeletalEnforcerToken],
-	[CardIds.BoneBaron]: [CardIds.RattlingRascal_SkeletalEnforcerToken],
+	[CardIds.BoneBaron]: [CardIds.GrimNecromancer_SkeletonToken],
 	[CardIds.Fatespinner]: [
 		CardIds.Fatespinner_FatespinnerToken_ICC_047t,
 		CardIds.Fatespinner_FatespinnerToken_ICC_047t2,
@@ -1848,37 +1848,37 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.TrueForm5Lettuce]: [CardIds.FelReign5Lettuce],
 
 	[CardIds.WickedStab1Lettuce]: [
-		CardIds.WickedStab1_WickedStab1Lettuce_LETL_480_01x, 
-		CardIds.WickedStab1_WickedStab1Lettuce_LETL_480_01y, 
+		CardIds.WickedStab1_WickedStab1Lettuce_LETL_480_01x,
+		CardIds.WickedStab1_WickedStab1Lettuce_LETL_480_01y,
 		CardIds.WickedStab1_WickedStab1Lettuce_LETL_480_01z,
 	],
 	[CardIds.WickedStab2Lettuce]: [
-		CardIds.WickedStab2_WickedStab2Lettuce_LETL_480_02x, 
-		CardIds.WickedStab2_WickedStab2Lettuce_LETL_480_02y, 
+		CardIds.WickedStab2_WickedStab2Lettuce_LETL_480_02x,
+		CardIds.WickedStab2_WickedStab2Lettuce_LETL_480_02y,
 		CardIds.WickedStab2_WickedStab2Lettuce_LETL_480_02z,
 	],
 	[CardIds.WickedStab3Lettuce]: [
-		CardIds.WickedStab3_WickedStab3Lettuce_LETL_480_03x, 
-		CardIds.WickedStab3_WickedStab3Lettuce_LETL_480_03y, 
+		CardIds.WickedStab3_WickedStab3Lettuce_LETL_480_03x,
+		CardIds.WickedStab3_WickedStab3Lettuce_LETL_480_03y,
 		CardIds.WickedStab3_WickedStab3Lettuce_LETL_480_03z,
 	],
 	[CardIds.WickedStab4Lettuce]: [
-		CardIds.WickedStab4_WickedStab4Lettuce_LETL_480_04x, 
-		CardIds.WickedStab4_WickedStab4Lettuce_LETL_480_04y, 
+		CardIds.WickedStab4_WickedStab4Lettuce_LETL_480_04x,
+		CardIds.WickedStab4_WickedStab4Lettuce_LETL_480_04y,
 		CardIds.WickedStab4_WickedStab4Lettuce_LETL_480_04z,
 	],
 	[CardIds.WickedStab5Lettuce]: [
-		CardIds.WickedStab5_WickedStab5Lettuce_LETL_480_05x, 
-		CardIds.WickedStab5_WickedStab5Lettuce_LETL_480_05y, 
+		CardIds.WickedStab5_WickedStab5Lettuce_LETL_480_05x,
+		CardIds.WickedStab5_WickedStab5Lettuce_LETL_480_05y,
 		CardIds.WickedStab5_WickedStab5Lettuce_LETL_480_05z,
 	],
-	
+
 	[CardIds.PrincessPower1Lettuce]: [CardIds.WhatImCapableOfLettuce],
 	[CardIds.PrincessPower2Lettuce]: [CardIds.WhatImCapableOfLettuce],
 	[CardIds.PrincessPower3Lettuce]: [CardIds.WhatImCapableOfLettuce],
 	[CardIds.PrincessPower4Lettuce]: [CardIds.WhatImCapableOfLettuce],
 	[CardIds.PrincessPower5Lettuce]: [CardIds.WhatImCapableOfLettuce],
-	
+
 	[CardIds.FrostBurn1Lettuce]: [CardIds.Burn1Lettuce, CardIds.Frost1Lettuce],
 	[CardIds.FrostBurn2Lettuce]: [CardIds.Burn2Lettuce, CardIds.Frost2Lettuce],
 	[CardIds.FrostBurn3Lettuce]: [CardIds.Burn3Lettuce, CardIds.Frost3Lettuce],
@@ -1891,10 +1891,22 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.BlisteringBullet4Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
 	[CardIds.BlisteringBullet5Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
 
-	[CardIds.SmoothTransformation1Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04, CardIds.GennGreymaneLettuce_LT24_008H_01],
-	[CardIds.SmoothTransformation2Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04, CardIds.GennGreymaneLettuce_LT24_008H_01],
-	[CardIds.SmoothTransformation3Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04, CardIds.GennGreymaneLettuce_LT24_008H_01],
-	[CardIds.SmoothTransformation4Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04, CardIds.GennGreymaneLettuce_LT24_008H_01],
+	[CardIds.SmoothTransformation1Lettuce]: [
+		CardIds.GennGreymaneLettuce_LT24_008H_04,
+		CardIds.GennGreymaneLettuce_LT24_008H_01,
+	],
+	[CardIds.SmoothTransformation2Lettuce]: [
+		CardIds.GennGreymaneLettuce_LT24_008H_04,
+		CardIds.GennGreymaneLettuce_LT24_008H_01,
+	],
+	[CardIds.SmoothTransformation3Lettuce]: [
+		CardIds.GennGreymaneLettuce_LT24_008H_04,
+		CardIds.GennGreymaneLettuce_LT24_008H_01,
+	],
+	[CardIds.SmoothTransformation4Lettuce]: [
+		CardIds.GennGreymaneLettuce_LT24_008H_04,
+		CardIds.GennGreymaneLettuce_LT24_008H_01,
+	],
 
 	[CardIds.BloodMoon1Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
 	[CardIds.BloodMoon2Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
@@ -1904,8 +1916,6 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.NemsyNecrofizzleLettuce_LT24_010H_01]: [CardIds.BoggyLettuce_LT24_010m],
 	[CardIds.NemsyNecrofizzleLettuce_LT24_010H_02]: [CardIds.BoggyLettuce_LT24_010m],
 	[CardIds.NemsyNecrofizzleLettuce_LT24_010H_03]: [CardIds.BoggyLettuce_LT24_010m],
-
-
 
 	[CardIds.TempestsFuryTavernBrawlToken]: [CardIds.LightningBoltCore],
 	[CardIds.OldMilitiaHornTavernBrawl]: [
