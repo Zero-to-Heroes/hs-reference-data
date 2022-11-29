@@ -44,6 +44,7 @@ export * from './models/reference-cards/rarity.type';
 export * from './models/reference-cards/reference-card';
 export * from './models/reference-cards/reference-player-class';
 export * from './models/reference-cards/related-cards-data';
+export * from './secondary-race-tags';
 export * from './services/all-cards.service';
 export * from './services/duels-utils';
 export * from './services/hs-utils';

@@ -26,6 +26,7 @@ export interface ReferenceCard {
 	readonly rarity?: RarityTYpe;
 	readonly collectible?: boolean;
 	readonly race?: string;
+	readonly races?: readonly string[];
 	readonly techLevel?: number;
 	readonly durability?: number;
 	readonly armor?: number;
