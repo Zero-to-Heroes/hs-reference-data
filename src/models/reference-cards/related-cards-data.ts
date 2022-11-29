@@ -2094,4 +2094,5 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.BloodParasiteTavernBrawl]: [CardIds.BloodParasite_BloodwormTavernBrawlToken],
 	[CardIds.GhoulsRushInTavernBrawl]: [CardIds.GhoulsRushIn_RisenGhoulTavernBrawl],
 	[CardIds.TinyThimbleTavernBrawl]: [CardIds.TinyThimble_RegularSizeThimbleTavernBrawl],
+	[CardIds.SouleatersScythe]: [CardIds.SouleatersScythe_BoundSoulToken],
 };
