@@ -91,6 +91,19 @@ const CONCOCTIONS = [
 	CardIds.GhoulishAlchemist_HazyConcoctionToken,
 	CardIds.GhoulishAlchemist_GleamingConcoctionToken,
 ];
+const ADAPTS = [
+	CardIds.ShroudingMistToken,
+	CardIds.PoisonSpitToken,
+	CardIds.VolcanicMightToken,
+	CardIds.LivingSporesToken,
+	CardIds.LivingSpores_PlantToken,
+	CardIds.FlamingClawsToken,
+	CardIds.RockyCarapaceToken,
+	CardIds.LiquidMembraneToken,
+	CardIds.MassiveToken,
+	CardIds.LightningSpeedToken,
+	CardIds.CracklingShieldToken,
+];
 
 export type RelatedCardExtractor = (cards: readonly ReferenceCard[]) => readonly string[];
 
@@ -896,8 +909,8 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.BoommasterFlark]: [CardIds.GoblinBomb],
 	[CardIds.ExtraArms]: [CardIds.ExtraArms_MoreArmsToken],
 	[CardIds.WeaponsProject]: [CardIds.WeaponsProject_GearbladeToken],
-	[CardIds.Landscaping_BOT_420]: [CardIds.Treenforcements_TreantToken],
-	[CardIds.Landscaping_CORE_BOT_420]: [CardIds.Treenforcements_TreantToken],
+	[CardIds.Landscaping_BOT_420]: [CardIds.SoulOfTheForest_TreantLegacyToken],
+	[CardIds.Landscaping_CORE_BOT_420]: [CardIds.SoulOfTheForest_TreantLegacyToken],
 	[CardIds.MicrotechController]: [CardIds.ReplicatingMenace_MicrobotToken_BOT_312t],
 	[CardIds.ReplicatingMenace_BOT_312]: [CardIds.ReplicatingMenace_MicrobotToken_BOT_312t],
 	[CardIds.Sn1pSn4p]: [CardIds.ReplicatingMenace_MicrobotToken_BOT_312t],
@@ -909,7 +922,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.TendingTauren]: [
 		CardIds.TendingTauren_NewGrowth,
 		CardIds.TendingTauren_OldGrowth,
-		CardIds.Treenforcements_TreantToken,
+		CardIds.SoulOfTheForest_TreantLegacyToken,
 	],
 	[CardIds.DrBoomMadGenius]: [
 		CardIds.DrBoomMadGenius_BigRedButton,
@@ -978,6 +991,7 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.CursedDisciple]: [CardIds.CursedDisciple_CursedRevenantToken],
 	[CardIds.FaldoreiStrider]: [CardIds.FaldoreiStrider_SpiderAmbush, CardIds.FaldoreiStrider_LeylineSpiderToken],
+	[CardIds.FaldoreiStrider_SpiderAmbush]: [CardIds.FaldoreiStrider_LeylineSpiderToken],
 	[CardIds.FlankingStrike]: [CardIds.FlankingStrike_WolfToken],
 	[CardIds.HoardingDragon_LOOT_144]: [CardIds.TheCoinCore],
 	[CardIds.LesserAmethystSpellstone]: [
@@ -2095,4 +2109,21 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.GhoulsRushInTavernBrawl]: [CardIds.GhoulsRushIn_RisenGhoulTavernBrawl],
 	[CardIds.TinyThimbleTavernBrawl]: [CardIds.TinyThimble_RegularSizeThimbleTavernBrawl],
 	[CardIds.SouleatersScythe]: [CardIds.SouleatersScythe_BoundSoulToken],
+	[CardIds.VerdantLongneck]: ADAPTS,
+	[CardIds.EvolvingSpores]: ADAPTS,
+	[CardIds.PterrordaxHatchling]: ADAPTS,
+	[CardIds.ElderLongneck]: ADAPTS,
+	[CardIds.Volcanosaur]: ADAPTS,
+	[CardIds.RavasaurRunt]: ADAPTS,
+	[CardIds.RavenousPterrordax]: ADAPTS,
+	[CardIds.ViciousFledgling]: ADAPTS,
+	[CardIds.ThunderLizard]: ADAPTS,
+	[CardIds.GentleMegasaur_UNG_089]: ADAPTS,
+	[CardIds.CracklingRazormaw]: ADAPTS,
+	[CardIds.OrneryDirehorn]: ADAPTS,
+	[CardIds.Adaptation]: ADAPTS,
+	[CardIds.LightfusedStegodon]: ADAPTS,
+	[CardIds.TheLastKaleidosaur_GalvadonToken]: ADAPTS,
+	[CardIds.PrimordialWand]: ADAPTS,
+	[CardIds.TransferStudent_TransferStudentToken_SCH_199t13]: ADAPTS,
 };
