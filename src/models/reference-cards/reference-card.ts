@@ -10,6 +10,12 @@ export interface ReferenceCard {
 	readonly classes?: readonly string[];
 	readonly cardClass: string;
 	readonly cost?: number;
+	readonly additionalCosts?: {
+		readonly BLOODRUNE?: number;
+		readonly FROSTRUNE?: number;
+		readonly UNHOLYRUNE?: number;
+		readonly DEATH?: number;
+	};
 	readonly attack?: number;
 	readonly health?: number;
 	readonly audio?: {
