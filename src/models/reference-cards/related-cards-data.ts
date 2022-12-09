@@ -2109,6 +2109,8 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.GhoulsRushInTavernBrawl]: [CardIds.GhoulsRushIn_RisenGhoulTavernBrawl],
 	[CardIds.TinyThimbleTavernBrawl]: [CardIds.TinyThimble_RegularSizeThimbleTavernBrawl],
 	[CardIds.SouleatersScythe]: [CardIds.SouleatersScythe_BoundSoulToken],
+	[CardIds.ArmyOfTheDeadCore_RLK_060]: [CardIds.RisenGhoulCoreToken_RLK_008t],
+	[CardIds.ArmyOfTheDeadCore_RLK_Prologue_RLK_060]: [CardIds.RisenGhoulCoreToken_RLK_Prologue_RLK_008t],
 	[CardIds.VerdantLongneck]: ADAPTS,
 	[CardIds.EvolvingSpores]: ADAPTS,
 	[CardIds.PterrordaxHatchling]: ADAPTS,
