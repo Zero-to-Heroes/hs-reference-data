@@ -48,6 +48,9 @@ export interface ReferenceCard {
 	readonly deckDuplicateDbfId?: number;
 	readonly relatedCardDbfIds?: readonly number[];
 
+	readonly availableAsDiamond?: boolean;
+	readonly availableAsSignature?: boolean;
+
 	readonly mercenary: boolean;
 	readonly mercenaryRole: string;
 	readonly mercenaryAbility: boolean;
