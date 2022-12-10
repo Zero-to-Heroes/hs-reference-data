@@ -14,7 +14,7 @@ const ADVENTURER_TOKENS = [
 const ANIMAL_COMPANION_TOKENS = [CardIds.HufferLegacy, CardIds.LeokkLegacy, CardIds.MishaLegacy];
 const DEATH_KNIGHT_CARDS = [
 	CardIds.TheLichKing_FrostmourneToken,
-	CardIds.ArmyOfTheDeadCore_RLK_060,
+	CardIds.TheLichKing_ArmyOfTheFrozenThroneToken,
 	CardIds.TheLichKing_DoomPactToken,
 	CardIds.TheLichKing_DeathGripToken,
 	CardIds.TheLichKing_DeathCoilToken,
