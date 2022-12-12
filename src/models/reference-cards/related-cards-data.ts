@@ -56,6 +56,7 @@ const HERO_POWERS = [
 	CardIds.TotemicCallHeroSkins_CS2_049_H1,
 	CardIds.LifeTapHeroSkins_CS2_056_H1,
 	CardIds.ArmorUpHeroSkins_CS2_102_H1,
+	CardIds.GhoulChargeLegacy,
 ];
 const UPGRADED_HERO_POWERS = [
 	CardIds.DemonsBiteHeroSkins_HERO_10bbp2,
@@ -68,6 +69,7 @@ const UPGRADED_HERO_POWERS = [
 	CardIds.TotemicSlamHeroSkins_CS2_049_H1_AT_132,
 	CardIds.SoulTapHeroSkins_AT_132_WARLOCKa,
 	CardIds.TankUpHeroSkins_CS2_102_H1_AT_132,
+	CardIds.GhoulFrenzyLegacy,
 ];
 const SPARE_PARTS = [
 	CardIds.ArmorPlating,
