@@ -1089,8 +1089,14 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.ThrallDeathseer_ICC_481]: [CardIds.ThrallDeathseer_TransmuteSpirit],
 	[CardIds.Webweave_CORE_ICC_050]: [CardIds.MalfurionThePestilent_FrostWidowToken],
 	[CardIds.Webweave_ICC_050]: [CardIds.MalfurionThePestilent_FrostWidowToken],
-	[CardIds.DeathstalkerRexxar_CORE_ICC_828]: [CardIds.DeathstalkerRexxar_ZombeastToken],
-	[CardIds.DeathstalkerRexxar_ICC_828]: [CardIds.DeathstalkerRexxar_ZombeastToken],
+	[CardIds.DeathstalkerRexxar_CORE_ICC_828]: [
+		CardIds.DeathstalkerRexxar_BuildABeast,
+		CardIds.DeathstalkerRexxar_ZombeastToken,
+	],
+	[CardIds.DeathstalkerRexxar_ICC_828]: [
+		CardIds.DeathstalkerRexxar_BuildABeast,
+		CardIds.DeathstalkerRexxar_ZombeastToken,
+	],
 	[CardIds.SpreadingPlague_CORE_ICC_054]: [CardIds.MalfurionThePestilent_ScarabBeetleToken],
 	[CardIds.SpreadingPlague_ICC_054]: [CardIds.MalfurionThePestilent_ScarabBeetleToken],
 	[CardIds.MalfurionThePestilent_CORE_ICC_832]: [
