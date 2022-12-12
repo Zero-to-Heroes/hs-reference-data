@@ -166,7 +166,6 @@ export const duelsActivePool1 = [
 	CardIds.SuperchargeTavernBrawl,
 	CardIds.SurlyMobTavernBrawl,
 	CardIds.TheExorcisorTavernBrawl,
-	CardIds.TinyThimbleTavernBrawl,
 	CardIds.VampiricFangsToken,
 	CardIds.WorshipperHeroic,
 ];
@@ -186,6 +185,7 @@ export const duelsActivePool2 = [
 	CardIds.CanopicJarsTavernBrawl,
 	CardIds.PhaorisBlade_ULDA_043,
 	CardIds.StaffOfScales_ULDA_008,
+	CardIds.TinyThimbleTavernBrawl,
 	CardIds.WandOfDisintegrationTavernBrawl,
 ];
 
