@@ -2076,6 +2076,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.LingeringZombie_DisarmedZombieToken,
 		CardIds.LingeringZombie_UnarmedZombieToken,
 	],
+	[CardIds.LingeringZombie_DisarmedZombieToken]: [CardIds.LingeringZombie_UnarmedZombieToken],
 	[CardIds.NerubianFlyer]: [CardIds.NerubianFlyer_NerubianSkittererToken],
 	[CardIds.Arcsplitter]: [CardIds.ArcaneBolt],
 	[CardIds.ArcaneWyrm]: [CardIds.ArcaneBolt],
