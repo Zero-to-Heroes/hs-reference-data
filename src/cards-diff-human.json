@@ -1,18 +1,175 @@
 [
 	{
-		"name": "Sire Denathrius",
-		"set": "Revendreth",
-		"cost": 10,
-		"attack": 10,
-		"health": 10,
-		"text": "<b><b>Lifesteal</b>.</b> <b>Battlecry:</b> Deal 5 damage amongst enemies. <b>Endlessly Infuse (2):</b> Deal 1 more."
+		"name": "Toxfin",
+		"set": "Dalaran",
+		"cost": 1,
+		"attack": 2,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Give a friendly Murloc <b>Poisonous</b>."
 	},
 	{
-		"name": "Shockspitter",
-		"set": "Return_of_the_lich_king",
+		"name": "Sketchy Information",
+		"set": "Stormwind",
+		"cost": 4,
+		"text": "[x]Draw a <b>Deathrattle</b> card\nthat costs (4) or less.\nTrigger its <b>Deathrattle.</b>"
+	},
+	{
+		"name": "Priestess Valishj",
+		"set": "The_sunken_city",
+		"cost": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "[x]<b>Battlecry:</b> Refresh an empty\nMana Crystal for each spell\n you've cast this turn. <i>(0)</i>"
+	},
+	{
+		"name": "Forsaken Lieutenant",
+		"set": "Alterac_valley",
 		"cost": 3,
 		"attack": 2,
 		"health": 2,
-		"text": "<b>Battlecry:</b> Deal 1 damage.\n<i>(Improved by your hero attacks this game!)</i>"
+		"text": "<b><b>Stealth</b>.</b> After you play\na <b>Deathrattle</b> minion, become a 2/2 copy of it with <b>Rush</b>."
+	},
+	{
+		"name": "Boon of the Ascended",
+		"set": "Revendreth",
+		"cost": 5,
+		"text": "Give a minion +2 Health. Summon a Kyrian with its stats and <b>Taunt</b>."
+	},
+	{
+		"name": "Necrolord Draka",
+		"set": "Revendreth",
+		"cost": 5,
+		"attack": 3,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> Equip a 1/3 Dagger. \n<i>(+1 Attack for each other \ncard you played this turn!)</i>"
+	},
+	{
+		"name": "Relic of Dimensions",
+		"set": "Revendreth",
+		"cost": 6,
+		"text": "[x]Draw two cards \nand reduce their Cost \nby (1). Improve your \nfuture Relics."
+	},
+	{
+		"name": "Prince Renathal",
+		"set": "Revendreth",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "[x]Your deck size is 40.\nYour starting Health is 35."
+	},
+	{
+		"name": "Meat Grinder",
+		"set": "Return_of_the_lich_king",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Shred a random minion in your deck to gain 4 <b>Corpses.</b>"
+	},
+	{
+		"name": "Blood Tap",
+		"set": "Path_of_arthas",
+		"cost": 2,
+		"text": "Give all minions in your hand +1/+1.\nSpend 2 <b>Corpses</b> to give them +1/+1 more."
+	},
+	{
+		"name": "Corpse Bride",
+		"set": "Path_of_arthas",
+		"cost": 5,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> Spend up to 10\n<b>Corpses</b>. Summon a Risen\nGroom with stats equal\nto the amount spent."
+	},
+	{
+		"name": "Stitched Giant",
+		"set": "Core",
+		"cost": 9,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]Costs (1) less for each\n<b>Corpse</b> you've spent\nthis game."
+	},
+	{
+		"name": "Malignant Horror",
+		"set": "Path_of_arthas",
+		"cost": 4,
+		"attack": 2,
+		"health": 4,
+		"text": "[x]<b>Reborn</b>\nAt the end of your turn,\nspend 4 <b>Corpses</b> to summon\na copy of this minion."
+	},
+	{
+		"name": "Obliterate",
+		"set": "Core",
+		"cost": 2,
+		"text": "Destroy a minion. Deal 3 damage to your hero."
+	},
+	{
+		"name": "Rime Sculptor",
+		"set": "Core",
+		"cost": 5,
+		"attack": 4,
+		"health": 3,
+		"text": "[x]<b>Battlecry:</b> Summon two\n2/1 Rime Elementals with\n\"<b>Deathrattle:</b> Deal 2 damage\nto a random enemy.\""
+	},
+	{
+		"name": "Sinstone Graveyard",
+		"set": "Revendreth",
+		"cost": 3,
+		"health": 2,
+		"text": "[x]Summon a 1/1\n<b>Stealthed</b> Ghost.\n<i>(Has +1/+1 for each other\ncard you played this turn!)</i>"
+	},
+	{
+		"name": "Unleash Fel",
+		"set": "Return_of_the_lich_king",
+		"cost": 1,
+		"text": "Deal $1 damage\nto all enemies. <b>Manathirst (6):</b> With\n<b>Lifesteal</b>."
+	},
+	{
+		"name": "Anub'Rekhan",
+		"set": "Return_of_the_lich_king",
+		"cost": 8,
+		"attack": 7,
+		"health": 7,
+		"text": "<b>Battlecry:</b> Gain 8 Armor. Your next 3 minions\nthis turn cost Armor instead of Mana."
+	},
+	{
+		"name": "Hardened Carapace",
+		"set": "Return_of_the_lich_king",
+		"text": "Your next 3 minions this turn cost Armor instead of Mana."
+	},
+	{
+		"name": "Blightfang",
+		"set": "Return_of_the_lich_king",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> Infect all enemy\nminions. When they die,\nyou summon a 2/2\nZombie with <b>Taunt</b>."
+	},
+	{
+		"name": "Ymirjar Deathbringer",
+		"set": "Core",
+		"cost": 3,
+		"attack": 4,
+		"health": 3,
+		"text": "[x]<b>Taunt</b>. <b>Deathrattle:</b> Spend 3\n<b>Corpses</b> to summon a 3/3\nRisen Ymirjar with <b>Taunt</b>."
+	},
+	{
+		"name": "Astalor, the Flamebringer",
+		"set": "Return_of_the_lich_king",
+		"cost": 8,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]<b>Battlecry:</b> Deal 8 damage\nrandomly split between all\nenemies. <b>Manathirst (10):</b>\nDeal 16 instead."
+	},
+	{
+		"name": "Toxfin",
+		"set": "Dalaran",
+		"cost": 1,
+		"attack": 1,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Give a friendly Murloc <b>Poisonous</b>."
+	},
+	{
+		"name": "Hardened Carapace",
+		"set": "Return_of_the_lich_king",
+		"text": "Costs Armor instead of Mana."
 	}
 ]
