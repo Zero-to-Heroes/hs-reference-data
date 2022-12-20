@@ -1494,6 +1494,7 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.TheCountess]: [CardIds.TheCountess_LegendaryInvitationToken],
 	[CardIds.BuffetBiggun]: [CardIds.BuffetBiggun_BuffetBiggunToken, CardIds.SilverHandRecruitLegacyToken],
+	[CardIds.BuffetBiggun_BuffetBiggunToken]: [CardIds.SilverHandRecruitLegacyToken],
 	[CardIds.SinfulSousChef]: [CardIds.SilverHandRecruitLegacyToken],
 	[CardIds.ImbuedAxe]: [CardIds.ImbuedAxe_ImbuedAxeToken],
 	[CardIds.BurdenOfPride]: [CardIds.BurdenOfPride_SanguineJailerToken],
@@ -2137,4 +2138,8 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.TheLastKaleidosaur_GalvadonToken]: ADAPTS,
 	[CardIds.PrimordialWand]: ADAPTS,
 	[CardIds.TransferStudent_TransferStudentToken_SCH_199t13]: ADAPTS,
+	[CardIds.OasisAlly]: [CardIds.WaterElementalLegacy],
+	[CardIds.SpellbenderLegacy]: [CardIds.Spellbender_SpellbenderLegacy],
+	[CardIds.SpellbenderVanilla]: [CardIds.Spellbender_SpellbenderVanilla],
+	[CardIds.KidnapSack]: [CardIds.KidnapSack_KidnapSackToken],
 };
