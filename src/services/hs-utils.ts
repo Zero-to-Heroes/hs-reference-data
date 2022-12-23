@@ -16,6 +16,36 @@ export const formatFormat = (format: GameFormat): GameFormatString => {
 	}
 };
 
+export const getDefaultHeroDbfIdForClass = (playerClass: string): number => {
+	switch (playerClass?.toLowerCase()) {
+		case 'deathknight':
+			return 78065;
+		case 'demonhunter':
+			return 56550;
+		case 'druid':
+			return 274;
+		case 'hunter':
+			return 31;
+		case 'mage':
+			return 637;
+		case 'paladin':
+			return 671;
+		case 'priest':
+			return 813;
+		case 'rogue':
+			return 930;
+		case 'shaman':
+			return 1066;
+		case 'warlock':
+			return 893;
+		case 'warrior':
+			return 7;
+		default:
+			console.warn('Could not normalize hero card id', playerClass);
+			return 7;
+	}
+};
+
 export const isBattlegroundsCard = (card: ReferenceCard): boolean => {
 	return !!card.techLevel || !!card.battlegroundsNormalDbfId || !!card.battlegroundsPremiumDbfId;
 };
