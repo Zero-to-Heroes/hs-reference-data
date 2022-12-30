@@ -758,27 +758,53 @@ export const RELATED_CARDS_DATA: {
 		CardIds.GalakrondTheNightmare_GalakrondAzerothsEndToken,
 		CardIds.GalakrondsGuile,
 	],
+	[CardIds.GalakrondTheNightmare_GalakrondTheApocalypseToken]: [
+		CardIds.GalakrondTheNightmare_GalakrondAzerothsEndToken,
+		CardIds.GalakrondsGuile,
+	],
+	[CardIds.GalakrondTheNightmare_GalakrondAzerothsEndToken]: [CardIds.GalakrondsGuile],
 	[CardIds.GalakrondTheTempest]: [
 		CardIds.GalakrondTheTempest_GalakrondTheApocalypseToken,
 		CardIds.GalakrondTheTempest_GalakrondAzerothsEndToken,
 		CardIds.GalakrondsFury,
 	],
+	[CardIds.GalakrondTheTempest_GalakrondTheApocalypseToken]: [
+		CardIds.GalakrondTheTempest_GalakrondAzerothsEndToken,
+		CardIds.GalakrondsFury,
+	],
+	[CardIds.GalakrondTheTempest_GalakrondAzerothsEndToken]: [CardIds.GalakrondsFury],
 	[CardIds.GalakrondTheUnbreakable]: [
 		CardIds.GalakrondTheUnbreakable_GalakrondTheApocalypseToken,
 		CardIds.GalakrondTheUnbreakable_GalakrondAzerothsEndToken,
 		CardIds.GalakrondsMight,
 	],
+	[CardIds.GalakrondTheUnbreakable_GalakrondTheApocalypseToken]: [
+		CardIds.GalakrondTheUnbreakable_GalakrondAzerothsEndToken,
+		CardIds.GalakrondsMight,
+	],
+	[CardIds.GalakrondTheUnbreakable_GalakrondAzerothsEndToken]: [CardIds.GalakrondsMight],
 	[CardIds.GalakrondTheUnspeakable]: [
 		CardIds.GalakrondTheUnspeakable_GalakrondTheApocalypseToken,
 		CardIds.GalakrondTheUnspeakable_GalakrondAzerothsEndToken,
 		CardIds.GalakrondsWit,
 	],
+	[CardIds.GalakrondTheUnspeakable_GalakrondTheApocalypseToken]: [
+		CardIds.GalakrondTheUnspeakable_GalakrondAzerothsEndToken,
+		CardIds.GalakrondsWit,
+	],
+	[CardIds.GalakrondTheUnspeakable_GalakrondAzerothsEndToken]: [CardIds.GalakrondsWit],
 	[CardIds.GalakrondTheWretched]: [
 		CardIds.GalakrondTheWretched_GalakrondTheApocalypseToken,
 		CardIds.GalakrondTheWretched_GalakrondAzerothsEndToken,
 		CardIds.GalakrondsMalice,
 		CardIds.DraconicImpToken,
 	],
+	[CardIds.GalakrondTheWretched_GalakrondTheApocalypseToken]: [
+		CardIds.GalakrondTheWretched_GalakrondAzerothsEndToken,
+		CardIds.GalakrondsMalice,
+		CardIds.DraconicImpToken,
+	],
+	[CardIds.GalakrondTheWretched_GalakrondAzerothsEndToken]: [CardIds.GalakrondsMalice, CardIds.DraconicImpToken],
 	[CardIds.Shuma]: [CardIds.Shuma_TentacleToken],
 	[CardIds.ZzerakuTheWarped]: [CardIds.ZzerakuTheWarped_NetherDrakeToken],
 	[CardIds.YseraUnleashed]: [CardIds.YseraUnleashed_DreamPortalToken],
@@ -1067,6 +1093,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.NecroticGeist_ICC_900]: [CardIds.NecroticGeist_GhoulToken],
 	[CardIds.Arfus_CORE_ICC_854]: DEATH_KNIGHT_CARDS,
 	[CardIds.Arfus_ICC_854]: DEATH_KNIGHT_CARDS,
+	[CardIds.MirrorImageLegacy_CS2_027]: [CardIds.MirrorImageLegacy_CS2_mirror],
 	[CardIds.GhastlyConjurer_CORE_ICC_069]: [CardIds.MirrorImageLegacy_CS2_mirror],
 	[CardIds.GhastlyConjurer_ICC_069]: [CardIds.MirrorImageLegacy_CS2_mirror],
 	[CardIds.GrimNecromancer]: [CardIds.GrimNecromancer_SkeletonToken],
@@ -2142,4 +2169,9 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.SpellbenderLegacy]: [CardIds.Spellbender_SpellbenderLegacy],
 	[CardIds.SpellbenderVanilla]: [CardIds.Spellbender_SpellbenderVanilla],
 	[CardIds.KidnapSack]: [CardIds.KidnapSack_KidnapSackToken],
+	[CardIds.DruidOfTheFlame]: [
+		CardIds.DruidOfTheFlame_DruidOfTheFlameToken_BRM_010t,
+		CardIds.DruidOfTheFlame_DruidOfTheFlameToken_BRM_010t2,
+		CardIds.FandralStaghelm_DruidOfTheFlame,
+	],
 };
