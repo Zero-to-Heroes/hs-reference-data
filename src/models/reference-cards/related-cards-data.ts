@@ -2131,7 +2131,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.AstalorBloodsworn_AstalorTheProtectorToken]: [CardIds.AstalorBloodsworn_AstalorTheFlamebringerToken],
 	[CardIds.InfectedPeasant_RLK_070]: [CardIds.InfectedPeasant_UndeadPeasantToken_RLK_070t],
 	[CardIds.FlightOfTheBronze]: [CardIds.FlightOfTheBronze_BronzeDefenderToken],
-	[CardIds.BoneguardCommander_RLK_506]: [CardIds.BoneguardCommander_RisenGroomToken],
+	[CardIds.BoneguardCommander_RLK_506]: [CardIds.BattlefieldNecromancer_RisenFootmanCoreToken_RLK_Prologue_RLK_061t],
 	[CardIds.Blightfang]: [CardIds.TombGuardians_MenacingZombieToken_RLK_118t3],
 	[CardIds.GlaciaxeTavernBrawl]: [
 		CardIds.Glaciaxe_WingsOfGlaciaxeTavernBrawl,
