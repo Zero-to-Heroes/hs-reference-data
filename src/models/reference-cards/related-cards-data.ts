@@ -56,7 +56,7 @@ const HERO_POWERS = [
 	CardIds.TotemicCallHeroSkins_CS2_049_H1,
 	CardIds.LifeTapHeroSkins_CS2_056_H1,
 	CardIds.ArmorUpHeroSkins_CS2_102_H1,
-	CardIds.GhoulChargeLegacy,
+	CardIds.GhoulChargeLegacy_HERO_11cbp,
 ];
 const UPGRADED_HERO_POWERS = [
 	CardIds.DemonsBiteHeroSkins_HERO_10bbp2,
@@ -69,7 +69,7 @@ const UPGRADED_HERO_POWERS = [
 	CardIds.TotemicSlamHeroSkins_CS2_049_H1_AT_132,
 	CardIds.SoulTapHeroSkins_AT_132_WARLOCKa,
 	CardIds.TankUpHeroSkins_CS2_102_H1_AT_132,
-	CardIds.GhoulFrenzyLegacy,
+	CardIds.GhoulFrenzyLegacy_HERO_11cbp2,
 ];
 const SPARE_PARTS = [
 	CardIds.ArmorPlating,
@@ -457,7 +457,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.FeralRage]: [CardIds.FeralRage_EvolveScales, CardIds.FeralRage_EvolveSpines],
 	[CardIds.FeralSpiritCore]: [CardIds.FeralSpiritToken],
 	[CardIds.FeralSpiritLegacy]: [CardIds.FeralSpiritToken],
-	[CardIds.MagisterDawngrasp]: [CardIds.MagisterDawngrasp_ArcaneBurst],
+	[CardIds.MagisterDawngrasp_AV_200]: [CardIds.MagisterDawngrasp_ArcaneBurst],
 	[CardIds.MailboxDancer]: [CardIds.TheCoinCore],
 	[CardIds.Mankrik]: [CardIds.Mankrik_OlgraMankriksWifeToken, CardIds.Mankrik_MankrikConsumedByHatredToken],
 	[CardIds.Mankrik_OlgraMankriksWifeToken]: [CardIds.Mankrik_MankrikConsumedByHatredToken],
@@ -977,7 +977,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.WisperingWoods]: [CardIds.WisperingWoods_WispToken],
 	[CardIds.NightscaleMatriarch]: [CardIds.NightscaleMatriarch_NightscaleWhelpToken],
 	[CardIds.HagathaTheWitch]: [CardIds.HagathaTheWitch_BewitchHeroic],
-	[CardIds.SplittingFesteroot]: [
+	[CardIds.SplittingFesteroot_GIL_616]: [
 		CardIds.SplittingFesteroot_SplittingSaplingToken,
 		CardIds.SplittingFesteroot_WoodchipToken,
 	],
@@ -998,7 +998,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.LesserRubySpellstone_GreaterRubySpellstoneToken,
 	],
 	[CardIds.DragonSoul]: [CardIds.DragonSoul_DragonSpiritToken],
-	[CardIds.GildedGargoyle]: [CardIds.TheCoinCore],
+	[CardIds.GildedGargoyle_LOOT_534]: [CardIds.TheCoinCore],
 	[CardIds.SewerCrawler]: [CardIds.SewerCrawler_GiantRatToken],
 	[CardIds.UnidentifiedElixir]: [
 		CardIds.UnidentifiedElixir_ElixirOfLifeToken,
@@ -1096,7 +1096,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.MirrorImageLegacy_CS2_027]: [CardIds.MirrorImageLegacy_CS2_mirror],
 	[CardIds.GhastlyConjurer_CORE_ICC_069]: [CardIds.MirrorImageLegacy_CS2_mirror],
 	[CardIds.GhastlyConjurer_ICC_069]: [CardIds.MirrorImageLegacy_CS2_mirror],
-	[CardIds.GrimNecromancer]: [CardIds.GrimNecromancer_SkeletonToken],
+	[CardIds.GrimNecromancer_ICC_026]: [CardIds.GrimNecromancer_SkeletonToken],
 	[CardIds.GrimNecromancerCore]: [CardIds.GrimNecromancer_SkeletonToken],
 	[CardIds.RattlingRascal_CORE_ICC_025]: [CardIds.RattlingRascal_SkeletalEnforcerToken],
 	[CardIds.RattlingRascal_ICC_025]: [CardIds.RattlingRascal_SkeletalEnforcerToken],
@@ -1349,7 +1349,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.UnearthedRaptor_MapToTheGoldenMonkeyToken,
 		CardIds.UnearthedRaptor_GoldenMonkeyToken,
 	],
-	[CardIds.TombPillager]: [CardIds.TheCoinCore],
+	[CardIds.TombPillager_LOE_012]: [CardIds.TheCoinCore],
 	[CardIds.TombPillagerCore]: [CardIds.TheCoinCore],
 	[CardIds.VioletTeacherCore]: [CardIds.VioletTeacher_VioletApprenticeLegacyToken],
 	[CardIds.VioletTeacherLegacy]: [CardIds.VioletTeacher_VioletApprenticeLegacyToken],
@@ -2122,7 +2122,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.DeathweaverAura]: [CardIds.DeathweaverAura_DrakkariZombieToken],
 	[CardIds.UnlivingChampion]: [CardIds.DeathweaverAura_DrakkariZombieToken],
 	[CardIds.VrykulNecrolyte]: [CardIds.PlagueStrike_RampagingZombieToken_RLK_018t],
-	[CardIds.FoulEgg]: [CardIds.FoulEgg_FoulFowlToken],
+	[CardIds.FoulEgg_RLK_833]: [CardIds.FoulEgg_FoulFowlToken],
 	[CardIds.HawkstriderRancher]: [CardIds.HawkstriderRancher_HawkstriderToken],
 	[CardIds.AstalorBloodsworn]: [
 		CardIds.AstalorBloodsworn_AstalorTheProtectorToken,
@@ -2173,5 +2173,19 @@ export const RELATED_CARDS_DATA: {
 		CardIds.DruidOfTheFlame_DruidOfTheFlameToken_BRM_010t,
 		CardIds.DruidOfTheFlame_DruidOfTheFlameToken_BRM_010t2,
 		CardIds.FandralStaghelm_DruidOfTheFlame,
+	],
+	[CardIds.HandlessForsaken]: [CardIds.HandlessForsaken_HelpingHandToken],
+	[CardIds.HandlessForsakenBattlegrounds]: [CardIds.HandlessForsaken_HelpingHandTokenBattlegrounds],
+	[CardIds.GeneralDrakkisath_BG25_309]: [CardIds.GeneralDrakkisath_SmolderwingToken],
+	[CardIds.GeneralDrakkisathBattlegrounds]: [CardIds.GeneralDrakkisath_SmolderwingTokenBattlegrounds],
+	[CardIds.MechaJaraxxus]: [
+		CardIds.MechaJaraxxus_RustedReggieToken,
+		CardIds.MechaJaraxxus_MagtheridonPrimeToken,
+		CardIds.MechaJaraxxus_BaltharakToken,
+	],
+	[CardIds.MechaJaraxxusBattlegrounds]: [
+		CardIds.RustedReggieBattlegrounds,
+		CardIds.MagtheridonPrimeBattlegrounds,
+		CardIds.BaltharakBattlegrounds,
 	],
 };
