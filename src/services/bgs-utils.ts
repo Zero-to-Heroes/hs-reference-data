@@ -10,4 +10,5 @@ export const ALL_BG_RACES = [
 	Race.ELEMENTAL,
 	Race.QUILBOAR,
 	Race.NAGA,
+	Race.UNDEAD,
 ];
