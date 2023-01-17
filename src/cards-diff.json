@@ -1,402 +1,4939 @@
 [
 	{
-		"dbfId": 63796,
-		"id": "TB_BaconUps_152",
-		"name": "Toxfin",
+		"dbfId": 36452,
+		"id": "LOEA16_5t",
+		"name": "Mummy Zombie",
 		"type": "Minion",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
-		"set": "Dalaran",
-		"rarity": "Common",
-		"cost": 1,
-		"race": "MURLOC",
+		"set": "Loe",
+		"cost": 3,
+		"race": "UNDEAD",
 		"races": [
-			"MURLOC"
+			"UNDEAD"
+		],
+		"attack": 3,
+		"health": 3
+	},
+	{
+		"dbfId": 42446,
+		"id": "ICC_032",
+		"name": "Venomancer",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Icecrown",
+		"rarity": "Common",
+		"cost": 5,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
 		],
 		"techLevel": 6,
 		"attack": 2,
-		"health": 4,
-		"text": "<b>Battlecry:</b> Give a friendly Murloc <b>Poisonous</b>.",
-		"battlegroundsNormalDbfId": 96842
+		"health": 5,
+		"text": "<b>Poisonous</b>",
+		"battlegroundsPremiumDbfId": 99527
 	},
 	{
-		"dbfId": 63955,
-		"id": "SW_405",
-		"name": "Sketchy Information",
-		"type": "Spell",
-		"cardClass": "ROGUE",
-		"playerClass": "Rogue",
-		"set": "Stormwind",
+		"dbfId": 42773,
+		"id": "ICC_092",
+		"name": "Acherus Veteran",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Icecrown",
+		"rarity": "Common",
+		"cost": 1,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 2,
+		"health": 1,
+		"text": "<b>Battlecry:</b> Give a friendly minion +1 Attack.",
+		"battlegroundsPremiumDbfId": 99576
+	},
+	{
+		"dbfId": 42777,
+		"id": "ICC_094",
+		"name": "Fallen Sun Cleric",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Icecrown",
+		"rarity": "Common",
+		"cost": 2,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 2,
+		"attack": 2,
+		"health": 1,
+		"text": "<b>Battlecry:</b> Give a friendly minion +1/+1.",
+		"battlegroundsPremiumDbfId": 99578
+	},
+	{
+		"dbfId": 42782,
+		"id": "ICC_099",
+		"name": "Ticking Abomination",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Icecrown",
 		"rarity": "Rare",
 		"cost": 4,
-		"text": "[x]Draw a <b>Deathrattle</b> card\nthat costs (4) or less.\nTrigger its <b>Deathrattle.</b>"
-	},
-	{
-		"dbfId": 71945,
-		"id": "TSC_828",
-		"name": "Priestess Valishj",
-		"type": "Minion",
-		"cardClass": "PRIEST",
-		"playerClass": "Priest",
-		"set": "The_sunken_city",
-		"rarity": "Legendary",
-		"cost": 1,
-		"race": "NAGA",
+		"race": "UNDEAD",
 		"races": [
-			"NAGA"
+			"UNDEAD"
 		],
-		"attack": 1,
-		"health": 1,
-		"text": "[x]<b>Battlecry:</b> Refresh an empty\nMana Crystal for each spell\n you've cast this turn. <i>(0)</i>"
+		"techLevel": 1,
+		"attack": 5,
+		"health": 6,
+		"text": "<b>Deathrattle:</b> Deal 5 damage to your minions.",
+		"battlegroundsPremiumDbfId": 99573
 	},
 	{
-		"dbfId": 76041,
-		"id": "AV_601",
-		"name": "Forsaken Lieutenant",
+		"dbfId": 45697,
+		"id": "ICCA08_002t",
+		"name": "Ghoul",
 		"type": "Minion",
-		"cardClass": "ROGUE",
-		"playerClass": "Rogue",
-		"set": "Alterac_valley",
-		"rarity": "Epic",
-		"cost": 3,
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Icecrown",
+		"cost": 2,
 		"race": "UNDEAD",
 		"races": [
 			"UNDEAD"
 		],
 		"attack": 2,
-		"health": 2,
-		"text": "<b><b>Stealth</b>.</b> After you play\na <b>Deathrattle</b> minion, become a 2/2 copy of it with <b>Rush</b>."
+		"health": 2
 	},
 	{
-		"dbfId": 77300,
-		"id": "REV_248",
-		"name": "Boon of the Ascended",
-		"type": "Spell",
-		"cardClass": "PRIEST",
-		"playerClass": "Priest",
-		"set": "Revendreth",
-		"rarity": "Epic",
-		"cost": 5,
-		"spellSchool": "HOLY",
-		"text": "Give a minion +2 Health. Summon a Kyrian with its stats and <b>Taunt</b>.",
-		"relatedCardDbfIds": [
-			77443
-		]
-	},
-	{
-		"dbfId": 77558,
-		"id": "REV_940",
-		"name": "Necrolord Draka",
-		"type": "Minion",
-		"cardClass": "ROGUE",
-		"playerClass": "Rogue",
-		"set": "Revendreth",
-		"rarity": "Legendary",
-		"cost": 5,
-		"attack": 3,
-		"health": 4,
-		"text": "[x]<b>Battlecry:</b> Equip a 1/3 Dagger. \n<i>(+1 Attack for each other \ncard you played this turn!)</i>",
-		"relatedCardDbfIds": [
-			79769
-		]
-	},
-	{
-		"dbfId": 78122,
-		"id": "REV_508",
-		"name": "Relic of Dimensions",
-		"type": "Spell",
-		"cardClass": "DEMONHUNTER",
-		"playerClass": "Demonhunter",
-		"set": "Revendreth",
-		"rarity": "Epic",
-		"cost": 6,
-		"text": "[x]Draw two cards \nand reduce their Cost \nby (1). Improve your \nfuture Relics."
-	},
-	{
-		"dbfId": 79767,
-		"id": "REV_018",
-		"name": "Prince Renathal",
+		"dbfId": 53402,
+		"id": "ULD_205",
+		"name": "Candletaker",
 		"type": "Minion",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
-		"set": "Revendreth",
-		"rarity": "Legendary",
+		"set": "Uldum",
+		"rarity": "Common",
 		"cost": 3,
-		"attack": 3,
-		"health": 4,
-		"text": "[x]Your deck size is 40.\nYour starting Health is 35."
-	},
-	{
-		"dbfId": 80088,
-		"id": "RLK_120",
-		"name": "Meat Grinder",
-		"type": "Minion",
-		"cardClass": "DEATHKNIGHT",
-		"playerClass": "Deathknight",
-		"set": "Return_of_the_lich_king",
-		"rarity": "Epic",
-		"cost": 3,
-		"additionalCosts": {
-			"UNHOLYRUNE": 1
-		},
-		"race": "MECH",
-		"races": [
-			"MECH"
-		],
-		"attack": 3,
-		"health": 4,
-		"text": "<b>Battlecry:</b> Shred a random minion in your deck to gain 4 <b>Corpses.</b>"
-	},
-	{
-		"dbfId": 80664,
-		"id": "RLK_712",
-		"name": "Blood Tap",
-		"type": "Spell",
-		"cardClass": "DEATHKNIGHT",
-		"playerClass": "Deathknight",
-		"set": "Path_of_arthas",
-		"rarity": "Rare",
-		"cost": 2,
-		"additionalCosts": {
-			"BLOODRUNE": 2
-		},
-		"spellSchool": "SHADOW",
-		"text": "Give all minions in your hand +1/+1.\nSpend 2 <b>Corpses</b> to give them +1/+1 more."
-	},
-	{
-		"dbfId": 80820,
-		"id": "RLK_504",
-		"name": "Corpse Bride",
-		"type": "Minion",
-		"cardClass": "DEATHKNIGHT",
-		"playerClass": "Deathknight",
-		"set": "Path_of_arthas",
-		"rarity": "Rare",
-		"cost": 5,
 		"race": "UNDEAD",
 		"races": [
 			"UNDEAD"
 		],
-		"attack": 4,
-		"health": 4,
-		"text": "[x]<b>Battlecry:</b> Spend up to 10\n<b>Corpses</b>. Summon a Risen\nGroom with stats equal\nto the amount spent."
+		"techLevel": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Reborn</b>",
+		"battlegroundsPremiumDbfId": 99577
 	},
 	{
-		"dbfId": 82072,
-		"id": "RLK_744",
-		"name": "Stitched Giant",
+		"dbfId": 54002,
+		"id": "ULD_275",
+		"name": "Bone Wraith",
 		"type": "Minion",
-		"cardClass": "DEATHKNIGHT",
-		"playerClass": "Deathknight",
-		"set": "Core",
-		"rarity": "Epic",
-		"cost": 9,
-		"additionalCosts": {
-			"UNHOLYRUNE": 2
-		},
-		"race": "UNDEAD",
-		"races": [
-			"UNDEAD"
-		],
-		"attack": 8,
-		"health": 8,
-		"text": "[x]Costs (1) less for each\n<b>Corpse</b> you've spent\nthis game."
-	},
-	{
-		"dbfId": 82073,
-		"id": "RLK_745",
-		"name": "Malignant Horror",
-		"type": "Minion",
-		"cardClass": "DEATHKNIGHT",
-		"playerClass": "Deathknight",
-		"set": "Path_of_arthas",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Uldum",
 		"rarity": "Common",
 		"cost": 4,
 		"race": "UNDEAD",
 		"races": [
 			"UNDEAD"
 		],
+		"techLevel": 3,
 		"attack": 2,
-		"health": 4,
-		"text": "[x]<b>Reborn</b>\nAt the end of your turn,\nspend 4 <b>Corpses</b> to summon\na copy of this minion."
+		"health": 5,
+		"text": "<b>Taunt</b>\n<b>Reborn</b>",
+		"battlegroundsPremiumDbfId": 99524
 	},
 	{
-		"dbfId": 82088,
-		"id": "RLK_125",
-		"name": "Obliterate",
-		"type": "Spell",
-		"cardClass": "DEATHKNIGHT",
-		"playerClass": "Deathknight",
-		"set": "Core",
-		"rarity": "Epic",
-		"cost": 2,
-		"additionalCosts": {
-			"BLOODRUNE": 1
-		},
-		"text": "Destroy a minion. Deal 3 damage to your hero."
+		"dbfId": 57949,
+		"id": "TB_BaconShop_HP_015",
+		"name": "Tinker",
+		"type": "Hero_power",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "[x]<b>Passive</b>\nWhenever you summon a\nMech, give it +2 Attack."
 	},
 	{
-		"dbfId": 82116,
-		"id": "RLK_752",
-		"name": "Rime Sculptor",
+		"dbfId": 58380,
+		"id": "TB_BaconUps_034",
+		"name": "Khadgar",
 		"type": "Minion",
-		"cardClass": "DEATHKNIGHT",
-		"playerClass": "Deathknight",
-		"set": "Core",
-		"rarity": "Rare",
-		"cost": 5,
-		"additionalCosts": {
-			"FROSTRUNE": 1
-		},
+		"cardClass": "MAGE",
+		"playerClass": "Mage",
+		"set": "Dalaran",
+		"rarity": "Legendary",
+		"cost": 2,
+		"attack": 4,
+		"health": 4,
+		"text": "Your cards that summon minions summon three times as many."
+	},
+	{
+		"dbfId": 58421,
+		"id": "TB_BaconUps_055",
+		"name": "Baron Rivendare",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Naxx",
+		"rarity": "Legendary",
+		"cost": 4,
 		"race": "UNDEAD",
 		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 5,
+		"attack": 2,
+		"health": 14,
+		"text": "Your minions trigger their <b>Deathrattles</b> three times.",
+		"battlegroundsNormalDbfId": 96785
+	},
+	{
+		"dbfId": 59808,
+		"id": "TB_BaconShop_HP_036",
+		"name": "Bloodfury",
+		"type": "Hero_power",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"text": "Choose a friendly Demon. It consumes a minion in Bob's Tavern to gain its stats."
+	},
+	{
+		"dbfId": 59832,
+		"id": "TB_BaconShop_HP_040",
+		"name": "Brick by Brick",
+		"type": "Hero_power",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "[x]Give a minion +1 Health.\n<i>(Gains +1 Health each\nturn you don't use this!)</i>"
+	},
+	{
+		"dbfId": 59937,
+		"id": "BGS_014",
+		"name": "Imprisoner",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"race": "DEMON",
+		"races": [
+			"DEMON"
+		],
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Taunt</b>\n<b>Deathrattle:</b> Summon a 1/1 Imp."
+	},
+	{
+		"dbfId": 60561,
+		"id": "BGS_036",
+		"name": "Razorgore, the Untamed",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 8,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON"
+		],
+		"attack": 4,
+		"health": 6,
+		"text": "At the end of your turn, gain +1/+1 for each Dragon you have."
+	},
+	{
+		"dbfId": 60649,
+		"id": "TB_BaconUps_106",
+		"name": "Razorgore, the Untamed",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 8,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON"
+		],
+		"attack": 8,
+		"health": 12,
+		"text": "At the end of your turn, gain +2/+2 for each Dragon you have."
+	},
+	{
+		"dbfId": 60676,
+		"id": "TB_BaconUps_113",
+		"name": "Imprisoner",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"race": "DEMON",
+		"races": [
+			"DEMON"
+		],
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Taunt</b>\n<b>Deathrattle:</b> Summon a 2/2 Imp."
+	},
+	{
+		"dbfId": 61028,
+		"id": "BGS_044",
+		"name": "Imp Mama",
+		"type": "Minion",
+		"cardClass": "WARLOCK",
+		"playerClass": "Warlock",
+		"set": "Battlegrounds",
+		"cost": 8,
+		"race": "DEMON",
+		"races": [
+			"DEMON"
+		],
+		"attack": 6,
+		"health": 10,
+		"text": "[x]Whenever this minion takes\ndamage, summon a random\nDemon and give it <b>Taunt</b>."
+	},
+	{
+		"dbfId": 61029,
+		"id": "BGS_045",
+		"name": "Glyph Guardian",
+		"type": "Minion",
+		"cardClass": "MAGE",
+		"playerClass": "Mage",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON",
+			"UNDEAD"
+		],
+		"attack": 2,
+		"health": 4,
+		"text": "Whenever this attacks, double its Attack."
+	},
+	{
+		"dbfId": 61032,
+		"id": "TB_BaconUps_115",
+		"name": "Glyph Guardian",
+		"type": "Minion",
+		"cardClass": "MAGE",
+		"playerClass": "Mage",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON",
 			"UNDEAD"
 		],
 		"attack": 4,
-		"health": 3,
-		"text": "[x]<b>Battlecry:</b> Summon two\n2/1 Rime Elementals with\n\"<b>Deathrattle:</b> Deal 2 damage\nto a random enemy.\""
+		"health": 8,
+		"text": "Whenever this attacks, triple its Attack."
 	},
 	{
-		"dbfId": 82369,
-		"id": "REV_750",
-		"name": "Sinstone Graveyard",
-		"type": "Location",
-		"cardClass": "ROGUE",
-		"playerClass": "Rogue",
-		"set": "Revendreth",
-		"rarity": "Rare",
-		"cost": 3,
-		"health": 2,
-		"text": "[x]Summon a 1/1\n<b>Stealthed</b> Ghost.\n<i>(Has +1/+1 for each other\ncard you played this turn!)</i>"
-	},
-	{
-		"dbfId": 84235,
-		"id": "RLK_209",
-		"name": "Unleash Fel",
-		"type": "Spell",
-		"cardClass": "DEMONHUNTER",
-		"playerClass": "Demonhunter",
-		"set": "Return_of_the_lich_king",
-		"rarity": "Rare",
-		"cost": 1,
-		"spellSchool": "FEL",
-		"text": "Deal $1 damage\nto all enemies. <b>Manathirst (6):</b> With\n<b>Lifesteal</b>."
-	},
-	{
-		"dbfId": 85054,
-		"id": "RLK_659",
-		"name": "Anub'Rekhan",
+		"dbfId": 61043,
+		"id": "TB_BaconUps_116",
+		"name": "Imp Mama",
 		"type": "Minion",
-		"cardClass": "DRUID",
-		"playerClass": "Druid",
-		"set": "Return_of_the_lich_king",
-		"rarity": "Legendary",
+		"cardClass": "WARLOCK",
+		"playerClass": "Warlock",
+		"set": "Battlegrounds",
 		"cost": 8,
+		"race": "DEMON",
+		"races": [
+			"DEMON"
+		],
+		"attack": 12,
+		"health": 20,
+		"text": "[x]Whenever this minion\ntakes damage, summon\n2 random Demons and\ngive them <b>Taunt</b>."
+	},
+	{
+		"dbfId": 61060,
+		"id": "BGS_060",
+		"name": "Yo-Ho-Ogre",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "PIRATE",
+		"races": [
+			"PIRATE"
+		],
+		"attack": 3,
+		"health": 6,
+		"text": "[x]<b>Taunt</b>\nAfter this minion survives\nbeing attacked,\nattack immediately."
+	},
+	{
+		"dbfId": 61072,
+		"id": "BGS_067",
+		"name": "Drakonid Enforcer",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON"
+		],
+		"attack": 3,
+		"health": 7,
+		"text": "After a friendly minion loses <b>Divine Shield</b>, gain +2/+2."
+	},
+	{
+		"dbfId": 61075,
+		"id": "TB_BaconUps_117",
+		"name": "Drakonid Enforcer",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON"
+		],
+		"attack": 6,
+		"health": 14,
+		"text": "After a friendly minion loses <b>Divine Shield</b>, gain +4/+4."
+	},
+	{
+		"dbfId": 63630,
+		"id": "BGS_105",
+		"name": "Majordomo Executus",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 6,
+		"health": 3,
+		"text": "[x]At the end of your turn, give\nyour left-most minion +1/+1.\nRepeat for each Elemental\nyou played this turn."
+	},
+	{
+		"dbfId": 63782,
+		"id": "TB_BaconUps_150",
+		"name": "Yo-Ho-Ogre",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "PIRATE",
+		"races": [
+			"PIRATE"
+		],
+		"attack": 6,
+		"health": 12,
+		"text": "[x]<b>Taunt</b>\nAfter this minion survives\nbeing attacked,\nattack immediately."
+	},
+	{
+		"dbfId": 64069,
+		"id": "BGS_122",
+		"name": "Stasis Elemental",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Add another random Elemental to Bob's Tavern and <b>Freeze</b> it."
+	},
+	{
+		"dbfId": 64073,
+		"id": "TB_BaconUps_161",
+		"name": "Stasis Elemental",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
+		"attack": 8,
+		"health": 8,
+		"text": "<b>Battlecry:</b> Add two other random Elementals to Bob's Tavern and <b>Freeze</b> them."
+	},
+	{
+		"dbfId": 64343,
+		"id": "TB_BaconUps_250",
+		"name": "Micro Mummy",
+		"type": "Minion",
+		"cardClass": "PALADIN",
+		"playerClass": "Paladin",
+		"set": "Uldum",
+		"rarity": "Epic",
+		"cost": 1,
+		"race": "MECH",
+		"races": [
+			"MECH",
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 2,
+		"health": 4,
+		"text": "[x]<b>Reborn</b>\nAt the end of your turn, give\nanother random friendly\nminion +2 Attack.",
+		"battlegroundsNormalDbfId": 96760
+	},
+	{
+		"dbfId": 64344,
+		"id": "TB_BaconUps_250e",
+		"name": "Microwrapped",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+2 Attack."
+	},
+	{
+		"dbfId": 64459,
+		"id": "TB_BaconUps_207",
+		"name": "Majordomo Executus",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 12,
+		"health": 6,
+		"text": "[x]At the end of your turn, give\nyour left-most minion +2/+2.\nRepeat for each Elemental\nyou played this turn."
+	},
+	{
+		"dbfId": 69661,
+		"id": "CORE_EX1_059",
+		"name": "Crazed Alchemist",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Core",
+		"rarity": "Rare",
+		"cost": 2,
 		"race": "UNDEAD",
 		"races": [
 			"UNDEAD"
 		],
-		"attack": 7,
-		"health": 7,
-		"text": "<b>Battlecry:</b> Gain 8 Armor. Your next 3 minions\nthis turn cost Armor instead of Mana.",
-		"availableAsSignature": true
+		"techLevel": 1,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Swap the Attack and Health of a minion.",
+		"battlegroundsPremiumDbfId": 98735,
+		"deckDuplicateDbfId": 801
 	},
 	{
-		"dbfId": 86185,
-		"id": "RLK_659e",
-		"name": "Hardened Carapace",
-		"type": "Enchantment",
-		"cardClass": "DRUID",
-		"playerClass": "Druid",
-		"set": "Return_of_the_lich_king",
-		"text": "Your next 3 minions this turn cost Armor instead of Mana."
-	},
-	{
-		"dbfId": 86733,
-		"id": "RLK_225",
-		"name": "Blightfang",
+		"dbfId": 70173,
+		"id": "BG20_104",
+		"name": "Bonker",
 		"type": "Minion",
-		"cardClass": "DEATHKNIGHT",
-		"playerClass": "Deathknight",
-		"set": "Return_of_the_lich_king",
-		"rarity": "Legendary",
-		"cost": 3,
-		"additionalCosts": {
-			"UNHOLYRUNE": 1
-		},
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"race": "QUILBOAR",
+		"races": [
+			"QUILBOAR"
+		],
+		"attack": 3,
+		"health": 7,
+		"text": "<b>Windfury</b>\nAfter this attacks, get a <b>Blood Gem</b>."
+	},
+	{
+		"dbfId": 70174,
+		"id": "BG20_104_G",
+		"name": "Bonker",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"race": "QUILBOAR",
+		"races": [
+			"QUILBOAR"
+		],
+		"attack": 6,
+		"health": 14,
+		"text": "<b>Mega-Windfury</b>\nAfter this attacks, get a <b>Blood Gem</b>."
+	},
+	{
+		"dbfId": 72043,
+		"id": "BG21_001",
+		"name": "Palescale Crocolisk",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 3,
-		"health": 4,
-		"text": "[x]<b>Battlecry:</b> Infect all enemy\nminions. When they die,\nyou summon a 2/2\nZombie with <b>Taunt</b>.",
-		"relatedCardDbfIds": [
-			91712
-		]
-	},
-	{
-		"dbfId": 86735,
-		"id": "RLK_226",
-		"name": "Ymirjar Deathbringer",
-		"type": "Minion",
-		"cardClass": "DEATHKNIGHT",
-		"playerClass": "Deathknight",
-		"set": "Core",
-		"rarity": "Rare",
-		"cost": 3,
-		"additionalCosts": {
-			"UNHOLYRUNE": 2
-		},
-		"race": "UNDEAD",
-		"races": [
-			"UNDEAD"
-		],
 		"attack": 4,
-		"health": 3,
-		"text": "[x]<b>Taunt</b>. <b>Deathrattle:</b> Spend 3\n<b>Corpses</b> to summon a 3/3\nRisen Ymirjar with <b>Taunt</b>."
+		"health": 5,
+		"text": "<b>Avenge (2) and Deathrattle:</b> Give another friendly Beast +6/+6."
 	},
 	{
-		"dbfId": 90948,
-		"id": "RLK_222t2",
-		"name": "Astalor, the Flamebringer",
+		"dbfId": 72065,
+		"id": "BG21_008",
+		"name": "Saltscale Honcho",
 		"type": "Minion",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
-		"set": "Return_of_the_lich_king",
-		"cost": 8,
-		"attack": 8,
-		"health": 8,
-		"text": "[x]<b>Battlecry:</b> Deal 8 damage\nrandomly split between all\nenemies. <b>Manathirst (10):</b>\nDeal 16 instead."
-	},
-	{
-		"dbfId": 96842,
-		"id": "BG_DAL_077",
-		"name": "Toxfin",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Dalaran",
-		"rarity": "Common",
-		"cost": 1,
+		"set": "Battlegrounds",
+		"cost": 2,
 		"race": "MURLOC",
 		"races": [
 			"MURLOC"
 		],
-		"techLevel": 6,
-		"attack": 1,
+		"attack": 3,
 		"health": 2,
-		"text": "<b>Battlecry:</b> Give a friendly Murloc <b>Poisonous</b>.",
-		"battlegroundsPremiumDbfId": 63796
+		"text": "After you play a Murloc, give two other friendly Murlocs +1 Health."
 	},
 	{
-		"dbfId": 101728,
-		"id": "RLK_659e2",
-		"name": "Hardened Carapace",
+		"dbfId": 72070,
+		"id": "BG21_016",
+		"name": "Peggy Brittlebone",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "PIRATE",
+		"races": [
+			"PIRATE",
+			"UNDEAD"
+		],
+		"techLevel": 4,
+		"attack": 6,
+		"health": 5,
+		"text": "After a card is added to your hand, give another friendly Pirate +1/+1.",
+		"battlegroundsPremiumDbfId": 73813
+	},
+	{
+		"dbfId": 72832,
+		"id": "BG21_008_G",
+		"name": "Saltscale Honcho",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"race": "MURLOC",
+		"races": [
+			"MURLOC"
+		],
+		"attack": 6,
+		"health": 4,
+		"text": "After you play a Murloc, give two other friendly Murlocs +2 Health."
+	},
+	{
+		"dbfId": 73813,
+		"id": "BG21_016_G",
+		"name": "Peggy Brittlebone",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "PIRATE",
+		"races": [
+			"PIRATE",
+			"UNDEAD"
+		],
+		"techLevel": 4,
+		"attack": 12,
+		"health": 10,
+		"text": "After a card is added to your hand, give another friendly Pirate +2/+2.",
+		"battlegroundsNormalDbfId": 72070
+	},
+	{
+		"dbfId": 74902,
+		"id": "BG21_001_G",
+		"name": "Palescale Crocolisk",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 8,
+		"health": 10,
+		"text": "<b>Avenge (2) and Deathrattle:</b> Give another friendly Beast +12/+12."
+	},
+	{
+		"dbfId": 74910,
+		"id": "BG21_029",
+		"name": "Icky Imp",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "DEMON",
+		"races": [
+			"DEMON"
+		],
+		"techLevel": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Deathrattle:</b> Summon two 1/1 Imps.",
+		"battlegroundsPremiumDbfId": 74911
+	},
+	{
+		"dbfId": 74911,
+		"id": "BG21_029_G",
+		"name": "Icky Imp",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "DEMON",
+		"races": [
+			"DEMON"
+		],
+		"techLevel": 1,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Summon two 2/2 Imps.",
+		"battlegroundsNormalDbfId": 74910
+	},
+	{
+		"dbfId": 74929,
+		"id": "BG21_030",
+		"name": "Budding Greenthumb",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"techLevel": 3,
+		"attack": 1,
+		"health": 4,
+		"text": "<b>Avenge (3):</b> Give\nadjacent minions\n+2/+1 permanently.",
+		"battlegroundsPremiumDbfId": 74932
+	},
+	{
+		"dbfId": 74932,
+		"id": "BG21_030_G",
+		"name": "Budding Greenthumb",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"techLevel": 3,
+		"attack": 2,
+		"health": 8,
+		"text": "<b>Avenge (3):</b> Give\nadjacent minions\n+4/+2 permanently.",
+		"battlegroundsNormalDbfId": 74929
+	},
+	{
+		"dbfId": 74933,
+		"id": "BG21_031",
+		"name": "Tony Two-Tusk",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"race": "PIRATE",
+		"races": [
+			"PIRATE"
+		],
+		"attack": 4,
+		"health": 6,
+		"text": "[x]<b>Avenge (4):</b> Make\nanother friendly Pirate\nGolden permanently."
+	},
+	{
+		"dbfId": 74934,
+		"id": "BG21_031_G",
+		"name": "Tony Two-Tusk",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"race": "PIRATE",
+		"races": [
+			"PIRATE"
+		],
+		"attack": 8,
+		"health": 12,
+		"text": "[x]<b>Avenge (4):</b> Make\n2 other friendly Pirates\nGolden permanently."
+	},
+	{
+		"dbfId": 75703,
+		"id": "BG20_HERO_283p",
+		"name": "Dungar's Gryphon",
+		"type": "Hero_power",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "Choose a new flightpath. Complete it to get a bonus!"
+	},
+	{
+		"dbfId": 75704,
+		"id": "BG20_HERO_283p_t1",
+		"name": "Westfall",
+		"type": "Hero_power",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "[x]<b>Passive.</b> In 1 turn, give\nyour left-most minion\n+2/+2. <i>(1 left!)</i>"
+	},
+	{
+		"dbfId": 75705,
+		"id": "BG20_HERO_283p_t2",
+		"name": "Ironforge",
+		"type": "Hero_power",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "[x]<b>Passive</b>\nIn 2 turns, gain 2 Gold.\n<i>(2 left!)</i>"
+	},
+	{
+		"dbfId": 75706,
+		"id": "BG20_HERO_283p_t3",
+		"name": "Eastern Plaguelands",
+		"type": "Hero_power",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "[x]<b>Passive.</b> In 3 turns,\n<b>Discover</b> a minion of your\nTavern Tier. <i>(3 left!)</i>"
+	},
+	{
+		"dbfId": 75889,
+		"id": "BG20_HERO_283p_t1e",
+		"name": "Westfall",
 		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+2/+2."
+	},
+	{
+		"dbfId": 78332,
+		"id": "RLK_034",
+		"name": "Heart Strike",
+		"type": "Spell",
+		"cardClass": "DEATHKNIGHT",
+		"playerClass": "Deathknight",
+		"set": "Core",
+		"rarity": "Common",
+		"cost": 1,
+		"additionalCosts": {
+			"BLOODRUNE": 1
+		},
+		"text": "Deal $3 damage to\na minion. If that kills it, gain a <b>Corpse</b>."
+	},
+	{
+		"dbfId": 80084,
+		"id": "RLK_117",
+		"name": "Incorporeal Corporal",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Return_of_the_lich_king",
+		"rarity": "Common",
+		"cost": 2,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 5,
+		"health": 5,
+		"text": "After this minion attacks,\ndestroy it.",
+		"battlegroundsPremiumDbfId": 99122
+	},
+	{
+		"dbfId": 84290,
+		"id": "RLK_538",
+		"name": "Devourer of Souls",
+		"type": "Minion",
+		"cardClass": "WARLOCK",
+		"playerClass": "Warlock",
+		"set": "Return_of_the_lich_king",
+		"rarity": "Legendary",
+		"cost": 1,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 6,
+		"attack": 1,
+		"health": 3,
+		"text": "After a friendly minion dies, gain its <b>Deathrattle</b>.",
+		"battlegroundsPremiumDbfId": 99119
+	},
+	{
+		"dbfId": 84370,
+		"id": "RLK_824",
+		"name": "Arms Dealer",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Return_of_the_lich_king",
+		"rarity": "Common",
+		"cost": 1,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 2,
+		"attack": 1,
+		"health": 2,
+		"text": "After you summon an Undead, give it +1 Attack.",
+		"battlegroundsPremiumDbfId": 99118
+	},
+	{
+		"dbfId": 84426,
+		"id": "RLK_543",
+		"name": "Magister's Apprentice",
+		"type": "Minion",
+		"cardClass": "MAGE",
+		"playerClass": "Mage",
+		"set": "Return_of_the_lich_king",
+		"rarity": "Common",
+		"cost": 2,
+		"attack": 2,
+		"health": 3,
+		"text": "Your Arcane spells\ncost (1) less."
+	},
+	{
+		"dbfId": 85152,
+		"id": "RLK_833",
+		"name": "Foul Egg",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Return_of_the_lich_king",
+		"rarity": "Common",
+		"cost": 1,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 0,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Summon a 3/3 Undead Chicken.",
+		"battlegroundsPremiumDbfId": 99116,
+		"relatedCardDbfIds": [
+			85153
+		]
+	},
+	{
+		"dbfId": 86190,
+		"id": "RLK_958",
+		"name": "Skeletal Sidekick",
+		"type": "Minion",
+		"cardClass": "DEATHKNIGHT",
+		"playerClass": "Deathknight",
+		"set": "Core",
+		"rarity": "Common",
+		"cost": 1,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 1,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Give a friendly Undead +2 Attack.",
+		"battlegroundsPremiumDbfId": 99120
+	},
+	{
+		"dbfId": 86612,
+		"id": "BG22_001",
+		"name": "Baby Krush",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 6,
+		"health": 6,
+		"text": "[x]Whenever this attacks,\nsummon an 8/8 Devilsaur\n to attack the target first."
+	},
+	{
+		"dbfId": 86625,
+		"id": "BG22_001_G",
+		"name": "Baby Krush",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 12,
+		"health": 12,
+		"text": "[x]Whenever this attacks,\nsummon a 16/16\nDevilsaur to attack\nthe target first."
+	},
+	{
+		"dbfId": 92398,
+		"id": "BG24_005",
+		"name": "Sinrunner Blanchy",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD",
+			"BEAST"
+		],
+		"techLevel": 5,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Reborn</b>. This is <b>Reborn</b> with full Health and enchantments.",
+		"battlegroundsPremiumDbfId": 92423
+	},
+	{
+		"dbfId": 92423,
+		"id": "BG24_005_G",
+		"name": "Sinrunner Blanchy",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD",
+			"BEAST"
+		],
+		"techLevel": 5,
+		"attack": 8,
+		"health": 8,
+		"text": "<b>Reborn</b>. This is <b>Reborn</b> with full Health and enchantments.",
+		"battlegroundsNormalDbfId": 92398
+	},
+	{
+		"dbfId": 93881,
+		"id": "RLK_604",
+		"name": "Thori'belore",
+		"type": "Minion",
+		"cardClass": "WARRIOR",
+		"playerClass": "Warrior",
+		"set": "Return_of_the_lich_king",
+		"rarity": "Legendary",
+		"cost": 4,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL",
+			"BEAST"
+		],
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Rush</b>. <b>Deathrattle:</b> Go\n<b>Dormant</b>. Cast a Fire spell\nto revive Thori'belore!\n<i>(Revives 2 times.)</i>",
+		"relatedCardDbfIds": [
+			84295,
+			93886
+		]
+	},
+	{
+		"dbfId": 93882,
+		"id": "RLK_604a",
+		"name": "Thori'belore",
+		"type": "Minion",
+		"cardClass": "WARRIOR",
+		"playerClass": "Warrior",
+		"set": "Return_of_the_lich_king",
+		"rarity": "Legendary",
+		"cost": 4,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL",
+			"BEAST"
+		],
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Rush</b>. <b>Deathrattle:</b> Go\n<b>Dormant</b>. Cast a Fire spell\nto revive Thori'belore!\n<i>(Revives once.)</i>"
+	},
+	{
+		"dbfId": 93883,
+		"id": "RLK_604b",
+		"name": "Thori'belore",
+		"type": "Minion",
+		"cardClass": "WARRIOR",
+		"playerClass": "Warrior",
+		"set": "Return_of_the_lich_king",
+		"rarity": "Legendary",
+		"cost": 4,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL",
+			"BEAST"
+		],
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Rush</b>"
+	},
+	{
+		"dbfId": 94933,
+		"id": "BG25_901e",
+		"name": "Cyborg Enhancement",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+10 Attack."
+	},
+	{
+		"dbfId": 94934,
+		"id": "BG25_901e2",
+		"name": "Cyborg Enhancement",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+20 Attack."
+	},
+	{
+		"dbfId": 95010,
+		"id": "BG24_500_G",
+		"name": "Amber Guardian",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON"
+		],
+		"techLevel": 3,
+		"attack": 6,
+		"health": 4,
+		"text": "[x]<b>Start of Combat:</b> Give\ntwo other friendly Dragons\n+2/+2 and <b>Divine Shield</b>.",
+		"battlegroundsNormalDbfId": 95006
+	},
+	{
+		"dbfId": 95246,
+		"id": "BG25_001",
+		"name": "Risen Rider",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 2,
+		"health": 1,
+		"text": "<b>Taunt</b>\n<b>Reborn</b>",
+		"battlegroundsPremiumDbfId": 95248
+	},
+	{
+		"dbfId": 95248,
+		"id": "BG25_001_G",
+		"name": "Risen Rider",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 4,
+		"health": 2,
+		"text": "<b>Taunt</b>\n<b>Reborn</b>",
+		"battlegroundsNormalDbfId": 95246
+	},
+	{
+		"dbfId": 95249,
+		"id": "BG25_002",
+		"name": "Ghoul of the Feast",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 3,
+		"attack": 2,
+		"health": 4,
+		"text": "<b>Avenge (1):</b> Give a friendly minion of each minion type +3 Attack.",
+		"battlegroundsPremiumDbfId": 95250
+	},
+	{
+		"dbfId": 95250,
+		"id": "BG25_002_G",
+		"name": "Ghoul of the Feast",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 3,
+		"attack": 4,
+		"health": 8,
+		"text": "<b>Avenge (1):</b> Give a friendly minion of each minion type +6 Attack.",
+		"battlegroundsNormalDbfId": 95249
+	},
+	{
+		"dbfId": 95253,
+		"id": "BG25_004",
+		"name": "Possessive Banshee",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 4,
+		"attack": 2,
+		"health": 7,
+		"text": "<b>Battlecry:</b> Give an Undead +2/+7.",
+		"battlegroundsPremiumDbfId": 95254
+	},
+	{
+		"dbfId": 95254,
+		"id": "BG25_004_G",
+		"name": "Possessive Banshee",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 4,
+		"attack": 4,
+		"health": 14,
+		"text": "<b>Battlecry:</b> Give an Undead +4/+14.",
+		"battlegroundsNormalDbfId": 95253
+	},
+	{
+		"dbfId": 95255,
+		"id": "BG25_005",
+		"name": "Jelly Belly",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 3,
+		"attack": 3,
+		"health": 5,
+		"text": "After a friendly minion is <b>Reborn</b>, gain +3/+3.",
+		"battlegroundsPremiumDbfId": 95256
+	},
+	{
+		"dbfId": 95256,
+		"id": "BG25_005_G",
+		"name": "Jelly Belly",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 3,
+		"attack": 6,
+		"health": 10,
+		"text": "After a friendly minion is <b>Reborn</b>, gain +6/+6.",
+		"battlegroundsNormalDbfId": 95255
+	},
+	{
+		"dbfId": 95257,
+		"id": "BG25_006",
+		"name": "Lich Doctor",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 3,
+		"attack": 3,
+		"health": 2,
+		"text": "[x]<b>Taunt</b>. At the start of your\nturn, give your minions that\n died last combat +1/+1.",
+		"battlegroundsPremiumDbfId": 95258
+	},
+	{
+		"dbfId": 95258,
+		"id": "BG25_006_G",
+		"name": "Lich Doctor",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 3,
+		"attack": 6,
+		"health": 4,
+		"text": "[x]<b>Taunt</b>. At the start of your\nturn, give your minions that\n died last combat +2/+2.",
+		"battlegroundsNormalDbfId": 95257
+	},
+	{
+		"dbfId": 95259,
+		"id": "BG25_007",
+		"name": "Anub'arak, Nerubian King",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 5,
+		"attack": 5,
+		"health": 3,
+		"text": "[x]<b>Deathrattle:</b> Your Undead\nhave +2 Attack for the\nrest of the game\n<i>(wherever they are)</i>.",
+		"battlegroundsPremiumDbfId": 95260
+	},
+	{
+		"dbfId": 95260,
+		"id": "BG25_007_G",
+		"name": "Anub'arak, Nerubian King",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 5,
+		"attack": 10,
+		"health": 6,
+		"text": "[x]<b>Deathrattle:</b> Your Undead\nhave +4 Attack for the\nrest of the game\n<i>(wherever they are)</i>.",
+		"battlegroundsNormalDbfId": 95259
+	},
+	{
+		"dbfId": 95261,
+		"id": "BG25_008",
+		"name": "Eternal Knight",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 2,
+		"attack": 4,
+		"health": 1,
+		"text": "[x]Has +1/+1 for each friendly\nEternal Knight that died this\n game <i>(wherever this is)</i>.",
+		"battlegroundsPremiumDbfId": 95262
+	},
+	{
+		"dbfId": 95262,
+		"id": "BG25_008_G",
+		"name": "Eternal Knight",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 2,
+		"attack": 8,
+		"health": 2,
+		"text": "[x]Has +2/+2 for each friendly\nEternal Knight that died this\n game <i>(wherever this is)</i>.",
+		"battlegroundsNormalDbfId": 95261
+	},
+	{
+		"dbfId": 95263,
+		"id": "BG25_009",
+		"name": "Eternal Summoner",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 6,
+		"attack": 8,
+		"health": 1,
+		"text": "<b>Deathrattle:</b> Summon\n2 Eternal Knights.",
+		"battlegroundsPremiumDbfId": 95264
+	},
+	{
+		"dbfId": 95264,
+		"id": "BG25_009_G",
+		"name": "Eternal Summoner",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 6,
+		"attack": 16,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Summon\n4 Eternal Knights.",
+		"battlegroundsNormalDbfId": 95263
+	},
+	{
+		"dbfId": 95265,
+		"id": "BG25_010",
+		"name": "Handless Forsaken",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 4,
+		"attack": 2,
+		"health": 3,
+		"text": "<b>Deathrattle:</b> Summon a 2/2 Hand with <b>Reborn</b>.",
+		"battlegroundsPremiumDbfId": 95266
+	},
+	{
+		"dbfId": 95266,
+		"id": "BG25_010_G",
+		"name": "Handless Forsaken",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 4,
+		"attack": 4,
+		"health": 6,
+		"text": "<b>Deathrattle:</b> Summon a 4/4 Hand with <b>Reborn</b>.",
+		"battlegroundsNormalDbfId": 95265
+	},
+	{
+		"dbfId": 95267,
+		"id": "BG25_011",
+		"name": "Nerubian Deathswarmer",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 2,
+		"attack": 1,
+		"health": 3,
+		"text": "[x]<b>Battlecry:</b> Give your\nUndead +1 Attack for\nthe rest of the game\n<i>(wherever they are)</i>.",
+		"battlegroundsPremiumDbfId": 95268
+	},
+	{
+		"dbfId": 95268,
+		"id": "BG25_011_G",
+		"name": "Nerubian Deathswarmer",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 2,
+		"attack": 2,
+		"health": 6,
+		"text": "[x]<b>Battlecry:</b> Give your\nUndead +2 Attack for\nthe rest of the game\n<i>(wherever they are)</i>.",
+		"battlegroundsNormalDbfId": 95267
+	},
+	{
+		"dbfId": 95271,
+		"id": "BG25_013",
+		"name": "Rot Hide Gnoll",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 1,
+		"health": 4,
+		"text": "Has +1 Attack for each friendly minion that died this combat.",
+		"battlegroundsPremiumDbfId": 95272
+	},
+	{
+		"dbfId": 95272,
+		"id": "BG25_013_G",
+		"name": "Rot Hide Gnoll",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 2,
+		"health": 8,
+		"text": "Has +2 Attack for each friendly minion that died this combat.",
+		"battlegroundsNormalDbfId": 95271
+	},
+	{
+		"dbfId": 95273,
+		"id": "BG25_014",
+		"name": "Hungering Abomination",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 5,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Avenge (1):</b> Gain +1/+1 permanently.",
+		"battlegroundsPremiumDbfId": 95275
+	},
+	{
+		"dbfId": 95275,
+		"id": "BG25_014_G",
+		"name": "Hungering Abomination",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 5,
+		"attack": 6,
+		"health": 8,
+		"text": "<b>Avenge (1):</b> Gain +2/+2 permanently.",
+		"battlegroundsNormalDbfId": 95273
+	},
+	{
+		"dbfId": 95276,
+		"id": "BG25_020",
+		"name": "Sister Deathwhisper",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 6,
+		"attack": 4,
+		"health": 11,
+		"text": "After a friendly minion is <b>Reborn</b>, give your Undead +1/+3 permanently.",
+		"battlegroundsPremiumDbfId": 95277
+	},
+	{
+		"dbfId": 95277,
+		"id": "BG25_020_G",
+		"name": "Sister Deathwhisper",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 6,
+		"attack": 8,
+		"health": 22,
+		"text": "After a friendly minion is <b>Reborn</b>, give your Undead +2/+6 permanently.",
+		"battlegroundsNormalDbfId": 95276
+	},
+	{
+		"dbfId": 95280,
+		"id": "BG25_022",
+		"name": "Scarlet Skull",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 2,
+		"attack": 1,
+		"health": 2,
+		"text": "<b>Reborn</b>\n<b>Deathrattle:</b> Give a friendly Undead +1/+2.",
+		"battlegroundsPremiumDbfId": 95281
+	},
+	{
+		"dbfId": 95281,
+		"id": "BG25_022_G",
+		"name": "Scarlet Skull",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 2,
+		"attack": 2,
+		"health": 4,
+		"text": "<b>Reborn</b>\n<b>Deathrattle:</b> Give a friendly Undead +2/+4.",
+		"battlegroundsNormalDbfId": 95280
+	},
+	{
+		"dbfId": 95282,
+		"id": "BG25_023",
+		"name": "Soulsplitter",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 4,
+		"attack": 4,
+		"health": 2,
+		"text": "[x]<b>Reborn</b>\n<b>Start of Combat:</b> Give a\n friendly Undead <b>Reborn</b>.",
+		"battlegroundsPremiumDbfId": 95283
+	},
+	{
+		"dbfId": 95283,
+		"id": "BG25_023_G",
+		"name": "Soulsplitter",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 4,
+		"attack": 8,
+		"health": 4,
+		"text": "[x]<b>Reborn</b>\n<b>Start of Combat:</b> Give 2\n friendly Undead <b>Reborn</b>.",
+		"battlegroundsNormalDbfId": 95282
+	},
+	{
+		"dbfId": 95286,
+		"id": "BG25_016",
+		"name": "Sin'dorei Straight Shot",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"techLevel": 4,
+		"attack": 3,
+		"health": 4,
+		"text": "[x]<b>Windfury</b>. <b>Divine Shield</b>.\nWhenever this attacks,\nremove <b>Reborn</b> and <b>Taunt</b>\nfrom the target.",
+		"battlegroundsPremiumDbfId": 95287
+	},
+	{
+		"dbfId": 95287,
+		"id": "BG25_016_G",
+		"name": "Sin'dorei Straight Shot",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"techLevel": 4,
+		"attack": 6,
+		"health": 8,
+		"text": "[x]<b>Mega-Windfury</b>.\n<b>Divine Shield</b>. Whenever this\nattacks, remove <b>Reborn</b> and\n<b>Taunt</b> from the target.",
+		"battlegroundsNormalDbfId": 95286
+	},
+	{
+		"dbfId": 95451,
+		"id": "BG_ULD_721",
+		"name": "Colossus of the Sun",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"rarity": "Legendary",
+		"cost": 10,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 6,
+		"attack": 6,
+		"health": 6,
+		"text": "<b>Divine Shield</b>\n<b>Reborn</b>",
+		"battlegroundsPremiumDbfId": 95452
+	},
+	{
+		"dbfId": 95452,
+		"id": "BG_ULD_721_G",
+		"name": "Colossus of the Sun",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"rarity": "Legendary",
+		"cost": 10,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 6,
+		"attack": 12,
+		"health": 12,
+		"text": "<b>Divine Shield</b>\n<b>Reborn</b>"
+	},
+	{
+		"dbfId": 95469,
+		"id": "BG25_807",
+		"name": "Mecha-Jaraxxus",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "DEMON",
+		"races": [
+			"DEMON",
+			"MECH"
+		],
+		"techLevel": 6,
+		"attack": 3,
+		"health": 15,
+		"text": "<b>Battlecry:</b> Add a random Mecha-Demon to your hand.",
+		"battlegroundsPremiumDbfId": 95471
+	},
+	{
+		"dbfId": 95471,
+		"id": "BG25_807_G",
+		"name": "Mecha-Jaraxxus",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "DEMON",
+		"races": [
+			"DEMON",
+			"MECH"
+		],
+		"techLevel": 6,
+		"attack": 6,
+		"health": 30,
+		"text": "<b>Battlecry:</b> Add 2 random Mecha-Demons to your hand.",
+		"battlegroundsNormalDbfId": 95469
+	},
+	{
+		"dbfId": 96167,
+		"id": "BG25_309",
+		"name": "General Drakkisath",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON"
+		],
+		"techLevel": 4,
+		"attack": 2,
+		"health": 8,
+		"text": "[x]<b>Battlecry:</b> Add a 2/1\nSmolderwing to your hand\nthat gives another Dragon\n+5 Attack.",
+		"battlegroundsPremiumDbfId": 96174
+	},
+	{
+		"dbfId": 96170,
+		"id": "BG25_309t",
+		"name": "Smolderwing",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON"
+		],
+		"techLevel": 1,
+		"attack": 2,
+		"health": 1,
+		"text": "<b>Battlecry:</b> Give a Dragon +5 Attack.",
+		"battlegroundsPremiumDbfId": 96173
+	},
+	{
+		"dbfId": 96171,
+		"id": "BG25_309e",
+		"name": "Smoldering",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+5 Attack"
+	},
+	{
+		"dbfId": 96172,
+		"id": "BG25_309_Ge",
+		"name": "Smoldering",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+10 Attack"
+	},
+	{
+		"dbfId": 96173,
+		"id": "BG25_309_Gt",
+		"name": "Smolderwing",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON"
+		],
+		"techLevel": 1,
+		"attack": 4,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Give a Dragon +10 Attack.",
+		"battlegroundsNormalDbfId": 96170
+	},
+	{
+		"dbfId": 96174,
+		"id": "BG25_309_G",
+		"name": "General Drakkisath",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON"
+		],
+		"techLevel": 4,
+		"attack": 4,
+		"health": 16,
+		"text": "[x]<b>Battlecry:</b> Add two 2/1\nSmolderwings to your hand\nthat each give another\nDragon +5 Attack.",
+		"battlegroundsNormalDbfId": 96167
+	},
+	{
+		"dbfId": 96624,
+		"id": "BG_25_910t15e",
+		"name": "Yaharr!!",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+2/+1."
+	},
+	{
+		"dbfId": 96625,
+		"id": "BG25_910t15e",
+		"name": "Yaharr!!",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+2/+2."
+	},
+	{
+		"dbfId": 96703,
+		"id": "BG25_046",
+		"name": "Magmaloc",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"race": "MURLOC",
+		"races": [
+			"MURLOC",
+			"ELEMENTAL"
+		],
+		"techLevel": 4,
+		"attack": 1,
+		"health": 1,
+		"text": "[x]At the end of your turn,\ngain +1/+1. Repeat for\neach minion you played\nthis turn.",
+		"battlegroundsPremiumDbfId": 96770
+	},
+	{
+		"dbfId": 96760,
+		"id": "BG_ULD_217",
+		"name": "Micro Mummy",
+		"type": "Minion",
+		"cardClass": "PALADIN",
+		"playerClass": "Paladin",
+		"set": "Uldum",
+		"rarity": "Epic",
+		"cost": 1,
+		"race": "MECH",
+		"races": [
+			"MECH",
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 1,
+		"health": 2,
+		"text": "[x]<b>Reborn</b>\nAt the end of your turn, give\nanother random friendly\nminion +1 Attack.",
+		"battlegroundsPremiumDbfId": 64343
+	},
+	{
+		"dbfId": 96770,
+		"id": "BG25_046_G",
+		"name": "Magmaloc",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"race": "MURLOC",
+		"races": [
+			"MURLOC",
+			"ELEMENTAL"
+		],
+		"techLevel": 4,
+		"attack": 2,
+		"health": 2,
+		"text": "[x]At the end of your turn,\ngain +2/+2. Repeat for\neach minion you played\nthis turn.",
+		"battlegroundsNormalDbfId": 96703
+	},
+	{
+		"dbfId": 96774,
+		"id": "BG25_045",
+		"name": "Thorncaptain",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "QUILBOAR",
+		"races": [
+			"QUILBOAR",
+			"PIRATE"
+		],
+		"techLevel": 1,
+		"attack": 4,
+		"health": 1,
+		"text": "After a card is added to your hand, gain +1 Health until next turn.",
+		"battlegroundsPremiumDbfId": 96775
+	},
+	{
+		"dbfId": 96775,
+		"id": "BG25_045_G",
+		"name": "Thorncaptain",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "QUILBOAR",
+		"races": [
+			"QUILBOAR",
+			"PIRATE"
+		],
+		"techLevel": 1,
+		"attack": 8,
+		"health": 2,
+		"text": "After a card is added to your hand, gain +2 Health until next turn.",
+		"battlegroundsNormalDbfId": 96774
+	},
+	{
+		"dbfId": 96779,
+		"id": "BG_DAL_575",
+		"name": "Khadgar",
+		"type": "Minion",
+		"cardClass": "MAGE",
+		"playerClass": "Mage",
+		"set": "Dalaran",
+		"rarity": "Legendary",
+		"cost": 2,
+		"attack": 2,
+		"health": 2,
+		"text": "Your cards that summon minions summon twice as many."
+	},
+	{
+		"dbfId": 96785,
+		"id": "BG_FP1_031",
+		"name": "Baron Rivendare",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Naxx",
+		"rarity": "Legendary",
+		"cost": 4,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 5,
+		"attack": 1,
+		"health": 7,
+		"text": "Your minions trigger their <b>Deathrattles</b> twice.",
+		"battlegroundsPremiumDbfId": 58421
+	},
+	{
+		"dbfId": 96865,
+		"id": "BG25_044",
+		"name": "Greta Gold-Gun",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "NAGA",
+		"races": [
+			"NAGA",
+			"PIRATE"
+		],
+		"techLevel": 6,
+		"attack": 2,
+		"health": 9,
+		"text": "[x]<b>Spellcraft:</b> Make a different\nfriendly Pirate or Naga\nGolden until next turn.",
+		"battlegroundsPremiumDbfId": 96868
+	},
+	{
+		"dbfId": 96866,
+		"id": "BG25_044t",
+		"name": "Gold-Gun",
+		"type": "Spell",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"text": "[x]Make a friendly Pirate or\nNaga Golden until next turn\n<i>(except Greta Gold-Gun)</i>."
+	},
+	{
+		"dbfId": 96868,
+		"id": "BG25_044_G",
+		"name": "Greta Gold-Gun",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "NAGA",
+		"races": [
+			"NAGA",
+			"PIRATE"
+		],
+		"techLevel": 6,
+		"attack": 4,
+		"health": 18,
+		"text": "[x]<b>Spellcraft:</b> Make a different\nfriendly Pirate or Naga\nGolden until next turn.",
+		"battlegroundsNormalDbfId": 96865
+	},
+	{
+		"dbfId": 96922,
+		"id": "BG25_807t",
+		"name": "Rusted Reggie",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"race": "MECH",
+		"races": [
+			"MECH",
+			"DEMON"
+		],
+		"techLevel": 1,
+		"attack": 5,
+		"health": 5,
+		"text": "[x]<b>Windfury</b>\nCan <b>Magnetize</b> to\nMechs <i>and</i> Demons.",
+		"battlegroundsPremiumDbfId": 96929
+	},
+	{
+		"dbfId": 96923,
+		"id": "BG25_807e",
+		"name": "Rusted Reggie",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "<b>Windfury</b>"
+	},
+	{
+		"dbfId": 96924,
+		"id": "BG25_807t2",
+		"name": "Magtheridon Prime",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"race": "MECH",
+		"races": [
+			"MECH",
+			"DEMON"
+		],
+		"techLevel": 1,
+		"attack": 1,
+		"health": 10,
+		"text": "[x]<b>Taunt</b>\nCan <b>Magnetize</b> to\nMechs <i>and</i> Demons.",
+		"battlegroundsPremiumDbfId": 96930
+	},
+	{
+		"dbfId": 96925,
+		"id": "BG25_807t3",
+		"name": "Baltharak",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"race": "MECH",
+		"races": [
+			"MECH",
+			"DEMON"
+		],
+		"techLevel": 1,
+		"attack": 10,
+		"health": 1,
+		"text": "[x]<b>Reborn</b>\nCan <b>Magnetize</b> to\nMechs <i>and</i> Demons.",
+		"battlegroundsPremiumDbfId": 96931
+	},
+	{
+		"dbfId": 96926,
+		"id": "BG25_807e2",
+		"name": "Magtheridon Prime",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"dbfId": 96927,
+		"id": "BG25_807e3",
+		"name": "Baltharak",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "<b>Reborn</b>"
+	},
+	{
+		"dbfId": 96929,
+		"id": "BG25_807t_G",
+		"name": "Rusted Reggie",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"race": "MECH",
+		"races": [
+			"MECH",
+			"DEMON"
+		],
+		"techLevel": 1,
+		"attack": 10,
+		"health": 10,
+		"text": "[x]<b>Mega-Windfury</b>\nCan <b>Magnetize</b> to\nMechs <i>and</i> Demons.",
+		"battlegroundsNormalDbfId": 96922
+	},
+	{
+		"dbfId": 96930,
+		"id": "BG25_807t2_G",
+		"name": "Magtheridon Prime",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"race": "MECH",
+		"races": [
+			"MECH",
+			"DEMON"
+		],
+		"techLevel": 1,
+		"attack": 2,
+		"health": 20,
+		"text": "[x]<b>Taunt</b>\nCan <b>Magnetize</b> to\nMechs <i>and</i> Demons.",
+		"battlegroundsNormalDbfId": 96924
+	},
+	{
+		"dbfId": 96931,
+		"id": "BG25_807t3_G",
+		"name": "Baltharak",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"race": "MECH",
+		"races": [
+			"MECH",
+			"DEMON"
+		],
+		"techLevel": 1,
+		"attack": 20,
+		"health": 2,
+		"text": "[x]<b>Reborn</b>\nCan <b>Magnetize</b> to\nMechs <i>and</i> Demons.",
+		"battlegroundsNormalDbfId": 96925
+	},
+	{
+		"dbfId": 97134,
+		"id": "BG25_045e",
+		"name": "Tis' the Captain",
+		"type": "Enchantment",
+		"cardClass": "WARRIOR",
+		"playerClass": "Warrior",
+		"set": "Battlegrounds",
+		"text": "+1 Health until next turn."
+	},
+	{
+		"dbfId": 97135,
+		"id": "BG25_045e2",
+		"name": "Tis' the Captain",
+		"type": "Enchantment",
+		"cardClass": "WARRIOR",
+		"playerClass": "Warrior",
+		"set": "Battlegrounds",
+		"text": "+2 Health until next turn."
+	},
+	{
+		"dbfId": 97284,
+		"id": "LT25_003H_01",
+		"name": "Arfus",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"rarity": "Rare",
+		"cost": 0,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 11,
+		"health": 82,
+		"mercenary": true,
+		"mercenaryRole": "FIGHTER"
+	},
+	{
+		"dbfId": 97286,
+		"id": "LT25_003H_02",
+		"name": "Arfus",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"rarity": "Rare",
+		"cost": 0,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 11,
+		"health": 82,
+		"mercenary": true,
+		"mercenaryRole": "FIGHTER"
+	},
+	{
+		"dbfId": 97287,
+		"id": "LT25_003H_03",
+		"name": "Arfus",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"rarity": "Rare",
+		"cost": 0,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 11,
+		"health": 82,
+		"mercenary": true,
+		"mercenaryRole": "FIGHTER"
+	},
+	{
+		"dbfId": 97292,
+		"id": "LT25_003P1_01",
+		"name": "Fetch! 1",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"cost": 5,
+		"text": "<b>Attack</b> an enemy and steal 1 Attack for your other friendly characters."
+	},
+	{
+		"dbfId": 97294,
+		"id": "LT25_003P1e",
+		"name": "Fetch!",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "-0 Attack."
+	},
+	{
+		"dbfId": 97295,
+		"id": "LT25_003P1e2",
+		"name": "Fetch!",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "+0 Attack."
+	},
+	{
+		"dbfId": 97296,
+		"id": "LT25_003P1_02",
+		"name": "Fetch! 2",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"cost": 5,
+		"text": "<b>Attack</b> an enemy and steal 2 Attack for your other friendly characters."
+	},
+	{
+		"dbfId": 97298,
+		"id": "LT25_003P1_03",
+		"name": "Fetch! 3",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"cost": 5,
+		"text": "<b>Attack</b> an enemy and steal 3 Attack for your other friendly characters."
+	},
+	{
+		"dbfId": 97299,
+		"id": "LT25_003P1_04",
+		"name": "Fetch! 4",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"cost": 5,
+		"text": "<b>Attack</b> an enemy and steal 4 Attack for your other friendly characters."
+	},
+	{
+		"dbfId": 97300,
+		"id": "LT25_003P1_05",
+		"name": "Fetch! 5",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"cost": 5,
+		"text": "<b>Attack</b> an enemy and steal 5 Attack for your other friendly characters."
+	},
+	{
+		"dbfId": 97301,
+		"id": "LT25_003P2_01",
+		"name": "Frigid Bark 1",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"cost": 5,
+		"spellSchool": "FROST",
+		"text": "Give all enemies <b>+1 Frost Weakness</b>. Your next Frost ability casts twice.",
+		"mercenaryAbilityCooldown": 1
+	},
+	{
+		"dbfId": 97304,
+		"id": "LT25_003P2e2",
+		"name": "Frigid Bark",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "Your next Frost ability casts twice."
+	},
+	{
+		"dbfId": 97305,
+		"id": "LT25_003P2e",
+		"name": "Frigid Bark",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "+3 Frost Weakness."
+	},
+	{
+		"dbfId": 97308,
+		"id": "LT25_003P2_02",
+		"name": "Frigid Bark 2",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"cost": 5,
+		"spellSchool": "FROST",
+		"text": "Give all enemies <b>+2 Frost Weakness</b>. Your next Frost ability casts twice.",
+		"mercenaryAbilityCooldown": 1
+	},
+	{
+		"dbfId": 97309,
+		"id": "LT25_003P2_03",
+		"name": "Frigid Bark 3",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"cost": 5,
+		"spellSchool": "FROST",
+		"text": "Give all enemies <b>+3 Frost Weakness</b>. Your next Frost ability casts twice.",
+		"mercenaryAbilityCooldown": 1
+	},
+	{
+		"dbfId": 97310,
+		"id": "LT25_003P2_04",
+		"name": "Frigid Bark 4",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"cost": 5,
+		"spellSchool": "FROST",
+		"text": "Give all enemies <b>+4 Frost Weakness</b>. Your next Frost ability casts twice.",
+		"mercenaryAbilityCooldown": 1
+	},
+	{
+		"dbfId": 97311,
+		"id": "LT25_003P2_05",
+		"name": "Frigid Bark 5",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"cost": 5,
+		"spellSchool": "FROST",
+		"text": "Give all enemies <b>+5 Frost Weakness</b>. Your next Frost ability casts twice.",
+		"mercenaryAbilityCooldown": 1
+	},
+	{
+		"dbfId": 97312,
+		"id": "LT25_003P3_01",
+		"name": "The Frozen Bone 1",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"cost": 7,
+		"spellSchool": "FROST",
+		"text": "<b>Attack</b> all enemies and slow them by (1) this turn. Deal damage to each equal to their highest Speed ability.",
+		"mercenaryAbilityCooldown": 1
+	},
+	{
+		"dbfId": 97313,
+		"id": "LT25_003P3_02",
+		"name": "The Frozen Bone 2",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"cost": 7,
+		"spellSchool": "FROST",
+		"text": "<b>Attack</b> all enemies and slow them by (2) this turn. Deal damage to each equal to their highest Speed ability.",
+		"mercenaryAbilityCooldown": 1
+	},
+	{
+		"dbfId": 97314,
+		"id": "LT25_003P3_03",
+		"name": "The Frozen Bone 3",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"cost": 7,
+		"spellSchool": "FROST",
+		"text": "<b>Attack</b> all enemies and slow them by (3) this turn. Deal damage to each equal to their highest Speed ability.",
+		"mercenaryAbilityCooldown": 1
+	},
+	{
+		"dbfId": 97315,
+		"id": "LT25_003P3_04",
+		"name": "The Frozen Bone 4",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"cost": 7,
+		"spellSchool": "FROST",
+		"text": "<b>Attack</b> all enemies and slow them by (4) this turn. Deal damage to each equal to their highest Speed ability.",
+		"mercenaryAbilityCooldown": 1
+	},
+	{
+		"dbfId": 97316,
+		"id": "LT25_003P3_05",
+		"name": "The Frozen Bone 5",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"cost": 7,
+		"spellSchool": "FROST",
+		"text": "<b>Attack</b> all enemies and slow them by (5) this turn. Deal damage to each equal to their highest Speed ability.",
+		"mercenaryAbilityCooldown": 1
+	},
+	{
+		"dbfId": 97317,
+		"id": "LT25_003E1_01",
+		"name": "His Master's Voice 1",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "<b>Passive:</b> +{0} Attack. This Merc's abilities are ({1}) Speed faster if a friendly Lich King is in play.",
+		"mercenaryEquipment": true
+	},
+	{
+		"dbfId": 97320,
+		"id": "LT25_003E1e",
+		"name": "His Master's Voice (Tracking)",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce"
+	},
+	{
+		"dbfId": 97321,
+		"id": "LT25_003E1e2",
+		"name": "His Master's Voice",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "(0) Speed faster."
+	},
+	{
+		"dbfId": 97322,
+		"id": "LT25_003E1_02",
+		"name": "His Master's Voice 2",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "<b>Passive:</b> +{0} Attack. This Merc's abilities are ({1}) Speed faster if a friendly Lich King is in play.",
+		"mercenaryEquipment": true
+	},
+	{
+		"dbfId": 97323,
+		"id": "LT25_003E1_03",
+		"name": "His Master's Voice 3",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "<b>Passive:</b> +{0} Attack. This Merc's abilities are ({1}) Speed faster if a friendly Lich King is in play.",
+		"mercenaryEquipment": true
+	},
+	{
+		"dbfId": 97324,
+		"id": "LT25_003E1_04",
+		"name": "His Master's Voice 4",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "<b>Passive:</b> +{0} Attack. This Merc's abilities are ({1}) Speed faster if a friendly Lich King is in play.",
+		"mercenaryEquipment": true
+	},
+	{
+		"dbfId": 97325,
+		"id": "LT25_003E2_01",
+		"name": "Good Boy 1",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "<b>Passive:</b> +{0} Health. After a friendly character dies, gain <b>+{1} Frost Damage. </b>",
+		"mercenaryEquipment": true
+	},
+	{
+		"dbfId": 97327,
+		"id": "LT25_003E2e",
+		"name": "Good Boy (Tracking)",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce"
+	},
+	{
+		"dbfId": 97334,
+		"id": "LT25_003E2e2",
+		"name": "Good Boy",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "+0 Frost Damage."
+	},
+	{
+		"dbfId": 97335,
+		"id": "LT25_003E2_02",
+		"name": "Good Boy 2",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "<b>Passive:</b> +{0} Health. After a friendly character dies, gain <b>+{1} Frost Damage. </b>",
+		"mercenaryEquipment": true
+	},
+	{
+		"dbfId": 97336,
+		"id": "LT25_003E2_03",
+		"name": "Good Boy 3",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "<b>Passive:</b> +{0} Health. After a friendly character dies, gain <b>+{1} Frost Damage. </b>",
+		"mercenaryEquipment": true
+	},
+	{
+		"dbfId": 97337,
+		"id": "LT25_003E2_04",
+		"name": "Good Boy 4",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "<b>Passive:</b> +{0} Health. After a friendly character dies, gain <b>+{1} Frost Damage. </b>",
+		"mercenaryEquipment": true
+	},
+	{
+		"dbfId": 97338,
+		"id": "LT25_003E3_01",
+		"name": "Downward Dog 1",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "<b>Deathrattle:</b> Enemies are permanently (1) Speed slower.",
+		"mercenaryEquipment": true
+	},
+	{
+		"dbfId": 97339,
+		"id": "LT25_003E3e",
+		"name": "Downward Dog",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "(0) Speed slower."
+	},
+	{
+		"dbfId": 97340,
+		"id": "LT25_003E3_02",
+		"name": "Downward Dog 2",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "<b>Deathrattle:</b> Enemies are permanently (2) Speed slower.",
+		"mercenaryEquipment": true
+	},
+	{
+		"dbfId": 97341,
+		"id": "LT25_003E3_03",
+		"name": "Downward Dog 3",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "<b>Deathrattle:</b> Enemies are permanently (3) Speed slower.",
+		"mercenaryEquipment": true
+	},
+	{
+		"dbfId": 97342,
+		"id": "LT25_003E3_04",
+		"name": "Downward Dog 4",
+		"type": "Lettuce_ability",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "<b>Deathrattle:</b> Enemies are permanently (4) Speed slower.",
+		"mercenaryEquipment": true
+	},
+	{
+		"dbfId": 97395,
+		"id": "BG25_044e2",
+		"name": "Gold-Gunned",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "Golden until next turn."
+	},
+	{
+		"dbfId": 97408,
+		"id": "BG25_354",
+		"name": "Titus Rivendare",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"techLevel": 5,
+		"attack": 1,
+		"health": 7,
+		"text": "Your <b>Deathrattles</b> trigger an extra time.",
+		"battlegroundsPremiumDbfId": 97409
+	},
+	{
+		"dbfId": 97409,
+		"id": "BG25_354_G",
+		"name": "Titus Rivendare",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"techLevel": 5,
+		"attack": 2,
+		"health": 14,
+		"text": "Your <b>Deathrattles</b> trigger\n2 extra times.",
+		"battlegroundsNormalDbfId": 97408
+	},
+	{
+		"dbfId": 97482,
+		"id": "LT25_003P3e",
+		"name": "The Frozen Bone",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "(0) Speed slower this turn."
+	},
+	{
+		"dbfId": 97535,
+		"id": "BG25_032",
+		"name": "Peggy Sturdybone",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "PIRATE",
+		"races": [
+			"PIRATE"
+		],
+		"techLevel": 4,
+		"attack": 6,
+		"health": 5,
+		"text": "After a card is added to your hand, give another friendly Pirate +1/+1.",
+		"battlegroundsPremiumDbfId": 97536
+	},
+	{
+		"dbfId": 97536,
+		"id": "BG25_032_G",
+		"name": "Peggy Sturdybone",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "PIRATE",
+		"races": [
+			"PIRATE"
+		],
+		"techLevel": 4,
+		"attack": 12,
+		"health": 10,
+		"text": "After a card is added to your hand, give another friendly Pirate +2/+2.",
+		"battlegroundsNormalDbfId": 97535
+	},
+	{
+		"dbfId": 97537,
+		"id": "BG25_033",
+		"name": "Corpse Refiner",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD",
+			"PIRATE"
+		],
+		"techLevel": 2,
+		"attack": 2,
+		"health": 3,
+		"text": "[x]<b>Avenge (4):</b> This minion\nsells for 1 more Gold.",
+		"battlegroundsPremiumDbfId": 97538
+	},
+	{
+		"dbfId": 97538,
+		"id": "BG25_033_G",
+		"name": "Corpse Refiner",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD",
+			"PIRATE"
+		],
+		"techLevel": 2,
+		"attack": 4,
+		"health": 6,
+		"text": "[x]<b>Avenge (4):</b> This minion\nsells for 2 more Gold.",
+		"battlegroundsNormalDbfId": 97537
+	},
+	{
+		"dbfId": 97549,
+		"id": "BG25_039",
+		"name": "Pufferquil",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "QUILBOAR",
+		"races": [
+			"QUILBOAR",
+			"NAGA"
+		],
+		"techLevel": 4,
+		"attack": 2,
+		"health": 4,
+		"text": "After a spell is played on this, gain <b>Poisonous</b>\nuntil next turn.",
+		"battlegroundsPremiumDbfId": 97550
+	},
+	{
+		"dbfId": 97550,
+		"id": "BG25_039_G",
+		"name": "Pufferquil",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "QUILBOAR",
+		"races": [
+			"QUILBOAR",
+			"NAGA"
+		],
+		"techLevel": 4,
+		"attack": 4,
+		"health": 8,
+		"text": "After a spell is played on this, gain <b>Poisonous</b>.",
+		"battlegroundsNormalDbfId": 97549
+	},
+	{
+		"dbfId": 97551,
+		"id": "BG25_040",
+		"name": "Blazing Skyfin",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON",
+			"MURLOC"
+		],
+		"techLevel": 2,
+		"attack": 1,
+		"health": 3,
+		"text": "After you play a <b>Battlecry</b> minion, gain +1/+1.",
+		"battlegroundsPremiumDbfId": 97552
+	},
+	{
+		"dbfId": 97552,
+		"id": "BG25_040_G",
+		"name": "Blazing Skyfin",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON",
+			"MURLOC"
+		],
+		"techLevel": 2,
+		"attack": 2,
+		"health": 6,
+		"text": "After you play a <b>Battlecry</b> minion, gain +2/+2.",
+		"battlegroundsNormalDbfId": 97551
+	},
+	{
+		"dbfId": 97553,
+		"id": "BG25_041",
+		"name": "Felemental",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL",
+			"DEMON"
+		],
+		"techLevel": 3,
+		"attack": 3,
+		"health": 1,
+		"text": "[x]<b>Battlecry:</b> Minions in\nBob's Tavern have +1/+1\n for the rest of the game.",
+		"battlegroundsPremiumDbfId": 97554
+	},
+	{
+		"dbfId": 97554,
+		"id": "BG25_041_G",
+		"name": "Felemental",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL",
+			"DEMON"
+		],
+		"techLevel": 3,
+		"attack": 6,
+		"health": 2,
+		"text": "[x]<b>Battlecry:</b> Minions in\nBob's Tavern have +2/+2\n for the rest of the game.",
+		"battlegroundsNormalDbfId": 97553
+	},
+	{
+		"dbfId": 97555,
+		"id": "BG25_042",
+		"name": "Felstomper",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "DEMON",
+		"races": [
+			"DEMON",
+			"BEAST"
+		],
+		"techLevel": 6,
+		"attack": 3,
+		"health": 7,
+		"text": "[x]After you summon a\n minion in combat, give\n your minions +3 Attack.",
+		"battlegroundsPremiumDbfId": 97556
+	},
+	{
+		"dbfId": 97556,
+		"id": "BG25_042_G",
+		"name": "Felstomper",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "DEMON",
+		"races": [
+			"DEMON",
+			"BEAST"
+		],
+		"techLevel": 6,
+		"attack": 6,
+		"health": 14,
+		"text": "[x]After you summon a\n minion in combat, give\n your minions +6 Attack.",
+		"battlegroundsNormalDbfId": 97555
+	},
+	{
+		"dbfId": 97557,
+		"id": "BG25_043",
+		"name": "Cyborg Drake",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON",
+			"MECH"
+		],
+		"techLevel": 5,
+		"attack": 2,
+		"health": 8,
+		"text": "<b>Divine Shield</b>\nYour <b>Divine Shield</b> minions have +10 Attack.",
+		"battlegroundsPremiumDbfId": 97558
+	},
+	{
+		"dbfId": 97558,
+		"id": "BG25_043_G",
+		"name": "Cyborg Drake",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON",
+			"MECH"
+		],
+		"techLevel": 5,
+		"attack": 4,
+		"health": 16,
+		"text": "<b>Divine Shield</b>\nYour <b>Divine Shield</b> minions have +20 Attack.",
+		"battlegroundsNormalDbfId": 97557
+	},
+	{
+		"dbfId": 97813,
+		"id": "BG25_HERO_100",
+		"name": "Professor Putricide",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHero": true
+	},
+	{
+		"dbfId": 97814,
+		"id": "BG25_HERO_100p",
+		"name": "Build-An-Undead",
+		"type": "Hero_power",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"text": "[x]Craft a custom Undead.\n<i>(3 Creations left!)</i>"
+	},
+	{
+		"dbfId": 97817,
+		"id": "BG25_HERO_100pt",
+		"name": "Putricide's Creation",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"attack": 1,
+		"health": 1,
+		"text": "{0}\n{1}"
+	},
+	{
+		"dbfId": 97865,
+		"id": "HERO_07z",
+		"name": "Mal'Ganis",
+		"type": "Hero",
+		"cardClass": "WARLOCK",
+		"playerClass": "Warlock",
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"health": 30
+	},
+	{
+		"dbfId": 98103,
+		"id": "LT25_003E1e3",
+		"name": "His Master's Voice",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Lettuce",
+		"text": "+0 Attack."
+	},
+	{
+		"dbfId": 98361,
+		"id": "HERO_10x",
+		"name": "Omen",
+		"type": "Hero",
+		"cardClass": "DEMONHUNTER",
+		"playerClass": "Demonhunter",
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"health": 30
+	},
+	{
+		"dbfId": 98363,
+		"id": "HERO_10xbp",
+		"name": "Demon Claws",
+		"type": "Hero_power",
+		"cardClass": "DEMONHUNTER",
+		"playerClass": "Demonhunter",
+		"set": "Hero_skins",
+		"cost": 1,
+		"text": "[x]<b>Hero Power</b>\n+1 Attack this turn."
+	},
+	{
+		"dbfId": 98364,
+		"id": "HERO_10xbp2",
+		"name": "Demon's Bite",
+		"type": "Hero_power",
+		"cardClass": "DEMONHUNTER",
+		"playerClass": "Demonhunter",
+		"set": "Hero_skins",
+		"cost": 1,
+		"text": "[x]<b>Hero Power</b>\n+2 Attack this turn."
+	},
+	{
+		"dbfId": 98367,
+		"id": "HERO_05ab",
+		"name": "Huln Highmountain",
+		"type": "Hero",
+		"cardClass": "HUNTER",
+		"playerClass": "Hunter",
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"health": 30
+	},
+	{
+		"dbfId": 98368,
+		"id": "HERO_06ac",
+		"name": "Dreamgrove Lunara",
+		"type": "Hero",
 		"cardClass": "DRUID",
 		"playerClass": "Druid",
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"health": 30
+	},
+	{
+		"dbfId": 98369,
+		"id": "HERO_09aa",
+		"name": "Champion Tyrande",
+		"type": "Hero",
+		"cardClass": "PRIEST",
+		"playerClass": "Priest",
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"health": 30
+	},
+	{
+		"dbfId": 98370,
+		"id": "HERO_02af",
+		"name": "Spirit Bru'kan",
+		"type": "Hero",
+		"cardClass": "SHAMAN",
+		"playerClass": "Shaman",
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"health": 30
+	},
+	{
+		"dbfId": 98681,
+		"id": "BG25_104",
+		"name": "Chronormu",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON"
+		],
+		"techLevel": 4,
+		"attack": 4,
+		"health": 4,
+		"text": "While this is in Bob's Tavern, gain the stats of any minions sold.",
+		"battlegroundsPremiumDbfId": 98682
+	},
+	{
+		"dbfId": 98682,
+		"id": "BG25_104_G",
+		"name": "Chronormu",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON"
+		],
+		"techLevel": 4,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]While this is in Bob's\nTavern, gain twice the stats\nof any minions sold.",
+		"battlegroundsNormalDbfId": 98681
+	},
+	{
+		"dbfId": 98683,
+		"id": "BG25_104e",
+		"name": "Stats from the Past",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "Increased stats."
+	},
+	{
+		"dbfId": 98735,
+		"id": "BG_EX1_059",
+		"name": "Crazed Alchemist",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Legacy",
+		"rarity": "Rare",
+		"cost": 2,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Swap the Attack and Health of a minion.",
+		"battlegroundsPremiumDbfId": 69661
+	},
+	{
+		"dbfId": 98736,
+		"id": "BG_EX1_059e",
+		"name": "Crazed Chemistry",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "Attack and Health swapped."
+	},
+	{
+		"dbfId": 98737,
+		"id": "BG25_046e",
+		"name": "Magma!",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+1/+1."
+	},
+	{
+		"dbfId": 98780,
+		"id": "BG25_016e",
+		"name": "Deborn",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "No longer has <b>Reborn.</b>"
+	},
+	{
+		"dbfId": 98784,
+		"id": "TB_BaconShopBob_SKIN_X",
+		"name": "Lady Deathwhisper",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 60,
+		"battlegroundsHeroParentDbfId": 57110
+	},
+	{
+		"dbfId": 98785,
+		"id": "BG23_HERO_201_SKIN_A",
+		"name": "Ozumat, Glacial Horror",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 86013,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98786,
+		"id": "BG23_HERO_201pt_SKIN_A",
+		"name": "Ozumat's Tentacle",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"techLevel": 1,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Taunt</b>",
+		"battlegroundsPremiumDbfId": 98787
+	},
+	{
+		"dbfId": 98787,
+		"id": "BG23_HERO_201pt_SKIN_A_G",
+		"name": "Ozumat's Tentacle",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"techLevel": 1,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"dbfId": 98788,
+		"id": "TB_BaconShop_HERO_49_SKIN_E",
+		"name": "Scourgestorm Millhouse",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 60366,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98789,
+		"id": "BG22_HERO_002_SKIN_B",
+		"name": "Scourgewolf Drek'thar",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 80239,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98790,
+		"id": "TB_BaconShop_HERO_23_SKIN_C",
+		"name": "Skellywock",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 58027,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98791,
+		"id": "TB_BaconShop_HP_022t_SKIN_C",
+		"name": "Shudderskull",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"techLevel": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "[x]<b>Battlecry:</b> Repeat all other\n<b>Battlecries</b> from cards you\nplayed this game <i>(targets\nchosen randomly)</i>.",
+		"battlegroundsPremiumDbfId": 98792
+	},
+	{
+		"dbfId": 98792,
+		"id": "TB_BaconShop_HP_022t_SKIN_C_G",
+		"name": "Shudderskull",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"techLevel": 1,
+		"attack": 2,
+		"health": 2,
+		"text": "[x]<b>Battlecry:</b> Repeat all other\n<b>Battlecries</b> from cards you\n played this game twice\n<i> (targets chosen randomly)</i>.",
+		"battlegroundsNormalDbfId": 98791
+	},
+	{
+		"dbfId": 98793,
+		"id": "TB_BaconShop_HERO_78_SKIN_C",
+		"name": "Scourgewind Chenvaala",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 64475,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98794,
+		"id": "BG22_HERO_001_SKIN_A",
+		"name": "Scourgebound Bru'kan",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 79719,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98795,
+		"id": "TB_BaconShop_HERO_37_SKIN_C",
+		"name": "Icelord Jaraxxus",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 59807,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98796,
+		"id": "TB_BaconShop_HERO_52_SKIN_C",
+		"name": "Deathwing, Risen",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 60369,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98797,
+		"id": "TB_BaconShop_HERO_22_SKIN_E",
+		"name": "The Scourgewar King",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 58024,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98798,
+		"id": "BG21_HERO_030_SKIN_C",
+		"name": "Bonethresher Sneed",
+		"type": "Hero",
+		"cardClass": "WARRIOR",
+		"playerClass": "Warrior",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 76521,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98799,
+		"id": "TB_BaconShop_HERO_02_SKIN_B",
+		"name": "Rune Raised Galakrond",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 57635,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98800,
+		"id": "TB_BaconShop_HERO_27_SKIN_C",
+		"name": "Sindragosa of the Scourge",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 58435,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98801,
+		"id": "TB_BaconShop_HERO_25_SKIN_D",
+		"name": "Icebinder Baz'hial",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 58044,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98802,
+		"id": "TB_BaconShop_HERO_75_SKIN_E",
+		"name": "Sunfed Rakanishu",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 64400,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98803,
+		"id": "TB_BaconShop_HERO_68_SKIN_C",
+		"name": "Phoenix-flight Kragg",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 62268,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98804,
+		"id": "TB_BaconShop_HERO_16_SKIN_D",
+		"name": "Off-Duty A. F. Kay",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 57944,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98805,
+		"id": "BG22_HERO_201_SKIN_B",
+		"name": "Silverguard Faelin",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 81569,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98806,
+		"id": "BG20_HERO_202_SKIN_C",
+		"name": "Sunwell Nguyen",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 71908,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98807,
+		"id": "TB_BaconShop_HERO_58_SKIN_E",
+		"name": "Magister Malygos",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 61490,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98808,
+		"id": "BG22_HERO_000_SKIN_A",
+		"name": "Scoutmaster Tavish",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 77987,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98809,
+		"id": "BG22_HERO_003_SKIN_A",
+		"name": "Commander Vanndar",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 80247,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98810,
+		"id": "BG20_HERO_101_SKIN_F",
+		"name": "Lightkeeper Xyrella",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 70956,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98811,
+		"id": "BG21_HERO_000_SKIN_D",
+		"name": "Cariel, the Chosen",
+		"type": "Hero",
+		"cardClass": "PALADIN",
+		"playerClass": "Paladin",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 73940,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98812,
+		"id": "BG22_HERO_004_SKIN_B",
+		"name": "Magister Dawngrasp",
+		"type": "Hero",
+		"cardClass": "MAGE",
+		"playerClass": "Mage",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 79615,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98813,
+		"id": "TB_BaconShop_HERO_60_SKIN_D",
+		"name": "Savior Kael'thas",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"health": 40,
+		"battlegroundsHeroParentDbfId": 61912,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 98858,
+		"id": "TB_BaconShop_HP_015e2",
+		"name": "Tinkered",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+2 Attack."
+	},
+	{
+		"dbfId": 98867,
+		"id": "BG25_050",
+		"name": "Colossus of the Sun",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 6,
+		"attack": 6,
+		"health": 6,
+		"text": "<b>Divine Shield</b>\n<b>Reborn</b>",
+		"battlegroundsPremiumDbfId": 98868
+	},
+	{
+		"dbfId": 98868,
+		"id": "BG25_050_G",
+		"name": "Colossus of the Sun",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 6,
+		"attack": 12,
+		"health": 12,
+		"text": "<b>Divine Shield</b>\n<b>Reborn</b>"
+	},
+	{
+		"dbfId": 98888,
+		"id": "TB_BaconShop_HP_041k",
+		"name": "King of Undead",
+		"type": "Hero_power",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"text": "<b>Discover</b> an Undead.\nSwaps type each turn."
+	},
+	{
+		"dbfId": 98978,
+		"id": "TB_BaconShop_HP_037te2",
+		"name": "Waxed",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "Increased stats."
+	},
+	{
+		"dbfId": 99116,
+		"id": "BG26_RLK_833",
+		"name": "Foul Egg",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
 		"set": "Return_of_the_lich_king",
-		"text": "Costs Armor instead of Mana."
+		"rarity": "Common",
+		"cost": 1,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 0,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Summon a 3/3 Undead Chicken.",
+		"battlegroundsPremiumDbfId": 85152
+	},
+	{
+		"dbfId": 99117,
+		"id": "BG_RLK_957",
+		"name": "Banshee",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Return_of_the_lich_king",
+		"rarity": "Rare",
+		"cost": 1,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 2,
+		"health": 1,
+		"text": "<b>Deathrattle:</b> Give a random friendly Undead +2/+1."
+	},
+	{
+		"dbfId": 99118,
+		"id": "BG26_RLK_824",
+		"name": "Arms Dealer",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Return_of_the_lich_king",
+		"rarity": "Common",
+		"cost": 1,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 2,
+		"attack": 1,
+		"health": 2,
+		"text": "After you summon an Undead, give it +1 Attack.",
+		"battlegroundsPremiumDbfId": 84370
+	},
+	{
+		"dbfId": 99119,
+		"id": "BG_RLK_538",
+		"name": "Devourer of Souls",
+		"type": "Minion",
+		"cardClass": "WARLOCK",
+		"playerClass": "Warlock",
+		"set": "Return_of_the_lich_king",
+		"rarity": "Legendary",
+		"cost": 1,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 6,
+		"attack": 1,
+		"health": 3,
+		"text": "After a friendly minion dies, gain its <b>Deathrattle</b>.",
+		"battlegroundsPremiumDbfId": 84290
+	},
+	{
+		"dbfId": 99120,
+		"id": "BG_RLK_958",
+		"name": "Skeletal Sidekick",
+		"type": "Minion",
+		"cardClass": "DEATHKNIGHT",
+		"playerClass": "Deathknight",
+		"set": "Core",
+		"rarity": "Common",
+		"cost": 1,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 1,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Give a friendly Undead +2 Attack.",
+		"battlegroundsPremiumDbfId": 86190
+	},
+	{
+		"dbfId": 99121,
+		"id": "BG26_RLK_119",
+		"name": "Drakkari Embalmer",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Return_of_the_lich_king",
+		"rarity": "Common",
+		"cost": 3,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 5,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Give a friendly Undead <b>Reborn</b>."
+	},
+	{
+		"dbfId": 99122,
+		"id": "BG26_RLK_117",
+		"name": "Incorporeal Corporal",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Return_of_the_lich_king",
+		"rarity": "Common",
+		"cost": 2,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 5,
+		"health": 5,
+		"text": "After this minion attacks,\ndestroy it.",
+		"battlegroundsPremiumDbfId": 80084
+	},
+	{
+		"dbfId": 99156,
+		"id": "BG26_GIL_513",
+		"name": "Lost Spirit",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Gilneas",
+		"rarity": "Common",
+		"cost": 2,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 3,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Deathrattle:</b> Give your minions +1 Attack."
+	},
+	{
+		"dbfId": 99157,
+		"id": "BG_GIL_655",
+		"name": "Festeroot Hulk",
+		"type": "Minion",
+		"cardClass": "WARRIOR",
+		"playerClass": "Warrior",
+		"set": "Gilneas",
+		"rarity": "Rare",
+		"cost": 5,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 5,
+		"attack": 2,
+		"health": 7,
+		"text": "After a friendly minion attacks, gain +1 Attack."
+	},
+	{
+		"dbfId": 99158,
+		"id": "BG26_GIL_616",
+		"name": "Splitting Festeroot",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"rarity": "Epic",
+		"cost": 8,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 6,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Deathrattle:</b> Summon two 2/2 Splitting Saplings."
+	},
+	{
+		"dbfId": 99159,
+		"id": "BG26_OG_248",
+		"name": "Am'gam Rager",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Og",
+		"rarity": "Common",
+		"cost": 3,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 2,
+		"attack": 1,
+		"health": 5
+	},
+	{
+		"dbfId": 99160,
+		"id": "BG26_FP1_005",
+		"name": "Shade of Naxxramas",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Naxx",
+		"rarity": "Epic",
+		"cost": 3,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 3,
+		"attack": 2,
+		"health": 2,
+		"text": "<b><b>Stealth</b>.</b> At the start of your turn, gain +1/+1."
+	},
+	{
+		"dbfId": 99161,
+		"id": "BG26_ICC_028",
+		"name": "Sunborne Val'kyr",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Icecrown",
+		"rarity": "Common",
+		"cost": 5,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 4,
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Give adjacent minions +2 Health."
+	},
+	{
+		"dbfId": 99162,
+		"id": "BG26_CFM_636",
+		"name": "Shadow Rager",
+		"type": "Minion",
+		"cardClass": "ROGUE",
+		"playerClass": "Rogue",
+		"set": "Gangs",
+		"rarity": "Common",
+		"cost": 3,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 4,
+		"attack": 5,
+		"health": 1,
+		"text": "<b>Stealth</b>"
+	},
+	{
+		"dbfId": 99163,
+		"id": "BG26_ULD_274",
+		"name": "Wasteland Assassin",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Uldum",
+		"rarity": "Common",
+		"cost": 5,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 5,
+		"attack": 4,
+		"health": 2,
+		"text": "<b>Stealth</b>\n<b>Reborn</b>"
+	},
+	{
+		"dbfId": 99164,
+		"id": "BG26_ICC_705",
+		"name": "Bonemare",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"rarity": "Common",
+		"cost": 7,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD",
+			"BEAST"
+		],
+		"attack": 5,
+		"health": 5,
+		"text": "<b>Battlecry:</b> Give a friendly minion +4/+4 and <b>Taunt</b>."
+	},
+	{
+		"dbfId": 99165,
+		"id": "BG26_ICC_705e",
+		"name": "Bonemare's Boon",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+4/+4 and <b>Taunt</b>."
+	},
+	{
+		"dbfId": 99166,
+		"id": "BG_LOE_012",
+		"name": "Tomb Pillager",
+		"type": "Minion",
+		"cardClass": "ROGUE",
+		"playerClass": "Rogue",
+		"set": "Loe",
+		"rarity": "Common",
+		"cost": 4,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 4,
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Deathrattle:</b> Add a Coin to your hand."
+	},
+	{
+		"dbfId": 99167,
+		"id": "BG26_tt_004",
+		"name": "Flesheating Ghoul",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Legacy",
+		"rarity": "Common",
+		"cost": 3,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 2,
+		"attack": 3,
+		"health": 3,
+		"text": "Whenever a minion dies, gain +1 Attack."
+	},
+	{
+		"dbfId": 99168,
+		"id": "BG26_tt_004o",
+		"name": "Cannibalize",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Legacy",
+		"text": "Increased Attack."
+	},
+	{
+		"dbfId": 99169,
+		"id": "BG26_GIL_513e",
+		"name": "Spooky Sacrifice",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+1 Attack."
+	},
+	{
+		"dbfId": 99181,
+		"id": "HERO_11dbp",
+		"name": "Ghoul Charge",
+		"type": "Hero_power",
+		"cardClass": "DEATHKNIGHT",
+		"playerClass": "Deathknight",
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"cost": 2,
+		"text": "[x]<b>Hero Power</b>\nSummon a 1/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn."
+	},
+	{
+		"dbfId": 99182,
+		"id": "HERO_11dbp2",
+		"name": "Ghoul Frenzy",
+		"type": "Hero_power",
+		"cardClass": "DEATHKNIGHT",
+		"playerClass": "Deathknight",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "[x]<b>Hero Power</b>\nSummon a 2/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn."
+	},
+	{
+		"dbfId": 99200,
+		"id": "BG26_LOOT_534",
+		"name": "Gilded Gargoyle",
+		"type": "Minion",
+		"cardClass": "PRIEST",
+		"playerClass": "Priest",
+		"set": "Lootapalooza",
+		"rarity": "Common",
+		"cost": 3,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 3,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Add a Coin to your hand."
+	},
+	{
+		"dbfId": 99201,
+		"id": "BG26_ICC_026",
+		"name": "Grim Necromancer",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Icecrown",
+		"rarity": "Common",
+		"cost": 4,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 3,
+		"attack": 2,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Summon two 1/1 Skeletons."
+	},
+	{
+		"dbfId": 99202,
+		"id": "BG26_ICC_065",
+		"name": "Bone Baron",
+		"type": "Minion",
+		"cardClass": "ROGUE",
+		"playerClass": "Rogue",
+		"set": "Icecrown",
+		"rarity": "Common",
+		"cost": 5,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 6,
+		"attack": 5,
+		"health": 5,
+		"text": "<b>Deathrattle:</b> Add two 1/1 Skeletons to your hand."
+	},
+	{
+		"dbfId": 99203,
+		"id": "BG26_ICC_027",
+		"name": "Bone Drake",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Icecrown",
+		"rarity": "Rare",
+		"cost": 6,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON",
+			"UNDEAD"
+		],
+		"techLevel": 6,
+		"attack": 6,
+		"health": 5,
+		"text": "<b>Deathrattle:</b> Add a random Dragon to your hand."
+	},
+	{
+		"dbfId": 99406,
+		"id": "BG_GIL_655e",
+		"name": "Grown",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "Increased Attack."
+	},
+	{
+		"dbfId": 99518,
+		"id": "BG_ICC_092e",
+		"name": "Veteran's Favor",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+1 Attack."
+	},
+	{
+		"dbfId": 99519,
+		"id": "BG_RLK_958e",
+		"name": "Thrown a Bone",
+		"type": "Enchantment",
+		"cardClass": "DEATHKNIGHT",
+		"playerClass": "Deathknight",
+		"set": "Battlegrounds",
+		"text": "+2 Attack."
+	},
+	{
+		"dbfId": 99522,
+		"id": "BG_ICC_094e",
+		"name": "Cleric's Blessing",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+1/+1."
+	},
+	{
+		"dbfId": 99524,
+		"id": "BG_ULD_275",
+		"name": "Bone Wraith",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Uldum",
+		"rarity": "Common",
+		"cost": 4,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 3,
+		"attack": 2,
+		"health": 5,
+		"text": "<b>Taunt</b>\n<b>Reborn</b>",
+		"battlegroundsPremiumDbfId": 54002
+	},
+	{
+		"dbfId": 99527,
+		"id": "BG_ICC_032",
+		"name": "Venomancer",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Icecrown",
+		"rarity": "Common",
+		"cost": 5,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 6,
+		"attack": 2,
+		"health": 5,
+		"text": "<b>Poisonous</b>",
+		"battlegroundsPremiumDbfId": 42446
+	},
+	{
+		"dbfId": 99573,
+		"id": "BG_ICC_099",
+		"name": "Ticking Abomination",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Icecrown",
+		"rarity": "Rare",
+		"cost": 4,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 5,
+		"health": 6,
+		"text": "<b>Deathrattle:</b> Deal 5 damage to your minions.",
+		"battlegroundsPremiumDbfId": 42782
+	},
+	{
+		"dbfId": 99576,
+		"id": "BG_ICC_092",
+		"name": "Acherus Veteran",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Icecrown",
+		"rarity": "Common",
+		"cost": 1,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 2,
+		"health": 1,
+		"text": "<b>Battlecry:</b> Give a friendly minion +1 Attack.",
+		"battlegroundsPremiumDbfId": 42773
+	},
+	{
+		"dbfId": 99577,
+		"id": "BG_ULD_205",
+		"name": "Candletaker",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Uldum",
+		"rarity": "Common",
+		"cost": 3,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Reborn</b>",
+		"battlegroundsPremiumDbfId": 53402
+	},
+	{
+		"dbfId": 99578,
+		"id": "BG_ICC_094",
+		"name": "Fallen Sun Cleric",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Icecrown",
+		"rarity": "Common",
+		"cost": 2,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 2,
+		"attack": 2,
+		"health": 1,
+		"text": "<b>Battlecry:</b> Give a friendly minion +1/+1.",
+		"battlegroundsPremiumDbfId": 42777
+	},
+	{
+		"dbfId": 99579,
+		"id": "BG_RLK_833t",
+		"name": "Foul Fowl",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Return_of_the_lich_king",
+		"cost": 3,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD",
+			"BEAST"
+		],
+		"techLevel": 1,
+		"attack": 3,
+		"health": 3,
+		"battlegroundsPremiumDbfId": 99580
+	},
+	{
+		"dbfId": 99580,
+		"id": "BG_RLK_833t_G",
+		"name": "Foul Fowl",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Return_of_the_lich_king",
+		"cost": 3,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD",
+			"BEAST"
+		],
+		"techLevel": 1,
+		"attack": 6,
+		"health": 6,
+		"battlegroundsNormalDbfId": 99579
+	},
+	{
+		"dbfId": 99629,
+		"id": "BG_ICC_026t",
+		"name": "Skeleton",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Icecrown",
+		"cost": 0,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 1,
+		"health": 1,
+		"battlegroundsPremiumDbfId": 99630
+	},
+	{
+		"dbfId": 99630,
+		"id": "BG_ICC_026t_G",
+		"name": "Skeleton",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Icecrown",
+		"cost": 0,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 2,
+		"health": 2,
+		"battlegroundsNormalDbfId": 99629
+	},
+	{
+		"dbfId": 99631,
+		"id": "BG_ULD_217e",
+		"name": "Microwrapped",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+1 Attack."
+	},
+	{
+		"dbfId": 99632,
+		"id": "BG_FP1_005e",
+		"name": "Consume",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "Increased stats."
+	},
+	{
+		"dbfId": 99633,
+		"id": "BG_ICC_028e",
+		"name": "Blessing of the Val'kyr",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+2 Health."
+	},
+	{
+		"dbfId": 100034,
+		"id": "BG25_022e",
+		"name": "Scarlet Fear",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+1/+2."
+	},
+	{
+		"dbfId": 100035,
+		"id": "BG25_022_Ge",
+		"name": "Scarlet Fear",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+2/+4."
+	},
+	{
+		"dbfId": 100036,
+		"id": "BG25_008pe",
+		"name": "Eternal Knight Player Enchant",
+		"type": "Enchantment",
+		"set": "Battlegrounds",
+		"text": "Counts the number of Eternal Knights that died."
+	},
+	{
+		"dbfId": 100038,
+		"id": "BG25_008_e",
+		"name": "Eternal Legion",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+1/+1."
+	},
+	{
+		"dbfId": 100115,
+		"id": "HERO_11g",
+		"name": "Ghoul Queen Scarlet",
+		"type": "Hero",
+		"cardClass": "DEATHKNIGHT",
+		"playerClass": "Deathknight",
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"health": 30
+	},
+	{
+		"dbfId": 100116,
+		"id": "HERO_11gbp",
+		"name": "Ghoul Charge",
+		"type": "Hero_power",
+		"cardClass": "DEATHKNIGHT",
+		"playerClass": "Deathknight",
+		"set": "Legacy",
+		"rarity": "Free",
+		"cost": 2,
+		"text": "[x]<b>Hero Power</b>\nSummon a 1/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn."
+	},
+	{
+		"dbfId": 100117,
+		"id": "HERO_11gbp2",
+		"name": "Ghoul Frenzy",
+		"type": "Hero_power",
+		"cardClass": "DEATHKNIGHT",
+		"playerClass": "Deathknight",
+		"set": "Legacy",
+		"cost": 2,
+		"text": "[x]<b>Hero Power</b>\nSummon a 2/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn."
+	},
+	{
+		"dbfId": 100130,
+		"id": "BG25_011pe",
+		"name": "Undead Bonus Attack Player Enchant [DNT]",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "Give Attack to Undead."
+	},
+	{
+		"dbfId": 100132,
+		"id": "BG25_011e2",
+		"name": "Undead Army",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+0 Attack"
+	},
+	{
+		"dbfId": 100145,
+		"id": "BG25_005e",
+		"name": "Jellied",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+3/+3"
+	},
+	{
+		"dbfId": 100146,
+		"id": "BG25_005_Ge",
+		"name": "Jellied",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+6/+6"
+	},
+	{
+		"dbfId": 100147,
+		"id": "BG25_002e",
+		"name": "Tasty Treat",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+3 Attack."
+	},
+	{
+		"dbfId": 100148,
+		"id": "BG25_002_Ge",
+		"name": "Tasty Treat",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+6 Attack."
+	},
+	{
+		"dbfId": 100149,
+		"id": "BG25_006e",
+		"name": "Just What Was Ordered",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+1/+1"
+	},
+	{
+		"dbfId": 100150,
+		"id": "BG25_006_Ge",
+		"name": "Just What Was Ordered",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+2/+2"
+	},
+	{
+		"dbfId": 100153,
+		"id": "BG25_010t",
+		"name": "Helping Hand",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Reborn</b>",
+		"battlegroundsPremiumDbfId": 100154
+	},
+	{
+		"dbfId": 100154,
+		"id": "BG25_010_Gt",
+		"name": "Helping Hand",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Reborn</b>",
+		"battlegroundsNormalDbfId": 100153
+	},
+	{
+		"dbfId": 100159,
+		"id": "BG25_004e",
+		"name": "MINE!!!",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+2/+7"
+	},
+	{
+		"dbfId": 100160,
+		"id": "BG25_004_Ge",
+		"name": "MINE!!!",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+4/+14"
+	},
+	{
+		"dbfId": 100161,
+		"id": "BG25_014e",
+		"name": "OM NOM NOM",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+1/+1"
+	},
+	{
+		"dbfId": 100162,
+		"id": "BG25_014_Ge",
+		"name": "OM NOM NOM",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+2/+2"
+	},
+	{
+		"dbfId": 100163,
+		"id": "BG25_020e",
+		"name": "Dark Whispers",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+1/+3"
+	},
+	{
+		"dbfId": 100164,
+		"id": "BG25_020_Ge",
+		"name": "Dark Whispers",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+2/+6"
+	},
+	{
+		"dbfId": 100231,
+		"id": "BG25_040e",
+		"name": "Blaze of Glory",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+1/+1."
+	},
+	{
+		"dbfId": 100232,
+		"id": "BG25_040_Ge",
+		"name": "Blaze of Glory",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+2/+2."
+	},
+	{
+		"dbfId": 100289,
+		"id": "BG25_041e",
+		"name": "Felfire Player Enchant",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "Increased stats."
+	},
+	{
+		"dbfId": 100290,
+		"id": "BG25_041e2",
+		"name": "Felementality",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "Increased stats."
+	},
+	{
+		"dbfId": 100292,
+		"id": "BG25_039e",
+		"name": "Puffed Up",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "<b>Poisonous</b> until next turn."
+	},
+	{
+		"dbfId": 100293,
+		"id": "BG25_039_Ge",
+		"name": "Puffed Full",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "<b>Poisonous</b>."
+	},
+	{
+		"dbfId": 100297,
+		"id": "BG25_043e",
+		"name": "Cyborg Enhancement",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+10 Attack."
+	},
+	{
+		"dbfId": 100299,
+		"id": "BG25_043_Ge",
+		"name": "Cyborg Enhancement",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+20 Attack."
+	},
+	{
+		"dbfId": 100346,
+		"id": "BG25_042_Ge",
+		"name": "Felgorged",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+6 Attack."
+	},
+	{
+		"dbfId": 100347,
+		"id": "BG25_042e",
+		"name": "Felgorged",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+3 Attack."
+	},
+	{
+		"dbfId": 100607,
+		"id": "BG25_032e",
+		"name": "Loot Get",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+1/+1."
+	},
+	{
+		"dbfId": 100608,
+		"id": "BG25_032_Ge",
+		"name": "Loot Get",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+2/+2."
+	},
+	{
+		"dbfId": 100725,
+		"id": "RLK_Prologue_RLK_034",
+		"name": "Heart Strike",
+		"type": "Spell",
+		"cardClass": "DEATHKNIGHT",
+		"playerClass": "Deathknight",
+		"set": "Core",
+		"rarity": "Common",
+		"cost": 1,
+		"additionalCosts": {
+			"BLOODRUNE": 1
+		},
+		"text": "Deal $3 damage to\na minion. If that kills it, gain a <b>Corpse</b>."
+	},
+	{
+		"dbfId": 100986,
+		"id": "BG24_005e2",
+		"name": "Reborn Removed",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "<b>Reborn</b> has been removed."
+	},
+	{
+		"dbfId": 101256,
+		"id": "TB_Lunar_DiscoverDK",
+		"name": "Lunar New Year Discover - Death Knight - Not Player Facing",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Tb"
+	},
+	{
+		"dbfId": 101295,
+		"id": "BG25_046_Ge",
+		"name": "Magma!",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "+2/+2."
+	},
+	{
+		"dbfId": 101452,
+		"id": "BG25_023e",
+		"name": "Soul Doubled",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "<b>Reborn</b>"
+	},
+	{
+		"dbfId": 101453,
+		"id": "BG26_RLK_119e",
+		"name": "Embalmed",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "<b>Reborn</b>"
+	},
+	{
+		"dbfId": 101457,
+		"id": "BG25_016e2",
+		"name": "Tauntn't",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "No longer has <b><b>Taunt</b>.</b>"
 	}
 ]
