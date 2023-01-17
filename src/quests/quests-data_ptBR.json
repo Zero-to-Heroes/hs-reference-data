@@ -829,7 +829,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Causar $q de dano.",
+			"description": "Causar $q de dano.\n<i>(Etapa 1 de 4)</i>",
 			"id": 100,
 			"name": "Causador de Dano",
 			"quota": 5,
@@ -838,7 +838,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Jogar $q cards ou Mercenários.",
+			"description": "Jogar $q cards.\n<i>(Etapa 2 de 4)</i>",
 			"id": 101,
 			"name": "Card na Manga",
 			"quota": 5,
@@ -847,7 +847,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Jogar $q turnos.",
+			"description": "Jogar $q turnos.\n<i>(Etapa 3 de 4)</i>",
 			"id": 102,
 			"name": "Contador de Turnos",
 			"quota": 5,
@@ -856,7 +856,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Jogar $q partida.",
+			"description": "Jogar $q partida.\n<i>(Etapa 4 de 4)</i>",
 			"id": 103,
 			"name": "Explore o Mundo!",
 			"quota": 1,
@@ -865,7 +865,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Jogar $q partida no Modo de Treinamento.",
+			"description": "Jogar $q partida no Modo de Treinamento.\n<i>(Etapa 1 de 5)</i>",
 			"id": 104,
 			"name": "Pegando o jeito",
 			"quota": 1,
@@ -874,7 +874,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Jogar $q partidas no Modo de Treinamento.",
+			"description": "Jogar $q partidas no Modo de Treinamento.\n<i>(Etapa 2 de 5)</i>",
 			"id": 105,
 			"name": "A prática leva à perfeição",
 			"quota": 2,
@@ -883,7 +883,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Jogar $q partida do Hearthstone tradicional.",
+			"description": "Jogar $q partida do Hearthstone tradicional.\n<i>(Etapa 3 de 5)</i>",
 			"id": 106,
 			"name": "Primeiro golpe",
 			"quota": 1,
@@ -892,7 +892,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Jogar $q partidas do Hearthstone tradicional.",
+			"description": "Jogar $q partidas do Hearthstone tradicional.\n<i>(Etapa 4 de 5)</i>",
 			"id": 107,
 			"name": "Duelista",
 			"quota": 2,
@@ -901,7 +901,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Jogar $q partidas.",
+			"description": "Jogar $q partidas.\n<i>(Etapa 5 de 5)</i>",
 			"id": 108,
 			"name": "Mestre de Tudo",
 			"quota": 2,
@@ -2197,15 +2197,6 @@
 			"rewardTrackXp": 50
 		},
 		{
-			"description": "Ganhe 1 partida nos Campos de Batalha.",
-			"id": 425,
-			"name": "Feliz Noturnália!",
-			"quota": 1,
-			"rewardListId": 0,
-			"rewardTrackType": 3,
-			"rewardTrackXp": 40
-		},
-		{
 			"description": "Descobrir $q cards.",
 			"id": 426,
 			"name": "Suspeitos Insuspeitos",
@@ -2417,15 +2408,6 @@
 			"id": 456,
 			"name": "",
 			"quota": 2,
-			"rewardListId": 0,
-			"rewardTrackType": 4,
-			"rewardTrackXp": 30
-		},
-		{
-			"description": "Jogar 1 partida nos Campos de Batalha.",
-			"id": 457,
-			"name": "",
-			"quota": 1,
 			"rewardListId": 0,
 			"rewardTrackType": 4,
 			"rewardTrackXp": 30
@@ -2690,6 +2672,177 @@
 			"rewardListId": 0,
 			"rewardTrackType": 5,
 			"rewardTrackXp": 100
+		},
+		{
+			"description": "Lançar $q feitiços Vis ou Arcanos.",
+			"id": 487,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Lançar $q feitiços Sagrados ou Arcanos.",
+			"id": 488,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Lançar $q feitiços de Sombra ou de Gelo.",
+			"id": 489,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Lançar $q feitiços de Sombra ou de Fogo.",
+			"id": 490,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Lançar $q feitiços de Natureza ou Vis.",
+			"id": 491,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Lançar $q feitiços de Natureza ou de Fogo.",
+			"id": 492,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Lançar $q feitiços Sagrados ou de Gelo.",
+			"id": 493,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Jogar $q Feras ou Mortos-Vivos.",
+			"id": 494,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 2,
+			"rewardTrackXp": 60
+		},
+		{
+			"description": "Jogar $q Murlocs ou Mortos-Vivos.",
+			"id": 495,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 2,
+			"rewardTrackXp": 60
+		},
+		{
+			"description": "Aprimore totalmente sua Taverna nos Campos de Batalha.",
+			"id": 496,
+			"name": "Casa da Boa Sorte",
+			"quota": 2,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 150
+		},
+		{
+			"description": "Vencer uma partida dos Campos de Batalha",
+			"id": 497,
+			"name": "Gloriosa Nova Era",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "Jogar $q lacaios Dourados nos Campos de Batalha.",
+			"id": 498,
+			"name": "O brilho do Zodíaco",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 250
+		},
+		{
+			"description": "Jogar $q lacaios do Grau 6 nos Campos de Batalha.",
+			"id": 499,
+			"name": "",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Ativar seus efeitos de Último Suspiro $q vezes nos Campos de Batalha.",
+			"id": 500,
+			"name": "",
+			"quota": 15,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Jogar $q lacaios com Grito de Guerra nos Campos de Batalha.",
+			"id": 501,
+			"name": "",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Destruir $q lacaios inimigos nos Campos de Batalha.",
+			"id": 502,
+			"name": "",
+			"quota": 50,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Evitar dano com Escudo Divino $q vezes nos Campos de Batalha.",
+			"id": 503,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Vencer $q partidas no Coliseu da Contenda Heroico.",
+			"id": 504,
+			"name": "Bela da contenda",
+			"quota": 3,
+			"rewardListId": 1372,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
+		},
+		{
+			"description": "Jogar $q partida.",
+			"id": 505,
+			"name": "Chamado da contenda",
+			"quota": 1,
+			"rewardListId": 336,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
 		}
 	]
 }

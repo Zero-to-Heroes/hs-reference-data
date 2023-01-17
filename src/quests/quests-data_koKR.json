@@ -829,7 +829,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "피해 $q 주기",
+			"description": "피해 $q 주기\n<i>(단계: 1/4)</i>",
 			"id": 100,
 			"name": "공격 전담",
 			"quota": 5,
@@ -838,7 +838,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "카드 또는 용병 $q장 내기",
+			"description": "카드 $q장 내기\n<i>(단계: 2/4)</i>",
 			"id": 101,
 			"name": "카드 마술사",
 			"quota": 5,
@@ -847,7 +847,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "$q턴 동안 게임 진행",
+			"description": "$q턴 동안 게임 진행\n<i>(단계: 3/4)</i>",
 			"id": 102,
 			"name": "턴 기록원",
 			"quota": 5,
@@ -856,7 +856,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "게임 $q회 완료",
+			"description": "게임 $q회 완료\n<i>(단계: 4/4)</i>",
 			"id": 103,
 			"name": "세계 탐험!",
 			"quota": 1,
@@ -865,7 +865,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "연습 모드에서 게임 $q회 완료",
+			"description": "연습 모드에서 게임 $q회 완료\n<i>(단계: 1/5)</i>",
 			"id": 104,
 			"name": "요령 익히기",
 			"quota": 1,
@@ -874,7 +874,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "연습 모드에서 게임 $q회 완료",
+			"description": "연습 모드에서 게임 $q회 완료\n<i>(단계: 2/5)</i>",
 			"id": 105,
 			"name": "연습이 완벽을 만든다",
 			"quota": 2,
@@ -883,7 +883,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "기본 하스스톤에서 게임 $q회 완료",
+			"description": "기본 하스스톤에서 게임 $q회 완료\n<i>(단계: 3/5)</i>",
 			"id": 106,
 			"name": "첫 번째 대전",
 			"quota": 1,
@@ -892,7 +892,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "기본 하스스톤에서 게임 $q회 완료",
+			"description": "기본 하스스톤에서 게임 $q회 완료\n<i>(단계: 4/5)</i>",
 			"id": 107,
 			"name": "카드 결투사",
 			"quota": 2,
@@ -901,7 +901,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "게임 $q회 완료",
+			"description": "게임 $q회 완료\n<i>(단계: 5/5)</i>",
 			"id": 108,
 			"name": "숙련자",
 			"quota": 2,
@@ -2197,15 +2197,6 @@
 			"rewardTrackXp": 50
 		},
 		{
-			"description": "전장에서 1승",
-			"id": 425,
-			"name": "즐거운 할로윈 축제입니다!",
-			"quota": 1,
-			"rewardListId": 0,
-			"rewardTrackType": 3,
-			"rewardTrackXp": 40
-		},
-		{
 			"description": "카드 $q장 발견",
 			"id": 426,
 			"name": "반전의 인물들",
@@ -2417,15 +2408,6 @@
 			"id": 456,
 			"name": "",
 			"quota": 2,
-			"rewardListId": 0,
-			"rewardTrackType": 4,
-			"rewardTrackXp": 30
-		},
-		{
-			"description": "전장에서 1승",
-			"id": 457,
-			"name": "",
-			"quota": 1,
 			"rewardListId": 0,
 			"rewardTrackType": 4,
 			"rewardTrackXp": 30
@@ -2690,6 +2672,177 @@
 			"rewardListId": 0,
 			"rewardTrackType": 5,
 			"rewardTrackXp": 100
+		},
+		{
+			"description": "비전 또는 지옥 주문 $q회 시전",
+			"id": 487,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "비전 또는 신성 주문 $q회 시전",
+			"id": 488,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "냉기 또는 암흑 주문 $q회 시전",
+			"id": 489,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "화염 또는 암흑 주문 $q회 시전",
+			"id": 490,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "지옥 또는 자연 주문 $q회 시전",
+			"id": 491,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "화염 또는 자연 주문 $q회 시전",
+			"id": 492,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "냉기 또는 신성 주문 $q회 시전",
+			"id": 493,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "야수 또는 언데드 $q장 내기",
+			"id": 494,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 2,
+			"rewardTrackXp": 60
+		},
+		{
+			"description": "멀록 또는 언데드 $q장 내기",
+			"id": 495,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 2,
+			"rewardTrackXp": 60
+		},
+		{
+			"description": "전장에서 선술집을 완전히 강화",
+			"id": 496,
+			"name": "운수대통의 집",
+			"quota": 2,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 150
+		},
+		{
+			"description": "전장에서 1승",
+			"id": 497,
+			"name": "영광의 새 시대",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "전장에서 황금 하수인 $q장 내기",
+			"id": 498,
+			"name": "빛나는 십이궁",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 250
+		},
+		{
+			"description": "전장에서 6단계 하수인 $q장 내기",
+			"id": 499,
+			"name": "",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "전장에서 죽음의 메아리 효과 $q회 발동",
+			"id": 500,
+			"name": "",
+			"quota": 15,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "전장에서 전투의 함성 하수인 $q장 내기",
+			"id": 501,
+			"name": "",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "전장에서 적 하수인 $q장 파괴",
+			"id": 502,
+			"name": "",
+			"quota": 50,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "전장에서 천상의 보호막으로 피해 $q회 막기",
+			"id": 503,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "영웅 난이도 전투장에서 $q승 달성",
+			"id": 504,
+			"name": "난투의 주역",
+			"quota": 3,
+			"rewardListId": 1372,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
+		},
+		{
+			"description": "게임 $q회 완료",
+			"id": 505,
+			"name": "난투의 부름",
+			"quota": 1,
+			"rewardListId": 336,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
 		}
 	]
 }

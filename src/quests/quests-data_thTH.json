@@ -829,7 +829,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "สร้างความเสียหาย $q_แต้ม",
+			"description": "สร้างความเสียหาย $q_แต้ม\n<i>(ขั้น 1 จาก 4)</i>",
 			"id": 100,
 			"name": "นักสร้างความเสียหาย",
 			"quota": 5,
@@ -838,7 +838,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "เล่นการ์ดหรือทหาร[b]รับจ้าง $q_ใบ",
+			"description": "เล่นการ์ด $q ใบ\n<i>(ขั้น 2 จาก 4)</i>",
 			"id": 101,
 			"name": "นักเล่นการ์ด",
 			"quota": 5,
@@ -847,7 +847,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "เล่น $q_เทิร์น",
+			"description": "เล่น $q เทิร์น\n<i>(ขั้น 3 จาก 4)</i>",
 			"id": 102,
 			"name": "นักนับเทิร์น",
 			"quota": 5,
@@ -856,7 +856,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "เล่น $q_เกม",
+			"description": "เล่น $q เกม\n<i>(ขั้น 4 จาก 4)</i>",
 			"id": 103,
 			"name": "สำรวจโลก!",
 			"quota": 1,
@@ -865,7 +865,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "เล่น $q_เกม[b]ในโหมดฝึกฝน",
+			"description": "เล่น $q_เกม[b]ในโหมดฝึกฝน\n<i>(ขั้น 1 จาก 5)</i>",
 			"id": 104,
 			"name": "เรียนรู้พื้นฐาน",
 			"quota": 1,
@@ -874,7 +874,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "เล่น $q_เกม[b]ในโหมดฝึกฝน",
+			"description": "เล่น $q_เกม[b]ในโหมดฝึกฝน\n<i>(ขั้น 2 จาก 5)</i>",
 			"id": 105,
 			"name": "ฝึกฝนจนชำนาญ",
 			"quota": 2,
@@ -883,7 +883,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "เล่น Hearthstone ดั้งเดิม $q_เกม",
+			"description": "เล่น Hearthstone ดั้งเดิม $q_เกม\n<i>(ขั้น 3 จาก 5)</i>",
 			"id": 106,
 			"name": "เกมแรก",
 			"quota": 1,
@@ -892,7 +892,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "เล่น Hearthstone ดั้งเดิม $q_เกม",
+			"description": "เล่น Hearthstone ดั้งเดิม $q_เกม\n<i>(ขั้น 4 จาก 5)</i>",
 			"id": 107,
 			"name": "นักดวล",
 			"quota": 2,
@@ -901,7 +901,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "เล่น $q_เกม",
+			"description": "เล่น $q เกม\n<i>(ขั้น 5 จาก 5)</i>",
 			"id": 108,
 			"name": "ชำนาญทุกศาสตร์",
 			"quota": 2,
@@ -2197,15 +2197,6 @@
 			"rewardTrackXp": 50
 		},
 		{
-			"description": "ชนะ 1 เกมใน Battlegrounds",
-			"id": 425,
-			"name": "สุขสันต์เทศกาล[b]ฮอลโลว์สเอนด์!",
-			"quota": 1,
-			"rewardListId": 0,
-			"rewardTrackType": 3,
-			"rewardTrackXp": 40
-		},
-		{
 			"description": "ค้นพบการ์ด $q ใบ",
 			"id": 426,
 			"name": "ผู้ต้องสงสัยขาจร",
@@ -2417,15 +2408,6 @@
 			"id": 456,
 			"name": "",
 			"quota": 2,
-			"rewardListId": 0,
-			"rewardTrackType": 4,
-			"rewardTrackXp": 30
-		},
-		{
-			"description": "ชนะ 1 เกมใน Battlegrounds",
-			"id": 457,
-			"name": "",
-			"quota": 1,
 			"rewardListId": 0,
 			"rewardTrackType": 4,
 			"rewardTrackXp": 30
@@ -2690,6 +2672,177 @@
 			"rewardListId": 0,
 			"rewardTrackType": 5,
 			"rewardTrackXp": 100
+		},
+		{
+			"description": "ร่ายเวทมนตร์มนตรา[b]หรือเฟล $q_ใบ",
+			"id": 487,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "ร่ายเวทมนตร์มนตรา[b]หรือศักดิ์สิทธิ์ $q_ใบ",
+			"id": 488,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "ร่ายเวทมนตร์น้ำแข็ง[b]หรือความมืด $q_ใบ",
+			"id": 489,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "ร่ายเวทมนตร์ไฟ[b]หรือความมืด $q_ใบ",
+			"id": 490,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "ร่ายเวทมนตร์เฟล[b]หรือธรรมชาติ $q_ใบ",
+			"id": 491,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "ร่ายเวทมนตร์ไฟ[b]หรือธรรมชาติ $q_ใบ",
+			"id": 492,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "ร่ายเวทมนตร์น้ำแข็ง[b]หรือศักดิ์สิทธิ์ $q_ใบ",
+			"id": 493,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "เล่นสัตว์หรือ[b]อันเดด $q_ใบ",
+			"id": 494,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 2,
+			"rewardTrackXp": 60
+		},
+		{
+			"description": "เล่นเมอร์ล็อค[b]หรืออันเดด $q ใบ",
+			"id": 495,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 2,
+			"rewardTrackXp": 60
+		},
+		{
+			"description": "อัพเกรดโรงเตี๊ยม[b]ของคุณจนสุดใน Battlegrounds",
+			"id": 496,
+			"name": "ฮวงจุ้ยดี",
+			"quota": 2,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 150
+		},
+		{
+			"description": "ชนะ Battlegrounds หนึ่งเกม",
+			"id": 497,
+			"name": "เถลิงศกใหม่",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "เล่นมินเนี่ยนสีทอง $q_ใบใน Battlegrounds",
+			"id": 498,
+			"name": "แสงทองของนักษัตร",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 250
+		},
+		{
+			"description": "เล่นมินเนี่ยนขั้น 6 $q_ใบใน Battlegrounds",
+			"id": 499,
+			"name": "",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "ให้เอฟเฟกต์เสียงสุดท้าย[b]ของคุณทำงาน $q_ครั้ง[b]ใน Battlegrounds",
+			"id": 500,
+			"name": "",
+			"quota": 15,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "เล่นมินเนี่ยน[b]คำรามสู้ศึก $q_ใบใน Battlegrounds",
+			"id": 501,
+			"name": "",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "ทำลายมินเนี่ยน[b]ศัตรู $q_ตัวใน Battlegrounds",
+			"id": 502,
+			"name": "",
+			"quota": 50,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "ป้องกันความเสียหายด้วย[b]โล่ศักดิ์สิทธิ์ $q ครั้ง[b]ใน Battlegrounds",
+			"id": 503,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "ชนะ $q เกม[b]ในสนามท้าประลอง[b]ระดับฮีโร่",
+			"id": 504,
+			"name": "ดาราท้าประลอง",
+			"quota": 3,
+			"rewardListId": 1372,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
+		},
+		{
+			"description": "เล่น $q_เกม",
+			"id": 505,
+			"name": "เสียงเรียกท้าประลอง",
+			"quota": 1,
+			"rewardListId": 336,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
 		}
 	]
 }

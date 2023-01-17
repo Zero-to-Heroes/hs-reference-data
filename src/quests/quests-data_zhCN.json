@@ -829,7 +829,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "造成$q点伤害。",
+			"description": "造成$q点伤害。\n<i>（步骤1/4）</i>",
 			"id": 100,
 			"name": "伤害输出",
 			"quota": 5,
@@ -838,7 +838,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "使用$q张卡牌或佣兵。",
+			"description": "使用$q张卡牌。\n<i>（步骤2/4）</i>",
 			"id": 101,
 			"name": "卡牌狂人",
 			"quota": 5,
@@ -847,7 +847,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "进行$q个回合。",
+			"description": "进行$q个回合。\n<i>（步骤3/4）</i>",
 			"id": 102,
 			"name": "计数回合",
 			"quota": 5,
@@ -856,7 +856,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "进行$q场对战。",
+			"description": "进行$q场对战。\n<i>（步骤4/4）</i>",
 			"id": 103,
 			"name": "探索世界！",
 			"quota": 1,
@@ -865,7 +865,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "在练习模式中完成$q场对战。",
+			"description": "在练习模式中完成$q场对战。\n<i>（步骤1/5）</i>",
 			"id": 104,
 			"name": "初窥门径",
 			"quota": 1,
@@ -874,7 +874,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "在练习模式中完成$q场对战。",
+			"description": "在练习模式中完成$q场对战。\n<i>（步骤2/5）</i>",
 			"id": 105,
 			"name": "熟能生巧",
 			"quota": 2,
@@ -883,7 +883,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "在传统对战中完成$q场对战。",
+			"description": "在传统对战中完成$q场对战。\n<i>（步骤3/5）</i>",
 			"id": 106,
 			"name": "第一滴血",
 			"quota": 1,
@@ -892,7 +892,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "在传统对战中完成$q场对战。",
+			"description": "在传统对战中完成$q场对战。\n<i>（步骤4/5）</i>",
 			"id": 107,
 			"name": "气势如虹",
 			"quota": 2,
@@ -901,7 +901,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "进行$q场对战。",
+			"description": "进行$q场对战。\n<i>（步骤5/5）</i>",
 			"id": 108,
 			"name": "全场通吃",
 			"quota": 2,
@@ -2197,15 +2197,6 @@
 			"rewardTrackXp": 50
 		},
 		{
-			"description": "赢得1局酒馆战棋。",
-			"id": 425,
-			"name": "万圣节快乐！",
-			"quota": 1,
-			"rewardListId": 0,
-			"rewardTrackType": 3,
-			"rewardTrackXp": 40
-		},
-		{
 			"description": "发现$q张卡牌。",
 			"id": 426,
 			"name": "特殊嫌疑",
@@ -2417,15 +2408,6 @@
 			"id": 456,
 			"name": "",
 			"quota": 2,
-			"rewardListId": 0,
-			"rewardTrackType": 4,
-			"rewardTrackXp": 30
-		},
-		{
-			"description": "赢得1局酒馆战棋。",
-			"id": 457,
-			"name": "",
-			"quota": 1,
 			"rewardListId": 0,
 			"rewardTrackType": 4,
 			"rewardTrackXp": 30
@@ -2690,6 +2672,177 @@
 			"rewardListId": 0,
 			"rewardTrackType": 5,
 			"rewardTrackXp": 100
+		},
+		{
+			"description": "施放$q个奥术或邪能法术。",
+			"id": 487,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "施放$q个奥术或神圣法术。",
+			"id": 488,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "施放$q个冰霜或暗影法术。",
+			"id": 489,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "施放$q个火焰或暗影法术。",
+			"id": 490,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "施放$q个邪能或自然法术。",
+			"id": 491,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "施放$q个火焰或自然法术。",
+			"id": 492,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "施放$q个冰霜或神圣法术。",
+			"id": 493,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "使用$q张野兽牌或亡灵牌。",
+			"id": 494,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 2,
+			"rewardTrackXp": 60
+		},
+		{
+			"description": "使用$q张鱼人牌或亡灵牌。",
+			"id": 495,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 2,
+			"rewardTrackXp": 60
+		},
+		{
+			"description": "在酒馆战棋中完全升级你的酒馆。",
+			"id": 496,
+			"name": "福气满屋",
+			"quota": 2,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 150
+		},
+		{
+			"description": "赢得一场酒馆战棋对战。",
+			"id": 497,
+			"name": "崭新气象",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "在酒馆战棋中使用$q张金色随从牌。",
+			"id": 498,
+			"name": "岁曜金辉",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 250
+		},
+		{
+			"description": "在酒馆战棋中使用$q张等级6的随从牌。",
+			"id": 499,
+			"name": "",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "在酒馆战棋中触发你的亡语效果$q次。",
+			"id": 500,
+			"name": "",
+			"quota": 15,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "在酒馆战棋中使用$q张战吼随从牌。",
+			"id": 501,
+			"name": "",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "在酒馆战棋中消灭$q个敌方随从。",
+			"id": 502,
+			"name": "",
+			"quota": 50,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "在酒馆战棋中用圣盾防止伤害$q次。",
+			"id": 503,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "在英雄乱斗角斗场中赢得$q场对战。",
+			"id": 504,
+			"name": "角斗佳人",
+			"quota": 3,
+			"rewardListId": 1372,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
+		},
+		{
+			"description": "进行$q场对战。",
+			"id": 505,
+			"name": "角斗场的召唤",
+			"quota": 1,
+			"rewardListId": 336,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
 		}
 	]
 }

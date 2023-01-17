@@ -829,7 +829,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Deal $q damage.",
+			"description": "Deal $q damage.\n<i>(Step 1 of 4)</i>",
 			"id": 100,
 			"name": "Damage Dealer",
 			"quota": 5,
@@ -838,7 +838,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Play $q cards or Mercenaries.",
+			"description": "Play $q cards.\n<i>(Step 2 of 4)</i>",
 			"id": 101,
 			"name": "Card Shark",
 			"quota": 5,
@@ -847,7 +847,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Take $q turns.",
+			"description": "Take $q turns.\n<i>(Step 3 of 4)</i>",
 			"id": 102,
 			"name": "Turn Counter",
 			"quota": 5,
@@ -856,7 +856,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Play $q game.",
+			"description": "Play $q game.\n<i>(Step 4 of 4)</i>",
 			"id": 103,
 			"name": "Explore the World!",
 			"quota": 1,
@@ -865,7 +865,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Play $q game in Practice mode.",
+			"description": "Play $q game in Practice mode.\n<i>(Step 1 of 5)</i>",
 			"id": 104,
 			"name": "Learning the Ropes",
 			"quota": 1,
@@ -874,7 +874,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Play $q games in Practice mode.",
+			"description": "Play $q games in Practice mode.\n<i>(Step 2 of 5)</i>",
 			"id": 105,
 			"name": "Practice Makes Perfect",
 			"quota": 2,
@@ -883,7 +883,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Play $q game of traditional Hearthstone.",
+			"description": "Play $q game of traditional Hearthstone.\n<i>(Step 3 of 5)</i>",
 			"id": 106,
 			"name": "First Blood",
 			"quota": 1,
@@ -892,7 +892,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Play $q games of traditional Hearthstone.",
+			"description": "Play $q games of traditional Hearthstone.\n<i>(Step 4 of 5)</i>",
 			"id": 107,
 			"name": "The Duelist",
 			"quota": 2,
@@ -901,7 +901,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Play $q games.",
+			"description": "Play $q games.\n<i>(Step 5 of 5)</i>",
 			"id": 108,
 			"name": "Master of All",
 			"quota": 2,
@@ -2197,15 +2197,6 @@
 			"rewardTrackXp": 50
 		},
 		{
-			"description": "Win 1 game of Battlegrounds.",
-			"id": 425,
-			"name": "Happy Hallow's End!",
-			"quota": 1,
-			"rewardListId": 0,
-			"rewardTrackType": 3,
-			"rewardTrackXp": 40
-		},
-		{
 			"description": "Discover $q cards.",
 			"id": 426,
 			"name": "Unusual Suspects",
@@ -2417,15 +2408,6 @@
 			"id": 456,
 			"name": "",
 			"quota": 2,
-			"rewardListId": 0,
-			"rewardTrackType": 4,
-			"rewardTrackXp": 30
-		},
-		{
-			"description": "Win 1 game of Battlegrounds.",
-			"id": 457,
-			"name": "",
-			"quota": 1,
 			"rewardListId": 0,
 			"rewardTrackType": 4,
 			"rewardTrackXp": 30
@@ -2690,6 +2672,177 @@
 			"rewardListId": 0,
 			"rewardTrackType": 5,
 			"rewardTrackXp": 100
+		},
+		{
+			"description": "Cast $q Arcane or Fel spells.",
+			"id": 487,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Cast $q Arcane or Holy spells.",
+			"id": 488,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Cast $q Frost or Shadow spells.",
+			"id": 489,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Cast $q Fire or Shadow spells.",
+			"id": 490,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Cast $q Fel or Nature spells.",
+			"id": 491,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Cast $q Fire or Nature spells.",
+			"id": 492,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Cast $q Frost or Holy spells.",
+			"id": 493,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Play $q Beasts or Undead.",
+			"id": 494,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 2,
+			"rewardTrackXp": 60
+		},
+		{
+			"description": "Play $q Murlocs or Undead.",
+			"id": 495,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 2,
+			"rewardTrackXp": 60
+		},
+		{
+			"description": "Fully upgrade your Tavern in Battlegrounds.",
+			"id": 496,
+			"name": "House of Good Fortune",
+			"quota": 2,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 150
+		},
+		{
+			"description": "Win a game of Battlegrounds",
+			"id": 497,
+			"name": "Glorious New Era",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "Play $q Golden minions in Battlegrounds.",
+			"id": 498,
+			"name": "The Zodiac Shining",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 250
+		},
+		{
+			"description": "Play $q Tier 6 minion in Battlegrounds.",
+			"id": 499,
+			"name": "",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Trigger your Deathrattle effects $q times in Battlegrounds.",
+			"id": 500,
+			"name": "",
+			"quota": 15,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Play $q Battlecry minions in Battlegrounds.",
+			"id": 501,
+			"name": "",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Destroy $q enemy minions in Battlegrounds.",
+			"id": 502,
+			"name": "",
+			"quota": 50,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Prevent damage with Divine Shield $q times in Battlegrounds.",
+			"id": 503,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Win $q games in the Heroic Brawliseum.",
+			"id": 504,
+			"name": "Belle of the Brawl",
+			"quota": 3,
+			"rewardListId": 1372,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
+		},
+		{
+			"description": "Play $q game.",
+			"id": 505,
+			"name": "Call of the Brawl",
+			"quota": 1,
+			"rewardListId": 336,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
 		}
 	]
 }

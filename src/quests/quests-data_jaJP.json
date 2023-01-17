@@ -829,7 +829,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "$qダメージを与える。",
+			"description": "$qダメージを与える。\n<i>（ステップ1/4）</i>",
 			"id": 100,
 			"name": "ダメージディーラー",
 			"quota": 5,
@@ -838,7 +838,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "カードまたは傭兵を$q枚手札から使用する。",
+			"description": "カードを$q枚手札から使用する。\n<i>（ステップ2/4）</i>",
 			"id": 101,
 			"name": "カードの達人",
 			"quota": 5,
@@ -847,7 +847,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "$qターンかける。",
+			"description": "$qターンかける。\n<i>（ステップ3/4）</i>",
 			"id": 102,
 			"name": "ターンカウンター",
 			"quota": 5,
@@ -856,7 +856,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "$q回対戦する。",
+			"description": "$q回対戦する。\n<i>（ステップ4/4）</i>",
 			"id": 103,
 			"name": "世界探訪！",
 			"quota": 1,
@@ -865,7 +865,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "練習モードで$q回対戦する。",
+			"description": "練習モードで$q回対戦する。\n<i>（ステップ1/5）</i>",
 			"id": 104,
 			"name": "はじめの一歩",
 			"quota": 1,
@@ -874,7 +874,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "練習モードで$q回対戦する。",
+			"description": "練習モードで$q回対戦する。\n<i>（ステップ2/5）</i>",
 			"id": 105,
 			"name": "習うより慣れろ",
 			"quota": 2,
@@ -883,7 +883,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "王道ハースストーンで$q回対戦する。",
+			"description": "王道ハースストーンで$q回対戦する。\n<i>（ステップ3/5）</i>",
 			"id": 106,
 			"name": "初陣",
 			"quota": 1,
@@ -892,7 +892,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "王道ハースストーンで$q回対戦する。",
+			"description": "王道ハースストーンで$q回対戦する。\n<i>（ステップ4/5）</i>",
 			"id": 107,
 			"name": "決闘者",
 			"quota": 2,
@@ -901,7 +901,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "$q回対戦する。",
+			"description": "$q回対戦する。\n<i>（ステップ5/5）</i>",
 			"id": 108,
 			"name": "何でもござれ",
 			"quota": 2,
@@ -2197,15 +2197,6 @@
 			"rewardTrackXp": 50
 		},
 		{
-			"description": "バトルグラウンドで1回勝利する。",
-			"id": 425,
-			"name": "ハッピー・ハロウェンド！",
-			"quota": 1,
-			"rewardListId": 0,
-			"rewardTrackType": 3,
-			"rewardTrackXp": 40
-		},
-		{
 			"description": "カードを$q枚発見する。",
 			"id": 426,
 			"name": "懲りない面々",
@@ -2417,15 +2408,6 @@
 			"id": 456,
 			"name": "",
 			"quota": 2,
-			"rewardListId": 0,
-			"rewardTrackType": 4,
-			"rewardTrackXp": 30
-		},
-		{
-			"description": "バトルグラウンドで1回勝利する。",
-			"id": 457,
-			"name": "",
-			"quota": 1,
 			"rewardListId": 0,
 			"rewardTrackType": 4,
 			"rewardTrackXp": 30
@@ -2690,6 +2672,177 @@
 			"rewardListId": 0,
 			"rewardTrackType": 5,
 			"rewardTrackXp": 100
+		},
+		{
+			"description": "魔力呪文かフェル呪文を$q回使用する。",
+			"id": 487,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "魔力呪文か神聖呪文を$q回使用する。",
+			"id": 488,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "凍気呪文か影呪文を$q回使用する。",
+			"id": 489,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "火炎呪文か影呪文を$q回使用する。",
+			"id": 490,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "フェル呪文か自然呪文を$q回使用する。",
+			"id": 491,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "火炎呪文か自然呪文を$q回使用する。",
+			"id": 492,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "凍気呪文か神聖呪文を$q回使用する。",
+			"id": 493,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "獣/アンデッドのカードを合計$q回使用する。",
+			"id": 494,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 2,
+			"rewardTrackXp": 60
+		},
+		{
+			"description": "マーロック/アンデッドのカードを合計$q回使用する。",
+			"id": 495,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 2,
+			"rewardTrackXp": 60
+		},
+		{
+			"description": "バトルグラウンドで酒場を上限までアップグレードする。",
+			"id": 496,
+			"name": "招福酒家",
+			"quota": 2,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 150
+		},
+		{
+			"description": "バトルグラウンドで1勝する",
+			"id": 497,
+			"name": "光輝的新時代",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "バトルグラウンドでゴールデンミニオンを$q回使用する。",
+			"id": 498,
+			"name": "十二支黄金聖戦士",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 250
+		},
+		{
+			"description": "バトルグラウンドでグレード6ミニオンを$q回使用する。",
+			"id": 499,
+			"name": "",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "バトルグラウンドで断末魔効果を$q回発動させる。",
+			"id": 500,
+			"name": "",
+			"quota": 15,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "バトルグラウンドで雄叫びミニオンを$q回使用する。",
+			"id": 501,
+			"name": "",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "バトルグラウンドで敵のミニオンを$q体破壊する。",
+			"id": 502,
+			"name": "",
+			"quota": 50,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "バトルグラウンドで、聖なる盾でダメージを$q回阻止する。",
+			"id": 503,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "ヒロイック・ゴロシアムで$q回勝利する。",
+			"id": 504,
+			"name": "喧嘩の華",
+			"quota": 3,
+			"rewardListId": 1372,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
+		},
+		{
+			"description": "$q回対戦する。",
+			"id": 505,
+			"name": "喧嘩の喧伝",
+			"quota": 1,
+			"rewardListId": 336,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
 		}
 	]
 }

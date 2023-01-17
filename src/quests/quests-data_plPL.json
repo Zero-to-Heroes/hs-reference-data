@@ -829,7 +829,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Zadaj $q pkt. obrażeń.",
+			"description": "Zadaj $q_pkt. obrażeń.\n<i>(Etap 1 z 4)</i>",
 			"id": 100,
 			"name": "Obrażeń co niemiara",
 			"quota": 5,
@@ -838,7 +838,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Zagraj $q kart lub najemników.",
+			"description": "Zagraj $q kart.\n<i>(Etap 2 z 4)</i>",
 			"id": 101,
 			"name": "Karciany rekin",
 			"quota": 5,
@@ -847,7 +847,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Rozegraj $q tur.",
+			"description": "Rozegraj $q tur.\n<i>(Etap 3 z 4)</i>",
 			"id": 102,
 			"name": "Tura za turą",
 			"quota": 5,
@@ -856,7 +856,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Rozegraj $q partię.",
+			"description": "Rozegraj $q partię.\n<i>(Etap 4 z 4)</i>",
 			"id": 103,
 			"name": "Poznawaj świat!",
 			"quota": 1,
@@ -865,7 +865,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Rozegraj $q partię w trybie treningowym.",
+			"description": "Rozegraj $q partię w trybie treningowym.\n<i>(Etap 1 z 5)</i>",
 			"id": 104,
 			"name": "Nauka od podstaw",
 			"quota": 1,
@@ -874,7 +874,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Rozegraj $q partii w trybie treningowym.",
+			"description": "Rozegraj $q partii w trybie treningowym.\n<i>(Etap 2 z 5)</i>",
 			"id": 105,
 			"name": "Trening to podstawa",
 			"quota": 2,
@@ -883,7 +883,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Rozegraj $q partię tradycyjnego Hearthstone.",
+			"description": "Rozegraj $q partię tradycyjnego Hearthstone.\n<i>(Etap 3 z 5)</i>",
 			"id": 106,
 			"name": "Pierwsza krew",
 			"quota": 1,
@@ -892,7 +892,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Rozegraj $q partii tradycyjnego Hearthstone.",
+			"description": "Rozegraj $q partii tradycyjnego Hearthstone.\n<i>(Etap 4 z 5)</i>",
 			"id": 107,
 			"name": "Miłośnik partii",
 			"quota": 2,
@@ -901,7 +901,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Rozegraj $q partii.",
+			"description": "Rozegraj $q partii.\n<i>(Etap 5 z 5)</i>",
 			"id": 108,
 			"name": "Wszechmistrz",
 			"quota": 2,
@@ -2197,15 +2197,6 @@
 			"rewardTrackXp": 50
 		},
 		{
-			"description": "Rozegraj 1 mecz w trybie Ustawki.",
-			"id": 425,
-			"name": "Szczęśliwych Zaduszników!",
-			"quota": 1,
-			"rewardListId": 0,
-			"rewardTrackType": 3,
-			"rewardTrackXp": 40
-		},
-		{
 			"description": "Odkryj $q kart.",
 			"id": 426,
 			"name": "Recydywiści",
@@ -2417,15 +2408,6 @@
 			"id": 456,
 			"name": "",
 			"quota": 2,
-			"rewardListId": 0,
-			"rewardTrackType": 4,
-			"rewardTrackXp": 30
-		},
-		{
-			"description": "Rozegraj 1 mecz w trybie Ustawki.",
-			"id": 457,
-			"name": "",
-			"quota": 1,
 			"rewardListId": 0,
 			"rewardTrackType": 4,
 			"rewardTrackXp": 30
@@ -2690,6 +2672,177 @@
 			"rewardListId": 0,
 			"rewardTrackType": 5,
 			"rewardTrackXp": 100
+		},
+		{
+			"description": "Rzuć $q zaklęć Mocy tajemnej lub Spaczenia.",
+			"id": 487,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Rzuć $q zaklęć Mocy tajemnej lub Świętości.",
+			"id": 488,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Rzuć $q zaklęć Lodu lub Cienia.",
+			"id": 489,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Rzuć $q zaklęć Ognia lub Cienia.",
+			"id": 490,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Rzuć $q zaklęć Spaczenia lub Natury.",
+			"id": 491,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Rzuć $q zaklęć Ognia lub Natury.",
+			"id": 492,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Rzuć $q zaklęć Lodu lub Świętości.",
+			"id": 493,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Zagraj $q Bestii lub Nieumarłych.",
+			"id": 494,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 2,
+			"rewardTrackXp": 60
+		},
+		{
+			"description": "Zagraj $q Murloków lub Nieumarłych.",
+			"id": 495,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 2,
+			"rewardTrackXp": 60
+		},
+		{
+			"description": "Ulepsz Karczmę na maksymalny poziom w Ustawce.",
+			"id": 496,
+			"name": "Dom Pomyślności",
+			"quota": 2,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 150
+		},
+		{
+			"description": "Wygraj partię w Ustawce.",
+			"id": 497,
+			"name": "Wspaniała nowa era",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "Zagraj $q złotych stronników w Ustawce.",
+			"id": 498,
+			"name": "Błyszczący znak zodiaku",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 250
+		},
+		{
+			"description": "Zagraj $q stronników z poziomu 6 w Ustawce.",
+			"id": 499,
+			"name": "",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Aktywuj swoje efekty Agonii $q razy w Ustawce.",
+			"id": 500,
+			"name": "",
+			"quota": 15,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Zagraj $q stronników z Okrzykiem bojowym w Ustawce.",
+			"id": 501,
+			"name": "",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Zniszcz $q wrogich stronników w Ustawce.",
+			"id": 502,
+			"name": "",
+			"quota": 50,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Zapobiegnij obrażeniom przy użyciu Boskiej tarczy $q razy w Ustawce.",
+			"id": 503,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Wygraj $q partii w heroicznej arenowej bójce.",
+			"id": 504,
+			"name": "Piękna i Bójka",
+			"quota": 3,
+			"rewardListId": 1372,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
+		},
+		{
+			"description": "Rozegraj $q partię.",
+			"id": 505,
+			"name": "Zew Bójki",
+			"quota": 1,
+			"rewardListId": 336,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
 		}
 	]
 }

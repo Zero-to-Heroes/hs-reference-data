@@ -829,7 +829,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Нанесите $q ед. урона.",
+			"description": "Нанесите $q ед. урона.\n<i>(Этап 1 из 4)</i>",
 			"id": 100,
 			"name": "Специалист по урону",
 			"quota": 5,
@@ -838,7 +838,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Разыграйте $q карт или наемников.",
+			"description": "Разыграйте $q карт.\n<i>(Этап 2 из 4)</i>",
 			"id": 101,
 			"name": "Владыка карт",
 			"quota": 5,
@@ -847,7 +847,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Сделайте $q ходов.",
+			"description": "Сделайте $q ходов.\n<i>(Этап 3 из 4)</i>",
 			"id": 102,
 			"name": "Счетчик ходов",
 			"quota": 5,
@@ -856,7 +856,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Сыграйте $q матч.",
+			"description": "Сыграйте $q матч.\n<i>(Этап 4 из 4)</i>",
 			"id": 103,
 			"name": "Пора исследовать мир!",
 			"quota": 1,
@@ -865,7 +865,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Сыграйте $q матч в тренировочной игре.",
+			"description": "Сыграйте $q матч в тренировочной игре.\n<i>(Этап 1 из 5)</i>",
 			"id": 104,
 			"name": "Освоение основ",
 			"quota": 1,
@@ -874,7 +874,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Сыграйте $q матчей в тренировочной игре.",
+			"description": "Сыграйте $q матчей в тренировочной игре.\n<i>(Этап 2 из 5)</i>",
 			"id": 105,
 			"name": "Повторенье — мать ученья",
 			"quota": 2,
@@ -883,7 +883,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Сыграйте $q матч в традиционном режиме.",
+			"description": "Сыграйте $q матч в традиционном режиме.\n<i>(Этап 3 из 5)</i>",
 			"id": 106,
 			"name": "Первая кровь",
 			"quota": 1,
@@ -892,7 +892,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Сыграйте $q матчей в традиционном режиме.",
+			"description": "Сыграйте $q матчей в традиционном режиме.\n<i>(Этап 4 из 5)</i>",
 			"id": 107,
 			"name": "Дуэлянт",
 			"quota": 2,
@@ -901,7 +901,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Сыграйте $q матчей.",
+			"description": "Сыграйте $q матчей.\n<i>(Этап 5 из 5)</i>",
 			"id": 108,
 			"name": "Все по плечу",
 			"quota": 2,
@@ -2197,15 +2197,6 @@
 			"rewardTrackXp": 50
 		},
 		{
-			"description": "Выиграйте 1 матч в режиме «Поля сражений».",
-			"id": 425,
-			"name": "Счастливого Тыквовина!",
-			"quota": 1,
-			"rewardListId": 0,
-			"rewardTrackType": 3,
-			"rewardTrackXp": 40
-		},
-		{
 			"description": "Раскопайте $q карт.",
 			"id": 426,
 			"name": "Необычные подозреваемые",
@@ -2417,15 +2408,6 @@
 			"id": 456,
 			"name": "",
 			"quota": 2,
-			"rewardListId": 0,
-			"rewardTrackType": 4,
-			"rewardTrackXp": 30
-		},
-		{
-			"description": "Выиграйте 1 матч в режиме «Поля сражений».",
-			"id": 457,
-			"name": "",
-			"quota": 1,
 			"rewardListId": 0,
 			"rewardTrackType": 4,
 			"rewardTrackXp": 30
@@ -2690,6 +2672,177 @@
 			"rewardListId": 0,
 			"rewardTrackType": 5,
 			"rewardTrackXp": 100
+		},
+		{
+			"description": "Примените $q заклинаний тайной магии или Скверны.",
+			"id": 487,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Примените $q заклинаний тайной магии или Света.",
+			"id": 488,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Примените $q заклинаний льда или Тьмы.",
+			"id": 489,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Примените $q заклинаний огня или Тьмы.",
+			"id": 490,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Примените $q заклинаний Скверны или природы.",
+			"id": 491,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Примените $q заклинаний огня или природы.",
+			"id": 492,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Примените $q заклинаний льда или Света.",
+			"id": 493,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Разыграйте $q зверей или существ типа «Нежить».",
+			"id": 494,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 2,
+			"rewardTrackXp": 60
+		},
+		{
+			"description": "Разыграйте $q мурлоков или существ типа «Нежить».",
+			"id": 495,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 2,
+			"rewardTrackXp": 60
+		},
+		{
+			"description": "Полностью улучшите таверну в режиме «Поля сражений».",
+			"id": 496,
+			"name": "Чертог благодати",
+			"quota": 2,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 150
+		},
+		{
+			"description": "Выиграйте 1 матч в режиме «Поля сражений».",
+			"id": 497,
+			"name": "Рассвет великой эры",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "Разыграйте $q золотых существ в режиме «Поля сражений».",
+			"id": 498,
+			"name": "Сияющий зодиак",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 250
+		},
+		{
+			"description": "Разыграйте $q существ 6-го уровня в режиме «Поля сражений».",
+			"id": 499,
+			"name": "",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Вызовите срабатывание предсмертных хрипов $q раз в режиме «Поля сражений».",
+			"id": 500,
+			"name": "",
+			"quota": 15,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Разыграйте $q существ с «Боевым кличем» в режиме «Поля сражений».",
+			"id": 501,
+			"name": "",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Уничтожьте $q существ противника в режиме «Поля сражений».",
+			"id": 502,
+			"name": "",
+			"quota": 50,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Предотвратите урон «Божественным щитом» $q раз в режиме «Поля сражений».",
+			"id": 503,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Выиграйте $q боев в героическом потасовочном цехе.",
+			"id": 504,
+			"name": "Звезда потасовок",
+			"quota": 3,
+			"rewardListId": 1372,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
+		},
+		{
+			"description": "Сыграйте $q матч.",
+			"id": 505,
+			"name": "Зов потасовок",
+			"quota": 1,
+			"rewardListId": 336,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
 		}
 	]
 }

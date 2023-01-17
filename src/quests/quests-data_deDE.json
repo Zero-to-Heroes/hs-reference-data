@@ -829,7 +829,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Verursacht $q Schaden.",
+			"description": "Verursacht $q Schaden.\n<i>(Schritt 1 von 4)</i>",
 			"id": 100,
 			"name": "Schadensklasse",
 			"quota": 5,
@@ -838,7 +838,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Spielt $q Karten oder Söldner aus.",
+			"description": "Spielt $q Karten aus.\n<i>(Schritt 2 von 4)</i>",
 			"id": 101,
 			"name": "Kartenhai",
 			"quota": 5,
@@ -847,7 +847,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Spielt $q Züge.",
+			"description": "Spielt $q Züge.\n<i>(Schritt 3 von 4)</i>",
 			"id": 102,
 			"name": "Zugzähler",
 			"quota": 5,
@@ -856,7 +856,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Absolviert $q Spiel.",
+			"description": "Absolviert $q Spiel.\n<i>(Schritt 4 von 4)</i>",
 			"id": 103,
 			"name": "Entdeckt die Welt!",
 			"quota": 1,
@@ -865,7 +865,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Absolviert $q Spiel im Modus „Üben“.",
+			"description": "Absolviert $q Spiel im Modus „Üben“.\n<i>(Schritt 1 von 5)</i>",
 			"id": 104,
 			"name": "Erste Erfahrungen",
 			"quota": 1,
@@ -874,7 +874,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Absolviert $q Spiele im Modus „Üben“.",
+			"description": "Absolviert $q Spiele im Modus „Üben“.\n<i>(Schritt 2 von 5)</i>",
 			"id": 105,
 			"name": "Übung macht den Meister",
 			"quota": 2,
@@ -883,7 +883,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Absolviert $q Spiel in traditionellen Hearthstone-Modi.",
+			"description": "Absolviert $q Spiel in traditionellen Hearthstone-Modi.\n<i>(Schritt 3 von 5)</i>",
 			"id": 106,
 			"name": "Feldversuch",
 			"quota": 1,
@@ -892,7 +892,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Absolviert $q Spiele in traditionellen Hearthstone-Modi.",
+			"description": "Absolviert $q Spiele in traditionellen Hearthstone-Modi.\n<i>(Schritt 4 von 5)</i>",
 			"id": 107,
 			"name": "Der Duellant",
 			"quota": 2,
@@ -901,7 +901,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "Absolviert $q Spiele.",
+			"description": "Absolviert $q Spiele.\n<i>(Schritt 5 von 5)</i>",
 			"id": 108,
 			"name": "Alleskönner",
 			"quota": 2,
@@ -2197,15 +2197,6 @@
 			"rewardTrackXp": 50
 		},
 		{
-			"description": "Gewinnt 1 Spiel im Modus „Schlachtfeld“.",
-			"id": 425,
-			"name": "Gruselige Schlotternächte!",
-			"quota": 1,
-			"rewardListId": 0,
-			"rewardTrackType": 3,
-			"rewardTrackXp": 40
-		},
-		{
 			"description": "Entdeckt $q Karten.",
 			"id": 426,
 			"name": "Unübliche Verdächtige",
@@ -2417,15 +2408,6 @@
 			"id": 456,
 			"name": "",
 			"quota": 2,
-			"rewardListId": 0,
-			"rewardTrackType": 4,
-			"rewardTrackXp": 30
-		},
-		{
-			"description": "Gewinnt 1 Spiel im Modus „Schlachtfeld“.",
-			"id": 457,
-			"name": "",
-			"quota": 1,
 			"rewardListId": 0,
 			"rewardTrackType": 4,
 			"rewardTrackXp": 30
@@ -2690,6 +2672,177 @@
 			"rewardListId": 0,
 			"rewardTrackType": 5,
 			"rewardTrackXp": 100
+		},
+		{
+			"description": "Wirkt $q Arkanzauber oder dämonische Zauber.",
+			"id": 487,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Wirkt $q Arkanzauber oder Heiligzauber.",
+			"id": 488,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Wirkt $q Frostzauber oder Schattenzauber.",
+			"id": 489,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Wirkt $q Feuerzauber oder Schattenzauber.",
+			"id": 490,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Wirkt $q dämonische Zauber oder Naturzauber.",
+			"id": 491,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Wirkt $q Feuerzauber oder Naturzauber.",
+			"id": 492,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Wirkt $q Frostzauber oder Heiligzauber.",
+			"id": 493,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "Spielt $q Wildtiere oder Untote aus.",
+			"id": 494,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 2,
+			"rewardTrackXp": 60
+		},
+		{
+			"description": "Spielt $q Murlocs oder Untote aus.",
+			"id": 495,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 2,
+			"rewardTrackXp": 60
+		},
+		{
+			"description": "Wertet Euer Gasthaus im Schlachtfeldmodus vollständig auf.",
+			"id": 496,
+			"name": "Haus des Glücks",
+			"quota": 2,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 150
+		},
+		{
+			"description": "Gewinnt eine Partie im Schlachtfeldmodus.",
+			"id": 497,
+			"name": "Glorreiche neue Ära",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "Spielt $q goldene Diener im Schlachtfeldmodus aus.",
+			"id": 498,
+			"name": "Der strahlende Tierkreis",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 250
+		},
+		{
+			"description": "Spielt $q Diener der Stufe 6 im Schlachtfeldmodus aus.",
+			"id": 499,
+			"name": "",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Löst $q-mal Eure Todesröcheln-Effekte im Schlachtfeldmodus aus.",
+			"id": 500,
+			"name": "",
+			"quota": 15,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Spielt $q Diener mit Kampfschrei im Schlachtfeldmodus aus.",
+			"id": 501,
+			"name": "",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Vernichtet $q feindliche Diener im Schlachtfeldmodus.",
+			"id": 502,
+			"name": "",
+			"quota": 50,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Verhindert mit Gottesschild $q-mal Schaden im Schlachtfeldmodus.",
+			"id": 503,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 6,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "Gewinnt $q Spiele im heroischen Kartenkolosseum.",
+			"id": 504,
+			"name": "Kolosseumskönig",
+			"quota": 3,
+			"rewardListId": 1372,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
+		},
+		{
+			"description": "Absolviert $q Spiel.",
+			"id": 505,
+			"name": "Das Kolosseum geht um",
+			"quota": 1,
+			"rewardListId": 336,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
 		}
 	]
 }
