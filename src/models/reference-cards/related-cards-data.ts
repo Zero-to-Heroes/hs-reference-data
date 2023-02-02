@@ -106,6 +106,13 @@ const ADAPTS = [
 	CardIds.LightningSpeedToken,
 	CardIds.CracklingShieldToken,
 ];
+const SPY_GIZMOS = [
+	CardIds.FindTheImposter_FizzflashDistractorToken,
+	CardIds.FindTheImposter_HiddenGyrobladeToken,
+	CardIds.FindTheImposter_NoggenFogGeneratorToken,
+	CardIds.FindTheImposter_SpyOMaticToken,
+	CardIds.UndercoverMoleToken,
+];
 
 export type RelatedCardExtractor = (cards: readonly ReferenceCard[]) => readonly string[];
 
@@ -290,14 +297,18 @@ export const RELATED_CARDS_DATA: {
 		CardIds.DemonslayerKurtrusToken,
 	],
 	[CardIds.FindTheImposter]: [
-		CardIds.FindTheImposter_FizzflashDistractorToken,
-		CardIds.FindTheImposter_HiddenGyrobladeToken,
 		CardIds.FindTheImposter_LearnTheTruthToken,
 		CardIds.FindTheImposter_MarkedATraitorToken,
-		CardIds.FindTheImposter_NoggenFogGeneratorToken,
-		CardIds.FindTheImposter_SpyOMaticToken,
 		CardIds.FindTheImposter_SpymasterScabbsToken,
+		...SPY_GIZMOS,
 	],
+	[CardIds.FindTheImposter_LearnTheTruthToken]: [
+		CardIds.FindTheImposter_MarkedATraitorToken,
+		CardIds.FindTheImposter_SpymasterScabbsToken,
+		...SPY_GIZMOS,
+	],
+	[CardIds.FindTheImposter_MarkedATraitorToken]: [CardIds.FindTheImposter_SpymasterScabbsToken, ...SPY_GIZMOS],
+	[CardIds.FindTheImposter_SpymasterScabbsToken]: [...SPY_GIZMOS],
 	[CardIds.FireworkElemental]: [CardIds.FireworkElemental_FireworkElementalToken],
 	[CardIds.FirstFlame]: [CardIds.FirstFlame_SecondFlameToken],
 	[CardIds.FlankingManeuver_AV_269]: [CardIds.FlankingManeuver_AV_269],
@@ -2188,4 +2199,9 @@ export const RELATED_CARDS_DATA: {
 		CardIds.MagtheridonPrimeBattlegrounds,
 		CardIds.BaltharakBattlegrounds,
 	],
+	[CardIds.PlaguedGrainCore]: [
+		CardIds.PlaguedGrain_GrainCrateCoreToken,
+		CardIds.InfectedPeasant_UndeadPeasantToken_RLK_070t,
+	],
+	[CardIds.PlaguedGrain_GrainCrateCoreToken]: [CardIds.InfectedPeasant_UndeadPeasantToken_RLK_070t],
 };
