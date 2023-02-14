@@ -1622,7 +1622,7 @@ export const RELATED_CARDS_DATA: {
 
 	//Mercenaries treasures
 
-	[CardIds.ComeOnDown1Lettuce]: [
+	[CardIds.ComeOnDownXLettuce]: [
 		CardIds.DevouringHungerLettuce,
 		CardIds.MindflayerGogglesLettuce,
 		CardIds.CurseOfFleshLettuce,
@@ -1644,43 +1644,26 @@ export const RELATED_CARDS_DATA: {
 		CardIds.MysteryboxLettuce,
 	],
 
-	[CardIds.CheckmateLettuce]: [CardIds.Knight_KnightLettuce, CardIds.Rook_RookLettuce, CardIds.Bishop_BishopLettuce],
+	[CardIds.CheckmateXLettuce]: [CardIds.Knight_KnightLettuce, CardIds.Rook_RookLettuce, CardIds.Bishop_BishopLettuce],
 
-	[CardIds.SproutingTentacles1Lettuce]: [CardIds.SpawnOfNzoth1_SpawnOfNzoth1Lettuce],
-	[CardIds.SproutingTentacles2Lettuce]: [CardIds.SpawnOfNzoth2_SpawnOfNzoth2Lettuce],
-	[CardIds.SproutingTentacles3Lettuce]: [CardIds.SpawnOfNzoth3_SpawnOfNzoth3Lettuce],
-	[CardIds.SproutingTentacles4Lettuce]: [CardIds.SpawnOfNzoth4_SpawnOfNzoth4Lettuce],
-	[CardIds.SproutingTentacles5Lettuce]: [CardIds.SpawnOfNzoth5_SpawnOfNzoth5Lettuce],
+	[CardIds.SproutingTentaclesXLettuce]: [CardIds.SpawnOfNzoth1_SpawnOfNzoth1Lettuce],
 
-	[CardIds.TotemicCalling1Lettuce]: [
+	[CardIds.TotemicCallingXLettuce]: [
 		CardIds.StoneclawTotem1Lettuce,
 		CardIds.TotemicMastery1_HealingTotem1LettuceToken,
 	],
-	[CardIds.TotemicCalling2Lettuce]: [
-		CardIds.StoneclawTotem2Lettuce,
-		CardIds.TotemicMastery2_HealingTotem2LettuceToken,
-	],
-	[CardIds.TotemicCalling3Lettuce]: [
-		CardIds.StoneclawTotem3Lettuce,
-		CardIds.TotemicMastery3_HealingTotem3LettuceToken,
-	],
-	[CardIds.TotemicCalling4Lettuce]: [
-		CardIds.StoneclawTotem4Lettuce,
-		CardIds.TotemicMastery4_HealingTotem4LettuceToken,
-	],
-	[CardIds.TotemicCalling5Lettuce]: [CardIds.StoneclawTotem5Lettuce, CardIds.HealingTotem5LettuceToken],
 
 	//Mercenaries equipment
 
 	[CardIds.TotemicMastery1Lettuce]: [CardIds.TotemicMastery1_GroundingTotem1LettuceToken],
 	[CardIds.TotemicMastery2Lettuce]: [CardIds.TotemicMastery2_GroundingTotem2LettuceToken],
 	[CardIds.TotemicMastery3Lettuce]: [CardIds.TotemicMastery3_GroundingTotem3LettuceToken],
-	[CardIds.TotemicMastery4Lettuce]: [CardIds.TotemicMastery4_GroundingTotem4LettuceToken],
+	[CardIds.TotemicMasteryXLettuce]: [CardIds.TotemicMasteryX_GroundingTotem4LettuceToken],
 
 	[CardIds.UnstableRunes1Lettuce]: [CardIds.UnstableRunes1_ArcaneWard1LettuceToken],
 	[CardIds.UnstableRunes2Lettuce]: [CardIds.UnstableRunes2_ArcaneWard2LettuceToken],
 	[CardIds.UnstableRunes3Lettuce]: [CardIds.UnstableRunes3_ArcaneWard3LettuceToken],
-	[CardIds.UnstableRunes4Lettuce]: [CardIds.UnstableRunes4_ArcaneWard4LettuceToken],
+	[CardIds.UnstableRunesXLettuce]: [CardIds.UnstableRunesX_ArcaneWard4LettuceToken],
 
 	//Mercenaries abilities
 
@@ -1704,10 +1687,10 @@ export const RELATED_CARDS_DATA: {
 		CardIds.AnimalCompanion4_Leokk4LettuceToken,
 		CardIds.AnimalCompanion4_Huffer4LettuceToken,
 	],
-	[CardIds.AnimalCompanion5Lettuce]: [
-		CardIds.AnimalCompanion5_Misha5LettuceToken,
-		CardIds.AnimalCompanion5_Leokk5LettuceToken,
-		CardIds.AnimalCompanion5_Huffer5LettuceToken,
+	[CardIds.AnimalCompanionXLettuce]: [
+		CardIds.AnimalCompanionX_MishaXLettuceToken,
+		CardIds.AnimalCompanionX_LeokkXLettuceToken,
+		CardIds.AnimalCompanionX_HufferXLettuceToken,
 	],
 
 	[CardIds.Knowledge1Lettuce]: [
@@ -1730,7 +1713,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.TaleOfTheHozen4Lettuce,
 		CardIds.TaleOfTheSaurok4Lettuce,
 	],
-	[CardIds.Knowledge5Lettuce]: [
+	[CardIds.KnowledgeXLettuce]: [
 		CardIds.TaleOfTheMogu5Lettuce,
 		CardIds.TaleOfTheHozen5Lettuce,
 		CardIds.TaleOfTheSaurok5Lettuce,
@@ -1756,10 +1739,10 @@ export const RELATED_CARDS_DATA: {
 		CardIds.BuildAGolem4_Better4Lettuce,
 		CardIds.BuildAGolem4_Faster4Lettuce,
 	],
-	[CardIds.BuildAGolem5Lettuce]: [
-		CardIds.BuildAGolem5_Harder5Lettuce,
-		CardIds.BuildAGolem5_Better5Lettuce,
-		CardIds.BuildAGolem5_Faster5Lettuce,
+	[CardIds.BuildAGolemXLettuce]: [
+		CardIds.BuildAGolemX_Harder5Lettuce,
+		CardIds.BuildAGolemX_Better5Lettuce,
+		CardIds.BuildAGolemX_Faster5Lettuce,
 	],
 
 	[CardIds.IrrefusableDeal1Lettuce]: [
@@ -1782,7 +1765,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.DealOfVanityLettuce_LT24_007P2b,
 		CardIds.DealOfFearLettuce_LT24_007P2c,
 	],
-	[CardIds.IrrefusableDeal5Lettuce]: [
+	[CardIds.IrrefusableDealXLettuce]: [
 		CardIds.DealOfTimeLettuce_LT24_007P2a,
 		CardIds.DealOfVanityLettuce_LT24_007P2b,
 		CardIds.DealOfFearLettuce_LT24_007P2c,
@@ -2204,16 +2187,19 @@ export const RELATED_CARDS_DATA: {
 		CardIds.InfectedPeasant_UndeadPeasantToken_RLK_070t,
 	],
 	[CardIds.PlaguedGrain_GrainCrateCoreToken]: [CardIds.InfectedPeasant_UndeadPeasantToken_RLK_070t],
-	[CardIds.ConstructQuarter]: [CardIds.ConstructQuarter_ConstructQuarterToken],
-	[CardIds.FrostQueenSindragosa]: [CardIds.FrostQueenSindragosa_Token1, CardIds.FrostQueenSindragosa_Token2],
-	[CardIds.Zombeeees]: [CardIds.Zombeeees_ZombeeeesToken],
-	[CardIds.JollyRoger]: [CardIds.JollyRoger_PirateToken],
-	[CardIds.FrostfinChomper]: [CardIds.FrostfinChomper_MurlocToken],
-	[CardIds.NofingsImpossible]: [CardIds.NofingsImpossible_ImplocToken],
-	[CardIds.RivendareWarrider]: [
-		CardIds.BlaumeauxFamineRider,
-		CardIds.KorthazzDeathrider,
-		CardIds.ZeliekConquestRider,
+	[CardIds.ConstructQuarter]: [CardIds.ConstructQuarter_ShamblingHorrorToken],
+	[CardIds.FrostQueenSindragosa]: [
+		CardIds.FrostQueenSindragosa_SindragosasWingToken_NX2_037t,
+		CardIds.FrostQueenSindragosa_SindragosasWingToken_NX2_037t2,
 	],
-	[CardIds.LostExarch]: [CardIds.LostExarch_ZombieToken],
+	[CardIds.Zombeeees]: [CardIds.Zombeeees_ZombeeToken_NX2_013t],
+	[CardIds.JollyRoger]: [CardIds.JollyRoger_ZombiePirateToken],
+	[CardIds.FrostfinChomper]: [CardIds.FrostfinChomper_ChillgillToken],
+	[CardIds.NofinsImpOssible]: [CardIds.NofinsImpOssible_ImplocToken],
+	[CardIds.RivendareWarrider]: [
+		CardIds.RivendareWarrider_BlaumeauxFamineriderToken,
+		CardIds.RivendareWarrider_KorthazzDeathriderToken,
+		CardIds.RivendareWarrider_ZeliekConquestriderToken,
+	],
+	[CardIds.LostExarch]: [CardIds.LostExarch_GhoulToken],
 };
