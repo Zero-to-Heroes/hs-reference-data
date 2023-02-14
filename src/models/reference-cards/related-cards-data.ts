@@ -2204,4 +2204,16 @@ export const RELATED_CARDS_DATA: {
 		CardIds.InfectedPeasant_UndeadPeasantToken_RLK_070t,
 	],
 	[CardIds.PlaguedGrain_GrainCrateCoreToken]: [CardIds.InfectedPeasant_UndeadPeasantToken_RLK_070t],
+	[CardIds.ConstructQuarter]: [CardIds.ConstructQuarter_ConstructQuarterToken],
+	[CardIds.FrostQueenSindragosa]: [CardIds.FrostQueenSindragosa_Token1, CardIds.FrostQueenSindragosa_Token2],
+	[CardIds.Zombeeees]: [CardIds.Zombeeees_ZombeeeesToken],
+	[CardIds.JollyRoger]: [CardIds.JollyRoger_PirateToken],
+	[CardIds.FrostfinChomper]: [CardIds.FrostfinChomper_MurlocToken],
+	[CardIds.NofingsImpossible]: [CardIds.NofingsImpossible_ImplocToken],
+	[CardIds.RivendareWarrider]: [
+		CardIds.BlaumeauxFamineRider,
+		CardIds.KorthazzDeathrider,
+		CardIds.ZeliekConquestRider,
+	],
+	[CardIds.LostExarch]: [CardIds.LostExarch_ZombieToken],
 };
