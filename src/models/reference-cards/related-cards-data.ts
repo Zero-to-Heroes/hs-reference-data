@@ -1622,7 +1622,7 @@ export const RELATED_CARDS_DATA: {
 
 	//Mercenaries treasures
 
-	[CardIds.ComeOnDownXLettuce]: [
+	[CardIds.ComeOnDown5Lettuce]: [
 		CardIds.DevouringHungerLettuce,
 		CardIds.MindflayerGogglesLettuce,
 		CardIds.CurseOfFleshLettuce,
@@ -1644,26 +1644,29 @@ export const RELATED_CARDS_DATA: {
 		CardIds.MysteryboxLettuce,
 	],
 
-	[CardIds.CheckmateXLettuce]: [CardIds.Knight_KnightLettuce, CardIds.Rook_RookLettuce, CardIds.Bishop_BishopLettuce],
+	[CardIds.Checkmate5Lettuce]: [CardIds.Knight_KnightLettuce, CardIds.Rook_RookLettuce, CardIds.Bishop_BishopLettuce],
 
-	[CardIds.SproutingTentaclesXLettuce]: [CardIds.SpawnOfNzoth1_SpawnOfNzoth1Lettuce],
-
-	[CardIds.TotemicCallingXLettuce]: [
-		CardIds.StoneclawTotem1Lettuce,
-		CardIds.TotemicMastery1_HealingTotem1LettuceToken,
+	[CardIds.SproutingTentacles5Lettuce]: [
+		CardIds.SpawnOfNzoth1_SpawnOfNzoth1Lettuce,
+		CardIds.SpawnOfNzoth2_SpawnOfNzoth2Lettuce,
+		CardIds.SpawnOfNzoth3_SpawnOfNzoth3Lettuce,
+		CardIds.SpawnOfNzoth4_SpawnOfNzoth4Lettuce,
+		CardIds.SpawnOfNzoth5_SpawnOfNzoth5Lettuce,
 	],
+
+	[CardIds.TotemicCalling5Lettuce]: [CardIds.StoneclawTotem5Lettuce, CardIds.HealingTotem5LettuceToken],
 
 	//Mercenaries equipment
 
 	[CardIds.TotemicMastery1Lettuce]: [CardIds.TotemicMastery1_GroundingTotem1LettuceToken],
 	[CardIds.TotemicMastery2Lettuce]: [CardIds.TotemicMastery2_GroundingTotem2LettuceToken],
 	[CardIds.TotemicMastery3Lettuce]: [CardIds.TotemicMastery3_GroundingTotem3LettuceToken],
-	[CardIds.TotemicMasteryXLettuce]: [CardIds.TotemicMasteryX_GroundingTotem4LettuceToken],
+	[CardIds.TotemicMastery5Lettuce]: [CardIds.TotemicMastery5_GroundingTotem5LettuceToken],
 
 	[CardIds.UnstableRunes1Lettuce]: [CardIds.UnstableRunes1_ArcaneWard1LettuceToken],
 	[CardIds.UnstableRunes2Lettuce]: [CardIds.UnstableRunes2_ArcaneWard2LettuceToken],
 	[CardIds.UnstableRunes3Lettuce]: [CardIds.UnstableRunes3_ArcaneWard3LettuceToken],
-	[CardIds.UnstableRunesXLettuce]: [CardIds.UnstableRunesX_ArcaneWard4LettuceToken],
+	[CardIds.UnstableRunes5Lettuce]: [CardIds.UnstableRunes5_ArcaneWard5LettuceToken],
 
 	//Mercenaries abilities
 
@@ -1687,10 +1690,10 @@ export const RELATED_CARDS_DATA: {
 		CardIds.AnimalCompanion4_Leokk4LettuceToken,
 		CardIds.AnimalCompanion4_Huffer4LettuceToken,
 	],
-	[CardIds.AnimalCompanionXLettuce]: [
-		CardIds.AnimalCompanionX_MishaXLettuceToken,
-		CardIds.AnimalCompanionX_LeokkXLettuceToken,
-		CardIds.AnimalCompanionX_HufferXLettuceToken,
+	[CardIds.AnimalCompanion5Lettuce]: [
+		CardIds.AnimalCompanion5_Misha5LettuceToken,
+		CardIds.AnimalCompanion5_Leokk5LettuceToken,
+		CardIds.AnimalCompanion5_Huffer5LettuceToken,
 	],
 
 	[CardIds.Knowledge1Lettuce]: [
@@ -1713,7 +1716,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.TaleOfTheHozen4Lettuce,
 		CardIds.TaleOfTheSaurok4Lettuce,
 	],
-	[CardIds.KnowledgeXLettuce]: [
+	[CardIds.Knowledge5Lettuce]: [
 		CardIds.TaleOfTheMogu5Lettuce,
 		CardIds.TaleOfTheHozen5Lettuce,
 		CardIds.TaleOfTheSaurok5Lettuce,
@@ -1739,10 +1742,10 @@ export const RELATED_CARDS_DATA: {
 		CardIds.BuildAGolem4_Better4Lettuce,
 		CardIds.BuildAGolem4_Faster4Lettuce,
 	],
-	[CardIds.BuildAGolemXLettuce]: [
-		CardIds.BuildAGolemX_Harder5Lettuce,
-		CardIds.BuildAGolemX_Better5Lettuce,
-		CardIds.BuildAGolemX_Faster5Lettuce,
+	[CardIds.BuildAGolem5Lettuce]: [
+		CardIds.BuildAGolem5_Harder5Lettuce,
+		CardIds.BuildAGolem5_Better5Lettuce,
+		CardIds.BuildAGolem5_Faster5Lettuce,
 	],
 
 	[CardIds.IrrefusableDeal1Lettuce]: [
@@ -1765,7 +1768,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.DealOfVanityLettuce_LT24_007P2b,
 		CardIds.DealOfFearLettuce_LT24_007P2c,
 	],
-	[CardIds.IrrefusableDealXLettuce]: [
+	[CardIds.IrrefusableDeal5Lettuce]: [
 		CardIds.DealOfTimeLettuce_LT24_007P2a,
 		CardIds.DealOfVanityLettuce_LT24_007P2b,
 		CardIds.DealOfFearLettuce_LT24_007P2c,
@@ -2009,7 +2012,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.GennGreymaneLettuce_LT24_008H_04,
 		CardIds.GennGreymaneLettuce_LT24_008H_01,
 	],
-	[CardIds.SmoothTransformation4Lettuce]: [
+	[CardIds.SmoothTransformation5Lettuce]: [
 		CardIds.GennGreymaneLettuce_LT24_008H_04,
 		CardIds.GennGreymaneLettuce_LT24_008H_01,
 	],
@@ -2017,7 +2020,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.BloodMoon1Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
 	[CardIds.BloodMoon2Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
 	[CardIds.BloodMoon3Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
-	[CardIds.BloodMoon4Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
+	[CardIds.BloodMoon5Lettuce]: [CardIds.GennGreymaneLettuce_LT24_008H_04],
 
 	[CardIds.NemsyNecrofizzleLettuce_LT24_010H_01]: [CardIds.BoggyLettuce_LT24_010m],
 	[CardIds.NemsyNecrofizzleLettuce_LT24_010H_02]: [CardIds.BoggyLettuce_LT24_010m],
