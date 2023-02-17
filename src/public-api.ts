@@ -20,6 +20,7 @@ export * from './enums/game-tags';
 export * from './enums/game-type';
 export * from './enums/locale';
 export * from './enums/mercenaries-bounty-difficulty';
+export * from './enums/mercenaries-map-type';
 export * from './enums/mercenary-selector';
 export * from './enums/meta-tags';
 export * from './enums/mulligan';
