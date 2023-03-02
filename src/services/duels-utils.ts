@@ -7,7 +7,7 @@ export const duelsPassivePool1 = [
 	CardIds.ArcaniteCrystalTavernBrawl,
 	CardIds.ArcticArmorTavernBrawl,
 	CardIds.BeckoningBicornTavernBrawl,
-	CardIds.BeOurGuestTavernBrawl,
+	// CardIds.BeOurGuestTavernBrawl,
 	CardIds.BitterColdTavernBrawl,
 	CardIds.BloodShieldsTavernBrawl,
 	CardIds.BookOfWonders,
