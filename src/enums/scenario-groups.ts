@@ -22,6 +22,7 @@ export const ARENAS = [
 	ScenarioId._236_TAVERNS_OF_TIME_ARENA_SEASON,
 	ScenarioId._240_ARENA_SEASON,
 	ScenarioId._244_ARENA_SEASON,
+	ScenarioId._254_ARENA_SEASON,
 ];
 
 export const DALARAN_HEIST_ALL = [
