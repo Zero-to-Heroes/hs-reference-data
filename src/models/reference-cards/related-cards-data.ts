@@ -2200,7 +2200,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.FrostfinChomper]: [CardIds.FrostfinChomper_ChillgillToken],
 	[CardIds.NofinsImpOssible]: [CardIds.NofinsImpOssible_ImplocToken],
 	[CardIds.RivendareWarrider]: [
-		CardIds.RivendareWarrider_BlaumeauxFamineriderToken,
+		CardIds.RivendareWarrider_BlaumeuxFamineriderToken,
 		CardIds.RivendareWarrider_KorthazzDeathriderToken,
 		CardIds.RivendareWarrider_ZeliekConquestriderToken,
 	],
