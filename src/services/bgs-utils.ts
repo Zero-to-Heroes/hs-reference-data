@@ -1,4 +1,4 @@
-import { AllCardsService, CardIds, GameType, Race, ReferenceCard } from '../public-api';
+import { CardIds, GameType, Race, ReferenceCard } from '../public-api';
 
 export const ALL_BG_RACES = [
 	Race.BEAST,
@@ -13,14 +13,14 @@ export const ALL_BG_RACES = [
 	Race.UNDEAD,
 ];
 
-export const defaultStartingHp = (gameType: GameType, heroCardId: string): number => {
+export const defaultStartingHp = (
+	gameType: GameType,
+	heroCardId: string,
+	allCards: { getCard: (cardId: string | number) => ReferenceCard },
+): number => {
 	if (isBattlegrounds(gameType)) {
-		switch (heroCardId) {
-			case CardIds.PatchwerkBattlegrounds:
-				return 60;
-			default:
-				return 40;
-		}
+		const normalized = normalizeHeroCardId(heroCardId, allCards);
+		return allCards.getCard(normalized).health || 30;
 	}
 	return 30;
 };
@@ -72,7 +72,10 @@ const normalizeHeroCardIdAfterSkin = (
 	return heroCardId;
 };
 
-export const getHeroPower = (heroCardId: string, allCards: AllCardsService): string => {
+export const getHeroPower = (
+	heroCardId: string,
+	allCards: { getCard: (cardId: string | number) => ReferenceCard },
+): string => {
 	const normalized = normalizeHeroCardId(heroCardId, allCards);
 	switch (normalized) {
 		case 'TB_BaconShop_HERO_01':
@@ -101,8 +104,8 @@ export const getHeroPower = (heroCardId: string, allCards: AllCardsService): str
 			return 'TB_BaconShop_HP_020';
 		case 'TB_BaconShop_HERO_22':
 			return 'TB_BaconShop_HP_024';
-		case 'TB_BaconShop_HERO_23':
-			return 'TB_BaconShop_HP_022';
+		case CardIds.ShudderwockBattlegrounds:
+			return CardIds.SnickerSnackBattlegrounds;
 		case 'TB_BaconShop_HERO_25':
 			return 'TB_BaconShop_HP_049';
 		case 'TB_BaconShop_HERO_27':
@@ -275,6 +278,8 @@ export const getHeroPower = (heroCardId: string, allCards: AllCardsService): str
 			return CardIds.ProfessorPutricide_BuildAnUndead;
 		case CardIds.TeronGorefiend_BG25_HERO_103:
 			return CardIds.TeronGorefiend_RapidReanimation;
+		case CardIds.ETCBandManager_BG25_HERO_105:
+			return CardIds.ETCBandManager_SignANewArtist;
 
 		case '':
 			return null; // new heroes
