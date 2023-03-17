@@ -36,11 +36,16 @@ export interface ReferenceCard {
 	readonly techLevel?: number;
 	readonly durability?: number;
 	readonly armor?: number;
+
 	readonly battlegroundsHero?: boolean;
 	readonly battlegroundsHeroSkin?: boolean;
 	readonly battlegroundsHeroParentDbfId?: number;
 	readonly battlegroundsPremiumDbfId?: number;
 	readonly battlegroundsNormalDbfId?: number;
+	readonly battlegroundsPutridicePool1?: boolean;
+	readonly battlegroundsPutridicePool2?: boolean;
+	readonly battlegroundsPutridiceSummonerExclusion?: boolean;
+
 	// TODO: change this to use the enum later?
 	readonly spellSchool?: string;
 	readonly artist?: string;

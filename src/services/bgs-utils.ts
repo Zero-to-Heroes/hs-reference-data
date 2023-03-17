@@ -13,6 +13,52 @@ export const ALL_BG_RACES = [
 	Race.UNDEAD,
 ];
 
+export const TOTAL_RACES_IN_GAME = 5;
+
+export const NON_BUYABLE_MINION_IDS = [
+	CardIds.CuddlgamBattlegrounds_TB_BaconShop_HP_033t_SKIN_A,
+	CardIds.CuddlgamBattlegrounds_TB_BaconShop_HP_033t_SKIN_A_G,
+	CardIds.AbominableAmalgamBattlegrounds_TB_BaconShop_HP_033t_SKIN_D,
+	CardIds.AbominableAmalgamBattlegrounds_TB_BaconShop_HP_033t_SKIN_D_G,
+	CardIds.ArgentBraggart_BG_SCH_149,
+	CardIds.ArgentBraggartBattlegrounds,
+	CardIds.AvatarOfNzoth_FishOfNzothTokenBattlegrounds,
+	CardIds.FishOfNzothBattlegrounds,
+	CardIds.CattlecarpOfNzothBattlegrounds_TB_BaconShop_HP_105t_SKIN_A,
+	CardIds.CattlecarpOfNzothBattlegrounds_TB_BaconShop_HP_105t_SKIN_A_G,
+	CardIds.SnakeTrap_SnakeLegacyToken,
+	CardIds.SnakeTrap_SnakeVanillaToken,
+	CardIds.ImprovedSnakeTrap_SnakeToken,
+	CardIds.ElementEarth_StoneElementalToken,
+	CardIds.BabyKrush_DevilsaurToken,
+	CardIds.DevilsaurBattlegrounds,
+	// To remove once the cards list is properly updated
+	CardIds.FriendOfAFriend_BG22_404,
+	CardIds.FriendOfAFriend_BG22_404_G,
+	CardIds.Onyxia_OnyxianWhelpToken,
+	CardIds.MurlocWarleaderCore,
+	CardIds.MurlocWarleaderVanilla,
+	// 23.4, probably not needed since they are already tokens
+	CardIds.Tentacular_OzumatsTentacleToken_BG23_HERO_201pt,
+	CardIds.Tentacular_OzumatsTentacleToken_BG23_HERO_201pt2,
+	CardIds.Tentacular_OzumatsTentacleToken_BG23_HERO_201pt3,
+	CardIds.Tentacular_OzumatsTentacleToken_BG23_HERO_201pt4,
+	CardIds.Tentacular_OzumatsTentacleToken_BG23_HERO_201pt5,
+	CardIds.Tentacular_OzumatsTentacleToken_BG23_HERO_201pt6,
+	// 24.0, same
+	CardIds.EmperorCobraLegacy_BG_EX1_170,
+	CardIds.EmperorCobraLegacy_BG_EX1_170_G,
+	CardIds.EmperorCobraLegacy_EX1_170,
+	CardIds.SnakeLegacyToken,
+	CardIds.SnakeLegacy,
+	CardIds.ElementEarth_StoneElementalToken,
+	CardIds.BolvarFireblood_CORE_ICC_858,
+	CardIds.BolvarFireblood_ICC_858,
+	// 25.2
+	CardIds.HandlessForsaken_HelpingHandToken,
+	CardIds.HandlessForsaken_HelpingHandTokenBattlegrounds,
+];
+
 export const defaultStartingHp = (
 	gameType: GameType,
 	heroCardId: string,
