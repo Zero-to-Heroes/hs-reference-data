@@ -236,6 +236,24 @@
 		"armor": 13
 	},
 	{
+		"dbfId": 58369,
+		"id": "TB_BaconUps_028",
+		"name": "Kaboom Bot",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Boomsday",
+		"rarity": "Common",
+		"cost": 3,
+		"race": "MECH",
+		"races": [
+			"MECH"
+		],
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Deathrattle:</b> Deal 4 damage to a random enemy minion twice."
+	},
+	{
 		"dbfId": 58399,
 		"id": "TB_BaconUps_044e",
 		"name": "Ironed Out",
@@ -244,6 +262,24 @@
 		"playerClass": "Neutral",
 		"set": "Battlegrounds",
 		"text": "Increased stats."
+	},
+	{
+		"dbfId": 58409,
+		"id": "TB_BaconUps_049",
+		"name": "Savannah Highmane",
+		"type": "Minion",
+		"cardClass": "HUNTER",
+		"playerClass": "Hunter",
+		"set": "Legacy",
+		"rarity": "Rare",
+		"cost": 6,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 12,
+		"health": 10,
+		"text": "<b>Deathrattle:</b> Summon two 4/4 Hyenas."
 	},
 	{
 		"dbfId": 58435,
@@ -334,6 +370,20 @@
 		"playerClass": "Neutral",
 		"set": "Battlegrounds",
 		"text": "[x]<b>Passive</b>\nStart with 60 Health \ninstead of 30."
+	},
+	{
+		"dbfId": 59499,
+		"id": "TB_BaconUps_068",
+		"name": "Houndmaster",
+		"type": "Minion",
+		"cardClass": "HUNTER",
+		"playerClass": "Hunter",
+		"set": "Battlegrounds",
+		"rarity": "Free",
+		"cost": 4,
+		"attack": 8,
+		"health": 6,
+		"text": "<b>Battlecry:</b> Give a friendly Beast +4/+4 and <b>Taunt</b>."
 	},
 	{
 		"dbfId": 59564,
@@ -5492,7 +5542,7 @@
 		"type": "Minion",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
-		"set": "1809",
+		"set": "Battle_of_the_bands",
 		"rarity": "Legendary",
 		"cost": 4,
 		"attack": 4,
@@ -5674,6 +5724,32 @@
 		"set": "Battlegrounds",
 		"rarity": "Rare",
 		"health": 30
+	},
+	{
+		"dbfId": 92410,
+		"id": "BG24_022",
+		"name": "Rendle the Mistermind",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 4,
+		"health": 5,
+		"text": "At the end of your turn, steal the highest Tier minion from Bob's Tavern."
+	},
+	{
+		"dbfId": 92440,
+		"id": "BG24_022_G",
+		"name": "Rendle the Mistermind",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 8,
+		"health": 10,
+		"text": "At the end of your turn, steal the 2 highest Tier minions from Bob's Tavern."
 	},
 	{
 		"dbfId": 92960,
@@ -5928,6 +6004,121 @@
 		"set": "Battlegrounds",
 		"rarity": "Rare",
 		"health": 30
+	},
+	{
+		"dbfId": 95246,
+		"id": "BG25_001",
+		"name": "Risen Rider",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 1,
+		"attack": 2,
+		"health": 1,
+		"text": "<b>Taunt</b>\n<b>Reborn</b>",
+		"battlegroundsPutridicePool2": true,
+		"battlegroundsPutridiceSummonerExclusion": true
+	},
+	{
+		"dbfId": 95253,
+		"id": "BG25_004",
+		"name": "Possessive Banshee",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 4,
+		"attack": 2,
+		"health": 7,
+		"text": "<b>Battlecry:</b> Give an Undead +2/+7.",
+		"battlegroundsPutridicePool2": true
+	},
+	{
+		"dbfId": 95255,
+		"id": "BG25_005",
+		"name": "Jelly Belly",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 3,
+		"attack": 3,
+		"health": 6,
+		"text": "After a friendly minion is <b>Reborn</b>, gain +3/+3.",
+		"battlegroundsPutridicePool1": true
+	},
+	{
+		"dbfId": 95263,
+		"id": "BG25_009",
+		"name": "Eternal Summoner",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 6,
+		"attack": 6,
+		"health": 1,
+		"text": "[x]<b><b>Reborn</b>.</b> <b>Deathrattle:</b>\nSummon 1 Eternal Knight.",
+		"battlegroundsPutridicePool1": true
+	},
+	{
+		"dbfId": 95265,
+		"id": "BG25_010",
+		"name": "Handless Forsaken",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 4,
+		"attack": 2,
+		"health": 3,
+		"text": "<b>Deathrattle:</b> Summon a 2/2 Hand with <b>Reborn</b>.",
+		"battlegroundsPutridicePool1": true
+	},
+	{
+		"dbfId": 95273,
+		"id": "BG25_014",
+		"name": "Hungering Abomination",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 5,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Avenge (1):</b> Gain +1/+1 permanently.",
+		"battlegroundsPutridicePool1": true
 	},
 	{
 		"dbfId": 95309,
@@ -6522,6 +6713,56 @@
 		"health": 30
 	},
 	{
+		"dbfId": 96766,
+		"id": "BG_BOT_606",
+		"name": "Kaboom Bot",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Boomsday",
+		"rarity": "Common",
+		"cost": 3,
+		"race": "MECH",
+		"races": [
+			"MECH"
+		],
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Deal 4 damage to a random enemy minion."
+	},
+	{
+		"dbfId": 96778,
+		"id": "BG_DS1_070",
+		"name": "Houndmaster",
+		"type": "Minion",
+		"cardClass": "HUNTER",
+		"playerClass": "Hunter",
+		"set": "Battlegrounds",
+		"rarity": "Free",
+		"cost": 4,
+		"attack": 4,
+		"health": 3,
+		"text": "<b>Battlecry:</b> Give a friendly Beast +2/+2 and <b>Taunt</b>."
+	},
+	{
+		"dbfId": 96793,
+		"id": "BG_EX1_534",
+		"name": "Savannah Highmane",
+		"type": "Minion",
+		"cardClass": "HUNTER",
+		"playerClass": "Hunter",
+		"set": "Legacy",
+		"rarity": "Rare",
+		"cost": 6,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 6,
+		"health": 5,
+		"text": "<b>Deathrattle:</b> Summon two 2/2 Hyenas."
+	},
+	{
 		"dbfId": 96870,
 		"id": "BG24_HERO_204",
 		"name": "Enhance-o Mechano",
@@ -7019,6 +7260,23 @@
 		"text": "<b>Deathrattle:</b> Summon 6 random Tier 1 minions."
 	},
 	{
+		"dbfId": 98697,
+		"id": "BG22_HERO_001p_t1et_G",
+		"name": "Stone Elemental",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
+		"techLevel": 1,
+		"attack": 2,
+		"health": 2
+	},
+	{
 		"dbfId": 98726,
 		"id": "BG25_HERO_103",
 		"name": "Teron Gorefiend",
@@ -7304,6 +7562,26 @@
 		"set": "Battlegrounds",
 		"rarity": "Legendary",
 		"health": 30
+	},
+	{
+		"dbfId": 98867,
+		"id": "BG25_050",
+		"name": "Colossus of the Sun",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 6,
+		"attack": 6,
+		"health": 6,
+		"text": "<b>Divine Shield</b>\n<b>Reborn</b>",
+		"battlegroundsPutridicePool2": true,
+		"battlegroundsPutridiceSummonerExclusion": true
 	},
 	{
 		"dbfId": 99033,
@@ -8215,7 +8493,6 @@
 		"playerClass": "Neutral",
 		"set": "Legacy",
 		"cost": 0,
-		"techLevel": 3,
 		"attack": 6,
 		"health": 7,
 		"text": "<i>Six Attack and seven Health are <b>already</b> perfect stats for the Tavern Tier!</i>"
@@ -8229,7 +8506,6 @@
 		"playerClass": "Neutral",
 		"set": "Legacy",
 		"cost": 0,
-		"techLevel": 3,
 		"attack": 6,
 		"health": 7
 	},
