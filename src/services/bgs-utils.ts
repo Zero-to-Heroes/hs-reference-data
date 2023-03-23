@@ -59,6 +59,77 @@ export const NON_BUYABLE_MINION_IDS = [
 	CardIds.HandlessForsaken_HelpingHandTokenBattlegrounds,
 ];
 
+export const NON_DISCOVERABLE_BUDDIES = [
+	CardIds.SpiritRaptor,
+	CardIds.RagingContenderBattlegrounds_TB_BaconShop_HERO_67_Buddy,
+	CardIds.CaptainFairmount,
+	CardIds.FlightTrainer,
+	CardIds.JandicesApprenticeBattlegrounds_TB_BaconShop_HERO_71_Buddy,
+	CardIds.CrimsonHandCenturionBattlegrounds_TB_BaconShop_HERO_60_Buddy,
+	CardIds.CrazyMonkey,
+	CardIds.ShadowWardenBattlegrounds_TB_BaconShop_HERO_62_Buddy,
+	CardIds.NexusLordBattlegrounds_TB_BaconShop_HERO_58_Buddy,
+	CardIds.LeiFlamepaw_BG20_HERO_202_Buddy,
+	CardIds.Watfin,
+	CardIds.NightmareEctoplasm,
+	CardIds.ManyWhelps,
+	CardIds.DranoshSaurfang,
+	CardIds.Tamuzo,
+	CardIds.MaxwellMightySteedBattlegrounds_TB_BaconShop_HERO_40_Buddy,
+	CardIds.Crabby_BG22_HERO_000_Buddy,
+	CardIds.MishmashBattlegrounds_TB_BaconShop_HERO_33_Buddy,
+	CardIds.PigeonLordBattlegrounds_TB_BaconShop_HERO_12_Buddy,
+	CardIds.VardensAquarrior,
+	CardIds.AcolyteOfYoggSaronBattlegrounds_TB_BaconShop_HERO_35_Buddy,
+];
+
+export const BUDDIES_TRIBE_REQUIREMENTS = [
+	{
+		buddy: CardIds.VaelastraszBattlegrounds_TB_BaconShop_HERO_56_Buddy,
+		tribe: Race.DRAGON,
+	},
+	{
+		buddy: CardIds.DeathsHeadSage,
+		tribe: Race.QUILBOAR,
+	},
+	{
+		buddy: CardIds.SparkfinSoothsayerBattlegrounds_TB_BaconShop_HERO_55_Buddy,
+		tribe: Race.MURLOC,
+	},
+	{
+		buddy: CardIds.SubScrubber,
+		tribe: Race.MECH,
+	},
+	{
+		buddy: CardIds.CoilfangElite,
+		tribe: Race.NAGA,
+	},
+	{
+		buddy: CardIds.KilrekBattlegrounds_TB_BaconShop_HERO_37_Buddy,
+		tribe: Race.DEMON,
+	},
+	{
+		buddy: CardIds.ElementiumSquirrelBombBattlegrounds_TB_BaconShop_HERO_17_Buddy,
+		tribe: Race.MECH,
+	},
+	{
+		buddy: CardIds.TuskarrRaiderBattlegrounds_TB_BaconShop_HERO_18_Buddy,
+		tribe: Race.PIRATE,
+	},
+	{
+		buddy: CardIds.Festergut_BG25_HERO_100_Buddy,
+		tribe: Race.UNDEAD,
+	},
+	{
+		buddy: CardIds.ImperialDefender,
+		tribe: Race.NAGA,
+	},
+	{
+		buddy: CardIds.ValithriaDreamwalkerBattlegrounds_TB_BaconShop_HERO_53_Buddy,
+		tribe: Race.DRAGON,
+	},
+];
+
 export const defaultStartingHp = (
 	gameType: GameType,
 	heroCardId: string,

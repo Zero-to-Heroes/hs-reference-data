@@ -2190,7 +2190,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.InfectedPeasant_UndeadPeasantToken_RLK_070t,
 	],
 	[CardIds.PlaguedGrain_GrainCrateCoreToken]: [CardIds.InfectedPeasant_UndeadPeasantToken_RLK_070t],
-	[CardIds.ConstructQuarter]: [CardIds.ConstructQuarter_ShamblingHorrorToken],
+	[CardIds.ConstructQuarter]: [CardIds.DarkTransformation_UndeadMonstrosityToken],
 	[CardIds.FrostQueenSindragosa]: [
 		CardIds.FrostQueenSindragosa_SindragosasWingToken_NX2_037t,
 		CardIds.FrostQueenSindragosa_SindragosasWingToken_NX2_037t2,
