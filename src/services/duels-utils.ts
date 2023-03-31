@@ -1,5 +1,5 @@
 import { CardIds } from '../card-ids';
-import { CardClass } from '../public-api';
+import { CardClass, GameTag, ReferenceCard } from '../public-api';
 
 export const duelsPassivePool1 = [
 	CardIds.AllShallServeTavernBrawl,
@@ -587,3 +587,37 @@ export const allDuelsSignatureTreasures = duelsHeroConfigs.flatMap((info) => inf
 
 export const allDuelsHeroes = duelsHeroConfigs.map((conf) => conf.hero);
 export const allDuelsHeroesExtended = duelsHeroConfigs.flatMap((conf) => [conf.hero, ...(conf.alternateHeroes ?? [])]);
+
+export const isPassive = (
+	cardId: string,
+	allCards: { getCard: (cardId: string | number) => ReferenceCard },
+): boolean => {
+	return (
+		allDuelsPassiveTreasures.includes(cardId as CardIds) ||
+		allCards.getCard(cardId)?.mechanics?.includes(GameTag[GameTag.DUNGEON_PASSIVE_BUFF])
+	);
+};
+
+// https://hearthstone.fandom.com/wiki/Duels#Current_season
+export const duelsTreasureRank = (cardId: string): number => {
+	if (!cardId) {
+		return 0;
+	}
+
+	if (!allDuelsTreasureCardIds.includes(cardId as CardIds)) {
+		console.error('Incorrect config for duels card IDs?', cardId);
+	}
+	if (duelsPassivePool2.includes(cardId as CardIds) || duelsActivePool2.includes(cardId as CardIds)) {
+		return 2;
+	} else if (
+		duelsPassivePool2UltraRare.includes(cardId as CardIds) ||
+		duelsActivePool2UltraRare.includes(cardId as CardIds)
+	) {
+		return 3;
+	}
+	return 1;
+};
+
+export const isSignatureTreasure = (cardId: string): boolean => {
+	return allDuelsSignatureTreasures.includes(cardId as CardIds);
+};
