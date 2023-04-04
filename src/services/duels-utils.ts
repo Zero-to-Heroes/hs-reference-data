@@ -228,32 +228,33 @@ export const normalizeDuelsHeroCardId = (heroCardId: string): string => {
 	}
 };
 
-export const normalizeDuelsHeroCardIdForDeckCode = (heroCardId: string): string => {
-	switch (heroCardId) {
-		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv1:
-			return CardIds.IllidanStormrageHeroSkins;
-		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv2:
-			return CardIds.RexxarHeroSkins;
-		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv3:
-			return CardIds.UtherLightbringerHeroSkins;
-		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv4:
-			return CardIds.AnduinWrynnHeroSkins;
-		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv5:
-			return CardIds.ValeeraSanguinarHeroSkins;
-		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv1:
-			return CardIds.MalfurionStormrageHeroSkins;
-		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv2:
-			return CardIds.JainaProudmooreHeroSkins;
-		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv3:
-			return CardIds.ThrallHeroSkins;
-		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv4:
-			return CardIds.GuldanHeroSkins;
-		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv5:
-			return CardIds.GarroshHellscreamHeroSkins;
-		default:
-			return heroCardId;
-	}
-};
+// Shouldn't be needed anymore, as deck codes are properly supported for these heroes
+// export const normalizeDuelsHeroCardIdForDeckCode = (heroCardId: string): string => {
+// 	switch (heroCardId) {
+// 		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv1:
+// 			return CardIds.IllidanStormrageHeroSkins;
+// 		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv2:
+// 			return CardIds.RexxarHeroSkins;
+// 		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv3:
+// 			return CardIds.UtherLightbringerHeroSkins;
+// 		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv4:
+// 			return CardIds.AnduinWrynnHeroSkins;
+// 		case CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv5:
+// 			return CardIds.ValeeraSanguinarHeroSkins;
+// 		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv1:
+// 			return CardIds.MalfurionStormrageHeroSkins;
+// 		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv2:
+// 			return CardIds.JainaProudmooreHeroSkins;
+// 		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv3:
+// 			return CardIds.ThrallHeroSkins;
+// 		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv4:
+// 			return CardIds.GuldanHeroSkins;
+// 		case CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv5:
+// 			return CardIds.GarroshHellscreamHeroSkins;
+// 		default:
+// 			return heroCardId;
+// 	}
+// };
 
 // Maybe it's possible to extract this from the game files or memory somehow?
 // Since it doesn't change often it's ok to maintain it manually, at least for now
