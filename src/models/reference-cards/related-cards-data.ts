@@ -2207,5 +2207,9 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.LostExarch]: [CardIds.LostExarch_GhoulToken],
 	[CardIds.RelicOfPhantasms]: [CardIds.RelicOfPhantasms_FleetingSpiritToken],
 	[CardIds.SpreadingSaplingsTavernBrawl]: [CardIds.PlotOfSin_TreantToken],
-	[CardIds.SpreadingSaplingsTavernBrawl]: [CardIds.PlotOfSin_TreantToken],
+	[CardIds.TemplarCaptain]: [CardIds.ProtectTheInnocent_StormpikeDefenderToken],
+	[CardIds.PactOfTheLichTavernBrawlToken]: [
+		CardIds.DreadlichTamsin_FelRiftToken,
+		CardIds.DreadlichTamsin_DreadImpToken,
+	],
 };
