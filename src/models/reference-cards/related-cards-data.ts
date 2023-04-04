@@ -2205,4 +2205,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.RivendareWarrider_ZeliekConquestriderToken,
 	],
 	[CardIds.LostExarch]: [CardIds.LostExarch_GhoulToken],
+	[CardIds.RelicOfPhantasms]: [CardIds.RelicOfPhantasms_FleetingSpiritToken],
+	[CardIds.SpreadingSaplingsTavernBrawl]: [CardIds.PlotOfSin_TreantToken],
+	[CardIds.SpreadingSaplingsTavernBrawl]: [CardIds.PlotOfSin_TreantToken],
 };
