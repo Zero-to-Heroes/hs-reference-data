@@ -2278,4 +2278,5 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.PhotographerFizzle]: [CardIds.PhotographerFizzle_FizzlesSnapshotToken],
 	[CardIds.WorgenRoadie]: [CardIds.WorgenRoadie_InstrumentCaseToken],
 	[CardIds.PozzikAudioEngineer]: [CardIds.PozzikAudioEngineer_AudioBotToken],
+	[CardIds.LifeFromDeath]: [CardIds.LifeFromDeath_LifeFromDeathToken],
 };
