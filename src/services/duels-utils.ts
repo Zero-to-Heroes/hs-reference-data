@@ -607,6 +607,7 @@ export const duelsTreasureRank = (cardId: string): number => {
 
 	if (!allDuelsTreasureCardIds.includes(cardId as CardIds)) {
 		console.error('Incorrect config for duels card IDs?', cardId);
+		return 0;
 	}
 	if (duelsPassivePool2.includes(cardId as CardIds) || duelsActivePool2.includes(cardId as CardIds)) {
 		return 2;
