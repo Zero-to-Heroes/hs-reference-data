@@ -12,7 +12,7 @@ const ADVENTURER_TOKENS = [
 	CardIds.PartyUp_VitalAdventurerToken,
 ];
 const ANIMAL_COMPANION_TOKENS = [CardIds.HufferLegacy, CardIds.LeokkLegacy, CardIds.MishaLegacy];
-const DEATH_KNIGHT_CARDS = [
+const LICH_KING_CARDS = [
 	CardIds.TheLichKing_FrostmourneToken,
 	CardIds.TheLichKing_ArmyOfTheFrozenThroneToken,
 	CardIds.TheLichKing_DoomPactToken,
@@ -660,8 +660,8 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.FirekeepersIdolTavernBrawl]: [CardIds.FireFly_FlameElementalToken],
 	[CardIds.FromTheSwamp]: [CardIds.FromTheSwamp_BloatedZombieTavernBrawlToken],
 	[CardIds.FromTheSwampTavernBrawl]: [CardIds.FromTheSwamp_BloatedZombieTavernBrawlToken],
-	[CardIds.UnholyGiftTavernBrawl]: DEATH_KNIGHT_CARDS,
-	[CardIds.RunicHelmTavernBrawl]: DEATH_KNIGHT_CARDS,
+	[CardIds.UnholyGiftTavernBrawl]: LICH_KING_CARDS,
+	[CardIds.RunicHelmTavernBrawl]: LICH_KING_CARDS,
 	[CardIds.CloakOfEmeraldDreamsTavernBrawl]: DREAM_CARDS,
 	[CardIds.PartyReplacementTavernBrawl]: ADVENTURER_TOKENS,
 	[CardIds.DraconicDreamTavernBrawl]: [CardIds.YseraUnleashed_DreamPortalToken],
@@ -1109,8 +1109,8 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.ArrogantCrusader_ICC_034]: [CardIds.NecroticGeist_GhoulToken],
 	[CardIds.NecroticGeist_CORE_ICC_900]: [CardIds.NecroticGeist_GhoulToken],
 	[CardIds.NecroticGeist_ICC_900]: [CardIds.NecroticGeist_GhoulToken],
-	[CardIds.Arfus_CORE_ICC_854]: DEATH_KNIGHT_CARDS,
-	[CardIds.Arfus_ICC_854]: DEATH_KNIGHT_CARDS,
+	[CardIds.Arfus_CORE_ICC_854]: LICH_KING_CARDS,
+	[CardIds.Arfus_ICC_854]: LICH_KING_CARDS,
 	[CardIds.MirrorImageLegacy_CS2_027]: [CardIds.MirrorImageLegacy_CS2_mirror],
 	[CardIds.GhastlyConjurer_CORE_ICC_069]: [CardIds.MirrorImageLegacy_CS2_mirror],
 	[CardIds.GhastlyConjurer_ICC_069]: [CardIds.MirrorImageLegacy_CS2_mirror],
@@ -1165,7 +1165,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.ShadowreaperAnduin_CORE_ICC_830]: [CardIds.ShadowreaperAnduin_Voidform],
 	[CardIds.ShadowreaperAnduin_ICC_830]: [CardIds.ShadowreaperAnduin_Voidform],
 	[CardIds.Sindragosa_ICC_838]: [CardIds.Sindragosa_FrozenChampionToken],
-	[CardIds.TheLichKing_ICC_314]: DEATH_KNIGHT_CARDS,
+	[CardIds.TheLichKing_ICC_314]: LICH_KING_CARDS,
 	[CardIds.FrostLichJaina_CORE_ICC_833]: [
 		CardIds.FrostLichJaina_IcyTouchHeroic,
 		CardIds.FrostLichJaina_WaterElementalToken,
