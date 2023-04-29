@@ -176,7 +176,7 @@ export const duelsActivePool2 = [
 	CardIds.GrimmerPatron_DALA_705,
 	CardIds.HyperblasterTavernBrawl,
 	// CardIds.AncientReflectionsTavernBrawl,
-	CardIds.BagOfStuffingTavernBrawl,
+	// CardIds.BagOfStuffingTavernBrawl,
 	CardIds.Questionquestionquestion_BlackSoulstoneTavernBrawl,
 	CardIds.BladeOfTheBurningSun,
 	CardIds.GnomishArmyKnife_DALA_702,

@@ -2279,4 +2279,6 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.WorgenRoadie]: [CardIds.WorgenRoadie_InstrumentCaseToken],
 	[CardIds.PozzikAudioEngineer]: [CardIds.PozzikAudioEngineer_AudioBotToken],
 	[CardIds.LifeFromDeath]: [CardIds.LifeFromDeath_LifeFromDeathToken],
+	[CardIds.RimeSculptorCore_RLK_752]: [CardIds.RimeElementalCoreToken_RLK_907t],
+	[CardIds.FrostwyrmsFury_RLK_063]: [CardIds.FrostwyrmsFury_FrostwyrmToken_RLK_063t],
 };
