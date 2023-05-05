@@ -1456,6 +1456,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.AnodizedRoboCub]: [CardIds.AnodizedRoboCub_AttackMode, CardIds.AnodizedRoboCub_TankMode],
 	[CardIds.GnomishExperimenter]: [CardIds.GnomishExperimenter_ChickenToken],
 	[CardIds.MusterForBattle_GVG_061]: [CardIds.SilverHandRecruitLegacyToken, CardIds.LightsJusticeLegacy_CS2_091],
+	[CardIds.MusterForBattle_CORE_GVG_061]: [CardIds.SilverHandRecruitLegacyToken, CardIds.LightsJusticeLegacy_CS2_091],
 	[CardIds.ImpLosion]: [CardIds.ImpLosion_ImpToken],
 	[CardIds.DruidOfTheFang]: [CardIds.DruidOfTheFang_DruidOfTheFangToken],
 	[CardIds.MimironsHead]: [CardIds.MimironsHead_V07Tr0nToken],
@@ -1552,6 +1553,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.CrudCaretaker]: [CardIds.CrudCaretaker_UntreatedFilthToken],
 	[CardIds.CarvingChisel]: TOTEMS,
 	[CardIds.PartyFavorTotem]: [CardIds.PartyFavorTotem_PartyFavorTotemToken, ...TOTEMS],
+	[CardIds.PartyFavorTotem_PartyFavorTotemToken]: TOTEMS,
 	[CardIds.ConvincingDisguise]: [CardIds.ConvincingDisguise_ConvincingDisguiseToken],
 	[CardIds.Kidnap_REV_828]: [CardIds.Kidnap_KidnappersSackToken],
 	[CardIds.StickySituation]: [CardIds.StickySituation_TombCrawlerToken],
@@ -2263,8 +2265,6 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.JiveInsect]: [CardIds.RagnarosTheFirelord_CORE_EX1_298],
 	[CardIds.CrazedConductor]: [CardIds.CrazedConductor_OrchestralImpToken],
 	[CardIds.SymphonyOfSins]: [
-		CardIds.SymphonyOfSins_SinphonicEnchantment,
-		CardIds.SymphonyOfSins_EndlessAppetiteEnchantment,
 		CardIds.SymphonyOfSins_MovementOfEnvyToken,
 		CardIds.SymphonyOfSins_MovementOfPrideToken,
 		CardIds.SymphonyOfSins_MovementOfWrathToken,
@@ -2281,4 +2281,6 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.LifeFromDeath]: [CardIds.LifeFromDeath_LifeFromDeathToken],
 	[CardIds.RimeSculptorCore_RLK_752]: [CardIds.RimeElementalCoreToken_RLK_907t],
 	[CardIds.FrostwyrmsFury_RLK_063]: [CardIds.FrostwyrmsFury_FrostwyrmToken_RLK_063t],
+	[CardIds.CosmicKeyboard]: [CardIds.CosmicKeyboard_CosmicCreationToken],
+	[CardIds.NightshadeBud]: [CardIds.NightshadeBud_MoonlightBlossomToken, CardIds.NightshadeBud_SunlightBlossomToken],
 };
