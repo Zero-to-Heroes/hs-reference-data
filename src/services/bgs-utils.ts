@@ -203,11 +203,11 @@ export const getReferenceTribeCardId = (tribe: string | Race): string => {
 	switch (tribe) {
 		case 'mech':
 		case Race.MECH:
-			referenceCardId = CardIds.Pupbot;
+			referenceCardId = CardIds.DeflectOBot;
 			break;
 		case 'beast':
 		case Race.BEAST:
-			referenceCardId = CardIds.Alleycat_BG_CFM_315;
+			referenceCardId = CardIds.MamaBear;
 			break;
 		case 'demon':
 		case Race.DEMON:
@@ -215,7 +215,7 @@ export const getReferenceTribeCardId = (tribe: string | Race): string => {
 			break;
 		case 'dragon':
 		case Race.DRAGON:
-			referenceCardId = CardIds.RedWhelp;
+			referenceCardId = CardIds.KalecgosArcaneAspect;
 			break;
 		case 'murloc':
 		case Race.MURLOC:
@@ -460,6 +460,8 @@ export const getHeroPower = (
 			return CardIds.TeronGorefiend_RapidReanimation;
 		case CardIds.ETCBandManager_BG25_HERO_105:
 			return CardIds.ETCBandManager_SignANewArtist;
+		case CardIds.RockMasterVoone_BG26_HERO_104:
+			return CardIds.RockMasterVoone_UpbeatHarmony;
 
 		case '':
 			return null; // new heroes
