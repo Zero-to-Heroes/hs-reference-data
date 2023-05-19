@@ -2283,4 +2283,9 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.FrostwyrmsFury_RLK_063]: [CardIds.FrostwyrmsFury_FrostwyrmToken_RLK_063t],
 	[CardIds.CosmicKeyboard]: [CardIds.CosmicKeyboard_CosmicCreationToken],
 	[CardIds.NightshadeBud]: [CardIds.NightshadeBud_MoonlightBlossomToken, CardIds.NightshadeBud_SunlightBlossomToken],
+	[CardIds.BattlefieldNecromancerCore_RLK_061]: [CardIds.BattlefieldNecromancer_RisenFootmanCoreToken_RLK_061t],
+	[CardIds.GraveyardShiftCore_RLK_705]: [CardIds.GraveyardShift_ShamblingZombieCoreToken_RLK_705t],
+	[CardIds.LordMarrowgarCore]: [CardIds.LordMarrowgar_RisenGolemCoreToken],
+	[CardIds.LordMarrowgar]: [CardIds.LordMarrowgar_RisenGolemCoreToken],
+	[CardIds.HarvestTimeTavernBrawl]: [CardIds.LivingRoots_SaplingToken],
 };

@@ -18,7 +18,7 @@ export const duelsPassivePool1 = [
 	CardIds.CrystalGemTavernBrawl,
 	CardIds.DivineIlluminationTavernBrawl,
 	CardIds.DragonbloodTavernBrawl,
-	// CardIds.DragonAffinityTavernBrawl,
+	CardIds.DragonAffinityTavernBrawl,
 	CardIds.EdgeOfDredgeTavernBrawl,
 	// CardIds.EverChangingElixirTavernBrawl,
 	CardIds.FirekeepersIdolTavernBrawl,
