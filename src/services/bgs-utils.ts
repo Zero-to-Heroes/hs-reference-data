@@ -57,6 +57,22 @@ export const NON_BUYABLE_MINION_IDS = [
 	// 25.2
 	CardIds.HandlessForsaken_HelpingHandToken,
 	CardIds.HandlessForsaken_HelpingHandTokenBattlegrounds,
+	CardIds.GeneralDrakkisath_SmolderwingToken,
+	CardIds.GeneralDrakkisath_SmolderwingTokenBattlegrounds,
+	CardIds.MechaJaraxxus_RustedReggieToken,
+	CardIds.MechaJaraxxus_MagtheridonPrimeToken,
+	CardIds.MechaJaraxxus_BaltharakToken,
+	CardIds.RustedReggieBattlegrounds,
+	CardIds.MagtheridonPrimeBattlegrounds,
+	CardIds.BaltharakBattlegrounds,
+	CardIds.ShudderskullBattlegrounds_TB_BaconShop_HP_022t_SKIN_C,
+	CardIds.ShudderskullBattlegrounds_TB_BaconShop_HP_022t_SKIN_C_G,
+	CardIds.OzumatsTentacle_BG23_HERO_201pt_SKIN_A,
+	CardIds.OzumatsTentacle_BG23_HERO_201pt_SKIN_A_G,
+	// 26.2
+	CardIds.Manasaber_CublingToken,
+	CardIds.Manasaber_CublingTokenBattlegrounds,
+	CardIds.TentacleOfOctosariTokenBattlegrounds,
 ];
 
 export const NON_DISCOVERABLE_BUDDIES = [
