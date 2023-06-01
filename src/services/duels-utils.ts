@@ -165,7 +165,7 @@ export const duelsActivePool1 = [
 	CardIds.SuperchargeTavernBrawl,
 	CardIds.SurlyMobTavernBrawl,
 	CardIds.TheExorcisorTavernBrawl,
-	CardIds.TheStoneOfJordanTavernBrawl,
+	CardIds.TheStoneOfJordanTavernBrawlToken,
 	CardIds.VampiricFangsToken,
 	CardIds.WorshipperHeroic,
 ];
@@ -178,7 +178,7 @@ export const duelsActivePool2 = [
 	CardIds.HyperblasterTavernBrawl,
 	// CardIds.AncientReflectionsTavernBrawl,
 	// CardIds.BagOfStuffingTavernBrawl,
-	CardIds.Questionquestionquestion_BlackSoulstoneTavernBrawl,
+	CardIds.BlackSoulstoneTavernBrawl,
 	CardIds.BladeOfTheBurningSun,
 	CardIds.GnomishArmyKnife_DALA_702,
 	CardIds.BananaSplitTavernBrawl,
@@ -568,7 +568,7 @@ export const duelsHeroConfigs = [
 		],
 	},
 	{
-		hero: CardIds.DiabloTavernBrawl,
+		hero: CardIds.DiabloTavernBrawl_PVPDR_Hero_Diablo,
 		heroPowers: [
 			CardIds.DoomChargeTavernBrawl,
 			CardIds.PrimalPowerTavernBrawl,
@@ -580,8 +580,7 @@ export const duelsHeroConfigs = [
 			CardIds.ApocalypseTavernBrawlToken,
 			CardIds.SoulstoneTrapTavernBrawlToken,
 			CardIds.HornsOfFlameTavernBrawlToken,
-			CardIds.QuestionquestionquestionTavernBrawlToken,
-			CardIds.JourneyToTheEast,
+			CardIds.JourneyToTheEastTavernBrawlToken,
 		],
 	},
 ];

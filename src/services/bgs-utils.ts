@@ -262,7 +262,7 @@ export const getReferenceTribeCardId = (tribe: string | Race): string => {
 			referenceCardId = CardIds.Amalgadon;
 			break;
 		default:
-			referenceCardId = CardIds.TavernTipper;
+			referenceCardId = CardIds.PatientScout;
 			break;
 	}
 	return referenceCardId;
@@ -422,8 +422,6 @@ export const getHeroPower = (
 			return CardIds.MasterNguyen_PowerOfTheStorm;
 		case CardIds.CarielRoame_BG21_HERO_000:
 			return CardIds.CarielRoame_ConvictionRank1;
-		case CardIds.Diablo:
-			return CardIds.Diablo_RealmOfTerror;
 		case CardIds.Sneed_BG21_HERO_030:
 			return CardIds.Sneed_SneedsReplicator;
 		case CardIds.CookieTheCook_BG21_HERO_020:
@@ -478,12 +476,12 @@ export const getHeroPower = (
 			return CardIds.ETCBandManager_SignANewArtist;
 		case CardIds.RockMasterVoone_BG26_HERO_104:
 			return CardIds.RockMasterVoone_UpbeatHarmony;
-		case CardIds.IngeThIronHymn_BG26:
-			return CardIds.IngeThIronHymn_BG26_MajorHymn;
-		case CardIds.CapnHoggar_BG26:
-			return CardIds.ImTheCapnNow;
-		case CardIds.Diablo_BG26:
-			return CardIds.Diablo26_RealmOfTerror;
+		case CardIds.IngeTheIronHymn:
+			return CardIds.IngeTheIronHymn_MajorHymn;
+		case CardIds.CapnHoggarr_BG26_HERO_101:
+			return CardIds.CapnHoggarr_ImTheCapnNow;
+		case CardIds.Diablo:
+			return CardIds.Diablo_RealmOfTerror;
 
 		case '':
 			return null; // new heroes

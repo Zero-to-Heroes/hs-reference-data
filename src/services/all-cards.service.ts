@@ -338,12 +338,24 @@ export const getBaseCardId = (cardId: string): string => {
 		case CardIds.RemixedDispenseOBot_MoneyDispenseOBotToken:
 		case CardIds.RemixedDispenseOBot_MysteryDispenseOBotToken:
 			return CardIds.RemixedDispenseOBot;
-		case CardIds.RemixedRhapsody_RemixedRhapsodyToken:
+		case CardIds.RemixedRhapsody_AngstyRhapsodyToken:
+		case CardIds.RemixedRhapsody_ResoundingRhapsodyToken:
+		case CardIds.RemixedRhapsody_EmotionalRhapsodyToken:
+		case CardIds.RemixedRhapsody_WailingRhapsodyToken:
 			return CardIds.RemixedRhapsody;
-		case CardIds.RemixedTotemcarver_RemixedTotemcarverToken:
+		case CardIds.RemixedTotemcarver_LoudTotemcarverToken:
+		case CardIds.RemixedTotemcarver_BluesyTotemcarverToken:
+		case CardIds.RemixedTotemcarver_BlazingTotemcarverToken:
+		case CardIds.RemixedTotemcarver_KaraokeTotemcarverToken:
 			return CardIds.RemixedTotemcarver;
-		case CardIds.RemixedMusician_Token:
+		case CardIds.RemixedMusician_CathedralMusicianToken:
+		case CardIds.RemixedMusician_TropicalMusicianToken:
+		case CardIds.RemixedMusician_RomanticMusicianToken:
+		case CardIds.RemixedMusician_NoiseMusicianToken:
 			return CardIds.RemixedMusician;
+		case CardIds.RemixedTuningFork_SharpenedTuningForkToken:
+		case CardIds.RemixedTuningFork_ReinforcedTuningForkToken:
+		case CardIds.RemixedTuningFork_CurvedTuningForkToken:
 		case CardIds.RemixedTuningFork_BackupTuningForkToken:
 			return CardIds.RemixedTuningFork;
 	}
