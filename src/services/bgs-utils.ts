@@ -478,6 +478,12 @@ export const getHeroPower = (
 			return CardIds.ETCBandManager_SignANewArtist;
 		case CardIds.RockMasterVoone_BG26_HERO_104:
 			return CardIds.RockMasterVoone_UpbeatHarmony;
+		case CardIds.IngeThIronHymn_BG26:
+			return CardIds.IngeThIronHymn_BG26_MajorHymn;
+		case CardIds.CapnHoggar_BG26:
+			return CardIds.ImTheCapnNow;
+		case CardIds.Diablo_BG26:
+			return CardIds.Diablo26_RealmOfTerror;
 
 		case '':
 			return null; // new heroes

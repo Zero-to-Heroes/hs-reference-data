@@ -14,9 +14,15 @@ export const standardSets: readonly string[] = [
 	'path_of_arthas',
 	'return_to_naxxramas',
 	'battle_of_the_bands',
+	'audiopocalypse',
 ];
 
 export const sets: readonly ReferenceSet[] = [
+	{
+		id: 'audiopocalypse',
+		name: `Audiopocalypse`,
+		launchDate: new Date('2023-05-31'),
+	},
 	{
 		id: 'battle_of_the_bands',
 		name: `Battle of the Bands`,

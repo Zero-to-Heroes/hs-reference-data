@@ -331,6 +331,21 @@ export const getBaseCardId = (cardId: string): string => {
 			return CardIds.TotemicEvidence_TotemicEvidenceToken;
 		case CardIds.SylvanasTheAccused:
 			return CardIds.SylvanasTheAccused_SylvanasTheAccusedToken;
+
+		// Remixed
+		case CardIds.RemixedDispenseOBot_ChillingDispenseOBotToken:
+		case CardIds.RemixedDispenseOBot_MerchDispenseOBotToken:
+		case CardIds.RemixedDispenseOBot_MoneyDispenseOBotToken:
+		case CardIds.RemixedDispenseOBot_MysteryDispenseOBotToken:
+			return CardIds.RemixedDispenseOBot;
+		case CardIds.RemixedRhapsody_RemixedRhapsodyToken:
+			return CardIds.RemixedRhapsody;
+		case CardIds.RemixedTotemcarver_RemixedTotemcarverToken:
+			return CardIds.RemixedTotemcarver;
+		case CardIds.RemixedMusician_Token:
+			return CardIds.RemixedMusician;
+		case CardIds.RemixedTuningFork_BackupTuningForkToken:
+			return CardIds.RemixedTuningFork;
 	}
 
 	// Transfer Student should be handled on a case by case basis

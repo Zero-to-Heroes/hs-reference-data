@@ -2288,4 +2288,12 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.LordMarrowgarCore]: [CardIds.LordMarrowgar_RisenGolemCoreToken],
 	[CardIds.LordMarrowgar]: [CardIds.LordMarrowgar_RisenGolemCoreToken],
 	[CardIds.HarvestTimeTavernBrawl]: [CardIds.LivingRoots_SaplingToken],
+	[CardIds.RemixedDispenseOBot]: [CardIds.RemixedDispenseOBot_Token1],
+	[CardIds.RemixedRhapsody]: [CardIds.RemixedDispenseOBot_Token1, CardIds.WailingFanatic],
+	[CardIds.PopularPixie]: [CardIds.],
+	[CardIds.JukeboxTotem]: [CardIds.SilverHandRecruitLegacyToken],
+	[CardIds.Fanboy]: [CardIds.],
+	[CardIds.RemixedMusician]: [CardIds.],
+	[CardIds.RemixedTuningFork]: [CardIds.],
+	[CardIds.RemixedTotemcarver]: [CardIds., CardIds.FlametongueTotemLegacy, CardIds.ManaTideTotemLegacy, CardIds.JukeboxTotem, CardIds.StereoTotem],
 };

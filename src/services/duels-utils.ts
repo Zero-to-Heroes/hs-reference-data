@@ -165,6 +165,7 @@ export const duelsActivePool1 = [
 	CardIds.SuperchargeTavernBrawl,
 	CardIds.SurlyMobTavernBrawl,
 	CardIds.TheExorcisorTavernBrawl,
+	CardIds.TheStoneOfJordanTavernBrawl,
 	CardIds.VampiricFangsToken,
 	CardIds.WorshipperHeroic,
 ];
@@ -400,22 +401,6 @@ export const duelsHeroConfigs = [
 			CardIds.JorasThuldoomTavernBrawl,
 		],
 	},
-	// {
-	// 	hero: CardIds.DiabloTavernBrawl,
-	// 	heroPowers: [
-	// 		CardIds.DoomChargeTavernBrawl,
-	// 		CardIds.PrimalPowerTavernBrawl,
-	// 		CardIds.DemonicTransformationTavernBrawl,
-	// 	],
-	// 	signatureTreasures: [
-	// 		CardIds.ClawsOfTerrorTavernBrawlToken,
-	// 		CardIds.FireStompTavernBrawlToken,
-	// 		CardIds.ApocalypseTavernBrawlToken,
-	// 		CardIds.SoulstoneTrapTavernBrawlToken,
-	// 		CardIds.HornsOfFlameTavernBrawlToken,
-	// 		CardIds.QuestionquestionquestionTavernBrawlToken,
-	// 	],
-	// },
 	{
 		hero: CardIds.RattlegoreTavernBrawl,
 		heroClasses: [CardClass.WARRIOR],
@@ -580,6 +565,23 @@ export const duelsHeroConfigs = [
 			CardIds.IronweaveBloodletterTavernBrawl,
 			CardIds.GreatswordOfTheEbonBladeTavernBrawl,
 			CardIds.ContagionConcoctionTavernBrawl,
+		],
+	},
+	{
+		hero: CardIds.DiabloTavernBrawl,
+		heroPowers: [
+			CardIds.DoomChargeTavernBrawl,
+			CardIds.PrimalPowerTavernBrawl,
+			CardIds.DemonicTransformationTavernBrawl,
+		],
+		signatureTreasures: [
+			CardIds.ClawsOfTerrorTavernBrawlToken,
+			CardIds.FireStompTavernBrawlToken,
+			CardIds.ApocalypseTavernBrawlToken,
+			CardIds.SoulstoneTrapTavernBrawlToken,
+			CardIds.HornsOfFlameTavernBrawlToken,
+			CardIds.QuestionquestionquestionTavernBrawlToken,
+			CardIds.JourneyToTheEast,
 		],
 	},
 ];
