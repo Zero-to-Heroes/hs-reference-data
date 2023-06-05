@@ -20,6 +20,8 @@ export const NON_BUYABLE_MINION_IDS = [
 	CardIds.CuddlgamBattlegrounds_TB_BaconShop_HP_033t_SKIN_A_G,
 	CardIds.AbominableAmalgamBattlegrounds_TB_BaconShop_HP_033t_SKIN_D,
 	CardIds.AbominableAmalgamBattlegrounds_TB_BaconShop_HP_033t_SKIN_D_G,
+	CardIds.BookEatingAmalgamBattlegrounds_TB_BaconShop_HP_033t_SKIN_B,
+	CardIds.BookEatingAmalgamBattlegrounds_TB_BaconShop_HP_033t_SKIN_B_G,
 	CardIds.ArgentBraggart_BG_SCH_149,
 	CardIds.ArgentBraggartBattlegrounds,
 	CardIds.AvatarOfNzoth_FishOfNzothTokenBattlegrounds,
