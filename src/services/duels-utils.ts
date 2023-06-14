@@ -1,5 +1,5 @@
 import { CardIds } from '../card-ids';
-import { CardClass, GameTag, ReferenceCard } from '../public-api';
+import { GameTag, ReferenceCard } from '../public-api';
 
 export const duelsPassivePool1 = [
 	CardIds.AllShallServeTavernBrawl,
@@ -262,7 +262,7 @@ export const normalizeDuelsHeroCardId = (heroCardId: string): string => {
 export const duelsHeroConfigs = [
 	{
 		hero: CardIds.StarStudentStelinaTavernBrawl,
-		heroClasses: [CardClass.DEMONHUNTER],
+		// heroClasses: [CardClass.DEMONHUNTER],
 		heroPowers: [
 			CardIds.InfernalStrikeTavernBrawl,
 			CardIds.OutlanderTavernBrawl,
@@ -279,7 +279,7 @@ export const duelsHeroConfigs = [
 	},
 	{
 		hero: CardIds.ForestWardenOmuTavernBrawl,
-		heroClasses: [CardClass.DRUID],
+		// heroClasses: [CardClass.DRUID],
 		heroPowers: [
 			CardIds.NaturesGiftsTavernBrawl,
 			CardIds.InvigoratingBloomTavernBrawl,
@@ -296,7 +296,7 @@ export const duelsHeroConfigs = [
 	},
 	{
 		hero: CardIds.ProfessorSlateTavernBrawl,
-		heroClasses: [CardClass.HUNTER],
+		// heroClasses: [CardClass.HUNTER],
 		heroPowers: [
 			CardIds.SurvivalTrainingTavernBrawl,
 			CardIds.DeathGamesTavernBrawl,
@@ -313,7 +313,7 @@ export const duelsHeroConfigs = [
 	},
 	{
 		hero: CardIds.MozakiMasterDuelistTavernBrawl,
-		heroClasses: [CardClass.MAGE],
+		// heroClasses: [CardClass.MAGE],
 		heroPowers: [CardIds.WyrmBoltTavernBrawl, CardIds.SecretStudiesTavernBrawl, CardIds.FrostShardsTavernBrawl],
 		signatureTreasures: [
 			CardIds.WandOfDuelingTavernBrawlToken,
@@ -326,7 +326,7 @@ export const duelsHeroConfigs = [
 	},
 	{
 		hero: CardIds.TuralyonTheTenuredTavernBrawl,
-		heroClasses: [CardClass.PALADIN],
+		// heroClasses: [CardClass.PALADIN],
 		heroPowers: [
 			CardIds.FromGoldenLightTavernBrawl,
 			CardIds.BringOnRecruitsTavernBrawl,
@@ -343,7 +343,7 @@ export const duelsHeroConfigs = [
 	},
 	{
 		hero: CardIds.MindrenderIlluciaTavernBrawl,
-		heroClasses: [CardClass.PRIEST],
+		// heroClasses: [CardClass.PRIEST],
 		heroPowers: [CardIds.ShadowMendTavernBrawl, CardIds.MindTetherTavernBrawl, CardIds.CallOfMadnessTavernBrawl],
 		signatureTreasures: [
 			CardIds.FracturedSpiritsTavernBrawlToken,
@@ -356,7 +356,7 @@ export const duelsHeroConfigs = [
 	},
 	{
 		hero: CardIds.InfiltratorLilianTavernBrawl,
-		heroClasses: [CardClass.ROGUE],
+		// heroClasses: [CardClass.ROGUE],
 		heroPowers: [
 			CardIds.RoguishManeuversTavernBrawl,
 			CardIds.ConnectionsTavernBrawl,
@@ -373,7 +373,7 @@ export const duelsHeroConfigs = [
 	},
 	{
 		hero: CardIds.InstructorFireheartTavernBrawlToken,
-		heroClasses: [CardClass.SHAMAN],
+		// heroClasses: [CardClass.SHAMAN],
 		heroPowers: [
 			CardIds.StormcatcherTavernBrawl,
 			CardIds.TotemicPowerTavernBrawl,
@@ -390,7 +390,7 @@ export const duelsHeroConfigs = [
 	},
 	{
 		hero: CardIds.ArchwitchWillowTavernBrawl,
-		heroClasses: [CardClass.WARLOCK],
+		// heroClasses: [CardClass.WARLOCK],
 		heroPowers: [CardIds.DarkArtsTavernBrawl, CardIds.DemonBloodTavernBrawl, CardIds.SoulcialStudiesTavernBrawl],
 		signatureTreasures: [
 			CardIds.ImpishAidTavernBrawl,
@@ -403,7 +403,7 @@ export const duelsHeroConfigs = [
 	},
 	{
 		hero: CardIds.RattlegoreTavernBrawl,
-		heroClasses: [CardClass.WARRIOR],
+		// heroClasses: [CardClass.WARRIOR],
 		heroPowers: [CardIds.NoGutsNoGloryTavernBrawl, CardIds.BruisingTavernBrawl, CardIds.MagneticMinesTavernBrawl],
 		signatureTreasures: [
 			CardIds.AutoArmamentsTavernBrawlToken,
@@ -458,7 +458,7 @@ export const duelsHeroConfigs = [
 	},
 	{
 		hero: CardIds.RenoJacksonTavernBrawl_PVPDR_Hero_Reno,
-		heroClasses: [CardClass.MAGE, CardClass.ROGUE],
+		// heroClasses: [CardClass.MAGE, CardClass.ROGUE],
 		heroPowers: [
 			CardIds.AmateurMageTavernBrawl,
 			CardIds.RelicologistTavernBrawl,
@@ -475,7 +475,7 @@ export const duelsHeroConfigs = [
 	},
 	{
 		hero: CardIds.SirFinleyTavernBrawl_PVPDR_Hero_Finley,
-		heroClasses: [CardClass.PALADIN, CardClass.SHAMAN],
+		// heroClasses: [CardClass.PALADIN, CardClass.SHAMAN],
 		heroPowers: [
 			CardIds.NewRecruitsTavernBrawl,
 			CardIds.BubbleBlowerTavernBrawl,
@@ -492,7 +492,7 @@ export const duelsHeroConfigs = [
 	},
 	{
 		hero: CardIds.EliseStarseekerTavernBrawl_PVPDR_Hero_Elise,
-		heroClasses: [CardClass.DRUID, CardClass.PRIEST],
+		// heroClasses: [CardClass.DRUID, CardClass.PRIEST],
 		heroPowers: [CardIds.ElisesMightTavernBrawl, CardIds.DruidicTeachingTavernBrawl, CardIds.StarseekerTavernBrawl],
 		signatureTreasures: [
 			CardIds.StarseekersToolsTavernBrawl,
@@ -505,7 +505,7 @@ export const duelsHeroConfigs = [
 	},
 	{
 		hero: CardIds.BrannBronzebeardTavernBrawl_PVPDR_Hero_Brann,
-		heroClasses: [CardClass.HUNTER, CardClass.WARRIOR],
+		// heroClasses: [CardClass.HUNTER, CardClass.WARRIOR],
 		heroPowers: [
 			CardIds.SpreadShotTavernBrawl,
 			CardIds.WellEquippedTavernBrawl_PVPDR_Brann_HP2,
@@ -522,7 +522,7 @@ export const duelsHeroConfigs = [
 	},
 	{
 		hero: CardIds.DariusCrowleyTavernBrawl,
-		heroClasses: [CardClass.WARRIOR],
+		// heroClasses: [CardClass.WARRIOR],
 		heroPowers: [
 			CardIds.FireTavernBrawl_PVPDR_Darius_P1,
 			CardIds.FireAwayTavernBrawl,
@@ -539,7 +539,7 @@ export const duelsHeroConfigs = [
 	},
 	{
 		hero: CardIds.SaiShadestormTavernBrawl,
-		heroClasses: [CardClass.DEATHKNIGHT],
+		// heroClasses: [CardClass.DEATHKNIGHT],
 		heroPowers: [
 			CardIds.GhoulBlitzTavernBrawl,
 			CardIds.GatheringStormTavernBrawl,
@@ -556,7 +556,7 @@ export const duelsHeroConfigs = [
 	},
 	{
 		hero: CardIds.ScarletLeafdancerTavernBrawlToken,
-		heroClasses: [CardClass.DEATHKNIGHT],
+		// heroClasses: [CardClass.DEATHKNIGHT],
 		heroPowers: [CardIds.BloodParasiteTavernBrawl, CardIds.HematologyTavernBrawl, CardIds.ScourgingTavernBrawl],
 		signatureTreasures: [
 			CardIds.RunedSoulbladeTavernBrawl,
