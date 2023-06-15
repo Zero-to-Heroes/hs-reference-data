@@ -2429,4 +2429,5 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.JuryDuty]: [CardIds.SilverHandRecruitLegacyToken],
 	[CardIds.LothraxionTheRedeemed]: [CardIds.SilverHandRecruitLegacyToken],
 	[CardIds.LothraxionTheRedeemedCore]: [CardIds.SilverHandRecruitLegacyToken],
+	[CardIds.EliteTaurenChampion]: [CardIds.EliteTaurenChampion_MoltenPickOfRockToken],
 };

@@ -6,8 +6,10 @@ export interface ReferenceCard {
 	readonly dbfId: number;
 	readonly name: string;
 	readonly set: string;
-	readonly playerClass: ReferencePlayerClass;
 	readonly classes?: readonly string[];
+	/** @deprecated */
+	readonly playerClass: ReferencePlayerClass;
+	/** @deprecated */
 	readonly cardClass: string;
 	readonly cost?: number;
 	readonly additionalCosts?: {
