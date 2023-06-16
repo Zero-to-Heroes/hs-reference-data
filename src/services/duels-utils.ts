@@ -84,7 +84,7 @@ export const duelsPassivePool2 = [
 	CardIds.GreedyGainsTavernBrawl,
 	CardIds.GuardianLightTavernBrawl,
 	CardIds.HagathasEmbraceTavernBrawl,
-	CardIds.HeavyArmorTavernBrawl,
+	// CardIds.HeavyArmorTavernBrawl,
 	CardIds.IdolsOfEluneTavernBrawl,
 	CardIds.ImpCredibleTrousersTavernBrawl,
 	CardIds.IronRootsTavernBrawl,
