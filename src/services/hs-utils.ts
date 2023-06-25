@@ -9,6 +9,8 @@ export const formatFormat = (format: GameFormat): GameFormatString => {
 			return 'standard';
 		case GameFormat.FT_CLASSIC:
 			return 'classic';
+		case GameFormat.FT_TWIST:
+			return 'twist';
 		case GameFormat.FT_WILD:
 		default:
 			return 'wild';
