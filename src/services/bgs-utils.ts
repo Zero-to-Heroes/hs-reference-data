@@ -282,11 +282,11 @@ export const getHeroPower = (
 			return 'TB_BaconShop_HP_011';
 		case 'TB_BaconShop_HERO_08':
 			return 'TB_BaconShop_HP_069';
-		case CardIds.RagnarosTheFirelordBattlegrounds:
+		case CardIds.RagnarosTheFirelordBattlegrounds_TB_BaconShop_HERO_11:
 			return CardIds.DieInsectsBattlegrounds_TB_BaconShop_HP_087;
 		case 'TB_BaconShop_HERO_12':
 			return 'TB_BaconShop_HP_041';
-		case CardIds.QueenWagtoggleBattlegrounds:
+		case CardIds.QueenWagtoggleBattlegrounds_TB_BaconShop_HERO_14:
 			return CardIds.WaxWarbandBattlegrounds;
 		case 'TB_BaconShop_HERO_15':
 			return 'TB_BaconShop_HP_010';
@@ -418,12 +418,12 @@ export const getHeroPower = (
 			return CardIds.KurtrusAshfallen_FinalShowdown;
 		case CardIds.Galewing:
 			return CardIds.Galewing_DungarsGryphon;
-		case CardIds.TradePrinceGallywixBattlegrounds:
+		case CardIds.TradePrinceGallywixBattlegrounds_TB_BaconShop_HERO_10:
 			return CardIds.SmartSavingsBattlegrounds;
 		case CardIds.MasterNguyen:
 			return CardIds.MasterNguyen_PowerOfTheStorm;
 		case CardIds.CarielRoame_BG21_HERO_000:
-			return CardIds.CarielRoame_ConvictionRank1;
+			return CardIds.CarielRoame_Conviction;
 		case CardIds.Sneed_BG21_HERO_030:
 			return CardIds.Sneed_SneedsReplicator;
 		case CardIds.CookieTheCook_BG21_HERO_020:

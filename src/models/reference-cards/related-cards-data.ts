@@ -2257,7 +2257,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.MisterMukla]: [CardIds.KingMukla_BananasLegacyToken],
 	[CardIds.KeyboardSoloist]: [CardIds.KeyboardSoloist_KeyboardAmplifierToken],
 	[CardIds.Spotlight]: [CardIds.Spotlight_LivingSpotlightToken],
-	[CardIds.AnnoyOTroupe]: [CardIds.AnnoyOTronCore],
+	[CardIds.AnnoyOTroupe_ETC_321]: [CardIds.AnnoyOTronCore],
 	[CardIds.HarmonicPop]: [CardIds.HarmonicPop_DissonantPopToken, CardIds.HarmonicPop_PopstarToken],
 	[CardIds.HarmonicPop_DissonantPopToken]: [CardIds.HarmonicPop, CardIds.HarmonicPop_PopstarToken],
 	[CardIds.HarmonicDisco]: [CardIds.HarmonicDisco_DissonantDiscoToken],
