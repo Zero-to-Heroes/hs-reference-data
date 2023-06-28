@@ -2249,11 +2249,21 @@ export const RELATED_CARDS_DATA: {
 		CardIds.BunchOfBananas_BunchOfBananasToken_ETC_201t,
 		CardIds.BunchOfBananas_BunchOfBananasToken_ETC_201t2,
 	],
+	[CardIds.BunchOfBananas_BunchOfBananasToken_ETC_201t]: [
+		CardIds.KingMukla_BananasLegacyToken,
+		CardIds.BunchOfBananas_BunchOfBananasToken_ETC_201t2,
+	],
+	[CardIds.BunchOfBananas_BunchOfBananasToken_ETC_201t2]: [CardIds.KingMukla_BananasLegacyToken],
 	[CardIds.BarrelOfMonkeys]: [
 		CardIds.SilverbackPatriarchLegacy,
 		CardIds.BarrelOfMonkeys_BarrelOfMonkeysToken_ETC_207t,
 		CardIds.BarrelOfMonkeys_BarrelOfMonkeysToken_ETC_207t2,
 	],
+	[CardIds.BarrelOfMonkeys_BarrelOfMonkeysToken_ETC_207t]: [
+		CardIds.SilverbackPatriarchLegacy,
+		CardIds.BarrelOfMonkeys_BarrelOfMonkeysToken_ETC_207t2,
+	],
+	[CardIds.BarrelOfMonkeys_BarrelOfMonkeysToken_ETC_207t2]: [CardIds.SilverbackPatriarchLegacy],
 	[CardIds.MisterMukla]: [CardIds.KingMukla_BananasLegacyToken],
 	[CardIds.KeyboardSoloist]: [CardIds.KeyboardSoloist_KeyboardAmplifierToken],
 	[CardIds.Spotlight]: [CardIds.Spotlight_LivingSpotlightToken],
