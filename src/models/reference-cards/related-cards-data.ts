@@ -2453,4 +2453,6 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.KelthuzadTheInevitable_REV_514]: [CardIds.VolatileSkeleton],
 	[CardIds.KelthuzadTheInevitable_REV_786]: [CardIds.VolatileSkeleton],
 	[CardIds.PotionOfPolymorph]: [CardIds.MassPolymorph_SheepToken],
+	[CardIds.FlurryRank1]: [CardIds.FlurryRank1_FlurryRank2Token, CardIds.FlurryRank1_FlurryRank2Token],
+	[CardIds.FlurryRank1_FlurryRank2Token]: [CardIds.FlurryRank1_FlurryRank2Token],
 };
