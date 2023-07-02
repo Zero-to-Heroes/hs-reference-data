@@ -4,20 +4,6 @@ export interface ReferenceSet {
 	readonly launchDate: Date;
 }
 
-export const standardSets: readonly string[] = [
-	'core',
-	'the_sunken_city',
-	'throne_of_tides',
-	'revendreth',
-	'maw_and_disorder',
-	'return_of_the_lich_king',
-	'path_of_arthas',
-	'return_to_naxxramas',
-	'battle_of_the_bands',
-	'audiopocalypse',
-	'titans',
-];
-
 export const sets: readonly ReferenceSet[] = [
 	{
 		id: 'titans',
@@ -240,3 +226,92 @@ export const sets: readonly ReferenceSet[] = [
 		launchDate: new Date('2021-03-30'),
 	},
 ];
+
+export const standardSets: readonly string[] = [
+	'core',
+	'the_sunken_city',
+	'throne_of_tides',
+	'revendreth',
+	'maw_and_disorder',
+	'return_of_the_lich_king',
+	'path_of_arthas',
+	'return_to_naxxramas',
+	'battle_of_the_bands',
+	'audiopocalypse',
+	'titans',
+];
+export const twistSets: readonly string[] = [
+	'core',
+	'demon_hunter_initiate',
+	'ashes_of_outland',
+	'scholomance',
+	'darkmoon_faire',
+	'darkmoon_races',
+	'the_barrens',
+	'wailing_caverns',
+	'stormwind',
+	'deadmines',
+	'alterac_valley',
+	'onyxias_lair',
+	'the_sunken_city',
+	'throne_of_tides',
+	'revendreth',
+	'maw_and_disorder',
+	'return_of_the_lich_king',
+	'path_of_arthas',
+	'return_to_naxxramas',
+	'battle_of_the_bands',
+	'audiopocalypse',
+	'titans',
+];
+// https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
+export const arenaSets: readonly string[] = [
+	'core',
+	'the_sunken_city',
+	'throne_of_tides',
+	'revendreth',
+	'maw_and_disorder',
+	'return_of_the_lich_king',
+	'return_to_naxxramas',
+	'path_of_arthas',
+	'battle_of_the_bands',
+	'audiopocalypse',
+	'titans',
+];
+export const wildSets: readonly string[] = sets.map((s) => s.id);
+export const duelsSets: readonly string[] = [
+	'core',
+	'legacy',
+	'naxx',
+	'gvg',
+	'loe',
+	'og',
+	'kara',
+	'ungoro',
+	'icecrown',
+	'lootapalooza',
+	'gilneas',
+	'uldum',
+	'scholomance',
+	'demon_hunter_initiate',
+	'darkmoon_faire',
+	'darkmoon_races',
+	'the_barrens',
+	'wailing_caverns',
+	'stormwind',
+	'deadmines',
+	'alterac_valley',
+	'onyxias_lair',
+	'the_sunken_city',
+	'throne_of_tides',
+	'revendreth',
+	'maw_and_disorder',
+	'return_of_the_lich_king',
+	'return_to_naxxramas',
+	'path_of_arthas',
+	'battle_of_the_bands',
+	'troll',
+	'titans',
+];
+
+export const vanillaSets: readonly string[] = ['vanilla'];
