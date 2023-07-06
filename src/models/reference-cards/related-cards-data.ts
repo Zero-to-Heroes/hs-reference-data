@@ -710,9 +710,13 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.Magtheridon_BT_850]: [CardIds.Magtheridon_HellfireWarderToken],
 	[CardIds.RustswornCultist]: [CardIds.RustswornCultist_RustedDevilToken],
 	[CardIds.Alar]: [CardIds.Alar_AshesOfAlarToken],
+	[CardIds.Alar_AshesOfAlarToken]: [CardIds.Alar],
 	[CardIds.GlowflySwarm]: [CardIds.GlowflySwarm_GlowflyToken],
 	[CardIds.LibramOfJustice_BT_011]: [CardIds.LibramOfJustice_OverdueJusticeToken],
-	[CardIds.Metamorphosis_BT_429]: [CardIds.Metamorphosis_DemonicBlast_BT_429p],
+	[CardIds.Metamorphosis_BT_429]: [
+		CardIds.Metamorphosis_DemonicBlast_BT_429p,
+		CardIds.Metamorphosis_DemonicBlast_BT_429p2,
+	],
 	[CardIds.Metamorphosis_Story_08_Illidan_005p]: [CardIds.Metamorphosis_DemonicBlast_BT_429p],
 	[CardIds.MetamorphosisCore]: [CardIds.Metamorphosis_DemonicBlast_BT_429p],
 	[CardIds.DragonmawSkyStalker]: [CardIds.DragonmawSkyStalker_DragonriderToken],
@@ -2455,4 +2459,9 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.PotionOfPolymorph]: [CardIds.MassPolymorph_SheepToken],
 	[CardIds.FlurryRank1]: [CardIds.FlurryRank1_FlurryRank2Token, CardIds.FlurryRank1_FlurryRank2Token],
 	[CardIds.FlurryRank1_FlurryRank2Token]: [CardIds.FlurryRank1_FlurryRank2Token],
+	[CardIds.ArchsporeMsshifn_MsshifnPrimeToken]: [
+		CardIds.MsshifnPrime_FungalBruiserToken,
+		CardIds.MsshifnPrime_FungalGargantuanToken,
+		CardIds.MsshifnPrime_FungalGuardianToken,
+	],
 };

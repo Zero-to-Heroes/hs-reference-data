@@ -55,4 +55,5 @@ export * from './services/collection-utils';
 export * from './services/duels-utils';
 export * from './services/hs-utils';
 export * from './services/mercs-utils';
+export * from './services/twist-utils';
 // export * from './services/mercs-utils';
