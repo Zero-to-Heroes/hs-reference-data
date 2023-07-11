@@ -2478,4 +2478,6 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.PoisonTreantToken]: [CardIds.SchoolSpirits_SoulFragmentToken],
 	[CardIds.UnleashedTerrorguard]: [CardIds.SchoolSpirits_SoulFragmentToken],
 	[CardIds.VoidDrinker_Story_09_VoidDrinker]: [CardIds.SchoolSpirits_SoulFragmentToken],
+	[CardIds.SinstoneGraveyard_REV_750]: [CardIds.SinstoneGraveyard_HauntedConscienceToken],
+	[CardIds.SinstoneGraveyard_REV_795]: [CardIds.SinstoneGraveyard_HauntedConscienceToken],
 };
