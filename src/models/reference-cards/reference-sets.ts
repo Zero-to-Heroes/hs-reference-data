@@ -243,7 +243,7 @@ export const standardSets: readonly string[] = [
 export const twistSets: readonly string[] = [
 	'core',
 	'demon_hunter_initiate',
-	'ashes_of_outland',
+	'black_temple',
 	'scholomance',
 	'darkmoon_faire',
 	'darkmoon_races',
