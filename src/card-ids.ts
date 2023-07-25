@@ -25144,7 +25144,7 @@ export const enum CardIds {
 	RunefueledGolem = 'TTN_714',
 	TimeLostProtodrake = 'TTN_715',
 	FlameBehemoth = 'TTN_716',
-	FlameBehemoth_110%EfficiencyEnchantment = 'TTN_716e',
+	FlameBehemoth_110PercentEfficiencyEnchantment = 'TTN_716e',
 	AlgalonTheObserver = 'TTN_717',
 	AlgalonTheObserver_AlgalonsVisionToken = 'TTN_717t',
 	AlgalonTheObserver_ANewRealityToken = 'TTN_717t1',
