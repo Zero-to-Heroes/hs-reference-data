@@ -267,12 +267,11 @@ export const twistSets: readonly string[] = [
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 export const arenaSets: readonly string[] = [
 	'core',
-	'the_sunken_city',
-	'throne_of_tides',
-	'revendreth',
-	'maw_and_disorder',
+	'uldum',
+	'black_temple',
+	'darkmoon_faire',
+	'darkmoon_races',
 	'return_of_the_lich_king',
-	'return_to_naxxramas',
 	'path_of_arthas',
 	'battle_of_the_bands',
 	'audiopocalypse',
@@ -310,6 +309,7 @@ export const duelsSets: readonly string[] = [
 	'return_to_naxxramas',
 	'path_of_arthas',
 	'battle_of_the_bands',
+	'audiopocalypse',
 	'troll',
 	'titans',
 ];

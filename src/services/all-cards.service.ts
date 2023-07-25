@@ -358,6 +358,61 @@ export const getBaseCardId = (cardId: string): string => {
 		case CardIds.RemixedTuningFork_CurvedTuningForkToken:
 		case CardIds.RemixedTuningFork_BackupTuningForkToken:
 			return CardIds.RemixedTuningFork;
+		// Forged
+		case CardIds.BellowingFlames_BellowingFlamesToken:
+			return CardIds.BellowingFlames;
+		case CardIds.ChampionOfStorms_StormCycloneToken2:
+			return CardIds.ChampionOfStorms_StormCycloneToken;
+		case CardIds.CreationProtocol_CreationProtocolToken:
+			return CardIds.CreationProtocol;
+		case CardIds.DiscipleOfSargeras_DiscipleOfSargerasToken:
+			return CardIds.DiscipleOfSargeras;
+		case CardIds.EmbraceOfNature_EmbraceOfNatureToken:
+			return CardIds.EmbraceOfNature;
+		case CardIds.Eulogizer_EulogizerToken:
+			return CardIds.Eulogizer;
+		case CardIds.LabConstructor_LabConstructorToken:
+			return CardIds.LabConstructor;
+		case CardIds.MechagnomeGuide_MechagnomeGuideToken:
+			return CardIds.MechagnomeGuide;
+		case CardIds.MoltenRune_MoltenRuneToken:
+			return CardIds.MoltenRune;
+		case CardIds.StormGiant_StormGiantToken:
+			return CardIds.StormGiant;
+		case CardIds.TitanforgedTrap_TitanforgedTrapToken:
+			return CardIds.TitanforgedTrap;
+		case CardIds.TyrsTear_TyrsTearToken:
+			return CardIds.TyrsTear;
+		case CardIds.WatcherOfTheSun_WatcherOfTheSunToken:
+			return CardIds.WatcherOfTheSun;
+		case CardIds.WeightOfTheWorld_WeightOfTheWorldToken:
+			return CardIds.WeightOfTheWorld;
+		case CardIds.Xb488Disposalbot_Xb488DisposalbotToken:
+			return CardIds.Xb488Disposalbot;
+		// Bonus effect
+		case CardIds.DroneDeconstructor_SparkbotToken1:
+		case CardIds.DroneDeconstructor_SparkbotToken2:
+		case CardIds.DroneDeconstructor_SparkbotToken3:
+		case CardIds.DroneDeconstructor_SparkbotToken4:
+		case CardIds.DroneDeconstructor_SparkbotToken5:
+		case CardIds.DroneDeconstructor_SparkbotToken6:
+		case CardIds.DroneDeconstructor_SparkbotToken7:
+		case CardIds.DroneDeconstructor_SparkbotToken8:
+			return CardIds.DroneDeconstructor;
+		case CardIds.PrimordialVortex_PrimordialVortexToken1:
+		case CardIds.PrimordialVortex_PrimordialVortexToken2:
+		case CardIds.PrimordialVortex_PrimordialVortexToken3:
+		case CardIds.PrimordialVortex_PrimordialVortexToken4:
+		case CardIds.PrimordialVortex_PrimordialVortexToken5:
+		case CardIds.PrimordialVortex_PrimordialVortexToken6:
+		case CardIds.PrimordialVortex_PrimordialVortexToken7:
+		case CardIds.PrimordialVortex_PrimordialVortexToken8:
+			return CardIds.PrimordialVortex;
+		// Transforms in hand
+		case CardIds.ForestSeedlings_ForestBlossomsToken:
+			return CardIds.ForestSeedlings;
+		case CardIds.FrostLotusSeedling_FrostLotusBlossomToken:
+			return CardIds.FrostLotusSeedling;
 	}
 
 	// Transfer Student should be handled on a case by case basis
