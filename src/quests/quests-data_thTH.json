@@ -829,7 +829,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "สร้างความเสียหาย $q_แต้ม\n<i>(ขั้น 1 จาก 4)</i>",
+			"description": "สร้างความเสียหาย $q_แต้ม[b]<i>(ขั้น 1 จาก 4)</i>",
 			"id": 100,
 			"name": "นักสร้างความเสียหาย",
 			"quota": 5,
@@ -838,7 +838,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "เล่นการ์ด $q ใบ\n<i>(ขั้น 2 จาก 4)</i>",
+			"description": "เล่นการ์ด $q ใบ [b]<i>(ขั้น 2 จาก 4)</i>",
 			"id": 101,
 			"name": "นักเล่นการ์ด",
 			"quota": 5,
@@ -847,7 +847,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "เล่น $q เทิร์น\n<i>(ขั้น 3 จาก 4)</i>",
+			"description": "เล่น $q เทิร์น [b]<i>(ขั้น 3 จาก 4)</i>",
 			"id": 102,
 			"name": "นักนับเทิร์น",
 			"quota": 5,
@@ -856,7 +856,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "เล่น $q เกม\n<i>(ขั้น 4 จาก 4)</i>",
+			"description": "เล่น $q เกม [b]<i>(ขั้น 4 จาก 4)</i>",
 			"id": 103,
 			"name": "สำรวจโลก!",
 			"quota": 1,
@@ -865,7 +865,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "เล่น $q_เกม[b]ในโหมดฝึกฝน\n<i>(ขั้น 1 จาก 5)</i>",
+			"description": "เล่น $q_เกม[b]ในโหมดฝึกฝน [b]<i>(ขั้น 1 จาก 5)</i>",
 			"id": 104,
 			"name": "เรียนรู้พื้นฐาน",
 			"quota": 1,
@@ -874,7 +874,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "เล่น $q_เกม[b]ในโหมดฝึกฝน\n<i>(ขั้น 2 จาก 5)</i>",
+			"description": "เล่น $q_เกม[b]ในโหมดฝึกฝน [b]<i>(ขั้น 2 จาก 5)</i>",
 			"id": 105,
 			"name": "ฝึกฝนจนชำนาญ",
 			"quota": 1,
@@ -883,7 +883,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "เล่น Hearthstone $q_เกม\n<i>(ขั้น 3 จาก 5)</i>",
+			"description": "เล่น Hearthstone $q_เกม [b]<i>(ขั้น 3 จาก 5)</i>",
 			"id": 106,
 			"name": "เกมแรก",
 			"quota": 1,
@@ -892,7 +892,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "เล่น Hearthstone $q_เกม\n<i>(ขั้น 4 จาก 5)</i>",
+			"description": "เล่น Hearthstone $q_เกม [b]<i>(ขั้น 4 จาก 5)</i>",
 			"id": 107,
 			"name": "นักดวล",
 			"quota": 2,
@@ -901,7 +901,7 @@
 			"rewardTrackXp": 0
 		},
 		{
-			"description": "เล่น $q เกม\n<i>(ขั้น 5 จาก 5)</i>",
+			"description": "เล่น $q เกม [b]<i>(ขั้น 5 จาก 5)</i>",
 			"id": 108,
 			"name": "ชำนาญทุกศาสตร์",
 			"quota": 2,
@@ -2998,6 +2998,24 @@
 			"rewardTrackXp": 140
 		},
 		{
+			"description": "หล่อหลอมการ์ด $q_ใบ",
+			"id": 527,
+			"name": "",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1000
+		},
+		{
+			"description": "เล่นไททัน $q_ใบ",
+			"id": 528,
+			"name": "",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 1,
+			"rewardTrackXp": 1750
+		},
+		{
 			"description": "เล่นเวทมนตร์[b]ธรรมชาติ[b]หรือ[b]ไฟ $q_ใบ",
 			"id": 529,
 			"name": "ไฟร์ วินด์ แอนด์เอิร์ธ",
@@ -3749,6 +3767,114 @@
 			"id": 612,
 			"name": "",
 			"quota": 2,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "เล่นอาวุธ $q_ใบ",
+			"id": 613,
+			"name": "อาวุธผู้กล้า",
+			"quota": 5,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "เล่นมินเนี่ยนที่มี[b]จู่โจม $q_ใบ",
+			"id": 614,
+			"name": "เปิดก่อนได้เปรียบ!",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 300
+		},
+		{
+			"description": "เล่น $q_เกม",
+			"id": 615,
+			"name": "",
+			"quota": 2,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 50
+		},
+		{
+			"description": "ให้เอฟเฟกต์เสียงสุดท้าย[b]ของคุณทำงาน $q_ครั้ง",
+			"id": 616,
+			"name": "",
+			"quota": 7,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "เล่นการ์ด[b]คำรามสู้ศึก $q_ใบ",
+			"id": 617,
+			"name": "",
+			"quota": 12,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "สร้างความเสียหาย $q_แต้มให้ฮีโร่ศัตรู",
+			"id": 618,
+			"name": "",
+			"quota": 20,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 50
+		},
+		{
+			"description": "เล่นหรือทำลาย[b]เครื่องจักร $q_ใบ/ตัว",
+			"id": 619,
+			"name": "หุ่นฝึกซ้อม",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 400
+		},
+		{
+			"description": "ค้นพบการ์ด $q_ใบ",
+			"id": 620,
+			"name": "เชาวน์ปัญญายิ่งใหญ่",
+			"quota": 5,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 500
+		},
+		{
+			"description": "เล่น $q เกม",
+			"id": 621,
+			"name": "รอบคัดเลือก",
+			"quota": 3,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "เล่นไททัน $q_ใบ",
+			"id": 622,
+			"name": "เฮฟวี่เวท",
+			"quota": 3,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 600
+		},
+		{
+			"description": "ชนะ $q_เกมใน[b]โหมดจัดอันดับของ Hearthstone",
+			"id": 623,
+			"name": "สังเวียนผู้กล้า",
+			"quota": 3,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 700
+		},
+		{
+			"description": "หล่อหลอมการ์ด $q_ใบ",
+			"id": 624,
+			"name": "",
+			"quota": 5,
 			"rewardListId": 0,
 			"rewardTrackType": 7,
 			"rewardTrackXp": 100
