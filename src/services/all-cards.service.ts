@@ -361,8 +361,8 @@ export const getBaseCardId = (cardId: string): string => {
 		// Forged
 		case CardIds.BellowingFlames_BellowingFlamesToken:
 			return CardIds.BellowingFlames;
-		case CardIds.ChampionOfStorms_StormCycloneToken2:
-			return CardIds.ChampionOfStorms_StormCycloneToken;
+		case CardIds.ChampionOfStorms_StormCycloneToken_TTN_801t2:
+			return CardIds.ChampionOfStorms_StormCycloneToken_TTN_801t1;
 		case CardIds.CreationProtocol_CreationProtocolToken:
 			return CardIds.CreationProtocol;
 		case CardIds.DiscipleOfSargeras_DiscipleOfSargerasToken:
@@ -379,10 +379,10 @@ export const getBaseCardId = (cardId: string): string => {
 			return CardIds.MoltenRune;
 		case CardIds.StormGiant_StormGiantToken:
 			return CardIds.StormGiant;
-		case CardIds.TitanforgedTrap_TitanforgedTrapToken:
-			return CardIds.TitanforgedTrap;
-		case CardIds.TyrsTear_TyrsTearToken:
-			return CardIds.TyrsTear;
+		case CardIds.TitanforgedTraps_TitanforgedTrapsToken:
+			return CardIds.TitanforgedTraps;
+		case CardIds.TyrsTears_TyrsTearsToken:
+			return CardIds.TyrsTears;
 		case CardIds.WatcherOfTheSun_WatcherOfTheSunToken:
 			return CardIds.WatcherOfTheSun;
 		case CardIds.WeightOfTheWorld_WeightOfTheWorldToken:
@@ -390,24 +390,22 @@ export const getBaseCardId = (cardId: string): string => {
 		case CardIds.Xb488Disposalbot_Xb488DisposalbotToken:
 			return CardIds.Xb488Disposalbot;
 		// Bonus effect
-		case CardIds.DroneDeconstructor_SparkbotToken1:
-		case CardIds.DroneDeconstructor_SparkbotToken2:
-		case CardIds.DroneDeconstructor_SparkbotToken3:
-		case CardIds.DroneDeconstructor_SparkbotToken4:
-		case CardIds.DroneDeconstructor_SparkbotToken5:
-		case CardIds.DroneDeconstructor_SparkbotToken6:
-		case CardIds.DroneDeconstructor_SparkbotToken7:
-		case CardIds.DroneDeconstructor_SparkbotToken8:
+		case CardIds.FromTheScrapheap_SparkbotToken_TTN_719t:
+		case CardIds.FromTheScrapheap_SparkbotToken_TTN_719t2:
+		case CardIds.FromTheScrapheap_SparkbotToken_TTN_719t3:
+		case CardIds.FromTheScrapheap_SparkbotToken_TTN_719t4:
+		case CardIds.FromTheScrapheap_SparkbotToken_TTN_719t5:
+		case CardIds.FromTheScrapheap_SparkbotToken_TTN_719t6:
+		case CardIds.FromTheScrapheap_SparkbotToken_TTN_719t7:
 			return CardIds.DroneDeconstructor;
-		case CardIds.PrimordialVortex_PrimordialVortexToken1:
-		case CardIds.PrimordialVortex_PrimordialVortexToken2:
-		case CardIds.PrimordialVortex_PrimordialVortexToken3:
-		case CardIds.PrimordialVortex_PrimordialVortexToken4:
-		case CardIds.PrimordialVortex_PrimordialVortexToken5:
-		case CardIds.PrimordialVortex_PrimordialVortexToken6:
-		case CardIds.PrimordialVortex_PrimordialVortexToken7:
-		case CardIds.PrimordialVortex_PrimordialVortexToken8:
-			return CardIds.PrimordialVortex;
+		case CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t1:
+		case CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t2:
+		case CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t3:
+		case CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t4:
+		case CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t5:
+		case CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t6:
+		case CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t7:
+			return CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t;
 		// Transforms in hand
 		case CardIds.ForestSeedlings_ForestBlossomsToken:
 			return CardIds.ForestSeedlings;

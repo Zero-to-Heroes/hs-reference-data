@@ -16,24 +16,24 @@ export const ALL_BG_RACES = [
 export const TOTAL_RACES_IN_GAME = 5;
 
 export const NON_BUYABLE_MINION_IDS = [
-	CardIds.CuddlgamBattlegrounds_TB_BaconShop_HP_033t_SKIN_A,
-	CardIds.CuddlgamBattlegrounds_TB_BaconShop_HP_033t_SKIN_A_G,
-	CardIds.AbominableAmalgamBattlegrounds_TB_BaconShop_HP_033t_SKIN_D,
-	CardIds.AbominableAmalgamBattlegrounds_TB_BaconShop_HP_033t_SKIN_D_G,
-	CardIds.BookEatingAmalgamBattlegrounds_TB_BaconShop_HP_033t_SKIN_B,
-	CardIds.BookEatingAmalgamBattlegrounds_TB_BaconShop_HP_033t_SKIN_B_G,
+	CardIds.Cuddlgam_TB_BaconShop_HP_033t_SKIN_A,
+	CardIds.Cuddlgam_TB_BaconShop_HP_033t_SKIN_A_G,
+	CardIds.AbominableAmalgam_TB_BaconShop_HP_033t_SKIN_D,
+	CardIds.AbominableAmalgam_TB_BaconShop_HP_033t_SKIN_D_G,
+	CardIds.BookEatingAmalgam_TB_BaconShop_HP_033t_SKIN_B,
+	CardIds.BookEatingAmalgam_TB_BaconShop_HP_033t_SKIN_B_G,
 	CardIds.ArgentBraggart_BG_SCH_149,
-	CardIds.ArgentBraggartBattlegrounds,
-	CardIds.AvatarOfNzoth_FishOfNzothTokenBattlegrounds,
-	CardIds.FishOfNzothBattlegrounds,
-	CardIds.CattlecarpOfNzothBattlegrounds_TB_BaconShop_HP_105t_SKIN_A,
-	CardIds.CattlecarpOfNzothBattlegrounds_TB_BaconShop_HP_105t_SKIN_A_G,
+	CardIds.ArgentBraggart_TB_BaconUps_308,
+	CardIds.AvatarOfNzoth_FishOfNzothToken,
+	CardIds.FishOfNzoth,
+	CardIds.CattlecarpOfNzoth_TB_BaconShop_HP_105t_SKIN_A,
+	CardIds.CattlecarpOfNzoth_TB_BaconShop_HP_105t_SKIN_A_G,
 	CardIds.SnakeTrap_SnakeLegacyToken,
 	CardIds.SnakeTrap_SnakeVanillaToken,
 	CardIds.ImprovedSnakeTrap_SnakeToken,
 	CardIds.ElementEarth_StoneElementalToken,
 	CardIds.BabyKrush_DevilsaurToken,
-	CardIds.DevilsaurBattlegrounds,
+	CardIds.Devilsaur,
 	// To remove once the cards list is properly updated
 	CardIds.FriendOfAFriend_BG22_404,
 	CardIds.FriendOfAFriend_BG22_404_G,
@@ -57,81 +57,82 @@ export const NON_BUYABLE_MINION_IDS = [
 	CardIds.BolvarFireblood_CORE_ICC_858,
 	CardIds.BolvarFireblood_ICC_858,
 	// 25.2
-	CardIds.HandlessForsaken_HelpingHandToken,
-	CardIds.HandlessForsaken_HelpingHandTokenBattlegrounds,
-	CardIds.GeneralDrakkisath_SmolderwingToken,
-	CardIds.GeneralDrakkisath_SmolderwingTokenBattlegrounds,
+	CardIds.HandlessForsaken_HelpingHandToken_BG25_010t,
+	CardIds.HandlessForsaken_HelpingHandToken_BG25_010_Gt,
+	CardIds.GeneralDrakkisath_SmolderwingToken_BG25_309t,
+	CardIds.GeneralDrakkisath_SmolderwingToken_BG25_309_Gt,
 	CardIds.MechaJaraxxus_RustedReggieToken,
 	CardIds.MechaJaraxxus_MagtheridonPrimeToken,
 	CardIds.MechaJaraxxus_BaltharakToken,
-	CardIds.RustedReggieBattlegrounds,
-	CardIds.MagtheridonPrimeBattlegrounds,
-	CardIds.BaltharakBattlegrounds,
-	CardIds.ShudderskullBattlegrounds_TB_BaconShop_HP_022t_SKIN_C,
-	CardIds.ShudderskullBattlegrounds_TB_BaconShop_HP_022t_SKIN_C_G,
+	CardIds.RustedReggie,
+	CardIds.MagtheridonPrime,
+	CardIds.Baltharak,
+	CardIds.Shudderskull_TB_BaconShop_HP_022t_SKIN_C,
+	CardIds.Shudderskull_TB_BaconShop_HP_022t_SKIN_C_G,
 	CardIds.OzumatsTentacle_BG23_HERO_201pt_SKIN_A,
 	CardIds.OzumatsTentacle_BG23_HERO_201pt_SKIN_A_G,
 	// 26.2
-	CardIds.Manasaber_CublingToken,
-	CardIds.Manasaber_CublingTokenBattlegrounds,
-	CardIds.TentacleOfOctosariTokenBattlegrounds,
+	CardIds.Manasaber_CublingToken_BG26_800t,
+	CardIds.Manasaber_CublingToken_BG26_800_Gt,
+	CardIds.TentacleOfOctosariToken_BG26_803t,
+	CardIds.TentacleOfOctosariToken_BG26_803_Gt,
 ];
 
 export const NON_DISCOVERABLE_BUDDIES = [
-	CardIds.SpiritRaptor,
-	CardIds.RagingContenderBattlegrounds_TB_BaconShop_HERO_67_Buddy,
-	CardIds.CaptainFairmount,
-	CardIds.FlightTrainer,
-	CardIds.JandicesApprenticeBattlegrounds_TB_BaconShop_HERO_71_Buddy,
-	CardIds.CrimsonHandCenturionBattlegrounds_TB_BaconShop_HERO_60_Buddy,
-	CardIds.CrazyMonkey,
-	CardIds.ShadowWardenBattlegrounds_TB_BaconShop_HERO_62_Buddy,
-	CardIds.NexusLordBattlegrounds_TB_BaconShop_HERO_58_Buddy,
+	CardIds.SpiritRaptor_BG22_HERO_001_Buddy,
+	CardIds.RagingContender_TB_BaconShop_HERO_67_Buddy,
+	CardIds.CaptainFairmount_BG21_HERO_000_Buddy,
+	CardIds.FlightTrainer_BG20_HERO_283_Buddy,
+	CardIds.JandicesApprentice_TB_BaconShop_HERO_71_Buddy,
+	CardIds.CrimsonHandCenturion_TB_BaconShop_HERO_60_Buddy,
+	CardIds.CrazyMonkey_TB_BaconShop_HERO_38_Buddy,
+	CardIds.ShadowWarden_TB_BaconShop_HERO_62_Buddy,
+	CardIds.NexusLord_TB_BaconShop_HERO_58_Buddy,
 	CardIds.LeiFlamepaw_BG20_HERO_202_Buddy,
-	CardIds.Watfin,
-	CardIds.NightmareEctoplasm,
-	CardIds.ManyWhelps,
-	CardIds.DranoshSaurfang,
-	CardIds.Tamuzo,
-	CardIds.MaxwellMightySteedBattlegrounds_TB_BaconShop_HERO_40_Buddy,
+	CardIds.Watfin_BG23_HERO_303_Buddy,
+	CardIds.NightmareEctoplasm_BG20_HERO_301_Buddy,
+	CardIds.ManyWhelps_BG22_HERO_305_Buddy,
+	CardIds.DranoshSaurfang_BG20_HERO_102_Buddy,
+	CardIds.Tamuzo_BG23_HERO_201_Buddy,
+	CardIds.MaxwellMightySteed_TB_BaconShop_HERO_40_Buddy,
 	CardIds.Crabby_BG22_HERO_000_Buddy,
-	CardIds.MishmashBattlegrounds_TB_BaconShop_HERO_33_Buddy,
-	CardIds.PigeonLordBattlegrounds_TB_BaconShop_HERO_12_Buddy,
-	CardIds.VardensAquarrior,
-	CardIds.AcolyteOfYoggSaronBattlegrounds_TB_BaconShop_HERO_35_Buddy,
+	CardIds.Mishmash_TB_BaconShop_HERO_33_Buddy,
+	CardIds.PigeonLord_TB_BaconShop_HERO_12_Buddy,
+	CardIds.VardensAquarrior_BG22_HERO_004_Buddy,
+	CardIds.AcolyteOfYoggSaron_TB_BaconShop_HERO_35_Buddy,
 ];
 
 export const BUDDIES_TRIBE_REQUIREMENTS = [
 	{
-		buddy: CardIds.VaelastraszBattlegrounds_TB_BaconShop_HERO_56_Buddy,
+		buddy: CardIds.Vaelastrasz_TB_BaconShop_HERO_56_Buddy,
 		tribe: Race.DRAGON,
 	},
 	{
-		buddy: CardIds.DeathsHeadSage,
+		buddy: CardIds.DeathsHeadSage_BG20_HERO_103_Buddy,
 		tribe: Race.QUILBOAR,
 	},
 	{
-		buddy: CardIds.SparkfinSoothsayerBattlegrounds_TB_BaconShop_HERO_55_Buddy,
+		buddy: CardIds.SparkfinSoothsayer_TB_BaconShop_HERO_55_Buddy,
 		tribe: Race.MURLOC,
 	},
 	{
-		buddy: CardIds.SubScrubber,
+		buddy: CardIds.SubScrubber_BG22_HERO_200_Buddy,
 		tribe: Race.MECH,
 	},
 	{
-		buddy: CardIds.CoilfangElite,
+		buddy: CardIds.CoilfangElite_BG23_HERO_304_Buddy,
 		tribe: Race.NAGA,
 	},
 	{
-		buddy: CardIds.KilrekBattlegrounds_TB_BaconShop_HERO_37_Buddy,
+		buddy: CardIds.Kilrek_TB_BaconShop_HERO_37_Buddy,
 		tribe: Race.DEMON,
 	},
 	{
-		buddy: CardIds.ElementiumSquirrelBombBattlegrounds_TB_BaconShop_HERO_17_Buddy,
+		buddy: CardIds.ElementiumSquirrelBomb_TB_BaconShop_HERO_17_Buddy,
 		tribe: Race.MECH,
 	},
 	{
-		buddy: CardIds.TuskarrRaiderBattlegrounds_TB_BaconShop_HERO_18_Buddy,
+		buddy: CardIds.TuskarrRaider_TB_BaconShop_HERO_18_Buddy,
 		tribe: Race.PIRATE,
 	},
 	{
@@ -139,11 +140,11 @@ export const BUDDIES_TRIBE_REQUIREMENTS = [
 		tribe: Race.UNDEAD,
 	},
 	{
-		buddy: CardIds.ImperialDefender,
+		buddy: CardIds.ImperialDefender_BG22_HERO_007_Buddy,
 		tribe: Race.NAGA,
 	},
 	{
-		buddy: CardIds.ValithriaDreamwalkerBattlegrounds_TB_BaconShop_HERO_53_Buddy,
+		buddy: CardIds.ValithriaDreamwalker_TB_BaconShop_HERO_53_Buddy,
 		tribe: Race.DRAGON,
 	},
 ];
@@ -221,19 +222,19 @@ export const getReferenceTribeCardId = (tribe: string | Race): string => {
 	switch (tribe) {
 		case 'mech':
 		case Race.MECH:
-			referenceCardId = CardIds.DeflectOBot;
+			referenceCardId = CardIds.DeflectOBot_BGS_071;
 			break;
 		case 'beast':
 		case Race.BEAST:
-			referenceCardId = CardIds.MamaBear;
+			referenceCardId = CardIds.MamaBear_BGS_021;
 			break;
 		case 'demon':
 		case Race.DEMON:
-			referenceCardId = CardIds.ImpulsiveTrickster;
+			referenceCardId = CardIds.ImpulsiveTrickster_BG21_006;
 			break;
 		case 'dragon':
 		case Race.DRAGON:
-			referenceCardId = CardIds.KalecgosArcaneAspect;
+			referenceCardId = CardIds.KalecgosArcaneAspect_BGS_041;
 			break;
 		case 'murloc':
 		case Race.MURLOC:
@@ -241,30 +242,30 @@ export const getReferenceTribeCardId = (tribe: string | Race): string => {
 			break;
 		case 'pirate':
 		case Race.PIRATE:
-			referenceCardId = CardIds.Scallywag;
+			referenceCardId = CardIds.Scallywag_BGS_061;
 			break;
 		case 'elemental':
 		case Race.ELEMENTAL:
-			referenceCardId = CardIds.Sellemental;
+			referenceCardId = CardIds.Sellemental_BGS_115;
 			break;
 		case 'naga':
 		case Race.NAGA:
-			referenceCardId = CardIds.MiniMyrmidon;
+			referenceCardId = CardIds.MiniMyrmidon_BG23_000;
 			break;
 		case 'quilboar':
 		case Race.QUILBOAR:
-			referenceCardId = CardIds.SunBaconRelaxer;
+			referenceCardId = CardIds.SunBaconRelaxer_BG20_301;
 			break;
 		case 'undead':
 		case Race.UNDEAD:
-			referenceCardId = CardIds.EternalKnight;
+			referenceCardId = CardIds.EternalKnight_BG25_008;
 			break;
 		case 'all':
 		case Race.ALL:
-			referenceCardId = CardIds.Amalgadon;
+			referenceCardId = CardIds.Amalgadon_BGS_069;
 			break;
 		default:
-			referenceCardId = CardIds.PatientScout;
+			referenceCardId = CardIds.PatientScout_BG24_715;
 			break;
 	}
 	return referenceCardId;
@@ -282,12 +283,12 @@ export const getHeroPower = (
 			return 'TB_BaconShop_HP_011';
 		case 'TB_BaconShop_HERO_08':
 			return 'TB_BaconShop_HP_069';
-		case CardIds.RagnarosTheFirelordBattlegrounds_TB_BaconShop_HERO_11:
-			return CardIds.DieInsectsBattlegrounds_TB_BaconShop_HP_087;
+		case CardIds.RagnarosTheFirelord_TB_BaconShop_HERO_11:
+			return CardIds.DieInsects_TB_BaconShop_HP_087;
 		case 'TB_BaconShop_HERO_12':
 			return 'TB_BaconShop_HP_041';
-		case CardIds.QueenWagtoggleBattlegrounds_TB_BaconShop_HERO_14:
-			return CardIds.WaxWarbandBattlegrounds;
+		case CardIds.QueenWagtoggle_TB_BaconShop_HERO_14:
+			return CardIds.WaxWarband;
 		case 'TB_BaconShop_HERO_15':
 			return 'TB_BaconShop_HP_010';
 		case 'TB_BaconShop_HERO_16':
@@ -302,8 +303,8 @@ export const getHeroPower = (
 			return 'TB_BaconShop_HP_020';
 		case 'TB_BaconShop_HERO_22':
 			return 'TB_BaconShop_HP_024';
-		case CardIds.ShudderwockBattlegrounds:
-			return CardIds.SnickerSnackBattlegrounds;
+		case CardIds.Shudderwock_TB_BaconShop_HERO_23:
+			return CardIds.SnickerSnack;
 		case 'TB_BaconShop_HERO_25':
 			return 'TB_BaconShop_HP_049';
 		case 'TB_BaconShop_HERO_27':
@@ -370,8 +371,8 @@ export const getHeroPower = (
 			return 'TB_BaconShop_HP_068';
 		case 'TB_BaconShop_HERO_64':
 			return 'TB_BaconShop_HP_074';
-		case CardIds.CaptainHooktuskBattlegrounds:
-			return CardIds.TrashForTreasureBattlegrounds;
+		case CardIds.CaptainHooktusk_TB_BaconShop_HERO_67:
+			return CardIds.TrashForTreasure;
 		case 'TB_BaconShop_HERO_68':
 			return 'TB_BaconShop_HP_076';
 		case 'TB_BaconShop_HERO_70':
@@ -382,26 +383,26 @@ export const getHeroPower = (
 			return 'TB_BaconShop_HP_081';
 		case 'TB_BaconShop_HERO_74':
 			return 'TB_BaconShop_HP_082';
-		case CardIds.ChenvaalaBattlegrounds:
-			return CardIds.AvalancheBattlegrounds;
-		case CardIds.RakanishuBattlegrounds:
-			return CardIds.TavernLightingBattlegrounds;
-		case CardIds.AlakirBattlegrounds:
-			return CardIds.SwattingInsectsBattlegrounds;
-		case CardIds.ZephrysTheGreatBattlegrounds:
-			return CardIds.ThreeWishesBattlegrounds;
-		case CardIds.SilasDarkmoonBattlegrounds:
-			return CardIds.ComeOneComeAllBattlegrounds;
-		case CardIds.CthunBattlegrounds:
-			return CardIds.SaturdayCthunsBattlegrounds;
-		case CardIds.NzothBattlegrounds:
-			return CardIds.AvatarOfNzothBattlegrounds;
-		case CardIds.YshaarjBattlegrounds:
-			return CardIds.EmbraceYourRageBattlegrounds;
-		case CardIds.TickatusBattlegrounds:
-			return CardIds.PrizeWallBattlegrounds;
-		case CardIds.GreyboughBattlegrounds:
-			return CardIds.SproutItOutBattlegrounds;
+		case CardIds.Chenvaala_TB_BaconShop_HERO_78:
+			return CardIds.Avalanche_TB_BaconShop_HP_088;
+		case CardIds.Rakanishu_TB_BaconShop_HERO_75:
+			return CardIds.TavernLighting;
+		case CardIds.Alakir:
+			return CardIds.SwattingInsects;
+		case CardIds.ZephrysTheGreat_TB_BaconShop_HERO_91:
+			return CardIds.ThreeWishes;
+		case CardIds.SilasDarkmoon_TB_BaconShop_HERO_90:
+			return CardIds.ComeOneComeAll;
+		case CardIds.Cthun_TB_BaconShop_HERO_29:
+			return CardIds.SaturdayCthuns;
+		case CardIds.Nzoth:
+			return CardIds.AvatarOfNzoth;
+		case CardIds.Yshaarj:
+			return CardIds.EmbraceYourRage;
+		case CardIds.Tickatus_TB_BaconShop_HERO_94:
+			return CardIds.PrizeWall;
+		case CardIds.Greybough_TB_BaconShop_HERO_95:
+			return CardIds.SproutItOut;
 		case CardIds.OverlordSaurfang_BG20_HERO_102:
 			return CardIds.OverlordSaurfang_ForTheHorde;
 		case CardIds.DeathSpeakerBlackthorn_BG20_HERO_103:
@@ -418,8 +419,8 @@ export const getHeroPower = (
 			return CardIds.KurtrusAshfallen_FinalShowdown;
 		case CardIds.Galewing:
 			return CardIds.Galewing_DungarsGryphon;
-		case CardIds.TradePrinceGallywixBattlegrounds_TB_BaconShop_HERO_10:
-			return CardIds.SmartSavingsBattlegrounds;
+		case CardIds.TradePrinceGallywix_TB_BaconShop_HERO_10:
+			return CardIds.SmartSavings;
 		case CardIds.MasterNguyen:
 			return CardIds.MasterNguyen_PowerOfTheStorm;
 		case CardIds.CarielRoame_BG21_HERO_000:
@@ -466,8 +467,8 @@ export const getHeroPower = (
 			return CardIds.SireDenathrius_Whodunitquestion;
 		case CardIds.SylvanasWindrunner_BG23_HERO_306:
 			return CardIds.SylvanasWindrunner_ReclaimedSouls;
-		case CardIds.TheJailerBattlegrounds:
-			return CardIds.RunicEmpowermentBattlegrounds;
+		case CardIds.TheJailer_TB_BaconShop_HERO_702:
+			return CardIds.RunicEmpowerment;
 		case CardIds.EnhanceOMechano_BG24_HERO_204:
 			return CardIds.EnhanceOMechano_Enhancification;
 		case CardIds.ProfessorPutricide_BG25_HERO_100:
