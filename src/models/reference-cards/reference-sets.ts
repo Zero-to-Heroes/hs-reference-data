@@ -298,6 +298,7 @@ export const duelsSets: readonly string[] = [
 	'the_barrens',
 	'wailing_caverns',
 	'stormwind',
+	'black_temple',
 	'deadmines',
 	'alterac_valley',
 	'onyxias_lair',
