@@ -100,6 +100,7 @@ export const NON_DISCOVERABLE_BUDDIES = [
 	CardIds.PigeonLord_TB_BaconShop_HERO_12_Buddy,
 	CardIds.VardensAquarrior_BG22_HERO_004_Buddy,
 	CardIds.AcolyteOfYoggSaron_TB_BaconShop_HERO_35_Buddy,
+	CardIds.SubmersibleChef_BG22_HERO_201_Buddy,
 ];
 
 export const BUDDIES_TRIBE_REQUIREMENTS = [
