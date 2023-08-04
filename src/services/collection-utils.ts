@@ -61,7 +61,11 @@ export const boosterIdToSetId = (boosterId: BoosterType): string => {
 		case BoosterType.GOLDEN_RETURN_OF_THE_LICH_KING:
 			return 'return_of_the_lich_king';
 		case BoosterType.BATTLE_OF_THE_BANDS:
+		case BoosterType.GOLDEN_BATTLE_OF_THE_BANDS:
 			return 'battle_of_the_bands';
+		case BoosterType.TITANS:
+		case BoosterType.GOLDEN_TITANS:
+			return 'titans';
 		default:
 			// console.warn('unsupported booster type', boosterId);
 			return null;
@@ -126,6 +130,8 @@ export const getDefaultBoosterIdForSetId = (setId: string): BoosterType => {
 			return BoosterType.RETURN_OF_THE_LICH_KING;
 		case 'battle_of_the_bands':
 			return BoosterType.BATTLE_OF_THE_BANDS;
+		case 'titans':
+			return BoosterType.TITANS;
 		default:
 			console.warn('no default booster type for set id', setId);
 			return null;
