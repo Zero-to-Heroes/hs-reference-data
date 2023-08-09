@@ -2547,6 +2547,16 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.DistressedKvaldir]: PLAGUES,
 	[CardIds.DownWithTheShip]: PLAGUES,
 	[CardIds.DroneDeconstructor]: SPARKBOTS,
+	[CardIds.ElementalInspiration]: [
+		CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t,
+		CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t1,
+		CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t2,
+		CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t3,
+		CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t4,
+		CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t5,
+		CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t6,
+		CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t7,
+	],
 	[CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t]: [
 		CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t1,
 		CardIds.ElementalInspiration_PrimordialVortexToken_TTN_480t2,
