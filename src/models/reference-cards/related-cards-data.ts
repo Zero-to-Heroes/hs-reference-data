@@ -777,7 +777,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.Sanctuary]: [CardIds.Sanctuary_IndomitableChampionToken],
 	[CardIds.Shrubadier]: [CardIds.Treenforcements_TreantToken],
 	[CardIds.BadLuckAlbatross]: [CardIds.BadLuckAlbatross_AlbatrossToken],
-	[CardIds.Chenvaala_TB_BaconShop_HERO_78]: [CardIds.Chenvaala_SnowElementalToken],
+	[CardIds.Chenvaala_DRG_104]: [CardIds.Chenvaala_SnowElementalToken],
 	[CardIds.SkyClaw]: [CardIds.SkyClaw_MicrocopterToken],
 	[CardIds.LightforgedZealot]: [CardIds.LightforgedZealot_TruesilverChampionToken],
 	[CardIds.MalygosAspectOfMagic]: [
