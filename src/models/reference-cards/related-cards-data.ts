@@ -2648,4 +2648,5 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.WatcherOfTheSun]: [CardIds.WatcherOfTheSun_WatcherOfTheSunToken],
 	[CardIds.WeightOfTheWorld]: [CardIds.WeightOfTheWorld_WeightOfTheWorldToken],
 	[CardIds.Xb488Disposalbot]: [CardIds.Xb488Disposalbot_Xb488DisposalbotToken],
+	[CardIds.DistressedKvaldir_UnholyPlagueToken]: [CardIds.InfectedPeasant_UndeadPeasantToken_RLK_070t],
 };
