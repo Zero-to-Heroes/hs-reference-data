@@ -989,6 +989,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.Landscaping_BOT_420]: [CardIds.SoulOfTheForest_TreantLegacyToken],
 	[CardIds.Landscaping_CORE_BOT_420]: [CardIds.SoulOfTheForest_TreantLegacyToken],
 	[CardIds.MicrotechController]: [CardIds.ReplicatingMenace_MicrobotToken_BOT_312t],
+	[CardIds.ReplicatingMenaceCore]: [CardIds.ReplicatingMenace_MicrobotToken_BOT_312t],
 	[CardIds.ReplicatingMenace_BOT_312]: [CardIds.ReplicatingMenace_MicrobotToken_BOT_312t],
 	[CardIds.Sn1pSn4p]: [CardIds.ReplicatingMenace_MicrobotToken_BOT_312t],
 	[CardIds.BlightnozzleCrawler]: [CardIds.BlightnozzleCrawler_RadioactiveOozeToken],
@@ -2163,6 +2164,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.DeathweaverAura]: [CardIds.DeathweaverAura_DrakkariZombieToken],
 	[CardIds.UnlivingChampion]: [CardIds.DeathweaverAura_DrakkariZombieToken],
 	[CardIds.VrykulNecrolyte]: [CardIds.PlagueStrike_RampagingZombieToken_RLK_018t],
+	[CardIds.PlagueStrike_RLK_018]: [CardIds.PlagueStrike_RampagingZombieToken_RLK_018t],
 	[CardIds.FoulEgg_RLK_833]: [CardIds.FoulEgg_FoulFowlToken],
 	[CardIds.HawkstriderRancher]: [CardIds.HawkstriderRancher_HawkstriderToken],
 	[CardIds.AstalorBloodsworn]: [
@@ -2231,6 +2233,7 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.PlaguedGrain_GrainCrateCoreToken]: [CardIds.InfectedPeasant_UndeadPeasantToken_RLK_070t],
 	[CardIds.ConstructQuarter]: [CardIds.DarkTransformation_UndeadMonstrosityToken],
+	[CardIds.DarkTransformation]: [CardIds.DarkTransformation_UndeadMonstrosityToken],
 	[CardIds.FrostQueenSindragosa]: [
 		CardIds.FrostQueenSindragosa_SindragosasWingToken_NX2_037t,
 		CardIds.FrostQueenSindragosa_SindragosasWingToken_NX2_037t2,
@@ -2679,4 +2682,5 @@ export const RELATED_CARDS_DATA: {
 		CardIds.PainOfJotun_PainOfJotunToken_TTN_060t12t1,
 		CardIds.WisdomOfFreya_WisdomOfFreyaToken_TTN_060t13t1,
 	],
+	[CardIds.CorpseBride]: [CardIds.BoneguardCommander_RisenGroomToken],
 };
