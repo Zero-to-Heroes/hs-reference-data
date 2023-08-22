@@ -6,6 +6,11 @@ export interface ReferenceSet {
 
 export const sets: readonly ReferenceSet[] = [
 	{
+		id: 'caverns_of_time',
+		name: `Caverns of Time`,
+		launchDate: new Date('2023-08-31'),
+	},
+	{
 		id: 'titans',
 		name: `TITANS`,
 		launchDate: new Date('2023-06-27'),
@@ -227,7 +232,9 @@ export const sets: readonly ReferenceSet[] = [
 	},
 ];
 
-export const standardSets: readonly string[] = [
+type SetId = typeof sets[number]['id'];
+
+export const standardSets: readonly SetId[] = [
 	'core',
 	'the_sunken_city',
 	'throne_of_tides',
@@ -240,32 +247,20 @@ export const standardSets: readonly string[] = [
 	'audiopocalypse',
 	'titans',
 ];
-export const twistSets: readonly string[] = [
-	'core',
-	'demon_hunter_initiate',
-	'black_temple',
-	'scholomance',
-	'darkmoon_faire',
-	'darkmoon_races',
-	'the_barrens',
-	'wailing_caverns',
-	'stormwind',
-	'deadmines',
-	'alterac_valley',
-	'onyxias_lair',
-	'the_sunken_city',
-	'throne_of_tides',
-	'revendreth',
-	'maw_and_disorder',
-	'return_of_the_lich_king',
-	'path_of_arthas',
-	'return_to_naxxramas',
-	'battle_of_the_bands',
-	'audiopocalypse',
-	'titans',
+export const twistSets: readonly SetId[] = [
+	'legacy',
+	'naxx',
+	'gvg',
+	'brm',
+	'tgt',
+	'loe',
+	'og',
+	'kara',
+	'gangs',
+	'caverns_of_time',
 ];
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
-export const arenaSets: readonly string[] = [
+export const arenaSets: readonly SetId[] = [
 	'core',
 	'uldum',
 	'black_temple',
@@ -277,8 +272,8 @@ export const arenaSets: readonly string[] = [
 	'audiopocalypse',
 	'titans',
 ];
-export const wildSets: readonly string[] = sets.map((s) => s.id);
-export const duelsSets: readonly string[] = [
+export const wildSets: readonly SetId[] = sets.map((s) => s.id);
+export const duelsSets: readonly SetId[] = [
 	'core',
 	'legacy',
 	'naxx',
@@ -313,6 +308,7 @@ export const duelsSets: readonly string[] = [
 	'audiopocalypse',
 	'troll',
 	'titans',
+	'caverns_of_time',
 ];
 
-export const vanillaSets: readonly string[] = ['vanilla'];
+export const vanillaSets: readonly SetId[] = ['vanilla'];
