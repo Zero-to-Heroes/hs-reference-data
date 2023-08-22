@@ -1,2088 +1,2312 @@
 [
 	{
-		"name": "Murloc Tidehunter",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"attack": 4,
-		"health": 2,
-		"text": "<b>Battlecry:</b> Summon a 2/2 Murloc Scout."
+		"name": "Bane of Doom",
+		"set": "Legacy",
+		"cost": 5,
+		"text": "Deal $3 damage to a character. If that kills it, summon a random Demon."
 	},
 	{
-		"name": "Murloc Tidecaller",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"attack": 2,
-		"health": 4,
-		"text": "Whenever you summon a Murloc, gain +2 Attack."
-	},
-	{
-		"name": "Old Murk-Eye",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"attack": 4,
-		"health": 8,
-		"text": "<b>Charge</b>. Has +2 Attack for each other Murloc on the battlefield."
-	},
-	{
-		"name": "Treasure Chest",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"attack": 0,
-		"health": 2,
-		"text": "<b>Deathrattle:</b> Summon a random Golden minion."
-	},
-	{
-		"name": "Treasure Chest",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"attack": 0,
-		"health": 2,
-		"text": "<b>Deathrattle:</b> Summon 2 random Golden minions."
-	},
-	{
-		"name": "Ritual of Doom",
-		"set": "Core",
-		"cost": 0,
-		"text": "Destroy a friendly minion. If you had 5 or more, summon a\n5/5 Demon."
-	},
-	{
-		"name": "War Cache",
-		"set": "Core",
+		"name": "Swipe",
+		"set": "Legacy",
 		"cost": 3,
-		"text": "Add a random Warrior minion, spell, and weapon to your hand."
+		"text": "Deal $4 damage to an enemy and $1 damage to all other enemies."
 	},
 	{
-		"name": "Nordrassil Druid",
-		"set": "Core",
-		"cost": 4,
-		"attack": 3,
-		"health": 5,
-		"text": "<b>Battlecry:</b> The next spell you cast this turn costs (3) less."
+		"name": "Mana Wyrm",
+		"set": "Legacy",
+		"cost": 1,
+		"attack": 1,
+		"health": 3,
+		"text": "Whenever you cast a spell, gain +1 Attack."
 	},
 	{
-		"name": "Enslaved Fel Lord",
-		"set": "Core",
-		"cost": 7,
-		"attack": 4,
-		"health": 10,
-		"text": "<b>Taunt</b>. Also damages the minions next to whomever this attacks."
+		"name": "Lay on Hands",
+		"set": "Legacy",
+		"cost": 6,
+		"text": "Restore #8 Health. Draw 3 cards."
 	},
 	{
-		"name": "Pursuit of Justice",
-		"set": "Core",
+		"name": "Timber Wolf",
+		"set": "Legacy",
+		"cost": 1,
+		"attack": 1,
+		"health": 2,
+		"text": "Your other Beasts have +1 Attack."
+	},
+	{
+		"name": "Snipe",
+		"set": "Legacy",
 		"cost": 2,
-		"text": "Give +1 Attack to Silver Hand Recruits you summon this game."
+		"text": "<b>Secret:</b> After your opponent plays a minion, deal $6 damage to it."
 	},
 	{
-		"name": "Warsong Outrider",
-		"set": "Core",
+		"name": "Acolyte of Pain",
+		"set": "Legacy",
+		"cost": 3,
+		"attack": 1,
+		"health": 4,
+		"text": "Whenever this minion takes damage, draw a card."
+	},
+	{
+		"name": "Sludge Belcher",
+		"set": "Naxx",
+		"cost": 5,
+		"attack": 3,
+		"health": 6,
+		"text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Summon a\n1/2 Slime with <b>Taunt</b>."
+	},
+	{
+		"name": "Reincarnate",
+		"set": "Naxx",
+		"cost": 1,
+		"text": "Destroy a minion,\nthen return it to life with full Health."
+	},
+	{
+		"name": "Webspinner",
+		"set": "Naxx",
+		"cost": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Deathrattle:</b> Get a\nrandom Beast."
+	},
+	{
+		"name": "Goblin Blastmage",
+		"set": "Gvg",
 		"cost": 4,
 		"attack": 5,
 		"health": 4,
-		"text": "<b>Rush</b>"
+		"text": "[x]<b>Battlecry:</b> If you control\na Mech, deal 6 damage\nrandomly split among\nall enemies."
 	},
 	{
-		"name": "Water Elemental",
-		"set": "Core",
+		"name": "Shrinkmeister",
+		"set": "Gvg",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Give a minion -3 Attack this turn."
+	},
+	{
+		"name": "Shadowbomber",
+		"set": "Gvg",
+		"cost": 1,
+		"attack": 3,
+		"health": 1,
+		"text": "<b>Battlecry:</b> Deal 3 damage to each hero."
+	},
+	{
+		"name": "Flame Leviathan",
+		"set": "Gvg",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Rush</b>\nWhen you draw this, deal\n2 damage to all characters\nexcept Mechs."
+	},
+	{
+		"name": "Mal'Ganis",
+		"set": "Gvg",
+		"cost": 9,
+		"attack": 9,
+		"health": 7,
+		"text": "Your hero is <b>Immune</b>.\nYour other Demons\nhave +2/+2."
+	},
+	{
+		"name": "Malorne",
+		"set": "Gvg",
+		"cost": 7,
+		"attack": 9,
+		"health": 7,
+		"text": "<b>Deathrattle:</b> Go <b>Dormant</b>. Revive after 2 friendly Beasts die."
+	},
+	{
+		"name": "Glaivezooka",
+		"set": "Gvg",
+		"cost": 2,
+		"attack": 2,
+		"text": "<b>Battlecry:</b> Give a random friendly minion +2 Attack."
+	},
+	{
+		"name": "King of Beasts",
+		"set": "Gvg",
+		"cost": 3,
+		"attack": 1,
+		"health": 5,
+		"text": "[x]<b>Taunt</b>\nHas +1 Attack for each\nother Beast you control."
+	},
+	{
+		"name": "Bouncing Blade",
+		"set": "Gvg",
+		"cost": 2,
+		"text": "Deal $1 damage to a random minion. Repeat until a minion dies."
+	},
+	{
+		"name": "Iron Juggernaut",
+		"set": "Gvg",
+		"cost": 6,
+		"attack": 6,
+		"health": 5,
+		"text": "[x]<b>Battlecry and Deathrattle:</b>\nShuffle a Mine into your\nopponent's deck. When drawn,\nexplode for 10 damage!"
+	},
+	{
+		"name": "Cobra Shot",
+		"set": "Gvg",
+		"cost": 4,
+		"text": "Deal $3 damage to\na minion and the\nenemy hero."
+	},
+	{
+		"name": "Floating Watcher",
+		"set": "Gvg",
+		"cost": 5,
+		"attack": 4,
+		"health": 4,
+		"text": "Whenever your hero takes damage on your turn, gain +2/+2."
+	},
+	{
+		"name": "Darkbomb",
+		"set": "Gvg",
+		"cost": 2,
+		"text": "Deal $3 damage to a character. If it dies, draw a Shadow spell."
+	},
+	{
+		"name": "Soot Spewer",
+		"set": "Gvg",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Spell Damage +1</b>\n<b>Battlecry:</b> If you control\nanother Mech, get a random Fire spell."
+	},
+	{
+		"name": "Emperor Thaurissan",
+		"set": "Brm",
+		"cost": 5,
+		"attack": 4,
+		"health": 4,
+		"text": "At the end of your turn, reduce the Cost of cards\nin your hand by (1)."
+	},
+	{
+		"name": "Dark Iron Skulker",
+		"set": "Brm",
+		"cost": 4,
+		"attack": 4,
+		"health": 3,
+		"text": "<b>Battlecry:</b> Deal 2 damage to all undamaged\nenemy minions."
+	},
+	{
+		"name": "Axe Flinger",
+		"set": "Brm",
+		"cost": 4,
+		"attack": 2,
+		"health": 6,
+		"text": "Whenever this minion takes damage, deal 2 damage to the enemy hero."
+	},
+	{
+		"name": "Blackwing Corruptor",
+		"set": "Brm",
+		"cost": 5,
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Battlecry:</b> If you're holding a Dragon, deal 5 damage."
+	},
+	{
+		"name": "Ball of Spiders",
+		"set": "Tgt",
+		"cost": 3,
+		"text": "Summon three 1/1 Webspinners\nwith \"<b>Deathrattle:</b> Get\na random Beast.\""
+	},
+	{
+		"name": "Lock and Load",
+		"set": "Tgt",
+		"cost": 0,
+		"text": "Each time you cast a spell this turn, get a random Hunter card."
+	},
+	{
+		"name": "Mukla's Champion",
+		"set": "Tgt",
+		"cost": 5,
+		"attack": 5,
+		"health": 3,
+		"text": "<b>Inspire:</b> Give your other minions +1/+1."
+	},
+	{
+		"name": "Tuskarr Totemic",
+		"set": "Tgt",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Summon a random basic Totem."
+	},
+	{
+		"name": "Demonfuse",
+		"set": "Tgt",
+		"cost": 2,
+		"text": "Give a Demon +3/+3."
+	},
+	{
+		"name": "Flame Lance",
+		"set": "Tgt",
+		"cost": 5,
+		"text": "Deal $25 damage\nto a minion."
+	},
+	{
+		"name": "Dalaran Aspirant",
+		"set": "Tgt",
 		"cost": 4,
 		"attack": 3,
-		"health": 6,
-		"text": "<b>Freeze</b> any character damaged by this minion."
+		"health": 5,
+		"text": "<b>Spell Damage +1</b>\n<b>Inspire:</b> Gain <b>Spell Damage +1</b>."
 	},
 	{
-		"name": "Windfury",
-		"set": "Core",
+		"name": "Spawn of Shadows",
+		"set": "Tgt",
+		"cost": 5,
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Battlecry and Inspire:</b>\nDeal 4 damage to\neach hero."
+	},
+	{
+		"name": "Confessor Paletress",
+		"set": "Tgt",
+		"cost": 7,
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Battlecry and Inspire:</b> Summon a random <b>Legendary</b> minion."
+	},
+	{
+		"name": "Convert",
+		"set": "Tgt",
+		"cost": 3,
+		"text": "Put a copy of an enemy minion into your hand. It costs (1)."
+	},
+	{
+		"name": "Shadowfiend",
+		"set": "Tgt",
 		"cost": 2,
-		"text": "Give a minion <b>Windfury</b>."
+		"attack": 2,
+		"health": 3,
+		"text": "Whenever you draw a card, reduce its Cost by (1)."
 	},
 	{
-		"name": "Dread Infernal",
-		"set": "Core",
+		"name": "Spellslinger",
+		"set": "Tgt",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Both players\nget a random spell.\nYours costs (2) less."
+	},
+	{
+		"name": "Anub'arak",
+		"set": "Tgt",
+		"cost": 8,
+		"attack": 8,
+		"health": 4,
+		"text": "<b>Deathrattle:</b> Summon a 4/4 Nerubian with \"<b>Deathrattle:</b> \nSummon Anub'arak.\""
+	},
+	{
+		"name": "Healing Wave",
+		"set": "Tgt",
+		"cost": 3,
+		"text": "Restore #8 Health. Reveal a minion in each deck. If yours costs more, restore #16 instead."
+	},
+	{
+		"name": "Thunder Bluff Valiant",
+		"set": "Tgt",
+		"cost": 5,
+		"attack": 3,
+		"health": 6,
+		"text": "<b>Battlecry and Inspire:</b>\nGive your Totems\n+2 Attack."
+	},
+	{
+		"name": "Charged Hammer",
+		"set": "Tgt",
+		"cost": 3,
+		"attack": 2,
+		"text": "<b>Deathrattle:</b> Your Hero Power becomes 'Deal 2 damage.'"
+	},
+	{
+		"name": "Dark Bargain",
+		"set": "Tgt",
+		"cost": 3,
+		"text": "Destroy 2 random enemy minions. Discard 2 random cards."
+	},
+	{
+		"name": "Acidmaw",
+		"set": "Tgt",
+		"cost": 3,
+		"attack": 4,
+		"health": 2,
+		"text": "Whenever an enemy minion takes damage, destroy it."
+	},
+	{
+		"name": "Dreadscale",
+		"set": "Tgt",
+		"cost": 3,
+		"attack": 4,
+		"health": 2,
+		"text": "At the end of your turn, deal 1 damage to all enemies."
+	},
+	{
+		"name": "Enter the Coliseum",
+		"set": "Tgt",
+		"cost": 3,
+		"text": "Destroy all minions except each player's highest Attack minion."
+	},
+	{
+		"name": "Mysterious Challenger",
+		"set": "Tgt",
+		"cost": 5,
+		"attack": 5,
+		"health": 5,
+		"text": "<b>Battlecry:</b> Put one of each <b>Secret</b> from your deck into the battlefield."
+	},
+	{
+		"name": "Poisoned Blade",
+		"set": "Tgt",
+		"cost": 2,
+		"attack": 1,
+		"text": "Your Hero Power gives this +1 Attack instead\nof replacing it."
+	},
+	{
+		"name": "Shado-Pan Rider",
+		"set": "Tgt",
+		"cost": 5,
+		"attack": 3,
+		"health": 7,
+		"text": "<b>Combo:</b> Gain +4 Attack."
+	},
+	{
+		"name": "Burgle",
+		"set": "Tgt",
+		"cost": 3,
+		"text": "Get 3 random\ncards <i>(from your\nopponent's class)</i>."
+	},
+	{
+		"name": "Tiny Knight of Evil",
+		"set": "Tgt",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "Whenever you discard a card, gain +2/+2."
+	},
+	{
+		"name": "Savage Combatant",
+		"set": "Tgt",
+		"cost": 4,
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Inspire:</b> Give your hero +2 Attack this turn."
+	},
+	{
+		"name": "Knight of the Wild",
+		"set": "Tgt",
+		"cost": 7,
+		"attack": 6,
+		"health": 6,
+		"text": "Costs (1) less for each Beast you've summoned this game."
+	},
+	{
+		"name": "Aviana",
+		"set": "Tgt",
+		"cost": 9,
+		"attack": 5,
+		"health": 5,
+		"text": "Your minions cost (1)."
+	},
+	{
+		"name": "Museum Curator",
+		"set": "Loe",
+		"cost": 2,
+		"attack": 1,
+		"health": 2,
+		"text": "<b>Battlecry: Discover</b> a <b>Deathrattle</b> card.\nIt costs (1) less."
+	},
+	{
+		"name": "Tomb Pillager",
+		"set": "Loe",
+		"cost": 4,
+		"attack": 6,
+		"health": 4,
+		"text": "<b>Deathrattle:</b> Get a Coin."
+	},
+	{
+		"name": "Keeper of Uldaman",
+		"set": "Loe",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Set a minion's Attack and Health to 3."
+	},
+	{
+		"name": "Dark Peddler",
+		"set": "Loe",
+		"cost": 2,
+		"attack": 2,
+		"health": 3,
+		"text": "<b>Battlecry: Discover</b> a\n1-Cost card."
+	},
+	{
+		"name": "Explorer's Hat",
+		"set": "Loe",
+		"cost": 1,
+		"text": "Give a minion +1/+1 and \"<b>Deathrattle:</b> Get an Explorer's Hat.\""
+	},
+	{
+		"name": "Nerubian",
+		"set": "Tgt",
+		"cost": 4,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Deathrattle:</b> Summon Anub'arak."
+	},
+	{
+		"name": "Servant of Yogg-Saron",
+		"set": "Og",
+		"cost": 5,
+		"attack": 5,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> Cast a random\n spell that costs (5) or MORE \n <i>(targets chosen randomly)</i>."
+	},
+	{
+		"name": "Cabalist's Tome",
+		"set": "Og",
+		"cost": 4,
+		"text": "Get 3 random\nMage spells."
+	},
+	{
+		"name": "Spreading Madness",
+		"set": "Og",
+		"cost": 3,
+		"text": "Deal $13 damage randomly split among ALL characters."
+	},
+	{
+		"name": "Cho'gall",
+		"set": "Og",
+		"cost": 8,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]<b>Battlecry:</b> Return all cards\nyou discarded this game to\nyour hand. They cost Health\ninstead of Mana."
+	},
+	{
+		"name": "Twin Emperor Vek'lor",
+		"set": "Og",
+		"cost": 7,
+		"attack": 6,
+		"health": 7,
+		"text": "[x]<b><b>Taunt</b>\nBattlecry:</b> If your C'Thun has\nat least 10 Attack, summon\nanother Emperor."
+	},
+	{
+		"name": "Yogg-Saron, Hope's End",
+		"set": "Og",
+		"cost": 10,
+		"attack": 7,
+		"health": 5,
+		"text": "[x]<b>Battlecry:</b> Cast a random\nspell for each spell you've\ncast this game <i>(targets\nchosen randomly)</i>."
+	},
+	{
+		"name": "Disciple of C'Thun",
+		"set": "Og",
+		"cost": 3,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Deal 2 damage. Give your C'Thun +2/+2 <i>(wherever it is)</i>."
+	},
+	{
+		"name": "Klaxxi Amber-Weaver",
+		"set": "Og",
+		"cost": 4,
+		"attack": 4,
+		"health": 5,
+		"text": "[x]<b>Taunt</b>\n<b>Battlecry:</b> If your C'Thun\nhas at least 10 Attack,\ngain +5 Health."
+	},
+	{
+		"name": "Mire Keeper",
+		"set": "Og",
+		"cost": 4,
+		"attack": 3,
+		"health": 4,
+		"text": "[x]<b>Choose One -</b> Summon a\n2/2 Slime; or Gain an\nempty Mana Crystal."
+	},
+	{
+		"name": "Hallazeal the Ascended",
+		"set": "Og",
+		"cost": 5,
+		"attack": 4,
+		"health": 6,
+		"text": "<b>Spell Damage +1</b>\nYour spells have <b>Lifesteal</b>."
+	},
+	{
+		"name": "Darkshire Alchemist",
+		"set": "Og",
+		"cost": 5,
+		"attack": 5,
+		"health": 5,
+		"text": "<b>Battlecry:</b> Restore\n#5 Health."
+	},
+	{
+		"name": "C'Thun",
+		"set": "Og",
+		"cost": 8,
+		"attack": 6,
+		"health": 6,
+		"text": "<b>Battlecry:</b> Deal damage\nequal to this minion's\nAttack randomly split among all enemies."
+	},
+	{
+		"name": "C'Thun",
+		"set": "Og",
+		"cost": 8,
+		"attack": 6,
+		"health": 6,
+		"text": "<b>Battlecry:</b> Deal damage\nequal to this minion's\nAttack randomly split among all enemies."
+	},
+	{
+		"name": "Blade of C'Thun",
+		"set": "Og",
+		"cost": 6,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Destroy a minion. Add its Attack and Health to your C'Thun's <i>(wherever it is).</i>"
+	},
+	{
+		"name": "C'Thun's Chosen",
+		"set": "Og",
+		"cost": 4,
+		"attack": 4,
+		"health": 2,
+		"text": "[x]<b>Divine Shield</b>\n<b>Battlecry:</b> Give your C'Thun\n+3/+3 <i>(wherever it is).</i>"
+	},
+	{
+		"name": "Twilight Geomancer",
+		"set": "Og",
+		"cost": 2,
+		"attack": 1,
+		"health": 4,
+		"text": "<b>Taunt</b>\n<b>Battlecry:</b> Give your\nC'Thun +1/+1 and <b>Taunt</b> <i>(wherever it is)</i>."
+	},
+	{
+		"name": "Dark Arakkoa",
+		"set": "Og",
+		"cost": 6,
+		"attack": 5,
+		"health": 7,
+		"text": "[x]<b>Taunt</b>\n<b>Battlecry:</b> Give your C'Thun\n+4/+4 <i>(wherever it is).</i>"
+	},
+	{
+		"name": "Cult Apothecary",
+		"set": "Og",
+		"cost": 4,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Battlecry:</b> For each enemy minion, restore #2 Health to your hero."
+	},
+	{
+		"name": "Ancient Shieldbearer",
+		"set": "Og",
 		"cost": 6,
 		"attack": 6,
 		"health": 6,
-		"text": "<b>Battlecry:</b> Deal 1 damage to ALL other characters."
+		"text": "<b>Battlecry:</b> If your C'Thun has at least 10 Attack, gain 10 Armor."
 	},
 	{
-		"name": "Guardian of Kings",
-		"set": "Core",
-		"cost": 7,
-		"attack": 5,
-		"health": 7,
-		"text": "<b>Taunt</b>\n<b>Battlecry:</b> Restore #6 Health to your hero."
+		"name": "Usher of Souls",
+		"set": "Og",
+		"cost": 4,
+		"attack": 3,
+		"health": 5,
+		"text": "Whenever a minion dies, give your C'Thun +1/+1\n<i>(wherever it is).</i>"
 	},
 	{
-		"name": "Holy Light",
-		"set": "Core",
-		"cost": 2,
-		"text": "Restore #8 Health to your hero."
-	},
-	{
-		"name": "River Crocolisk",
-		"set": "Core",
-		"cost": 2,
-		"attack": 2,
-		"health": 3
-	},
-	{
-		"name": "Warsong Commander",
-		"set": "Core",
+		"name": "Steward of Darkshire",
+		"set": "Og",
 		"cost": 3,
+		"attack": 4,
+		"health": 3,
+		"text": "Whenever you summon a 1-Health minion, give it <b>Divine Shield</b>."
+	},
+	{
+		"name": "A Light in the Darkness",
+		"set": "Og",
+		"cost": 2,
+		"text": "<b>Discover</b> a Paladin minion. Give it +2/+2."
+	},
+	{
+		"name": "Addled Grizzly",
+		"set": "Og",
+		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "Whenever you summon a minion with 3 or less Attack, give it <b>Charge</b>."
+		"text": "After you summon a\nBeast, give it +1/+1."
 	},
 	{
-		"name": "Gurubashi Berserker",
-		"set": "Core",
-		"cost": 5,
-		"attack": 2,
-		"health": 8,
-		"text": "Whenever this minion takes damage, gain +3 Attack."
-	},
-	{
-		"name": "Ancient of War",
-		"set": "Core",
+		"name": "Twin Emperor Vek'nilash",
+		"set": "Og",
 		"cost": 7,
+		"attack": 6,
+		"health": 7,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"name": "Crazed Worshipper",
+		"set": "Og",
+		"cost": 4,
+		"attack": 3,
+		"health": 6,
+		"text": "[x]<b>Taunt</b>\nWhenever this minion takes\ndamage, give your C'Thun\n+1/+1 <i>(wherever it is).</i>"
+	},
+	{
+		"name": "Undercity Huckster",
+		"set": "Og",
+		"cost": 2,
+		"attack": 2,
+		"health": 3,
+		"text": "<b>Deathrattle:</b> Get a\nrandom card <i>(from your\nopponent's class)</i>."
+	},
+	{
+		"name": "Hooded Acolyte",
+		"set": "Og",
+		"cost": 4,
+		"attack": 3,
+		"health": 6,
+		"text": "[x]<b>Taunt</b>\nWhenever a character is\nhealed, give your C'Thun\n+1/+1 <i>(wherever it is).</i>"
+	},
+	{
+		"name": "Skeram Cultist",
+		"set": "Og",
+		"cost": 6,
+		"attack": 7,
+		"health": 6,
+		"text": "[x]<b>Battlecry:</b> Give your C'Thun\n+2/+2 <i>(wherever it is)</i>."
+	},
+	{
+		"name": "Wicked Witchdoctor",
+		"set": "Kara",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "Whenever you cast a spell, summon a random basic Totem."
+	},
+	{
+		"name": "Onyx Bishop",
+		"set": "Kara",
+		"cost": 4,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Summon a random friendly minion\nthat died this game."
+	},
+	{
+		"name": "Silverware Golem",
+		"set": "Kara",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "If you discard this minion, summon it."
+	},
+	{
+		"name": "Ivory Knight",
+		"set": "Kara",
+		"cost": 4,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> <b>Discover</b> a spell.\nRestore Health to your hero\nequal to its Cost."
+	},
+	{
+		"name": "Menagerie Warden",
+		"set": "Kara",
+		"cost": 5,
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Choose a friendly Beast. Summon a copy of it."
+	},
+	{
+		"name": "Firelands Portal",
+		"set": "Kara",
+		"cost": 7,
+		"text": "Deal $6 damage. Summon a random\n6-Cost minion."
+	},
+	{
+		"name": "Silvermoon Portal",
+		"set": "Kara",
+		"cost": 3,
+		"text": "Give a minion +2/+2. Summon a random\n2-Cost minion."
+	},
+	{
+		"name": "Ironforge Portal",
+		"set": "Kara",
+		"cost": 4,
+		"text": "Gain 4 Armor.\nSummon a random\n4-Cost minion."
+	},
+	{
+		"name": "Street Trickster",
+		"set": "Gangs",
+		"cost": 3,
+		"attack": 0,
+		"health": 7,
+		"text": "<b>Spell Damage +2</b>"
+	},
+	{
+		"name": "Jinyu Waterspeaker",
+		"set": "Gangs",
+		"cost": 4,
+		"attack": 4,
+		"health": 6,
+		"text": "[x]<b>Battlecry:</b> Restore #6 Health.\n<b>Overload:</b> (1)"
+	},
+	{
+		"name": "Call in the Finishers",
+		"set": "Gangs",
+		"cost": 3,
+		"text": "Summon four\n1/1 Murlocs."
+	},
+	{
+		"name": "Jade Chieftain",
+		"set": "Gangs",
+		"cost": 6,
 		"attack": 5,
 		"health": 5,
-		"text": "<b>Choose One -</b>\n+5 Attack; or +5 Health and <b>Taunt</b>."
+		"text": "<b>Battlecry:</b> Summon a{1} {0} <b>Jade Golem</b>. Give it <b>Taunt</b>."
+	},
+	{
+		"name": "Brass Knuckles",
+		"set": "Gangs",
+		"cost": 3,
+		"attack": 2,
+		"text": "[x]After your hero attacks,\ngive a random minion in\nyour hand +1/+1."
+	},
+	{
+		"name": "Jade Lightning",
+		"set": "Gangs",
+		"cost": 3,
+		"text": "Deal $3 damage. Summon a{1} {0} <b>Jade Golem</b>."
+	},
+	{
+		"name": "Grimestreet Enforcer",
+		"set": "Gangs",
+		"cost": 4,
+		"attack": 4,
+		"health": 4,
+		"text": "At the end of your turn, give all minions in your hand +1/+1."
+	},
+	{
+		"name": "Grimestreet Informant",
+		"set": "Gangs",
+		"cost": 2,
+		"attack": 2,
+		"health": 2,
+		"text": "[x]<b>Battlecry:</b> <b>Discover</b>\na Hunter, Paladin, or\nWarrior card."
+	},
+	{
+		"name": "Hobart Grapplehammer",
+		"set": "Gangs",
+		"cost": 4,
+		"attack": 2,
+		"health": 2,
+		"text": "[x]<b>Battlecry:</b> If you have a\nweapon equipped, give\nall minions in your hand\nand deck +2/+2."
+	},
+	{
+		"name": "Kabal Courier",
+		"set": "Gangs",
+		"cost": 2,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Battlecry:</b> <b>Discover</b>\na Mage, Priest, or\nWarlock card."
+	},
+	{
+		"name": "Jade Spirit",
+		"set": "Gangs",
+		"cost": 4,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Battlecry:</b> Summon a{1} {0} <b>Jade Golem</b>."
+	},
+	{
+		"name": "Krul the Unshackled",
+		"set": "Gangs",
+		"cost": 9,
+		"attack": 9,
+		"health": 9,
+		"text": "[x]<b>Battlecry:</b> If your deck has\nno duplicates, summon all\n Demons from your hand."
+	},
+	{
+		"name": "Stolen Goods",
+		"set": "Gangs",
+		"cost": 2,
+		"text": "Draw a <b>Taunt</b> minion.\nGive it +2/+2."
+	},
+	{
+		"name": "Grimy Gadgeteer",
+		"set": "Gangs",
+		"cost": 3,
+		"attack": 4,
+		"health": 3,
+		"text": "At the end of your turn, give a random minion in your hand +2/+2."
+	},
+	{
+		"name": "Alley Armorsmith",
+		"set": "Gangs",
+		"cost": 5,
+		"attack": 3,
+		"health": 7,
+		"text": "[x]<b>Taunt</b>\nWhenever this minion\ndeals damage, gain\nthat much Armor."
+	},
+	{
+		"name": "Kabal Crystal Runner",
+		"set": "Gangs",
+		"cost": 6,
+		"attack": 6,
+		"health": 5,
+		"text": "Costs (2) less for each <b>Secret</b> you've played this game."
+	},
+	{
+		"name": "Aya Blackpaw",
+		"set": "Gangs",
+		"cost": 6,
+		"attack": 6,
+		"health": 3,
+		"text": "<b>Battlecry and Deathrattle:</b> Summon a{1} {0} <b>Jade Golem</b>."
+	},
+	{
+		"name": "Small-Time Buccaneer",
+		"set": "Gangs",
+		"cost": 1,
+		"attack": 1,
+		"health": 2,
+		"text": "Has +2 Attack while you have a weapon equipped."
+	},
+	{
+		"name": "Wickerflame Burnbristle",
+		"set": "Gangs",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Taunt</b>\n<b>Divine Shield</b>\n<b>Lifesteal</b>"
+	},
+	{
+		"name": "Virmen Sensei",
+		"set": "Gangs",
+		"cost": 4,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Give a friendly Beast +3/+3."
+	},
+	{
+		"name": "Smuggler's Crate",
+		"set": "Gangs",
+		"cost": 0,
+		"text": "Give a random Beast in your hand +2/+2."
+	},
+	{
+		"name": "Shaky Zipgunner",
+		"set": "Gangs",
+		"cost": 3,
+		"attack": 4,
+		"health": 3,
+		"text": "[x]<b>Deathrattle:</b> Give a random\nminion in your hand +2/+2."
+	},
+	{
+		"name": "Jade Swarmer",
+		"set": "Gangs",
+		"cost": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Stealth</b>\n<b>Deathrattle:</b> Summon a{1} {0} <b>Jade Golem</b>."
+	},
+	{
+		"name": "Jade Shuriken",
+		"set": "Gangs",
+		"cost": 2,
+		"text": "Deal $3 damage.\n<b>Combo:</b> Summon a{1} {0} <b>Jade Golem</b>."
+	},
+	{
+		"name": "Don Han'Cho",
+		"set": "Gangs",
+		"cost": 5,
+		"attack": 5,
+		"health": 6,
+		"text": "<b>Battlecry:</b> Give a\nrandom minion in your hand +5/+5."
+	},
+	{
+		"name": "Lotus Agents",
+		"set": "Gangs",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Battlecry:</b> <b>Discover</b>\na Druid, Rogue, or\nShaman card."
+	},
+	{
+		"name": "Jade Behemoth",
+		"set": "Gangs",
+		"cost": 5,
+		"attack": 3,
+		"health": 6,
+		"text": "[x]<b>Taunt</b>\n<b>Battlecry:</b> Summon a{1}\n{0} <b>Jade Golem</b>."
+	},
+	{
+		"name": "I Know a Guy",
+		"set": "Gangs",
+		"cost": 1,
+		"text": "<b>Discover</b> a <b>Taunt</b> minion. Give it +1/+2."
+	},
+	{
+		"name": "Worgen Greaser",
+		"set": "Gangs",
+		"cost": 4,
+		"attack": 6,
+		"health": 5
+	},
+	{
+		"name": "Bladestorm",
+		"set": "Black_temple",
+		"cost": 2,
+		"text": "Deal $1 damage to all minions. Repeat until one dies."
+	},
+	{
+		"name": "Mecharoo",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Summon a 2/2 Jo-E Bot."
+	},
+	{
+		"name": "Harvest Golem",
+		"set": "Legacy",
+		"cost": 3,
+		"attack": 4,
+		"health": 6,
+		"text": "<b>Deathrattle:</b> Summon a 4/2 Damaged Golem."
+	},
+	{
+		"name": "Spawn of N'Zoth",
+		"set": "Og",
+		"cost": 3,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Deathrattle:</b> Give your minions +2/+2."
+	},
+	{
+		"name": "Rat Pack",
+		"set": "Gangs",
+		"cost": 3,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Deathrattle:</b> Summon a\nnumber of 2/2 Rats equal\n to this minion's Attack."
+	},
+	{
+		"name": "Robosaur",
+		"set": "Battlegrounds",
+		"cost": 8,
+		"attack": 16,
+		"health": 16
 	},
 	{
 		"name": "Scavenging Hyena",
+		"set": "Legacy",
+		"cost": 2,
+		"attack": 4,
+		"health": 4,
+		"text": "Whenever a friendly Beast dies, gain +4/+2."
+	},
+	{
+		"name": "Tavern Tier 2",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"text": "The Tavern offers higher Tier minions."
+	},
+	{
+		"name": "Tavern Tier 3",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"text": "The Tavern offers higher Tier minions."
+	},
+	{
+		"name": "Tavern Tier 4",
+		"set": "Battlegrounds",
+		"cost": 8,
+		"text": "The Tavern offers higher Tier minions."
+	},
+	{
+		"name": "Tavern Tier 5",
+		"set": "Battlegrounds",
+		"cost": 11,
+		"text": "The Tavern offers higher Tier minions."
+	},
+	{
+		"name": "Tavern Tier 6",
+		"set": "Battlegrounds",
+		"cost": 10,
+		"text": "The Tavern offers higher Tier minions."
+	},
+	{
+		"name": "Argent Braggart",
+		"set": "Scholomance",
+		"cost": 2,
+		"attack": 1,
+		"health": 1,
+		"text": "[x]<b>Battlecry:</b> Set this minion's\nAttack and Health to the\nhighest in the battlefield."
+	},
+	{
+		"name": "Lightfang Enforcer",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]At the end of your turn,\ngive a friendly minion\nof each type +2/+2."
+	},
+	{
+		"name": "Lightfang Enforcer",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]At the end of your turn,\ngive a friendly minion\nof each type +4/+4."
+	},
+	{
+		"name": "Annihilan Battlemaster",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 3,
+		"health": 1,
+		"text": "<b>Battlecry:</b> Gain +2 Health for each Health your hero is missing."
+	},
+	{
+		"name": "Annihilan Battlemaster",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 6,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Gain +4 Health for each Health your hero is missing."
+	},
+	{
+		"name": "King Bagurgle",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 6,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Give your other Murlocs +2/+3."
+	},
+	{
+		"name": "King Bagurgle",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 12,
+		"health": 8,
+		"text": "<b>Battlecry:</b> Give your other Murlocs +4/+6."
+	},
+	{
+		"name": "Floating Watcher",
+		"set": "Gvg",
+		"cost": 5,
+		"attack": 8,
+		"health": 8,
+		"text": "Whenever your hero takes damage on your turn, gain +4/+4."
+	},
+	{
+		"name": "Razorgore, the Untamed",
+		"set": "Battlegrounds",
+		"cost": 8,
+		"attack": 4,
+		"health": 6,
+		"text": "At the end of your turn, gain +1/+1 for each Dragon you control."
+	},
+	{
+		"name": "Nadina the Red",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 8,
+		"health": 4,
+		"text": "<b>Deathrattle:</b> Give 3 friendly Dragons <b>Divine Shield</b>."
+	},
+	{
+		"name": "Razorgore, the Untamed",
+		"set": "Battlegrounds",
+		"cost": 8,
+		"attack": 8,
+		"health": 12,
+		"text": "At the end of your turn, gain +2/+2 for each Dragon you control."
+	},
+	{
+		"name": "Amalgadon",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 6,
+		"health": 6,
+		"text": "[x]<b>Battlecry:</b> For each\ndifferent minion type you\n control, randomly <b>Adapt</b>."
+	},
+	{
+		"name": "Amalgadon",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 12,
+		"health": 12,
+		"text": "[x]<b>Battlecry:</b> For each\ndifferent minion type you\ncontrol, randomly <b>Adapt</b>\ntwice."
+	},
+	{
+		"name": "Kel'Thuzad's Kitty",
+		"set": "Battlegrounds",
+		"text": "[x]<b>Passive</b>. After another hero\ndies, <b>Discover</b> a minion\nfrom their warband.\n It keeps enchantments."
+	},
+	{
+		"name": "Friendly Wager",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"text": "[x]Guess which player will\nwin their next combat. If\nyou're right, get 3 Coins."
+	},
+	{
+		"name": "Qiraji Harbinger",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 5,
+		"health": 5,
+		"text": "After a friendly minion with <b>Taunt</b> dies, give its neighbors +2/+2."
+	},
+	{
+		"name": "Champion of Y'Shaarj",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 3,
+		"health": 3,
+		"text": "Whenever a friendly <b>Taunt</b> minion is attacked, gain +1/+2 permanently."
+	},
+	{
+		"name": "Nadina the Red",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 16,
+		"health": 8,
+		"text": "<b>Deathrattle:</b> Give 6 friendly Dragons <b>Divine Shield</b>."
+	},
+	{
+		"name": "Crackling Cyclone",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 4,
+		"health": 1,
+		"text": "<b>Divine Shield</b>\n<b>Windfury</b>"
+	},
+	{
+		"name": "Crackling Cyclone",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 8,
+		"health": 2,
+		"text": "<b>Divine Shield</b>\n<b>Windfury</b>"
+	},
+	{
+		"name": "Party Elemental",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 2,
+		"health": 5,
+		"text": "After you play an Elemental, give a friendly Elemental other than it +1/+2."
+	},
+	{
+		"name": "Party Elemental",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 4,
+		"health": 10,
+		"text": "After you play an Elemental, give a friendly Elemental other than it +2/+4."
+	},
+	{
+		"name": "Tavern Tempest",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Get a\nrandom Elemental."
+	},
+	{
+		"name": "Tavern Tempest",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"attack": 8,
+		"health": 8,
+		"text": "<b>Battlecry:</b> Get 2\nrandom Elementals."
+	},
+	{
+		"name": "Wildfire Elemental",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 7,
+		"health": 4,
+		"text": "After this attacks and\nkills a minion, deal\nexcess damage to an adjacent minion."
+	},
+	{
+		"name": "Molten Rock",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Taunt</b>. After you play an Elemental, gain +1 Health."
+	},
+	{
+		"name": "Molten Rock",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 6,
+		"health": 8,
+		"text": "<b>Taunt</b>. After you play an Elemental, gain +2 Health."
+	},
+	{
+		"name": "Mythrax the Unraveler",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]At the end of your turn,\ngain +2/+2 for each\n minion type you control."
+	},
+	{
+		"name": "Champion of Y'Shaarj",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 6,
+		"health": 6,
+		"text": "Whenever a friendly <b>Taunt</b> minion is attacked, gain +2/+4 permanently."
+	},
+	{
+		"name": "Mythrax the Unraveler",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]At the end of your turn,\ngain +4/+4 for each\n minion type you control."
+	},
+	{
+		"name": "Qiraji Harbinger",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 10,
+		"health": 10,
+		"text": "After a friendly minion with <b>Taunt</b> dies, give its neighbors +4/+4."
+	},
+	{
+		"name": "Elistra the Immortal",
+		"set": "Battlegrounds",
+		"cost": 8,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]<b>Divine Shield</b>. <b>Reborn</b>.\nWhenever a friendly <b>Taunt</b>\nminion is attacked, this\n gets attacked instead."
+	},
+	{
+		"name": "Elistra the Immortal",
+		"set": "Battlegrounds",
+		"cost": 8,
+		"attack": 16,
+		"health": 16,
+		"text": "[x]<b>Divine Shield</b>. <b>Reborn</b>.\nWhenever a friendly <b>Taunt</b>\nminion is attacked, this\n gets attacked instead."
+	},
+	{
+		"name": "Argent Braggart",
+		"set": "Scholomance",
+		"cost": 2,
+		"attack": 2,
+		"health": 2,
+		"text": "[x]<b>Battlecry:</b> Set this minion's\nAttack and Health to\ndouble the highest\nin the battlefield."
+	},
+	{
+		"name": "Ring Matron",
+		"set": "Darkmoon_faire",
+		"cost": 6,
+		"attack": 12,
+		"health": 8,
+		"text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Summon\ntwo 6/4 Imps."
+	},
+	{
+		"name": "Menagerie Warden",
+		"set": "Old_core_230",
+		"cost": 5,
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Choose a friendly Beast. Summon a copy of it."
+	},
+	{
+		"name": "Lock and Load",
+		"set": "Old_core_230",
+		"cost": 0,
+		"text": "Each time you cast a spell this turn, get a random Hunter card."
+	},
+	{
+		"name": "Webspinner",
+		"set": "Old_core_230",
+		"cost": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Deathrattle:</b> Get a\nrandom Beast."
+	},
+	{
+		"name": "Tiny Knight of Evil",
+		"set": "Old_core_230",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "Whenever you discard a card, gain +2/+2."
+	},
+	{
+		"name": "Tomb Pillager",
+		"set": "Old_core_230",
+		"cost": 4,
+		"attack": 6,
+		"health": 4,
+		"text": "<b>Deathrattle:</b> Get a Coin."
+	},
+	{
+		"name": "Bannerboar",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 3,
+		"health": 5,
+		"text": "At the end of your turn, play a <b>Blood Gem</b> on adjacent minions."
+	},
+	{
+		"name": "Bannerboar",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 6,
+		"health": 10,
+		"text": "At the end of your turn, play 2 <b>Blood Gems</b> on adjacent minions."
+	},
+	{
+		"name": "Prophet of the Boar",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 2,
+		"health": 3,
+		"text": "<b>Taunt</b>\nAfter you play a Quilboar, get a <b>Blood Gem</b>."
+	},
+	{
+		"name": "Prophet of the Boar",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 4,
+		"health": 6,
+		"text": "<b>Taunt</b>\nAfter you play a Quilboar, get 2 <b>Blood Gems</b>."
+	},
+	{
+		"name": "Thorncaller",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Get a\n<b>Blood Gem</b>."
+	},
+	{
+		"name": "Captain Flat Tusk",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 9,
+		"health": 6,
+		"text": "After you spend 4 Gold, get a <b>Blood Gem</b>.\n<i>(4 Gold left!)</i>"
+	},
+	{
+		"name": "Thorncaller",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"attack": 6,
+		"health": 4,
+		"text": "<b>Deathrattle:</b> Get 2\n<b>Blood Gems</b>."
+	},
+	{
+		"name": "Dynamic Duo",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 5,
+		"health": 6,
+		"text": "[x]<b>Taunt</b>\nAfter a <b>Blood Gem</b> is\nplayed on another friendly\n Quilboar, gain +1/+1."
+	},
+	{
+		"name": "Captain Flat Tusk",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 18,
+		"health": 12,
+		"text": "[x]After you spend 4 Gold,\nget 2 <b>Blood Gems</b>.\n<i>(4 Gold left!)</i>"
+	},
+	{
+		"name": "Dynamic Duo",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 10,
+		"health": 12,
+		"text": "[x]<b>Taunt</b>\nAfter a <b>Blood Gem</b> is\nplayed on another friendly\n Quilboar, gain +2/+2."
+	},
+	{
+		"name": "See the Light",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"text": "[x]Choose a minion in the\nTavern. Set its stats to 2\nand add it to your hand."
+	},
+	{
+		"name": "Tarecgosa",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 4,
+		"health": 4,
+		"text": "This permanently keeps your enchantments from combat."
+	},
+	{
+		"name": "Saltscale Honcho",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "After you play a Murloc, give two friendly Murlocs +1 Health."
+	},
+	{
+		"name": "Smogger",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Battlecry:</b> Give a friendly Elemental stats equal to your Tier."
+	},
+	{
+		"name": "Briny Bootlegger",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]At the end of your turn, if\nyou control another Pirate,\nget a Gold Coin."
+	},
+	{
+		"name": "Prized Promo-Drake",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 3,
+		"health": 3,
+		"text": "[x]<b>Start of Combat:</b> Give\nadjacent minions +1/+1\n for each friendly Dragon."
+	},
+	{
+		"name": "Bioluminescence",
+		"set": "The_sunken_city",
+		"cost": 4,
+		"text": "Give your minions\n<b>Spell Damage +1</b>."
+	},
+	{
+		"name": "Mechano-Tank",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 5,
+		"health": 3,
+		"text": "<b>Avenge (2):</b> Deal 5 damage to the highest Health enemy minion."
+	},
+	{
+		"name": "Grease Bot",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 1,
+		"health": 4,
+		"text": "<b>Divine Shield</b>\nAfter a friendly minion loses\n<b>Divine Shield</b>, give it\n+2/+2 permanently."
+	},
+	{
+		"name": "Omega Buster",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 5,
+		"health": 5,
+		"text": "<b>Deathrattle:</b> Summon five 1/1 Microbots. For each that doesn't fit, give your Mechs +1/+1."
+	},
+	{
+		"name": "Saltscale Honcho",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"attack": 6,
+		"health": 4,
+		"text": "After you play a Murloc, give two friendly Murlocs +2 Health."
+	},
+	{
+		"name": "Omega Buster",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 10,
+		"health": 10,
+		"text": "<b>Deathrattle:</b> Summon five 2/2 Microbots. For each that doesn't fit, give your Mechs +2/+2."
+	},
+	{
+		"name": "Prized Promo-Drake",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 6,
+		"health": 6,
+		"text": "[x]<b>Start of Combat:</b> Give\nadjacent minions +2/+2\n for each friendly Dragon."
+	},
+	{
+		"name": "Tarecgosa",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 8,
+		"health": 8,
+		"text": "This permanently doubles and keeps your enchantments from combat."
+	},
+	{
+		"name": "Briny Bootlegger",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]At the end of your turn, if\nyou control another Pirate,\nget 2 Gold Coins."
+	},
+	{
+		"name": "Smogger",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 6,
+		"health": 6,
+		"text": "[x]<b>Battlecry:</b> Give a friendly\nElemental stats equal to\n your Tier twice."
+	},
+	{
+		"name": "Mechano-Tank",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 10,
+		"health": 6,
+		"text": "[x]<b>Avenge (2):</b> Deal 5 damage\nto the highest Health\nenemy minion twice."
+	},
+	{
+		"name": "Grease Bot",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 2,
+		"health": 8,
+		"text": "<b>Divine Shield</b>\nAfter a friendly minion loses\n<b>Divine Shield</b>, give it\n+4/+4 permanently."
+	},
+	{
+		"name": "Gemsplitter",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 2,
+		"health": 4,
+		"text": "After a friendly minion loses <b>Divine Shield</b>,\nget a <b>Blood Gem</b>."
+	},
+	{
+		"name": "Gemsplitter",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 4,
+		"health": 8,
+		"text": "After a friendly minion loses <b>Divine Shield</b>,\nget 2 <b>Blood Gems</b>."
+	},
+	{
+		"name": "Acolyte of Pain",
 		"set": "Core",
+		"cost": 3,
+		"attack": 1,
+		"health": 4,
+		"text": "Whenever this minion takes damage, draw a card."
+	},
+	{
+		"name": "Piloted Whirl-O-Tron",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 4,
+		"health": 3,
+		"text": "<b>Battlecry:</b> Copy a different friendly minion's <b>Deathrattles</b>."
+	},
+	{
+		"name": "Piloted Whirl-O-Tron",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 8,
+		"health": 6,
+		"text": "<b>Battlecry:</b> Copy a different friendly minion's <b>Deathrattles</b> twice."
+	},
+	{
+		"name": "Mini-Myrmidon",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"attack": 1,
+		"health": 3,
+		"text": "<b>Spellcraft:</b> Give a minion +2 Attack until next turn."
+	},
+	{
+		"name": "Snail Cavalry",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"attack": 5,
+		"health": 2,
+		"text": "[x]Once per turn,\nwhen you cast a spell,\ngain +2 Health."
+	},
+	{
+		"name": "Critter Wrangler",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"attack": 5,
+		"health": 7,
+		"text": "Whenever you cast a <b>Spellcraft</b> spell on a minion, give it +2/+2."
+	},
+	{
+		"name": "Lava Lurker",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"attack": 2,
+		"health": 5,
+		"text": "[x]The first <b>Spellcraft</b>\n enchantment on this\n each turn is permanent."
+	},
+	{
+		"name": "Eventide Brute",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"attack": 4,
+		"health": 3,
+		"text": "[x]Whenever you cast a spell,\ngain +1/+1."
+	},
+	{
+		"name": "Tidemistress Athissa",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 6,
+		"health": 8,
+		"text": "[x]Whenever you cast a\nspell, give four friendly\nNaga +1/+1."
+	},
+	{
+		"name": "Reef Explorer",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Battlecry: Discover</b> a minion of a type you don't control."
+	},
+	{
+		"name": "Sanguine Champion",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 9,
+		"health": 3,
+		"text": "[x]<b>Battlecry and Deathrattle:</b>\nYour <b>Blood Gems</b> give an\nextra +1/+1 this game."
+	},
+	{
+		"name": "Mini-Myrmidon",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"attack": 2,
+		"health": 6,
+		"text": "<b>Spellcraft:</b> Give a minion +4 Attack until next turn."
+	},
+	{
+		"name": "Snail Cavalry",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"attack": 10,
+		"health": 4,
+		"text": "[x]Once per turn,\nwhen you cast a spell,\ngain +4 Health."
+	},
+	{
+		"name": "Critter Wrangler",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"attack": 10,
+		"health": 14,
+		"text": "Whenever you cast a <b>Spellcraft</b> spell on a minion, give it +4/+4."
+	},
+	{
+		"name": "Lava Lurker",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"attack": 4,
+		"health": 10,
+		"text": "[x]The first two <b>Spellcraft</b>\n enchantments on this\neach turn are permanent."
+	},
+	{
+		"name": "Eventide Brute",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"attack": 8,
+		"health": 6,
+		"text": "[x]Whenever you cast a spell,\ngain +2/+2."
+	},
+	{
+		"name": "Tidemistress Athissa",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 12,
+		"health": 16,
+		"text": "[x]Whenever you cast a\nspell, give four friendly\nNaga +2/+2."
+	},
+	{
+		"name": "Reef Explorer",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 6,
+		"health": 6,
+		"text": "<b>Battlecry: Discover</b> 2 minions of a type you don't control."
+	},
+	{
+		"name": "Sanguine Champion",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 18,
+		"health": 6,
+		"text": "[x]<b>Battlecry and Deathrattle:</b>\nYour <b>Blood Gems</b> give an\nextra +2/+2 this game."
+	},
+	{
+		"name": "Thaddius, Monstrosity",
+		"set": "Return_to_Naxxramas",
+		"cost": 10,
+		"attack": 11,
+		"health": 11,
+		"text": "[x]<b>Taunt</b>. Your odd-Cost\ncards cost (4) less. <i>(Swaps\npolarity each turn!)</i>2[x]<b>Taunt</b>. Your even-Cost\ncards cost (4) less. <i>(Swaps\npolarity each turn!)</i>"
+	},
+	{
+		"name": "Mantid Queen",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"attack": 5,
+		"health": 5,
+		"text": "[x]<b>Venomous</b>. <b>Start of Combat:</b>\nFor each of your minion\ntypes gain +5/+5, <b>Windfury</b>,\n <b>Reborn</b>, or <b>Taunt</b>."
+	},
+	{
+		"name": "Mantid Queen",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"attack": 10,
+		"health": 10,
+		"text": "[x]<b>Venomous</b>. <b>Start of Combat:</b>\nFor each of your minion\ntypes gain +5/+5, <b>Windfury</b>,\n <b>Reborn</b>, or <b>Taunt</b>, twice."
+	},
+	{
+		"name": "Young Murk-Eye",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 8,
+		"health": 5,
+		"text": "At the end of your turn, adjacent minions trigger their <b>Battlecries</b>."
+	},
+	{
+		"name": "Young Murk-Eye",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 16,
+		"health": 10,
+		"text": "[x]At the end of your turn,\nadjacent minions trigger\ntheir <b>Battlecries</b> twice."
+	},
+	{
+		"name": "You Lift Bro? 4",
+		"set": "Lettuce",
+		"cost": 5,
+		"text": "Gain +{0} Attack. If you control another Naga, gain +{1} more Attack.\n<b>Attack</b> an enemy."
+	},
+	{
+		"name": "Felstring Harp",
+		"set": "Battle_of_the_bands",
+		"cost": 1,
+		"attack": 0,
+		"text": "[x]Whenever your hero would\ntake damage on your turn,\nrestore 2 Health instead.\nLose 1 Durability."
+	},
+	{
+		"name": "Nightmare Amalgam",
+		"set": "Gilneas",
+		"cost": 3,
+		"attack": 6,
+		"health": 8,
+		"text": "<i>This has all minion types.</i>"
+	},
+	{
+		"name": "Granite Guardian",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 1,
+		"health": 17,
+		"text": "[x]<b>Taunt</b>\nWhenever this is attacked,\nreduce the attacker's\nHealth to 1."
+	},
+	{
+		"name": "Tortollan Blue Shell",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 4,
+		"health": 7,
+		"text": "If you lost your last combat, this minion sells for 5 Gold."
+	},
+	{
+		"name": "Vigilant Stoneborn",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 2,
+		"health": 6,
+		"text": "[x]<b>Battlecry:</b> Give a minion\n+6 Health and <b>Taunt</b>."
+	},
+	{
+		"name": "Warpwing",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 12,
+		"health": 4,
+		"text": "<b>Immune</b> while attacking."
+	},
+	{
+		"name": "Murky",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 6,
+		"health": 5,
+		"text": "[x]<b>Battlecry:</b> Give a friendly\nMurloc +{0}/+{1}. <i>(Improved\nby each <b>Battlecry</b> minion\n you played this game!)</i>"
+	},
+	{
+		"name": "Granite Guardian",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 2,
+		"health": 34,
+		"text": "[x]<b>Taunt</b>\nWhenever this is attacked,\nreduce the attacker's\nHealth to 1."
+	},
+	{
+		"name": "Warpwing",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 24,
+		"health": 8,
+		"text": "<b>Immune</b> while attacking."
+	},
+	{
+		"name": "Murky",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 12,
+		"health": 10,
+		"text": "[x]<b>Battlecry:</b> Give a friendly\nMurloc +{0}/+{1}. <i>(Improved\nby each <b>Battlecry</b> minion\n you played this game!)</i>"
+	},
+	{
+		"name": "Tortollan Blue Shell",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 8,
+		"health": 14,
+		"text": "If you lost your last combat, this minion sells for 10 Gold."
+	},
+	{
+		"name": "Vigilant Stoneborn",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 4,
+		"health": 12,
+		"text": "[x]<b>Battlecry:</b> Give a minion\n+12 Health and <b>Taunt</b>."
+	},
+	{
+		"name": "Sparring Partner",
+		"set": "Tgt",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Taunt</b>\n<b>Battlecry:</b> Give a\nminion <b>Taunt</b>."
+	},
+	{
+		"name": "Sparring Partner",
+		"set": "Tgt",
+		"cost": 2,
+		"attack": 6,
+		"health": 4,
+		"text": "<b>Taunt</b>\n<b>Battlecry:</b> Give a\nminion <b>Taunt</b>."
+	},
+	{
+		"name": "Wargear",
+		"set": "Boomsday",
+		"cost": 5,
+		"attack": 6,
+		"health": 5,
+		"text": "<b>Magnetic</b>"
+	},
+	{
+		"name": "Wargear",
+		"set": "Boomsday",
+		"cost": 5,
+		"attack": 12,
+		"health": 10,
+		"text": "<b>Magnetic</b>"
+	},
+	{
+		"name": "Treasure-Seeker Elise",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 5,
+		"health": 5,
+		"text": "After you <b>Refresh</b> 5 times, find the <b>Golden</b> Monkey! <i>(5 left!)</i>"
+	},
+	{
+		"name": "Treasure-Seeker Elise",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 10,
+		"health": 10,
+		"text": "After you <b>Refresh</b> 5 times, find two <b>Golden</b> Monkeys! <i>(5 left!)</i>"
+	},
+	{
+		"name": "Hollow Hound",
+		"set": "Audiopocalypse",
+		"cost": 6,
+		"attack": 3,
+		"health": 4,
+		"text": "[x]<b>Lifesteal</b>, <b>Rush</b>\nAlso damages minions next\nto whomever this attacks."
+	},
+	{
+		"name": "Ghoul of the Feast",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 2,
+		"health": 5,
+		"text": "<b>Avenge (2):</b> Give a\nfriendly minion of each\ntype +3 Attack."
+	},
+	{
+		"name": "Ghoul of the Feast",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 4,
+		"health": 10,
+		"text": "<b>Avenge (2):</b> Give a\nfriendly minion of each\ntype +6 Attack."
+	},
+	{
+		"name": "Relentless Sentry",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 5,
+		"health": 1,
+		"text": "<b>Avenge (4):</b> Gain <b>Taunt</b>\nand <b><b>Reborn</b>.</b>"
+	},
+	{
+		"name": "Relentless Sentry",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 10,
+		"health": 2,
+		"text": "<b>Avenge (4):</b> Gain <b>Taunt</b>\nand <b><b>Reborn</b>.</b>"
+	},
+	{
+		"name": "Eternal Summoner",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 16,
+		"health": 2,
+		"text": "[x]<b>Reborn</b>. <b>Deathrattle:</b>\nSummon a Golden\nEternal Knight."
+	},
+	{
+		"name": "Hunter of Gatherers",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"attack": 3,
+		"health": 6,
+		"text": "After this gains Attack, give your minions\n+1 Health."
+	},
+	{
+		"name": "Hunter of Gatherers",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"attack": 6,
+		"health": 12,
+		"text": "After this gains Attack, give your minions\n+2 Health."
+	},
+	{
+		"name": "Costumed Singer",
+		"set": "Audiopocalypse",
+		"cost": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "At the end of your turn,\ndraw a <b>Secret</b>."
+	},
+	{
+		"name": "Mecha-Jaraxxus",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 3,
+		"health": 15,
+		"text": "<b>Battlecry:</b> Get a random Mecha-Demon."
+	},
+	{
+		"name": "Mecha-Jaraxxus",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 6,
+		"health": 30,
+		"text": "<b>Battlecry:</b> Get 2 random Mecha-Demons."
+	},
+	{
+		"name": "Radio Star",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 1,
+		"health": 1,
+		"text": "[x]<b>Deathrattle:</b> Get a plain\ncopy of the minion that\n killed this."
+	},
+	{
+		"name": "Radio Star",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 2,
+		"health": 2,
+		"text": "[x]<b>Deathrattle:</b> Get 2 plain\ncopies of the minion that\n killed this."
+	},
+	{
+		"name": "General Drakkisath",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"attack": 2,
+		"health": 8,
+		"text": "[x]<b>Battlecry:</b> Get a 2/1\nSmolderwing with\n\"<b>Battlecry:</b> Give a\nDragon +5 Attack.\""
+	},
+	{
+		"name": "General Drakkisath",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"attack": 4,
+		"health": 16,
+		"text": "[x]<b>Battlecry:</b> Get two 2/1\nSmolderwings with\n\"<b>Battlecry:</b> Give a\nDragon +5 Attack.\""
+	},
+	{
+		"name": "Astral Automaton",
+		"set": "Titans",
+		"cost": 1,
+		"attack": 1,
+		"health": 2,
+		"text": "[x]Has +1/+1 for each other\nAstral Automaton you've\nsummoned this game."
+	},
+	{
+		"name": "Magmaloc",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"attack": 1,
+		"health": 1,
+		"text": "[x]At the end of your turn,\ngain +1/+1. Repeat for\neach minion you played\nthis turn."
+	},
+	{
+		"name": "Scavenging Hyena",
+		"set": "Legacy",
 		"cost": 2,
 		"attack": 2,
 		"health": 2,
 		"text": "Whenever a friendly Beast dies, gain +2/+1."
 	},
 	{
-		"name": "Mirror Entity",
-		"set": "Core",
+		"name": "Harvest Golem",
+		"set": "Legacy",
 		"cost": 3,
-		"text": "<b>Secret:</b> After your opponent plays a minion, summon a copy of it."
-	},
-	{
-		"name": "Natalie Seline",
-		"set": "Core",
-		"cost": 8,
-		"attack": 8,
-		"health": 1,
-		"text": "<b>Battlecry:</b> Destroy a minion and gain its Health."
-	},
-	{
-		"name": "Lightspawn",
-		"set": "Core",
-		"cost": 3,
-		"attack": 0,
-		"health": 4,
-		"text": "This minion's Attack is always equal to its Health."
-	},
-	{
-		"name": "Temple Enforcer",
-		"set": "Core",
-		"cost": 5,
-		"attack": 5,
-		"health": 6,
-		"text": "<b>Battlecry:</b> Give a friendly minion +3 Health."
-	},
-	{
-		"name": "Patient Assassin",
-		"set": "Core",
-		"cost": 2,
-		"attack": 1,
-		"health": 2,
-		"text": "<b>Stealth</b>\n <b>Poisonous</b>"
-	},
-	{
-		"name": "Earth Elemental",
-		"set": "Core",
-		"cost": 5,
-		"attack": 7,
-		"health": 8,
-		"text": "<b>Taunt</b>\n<b><b>Overload</b>:</b> (2)"
-	},
-	{
-		"name": "Unbound Elemental",
-		"set": "Core",
-		"cost": 3,
-		"attack": 3,
-		"health": 4,
-		"text": "After you play a card with <b>Overload</b>, gain +1/+1."
-	},
-	{
-		"name": "Earthen Ring Farseer",
-		"set": "Core",
-		"cost": 3,
-		"attack": 3,
-		"health": 3,
-		"text": "<b>Battlecry:</b> Restore #3 Health."
-	},
-	{
-		"name": "Injured Blademaster",
-		"set": "Core",
-		"cost": 3,
-		"attack": 4,
-		"health": 7,
-		"text": "<b>Battlecry:</b> Deal 4 damage to HIMSELF."
-	},
-	{
-		"name": "Young Priestess",
-		"set": "Core",
-		"cost": 1,
 		"attack": 2,
-		"health": 1,
-		"text": "At the end of your turn, give another random friendly minion +1 Health."
+		"health": 3,
+		"text": "<b>Deathrattle:</b> Summon a 2/1 Damaged Golem."
 	},
 	{
-		"name": "Argent Squire",
-		"set": "Core",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Divine Shield</b>"
-	},
-	{
-		"name": "King Mukla",
-		"set": "Core",
-		"cost": 3,
-		"attack": 5,
-		"health": 5,
-		"text": "<b>Battlecry:</b> Give your opponent 2 Bananas."
-	},
-	{
-		"name": "Barrens Stablehand",
-		"set": "Core",
-		"cost": 7,
-		"attack": 5,
-		"health": 5,
-		"text": "<b>Battlecry:</b> Summon a random Beast."
-	},
-	{
-		"name": "Brightwing",
-		"set": "Core",
-		"cost": 3,
-		"attack": 3,
+		"name": "Magmaloc",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"attack": 2,
 		"health": 2,
-		"text": "<b>Battlecry:</b> Add a random <b>Legendary</b> minion to your hand."
+		"text": "[x]At the end of your turn,\ngain +2/+2. Repeat for\neach minion you played\nthis turn."
 	},
 	{
-		"name": "High Inquisitor Whitemane",
-		"set": "Core",
+		"name": "Spawn of N'Zoth",
+		"set": "Og",
+		"cost": 3,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Give your minions +1/+1."
+	},
+	{
+		"name": "Thorncaptain",
+		"set": "Battlegrounds",
 		"cost": 6,
-		"attack": 5,
-		"health": 7,
-		"text": "<b>Battlecry:</b> Summon all friendly minions that died this turn."
-	},
-	{
-		"name": "Flesheating Ghoul",
-		"set": "Core",
-		"cost": 3,
-		"attack": 3,
-		"health": 3,
-		"text": "Whenever a minion dies, gain +1 Attack."
-	},
-	{
-		"name": "Ashtongue Battlelord",
-		"set": "Core",
-		"cost": 4,
-		"attack": 3,
-		"health": 5,
-		"text": "<b>Taunt</b>\n<b>Lifesteal</b>"
-	},
-	{
-		"name": "Warglaives of Azzinoth",
-		"set": "Core",
-		"cost": 5,
-		"attack": 3,
-		"text": "After attacking a minion, your hero may attack again."
-	},
-	{
-		"name": "Landscaping",
-		"set": "Core",
-		"cost": 3,
-		"text": "Summon two 2/2 Treants."
-	},
-	{
-		"name": "Menagerie Warden",
-		"set": "Core",
-		"cost": 5,
 		"attack": 4,
-		"health": 4,
-		"text": "<b>Battlecry:</b> Choose a friendly Beast. Summon a copy of it."
-	},
-	{
-		"name": "Enchanted Raven",
-		"set": "Core",
-		"cost": 1,
-		"attack": 2,
-		"health": 2
-	},
-	{
-		"name": "Lock and Load",
-		"set": "Core",
-		"cost": 1,
-		"text": "Each time you cast a spell this turn, add a random Hunter card to your hand."
-	},
-	{
-		"name": "Webspinner",
-		"set": "Core",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Deathrattle:</b> Add a random Beast card to your hand."
-	},
-	{
-		"name": "Bearshark",
-		"set": "Core",
-		"cost": 3,
-		"attack": 4,
-		"health": 3,
-		"text": "Can't be targeted by spells or Hero Powers."
-	},
-	{
-		"name": "Headhunter's Hatchet",
-		"set": "Core",
-		"cost": 2,
-		"attack": 2,
-		"text": "[x]<b>Battlecry:</b> If you\ncontrol a Beast, gain\n+1 Durability."
-	},
-	{
-		"name": "Fallen Hero",
-		"set": "Core",
-		"cost": 2,
-		"attack": 3,
 		"health": 2,
-		"text": "Your Hero Power deals 1 extra damage."
+		"text": "After a card is added to your hand, gain +1 Health until next turn."
 	},
 	{
-		"name": "Coldarra Drake",
-		"set": "Core",
+		"name": "Thorncaptain",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 8,
+		"health": 4,
+		"text": "After a card is added to your hand, gain +2 Health until next turn."
+	},
+	{
+		"name": "Nightmare Amalgam",
+		"set": "Gilneas",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "<i>This has all minion types.</i>"
+	},
+	{
+		"name": "Rat Pack",
+		"set": "Gangs",
+		"cost": 3,
+		"attack": 2,
+		"health": 2,
+		"text": "[x]<b>Deathrattle:</b> Summon a\nnumber of 1/1 Rats equal\n to this minion's Attack."
+	},
+	{
+		"name": "Ring Matron",
+		"set": "Darkmoon_faire",
 		"cost": 6,
 		"attack": 6,
-		"health": 7,
-		"text": "You can use your Hero Power any number of times."
+		"health": 4,
+		"text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Summon\ntwo 3/2 Imps."
 	},
 	{
-		"name": "Righteous Protector",
-		"set": "Core",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Taunt</b>\n<b>Divine Shield</b>"
-	},
-	{
-		"name": "Ice Rager",
-		"set": "Core",
-		"cost": 3,
-		"attack": 5,
-		"health": 2
-	},
-	{
-		"name": "Toxicologist",
-		"set": "Core",
+		"name": "Bristlemane Scrapsmith",
+		"set": "Battlegrounds",
 		"cost": 2,
-		"attack": 2,
-		"health": 2,
-		"text": "<b>Battlecry:</b> Give your weapon +1 Attack."
+		"attack": 4,
+		"health": 4,
+		"text": "[x]After a friendly <b>Taunt</b>\nminion dies,\nget a <b>Blood Gem</b>."
 	},
 	{
-		"name": "Baron Rivendare",
-		"set": "Core",
-		"cost": 4,
-		"attack": 1,
-		"health": 7,
-		"text": "Your minions trigger their <b>Deathrattles</b> twice."
-	},
-	{
-		"name": "Cogmaster",
-		"set": "Core",
-		"cost": 1,
-		"attack": 1,
-		"health": 2,
-		"text": "Has +2 Attack while you have a Mech."
-	},
-	{
-		"name": "Spider Tank",
-		"set": "Core",
-		"cost": 3,
-		"attack": 3,
-		"health": 4
-	},
-	{
-		"name": "Mini-Mage",
-		"set": "Core",
-		"cost": 3,
-		"attack": 3,
-		"health": 1,
-		"text": "<b>Stealth</b>\n<b>Spell Damage +1</b>"
-	},
-	{
-		"name": "Clockwork Giant",
-		"set": "Core",
-		"cost": 12,
+		"name": "Bristlemane Scrapsmith",
+		"set": "Battlegrounds",
+		"cost": 2,
 		"attack": 8,
 		"health": 8,
-		"text": "Costs (1) less for each card in your opponent's hand."
+		"text": "[x]After a friendly <b>Taunt</b>\nminion dies,\nget 2 <b>Blood Gems</b>."
 	},
 	{
-		"name": "Arcane Anomaly",
-		"set": "Core",
-		"cost": 1,
-		"attack": 2,
-		"health": 1,
-		"text": "After you cast a spell, give this minion +1 Health."
+		"name": "Down with the Ship",
+		"set": "Titans",
+		"cost": 2,
+		"text": "Deal $3 damage. Shuffle two random Plagues into your opponent's deck."
 	},
 	{
-		"name": "Stoneskin Basilisk",
-		"set": "Core",
-		"cost": 3,
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Divine Shield</b>\n <b>Poisonous</b>"
-	},
-	{
-		"name": "Draenei Totemcarver",
-		"set": "Core",
-		"cost": 4,
-		"attack": 4,
-		"health": 5,
-		"text": "<b>Battlecry:</b> Gain +1/+1 for each friendly Totem."
-	},
-	{
-		"name": "Possessed Villager",
-		"set": "Core",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Deathrattle:</b> Summon a 1/1 Shadowbeast."
-	},
-	{
-		"name": "Bladed Cultist",
-		"set": "Core",
-		"cost": 1,
-		"attack": 1,
-		"health": 2,
-		"text": "<b>Combo:</b> Gain +1/+1."
-	},
-	{
-		"name": "Shadowform",
+		"name": "Bladestorm",
 		"set": "Core",
 		"cost": 2,
-		"text": "Your Hero Power becomes 'Deal 2 damage.'"
+		"text": "Deal $1 damage to all minions. Repeat until one dies."
 	},
 	{
-		"name": "Murloc Warleader",
-		"set": "Old_core_230",
-		"cost": 3,
-		"attack": 3,
-		"health": 3,
-		"text": "Your other Murlocs have +2 Attack."
-	},
-	{
-		"name": "Pyroblast",
-		"set": "Old_core_230",
-		"cost": 10,
-		"text": "Deal $10 damage."
-	},
-	{
-		"name": "Blizzard",
-		"set": "Old_core_230",
-		"cost": 6,
-		"text": "Deal $2 damage to all enemy minions and <b>Freeze</b> them."
-	},
-	{
-		"name": "Voidwalker",
-		"set": "Old_core_230",
-		"cost": 1,
-		"attack": 1,
-		"health": 3,
-		"text": "<b>Taunt</b>"
-	},
-	{
-		"name": "Imp Gang Boss",
-		"set": "Old_core_230",
-		"cost": 3,
-		"attack": 2,
-		"health": 4,
-		"text": "Whenever this minion takes damage, summon a 1/1 Imp."
-	},
-	{
-		"name": "Abyssal Enforcer",
-		"set": "Old_core_230",
+		"name": "Firelands Portal",
+		"set": "Core",
 		"cost": 7,
-		"attack": 6,
-		"health": 6,
-		"text": "<b>Battlecry:</b> Deal 3 damage to all other characters."
+		"text": "Deal $6 damage. Summon a random\n6-Cost minion."
 	},
 	{
-		"name": "Buccaneer",
-		"set": "Old_core_230",
-		"cost": 1,
-		"attack": 2,
-		"health": 1,
-		"text": "Whenever you equip a weapon, give it +1 Attack."
-	},
-	{
-		"name": "Wrath",
-		"set": "Old_core_230",
+		"name": "Argent Braggart",
+		"set": "Scholomance",
 		"cost": 2,
-		"text": "<b>Choose One -</b>\nDeal $3 damage to a minion; or $1 damage\nand draw a card."
+		"attack": 1,
+		"health": 1,
+		"text": "[x]<b>Battlecry:</b> Set this minion's\nAttack and Health to the\nhighest in the battlefield."
 	},
 	{
-		"name": "Living Roots",
-		"set": "Old_core_230",
-		"cost": 1,
-		"text": "<b>Choose One -</b> Deal $2 damage; or Summon two 1/1 Saplings."
+		"name": "Mortal Eradication",
+		"set": "Titans",
+		"cost": 3,
+		"text": "[x]Deal $5 damage randomly\nsplit among all enemy\nminions. Restore #2 Health\nto your hero for each killed."
 	},
 	{
-		"name": "Ancient of Lore",
-		"set": "Old_core_230",
+		"name": "Captain Sanders",
+		"set": "Battlegrounds",
 		"cost": 7,
 		"attack": 7,
 		"health": 7,
-		"text": "<b>Choose One -</b> Draw 2 cards; or Restore #7 Health."
+		"text": "<b>Battlecry:</b> Make a friendly minion Golden."
 	},
 	{
-		"name": "Far Sight",
-		"set": "Old_core_230",
-		"cost": 3,
-		"text": "Draw a card. That card costs (3) less."
-	},
-	{
-		"name": "Flametongue Totem",
-		"set": "Old_core_230",
-		"cost": 2,
-		"attack": 0,
-		"health": 2,
-		"text": "Adjacent minions have +2 Attack."
-	},
-	{
-		"name": "Animal Companion",
-		"set": "Old_core_230",
-		"cost": 3,
-		"text": "Summon a random Beast Companion."
-	},
-	{
-		"name": "Marked Shot",
-		"set": "Old_core_230",
-		"cost": 4,
-		"text": "Deal $4 damage to a minion. <b>Discover</b> a spell."
-	},
-	{
-		"name": "Shield Block",
-		"set": "Old_core_230",
-		"cost": 2,
-		"text": "Gain 5 Armor.\nDraw a card."
-	},
-	{
-		"name": "Bash",
-		"set": "Old_core_230",
-		"cost": 2,
-		"text": "Deal $3 damage.\nGain 3 Armor."
-	},
-	{
-		"name": "Flash of Light",
-		"set": "Old_core_230",
-		"cost": 2,
-		"text": "Restore #4 Health.\nDraw a card."
-	},
-	{
-		"name": "Metamorphosis",
-		"set": "Old_core_230",
-		"cost": 4,
-		"text": "Swap your Hero Power to \"Deal 4 damage.\" After 2 uses, swap it back."
-	},
-	{
-		"name": "Zola the Gorgon",
-		"set": "Old_core_230",
-		"cost": 3,
-		"attack": 2,
-		"health": 2,
-		"text": "<b>Battlecry:</b> Choose a friendly minion. Add a Golden copy of it to your hand."
-	},
-	{
-		"name": "Acolyte of Pain",
-		"set": "Old_core_230",
-		"cost": 3,
-		"attack": 1,
-		"health": 3,
-		"text": "Whenever this minion takes damage, draw a card."
-	},
-	{
-		"name": "Doomsayer",
-		"set": "Old_core_230",
-		"cost": 2,
-		"attack": 0,
-		"health": 7,
-		"text": "At the start of your turn, destroy ALL minions."
-	},
-	{
-		"name": "Beaming Sidekick",
-		"set": "Old_core_230",
-		"cost": 1,
-		"attack": 1,
-		"health": 2,
-		"text": "<b>Battlecry:</b> Give a friendly minion +2 Health."
-	},
-	{
-		"name": "Tar Creeper",
-		"set": "Old_core_230",
-		"cost": 3,
-		"attack": 1,
-		"health": 5,
-		"text": "<b>Taunt</b>\nHas +2 Attack during your opponent's turn."
-	},
-	{
-		"name": "Lifedrinker",
-		"set": "Old_core_230",
-		"cost": 4,
-		"attack": 3,
-		"health": 3,
-		"text": "[x]<b>Battlecry:</b> Deal 3 damage to\nthe enemy hero. Restore\n#3 Health to your hero."
-	},
-	{
-		"name": "Wild Pyromancer",
-		"set": "Old_core_230",
-		"cost": 2,
-		"attack": 3,
-		"health": 2,
-		"text": "After you cast a spell, deal 1 damage to ALL minions."
-	},
-	{
-		"name": "Sea Giant",
-		"set": "Old_core_230",
-		"cost": 10,
-		"attack": 8,
-		"health": 8,
-		"text": "Costs (1) less for each other minion on the battlefield."
-	},
-	{
-		"name": "Plated Beetle",
-		"set": "Old_core_230",
-		"cost": 2,
-		"attack": 2,
-		"health": 3,
-		"text": "<b>Deathrattle:</b> Gain 3 Armor."
-	},
-	{
-		"name": "Azure Drake",
-		"set": "Old_core_230",
-		"cost": 5,
-		"attack": 4,
-		"health": 5,
-		"text": "<b>Spell Damage +1</b>\n<b>Battlecry:</b> Draw a card."
-	},
-	{
-		"name": "Twilight Drake",
-		"set": "Old_core_230",
-		"cost": 4,
-		"attack": 4,
-		"health": 1,
-		"text": "<b>Battlecry:</b> Gain +1 Health for each card in your hand."
-	},
-	{
-		"name": "Primordial Drake",
-		"set": "Old_core_230",
-		"cost": 8,
-		"attack": 4,
-		"health": 8,
-		"text": "[x]<b>Taunt</b>\n<b>Battlecry:</b> Deal 2 damage\nto all other minions."
-	},
-	{
-		"name": "Faerie Dragon",
-		"set": "Old_core_230",
-		"cost": 2,
-		"attack": 3,
-		"health": 2,
-		"text": "Can't be targeted by spells or Hero Powers."
-	},
-	{
-		"name": "Bloodlust",
-		"set": "Old_core_230",
-		"cost": 5,
-		"text": "Give your minions +3 Attack this turn."
-	},
-	{
-		"name": "Solid Alibi",
-		"set": "Revendreth",
-		"cost": 3,
-		"text": "Until your next turn, your hero can only take 1 damage at a time."
-	},
-	{
-		"name": "Death Strike",
-		"set": "Old_core_230",
-		"cost": 4,
-		"text": "<b>Lifesteal</b>\nDeal $6 damage\nto a minion."
-	},
-	{
-		"name": "Frost Strike",
-		"set": "Old_core_230",
-		"cost": 2,
-		"text": "Deal $3 damage\nto a minion. If that\nkills it, <b>Discover</b> a\nFrost Rune card."
-	},
-	{
-		"name": "Heart Strike",
-		"set": "Old_core_230",
-		"cost": 1,
-		"text": "Deal $3 damage to\na minion. If that kills it, gain a <b>Corpse</b>."
-	},
-	{
-		"name": "Plagued Grain",
-		"set": "Old_core_230",
-		"cost": 1,
-		"text": "Gain 4 <b>Corpses</b>. Shuffle four Crates into your deck that summon a 2/2 Undead when drawn."
-	},
-	{
-		"name": "Anti-Magic Shell",
-		"set": "Old_core_230",
-		"cost": 3,
-		"text": "Give your minions +1/+1 and \"Can't be targeted by spells or Hero Powers.\""
-	},
-	{
-		"name": "Army of the Dead",
-		"set": "Old_core_230",
-		"cost": 5,
-		"text": "Raise up to 5 <b>Corpses</b> as 2/2 Risen Ghouls with <b>Rush</b>."
-	},
-	{
-		"name": "Battlefield Necromancer",
-		"set": "Old_core_230",
-		"cost": 2,
-		"attack": 2,
-		"health": 2,
-		"text": "[x]At the end of your turn,\nraise a <b>Corpse</b> as a 1/3\n Risen Footman with <b>Taunt</b>."
-	},
-	{
-		"name": "Corrupted Ashbringer",
-		"set": "Old_core_230",
-		"cost": 6,
-		"attack": 5,
-		"text": "<b>Lifesteal</b>"
-	},
-	{
-		"name": "Risen Footman",
-		"set": "Old_core_230",
-		"cost": 1,
-		"attack": 1,
-		"health": 3,
-		"text": "<b>Taunt</b>\n<i>Doesn't leave a <b>Corpse</b>.</i>"
-	},
-	{
-		"name": "Patchwerk",
-		"set": "Old_core_230",
+		"name": "Captain Sanders",
+		"set": "Battlegrounds",
 		"cost": 7,
-		"attack": 4,
+		"attack": 14,
+		"health": 14,
+		"text": "<b>Battlecry:</b> Make a friendly minion Golden."
+	},
+	{
+		"name": "Pufferquil",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 2,
 		"health": 6,
-		"text": "[x]<b>Battlecry:</b> Destroy a random\nminion in your opponent's\n hand, deck, and battlefield."
+		"text": "Whenever a spell is played on this, gain <b>Venomous</b>\nuntil next turn."
 	},
 	{
-		"name": "Possessed Fighter",
-		"set": "Old_core_230",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Rush</b>\n<b>Reborn</b>"
-	},
-	{
-		"name": "Possessifier",
-		"set": "Old_core_230",
-		"cost": 5,
-		"attack": 3,
-		"health": 3,
-		"text": "<b>Battlecry:</b> Summon two 1/1 Fighters with <b>Rush</b> and <b>Reborn</b>."
-	},
-	{
-		"name": "Noxious Cadaver",
-		"set": "Old_core_230",
-		"cost": 1,
-		"attack": 1,
-		"health": 2,
-		"text": "[x]<b>Battlecry</b>: Deal 2 damage\nto an enemy and your hero."
-	},
-	{
-		"name": "Deathbringer Saurfang",
-		"set": "Old_core_230",
-		"cost": 5,
-		"attack": 3,
-		"health": 5,
-		"text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Return this to\nyour hand. It costs Health\ninstead of Mana."
-	},
-	{
-		"name": "Risen Ghoul",
-		"set": "Old_core_230",
-		"cost": 2,
-		"attack": 2,
-		"health": 2,
-		"text": "<b>Rush</b>\n<i>Doesn't leave a <b>Corpse</b>.</i>"
-	},
-	{
-		"name": "Lord Marrowgar",
-		"set": "Old_core_230",
-		"cost": 8,
-		"attack": 9,
-		"health": 7,
-		"text": "[x]<b>Battlecry:</b> Raise ALL of your\n<b>Corpses</b> as 1/1 Risen Golems\nwith <b>Rush</b>. For each that can't\nfit, give one +2/+2."
-	},
-	{
-		"name": "Defrost",
-		"set": "Old_core_230",
-		"cost": 2,
-		"text": "Draw a card.\nSpend 2 <b>Corpses</b> to draw another."
-	},
-	{
-		"name": "Repulsive Gargantuan",
-		"set": "Old_core_230",
-		"cost": 4,
-		"attack": 3,
-		"health": 6,
-		"text": "Enemy characters\ncan't be healed."
-	},
-	{
-		"name": "Graveyard Shift",
-		"set": "Old_core_230",
+		"name": "Pufferquil",
+		"set": "Battlegrounds",
 		"cost": 3,
-		"text": "[x]Summon two 1/1\nZombies with <b>Reborn</b>."
-	},
-	{
-		"name": "Shambling Zombie",
-		"set": "Old_core_230",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Reborn</b>"
-	},
-	{
-		"name": "Grave Strength",
-		"set": "Old_core_230",
-		"cost": 4,
-		"text": "[x]Give your minions +1\nAttack. Spend 5 <b>Corpses</b>\nto give them +3 instead."
-	},
-	{
-		"name": "Chillfallen Baron",
-		"set": "Old_core_230",
-		"cost": 3,
-		"attack": 2,
-		"health": 2,
-		"text": "<b>Battlecry and Deathrattle:</b> Draw a card."
-	},
-	{
-		"name": "Remorseless Winter",
-		"set": "Old_core_230",
-		"cost": 4,
-		"text": "Deal $2 damage to all enemies. Draw a card."
-	},
-	{
-		"name": "Rimefang Sword",
-		"set": "Old_core_230",
-		"cost": 3,
-		"attack": 2,
-		"text": "[x]After your hero attacks,\nreduce the Cost of a spell\nin your hand by (1)."
-	},
-	{
-		"name": "Runeforging",
-		"set": "Old_core_230",
-		"cost": 1,
-		"text": "Draw a weapon.\nSpend a <b>Corpse</b> to reduce its Cost by (1)."
-	},
-	{
-		"name": "Body Bagger",
-		"set": "Old_core_230",
-		"cost": 1,
-		"attack": 1,
-		"health": 3,
-		"text": "<b>Battlecry</b>: Gain a <b>Corpse</b>."
-	},
-	{
-		"name": "Gnome Muncher",
-		"set": "Old_core_230",
-		"cost": 6,
-		"attack": 5,
-		"health": 6,
-		"text": "[x]<b>Taunt</b>, <b>Lifesteal</b>\nAt the end of your turn,\nattack the lowest Health\nenemy."
-	},
-	{
-		"name": "Harbinger of Winter",
-		"set": "Old_core_230",
-		"cost": 2,
-		"attack": 2,
-		"health": 2,
-		"text": "<b>Deathrattle:</b> Draw a\nFrost spell."
-	},
-	{
-		"name": "Stitched Giant",
-		"set": "Old_core_230",
-		"cost": 9,
-		"attack": 8,
-		"health": 8,
-		"text": "[x]Costs (1) less for each\n<b>Corpse</b> you've spent\nthis game."
-	},
-	{
-		"name": "Obliterate",
-		"set": "Old_core_230",
-		"cost": 2,
-		"text": "Destroy a minion. Deal 3 damage to your hero."
-	},
-	{
-		"name": "Rime Sculptor",
-		"set": "Old_core_230",
-		"cost": 5,
 		"attack": 4,
-		"health": 3,
-		"text": "[x]<b>Battlecry:</b> Summon two\n2/1 Rime Elementals with\n\"<b>Deathrattle:</b> Deal 2 damage\nto a random enemy.\""
+		"health": 12,
+		"text": "Whenever a spell is played on this, gain <b>Venomous</b>."
 	},
 	{
-		"name": "Bonedigger Geist",
-		"set": "Old_core_230",
-		"cost": 2,
-		"attack": 2,
-		"health": 2,
-		"text": "<b>Battlecry:</b> Spend a <b>Corpse</b> to gain +1/+2."
-	},
-	{
-		"name": "Rime Elemental",
-		"set": "Old_core_230",
-		"cost": 2,
-		"attack": 2,
-		"health": 1,
-		"text": "<b>Deathrattle:</b> Deal 2 damage to a random enemy."
-	},
-	{
-		"name": "Skeletal Sidekick",
-		"set": "Old_core_230",
-		"cost": 1,
-		"attack": 1,
-		"health": 2,
-		"text": "<b>Battlecry:</b> Give a friendly Undead +2 Attack."
-	},
-	{
-		"name": "Explosive Runes",
-		"set": "Old_core_230",
+		"name": "Felemental",
+		"set": "Battlegrounds",
 		"cost": 3,
-		"text": "<b>Secret:</b> After your opponent plays a minion, deal $6 damage to it and any excess to their hero."
+		"attack": 3,
+		"health": 1,
+		"text": "[x]<b>Battlecry:</b> Minions in\nthe Tavern have +1/+1\n for the rest of the game."
 	},
 	{
-		"name": "Lightbomb",
-		"set": "Old_core_230",
-		"cost": 6,
-		"text": "Deal damage to each minion equal to its Attack."
-	},
-	{
-		"name": "Drakonid Operative",
-		"set": "Old_core_230",
-		"cost": 4,
-		"attack": 4,
-		"health": 5,
-		"text": "[x]<b>Battlecry:</b> If you're holding\na Dragon, <b>Discover</b> a\ncopy of a card in your\nopponent's deck."
-	},
-	{
-		"name": "Tess Greymane",
-		"set": "Old_core_230",
-		"cost": 7,
+		"name": "Felemental",
+		"set": "Battlegrounds",
+		"cost": 3,
 		"attack": 6,
-		"health": 6,
-		"text": "[x]<b>Battlecry:</b> Replay every card\nfrom another class you've\nplayed this game <i>(targets\nchosen randomly)</i>."
+		"health": 2,
+		"text": "[x]<b>Battlecry:</b> Minions in\nthe Tavern have +2/+2\n for the rest of the game."
 	},
 	{
-		"name": "Hench-Clan Burglar",
-		"set": "Old_core_230",
-		"cost": 4,
-		"attack": 4,
-		"health": 4,
-		"text": "<b>Battlecry:</b> <b>Discover</b> a spell from another class."
-	},
-	{
-		"name": "Candleshot",
-		"set": "Old_core_230",
-		"cost": 1,
-		"attack": 1,
-		"text": "Your hero is <b>Immune</b> while attacking."
-	},
-	{
-		"name": "Amber Watcher",
-		"set": "Old_core_230",
+		"name": "Cyborg Drake",
+		"set": "Battlegrounds",
 		"cost": 5,
-		"attack": 4,
-		"health": 6,
-		"text": "<b>Battlecry:</b> Restore #8 Health."
-	},
-	{
-		"name": "Bronze Explorer",
-		"set": "Old_core_230",
-		"cost": 3,
 		"attack": 3,
-		"health": 3,
-		"text": "<b>Lifesteal</b>\n<b>Battlecry:</b> <b>Discover</b> a Dragon."
+		"health": 10,
+		"text": "[x]<b>Divine Shield</b>\nYour minions with\n<b>Divine Shield</b> have\n+6 Attack."
 	},
 	{
-		"name": "Wrathscale Naga",
-		"set": "Old_core_230",
-		"cost": 3,
-		"attack": 3,
-		"health": 3,
-		"text": "After a friendly minion dies, deal 3 damage to a random enemy."
-	},
-	{
-		"name": "Gorillabot A-3",
-		"set": "Old_core_230",
-		"cost": 3,
-		"attack": 3,
-		"health": 4,
-		"text": "<b>Battlecry:</b> If you control another Mech, <b>Discover</b> a Mech."
-	},
-	{
-		"name": "Vulpera Scoundrel",
-		"set": "Old_core_230",
-		"cost": 3,
-		"attack": 2,
-		"health": 3,
-		"text": "<b>Battlecry</b>: <b>Discover</b> a spell or pick a mystery choice."
-	},
-	{
-		"name": "Injured Tol'vir",
-		"set": "Old_core_230",
-		"cost": 2,
-		"attack": 2,
-		"health": 6,
-		"text": "<b>Taunt</b>\n<b>Battlecry:</b> Deal 3 damage to this minion."
-	},
-	{
-		"name": "Thassarian",
-		"set": "Old_core_230",
-		"cost": 4,
-		"attack": 3,
-		"health": 3,
-		"text": "<b>Reborn</b>\n<b>Battlecry and Deathrattle:</b> Deal 2 damage to a random enemy."
-	},
-	{
-		"name": "Overseer Frigidara",
-		"set": "Old_core_230",
-		"cost": 6,
-		"attack": 3,
-		"health": 6,
-		"text": "<b>Battlecry:</b> Draw 2 spells.\nIf they're both Frost spells, deal 2 damage to all enemies."
-	},
-	{
-		"name": "Ymirjar Deathbringer",
-		"set": "Old_core_230",
-		"cost": 3,
-		"attack": 4,
-		"health": 3,
-		"text": "[x]<b>Taunt</b>. <b>Deathrattle:</b> Spend 3\n<b>Corpses</b> to summon a 3/3\nRisen Ymirjar with <b>Taunt</b>."
-	},
-	{
-		"name": "Risen Golem",
-		"set": "Old_core_230",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Rush</b>\n<i>Doesn't leave a <b>Corpse</b>.</i>"
-	},
-	{
-		"name": "Grain Crate",
-		"set": "Old_core_230",
-		"cost": 1,
-		"text": "<b>Casts When Drawn</b>\nSummon a 2/2 Undead Peasant."
-	},
-	{
-		"name": "Flamereaper",
-		"set": "Old_core_230",
-		"cost": 7,
-		"attack": 5,
-		"text": "Also damages the minions next to whomever your hero attacks."
-	},
-	{
-		"name": "Risen Ymirjar",
-		"set": "Old_core_230",
-		"cost": 3,
-		"attack": 3,
-		"health": 3,
-		"text": "<b>Taunt</b>\n<i>Doesn't leave a <b>Corpse</b>.</i>"
-	},
-	{
-		"name": "Abominable Bowman",
-		"set": "Core",
-		"cost": 7,
+		"name": "Cyborg Drake",
+		"set": "Battlegrounds",
+		"cost": 5,
 		"attack": 6,
-		"health": 7,
-		"text": "[x]<b>Deathrattle:</b> Summon\na random friendly Beast\nthat died this game."
+		"health": 20,
+		"text": "[x]<b>Divine Shield</b>\nYour minions with\n<b>Divine Shield</b> have\n+12 Attack."
 	},
 	{
-		"name": "Acherus Veteran",
-		"set": "Core",
-		"cost": 1,
-		"attack": 2,
-		"health": 1,
-		"text": "<b>Battlecry:</b> Give a friendly minion +1 Attack."
-	},
-	{
-		"name": "Acolyte of Agony",
-		"set": "Core",
+		"name": "Frost Lotus Seedling",
+		"set": "Titans",
 		"cost": 3,
+		"text": "Draw 1 card.\nGain 5 Armor.\n<i>(Blossoms in 3 turns.)</i>"
+	},
+	{
+		"name": "Frost Lotus Blossom",
+		"set": "Titans",
+		"cost": 3,
+		"text": "Draw 2 cards.\nGain 10 Armor."
+	},
+	{
+		"name": "Craftsman's Hammer",
+		"set": "Titans",
+		"cost": 4,
 		"attack": 3,
-		"health": 3,
-		"text": "<b>Lifesteal</b>"
+		"text": "Whenever your hero attacks, gain 4 Armor."
 	},
 	{
-		"name": "Animated Berserker",
-		"set": "Core",
-		"cost": 1,
-		"attack": 1,
-		"health": 3,
-		"text": "After you play a minion, deal 1 damage to it."
-	},
-	{
-		"name": "Archbishop Benedictus",
-		"set": "Core",
-		"cost": 7,
-		"attack": 4,
-		"health": 6,
-		"text": "<b>Battlecry:</b> Shuffle a copy of your opponent's deck into your deck."
-	},
-	{
-		"name": "Arfus",
-		"set": "Core",
-		"cost": 4,
-		"attack": 2,
-		"health": 2,
-		"text": "[x]<b>Deathrattle:</b> Add a random\n<b>Lich King</b> card to your hand."
-	},
-	{
-		"name": "Arrogant Crusader",
-		"set": "Core",
-		"cost": 4,
-		"attack": 5,
-		"health": 2,
-		"text": "<b>Deathrattle:</b> If it's your opponent's turn, summon a 2/2 Ghoul."
-	},
-	{
-		"name": "Avalanche",
-		"set": "Core",
-		"cost": 4,
-		"text": "<b>Freeze</b> a minion and deal $3 damage to adjacent ones."
-	},
-	{
-		"name": "Blackguard",
-		"set": "Core",
-		"cost": 6,
-		"attack": 3,
-		"health": 9,
-		"text": "Whenever your hero is healed, deal that much damage to a random enemy minion."
-	},
-	{
-		"name": "Blood Razor",
-		"set": "Core",
-		"cost": 4,
-		"attack": 2,
-		"text": "<b>Battlecry and Deathrattle:</b>\nDeal 1 damage to all minions."
-	},
-	{
-		"name": "Blood-Queen Lana'thel",
-		"set": "Core",
-		"cost": 5,
-		"attack": 1,
-		"health": 6,
-		"text": "[x]<b>Lifesteal</b>\nHas +1 Attack for each\ncard you've discarded\nthis game."
-	},
-	{
-		"name": "Bloodreaver Gul'dan",
-		"set": "Core",
-		"cost": 10,
-		"health": 30,
-		"text": "<b>Battlecry:</b> Summon all friendly Demons that died this game."
-	},
-	{
-		"name": "Bloodworm",
-		"set": "Core",
-		"cost": 5,
-		"attack": 4,
-		"health": 4,
-		"text": "<b>Lifesteal</b>"
-	},
-	{
-		"name": "Bolvar, Fireblood",
-		"set": "Core",
-		"cost": 5,
-		"attack": 1,
-		"health": 7,
-		"text": "<b>Divine Shield</b>\nAfter a friendly minion loses <b>Divine Shield</b>, gain +2 Attack."
-	},
-	{
-		"name": "Bone Baron",
-		"set": "Core",
-		"cost": 5,
-		"attack": 5,
-		"health": 5,
-		"text": "<b>Deathrattle:</b> Add two 1/1 Skeletons to your hand."
-	},
-	{
-		"name": "Bone Drake",
-		"set": "Core",
-		"cost": 6,
-		"attack": 6,
-		"health": 5,
-		"text": "<b>Deathrattle:</b> Add a random Dragon to your hand."
-	},
-	{
-		"name": "Bonemare",
-		"set": "Core",
-		"cost": 7,
-		"attack": 5,
-		"health": 5,
-		"text": "<b>Battlecry:</b> Give a friendly minion +4/+4 and <b>Taunt</b>."
-	},
-	{
-		"name": "Breath of Sindragosa",
-		"set": "Core",
-		"cost": 1,
-		"text": "Deal $2 damage to a random enemy minion and <b>Freeze</b> it."
-	},
-	{
-		"name": "Bring It On!",
-		"set": "Core",
-		"cost": 2,
-		"text": "Gain 10 Armor. Reduce the Cost of minions in your opponent's hand by (2)."
-	},
-	{
-		"name": "Brrrloc",
-		"set": "Core",
+		"name": "Stoneskin Armorer",
+		"set": "Titans",
 		"cost": 2,
 		"attack": 2,
 		"health": 2,
-		"text": "<b>Battlecry:</b> <b>Freeze</b> an enemy."
+		"text": "<b>Battlecry:</b> If your Armor changed this turn,\ndraw 2 cards."
 	},
 	{
-		"name": "Chillblade Champion",
-		"set": "Core",
-		"cost": 4,
-		"attack": 3,
-		"health": 2,
-		"text": "<b>Charge</b>\n<b>Lifesteal</b>"
-	},
-	{
-		"name": "Coldwraith",
-		"set": "Core",
-		"cost": 3,
-		"attack": 3,
-		"health": 4,
-		"text": "<b>Battlecry:</b> If an enemy is <b>Frozen</b>, draw a card."
-	},
-	{
-		"name": "Corpse Raiser",
-		"set": "Core",
-		"cost": 5,
-		"attack": 3,
-		"health": 3,
-		"text": "[x]<b>Battlecry:</b> Give a friendly\nminion \"<b>Deathrattle:</b>\n Resummon this minion.\""
-	},
-	{
-		"name": "Corpse Widow",
-		"set": "Core",
-		"cost": 5,
-		"attack": 4,
-		"health": 6,
-		"text": "Your <b>Deathrattle</b> cards cost (2) less."
-	},
-	{
-		"name": "Corpsetaker",
-		"set": "Core",
-		"cost": 4,
-		"attack": 3,
-		"health": 3,
-		"text": "[x]<b>Battlecry:</b> Gain <b>Taunt</b> if your\ndeck has a <b>Taunt</b> minion.\nRepeat for <b>Divine Shield</b>,\n<b>Lifesteal</b>, <b>Windfury</b>."
-	},
-	{
-		"name": "Cryostasis",
-		"set": "Core",
-		"cost": 2,
-		"text": "Give a minion +3/+3 and <b>Freeze</b> it."
-	},
-	{
-		"name": "Crypt Lord",
-		"set": "Core",
-		"cost": 3,
-		"attack": 1,
-		"health": 6,
-		"text": "[x]<b>Taunt</b>\nAfter you summon a minion,\n gain +1 Health."
-	},
-	{
-		"name": "Dark Conviction",
-		"set": "Core",
-		"cost": 2,
-		"text": "Set a minion's Attack and Health to 3."
-	},
-	{
-		"name": "Dead Man's Hand",
-		"set": "Core",
-		"cost": 2,
-		"text": "Shuffle a copy of your hand into your deck."
-	},
-	{
-		"name": "Deadscale Knight",
-		"set": "Core",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Lifesteal</b>"
-	},
-	{
-		"name": "Death Revenant",
-		"set": "Core",
-		"cost": 5,
-		"attack": 3,
-		"health": 3,
-		"text": "<b>Battlecry:</b> Gain +1/+1 for each damaged minion."
-	},
-	{
-		"name": "Deathaxe Punisher",
-		"set": "Core",
-		"cost": 4,
-		"attack": 3,
-		"health": 3,
-		"text": "<b>Battlecry:</b> Give a random <b>Lifesteal</b> minion in your hand +2/+2."
-	},
-	{
-		"name": "Deathspeaker",
-		"set": "Core",
-		"cost": 3,
-		"attack": 2,
-		"health": 4,
-		"text": "<b>Battlecry:</b> Give a friendly minion <b>Immune</b> this turn."
-	},
-	{
-		"name": "Deathstalker Rexxar",
-		"set": "Core",
+		"name": "Trial by Fire",
+		"set": "Titans",
 		"cost": 6,
-		"health": 30,
-		"text": "[x]<b>Battlecry:</b> Deal 2 damage\nto all enemy minions."
+		"text": "[x]Summon five 1/1\nVal'kyr with <b>Rush</b>.\nWhen one dies, give\nthe others +1/+1."
 	},
 	{
-		"name": "Desperate Stand",
-		"set": "Core",
-		"cost": 2,
-		"text": "Give a minion \"<b>Deathrattle:</b> Return this to life with 1 Health.\""
-	},
-	{
-		"name": "Despicable Dreadlord",
-		"set": "Core",
-		"cost": 5,
-		"attack": 4,
-		"health": 5,
-		"text": "At the end of your turn, deal 1 damage to all enemy minions."
-	},
-	{
-		"name": "Devour Mind",
-		"set": "Core",
-		"cost": 5,
-		"text": "Copy 3 cards in your opponent's deck and add them to your hand."
-	},
-	{
-		"name": "Doomed Apprentice",
-		"set": "Core",
-		"cost": 3,
-		"attack": 3,
-		"health": 2,
-		"text": "Your opponent's spells cost (1) more."
-	},
-	{
-		"name": "Doomerang",
-		"set": "Core",
-		"cost": 1,
-		"text": "Throw your weapon at a minion. It deals its damage, then returns to your hand."
-	},
-	{
-		"name": "Drakkari Defender",
-		"set": "Core",
-		"cost": 3,
-		"attack": 2,
-		"health": 8,
-		"text": "<b>Taunt</b>\n<b>Overload:</b> (3)"
-	},
-	{
-		"name": "Drakkari Enchanter",
-		"set": "Core",
-		"cost": 3,
-		"attack": 1,
-		"health": 5,
-		"text": "Your end of turn effects trigger twice."
-	},
-	{
-		"name": "Druid of the Swarm",
-		"set": "Core",
-		"cost": 2,
-		"attack": 1,
-		"health": 2,
-		"text": "<b>Choose One -</b> Transform into a 1/2 with <b>Poisonous</b>; or a 1/5 with <b>Taunt</b>."
-	},
-	{
-		"name": "Embrace Darkness",
-		"set": "Core",
-		"cost": 6,
-		"text": "[x]Choose an enemy minion.\nAt the start of your turn,\ngain control of it."
-	},
-	{
-		"name": "Eternal Servitude",
-		"set": "Core",
-		"cost": 4,
-		"text": "<b>Discover</b> a friendly minion that died this game. Summon it."
-	},
-	{
-		"name": "Exploding Bloatbat",
-		"set": "Core",
-		"cost": 4,
-		"attack": 2,
-		"health": 1,
-		"text": "<b>Deathrattle:</b>\nDeal 2 damage to all enemy minions."
-	},
-	{
-		"name": "Fallen Sun Cleric",
-		"set": "Core",
-		"cost": 2,
-		"attack": 2,
-		"health": 1,
-		"text": "<b>Battlecry:</b> Give a friendly minion +1/+1."
-	},
-	{
-		"name": "Fatespinner",
-		"set": "Core",
-		"cost": 5,
-		"attack": 5,
-		"health": 3,
-		"text": "<b>Choose a Deathrattle (Secretly) -</b> Deal 3 damage to all minions; or Give them +2/+2."
-	},
-	{
-		"name": "Forge of Souls",
-		"set": "Core",
-		"cost": 2,
-		"text": "Draw 2 weapons from your deck."
-	},
-	{
-		"name": "Frost Lich Jaina",
-		"set": "Core",
-		"cost": 9,
-		"health": 30,
-		"text": "[x]<b>Battlecry:</b> Summon a\n3/6 Water Elemental.\nYour Elementals have\n<b>Lifesteal</b> this game."
-	},
-	{
-		"name": "Frozen Clone",
-		"set": "Core",
-		"cost": 3,
-		"text": "<b>Secret:</b> After your opponent plays a minion, add two copies of it to your hand."
-	},
-	{
-		"name": "Furnacefire Colossus",
-		"set": "Core",
-		"cost": 6,
-		"attack": 6,
-		"health": 6,
-		"text": "<b>Battlecry:</b> Discard all weapons from your hand and gain their stats."
-	},
-	{
-		"name": "Ghastly Conjurer",
-		"set": "Core",
-		"cost": 4,
-		"attack": 2,
-		"health": 6,
-		"text": "<b>Battlecry:</b> Add a 'Mirror Image' spell to your hand."
-	},
-	{
-		"name": "Glacial Mysteries",
-		"set": "Core",
-		"cost": 8,
-		"text": "Put one of each <b>Secret</b> from your deck into\nthe battlefield."
-	},
-	{
-		"name": "Gnash",
-		"set": "Core",
-		"cost": 3,
-		"text": "Give your hero +3 Attack this turn. Gain 3 Armor."
-	},
-	{
-		"name": "Gnomeferatu",
-		"set": "Core",
-		"cost": 2,
-		"attack": 2,
-		"health": 3,
-		"text": "<b>Battlecry:</b> Remove\nthe top card of your opponent's deck."
-	},
-	{
-		"name": "Grave Shambler",
-		"set": "Core",
+		"name": "Upbeat Upstart",
+		"set": "Battlegrounds",
 		"cost": 4,
 		"attack": 4,
 		"health": 4,
-		"text": "Whenever your weapon is destroyed, gain +1/+1."
+		"text": "[x]<b><b>Taunt</b>.</b> At the end of every 2\nturns, set this minion's Health\nto the highest in your warband.\n<i>(2 turns left!)</i>"
 	},
 	{
-		"name": "Hadronox",
-		"set": "Core",
-		"cost": 9,
-		"attack": 3,
-		"health": 7,
-		"text": "<b>Deathrattle:</b> Summon your <b>Taunt</b> minions that\ndied this game."
-	},
-	{
-		"name": "Happy Ghoul",
-		"set": "Core",
-		"cost": 3,
-		"attack": 3,
-		"health": 3,
-		"text": "Costs (0) if your hero was healed this turn."
-	},
-	{
-		"name": "Howlfiend",
-		"set": "Core",
-		"cost": 3,
-		"attack": 3,
-		"health": 6,
-		"text": "Whenever this minion takes damage, discard a random card."
-	},
-	{
-		"name": "Howling Commander",
-		"set": "Core",
-		"cost": 3,
-		"attack": 2,
-		"health": 2,
-		"text": "<b>Battlecry:</b> Draw a <b>Divine Shield</b> minion from your deck."
-	},
-	{
-		"name": "Hyldnir Frostrider",
-		"set": "Core",
-		"cost": 3,
-		"attack": 4,
-		"health": 4,
-		"text": "<b>Battlecry:</b> <b>Freeze</b> your other minions."
-	},
-	{
-		"name": "Ice Breaker",
-		"set": "Core",
-		"cost": 3,
-		"attack": 1,
-		"text": "Destroy any <b>Frozen</b> minion damaged by this."
-	},
-	{
-		"name": "Ice Fishing",
-		"set": "Core",
-		"cost": 2,
-		"text": "Draw 2 Murlocs from your deck."
-	},
-	{
-		"name": "Ice Walker",
-		"set": "Core",
-		"cost": 2,
-		"attack": 1,
-		"health": 3,
-		"text": "Your Hero Power also <b><b>Freeze</b>s</b> the target."
-	},
-	{
-		"name": "Keening Banshee",
-		"set": "Core",
+		"name": "Upbeat Upstart",
+		"set": "Battlegrounds",
 		"cost": 4,
-		"attack": 5,
-		"health": 5,
-		"text": "Whenever you play a card, remove the top 3 cards of your deck."
-	},
-	{
-		"name": "Leeching Poison",
-		"set": "Core",
-		"cost": 1,
-		"text": "Give your weapon <b>Lifesteal</b> this turn."
-	},
-	{
-		"name": "Light's Sorrow",
-		"set": "Core",
-		"cost": 4,
-		"attack": 1,
-		"text": "After a friendly minion loses <b>Divine Shield</b>, gain +1 Attack."
-	},
-	{
-		"name": "Lilian Voss",
-		"set": "Core",
-		"cost": 4,
-		"attack": 4,
-		"health": 5,
-		"text": "<b>Battlecry:</b> Replace spells in your hand with random spells <i>(from your opponent's class).</i>"
-	},
-	{
-		"name": "Malfurion the Pestilent",
-		"set": "Core",
-		"cost": 7,
-		"health": 30,
-		"text": "[x]<b>Choose One -</b>\nSummon 2 <b>Poisonous</b>\nSpiders; or 2 Scarabs\nwith <b>Taunt</b>."
-	},
-	{
-		"name": "Meat Wagon",
-		"set": "Core",
-		"cost": 4,
-		"attack": 1,
-		"health": 4,
-		"text": "[x]<b>Deathrattle:</b> Summon a\nminion from your deck\nwith less Attack than\nthis minion."
-	},
-	{
-		"name": "Mindbreaker",
-		"set": "Core",
-		"cost": 3,
-		"attack": 2,
-		"health": 5,
-		"text": "Hero Powers are disabled."
-	},
-	{
-		"name": "Moorabi",
-		"set": "Core",
-		"cost": 6,
-		"attack": 4,
-		"health": 4,
-		"text": "Whenever another minion is <b>Frozen</b>, add a copy of it to your hand."
-	},
-	{
-		"name": "Mountainfire Armor",
-		"set": "Core",
-		"cost": 3,
-		"attack": 4,
-		"health": 3,
-		"text": "<b>Deathrattle:</b> If it's your opponent's turn,\ngain 6 Armor."
-	},
-	{
-		"name": "Necrotic Geist",
-		"set": "Core",
-		"cost": 6,
-		"attack": 5,
-		"health": 3,
-		"text": "Whenever one of your other minions dies, summon a 2/2 Ghoul."
-	},
-	{
-		"name": "Nerubian Unraveler",
-		"set": "Core",
-		"cost": 6,
-		"attack": 5,
-		"health": 5,
-		"text": "Spells cost (2) more."
-	},
-	{
-		"name": "Night Howler",
-		"set": "Core",
-		"cost": 4,
-		"attack": 3,
-		"health": 4,
-		"text": "Whenever this minion takes\ndamage, gain +2 Attack."
-	},
-	{
-		"name": "Obsidian Statue",
-		"set": "Core",
-		"cost": 9,
-		"attack": 4,
-		"health": 8,
-		"text": "[x]<b>Taunt, Lifesteal</b>\n<b>Deathrattle:</b> Destroy a\n random enemy minion."
-	},
-	{
-		"name": "Phantom Freebooter",
-		"set": "Core",
-		"cost": 4,
-		"attack": 3,
-		"health": 3,
-		"text": "<b>Battlecry:</b> Gain stats equal to your weapon's."
-	},
-	{
-		"name": "Play Dead",
-		"set": "Core",
-		"cost": 1,
-		"text": "Trigger a friendly minion's <b>Deathrattle</b>."
-	},
-	{
-		"name": "Prince Keleseth",
-		"set": "Core",
-		"cost": 2,
-		"attack": 2,
-		"health": 2,
-		"text": "<b>Battlecry:</b> If your deck has no 2-Cost cards, give all minions in your deck +1/+1."
-	},
-	{
-		"name": "Prince Taldaram",
-		"set": "Core",
-		"cost": 3,
-		"attack": 3,
-		"health": 3,
-		"text": "<b>Battlecry:</b> If your deck has no 3-Cost cards, transform into a 3/3 copy of a minion."
-	},
-	{
-		"name": "Prince Valanar",
-		"set": "Core",
-		"cost": 4,
-		"attack": 4,
-		"health": 4,
-		"text": "<b>Battlecry:</b> If your deck has no 4-Cost cards, gain <b>Lifesteal</b> and <b>Taunt</b>."
-	},
-	{
-		"name": "Professor Putricide",
-		"set": "Core",
-		"cost": 4,
-		"attack": 5,
-		"health": 4,
-		"text": "After you play a <b>Secret</b>,\nput a random Hunter <b>Secret</b> into the battlefield."
-	},
-	{
-		"name": "Rattling Rascal",
-		"set": "Core",
-		"cost": 4,
-		"attack": 2,
-		"health": 2,
-		"text": "[x]<b>Battlecry:</b> Summon a\n5/5 Skeleton.\n<b>Deathrattle:</b> Summon one\nfor your opponent."
-	},
-	{
-		"name": "Roll the Bones",
-		"set": "Core",
-		"cost": 2,
-		"text": "Draw a card.\nIf it has <b>Deathrattle</b>, cast this again."
-	},
-	{
-		"name": "Rotface",
-		"set": "Core",
-		"cost": 8,
-		"attack": 4,
-		"health": 6,
-		"text": "[x]After this minion\nsurvives damage,\nsummon a random\n<b>Legendary</b> minion."
-	},
-	{
-		"name": "Runeforge Haunter",
-		"set": "Core",
-		"cost": 4,
-		"attack": 5,
-		"health": 3,
-		"text": "During your turn, your weapon doesn't lose Durability."
-	},
-	{
-		"name": "Sanguine Reveler",
-		"set": "Core",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Battlecry:</b> Destroy a friendly minion and gain +2/+2."
-	},
-	{
-		"name": "Saronite Chain Gang",
-		"set": "Core",
-		"cost": 4,
-		"attack": 2,
-		"health": 3,
-		"text": "[x]<b>Taunt</b>\n<b>Battlecry:</b> Summon a\ncopy of this minion."
-	},
-	{
-		"name": "Scourgelord Garrosh",
-		"set": "Core",
-		"cost": 8,
-		"health": 30,
-		"text": "<b>Battlecry</b>: Equip a 4/3 Shadowmourne that also damages adjacent minions."
-	},
-	{
-		"name": "Shadow Essence",
-		"set": "Core",
-		"cost": 6,
-		"text": "Summon a 5/5 copy of a random minion in your deck."
-	},
-	{
-		"name": "Shadowblade",
-		"set": "Core",
-		"cost": 3,
-		"attack": 3,
-		"text": "<b>Battlecry:</b> Your hero is <b>Immune</b> this turn."
-	},
-	{
-		"name": "Shadowreaper Anduin",
-		"set": "Core",
-		"cost": 8,
-		"health": 30,
-		"text": "<b>Battlecry:</b> Destroy all minions with 5 or more Attack."
-	},
-	{
-		"name": "Shallow Gravedigger",
-		"set": "Core",
-		"cost": 3,
-		"attack": 3,
-		"health": 1,
-		"text": "<b>Deathrattle:</b> Add a random <b>Deathrattle</b> minion to your hand."
-	},
-	{
-		"name": "Simulacrum",
-		"set": "Core",
-		"cost": 3,
-		"text": "Copy the lowest Cost minion in your hand."
-	},
-	{
-		"name": "Sindragosa",
-		"set": "Core",
-		"cost": 8,
 		"attack": 8,
 		"health": 8,
-		"text": "<b>Battlecry:</b> Summon two 0/1 Frozen Champions."
+		"text": "[x]<b><b>Taunt</b>.</b> At the end of every 2\nturns, set this minion's Health\nto double the highest in your\nwarband. <i>(2 turns left!)</i>"
 	},
 	{
-		"name": "Skelemancer",
-		"set": "Core",
+		"name": "Disciple of Amitus",
+		"set": "Titans",
 		"cost": 5,
-		"attack": 2,
-		"health": 2,
-		"text": "<b>Deathrattle:</b> If it's your opponent's turn, summon an 8/8 Skeleton."
-	},
-	{
-		"name": "Skulking Geist",
-		"set": "Core",
-		"cost": 6,
 		"attack": 4,
-		"health": 6,
-		"text": "<b>Battlecry:</b> Destroy all\n1-Cost spells in both hands and decks."
-	},
-	{
-		"name": "Snowfury Giant",
-		"set": "Core",
-		"cost": 11,
-		"attack": 8,
-		"health": 8,
-		"text": "Costs (1) less for each Mana Crystal you've <b><b>Overload</b>ed</b> this game."
-	},
-	{
-		"name": "Spectral Pillager",
-		"set": "Core",
-		"cost": 6,
-		"attack": 5,
 		"health": 5,
-		"text": "[x]<b>Combo:</b> Deal damage equal\nto the number of other cards\nyou've played this turn."
+		"text": "[x]At the end of your turn, summon\na 2/2 Earthen that gains +2/+2\nfor each other Earthen you've\nsummoned this game."
 	},
 	{
-		"name": "Spellweaver",
-		"set": "Core",
+		"name": "Tyr",
+		"set": "Titans",
 		"cost": 6,
 		"attack": 4,
-		"health": 4,
-		"text": "<b>Spell Damage +2</b>"
-	},
-	{
-		"name": "Spirit Lash",
-		"set": "Core",
-		"cost": 2,
-		"text": "<b>Lifesteal</b>\nDeal $1 damage to all minions."
-	},
-	{
-		"name": "Spreading Plague",
-		"set": "Core",
-		"cost": 6,
-		"text": "Summon a 1/5 Scarab with <b>Taunt</b>. If your opponent has more minions, cast this again."
-	},
-	{
-		"name": "Stitched Tracker",
-		"set": "Core",
-		"cost": 3,
-		"attack": 2,
-		"health": 2,
-		"text": "<b>Battlecry:</b> <b>Discover</b> a copy of a minion in your deck."
-	},
-	{
-		"name": "Strongshell Scavenger",
-		"set": "Core",
-		"cost": 4,
-		"attack": 2,
-		"health": 3,
-		"text": "<b>Battlecry:</b> Give your <b>Taunt</b> minions +2/+2."
-	},
-	{
-		"name": "Sunborne Val'kyr",
-		"set": "Core",
-		"cost": 5,
-		"attack": 5,
-		"health": 4,
-		"text": "<b>Battlecry:</b> Give adjacent minions +2 Health."
-	},
-	{
-		"name": "Tainted Zealot",
-		"set": "Core",
-		"cost": 2,
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Divine Shield</b>\n<b>Spell Damage +1</b>"
-	},
-	{
-		"name": "The Lich King",
-		"set": "Core",
-		"cost": 8,
-		"attack": 8,
-		"health": 8,
-		"text": "[x]<b>Taunt</b>\nAt the end of your turn,\nadd a random <b>Lich King</b>\ncard to your hand."
-	},
-	{
-		"name": "Thrall, Deathseer",
-		"set": "Core",
-		"cost": 5,
-		"health": 30,
-		"text": "<b>Battlecry:</b> Transform your minions into random ones that cost (2) more."
-	},
-	{
-		"name": "Ticking Abomination",
-		"set": "Core",
-		"cost": 4,
-		"attack": 5,
-		"health": 6,
-		"text": "<b>Deathrattle:</b> Deal 5 damage to your minions."
-	},
-	{
-		"name": "Tomb Lurker",
-		"set": "Core",
-		"cost": 5,
-		"attack": 5,
-		"health": 3,
-		"text": "[x]<b>Battlecry:</b> Add a random\n<b>Deathrattle</b> minion that died\nthis game to your hand."
-	},
-	{
-		"name": "Toxic Arrow",
-		"set": "Core",
-		"cost": 2,
-		"text": "Deal $2 damage to a minion. If it survives, give it <b>Poisonous</b>."
-	},
-	{
-		"name": "Treachery",
-		"set": "Core",
-		"cost": 3,
-		"text": "Choose a friendly minion and give it to your opponent."
-	},
-	{
-		"name": "Tuskarr Fisherman",
-		"set": "Core",
-		"cost": 2,
-		"attack": 2,
-		"health": 3,
-		"text": "<b>Battlecry:</b> Give a friendly minion <b>Spell Damage +1</b>."
-	},
-	{
-		"name": "Ultimate Infestation",
-		"set": "Core",
-		"cost": 10,
-		"text": "[x]Deal $5 damage. Draw\n5 cards. Gain 5 Armor.\nSummon a 5/5 Ghoul."
-	},
-	{
-		"name": "Unwilling Sacrifice",
-		"set": "Core",
-		"cost": 3,
-		"text": "Choose a friendly minion. Destroy it and a random enemy minion."
-	},
-	{
-		"name": "Uther of the Ebon Blade",
-		"set": "Core",
-		"cost": 9,
-		"health": 30,
-		"text": "<b>Battlecry:</b> Equip a 5/3 <b>Lifesteal</b> weapon."
-	},
-	{
-		"name": "Valeera the Hollow",
-		"set": "Core",
-		"cost": 9,
-		"health": 30,
-		"text": "<b>Battlecry:</b> Gain <b>Stealth</b> until your next turn."
-	},
-	{
-		"name": "Val'kyr Soulclaimer",
-		"set": "Core",
-		"cost": 3,
-		"attack": 1,
-		"health": 4,
-		"text": "[x]After this minion\nsurvives damage,\nsummon a 2/2 Ghoul."
-	},
-	{
-		"name": "Venomancer",
-		"set": "Core",
-		"cost": 5,
-		"attack": 2,
 		"health": 5,
-		"text": "<b>Poisonous</b>"
-	},
-	{
-		"name": "Venomstrike Trap",
-		"set": "Core",
-		"cost": 2,
-		"text": "<b>Secret:</b> When one of your minions is attacked, summon a 2/3 <b>Poisonous</b> Cobra."
-	},
-	{
-		"name": "Voodoo Hexxer",
-		"set": "Core",
-		"cost": 5,
-		"attack": 2,
-		"health": 7,
-		"text": "<b>Taunt</b>\n<b>Freeze</b> any character damaged by this minion."
-	},
-	{
-		"name": "Vryghoul",
-		"set": "Core",
-		"cost": 3,
-		"attack": 3,
-		"health": 1,
-		"text": "[x]<b>Deathrattle:</b> If it's your\nopponent's turn,\nsummon a 2/2 Ghoul."
-	},
-	{
-		"name": "Webweave",
-		"set": "Core",
-		"cost": 5,
-		"text": "Summon two 1/2 <b>Poisonous</b> Spiders."
-	},
-	{
-		"name": "Wicked Skeleton",
-		"set": "Core",
-		"cost": 4,
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Battlecry:</b> Gain +1/+1 for each minion that died this turn."
-	},
-	{
-		"name": "Wretched Tiller",
-		"set": "Core",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "Whenever this minion attacks, deal 2 damage to the enemy hero."
-	},
-	{
-		"name": "Sparkbot",
-		"set": "Titans",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Magnetic</b>\n<b>Poisonous</b>"
-	},
-	{
-		"name": "Sparkbot",
-		"set": "Titans",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Magnetic</b>\n<b>Reborn</b>"
-	},
-	{
-		"name": "Sparkbot",
-		"set": "Titans",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Magnetic</b>\n<b>Lifesteal</b>"
-	},
-	{
-		"name": "Helya",
-		"set": "Titans",
-		"cost": 4,
-		"attack": 4,
-		"health": 4,
-		"text": "[x]<b>Battlecry:</b> Shuffle all three\nPlagues into your opponent's\ndeck. Plagues they draw this\ngame are unending."
-	},
-	{
-		"name": "Lab Constructor",
-		"set": "Titans",
-		"cost": 5,
-		"attack": 3,
-		"health": 2,
-		"text": "[x]At the end of your turn,\nsummon a copy of this.\n<b>Forge:</b> Gain <b>Magnetic</b>."
-	},
-	{
-		"name": "Lab Constructor",
-		"set": "Titans",
-		"cost": 5,
-		"attack": 3,
-		"health": 2,
-		"text": "[x]<b>Forged, Magnetic</b>\nAt the end of your turn,\nsummon a copy of this."
+		"text": "<b>Battlecry:</b> Resurrect\na 2, 3, and 4-Attack\nPaladin minion."
 	},
 	{
 		"name": "Disciple of Eonar",
@@ -2090,7 +2314,275 @@
 		"cost": 4,
 		"attack": 4,
 		"health": 4,
-		"text": "[x]<b>Battlecry:</b> Your next\n <b>Choose One</b> card has\nboth effects combined."
+		"text": "<b>Battlecry:</b> Your next \n<b>Choose One</b> card\nor power has both\neffects combined."
+	},
+	{
+		"name": "Grace of the Highfather",
+		"set": "Titans",
+		"cost": 3,
+		"text": "Restore #8 Health.\n<b>Discover</b> a card that costs the amount <b>Overhealed</b>."
+	},
+	{
+		"name": "Mythical Terror",
+		"set": "Titans",
+		"cost": 7,
+		"attack": 4,
+		"health": 10,
+		"text": "[x]<b>Lifesteal</b>\nAt the end of your turn,\nforce all enemy minions\nto attack this."
+	},
+	{
+		"name": "Colossus of the Sun",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 6,
+		"health": 6,
+		"text": "<b>Divine Shield</b>\n<b>Reborn</b>"
+	},
+	{
+		"name": "Colossus of the Sun",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"attack": 12,
+		"health": 12,
+		"text": "<b>Divine Shield</b>\n<b>Reborn</b>"
+	},
+	{
+		"name": "The Goldenizer",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"text": "Make a friendly minion Golden."
+	},
+	{
+		"name": "Upbeat Flutist",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"attack": 2,
+		"health": 5,
+		"text": "[x]At the end of every 2 turns,\ngive a random minion\nin your hand +9 Health.\n<i>(2 turns left!)</i>"
+	},
+	{
+		"name": "Upbeat Flutist",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"attack": 4,
+		"health": 10,
+		"text": "[x]At the end of every 2 turns,\ngive a random minion\nin your hand +18 Health.\n<i>(2 turns left!)</i>"
+	},
+	{
+		"name": "Zesty Shaker",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "[x]Once per turn, when you\ncast a <b>Spellcraft</b> spell on\n this, get a new copy of it."
+	},
+	{
+		"name": "Zesty Shaker",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"attack": 6,
+		"health": 8,
+		"text": "[x]Once per turn, when you\ncast a <b>Spellcraft</b> spell on\n this, get 2 new copies of it."
+	},
+	{
+		"name": "Bonemare",
+		"set": "Icecrown",
+		"cost": 5,
+		"attack": 5,
+		"health": 5,
+		"text": "<b>Battlecry:</b> Give a friendly minion +4/+4 and <b>Taunt</b>."
+	},
+	{
+		"name": "Sanctum Rester",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"attack": 5,
+		"health": 5,
+		"text": "<b>Start of Combat:</b> Give your other Dragons +8 Health."
+	},
+	{
+		"name": "Sanctum Rester",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"attack": 10,
+		"health": 10,
+		"text": "[x]<b>Start of Combat:</b> Give your\nother Dragons +16 Health."
+	},
+	{
+		"name": "Genius of Mimiron",
+		"set": "Titans",
+		"cost": 0,
+		"text": "After your hero attacks, summon a random 2-Cost minion."
+	},
+	{
+		"name": "Genius of Mimiron",
+		"set": "Titans",
+		"cost": 0,
+		"text": "After your hero attacks, summon a random 4-Cost minion."
+	},
+	{
+		"name": "Genius of Mimiron",
+		"set": "Titans",
+		"cost": 0,
+		"text": "After your hero attacks, summon a random 8-Cost minion."
+	},
+	{
+		"name": "Xylo-bones",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 6,
+		"health": 1,
+		"text": "After you summon a minion in combat, gain +3 Health permanently."
+	},
+	{
+		"name": "Xylo-bones",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 12,
+		"health": 2,
+		"text": "After you summon a minion in combat, gain +6 Health permanently."
+	},
+	{
+		"name": "Backstage Security",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"attack": 4,
+		"health": 6,
+		"text": "At the start of your turn, deal 1 damage\nto your hero."
+	},
+	{
+		"name": "Backstage Security",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"attack": 8,
+		"health": 12,
+		"text": "At the start of your turn, deal 1 damage\nto your hero."
+	},
+	{
+		"name": "Fairy Tale Caroler",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 2,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> If you lost your\nlast combat, give your\nother minions +2/+1."
+	},
+	{
+		"name": "Fairy Tale Caroler",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 4,
+		"health": 8,
+		"text": "[x]<b>Battlecry:</b> If you lost your\nlast combat, give your\nother minions +4/+2."
+	},
+	{
+		"name": "Recurring Nightmare",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 5,
+		"health": 5,
+		"text": "[x]<b>Deathrattle:</b> Give a\ndifferent friendly Undead\n\"<b>Deathrattle:</b> Summon a\n Recurring Nightmare.\""
+	},
+	{
+		"name": "Recurring Nightmare",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 10,
+		"health": 10,
+		"text": "[x]<b>Deathrattle:</b> Give a different\nfriendly Undead \"<b>Deathrattle:</b>\nSummon a Golden\nRecurring Nightmare.\""
+	},
+	{
+		"name": "Bonemare",
+		"set": "Icecrown",
+		"cost": 5,
+		"attack": 10,
+		"health": 10,
+		"text": "<b>Battlecry:</b> Give a friendly minion +8/+8 and <b>Taunt</b>."
+	},
+	{
+		"name": "Money Match",
+		"set": "Battlegrounds",
+		"text": "Start at 10 Gold."
+	},
+	{
+		"name": "Finicky Hourglass",
+		"set": "Battlegrounds",
+		"text": "Start at Tavern Tier 2."
+	},
+	{
+		"name": "Prudence of Amitus",
+		"set": "Battlegrounds",
+		"text": "[x]Unspent Gold carries\nover to your next turn.\nIf you saved at least 5,\ngain 1 extra."
+	},
+	{
+		"name": "Anti-Gravity Stadium",
+		"set": "Battlegrounds",
+		"text": "Minions in the Tavern have their Attack and Health swapped."
+	},
+	{
+		"name": "Mimiron's Clockwork Stadium",
+		"set": "Battlegrounds",
+		"text": "[x]You cannot upgrade the\nTavern with Gold.\nIt upgrades itself every\n2 turns. <i>(2 turns left!)</i>"
+	},
+	{
+		"name": "Little League",
+		"set": "Battlegrounds",
+		"text": "Only Tavern Tiers\n1, 2, 3, and 4 exist."
+	},
+	{
+		"name": "Double Header",
+		"set": "Battlegrounds",
+		"text": "The first time you buy a minion each turn,\nget an extra copy of it."
+	},
+	{
+		"name": "False Idols",
+		"set": "Battlegrounds",
+		"text": "[x]You only need 2 copies\nof a minion to make it\nGolden. Instead of a Triple\nReward, get a Gold Coin."
+	},
+	{
+		"name": "Packed Stands",
+		"set": "Battlegrounds",
+		"text": "The Tavern always has 7 minions."
+	},
+	{
+		"name": "Perfected Alchemy",
+		"set": "Battlegrounds",
+		"text": "Start with a 'Goldenizer' that makes a friendly minion Golden."
+	},
+	{
+		"name": "Grapnel of the Titans",
+		"set": "Battlegrounds",
+		"text": "The first minion you\nbuy each turn is free."
+	},
+	{
+		"name": "The Golden Arena",
+		"set": "Battlegrounds",
+		"text": "ALL minions are Golden, but you do not get Triple Rewards."
+	},
+	{
+		"name": "Path of the Treasure-Seeker",
+		"set": "Battlegrounds",
+		"text": "After you <b>Refresh</b> 5 times, find the <b>Golden</b> Monkey! <i>(5 left!)</i>"
+	},
+	{
+		"name": "A Faire Reward",
+		"set": "Battlegrounds",
+		"text": "Instead of a minion, Triple Rewards <b>Discover</b> a <b>Tier 1</b> Darkmoon Prize.\n<i>(Upgrades in 3 turns!)</i>"
+	},
+	{
+		"name": "Triple Reward",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"text": "<b>Discover</b> a\nDarkmoon Prize."
+	},
+	{
+		"name": "Bonus Anomaly Countdown [DEPRECATED]",
+		"set": "Battlegrounds",
+		"text": "[x]Add a new Anomaly\nin 5 turns!"
+	},
+	{
+		"name": "Echoes of Argus",
+		"set": "Battlegrounds",
+		"text": "Your <b>Battlecries</b> and <b>Deathrattles</b> trigger an extra time."
 	},
 	{
 		"name": "Mal'Ganis",
@@ -2098,6 +2590,2414 @@
 		"cost": 9,
 		"attack": 9,
 		"health": 7,
-		"text": "Your other Demons have +2/+2.\nYour hero is <b>Immune</b>."
+		"text": "Your hero is <b>Immune</b>.\nYour other Demons\nhave +2/+2."
+	},
+	{
+		"name": "Mistake",
+		"set": "Return_of_the_lich_king",
+		"cost": 0,
+		"attack": 1,
+		"health": 3,
+		"text": "<i>This has all minion types</i>."
+	},
+	{
+		"name": "Mistake",
+		"set": "Return_of_the_lich_king",
+		"cost": 0,
+		"attack": 2,
+		"health": 6,
+		"text": "<i>This has all minion types</i>."
+	},
+	{
+		"name": "Carbonic Copy",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 5,
+		"health": 6,
+		"text": "[x]<b>Start of Combat:</b> Summon\na copy of this minion."
+	},
+	{
+		"name": "Carbonic Copy",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 10,
+		"health": 12,
+		"text": "[x]<b>Start of Combat:</b> Summon\ntwo copies of this minion."
+	},
+	{
+		"name": "Plagued Tidewalker",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 2,
+		"health": 7,
+		"text": "<b>Venomous</b>"
+	},
+	{
+		"name": "Plagued Tidewalker",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"attack": 4,
+		"health": 14,
+		"text": "<b>Venomous</b>"
+	},
+	{
+		"name": "Everything's on Fire!",
+		"set": "Battlegrounds",
+		"text": "[x]At the start of the game,\ntake 30 damage.\nAfter another hero dies,\nregain 5 Health."
+	},
+	{
+		"name": "Wisdom of Ulduar",
+		"set": "Battlegrounds",
+		"text": "[x]At the end of every 3 turns,\nset your right-most\nminion's stats to 15/15.\n<i>(3 turns left!)</i>"
+	},
+	{
+		"name": "Overseer's Orb",
+		"set": "Battlegrounds",
+		"text": "[x]After you upgrade the\nTavern, <b>Refresh</b> it with\nminions of your most\ncommon type."
+	},
+	{
+		"name": "Klaxxi Amber-Weaver",
+		"set": "1898",
+		"cost": 4,
+		"attack": 4,
+		"health": 5,
+		"text": "[x]<b>Taunt</b>\n<b>Battlecry:</b> If your C'Thun\nhas at least 10 Attack,\ngain +5 Health."
+	},
+	{
+		"name": "Knight of the Wild",
+		"set": "1898",
+		"cost": 7,
+		"attack": 6,
+		"health": 6,
+		"text": "Costs (1) less for each Beast you've summoned this game."
+	},
+	{
+		"name": "Addled Grizzly",
+		"set": "1898",
+		"cost": 2,
+		"attack": 2,
+		"health": 3,
+		"text": "After you summon a\nBeast, give it +1/+1."
+	},
+	{
+		"name": "Malorne",
+		"set": "1898",
+		"cost": 7,
+		"attack": 9,
+		"health": 7,
+		"text": "<b>Deathrattle:</b> Go <b>Dormant</b>. Revive after 2 friendly Beasts die."
+	},
+	{
+		"name": "Aviana",
+		"set": "1898",
+		"cost": 9,
+		"attack": 5,
+		"health": 5,
+		"text": "Your minions cost (1)."
+	},
+	{
+		"name": "Rat Sensei",
+		"set": "1898",
+		"cost": 2,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Battlecry and Deathrattle:</b> Add two 1/1 Turtles with <b>Taunt</b> to your hand."
+	},
+	{
+		"name": "Monk Turtle",
+		"set": "1898",
+		"cost": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"name": "Monk Turtle",
+		"set": "1898",
+		"cost": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"name": "Monk Turtle",
+		"set": "1898",
+		"cost": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"name": "Monk Turtle",
+		"set": "1898",
+		"cost": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"name": "Invigorate",
+		"set": "1898",
+		"cost": 2,
+		"text": "<b>Choose One -</b> Gain an empty Mana Crystal; or Draw a card."
+	},
+	{
+		"name": "Cenarion Hold",
+		"set": "1898",
+		"cost": 2,
+		"health": 2,
+		"text": "[x]Your next <b>Choose One</b>\ncard this turn has both\neffects combined."
+	},
+	{
+		"name": "Snipe",
+		"set": "1898",
+		"cost": 2,
+		"text": "<b>Secret:</b> After your opponent plays a minion, deal $6 damage to it."
+	},
+	{
+		"name": "Ball of Spiders",
+		"set": "1898",
+		"cost": 3,
+		"text": "Summon three 1/1 Webspinners\nwith \"<b>Deathrattle:</b> Get\na random Beast.\""
+	},
+	{
+		"name": "Explorer's Hat",
+		"set": "1898",
+		"cost": 1,
+		"text": "Give a minion +1/+1 and \"<b>Deathrattle:</b> Get an Explorer's Hat.\""
+	},
+	{
+		"name": "Lock and Load",
+		"set": "1898",
+		"cost": 0,
+		"text": "Each time you cast a spell this turn, get a random Hunter card."
+	},
+	{
+		"name": "Acidmaw",
+		"set": "1898",
+		"cost": 3,
+		"attack": 4,
+		"health": 2,
+		"text": "Whenever an enemy minion takes damage, destroy it."
+	},
+	{
+		"name": "Dreadscale",
+		"set": "1898",
+		"cost": 3,
+		"attack": 4,
+		"health": 2,
+		"text": "At the end of your turn, deal 1 damage to all enemies."
+	},
+	{
+		"name": "Durnholde Imposter",
+		"set": "1898",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "[x]Each turn this is in your\nhand, transform it into a\nrandom 3-Cost minion\nthat gains <b>Poisonous</b>."
+	},
+	{
+		"name": "Time-Lost Raptor",
+		"set": "1898",
+		"cost": 2,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Echo</b>\n<b>Battlecry:</b> <b>Adapt</b> your Time-Lost Raptors."
+	},
+	{
+		"name": "Trial of the Jormungars",
+		"set": "1898",
+		"cost": 5,
+		"text": "Summon copies of two Beasts in your deck that cost (3) or less."
+	},
+	{
+		"name": "Dalaran Aspirant",
+		"set": "1898",
+		"cost": 4,
+		"attack": 3,
+		"health": 5,
+		"text": "<b>Spell Damage +1</b>\n<b>Inspire:</b> Gain <b>Spell Damage +1</b>."
+	},
+	{
+		"name": "Mana Wyrm",
+		"set": "1898",
+		"cost": 1,
+		"attack": 1,
+		"health": 3,
+		"text": "Whenever you cast a spell, gain +1 Attack."
+	},
+	{
+		"name": "Soot Spewer",
+		"set": "1898",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Spell Damage +1</b>\n<b>Battlecry:</b> If you control\nanother Mech, get a random Fire spell."
+	},
+	{
+		"name": "Goblin Blastmage",
+		"set": "1898",
+		"cost": 4,
+		"attack": 5,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> If you control\na Mech, deal 6 damage\nrandomly split among\nall enemies."
+	},
+	{
+		"name": "Servant of Yogg-Saron",
+		"set": "1898",
+		"cost": 5,
+		"attack": 5,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> Cast a random\n spell that costs (5) or MORE \n <i>(targets chosen randomly)</i>."
+	},
+	{
+		"name": "Cabalist's Tome",
+		"set": "1898",
+		"cost": 4,
+		"text": "Get 3 random\nMage spells."
+	},
+	{
+		"name": "Flame Leviathan",
+		"set": "1898",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Rush</b>\nWhen you draw this, deal\n2 damage to all characters\nexcept Mechs."
+	},
+	{
+		"name": "Black Morass Imposter",
+		"set": "1898",
+		"cost": 2,
+		"attack": 2,
+		"health": 2,
+		"text": "[x]Each turn this is in your\nhand, transform it into a\n random 2-Cost minion that \n gains <b>Spell Damage +1</b>."
+	},
+	{
+		"name": "Disco at the End of Time",
+		"set": "1898",
+		"cost": 6,
+		"text": "Cast 5 random <b>Secrets</b> from the past.\nAt the start of your turn, destroy them."
+	},
+	{
+		"name": "Chromie, Timehopper",
+		"set": "1898",
+		"cost": 6,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> Visit a Historical \nEpoch. Shuffle the others\n into your deck."
+	},
+	{
+		"name": "Ivory Knight",
+		"set": "1898",
+		"cost": 4,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> <b>Discover</b> a spell.\nRestore Health to your hero\nequal to its Cost."
+	},
+	{
+		"name": "Grimestreet Enforcer",
+		"set": "1898",
+		"cost": 4,
+		"attack": 4,
+		"health": 4,
+		"text": "At the end of your turn, give all minions in your hand +1/+1."
+	},
+	{
+		"name": "Lay on Hands",
+		"set": "1898",
+		"cost": 6,
+		"text": "Restore #8 Health. Draw 3 cards."
+	},
+	{
+		"name": "Enter the Coliseum",
+		"set": "1898",
+		"cost": 3,
+		"text": "Destroy all minions except each player's highest Attack minion."
+	},
+	{
+		"name": "Timeless Blessing",
+		"set": "1898",
+		"cost": 4,
+		"text": "Give four random minions in your hand +4/+4, +3/+3, +2/+2, and +1/+1."
+	},
+	{
+		"name": "Bronze Dragonknight",
+		"set": "1898",
+		"cost": 4,
+		"attack": 3,
+		"health": 5,
+		"text": "<b>Battlecry:</b> If this has 5 or more Attack, summon a copy of this."
+	},
+	{
+		"name": "Runi, Time Explorer",
+		"set": "1898",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Battlecry:</b> <b>Discover</b> a location from the FUTURE!"
+	},
+	{
+		"name": "Outskirts of Lordaeron",
+		"set": "1898",
+		"cost": 3,
+		"health": 2,
+		"text": "Choose a minion. \nDestroy all minions with less Attack than it."
+	},
+	{
+		"name": "Wind Rider Roost",
+		"set": "1898",
+		"cost": 3,
+		"health": 2,
+		"text": "Summon a random\n3-Cost minion.\nGive it <b>Charge</b>."
+	},
+	{
+		"name": "Xenedar",
+		"set": "1898",
+		"cost": 3,
+		"health": 2,
+		"text": "Your next <b>Battlecry</b> this turn triggers twice."
+	},
+	{
+		"name": "The Nighthold",
+		"set": "1898",
+		"cost": 3,
+		"health": 2,
+		"text": "Cast three random Paladin <b>Secrets</b>."
+	},
+	{
+		"name": "Valdrakken",
+		"set": "1898",
+		"cost": 3,
+		"health": 2,
+		"text": "Get two random Dragons with +2/+2."
+	},
+	{
+		"name": "Ruins of Korune",
+		"set": "1898",
+		"cost": 3,
+		"health": 2,
+		"text": "Draw 2 cards.\nSwap their Costs."
+	},
+	{
+		"name": "Temple of Earth",
+		"set": "1898",
+		"cost": 3,
+		"health": 2,
+		"text": "[x]Choose a friendly minion.\nSummon a copy of it with\n+3 Health and <b>Taunt</b>\nthat can't attack."
+	},
+	{
+		"name": "Museum Curator",
+		"set": "1898",
+		"cost": 2,
+		"attack": 1,
+		"health": 2,
+		"text": "<b>Battlecry: Discover</b> a <b>Deathrattle</b> card.\nIt costs (1) less."
+	},
+	{
+		"name": "Onyx Bishop",
+		"set": "1898",
+		"cost": 4,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Summon a random friendly minion\nthat died this game."
+	},
+	{
+		"name": "Spawn of Shadows",
+		"set": "1898",
+		"cost": 5,
+		"attack": 5,
+		"health": 5,
+		"text": "<b>Battlecry and Inspire:</b>\nDeal 4 damage to\neach hero."
+	},
+	{
+		"name": "Shadowfiend",
+		"set": "1898",
+		"cost": 2,
+		"attack": 2,
+		"health": 3,
+		"text": "Whenever you draw a card, reduce its Cost by (1)."
+	},
+	{
+		"name": "Shadowbomber",
+		"set": "1898",
+		"cost": 1,
+		"attack": 3,
+		"health": 1,
+		"text": "<b>Battlecry:</b> Deal 3 damage to each hero."
+	},
+	{
+		"name": "Confessor Paletress",
+		"set": "1898",
+		"cost": 7,
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Battlecry and Inspire:</b> Summon a random <b>Legendary</b> minion."
+	},
+	{
+		"name": "Shadow Word: Forbid",
+		"set": "1898",
+		"cost": 2,
+		"text": "<b>Tradeable</b>\nDestroy a 4-Attack minion. <b>Corrupt:</b> Destroy ALL 4-Attack minions."
+	},
+	{
+		"name": "Shadow Word: Forbid",
+		"set": "1898",
+		"cost": 2,
+		"text": "<b>Tradeable</b>\n<b>Corrupted</b>. Destroy ALL 4-Attack minions."
+	},
+	{
+		"name": "Ship's Chirurgeon",
+		"set": "1898",
+		"cost": 1,
+		"attack": 1,
+		"health": 2,
+		"text": "After you summon a minion, give it +1 Health."
+	},
+	{
+		"name": "Murozond, Thief of Time",
+		"set": "1898",
+		"cost": 7,
+		"attack": 6,
+		"health": 6,
+		"text": "[x]<b>Battlecry:</b> If your deck has no\nduplicates, <b>Discover</b> a Dragon.\nDeal damage equal to its Cost\nto all other minions."
+	},
+	{
+		"name": "Jade Swarmer",
+		"set": "1898",
+		"cost": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Stealth</b>\n<b>Deathrattle:</b> Summon a{1} {0} <b>Jade Golem</b>."
+	},
+	{
+		"name": "Jade Shuriken",
+		"set": "1898",
+		"cost": 2,
+		"text": "Deal $3 damage.\n<b>Combo:</b> Summon a{1} {0} <b>Jade Golem</b>."
+	},
+	{
+		"name": "Burgle",
+		"set": "1898",
+		"cost": 3,
+		"text": "Get 3 random\ncards <i>(from your\nopponent's class)</i>."
+	},
+	{
+		"name": "Dark Iron Skulker",
+		"set": "1898",
+		"cost": 4,
+		"attack": 4,
+		"health": 3,
+		"text": "<b>Battlecry:</b> Deal 2 damage to all undamaged\nenemy minions."
+	},
+	{
+		"name": "Blade of C'Thun",
+		"set": "1898",
+		"cost": 6,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Destroy a minion. Add its Attack and Health to your C'Thun's <i>(wherever it is).</i>"
+	},
+	{
+		"name": "Anub'arak",
+		"set": "1898",
+		"cost": 8,
+		"attack": 8,
+		"health": 4,
+		"text": "<b>Deathrattle:</b> Summon a 4/4 Nerubian with \"<b>Deathrattle:</b> \nSummon Anub'arak.\""
+	},
+	{
+		"name": "Mount Hyjal Imposter",
+		"set": "1898",
+		"cost": 4,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]Each turn this is in your\nhand, transform it into a\nrandom 4-Cost minion\nthat gains <b>Stealth</b>."
+	},
+	{
+		"name": "Jade Telegram",
+		"set": "1898",
+		"cost": 3,
+		"text": "[x]Look at 3 cards in your\nopponent's hand and shuffle\none of them into their deck.\nSummon a{1} {0} <b>Jade Golem</b>."
+	},
+	{
+		"name": "The Scarab Lord",
+		"set": "1898",
+		"cost": 4,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Battlecry:</b> Summon a 0/2 Gong for your opponent.\n<b>Combo:</b> Gain <b>Rush</b>."
+	},
+	{
+		"name": "Scarab Gong",
+		"set": "1898",
+		"cost": 4,
+		"attack": 0,
+		"health": 2,
+		"text": "After this takes damage, fill your opponent's board with 1/1 Scarabs."
+	},
+	{
+		"name": "Scarab",
+		"set": "1898",
+		"cost": 1,
+		"attack": 1,
+		"health": 1
+	},
+	{
+		"name": "Tuskarr Totemic",
+		"set": "1898",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Summon a random basic Totem."
+	},
+	{
+		"name": "Jade Lightning",
+		"set": "1898",
+		"cost": 3,
+		"text": "Deal $3 damage. Summon a{1} {0} <b>Jade Golem</b>."
+	},
+	{
+		"name": "Wicked Witchdoctor",
+		"set": "1898",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "Whenever you cast a spell, summon a random basic Totem."
+	},
+	{
+		"name": "Jade Chieftain",
+		"set": "1898",
+		"cost": 6,
+		"attack": 5,
+		"health": 5,
+		"text": "<b>Battlecry:</b> Summon a{1} {0} <b>Jade Golem</b>. Give it <b>Taunt</b>."
+	},
+	{
+		"name": "Thunder Bluff Valiant",
+		"set": "1898",
+		"cost": 5,
+		"attack": 3,
+		"health": 6,
+		"text": "<b>Battlecry and Inspire:</b>\nGive your Totems\n+2 Attack."
+	},
+	{
+		"name": "Call in the Finishers",
+		"set": "1898",
+		"cost": 3,
+		"text": "Summon four\n1/1 Murlocs."
+	},
+	{
+		"name": "Pebbly Page",
+		"set": "1898",
+		"cost": 2,
+		"attack": 2,
+		"health": 1,
+		"text": "[x]<b>Battlecry:</b> Draw an\n<b>Overload</b> card. You can't\nbe <b>Overloaded</b> this turn."
+	},
+	{
+		"name": "Totally Totems",
+		"set": "1898",
+		"cost": 4,
+		"text": "Summon all FIVE<i>?!</i> basic Totems.\n<b>Overload:</b> (1)"
+	},
+	{
+		"name": "Al'Akir, the Winds of Time",
+		"set": "1898",
+		"cost": 7,
+		"health": 30,
+		"text": "[x]<b>Battlecry:</b> Draw a <b>Charge</b>,\n<b>Divine Shield</b>, <b>Taunt</b>, and\n<b>Windfury</b> minion."
+	},
+	{
+		"name": "SWAT, INSECTS!",
+		"set": "1898",
+		"cost": 2,
+		"text": "[x]Give your hero\n<b>Divine Shield</b>. They gain\n+$a2 Attack and <b>Windfury</b>\nthis turn."
+	},
+	{
+		"name": "Demonfuse",
+		"set": "1898",
+		"cost": 2,
+		"text": "Give a Demon +3/+3."
+	},
+	{
+		"name": "Darkbomb",
+		"set": "1898",
+		"cost": 2,
+		"text": "Deal $3 damage to a character. If it dies, draw a Shadow spell."
+	},
+	{
+		"name": "Dark Peddler",
+		"set": "1898",
+		"cost": 2,
+		"attack": 2,
+		"health": 3,
+		"text": "<b>Battlecry: Discover</b> a\n1-Cost card."
+	},
+	{
+		"name": "Spreading Madness",
+		"set": "1898",
+		"cost": 3,
+		"text": "Deal $13 damage randomly split among ALL characters."
+	},
+	{
+		"name": "Silverware Golem",
+		"set": "1898",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "If you discard this minion, summon it."
+	},
+	{
+		"name": "Tiny Knight of Evil",
+		"set": "1898",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "Whenever you discard a card, gain +2/+2."
+	},
+	{
+		"name": "Dark Bargain",
+		"set": "1898",
+		"cost": 3,
+		"text": "Destroy 2 random enemy minions. Discard 2 random cards."
+	},
+	{
+		"name": "Chamber of Viscidus",
+		"set": "1898",
+		"cost": 2,
+		"health": 3,
+		"text": "[x]Look at 3 cards in your\nhand and choose one to\ndiscard. Draw two cards."
+	},
+	{
+		"name": "Witch of the Arch-Thief",
+		"set": "1898",
+		"cost": 4,
+		"attack": 2,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> Summon a\n1/3 Voidwalker with <b>Taunt</b>.\nIf your opponent has more\nminions, repeat."
+	},
+	{
+		"name": "Cho'gall",
+		"set": "1898",
+		"cost": 8,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]<b>Battlecry:</b> Return all cards\nyou discarded this game to\nyour hand. They cost Health\ninstead of Mana."
+	},
+	{
+		"name": "Rusty Hook",
+		"set": "1898",
+		"cost": 1,
+		"attack": 1
+	},
+	{
+		"name": "Grimy Gadgeteer",
+		"set": "1898",
+		"cost": 3,
+		"attack": 4,
+		"health": 3,
+		"text": "At the end of your turn, give a random minion in your hand +2/+2."
+	},
+	{
+		"name": "Stolen Goods",
+		"set": "1898",
+		"cost": 2,
+		"text": "Draw a <b>Taunt</b> minion.\nGive it +2/+2."
+	},
+	{
+		"name": "Ancient Shieldbearer",
+		"set": "1898",
+		"cost": 6,
+		"attack": 6,
+		"health": 6,
+		"text": "<b>Battlecry:</b> If your C'Thun has at least 10 Attack, gain 10 Armor."
+	},
+	{
+		"name": "Iron Juggernaut",
+		"set": "1898",
+		"cost": 6,
+		"attack": 6,
+		"health": 5,
+		"text": "[x]<b>Battlecry and Deathrattle:</b>\nShuffle a Mine into your\nopponent's deck. When drawn,\nexplode for 10 damage!"
+	},
+	{
+		"name": "Blast from the Past",
+		"set": "1898",
+		"cost": 3,
+		"text": "Get 2 <b>Spare Parts</b>. Summon two 1/1 Boom Bots. Shuffle a Bomb into your opponent's deck."
+	},
+	{
+		"name": "Ivory Rook",
+		"set": "1898",
+		"cost": 4,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Battlecry:</b> <b>Discover</b> a <b>Taunt</b> minion. Gain Armor equal to its Cost."
+	},
+	{
+		"name": "Hobart Grapplehammer",
+		"set": "1898",
+		"cost": 4,
+		"attack": 2,
+		"health": 2,
+		"text": "[x]<b>Battlecry:</b> If you have a\nweapon equipped, give\nall minions in your hand\nand deck +2/+2."
+	},
+	{
+		"name": "Jade Spirit",
+		"set": "1898",
+		"cost": 4,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Battlecry:</b> Summon a{1} {0} <b>Jade Golem</b>."
+	},
+	{
+		"name": "Twilight Geomancer",
+		"set": "1898",
+		"cost": 2,
+		"attack": 1,
+		"health": 4,
+		"text": "<b>Taunt</b>\n<b>Battlecry:</b> Give your\nC'Thun +1/+1 and <b>Taunt</b> <i>(wherever it is)</i>."
+	},
+	{
+		"name": "C'Thun's Chosen",
+		"set": "1898",
+		"cost": 4,
+		"attack": 4,
+		"health": 2,
+		"text": "[x]<b>Divine Shield</b>\n<b>Battlecry:</b> Give your C'Thun\n+3/+3 <i>(wherever it is).</i>"
+	},
+	{
+		"name": "Disciple of C'Thun",
+		"set": "1898",
+		"cost": 3,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Deal 2 damage. Give your C'Thun +2/+2 <i>(wherever it is)</i>."
+	},
+	{
+		"name": "Sludge Belcher",
+		"set": "1898",
+		"cost": 5,
+		"attack": 3,
+		"health": 6,
+		"text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Summon a\n1/2 Slime with <b>Taunt</b>."
+	},
+	{
+		"name": "Kabal Courier",
+		"set": "1898",
+		"cost": 2,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Battlecry:</b> <b>Discover</b>\na Mage, Priest, or\nWarlock card."
+	},
+	{
+		"name": "Crazed Worshipper",
+		"set": "1898",
+		"cost": 4,
+		"attack": 3,
+		"health": 6,
+		"text": "[x]<b>Taunt</b>\nWhenever this minion takes\ndamage, give your C'Thun\n+1/+1 <i>(wherever it is).</i>"
+	},
+	{
+		"name": "Emperor Thaurissan",
+		"set": "1898",
+		"cost": 5,
+		"attack": 4,
+		"health": 4,
+		"text": "At the end of your turn, reduce the Cost of cards\nin your hand by (1)."
+	},
+	{
+		"name": "Twin Emperor Vek'lor",
+		"set": "1898",
+		"cost": 7,
+		"attack": 6,
+		"health": 7,
+		"text": "[x]<b><b>Taunt</b>\nBattlecry:</b> If your C'Thun has\nat least 10 Attack, summon\nanother Emperor."
+	},
+	{
+		"name": "Twin Emperor Vek'nilash",
+		"set": "1898",
+		"cost": 7,
+		"attack": 6,
+		"health": 7,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"name": "C'Thun",
+		"set": "1898",
+		"cost": 8,
+		"attack": 6,
+		"health": 6,
+		"text": "<b>Battlecry:</b> Deal damage\nequal to this minion's\nAttack randomly split among all enemies."
+	},
+	{
+		"name": "Aya Blackpaw",
+		"set": "1898",
+		"cost": 6,
+		"attack": 6,
+		"health": 3,
+		"text": "<b>Battlecry and Deathrattle:</b> Summon a{1} {0} <b>Jade Golem</b>."
+	},
+	{
+		"name": "Don Han'Cho",
+		"set": "1898",
+		"cost": 5,
+		"attack": 5,
+		"health": 5,
+		"text": "<b>Battlecry:</b> Give a\nrandom minion in your hand +5/+5."
+	},
+	{
+		"name": "Shark Puncher",
+		"set": "1898",
+		"cost": 2,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Give a random friendly Pirate +2/+2."
+	},
+	{
+		"name": "Timeline Accelerator",
+		"set": "1898",
+		"cost": 3,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Draw a Mech.\nIt costs (2) less."
+	},
+	{
+		"name": "Future Emissary",
+		"set": "1898",
+		"cost": 4,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> Reduce the Cost\nof all Dragons in your hand\n by (1). Give them +1/+1."
+	},
+	{
+		"name": "Menagerie Mug",
+		"set": "1898",
+		"cost": 3,
+		"attack": 2,
+		"health": 2,
+		"text": "[x]<b>Battlecry:</b> Give 3 random\nfriendly minions of different\nminion types +1/+1."
+	},
+	{
+		"name": "Menagerie Jug",
+		"set": "1898",
+		"cost": 5,
+		"attack": 3,
+		"health": 3,
+		"text": "[x]<b>Battlecry:</b> Give 3 random\nfriendly minions of different\nminion types +2/+2."
+	},
+	{
+		"name": "Infinite Amalgam",
+		"set": "1898",
+		"cost": 4,
+		"attack": 2,
+		"health": 4,
+		"text": "[x]<b>Inspire, Frenzy, <b>Spellburst</b>,\nHonorable Kill, and Overkill:</b>\nSummon a random\n1-Cost minion."
+	},
+	{
+		"name": "Eyestalk of C'Thun",
+		"set": "1898",
+		"cost": 4,
+		"attack": 1,
+		"health": 1,
+		"text": "[x]<b>Taunt</b>, <b>Lifesteal</b>\nWhenever your C'Thun gains\nAttack or Health, this does\ntoo <i>(wherever it is)</i>."
+	},
+	{
+		"name": "Soridormi",
+		"set": "1898",
+		"cost": 5,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]<b>Dormant</b> for 2 turns.\nWhen this awakens, reduce\nthe Cost of all Dragons\nin your hand by (4)."
+	},
+	{
+		"name": "Putrid Slime",
+		"set": "1898",
+		"cost": 1,
+		"attack": 1,
+		"health": 2,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"name": "Might of Khaz'goroth",
+		"set": "Battlegrounds",
+		"text": "[x]At the end of your turn,\nset your left and right-\nmost minions' Attack to\nthe higher of the two."
+	},
+	{
+		"name": "Nguyen's Shifting Disks",
+		"set": "Battlegrounds",
+		"text": "All heroes are\nMaster Nguyen."
+	},
+	{
+		"name": "Nerubian",
+		"set": "1898",
+		"cost": 4,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Deathrattle:</b> Summon Anub'arak."
+	},
+	{
+		"name": "Uncompensated Upset",
+		"set": "Battlegrounds",
+		"text": "[x]Start at 1 Gold. Minions\ncost (1) but sell for (0).\nUpgrading the Tavern\ncosts (2) less."
+	},
+	{
+		"name": "Oops, All EVIL!",
+		"set": "Battlegrounds",
+		"text": "Only evil {0} are in the Tavern."
+	},
+	{
+		"name": "Mannoroth",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 1,
+		"health": 10,
+		"text": "<b>Venomous.</b> After this kills a minion and survives, gain its maximum stats. <i>(Once per combat.)</i>"
+	},
+	{
+		"name": "Mannoroth",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 2,
+		"health": 20,
+		"text": "<b>Venomous.</b> After this kills a minion and survives, gain its maximum stats. <i>(Twice per combat.)</i>"
+	},
+	{
+		"name": "Blood of Sargeras",
+		"set": "Battlegrounds",
+		"text": "[x]At the start of your\nturn, set your hero's\nHealth to 12."
+	},
+	{
+		"name": "King of Beasts",
+		"set": "1898",
+		"cost": 3,
+		"attack": 1,
+		"health": 5,
+		"text": "[x]<b>Taunt</b>\nHas +1 Attack for each\nother Beast you control."
+	},
+	{
+		"name": "Transient Treasures",
+		"set": "Battlegrounds",
+		"text": "At the start of your turn, choose from 2 new Quest Rewards."
+	},
+	{
+		"name": "Big League",
+		"set": "Battlegrounds",
+		"text": "Only Tavern Tiers\n3, 4, 5, and 6 exist."
+	},
+	{
+		"name": "Oops, All Beasts!",
+		"set": "Battlegrounds",
+		"text": "Only Beasts are in\nthe Tavern."
+	},
+	{
+		"name": "Virmen Sensei",
+		"set": "1898",
+		"cost": 4,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Give a friendly Beast +3/+3."
+	},
+	{
+		"name": "Rejuvenate",
+		"set": "1898",
+		"cost": 2,
+		"text": "Gain an empty\nMana Crystal."
+	},
+	{
+		"name": "Enliven",
+		"set": "1898",
+		"cost": 2,
+		"text": "Draw a card."
+	},
+	{
+		"name": "King Varian",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 9,
+		"health": 9,
+		"text": "When you sell this, <b>Discover</b> two\nTier 6 minions."
+	},
+	{
+		"name": "King Varian",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 18,
+		"health": 18,
+		"text": "When you sell this, <b>Discover</b> four\nTier 6 minions."
+	},
+	{
+		"name": "Papa Bear",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 12,
+		"health": 12,
+		"text": "<b>Deathrattle:</b> Summon\n3 Mama Bears."
+	},
+	{
+		"name": "Papa Bear",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 24,
+		"health": 24,
+		"text": "<b>Deathrattle:</b> Summon\n3 Golden Mama Bears."
+	},
+	{
+		"name": "Tide Oracle Morgl",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 1,
+		"health": 10,
+		"text": "[x]<b><b>Poisonous</b>.</b> When this\nattacks and kills a minion,\ngive its maximum stats to a\nminion in your hand."
+	},
+	{
+		"name": "Tide Oracle Morgl",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 2,
+		"health": 20,
+		"text": "[x]<b><b>Poisonous</b>.</b> When this attacks\nand kills a minion, give\ndouble its maximum stats\n to a minion in your hand."
+	},
+	{
+		"name": "Sea Witch Zar'jira",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 4,
+		"health": 5,
+		"text": "[x]<b>Spellcraft:</b> Choose a\ndifferent minion in the\n Tavern to get a copy of."
+	},
+	{
+		"name": "Siren's Song",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"text": "Choose a minion in the Tavern to get a copy of\n<i>(except Sea Witch Zar'jira).</i>"
+	},
+	{
+		"name": "Sea Witch Zar'jira",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 8,
+		"health": 10,
+		"text": "[x]<b>Spellcraft:</b> Choose a\ndifferent minion in the\n Tavern to get 2 copies of."
+	},
+	{
+		"name": "Siren's Song",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"text": "[x]Choose a minion in the\nTavern to get 2 copies of\n<i>(except Sea Witch Zar'jira).</i>"
+	},
+	{
+		"name": "Secrets of Norgannon",
+		"set": "Battlegrounds",
+		"text": "Tavern Tier 7 exists.\nStart with 10 extra Armor."
+	},
+	{
+		"name": "Tavern Tier 7",
+		"set": "Battlegrounds",
+		"cost": 10,
+		"text": "The Tavern offers higher Tier minions."
+	},
+	{
+		"name": "Mire Keeper",
+		"set": "1898",
+		"cost": 4,
+		"attack": 3,
+		"health": 4,
+		"text": "[x]<b>Choose One -</b> Summon a\n2/2 Slime; or Gain an\nempty Mana Crystal."
+	},
+	{
+		"name": "Denathrius' Anima Reserves",
+		"set": "Battlegrounds",
+		"text": "All heroes are\nSire Denathrius."
+	},
+	{
+		"name": "Opening the Dark Portal",
+		"set": "1898",
+		"cost": 4,
+		"text": "<b>Casts When Drawn</b>\nGet two random <b>Legendary</b> minions."
+	},
+	{
+		"name": "Battle for Mount Hyjal",
+		"set": "1898",
+		"cost": 4,
+		"text": "<b>Casts When Drawn</b>\nGive your minions +2/+2."
+	},
+	{
+		"name": "Escape from Durnholde",
+		"set": "1898",
+		"cost": 4,
+		"text": "<b>Casts When Drawn</b>\nGet two random spells."
+	},
+	{
+		"name": "Culling of Stratholme",
+		"set": "1898",
+		"cost": 4,
+		"text": "<b>Casts When Drawn</b>\nDeal $2 damage to\nall enemies."
+	},
+	{
+		"name": "Jade Behemoth",
+		"set": "1898",
+		"cost": 5,
+		"attack": 3,
+		"health": 6,
+		"text": "[x]<b>Taunt</b>\n<b>Battlecry:</b> Summon a{1}\n{0} <b>Jade Golem</b>."
+	},
+	{
+		"name": "Dark Arakkoa",
+		"set": "1898",
+		"cost": 6,
+		"attack": 5,
+		"health": 7,
+		"text": "[x]<b>Taunt</b>\n<b>Battlecry:</b> Give your C'Thun\n+4/+4 <i>(wherever it is).</i>"
+	},
+	{
+		"name": "Menagerie Warden",
+		"set": "1898",
+		"cost": 5,
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Choose a friendly Beast. Summon a copy of it."
+	},
+	{
+		"name": "Cobra Shot",
+		"set": "1898",
+		"cost": 4,
+		"text": "Deal $3 damage to\na minion and the\nenemy hero."
+	},
+	{
+		"name": "Shaky Zipgunner",
+		"set": "1898",
+		"cost": 3,
+		"attack": 4,
+		"health": 3,
+		"text": "[x]<b>Deathrattle:</b> Give a random\nminion in your hand +2/+2."
+	},
+	{
+		"name": "Kabal Crystal Runner",
+		"set": "1898",
+		"cost": 6,
+		"attack": 6,
+		"health": 5,
+		"text": "Costs (2) less for each <b>Secret</b> you've played this game."
+	},
+	{
+		"name": "Oops, All Demons!",
+		"set": "Battlegrounds",
+		"text": "Only Demons are in\nthe Tavern."
+	},
+	{
+		"name": "Oops, All Dragons!",
+		"set": "Battlegrounds",
+		"text": "Only Dragons are in\nthe Tavern."
+	},
+	{
+		"name": "Oops, All Elementals!",
+		"set": "Battlegrounds",
+		"text": "Only Elementals are in\nthe Tavern."
+	},
+	{
+		"name": "Oops, All Mechs!",
+		"set": "Battlegrounds",
+		"text": "Only Mechs are in\nthe Tavern."
+	},
+	{
+		"name": "Oops, All Murlocs!",
+		"set": "Battlegrounds",
+		"text": "Only Murlocs are in\nthe Tavern."
+	},
+	{
+		"name": "Oops, All Naga!",
+		"set": "Battlegrounds",
+		"text": "Only Naga are in\nthe Tavern."
+	},
+	{
+		"name": "Oops, All Quilboar!",
+		"set": "Battlegrounds",
+		"text": "Only Quilboar are in\nthe Tavern."
+	},
+	{
+		"name": "Oops, All Undead!",
+		"set": "Battlegrounds",
+		"text": "Only Undead are in\nthe Tavern."
+	},
+	{
+		"name": "Silvermoon Portal",
+		"set": "1898",
+		"cost": 3,
+		"text": "Give a minion +2/+2. Summon a random\n2-Cost minion."
+	},
+	{
+		"name": "Steward of Darkshire",
+		"set": "1898",
+		"cost": 3,
+		"attack": 4,
+		"health": 3,
+		"text": "Whenever you summon a 1-Health minion, give it <b>Divine Shield</b>."
+	},
+	{
+		"name": "Keeper of Uldaman",
+		"set": "1898",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Set a minion's Attack and Health to 3."
+	},
+	{
+		"name": "Wickerflame Burnbristle",
+		"set": "1898",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Taunt</b>\n<b>Divine Shield</b>\n<b>Lifesteal</b>"
+	},
+	{
+		"name": "Hooded Acolyte",
+		"set": "1898",
+		"cost": 4,
+		"attack": 3,
+		"health": 6,
+		"text": "[x]<b>Taunt</b>\nWhenever a character is\nhealed, give your C'Thun\n+1/+1 <i>(wherever it is).</i>"
+	},
+	{
+		"name": "Shrinkmeister",
+		"set": "1898",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Give a minion -3 Attack this turn."
+	},
+	{
+		"name": "Darkshire Alchemist",
+		"set": "1898",
+		"cost": 5,
+		"attack": 5,
+		"health": 5,
+		"text": "<b>Battlecry:</b> Restore\n#5 Health."
+	},
+	{
+		"name": "Shado-Pan Rider",
+		"set": "1898",
+		"cost": 5,
+		"attack": 3,
+		"health": 7,
+		"text": "<b>Combo:</b> Gain +4 Attack."
+	},
+	{
+		"name": "Undercity Huckster",
+		"set": "1898",
+		"cost": 2,
+		"attack": 2,
+		"health": 3,
+		"text": "<b>Deathrattle:</b> Get a\nrandom card <i>(from your\nopponent's class)</i>."
+	},
+	{
+		"name": "Poisoned Blade",
+		"set": "1898",
+		"cost": 2,
+		"attack": 1,
+		"text": "Your Hero Power gives this +1 Attack instead\nof replacing it."
+	},
+	{
+		"name": "Healing Wave",
+		"set": "1898",
+		"cost": 3,
+		"text": "Restore #8 Health. Reveal a minion in each deck. If yours costs more, restore #16 instead."
+	},
+	{
+		"name": "Charged Hammer",
+		"set": "1898",
+		"cost": 3,
+		"attack": 2,
+		"text": "<b>Deathrattle:</b> Your Hero Power becomes 'Deal 2 damage.'"
+	},
+	{
+		"name": "Usher of Souls",
+		"set": "1898",
+		"cost": 4,
+		"attack": 3,
+		"health": 5,
+		"text": "Whenever a minion dies, give your C'Thun +1/+1\n<i>(wherever it is).</i>"
+	},
+	{
+		"name": "Bane of Doom",
+		"set": "1898",
+		"cost": 5,
+		"text": "Deal $3 damage to a character. If that kills it, summon a random Demon."
+	},
+	{
+		"name": "Krul the Unshackled",
+		"set": "1898",
+		"cost": 9,
+		"attack": 9,
+		"health": 9,
+		"text": "[x]<b>Battlecry:</b> If your deck has\nno duplicates, summon all\n Demons from your hand."
+	},
+	{
+		"name": "Bouncing Blade",
+		"set": "1898",
+		"cost": 2,
+		"text": "Deal $1 damage to a random minion. Repeat until a minion dies."
+	},
+	{
+		"name": "Brass Knuckles",
+		"set": "1898",
+		"cost": 3,
+		"attack": 2,
+		"text": "[x]After your hero attacks,\ngive a random minion in\nyour hand +1/+1."
+	},
+	{
+		"name": "Mukla's Champion",
+		"set": "1898",
+		"cost": 5,
+		"attack": 5,
+		"health": 3,
+		"text": "<b>Inspire:</b> Give your other minions +1/+1."
+	},
+	{
+		"name": "Blackwing Corruptor",
+		"set": "1898",
+		"cost": 5,
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Battlecry:</b> If you're holding a Dragon, deal 5 damage."
+	},
+	{
+		"name": "Cult Apothecary",
+		"set": "1898",
+		"cost": 4,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Battlecry:</b> For each enemy minion, restore #2 Health to your hero."
+	},
+	{
+		"name": "Grimestreet Informant",
+		"set": "1898",
+		"cost": 2,
+		"attack": 2,
+		"health": 2,
+		"text": "[x]<b>Battlecry:</b> <b>Discover</b>\na Hunter, Paladin, or\nWarrior card."
+	},
+	{
+		"name": "Lotus Agents",
+		"set": "1898",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Battlecry:</b> <b>Discover</b>\na Druid, Rogue, or\nShaman card."
+	},
+	{
+		"name": "A Light in the Darkness",
+		"set": "1898",
+		"cost": 2,
+		"text": "<b>Discover</b> a Paladin minion. Give it +2/+2."
+	},
+	{
+		"name": "Mysterious Challenger",
+		"set": "1898",
+		"cost": 5,
+		"attack": 5,
+		"health": 5,
+		"text": "<b>Battlecry:</b> Put one of each <b>Secret</b> from your deck into the battlefield."
+	},
+	{
+		"name": "Reincarnate",
+		"set": "1898",
+		"cost": 1,
+		"text": "Destroy a minion,\nthen return it to life with full Health."
+	},
+	{
+		"name": "Hallazeal the Ascended",
+		"set": "1898",
+		"cost": 5,
+		"attack": 4,
+		"health": 6,
+		"text": "<b>Spell Damage +1</b>\nYour spells have <b>Lifesteal</b>."
+	},
+	{
+		"name": "Ironforge Portal",
+		"set": "1898",
+		"cost": 4,
+		"text": "Gain 4 Armor.\nSummon a random\n4-Cost minion."
+	},
+	{
+		"name": "Axe Flinger",
+		"set": "1898",
+		"cost": 4,
+		"attack": 2,
+		"health": 6,
+		"text": "Whenever this minion takes damage, deal 2 damage to the enemy hero."
+	},
+	{
+		"name": "Alley Armorsmith",
+		"set": "1898",
+		"cost": 5,
+		"attack": 3,
+		"health": 7,
+		"text": "[x]<b>Taunt</b>\nWhenever this minion\ndeals damage, gain\nthat much Armor."
+	},
+	{
+		"name": "Oops, All Pirates!",
+		"set": "Battlegrounds",
+		"text": "[x]Only Pirates are in the\nTavern. 'Cap'n Hoggarr'\nis in the minion pool."
+	},
+	{
+		"name": "Faceless Manipulator",
+		"set": "Legacy",
+		"cost": 5,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Battlecry:</b> Choose a minion and become a copy of it."
+	},
+	{
+		"name": "Faceless Manipulator",
+		"set": "Legacy",
+		"cost": 5,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Battlecry:</b> Choose a minion and become a copy of it."
+	},
+	{
+		"name": "Thorim, Stormlord",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Inge, the Iron Hymn",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Moira Bronzebeard",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 3,
+		"health": 9,
+		"text": "Your <b>Battlecries</b> and <b>Deathrattles</b> trigger twice."
+	},
+	{
+		"name": "Moira Bronzebeard",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 6,
+		"health": 18,
+		"text": "Your <b>Battlecries</b> and <b>Deathrattles</b> trigger\nthree times."
+	},
+	{
+		"name": "Devourer of Souls",
+		"set": "Return_of_the_lich_king",
+		"cost": 1,
+		"attack": 1,
+		"health": 3,
+		"text": "After a friendly minion dies, gain its <b>Deathrattle</b>."
+	},
+	{
+		"name": "Time Saver",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 3,
+		"health": 5,
+		"text": "[x]If you have any unspent Gold\nat the end of your turn,\n this sells for 2 more Gold."
+	},
+	{
+		"name": "Time Saver",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 6,
+		"health": 10,
+		"text": "[x]If you have any unspent Gold\nat the end of your turn,\n this sells for 4 more Gold."
+	},
+	{
+		"name": "Bring in the Buddies",
+		"set": "Battlegrounds",
+		"text": "[x]Buddies are\nin the Tavern."
+	},
+	{
+		"name": "Niuzao",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 7,
+		"health": 6,
+		"text": "Whenever this attacks, deal damage equal to its Attack to another random enemy minion."
+	},
+	{
+		"name": "Niuzao",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 14,
+		"health": 12,
+		"text": "Whenever this attacks, deal damage equal to its Attack to another random enemy minion twice."
+	},
+	{
+		"name": "Fortitude of Khaz'goroth",
+		"set": "Battlegrounds",
+		"text": "[x]At the end of your turn,\nset your left and right-\nmost minions' Health to\nthe higher of the two."
+	},
+	{
+		"name": "Iron Groundskeeper",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 5,
+		"health": 6,
+		"text": "<b>Battlecry:</b> Give a minion <b>Taunt</b>. If it already has it, remove its <b>Taunt</b>."
+	},
+	{
+		"name": "Iron Groundskeeper",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 10,
+		"health": 12,
+		"text": "<b>Battlecry:</b> Give a minion <b>Taunt</b>. If it already has it, remove its <b>Taunt</b>."
+	},
+	{
+		"name": "Living Constellation",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 4,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Give a minion +1/+1 for each type\nyou control."
+	},
+	{
+		"name": "Living Constellation",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 8,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Give a minion +2/+2 for each type\nyou control."
+	},
+	{
+		"name": "Oozeling Gladiator",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 1,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Get two Slimy Shields that give\n+1/+1 and <b><b>Taunt</b>.</b>"
+	},
+	{
+		"name": "Oozeling Gladiator",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 2,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Get four Slimy Shields that give\n+1/+1 and <b><b>Taunt</b>.</b>"
+	},
+	{
+		"name": "Surf n' Surf",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 1,
+		"health": 1,
+		"text": "[x]<b>Spellcraft:</b> Give a minion\n\"<b>Deathrattle:</b> Summon a\n 2/2 Crab\"until next turn."
+	},
+	{
+		"name": "Surf n' Surf",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 2,
+		"health": 2,
+		"text": "[x]<b>Spellcraft:</b> Give a minion\n\"<b>Deathrattle:</b> Summon a\n 4/4 Crab\"until next turn."
+	},
+	{
+		"name": "Withered Spearhide",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 2,
+		"health": 2,
+		"text": "[x]<b>Reborn</b>\n<b>Deathrattle:</b> Get a\n<b>Blood Gem</b>."
+	},
+	{
+		"name": "Withered Spearhide",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Reborn</b>\n<b>Deathrattle:</b> Get 2\n<b>Blood Gems</b>."
+	},
+	{
+		"name": "Mechanized Gift Horse",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Deathrattle:</b> Summon two\n2/2 Mechorses with\n\"<b>Deathrattle:</b> Summon a\n1/1 Mechapony.\""
+	},
+	{
+		"name": "Mechanized Gift Horse",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]<b>Deathrattle:</b> Summon two\n4/4 Mechorses with\n\"<b>Deathrattle:</b> Summon a\n2/2 Mechapony.\""
+	},
+	{
+		"name": "Peckish Feldrake",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 0,
+		"health": 1,
+		"text": "<b>Battlecry:</b> Consume 3 minions in the Tavern to gain their stats."
+	},
+	{
+		"name": "Peckish Feldrake",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 0,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Consume 6 minions in the Tavern to gain their stats."
+	},
+	{
+		"name": "Relentless Mur'ghoul",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Venomous</b>\n<b>Avenge (4):</b> Gain <b>Reborn</b>."
+	},
+	{
+		"name": "Relentless Mur'ghoul",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 10,
+		"health": 8,
+		"text": "<b>Venomous</b>\n<b>Avenge (4):</b> Gain <b>Reborn</b>."
+	},
+	{
+		"name": "Dreadbeard",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]At the end of your turn,\ndeal 1 damage to your hero\nand get a Gold Coin."
+	},
+	{
+		"name": "Dreadbeard",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]At the end of your turn,\ndeal 1 damage to your hero\nand get two Gold Coins."
+	},
+	{
+		"name": "Seaborn Summoner",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 2,
+		"health": 4,
+		"text": "[x]<b>Spellcraft:</b> Choose a\nminion. Add a minion of\nits type to the Tavern."
+	},
+	{
+		"name": "Seaborn Summoner",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 4,
+		"health": 8,
+		"text": "[x]<b>Spellcraft:</b> Choose a\nminion. Add two minions\n of its type to the Tavern."
+	},
+	{
+		"name": "Transmuted Bramblewitch",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]When this attacks, set\nthe defender's stats to\n 3/3. <i>(Once per combat.)</i>"
+	},
+	{
+		"name": "Transmuted Bramblewitch",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]When this attacks, set\nthe defender's stats to\n 3/3. <i>(Twice per combat.)</i>"
+	},
+	{
+		"name": "Free-Flying Feathermane",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 5,
+		"health": 5,
+		"text": "After a friendly Beast dies,\nsummon this from your hand\nfor this combat only."
+	},
+	{
+		"name": "Free-Flying Feathermane",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 10,
+		"health": 10,
+		"text": "After a friendly Beast dies,\nsummon this from your hand\nfor this combat only."
+	},
+	{
+		"name": "Champion of Sargeras",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 10,
+		"health": 10,
+		"text": "Minions in the Tavern have +10/+10."
+	},
+	{
+		"name": "Champion of Sargeras",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 20,
+		"health": 20,
+		"text": "Minions in the Tavern have +20/+20."
+	},
+	{
+		"name": "Obsidian Ravager",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]Whenever this attacks,\ndeal damage equal to its\nAttack to the target and\nan adjacent minion."
+	},
+	{
+		"name": "Obsidian Ravager",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]Whenever this attacks,\ndeal damage equal to its\nAttack to the target\nand its neighbors."
+	},
+	{
+		"name": "Emergent Flame",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 5,
+		"health": 3,
+		"text": "[x]<b>Battlecry:</b> Give an Elemental\n+1/+1. <i>(Improved by\n each <b>Refresh</b> this turn!)</i>"
+	},
+	{
+		"name": "Emergent Flame",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 10,
+		"health": 6,
+		"text": "[x]<b>Battlecry:</b> Give an Elemental\n+2/+2. <i>(Improved by\n each <b>Refresh</b> this turn!)</i>"
+	},
+	{
+		"name": "Spark-ling",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 5,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Give all other minions +1/+1."
+	},
+	{
+		"name": "Spark-ling",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 10,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Give all other minions +2/+2."
+	},
+	{
+		"name": "Bejeweled Duelist",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Taunt</b>\nWhenever you <b>Refresh</b>, gain +1 Health."
+	},
+	{
+		"name": "Bejeweled Duelist",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 6,
+		"health": 8,
+		"text": "<b>Taunt</b>\nWhenever you <b>Refresh</b>, gain +2 Health."
+	},
+	{
+		"name": "The Boommobile",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 12,
+		"health": 12,
+		"text": "[x]<b>Magnetic</b>\n <b>Reborn</b>, <b>Divine Shield</b>,\n<b>Taunt</b>, <b>Windfury</b>"
+	},
+	{
+		"name": "The Boommobile",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"attack": 24,
+		"health": 24,
+		"text": "[x]<b>Magnetic</b>\n <b>Reborn</b>, <b>Divine Shield</b>,\n<b>Taunt</b>, <b>Windfury</b>"
+	},
+	{
+		"name": "Adaptable Barricade",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 12,
+		"health": 1,
+		"text": "[x]<b><b>Taunt</b>.</b> Whenever this is\nattacked, it shifts its stats\nto survive with 1 Health\n<i>(if possible).</i>"
+	},
+	{
+		"name": "Adaptable Barricade",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 24,
+		"health": 2,
+		"text": "[x]<b><b>Taunt</b>.</b> Whenever this is\nattacked, it shifts its stats\nto survive with 1 Health\n<i>(if possible).</i>"
+	},
+	{
+		"name": "Murcules",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 5,
+		"health": 2,
+		"text": "Whenever this kills a minion, give a minion in your hand +2/+2."
+	},
+	{
+		"name": "Murcules",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 10,
+		"health": 4,
+		"text": "Whenever this kills a minion, give a minion in your hand +4/+4."
+	},
+	{
+		"name": "Daggerspine Thrasher",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 3,
+		"health": 5,
+		"text": "[x]Whenever you cast a spell,\ngain <b>Divine Shield</b>,\n<b>Windfury</b>, or <b>Venomous</b>\nuntil next turn."
+	},
+	{
+		"name": "Daggerspine Thrasher",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 6,
+		"health": 10,
+		"text": "[x]Whenever you cast a spell,\ngain <b>Divine Shield</b>,\n<b>Windfury</b>, or <b>Venomous</b>."
+	},
+	{
+		"name": "The Glad-iator",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Divine Shield</b>\nWhenever you cast a spell, gain +1 Attack."
+	},
+	{
+		"name": "The Glad-iator",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Divine Shield</b>\nWhenever you cast a spell, gain +2 Attack."
+	},
+	{
+		"name": "Briarback Bookie",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 3,
+		"health": 4,
+		"text": "[x]If you have any unspent\nGold at the end of your\n turn, get 2 <b>Blood Gems</b>."
+	},
+	{
+		"name": "Briarback Bookie",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 6,
+		"health": 8,
+		"text": "[x]If you have any unspent\nGold at the end of your\n turn, get 4 <b>Blood Gems</b>."
+	},
+	{
+		"name": "Champion of the Primus",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 1,
+		"health": 8,
+		"text": "[x]<b>Avenge (2):</b> Your Undead\nhave +1 Attack for the\nrest of the game\n<i>(wherever they are)</i>."
+	},
+	{
+		"name": "Champion of the Primus",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 2,
+		"health": 16,
+		"text": "[x]<b>Avenge (2):</b> Your Undead\nhave +2 Attack for the\nrest of the game\n<i>(wherever they are)</i>."
+	},
+	{
+		"name": "Sore Loser",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 1,
+		"health": 4,
+		"text": "[x]Your Undead have extra\nAttack equal to your Tier."
+	},
+	{
+		"name": "Sore Loser",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 2,
+		"health": 8,
+		"text": "[x]Your Undead have extra\nAttack equal to\ndouble your Tier."
+	},
+	{
+		"name": "Philosopher Holmes",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Bookie Barov",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Spectator A. F. Kay",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Gladi-o-Mechano",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Challenger Drek'thar",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Gladiator Saurfang",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Ini Stormsuit",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Naval Battle Ozumat",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Scalper Tickatus",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Sideshow Deryl",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Sneed, Chariot Racer",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Hydra Shudderwock",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Val'kyr Varden",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Chariot Driver Denathrius",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Yogg-Saron, Imprisoned",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Gorgon Vashj",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Emperor Thorim",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Custodian Mutanus",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Noble Faelin",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Ferryman Teron",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Liontamer Brann",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Announcer Gimblo",
+		"set": "Battlegrounds",
+		"health": 60
+	},
+	{
+		"name": "Choose Your Champion",
+		"set": "Battlegrounds",
+		"text": "[x]<b>Passive.</b> At the start of the\ngame, <b>Discover</b> a Tier 7\nminion to get after you\n spend 65 Gold. <i>(65 left!)</i>"
+	},
+	{
+		"name": "Timeline Acceleration",
+		"set": "Battlegrounds",
+		"text": "[x]At the start of your turn,\nget two Accelerators that\ntransform a minion into\none from a Tier higher."
+	},
+	{
+		"name": "Annoy-o-Troupe",
+		"set": "Battle_of_the_bands",
+		"cost": 9,
+		"attack": 3,
+		"health": 6,
+		"text": "[x]<b>Taunt</b>, <b>Divine Shield</b>\n<b>Deathrattle:</b> Summon three\n1/2 Mechs with <b>Taunt</b>\nand <b>Divine Shield</b>."
+	},
+	{
+		"name": "Annoy-o-Troupe",
+		"set": "Battle_of_the_bands",
+		"cost": 9,
+		"attack": 6,
+		"health": 12,
+		"text": "[x]<b>Taunt</b>, <b>Divine Shield</b>\n<b>Deathrattle:</b> Summon three\n2/4 Mechs with <b>Taunt</b>\nand <b>Divine Shield</b>."
+	},
+	{
+		"name": "Glaive Ricochet",
+		"set": "Battlegrounds",
+		"text": "[x]<b>Passive.</b> Once per turn,\nafter you buy 3 minions,\nget a plain copy of one\nof them. <i>(3 left!)</i>"
+	},
+	{
+		"name": "Gladiator Mograine",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Arena-Champion Rokara",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Trapper Maiev",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Omen, Chained",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Thorim",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Totemic Call",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nSummon a random Totem."
+	},
+	{
+		"name": "Totemic Slam",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nSummon a Totem of your choice."
+	},
+	{
+		"name": "Amalgam of the Deep",
+		"set": "The_sunken_city",
+		"cost": 2,
+		"attack": 2,
+		"health": 3,
+		"text": "[x]<b>Battlecry:</b> Choose a friendly\nminion. <b>Discover</b> a minion\nof the same minion type."
+	},
+	{
+		"name": "Amalgam of the Deep",
+		"set": "The_sunken_city",
+		"cost": 2,
+		"attack": 4,
+		"health": 6,
+		"text": "[x]<b>Battlecry:</b> Choose a friendly\nminion. <b>Discover</b> 2 minions\nof the same minion type."
+	},
+	{
+		"name": "Floating Watcher",
+		"set": "Gvg",
+		"cost": 5,
+		"attack": 4,
+		"health": 4,
+		"text": "Whenever your hero takes damage on your turn, gain +2/+2."
+	},
+	{
+		"name": "Yogg-Saron, Hope's End",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Nefarian",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Queen Wagtoggle",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Lord Jaraxxus",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Trade Prince Gallywix",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Ragnaros the Firelord",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Sindragosa",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "The Lich King",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Tomb Pillager",
+		"set": "1898",
+		"cost": 4,
+		"attack": 6,
+		"health": 4,
+		"text": "<b>Deathrattle:</b> Get a Coin."
+	},
+	{
+		"name": "Flame Lance",
+		"set": "1898",
+		"cost": 5,
+		"text": "Deal $25 damage\nto a minion."
+	},
+	{
+		"name": "Convert",
+		"set": "1898",
+		"cost": 3,
+		"text": "Put a copy of an enemy minion into your hand. It costs (1)."
+	},
+	{
+		"name": "Put on Bottom!",
+		"set": "Titans",
+		"cost": 0,
+		"text": "Put <b>{0}</b> on the bottom of the opponent's deck."
+	},
+	{
+		"name": "Spellslinger",
+		"set": "1898",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Both players\nget a random spell.\nYours costs (2) less."
+	},
+	{
+		"name": "Valstann Staghelm",
+		"set": "1898",
+		"cost": 6,
+		"attack": 3,
+		"health": 6,
+		"text": "[x]<b>Deathrattle:</b> Summon\na <b>Taunt</b> minion from\nyour deck."
+	},
+	{
+		"name": "Invent-o-matic",
+		"set": "Titans",
+		"cost": 2,
+		"attack": 2,
+		"health": 3,
+		"text": "Whenever you <b>Magnetize</b>\na minion, give it +1/+1."
+	},
+	{
+		"name": "Invent-o-matic",
+		"set": "Titans",
+		"cost": 2,
+		"attack": 4,
+		"health": 6,
+		"text": "Whenever you <b>Magnetize</b>\na minion, give it +2/+2."
+	},
+	{
+		"name": "Slimy Shield",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"text": "Give a minion +1/+1 and <b>Taunt</b>."
+	},
+	{
+		"name": "Psych-o-Tron",
+		"set": "Og",
+		"cost": 5,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Taunt</b>\n<b>Divine Shield</b>"
+	},
+	{
+		"name": "Psych-o-Tron",
+		"set": "Og",
+		"cost": 5,
+		"attack": 6,
+		"health": 8,
+		"text": "<b>Taunt</b>\n<b>Divine Shield</b>"
+	},
+	{
+		"name": "Smuggler's Crate",
+		"set": "1898",
+		"cost": 0,
+		"text": "Give a random Beast in your hand +2/+2."
+	},
+	{
+		"name": "Sea Summoning",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"text": "Choose a minion.\nAdd a minion of its type to the Tavern."
+	},
+	{
+		"name": "Sea Summoning",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"text": "Choose a minion.\nAdd two minions of its type to the Tavern."
+	},
+	{
+		"name": "Crab Mount",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"text": "[x]Give a minion\n\"<b>Deathrattle:</b> Summon a\n2/2 Crab\" until next turn."
+	},
+	{
+		"name": "Crab Mount",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"text": "[x]Give a minion\n\"<b>Deathrattle:</b> Summon a\n4/4 Crab\" until next turn."
+	},
+	{
+		"name": "Crab",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 2,
+		"health": 2
+	},
+	{
+		"name": "Crab",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 4,
+		"health": 4
+	},
+	{
+		"name": "Mechorse",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Summon a 1/1 Mechapony."
+	},
+	{
+		"name": "Mechapony",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 1,
+		"health": 1
+	},
+	{
+		"name": "Mechorse",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Deathrattle:</b> Summon a 2/2 Mechapony."
+	},
+	{
+		"name": "Mechapony",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 2,
+		"health": 2
+	},
+	{
+		"name": "Caverns Of Time",
+		"set": "Tb",
+		"cost": 0
+	},
+	{
+		"name": "Trapper Maiev",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Arena-Champion Rokara",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Voltaic Burst",
+		"set": "Old_core_230",
+		"cost": 1,
+		"text": "Summon two 1/1 Sparks with <b>Rush</b>. <b>Overload:</b> (1)"
+	},
+	{
+		"name": "Umbral Owl",
+		"set": "Old_core_230",
+		"cost": 7,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Rush</b>\nCosts (1) less for each spell\nyou've cast this game."
+	},
+	{
+		"name": "I Know a Guy",
+		"set": "1898",
+		"cost": 1,
+		"text": "<b>Discover</b> a <b>Taunt</b> minion. Give it +1/+2."
+	},
+	{
+		"name": "Small-Time Buccaneer",
+		"set": "1898",
+		"cost": 1,
+		"attack": 1,
+		"health": 2,
+		"text": "Has +2 Attack while you have a weapon equipped."
+	},
+	{
+		"name": "Transient Treasures Activation [DNT]",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"text": "Trigger Transient Treasures - Choose from 2 Quest Rewards. [DNT]"
+	},
+	{
+		"name": "Acolyte of Pain",
+		"set": "1898",
+		"cost": 3,
+		"attack": 1,
+		"health": 4,
+		"text": "Whenever this minion takes damage, draw a card."
+	},
+	{
+		"name": "Street Trickster",
+		"set": "1898",
+		"cost": 3,
+		"attack": 0,
+		"health": 7,
+		"text": "<b>Spell Damage +2</b>"
+	},
+	{
+		"name": "Worgen Greaser",
+		"set": "1898",
+		"cost": 4,
+		"attack": 6,
+		"health": 5
 	}
 ]
