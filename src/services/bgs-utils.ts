@@ -76,6 +76,16 @@ export const NON_BUYABLE_MINION_IDS = [
 	CardIds.Manasaber_CublingToken_BG26_800_Gt,
 	CardIds.TentacleOfOctosariToken_BG26_803t,
 	CardIds.TentacleOfOctosariToken_BG26_803_Gt,
+	//27.2
+	CardIds.OozelingGladiator_SlimyShieldToken_BG27_002t,
+	CardIds.SurfNSurf_CrabMountToken_BG27_004t,
+	CardIds.SurfNSurf_CrabMountToken_BG27_004_Gt,
+	CardIds.SurfNSurf_CrabToken_BG27_004t2,
+	CardIds.SurfNSurf_CrabToken_BG27_004_Gt2,
+	CardIds.MechanizedGiftHorse_MechorseToken_BG27_008_Gt,
+	CardIds.MechanizedGiftHorse_MechaponyToken_BG27_008t2,
+	CardIds.MechanizedGiftHorse_MechorseToken_BG27_008_Gt,
+	CardIds.MechanizedGiftHorse_MechaponyToken_BG27_008_Gt2,
 ];
 
 export const NON_DISCOVERABLE_BUDDIES = [
@@ -486,6 +496,8 @@ export const getHeroPower = (
 			return CardIds.CapnHoggarr_ImTheCapnNow;
 		case CardIds.Diablo:
 			return CardIds.Diablo_RealmOfTerror;
+		case CardIds.ThorimStormlord_BG27_HERO_801:
+			return CardIds.ThorimStormlord_ChooseYourChampion_BG27_HERO_801p2;
 
 		case '':
 			return null; // new heroes
