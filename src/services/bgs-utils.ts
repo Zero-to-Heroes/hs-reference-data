@@ -86,6 +86,13 @@ export const NON_BUYABLE_MINION_IDS = [
 	CardIds.MechanizedGiftHorse_MechaponyToken_BG27_008t2,
 	CardIds.MechanizedGiftHorse_MechorseToken_BG27_008_Gt,
 	CardIds.MechanizedGiftHorse_MechaponyToken_BG27_008_Gt2,
+	CardIds.TavernTier2,
+	CardIds.TavernTier3,
+	CardIds.TavernTier4,
+	CardIds.TavernTier5,
+	CardIds.TavernTier6,
+	CardIds.TavernTier7_TB_BaconShopTechUp07_Button,
+	CardIds.TombPillager_WON_340,
 ];
 
 export const NON_DISCOVERABLE_BUDDIES = [
