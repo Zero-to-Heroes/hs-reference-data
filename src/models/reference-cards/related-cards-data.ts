@@ -2683,4 +2683,33 @@ export const RELATED_CARDS_DATA: {
 		CardIds.WisdomOfFreya_WisdomOfFreyaToken_TTN_060t13t1,
 	],
 	[CardIds.CorpseBride]: [CardIds.BoneguardCommander_RisenGroomToken],
+	[CardIds.RatSensei_WON_013]: [
+		CardIds.RatSensei_MonkTurtleToken_WON_013t,
+		CardIds.RatSensei_MonkTurtleToken_WON_013t2,
+		CardIds.RatSensei_MonkTurtleToken_WON_013t3,
+		CardIds.RatSensei_MonkTurtleToken_WON_013t4,
+	],
+	[CardIds.ChromieTimehopper_WON_041]: [
+		CardIds.ChromieTimehopper_OpeningTheDarkPortalToken_WON_041t,
+		CardIds.ChromieTimehopper_BattleForMountHyjalToken_WON_041t2,
+		CardIds.ChromieTimehopper_CullingOfStratholmeToken_WON_041t4,
+		CardIds.ChromieTimehopper_EscapeFromDurnholdeToken_WON_041t3,
+	],
+	[CardIds.RuniTimeExplorer_WON_053]: [
+		CardIds.RuniTimeExplorer_OutskirtsOfLordaeronToken_WON_053t,
+		CardIds.RuniTimeExplorer_WindRiderRoostToken_WON_053t2,
+		CardIds.RuniTimeExplorer_XenedarToken_WON_053t3,
+		CardIds.RuniTimeExplorer_TheNightholdToken_WON_053t4,
+		CardIds.RuniTimeExplorer_ValdrakkenToken_WON_053t5,
+		CardIds.RuniTimeExplorer_RuinsOfKoruneToken_WON_053t6,
+		CardIds.RuniTimeExplorer_TempleOfEarthToken_WON_053t7,
+	],
+	[CardIds.TheScarabLord_WON_079]: [
+		CardIds.TheScarabLord_ScarabGongToken_WON_079t,
+		CardIds.TheScarabLord_ScarabToken_WON_079t2,
+	],
+	[CardIds.TheScarabLord_ScarabGongToken_WON_079t]: [CardIds.TheScarabLord_ScarabToken_WON_079t2],
+	[CardIds.TotallyTotems_WON_091]: [...TOTEMS, CardIds.WrathOfAirTotem],
+	[CardIds.AlakirTheWindsOfTime_WON_092h]: [CardIds.SwatInsects_WON_092p],
+	[CardIds.WitchOfTheArchThief_WON_104]: [CardIds.VoidwalkerLegacy_CS2_065],
 };
