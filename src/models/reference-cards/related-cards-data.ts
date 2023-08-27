@@ -2712,4 +2712,5 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.TotallyTotems_WON_091]: [...TOTEMS, CardIds.WrathOfAirTotem],
 	[CardIds.AlakirTheWindsOfTime_WON_092h]: [CardIds.SwatInsects_WON_092p],
 	[CardIds.WitchOfTheArchThief_WON_104]: [CardIds.VoidwalkerLegacy_CS2_065],
+	[CardIds.WickedWitchdoctor_WON_083]: TOTEMS,
 };
