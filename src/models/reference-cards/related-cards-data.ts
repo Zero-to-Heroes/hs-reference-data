@@ -121,6 +121,7 @@ const PLAGUES = [
 ];
 const SPARKBOTS = [
 	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t,
+	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t1,
 	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t2,
 	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t3,
 	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t4,

@@ -391,6 +391,7 @@ export const getBaseCardId = (cardId: string): string => {
 			return CardIds.Xb488Disposalbot;
 		// Bonus effect
 		case CardIds.FromTheScrapheap_SparkbotToken_TTN_719t:
+		case CardIds.FromTheScrapheap_SparkbotToken_TTN_719t1:
 		case CardIds.FromTheScrapheap_SparkbotToken_TTN_719t2:
 		case CardIds.FromTheScrapheap_SparkbotToken_TTN_719t3:
 		case CardIds.FromTheScrapheap_SparkbotToken_TTN_719t4:
