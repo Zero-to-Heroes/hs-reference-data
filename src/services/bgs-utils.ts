@@ -268,7 +268,7 @@ export const getReferenceTribeCardId = (tribe: string | Race): string => {
 			break;
 		case 'naga':
 		case Race.NAGA:
-			referenceCardId = CardIds.MiniMyrmidon_BG23_000;
+			referenceCardId = CardIds.ShellCollector_BG23_002;
 			break;
 		case 'quilboar':
 		case Race.QUILBOAR:
