@@ -93,6 +93,9 @@ export const NON_BUYABLE_MINION_IDS = [
 	CardIds.TavernTier6,
 	CardIds.TavernTier7_TB_BaconShopTechUp07_Button,
 	CardIds.TombPillager_WON_340,
+	// 27.2.2
+	CardIds.MechanizedGiftHorse_MechorseToken_BG27_008t,
+	CardIds.MechanizedGiftHorse_MechorseToken_BG27_008_Gt,
 ];
 
 export const NON_DISCOVERABLE_BUDDIES = [
