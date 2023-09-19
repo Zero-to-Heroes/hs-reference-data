@@ -2714,4 +2714,13 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.AlakirTheWindsOfTime_WON_092h]: [CardIds.SwatInsects_WON_092p],
 	[CardIds.WitchOfTheArchThief_WON_104]: [CardIds.VoidwalkerLegacy_CS2_065],
 	[CardIds.WickedWitchdoctor_WON_083]: TOTEMS,
+	[CardIds.ForbiddenFruit]: [CardIds.ForbiddenFruit_choice1, CardIds.ForbiddenFruit_choice2],
+	[CardIds.Aerosoilizer]: [CardIds.Aerosoilizer_TreantToken],
+	[CardIds.TwistedFrostwing]: [CardIds.TwistedFrostwing_ChimeraToken],
+	[CardIds.MuscleOTron]: [CardIds.MuscleOTron_MuscleOTronToken],
+	[CardIds.TentacleGrip]: [CardIds.ChaoticTendril],
+	[CardIds.InfestedWatcher]: [CardIds.ChaoticTendril],
+	[CardIds.TentacleTender]: [CardIds.ChaoticTendril],
+	[CardIds.Sanitize]: [CardIds.Sanitize_SanitizeToken],
+	[CardIds.EyeOfChaos]: [CardIds.ChaoticTendril],
 };

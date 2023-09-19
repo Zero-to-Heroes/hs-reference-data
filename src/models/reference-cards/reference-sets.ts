@@ -6,6 +6,11 @@ export interface ReferenceSet {
 
 export const sets: readonly ReferenceSet[] = [
 	{
+		id: 'ulduar',
+		name: `Fall of Ulduar`,
+		launchDate: new Date('2023-09-19'),
+	},
+	{
 		id: 'caverns_of_time',
 		name: `Caverns of Time`,
 		launchDate: new Date('2023-08-31'),
@@ -246,6 +251,7 @@ export const standardSets: readonly SetId[] = [
 	'battle_of_the_bands',
 	'audiopocalypse',
 	'titans',
+	'ulduar',
 ];
 export const twistSets: readonly SetId[] = [
 	'legacy',
@@ -262,15 +268,16 @@ export const twistSets: readonly SetId[] = [
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 export const arenaSets: readonly SetId[] = [
 	'core',
-	'uldum',
-	'black_temple',
+	'path_of_arthas',
+	'dalaran',
 	'darkmoon_faire',
 	'darkmoon_races',
-	'return_of_the_lich_king',
-	'path_of_arthas',
+	'the_barrens',
+	'wailing_caverns',
 	'battle_of_the_bands',
 	'audiopocalypse',
 	'titans',
+	'ulduar',
 ];
 export const wildSets: readonly SetId[] = sets.map((s) => s.id);
 export const duelsSets: readonly SetId[] = [
@@ -309,6 +316,10 @@ export const duelsSets: readonly SetId[] = [
 	'troll',
 	'titans',
 	'caverns_of_time',
+	'ulduar',
+	'dalaran',
+	'gangs',
+	'tgt',
 ];
 
 export const vanillaSets: readonly SetId[] = ['vanilla'];
