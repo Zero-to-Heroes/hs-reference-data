@@ -61,5 +61,4 @@ export enum CardSet {
 	PATH_OF_ARTHAS = 1869,
 	TITANS = 1858,
 	CAVERNS_OF_TIME = 1898,
-	ULDUAR = 1898,
 }
