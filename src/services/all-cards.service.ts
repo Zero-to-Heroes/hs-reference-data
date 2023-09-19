@@ -389,10 +389,10 @@ export const getBaseCardId = (cardId: string): string => {
 			return CardIds.WeightOfTheWorld;
 		case CardIds.Xb488Disposalbot_Xb488DisposalbotToken:
 			return CardIds.Xb488Disposalbot;
-		case CardIds.MuscleOTron_MuscleOTronToken:
-			return CardIds.MuscleOTron;
-		case CardIds.Sanitize_SanitizeToken:
-			return CardIds.Sanitize;
+		case CardIds.MuscleOTron_MuscleOTronToken_YOG_525t:
+			return CardIds.MuscleOTron_YOG_525;
+		case CardIds.Sanitize_SanitizeToken_YOG_502t:
+			return CardIds.Sanitize_YOG_502;
 		// Bonus effect
 		case CardIds.FromTheScrapheap_SparkbotToken_TTN_719t:
 		case CardIds.FromTheScrapheap_SparkbotToken_TTN_719t1:
