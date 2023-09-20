@@ -2726,4 +2726,9 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.TentacleTender_YOG_517]: [CardIds.ChaoticTendril_YOG_514],
 	[CardIds.Sanitize_YOG_502]: [CardIds.Sanitize_SanitizeToken_YOG_502t],
 	[CardIds.EyeOfChaos_YOG_515]: [CardIds.ChaoticTendril_YOG_514],
+	[CardIds.YoggSaronUnleashed_YOG_516]: [
+		CardIds.YoggSaronUnleashed_InduceInsanityToken_YOG_516t2,
+		CardIds.YoggSaronUnleashed_ReignOfChaosToken_YOG_516t,
+		CardIds.YoggSaronUnleashed_TentacleSwarmToken_YOG_516t3,
+	],
 };
