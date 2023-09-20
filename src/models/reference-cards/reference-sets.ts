@@ -320,6 +320,7 @@ export const duelsSets: readonly SetId[] = [
 	'dalaran',
 	'gangs',
 	'tgt',
+	'brm',
 ];
 
 export const vanillaSets: readonly SetId[] = ['vanilla'];
