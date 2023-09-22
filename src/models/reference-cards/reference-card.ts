@@ -32,12 +32,14 @@ export interface ReferenceCard {
 	readonly referencedTags?: string[];
 	readonly tags?: string[];
 	readonly rarity?: RarityTYpe;
+	readonly hasEliteFrame?: boolean;
 	readonly collectible?: boolean;
 	readonly race?: string;
 	readonly races?: readonly string[];
 	readonly techLevel?: number;
 	readonly durability?: number;
 	readonly armor?: number;
+	readonly hideStats?: boolean;
 
 	readonly battlegroundsHero?: boolean;
 	readonly battlegroundsHeroSkin?: boolean;
