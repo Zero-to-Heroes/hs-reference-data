@@ -2731,4 +2731,8 @@ export const RELATED_CARDS_DATA: {
 		CardIds.YoggSaronUnleashed_ReignOfChaosToken_YOG_516t,
 		CardIds.YoggSaronUnleashed_TentacleSwarmToken_YOG_516t3,
 	],
+	[CardIds.RuleModifier_ApproachingNightmareToken_TTN_002t14]: [CardIds.YoggSaronHopesEnd_OG_134],
+	[CardIds.RuleModifier_DrivenToGreedToken_TTN_002t20]: [CardIds.TheCoinCore],
+	[CardIds.RuleModifier_ShiftingFateToken_TTN_002t50]: [CardIds.GearShift],
+	[CardIds.RuleModifier_ShiftingFuturesToken_TTN_002t36]: [CardIds.ShifterZerus_OG_123],
 };
