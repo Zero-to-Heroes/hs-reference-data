@@ -2735,4 +2735,6 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.RuleModifier_DrivenToGreedToken_TTN_002t20]: [CardIds.TheCoinCore],
 	[CardIds.RuleModifier_ShiftingFateToken_TTN_002t50]: [CardIds.GearShift],
 	[CardIds.RuleModifier_ShiftingFuturesToken_TTN_002t36]: [CardIds.ShifterZerus_OG_123],
+	[CardIds.DrBoomsBoombox_LOOTA_838]: [CardIds.DrBoom_BoomBotToken],
+	[CardIds.DrBoomsBoombox_ONY_005tb12]: [CardIds.DrBoom_BoomBotToken],
 };
