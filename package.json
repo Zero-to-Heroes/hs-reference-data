@@ -1,14 +1,9 @@
 {
 	"name": "@firestone-hs/reference-data",
-	"version": "1.0.107",
+	"version": "1.0.109",
 	"description": "",
 	"scripts": {
-		"lint": "eslint --color --fix --ext .ts .",
-		"start": "webpack -w --color",
-		"test": "jest",
-		"build": "npm audit fix && webpack --env.buildEnv=prod --color",
-		"clean": "rm -rf -v dist/*",
-		"increment-version": "npm --no-git-tag-version version patch && git add . && git commit -m \"increment version\"",
+		"build": "rm -rf dist && tsc",
 		"publish-version": "rm -rf dist && tsc && rm -rf dist/node_modules && npm publish --access public"
 	},
 	"repository": {},
@@ -21,6 +16,7 @@
 		"dist/**/*"
 	],
 	"dependencies": {
+		"@firestone-hs/deckstrings": "^2.2.7",
 		"cross-fetch": "^3.0.4",
 		"rxjs": "~6.6.7",
 		"tslib": "^2.0.0",

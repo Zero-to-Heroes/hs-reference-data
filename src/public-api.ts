@@ -52,6 +52,7 @@ export * from './secondary-race-tags';
 export * from './services/all-cards.service';
 export * from './services/bgs-utils';
 export * from './services/collection-utils';
+export * from './services/deck-utils';
 export * from './services/duels-utils';
 export * from './services/hs-utils';
 export * from './services/mercs-utils';
