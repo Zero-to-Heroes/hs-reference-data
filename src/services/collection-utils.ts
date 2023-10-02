@@ -66,6 +66,8 @@ export const boosterIdToSetId = (boosterId: BoosterType): string => {
 		case BoosterType.TITANS:
 		case BoosterType.GOLDEN_TITANS:
 			return 'titans';
+		case BoosterType.CAVERNS_OF_TIME:
+			return 'caverns_of_time';
 		default:
 			// console.warn('unsupported booster type', boosterId);
 			return null;
@@ -132,6 +134,8 @@ export const getDefaultBoosterIdForSetId = (setId: string): BoosterType => {
 			return BoosterType.BATTLE_OF_THE_BANDS;
 		case 'titans':
 			return BoosterType.TITANS;
+		case 'caverns_of_time':
+			return BoosterType.CAVERNS_OF_TIME;
 		default:
 			console.warn('no default booster type for set id', setId);
 			return null;
