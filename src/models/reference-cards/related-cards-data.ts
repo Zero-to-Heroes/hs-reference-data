@@ -2730,6 +2730,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.YoggSaronUnleashed_InduceInsanityToken_YOG_516t2,
 		CardIds.YoggSaronUnleashed_ReignOfChaosToken_YOG_516t,
 		CardIds.YoggSaronUnleashed_TentacleSwarmToken_YOG_516t3,
+		CardIds.ChaoticTendril_YOG_514,
 	],
 	[CardIds.RuleModifier_ApproachingNightmareToken_TTN_002t14]: [CardIds.YoggSaronHopesEnd_OG_134],
 	[CardIds.RuleModifier_DrivenToGreedToken_TTN_002t20]: [CardIds.TheCoinCore],
@@ -2737,4 +2738,5 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.RuleModifier_ShiftingFuturesToken_TTN_002t36]: [CardIds.ShifterZerus_OG_123],
 	[CardIds.DrBoomsBoombox_LOOTA_838]: [CardIds.DrBoom_BoomBotToken],
 	[CardIds.DrBoomsBoombox_ONY_005tb12]: [CardIds.DrBoom_BoomBotToken],
+	[CardIds.TrialByFire]: [CardIds.TrialByFire_ValkyrChampionToken],
 };
