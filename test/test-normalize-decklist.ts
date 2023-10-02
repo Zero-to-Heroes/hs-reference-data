@@ -1,34 +1,67 @@
 import { DeckDefinition, encode } from '@firestone-hs/deckstrings';
-import { AllCardsService, normalizeDeckList } from '../src/public-api';
+import { AllCardsService, GameFormat, normalizeDeckList } from '../src/public-api';
 
-const test = async () => {
+const testWild = async () => {
 	const allCards = new AllCardsService();
 	await allCards.initializeCardsDb();
 	const original: DeckDefinition = {
 		heroes: [7],
-		format: 1,
+		format: GameFormat.FT_WILD,
 		cards: [
-			// Battlefiend
-			[58487, 2],
+			// Innervate core
+			[69550, 2],
 		],
 	};
 	const expected: DeckDefinition = {
 		heroes: [7],
-		format: 1,
+		format: GameFormat.FT_WILD,
 		cards: [
-			// Battlefiend core
-			[69586, 2],
+			// Innervate legacy
+			[254, 2],
 		],
 	};
 	const originalEncoded = encode(original);
 	const expectedEncoded = encode(expected);
 	const actual = normalizeDeckList(originalEncoded, allCards);
-	const isSame = JSON.stringify(actual) === JSON.stringify(expectedEncoded);
+	const isSame = actual === expectedEncoded;
 	console.log('isSame?', isSame);
 	if (!isSame) {
 		console.error('Expected', expectedEncoded);
 		console.error('Actual', actual);
+		throw new Error('Expected and actual are not the same');
 	}
 };
 
-test();
+const testStandard = async () => {
+	const allCards = new AllCardsService();
+	await allCards.initializeCardsDb();
+	const original: DeckDefinition = {
+		heroes: [7],
+		format: GameFormat.FT_STANDARD,
+		cards: [
+			// Innervate core
+			[69550, 2],
+		],
+	};
+	const expected: DeckDefinition = {
+		heroes: [7],
+		format: GameFormat.FT_STANDARD,
+		cards: [
+			// Innervate core (legacy is not in standard)
+			[69550, 2],
+		],
+	};
+	const originalEncoded = encode(original);
+	const expectedEncoded = encode(expected);
+	const actual = normalizeDeckList(originalEncoded, allCards);
+	const isSame = actual === expectedEncoded;
+	console.log('isSame?', isSame);
+	if (!isSame) {
+		console.error('Expected', expectedEncoded);
+		console.error('Actual', actual);
+		throw new Error('Expected and actual are not the same');
+	}
+};
+
+testWild();
+testStandard();
