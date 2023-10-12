@@ -2718,7 +2718,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.ForbiddenFruit_RejectTemptation_YOG_529b,
 		CardIds.ForbiddenFruit_SinfulSampling_YOG_529a,
 	],
-	[CardIds.Aerosoilizer_YOG_403]: [CardIds.DrumCircle_TreantToken],
+	[CardIds.Aerosoilizer_YOG_403]: [CardIds.ForestSeedlings_TreantToken],
 	[CardIds.TwistedFrostwing_YOG_506]: [CardIds.TwistedFrostwing_ChimaeraMatriarchToken_YOG_506t],
 	[CardIds.MuscleOTron_YOG_525]: [CardIds.MuscleOTron_MuscleOTronToken_YOG_525t],
 	[CardIds.TentacleGrip_YOG_526]: [CardIds.ChaoticTendril_YOG_514],
@@ -2739,4 +2739,6 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.DrBoomsBoombox_LOOTA_838]: [CardIds.DrBoom_BoomBotToken],
 	[CardIds.DrBoomsBoombox_ONY_005tb12]: [CardIds.DrBoom_BoomBotToken],
 	[CardIds.TrialByFire]: [CardIds.TrialByFire_ValkyrChampionToken],
+	[CardIds.LevelUp_LOOT_333]: [CardIds.SilverHandRecruitLegacyToken],
+	[CardIds.Promotion]: [CardIds.SilverHandRecruitLegacyToken],
 };
