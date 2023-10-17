@@ -2741,4 +2741,5 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.TrialByFire]: [CardIds.TrialByFire_ValkyrChampionToken],
 	[CardIds.LevelUp_LOOT_333]: [CardIds.SilverHandRecruitLegacyToken],
 	[CardIds.Promotion]: [CardIds.SilverHandRecruitLegacyToken],
+	[CardIds.RapidFire_DAL_373]: [CardIds.RapidFire_DAL_373ts],
 };
