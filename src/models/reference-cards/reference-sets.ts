@@ -6,6 +6,11 @@ export interface ReferenceSet {
 
 export const sets: readonly ReferenceSet[] = [
 	{
+		id: 'wild_west',
+		name: `Showdown in the Badlands`,
+		launchDate: new Date('2023-11-14'),
+	},
+	{
 		id: 'ulduar',
 		name: `Fall of Ulduar`,
 		launchDate: new Date('2023-09-19'),
@@ -252,6 +257,7 @@ export const standardSets: readonly SetId[] = [
 	'audiopocalypse',
 	'titans',
 	'ulduar',
+	'wild_west',
 ];
 export const twistSets: readonly SetId[] = [
 	'legacy',
@@ -278,6 +284,7 @@ export const arenaSets: readonly SetId[] = [
 	'audiopocalypse',
 	'titans',
 	'ulduar',
+	'wild_west',
 ];
 export const wildSets: readonly SetId[] = sets.map((s) => s.id);
 export const duelsSets: readonly SetId[] = [
