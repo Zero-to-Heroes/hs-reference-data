@@ -260,6 +260,7 @@ export const standardSets: readonly SetId[] = [
 	'wild_west',
 ];
 export const twistSets: readonly SetId[] = [
+	'caverns_of_time',
 	'legacy',
 	'naxx',
 	'gvg',
@@ -269,7 +270,7 @@ export const twistSets: readonly SetId[] = [
 	'og',
 	'kara',
 	'gangs',
-	'caverns_of_time',
+	'ungoro'
 ];
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 export const arenaSets: readonly SetId[] = [
