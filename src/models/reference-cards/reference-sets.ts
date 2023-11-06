@@ -1,5 +1,52 @@
+export type SetId =
+	| 'wild_west'
+	| 'ulduar'
+	| 'caverns_of_time'
+	| 'titans'
+	| 'audiopocalypse'
+	| 'battle_of_the_bands'
+	| 'return_to_naxxramas'
+	| 'path_of_arthas'
+	| 'return_of_the_lich_king'
+	| 'maw_and_disorder'
+	| 'revendreth'
+	| 'throne_of_tides'
+	| 'the_sunken_city'
+	| 'onyxias_lair'
+	| 'alterac_valley'
+	| 'deadmines'
+	| 'stormwind'
+	| 'wailing_caverns'
+	| 'the_barrens'
+	| 'darkmoon_races'
+	| 'darkmoon_faire'
+	| 'scholomance'
+	| 'black_temple'
+	| 'demon_hunter_initiate'
+	| 'yod'
+	| 'dragons'
+	| 'uldum'
+	| 'dalaran'
+	| 'troll'
+	| 'boomsday'
+	| 'gilneas'
+	| 'lootapalooza'
+	| 'icecrown'
+	| 'ungoro'
+	| 'gangs'
+	| 'kara'
+	| 'og'
+	| 'loe'
+	| 'tgt'
+	| 'brm'
+	| 'gvg'
+	| 'naxx'
+	| 'core'
+	| 'legacy'
+	| 'vanilla';
+
 export interface ReferenceSet {
-	readonly id: string;
+	readonly id: SetId;
 	readonly name: string;
 	readonly launchDate: Date;
 }
@@ -240,9 +287,7 @@ export const sets: readonly ReferenceSet[] = [
 		name: 'Legacy',
 		launchDate: new Date('2021-03-30'),
 	},
-];
-
-type SetId = typeof sets[number]['id'];
+] as const;
 
 export const standardSets: readonly SetId[] = [
 	'core',
@@ -270,22 +315,19 @@ export const twistSets: readonly SetId[] = [
 	'og',
 	'kara',
 	'gangs',
-	'ungoro'
+	'ungoro',
 ];
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 export const arenaSets: readonly SetId[] = [
 	'core',
-	'path_of_arthas',
-	'dalaran',
-	'darkmoon_faire',
-	'darkmoon_races',
-	'the_barrens',
-	'wailing_caverns',
-	'battle_of_the_bands',
-	'audiopocalypse',
+	'wild_west',
+	'caverns_of_time',
 	'titans',
 	'ulduar',
-	'wild_west',
+	'path_of_arthas',
+	'dragons',
+	'yod',
+	'uldum',
 ];
 export const wildSets: readonly SetId[] = sets.map((s) => s.id);
 export const duelsSets: readonly SetId[] = [
@@ -329,6 +371,9 @@ export const duelsSets: readonly SetId[] = [
 	'gangs',
 	'tgt',
 	'brm',
+	'dragons',
+	'yod',
+	'wild_west',
 ];
 
 export const vanillaSets: readonly SetId[] = ['vanilla'];
