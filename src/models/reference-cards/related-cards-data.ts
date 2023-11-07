@@ -129,6 +129,31 @@ const SPARKBOTS = [
 	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t6,
 	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t7,
 ];
+const EXCAVATE_TREASURES = [
+	// Level 1
+	CardIds.EscapingTrogg_,
+	CardIds.FoolsAzerite_,
+	CardIds.PouchOfCoins_,
+	CardIds.Rock_,
+	CardIds.WaterSource_,
+	// Level 2
+	CardIds.AzeriteChunk_,
+	CardIds.Canary_,
+	CardIds.FallingStalagtite_,
+	CardIds.GlowingGlyph_,
+	CardIds.LivingStone_,
+	// Level 3
+	CardIds.AzeriteGem_,
+	CardIds.Collapse_,
+	CardIds.MotherlodeDrake_,
+	CardIds.OgrefistBoulder_,
+	CardIds.SteelhideMole_,
+];
+const EXCAVATE_TREASURE_DK = [...EXCAVATE_TREASURES, CardIds.TheAzeriteRat_];
+const EXCAVATE_TREASURE_WARLOCK = [...EXCAVATE_TREASURES, CardIds.TheAzeriteSnake_];
+const EXCAVATE_TREASURE_MAGE = [...EXCAVATE_TREASURES, CardIds.TheAzeriteMage_];
+const EXCAVATE_TREASURE_ROGUE = [...EXCAVATE_TREASURES, CardIds.TheAzeriteScorpion_];
+const EXCAVATE_TREASURE_WARRIOR = [...EXCAVATE_TREASURES, CardIds.TheAzeriteOx_];
 
 export type RelatedCardExtractor = (cards: readonly ReferenceCard[]) => readonly string[];
 
@@ -2742,4 +2767,76 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.LevelUp_LOOT_333]: [CardIds.SilverHandRecruitLegacyToken],
 	[CardIds.Promotion]: [CardIds.SilverHandRecruitLegacyToken],
 	[CardIds.RapidFire_DAL_373]: [CardIds.RapidFire_DAL_373ts],
+	[CardIds.ReinforcedPlating_]: EXCAVATE_TREASURE_WARRIOR,
+	[CardIds.BlastCharge]: EXCAVATE_TREASURE_WARRIOR,
+	[CardIds.BoombossThogrun_]: [CardIds.BoombossThogrun_TNTToken],
+	[CardIds.TheBadlandsBandits_]: [
+		CardIds.TheBadlandsBandits_Crusty,
+		CardIds.TheBadlandsBandits_Rusty,
+		CardIds.TheBadlandsBandits_SandyRed,
+		CardIds.TheBadlandsBandits_Pearly,
+		CardIds.TheBadlandsBandits_Surly,
+		CardIds.TheBadlandsBandits_Dusty,
+		CardIds.TheBadlandsBandits_Moe,
+		CardIds.TheBadlandsBandits_Burly,
+	],
+	[CardIds.Showdown]: [CardIds.Showdown_OutlawToken],
+	[CardIds.SpiritOfTheBadlands]: [CardIds.SpiritOfTheBadlands_MirageToken],
+	[CardIds.BountyWrangler]: [CardIds.TheCoinCore],
+	[CardIds.WishingWell]: [CardIds.TheCoinCore],
+	[CardIds.DartThrow]: [CardIds.TheCoinCore],
+	[CardIds.Starshooter]: [CardIds.ArcaneShot],
+	[CardIds.CamouflageMount]: [
+		CardIds.CamouflageMount_ChamaleonToken1,
+		CardIds.CamouflageMount_ChamaleonToken2,
+		CardIds.CamouflageMount_ChamaleonToken3,
+		CardIds.CamouflageMount_ChamaleonToken4,
+		CardIds.CamouflageMount_ChamaleonToken5,
+		CardIds.CamouflageMount_ChamaleonToken6,
+		CardIds.CamouflageMount_ChamaleonToken7,
+		CardIds.CamouflageMount_ChamaleonToken8,
+	],
+	[CardIds.BloodrockCoShovel]: EXCAVATE_TREASURE_ROGUE,
+	[CardIds.DrillyTheKid]: EXCAVATE_TREASURE_ROGUE,
+	[CardIds.SnakeEyes]: [CardIds.SnakeEyes_RolledAOneToken],
+	[CardIds.SnakeEyes]: [CardIds.SnakeEyes_RolledATwoToken],
+	[CardIds.SnakeEyes]: [CardIds.SnakeEyes_RolledAThreeToken],
+	[CardIds.SnakeEyes]: [CardIds.SnakeEyes_RolledAFourToken],
+	[CardIds.SnakeEyes]: [CardIds.SnakeEyes_RolledAFiveToken],
+	[CardIds.SnakeEyes]: [CardIds.SnakeEyes_RolledASixToken],
+	[CardIds.Cryopreservation_]: EXCAVATE_TREASURE_MAGE,
+	[CardIds.Rheastrasza]: [CardIds.PurifiedDragonNest],
+	[CardIds.DisposalAssistant]: [CardIds.BarrelOfSludge],
+	[CardIds.SludgeOnWheels]: [CardIds.BarrelOfSludge],
+	[CardIds.PopgarThePutrid]: [CardIds.BarrelOfSludge],
+	[CardIds.TramMechanic]: [CardIds.BarrelOfSludge],
+	[CardIds.SneakySnakes]: [CardIds.SneakySnakes_SidewinderToken],
+	[CardIds.GiantTumbleweed]: [CardIds.GiantTumbleweed_TumbleweedToken],
+	[CardIds.TramConductorGerry]: [CardIds.TramConductorGerry_TramCarToken],
+	[CardIds.MoargDrillfist]: EXCAVATE_TREASURE_WARLOCK,
+	[CardIds.Smokestack]: EXCAVATE_TREASURE_WARLOCK,
+	[CardIds.DoctorHollidae]: [
+		CardIds.DoctorHollidae_StaffOfTheNineFrogsToken,
+		CardIds.DoctorHollidae_StaffOfTheNineFrogs_FrogToken,
+	],
+	[CardIds.DoctorHollidae_StaffOfTheNineFrogsToken]: [CardIds.DoctorHollidae_StaffOfTheNineFrogs_FrogToken],
+	[CardIds.SkeletonCrew]: EXCAVATE_TREASURE_DK,
+	[CardIds.CropRotation]: [CardIds.CropRotation_GnomeOnTheRangeToken],
+	[CardIds.HolySpringwater]: [CardIds.HolySpringwater_BottledSpringwater],
+	[CardIds.InvasiveShadeleaf]: [CardIds.InvasiveShadeleaf_BottledShadeleaf],
+	[CardIds.SwarmOfLightbugs_]: [
+		CardIds.SwarmOfLightbugs_BottledLightbugsToken,
+		CardIds.SwarmOfLightbugs_LightbugToken,
+	],
+	[CardIds.WhelpWrangler]: [CardIds.WhelpWrangler_WhelpToken],
+	[CardIds.GreedyPartner]: [CardIds.TheCoinCore],
+	[CardIds.MiracleSalesman]: [CardIds.MiracleSalesman_SnakeOilToken],
+	[CardIds.KingpinPud]: [CardIds.OgreGangOutlaw, CardIds.OgreGangRider, CardIds.OgreGangAce],
+	[CardIds.BurrowBuster]: EXCAVATE_TREASURES,
+	[CardIds.TrolleyProblem]: [CardIds.TramConductorGerry_TramCarToken],
+	[CardIds.SheriffBarrelbrim]: [CardIds.SheriffBarrelbrim_BadlandsJailToken],
+	[CardIds.ReapWhatYouSow]: EXCAVATE_TREASURE_DK,
+	[CardIds.LivingPrairies]: [CardIds.LivingPrairies_StartledCowToken],
+	[CardIds.KoboldMiner]: EXCAVATE_TREASURES,
+	[CardIds.BlastmageMiner]: EXCAVATE_TREASURE_MAGE,
 };
