@@ -1,208 +1,1894 @@
 [
 	{
-		"name": "Nether Portal",
-		"set": "Ungoro",
-		"cost": 11,
-		"attack": 0,
-		"health": 1,
-		"text": "At the end of your turn, summon two 3/2 Imps."
+		"name": "Deathcharger",
+		"set": "Naxx",
+		"cost": 1,
+		"attack": 2,
+		"health": 3,
+		"text": "<b>Charge. Deathrattle:</b> Deal 3 damage to your hero."
 	},
 	{
-		"name": "Amalgadon",
-		"set": "Battlegrounds",
+		"name": "Chadd Nervig",
+		"set": "Credits",
 		"cost": 7,
-		"attack": 6,
-		"health": 6,
-		"text": "[x]<b>Battlecry:</b> For each\ndifferent minion type you\n control, randomly <b>Adapt</b>."
-	},
-	{
-		"name": "Amalgadon",
-		"set": "Battlegrounds",
-		"cost": 7,
-		"attack": 12,
-		"health": 12,
-		"text": "[x]<b>Battlecry:</b> For each\ndifferent minion type you\ncontrol, randomly <b>Adapt</b>\ntwice."
-	},
-	{
-		"name": "Gentle Djinni",
-		"set": "Battlegrounds",
-		"cost": 6,
-		"attack": 4,
-		"health": 5,
-		"text": "[x]<b>Taunt</b>. <b>Deathrattle:</b>\nSummon and get\na random Elemental."
-	},
-	{
-		"name": "Gentle Djinni",
-		"set": "Battlegrounds",
-		"cost": 6,
-		"attack": 8,
-		"health": 10,
-		"text": "[x]<b>Taunt</b>. <b>Deathrattle:</b>\nSummon and get\n2 random Elementals."
-	},
-	{
-		"name": "No Guts, No Glory",
-		"set": "Tb",
-		"cost": 1,
-		"text": "[x]Deal 1 damage to a\nminion. If it survives, give\nit +2 Attack. If it dies,\ngain $d2 Armor."
-	},
-	{
-		"name": "Outlander",
-		"set": "Tb",
-		"cost": 1,
-		"text": "If you played an <b>Outcast</b> card this turn, [x]<b>Discover</b> a Fel Spell."
-	},
-	{
-		"name": "Mind Tether",
-		"set": "Tb",
-		"cost": 1,
-		"text": "<b>Passive.</b> After you cast a spell, deal 1 damage to the enemy hero."
-	},
-	{
-		"name": "Demon Blood",
-		"set": "Tb",
-		"cost": 1,
-		"text": "Give a random Demon in your hand +3/+2."
-	},
-	{
-		"name": "Vile Concoction",
-		"set": "Tb",
-		"cost": 2,
-		"text": "[x]Give a minion <b>Poisonous</b>.\n<b>Combo</b>: Add a Toxin\nto your hand."
-	},
-	{
-		"name": "Piloted Whirl-O-Tron",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"attack": 5,
-		"health": 4,
-		"text": "[x]<b>Start of Combat:</b> Copy all\nother friendly minions'\n<b>Deathrattles</b> <i>(except\n Piloted Whirl-O-Tron)</i>."
-	},
-	{
-		"name": "Piloted Whirl-O-Tron",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"attack": 10,
-		"health": 8,
-		"text": "[x]<b>Start of Combat:</b> Copy all\nother friendly minions'\n<b>Deathrattles</b> twice <i>(except\n Piloted Whirl-O-Tron)</i>."
-	},
-	{
-		"name": "The Jailer",
-		"set": "Maw_and_disorder",
-		"cost": 10,
-		"attack": 10,
-		"health": 10,
-		"text": "<b>Battlecry:</b> Destroy your deck. This minion\ngains <b>Immune</b>."
-	},
-	{
-		"name": "Dino Tracking",
-		"set": "Tb",
-		"cost": 2,
-		"text": "<b>Discover</b> a Beast from [x]your class. Give it +1/+1."
-	},
-	{
-		"name": "Rake",
-		"set": "Return_to_Naxxramas",
-		"cost": 2,
-		"text": "[x]Give your hero +2 Attack\nthis turn. Deal damage\nequal to your hero's\nAttack to a minion."
-	},
-	{
-		"name": "Tony, King of Piracy",
-		"set": "Battle_of_the_bands",
-		"cost": 7,
-		"attack": 4,
-		"health": 6,
-		"text": "<b>Battlecry:</b> Replace your deck with a copy of your opponent's.\n<b>Finale:</b> Draw a card."
-	},
-	{
-		"name": "Embrace of Nature",
-		"set": "Titans",
-		"cost": 2,
-		"text": "Draw a <b>Choose One</b>\ncard. <b>Forge:</b> It has both effects combined."
-	},
-	{
-		"name": "Embrace of Nature",
-		"set": "Titans",
-		"cost": 2,
-		"text": "[x]<b>Forged</b>\n Draw a <b>Choose One</b>\ncard. It has both\n effects combined."
-	},
-	{
-		"name": "Gusty Trumpeter",
-		"set": "Battlegrounds",
-		"cost": 5,
-		"attack": 6,
-		"health": 7,
-		"text": "After you sell 5 Elementals,\nget a random Elemental.\n<i>(5 left!)</i>"
-	},
-	{
-		"name": "Gusty Trumpeter",
-		"set": "Battlegrounds",
-		"cost": 5,
-		"attack": 12,
-		"health": 14,
-		"text": "After you sell 5 Elementals,\nget 2 random Elementals.\n<i>(5 left!)</i>"
-	},
-	{
-		"name": "Yogg-Saron, Unleashed",
-		"set": "Ulduar",
-		"cost": 9,
 		"attack": 7,
-		"health": 5,
-		"text": "[x]<b>Titan</b>\nAfter this uses an ability,\ncast two random spells."
+		"health": 7,
+		"text": "<b>Battlecry:</b> Give all minions, everywhere, <b>Purple +3</b>."
 	},
 	{
-		"name": "Prison Breaker",
-		"set": "Ulduar",
+		"name": "Joras Thuldoom",
+		"set": "Tb",
 		"cost": 4,
 		"attack": 4,
 		"health": 4,
-		"text": "[x]<b>Battlecry:</b> If you've cast 5\nor more spells this game,\ndeal 2 damage to all\nenemies."
+		"text": "<b>Rush</b> Whenever your Health changes on your turn, summon a copy of this minion."
 	},
 	{
-		"name": "Mannoroth",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 1,
-		"health": 10,
-		"text": "<b>Venomous.</b> After this kills a minion and survives, gain its maximum stats. <i>(Once per combat.)</i>"
+		"name": "Stitched Giant",
+		"set": "Core",
+		"cost": 9,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]Costs (1) less for each\n<b>Corpse</b> you've spent\nthis game."
 	},
 	{
-		"name": "Mannoroth",
-		"set": "Battlegrounds",
-		"cost": 0,
+		"name": "Sr. Navigator",
+		"set": "Tb",
+		"cost": 3,
 		"attack": 2,
-		"health": 20,
-		"text": "<b>Venomous.</b> After this kills a minion and survives, gain its maximum stats. <i>(Twice per combat.)</i>"
+		"health": 4,
+		"text": "After you target this minion with a spell that costs (2) or more, restore 3 health to another random friendly minion."
 	},
 	{
-		"name": "Relentless Mur'ghoul",
-		"set": "Battlegrounds",
+		"name": "Gunslinger Kurtrus",
+		"set": "Wild_west",
+		"cost": 5,
+		"attack": 4,
+		"health": 6,
+		"text": "[x]<b>Battlecry:</b> If your deck has\nno duplicates, fire 6 random\n2 damage shots at minions\nin the enemy's hand."
+	},
+	{
+		"name": "Horseshoe Slinger",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Deal 2 damage to a random enemy minion.\n<b>Quickdraw:</b> And one of its neighbors."
+	},
+	{
+		"name": "Greedy Partner",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 2,
+		"health": 3,
+		"text": "<b>Battlecry:</b> If you're holding another 2-Cost card,\nget a Coin."
+	},
+	{
+		"name": "Trapdoor Spider",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 1,
+		"health": 2,
+		"text": "[x]<b>Stealth</b>, <b>Poisonous</b>\nAfter your opponent plays\na minion, attack it."
+	},
+	{
+		"name": "Rock",
+		"set": "Wild_west",
+		"cost": 1,
+		"text": "Deal $3 damage."
+	},
+	{
+		"name": "Water Source",
+		"set": "Wild_west",
+		"cost": 1,
+		"text": "Restore #3 Health.\nDraw a card."
+	},
+	{
+		"name": "Fool's Azerite",
+		"set": "Wild_west",
+		"cost": 1,
+		"text": "<b>Discover</b> a 2-Cost card.\nIt costs (0)."
+	},
+	{
+		"name": "Escaping Trogg",
+		"set": "Wild_west",
+		"cost": 1,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Rush</b>"
+	},
+	{
+		"name": "Falling Stalactite",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Deal $3 damage\nto a minion and the\nenemy hero."
+	},
+	{
+		"name": "Living Stone",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 2,
+		"health": 4,
+		"text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Summon a\nrandom 2-Cost minion."
+	},
+	{
+		"name": "Canary",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 2,
+		"health": 1,
+		"text": "<b>Battlecry:</b> Return an\nenemy minion to its owner's hand."
+	},
+	{
+		"name": "Glowing Glyph",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Give a minion and its neighbors +1/+2."
+	},
+	{
+		"name": "Azerite Chunk",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "<b>Discover</b> a 3-Cost card.\nIt costs (0)."
+	},
+	{
+		"name": "Rowdy Partner",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 4,
+		"health": 3,
+		"text": "<b>Battlecry:</b> If you're holding another 4-Cost card,\ndeal 4 damage."
+	},
+	{
+		"name": "Ogrefist Boulder",
+		"set": "Wild_west",
+		"cost": 3,
+		"health": 2,
+		"text": "Set a minion's stats\nto 6/7."
+	},
+	{
+		"name": "Collapse!",
+		"set": "Wild_west",
+		"cost": 3,
+		"text": "Deal $3 damage\nto all enemies."
+	},
+	{
+		"name": "Steelhide Mole",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 2,
+		"health": 7,
+		"text": "[x]<b>Taunt</b>, <b>Reborn</b>\nCan't be targeted by\nspells or Hero Powers."
+	},
+	{
+		"name": "Azerite Gem",
+		"set": "Wild_west",
+		"cost": 3,
+		"text": "<b>Discover</b> a 5-Cost card.\nIt costs (0)."
+	},
+	{
+		"name": "Kobold Miner",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Battlecry:</b> <b>Excavate</b>\na treasure."
+	},
+	{
+		"name": "Burrow Buster",
+		"set": "Wild_west",
+		"cost": 5,
+		"attack": 6,
+		"health": 4,
+		"text": "<b>Rush</b>\n<b>Battlecry:</b> <b>Excavate</b>\na treasure."
+	},
+	{
+		"name": "Bounty Board",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 0,
+		"health": 5,
+		"text": "Your <b>Excavate, Quickdraw</b>, <b>Tradeable</b>, and <b>Legendary</b> cards cost (1) less."
+	},
+	{
+		"name": "Motherlode Drake",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 4,
+		"health": 3,
+		"text": "<b>Rush</b>\n<b>Divine Shield</b>\n<b>Lifesteal</b>"
+	},
+	{
+		"name": "Pouch of Coins",
+		"set": "Wild_west",
+		"cost": 1,
+		"text": "Get two Coins."
+	},
+	{
+		"name": "Dart Throw",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "[x]Throw two $2 damage\ndarts at random enemy\nminions. <i>(If both hit the\nsame minion, get a Coin!)</i>"
+	},
+	{
+		"name": "Cryopreservation",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "<b>Freeze</b> an enemy. <b>Excavate</b> a treasure."
+	},
+	{
+		"name": "Skeleton Crew",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 3,
+		"health": 3,
+		"text": "[x]<b>Battlecry:</b> <b>Excavate</b> a\ntreasure. It costs (0)."
+	},
+	{
+		"name": "Pile of Bones",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 2,
+		"health": 1,
+		"text": "<b>Deathrattle:</b> The next\ntime you <b>Excavate</b>,\nresummon this."
+	},
+	{
+		"name": "Doctor Holli'dae",
+		"set": "Wild_west",
+		"cost": 5,
+		"attack": 4,
+		"health": 5,
+		"text": "[x]<b>Battlecry:</b> If your deck has\nno duplicates, equip the\nStaff of the Nine Frogs."
+	},
+	{
+		"name": "Dehydrate",
+		"set": "Wild_west",
+		"cost": 3,
+		"text": "<b>Lifesteal</b>. Deal $4 damage to a minion.\n<b>Quickdraw:</b> Costs (1)."
+	},
+	{
+		"name": "Minecart Cruiser",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 4,
+		"health": 5,
+		"text": "[x]<b>Rush</b>, <b>Overload:</b> (2)\n<b>Battlecry:</b> If you played\nan Elemental last turn,\ndon't <b>Overload</b>."
+	},
+	{
+		"name": "Cactus Cutter",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Draw a spell. If you cast it this turn, gain +1/+2 and <b>Taunt</b>."
+	},
+	{
+		"name": "Detonation Juggernaut",
+		"set": "Wild_west",
+		"cost": 5,
+		"attack": 3,
+		"health": 6,
+		"text": "<b>Taunt</b>. <b>Battlecry:</b> Give <b>Taunt</b> minions in your hand +2/+2."
+	},
+	{
+		"name": "Miracle Salesman",
+		"set": "Wild_west",
+		"cost": 1,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Get a <b>Tradeable</b> Snake Oil."
+	},
+	{
+		"name": "Snake Oil",
+		"set": "Wild_west",
 		"cost": 0,
+		"text": "<b>Tradeable</b>\nDeal $0 damage.\n<i>This seems useless...</i>"
+	},
+	{
+		"name": "Snake Oil Seller",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 4,
+		"health": 5,
+		"text": "[x]<b>Deathrattle:</b> Shuffle 2\n<b>Tradeable</b> Snake Oils into\nyour opponent's deck."
+	},
+	{
+		"name": "Howdyfin",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 2,
+		"health": 3,
+		"text": "[x]Whenever your hand has\nless than 3 cards in it,\nget a random Murloc."
+	},
+	{
+		"name": "Reinforced Plating",
+		"set": "Wild_west",
+		"cost": 3,
+		"text": "Gain 6 Armor.\n<b>Excavate</b> a treasure."
+	},
+	{
+		"name": "Holy Cowboy",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 4,
+		"health": 3,
+		"text": "<b>Battlecry:</b> Your next Holy spell costs (2) less."
+	},
+	{
+		"name": "Prismatic Beam",
+		"set": "Wild_west",
+		"cost": 7,
+		"text": "Deal $3 damage to all enemies. Costs (1) less for each enemy minion."
+	},
+	{
+		"name": "Spirit of the Badlands",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> If your deck\nhas no duplicates, get a\n<i>permanent</i> Mirage."
+	},
+	{
+		"name": "Sneaky Snakes",
+		"set": "Wild_west",
+		"cost": 1,
+		"text": "Summon two 1/1 Snakes with <b>Stealth</b>."
+	},
+	{
+		"name": "Silver Serpent",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 2,
+		"health": 3,
+		"text": "<b><b>Rush</b>, <b>Poisonous</b>\nQuickdraw:</b> Gain <b>Immune</b> this turn."
+	},
+	{
+		"name": "Bovine Skeleton",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Deathrattle:</b> If this has 4\nor more Attack, summon\na Bovine Skeleton."
+	},
+	{
+		"name": "Camouflage Mount",
+		"set": "Wild_west",
+		"cost": 4,
+		"text": "Give a minion +3/+3 and a random <b>bonus effect</b>. When it dies, summon a Chameleon."
+	},
+	{
+		"name": "Chameleon",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Divine Shield</b>"
+	},
+	{
+		"name": "Chameleon",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"name": "Chameleon",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Rush</b>"
+	},
+	{
+		"name": "Saddle Up!",
+		"set": "Wild_west",
+		"cost": 3,
+		"text": "Give your minions \"<b>Deathrattle:</b> Summon a random Beast that costs (3) or less.\""
+	},
+	{
+		"name": "Spurfang",
+		"set": "Wild_west",
+		"cost": 5,
+		"attack": 2,
+		"health": 5,
+		"text": "[x]<b>Battlecry and Deathrattle:</b>\nSummon a random Beast\nwith Cost equal to this\nminion's Attack."
+	},
+	{
+		"name": "Theldurin the Lost",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 3,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> If your deck\nhas no duplicates, gain\n<b>Immune</b> this turn and\nattack all enemies."
+	},
+	{
+		"name": "Chameleon",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Windfury</b>"
+	},
+	{
+		"name": "Chameleon",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Stealth</b>"
+	},
+	{
+		"name": "Sidewinder",
+		"set": "Wild_west",
+		"cost": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Stealth</b>"
+	},
+	{
+		"name": "Messenger Buzzard",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 1,
+		"health": 2,
+		"text": "[x]<b>Deathrattle:</b> Draw a Beast.\nGive minions in your\nhand +1/+1."
+	},
+	{
+		"name": "Deputization Aura",
+		"set": "Wild_west",
+		"cost": 3,
+		"text": "Your left-most minion has +3 Attack and <b>Lifesteal</b>. Lasts 3 turns."
+	},
+	{
+		"name": "Lawful Longarm",
+		"set": "Wild_west",
+		"cost": 5,
+		"attack": 1,
+		"health": 5,
+		"text": "[x]<b>Rush</b>, <b>Lifesteal</b>\n<b>Battlecry:</b> Gain +1 Attack for\neach card in your hand."
+	},
+	{
+		"name": "Azerite Giant",
+		"set": "Wild_west",
+		"cost": 8,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]Costs (1) less for each\nturn in a row you've\nplayed an Elemental."
+	},
+	{
+		"name": "Hi Ho Silverwing",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 2,
+		"health": 1,
+		"text": "<b>Divine Shield</b>\n<b>Deathrattle:</b> Draw a\nHoly spell."
+	},
+	{
+		"name": "The Badlands Bandits",
+		"set": "Wild_west",
+		"cost": 6,
+		"text": "[x]Get eight 3/2 Bandits\nwith <b>bonus effects</b>. Any\nthat can't fit in your hand\nare summoned instead."
+	},
+	{
+		"name": "Living Prairie",
+		"set": "Wild_west",
+		"cost": 5,
 		"attack": 5,
 		"health": 4,
-		"text": "<b>Venomous</b>\n<b>Avenge (5):</b> Gain <b>Reborn</b>."
+		"text": "[x]<b>Battlecry:</b> If you played\nan Elemental last turn,\nsummon two 3/3\nCows with <b>Rush</b>."
 	},
 	{
-		"name": "Relentless Mur'ghoul",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 10,
+		"name": "Startled Cow",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Rush</b>"
+	},
+	{
+		"name": "Skarr, the Catastrophe",
+		"set": "Wild_west",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Deal 1 damage\nto all enemies <i>(improved by\neach turn in a row you've\n played an Elemental)</i>."
+	},
+	{
+		"name": "Trusty Companion",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "[x]Give a minion +2/+3.\nIf it has a minion type,\ndraw one of that type."
+	},
+	{
+		"name": "Snake Eyes",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 2,
+		"health": 3,
+		"text": "[x]<b>Battlecry:</b> Roll two dice,\nthen <b>Discover</b> two cards of\nthose Costs. <i>(Doubles get\nan extra <b>Discover</b>!)</i>"
+	},
+	{
+		"name": "Rolled a One!",
+		"set": "Wild_west",
+		"cost": 1,
+		"text": "<b>Discover</b> a 1-Cost card."
+	},
+	{
+		"name": "Rolled a Two!",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "<b>Discover</b> a 2-Cost card."
+	},
+	{
+		"name": "Rolled a Three!",
+		"set": "Wild_west",
+		"cost": 3,
+		"text": "<b>Discover</b> a 3-Cost card."
+	},
+	{
+		"name": "Rolled a Four!",
+		"set": "Wild_west",
+		"cost": 4,
+		"text": "<b>Discover</b> a 4-Cost card."
+	},
+	{
+		"name": "Rolled a Five!",
+		"set": "Wild_west",
+		"cost": 5,
+		"text": "<b>Discover</b> a 5-Cost card."
+	},
+	{
+		"name": "Rolled a Six!",
+		"set": "Wild_west",
+		"cost": 6,
+		"text": "<b>Discover</b> a 6-Cost card."
+	},
+	{
+		"name": "Blindeye Sharpshooter",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 1,
+		"health": 5,
+		"text": "[x]After you play a Naga,\ndeal 2 damage to a random\nenemy and draw a spell.\n<i>(Then switch!)</i>2[x]After you cast a spell,\ndeal 2 damage to a random\nenemy and draw a Naga.\n<i>(Then switch!)</i>"
+	},
+	{
+		"name": "Pocket Sand",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Deal $3 damage.\n<b>Quickdraw:</b> Your opponent's next card costs (1) more."
+	},
+	{
+		"name": "Oasis Outlaws",
+		"set": "Wild_west",
+		"cost": 1,
+		"text": "<b>Discover</b> a Naga.\nIf you've played a Naga while holding this, reduce its Cost by (1)."
+	},
+	{
+		"name": "Fan the Hammer",
+		"set": "Wild_west",
+		"cost": 4,
+		"text": "Deal $6 damage split among the lowest Health enemies."
+	},
+	{
+		"name": "Midnight Wolf",
+		"set": "Wild_west",
+		"cost": 6,
+		"attack": 6,
+		"health": 6,
+		"text": "<b>Rush</b>\n<b>Outcast:</b> Summon a\ncopy of this."
+	},
+	{
+		"name": "Parched Desperado",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Battlecry:</b> If you've cast a spell while holding this, give your hero +3 Attack this turn."
+	},
+	{
+		"name": "Bartend-O-Bot",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 3,
+		"health": 1,
+		"text": "<b>Battlecry:</b> Draw an <b>Outcast</b> card and slide it to the left side of your hand."
+	},
+	{
+		"name": "Load the Chamber",
+		"set": "Wild_west",
+		"cost": 3,
+		"text": "[x]Deal $2 damage.\nYour next Naga, Fel spell,\nand weapon cost (1) less."
+	},
+	{
+		"name": "Blast Tortoise",
+		"set": "Wild_west",
+		"cost": 6,
+		"attack": 2,
+		"health": 7,
+		"text": "[x]<b>Taunt</b>\n<b>Battlecry:</b> Deal damage to all\nenemy minions equal to this\nminion's Attack."
+	},
+	{
+		"name": "Battlepickaxe",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 4,
+		"text": "After you play a\n<b>Taunt</b> minion, gain +1 Durability."
+	},
+	{
+		"name": "Misfire",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Deal $3, $2, and $1 damage to random minions. <b>Quickdraw:</b> Choose the targets."
+	},
+	{
+		"name": "Badlands Brawler",
+		"set": "Wild_west",
+		"cost": 7,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Start a Brawl!\nIf you've <b>Excavated</b> twice,\nthis always wins."
+	},
+	{
+		"name": "Cattle Rustler",
+		"set": "Wild_west",
+		"cost": 5,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Draw a Beast.\nIt costs (3) less."
+	},
+	{
+		"name": "Reap What You Sow",
+		"set": "Wild_west",
+		"cost": 3,
+		"text": "Deal $3 damage. <b>Excavate</b> a treasure."
+	},
+	{
+		"name": "Fistful of Corpses",
+		"set": "Wild_west",
+		"cost": 1,
+		"text": "Deal damage to\na minion equal to\nyour <b>Corpses</b>."
+	},
+	{
+		"name": "Harrowing Ox",
+		"set": "Wild_west",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Taunt</b>\n<b>Battlecry:</b> If you've <b>Excavated</b>\ntwice, your next card this\nturn costs (7) less."
+	},
+	{
+		"name": "Maw and Paw",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 1,
 		"health": 8,
-		"text": "<b>Venomous</b>\n<b>Avenge (5):</b> Gain <b>Reborn</b>."
+		"text": "[x]At the end of your turn, gain\n5 <b>Corpses</b>. At the start of your\nturn, spend 5 <b>Corpses</b> to give\nyour hero +5 Health."
 	},
 	{
-		"name": "Admiral Eliza Goreblade",
-		"set": "Battlegrounds",
+		"name": "Farm Hand",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 4,
+		"health": 3,
+		"text": "<b>Battlecry:</b> <b>Discover</b> an Undead. <b>Quickdraw:</b>\nIt costs (2) less."
+	},
+	{
+		"name": "Sheriff Barrelbrim",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Battlecry:</b> If you have\n20 or less Health, open\nthe Badlands Jail."
+	},
+	{
+		"name": "Stitched Giant",
+		"set": "Core",
+		"cost": 10,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]Costs (1) less for each\n<b>Corpse</b> you've spent\nthis game."
+	},
+	{
+		"name": "Triple Sevens",
+		"set": "Wild_west",
+		"cost": 7,
+		"text": "Deal $7 damage to a minion. Draw 7 cards."
+	},
+	{
+		"name": "Stick Up",
+		"set": "Wild_west",
+		"cost": 1,
+		"text": "[x]<b>Discover</b> a <b>Quickdraw</b>\ncard from another class."
+	},
+	{
+		"name": "Bloodrock Co. Shovel",
+		"set": "Wild_west",
+		"cost": 1,
+		"attack": 1,
+		"text": "<b>Deathrattle:</b> <b>Excavate</b>\na treasure."
+	},
+	{
+		"name": "Antique Flinger",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Battlecry:</b> If you've <b>Excavated</b> twice, destroy an enemy minion."
+	},
+	{
+		"name": "Wishing Well",
+		"set": "Wild_west",
+		"cost": 5,
+		"attack": 0,
+		"health": 7,
+		"text": "[x]After you play a Coin, get\na random <b>Legendary</b> minion\nfrom another class and\nset its Cost to (1)."
+	},
+	{
+		"name": "Shell Game",
+		"set": "Wild_west",
+		"cost": 3,
+		"text": "[x]Get a random Epic,\nRare, and Common card\nfrom other classes."
+	},
+	{
+		"name": "Drilly the Kid",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 4,
+		"health": 3,
+		"text": "<b>Battlecry, Quickdraw,\nand Deathrattle:</b>\n<b>Excavate</b> a treasure."
+	},
+	{
+		"name": "Barrel of Sludge",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "When this is played, discarded, or destroyed, deal $3 damage to the lowest Health enemy."
+	},
+	{
+		"name": "Splish-Splash Whelp",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 2,
+		"health": 1,
+		"text": "<b>Battlecry:</b> If you're holding a Dragon, gain an empty Mana Crystal."
+	},
+	{
+		"name": "Spinetail Drake",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Battlecry:</b> If you're holding\na Dragon, deal 5 damage\nto an enemy minion."
+	},
+	{
+		"name": "Dragon Golem",
+		"set": "Wild_west",
+		"cost": 7,
+		"attack": 3,
+		"health": 4,
+		"text": "[x]<b>Taunt</b>\n<b>Battlecry:</b> Summon a copy\nof this for each Dragon\nin your hand."
+	},
+	{
+		"name": "Rehydrate",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Restore #7 Health. <b>Quickdraw:</b> Refresh\n2 Mana Crystals."
+	},
+	{
+		"name": "Rheastrasza",
+		"set": "Wild_west",
+		"cost": 8,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]<b>Battlecry:</b> If your deck has\nno duplicates, summon the\nPurified Dragon Nest."
+	},
+	{
+		"name": "Purified Dragon Nest",
+		"set": "Wild_west",
+		"cost": 11,
+		"attack": 0,
+		"health": 1,
+		"text": "At the start of your turn, <b>Discover</b> a Dragon.\nIt costs (4) less."
+	},
+	{
+		"name": "Fye, the Setting Sun",
+		"set": "Wild_west",
+		"cost": 9,
+		"attack": 4,
+		"health": 12,
+		"text": "[x]<b>Rush</b>, <b>Lifesteal</b>, <b>Taunt</b>\nCosts (1) less for each\nDragon you've summoned\nthis game."
+	},
+	{
+		"name": "Azerite Chain Gang",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 2,
+		"health": 3,
+		"text": "[x]<b>Taunt</b>\n<b>Battlecry and Quickdraw:</b>\nSummon a copy of this."
+	},
+	{
+		"name": "Showdown!",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Both players summon three 3/3 Outlaws.\nGive yours <b>Rush</b>."
+	},
+	{
+		"name": "Swarm of Lightbugs",
+		"set": "Wild_west",
+		"cost": 5,
+		"text": "Summon 10 1/1 Lightbugs with <b>Lifesteal</b>. Save any excess in\na 1-Cost Bottle."
+	},
+	{
+		"name": "Bounty Wrangler",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Quickdraw or Combo:</b>\nGet a Coin."
+	},
+	{
+		"name": "Velarok Windblade",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "[x]While this is in your hand,\nplay three cards from other\nclasses to reveal Velarok's\ntrue form!"
+	},
+	{
+		"name": "Velarok, the Deceiver",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 6,
+		"text": "[x]<b>Charge</b>\nAfter this attacks, <b>Discover</b>\na card from another class.\nIt costs (3) less."
+	},
+	{
+		"name": "Lay Down the Law",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "<b>Tradeable</b>\nSet a minion's Attack and Health to 1. <b>Quickdraw:</b> Then deal $1 damage to it."
+	},
+	{
+		"name": "Living Horizon",
+		"set": "Wild_west",
+		"cost": 10,
+		"attack": 4,
+		"health": 6,
+		"text": "[x]<b>Taunt</b>, <b>Divine Shield</b>\nCosts (1) less for each\nother card in your hand."
+	},
+	{
+		"name": "Unlucky Powderman",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Taunt</b>\n<b>Deathrattle:</b> Give <b>Taunt</b> minions in your hand and deck +1/+1."
+	},
+	{
+		"name": "Crop Rotation",
+		"set": "Wild_west",
+		"cost": 3,
+		"text": "Summon four 1/1 Undead with <b>Rush</b> that die at the end of turn."
+	},
+	{
+		"name": "Disposal Assistant",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "[x]<b>Battlecry and Deathrattle:</b>\nPut a Barrel of Sludge on\nthe bottom of your deck."
+	},
+	{
+		"name": "Waste Remover",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]At the end of your turn,\ndestroy the bottom 3\ncards of your deck."
+	},
+	{
+		"name": "Sludge on Wheels",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 1,
+		"health": 5,
+		"text": "[x]<b>Rush</b>. Whenever this takes\ndamage, get a Barrel of\nSludge and add one to the\nbottom of your deck."
+	},
+	{
+		"name": "Tram Mechanic",
+		"set": "Wild_west",
+		"cost": 1,
+		"attack": 2,
+		"health": 1,
+		"text": "<b>Deathrattle:</b> Get a Barrel\nof Sludge. <i>TOXIC WASTE: Handle with care.</i>"
+	},
+	{
+		"name": "Boomboss Tho'grun",
+		"set": "Wild_west",
+		"cost": 8,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Shuffle 3 T.N.T. into\nyour deck. When drawn, blow\nup a card in the enemy hand,\ndeck, and battlefield."
+	},
+	{
+		"name": "Dragon Tales",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "<b>Choose One -</b> Get two random Dragons that cost (5) or less; or Get two that cost more than (5)."
+	},
+	{
+		"name": "Reska, the Pit Boss",
+		"set": "Wild_west",
+		"cost": 20,
+		"attack": 6,
+		"health": 3,
+		"text": "[x]<b>Rush</b>. Costs (1) less for each\nminion that died this game.\n<b>Deathrattle:</b> Take control of a\nrandom enemy minion."
+	},
+	{
+		"name": "Corpse Farm",
+		"set": "Wild_west",
+		"cost": 3,
+		"text": "Spend up to 8 <b>Corpses</b> to summon a random minion of that Cost."
+	},
+	{
+		"name": "Tram Heist",
+		"set": "Wild_west",
+		"cost": 4,
+		"text": "Get a copy of each\ncard your opponent played last turn."
+	},
+	{
+		"name": "Mirage",
+		"set": "Wild_west",
+		"cost": 11,
+		"text": "[x]At the start of your turn,\ntransform into a copy of\na minion in your deck.\n<i>(This stays in your hand.)</i>"
+	},
+	{
+		"name": "Outlaw",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 3
+	},
+	{
+		"name": "Slagmaw the Slumbering",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 16,
+		"health": 16,
+		"text": "<b>Rush</b>, <b>Taunt</b>\n<b>Dormant</b> for 8 turns.\n<i>(<b>Excavate</b> to awaken 2 turns sooner!)</i>"
+	},
+	{
+		"name": "Cactus Rager",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 5,
+		"health": 1,
+		"text": "<b>Poisonous</b>"
+	},
+	{
+		"name": "Heat Wave",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "[x]Deal $2 damage\nto an enemy minion and\nits neighbors. <b>Quickdraw:</b>\nTo all enemies instead."
+	},
+	{
+		"name": "Smokestack",
+		"set": "Wild_west",
+		"cost": 1,
+		"text": "Deal $1 damage to\na minion. If it dies, <b>Excavate</b> a treasure."
+	},
+	{
+		"name": "Flint Firearm",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "[x]<b>Battlecry:</b> Get a random\n<b>Quickdraw</b> card. If you play\nit this turn, repeat this."
+	},
+	{
+		"name": "Blast Charge",
+		"set": "Wild_west",
+		"cost": 3,
+		"text": "Destroy a damaged enemy minion. <b>Excavate</b> a treasure."
+	},
+	{
+		"name": "Injured Hauler",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Deal 4 damage\nto this minion.\n<b>Overheal:</b> Deal 2 damage\nto all enemy minions."
+	},
+	{
+		"name": "Walking Mountain",
+		"set": "Wild_west",
+		"cost": 9,
+		"attack": 4,
+		"health": 16,
+		"text": "<b>Rush</b>, <b>Lifesteal</b>,\n<b>Mega-Windfury</b>\n<b>Overload: (2)</b>"
+	},
+	{
+		"name": "Dryscale Deputy",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Battlecry:</b> The next\ntime you draw a spell,\nget a copy of it."
+	},
+	{
+		"name": "Ogre-Gang Outlaw",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Rush</b>\n50% chance to attack\nthe wrong enemy."
+	},
+	{
+		"name": "Ogre-Gang Rider",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 3,
+		"health": 6,
+		"text": "[x]<b>Rush</b>\n50% chance to give your\nhero +3 Attack this turn\ninstead of attacking."
+	},
+	{
+		"name": "Ogre-Gang Ace",
+		"set": "Wild_west",
+		"cost": 5,
+		"attack": 5,
+		"health": 4,
+		"text": "[x]<b>Rush</b>\nWhenever this attacks, gain\n<b>Divine Shield</b>. <i>(50% chance to\n gain <b>Lifesteal</b> instead.)</i>"
+	},
+	{
+		"name": "Kingpin Pud",
+		"set": "Wild_west",
 		"cost": 6,
 		"attack": 6,
 		"health": 7,
-		"text": "Whenever a friendly Pirate attacks, give all friendly minions +3/+1."
+		"text": "<b>Battlecry:</b> Resurrect\nyour Ogre-Gang. Give\nthem <b>Windfury</b>."
 	},
 	{
-		"name": "Admiral Eliza Goreblade",
-		"set": "Battlegrounds",
+		"name": "Azerite Vein",
+		"set": "Wild_west",
+		"cost": 3,
+		"text": "[x]<b>Secret:</b> When the enemy\nplays a card on the turn\nthat it entered their hand,\nget a copy that costs (0)."
+	},
+	{
+		"name": "Saloon Brewmaster",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Return a friendly minion to your hand.\nGive it +2/+2."
+	},
+	{
+		"name": "Overflow Surger",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 3,
+		"health": 2,
+		"text": "[x]<b>Battlecry:</b> Summon a\ncopy of this for each turn\nin a row you've played\nan Elemental. <i>(0)</i>"
+	},
+	{
+		"name": "Stargazing",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Draw a different Arcane spell. If you play it this turn, it casts twice."
+	},
+	{
+		"name": "Blastmage Miner",
+		"set": "Wild_west",
 		"cost": 6,
-		"attack": 12,
-		"health": 14,
-		"text": "Whenever a friendly Pirate attacks, give all friendly minions +6/+2."
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Battlecry: Excavate</b> a\ntreasure. For each card in\nyour hand, deal 1 damage\nto a random enemy."
+	},
+	{
+		"name": "Sunset Volley",
+		"set": "Wild_west",
+		"cost": 10,
+		"text": "Deal $10 damage randomly split among\nall enemies. Summon a random 10-Cost minion."
+	},
+	{
+		"name": "Eroded Sediment",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 4,
+		"health": 3,
+		"text": "[x]<b>Battlecry:</b> If you played an\nElemental last turn, <b>Discover</b>\nan Elemental from the past."
+	},
+	{
+		"name": "Mes'Adune the Fractured",
+		"set": "Wild_west",
+		"cost": 6,
+		"attack": 6,
+		"health": 5,
+		"text": "<b>Battlecry:</b> Draw an Elemental. Split it\ninto two halves."
+	},
+	{
+		"name": "Tae'thelan Bloodwatcher",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 2,
+		"health": 5,
+		"text": "[x]Cards that didn't start in\nyour deck cost (4) less\n<i>(but not less than 1)</i>."
+	},
+	{
+		"name": "Gattlesnake",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 1,
+		"health": 5,
+		"text": "[x]At the end of your turn,\n load two bullets that deal 1 \ndamage each. <b>Deathrattle:</b>\n Fire at random enemies!"
+	},
+	{
+		"name": "Reliquary Researcher",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 3,
+		"health": 5,
+		"text": "[x]<b>Battlecry:</b> If you've\n<b>Excavated</b> twice, cast two\nrandom Mage <b>Secrets</b>."
+	},
+	{
+		"name": "Chameleon",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Poisonous</b>"
+	},
+	{
+		"name": "Chameleon",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Lifesteal</b>"
+	},
+	{
+		"name": "Chameleon",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Reborn</b>"
+	},
+	{
+		"name": "Ten Gallon Hat",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "[x]Draw a minion. Give it\n+1/+1 and \"<b>Deathrattle:</b>\nGet a Ten Gallon Hat.\""
+	},
+	{
+		"name": "Starshooter",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 2,
+		"text": "After your hero attacks, get an Arcane Shot."
+	},
+	{
+		"name": "Benevolent Banker",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 2,
+		"health": 4,
+		"text": "<b>Battlecry:</b> <b>Discover</b> a\nspell from your deck.\n<b>Quickdraw:</b> Enemy\ndeck instead."
+	},
+	{
+		"name": "Thirsty Drifter",
+		"set": "Wild_west",
+		"cost": 6,
+		"attack": 4,
+		"health": 6,
+		"text": "<b>Taunt</b>\nCosts (1) less for each\n1-Cost card you've played this game."
+	},
+	{
+		"name": "Gold Panner",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 1,
+		"health": 2,
+		"text": "At the end of your turn, draw a card."
+	},
+	{
+		"name": "Linedance Partner",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Battlecry:</b> If you're holding another 3-Cost card, summon a random 3-Cost minion."
+	},
+	{
+		"name": "Sunspot Dragon",
+		"set": "Wild_west",
+		"cost": 6,
+		"attack": 6,
+		"health": 6,
+		"text": "[x]<b>Tradeable</b>, <b>Lifesteal</b>\n<b>Quickdraw:</b> Deal 6 damage."
+	},
+	{
+		"name": "Bunny Stomper",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 1,
+		"health": 3,
+		"text": "Your Beasts have <b>Rush</b>."
+	},
+	{
+		"name": "Take to the Skies",
+		"set": "Wild_west",
+		"cost": 3,
+		"text": "Draw two Dragons.\nGive them +1/+1."
+	},
+	{
+		"name": "Cactus Construct",
+		"set": "Wild_west",
+		"cost": 1,
+		"text": "<b>Discover</b> a 2-Cost minion. Summon a 1/2 copy of it."
+	},
+	{
+		"name": "Happy Whelp",
+		"set": "Wild_west",
+		"cost": 1,
+		"attack": 1,
+		"health": 2,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"name": "Desert Nestmatron",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 3,
+		"health": 5,
+		"text": "<b>Taunt</b>. <b>Battlecry:</b> If you're holding a Dragon, refresh 4 Mana Crystals."
+	},
+	{
+		"name": "Elise, Badlands Savior",
+		"set": "Wild_west",
+		"cost": 8,
+		"attack": 5,
+		"health": 5,
+		"text": "[x]<b>Battlecry:</b> If your deck has\nno duplicates, summon\n4/4 copies of 4 random\nminions in your deck."
+	},
+	{
+		"name": "Whelp Wrangler",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 2,
+		"health": 3,
+		"text": "At the end of your turn, get a 1/2 Whelp with <b>Taunt</b>."
+	},
+	{
+		"name": "Short Stories",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Get two random Dragons that cost\n(5) or less."
+	},
+	{
+		"name": "Tall Tales",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Get two random Dragons that cost more than (5)."
+	},
+	{
+		"name": "The Azerite Hawk",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 5,
+		"health": 5,
+		"text": "<b>Battlecry:</b> Get a random <b>Titan</b>. It costs (1)."
+	},
+	{
+		"name": "T.N.T.",
+		"set": "Wild_west",
+		"cost": 6,
+		"text": "<b>Casts When Drawn</b>\nDestroy a random card in your opponent's hand, deck, and battlefield."
+	},
+	{
+		"name": "The Azerite Ox",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 5,
+		"health": 5,
+		"text": "<b>Battlecry:</b> <b>Discover</b>\ntwo 8-Cost minions. Summon them."
+	},
+	{
+		"name": "Invasive Shadeleaf",
+		"set": "Wild_west",
+		"cost": 4,
+		"text": "Deal $8 damage to an enemy minion.\nSave any excess in a\n1-Cost Bottle."
+	},
+	{
+		"name": "Pip the Potent",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 3,
+		"health": 5,
+		"text": "<b>Battlecry:</b> Copy each\n1-Cost card in your hand."
+	},
+	{
+		"name": "Holy Springwater",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Restore #8 Health to a damaged character.\nSave any excess in a\n1-Cost Bottle."
+	},
+	{
+		"name": "Bottled Springwater",
+		"set": "Wild_west",
+		"cost": 1,
+		"text": "Restore the excess Health to a damaged character."
+	},
+	{
+		"name": "Bottled Shadeleaf",
+		"set": "Wild_west",
+		"cost": 1,
+		"text": "[x]Deal the excess damage\nto an enemy minion."
+	},
+	{
+		"name": "Bottled Lightbugs",
+		"set": "Wild_west",
+		"cost": 1,
+		"text": "Summon the excess\n1/1 Lightbugs\nwith <b>Lifesteal</b>."
+	},
+	{
+		"name": "Lightbug",
+		"set": "Wild_west",
+		"cost": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Lifesteal</b>"
+	},
+	{
+		"name": "Giant Tumbleweed!!!",
+		"set": "Wild_west",
+		"cost": 7,
+		"text": "Deal $6 damage to all minions. Summon a 6/6 Tumbleweed."
+	},
+	{
+		"name": "Tumbleweed",
+		"set": "Wild_west",
+		"cost": 6,
+		"attack": 6,
+		"health": 6
+	},
+	{
+		"name": "Amphibious Elixir",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Restore #5 Health. <b>Discover</b> a spell."
+	},
+	{
+		"name": "The Azerite Scorpion",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 5,
+		"health": 5,
+		"text": "[x]<b>Battlecry:</b> Get 4 random\nspells. If you've <b>Excavated</b>\n8 times, they cost (0)."
+	},
+	{
+		"name": "The Azerite Snake",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 5,
+		"health": 5,
+		"text": "<b>Battlecry:</b> Your hero\nsteals 10 Health from\nthe enemy hero."
+	},
+	{
+		"name": "The Azerite Rat",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 5,
+		"health": 5,
+		"text": "[x]<b>Battlecry:</b> Resurrect your\nhighest Cost minion.\nGive it +2/+2, <b>Reborn</b>,\nand <b>Lifesteal</b>."
+	},
+	{
+		"name": "Gnome on the Range",
+		"set": "Wild_west",
+		"cost": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "[x]<b>Rush</b>\nAt the end of your turn,\nthis minion dies."
+	},
+	{
+		"name": "Dang-Blasted Elemental",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Taunt</b>\n<b>Deathrattle:</b> Deal 2 damage\nto all minions except\nfriendly Elementals."
+	},
+	{
+		"name": "Pop'gar the Putrid",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 2,
+		"health": 6,
+		"text": "Your Fel spells cost (1)\nless and have <b>Lifesteal</b>.\n<b>Battlecry:</b> Get two\nBarrels of Sludge."
+	},
+	{
+		"name": "Fracking",
+		"set": "Wild_west",
+		"cost": 1,
+		"text": "[x]Look at the bottom\n3 cards of your deck.\nDraw one and destroy\nthe others."
+	},
+	{
+		"name": "Gaslight Gatekeeper",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> Shuffle your\nhand into your deck, then\ndraw that many cards."
+	},
+	{
+		"name": "High Noon Duelist",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 4,
+		"health": 3,
+		"text": "<b>Deathrattle:</b> Both players DRAW! Destroy the card that costs less."
+	},
+	{
+		"name": "Furnace Fuel",
+		"set": "Wild_west",
+		"cost": 4,
+		"text": "When this is played,\ndiscarded, or destroyed,\ndraw 2 cards."
+	},
+	{
+		"name": "Mo'arg Drillfist",
+		"set": "Wild_west",
+		"cost": 4,
+		"attack": 4,
+		"health": 5,
+		"text": "<b>Taunt</b>\n <b>Deathrattle:</b> <b>Excavate</b>\na treasure."
+	},
+	{
+		"name": "Crusty",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Divine Shield</b>"
+	},
+	{
+		"name": "Rusty",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"name": "Sandy Red",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Rush</b>"
+	},
+	{
+		"name": "Pearly",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Windfury</b>"
+	},
+	{
+		"name": "Surly",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Stealth</b>"
+	},
+	{
+		"name": "Dusty",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Poisonous</b>"
+	},
+	{
+		"name": "Moe",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Lifesteal</b>"
+	},
+	{
+		"name": "Burly",
+		"set": "Wild_west",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Reborn</b>"
+	},
+	{
+		"name": "Badlands Jail",
+		"set": "Wild_west",
+		"cost": 4,
+		"health": 3,
+		"text": "Make a minion go <b>Dormant</b> for 3 turns."
+	},
+	{
+		"name": "Trolley Problem",
+		"set": "Wild_west",
+		"cost": 3,
+		"text": "Discard your lowest Cost spell. Summon two 3/3 Tram Cars with <b>Rush</b>.\n<b>Quickdraw:</b> Don't discard."
+	},
+	{
+		"name": "Tram Conductor Gerry",
+		"set": "Wild_west",
+		"cost": 7,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Battlecry:</b> If you've\n<b>Excavated</b> twice, summon six 3/3 Tram Cars with <b>Rush</b>."
+	},
+	{
+		"name": "Tram Car",
+		"set": "Wild_west",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Rush</b>"
+	},
+	{
+		"name": "Reno, Lone Ranger",
+		"set": "Wild_west",
+		"cost": 8,
+		"health": 30,
+		"text": "[x]<b>Battlecry:</b> If your deck has no\nduplicates, empty the enemy\nboard and limit it to 1 minion\nfor a turn. <i>It's high noon!</i>"
+	},
+	{
+		"name": "Reno's Handcannon",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Shoot this turn's\nmagic bullet!"
+	},
+	{
+		"name": "Arcane Bullet",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Deal $2 damage.\nRefresh 2 Mana Crystals.\nSwaps each turn."
+	},
+	{
+		"name": "Frost Bullet",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Deal $2 damage.\nGain $d4 Armor.\nSwaps each turn."
+	},
+	{
+		"name": "Fire Bullet",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Deal $2 damage,\nthen deal $1 damage to\nall enemy minions.\nSwaps each turn."
+	},
+	{
+		"name": "Holy Bullet",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Deal $2 damage.\nGive a random friendly minion +2/+2.\nSwaps each turn."
+	},
+	{
+		"name": "Nature Bullet",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Deal $2 damage.\n<b>Discover</b> a spell.\nSwaps each turn."
+	},
+	{
+		"name": "Shadow Bullet",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Deal $2 damage.\nSummon a random\n3-Cost minion.\nSwaps each turn."
+	},
+	{
+		"name": "Staff of the Nine Frogs",
+		"set": "Wild_west",
+		"cost": 5,
+		"attack": 2,
+		"text": "[x]After your hero attacks,\nsummon a {0}/{1} Frog\nwith <b>Taunt</b>. <i>(Each Frog is\n bigger than the last!)</i>"
+	},
+	{
+		"name": "Fel Bullet",
+		"set": "Wild_west",
+		"cost": 2,
+		"text": "Deal $2 damage.\nDraw a card.\nSwaps each turn."
+	},
+	{
+		"name": "The Coin",
+		"set": "Wild_west",
+		"cost": 0,
+		"text": "Gain 1 Mana Crystal this turn only."
+	},
+	{
+		"name": "The Coin",
+		"set": "Wild_west",
+		"cost": 0,
+		"text": "Gain 1 Mana Crystal this turn only."
+	},
+	{
+		"name": "Posse Possession",
+		"set": "Wild_west",
+		"cost": 4,
+		"text": "Summon a 4/4 copy\nof a random minion in your opponent's hand."
+	},
+	{
+		"name": "Huffer",
+		"set": "Tutorial",
+		"cost": 0,
+		"attack": 4,
+		"health": 2
+	},
+	{
+		"name": "Arcane Servant",
+		"set": "Tutorial",
+		"cost": 0,
+		"attack": 3,
+		"health": 2
+	},
+	{
+		"name": "King Krush",
+		"set": "Tutorial",
+		"cost": 0,
+		"attack": 8,
+		"health": 8,
+		"text": "<b>Charge</b>"
+	},
+	{
+		"name": "Silver Hand Recruit",
+		"set": "Legacy",
+		"cost": 1,
+		"attack": 1,
+		"health": 1
+	},
+	{
+		"name": "Silver Hand Recruit",
+		"set": "Legacy",
+		"cost": 1,
+		"attack": 1,
+		"health": 1
+	},
+	{
+		"name": "Silver Hand Recruit",
+		"set": "Legacy",
+		"cost": 1,
+		"attack": 1,
+		"health": 1
+	},
+	{
+		"name": "Silver Hand Recruit",
+		"set": "Legacy",
+		"cost": 1,
+		"attack": 1,
+		"health": 1
+	},
+	{
+		"name": "Silver Hand Recruit",
+		"set": "Legacy",
+		"cost": 1,
+		"attack": 1,
+		"health": 1
+	},
+	{
+		"name": "Silver Hand Recruit",
+		"set": "Legacy",
+		"cost": 1,
+		"attack": 1,
+		"health": 1
+	},
+	{
+		"name": "Silver Hand Recruit",
+		"set": "Legacy",
+		"cost": 1,
+		"attack": 1,
+		"health": 1
+	},
+	{
+		"name": "Fireblast",
+		"set": "Tutorial",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nDeal $1 damage."
+	},
+	{
+		"name": "Campchef Scabbs",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Lightbringer Uther",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Frontiersman Uther",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Pit Boss Reska",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Ghoul Charge",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "[x]<b>Hero Power</b>\nSummon a 1/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn."
+	},
+	{
+		"name": "Ghoul Frenzy",
+		"set": "Legacy",
+		"cost": 2,
+		"text": "[x]<b>Hero Power</b>\nSummon a 2/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn."
+	},
+	{
+		"name": "Scourgeborne Arthas",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Skyshatter Thrall",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Elise the Leader",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Lesser Heal",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nRestore #2 Health."
+	},
+	{
+		"name": "Heal",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nRestore #4 Health."
+	},
+	{
+		"name": "Cowgirl Alleria",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Felreaper Illidan",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Crystalforge Uther",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Destroyer Garrosh",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Onslaught Garrosh",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Hoedown Inzah",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Thassarian Arthas",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Pianoman Hedanis",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Second Sight Illidan",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Cardslinger Saraad",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Gunslinger Kurtrus",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Trader Rafaam",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Corruptor Gul'dan",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Drifter Guff",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Touring E.T.C.",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Brawler Valeera",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Saloon Denathrius",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Mechadrill-Jaraxxus",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Cataclysm Thrall",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Malefic Gul'dan",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Frog",
+		"set": "Wild_west",
+		"cost": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"name": "Transfer Student",
+		"set": "Scholomance",
+		"cost": 2,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Battlecry:</b> <b>Discover</b> a\n<b>Showdown in the Badlands</b> card."
+	},
+	{
+		"name": "Showdown at the Badlands",
+		"set": "Tb",
+		"cost": 0
+	},
+	{
+		"name": "Galakrond's Dragons",
+		"set": "Tb",
+		"cost": 0
+	},
+	{
+		"name": "Medivh's Grand Tournament",
+		"set": "Tb",
+		"cost": 0
+	},
+	{
+		"name": "Goblins. Gnomes. Naxxramas.",
+		"set": "Tb",
+		"cost": 0
+	},
+	{
+		"name": "Explorers of Uldum",
+		"set": "Tb",
+		"cost": 0
 	}
 ]
