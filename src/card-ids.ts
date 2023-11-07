@@ -28034,7 +28034,7 @@ export const enum CardIds {
 	FanTheHammer_WW_405 = 'WW_405',
 	MidnightWolf_WW_406 = 'WW_406',
 	ParchedDesperado_WW_407 = 'WW_407',
-	ParchedDesperado_*Gulp*Enchantment_WW_407e = 'WW_407e',
+	ParchedDesperado_GulpEnchantment_WW_407e = 'WW_407e',
 	BartendOBot_WW_408 = 'WW_408',
 	LoadTheChamber_WW_409 = 'WW_409',
 	LoadTheChamber_LoadedNagaEnchantment_WW_409e = 'WW_409e',
