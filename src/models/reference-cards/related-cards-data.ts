@@ -131,8 +131,8 @@ const SPARKBOTS = [
 ];
 const EXCAVATE_TREASURES = [
 	// Level 1
-	CardIds.EscapingTrogg_,
-	CardIds.FoolsAzerite_,
+	CardIds.KoboldMiner_EscapingTroggToken_WW_001t4,
+	CardIds.KoboldMiner_FoolsAzeriteToken_WW_001t3,
 	CardIds.PouchOfCoins_,
 	CardIds.Rock_,
 	CardIds.WaterSource_,
