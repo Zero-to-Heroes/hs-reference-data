@@ -1,5 +1,6 @@
 import { CardIds } from '../../card-ids';
 import { ReferenceCard } from './reference-card';
+import { EXCAVATE_TREASURE_1_IDS, EXCAVATE_TREASURE_2_IDS, EXCAVATE_TREASURE_3_IDS } from './reference-data';
 
 const ADVENTURER_TOKENS = [
 	CardIds.PartyUp_BurlyAdventurerToken,
@@ -129,30 +130,11 @@ const SPARKBOTS = [
 	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t6,
 	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t7,
 ];
-const EXCAVATE_TREASURES = [
-	// Level 1
-	CardIds.KoboldMiner_EscapingTroggToken_WW_001t4,
-	CardIds.KoboldMiner_FoolsAzeriteToken_WW_001t3,
-	CardIds.KoboldMiner_PouchOfCoinsToken_WW_001t18,
-	CardIds.KoboldMiner_RockToken_WW_001t,
-	CardIds.KoboldMiner_WaterSourceToken_WW_001t2,
-	// Level 2
-	CardIds.KoboldMiner_AzeriteChunkToken_WW_001t9,
-	CardIds.KoboldMiner_CanaryToken_WW_001t7,
-	CardIds.KoboldMiner_FallingStalactiteToken_WW_001t5,
-	CardIds.KoboldMiner_GlowingGlyphToken_WW_001t8,
-	CardIds.KoboldMiner_LivingStoneToken_WW_001t16,
-	// Level 3
-	CardIds.KoboldMiner_AzeriteGemToken_WW_001t14,
-	CardIds.KoboldMiner_CollapseToken_WW_001t12,
-	CardIds.KoboldMiner_MotherlodeDrakeToken_WW_001t17,
-	CardIds.KoboldMiner_OgrefistBoulderToken_WW_001t11,
-	CardIds.KoboldMiner_SteelhideMoleToken_WW_001t13,
-];
-const EXCAVATE_TREASURE_ROGUE = [...EXCAVATE_TREASURES, CardIds.KoboldMiner_TheAzeriteScorpionToken_WW_001t23];
-const EXCAVATE_TREASURE_MAGE = [...EXCAVATE_TREASURES, CardIds.KoboldMiner_TheAzeriteHawkToken_WW_001t24];
-const EXCAVATE_TREASURE_WARLOCK = [...EXCAVATE_TREASURES, CardIds.KoboldMiner_TheAzeriteSnakeToken_WW_001t25];
+const EXCAVATE_TREASURES = [...EXCAVATE_TREASURE_1_IDS, ...EXCAVATE_TREASURE_2_IDS, ...EXCAVATE_TREASURE_3_IDS];
 const EXCAVATE_TREASURE_DK = [...EXCAVATE_TREASURES, CardIds.KoboldMiner_TheAzeriteRatToken_WW_001t26];
+const EXCAVATE_TREASURE_MAGE = [...EXCAVATE_TREASURES, CardIds.KoboldMiner_TheAzeriteHawkToken_WW_001t24];
+const EXCAVATE_TREASURE_ROGUE = [...EXCAVATE_TREASURES, CardIds.KoboldMiner_TheAzeriteScorpionToken_WW_001t23];
+const EXCAVATE_TREASURE_WARLOCK = [...EXCAVATE_TREASURES, CardIds.KoboldMiner_TheAzeriteSnakeToken_WW_001t25];
 const EXCAVATE_TREASURE_WARRIOR = [...EXCAVATE_TREASURES, CardIds.KoboldMiner_TheAzeriteOxToken_WW_001t27];
 
 export type RelatedCardExtractor = (cards: readonly ReferenceCard[]) => readonly string[];
@@ -2798,12 +2780,14 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.BloodrockCoShovel_WW_412]: EXCAVATE_TREASURE_ROGUE,
 	[CardIds.DrillyTheKid_WW_417]: EXCAVATE_TREASURE_ROGUE,
-	[CardIds.SnakeEyes_WW_400]: [CardIds.SnakeEyes_RolledAOneToken_WW_400t1],
-	[CardIds.SnakeEyes_WW_400]: [CardIds.SnakeEyes_RolledATwoToken_WW_400t2],
-	[CardIds.SnakeEyes_WW_400]: [CardIds.SnakeEyes_RolledAThreeToken_WW_400t3],
-	[CardIds.SnakeEyes_WW_400]: [CardIds.SnakeEyes_RolledAFourToken_WW_400t4],
-	[CardIds.SnakeEyes_WW_400]: [CardIds.SnakeEyes_RolledAFiveToken_WW_400t5],
-	[CardIds.SnakeEyes_WW_400]: [CardIds.SnakeEyes_RolledASixToken_WW_400t6],
+	[CardIds.SnakeEyes_WW_400]: [
+		CardIds.SnakeEyes_RolledAOneToken_WW_400t1,
+		CardIds.SnakeEyes_RolledATwoToken_WW_400t2,
+		CardIds.SnakeEyes_RolledAThreeToken_WW_400t3,
+		CardIds.SnakeEyes_RolledAFourToken_WW_400t4,
+		CardIds.SnakeEyes_RolledAFiveToken_WW_400t5,
+		CardIds.SnakeEyes_RolledASixToken_WW_400t6,
+	],
 	[CardIds.Cryopreservation_WW_009]: EXCAVATE_TREASURE_MAGE,
 	[CardIds.Rheastrasza_WW_824]: [CardIds.Rheastrasza_PurifiedDragonNestToken_WW_824t],
 	[CardIds.DisposalAssistant_WW_041]: [CardIds.TramMechanic_BarrelOfSludgeToken_WW_044t],
@@ -2843,4 +2827,11 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.LivingPrairie_WW_024]: [CardIds.LivingPrairie_StartledCowToken_WW_024t],
 	[CardIds.KoboldMiner_WW_001]: EXCAVATE_TREASURES,
 	[CardIds.BlastmageMiner_WW_426]: EXCAVATE_TREASURE_MAGE,
+	[CardIds.ElementalChaosTavernBrawlToken]: [
+		CardIds.ElementalChaos_FireInvocationTavernBrawlToken,
+		CardIds.ElementalChaos_EarthInvocationTavernBrawlToken,
+		CardIds.ElementalChaos_LightningInvocationTavernBrawlToken,
+		CardIds.ElementalChaos_WaterInvocationTavernBrawlToken,
+	],
+	[CardIds.Invigorate_WON_014]: [CardIds.Invigorate_Enliven_WON_014s2, CardIds.Invigorate_Rejuvenate_WON_014s],
 };
