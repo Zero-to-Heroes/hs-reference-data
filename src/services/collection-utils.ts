@@ -69,8 +69,9 @@ export const boosterIdToSetId = (boosterId: BoosterType): string => {
 		case BoosterType.CAVERNS_OF_TIME:
 			return 'caverns_of_time';
 		case BoosterType.WILD_WEST:
-		case BoosterType.WILD_WEST2:
 			return 'wild_west';
+		case BoosterType.WILD_WEST2:
+			return 'wild_west2';
 		default:
 			// console.warn('unsupported booster type', boosterId);
 			return null;
