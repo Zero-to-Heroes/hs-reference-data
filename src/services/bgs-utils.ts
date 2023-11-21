@@ -437,7 +437,7 @@ export const getHeroPower = (
 		case CardIds.GuffRunetotem_BG20_HERO_242:
 			return CardIds.GuffRunetotem_NaturalBalance;
 		case CardIds.KurtrusAshfallen_BG20_HERO_280:
-			return CardIds.KurtrusAshfallen_FinalShowdown;
+			return CardIds.KurtrusAshfallen_GlaiveRicochet;
 		case CardIds.Galewing:
 			return CardIds.Galewing_DungarsGryphon;
 		case CardIds.TradePrinceGallywix_TB_BaconShop_HERO_10:
