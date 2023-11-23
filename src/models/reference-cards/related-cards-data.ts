@@ -2888,4 +2888,14 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.ShandoWildclaw]: [CardIds.ShandoWildclaw_RileTheHerd, CardIds.ShandoWildclaw_Transfiguration],
 	[CardIds.Boomkin]: [CardIds.Boomkin_EyesOfTheMoonToken, CardIds.Boomkin_HeartOfTheSunToken],
+	[CardIds.RenoLoneRanger_WW_0700]: [
+		CardIds.RenoLoneRanger_RenosHandcannon_WW_0700p,
+		CardIds.RenoLoneRanger_ArcaneBullet_WW_0700p1,
+		CardIds.RenoLoneRanger_FrostBullet_WW_0700p2,
+		CardIds.RenoLoneRanger_FireBullet_WW_0700p3,
+		CardIds.RenoLoneRanger_HolyBullet_WW_0700p4,
+		CardIds.RenoLoneRanger_NatureBullet_WW_0700p5,
+		CardIds.RenoLoneRanger_ShadowBullet_WW_0700p6,
+		CardIds.RenoLoneRanger_FelBullet_WW_0700p7,
+	],
 };

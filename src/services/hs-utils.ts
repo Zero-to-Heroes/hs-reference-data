@@ -3,6 +3,20 @@ import { ReferenceCard } from '../models/reference-cards/reference-card';
 import { GameFormat } from '../public-api';
 import { AllCardsService } from './all-cards.service';
 
+export const ALL_CLASSES = [
+	'deathknight',
+	'druid',
+	'hunter',
+	'mage',
+	'paladin',
+	'priest',
+	'rogue',
+	'shaman',
+	'warlock',
+	'warrior',
+	'demonhunter',
+];
+
 export const formatFormat = (format: GameFormat): GameFormatString => {
 	switch (format) {
 		case GameFormat.FT_STANDARD:
