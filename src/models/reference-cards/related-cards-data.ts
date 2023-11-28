@@ -1664,7 +1664,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.SylvanasTheAccused]: [CardIds.SylvanasTheAccused_SylvanasTheAccusedToken],
 	[CardIds.DreadlichTamsin_FelRiftToken]: [CardIds.DreadlichTamsin_DreadImpToken],
 	[CardIds.SpiritPoacher_StagSpiritWildseedToken]: [CardIds.SpiritPoacher_StagpointWildbowToken],
-	[CardIds.ScrapmetalDemolitionistTavernBrawl]: [CardIds.Bomb],
+	[CardIds.ScrapmetalDemolitionistTavernBrawl]: [CardIds.SeaforiumBomber_BombToken],
 	[CardIds.ShadowWordVoidTavernBrawl]: [CardIds.CallOfMadness_VoidfiendTavernBrawl],
 	[CardIds.SeaSummoning]: [CardIds.SeaSummoning_GlowfishToken],
 	[CardIds.ExploreTheSeas]: [CardIds.DangerousWaters, CardIds.NoTurningBack, CardIds.ExplorersSceptor],
