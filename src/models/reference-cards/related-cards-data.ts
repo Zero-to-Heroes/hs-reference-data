@@ -120,14 +120,15 @@ const PLAGUES = [
 	CardIds.DistressedKvaldir_UnholyPlagueToken,
 	CardIds.InfectedPeasant_UndeadPeasantToken_RLK_070t,
 ];
+// Order = rainbow colors
 const SPARKBOTS = [
-	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t,
-	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t1,
 	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t2,
-	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t3,
-	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t4,
-	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t5,
+	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t1,
+	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t,
 	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t6,
+	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t5,
+	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t4,
+	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t3,
 	CardIds.FromTheScrapheap_SparkbotToken_TTN_719t7,
 ];
 const EXCAVATE_TREASURES = [...EXCAVATE_TREASURE_1_IDS, ...EXCAVATE_TREASURE_2_IDS, ...EXCAVATE_TREASURE_3_IDS];
