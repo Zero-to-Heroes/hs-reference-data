@@ -508,6 +508,12 @@ export const getHeroPower = (
 			return CardIds.Diablo_RealmOfTerror;
 		case CardIds.ThorimStormlord_BG27_HERO_801:
 			return CardIds.ThorimStormlord_ChooseYourChampion_BG27_HERO_801p2;
+		case CardIds.SnakeEyes_BG28_HERO_400:
+			return CardIds.SnakeEyes_LuckyRoll_BG28_HERO_400p;
+		case CardIds.TaethelanBloodwatcher_BG28_HERO_800:
+			return CardIds.TaethelanBloodwatcher_ReliquaryResearch_BG28_HERO_800p;
+		case CardIds.DoctorHollidae_BG28_HERO_801:
+			return CardIds.DoctorHollidae_BlessingOfTheNineFrogs_BG28_HERO_801p;
 
 		case '':
 			return null; // new heroes
