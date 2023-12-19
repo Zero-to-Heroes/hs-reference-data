@@ -708,7 +708,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.CloakOfEmeraldDreamsTavernBrawl]: DREAM_CARDS,
 	[CardIds.PartyReplacementTavernBrawl]: ADVENTURER_TOKENS,
 	[CardIds.DraconicDreamTavernBrawl]: [CardIds.YseraUnleashed_DreamPortalToken],
-	[CardIds.GlacialDownpourTavernBrawl]: [CardIds.WaterElementalLegacy],
+	[CardIds.GlacialDownpourTavernBrawl]: [CardIds.GlacialDownpour_WaterElementalTavernBrawl],
 	[CardIds.ImpCredibleTrousersTavernBrawl]: [CardIds.DreadlichTamsin_FelRiftToken],
 	[CardIds.Ogremancer]: [CardIds.Ogremancer_RisenSkeletonToken],
 	[CardIds.TotemGoliath]: TOTEMS,
