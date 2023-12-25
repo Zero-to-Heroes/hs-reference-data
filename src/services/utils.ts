@@ -19,7 +19,7 @@ async function httpWithRetries(request: string, retriesLeft = 1, timeBetweenRetr
 	let result = null;
 	try {
 		result = await http(request);
-		console.log('loaded cards', result?.length);
+		// console.log('loaded cards', result?.length);
 	} catch (e) {
 		console.warn('Exception while getting cards', e);
 	}
@@ -56,4 +56,4 @@ async function sleep(ms) {
 	return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-export { partitionArray, http, httpWithRetries, sleep };
+export { http, httpWithRetries, partitionArray, sleep };

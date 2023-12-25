@@ -56,7 +56,7 @@ export class AllCardsService {
 			if (!allCards?.length) {
 				console.error('[all-cards] could not load cards', baseUrl, version, allCards);
 			} else {
-				console.log('[all-cards] retrieved all cards', allCards?.length);
+				// console.log('[all-cards] retrieved all cards', allCards?.length);
 				for (const card of allCards) {
 					if (card.id) {
 						this.cache[card.id] = card;
