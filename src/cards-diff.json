@@ -1,1516 +1,862 @@
 [
 	{
-		"dbfId": 59491,
-		"id": "TB_BaconUps_064",
-		"name": "Coldlight Seer",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Legacy",
+		"dbfId": 56873,
+		"id": "BT_427",
+		"name": "Feast of Souls",
+		"type": "Spell",
+		"cardClass": "DEMONHUNTER",
+		"playerClass": "Demonhunter",
+		"set": "Demon_hunter_initiate",
+		"rarity": "Rare",
+		"cost": 1,
+		"spellSchool": "SHADOW",
+		"text": "Draw a card for each friendly minion that died this turn. <i>(0)</i>"
+	},
+	{
+		"dbfId": 69590,
+		"id": "CORE_BT_427",
+		"name": "Feast of Souls",
+		"type": "Spell",
+		"cardClass": "DEMONHUNTER",
+		"playerClass": "Demonhunter",
+		"set": "Core",
+		"rarity": "Rare",
+		"cost": 1,
+		"spellSchool": "SHADOW",
+		"text": "Draw a card for each friendly minion that died this turn. <i>(0)</i>"
+	},
+	{
+		"dbfId": 90534,
+		"id": "ETC_528",
+		"name": "Lightshow",
+		"type": "Spell",
+		"cardClass": "MAGE",
+		"playerClass": "Mage",
+		"set": "Battle_of_the_bands",
 		"rarity": "Rare",
 		"cost": 3,
-		"race": "MURLOC",
-		"races": [
-			"MURLOC"
-		],
-		"techLevel": 2,
-		"attack": 4,
-		"health": 6,
-		"text": "<b>Battlecry:</b> Give your other Murlocs +4 Health."
+		"spellSchool": "ARCANE",
+		"text": "[x]Shoot 0 beams at enemies\nthat each deal $2 damage.\nYour future Lightshows\nshoot one more beam."
 	},
 	{
-		"dbfId": 59937,
-		"id": "BGS_014",
-		"name": "Imprisoner",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"race": "DEMON",
-		"races": [
-			"DEMON"
-		],
-		"techLevel": 1,
-		"attack": 3,
-		"health": 2,
-		"text": "<b>Taunt</b>\n<b>Deathrattle:</b> Summon a 1/1 Imp."
+		"dbfId": 90724,
+		"id": "LT23_029E2_01",
+		"name": "Blinding Gauntlets 1",
+		"type": "Lettuce_ability",
+		"set": "Lettuce",
+		"text": "Holy Judgment <b>Combo</b> also gives the enemy -4 Attack permanently."
 	},
 	{
-		"dbfId": 60247,
-		"id": "BGS_030",
-		"name": "King Bagurgle",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"rarity": "Legendary",
-		"cost": 6,
-		"race": "MURLOC",
-		"races": [
-			"MURLOC"
-		],
-		"techLevel": 5,
-		"attack": 6,
-		"health": 3,
-		"text": "<b>Battlecry:</b> Give your other Murlocs +3/+3."
+		"dbfId": 90729,
+		"id": "LT23_029E2_02",
+		"name": "Blinding Gauntlets 2",
+		"type": "Lettuce_ability",
+		"set": "Lettuce",
+		"text": "Holy Judgment <b>Combo</b> also gives the enemy -4 Attack permanently."
 	},
 	{
-		"dbfId": 60285,
-		"id": "TB_BaconShop_HP_049",
-		"name": "Graveyard Shift",
-		"type": "Hero_power",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]Steal a card from the\n Tavern. Take damage\nequal to its Tier."
-	},
-	{
-		"dbfId": 60396,
-		"id": "TB_BaconUps_100",
-		"name": "King Bagurgle",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"rarity": "Legendary",
-		"cost": 6,
-		"race": "MURLOC",
-		"races": [
-			"MURLOC"
-		],
-		"techLevel": 5,
-		"attack": 12,
-		"health": 6,
-		"text": "<b>Battlecry:</b> Give your other Murlocs +6/+6."
-	},
-	{
-		"dbfId": 60676,
-		"id": "TB_BaconUps_113",
-		"name": "Imprisoner",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"race": "DEMON",
-		"races": [
-			"DEMON"
-		],
-		"techLevel": 1,
-		"attack": 6,
-		"health": 4,
-		"text": "<b>Taunt</b>\n<b>Deathrattle:</b> Summon a 2/2 Imp."
-	},
-	{
-		"dbfId": 61934,
-		"id": "TB_BaconUps_124",
-		"name": "Felfin Navigator",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Black_temple",
-		"rarity": "Common",
-		"cost": 4,
-		"race": "MURLOC",
-		"races": [
-			"MURLOC"
-		],
-		"attack": 8,
-		"health": 8,
-		"text": "<b>Battlecry:</b> Give your other Murlocs +2/+2."
-	},
-	{
-		"dbfId": 67213,
-		"id": "TB_BaconShop_HP_105t",
-		"name": "Fish of N'Zoth",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"rarity": "Legendary",
+		"dbfId": 102055,
+		"id": "WW_395t",
+		"name": "Bottled Springwater",
+		"type": "Spell",
+		"cardClass": "PRIEST",
+		"playerClass": "Priest",
+		"set": "Wild_west",
 		"cost": 1,
-		"race": "BEAST",
-		"races": [
-			"BEAST"
-		],
-		"attack": 2,
-		"health": 2,
-		"text": "[x]After a friendly <b>Deathrattle</b>\nminion dies in combat,\ngain its <b>Deathrattle</b>."
+		"spellSchool": "HOLY",
+		"text": "Restore the excess Health."
 	},
 	{
-		"dbfId": 67216,
-		"id": "TB_BaconUps_307",
-		"name": "Fish of N'Zoth",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"rarity": "Legendary",
-		"cost": 1,
-		"race": "BEAST",
-		"races": [
-			"BEAST"
-		],
-		"attack": 4,
-		"health": 4,
-		"text": "[x]After a friendly <b>Deathrattle</b>\nminion dies in combat, gain\nits <b>Deathrattle</b> twice."
-	},
-	{
-		"dbfId": 72072,
-		"id": "BG21_013",
-		"name": "Whelp Smuggler",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"techLevel": 2,
-		"attack": 2,
-		"health": 3,
-		"text": "After a friendly Dragon gains Attack, give it +1 Health."
-	},
-	{
-		"dbfId": 73546,
-		"id": "BG21_013_G",
-		"name": "Whelp Smuggler",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"techLevel": 2,
-		"attack": 4,
-		"health": 6,
-		"text": "After a friendly Dragon gains Attack, give it +2 Health."
-	},
-	{
-		"dbfId": 78747,
-		"id": "TB_BaconShop_HP_105t_SKIN_A",
-		"name": "Cattlecarp of N'Zoth",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"rarity": "Legendary",
-		"cost": 1,
-		"race": "BEAST",
-		"races": [
-			"BEAST"
-		],
-		"attack": 2,
-		"health": 2,
-		"text": "[x]After a friendly <b>Deathrattle</b>\nminion dies in combat,\ngain its <b>Deathrattle</b>."
-	},
-	{
-		"dbfId": 80820,
-		"id": "RLK_504",
-		"name": "Corpse Bride",
-		"type": "Minion",
-		"cardClass": "DEATHKNIGHT",
-		"playerClass": "Deathknight",
-		"set": "Path_of_arthas",
+		"dbfId": 102149,
+		"id": "DEEP_000",
+		"name": "Summoning Ward",
+		"type": "Spell",
+		"cardClass": "MAGE",
+		"playerClass": "Mage",
+		"set": "Wild_west",
 		"rarity": "Rare",
-		"cost": 5,
-		"race": "UNDEAD",
-		"races": [
-			"UNDEAD"
-		],
-		"attack": 4,
-		"health": 4,
-		"text": "[x]<b>Battlecry:</b> Spend up to 10\n <b>Corpses</b> to summon a Risen \nGroom with <b>Taunt</b> and that\n much Attack and Health."
+		"cost": 3,
+		"text": "[x]<b>Secret:</b> When your turn\nstarts, summon a copy of\nyour highest Cost minion."
 	},
 	{
-		"dbfId": 80831,
-		"id": "RLK_506t",
-		"name": "Risen Groom",
-		"type": "Minion",
-		"cardClass": "DEATHKNIGHT",
-		"playerClass": "Deathknight",
-		"set": "Path_of_arthas",
-		"cost": 1,
-		"race": "UNDEAD",
-		"races": [
-			"UNDEAD"
-		],
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Taunt</b>. <i>Doesn't leave a <b>Corpse</b>.</i>"
+		"dbfId": 102151,
+		"id": "DEEP_001",
+		"name": "Mismatched Fossils",
+		"type": "Spell",
+		"cardClass": "HUNTER",
+		"playerClass": "Hunter",
+		"set": "Wild_west",
+		"rarity": "Rare",
+		"cost": 3,
+		"text": "<b>Discover</b> a Beast\nand an Undead.\nSwap their stats."
 	},
 	{
-		"dbfId": 85035,
-		"id": "RLK_548",
-		"name": "Arcane Wyrm",
+		"dbfId": 102152,
+		"id": "DEEP_002",
+		"name": "Elemental Companion",
+		"type": "Spell",
+		"cardClass": "MAGE",
+		"playerClass": "Mage",
+		"set": "Wild_west",
+		"rarity": "Rare",
+		"cost": 3,
+		"text": "Summon a random Elemental Companion."
+	},
+	{
+		"dbfId": 102153,
+		"id": "DEEP_002t",
+		"name": "Hiffar",
 		"type": "Minion",
 		"cardClass": "MAGE",
 		"playerClass": "Mage",
-		"set": "Return_of_the_lich_king",
-		"rarity": "Common",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Battlecry:</b> Add an Arcane Bolt to your hand."
-	},
-	{
-		"dbfId": 86779,
-		"id": "BG22_401",
-		"name": "Swampstriker",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"race": "MURLOC",
-		"races": [
-			"MURLOC"
-		],
-		"techLevel": 1,
-		"attack": 1,
-		"health": 5,
-		"text": "After you summon a Murloc, gain +1 Attack."
-	},
-	{
-		"dbfId": 86781,
-		"id": "BG22_401_G",
-		"name": "Swampstriker",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"race": "MURLOC",
-		"races": [
-			"MURLOC"
-		],
-		"techLevel": 1,
-		"attack": 2,
-		"health": 10,
-		"text": "After you summon a Murloc, gain +2 Attack."
-	},
-	{
-		"dbfId": 92397,
-		"id": "BG24_003",
-		"name": "Nether Drake",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"race": "DRAGON",
-		"races": [
-			"DRAGON"
-		],
-		"techLevel": 3,
-		"attack": 2,
-		"health": 4,
-		"text": "At the end of your turn, give your other Dragons +1 Attack."
-	},
-	{
-		"dbfId": 92421,
-		"id": "BG24_003_G",
-		"name": "Nether Drake",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"race": "DRAGON",
-		"races": [
-			"DRAGON"
-		],
-		"techLevel": 3,
-		"attack": 4,
-		"health": 8,
-		"text": "At the end of your turn, give your other Dragons +2 Attack."
-	},
-	{
-		"dbfId": 95267,
-		"id": "BG25_011",
-		"name": "Nerubian Deathswarmer",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"race": "UNDEAD",
-		"races": [
-			"UNDEAD"
-		],
-		"techLevel": 2,
-		"attack": 1,
-		"health": 4,
-		"text": "[x]<b>Battlecry:</b> Your Undead\nhave +1 Attack this game\n<i>(wherever they are)</i>."
-	},
-	{
-		"dbfId": 95268,
-		"id": "BG25_011_G",
-		"name": "Nerubian Deathswarmer",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"race": "UNDEAD",
-		"races": [
-			"UNDEAD"
-		],
-		"techLevel": 2,
-		"attack": 2,
-		"health": 8,
-		"text": "[x]<b>Battlecry:</b> Your Undead\nhave +2 Attack this game\n<i>(wherever they are)</i>."
-	},
-	{
-		"dbfId": 96167,
-		"id": "BG25_309",
-		"name": "General Drakkisath",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"rarity": "Legendary",
-		"cost": 5,
-		"race": "DRAGON",
-		"races": [
-			"DRAGON"
-		],
-		"techLevel": 5,
-		"attack": 2,
-		"health": 8,
-		"text": "[x]<b>Battlecry:</b> Get a 2/1\nSmolderwing with\n\"<b>Battlecry:</b> Give a\nDragon +5 Attack.\""
-	},
-	{
-		"dbfId": 96174,
-		"id": "BG25_309_G",
-		"name": "General Drakkisath",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"rarity": "Legendary",
-		"cost": 5,
-		"race": "DRAGON",
-		"races": [
-			"DRAGON"
-		],
-		"techLevel": 5,
-		"attack": 4,
-		"health": 16,
-		"text": "[x]<b>Battlecry:</b> Get two 2/1\nSmolderwings with\n\"<b>Battlecry:</b> Give a\nDragon +5 Attack.\""
-	},
-	{
-		"dbfId": 96710,
-		"id": "TTN_415",
-		"name": "Khaz'goroth",
-		"type": "Minion",
-		"cardClass": "WARRIOR",
-		"playerClass": "Warrior",
-		"set": "Titans",
-		"rarity": "Legendary",
-		"cost": 6,
-		"attack": 4,
-		"health": 5,
-		"text": "[x]<b>Titan</b>\nAfter this uses an ability, gain\n<b>Immune</b> this turn and attack a\nrandom enemy minion."
-	},
-	{
-		"dbfId": 96773,
-		"id": "BG_EX1_103",
-		"name": "Coldlight Seer",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Legacy",
-		"rarity": "Rare",
+		"set": "Wild_west",
 		"cost": 3,
-		"race": "MURLOC",
+		"race": "ELEMENTAL",
 		"races": [
-			"MURLOC"
+			"ELEMENTAL"
 		],
-		"techLevel": 2,
+		"attack": 4,
+		"health": 2,
+		"text": "Your spells cost (1) less."
+	},
+	{
+		"dbfId": 102154,
+		"id": "DEEP_002t2",
+		"name": "Luekk",
+		"type": "Minion",
+		"cardClass": "MAGE",
+		"playerClass": "Mage",
+		"set": "Wild_west",
+		"cost": 3,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
 		"attack": 2,
-		"health": 3,
-		"text": "<b>Battlecry:</b> Give your other Murlocs +2 Health."
+		"health": 4,
+		"text": "<b>Spell Damage +2</b>"
 	},
 	{
-		"dbfId": 96776,
-		"id": "BG_BT_010",
-		"name": "Felfin Navigator",
+		"dbfId": 102155,
+		"id": "DEEP_002t3",
+		"name": "Me'sho",
 		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Black_temple",
-		"rarity": "Common",
-		"cost": 4,
-		"race": "MURLOC",
+		"cardClass": "MAGE",
+		"playerClass": "Mage",
+		"set": "Wild_west",
+		"cost": 3,
+		"race": "ELEMENTAL",
 		"races": [
-			"MURLOC"
+			"ELEMENTAL"
 		],
 		"attack": 4,
 		"health": 4,
-		"text": "<b>Battlecry:</b> Give your other Murlocs +1/+1."
+		"text": "Can't be targeted by spells or Hero Powers."
 	},
 	{
-		"dbfId": 97481,
-		"id": "TB_BaconShop_HP_105t_SKIN_A_G",
-		"name": "Cattlecarp of N'Zoth",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"rarity": "Legendary",
-		"cost": 1,
-		"race": "BEAST",
-		"races": [
-			"BEAST"
-		],
-		"attack": 4,
-		"health": 4,
-		"text": "[x]After a friendly <b>Deathrattle</b>\nminion dies in combat, gain\nits <b>Deathrattle</b> twice."
-	},
-	{
-		"dbfId": 97532,
-		"id": "ETC_210",
-		"name": "Climactic Necrotic Explosion",
+		"dbfId": 102158,
+		"id": "DEEP_003",
+		"name": "Shimmer Shot",
 		"type": "Spell",
-		"cardClass": "DEATHKNIGHT",
-		"playerClass": "Deathknight",
-		"set": "Battle_of_the_bands",
-		"rarity": "Legendary",
-		"cost": 10,
-		"additionalCosts": {
-			"BLOODRUNE": 1,
-			"FROSTRUNE": 1,
-			"UNHOLYRUNE": 1
-		},
-		"text": "[x]<b>Lifesteal</b>. Deal $6 damage.\nSummon 3 {2}/{3} Souls.\n<i>(Randomly improved by\n<b>Corpses</b> you've spent)</i>"
+		"cardClass": "HUNTER",
+		"playerClass": "Hunter",
+		"set": "Wild_west",
+		"rarity": "Common",
+		"cost": 1,
+		"spellSchool": "ARCANE",
+		"text": "Deal $1 damage. Summon a random minion of that Cost."
 	},
 	{
-		"dbfId": 98223,
-		"id": "TTN_481",
-		"name": "Ra-den",
+		"dbfId": 102160,
+		"id": "DEEP_004",
+		"name": "Mantle Shaper",
 		"type": "Minion",
-		"cardClass": "PRIEST",
-		"playerClass": "Priest",
-		"set": "Titans",
-		"rarity": "Legendary",
-		"cost": 6,
+		"cardClass": "MAGE",
+		"playerClass": "Mage",
+		"set": "Wild_west",
+		"rarity": "Common",
+		"cost": 5,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL",
+			"NAGA"
+		],
 		"attack": 5,
 		"health": 5,
-		"text": "<b>Taunt</b>. <b>Deathrattle:</b> Summon each other minion you've played this game that didn't start in your deck."
+		"text": "Costs (1) less for\neach spell you've cast while holding this."
 	},
 	{
-		"dbfId": 98588,
-		"id": "BG26_152",
-		"name": "Utility Drone",
+		"dbfId": 102161,
+		"id": "DEEP_005",
+		"name": "Obsidian Revenant",
 		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 5,
-		"race": "MECH",
+		"cardClass": "HUNTER",
+		"playerClass": "Hunter",
+		"set": "Wild_west",
+		"rarity": "Common",
+		"cost": 6,
+		"race": "ELEMENTAL",
 		"races": [
-			"MECH"
+			"ELEMENTAL"
 		],
-		"techLevel": 5,
 		"attack": 4,
-		"health": 5,
-		"text": "[x]At the end of your turn,\ngive your minions +2/+1\nfor each <b>Magnetization</b>\nthey have."
+		"health": 6,
+		"text": "[x]<b>Taunt</b>\n<b>Deathrattle</b>: Summon two\nrandom <b>Deathrattle</b> minions\nthat cost (3) or less."
 	},
 	{
-		"dbfId": 98591,
-		"id": "BG26_152_G",
-		"name": "Utility Drone",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 5,
-		"race": "MECH",
-		"races": [
-			"MECH"
-		],
-		"techLevel": 5,
-		"attack": 8,
-		"health": 10,
-		"text": "[x]At the end of your turn,\ngive your minions +4/+2\nfor each <b>Magnetization</b>\nthey have."
-	},
-	{
-		"dbfId": 98701,
-		"id": "WW_900",
-		"name": "Horseshoe Slinger",
+		"dbfId": 102162,
+		"id": "DEEP_006",
+		"name": "Stone Drake",
 		"type": "Minion",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
 		"set": "Wild_west",
 		"rarity": "Common",
-		"cost": 2,
-		"race": "MECH",
+		"cost": 6,
+		"race": "DRAGON",
 		"races": [
-			"MECH"
+			"DRAGON",
+			"ELEMENTAL"
 		],
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Battlecry:</b> Deal 2 damage to a random enemy minion.\n<b>Quickdraw:</b> And one of its neighbors."
-	},
-	{
-		"dbfId": 98880,
-		"id": "BG26_501",
-		"name": "Reef Riffer",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"race": "NAGA",
-		"races": [
-			"NAGA"
-		],
-		"techLevel": 2,
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Spellcraft:</b> Give a minion stats equal to your Tier until next turn."
-	},
-	{
-		"dbfId": 98882,
-		"id": "BG26_501_G",
-		"name": "Reef Riffer",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"race": "NAGA",
-		"races": [
-			"NAGA"
-		],
-		"techLevel": 2,
 		"attack": 2,
-		"health": 2,
-		"text": "[x]<b>Spellcraft:</b> Give a minion\nstats equal to twice your\n Tier until next turn."
-	},
-	{
-		"dbfId": 98930,
-		"id": "BG26_159",
-		"name": "Moon-Bacon Jazzer",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"race": "QUILBOAR",
-		"races": [
-			"QUILBOAR"
-		],
-		"techLevel": 2,
-		"attack": 1,
-		"health": 3,
-		"text": "[x]<b>Battlecry:</b> Your <b>Blood\nGems</b> give an extra\n+1 Health this game."
-	},
-	{
-		"dbfId": 98934,
-		"id": "BG26_159_G",
-		"name": "Moon-Bacon Jazzer",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"race": "QUILBOAR",
-		"races": [
-			"QUILBOAR"
-		],
-		"techLevel": 2,
-		"attack": 2,
-		"health": 6,
-		"text": "[x]<b>Battlecry:</b> Your <b>Blood\nGems</b> give an extra\n+2 Health this game."
-	},
-	{
-		"dbfId": 98939,
-		"id": "BG26_805",
-		"name": "Humming Bird",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"race": "BEAST",
-		"races": [
-			"BEAST"
-		],
-		"techLevel": 2,
-		"attack": 2,
-		"health": 4,
-		"text": "Your other Beasts have\n+2 Attack."
-	},
-	{
-		"dbfId": 98941,
-		"id": "BG26_805_G",
-		"name": "Humming Bird",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"race": "BEAST",
-		"races": [
-			"BEAST"
-		],
-		"techLevel": 2,
-		"attack": 4,
 		"health": 8,
-		"text": "Your other Beasts have\n+4 Attack."
+		"text": "<b>Divine Shield</b>,\n<b>Taunt</b>, <b>Lifesteal</b>\nCan't be targeted by\nspells or Hero Powers."
 	},
 	{
-		"dbfId": 99232,
-		"id": "BG26_525",
-		"name": "Imposing Percussionist",
+		"dbfId": 102163,
+		"id": "DEEP_007",
+		"name": "Sir Finley, the Intrepid",
 		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 5,
-		"race": "DEMON",
-		"races": [
-			"DEMON"
-		],
-		"techLevel": 5,
-		"attack": 6,
-		"health": 6,
-		"text": "[x]<b>Battlecry: Discover</b>\na Demon. Deal damage\nto your hero equal\nto its Tier."
-	},
-	{
-		"dbfId": 99233,
-		"id": "BG26_525_G",
-		"name": "Imposing Percussionist",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 5,
-		"race": "DEMON",
-		"races": [
-			"DEMON"
-		],
-		"techLevel": 5,
-		"attack": 12,
-		"health": 12,
-		"text": "[x]<b>Battlecry: Discover</b>\n2 Demons. Deal damage\nto your hero equal to\ntheir Tiers."
-	},
-	{
-		"dbfId": 100121,
-		"id": "WW_336",
-		"name": "Prismatic Beam",
-		"type": "Spell",
 		"cardClass": "PALADIN",
 		"playerClass": "Paladin",
 		"set": "Wild_west",
-		"rarity": "Common",
-		"cost": 8,
-		"text": "Deal $3 damage to all enemy minions.\nCosts (1) less for each\nenemy minion."
+		"rarity": "Legendary",
+		"cost": 3,
+		"race": "MURLOC",
+		"races": [
+			"MURLOC"
+		],
+		"attack": 2,
+		"health": 3,
+		"text": "[x]<b>Battlecry</b>: If you've <b>Excavated</b>\ntwice, transform all enemy\nminions into 1/1 Murlocs."
 	},
 	{
-		"dbfId": 100619,
-		"id": "WW_357",
-		"name": "Maw and Paw",
+		"dbfId": 102172,
+		"id": "DEEP_008",
+		"name": "Needlerock Totem",
 		"type": "Minion",
+		"cardClass": "SHAMAN",
+		"playerClass": "Shaman",
+		"set": "Wild_west",
+		"rarity": "Common",
+		"cost": 2,
+		"race": "TOTEM",
+		"races": [
+			"TOTEM"
+		],
+		"attack": 0,
+		"health": 2,
+		"text": "At the end of your turn, gain 2 Armor and\ndraw a card."
+	},
+	{
+		"dbfId": 102173,
+		"id": "DEEP_009",
+		"name": "Digging Straight Down",
+		"type": "Spell",
+		"cardClass": "SHAMAN",
+		"playerClass": "Shaman",
+		"set": "Wild_west",
+		"rarity": "Common",
+		"cost": 4,
+		"spellSchool": "NATURE",
+		"text": "Deal $8 damage\nto a minion.\n<b>Excavate</b> a treasure."
+	},
+	{
+		"dbfId": 102175,
+		"id": "DEEP_010",
+		"name": "Aftershocks",
+		"type": "Spell",
+		"cardClass": "WARRIOR",
+		"playerClass": "Warrior",
+		"set": "Wild_west",
+		"rarity": "Rare",
+		"cost": 4,
+		"spellSchool": "NATURE",
+		"text": "Deal $1 damage to all minions, three times. Costs (2) less if you cast a spell last turn."
+	},
+	{
+		"dbfId": 102249,
+		"id": "DEEP_011",
+		"name": "Burning Heart",
+		"type": "Spell",
+		"cardClass": "WARRIOR",
+		"playerClass": "Warrior",
+		"set": "Wild_west",
+		"rarity": "Common",
+		"cost": 1,
+		"spellSchool": "FIRE",
+		"text": "Deal $2 damage to a minion. If it survives, give your hero +3 Attack this turn."
+	},
+	{
+		"dbfId": 102250,
+		"id": "DEEP_012",
+		"name": "Shadestone Skulker",
+		"type": "Minion",
+		"cardClass": "DEMONHUNTER",
+		"playerClass": "Demonhunter",
+		"set": "Wild_west",
+		"rarity": "Rare",
+		"cost": 1,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
+		"attack": 1,
+		"health": 1,
+		"text": "[x]<b>Rush</b>. <b>Battlecry:</b> Take your\n weapon and gain its stats. \n<b>Deathrattle:</b> Give it back."
+	},
+	{
+		"dbfId": 102252,
+		"id": "DEEP_013",
+		"name": "Fel Fissure",
+		"type": "Spell",
+		"cardClass": "DEMONHUNTER",
+		"playerClass": "Demonhunter",
+		"set": "Wild_west",
+		"rarity": "Rare",
+		"cost": 4,
+		"spellSchool": "FEL",
+		"text": "Deal $2 damage to all minions. At the start of your next turn, deal $2 more damage to all minions."
+	},
+	{
+		"dbfId": 102254,
+		"id": "DEEP_014",
+		"name": "Quick Pick",
+		"type": "Weapon",
+		"cardClass": "ROGUE",
+		"playerClass": "Rogue",
+		"set": "Wild_west",
+		"rarity": "Common",
+		"cost": 2,
+		"attack": 1,
+		"durability": 2,
+		"text": "After your hero attacks, draw a card."
+	},
+	{
+		"dbfId": 102418,
+		"id": "DEEP_017",
+		"name": "Mining Casualties",
+		"type": "Spell",
 		"cardClass": "DEATHKNIGHT",
 		"playerClass": "Deathknight",
 		"set": "Wild_west",
-		"rarity": "Legendary",
-		"cost": 4,
-		"additionalCosts": {
-			"BLOODRUNE": 1,
-			"UNHOLYRUNE": 1
-		},
-		"race": "UNDEAD",
-		"races": [
-			"UNDEAD"
-		],
-		"attack": 2,
-		"health": 8,
-		"text": "[x]At the end of your turn, gain\n5 <b>Corpses</b>. At the start of your\nturn, spend 5 <b>Corpses</b> to give\nyour hero +5 Health."
+		"rarity": "Common",
+		"cost": 2,
+		"text": "Summon two 1/1 Silver Hand Recruits with \"<b>Deathrattle:</b> Summon\na 1/1 Frail Ghoul\"."
 	},
 	{
-		"dbfId": 100943,
-		"id": "WW_416",
-		"name": "Shell Game",
+		"dbfId": 102421,
+		"id": "DEEP_022",
+		"name": "Fool's Gold",
 		"type": "Spell",
 		"cardClass": "ROGUE",
 		"playerClass": "Rogue",
 		"set": "Wild_west",
 		"rarity": "Rare",
-		"cost": 2,
-		"text": "[x]Get a random Epic,\nRare, and Common card\nfrom other classes."
+		"cost": 1,
+		"text": "Get a random Golden Pirate and Elemental from other classes."
 	},
 	{
-		"dbfId": 100963,
-		"id": "WW_044t",
-		"name": "Barrel of Sludge",
-		"type": "Spell",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
+		"dbfId": 102422,
+		"id": "DEEP_023",
+		"name": "Hidden Gem",
+		"type": "Minion",
+		"cardClass": "PRIEST",
+		"playerClass": "Priest",
 		"set": "Wild_west",
-		"cost": 3,
-		"spellSchool": "FEL",
-		"text": "When this is played, discarded, or destroyed, deal $4 damage to the lowest Health enemy."
-	},
-	{
-		"dbfId": 100997,
-		"id": "BG26_157",
-		"name": "Bristlebach",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"rarity": "Legendary",
-		"cost": 6,
-		"race": "QUILBOAR",
+		"rarity": "Common",
+		"cost": 2,
+		"race": "ELEMENTAL",
 		"races": [
-			"QUILBOAR"
+			"ELEMENTAL"
 		],
-		"techLevel": 6,
-		"attack": 3,
-		"health": 10,
-		"text": "<b>Avenge (2):</b> Play 2 <b>Blood Gems</b> on all your Quilboar."
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Stealth</b>\nAt the end of your turn, restore #2 Health to all friendly characters."
 	},
 	{
-		"dbfId": 100999,
-		"id": "BG26_157_G",
-		"name": "Bristlebach",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"rarity": "Legendary",
-		"cost": 6,
-		"race": "QUILBOAR",
-		"races": [
-			"QUILBOAR"
-		],
-		"techLevel": 6,
-		"attack": 6,
-		"health": 20,
-		"text": "<b>Avenge (2):</b> Play 4 <b>Blood Gems</b> on all your Quilboar."
-	},
-	{
-		"dbfId": 101006,
-		"id": "YOG_509",
-		"name": "Keeper's Strength",
+		"dbfId": 102423,
+		"id": "DEEP_025",
+		"name": "Shattered Reflections",
 		"type": "Spell",
-		"cardClass": "PALADIN",
-		"playerClass": "Paladin",
-		"set": "Ulduar",
+		"cardClass": "PRIEST",
+		"playerClass": "Priest",
+		"set": "Wild_west",
 		"rarity": "Rare",
 		"cost": 5,
-		"spellSchool": "HOLY",
-		"text": "Give a friendly minion +2/+2. Deal\nits Attack damage to\nall other minions."
+		"text": "Choose a minion.\nAdd a copy to your hand,\ndeck, and battlefield."
 	},
 	{
-		"dbfId": 101051,
-		"id": "WW_819",
-		"name": "Splish-Splash Whelp",
+		"dbfId": 102424,
+		"id": "DEEP_024",
+		"name": "Glowstone Gyreworm",
+		"type": "Minion",
+		"cardClass": "PRIEST",
+		"playerClass": "Priest",
+		"set": "Wild_west",
+		"rarity": "Rare",
+		"cost": 4,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b><b>Lifesteal</b>\nQuickdraw:</b> Deal 5 damage.\n<b>Forge:</b> Change <b>Quickdraw</b>\nto <b>Battlecry</b>."
+	},
+	{
+		"dbfId": 102425,
+		"id": "DEEP_024t",
+		"name": "Glowstone Gyreworm",
+		"type": "Minion",
+		"cardClass": "PRIEST",
+		"playerClass": "Priest",
+		"set": "Wild_west",
+		"rarity": "Rare",
+		"cost": 4,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Forged</b>, <b>Lifesteal</b>\n<b>Battlecry:</b> Deal 5 damage."
+	},
+	{
+		"dbfId": 102426,
+		"id": "DEEP_026",
+		"name": "Pendant of Earth",
+		"type": "Spell",
+		"cardClass": "PRIEST",
+		"playerClass": "Priest",
+		"set": "Wild_west",
+		"rarity": "Common",
+		"cost": 3,
+		"spellSchool": "NATURE",
+		"text": "<b>Discover</b> a minion from your deck. Gain Armor equal to its Cost."
+	},
+	{
+		"dbfId": 102427,
+		"id": "DEEP_027",
+		"name": "Gloomstone Guardian",
 		"type": "Minion",
 		"cardClass": "DRUID",
 		"playerClass": "Druid",
 		"set": "Wild_west",
 		"rarity": "Rare",
-		"cost": 2,
-		"race": "DRAGON",
+		"cost": 4,
+		"race": "ELEMENTAL",
 		"races": [
-			"DRAGON"
+			"ELEMENTAL"
 		],
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Battlecry:</b> If you're holding a Dragon, gain an empty Mana Crystal."
+		"attack": 6,
+		"health": 8,
+		"text": "[x]<b>Taunt</b>. <b>Choose One -</b>\nDiscard 2 cards; or Destroy\none of your Mana Crystals.\n<b>Forge:</b> Do NEITHER."
 	},
 	{
-		"dbfId": 101134,
-		"id": "WW_364",
-		"name": "Velarok Windblade",
-		"type": "Minion",
-		"cardClass": "ROGUE",
-		"playerClass": "Rogue",
+		"dbfId": 102428,
+		"id": "DEEP_027a",
+		"name": "Splintered Form",
+		"type": "Spell",
+		"cardClass": "DRUID",
+		"playerClass": "Druid",
 		"set": "Wild_west",
-		"rarity": "Legendary",
+		"cost": 4,
+		"text": "Discard 2 cards."
+	},
+	{
+		"dbfId": 102430,
+		"id": "DEEP_027b",
+		"name": "Mana Disintegration",
+		"type": "Spell",
+		"cardClass": "DRUID",
+		"playerClass": "Druid",
+		"set": "Wild_west",
+		"cost": 4,
+		"text": "Destroy one of your Mana Crystals"
+	},
+	{
+		"dbfId": 102431,
+		"id": "DEEP_027t",
+		"name": "Gloomstone Guardian",
+		"type": "Minion",
+		"cardClass": "DRUID",
+		"playerClass": "Druid",
+		"set": "Wild_west",
+		"rarity": "Rare",
+		"cost": 4,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
+		"attack": 6,
+		"health": 8,
+		"text": "<b>Forged</b>\n<b>Taunt</b>"
+	},
+	{
+		"dbfId": 102432,
+		"id": "DEEP_028",
+		"name": "Crystal Cluster",
+		"type": "Spell",
+		"cardClass": "DRUID",
+		"playerClass": "Druid",
+		"set": "Wild_west",
+		"rarity": "Common",
+		"cost": 6,
+		"text": "Gain three empty Mana Crystals. Any that can't fit summon a 3/7 Elemental with <b>Taunt</b>."
+	},
+	{
+		"dbfId": 102433,
+		"id": "DEEP_028t",
+		"name": "Crystal Crusher",
+		"type": "Minion",
+		"cardClass": "DRUID",
+		"playerClass": "Druid",
+		"set": "Wild_west",
+		"cost": 5,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
+		"attack": 3,
+		"health": 7,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"dbfId": 102434,
+		"id": "DEEP_029",
+		"name": "Trogg Gemtosser",
+		"type": "Minion",
+		"cardClass": "DRUID",
+		"playerClass": "Druid",
+		"set": "Wild_west",
+		"rarity": "Common",
 		"cost": 3,
 		"attack": 3,
-		"health": 3,
-		"text": "[x]While this is in your hand,\nplay a card from another\nclass to reveal Velarok's\ntrue form!"
+		"health": 2,
+		"text": "<b>Finale:</b> Deal 1 damage to a random enemy for each of your Mana Crystals."
 	},
 	{
-		"dbfId": 101367,
-		"id": "WW_372",
-		"name": "Boomboss Tho'grun",
+		"dbfId": 102435,
+		"id": "DEEP_030",
+		"name": "Elementium Geode",
 		"type": "Minion",
-		"cardClass": "WARRIOR",
-		"playerClass": "Warrior",
+		"cardClass": "WARLOCK",
+		"playerClass": "Warlock",
 		"set": "Wild_west",
-		"rarity": "Legendary",
-		"cost": 8,
-		"attack": 7,
-		"health": 7,
-		"text": "[x]<b>Battlecry:</b> Shuffle 3 T.N.T. into\nyour deck. When drawn, blow\nup a card in the enemy hand,\ndeck, and board."
+		"rarity": "Rare",
+		"cost": 2,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
+		"attack": 2,
+		"health": 1,
+		"text": "<b>Battlecry and Deathrattle:</b>\nDraw a card. Deal 2 damage to your hero."
 	},
 	{
-		"dbfId": 101454,
-		"id": "WW_375",
-		"name": "Slagmaw the Slumbering",
-		"type": "Minion",
-		"cardClass": "WARRIOR",
-		"playerClass": "Warrior",
+		"dbfId": 102443,
+		"id": "DEEP_031",
+		"name": "Chaos Creation",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"playerClass": "Warlock",
 		"set": "Wild_west",
-		"rarity": "Legendary",
+		"rarity": "Common",
+		"cost": 6,
+		"spellSchool": "FEL",
+		"text": "Deal $6 damage.\nSummon a random 6-Cost\nminion. Destroy the bottom\n6 cards of your deck."
+	},
+	{
+		"dbfId": 102724,
+		"id": "DEEP_032",
+		"name": "Soulfreeze",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"playerClass": "Warlock",
+		"set": "Wild_west",
+		"rarity": "Rare",
+		"cost": 1,
+		"spellSchool": "FROST",
+		"text": "<b>Freeze</b> a minion\nand its neighbors. Deal damage to your hero equal to the number <b>Frozen</b>."
+	},
+	{
+		"dbfId": 102728,
+		"id": "DEEP_033",
+		"name": "Fossilized Kaleidosaur",
+		"type": "Minion",
+		"cardClass": "PALADIN",
+		"playerClass": "Paladin",
+		"set": "Wild_west",
+		"rarity": "Rare",
 		"cost": 4,
 		"race": "BEAST",
 		"races": [
 			"BEAST",
-			"ELEMENTAL"
-		],
-		"attack": 16,
-		"health": 16,
-		"text": "<b>Rush</b>, <b>Taunt</b>\n<b>Dormant</b> for 6 turns.\n<i>(<b>Excavate</b> to awaken 2 turns sooner!)</i>"
-	},
-	{
-		"dbfId": 101978,
-		"id": "WW_826",
-		"name": "Desert Nestmatron",
-		"type": "Minion",
-		"cardClass": "DRUID",
-		"playerClass": "Druid",
-		"set": "Wild_west",
-		"rarity": "Rare",
-		"cost": 4,
-		"race": "DRAGON",
-		"races": [
-			"DRAGON"
+			"UNDEAD"
 		],
 		"attack": 3,
 		"health": 4,
-		"text": "<b>Taunt</b>. <b>Battlecry:</b> If you're holding a Dragon, refresh 4 Mana Crystals."
+		"text": "<b>Battlecry:</b> Gain two\nrandom <b>bonus effects</b>.\n<b>Excavate</b> a treasure."
 	},
 	{
-		"dbfId": 101989,
-		"id": "WW_392",
-		"name": "Elise, Badlands Savior",
+		"dbfId": 102732,
+		"id": "DEEP_034",
+		"name": "Shale Spider",
 		"type": "Minion",
-		"cardClass": "PRIEST",
-		"playerClass": "Priest",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Wild_west",
+		"rarity": "Rare",
+		"cost": 2,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Battlecry:</b> If you played an Elemental last turn, draw a card."
+	},
+	{
+		"dbfId": 102733,
+		"id": "DEEP_035",
+		"name": "Iridescent Gyreworm",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Wild_west",
+		"rarity": "Epic",
+		"cost": 3,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
+		"attack": 4,
+		"health": 3,
+		"text": "<b>Deathrattle:</b> Give each\nof your minions a random <b>bonus effect</b>."
+	},
+	{
+		"dbfId": 102741,
+		"id": "DEEP_037",
+		"name": "Maruut Stonebinder",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
 		"set": "Wild_west",
 		"rarity": "Legendary",
-		"cost": 8,
+		"cost": 7,
 		"attack": 5,
-		"health": 5,
-		"text": "[x]<b>Battlecry:</b> If your deck has\nno duplicates, summon\n5/5 copies of 4 random\nminions in your deck."
+		"health": 6,
+		"text": "[x]<b>Battlecry:</b> If your deck has\nno duplicates, <b>Discover</b> an\n Elemental to summon. Add \nthe others to your hand."
 	},
 	{
-		"dbfId": 102051,
-		"id": "WW_393",
-		"name": "Invasive Shadeleaf",
+		"dbfId": 104523,
+		"id": "DEEP_016",
+		"name": "Quartzite Crusher",
+		"type": "Weapon",
+		"cardClass": "DEATHKNIGHT",
+		"playerClass": "Deathknight",
+		"set": "Wild_west",
+		"rarity": "Common",
+		"cost": 4,
+		"additionalCosts": {
+			"BLOODRUNE": 1,
+			"FROSTRUNE": 1
+		},
+		"attack": 3,
+		"durability": 3,
+		"text": "<b>Lifesteal</b>. <b>Freeze</b> any character damaged by your hero."
+	},
+	{
+		"dbfId": 104524,
+		"id": "DEEP_015",
+		"name": "Prosthetic Hand",
+		"type": "Minion",
+		"cardClass": "DEATHKNIGHT",
+		"playerClass": "Deathknight",
+		"set": "Wild_west",
+		"rarity": "Rare",
+		"cost": 3,
+		"race": "MECH",
+		"races": [
+			"MECH"
+		],
+		"attack": 3,
+		"health": 1,
+		"text": "<b>Magnetic</b>, <b>Reborn</b>\nCan <b>Magnetize</b> to\nMechs or Undead."
+	},
+	{
+		"dbfId": 104526,
+		"id": "DEEP_018",
+		"name": "Shroomscavate",
+		"type": "Spell",
+		"cardClass": "PALADIN",
+		"playerClass": "Paladin",
+		"set": "Wild_west",
+		"rarity": "Common",
+		"cost": 3,
+		"text": "Give a minion <b>Windfury</b> and <b>Divine Shield</b>. <b>Excavate</b> a treasure."
+	},
+	{
+		"dbfId": 104528,
+		"id": "DEEP_020",
+		"name": "Deepminer Brann",
+		"type": "Minion",
+		"cardClass": "WARRIOR",
+		"playerClass": "Warrior",
+		"set": "Wild_west",
+		"rarity": "Legendary",
+		"cost": 6,
+		"attack": 2,
+		"health": 4,
+		"text": "<b>Battlecry:</b> If your deck has no duplicates, your <b>Battlecries</b> trigger twice for the rest of the game."
+	},
+	{
+		"dbfId": 104530,
+		"id": "DEEP_019",
+		"name": "Crimson Expanse",
+		"type": "Location",
+		"cardClass": "WARRIOR",
+		"playerClass": "Warrior",
+		"set": "Wild_west",
+		"rarity": "Common",
+		"cost": 4,
+		"health": 2,
+		"text": "[x]Choose a damaged\nminion. Summon a copy\nof it that goes <b>Dormant</b>\nfor one turn."
+	},
+	{
+		"dbfId": 104537,
+		"id": "DEEP_021",
+		"name": "Shadow Word: Steal",
 		"type": "Spell",
 		"cardClass": "PRIEST",
 		"playerClass": "Priest",
 		"set": "Wild_west",
 		"rarity": "Rare",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "SHADOW",
-		"text": "Deal $10 damage to an enemy minion.\nSave any excess in a\n1-Cost Bottle."
+		"text": "Return an enemy minion to YOUR hand."
 	},
 	{
-		"dbfId": 102052,
-		"id": "WW_394",
-		"name": "Pip the Potent",
+		"dbfId": 104573,
+		"id": "DEEP_036",
+		"name": "Therazane",
 		"type": "Minion",
-		"cardClass": "PRIEST",
-		"playerClass": "Priest",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
 		"set": "Wild_west",
 		"rarity": "Legendary",
-		"cost": 3,
-		"attack": 3,
-		"health": 3,
-		"text": "<b>Battlecry:</b> Copy each\n1-Cost card in your hand."
+		"cost": 7,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
+		"attack": 7,
+		"health": 5,
+		"text": "[x]<b>Taunt</b>\n <b>Deathrattle:</b> Double the\nstats of all Elementals in\nyour hand and deck."
 	},
 	{
-		"dbfId": 102067,
-		"id": "WW_001t23",
-		"name": "The Azerite Scorpion",
+		"dbfId": 104576,
+		"id": "DEEP_999t1",
+		"name": "Heartblossom",
+		"type": "Spell",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Wild_west",
+		"rarity": "Common",
+		"cost": 1,
+		"text": "Give a friendly minion +2/+2. Deal $2 damage to a random enemy minion."
+	},
+	{
+		"dbfId": 104578,
+		"id": "DEEP_999t2",
+		"name": "Deepholm Geode",
 		"type": "Minion",
-		"cardClass": "ROGUE",
-		"playerClass": "Rogue",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Wild_west",
+		"rarity": "Rare",
+		"cost": 2,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
+		"attack": 1,
+		"health": 2,
+		"text": "At the end of your turn, deal 2 damage to all enemies."
+	},
+	{
+		"dbfId": 104579,
+		"id": "DEEP_999t3",
+		"name": "World Pillar Fragment",
+		"type": "Spell",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Wild_west",
+		"rarity": "Epic",
+		"cost": 3,
+		"text": "<b>Discover</b> an Elemental to summon. Add the others to your hand."
+	},
+	{
+		"dbfId": 104581,
+		"id": "DEEP_999t4",
+		"name": "The Azerite Dragon",
+		"type": "Minion",
+		"cardClass": "PALADIN",
+		"playerClass": "Paladin",
 		"set": "Wild_west",
 		"rarity": "Legendary",
 		"cost": 4,
 		"race": "ELEMENTAL",
 		"races": [
 			"ELEMENTAL",
-			"BEAST"
+			"DRAGON"
 		],
 		"attack": 5,
 		"health": 5,
-		"text": "[x]<b>Battlecry</b>: Get 4 random spells.\nThey cost (1) less for each time\nyou've <b>Excavated</b> this game\n<i>(but not less than 1)</i>."
+		"text": "[x]<b>Battlecry:</b> Give all other\nminions in your hand, deck,\nand battlefield +3/+3."
 	},
 	{
-		"dbfId": 102144,
-		"id": "WW_091",
-		"name": "Pop'gar the Putrid",
+		"dbfId": 104584,
+		"id": "DEEP_999t5",
+		"name": "The Azerite Murloc",
 		"type": "Minion",
-		"cardClass": "WARLOCK",
-		"playerClass": "Warlock",
-		"set": "Wild_west",
-		"rarity": "Legendary",
-		"cost": 4,
-		"attack": 2,
-		"health": 6,
-		"text": "Your Fel spells cost (2)\nless and have <b>Lifesteal</b>.\n<b>Battlecry:</b> Get two\nBarrels of Sludge."
-	},
-	{
-		"dbfId": 102903,
-		"id": "WW_441",
-		"name": "Furnace Fuel",
-		"type": "Spell",
-		"cardClass": "WARLOCK",
-		"playerClass": "Warlock",
-		"set": "Wild_west",
-		"rarity": "Common",
-		"cost": 3,
-		"spellSchool": "FIRE",
-		"text": "When this is played,\ndiscarded, or destroyed,\ndraw 2 cards."
-	},
-	{
-		"dbfId": 103489,
-		"id": "WW_010t",
-		"name": "Staff of the Nine Frogs",
-		"type": "Weapon",
 		"cardClass": "SHAMAN",
 		"playerClass": "Shaman",
 		"set": "Wild_west",
 		"rarity": "Legendary",
-		"cost": 5,
-		"attack": 1,
-		"durability": 9,
-		"text": "[x]After your hero attacks,\nsummon a {0}/{1} Frog\nwith <b>Taunt</b>. <i>(Each Frog is\n bigger than the last!)</i>"
-	},
-	{
-		"dbfId": 103591,
-		"id": "BG27_822",
-		"name": "Niuzao",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"rarity": "Legendary",
-		"cost": 0,
-		"race": "BEAST",
+		"cost": 4,
+		"race": "ELEMENTAL",
 		"races": [
-			"BEAST"
+			"ELEMENTAL",
+			"MURLOC"
 		],
-		"techLevel": 5,
-		"attack": 7,
-		"health": 6,
-		"text": "Whenever this attacks, deal damage equal to its Attack to another random enemy minion."
-	},
-	{
-		"dbfId": 103592,
-		"id": "BG27_822_G",
-		"name": "Niuzao",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"rarity": "Legendary",
-		"cost": 0,
-		"race": "BEAST",
-		"races": [
-			"BEAST"
-		],
-		"techLevel": 5,
-		"attack": 14,
-		"health": 12,
-		"text": "Whenever this attacks, deal damage equal to its Attack to another random enemy minion twice."
-	},
-	{
-		"dbfId": 103726,
-		"id": "BG27_030",
-		"name": "Sore Loser",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"race": "UNDEAD",
-		"races": [
-			"UNDEAD"
-		],
-		"techLevel": 3,
-		"attack": 2,
-		"health": 4,
-		"text": "[x]Your other Undead have\nextra Attack equal\nto your Tier."
-	},
-	{
-		"dbfId": 103727,
-		"id": "BG27_030_G",
-		"name": "Sore Loser",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"race": "UNDEAD",
-		"races": [
-			"UNDEAD"
-		],
-		"techLevel": 3,
-		"attack": 4,
-		"health": 8,
-		"text": "[x]Your other Undead have\nextra Attack equal\nto double your Tier."
-	},
-	{
-		"dbfId": 103785,
-		"id": "BG28_500",
-		"name": "Armor Stash",
-		"type": "Battleground_spell",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"spellSchool": "TAVERN",
-		"techLevel": 5,
-		"text": "Set your Armor to 5."
-	},
-	{
-		"dbfId": 103796,
-		"id": "BG28_507",
-		"name": "Sacred Gift",
-		"type": "Battleground_spell",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 6,
-		"spellSchool": "TAVERN",
-		"techLevel": 6,
-		"text": "Give a minion\n<b>Divine Shield</b>."
-	},
-	{
-		"dbfId": 104440,
-		"id": "BG28_814",
-		"name": "Echoing Roar",
-		"type": "Battleground_spell",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"spellSchool": "TAVERN",
-		"techLevel": 3,
-		"text": "Give a friendly minion \"At the end of your turn, gain +2/+2.\""
-	},
-	{
-		"dbfId": 104496,
-		"id": "BG28_900",
-		"name": "Mystic Sporebat",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"race": "BEAST",
-		"races": [
-			"BEAST"
-		],
-		"techLevel": 4,
 		"attack": 5,
-		"health": 1,
-		"text": "<b>Deathrattle:</b> Get a random Tavern spell."
-	},
-	{
-		"dbfId": 104497,
-		"id": "BG28_900_G",
-		"name": "Mystic Sporebat",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"race": "BEAST",
-		"races": [
-			"BEAST"
-		],
-		"techLevel": 4,
-		"attack": 10,
-		"health": 2,
-		"text": "<b>Deathrattle:</b> Get 2 random Tavern spells."
-	},
-	{
-		"dbfId": 104535,
-		"id": "BG28_871",
-		"name": "Buddy Up",
-		"type": "Battleground_spell",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"spellSchool": "TAVERN",
-		"techLevel": 5,
-		"text": "<b>Discover</b> a Buddy."
-	},
-	{
-		"dbfId": 104607,
-		"id": "BG28_302",
-		"name": "Grave Gobbler",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"race": "UNDEAD",
-		"races": [
-			"UNDEAD"
-		],
-		"techLevel": 2,
-		"attack": 4,
-		"health": 3,
-		"text": "[x]At the start of your turn,\ndestroy the Undead to the\n left of this to gain +5/+5."
-	},
-	{
-		"dbfId": 104609,
-		"id": "BG28_302_G",
-		"name": "Grave Gobbler",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"race": "UNDEAD",
-		"races": [
-			"UNDEAD"
-		],
-		"techLevel": 2,
-		"attack": 8,
-		"health": 6,
-		"text": "[x]At the start of your turn,\ndestroy the Undead to the\n left of this to gain +10/+10."
-	},
-	{
-		"dbfId": 104612,
-		"id": "BG28_304",
-		"name": "Moroes, Steward of Death",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"rarity": "Legendary",
-		"cost": 5,
-		"race": "UNDEAD",
-		"races": [
-			"UNDEAD"
-		],
-		"techLevel": 5,
-		"attack": 6,
-		"health": 1,
-		"text": "<b><b>Reborn</b>. Deathrattle:</b> Give your Undead +2/+6."
-	},
-	{
-		"dbfId": 104613,
-		"id": "BG28_304_G",
-		"name": "Moroes, Steward of Death",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"rarity": "Legendary",
-		"cost": 5,
-		"race": "UNDEAD",
-		"races": [
-			"UNDEAD"
-		],
-		"techLevel": 5,
-		"attack": 12,
-		"health": 2,
-		"text": "<b><b>Reborn</b>. Deathrattle:</b> Give your Undead +4/+12."
-	},
-	{
-		"dbfId": 104766,
-		"id": "BG28_583",
-		"name": "Geomagus Roogug",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"rarity": "Legendary",
-		"cost": 5,
-		"race": "QUILBOAR",
-		"races": [
-			"QUILBOAR"
-		],
-		"techLevel": 4,
-		"attack": 3,
-		"health": 6,
-		"text": "[x]Whenever a <b>Blood Gem</b> is\nplayed on this, play a\n<b>Blood Gem</b> on a different\nfriendly minion."
-	},
-	{
-		"dbfId": 104767,
-		"id": "BG28_583_G",
-		"name": "Geomagus Roogug",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"rarity": "Legendary",
-		"cost": 5,
-		"race": "QUILBOAR",
-		"races": [
-			"QUILBOAR"
-		],
-		"techLevel": 4,
-		"attack": 6,
-		"health": 12,
-		"text": "[x]Whenever a <b>Blood Gem</b> is\nplayed on this, play 2\n<b>Blood Gems</b> on a different\nfriendly minion."
-	},
-	{
-		"dbfId": 104768,
-		"id": "BG28_584",
-		"name": "Paint Smudger",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"race": "QUILBOAR",
-		"races": [
-			"QUILBOAR"
-		],
-		"techLevel": 3,
-		"attack": 3,
-		"health": 2,
-		"text": "[x]Whenever you cast a Tavern\nspell, play a <b>Blood Gem</b> on\nanother friendly Quilboar."
-	},
-	{
-		"dbfId": 104769,
-		"id": "BG28_584_G",
-		"name": "Paint Smudger",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"race": "QUILBOAR",
-		"races": [
-			"QUILBOAR"
-		],
-		"techLevel": 3,
-		"attack": 6,
-		"health": 4,
-		"text": "[x]Whenever you cast a Tavern\nspell, play 2 <b>Blood Gems</b> on\nanother friendly Quilboar."
-	},
-	{
-		"dbfId": 104770,
-		"id": "BG28_585",
-		"name": "Snarling Conductor",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"race": "QUILBOAR",
-		"races": [
-			"QUILBOAR"
-		],
-		"techLevel": 4,
-		"attack": 4,
 		"health": 5,
-		"text": "At the start of your turn, discard a spell to gain\n4 Gold."
+		"text": "[x]<b>Battlecry:</b> Transform ALL\nyour other minions into ones\nthat cost (3) more <i>(keeping\ntheir original Costs).</i>"
 	},
 	{
-		"dbfId": 104771,
-		"id": "BG28_585_G",
-		"name": "Snarling Conductor",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
+		"dbfId": 105103,
+		"id": "DEEP_013t",
+		"name": "Fel Fissure",
+		"type": "Spell",
+		"cardClass": "DEMONHUNTER",
+		"playerClass": "Demonhunter",
+		"set": "Wild_west",
+		"rarity": "Rare",
 		"cost": 4,
-		"race": "QUILBOAR",
-		"races": [
-			"QUILBOAR"
-		],
-		"techLevel": 4,
-		"attack": 8,
-		"health": 10,
-		"text": "At the start of your turn, discard a spell to gain\n8 Gold."
-	},
-	{
-		"dbfId": 105269,
-		"id": "BG28_885",
-		"name": "Lantern Light",
-		"type": "Battleground_spell",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"spellSchool": "TAVERN",
-		"techLevel": 2,
-		"text": "Give a minion stats equal to your Tier."
-	},
-	{
-		"dbfId": 105276,
-		"id": "BG28_886",
-		"name": "Staff of Enrichment",
-		"type": "Battleground_spell",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"spellSchool": "TAVERN",
-		"techLevel": 3,
-		"text": "[x]Minions in the Tavern\nhave +1/+2 this game."
-	},
-	{
-		"dbfId": 105424,
-		"id": "BG28_903",
-		"name": "Spellbound Seafarer",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 5,
-		"race": "PIRATE",
-		"races": [
-			"PIRATE"
-		],
-		"techLevel": 5,
-		"attack": 4,
-		"health": 6,
-		"text": "After you buy 4 cards,\nget a random Tavern spell.\n<i>(4 left!)</i>"
-	},
-	{
-		"dbfId": 105425,
-		"id": "BG28_903_G",
-		"name": "Spellbound Seafarer",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 5,
-		"race": "PIRATE",
-		"races": [
-			"PIRATE"
-		],
-		"techLevel": 5,
-		"attack": 8,
-		"health": 12,
-		"text": "After you buy 4 cards, get\n2 random Tavern spells.\n<i>(4 left!)</i>"
-	},
-	{
-		"dbfId": 105432,
-		"id": "BG28_HERO_800p",
-		"name": "Reliquary Research",
-		"type": "Hero_power",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"text": "[x]<b>Passive</b>\nEvery third Tavern spell\nyou buy costs (1) less.\n<i>(2 left!)</i>"
-	},
-	{
-		"dbfId": 105518,
-		"id": "BG28_308",
-		"name": "Archlich Kel'Thuzad",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"rarity": "Legendary",
-		"cost": 6,
-		"race": "UNDEAD",
-		"races": [
-			"UNDEAD"
-		],
-		"techLevel": 6,
-		"attack": 10,
-		"health": 8,
-		"text": "[x]At the end of your turn,\ndestroy the Undead\nto the left of this and\nresummon it."
-	},
-	{
-		"dbfId": 105520,
-		"id": "BG28_308_G",
-		"name": "Archlich Kel'Thuzad",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"rarity": "Legendary",
-		"cost": 6,
-		"race": "UNDEAD",
-		"races": [
-			"UNDEAD"
-		],
-		"techLevel": 6,
-		"attack": 20,
-		"health": 16,
-		"text": "[x]At the end of your turn,\ndestroy adjacent Undead\nand resummon them."
-	},
-	{
-		"dbfId": 105533,
-		"id": "BG28_593",
-		"name": "Bronze Sandspewer",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"race": "DRAGON",
-		"races": [
-			"DRAGON"
-		],
-		"techLevel": 2,
-		"attack": 1,
-		"health": 1,
-		"text": "[x]<b>Divine Shield</b>\nIf you have 7 minions at\nthe end of your turn, gain\n+2/+1."
-	},
-	{
-		"dbfId": 105537,
-		"id": "BG28_593_G",
-		"name": "Bronze Sandspewer",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"race": "DRAGON",
-		"races": [
-			"DRAGON"
-		],
-		"techLevel": 2,
-		"attack": 2,
-		"health": 2,
-		"text": "[x]<b>Divine Shield</b>\nIf you have 7 minions at\nthe end of your turn, gain\n+4/+2."
-	},
-	{
-		"dbfId": 105665,
-		"id": "BG28_519",
-		"name": "Fleeting Vigor",
-		"type": "Battleground_spell",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"spellSchool": "TAVERN",
-		"techLevel": 4,
-		"text": "Give a minion +6/+6 until next turn."
-	},
-	{
-		"dbfId": 105697,
-		"id": "BG28_905",
-		"name": "Bazaar Dealer",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"race": "DEMON",
-		"races": [
-			"DEMON"
-		],
-		"techLevel": 4,
-		"attack": 2,
-		"health": 4,
-		"text": "1 Tavern spell each turn costs Health instead of Gold to buy. <i>(1 left!)</i>"
+		"spellSchool": "FEL",
+		"text": "At the start of your next turn, deal $2 more damage to all minions."
 	},
 	{
 		"dbfId": 105702,
@@ -1527,277 +873,195 @@
 		],
 		"techLevel": 4,
 		"attack": 4,
-		"health": 10,
+		"health": 8,
 		"text": "2 Tavern spells each turn cost Health instead of\nGold to buy. <i>(2 left!)</i>"
 	},
 	{
-		"dbfId": 105852,
-		"id": "BG28_595",
-		"name": "Ignition Specialist",
-		"type": "Minion",
+		"dbfId": 108415,
+		"id": "HERO_01an_Deathwing",
+		"name": "Lunar Deathwing",
+		"type": "Hero",
+		"cardClass": "WARRIOR",
+		"playerClass": "Warrior",
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"health": 30
+	},
+	{
+		"dbfId": 108416,
+		"id": "HERO_05ah_Huln",
+		"name": "Festival Huln",
+		"type": "Hero",
+		"cardClass": "HUNTER",
+		"playerClass": "Hunter",
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"health": 30
+	},
+	{
+		"dbfId": 108417,
+		"id": "HERO_08at_Celeste",
+		"name": "Dragon Dance Celeste",
+		"type": "Hero",
+		"cardClass": "MAGE",
+		"playerClass": "Mage",
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"health": 30
+	},
+	{
+		"dbfId": 108418,
+		"id": "HERO_09ak_Sally",
+		"name": "Scarlet Sally",
+		"type": "Hero",
+		"cardClass": "PRIEST",
+		"playerClass": "Priest",
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"health": 30
+	},
+	{
+		"dbfId": 108419,
+		"id": "HERO_11r_SaiShadestorm",
+		"name": "Festive Sai",
+		"type": "Hero",
+		"cardClass": "DEATHKNIGHT",
+		"playerClass": "Deathknight",
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"health": 30
+	},
+	{
+		"dbfId": 108420,
+		"id": "HERO_02ar_Disidra",
+		"name": "Disidra Stormglory",
+		"type": "Hero",
+		"cardClass": "SHAMAN",
+		"playerClass": "Shaman",
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"health": 30
+	},
+	{
+		"dbfId": 108421,
+		"id": "HERO_02arhp",
+		"name": "Totemic Call",
+		"type": "Hero_power",
+		"cardClass": "SHAMAN",
+		"playerClass": "Shaman",
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nSummon a random basic Totem."
+	},
+	{
+		"dbfId": 108422,
+		"id": "HERO_02arhp2",
+		"name": "Totemic Slam",
+		"type": "Hero_power",
+		"cardClass": "SHAMAN",
+		"playerClass": "Shaman",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nSummon a Totem of your choice."
+	},
+	{
+		"dbfId": 108423,
+		"id": "HERO_10ak_Kailene",
+		"name": "Kailene Evergaze",
+		"type": "Hero",
+		"cardClass": "DEMONHUNTER",
+		"playerClass": "Demonhunter",
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"health": 30
+	},
+	{
+		"dbfId": 108424,
+		"id": "HERO_10akhp",
+		"name": "Demon Claws",
+		"type": "Hero_power",
+		"cardClass": "DEMONHUNTER",
+		"playerClass": "Demonhunter",
+		"set": "Hero_skins",
+		"cost": 1,
+		"text": "[x]<b>Hero Power</b>\n+$a1 Attack this turn."
+	},
+	{
+		"dbfId": 108425,
+		"id": "HERO_10akhp2",
+		"name": "Demon's Bite",
+		"type": "Hero_power",
+		"cardClass": "DEMONHUNTER",
+		"playerClass": "Demonhunter",
+		"set": "Hero_skins",
+		"cost": 1,
+		"text": "[x]<b>Hero Power</b>\n+$a2 Attack this turn."
+	},
+	{
+		"dbfId": 111060,
+		"id": "BG21_HERO_020_SKIN_D",
+		"name": "Dumpling Chef Cookie",
+		"type": "Hero",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
 		"set": "Battlegrounds",
-		"cost": 5,
-		"race": "DRAGON",
-		"races": [
-			"DRAGON"
-		],
-		"techLevel": 6,
-		"attack": 8,
-		"health": 8,
-		"text": "[x]At the end of your turn, get\n2 random Tavern spells."
+		"rarity": "Epic",
+		"health": 30
 	},
 	{
-		"dbfId": 105853,
-		"id": "BG28_595_G",
-		"name": "Ignition Specialist",
-		"type": "Minion",
+		"dbfId": 111061,
+		"id": "TB_BaconShop_HERO_21_SKIN_C",
+		"name": "Firecracker Akazamzarak",
+		"type": "Hero",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
 		"set": "Battlegrounds",
-		"cost": 5,
-		"race": "DRAGON",
-		"races": [
-			"DRAGON"
-		],
-		"techLevel": 6,
-		"attack": 16,
-		"health": 16,
-		"text": "[x]At the end of your turn, get\n4 random Tavern spells."
+		"rarity": "Epic",
+		"health": 30
 	},
 	{
-		"dbfId": 106195,
-		"id": "BG28_967",
-		"name": "Trembling Trolley",
-		"type": "Minion",
+		"dbfId": 111062,
+		"id": "BG25_HERO_105_SKIN_C",
+		"name": "E.T.C., Dragon Dancer",
+		"type": "Hero",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
 		"set": "Battlegrounds",
-		"cost": 3,
-		"race": "MECH",
-		"races": [
-			"MECH"
-		],
-		"techLevel": 4,
-		"attack": 0,
-		"health": 10,
-		"text": "<b>Avenge (4):</b> Get a random Tavern spell."
+		"rarity": "Epic",
+		"health": 30
 	},
 	{
-		"dbfId": 106196,
-		"id": "BG28_967_G",
-		"name": "Trembling Trolley",
-		"type": "Minion",
+		"dbfId": 111063,
+		"id": "TB_BaconShop_HERO_103_SKIN_D",
+		"name": "Hong Bao Blackthorn",
+		"type": "Hero",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
 		"set": "Battlegrounds",
-		"cost": 4,
-		"race": "MECH",
-		"races": [
-			"MECH"
-		],
-		"techLevel": 4,
-		"attack": 0,
-		"health": 20,
-		"text": "<b>Avenge (4):</b> Get 2 random Tavern spells."
+		"rarity": "Epic",
+		"health": 30
 	},
 	{
-		"dbfId": 106240,
-		"id": "BG28_968",
-		"name": "Lighter Fighter",
-		"type": "Minion",
+		"dbfId": 111064,
+		"id": "TB_BaconShop_HERO_11_SKIN_E",
+		"name": "Nian Shou Ragnaros",
+		"type": "Hero",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
 		"set": "Battlegrounds",
-		"cost": 4,
-		"race": "MECH",
-		"races": [
-			"MECH"
-		],
-		"techLevel": 4,
-		"attack": 4,
-		"health": 1,
-		"text": "[x]<b>Deathrattle:</b> Deal 4 damage\nto the lowest Health\nenemy minion twice."
+		"rarity": "Epic",
+		"health": 30
 	},
 	{
-		"dbfId": 106241,
-		"id": "BG28_968_G",
-		"name": "Lighter Fighter",
-		"type": "Minion",
+		"dbfId": 111065,
+		"id": "BG20_HERO_283_SKIN_E",
+		"name": "Lantern Stringer Galewing",
+		"type": "Hero",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
 		"set": "Battlegrounds",
-		"cost": 4,
-		"race": "MECH",
-		"races": [
-			"MECH"
-		],
-		"techLevel": 4,
-		"attack": 8,
-		"health": 2,
-		"text": "[x]<b>Deathrattle:</b> Deal 8 damage\nto the lowest Health\nenemy minion twice."
-	},
-	{
-		"dbfId": 106487,
-		"id": "BG27_080",
-		"name": "Motley Phalanx",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 6,
-		"race": "ALL",
-		"races": [
-			"ALL"
-		],
-		"techLevel": 6,
-		"attack": 4,
-		"health": 4,
-		"text": "[x]<b><b>Taunt</b>.</b> <b>Deathrattle:</b> Give\na friendly minion\nof each type +4/+4."
-	},
-	{
-		"dbfId": 106488,
-		"id": "BG27_080_G",
-		"name": "Motley Phalanx",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 6,
-		"race": "ALL",
-		"races": [
-			"ALL"
-		],
-		"techLevel": 6,
-		"attack": 8,
-		"health": 8,
-		"text": "[x]<b><b>Taunt</b>.</b> <b>Deathrattle:</b> Give\na friendly minion\nof each type +8/+8."
-	},
-	{
-		"dbfId": 106506,
-		"id": "BG27_082",
-		"name": "Heedless Hoarder",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"race": "MURLOC",
-		"races": [
-			"MURLOC"
-		],
-		"techLevel": 3,
-		"attack": 4,
-		"health": 5,
-		"text": "When you sell this,\ngive a friendly Murloc\nthis minion's stats."
-	},
-	{
-		"dbfId": 106511,
-		"id": "BG27_082_G",
-		"name": "Heedless Hoarder",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"race": "MURLOC",
-		"races": [
-			"MURLOC"
-		],
-		"techLevel": 3,
-		"attack": 8,
-		"health": 10,
-		"text": "When you sell this, give\na friendly Murloc double\nthis minion's stats."
-	},
-	{
-		"dbfId": 108909,
-		"id": "BG27_084",
-		"name": "Sprightly Scarab",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"race": "BEAST",
-		"races": [
-			"BEAST"
-		],
-		"techLevel": 3,
-		"attack": 2,
-		"health": 1,
-		"text": "<b>Choose One -</b> Give a Beast +1/+1 and <b>Reborn</b>; or +3/+3 and <b>Taunt</b>."
-	},
-	{
-		"dbfId": 108910,
-		"id": "BG27_084_G",
-		"name": "Sprightly Scarab",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"race": "BEAST",
-		"races": [
-			"BEAST"
-		],
-		"techLevel": 3,
-		"attack": 4,
-		"health": 2,
-		"text": "<b>Choose One -</b> Give a Beast +2/+2 and <b>Reborn</b>; or +6/+6 and <b>Taunt</b>."
-	},
-	{
-		"dbfId": 108914,
-		"id": "BG27_084t2",
-		"name": "Sprightly Support",
-		"type": "Spell",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"text": "Give a Beast +3/+3\nand <b>Taunt</b>."
-	},
-	{
-		"dbfId": 108916,
-		"id": "BG27_084_Gt2",
-		"name": "Sprightly Support",
-		"type": "Spell",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"text": "Give a Beast +6/+6\nand <b>Taunt</b>."
-	},
-	{
-		"dbfId": 108992,
-		"id": "BG28_309",
-		"name": "Mummifier",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"race": "UNDEAD",
-		"races": [
-			"UNDEAD"
-		],
-		"techLevel": 3,
-		"attack": 5,
-		"health": 2,
-		"text": "<b>Deathrattle:</b> Give a different friendly Undead <b>Reborn</b>."
-	},
-	{
-		"dbfId": 109003,
-		"id": "BG28_309_G",
-		"name": "Mummifier",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"race": "UNDEAD",
-		"races": [
-			"UNDEAD"
-		],
-		"techLevel": 3,
-		"attack": 10,
-		"health": 4,
-		"text": "<b>Deathrattle:</b> Give 2 different friendly Undead <b>Reborn</b>."
+		"rarity": "Rare",
+		"health": 30
 	}
 ]
