@@ -137,9 +137,13 @@ const EXCAVATE_TREASURE_MAGE = [...EXCAVATE_TREASURES, CardIds.KoboldMiner_TheAz
 const EXCAVATE_TREASURE_ROGUE = [...EXCAVATE_TREASURES, CardIds.KoboldMiner_TheAzeriteScorpionToken_WW_001t23];
 const EXCAVATE_TREASURE_WARLOCK = [...EXCAVATE_TREASURES, CardIds.KoboldMiner_TheAzeriteSnakeToken_WW_001t25];
 const EXCAVATE_TREASURE_WARRIOR = [...EXCAVATE_TREASURES, CardIds.KoboldMiner_TheAzeriteOxToken_WW_001t27];
-const EXCAVATE_TREASURE_PALADIN = [...EXCAVATE_TREASURES, CardIds.TheAzeriteDragon];
-const EXCAVATE_TREASURE_SHAMAN = [...EXCAVATE_TREASURES, CardIds.TheAzeriteMurloc];
-const EXCAVATE_TREASURE_PALADIN_SHAMAN = [...EXCAVATE_TREASURES, CardIds.TheAzeriteDragon, CardIds.TheAzeriteMurloc];
+const EXCAVATE_TREASURE_PALADIN = [...EXCAVATE_TREASURES, CardIds.TheAzeriteDragonToken_DEEP_999t4];
+const EXCAVATE_TREASURE_SHAMAN = [...EXCAVATE_TREASURES, CardIds.TheAzeriteMurlocToken_DEEP_999t5];
+const EXCAVATE_TREASURE_PALADIN_SHAMAN = [
+	...EXCAVATE_TREASURES,
+	CardIds.TheAzeriteDragonToken_DEEP_999t4,
+	CardIds.TheAzeriteMurlocToken_DEEP_999t5,
+];
 
 export type RelatedCardExtractor = (cards: readonly ReferenceCard[]) => readonly string[];
 
@@ -2902,16 +2906,23 @@ export const RELATED_CARDS_DATA: {
 		CardIds.RenoLoneRanger_ShadowBullet_WW_0700p6,
 		CardIds.RenoLoneRanger_FelBullet_WW_0700p7,
 	],
-	[CardIds.MiningCasualties]: [CardIds.SilverHandRecruitLegacyToken, CardIds.GhoulCharge_FrailGhoulLegacyToken],
-	[CardIds.CrystalCluster]: [CardIds.CrystalCluster_ElementalToken],
-	[CardIds.GloomstoneGuardian]: [CardIds.GloomstoneGuardian_Token1, CardIds.GloomstoneGuardian_Token2],
-	[CardIds.ElementalCompanion]: [
-		CardIds.ElementalCompanion_MeshoToken,
-		CardIds.ElementalCompanion_HiffarToken,
-		CardIds.ElementalCompanion_LuekkToken,
+	[CardIds.MiningCasualties_DEEP_017]: [
+		CardIds.SilverHandRecruitLegacyToken,
+		CardIds.GhoulCharge_FrailGhoulLegacyToken,
 	],
-	[CardIds.SirFinleyTheIntrepid]: [CardIds.MurlocTinyfin_LOEA10_3],
-	[CardIds.FossilizerdKaleidosaur]: EXCAVATE_TREASURE_PALADIN,
-	[CardIds.Shroomscavate]: EXCAVATE_TREASURE_PALADIN_SHAMAN,
-	[CardIds.DiggingStraightDown]: EXCAVATE_TREASURE_SHAMAN,
+	[CardIds.CrystalCluster_DEEP_028]: [CardIds.CrystalCluster_CrystalCrusherToken_DEEP_028t],
+	[CardIds.GloomstoneGuardian_DEEP_027]: [
+		CardIds.GloomstoneGuardian_SplinteredForm_DEEP_027a,
+		CardIds.GloomstoneGuardian_ManaDisintegration_DEEP_027b,
+		CardIds.GloomstoneGuardian_GloomstoneGuardianToken_DEEP_027t,
+	],
+	[CardIds.ElementalCompanion_DEEP_002]: [
+		CardIds.ElementalCompanion_HiffarToken_DEEP_002t,
+		CardIds.ElementalCompanion_LuekkToken_DEEP_002t2,
+		CardIds.ElementalCompanion_MeshoToken_DEEP_002t3,
+	],
+	[CardIds.SirFinleyTheIntrepid_DEEP_007]: [CardIds.MurlocTinyfin_LOEA10_3],
+	[CardIds.FossilizedKaleidosaur_DEEP_033]: EXCAVATE_TREASURE_PALADIN,
+	[CardIds.Shroomscavate_DEEP_018]: EXCAVATE_TREASURE_PALADIN_SHAMAN,
+	[CardIds.DiggingStraightDown_DEEP_009]: EXCAVATE_TREASURE_SHAMAN,
 };
