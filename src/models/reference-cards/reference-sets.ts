@@ -1,4 +1,5 @@
 export type SetId =
+	| 'deepholm'
 	| 'wild_west'
 	| 'ulduar'
 	| 'caverns_of_time'
@@ -52,6 +53,11 @@ export interface ReferenceSet {
 }
 
 export const sets: readonly ReferenceSet[] = [
+	{
+		id: 'deepholm',
+		name: `Delve into Deepholm`,
+		launchDate: new Date('2024-01-18'),
+	},
 	{
 		id: 'wild_west',
 		name: `Showdown in the Badlands`,
@@ -303,10 +309,10 @@ export const standardSets: readonly SetId[] = [
 	'titans',
 	'ulduar',
 	'wild_west',
+	'deepholm',
 ];
 export const twistSets: readonly SetId[] = [
-	'caverns_of_time',
-	'legacy',
+	'core',
 	'naxx',
 	'gvg',
 	'brm',
@@ -316,18 +322,29 @@ export const twistSets: readonly SetId[] = [
 	'kara',
 	'gangs',
 	'ungoro',
+	'icecrown',
+	'lootapalooza',
+	'gilneas',
+	'boomsday',
+	'troll',
+	'dalaran',
+	'uldum',
+	'dragons',
+	'yod',
+	'caverns_of_time',
 ];
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 export const arenaSets: readonly SetId[] = [
-	'core',
 	'wild_west',
-	'caverns_of_time',
+	'deepholm',
 	'titans',
 	'ulduar',
+	'caverns_of_time',
+	'core',
 	'path_of_arthas',
-	'dragons',
-	'yod',
-	'uldum',
+	'scholomance',
+	'alterac_valley',
+	'onyxias_lair',
 ];
 export const wildSets: readonly SetId[] = sets.map((s) => s.id);
 export const duelsSets: readonly SetId[] = [
