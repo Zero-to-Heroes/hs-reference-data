@@ -16,6 +16,7 @@ export * from './enums/choice-type';
 export * from './enums/dk-rune-type';
 export * from './enums/draft-slot-type';
 export * from './enums/dungeon-crawl-option-type';
+export * from './enums/faction';
 export * from './enums/game-format';
 export * from './enums/game-tags';
 export * from './enums/game-type';
