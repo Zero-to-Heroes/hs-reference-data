@@ -36,6 +36,7 @@ export const EXCAVATE_TREASURE_1_IDS = [
 	CardIds.KoboldMiner_PouchOfCoinsToken_WW_001t18,
 	CardIds.KoboldMiner_RockToken_WW_001t,
 	CardIds.KoboldMiner_WaterSourceToken_WW_001t2,
+	CardIds.HeartblossomToken_DEEP_999t1,
 ];
 export const EXCAVATE_TREASURE_2_IDS = [
 	CardIds.KoboldMiner_AzeriteChunkToken_WW_001t9,
@@ -43,6 +44,7 @@ export const EXCAVATE_TREASURE_2_IDS = [
 	CardIds.KoboldMiner_FallingStalactiteToken_WW_001t5,
 	CardIds.KoboldMiner_GlowingGlyphToken_WW_001t8,
 	CardIds.KoboldMiner_LivingStoneToken_WW_001t16,
+	CardIds.DeepholmGeodeToken_DEEP_999t2,
 ];
 export const EXCAVATE_TREASURE_3_IDS = [
 	CardIds.KoboldMiner_AzeriteGemToken_WW_001t14,
@@ -50,6 +52,7 @@ export const EXCAVATE_TREASURE_3_IDS = [
 	CardIds.KoboldMiner_MotherlodeDrakeToken_WW_001t17,
 	CardIds.KoboldMiner_OgrefistBoulderToken_WW_001t11,
 	CardIds.KoboldMiner_SteelhideMoleToken_WW_001t13,
+	CardIds.WorldPillarFragmentToken_DEEP_999t3,
 ];
 
 export const WATCH_POST_IDS = [CardIds.FarWatchPost, CardIds.MorshanWatchPost, CardIds.CrossroadsWatchPost];

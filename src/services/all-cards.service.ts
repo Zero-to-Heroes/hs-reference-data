@@ -69,6 +69,11 @@ export class AllCardsService {
 			resolve();
 		});
 	}
+
+	public getRootCardId(cardId: string): string {
+		const dbfId = this.getCard(cardId)?.deckDuplicateDbfId ?? this.getCard(cardId)?.dbfId;
+		return this.getCard(dbfId)?.id;
+	}
 }
 
 const loadCards = async (baseUrl: string, cardsFile: string, version: string): Promise<readonly ReferenceCard[]> => {
