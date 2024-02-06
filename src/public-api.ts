@@ -20,6 +20,7 @@ export * from './enums/faction';
 export * from './enums/game-format';
 export * from './enums/game-tags';
 export * from './enums/game-type';
+export * from './enums/lettuce-faction';
 export * from './enums/locale';
 export * from './enums/mercenaries-bounty-difficulty';
 export * from './enums/mercenaries-map-type';
