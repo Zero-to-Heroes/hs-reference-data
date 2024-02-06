@@ -391,6 +391,7 @@ export const duelsSets: readonly SetId[] = [
 	'dragons',
 	'yod',
 	'wild_west',
+	'deepholm',
 ];
 
 export const vanillaSets: readonly SetId[] = ['vanilla'];

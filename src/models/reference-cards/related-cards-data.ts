@@ -2203,13 +2203,9 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.Blightfang]: [CardIds.TombGuardians_MenacingZombieToken_RLK_118t3],
 	[CardIds.GlaciaxeTavernBrawl]: [
 		CardIds.Glaciaxe_WingsOfGlaciaxeTavernBrawl,
-		CardIds.WingsOfGlaciaxe_GhoulTavernBrawlToken,
 		CardIds.WingsOfGlaciaxe_ShamblingZombieTavernBrawlToken,
 	],
-	[CardIds.Glaciaxe_WingsOfGlaciaxeTavernBrawl]: [
-		CardIds.WingsOfGlaciaxe_GhoulTavernBrawlToken,
-		CardIds.WingsOfGlaciaxe_ShamblingZombieTavernBrawlToken,
-	],
+	[CardIds.Glaciaxe_WingsOfGlaciaxeTavernBrawl]: [CardIds.WingsOfGlaciaxe_ShamblingZombieTavernBrawlToken],
 	[CardIds.BloodParasiteTavernBrawl]: [CardIds.BloodParasite_BloodwormTavernBrawlToken],
 	[CardIds.GhoulsRushInTavernBrawl]: [CardIds.GhoulsRushIn_RisenGhoulTavernBrawl],
 	[CardIds.TinyThimbleTavernBrawl]: [CardIds.TinyThimble_RegularSizeThimbleTavernBrawl],

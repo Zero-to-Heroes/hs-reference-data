@@ -1,6 +1,6 @@
 import { GameFormatString } from '../enums/game-format';
 import { ReferenceCard } from '../models/reference-cards/reference-card';
-import { GameFormat, GameType } from '../public-api';
+import { CardClass, CardIds, GameFormat, GameType, allDuelsHeroesExtended } from '../public-api';
 import { AllCardsService } from './all-cards.service';
 
 export const ALL_CLASSES = [
@@ -107,6 +107,93 @@ export const getDefaultHeroDbfIdForClass = (playerClass: string): number => {
 		default:
 			console.warn('Could not normalize hero card id', playerClass);
 			return 7;
+	}
+};
+
+export const normalizeDeckHeroDbfId = (
+	heroDbfId: number,
+	cards: AllCardsService,
+	duelsClass?: CardClass,
+	// Should probably not be needed, but it's a safeguard in case we can't figure out the class from the Duels sign treasure
+	deckClass?: CardClass,
+): number => {
+	const cardFromHeroDbfId = cards.getCardFromDbfId(heroDbfId);
+	// Don't normalize the dual-class heroes
+	switch (cardFromHeroDbfId.id) {
+		// Sometimes a neutral hero is provided even though the deck has class cards
+		case CardIds.VanndarStormpikeTavernBrawl:
+			switch (duelsClass ?? deckClass) {
+				case CardClass.DEMONHUNTER:
+					return cards.getCard(CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv1)
+						.dbfId;
+				case CardClass.HUNTER:
+					return cards.getCard(CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv2)
+						.dbfId;
+				case CardClass.PALADIN:
+					return cards.getCard(CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv3)
+						.dbfId;
+				case CardClass.PRIEST:
+					return cards.getCard(CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv4)
+						.dbfId;
+				case CardClass.ROGUE:
+					return cards.getCard(CardIds.VanndarStormpike_VanndarStormpikeTavernBrawl_PVPDR_Hero_Vanndarv5)
+						.dbfId;
+			}
+			break;
+		case CardIds.DrektharTavernBrawl:
+			switch (duelsClass ?? deckClass) {
+				case CardClass.DRUID:
+					return cards.getCard(CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv1).dbfId;
+				case CardClass.MAGE:
+					return cards.getCard(CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv2).dbfId;
+				case CardClass.SHAMAN:
+					return cards.getCard(CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv3).dbfId;
+				case CardClass.WARLOCK:
+					return cards.getCard(CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv4).dbfId;
+				case CardClass.WARRIOR:
+					return cards.getCard(CardIds.Drekthar_DrektharTavernBrawl_PVPDR_Hero_DrekTharv5).dbfId;
+			}
+			break;
+	}
+
+	// No need for further normalization, all heroes are supported in Duels
+	if (duelsClass || allDuelsHeroesExtended.includes(cardFromHeroDbfId.id as CardIds)) {
+		return heroDbfId;
+	}
+
+	const playerClass: CardClass = CardClass[cards.getCard(heroDbfId)?.playerClass?.toUpperCase()];
+	// Not sure this should happen anymore now that all Duels heroes are supported
+	if (!playerClass) {
+		return heroDbfId;
+	}
+
+	// Used for all the skins
+	switch (playerClass) {
+		case CardClass.DEATHKNIGHT:
+			return 78065;
+		case CardClass.DEMONHUNTER:
+			return 56550;
+		case CardClass.DRUID:
+			return 274;
+		case CardClass.HUNTER:
+			return 31;
+		case CardClass.MAGE:
+			return 637;
+		case CardClass.PALADIN:
+			return 671;
+		case CardClass.PRIEST:
+			return 813;
+		case CardClass.ROGUE:
+			return 930;
+		case CardClass.SHAMAN:
+			return 1066;
+		case CardClass.WARLOCK:
+			return 893;
+		case CardClass.WARRIOR:
+			return 7;
+		default:
+			// Keep the neutral heroes
+			return heroDbfId;
 	}
 };
 
