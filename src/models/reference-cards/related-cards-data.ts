@@ -2837,6 +2837,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.OgreGangOutlaw_WW_418,
 		CardIds.OgreGangRider_WW_419,
 		CardIds.OgreGangAce_WW_420,
+		CardIds.BoulderfistOgreLegacy_CS2_200,
 	],
 	[CardIds.BurrowBuster_WW_002]: EXCAVATE_TREASURES,
 	[CardIds.TrolleyProblem_WW_436]: [CardIds.TramConductorGerry_TramCarToken_WW_437t],
