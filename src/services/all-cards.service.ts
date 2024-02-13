@@ -150,6 +150,22 @@ export const getBaseCardId = (cardId: string): string => {
 		case 'FB_Champs_LOOT_080t2':
 		case 'FB_Champs_LOOT_080t3':
 			return 'FB_Champs_LOOT_080';
+		case CardIds.SpinelSpellstone_:
+		case CardIds.GreaterSpinelSpellstone_:
+			return CardIds.LesserSpinelSpellstone_;
+		case CardIds.LesserJasperSpellstone_JasperSpellstoneTokenCore:
+		case CardIds.LesserJasperSpellstone_GreaterJasperSpellstoneTokenCore:
+			return CardIds.LesserJasperSpellstoneCore;
+		case CardIds.LesserEmeraldSpellstone_EmeraldSpellstoneTokenCore:
+		case CardIds.LesserEmeraldSpellstone_GreaterJaspEmeraldSpellstoneTokenCore:
+			return CardIds.LesserEmeraldSpellstoneCore;
+		case CardIds.LesserDiamondSpellstone_DiamondSpellstoneTokenCore:
+		case CardIds.LesserDiamondSpellstone_GreaterDiamondSpellstoneTokenCore:
+			return CardIds.LesserDiamondSpellstoneCore;
+		case CardIds.LesserAmethystSpellstone_AmethystSpellstoneTokenCore:
+		case CardIds.LesserAmethystSpellstone_GreaterAmethystSpellstoneTokenCore:
+			return CardIds.LesserAmethystSpellstoneCore;
+
 		// The "unidentified" spells
 		case 'LOOT_278t1':
 			return 'LOOT_278';
