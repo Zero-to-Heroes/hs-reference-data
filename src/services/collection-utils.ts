@@ -72,6 +72,8 @@ export const boosterIdToSetId = (boosterId: BoosterType): string => {
 			return 'wild_west';
 		case BoosterType.WILD_WEST2:
 			return 'wild_west2';
+		case BoosterType.WHIZBANGS_WORKSHOP:
+			return 'whizbangs_workshop';
 		default:
 			// console.warn('unsupported booster type', boosterId);
 			return null;
@@ -140,6 +142,8 @@ export const getDefaultBoosterIdForSetId = (setId: string): BoosterType => {
 			return BoosterType.TITANS;
 		case 'caverns_of_time':
 			return BoosterType.CAVERNS_OF_TIME;
+		case 'whizbangs_workshop':
+			return BoosterType.WHIZBANGS_WORKSHOP;
 		default:
 			console.warn('no default booster type for set id', setId);
 			return null;
