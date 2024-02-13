@@ -316,7 +316,7 @@ export const standardSets: readonly SetId[] = [
 	'ulduar',
 	'wild_west',
 	'deepholm',
-	'whizbangs_workshop',
+	// 'whizbangs_workshop',
 ];
 export const twistSets: readonly SetId[] = [
 	'core',
@@ -399,7 +399,7 @@ export const duelsSets: readonly SetId[] = [
 	'yod',
 	'wild_west',
 	'deepholm',
-	'whizbangs_workshop',
+	// 'whizbangs_workshop',
 ];
 
 export const vanillaSets: readonly SetId[] = ['vanilla'];
