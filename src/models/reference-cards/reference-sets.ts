@@ -1,4 +1,5 @@
 export type SetId =
+	| 'whizbangs_workshop'
 	| 'deepholm'
 	| 'wild_west'
 	| 'ulduar'
@@ -53,6 +54,11 @@ export interface ReferenceSet {
 }
 
 export const sets: readonly ReferenceSet[] = [
+	{
+		id: 'whizbangs_workshop',
+		name: `Whizbang's Workshop`,
+		launchDate: new Date('2024-02-13'),
+	},
 	{
 		id: 'deepholm',
 		name: `Delve into Deepholm`,
@@ -310,6 +316,7 @@ export const standardSets: readonly SetId[] = [
 	'ulduar',
 	'wild_west',
 	'deepholm',
+	'whizbangs_workshop',
 ];
 export const twistSets: readonly SetId[] = [
 	'core',
@@ -392,6 +399,7 @@ export const duelsSets: readonly SetId[] = [
 	'yod',
 	'wild_west',
 	'deepholm',
+	'whizbangs_workshop',
 ];
 
 export const vanillaSets: readonly SetId[] = ['vanilla'];
