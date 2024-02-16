@@ -96,6 +96,9 @@ export const NON_BUYABLE_MINION_IDS = [
 	// 27.2.2
 	CardIds.MechanizedGiftHorse_MechorseToken_BG27_008t,
 	CardIds.MechanizedGiftHorse_MechorseToken_BG27_008_Gt,
+	// 28.6
+	CardIds.StableAmalgamation_TotallyNormalHorseToken_BG28_Reward_518t,
+	CardIds.TotallyNormalHorse_BG28_Reward_518t_G,
 ];
 
 export const NON_DISCOVERABLE_BUDDIES = [
