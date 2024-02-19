@@ -1,9 +1,12 @@
 import { DeckDefinition, encode } from '@firestone-hs/deckstrings';
-import { AllCardsService, GameFormat, normalizeDeckList } from '../src/public-api';
+import { AllCardsService, GameFormat } from '../src/public-api';
 
 const testWild = async () => {
+	console.time('init allCards');
 	const allCards = new AllCardsService();
 	await allCards.initializeCardsDb();
+	console.timeEnd('init allCards');
+
 	const original: DeckDefinition = {
 		heroes: [7],
 		format: GameFormat.FT_WILD,
@@ -22,7 +25,7 @@ const testWild = async () => {
 	};
 	const originalEncoded = encode(original);
 	const expectedEncoded = encode(expected);
-	const actual = normalizeDeckList(originalEncoded, allCards);
+	const actual = allCards.normalizeDeckList(originalEncoded);
 	const isSame = actual === expectedEncoded;
 	console.log('isSame?', isSame);
 	if (!isSame) {
@@ -35,6 +38,7 @@ const testWild = async () => {
 const testStandard = async () => {
 	const allCards = new AllCardsService();
 	await allCards.initializeCardsDb();
+
 	const original: DeckDefinition = {
 		heroes: [7],
 		format: GameFormat.FT_STANDARD,
@@ -53,7 +57,7 @@ const testStandard = async () => {
 	};
 	const originalEncoded = encode(original);
 	const expectedEncoded = encode(expected);
-	const actual = normalizeDeckList(originalEncoded, allCards);
+	const actual = allCards.normalizeDeckList(originalEncoded);
 	const isSame = actual === expectedEncoded;
 	console.log('isSame?', isSame);
 	if (!isSame) {
@@ -63,5 +67,72 @@ const testStandard = async () => {
 	}
 };
 
-testWild();
-testStandard();
+const testStandard2 = async () => {
+	const allCards = new AllCardsService();
+	await allCards.initializeCardsDb();
+
+	const withWonders: DeckDefinition = {
+		heroes: [7],
+		format: GameFormat.FT_STANDARD,
+		cards: [
+			// Acolyte of Pain Wonders
+			[106559, 2],
+		],
+	};
+	const withCore: DeckDefinition = {
+		heroes: [7],
+		format: GameFormat.FT_STANDARD,
+		cards: [
+			// Acolyte of Pain Core
+			[76316, 2],
+		],
+	};
+	const expected: DeckDefinition = {
+		heroes: [7],
+		format: GameFormat.FT_STANDARD,
+		cards: [
+			// Core
+			[76316, 2],
+		],
+	};
+	const withWondersEncoded = encode(withWonders);
+	const withCoreEncoded = encode(withCore);
+	const expectedEncoded = encode(expected);
+
+	// Validate Wonders
+	const actualWonders = allCards.normalizeDeckList(withWondersEncoded);
+	const isSameWonders = actualWonders === expectedEncoded;
+	console.log('isSameWonders?', isSameWonders);
+	if (!isSameWonders) {
+		console.error('Expected', expectedEncoded);
+		console.error('Actual', actualWonders);
+		throw new Error('Expected and actual are not the same');
+	}
+
+	// Validate Core
+	const actualCore = allCards.normalizeDeckList(withCoreEncoded);
+	const isSameCore = actualCore === expectedEncoded;
+	console.log('isSameCore?', isSameCore);
+	if (!isSameCore) {
+		console.error('Expected', expectedEncoded);
+		console.error('Actual', actualCore);
+		throw new Error('Expected and actual are not the same');
+	}
+};
+
+const testOther = async () => {
+	const allCards = new AllCardsService();
+	await allCards.initializeCardsDb();
+
+	const test1 = allCards.getBaseCardIdForDeckbuilding('GIFT_04', GameFormat.FT_STANDARD);
+	console.log('root for', 'GIFT_04', 'in standard', test1);
+};
+
+const test = async () => {
+	await testOther();
+	await testWild();
+	await testStandard();
+	await testStandard2();
+};
+
+test();

@@ -30,6 +30,19 @@ export const formatFormat = (format: GameFormat): GameFormatString => {
 			return 'wild';
 	}
 };
+export const formatFormatReverse = (format: GameFormatString): GameFormat => {
+	switch (format) {
+		case 'standard':
+			return GameFormat.FT_STANDARD;
+		case 'classic':
+			return GameFormat.FT_CLASSIC;
+		case 'twist':
+			return GameFormat.FT_TWIST;
+		case 'wild':
+		default:
+			return GameFormat.FT_WILD;
+	}
+};
 
 export const formatGameType = (gameType: GameType): string => {
 	switch (gameType) {
@@ -77,6 +90,46 @@ export const formatGameType = (gameType: GameType): string => {
 		default:
 			console.warn('unsupported game type', gameType);
 			return 'unknown';
+	}
+};
+
+export const formatGameTypeReverse = (gameType: string): GameType => {
+	switch (gameType) {
+		case 'unknown':
+			return GameType.GT_UNKNOWN;
+		case 'practice':
+			return GameType.GT_VS_AI;
+		case 'friendly':
+			return GameType.GT_VS_FRIEND;
+		case 'tutorial':
+			return GameType.GT_TUTORIAL;
+		case 'arena':
+			return GameType.GT_ARENA;
+		case 'ranked':
+			return GameType.GT_RANKED;
+		case 'casual':
+			return GameType.GT_CASUAL;
+		case 'tavern-brawl':
+			return GameType.GT_TAVERNBRAWL;
+		case 'battlegrounds':
+			return GameType.GT_BATTLEGROUNDS;
+		case 'mercenaries-ai-vs-ai':
+			return GameType.GT_MERCENARIES_AI_VS_AI;
+		case 'mercenaries-friendly':
+			return GameType.GT_MERCENARIES_FRIENDLY;
+		case 'mercenaries-pve':
+			return GameType.GT_MERCENARIES_PVE;
+		case 'mercenaries-pvp':
+			return GameType.GT_MERCENARIES_PVP;
+		case 'mercenaries-pve-coop':
+			return GameType.GT_MERCENARIES_PVE_COOP;
+		case 'duels':
+			return GameType.GT_PVPDR;
+		case 'paid-duels':
+			return GameType.GT_PVPDR_PAID;
+		default:
+			console.warn('unsupported game type', gameType);
+			return GameType.GT_UNKNOWN;
 	}
 };
 

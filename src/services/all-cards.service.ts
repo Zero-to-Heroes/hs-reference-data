@@ -1,5 +1,8 @@
+import { Sideboard } from '@firestone-hs/deckstrings';
 import { CardIds } from '../card-ids';
 import { ReferenceCard } from '../models/reference-cards/reference-card';
+import { GameFormat } from '../public-api';
+import { CardsForDeckbuildingService } from './cards-for-deckbuilding.service';
 import { httpWithRetries } from './utils';
 
 const CARDS_CDN_URL = 'https://static.firestoneapp.com/data/cards';
@@ -7,6 +10,8 @@ const CARDS_CDN_URL = 'https://static.firestoneapp.com/data/cards';
 export class AllCardsService {
 	private cache: { [cardId: string]: ReferenceCard } = {};
 	private cacheDbfId: { [cardDbfId: string]: ReferenceCard } = {};
+
+	private deckbuilding: CardsForDeckbuildingService;
 
 	constructor() {
 		// We don't call it in the constructor because we want the app to be in control
@@ -66,6 +71,9 @@ export class AllCardsService {
 					}
 				}
 			}
+
+			this.deckbuilding = new CardsForDeckbuildingService();
+			this.deckbuilding.init(this);
 			resolve();
 		});
 	}
@@ -73,6 +81,22 @@ export class AllCardsService {
 	public getRootCardId(cardId: string): string {
 		const dbfId = this.getCard(cardId)?.deckDuplicateDbfId ?? this.getCard(cardId)?.dbfId;
 		return this.getCard(dbfId)?.id;
+	}
+
+	public normalizeDeckList(decklist: string): string {
+		return this.deckbuilding.normalizeDeckList(decklist, this);
+	}
+
+	public normalizeSideboard(sideboard: Sideboard, format: GameFormat): Sideboard {
+		return this.deckbuilding.normalizeSideboard(sideboard, format, this);
+	}
+
+	public getBaseCardDbfIdForDeckbuilding(cardIdOrDbfId: number | string, format: GameFormat): number {
+		return this.deckbuilding.getBaseCardDbfIdForDeckbuilding(cardIdOrDbfId, format, this);
+	}
+
+	public getBaseCardIdForDeckbuilding(cardIdOrDbfId: number | string, format: GameFormat): string {
+		return this.deckbuilding.getBaseCardIdForDeckbuilding(cardIdOrDbfId, format, this);
 	}
 }
 
