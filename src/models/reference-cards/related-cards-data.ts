@@ -2922,6 +2922,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.FossilizedKaleidosaur_DEEP_033]: EXCAVATE_TREASURE_PALADIN,
 	[CardIds.Shroomscavate_DEEP_018]: EXCAVATE_TREASURE_PALADIN_SHAMAN,
 	[CardIds.DiggingStraightDown_DEEP_009]: EXCAVATE_TREASURE_SHAMAN,
+	[CardIds.InfestedTauren]: [CardIds.InfestedTauren_Slime],
 	// [CardIds.Fireworker]: [CardIds.DrBoom_BoomBotToken],
 	// [CardIds.ToyCaptainTarim]: [CardIds.ToyCaptainTarim_Token],
 	// [CardIds.ChiaDrake]: [CardIds.ChiaDrake_MiniToken, CardIds.ChiaDrake_Choose1Token, CardIds.ChiaDrake_Choose2Token],
