@@ -99,6 +99,10 @@ export const NON_BUYABLE_MINION_IDS = [
 	// 28.6
 	CardIds.StableAmalgamation_TotallyNormalHorseToken_BG28_Reward_518t,
 	CardIds.TotallyNormalHorse_BG28_Reward_518t_G,
+	CardIds.BoonOfBeetles_BeetleToken_BG28_603t,
+	CardIds.Beetle_BG28_603t_G,
+	CardIds.ToxicTumbleweed_TumblingAssassinToken_BG28_641t,
+	CardIds.TumblingAssassin_BG28_641t_G,
 ];
 
 export const NON_DISCOVERABLE_BUDDIES = [
