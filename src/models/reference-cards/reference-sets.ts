@@ -1,5 +1,6 @@
 export type SetId =
 	| 'whizbangs_workshop'
+	| 'gift'
 	| 'deepholm'
 	| 'wild_west'
 	| 'ulduar'
@@ -51,6 +52,7 @@ export interface ReferenceSet {
 	readonly id: SetId;
 	readonly name: string;
 	readonly launchDate: Date;
+	readonly techSet?: boolean;
 }
 
 export const sets: readonly ReferenceSet[] = [
@@ -58,6 +60,12 @@ export const sets: readonly ReferenceSet[] = [
 		id: 'whizbangs_workshop',
 		name: `Whizbang's Workshop`,
 		launchDate: new Date('2024-02-13'),
+	},
+	{
+		id: 'gift',
+		name: `Gifts`,
+		launchDate: new Date('2024-02-13'),
+		techSet: true,
 	},
 	{
 		id: 'deepholm',
@@ -316,7 +324,8 @@ export const standardSets: readonly SetId[] = [
 	'ulduar',
 	'wild_west',
 	'deepholm',
-	// 'whizbangs_workshop',
+	'gift',
+	'whizbangs_workshop',
 ];
 export const twistSets: readonly SetId[] = [
 	'core',
