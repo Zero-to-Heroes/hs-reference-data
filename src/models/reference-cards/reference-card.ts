@@ -40,6 +40,7 @@ export interface ReferenceCard {
 	readonly durability?: number;
 	readonly armor?: number;
 	readonly hideStats?: boolean;
+	readonly enchantmentDbfId?: number;
 
 	readonly battlegroundsHero?: boolean;
 	readonly battlegroundsHeroSkin?: boolean;
