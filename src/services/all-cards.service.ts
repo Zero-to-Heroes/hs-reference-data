@@ -144,6 +144,24 @@ export const getBaseCardId = (cardId: string): string => {
 
 	switch (cardId) {
 		// The spellstones
+		case CardIds.LesserSpinelSpellstone_SpinelSpellstoneToken_TOY_825t:
+		case CardIds.LesserSpinelSpellstone_GreaterSpinelSpellstoneToken_TOY_825t2:
+			return CardIds.LesserSpinelSpellstone_TOY_825;
+		case CardIds.LesserJasperSpellstone_JasperSpellstoneToken:
+		case CardIds.LesserJasperSpellstone_GreaterJasperSpellstoneToken:
+			return CardIds.LesserJasperSpellstone_CORE_LOOT_051;
+		case CardIds.LesserEmeraldSpellstone_EmeraldSpellstoneToken:
+		case CardIds.LesserEmeraldSpellstone_GreaterEmeraldSpellstoneToken:
+			return CardIds.LesserEmeraldSpellstone_CORE_FB_Champs_LOOT_080;
+		case CardIds.LesserDiamondSpellstone_DiamondSpellstoneToken:
+		case CardIds.LesserDiamondSpellstone_GreaterDiamondSpellstoneToken:
+			return CardIds.LesserDiamondSpellstone_CORE_LOOT_507;
+		case CardIds.LesserAmethystSpellstone_AmethystSpellstoneToken:
+		case CardIds.LesserAmethystSpellstone_GreaterAmethystSpellstoneToken:
+			return CardIds.LesserAmethystSpellstone_CORE_LOOT_043;
+		case CardIds.LesserOpalSpellstone_OpalSpellstoneToken_TOY_645t:
+		case CardIds.LesserOpalSpellstone_GreaterOpalSpellstoneToken_TOY_645t1:
+			return CardIds.LesserOpalSpellstone_TOY_645;
 		case 'LOOT_103t1':
 		case 'LOOT_103t2':
 			return 'LOOT_103';
@@ -174,24 +192,6 @@ export const getBaseCardId = (cardId: string): string => {
 		case 'FB_Champs_LOOT_080t2':
 		case 'FB_Champs_LOOT_080t3':
 			return 'FB_Champs_LOOT_080';
-		case CardIds.LesserSpinelSpellstone_SpinelSpellstone:
-		case CardIds.LesserSpinelSpellstone_GreaterSpinelSpellstone:
-			return CardIds.LesserSpinelSpellstone;
-		case CardIds.LesserJasperSpellstone_JasperSpellstoneTokenCore:
-		case CardIds.LesserJasperSpellstone_GreaterJasperSpellstoneTokenCore:
-			return CardIds.LesserJasperSpellstoneCore;
-		case CardIds.LesserEmeraldSpellstone_EmeraldSpellstoneTokenCore:
-		case CardIds.LesserEmeraldSpellstone_GreaterJaspEmeraldSpellstoneTokenCore:
-			return CardIds.LesserEmeraldSpellstoneCore;
-		case CardIds.LesserDiamondSpellstone_DiamondSpellstoneTokenCore:
-		case CardIds.LesserDiamondSpellstone_GreaterDiamondSpellstoneTokenCore:
-			return CardIds.LesserDiamondSpellstoneCore;
-		case CardIds.LesserAmethystSpellstone_AmethystSpellstoneTokenCore:
-		case CardIds.LesserAmethystSpellstone_GreaterAmethystSpellstoneTokenCore:
-			return CardIds.LesserAmethystSpellstoneCore;
-		case CardIds.LesserOpalSpellstone_OpalSpellstoneToken:
-		case CardIds.LesserOpalSpellstone_GreaterOpalSpellstoneToken:
-			return CardIds.LesserOpalSpellstone;
 
 		// The "unidentified" spells
 		case 'LOOT_278t1':
