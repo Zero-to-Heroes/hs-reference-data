@@ -2966,7 +2966,10 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.RemoteControl]: [CardIds.RCRampage_Hound],
 	[CardIds.SandArtElemental]: [CardIds.SandArtElemental_MiniToken],
 	[CardIds.SandboxScoundrel]: [CardIds.SandboxScoundrel_MiniToken],
+	[CardIds.Shudderblock]: [CardIds.Shudderblock_MiniToken],
+	[CardIds.SleetSkater]: [CardIds.SleetSkater_MiniToken],
 	[CardIds.SpikeridgedSteed_CORE]: [CardIds.Stegodon_CORE],
+	[CardIds.SweetenedSnowflurry]: [CardIds.SweetenedSnowflurry_MiniToken],
 	[CardIds.TigressPlushy]: [CardIds.TigressPlushy_Token],
 	[CardIds.ToyCaptainTarim]: [CardIds.ToyCaptainTarim_Token],
 };
