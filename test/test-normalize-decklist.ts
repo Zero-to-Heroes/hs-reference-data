@@ -120,6 +120,59 @@ const testStandard2 = async () => {
 	}
 };
 
+const testStandard3 = async () => {
+	const allCards = new AllCardsService();
+	await allCards.initializeCardsDb();
+
+	const withLeg: DeckDefinition = {
+		heroes: [7],
+		format: GameFormat.FT_STANDARD,
+		cards: [
+			// LEG_CS3_031
+			[113183, 2],
+		],
+	};
+	const withCore: DeckDefinition = {
+		heroes: [7],
+		format: GameFormat.FT_STANDARD,
+		cards: [
+			// CS3_031
+			[66864, 2],
+		],
+	};
+	const expected: DeckDefinition = {
+		heroes: [7],
+		format: GameFormat.FT_STANDARD,
+		cards: [
+			// Core
+			[66864, 2],
+		],
+	};
+	const withWondersEncoded = encode(withLeg);
+	const withCoreEncoded = encode(withCore);
+	const expectedEncoded = encode(expected);
+
+	// Validate Wonders
+	const actualWonders = allCards.normalizeDeckList(withWondersEncoded);
+	const isSameWonders = actualWonders === expectedEncoded;
+	console.log('isSameWonders?', isSameWonders);
+	if (!isSameWonders) {
+		console.error('Expected', expectedEncoded);
+		console.error('Actual', actualWonders);
+		throw new Error('Expected and actual are not the same');
+	}
+
+	// Validate Core
+	const actualCore = allCards.normalizeDeckList(withCoreEncoded);
+	const isSameCore = actualCore === expectedEncoded;
+	console.log('isSameCore?', isSameCore);
+	if (!isSameCore) {
+		console.error('Expected', expectedEncoded);
+		console.error('Actual', actualCore);
+		throw new Error('Expected and actual are not the same');
+	}
+};
+
 const testTwist = async () => {
 	const allCards = new AllCardsService();
 	await allCards.initializeCardsDb();
@@ -182,6 +235,7 @@ const testOther = async () => {
 };
 
 const test = async () => {
+	await testStandard3();
 	await testTwist();
 	await testOther();
 	await testWild();

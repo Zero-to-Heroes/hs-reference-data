@@ -90,7 +90,9 @@ export class CardsForDeckbuildingService {
 	): number {
 		const refCard = allCards.getCard(cardIdOrDbfId);
 		const deckDbfId = refCard.deckDuplicateDbfId ?? refCard.dbfId;
-		return this.duplicatesForDeckbuilding[formatFormat(format)][deckDbfId]?.dbfId ?? refCard.dbfId;
+		return (
+			this.duplicatesForDeckbuilding[formatFormat(format)][deckDbfId]?.dbfId ?? allCards.getCard(deckDbfId).dbfId
+		);
 	}
 
 	public getBaseCardIdForDeckbuilding(
@@ -100,7 +102,7 @@ export class CardsForDeckbuildingService {
 	): string {
 		const refCard = allCards.getCard(cardIdOrDbfId);
 		const deckDbfId = refCard.deckDuplicateDbfId ?? refCard.dbfId;
-		return this.duplicatesForDeckbuilding[formatFormat(format)][deckDbfId]?.id ?? refCard.id;
+		return this.duplicatesForDeckbuilding[formatFormat(format)][deckDbfId]?.id ?? allCards.getCard(deckDbfId).id;
 	}
 
 	private getAllowedSets(format: 'standard' | 'wild' | 'twist' | 'classic' | 'duels'): readonly string[] {
