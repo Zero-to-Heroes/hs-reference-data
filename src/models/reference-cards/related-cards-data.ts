@@ -2996,4 +2996,9 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.SweetenedSnowflurry_TOY_307]: [CardIds.SweetenedSnowflurry_SweetenedSnowflurryToken_TOY_307t],
 	[CardIds.TigressPlushy_TOY_811]: [CardIds.TigressPlushy_TigressPlushyToken_TOY_811t],
 	[CardIds.ToyCaptainTarim_TOY_813]: [CardIds.ToyCaptainTarim_ToyCaptainTarimToken_TOY_813t],
+	[CardIds.TabletopRoleplayer_TOY_915]: [CardIds.TabletopRoleplayer_TabletopRoleplayerToken_TOY_915t],
+	[CardIds.Watercannon_TOY_522]: [CardIds.Watercannon_WatersliderToken_TOY_522t],
+	[CardIds.WindowShopper_TOY_652]: [CardIds.WindowShopper_WindowShopperToken_TOY_652t],
+	[CardIds.WoodlandWonders_TOY_804]: [CardIds.WoodlandWonders_GroveBeetleToken_TOY_804t],
+	[CardIds.WretchedQueen_TOY_914]: [CardIds.WretchedQueen_IgnobleKnightToken_TOY_914t],
 };
