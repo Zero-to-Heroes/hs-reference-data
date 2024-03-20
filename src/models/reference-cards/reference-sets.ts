@@ -311,13 +311,6 @@ export const sets: readonly ReferenceSet[] = [
 
 export const standardSets: readonly SetId[] = [
 	'core',
-	'the_sunken_city',
-	'throne_of_tides',
-	'revendreth',
-	'maw_and_disorder',
-	'return_of_the_lich_king',
-	'path_of_arthas',
-	'return_to_naxxramas',
 	'battle_of_the_bands',
 	'audiopocalypse',
 	'titans',
@@ -349,20 +342,21 @@ export const twistSets: readonly SetId[] = [
 	'yod',
 	'caverns_of_time',
 ];
-// https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
-export const arenaSets: readonly SetId[] = [
-	'wild_west',
-	'deepholm',
-	'titans',
-	'ulduar',
-	'caverns_of_time',
-	'core',
-	'path_of_arthas',
-	'scholomance',
-	'alterac_valley',
-	'onyxias_lair',
-];
 export const wildSets: readonly SetId[] = sets.map((s) => s.id);
+// https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
+export const arenaSets: readonly SetId[] = wildSets;
+// [
+// 	'wild_west',
+// 	'deepholm',
+// 	'titans',
+// 	'ulduar',
+// 	'caverns_of_time',
+// 	'core',
+// 	'path_of_arthas',
+// 	'scholomance',
+// 	'alterac_valley',
+// 	'onyxias_lair',
+// ];
 export const duelsSets: readonly SetId[] = [
 	'core',
 	'legacy',
