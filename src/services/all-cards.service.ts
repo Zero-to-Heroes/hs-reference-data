@@ -470,6 +470,9 @@ export const getBaseCardId = (cardId: string): string => {
 	if (cardId.startsWith(CardIds.TransferStudent)) {
 		return CardIds.TransferStudent;
 	}
+	if (cardId.startsWith(CardIds.ZilliaxDeluxe3000_TOY_330)) {
+		return CardIds.ZilliaxDeluxe3000_TOY_330;
+	}
 
 	return cardId;
 };
