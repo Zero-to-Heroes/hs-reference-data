@@ -45,7 +45,7 @@ const PIRANHA_TOKENS = [
 	CardIds.PiranhaSwarmer_PiranhaSwarmerToken_TSC_638t3,
 	CardIds.PiranhaSwarmer_PiranhaSwarmerToken_TSC_638t4,
 ];
-const TOTEMS = [CardIds.StoneclawTotem, CardIds.HealingTotem, CardIds.SearingTotemLegacy, CardIds.StrengthTotem];
+const TOTEMS = [CardIds.StoneclawTotem, CardIds.HealingTotem, CardIds.SearingTotemLegacy, CardIds.WrathOfAirTotem];
 const HERO_POWERS = [
 	CardIds.DemonClawsHeroSkins_HERO_10bbp,
 	CardIds.ShapeshiftHeroSkins_CS2_017_HS1,
@@ -3001,4 +3001,62 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.WindowShopper_TOY_652]: [CardIds.WindowShopper_WindowShopperToken_TOY_652t],
 	[CardIds.WoodlandWonders_TOY_804]: [CardIds.WoodlandWonders_GroveBeetleToken_TOY_804t],
 	[CardIds.WretchedQueen_TOY_914]: [CardIds.WretchedQueen_IgnobleKnightToken_TOY_914t],
+	[CardIds.JainasGift_GIFT_02]: [
+		CardIds.Frostbolt_CORE_CS2_024,
+		CardIds.ArcaneIntellectCore,
+		CardIds.FireballCore_CORE_CS2_029,
+	],
+	[CardIds.JainasGift_CORE_GIFT_02]: [
+		CardIds.Frostbolt_CORE_CS2_024,
+		CardIds.ArcaneIntellectCore,
+		CardIds.FireballCore_CORE_CS2_029,
+	],
+	[CardIds.RexxarsGift_GIFT_03]: [CardIds.QuickShotCore, CardIds.DeadlyShotCore, CardIds.ExplosiveShotLegacy],
+	[CardIds.RexxarsGift_CORE_GIFT_03]: [CardIds.QuickShotCore, CardIds.DeadlyShotCore, CardIds.ExplosiveShotLegacy],
+	[CardIds.ArthassGift_GIFT_04]: [
+		CardIds.DarkTransformation,
+		CardIds.HowlingBlast_RLK_015,
+		CardIds.DeathStrikeCore_RLK_024,
+	],
+	[CardIds.ArthassGift_CORE_GIFT_04]: [
+		CardIds.DarkTransformation,
+		CardIds.HowlingBlast_RLK_015,
+		CardIds.DeathStrikeCore_RLK_024,
+	],
+	[CardIds.UthersGift_GIFT_05]: [CardIds.EqualityCore, CardIds.ConsecrationCore, CardIds.BlessingOfKingsCore],
+	[CardIds.UthersGift_CORE_GIFT_05]: [CardIds.EqualityCore, CardIds.ConsecrationCore, CardIds.BlessingOfKingsCore],
+	[CardIds.ThrallsGift_GIFT_06]: [CardIds.LightningBoltCore, CardIds.HexCore, CardIds.BloodlustCore],
+	[CardIds.ThrallsGift_CORE_GIFT_06]: [CardIds.LightningBoltCore, CardIds.HexCore, CardIds.BloodlustCore],
+	[CardIds.GarroshsGift_GIFT_07]: [CardIds.ExecuteCore, CardIds.ShieldBlockCore, CardIds.BrawlCore],
+	[CardIds.GarroshsGift_CORE_GIFT_07]: [CardIds.ExecuteCore, CardIds.ShieldBlockCore, CardIds.BrawlCore],
+	[CardIds.IllidansGift_GIFT_08]: [CardIds.FelBarrage_SW_040, CardIds.ChaosStrikeCore, CardIds.ChaosNova_CORE_BT_235],
+	[CardIds.IllidansGift_CORE_GIFT_08]: [
+		CardIds.FelBarrage_SW_040,
+		CardIds.ChaosStrikeCore,
+		CardIds.ChaosNova_CORE_BT_235,
+	],
+	[CardIds.ValeerasGift_GIFT_09]: [CardIds.BackstabCore, CardIds.DeadlyPoisonCore, CardIds.FanOfKnivesCore],
+	[CardIds.ValeerasGift_CORE_GIFT_09]: [CardIds.BackstabCore, CardIds.DeadlyPoisonCore, CardIds.FanOfKnivesCore],
+	[CardIds.MalfurionsGift_GIFT_10]: [CardIds.FeralRageCore, CardIds.WildGrowthCore, CardIds.Swipe_CORE_CS2_012],
+	[CardIds.MalfurionsGift_CORE_GIFT_10]: [CardIds.FeralRageCore, CardIds.WildGrowthCore, CardIds.Swipe_CORE_CS2_012],
+	[CardIds.GuldansGift_GIFT_11]: [
+		CardIds.MortalCoilCore_CORE_EX1_302,
+		CardIds.SiphonSoulCore,
+		CardIds.TwistingNetherCore,
+	],
+	[CardIds.GuldansGift_CORE_GIFT_11]: [
+		CardIds.MortalCoilCore_CORE_EX1_302,
+		CardIds.SiphonSoulCore,
+		CardIds.TwistingNetherCore,
+	],
+	[CardIds.AnduinsGift_GIFT_12]: [
+		CardIds.PowerWordShieldLegacy_CS2_004,
+		CardIds.ShadowWordPain_CORE_CS2_234,
+		CardIds.MindControlLegacy,
+	],
+	[CardIds.AnduinsGift_CORE_GIFT_12]: [
+		CardIds.PowerWordShieldLegacy_CS2_004,
+		CardIds.ShadowWordPain_CORE_CS2_234,
+		CardIds.MindControlLegacy,
+	],
 };

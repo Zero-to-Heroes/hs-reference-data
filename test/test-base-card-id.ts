@@ -27,6 +27,14 @@ const test = async () => {
 		console.error('Card ids are not the same', card1, card2);
 		throw new Error();
 	}
+
+	card1 = allCards.getBaseCardIdForDeckbuilding('TSC_827', GameFormat.FT_STANDARD);
+	card2 = allCards.getBaseCardIdForDeckbuilding('CORE_TSC_827', GameFormat.FT_STANDARD);
+	console.log('cards', card1, card2);
+	if (card1 !== card2) {
+		console.error('Card ids are not the same', card1, card2);
+		throw new Error();
+	}
 };
 
 test();
