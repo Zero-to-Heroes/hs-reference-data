@@ -309,6 +309,7 @@ export const sets: readonly ReferenceSet[] = [
 	},
 ] as const;
 
+export const wildSets: readonly SetId[] = sets.map((s) => s.id);
 export const standardSets: readonly SetId[] = [
 	'core',
 	'battle_of_the_bands',
@@ -320,29 +321,29 @@ export const standardSets: readonly SetId[] = [
 	'gift',
 	'whizbangs_workshop',
 ];
-export const twistSets: readonly SetId[] = [
-	'core',
-	'naxx',
-	'gvg',
-	'brm',
-	'tgt',
-	'loe',
-	'og',
-	'kara',
-	'gangs',
-	'ungoro',
-	'icecrown',
-	'lootapalooza',
-	'gilneas',
-	'boomsday',
-	'troll',
-	'dalaran',
-	'uldum',
-	'dragons',
-	'yod',
-	'caverns_of_time',
-];
-export const wildSets: readonly SetId[] = sets.map((s) => s.id);
+export const twistSets: readonly SetId[] = wildSets;
+//  [
+// 	'core',
+// 	'naxx',
+// 	'gvg',
+// 	'brm',
+// 	'tgt',
+// 	'loe',
+// 	'og',
+// 	'kara',
+// 	'gangs',
+// 	'ungoro',
+// 	'icecrown',
+// 	'lootapalooza',
+// 	'gilneas',
+// 	'boomsday',
+// 	'troll',
+// 	'dalaran',
+// 	'uldum',
+// 	'dragons',
+// 	'yod',
+// 	'caverns_of_time',
+// ];
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 export const arenaSets: readonly SetId[] = wildSets;
 // [
