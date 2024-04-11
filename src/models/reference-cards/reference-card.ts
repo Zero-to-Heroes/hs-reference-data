@@ -55,7 +55,9 @@ export interface ReferenceCard {
 	readonly spellSchool?: string;
 	readonly artist?: string;
 	readonly questRewardDbfId?: number;
+	/** @deprecated */
 	readonly deckDuplicateDbfId?: number;
+	readonly counterpartCards?: readonly number[];
 	readonly relatedCardDbfIds?: readonly number[];
 
 	readonly availableAsDiamond?: boolean;
