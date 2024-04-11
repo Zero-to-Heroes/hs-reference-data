@@ -79,7 +79,8 @@ export class AllCardsService {
 	}
 
 	public getRootCardId(cardId: string): string {
-		const dbfId = this.getCard(cardId)?.deckDuplicateDbfId ?? this.getCard(cardId)?.dbfId;
+		const card = this.getCard(cardId);
+		const dbfId = card?.counterpartCards?.[0] ?? card?.deckDuplicateDbfId ?? card?.dbfId;
 		return this.getCard(dbfId)?.id;
 	}
 

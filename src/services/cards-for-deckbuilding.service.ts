@@ -17,11 +17,12 @@ export class CardsForDeckbuildingService {
 			[dbfId: string]: ReferenceCard[];
 		} = {};
 		for (const card of allCards.getCards()) {
-			if (card.deckDuplicateDbfId) {
-				if (!allSetsDuplicates[card.deckDuplicateDbfId]) {
-					allSetsDuplicates[card.deckDuplicateDbfId] = [];
+			if (!!card.counterpartCards?.length || card.deckDuplicateDbfId) {
+				const rootId = card.counterpartCards?.[0] ?? card.deckDuplicateDbfId;
+				if (!allSetsDuplicates[rootId]) {
+					allSetsDuplicates[rootId] = [];
 				}
-				allSetsDuplicates[card.deckDuplicateDbfId].push(card);
+				allSetsDuplicates[rootId].push(card);
 			} else {
 				if (!allSetsDuplicates[card.dbfId]) {
 					allSetsDuplicates[card.dbfId] = [];
@@ -89,7 +90,7 @@ export class CardsForDeckbuildingService {
 		allCards: AllCardsService,
 	): number {
 		const refCard = allCards.getCard(cardIdOrDbfId);
-		const deckDbfId = refCard.deckDuplicateDbfId ?? refCard.dbfId;
+		const deckDbfId = refCard.counterpartCards?.[0] ?? refCard.deckDuplicateDbfId ?? refCard.dbfId;
 		return (
 			this.duplicatesForDeckbuilding[formatFormat(format)][deckDbfId]?.dbfId ?? allCards.getCard(deckDbfId).dbfId
 		);
@@ -101,7 +102,7 @@ export class CardsForDeckbuildingService {
 		allCards: AllCardsService,
 	): string {
 		const refCard = allCards.getCard(cardIdOrDbfId);
-		const deckDbfId = refCard.deckDuplicateDbfId ?? refCard.dbfId;
+		const deckDbfId = refCard.counterpartCards?.[0] ?? refCard.deckDuplicateDbfId ?? refCard.dbfId;
 		return this.duplicatesForDeckbuilding[formatFormat(format)][deckDbfId]?.id ?? allCards.getCard(deckDbfId).id;
 	}
 
