@@ -211,10 +211,10 @@
 			"description": "영웅 능력 $q회 사용",
 			"id": 28,
 			"name": "",
-			"quota": 20,
+			"quota": 40,
 			"rewardListId": 0,
 			"rewardTrackType": 1,
-			"rewardTrackXp": 1750
+			"rewardTrackXp": 2250
 		},
 		{
 			"description": "관전 모드에서 친구가 승리하거나 보상을 획득하는 모습 지켜보기",
@@ -571,10 +571,10 @@
 			"description": "전투의 함성 카드 $q장 내기",
 			"id": 71,
 			"name": "",
-			"quota": 50,
+			"quota": 100,
 			"rewardListId": 0,
 			"rewardTrackType": 1,
-			"rewardTrackXp": 1750
+			"rewardTrackXp": 2250
 		},
 		{
 			"description": "죽음의 메아리 효과 $q회 발동",
@@ -733,10 +733,10 @@
 			"description": "적 영웅들에게 총 $q의 피해 주기",
 			"id": 89,
 			"name": "",
-			"quota": 200,
+			"quota": 400,
 			"rewardListId": 0,
 			"rewardTrackType": 1,
-			"rewardTrackXp": 1750
+			"rewardTrackXp": 2250
 		},
 		{
 			"description": "카드 $q장 뽑기",
@@ -769,10 +769,10 @@
 			"description": "마나 $q개 사용",
 			"id": 93,
 			"name": "",
-			"quota": 500,
+			"quota": 750,
 			"rewardListId": 0,
 			"rewardTrackType": 1,
-			"rewardTrackXp": 1750
+			"rewardTrackXp": 2250
 		},
 		{
 			"description": "전장에서 적 하수인들에게 총 $q의 피해 주기",
@@ -802,22 +802,22 @@
 			"rewardTrackXp": 1750
 		},
 		{
-			"description": "선술집 난투 또는 투기장 또는 전장 또는 결투에서 $q승",
+			"description": "선술집 난투 또는 투기장 또는 전장에서 $q승",
 			"id": 97,
 			"name": "",
-			"quota": 5,
+			"quota": 15,
 			"rewardListId": 0,
 			"rewardTrackType": 1,
-			"rewardTrackXp": 1750
+			"rewardTrackXp": 2250
 		},
 		{
 			"description": "하스스톤 등급전에서 $q승",
 			"id": 98,
 			"name": "",
-			"quota": 5,
+			"quota": 15,
 			"rewardListId": 0,
 			"rewardTrackType": 1,
-			"rewardTrackXp": 2500
+			"rewardTrackXp": 3000
 		},
 		{
 			"description": "도전자 3명을 상대로 승리!",
@@ -5332,10 +5332,442 @@
 			"description": "미니미 또는 미니 카드 $q장 내기 ",
 			"id": 788,
 			"name": "",
-			"quota": 16,
+			"quota": 60,
 			"rewardListId": 0,
 			"rewardTrackType": 1,
-			"rewardTrackXp": 1750
+			"rewardTrackXp": 2250
+		},
+		{
+			"description": "기본 하스스톤에서 게임 $q회 완료",
+			"id": 789,
+			"name": "이중고",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "하수인 $q마리 처치",
+			"id": 790,
+			"name": "이중고",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "미니미 또는 미니 카드 $q장 내기",
+			"id": 791,
+			"name": "이중고",
+			"quota": 6,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "하수인 $q장 내기",
+			"id": 792,
+			"name": "이중고",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 250
+		},
+		{
+			"description": "카드 $q장 내기",
+			"id": 793,
+			"name": "이중고",
+			"quota": 20,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 250
+		},
+		{
+			"description": "피해 $q 주기",
+			"id": 794,
+			"name": "이중고",
+			"quota": 100,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 250
+		},
+		{
+			"description": "기본 하스스톤에서 게임 $q회 완료",
+			"id": 795,
+			"name": "이중고",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 250
+		},
+		{
+			"description": "카드 $q장 뽑기",
+			"id": 796,
+			"name": "",
+			"quota": 20,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "적 영웅들에게 총 $q의 피해 주기",
+			"id": 797,
+			"name": "",
+			"quota": 20,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "전투의 함성 하수인 $q장 내기",
+			"id": 798,
+			"name": "",
+			"quota": 5,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "내 죽음의 메아리 $q회 발동",
+			"id": 799,
+			"name": "",
+			"quota": 5,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "마법사, 사제, 성기사 또는 도적으로 게임 $q회 완료",
+			"id": 800,
+			"name": "",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "드루이드 또는 주술사 또는 흑마법사로 게임 $q회 완료",
+			"id": 801,
+			"name": "",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "전사, 죽음의 기사, 악마사냥꾼 또는 사냥꾼으로 게임 $q회 완료",
+			"id": 802,
+			"name": "",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "피날레 카드 $q장 내기",
+			"id": 803,
+			"name": "",
+			"quota": 3,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "빨리 뽑기 카드 $q장 내기",
+			"id": 804,
+			"name": "",
+			"quota": 3,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "카드 $q장 제련",
+			"id": 805,
+			"name": "",
+			"quota": 3,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "발굴 카드 $q장 내기",
+			"id": 806,
+			"name": "",
+			"quota": 3,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "도발 하수인 $q장 내기",
+			"id": 807,
+			"name": "",
+			"quota": 3,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 100
+		},
+		{
+			"description": "태그 전장에서 게임 $q회 완료",
+			"id": 808,
+			"name": "이중고",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 300
+		},
+		{
+			"description": "태그 전장에서 팀원에게 카드 $q장 전달",
+			"id": 809,
+			"name": "이중고",
+			"quota": 5,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 300
+		},
+		{
+			"description": "태그 전장에서 게임 $q회 완료",
+			"id": 810,
+			"name": "이중고",
+			"quota": 2,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 300
+		},
+		{
+			"description": "태그 전장에서 팀원에게 카드 $q장 전달",
+			"id": 811,
+			"name": "이중고",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 350
+		},
+		{
+			"description": "태그 전장에서 2위 내에 $q회 들기",
+			"id": 812,
+			"name": "이중고",
+			"quota": 2,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 350
+		},
+		{
+			"description": "태그 전장에서 전투 $q회 승리",
+			"id": 813,
+			"name": "",
+			"quota": 4,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 150
+		},
+		{
+			"description": "태그 전장에서 하수인 $q마리 구매",
+			"id": 814,
+			"name": "",
+			"quota": 20,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 150
+		},
+		{
+			"description": "태그 전장에서 황금 하수인 $q장 내기",
+			"id": 815,
+			"name": "",
+			"quota": 5,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 150
+		},
+		{
+			"description": "태그 전장에서 선술집 $q회 강화",
+			"id": 816,
+			"name": "",
+			"quota": 4,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 150
+		},
+		{
+			"description": "기쁨술사 제페토 $q장 내기 또는 파괴",
+			"id": 817,
+			"name": "장난감 제작자의 곤경",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 350
+		},
+		{
+			"description": "기본 하스스톤에서 게임 $q회 완료",
+			"id": 818,
+			"name": "공방전!",
+			"quota": 2,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 350
+		},
+		{
+			"description": "피해 $q 주기",
+			"id": 819,
+			"name": "찐막!",
+			"quota": 100,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 350
+		},
+		{
+			"description": "하수인 $q장 내기",
+			"id": 820,
+			"name": "찐찐막!",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 350
+		},
+		{
+			"description": "비용이 1인 하수인 카드 $q장 내기",
+			"id": 821,
+			"name": "찐찐찐막!",
+			"quota": 5,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 350
+		},
+		{
+			"description": "카드 $q장 내기",
+			"id": 822,
+			"name": "진짜로...",
+			"quota": 20,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 350
+		},
+		{
+			"description": "기본 하스스톤에서 게임 $q회 완료",
+			"id": 823,
+			"name": "찐막!",
+			"quota": 2,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 350
+		},
+		{
+			"description": "카드 $q장 뽑기",
+			"id": 824,
+			"name": "",
+			"quota": 20,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "적 영웅들에게 총 $q의 피해 주기",
+			"id": 825,
+			"name": "",
+			"quota": 20,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "전투의 함성 하수인 $q장 내기",
+			"id": 826,
+			"name": "",
+			"quota": 5,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "내 죽음의 메아리 $q회 발동",
+			"id": 827,
+			"name": "",
+			"quota": 5,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "마법사, 사제, 성기사 또는 도적으로 게임 $q회 완료",
+			"id": 828,
+			"name": "",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "드루이드 또는 주술사 또는 흑마법사로 게임 $q회 완료",
+			"id": 829,
+			"name": "",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "전사, 죽음의 기사, 악마사냥꾼 또는 사냥꾼으로 게임 $q회 완료",
+			"id": 830,
+			"name": "",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "피날레 카드 $q장 내기",
+			"id": 831,
+			"name": "",
+			"quota": 3,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "빨리 뽑기 카드 $q장 내기",
+			"id": 832,
+			"name": "",
+			"quota": 3,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "카드 $q장 제련",
+			"id": 833,
+			"name": "",
+			"quota": 3,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "발굴 카드 $q장 내기",
+			"id": 834,
+			"name": "",
+			"quota": 3,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "도발 하수인 $q장 내기",
+			"id": 835,
+			"name": "",
+			"quota": 3,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "게임 $q회 완료",
+			"id": 836,
+			"name": "난투의 부름",
+			"quota": 1,
+			"rewardListId": 336,
+			"rewardTrackType": 0,
+			"rewardTrackXp": 0
 		}
 	]
 }
