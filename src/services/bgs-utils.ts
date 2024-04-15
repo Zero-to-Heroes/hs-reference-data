@@ -534,6 +534,16 @@ export const getHeroPower = (
 			return CardIds.TaethelanBloodwatcher_ReliquaryResearch_BG28_HERO_800p;
 		case CardIds.DoctorHollidae_BG28_HERO_801:
 			return CardIds.DoctorHollidae_BlessingOfTheNineFrogs_BG28_HERO_801p;
+		case CardIds.Cho_BGDUO_HERO_222:
+			return CardIds.Cho_DoubleTrouble_BGDUO_HERO_222p;
+		case CardIds.Gall_BGDUO_HERO_223:
+			return CardIds.Gall_DoubleTrouble_BGDUO_HERO_223p;
+		case CardIds.TheNamelessOne_BGDUO_HERO_100:
+			return CardIds.TheNamelessOne_X_BGDUO_HERO_100p;
+		case CardIds.FlobbidinousFloop_BGDUO_HERO_101:
+			return CardIds.FlobbidinousFloop_GloriousGloop_BGDUO_HERO_101p;
+		case CardIds.MadamGoya_BGDUO_HERO_104:
+			return CardIds.MadamGoya_EfficientExchange_BGDUO_HERO_104p;
 
 		case '':
 			return null; // new heroes
