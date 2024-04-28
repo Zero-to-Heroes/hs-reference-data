@@ -1,4 +1,5 @@
 import { Sideboard } from '@firestone-hs/deckstrings';
+import { readFileSync } from 'fs';
 import { CardIds } from '../card-ids';
 import { ReferenceCard } from '../models/reference-cards/reference-card';
 import { GameFormat } from '../public-api';
@@ -55,9 +56,8 @@ export class AllCardsService {
 
 			this.cache = {};
 			this.cacheDbfId = {};
-			const baseUrl = useLocal ? '.' : CARDS_CDN_URL;
-			version = useLocal ? `${version}${Math.random()}` : version;
-			allCards = await loadCards(baseUrl, cardsFile, version);
+			const baseUrl = CARDS_CDN_URL;
+			allCards = await loadCards(baseUrl, cardsFile, version, useLocal);
 			if (!allCards?.length) {
 				console.error('[all-cards] could not load cards', baseUrl, version, allCards);
 			} else {
@@ -101,10 +101,15 @@ export class AllCardsService {
 	}
 }
 
-const loadCards = async (baseUrl: string, cardsFile: string, version: string): Promise<readonly ReferenceCard[]> => {
+const loadCards = async (
+	baseUrl: string,
+	cardsFile: string,
+	version: string,
+	useLocal: boolean,
+): Promise<readonly ReferenceCard[]> => {
 	const versionString = !!version?.length ? `?v=${version}` : '';
 	const url = `${baseUrl}/${cardsFile}${versionString}`;
-	let cardsStr: string = await httpWithRetries(url, 1);
+	let cardsStr: string = useLocal ? readFileSync(`./${cardsFile}`, 'utf8') : await httpWithRetries(url, 1);
 	if (!!cardsStr?.length && !cardsStr.startsWith('<')) {
 		return JSON.parse(cardsStr) as readonly ReferenceCard[];
 	}
