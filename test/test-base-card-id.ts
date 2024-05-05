@@ -4,8 +4,8 @@ const test = async () => {
 	const allCards = new AllCardsService();
 	await allCards.initializeCardsDb();
 
-	let card1 = allCards.getBaseCardIdForDeckbuilding('LEG_CS3_031', GameFormat.FT_WILD);
-	let card2 = allCards.getBaseCardIdForDeckbuilding('CS3_031', GameFormat.FT_WILD);
+	let card1 = allCards.getBaseCardIdForDeckbuilding('BT_351', GameFormat.FT_WILD);
+	let card2 = allCards.getBaseCardIdForDeckbuilding('CORE_BT_351', GameFormat.FT_WILD);
 	console.log('cards', card1, card2);
 	if (card1 !== card2) {
 		console.error('Card ids are not the same', card1, card2);
