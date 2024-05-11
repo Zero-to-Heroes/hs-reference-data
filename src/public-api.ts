@@ -52,6 +52,7 @@ export * from './models/reference-cards/reference-player-class';
 export * from './models/reference-cards/reference-sets';
 export * from './models/reference-cards/related-cards-data';
 export * from './secondary-race-tags';
+export * from './services/all-cards-local.service';
 export * from './services/all-cards.service';
 export * from './services/bgs-utils';
 export * from './services/cards-for-deckbuilding.service';

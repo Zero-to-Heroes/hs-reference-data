@@ -1,5 +1,4 @@
 import { Sideboard } from '@firestone-hs/deckstrings';
-import { readFileSync } from 'fs';
 import { CardIds } from '../card-ids';
 import { ReferenceCard } from '../models/reference-cards/reference-card';
 import { GameFormat } from '../public-api';
@@ -44,7 +43,7 @@ export class AllCardsService {
 		return Object.values(this.cache);
 	}
 
-	public async initializeCardsDb(version = '', cardsFile = 'cards_enUS.gz.json', useLocal = false): Promise<void> {
+	public async initializeCardsDb(version = '', cardsFile = 'cards_enUS.gz.json'): Promise<void> {
 		// console.debug('[all-cards] asked to retrieve cards from CDN', version, new Error().stack);
 		return new Promise<void>(async (resolve, reject) => {
 			let allCards: readonly ReferenceCard[] = Object.values(this.cache);
@@ -57,7 +56,7 @@ export class AllCardsService {
 			this.cache = {};
 			this.cacheDbfId = {};
 			const baseUrl = CARDS_CDN_URL;
-			allCards = await loadCards(baseUrl, cardsFile, version, useLocal);
+			allCards = await this.loadCards(baseUrl, cardsFile, version);
 			if (!allCards?.length) {
 				console.error('[all-cards] could not load cards', baseUrl, version, allCards);
 			} else {
@@ -99,46 +98,45 @@ export class AllCardsService {
 	public getBaseCardIdForDeckbuilding(cardIdOrDbfId: number | string, format: GameFormat): string {
 		return this.deckbuilding.getBaseCardIdForDeckbuilding(cardIdOrDbfId, format, this);
 	}
-}
 
-const loadCards = async (
-	baseUrl: string,
-	cardsFile: string,
-	version: string,
-	useLocal: boolean,
-): Promise<readonly ReferenceCard[]> => {
-	const versionString = !!version?.length ? `?v=${version}` : '';
-	const url = `${baseUrl}/${cardsFile}${versionString}`;
-	let cardsStr: string = useLocal ? readFileSync(`./${cardsFile}`, 'utf8') : await httpWithRetries(url, 1);
-	if (!!cardsStr?.length && !cardsStr.startsWith('<')) {
-		return JSON.parse(cardsStr) as readonly ReferenceCard[];
-	}
-
-	console.warn('[all-cards] could not load cards, defaulting to split');
-	const numberOfSplits = 4;
-	const result: ReferenceCard[] = [];
-	for (let i = 0; i < numberOfSplits; i++) {
-		const splitUrl = `${baseUrl}/split/${cardsFile}.${i}${versionString}`;
-		console.log('[all-cards] loading split', splitUrl);
-		cardsStr = await httpWithRetries(splitUrl, 1);
+	private async loadCards(baseUrl: string, cardsFile: string, version: string): Promise<readonly ReferenceCard[]> {
+		const versionString = !!version?.length ? `?v=${version}` : '';
+		const url = `${baseUrl}/${cardsFile}${versionString}`;
+		let cardsStr: string = await this.getCardsStr(url);
 		if (!!cardsStr?.length && !cardsStr.startsWith('<')) {
-			const splitCards: readonly ReferenceCard[] = JSON.parse(cardsStr);
-			console.log('loaded split cards', splitCards?.length);
-			result.push(...splitCards);
+			return JSON.parse(cardsStr) as readonly ReferenceCard[];
 		}
-	}
-	if (!!result?.length) {
-		return result;
+
+		console.warn('[all-cards] could not load cards, defaulting to split');
+		const numberOfSplits = 4;
+		const result: ReferenceCard[] = [];
+		for (let i = 0; i < numberOfSplits; i++) {
+			const splitUrl = `${baseUrl}/split/${cardsFile}.${i}${versionString}`;
+			console.log('[all-cards] loading split', splitUrl);
+			cardsStr = await httpWithRetries(splitUrl, 1);
+			if (!!cardsStr?.length && !cardsStr.startsWith('<')) {
+				const splitCards: readonly ReferenceCard[] = JSON.parse(cardsStr);
+				console.log('loaded split cards', splitCards?.length);
+				result.push(...splitCards);
+			}
+		}
+		if (!!result?.length) {
+			return result;
+		}
+
+		const urlNoAudio = `${baseUrl}/no_audio/${cardsFile}?v=${version}`;
+		console.warn('[all-cards] could not load cards, defaulting to no_audio', urlNoAudio);
+		cardsStr = await httpWithRetries(urlNoAudio, 1);
+		if (!!cardsStr?.length && !cardsStr.startsWith('<')) {
+			return JSON.parse(cardsStr) as readonly ReferenceCard[];
+		}
+		return [];
 	}
 
-	const urlNoAudio = `${baseUrl}/no_audio/${cardsFile}?v=${version}`;
-	console.warn('[all-cards] could not load cards, defaulting to no_audio', urlNoAudio);
-	cardsStr = await httpWithRetries(urlNoAudio, 1);
-	if (!!cardsStr?.length && !cardsStr.startsWith('<')) {
-		return JSON.parse(cardsStr) as readonly ReferenceCard[];
+	protected async getCardsStr(url: string): Promise<string> {
+		return await httpWithRetries(url, 1);
 	}
-	return [];
-};
+}
 
 // The spellstones are present in the AI decklist in their basic version
 // However, if the AI plays the spellstone's upgraded version, we need to remove
