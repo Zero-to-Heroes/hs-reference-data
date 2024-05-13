@@ -103,6 +103,13 @@ export const NON_BUYABLE_MINION_IDS = [
 	CardIds.Beetle_BG28_603t_G,
 	CardIds.ToxicTumbleweed_TumblingAssassinToken_BG28_641t,
 	CardIds.TumblingAssassin_BG28_641t_G,
+	// 29.2
+	CardIds.SilverGoose_SilverFledglingToken_BG29_801t,
+	CardIds.SilverGoose_SilverFledglingToken_BG29_801_Gt,
+	CardIds.ReplicatingMenace_MicrobotToken_BG_BOT_312t,
+	CardIds.ReplicatingMenace_MicrobotToken_TB_BaconUps_032t,
+	CardIds.TheUninvitedGuest_ShadowToken_BG29_875t,
+	CardIds.TheUninvitedGuest_ShadowToken_BG29_875_Gt,
 ];
 
 export const NON_DISCOVERABLE_BUDDIES = [
@@ -299,7 +306,7 @@ export const getReferenceTribeCardId = (tribe: string | Race): string => {
 			break;
 		case 'undead':
 		case Race.UNDEAD:
-			referenceCardId = CardIds.MoroesStewardOfDeath_BG28_304;
+			referenceCardId = CardIds.RisenRider_BG25_001;
 			break;
 		case 'all':
 		case Race.ALL:
