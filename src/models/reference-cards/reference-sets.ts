@@ -1,4 +1,5 @@
 export type SetId =
+	| whizbangs_workshop_mini_set
 	| 'whizbangs_workshop'
 	| 'gift'
 	| 'deepholm'
@@ -56,6 +57,11 @@ export interface ReferenceSet {
 }
 
 export const sets: readonly ReferenceSet[] = [
+	{
+		id: whizbangs_workshop_mini_set,
+		name: `Dr. Boom’s Incredible Inventions`,
+		launchDate: new Date('2024-05-14'),
+	},
 	{
 		id: 'whizbangs_workshop',
 		name: `Whizbang's Workshop`,
@@ -320,6 +326,7 @@ export const standardSets: readonly SetId[] = [
 	'deepholm',
 	'gift',
 	'whizbangs_workshop',
+	whizbangs_workshop_mini_set,
 ];
 export const twistSets: readonly SetId[] = wildSets;
 //  [

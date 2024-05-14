@@ -3063,4 +3063,19 @@ export const RELATED_CARDS_DATA: {
 		CardIds.ShadowWordPain_CORE_CS2_234,
 		CardIds.MindControlLegacy,
 	],
+	[CardIds.ToysnatchingGeist]: [CardIds.ToysnatchingGeist_Token],
+	[CardIds.OvergrownBeanstalk]: [CardIds.OvergrownBeanstalk_Treant], // TODO: add token to list of Treant ids, if it's a new one?
+	[CardIds.SnuggleTeddy]: [CardIds.SnuggleTeddy_Token],
+	[CardIds.FlickeringLightbot]: [CardIds.FlickeringLightbot_Token],
+	[CardIds.DustBunny]: [
+		CardIds.TheCoinCore,
+		CardIds.KoboldMiner_RockToken_WW_001t,
+		CardIds.BananaVendor_BananasToken,
+		CardIds.WickedKnifeLegacy,
+	],
+	[CardIds.MurlocGrowfin]: [CardIds.MurlocGrowfin_Token, CardIds.MurlocTinyfin_CORE_LOEA10_3],
+	[CardIds.SafetyExpert]: [CardIds.SafetyExpert_Bomb],
+	[CardIds.TheReplicatorinator]: [CardIds.TheReplicatorinator_Token1, CardIds.TheReplicatorinator_Token2],
+	[CardIds.ProGamer]: [CardIds.ProGamer_RockToken, CardIds.ProGamer_ScissorsToken, CardIds.ProGamer_PaperToken],
+	[CardIds.Explodineer]: [CardIds.SafetyExpert_Bomb],
 };
