@@ -5,6 +5,7 @@ import { AllCardsService } from './all-cards.service';
 
 export const ALL_CLASSES = [
 	'deathknight',
+	'demonhunter',
 	'druid',
 	'hunter',
 	'mage',
@@ -14,7 +15,6 @@ export const ALL_CLASSES = [
 	'shaman',
 	'warlock',
 	'warrior',
-	'demonhunter',
 ];
 
 export const formatFormat = (format: GameFormat): GameFormatString => {

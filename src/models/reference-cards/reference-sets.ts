@@ -1,5 +1,5 @@
 export type SetId =
-	| 'booms_inventions'
+	| 'boom_inventions'
 	| 'whizbangs_workshop'
 	| 'gift'
 	| 'deepholm'
@@ -58,7 +58,7 @@ export interface ReferenceSet {
 
 export const sets: readonly ReferenceSet[] = [
 	{
-		id: 'booms_inventions',
+		id: 'boom_inventions',
 		name: `Dr. Boom’s Incredible Inventions`,
 		launchDate: new Date('2024-05-14'),
 	},
@@ -326,7 +326,7 @@ export const standardSets: readonly SetId[] = [
 	'deepholm',
 	'gift',
 	'whizbangs_workshop',
-	'booms_inventions',
+	'boom_inventions',
 ];
 export const twistSets: readonly SetId[] = wildSets;
 //  [

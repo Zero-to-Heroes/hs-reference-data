@@ -3063,19 +3063,29 @@ export const RELATED_CARDS_DATA: {
 		CardIds.ShadowWordPain_CORE_CS2_234,
 		CardIds.MindControlLegacy,
 	],
-	[CardIds.ToysnatchingGeist]: [CardIds.ToysnatchingGeist_Token],
-	[CardIds.OvergrownBeanstalk]: [CardIds.OvergrownBeanstalk_Treant], // TODO: add token to list of Treant ids, if it's a new one?
-	[CardIds.SnuggleTeddy]: [CardIds.SnuggleTeddy_Token],
-	[CardIds.FlickeringLightbot]: [CardIds.FlickeringLightbot_Token],
-	[CardIds.DustBunny]: [
+	[CardIds.ToysnatchingGeist_MIS_006]: [CardIds.ToysnatchingGeist_ToysnatchingGeistToken_MIS_006t],
+	[CardIds.OvergrownBeanstalk_MIS_301]: [CardIds.OvergrownBeanstalk_TreantToken_MIS_301t],
+	[CardIds.SnuggleTeddy_MIS_300]: [CardIds.SnuggleTeddy_SnuggleTeddyToken_MIS_300t],
+	[CardIds.FlickeringLightbot_MIS_918]: [CardIds.FlickeringLightbot_FlickeringLightbotToken_MIS_918t],
+	[CardIds.DustBunny_MIS_706]: [
 		CardIds.TheCoinCore,
 		CardIds.KoboldMiner_RockToken_WW_001t,
 		CardIds.BananaVendor_BananasToken,
 		CardIds.WickedKnifeLegacy,
 	],
-	[CardIds.MurlocGrowfin]: [CardIds.MurlocGrowfin_Token, CardIds.MurlocTinyfin_CORE_LOEA10_3],
-	[CardIds.SafetyExpert]: [CardIds.SafetyExpert_Bomb],
-	[CardIds.TheReplicatorinator]: [CardIds.TheReplicatorinator_Token1, CardIds.TheReplicatorinator_Token2],
-	[CardIds.ProGamer]: [CardIds.ProGamer_RockToken, CardIds.ProGamer_ScissorsToken, CardIds.ProGamer_PaperToken],
-	[CardIds.Explodineer]: [CardIds.SafetyExpert_Bomb],
+	[CardIds.MurlocGrowfin_MIS_307]: [
+		CardIds.MurlocGrowfin_MurlocGrowfinToken_MIS_307t1,
+		CardIds.MurlocGrowfin_MoldedTinyfinToken_MIS_307t,
+	],
+	[CardIds.SafetyExpert_MIS_711]: [CardIds.SeaforiumBomber_BombToken],
+	[CardIds.TheReplicatorInator_MIS_025]: [
+		CardIds.TheReplicatorInator_TheReplicatorInatorToken_MIS_025t1,
+		CardIds.TheReplicatorInator_TheReplicatorInatorMiniToken_MIS_025t,
+	],
+	[CardIds.ProGamer_MIS_916]: [
+		CardIds.ProGamer_Rock_MIS_916a,
+		CardIds.ProGamer_Scissors_MIS_916c,
+		CardIds.ProGamer_Paper_MIS_916b,
+	],
+	[CardIds.Explodineer_MIS_308]: [CardIds.SeaforiumBomber_BombToken],
 };
