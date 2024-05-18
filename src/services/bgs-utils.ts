@@ -274,7 +274,7 @@ export const getReferenceTribeCardId = (tribe: string | Race): string => {
 			break;
 		case 'beast':
 		case Race.BEAST:
-			referenceCardId = CardIds.TrustyPup_BG29_800;
+			referenceCardId = CardIds.GoldrinnTheGreatWolf_BGS_018;
 			break;
 		case 'demon':
 		case Race.DEMON:
