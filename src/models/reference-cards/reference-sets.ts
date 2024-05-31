@@ -353,18 +353,35 @@ export const twistSets: readonly SetId[] = wildSets;
 // ];
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 export const arenaSets: readonly SetId[] = wildSets;
-// [
-// 	'wild_west',
-// 	'deepholm',
-// 	'titans',
-// 	'ulduar',
-// 	'caverns_of_time',
-// 	'core',
-// 	'path_of_arthas',
-// 	'scholomance',
-// 	'alterac_valley',
-// 	'onyxias_lair',
-// ];
+[
+	'boom_inventions',
+	'whizbangs_workshop',
+	'gift',
+	'deepholm',
+	'wild_west',
+	'ulduar',
+	'caverns_of_time',
+	'titans',
+	'audiopocalypse',
+	'battle_of_the_bands',
+	'return_to_naxxramas',
+	'path_of_arthas',
+	'return_of_the_lich_king',
+	'maw_and_disorder',
+	'revendreth',
+	'throne_of_tides',
+	'the_sunken_city',
+	'onyxias_lair',
+	'alterac_valley',
+	'deadmines',
+	'stormwind',
+	'wailing_caverns',
+	'the_barrens',
+	'darkmoon_races',
+	'darkmoon_faire',
+	'scholomance',
+	'black_temple',
+];
 export const duelsSets: readonly SetId[] = [
 	'core',
 	'legacy',
