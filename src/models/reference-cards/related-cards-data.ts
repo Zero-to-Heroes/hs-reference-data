@@ -3088,4 +3088,23 @@ export const RELATED_CARDS_DATA: {
 		CardIds.ProGamer_Paper_MIS_916b,
 	],
 	[CardIds.Explodineer_MIS_308]: [CardIds.SeaforiumBomber_BombToken],
+	[CardIds.KalimosPrimalLord_Core_UNG_211]: [
+		CardIds.KalimosPrimalLord_InvocationOfAir,
+		CardIds.KalimosPrimalLord_InvocationOfEarth,
+		CardIds.KalimosPrimalLord_InvocationOfFire,
+		CardIds.KalimosPrimalLord_InvocationOfWater,
+	],
+	[CardIds.Cicigi_TOY_913]: [
+		CardIds.TwinSliceToken_TOY_400t3,
+		CardIds.Cicigi_BattlefiendToken_TOY_913t2,
+		CardIds.Cicigi_AldrachiWarbladesToken_TOY_913t1,
+		CardIds.AltruisTheOutcastToken_TOY_401t2,
+		CardIds.EyeBeamToken_TOY_400t8,
+		CardIds.Cicigi_GlaiveboundAdeptToken_TOY_913t3,
+		CardIds.ImprisonedAntaenToken_TOY_400t4,
+		CardIds.MetamorphosisToken_TOY_400t6,
+		CardIds.SkullOfGuldanToken_TOY_401t,
+		CardIds.WarglaivesOfAzzinothToken_TOY_400t7,
+		CardIds.PriestessOfFuryToken_TOY_400t5,
+	],
 };
