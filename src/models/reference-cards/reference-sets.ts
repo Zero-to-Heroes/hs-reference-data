@@ -352,8 +352,7 @@ export const twistSets: readonly SetId[] = wildSets;
 // 	'caverns_of_time',
 // ];
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
-export const arenaSets: readonly SetId[] = wildSets;
-[
+export const arenaSets: readonly SetId[] = [
 	'boom_inventions',
 	'whizbangs_workshop',
 	'gift',
