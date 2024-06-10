@@ -144,6 +144,16 @@ const EXCAVATE_TREASURE_PALADIN_SHAMAN = [
 	CardIds.TheAzeriteDragonToken_DEEP_999t4,
 	CardIds.TheAzeriteMurlocToken_DEEP_999t5,
 ];
+const EXCAVATE_TREASURE_ALL = [
+	...EXCAVATE_TREASURES,
+	CardIds.TheAzeriteDragonToken_DEEP_999t4,
+	CardIds.TheAzeriteMurlocToken_DEEP_999t5,
+	CardIds.KoboldMiner_TheAzeriteOxToken_WW_001t27,
+	CardIds.KoboldMiner_TheAzeriteSnakeToken_WW_001t25,
+	CardIds.KoboldMiner_TheAzeriteScorpionToken_WW_001t23,
+	CardIds.KoboldMiner_TheAzeriteHawkToken_WW_001t24,
+	CardIds.KoboldMiner_TheAzeriteRatToken_WW_001t26,
+];
 
 export type RelatedCardExtractor = (cards: readonly ReferenceCard[]) => readonly string[];
 
@@ -680,6 +690,7 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.YseraLegacy]: DREAM_CARDS,
 	[CardIds.YseraTheDreamerCore]: DREAM_CARDS,
+	[CardIds.YseraTheDreamer_LEG_CS3_033]: DREAM_CARDS,
 	[CardIds.YseraVanilla]: [
 		CardIds.DreamVanilla,
 		CardIds.EmeraldDrakeVanilla,
@@ -1106,6 +1117,10 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.FurbolgMossbinder]: [CardIds.FurbolgMossbinder_MossElementalToken],
 	[CardIds.GreenJelly]: [CardIds.GreenJelly_GreenOozeToken],
 	[CardIds.LesserEmeraldSpellstone]: [
+		CardIds.LesserEmeraldSpellstone_EmeraldSpellstoneToken,
+		CardIds.LesserEmeraldSpellstone_GreaterEmeraldSpellstoneToken,
+	],
+	[CardIds.LesserEmeraldSpellstone_CORE_FB_Champs_LOOT_080]: [
 		CardIds.LesserEmeraldSpellstone_EmeraldSpellstoneToken,
 		CardIds.LesserEmeraldSpellstone_GreaterEmeraldSpellstoneToken,
 	],
@@ -2351,6 +2366,8 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.NightshadeBud]: [CardIds.NightshadeBud_MoonlightBlossomToken, CardIds.NightshadeBud_SunlightBlossomToken],
 	[CardIds.BattlefieldNecromancerCore_RLK_061]: [CardIds.BattlefieldNecromancer_RisenFootmanCoreToken_RLK_061t],
 	[CardIds.GraveyardShiftCore_RLK_705]: [CardIds.GraveyardShift_ShamblingZombieCoreToken_RLK_705t],
+	[CardIds.GraveyardShift_LEG_RLK_705]: [CardIds.GraveyardShift_ShamblingZombieCoreToken_RLK_705t],
+	[CardIds.GraveyardShift]: [CardIds.GraveyardShift_ShamblingZombieCoreToken_RLK_705t],
 	[CardIds.LordMarrowgarCore]: [CardIds.LordMarrowgar_RisenGolemCoreToken],
 	[CardIds.LordMarrowgar]: [CardIds.LordMarrowgar_RisenGolemCoreToken],
 	[CardIds.HarvestTimeTavernBrawl]: [CardIds.LivingRoots_SaplingToken],
@@ -3106,5 +3123,23 @@ export const RELATED_CARDS_DATA: {
 		CardIds.SkullOfGuldanToken_TOY_401t,
 		CardIds.WarglaivesOfAzzinothToken_TOY_400t7,
 		CardIds.PriestessOfFuryToken_TOY_400t5,
+	],
+	[CardIds.Siamat_CORE_ULD_178]: [
+		CardIds.Siamat_SiamatsHeart,
+		CardIds.Siamat_SiamatsSpeed,
+		CardIds.Siamat_SiamatsShield,
+		CardIds.Siamat_SiamatsWind,
+	],
+	[CardIds.Siamat]: [
+		CardIds.Siamat_SiamatsHeart,
+		CardIds.Siamat_SiamatsSpeed,
+		CardIds.Siamat_SiamatsShield,
+		CardIds.Siamat_SiamatsWind,
+	],
+	[CardIds.ExpendablePerformers_CORE_DMF_224]: [CardIds.CoordinatedStrike_IllidariInitiateLegacyToken_BT_036t],
+	[CardIds.Arfus_DigUpFrost_THD_100p2]: EXCAVATE_TREASURE_ALL,
+	[CardIds.BlademasterOkani]: [
+		CardIds.BlademasterOkani_MinionCounterToken,
+		CardIds.BlademasterOkani_SpellCounterToken,
 	],
 };
