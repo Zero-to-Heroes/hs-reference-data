@@ -2361,6 +2361,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.PozzikAudioEngineer]: [CardIds.PozzikAudioEngineer_AudioBotToken],
 	[CardIds.LifeFromDeath]: [CardIds.LifeFromDeath_LifeFromDeathToken],
 	[CardIds.RimeSculptorCore_RLK_752]: [CardIds.RimeElementalCoreToken_RLK_907t],
+	[CardIds.RimeSculptor_LEG_RLK_752]: [CardIds.RimeElementalCoreToken_RLK_907t],
 	[CardIds.FrostwyrmsFury_RLK_063]: [CardIds.FrostwyrmsFury_FrostwyrmToken_RLK_063t],
 	[CardIds.CosmicKeyboard]: [CardIds.CosmicKeyboard_CosmicCreationToken],
 	[CardIds.NightshadeBud]: [CardIds.NightshadeBud_MoonlightBlossomToken, CardIds.NightshadeBud_SunlightBlossomToken],
@@ -2370,6 +2371,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.GraveyardShift]: [CardIds.GraveyardShift_ShamblingZombieCoreToken_RLK_705t],
 	[CardIds.LordMarrowgarCore]: [CardIds.LordMarrowgar_RisenGolemCoreToken],
 	[CardIds.LordMarrowgar]: [CardIds.LordMarrowgar_RisenGolemCoreToken],
+	[CardIds.LordMarrowgar_LEG_RLK_085]: [CardIds.LordMarrowgar_RisenGolemCoreToken],
 	[CardIds.HarvestTimeTavernBrawl]: [CardIds.LivingRoots_SaplingToken],
 	[CardIds.RemixedDispenseOBot]: [
 		CardIds.RemixedDispenseOBot_ChillingDispenseOBotToken,
@@ -3142,4 +3144,8 @@ export const RELATED_CARDS_DATA: {
 		CardIds.BlademasterOkani_MinionCounterToken,
 		CardIds.BlademasterOkani_SpellCounterToken,
 	],
+	[CardIds.PossessifierCore]: [CardIds.Possessifier_PossessedFighterCoreToken],
+	[CardIds.Possessifier_LEG_RLK_077]: [CardIds.Possessifier_PossessedFighterCoreToken],
+	[CardIds.YmirjarDeathbringerCore_RLK_226]: [CardIds.YmirjarDeathbringer_RisenYmirjarCoreToken_RLK_226t],
+	[CardIds.YmirjarDeathbringer_LEG_RLK_226]: [CardIds.YmirjarDeathbringer_RisenYmirjarCoreToken_RLK_226t],
 };
