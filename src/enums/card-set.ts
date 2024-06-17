@@ -65,4 +65,5 @@ export enum CardSet {
 	CAVERNS_OF_TIME = 1898,
 	TUTORIAL = 1904,
 	GIFT = 1941,
+	PERILS_IN_PARADISE = 1905,
 }
