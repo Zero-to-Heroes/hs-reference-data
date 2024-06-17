@@ -1,4 +1,5 @@
 export type SetId =
+	| 'perils_in_paradise'
 	| 'boom_inventions'
 	| 'whizbangs_workshop'
 	| 'gift'
@@ -57,6 +58,11 @@ export interface ReferenceSet {
 }
 
 export const sets: readonly ReferenceSet[] = [
+	{
+		id: 'perils_in_paradise',
+		name: `Perils in Paradise`,
+		launchDate: new Date('2024-06-17'),
+	},
 	{
 		id: 'boom_inventions',
 		name: `Dr. Boom’s Incredible Inventions`,
@@ -327,6 +333,7 @@ export const standardSets: readonly SetId[] = [
 	'gift',
 	'whizbangs_workshop',
 	'boom_inventions',
+	'perils_in_paradise',
 ];
 export const twistSets: readonly SetId[] = wildSets;
 //  [
@@ -353,6 +360,7 @@ export const twistSets: readonly SetId[] = wildSets;
 // ];
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 export const arenaSets: readonly SetId[] = [
+	'perils_in_paradise',
 	'boom_inventions',
 	'whizbangs_workshop',
 	'gift',

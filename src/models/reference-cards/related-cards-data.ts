@@ -3154,4 +3154,5 @@ export const RELATED_CARDS_DATA: {
 		CardIds.KalimosPrimalLord_InvocationOfFire,
 		CardIds.KalimosPrimalLord_InvocationOfWater,
 	],
+	// [CardIds.MarinTheManager]: [CardIds.YmirjarDeathbringer_RisenYmirjarCoreToken_RLK_226t],
 };

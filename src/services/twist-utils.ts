@@ -9,7 +9,7 @@ export const bannedTwistCards = [
 ];
 
 export const isKnownTwistList = (scenarioId: number): boolean => {
-	return [ScenarioId.TWIST___HEROIC_DECK___MONTH_1].includes(scenarioId);
+	return [ScenarioId.TWIST___HEROIC_DECK___MONTH_1, ScenarioId.TWIST___HEROIC_DECK___MONTH_2].includes(scenarioId);
 };
 
 export const getWhizbangHeroesTemplateDeckId = (scenarioId: number, opponentCardId: string): number => {
