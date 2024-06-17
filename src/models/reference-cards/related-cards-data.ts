@@ -958,7 +958,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.UnidentifiedContract_TurncoatContractToken,
 	],
 	[CardIds.UnleashTheBeast_DAL_378]: [CardIds.UnleashTheBeast_WyvernToken],
-	[CardIds.BlastmasterBoom]: [CardIds.FlyBy_KadoomBotToken],
+	[CardIds.BlastmasterBoom]: [CardIds.DrBoom_BoomBotToken],
 	[CardIds.ChefNomi_DAL_554]: [CardIds.ChefNomi_GreasefireElementalToken],
 	[CardIds.SwampqueenHagatha]: [CardIds.SwampqueenHagatha_DrustvarHorrorToken],
 	[CardIds.VereesaWindrunner]: [CardIds.VereesaWindrunner_ThoridalTheStarsFuryToken],
@@ -3148,4 +3148,10 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.Possessifier_LEG_RLK_077]: [CardIds.Possessifier_PossessedFighterCoreToken],
 	[CardIds.YmirjarDeathbringerCore_RLK_226]: [CardIds.YmirjarDeathbringer_RisenYmirjarCoreToken_RLK_226t],
 	[CardIds.YmirjarDeathbringer_LEG_RLK_226]: [CardIds.YmirjarDeathbringer_RisenYmirjarCoreToken_RLK_226t],
+	[CardIds.AlakirTheWindlord_ElementalEvocation_THD_026p]: [
+		CardIds.KalimosPrimalLord_InvocationOfAir,
+		CardIds.KalimosPrimalLord_InvocationOfEarth,
+		CardIds.KalimosPrimalLord_InvocationOfFire,
+		CardIds.KalimosPrimalLord_InvocationOfWater,
+	],
 };
