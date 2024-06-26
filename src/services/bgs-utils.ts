@@ -555,3 +555,10 @@ export const getHeroPower = (
 			return null; // new heroes
 	}
 };
+
+export const isBaconGhost = (cardId: string): boolean => {
+	return (
+		cardId === CardIds.Kelthuzad_TB_BaconShop_HERO_KelThuzad ||
+		cardId === CardIds.LadyDeathwhisper_TB_BaconShop_HERO_Deathwhisper
+	);
+};
