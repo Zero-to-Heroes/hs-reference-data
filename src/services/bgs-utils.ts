@@ -126,7 +126,6 @@ export const NON_DISCOVERABLE_BUDDIES = [
 	CardIds.Watfin_BG23_HERO_303_Buddy,
 	CardIds.NightmareEctoplasm_BG20_HERO_301_Buddy,
 	CardIds.ManyWhelps_BG22_HERO_305_Buddy,
-	CardIds.DranoshSaurfang_BG20_HERO_102_Buddy,
 	CardIds.Tamuzo_BG23_HERO_201_Buddy,
 	CardIds.MaxwellMightySteed_TB_BaconShop_HERO_40_Buddy,
 	CardIds.Crabby_BG22_HERO_000_Buddy,
