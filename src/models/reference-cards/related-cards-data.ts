@@ -3149,10 +3149,10 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.YmirjarDeathbringerCore_RLK_226]: [CardIds.YmirjarDeathbringer_RisenYmirjarCoreToken_RLK_226t],
 	[CardIds.YmirjarDeathbringer_LEG_RLK_226]: [CardIds.YmirjarDeathbringer_RisenYmirjarCoreToken_RLK_226t],
 	[CardIds.AlakirTheWindlord_ElementalEvocation_THD_026p]: [
-		CardIds.KalimosPrimalLord_InvocationOfAir,
-		CardIds.KalimosPrimalLord_InvocationOfEarth,
-		CardIds.KalimosPrimalLord_InvocationOfFire,
-		CardIds.KalimosPrimalLord_InvocationOfWater,
+		CardIds.BrukanOfTheElements_EarthInvocationToken,
+		CardIds.BrukanOfTheElements_WaterInvocationToken,
+		CardIds.BrukanOfTheElements_FireInvocationToken,
+		CardIds.BrukanOfTheElements_LightningInvocationToken,
 	],
 	[CardIds.MarinTheManager_VAC_702]: [
 		CardIds.MarinTheManager_ZarogsCrownToken_VAC_702t,
