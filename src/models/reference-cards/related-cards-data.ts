@@ -1,4 +1,5 @@
 import { CardIds } from '../../card-ids';
+import { AllCardsService, GameFormat, GameTag, SetId, isValidSet } from '../../public-api';
 import { ReferenceCard } from './reference-card';
 import { EXCAVATE_TREASURE_1_IDS, EXCAVATE_TREASURE_2_IDS, EXCAVATE_TREASURE_3_IDS } from './reference-data';
 
@@ -3160,4 +3161,26 @@ export const RELATED_CARDS_DATA: {
 		CardIds.MarinTheManager_WondrousWandToken_VAC_702t3,
 		CardIds.MarinTheManager_GoldenKoboldToken_VAC_702t4,
 	],
+};
+
+export const getDynamicRelatedCardIds = (
+	cardId: string,
+	allCards: AllCardsService,
+	format: GameFormat,
+): readonly string[] => {
+	switch (cardId) {
+		case CardIds.FlintFirearm_WW_379:
+			return allCards
+				.getCards()
+				.filter((c) => c?.mechanics?.includes(GameTag[GameTag.QUICKDRAW]))
+				.filter((c) => c.collectible)
+				.filter((c) => (!!c.set ? isValidSet(c.set.toLowerCase() as SetId, format) : false))
+				.sort(
+					(a, b) =>
+						a.cost - b.cost ||
+						a.classes?.[0]?.localeCompare(b.classes?.[0]) ||
+						a.name.localeCompare(b.name),
+				)
+				.map((c) => c.id);
+	}
 };

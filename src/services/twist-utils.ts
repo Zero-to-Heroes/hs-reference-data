@@ -54,9 +54,10 @@ export const getWhizbangHeroesTemplateDeckId = (scenarioId: number, opponentCard
 			return 643;
 		case CardIds.Arfus_THD_100:
 			return 665;
+		case CardIds.MarinTheManager_THD_024:
+			return 657;
 		case CardIds.DariusCrowley_THD_033:
 		case CardIds.DeathmantleValeera_THD_023:
-		case CardIds.EdwinVancleef_THD_024:
 		case CardIds.EliseStarseeker_THD_040:
 		case CardIds.ExplorerDawngrasp_THD_013:
 		case CardIds.GunslingerKurtrus_THD_005:

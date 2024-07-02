@@ -3,7 +3,8 @@
 ```
 aws s3 cp ./src/hs-achievements.json s3://static.zerotoheroes.com/hearthstone/jsoncards/ --acl public-read
 aws s3 cp ./src/card-backs.json s3://static.zerotoheroes.com/hearthstone/data/ --acl public-read
-aws s3 cp ./src/deck-templates.json s3://static.zerotoheroes.com/hearthstone/data/ --acl public-read
+# I now upload to a zipped endpoint from the pipeline
+# aws s3 cp ./src/deck-templates.json s3://static.zerotoheroes.com/hearthstone/data/ --acl public-read
 aws s3 cp ./src/tavern-brawls.json s3://static.zerotoheroes.com/hearthstone/data/ --acl public-read
 aws s3 cp ./src/mercenaries/ s3://static.zerotoheroes.com/hearthstone/data/mercenaries/ --recursive --acl public-read
 aws s3 cp ./src/cards/ s3://static.zerotoheroes.com/hearthstone/jsoncards/ --recursive --acl public-read

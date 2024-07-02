@@ -25770,7 +25770,7 @@ export const enum CardIds {
 	SleightOfHand_THD_023hp = 'THD_023hp',
 	DeathmantleValeera_FromTheSwamp_THD_023p = 'THD_023p',
 	FromTheSwamp_FromTheSwampPlayerEnchEnchantment_THD_023pe = 'THD_023pe',
-	EdwinVancleef_THD_024 = 'THD_024',
+	MarinTheManager_THD_024 = 'THD_024',
 	Investment_THD_024hp = 'THD_024hp',
 	EdwinVancleef_HopingForAMiracle_THD_024p = 'THD_024p',
 	PatchesThePirate_THD_025 = 'THD_025',

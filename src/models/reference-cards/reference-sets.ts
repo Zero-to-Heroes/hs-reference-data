@@ -1,3 +1,5 @@
+import { GameFormat } from '../../public-api';
+
 export type SetId =
 	| 'perils_in_paradise'
 	| 'boom_inventions'
@@ -438,3 +440,15 @@ export const duelsSets: readonly SetId[] = [
 ];
 
 export const vanillaSets: readonly SetId[] = ['vanilla'];
+
+export const isValidSet = (set: SetId, format: GameFormat): boolean => {
+	switch (format) {
+		case GameFormat.FT_STANDARD:
+			return standardSets.includes(set);
+		case GameFormat.FT_TWIST:
+			return twistSets.includes(set);
+		case GameFormat.FT_WILD:
+		default:
+			return wildSets.includes(set);
+	}
+};
