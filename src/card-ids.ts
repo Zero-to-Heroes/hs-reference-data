@@ -25866,7 +25866,7 @@ export const enum CardIds {
 	ToTheNether_THD_103hp = 'THD_103hp',
 	Sargeras_TheEndIsNigh_THD_103p = 'THD_103p',
 	TheEndIsNigh_ImpendingDoomToken_THD_103pt2 = 'THD_103pt2',
-	Whitemane_THD_104 = 'THD_104',
+	HearthbreakerHedanis_THD_104 = 'THD_104',
 	Purify_THD_104hp = 'THD_104hp',
 	CaptiveAudience_GoodListenerEnchantment_THD_104hpe = 'THD_104hpe',
 	Whitemane_UnexpectedInquisition_THD_104p = 'THD_104p',

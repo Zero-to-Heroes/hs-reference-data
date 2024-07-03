@@ -56,6 +56,22 @@ export const getWhizbangHeroesTemplateDeckId = (scenarioId: number, opponentCard
 			return 665;
 		case CardIds.MarinTheManager_THD_024:
 			return 657;
+		case CardIds.HearthbreakerHedanis_THD_104:
+			return 664;
+		case CardIds.LadyLiadrin_THD_108:
+			return 673;
+		case CardIds.Sargeras_THD_103:
+			return 666;
+		case CardIds.EliteTaurenChampion_THD_106:
+			return 669;
+		case CardIds.HalveriaDarkraven_THD_107:
+			return 672;
+		case CardIds.ThorimStormlord_THD_105:
+			return 670;
+		case CardIds.QueenAzshara_THD_017:
+			return 662;
+		case CardIds.Tamsin_THD_102:
+			return 667;
 		case CardIds.DariusCrowley_THD_033:
 		case CardIds.DeathmantleValeera_THD_023:
 		case CardIds.EliseStarseeker_THD_040:
@@ -69,7 +85,6 @@ export const getWhizbangHeroesTemplateDeckId = (scenarioId: number, opponentCard
 		case CardIds.MindrenderIllucia_THD_021:
 		case CardIds.NemsyNecrofizzle_THD_031:
 		case CardIds.PitBossReska_THD_003:
-		case CardIds.QueenAzshara_THD_017:
 		case CardIds.Ragnaros_THD_029:
 		case CardIds.Rokara_THD_035:
 		case CardIds.SireDenathrius_THD_036:
