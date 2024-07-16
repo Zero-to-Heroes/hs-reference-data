@@ -1,5 +1,5 @@
 import { CardIds } from '../../card-ids';
-import { AllCardsService, GameFormat, GameTag, SetId, isValidSet } from '../../public-api';
+import { AllCardsService, CardType, GameFormat, GameTag, SetId, isValidSet } from '../../public-api';
 import { ReferenceCard } from './reference-card';
 import { EXCAVATE_TREASURE_1_IDS, EXCAVATE_TREASURE_2_IDS, EXCAVATE_TREASURE_3_IDS } from './reference-data';
 
@@ -3161,6 +3161,38 @@ export const RELATED_CARDS_DATA: {
 		CardIds.MarinTheManager_WondrousWandToken_VAC_702t3,
 		CardIds.MarinTheManager_GoldenKoboldToken_VAC_702t4,
 	],
+	[CardIds.CarressCabaretStar]: [
+		CardIds.CarressCabaretStar_Token1,
+		CardIds.CarressCabaretStar_Token2,
+		CardIds.CarressCabaretStar_Token3,
+		CardIds.CarressCabaretStar_Token4,
+	],
+	[CardIds.CarryOnGrub]: [CardIds.CarryOnGrub_Suitcase],
+	[CardIds.CatchOfTheDay]: [CardIds.CatchOfTheDay_Worm],
+	[CardIds.DangerousCliffside]: [CardIds.DangerousCliffside_Token],
+	[CardIds.DozingDragon]: [CardIds.DozingDragon_Token],
+	[CardIds.DreadhoundHandler]: [CardIds.DreadhoundHandler_Token],
+	[CardIds.FoodFight]: [CardIds.FoodFight_Token],
+	[CardIds.FrostyDecor]: [CardIds.FrostyDecor_Token],
+	[CardIds.FuriousFowls]: [CardIds.FuriousFowls_Token],
+	[CardIds.GhoulsNight]: [CardIds.GhoulsNight_Token],
+	[CardIds.Gorgonzormu]: [CardIds.Gorgonzormu_Token],
+	[CardIds.GriftahTrustedVendor]: [CardIds.GriftahTrustedVendor_Token1],
+	[CardIds.LifesavingAura]: [CardIds.LifesavingAura_Token],
+	[CardIds.PartyFiend]: [CardIds.PartyFiend_Token],
+	[CardIds.PartyPlannerVona]: [CardIds.PartyPlannerVona_Token],
+	[CardIds.PatchesThePirate_PIP]: [CardIds.PatchesThePirate_Parachute, CardIds.PatchesThePirate_FallingIllidari],
+	[CardIds.PatchesThePirate_Parachute]: [CardIds.PatchesThePirate_FallingIllidari],
+	[CardIds.SacrificialImp]: [CardIds.SacrificialImp_Token],
+	[CardIds.SancAzel]: [CardIds.SancAzel_Token],
+	[CardIds.SancAzel_Token]: [CardIds.SancAzel],
+	[CardIds.SeaShanty]: [CardIds.SeaShanty_Token],
+	[CardIds.SigilOfSkydiving]: [CardIds.FallingIlidari],
+	[CardIds.SnoozingZookeeper]: [CardIds.SnoozingZookeeper_Token],
+	[CardIds.TerribleChef]: [CardIds.NerubianEggCore],
+	[CardIds.TheRyecleaver]: [CardIds.SliceOfBread],
+	[CardIds.Tsunami]: [CardIds.WaterElementalLegacy],
+	[CardIds.VolleyMaul]: [CardIds.Sunscreen],
 };
 
 export const getDynamicRelatedCardIds = (
@@ -3170,17 +3202,29 @@ export const getDynamicRelatedCardIds = (
 ): readonly string[] => {
 	switch (cardId) {
 		case CardIds.FlintFirearm_WW_379:
-			return allCards
-				.getCards()
-				.filter((c) => c?.mechanics?.includes(GameTag[GameTag.QUICKDRAW]))
-				.filter((c) => c.collectible)
-				.filter((c) => (!!c.set ? isValidSet(c.set.toLowerCase() as SetId, format) : false))
-				.sort(
-					(a, b) =>
-						a.cost - b.cost ||
-						a.classes?.[0]?.localeCompare(b.classes?.[0]) ||
-						a.name.localeCompare(b.name),
-				)
-				.map((c) => c.id);
+			return filterCards(allCards, format, (c) => c?.mechanics?.includes(GameTag[GameTag.QUICKDRAW]));
+		case CardIds.CruiseCaptainLora:
+		case CardIds.TravelAgent:
+			return filterCards(allCards, format, (c) => c?.type?.toUpperCase() === CardType[CardType.LOCATION]);
+		case CardIds.DrinkServer:
+			return filterCards(allCards, format, (c) => c?.type?.toUpperCase() === CardType[CardType.DRINK]);
+		// case CardIds.MaestraMaskMerchant:
+		// 	return filterCards(allCards, format, (c) => c?.type?.toUpperCase() === CardType[CardType.DRINK]);
 	}
+};
+
+const filterCards = (
+	allCards: AllCardsService,
+	format: GameFormat,
+	...filters: ((ref: ReferenceCard) => boolean)[]
+) => {
+	return allCards
+		.getCards()
+		.filter((c) => c.collectible)
+		.filter((c) => (!!c.set ? isValidSet(c.set.toLowerCase() as SetId, format) : false))
+		.filter((c) => filters.every((f) => f(c)))
+		.sort(
+			(a, b) => a.cost - b.cost || a.classes?.[0]?.localeCompare(b.classes?.[0]) || a.name.localeCompare(b.name),
+		)
+		.map((c) => c.id);
 };
