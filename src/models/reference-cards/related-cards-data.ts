@@ -3161,38 +3161,74 @@ export const RELATED_CARDS_DATA: {
 		CardIds.MarinTheManager_WondrousWandToken_VAC_702t3,
 		CardIds.MarinTheManager_GoldenKoboldToken_VAC_702t4,
 	],
-	[CardIds.CarressCabaretStar]: [
-		CardIds.CarressCabaretStar_Token1,
-		CardIds.CarressCabaretStar_Token2,
-		CardIds.CarressCabaretStar_Token3,
-		CardIds.CarressCabaretStar_Token4,
+	[CardIds.CarressCabaretStar_VAC_449]: [
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t1,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t10,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t11,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t12,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t13,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t14,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t15,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t16,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t17,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t18,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t19,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t2,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t20,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t3,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t4,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t5,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t6,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t7,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t8,
+		CardIds.CarressCabaretStar_CarressCabaretStarToken_VAC_449t9,
 	],
-	[CardIds.CarryOnGrub]: [CardIds.CarryOnGrub_Suitcase],
-	[CardIds.CatchOfTheDay]: [CardIds.CatchOfTheDay_Worm],
-	[CardIds.DangerousCliffside]: [CardIds.DangerousCliffside_Token],
-	[CardIds.DozingDragon]: [CardIds.DozingDragon_Token],
-	[CardIds.DreadhoundHandler]: [CardIds.DreadhoundHandler_Token],
-	[CardIds.FoodFight]: [CardIds.FoodFight_Token],
-	[CardIds.FrostyDecor]: [CardIds.FrostyDecor_Token],
-	[CardIds.FuriousFowls]: [CardIds.FuriousFowls_Token],
-	[CardIds.GhoulsNight]: [CardIds.GhoulsNight_Token],
-	[CardIds.Gorgonzormu]: [CardIds.Gorgonzormu_Token],
-	[CardIds.GriftahTrustedVendor]: [CardIds.GriftahTrustedVendor_Token1],
-	[CardIds.LifesavingAura]: [CardIds.LifesavingAura_Token],
-	[CardIds.PartyFiend]: [CardIds.PartyFiend_Token],
-	[CardIds.PartyPlannerVona]: [CardIds.PartyPlannerVona_Token],
-	[CardIds.PatchesThePirate_PIP]: [CardIds.PatchesThePirate_Parachute, CardIds.PatchesThePirate_FallingIllidari],
-	[CardIds.PatchesThePirate_Parachute]: [CardIds.PatchesThePirate_FallingIllidari],
-	[CardIds.SacrificialImp]: [CardIds.SacrificialImp_Token],
-	[CardIds.SancAzel]: [CardIds.SancAzel_Token],
-	[CardIds.SancAzel_Token]: [CardIds.SancAzel],
-	[CardIds.SeaShanty]: [CardIds.SeaShanty_Token],
-	[CardIds.SigilOfSkydiving]: [CardIds.FallingIlidari],
-	[CardIds.SnoozingZookeeper]: [CardIds.SnoozingZookeeper_Token],
-	[CardIds.TerribleChef]: [CardIds.NerubianEggCore],
-	[CardIds.TheRyecleaver]: [CardIds.SliceOfBread],
-	[CardIds.Tsunami]: [CardIds.WaterElementalLegacy],
-	[CardIds.VolleyMaul]: [CardIds.Sunscreen],
+	[CardIds.CarryOnGrub_VAC_935]: [CardIds.CarryOnGrub_CarryOnSuitcaseToken_VAC_935t],
+	[CardIds.CatchOfTheDay_VAC_412]: [CardIds.CatchOfTheDay_DeliciousWormToken_VAC_412t],
+	[CardIds.DangerousCliffside_VAC_929]: [CardIds.CliffDive_FallingIllidariToken_VAC_926t],
+	[CardIds.DozingDragon_VAC_511]: [CardIds.DozingDragon_RestlessWhelpToken_VAC_511t],
+	[CardIds.DreadhoundHandler_VAC_514]: [CardIds.DreadhoundHandler_DreadhoundToken_VAC_514t],
+	[CardIds.FoodFight_VAC_533]: [CardIds.FoodFight_EntréeToken_VAC_533t],
+	[CardIds.FrostyDécor_VAC_305]: [CardIds.FrostyDécor_IceSculptureToken_VAC_305t],
+	[CardIds.FuriousFowls_VAC_410]: [CardIds.FuriousFowls_AngryBirdToken_VAC_410t],
+	[CardIds.GhoulsNight_VAC_445]: [CardIds.GhoulsNight_SlumberingGhoulToken_VAC_445t],
+	[CardIds.Gorgonzormu_VAC_955]: [CardIds.Gorgonzormu_DeliciousCheeseToken_VAC_955t],
+	[CardIds.GriftahTrustedVendor_VAC_959]: [
+		CardIds.GriftahTrustedVendor_AmuletOfPassionsToken_VAC_959t01,
+		CardIds.AmuletOfPassions_AmuletOfPassionsToken_VAC_959t01t,
+		CardIds.GriftahTrustedVendor_AmuletOfTrackingToken_VAC_959t05,
+		CardIds.AmuletOfTracking_AmuletOfTrackingToken_VAC_959t05t,
+		CardIds.GriftahTrustedVendor_AmuletOfCrittersToken_VAC_959t06,
+		CardIds.AmuletOfCritters_AmuletOfCrittersToken_VAC_959t06t,
+		CardIds.GriftahTrustedVendor_AmuletOfWardingToken_VAC_959t07,
+		CardIds.AmuletOfWarding_AmuletOfWardingToken_VAC_959t07t,
+		CardIds.GriftahTrustedVendor_AmuletOfEnergyToken_VAC_959t08,
+		CardIds.AmuletOfEnergy_AmuletOfEnergyToken_VAC_959t08t,
+		CardIds.GriftahTrustedVendor_AmuletOfMobilityToken_VAC_959t09,
+		CardIds.AmuletOfMobility_AmuletOfMobilityToken_VAC_959t09t,
+		CardIds.GriftahTrustedVendor_AmuletOfStridesToken_VAC_959t10,
+		CardIds.AmuletOfStrides_AmuletOfStridesToken_VAC_959t10t,
+	],
+	[CardIds.LifesavingAura_VAC_922]: [CardIds.Grillmaster_SunscreenToken_VAC_917t],
+	[CardIds.PartyFiend_VAC_940]: [CardIds.PartyFiend_FelbeastToken_VAC_940t],
+	[CardIds.PartyPlannerVona_VAC_945]: [CardIds.PartyPlannerVona_OurobosWorldSerpentToken_VAC_945t],
+	[CardIds.PatchesThePilot_VAC_933]: [
+		CardIds.PatchesThePilot_ParachuteToken_VAC_933t,
+		CardIds.CliffDive_FallingIllidariToken_VAC_926t,
+	],
+	[CardIds.PatchesThePilot_ParachuteToken_VAC_933t]: [CardIds.CliffDive_FallingIllidariToken_VAC_926t],
+	[CardIds.SacrificialImp_VAC_943]: [CardIds.SacrificialImp_MonstrousImpToken_VAC_943t],
+	[CardIds.Sancazel_VAC_923]: [CardIds.Sancazel_SancazelToken_VAC_923t],
+	[CardIds.Sancazel_SancazelToken_VAC_923t]: [CardIds.Sancazel_VAC_923],
+	[CardIds.SeaShanty_VAC_558]: [CardIds.SeaShanty_ChorusCorsairToken_VAC_558t],
+	[CardIds.SigilOfSkydiving_VAC_925]: [CardIds.CliffDive_FallingIllidariToken_VAC_926t],
+	[CardIds.SnoozinZookeeper_VAC_421]: [CardIds.SnoozinZookeeper_RampagingBeastToken_VAC_421t],
+	[CardIds.TerribleChef_VAC_946]: [CardIds.NerubianEggCore],
+	[CardIds.TheRyecleaver_VAC_525]: [CardIds.TheRyecleaver_SliceOfBreadToken_VAC_525t1],
+	[CardIds.Tsunami_VAC_509]: [CardIds.WaterElementalLegacy],
+	[CardIds.VolleyMaul_VAC_921]: [CardIds.Grillmaster_SunscreenToken_VAC_917t],
 };
 
 export const getDynamicRelatedCardIds = (
@@ -3203,11 +3239,11 @@ export const getDynamicRelatedCardIds = (
 	switch (cardId) {
 		case CardIds.FlintFirearm_WW_379:
 			return filterCards(allCards, format, (c) => c?.mechanics?.includes(GameTag[GameTag.QUICKDRAW]));
-		case CardIds.CruiseCaptainLora:
-		case CardIds.TravelAgent:
+		case CardIds.CruiseCaptainLora_VAC_506:
+		case CardIds.TravelAgent_VAC_438:
 			return filterCards(allCards, format, (c) => c?.type?.toUpperCase() === CardType[CardType.LOCATION]);
-		case CardIds.DrinkServer:
-			return filterCards(allCards, format, (c) => c?.type?.toUpperCase() === CardType[CardType.DRINK]);
+		// case CardIds.DrinkServer_VAC_461:
+		// 	return filterCards(allCards, format, (c) => c?.type?.toUpperCase() === CardType[CardType.DRINK]);
 		// case CardIds.MaestraMaskMerchant:
 		// 	return filterCards(allCards, format, (c) => c?.type?.toUpperCase() === CardType[CardType.DRINK]);
 	}
