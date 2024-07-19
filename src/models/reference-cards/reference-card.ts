@@ -7,6 +7,7 @@ export interface ReferenceCard {
 	readonly name: string;
 	readonly set: string;
 	readonly classes?: readonly string[];
+	readonly touristFor?: readonly string[];
 	/** @deprecated */
 	readonly playerClass: ReferencePlayerClass;
 	/** @deprecated */
