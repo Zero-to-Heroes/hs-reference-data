@@ -3090,7 +3090,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.DustBunny_MIS_706]: [
 		CardIds.TheCoinCore,
 		CardIds.KoboldMiner_RockToken_WW_001t,
-		CardIds.BananaVendor_BananasToken,
+		CardIds.KingMukla_BananasLegacyToken,
 		CardIds.WickedKnifeLegacy,
 	],
 	[CardIds.MurlocGrowfin_MIS_307]: [
