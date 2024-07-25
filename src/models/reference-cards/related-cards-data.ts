@@ -3226,26 +3226,78 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.SigilOfSkydiving_VAC_925]: [CardIds.CliffDive_FallingIllidariToken_VAC_926t],
 	[CardIds.SnoozinZookeeper_VAC_421]: [CardIds.SnoozinZookeeper_RampagingBeastToken_VAC_421t],
 	[CardIds.TerribleChef_VAC_946]: [CardIds.NerubianEggCore],
-	[CardIds.TheRyecleaver_VAC_525]: [CardIds.TheRyecleaver_SliceOfBreadToken_VAC_525t1],
+	[CardIds.TheRyecleaver_VAC_525]: [
+		CardIds.TheRyecleaver_SliceOfBreadToken_VAC_525t1,
+		CardIds.TheRyecleaver_MinionSandwichToken_VAC_525t2,
+	],
+	[CardIds.TheRyecleaver_SliceOfBreadToken_VAC_525t1]: [CardIds.TheRyecleaver_MinionSandwichToken_VAC_525t2],
 	[CardIds.Tsunami_VAC_509]: [CardIds.WaterElementalLegacy],
 	[CardIds.VolleyMaul_VAC_921]: [CardIds.Grillmaster_SunscreenToken_VAC_917t],
+	[CardIds.DrinkServer_VAC_461]: [
+		CardIds.SeabreezeChalice_VAC_520,
+		CardIds.DivineBrew_VAC_916,
+		CardIds.NightshadeTea_VAC_404,
+		CardIds.MaltedMagma_VAC_323,
+		CardIds.CupOMuscle_VAC_338,
+		CardIds.HealthDrink_VAC_951,
+	],
+	[CardIds.Incindius_VAC_321]: [CardIds.Incindius_EruptionToken_VAC_321t],
+	[CardIds.MistahVistah_VAC_519]: [CardIds.MistahVistah_ScenicVistaToken_VAC_519t3],
+	[CardIds.Mixologist_VAC_523]: [
+		CardIds.Mixologist_MixologistsSpecialToken_VAC_523t,
+		CardIds.Kazakus_FelbloomToken_CFM_621t4,
+		CardIds.Kazakus_GoldthornToken_CFM_621t6,
+		CardIds.Kazakus_HeartOfFireToken_CFM_621t2,
+		CardIds.Kazakus_IcecapToken_CFM_621t5,
+		CardIds.Kazakus_IchorOfUndeathToken_CFM_621t37,
+		CardIds.Kazakus_NetherbloomToken_CFM_621t10,
+		CardIds.Kazakus_ShadowOilToken_CFM_621t9,
+		CardIds.Kazakus_StonescaleOilToken_CFM_621t3,
+	],
+	[CardIds.SleepUnderTheStars_VAC_907]: [
+		CardIds.SleepUnderTheStars_BearConstellationToken_VAC_907t2,
+		CardIds.SleepUnderTheStars_CatConstellationToken_VAC_907t1,
+		CardIds.SleepUnderTheStars_MoonkinConstellationToken_VAC_907t3,
+	],
 };
 
 export const getDynamicRelatedCardIds = (
 	cardId: string,
 	allCards: AllCardsService,
-	format: GameFormat,
+	options: {
+		format: GameFormat;
+		currentClass?: string;
+	},
 ): readonly string[] => {
 	switch (cardId) {
 		case CardIds.FlintFirearm_WW_379:
-			return filterCards(allCards, format, (c) => c?.mechanics?.includes(GameTag[GameTag.QUICKDRAW]));
+			return filterCards(allCards, options.format, (c) => c?.mechanics?.includes(GameTag[GameTag.QUICKDRAW]));
 		case CardIds.CruiseCaptainLora_VAC_506:
 		case CardIds.TravelAgent_VAC_438:
-			return filterCards(allCards, format, (c) => c?.type?.toUpperCase() === CardType[CardType.LOCATION]);
-		// case CardIds.DrinkServer_VAC_461:
-		// 	return filterCards(allCards, format, (c) => c?.type?.toUpperCase() === CardType[CardType.DRINK]);
-		// case CardIds.MaestraMaskMerchant:
-		// 	return filterCards(allCards, format, (c) => c?.type?.toUpperCase() === CardType[CardType.DRINK]);
+			return filterCards(allCards, options.format, (c) => c?.type?.toUpperCase() === CardType[CardType.LOCATION]);
+		case CardIds.MaestraMaskMerchant_VAC_336:
+			return (
+				allCards
+					.getCards()
+					.filter((c) => c.collectible)
+					.filter((c) => c?.type?.toUpperCase() === CardType[CardType.HERO])
+					// No Galakrond
+					.filter((c) => !c.id?.startsWith('DRG_'))
+					// Usable in Wild, but not in Standard ("from the past")
+					.filter((c) =>
+						!!c.set
+							? !isValidSet(c.set.toLowerCase() as SetId, GameFormat.FT_STANDARD) &&
+							  isValidSet(c.set.toLowerCase() as SetId, GameFormat.FT_WILD)
+							: false,
+					)
+					.sort(
+						(a, b) =>
+							a.cost - b.cost ||
+							a.classes?.[0]?.localeCompare(b.classes?.[0]) ||
+							a.name.localeCompare(b.name),
+					)
+					.map((c) => c.id)
+			);
 	}
 };
 

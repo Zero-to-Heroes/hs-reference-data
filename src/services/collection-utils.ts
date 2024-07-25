@@ -74,6 +74,9 @@ export const boosterIdToSetId = (boosterId: BoosterType): string => {
 			return 'wild_west2';
 		case BoosterType.WHIZBANGS_WORKSHOP:
 			return 'whizbangs_workshop';
+		case BoosterType.ISLAND_VACATION:
+		case BoosterType.GOLDEN_ISLAND_VACATION:
+			return 'perils_in_paradise';
 		default:
 			// console.warn('unsupported booster type', boosterId);
 			return null;
