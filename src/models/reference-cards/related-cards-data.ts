@@ -3259,6 +3259,37 @@ export const RELATED_CARDS_DATA: {
 		CardIds.SleepUnderTheStars_CatConstellationToken_VAC_907t1,
 		CardIds.SleepUnderTheStars_MoonkinConstellationToken_VAC_907t3,
 	],
+	[CardIds.SeabreezeChalice_VAC_520]: [
+		CardIds.SeabreezeChalice_SeabreezeChaliceToken_VAC_520t,
+		CardIds.SeabreezeChalice_SeabreezeChaliceToken_VAC_520t2,
+	],
+	[CardIds.SeabreezeChalice_SeabreezeChaliceToken_VAC_520t]: [
+		CardIds.SeabreezeChalice_SeabreezeChaliceToken_VAC_520t2,
+	],
+	[CardIds.DivineBrew_VAC_916]: [
+		CardIds.DivineBrew_DivineBrewToken_VAC_916t2,
+		CardIds.DivineBrew_DivineBrewToken_VAC_916t3,
+	],
+	[CardIds.DivineBrew_DivineBrewToken_VAC_916t2]: [CardIds.DivineBrew_DivineBrewToken_VAC_916t3],
+	[CardIds.NightshadeTea_VAC_404]: [
+		CardIds.NightshadeTea_NightshadeTeaToken_VAC_404t1,
+		CardIds.NightshadeTea_NightshadeTeaToken_VAC_404t2,
+	],
+	[CardIds.NightshadeTea_NightshadeTeaToken_VAC_404t1]: [CardIds.NightshadeTea_NightshadeTeaToken_VAC_404t2],
+	[CardIds.MaltedMagma_VAC_323]: [
+		CardIds.MaltedMagma_MaltedMagmaToken_VAC_323t,
+		CardIds.MaltedMagma_MaltedMagmaToken_VAC_323t2,
+	],
+	[CardIds.MaltedMagma_MaltedMagmaToken_VAC_323t]: [CardIds.MaltedMagma_MaltedMagmaToken_VAC_323t2],
+	[CardIds.CupOMuscle_VAC_338]: [
+		CardIds.CupOMuscle_CupOMuscleToken_VAC_338t,
+		CardIds.CupOMuscle_CupOMuscleToken_VAC_338t2,
+	],
+	[CardIds.CupOMuscle_CupOMuscleToken_VAC_338t]: [CardIds.CupOMuscle_CupOMuscleToken_VAC_338t2],
+	[CardIds.HealthDrink_VAC_951]: [
+		CardIds.HealthDrink_HealthDrinkToken_VAC_951t,
+		CardIds.HealthDrink_HealthDrinkToken_VAC_951t2,
+	],
 };
 
 export const getDynamicRelatedCardIds = (
