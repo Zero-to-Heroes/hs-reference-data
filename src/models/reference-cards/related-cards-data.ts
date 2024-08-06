@@ -2284,7 +2284,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.RivendareWarrider_KorthazzDeathriderToken,
 		CardIds.RivendareWarrider_ZeliekConquestriderToken,
 	],
-	[CardIds.LostExarch]: [CardIds.LostExarch_GhoulToken],
+	[CardIds.LostExarch]: [CardIds.PlagueStrike_RampagingZombieToken_RLK_018t],
 	[CardIds.RelicOfPhantasms]: [CardIds.RelicOfPhantasms_FleetingSpiritToken],
 	[CardIds.SpreadingSaplingsTavernBrawl]: [CardIds.PlotOfSin_TreantToken],
 	[CardIds.TemplarCaptain]: [CardIds.ProtectTheInnocent_StormpikeDefenderToken],
