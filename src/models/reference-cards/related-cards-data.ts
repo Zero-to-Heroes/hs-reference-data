@@ -1464,7 +1464,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.LivingRoots_OneTwoTrees,
 		CardIds.LivingRoots_SaplingToken,
 	],
-	// [CardIds.BearTrap]: [CardIds.BearToken],
+	[CardIds.BearTrap]: [CardIds.IronfurGrizzlyLegacy],
 	[CardIds.Cutpurse]: [CardIds.TheCoinCore],
 	[CardIds.NobleSacrifice]: [CardIds.NobleSacrifice_DefenderLegacy],
 	[CardIds.NobleSacrificeLegacy]: [CardIds.NobleSacrifice_DefenderLegacy],
@@ -3290,6 +3290,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.HealthDrink_HealthDrinkToken_VAC_951t,
 		CardIds.HealthDrink_HealthDrinkToken_VAC_951t2,
 	],
+	[CardIds.DragonEgg_BRM_022]: [CardIds.DragonEgg_BlackWhelpToken],
 };
 
 export const getDynamicRelatedCardIds = (
