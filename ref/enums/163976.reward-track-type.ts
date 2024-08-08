@@ -1,9 +1,0 @@
-export enum RewardTrackType {
-	NONE = 0,
-	GLOBAL = 1,
-	BATTLEGROUNDS = 2,
-	EVENT_HALLOWS_END = 3,
-	EVENT_DK_LAUNCH = 4,
-	EVENT_WINTER_VEIL = 5,
-	EVENT_LUNAR_NEW_YEAR = 6,
-}
