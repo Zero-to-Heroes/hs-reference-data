@@ -255,6 +255,19 @@ const normalizeHeroCardIdAfterSkin = (
 	return heroCardId;
 };
 
+// Used to make the mapping between premium / normal minions
+export const normalizeMinionCardId = (
+	cardId: string,
+	allCards: { getCard: (cardId: string | number) => ReferenceCard },
+) => {
+	const refCard = allCards.getCard(cardId);
+	if (refCard?.battlegroundsNormalDbfId) {
+		const normalCard = allCards.getCard(refCard.battlegroundsNormalDbfId);
+		return normalCard?.id;
+	}
+	return cardId;
+};
+
 export const getTribeName = (tribe: Race, i18n: { translateString: (input: string) => string }): string =>
 	i18n.translateString(`app.battlegrounds.tribes.${Race[tribe]?.toLowerCase()}`);
 
@@ -561,4 +574,87 @@ export const isBaconGhost = (cardId: string): boolean => {
 		cardId === CardIds.Kelthuzad_TB_BaconShop_HERO_KelThuzad ||
 		cardId === CardIds.LadyDeathwhisper_TB_BaconShop_HERO_Deathwhisper
 	);
+};
+
+export const getEffectiveTribes = (
+	card: ReferenceCard,
+	groupMinionsIntoTheirTribeGroup: boolean,
+): readonly string[] => {
+	const tribes: readonly Race[] = groupMinionsIntoTheirTribeGroup
+		? getTribesForInclusion(card, true)
+		: getEffectiveTribesEnum(card);
+	return tribes.map((tribe) => Race[tribe]);
+};
+
+export const getTribesForInclusion = (card: ReferenceCard, includeOwnTribe: boolean): readonly Race[] => {
+	if (!card) {
+		return [];
+	}
+	const nativeRaces = card.races?.map((r) => Race[r]) ?? [];
+	const cardRaces = includeOwnTribe ? nativeRaces : [];
+	switch (card.id) {
+		// Some cases are only included when specific tribes are
+		case CardIds.BirdBuddy_BG21_002:
+		case CardIds.BirdBuddy_BG21_002_G:
+		case CardIds.PackLeader_BGS_017:
+		case CardIds.PackLeader_TB_BaconUps_086:
+		case CardIds.VirmenSensei_CFM_816:
+		case CardIds.VirmenSensei_TB_BaconUps_074:
+		case CardIds.HoundmasterLegacy:
+		case CardIds.HoundmasterVanilla:
+		case CardIds.Houndmaster_TB_BaconUps_068:
+		case CardIds.Houndmaster_BG_DS1_070:
+			return [Race.BEAST, ...cardRaces];
+		case CardIds.ImpatientDoomsayer_BG21_007:
+		case CardIds.ImpatientDoomsayer_BG21_007_G:
+		case CardIds.SoulJuggler_BGS_002:
+		case CardIds.SoulJuggler_TB_BaconUps_075:
+		case CardIds.WrathWeaver_BGS_004:
+		case CardIds.WrathWeaver_TB_BaconUps_079:
+		case CardIds.CultistSthara_BG27_081:
+		case CardIds.CultistSthara_BG27_081_G:
+			return [Race.DEMON, ...cardRaces];
+		case CardIds.SeafoodSlinger_BG21_011:
+		case CardIds.SeafoodSlinger_BG21_011_G:
+			return [Race.MURLOC, ...cardRaces];
+		case CardIds.NadinaTheRed_BGS_040:
+		case CardIds.NadinaTheRed_TB_BaconUps_154:
+		case CardIds.WaxriderTogwaggle_BGS_035:
+		case CardIds.WaxriderTogwaggle_TB_BaconUps_105:
+		case CardIds.WhelpSmuggler_BG21_013:
+		case CardIds.WhelpSmuggler_BG21_013_G:
+			return [Race.DRAGON, ...cardRaces];
+		case CardIds.MajordomoExecutus_BGS_105:
+		case CardIds.MajordomoExecutus_TB_BaconUps_207:
+		case CardIds.MasterOfRealities_BG21_036:
+		case CardIds.MasterOfRealities_BG21_036_G:
+		case CardIds.NomiKitchenNightmare_BGS_104:
+		case CardIds.NomiKitchenNightmare_TB_BaconUps_201:
+			return [Race.ELEMENTAL, ...cardRaces];
+		case CardIds.KangorsApprentice_BGS_012:
+		case CardIds.KangorsApprentice_TB_BaconUps_087:
+			return [Race.MECH, ...cardRaces];
+		case CardIds.DefiantShipwright_BG21_018:
+		case CardIds.DefiantShipwright_BG21_018_G:
+		case CardIds.TheTideRazor_BGS_079:
+		case CardIds.TheTideRazor_TB_BaconUps_137:
+			return [Race.PIRATE, ...cardRaces];
+		case CardIds.AgamagganTheGreatBoar_BG20_205:
+		case CardIds.AgamagganTheGreatBoar_BG20_205_G:
+		case CardIds.ProphetOfTheBoar_BG20_203:
+		case CardIds.ProphetOfTheBoar_BG20_203_G:
+			return [Race.QUILBOAR, ...cardRaces];
+		case CardIds.OrgozoaTheTender_BG23_015:
+		case CardIds.OrgozoaTheTender_BG23_015_G:
+			return [Race.NAGA, ...cardRaces];
+		case CardIds.DisguisedGraverobber_BG28_303:
+		case CardIds.DisguisedGraverobber_BG28_303_G:
+			return [Race.UNDEAD, ...cardRaces];
+		default:
+			return getEffectiveTribesEnum(card);
+	}
+};
+
+export const getEffectiveTribesEnum = (card: ReferenceCard): readonly Race[] => {
+	return !!card.races?.length ? card.races.map((r) => Race[r]) : [Race.BLANK];
 };
