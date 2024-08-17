@@ -10,4 +10,6 @@ export enum SpellSchool {
 	PHYSICAL_COMBAT = 8,
 	TAVERN = 9,
 	SPELLCRAFT = 10,
+	LESSER_TRINKET = 11,
+	GREATER_TRINKET = 12,
 }

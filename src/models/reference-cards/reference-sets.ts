@@ -362,15 +362,14 @@ export const twistSets: readonly SetId[] = wildSets;
 // ];
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 export const arenaSets: readonly SetId[] = [
+	'core',
 	'perils_in_paradise',
 	'boom_inventions',
 	'whizbangs_workshop',
-	'battle_of_the_bands',
-	'audiopocalypse',
-	'deepholm',
-	'wild_west',
 	'titans',
-	'core',
+	'return_of_the_lich_king',
+	'the_sunken_city',
+	'throne_of_tides',
 ];
 export const duelsSets: readonly SetId[] = [
 	'core',
