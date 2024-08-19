@@ -563,8 +563,8 @@ export const getHeroPower = (
 			return CardIds.FlobbidinousFloop_GloriousGloop_BGDUO_HERO_101p;
 		case CardIds.MadamGoya_BGDUO_HERO_104:
 			return CardIds.MadamGoya_EfficientExchange_BGDUO_HERO_104p;
-		case CardIds.MarinTheManager_BG:
-			return CardIds.FantasticTreasure;
+		case CardIds.MarinTheManager_BG30_HERO_304:
+			return CardIds.MarinTheManager_FantasticTreasure_BG30_HERO_304p;
 
 		case '':
 			return null; // new heroes
