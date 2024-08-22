@@ -74,6 +74,8 @@ export interface ReferenceCard {
 	readonly mercenaryAbilityCooldown: number;
 
 	readonly locales?: readonly CardLocale[];
+
+	readonly otherTags: readonly string[];
 }
 
 export interface CardLocale {
