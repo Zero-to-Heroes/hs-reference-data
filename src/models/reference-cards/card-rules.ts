@@ -2,6 +2,13 @@ export interface CardRules {
 	[cardId: string]: CardRule;
 }
 export interface CardRule {
-	readonly bgsBannedInLobbyWithRaces: readonly string[];
-	readonly bgsOnlyInLobbyWithRaces: readonly string[];
+	readonly bgsMinionTypesRules?: BgsMinionTypesRules;
+}
+
+export interface BgsMinionTypesRules {
+	readonly bannedWithTypesInLobby?: readonly string[];
+	readonly needTypesInLobby?: readonly string[];
+	readonly needBoardTypes?: readonly string[];
+	readonly needMenagerie?: boolean;
+	readonly requireTavernTier3?: boolean;
 }
