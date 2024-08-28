@@ -31,6 +31,8 @@ export const COIN_IDS = [
 	CardIds.TheCoin_TTN_COIN2,
 	CardIds.TheCoin_WW_COIN1,
 	CardIds.TheCoin_WW_COIN2,
+	CardIds.TheCoin_VAC_COIN1,
+	CardIds.TheCoin_VAC_COIN2,
 ];
 
 export const EXCAVATE_TREASURE_1_IDS = [
