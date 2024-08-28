@@ -11,4 +11,6 @@ export interface BgsMinionTypesRules {
 	readonly needBoardTypes?: readonly string[];
 	readonly needMenagerie?: boolean;
 	readonly requireTavernTier3?: boolean;
+	readonly alwaysAvailableForHeroes?: readonly string[];
+	readonly bannedForHeroes?: readonly string[];
 }
