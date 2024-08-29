@@ -10,7 +10,8 @@ export interface BgsMinionTypesRules {
 	readonly needTypesInLobby?: readonly string[];
 	readonly needBoardTypes?: readonly string[];
 	readonly needMenagerie?: boolean;
-	readonly requireTavernTier3?: boolean;
 	readonly alwaysAvailableForHeroes?: readonly string[];
 	readonly bannedForHeroes?: readonly string[];
+	readonly requireTavernTier3?: boolean;
+	readonly requireDivineShieldMinions?: number;
 }
