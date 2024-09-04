@@ -3306,7 +3306,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.FelbatPortrait_BG30_MagicItem_991]: [CardIds.FamishedFelbat_BG21_005],
 	[CardIds.FelbloodPortrait_BG30_MagicItem_869]: [CardIds.SlimyFelblood_BG29_873],
 	[CardIds.FishySticker_BG30_MagicItem_821]: [CardIds.AvatarOfNzoth_FishOfNzothToken],
-	[CardIds.FishySticker_FishyStickerToken_BG30_MagicItem_821t2]: [CardIds.AvatarOfNzoth_FishOfNzothToken],
+	[CardIds.FishySticker_FishyStickerToken_BG30_MagicItem_821t2]: [CardIds.FishOfNzoth],
 	[CardIds.GlowscalePortrait_BG30_MagicItem_548]: [CardIds.Glowscale_BG23_008],
 	[CardIds.GoldenizerSupply_BG30_MagicItem_435]: [CardIds.TheGoldenizerToken_BG26_813t],
 	[CardIds.JarredFrostling_BG30_MagicItem_952]: [CardIds.FlourishingFrostling_BG26_537],
@@ -3316,6 +3316,10 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.ShakerPortrait_BG30_MagicItem_828]: [CardIds.ZestyShaker_BG26_505],
 	[CardIds.SmugglerPortrait_BG30_MagicItem_825]: [CardIds.WhelpSmuggler_BG21_013],
 	[CardIds.SpitescaleSushiRoll_BG30_MagicItem_920]: [CardIds.SpitescaleSpecial_BG28_606],
+	[CardIds.Doppelgangster]: [
+		CardIds.Doppelgangster_DoppelgangsterToken_CFM_668t,
+		CardIds.Doppelgangster_DoppelgangsterToken_CFM_668t2,
+	],
 };
 
 export const getDynamicRelatedCardIds = (
