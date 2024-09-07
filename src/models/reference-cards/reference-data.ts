@@ -1,39 +1,12 @@
 import { CardIds } from '../../card-ids';
+import { ReferenceCard } from './reference-card';
 
-export const COIN_IDS = [
-	CardIds.TheCoinCore,
-	// CardIds.TheCoin_AT_COIN,
-	CardIds.TheCoin_AV_COIN1,
-	CardIds.TheCoin_AV_COIN2,
-	CardIds.TheCoin_BAR_COIN1,
-	CardIds.TheCoin_BAR_COIN2,
-	CardIds.TheCoin_BAR_COIN3,
-	CardIds.TheCoin_BT_COIN,
-	CardIds.TheCoin_DAL_COIN,
-	CardIds.TheCoin_DMF_COIN1,
-	CardIds.TheCoin_DMF_COIN2,
-	CardIds.TheCoin_DRG_COIN,
-	CardIds.TheCoin_REV_COIN1,
-	CardIds.TheCoin_REV_COIN2,
-	CardIds.TheCoin_RLK_COIN1,
-	CardIds.TheCoin_RLK_COIN2,
-	CardIds.TheCoin_SW_COIN1,
-	CardIds.TheCoin_SW_COIN2,
-	CardIds.TheCoin_TSC_COIN1,
-	CardIds.TheCoin_TSC_COIN2,
-	CardIds.TheCoin_ULD_COIN,
-	CardIds.TheCoin_ETC_COIN1,
-	CardIds.TheCoin_ETC_COIN2,
-	CardIds.TheCoin_TOY_COIN1,
-	CardIds.TheCoin_TOY_COIN2,
-	CardIds.TheCoin_TOY_COIN3,
-	CardIds.TheCoin_TTN_COIN1,
-	CardIds.TheCoin_TTN_COIN2,
-	CardIds.TheCoin_WW_COIN1,
-	CardIds.TheCoin_WW_COIN2,
-	CardIds.TheCoin_VAC_COIN1,
-	CardIds.TheCoin_VAC_COIN2,
-];
+export const isCoin = (
+	cardId: string | CardIds,
+	allCards: { getCard: (cardId: string | number) => ReferenceCard },
+): boolean => {
+	return allCards.getCard(cardId)?.isCoin;
+};
 
 export const EXCAVATE_TREASURE_1_IDS = [
 	CardIds.KoboldMiner_EscapingTroggToken_WW_001t4,
