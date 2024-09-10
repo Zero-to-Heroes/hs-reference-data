@@ -1,5 +1,5 @@
 import { CardIds, GameType, Race, ReferenceCard } from '../public-api';
-import { getEffectiveTribesEnum as getEffectiveTribesEnumBase } from './hs-utils';
+import { getEffectiveTribesEnumBase } from './hs-utils';
 
 export const ALL_BG_RACES = [
 	Race.BEAST,

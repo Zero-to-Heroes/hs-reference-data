@@ -280,10 +280,10 @@ export const getEffectiveTechLevel = (card: ReferenceCard, allCards: AllCardsSer
 };
 
 export const hasCorrectTribe = (card: ReferenceCard, targetTribe: Race): boolean => {
-	const cardTribes = getEffectiveTribesEnum(card);
+	const cardTribes = getEffectiveTribesEnumBase(card);
 	return cardTribes.includes(targetTribe) || cardTribes.includes(Race.ALL);
 };
 
-export const getEffectiveTribesEnum = (card: ReferenceCard): readonly Race[] => {
+export const getEffectiveTribesEnumBase = (card: ReferenceCard): readonly Race[] => {
 	return !!card.races?.length ? card.races.map((r) => Race[r]) : [Race.BLANK];
 };

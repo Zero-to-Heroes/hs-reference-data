@@ -468,6 +468,12 @@ export const getBaseCardId = (cardId: string): string => {
 			return CardIds.ForestSeedlings;
 		case CardIds.FrostLotusSeedling_FrostLotusBlossomToken:
 			return CardIds.FrostLotusSeedling;
+		case CardIds.UngoroBrochure_DalaranBrochureToken_WORK_050t:
+			return CardIds.UngoroBrochure_WORK_050;
+		case CardIds.SilvermoonBrochure_GilneasBrochureToken_WORK_017t:
+			return CardIds.SilvermoonBrochure_WORK_017;
+		case CardIds.IcecrownBrochure_BlackrockBrochureToken_WORK_030t:
+			return CardIds.IcecrownBrochure_WORK_030;
 	}
 
 	// Transfer Student should be handled on a case by case basis

@@ -3329,11 +3329,15 @@ export const RELATED_CARDS_DATA: {
 		CardIds.Doppelgangster_DoppelgangsterToken_CFM_668t,
 		CardIds.Doppelgangster_DoppelgangsterToken_CFM_668t2,
 	],
-	[CardIds.HandleWithBear]: [CardIds.HandleWithBear_Token],
-	[CardIds.Workhorse]: [CardIds.Workhorse_Token],
-	[CardIds.CashCow]: [CardIds.TheCoinCore],
-	[CardIds.VacationPlanning]: [CardIds.SilverHandRecruit],
-	[CardIds.DreamplannerZephrys]: [CardIds.ExtravagantTour, CardIds.HecticTour, CardIds.ModestTour],
+	[CardIds.HandleWithBear_WORK_024]: [CardIds.HandleWithBear_CarefulBearToken_WORK_024t],
+	[CardIds.Workhorse_WORK_018]: [CardIds.Workhorse_WorkponyToken_WORK_018t],
+	[CardIds.CashCow_WORK_019]: [CardIds.TheCoinCore],
+	[CardIds.VacationPlanning_WORK_003]: [CardIds.SilverHandRecruitLegacyToken],
+	[CardIds.DreamplannerZephrys_WORK_027]: [
+		CardIds.DreamplannerZephrys_ExtravagantTourToken_WORK_027t2,
+		CardIds.DreamplannerZephrys_HecticTourToken_WORK_027t3,
+		CardIds.DreamplannerZephrys_ModestTourToken_WORK_027t1,
+	],
 };
 
 export const getDynamicRelatedCardIds = (
@@ -3350,13 +3354,13 @@ export const getDynamicRelatedCardIds = (
 		case CardIds.CruiseCaptainLora_VAC_506:
 		case CardIds.TravelAgent_VAC_438:
 			return filterCards(allCards, options.format, (c) => c?.type?.toUpperCase() === CardType[CardType.LOCATION]);
-		case CardIds.TravelSecurity:
+		case CardIds.TravelSecurity_WORK_010:
 			return filterCards(
 				allCards,
 				options.format,
 				(c) => c?.type?.toUpperCase() === CardType[CardType.MINION] && c?.cost === 8,
 			);
-		case CardIds.DemonicDeal:
+		case CardIds.DemonicDeal_WORK_014:
 			return filterCards(
 				allCards,
 				options.format,
@@ -3365,7 +3369,7 @@ export const getDynamicRelatedCardIds = (
 					c?.cost >= 5 &&
 					hasCorrectTribe(c, Race.DEMON),
 			);
-		case CardIds.HuddleUp:
+		case CardIds.HuddleUp_WORK_012:
 			return filterCards(
 				allCards,
 				options.format,
