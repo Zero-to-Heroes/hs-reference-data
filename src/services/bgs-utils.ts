@@ -1,4 +1,5 @@
 import { CardIds, GameType, Race, ReferenceCard } from '../public-api';
+import { getEffectiveTribesEnum as getEffectiveTribesEnumBase } from './hs-utils';
 
 export const ALL_BG_RACES = [
 	Race.BEAST,
@@ -657,6 +658,5 @@ export const getTribesForInclusion = (card: ReferenceCard, includeOwnTribe: bool
 	}
 };
 
-export const getEffectiveTribesEnum = (card: ReferenceCard): readonly Race[] => {
-	return !!card.races?.length ? card.races.map((r) => Race[r]) : [Race.BLANK];
-};
+// To avoid braking existing imports
+export const getEffectiveTribesEnum = getEffectiveTribesEnumBase;

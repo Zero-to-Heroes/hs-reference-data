@@ -1,5 +1,14 @@
 import { CardIds } from '../../card-ids';
-import { AllCardsService, CardType, GameFormat, GameTag, SetId, isValidSet } from '../../public-api';
+import {
+	AllCardsService,
+	CardType,
+	GameFormat,
+	GameTag,
+	Race,
+	SetId,
+	hasCorrectTribe,
+	isValidSet,
+} from '../../public-api';
 import { ReferenceCard } from './reference-card';
 import { EXCAVATE_TREASURE_1_IDS, EXCAVATE_TREASURE_2_IDS, EXCAVATE_TREASURE_3_IDS } from './reference-data';
 
@@ -3320,6 +3329,11 @@ export const RELATED_CARDS_DATA: {
 		CardIds.Doppelgangster_DoppelgangsterToken_CFM_668t,
 		CardIds.Doppelgangster_DoppelgangsterToken_CFM_668t2,
 	],
+	[CardIds.HandleWithBear]: [CardIds.HandleWithBear_Token],
+	[CardIds.Workhorse]: [CardIds.Workhorse_Token],
+	[CardIds.CashCow]: [CardIds.TheCoinCore],
+	[CardIds.VacationPlanning]: [CardIds.SilverHandRecruit],
+	[CardIds.DreamplannerZephrys]: [CardIds.ExtravagantTour, CardIds.HecticTour, CardIds.ModestTour],
 };
 
 export const getDynamicRelatedCardIds = (
@@ -3336,6 +3350,27 @@ export const getDynamicRelatedCardIds = (
 		case CardIds.CruiseCaptainLora_VAC_506:
 		case CardIds.TravelAgent_VAC_438:
 			return filterCards(allCards, options.format, (c) => c?.type?.toUpperCase() === CardType[CardType.LOCATION]);
+		case CardIds.TravelSecurity:
+			return filterCards(
+				allCards,
+				options.format,
+				(c) => c?.type?.toUpperCase() === CardType[CardType.MINION] && c?.cost === 8,
+			);
+		case CardIds.DemonicDeal:
+			return filterCards(
+				allCards,
+				options.format,
+				(c) =>
+					c?.type?.toUpperCase() === CardType[CardType.MINION] &&
+					c?.cost >= 5 &&
+					hasCorrectTribe(c, Race.DEMON),
+			);
+		case CardIds.HuddleUp:
+			return filterCards(
+				allCards,
+				options.format,
+				(c) => c?.type?.toUpperCase() === CardType[CardType.MINION] && hasCorrectTribe(c, Race.NAGA),
+			);
 		case CardIds.MaestraMaskMerchant_VAC_336:
 			return (
 				allCards

@@ -1,6 +1,7 @@
 import { GameFormat } from '../../public-api';
 
 export type SetId =
+	| 'traveling_travel_agency'
 	| 'perils_in_paradise'
 	| 'boom_inventions'
 	| 'whizbangs_workshop'
@@ -57,9 +58,16 @@ export interface ReferenceSet {
 	readonly name: string;
 	readonly launchDate: Date;
 	readonly techSet?: boolean;
+	readonly miniSetFor?: SetId;
 }
 
 export const sets: readonly ReferenceSet[] = [
+	{
+		id: 'traveling_travel_agency',
+		name: `The Traveling Travel Agency`,
+		launchDate: new Date('2024-09-10'),
+		miniSetFor: 'perils_in_paradise',
+	},
 	{
 		id: 'perils_in_paradise',
 		name: `Perils in Paradise`,
@@ -69,6 +77,7 @@ export const sets: readonly ReferenceSet[] = [
 		id: 'boom_inventions',
 		name: `Dr. Boom’s Incredible Inventions`,
 		launchDate: new Date('2024-05-14'),
+		miniSetFor: 'whizbangs_workshop',
 	},
 	{
 		id: 'whizbangs_workshop',
@@ -85,6 +94,7 @@ export const sets: readonly ReferenceSet[] = [
 		id: 'deepholm',
 		name: `Delve into Deepholm`,
 		launchDate: new Date('2024-01-18'),
+		miniSetFor: 'wild_west',
 	},
 	{
 		id: 'wild_west',
@@ -95,6 +105,7 @@ export const sets: readonly ReferenceSet[] = [
 		id: 'ulduar',
 		name: `Fall of Ulduar`,
 		launchDate: new Date('2023-09-19'),
+		miniSetFor: 'titans',
 	},
 	{
 		id: 'caverns_of_time',
@@ -110,6 +121,7 @@ export const sets: readonly ReferenceSet[] = [
 		id: 'audiopocalypse',
 		name: `Audiopocalypse`,
 		launchDate: new Date('2023-05-31'),
+		miniSetFor: 'battle_of_the_bands',
 	},
 	{
 		id: 'battle_of_the_bands',
@@ -120,6 +132,7 @@ export const sets: readonly ReferenceSet[] = [
 		id: 'return_to_naxxramas',
 		name: `Return to Naxxramas`,
 		launchDate: new Date('2023-02-14'),
+		miniSetFor: 'return_of_the_lich_king',
 	},
 	{
 		id: 'path_of_arthas',
@@ -135,6 +148,7 @@ export const sets: readonly ReferenceSet[] = [
 		id: 'maw_and_disorder',
 		name: `Maw and Disorder`,
 		launchDate: new Date('2022-09-27'),
+		miniSetFor: 'revendreth',
 	},
 	{
 		id: 'revendreth',
@@ -145,6 +159,7 @@ export const sets: readonly ReferenceSet[] = [
 		id: 'throne_of_tides',
 		name: `Throne of the Tides`,
 		launchDate: new Date('2022-06-01'),
+		miniSetFor: 'the_sunken_city',
 	},
 	{
 		id: 'the_sunken_city',
@@ -155,6 +170,7 @@ export const sets: readonly ReferenceSet[] = [
 		id: 'onyxias_lair',
 		name: `Onyxia's Lair`,
 		launchDate: new Date('2022-02-15'),
+		miniSetFor: 'alterac_valley',
 	},
 	{
 		id: 'alterac_valley',
@@ -165,6 +181,7 @@ export const sets: readonly ReferenceSet[] = [
 		id: 'deadmines',
 		name: 'Deadmines',
 		launchDate: new Date('2021-11-02'),
+		miniSetFor: 'stormwind',
 	},
 	{
 		id: 'stormwind',
@@ -175,6 +192,7 @@ export const sets: readonly ReferenceSet[] = [
 		id: 'wailing_caverns',
 		name: 'Wailing Caverns',
 		launchDate: new Date('2021-06-03'),
+		miniSetFor: 'the_barrens',
 	},
 	{
 		id: 'the_barrens',
@@ -185,6 +203,7 @@ export const sets: readonly ReferenceSet[] = [
 		id: 'darkmoon_races',
 		name: 'Darkmoon Races',
 		launchDate: new Date('2021-01-21'),
+		miniSetFor: 'darkmoon_faire',
 	},
 	{
 		id: 'darkmoon_faire',
@@ -327,16 +346,15 @@ export const wildSets: readonly SetId[] = sets.map((s) => s.id);
 export const standardSets: readonly SetId[] = [
 	'core',
 	'battle_of_the_bands',
-	'audiopocalypse',
 	'titans',
-	'ulduar',
 	'wild_west',
-	'deepholm',
 	'gift',
 	'whizbangs_workshop',
-	'boom_inventions',
 	'perils_in_paradise',
-];
+]
+	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
+	.filter((setId) => setId)
+	.map((setId) => setId as SetId);
 export const twistSets: readonly SetId[] = wildSets;
 //  [
 // 	'core',
@@ -363,14 +381,15 @@ export const twistSets: readonly SetId[] = wildSets;
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 export const arenaSets: readonly SetId[] = [
 	'core',
-	'perils_in_paradise',
-	'boom_inventions',
+	'scholomance',
+	'alterac_valley',
+	'sunken_city',
 	'whizbangs_workshop',
-	'titans',
-	'return_of_the_lich_king',
-	'the_sunken_city',
-	'throne_of_tides',
-];
+	'perils_in_paradise',
+]
+	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
+	.filter((setId) => setId)
+	.map((setId) => setId as SetId);
 export const duelsSets: readonly SetId[] = [
 	'core',
 	'legacy',
