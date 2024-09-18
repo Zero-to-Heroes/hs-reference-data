@@ -1,5 +1,14 @@
 import { DeckDefinition, DeckList, Sideboard, decode, encode } from '@firestone-hs/deckstrings';
-import { GameFormat, ReferenceCard, duelsSets, formatFormat, standardSets, twistSets, wildSets } from '../public-api';
+import {
+	GameFormat,
+	ReferenceCard,
+	duelsSets,
+	formatFormat,
+	normalizeDeckHeroDbfId,
+	standardSets,
+	twistSets,
+	wildSets,
+} from '../public-api';
 import { AllCardsService } from './all-cards.service';
 
 interface Duplicates {
@@ -65,8 +74,10 @@ export class CardsForDeckbuildingService {
 		const sideboards: Sideboard[] = decoded.sideboards?.map((sideboard) =>
 			this.normalizeSideboard(sideboard, decoded.format, allCards),
 		);
+		const heroes = decoded.heroes?.map((heroDbfId) => normalizeDeckHeroDbfId(heroDbfId, allCards) ?? 7);
 		const updated: DeckDefinition = {
 			...decoded,
+			heroes: heroes,
 			cards: cards,
 			sideboards: sideboards,
 		};

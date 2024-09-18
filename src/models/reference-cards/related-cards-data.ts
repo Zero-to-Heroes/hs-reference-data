@@ -3252,7 +3252,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.TheRyecleaver_MinionSandwichToken_VAC_525t2,
 	],
 	[CardIds.TheRyecleaver_SliceOfBreadToken_VAC_525t1]: [CardIds.TheRyecleaver_MinionSandwichToken_VAC_525t2],
-	[CardIds.Tsunami_VAC_509]: [CardIds.WaterElementalLegacy],
+	[CardIds.Tsunami_VAC_509]: [CardIds.Tsunami_WaterElementalToken_VAC_509t],
 	[CardIds.VolleyMaul_VAC_921]: [CardIds.Grillmaster_SunscreenToken_VAC_917t],
 	[CardIds.DrinkServer_VAC_461]: [
 		CardIds.SeabreezeChalice_VAC_520,
