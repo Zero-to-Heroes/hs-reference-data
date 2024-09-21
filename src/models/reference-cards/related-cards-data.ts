@@ -3353,6 +3353,12 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.MetalDetector_VAC_330]: [CardIds.TheCoinCore],
 	[CardIds.OhManager_VAC_460]: [CardIds.TheCoinCore],
 	[CardIds.CthunTheShattered_BodyOfCthunToken]: [CardIds.BodyOfCthun_CthunsBodyToken],
+	[CardIds.UngoroBrochure_WORK_050]: [CardIds.UngoroBrochure_DalaranBrochureToken_WORK_050t],
+	[CardIds.UngoroBrochure_DalaranBrochureToken_WORK_050t]: [CardIds.UngoroBrochure_WORK_050],
+	[CardIds.SilvermoonBrochure_WORK_017]: [CardIds.SilvermoonBrochure_GilneasBrochureToken_WORK_017t],
+	[CardIds.SilvermoonBrochure_GilneasBrochureToken_WORK_017t]: [CardIds.SilvermoonBrochure_WORK_017],
+	[CardIds.IcecrownBrochure_WORK_030]: [CardIds.IcecrownBrochure_BlackrockBrochureToken_WORK_030t],
+	[CardIds.IcecrownBrochure_BlackrockBrochureToken_WORK_030t]: [CardIds.IcecrownBrochure_WORK_030],
 
 	[CardIds.PuzzlemasterKhadgar_TOY_373]: [
 		CardIds.PuzzlemasterKhadgar_MagicWisdomballToken_TOY_373t,
