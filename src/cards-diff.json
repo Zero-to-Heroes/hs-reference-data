@@ -1,31 +1,519 @@
 [
 	{
-		"dbfId": 72072,
-		"id": "BG21_013",
-		"name": "Whelp Smuggler",
+		"dbfId": 57340,
+		"id": "TB_BaconUps_004",
+		"name": "Kindly Grandmother",
 		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"techLevel": 2,
+		"cardClass": "HUNTER",
+		"playerClass": "Hunter",
+		"set": "Kara",
+		"rarity": "Common",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"techLevel": 1,
 		"attack": 2,
-		"health": 5,
-		"text": "Whenever a friendly Dragon gains Attack, give it +1 Health."
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Summon a 6/4 Big Bad Wolf."
 	},
 	{
-		"dbfId": 73546,
-		"id": "BG21_013_G",
-		"name": "Whelp Smuggler",
+		"dbfId": 57567,
+		"id": "TB_BaconShop_HP_001",
+		"name": "Sharpen Blades",
+		"type": "Hero_power",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"faction": "NEUTRAL",
+		"text": "[x]Give a minion +{1}/+{1}.\nUpgrades after you\nbuy 3 cards. <i>({0} left!)</i>"
+	},
+	{
+		"dbfId": 59707,
+		"id": "BGS_009",
+		"name": "Lightfang Enforcer",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"techLevel": 5,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]At the end of your turn,\ngive a friendly minion\nof each type +4/+4."
+	},
+	{
+		"dbfId": 59711,
+		"id": "TB_BaconUps_082",
+		"name": "Lightfang Enforcer",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"techLevel": 5,
+		"attack": 16,
+		"health": 16,
+		"text": "[x]At the end of your turn,\ngive a friendly minion\nof each type +8/+8."
+	},
+	{
+		"dbfId": 59832,
+		"id": "TB_BaconShop_HP_040",
+		"name": "Brick by Brick",
+		"type": "Hero_power",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"faction": "NEUTRAL",
+		"text": "[x]Give a minion +2 Health.\n<i>(Gains +1 Health each\nturn you don't use this!)</i>"
+	},
+	{
+		"dbfId": 62250,
+		"id": "TB_BaconShop_HP_074",
+		"name": "Buried Treasure",
+		"type": "Hero_power",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"text": "[x] Dig for a Golden minion!\n<i>(4 Digs left.)</i>"
+	},
+	{
+		"dbfId": 64054,
+		"id": "BGS_119",
+		"name": "Crackling Cyclone",
 		"type": "Minion",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
 		"set": "Battlegrounds",
 		"cost": 2,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
 		"techLevel": 2,
+		"attack": 5,
+		"health": 1,
+		"text": "<b>Divine Shield</b>\n<b>Windfury</b>"
+	},
+	{
+		"dbfId": 64055,
+		"id": "TB_BaconUps_159",
+		"name": "Crackling Cyclone",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
+		"techLevel": 2,
+		"attack": 10,
+		"health": 2,
+		"text": "<b>Divine Shield</b>\n<b>Windfury</b>"
+	},
+	{
+		"dbfId": 64424,
+		"id": "TB_BaconShop_HP_087",
+		"name": "DIE, INSECTS!",
+		"type": "Hero_power",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "[x]<b>Passive</b>\nAfter you kill 20 enemy\nminions, get Sulfuras.\n<i>(20 left!)</i>"
+	},
+	{
+		"dbfId": 66246,
+		"id": "TB_BaconShop_HP_104",
+		"name": "Saturday C'Thuns!",
+		"type": "Hero_power",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"faction": "NEUTRAL",
+		"text": "[x]At end of turn, give a\nfriendly minion +2/+1.\n Repeat 0 times.\n<i> (Upgrades each turn!)</i>"
+	},
+	{
+		"dbfId": 68130,
+		"id": "BG20_HERO_242p",
+		"name": "Natural Balance",
+		"type": "Hero_power",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"text": "[x]<b>Passive</b>\nAfter you buy 20 Tiers'\nworth of cards, get a Triple\nReward. <i>(20 left!)</i>"
+	},
+	{
+		"dbfId": 72065,
+		"id": "BG21_008",
+		"name": "Saltscale Honcho",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "MURLOC",
+		"races": [
+			"MURLOC"
+		],
+		"techLevel": 1,
+		"attack": 3,
+		"health": 3,
+		"text": "After you play a Murloc, give a friendly Murloc other than it +1 Health."
+	},
+	{
+		"dbfId": 72067,
+		"id": "BG21_005",
+		"name": "Famished Felbat",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "DEMON",
+		"races": [
+			"DEMON"
+		],
+		"techLevel": 6,
+		"attack": 9,
+		"health": 6,
+		"text": "[x]At the end of your turn, your\nother Demons consume\na minion in the Tavern\nto gain its stats."
+	},
+	{
+		"dbfId": 72389,
+		"id": "BG21_024",
+		"name": "Grease Bot",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "MECH",
+		"races": [
+			"MECH"
+		],
+		"techLevel": 4,
+		"attack": 2,
+		"health": 5,
+		"text": "<b>Divine Shield</b>\nAfter a friendly minion loses\n<b>Divine Shield</b>, give it\n+2/+1 permanently."
+	},
+	{
+		"dbfId": 72824,
+		"id": "BG21_005_G",
+		"name": "Famished Felbat",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "DEMON",
+		"races": [
+			"DEMON"
+		],
+		"techLevel": 6,
+		"attack": 18,
+		"health": 12,
+		"text": "[x]At the end of your turn, your\nother Demons consume\na minion in the Tavern\n to gain double its stats."
+	},
+	{
+		"dbfId": 72832,
+		"id": "BG21_008_G",
+		"name": "Saltscale Honcho",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "MURLOC",
+		"races": [
+			"MURLOC"
+		],
+		"techLevel": 1,
+		"attack": 6,
+		"health": 6,
+		"text": "After you play a Murloc, give a friendly Murloc other than it +2 Health."
+	},
+	{
+		"dbfId": 75141,
+		"id": "BG21_024_G",
+		"name": "Grease Bot",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "MECH",
+		"races": [
+			"MECH"
+		],
+		"techLevel": 4,
 		"attack": 4,
 		"health": 10,
-		"text": "Whenever a friendly Dragon gains Attack, give it +2 Health."
+		"text": "<b>Divine Shield</b>\nAfter a friendly minion loses\n<b>Divine Shield</b>, give it\n+4/+2 permanently."
+	},
+	{
+		"dbfId": 80741,
+		"id": "BG23_003",
+		"name": "Critter Wrangler",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "NAGA",
+		"races": [
+			"NAGA"
+		],
+		"techLevel": 4,
+		"attack": 2,
+		"health": 5,
+		"text": "[x]Whenever you cast a spell\non a minion, give it +2/+2."
+	},
+	{
+		"dbfId": 80750,
+		"id": "BG23_012",
+		"name": "Corrupted Myrmidon",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "NAGA",
+		"races": [
+			"NAGA"
+		],
+		"techLevel": 5,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Start of Combat:</b> Double this minion's stats."
+	},
+	{
+		"dbfId": 80751,
+		"id": "BG23_013",
+		"name": "Tidemistress Athissa",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"rarity": "Legendary",
+		"cost": 5,
+		"race": "NAGA",
+		"races": [
+			"NAGA"
+		],
+		"techLevel": 5,
+		"attack": 2,
+		"health": 7,
+		"text": "[x]Whenever you cast a\nspell, give three friendly\nNaga +1/+1."
+	},
+	{
+		"dbfId": 80759,
+		"id": "BG23_003_G",
+		"name": "Critter Wrangler",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "NAGA",
+		"races": [
+			"NAGA"
+		],
+		"techLevel": 4,
+		"attack": 4,
+		"health": 10,
+		"text": "[x]Whenever you cast a spell\non a minion, give it +4/+4."
+	},
+	{
+		"dbfId": 80768,
+		"id": "BG23_012_G",
+		"name": "Corrupted Myrmidon",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "NAGA",
+		"races": [
+			"NAGA"
+		],
+		"techLevel": 5,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]<b>Start of Combat:</b> Triple\nthis minion's stats."
+	},
+	{
+		"dbfId": 80769,
+		"id": "BG23_013_G",
+		"name": "Tidemistress Athissa",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"rarity": "Legendary",
+		"cost": 5,
+		"race": "NAGA",
+		"races": [
+			"NAGA"
+		],
+		"techLevel": 5,
+		"attack": 4,
+		"health": 14,
+		"text": "[x]Whenever you cast a\nspell, give three friendly\nNaga +2/+2."
+	},
+	{
+		"dbfId": 86014,
+		"id": "BG23_HERO_201p",
+		"name": "Tentacular",
+		"type": "Hero_power",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"faction": "NEUTRAL",
+		"text": "[x]<b>Passive.</b> When you have space\nin combat, summon a 2/2\nTentacle with <b>Taunt</b>. <i>(Gains\n+1/+1 after you sell a minion!)</i>"
+	},
+	{
+		"dbfId": 86227,
+		"id": "BG23_HERO_201pt",
+		"name": "Ozumat's Tentacle",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"dbfId": 91958,
+		"id": "BG23_HERO_201pt2",
+		"name": "Ozumat's Tentacle",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"dbfId": 91959,
+		"id": "BG23_HERO_201pt3",
+		"name": "Ozumat's Tentacle",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"dbfId": 91960,
+		"id": "BG23_HERO_201pt4",
+		"name": "Ozumat's Tentacle",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"dbfId": 91961,
+		"id": "BG23_HERO_201pt5",
+		"name": "Ozumat's Tentacle",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"dbfId": 91962,
+		"id": "BG23_HERO_201pt6",
+		"name": "Ozumat's Tentacle",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"dbfId": 95006,
+		"id": "BG24_500",
+		"name": "Amber Guardian",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON"
+		],
+		"techLevel": 4,
+		"attack": 5,
+		"health": 5,
+		"text": "[x]<b>Start of Combat:</b> Give\nanother friendly Dragon\n+5/+5 and <b>Divine Shield</b>."
+	},
+	{
+		"dbfId": 95010,
+		"id": "BG24_500_G",
+		"name": "Amber Guardian",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON"
+		],
+		"techLevel": 4,
+		"attack": 10,
+		"health": 10,
+		"text": "[x]<b>Start of Combat:</b> Give\ntwo other friendly Dragons\n+5/+5 and <b>Divine Shield</b>."
 	},
 	{
 		"dbfId": 95293,
@@ -40,10 +528,10 @@
 		"races": [
 			"DRAGON"
 		],
-		"techLevel": 4,
-		"attack": 3,
-		"health": 5,
-		"text": "Whenever this gains Attack, give your minions +1 Health."
+		"techLevel": 5,
+		"attack": 4,
+		"health": 6,
+		"text": "Whenever this gains Attack, give your minions +2 Health."
 	},
 	{
 		"dbfId": 95294,
@@ -58,174 +546,422 @@
 		"races": [
 			"DRAGON"
 		],
-		"techLevel": 4,
-		"attack": 6,
-		"health": 10,
-		"text": "Whenever this gains Attack, give your minions +2 Health."
+		"techLevel": 5,
+		"attack": 8,
+		"health": 12,
+		"text": "Whenever this gains Attack, give your minions +4 Health."
 	},
 	{
-		"dbfId": 110299,
-		"id": "BG28_Reward_501",
-		"name": "Temporal Tampering",
-		"type": "Battleground_quest_reward",
+		"dbfId": 97185,
+		"id": "TB_BaconShop_HP_702",
+		"name": "Runic Empowerment",
+		"type": "Hero_power",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
 		"set": "Battlegrounds",
-		"faction": "NEUTRAL",
-		"text": "You cast your Tavern spells an extra time."
+		"cost": 1,
+		"text": "[x]Give a minion +1/+{1}.\nUpgrades after seven\n friendly minions die.\n <i>(7 left!)</i>"
 	},
 	{
-		"dbfId": 110751,
-		"id": "WORK_002",
-		"name": "Busy-Bot",
+		"dbfId": 97427,
+		"id": "BG23_HERO_201pt_G",
+		"name": "Ozumat's Tentacle",
 		"type": "Minion",
-		"cardClass": "PALADIN",
-		"playerClass": "Paladin",
-		"set": "Perils_in_paradise",
-		"rarity": "Common",
-		"cost": 2,
-		"race": "MECH",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "BEAST",
 		"races": [
-			"MECH"
+			"BEAST"
 		],
-		"attack": 3,
-		"health": 2,
-		"text": "<b>Battlecry:</b> Give your\n1-Attack minions +1/+1."
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Taunt</b>"
 	},
 	{
-		"dbfId": 110753,
-		"id": "WORK_003",
-		"name": "Vacation Planning",
-		"type": "Spell",
-		"cardClass": "PALADIN",
-		"playerClass": "Paladin",
-		"set": "Perils_in_paradise",
-		"rarity": "Common",
-		"cost": 4,
-		"text": "Restore #4 Health. Summon 3 Silver Hand Recruits. Draw 2 cards."
-	},
-	{
-		"dbfId": 110754,
-		"id": "WORK_004",
-		"name": "Agency Espionage",
-		"type": "Spell",
-		"cardClass": "ROGUE",
-		"playerClass": "Rogue",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 4,
-		"text": "Shuffle a card from each other class into your deck. They cost (1)."
-	},
-	{
-		"dbfId": 110756,
-		"id": "WORK_005",
-		"name": "Sharp Shipment",
-		"type": "Spell",
-		"cardClass": "ROGUE",
-		"playerClass": "Rogue",
-		"set": "Perils_in_paradise",
-		"rarity": "Common",
-		"cost": 4,
-		"text": "Give your weapon +2/+2."
-	},
-	{
-		"dbfId": 110757,
-		"id": "WORK_006",
-		"name": "Robocaller",
+		"dbfId": 97428,
+		"id": "BG23_HERO_201pt2_G",
+		"name": "Ozumat's Tentacle",
 		"type": "Minion",
-		"cardClass": "ROGUE",
-		"playerClass": "Rogue",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 3,
-		"race": "MECH",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "BEAST",
 		"races": [
-			"MECH"
+			"BEAST"
 		],
-		"attack": 3,
-		"health": 2,
-		"text": "[x]<b>Battlecry:</b> Draw an\n8, 8, and {2}-Cost card.\n<i>(Numbers dialed randomly\neach turn!)</i>"
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Taunt</b>"
 	},
 	{
-		"dbfId": 110759,
-		"id": "WORK_007",
-		"name": "Deadline",
-		"type": "Spell",
-		"cardClass": "WARLOCK",
-		"playerClass": "Warlock",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 2,
-		"faction": "NEUTRAL",
-		"spellSchool": "SHADOW",
-		"text": "<b>Tradeable</b>, <b>Temporary</b>\nDestroy a minion."
-	},
-	{
-		"dbfId": 110760,
-		"id": "WORK_008",
-		"name": "Fine Print",
-		"type": "Spell",
-		"cardClass": "WARLOCK",
-		"playerClass": "Warlock",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 4,
-		"spellSchool": "SHADOW",
-		"text": "Deal $4 damage to all minions.\n<i>(Excess damage hits your hero.)</i>"
-	},
-	{
-		"dbfId": 110761,
-		"id": "WORK_009",
-		"name": "Imployee of the Month",
+		"dbfId": 97429,
+		"id": "BG23_HERO_201pt3_G",
+		"name": "Ozumat's Tentacle",
 		"type": "Minion",
-		"cardClass": "WARLOCK",
-		"playerClass": "Warlock",
-		"set": "Perils_in_paradise",
-		"rarity": "Common",
-		"cost": 2,
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"dbfId": 97430,
+		"id": "BG23_HERO_201pt4_G",
+		"name": "Ozumat's Tentacle",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"dbfId": 97431,
+		"id": "BG23_HERO_201pt5_G",
+		"name": "Ozumat's Tentacle",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"dbfId": 97432,
+		"id": "BG23_HERO_201pt6_G",
+		"name": "Ozumat's Tentacle",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"dbfId": 98786,
+		"id": "BG23_HERO_201pt_SKIN_A",
+		"name": "Ozumat's Tentacle",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"dbfId": 98787,
+		"id": "BG23_HERO_201pt_SKIN_A_G",
+		"name": "Ozumat's Tentacle",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"dbfId": 98831,
+		"id": "BG26_800",
+		"name": "Manasaber",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 4,
+		"health": 1,
+		"text": "<b>Deathrattle:</b> Summon two 0/1 Cublings with <b>Taunt</b>."
+	},
+	{
+		"dbfId": 98834,
+		"id": "BG26_800_G",
+		"name": "Manasaber",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 8,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Summon two 0/2 Cublings with <b>Taunt</b>."
+	},
+	{
+		"dbfId": 99199,
+		"id": "BG26_524",
+		"name": "Malchezaar, Prince of Dance",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"rarity": "Legendary",
+		"cost": 4,
 		"race": "DEMON",
 		"races": [
 			"DEMON"
 		],
-		"attack": 3,
-		"health": 2,
-		"text": "<b>Battlecry:</b> Give a friendly minion <b>Lifesteal</b>."
+		"techLevel": 4,
+		"attack": 5,
+		"health": 4,
+		"text": "2 <b>Refreshes</b> each turn cost Health instead of Gold.\n<i>(2 left!)</i>"
 	},
 	{
-		"dbfId": 110762,
-		"id": "WORK_010",
-		"name": "Travel Security",
+		"dbfId": 99220,
+		"id": "BG26_524_G",
+		"name": "Malchezaar, Prince of Dance",
 		"type": "Minion",
-		"cardClass": "DEATHKNIGHT",
-		"playerClass": "Deathknight",
-		"set": "Perils_in_paradise",
-		"rarity": "Common",
-		"cost": 6,
-		"race": "UNDEAD",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"rarity": "Legendary",
+		"cost": 4,
+		"race": "DEMON",
 		"races": [
-			"UNDEAD"
+			"DEMON"
 		],
-		"attack": 2,
-		"health": 2,
-		"text": "<b>Taunt</b>. <b>Deathrattle:</b> Summon a random\n8-Cost minion."
+		"techLevel": 4,
+		"attack": 10,
+		"health": 8,
+		"text": "4 <b>Refreshes</b> each turn cost Health instead of Gold.\n<i>(4 left!)</i>"
 	},
 	{
-		"dbfId": 110763,
-		"id": "WORK_011",
-		"name": "Hydration Totem",
+		"dbfId": 100899,
+		"id": "EBG_Spell_032",
+		"name": "Channel the Devourer",
+		"type": "Battleground_spell",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"spellSchool": "TAVERN",
+		"techLevel": 5,
+		"text": "Remove a minion.\nGive its stats to a random friendly minion."
+	},
+	{
+		"dbfId": 103712,
+		"id": "BG27_023",
+		"name": "Murcules",
 		"type": "Minion",
-		"cardClass": "SHAMAN",
-		"playerClass": "Shaman",
-		"set": "Perils_in_paradise",
-		"rarity": "Common",
-		"cost": 2,
-		"race": "TOTEM",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"rarity": "Legendary",
+		"cost": 0,
+		"race": "MURLOC",
 		"races": [
-			"TOTEM"
+			"MURLOC"
 		],
-		"attack": 0,
+		"techLevel": 2,
+		"attack": 5,
 		"health": 3,
-		"text": "[x]At the end of your\nturn, give adjacent\nminions +1/+1."
+		"text": "Whenever this kills a minion, give a minion in your hand +2/+2."
+	},
+	{
+		"dbfId": 103713,
+		"id": "BG27_023_G",
+		"name": "Murcules",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"rarity": "Legendary",
+		"cost": 0,
+		"race": "MURLOC",
+		"races": [
+			"MURLOC"
+		],
+		"techLevel": 2,
+		"attack": 10,
+		"health": 6,
+		"text": "Whenever this kills a minion, give a minion in your hand +4/+4."
+	},
+	{
+		"dbfId": 105250,
+		"id": "BGDUO_113",
+		"name": "Portal in a Bottle",
+		"type": "Battleground_spell",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"spellSchool": "TAVERN",
+		"techLevel": 4,
+		"text": "<b>Pass</b> a non-Golden minion."
+	},
+	{
+		"dbfId": 106512,
+		"id": "BG27_083",
+		"name": "Slitherspear, Lord of Gains",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"rarity": "Legendary",
+		"cost": 6,
+		"race": "NAGA",
+		"races": [
+			"NAGA"
+		],
+		"techLevel": 6,
+		"attack": 4,
+		"health": 6,
+		"text": "[x]At the end of your turn,\ngive your other Naga +1/+1\nfor each different spell\nyou've cast this turn."
+	},
+	{
+		"dbfId": 106513,
+		"id": "BG27_083_G",
+		"name": "Slitherspear, Lord of Gains",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"rarity": "Legendary",
+		"cost": 6,
+		"race": "NAGA",
+		"races": [
+			"NAGA"
+		],
+		"techLevel": 6,
+		"attack": 8,
+		"health": 12,
+		"text": "[x]At the end of your turn,\ngive your other Naga +2/+2\nfor each different spell\nyou've cast this turn."
+	},
+	{
+		"dbfId": 107939,
+		"id": "BG28_707",
+		"name": "Living Azerite",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
+		"techLevel": 4,
+		"attack": 6,
+		"health": 6,
+		"text": "[x]Whenever you cast a\nTavern spell, Elementals\nin the Tavern have +1/+1\nthis game."
+	},
+	{
+		"dbfId": 107940,
+		"id": "BG28_707_G",
+		"name": "Living Azerite",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
+		"techLevel": 4,
+		"attack": 12,
+		"health": 12,
+		"text": "[x]Whenever you cast a\nTavern spell, Elementals\nin the Tavern have +2/+2\nthis game."
+	},
+	{
+		"dbfId": 108348,
+		"id": "VAC_443",
+		"name": "Surfalopod",
+		"type": "Minion",
+		"cardClass": "MAGE",
+		"playerClass": "Mage",
+		"set": "Perils_in_paradise",
+		"rarity": "Rare",
+		"cost": 5,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"faction": "NEUTRAL",
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> The next\nspell you draw is\n<b>Cast When Drawn</b>."
+	},
+	{
+		"dbfId": 108851,
+		"id": "BG_KAR_005",
+		"name": "Kindly Grandmother",
+		"type": "Minion",
+		"cardClass": "HUNTER",
+		"playerClass": "Hunter",
+		"set": "Kara",
+		"rarity": "Common",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"techLevel": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Deathrattle:</b> Summon a 3/2 Big Bad Wolf."
+	},
+	{
+		"dbfId": 108852,
+		"id": "BG_KAR_005a",
+		"name": "Big Bad Wolf",
+		"type": "Minion",
+		"cardClass": "HUNTER",
+		"playerClass": "Hunter",
+		"set": "Kara",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"techLevel": 1,
+		"attack": 3,
+		"health": 2
 	},
 	{
 		"dbfId": 110765,
@@ -237,457 +973,17 @@
 		"touristFor": [
 			"HUNTER"
 		],
-		"set": "Perils_in_paradise",
+		"set": "Traveling_travel_agency",
 		"rarity": "Legendary",
-		"cost": 4,
+		"cost": 3,
 		"race": "ELEMENTAL",
 		"races": [
 			"ELEMENTAL"
 		],
 		"faction": "NEUTRAL",
 		"attack": 3,
-		"health": 4,
+		"health": 3,
 		"text": "<b>Hunter Tourist</b>. <b>Battlecry:</b> Give +1/+1 to all other <b>Battlecry</b> minions in your hand, deck, and battlefield."
-	},
-	{
-		"dbfId": 110767,
-		"id": "WORK_014",
-		"name": "Demonic Deal",
-		"type": "Spell",
-		"cardClass": "DEMONHUNTER",
-		"playerClass": "Demonhunter",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 2,
-		"spellSchool": "FEL",
-		"text": "[x]<b>Lifesteal</b>. Deal $4 damage\nto a minion. Put a random\nDemon that costs (5) or\nmore on top of your deck."
-	},
-	{
-		"dbfId": 110768,
-		"id": "WORK_015",
-		"name": "Spirit Peddler",
-		"type": "Minion",
-		"cardClass": "DEMONHUNTER",
-		"playerClass": "Demonhunter",
-		"set": "Perils_in_paradise",
-		"rarity": "Common",
-		"cost": 6,
-		"race": "DEMON",
-		"races": [
-			"DEMON"
-		],
-		"attack": 6,
-		"health": 6,
-		"text": "[x]<b>Rush</b>\n<b>Deathrattle:</b> Reduce the\nCost of a random minion\nin your hand by (6)."
-	},
-	{
-		"dbfId": 110769,
-		"id": "WORK_016",
-		"name": "Infernal Stapler",
-		"type": "Weapon",
-		"cardClass": "DEMONHUNTER",
-		"playerClass": "Demonhunter",
-		"set": "Perils_in_paradise",
-		"rarity": "Common",
-		"cost": 3,
-		"faction": "NEUTRAL",
-		"attack": 3,
-		"durability": 3,
-		"text": "After your hero attacks, deal 3 damage to your hero."
-	},
-	{
-		"dbfId": 110771,
-		"id": "WORK_017",
-		"name": "Silvermoon Brochure",
-		"type": "Spell",
-		"cardClass": "PRIEST",
-		"playerClass": "Priest",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 2,
-		"spellSchool": "HOLY",
-		"text": "Give a minion <b>Immune</b> this turn and +2/+2. <i>(Flips each turn.)</i>"
-	},
-	{
-		"dbfId": 110772,
-		"id": "WORK_018",
-		"name": "Workhorse",
-		"type": "Minion",
-		"cardClass": "HUNTER",
-		"playerClass": "Hunter",
-		"set": "Perils_in_paradise",
-		"rarity": "Common",
-		"cost": 3,
-		"race": "BEAST",
-		"races": [
-			"BEAST"
-		],
-		"attack": 4,
-		"health": 2,
-		"text": "<b>Deathrattle:</b> Summon two 2/1 Ponies."
-	},
-	{
-		"dbfId": 110775,
-		"id": "WORK_019",
-		"name": "Cash Cow",
-		"type": "Minion",
-		"cardClass": "HUNTER",
-		"playerClass": "Hunter",
-		"set": "Perils_in_paradise",
-		"rarity": "Common",
-		"cost": 5,
-		"race": "BEAST",
-		"races": [
-			"BEAST"
-		],
-		"attack": 3,
-		"health": 7,
-		"text": "[x]<b>Taunt</b>\nWhenever this takes\ndamage, get a Coin."
-	},
-	{
-		"dbfId": 110776,
-		"id": "WORK_020",
-		"name": "Monkey Business",
-		"type": "Spell",
-		"cardClass": "HUNTER",
-		"playerClass": "Hunter",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 4,
-		"text": "Add 8 Bananas to your hand. Any that can't fit are randomly fed to friendly minions in play."
-	},
-	{
-		"dbfId": 110780,
-		"id": "WORK_021",
-		"name": "Reserved Spot",
-		"type": "Spell",
-		"cardClass": "WARRIOR",
-		"playerClass": "Warrior",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 3,
-		"text": "[x]Give a random minion\nin your hand +4/+4.\nIf it's the only one there,\nreduce its Cost by (2)."
-	},
-	{
-		"dbfId": 110783,
-		"id": "WORK_022",
-		"name": "Punch Card",
-		"type": "Spell",
-		"cardClass": "WARRIOR",
-		"playerClass": "Warrior",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 3,
-		"faction": "NEUTRAL",
-		"text": "Give your hero +3 Attack and \"Also damages adjacent minions\" this turn."
-	},
-	{
-		"dbfId": 110785,
-		"id": "WORK_023",
-		"name": "Alloy Advisor",
-		"type": "Minion",
-		"cardClass": "WARRIOR",
-		"playerClass": "Warrior",
-		"set": "Perils_in_paradise",
-		"rarity": "Common",
-		"cost": 4,
-		"race": "MECH",
-		"races": [
-			"MECH"
-		],
-		"attack": 2,
-		"health": 6,
-		"text": "<b>Taunt</b>\nWhenever this takes damage, gain 3 Armor."
-	},
-	{
-		"dbfId": 110786,
-		"id": "WORK_024",
-		"name": "Handle with Bear",
-		"type": "Spell",
-		"cardClass": "DRUID",
-		"playerClass": "Druid",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 2,
-		"spellSchool": "NATURE",
-		"text": "[x]Get two 3/3 Bears\nwith <b>Taunt</b>. Each turn\nthey are in your hand,\nthey gain +1/+1."
-	},
-	{
-		"dbfId": 110787,
-		"id": "WORK_024t",
-		"name": "Careful Bear",
-		"type": "Minion",
-		"cardClass": "DRUID",
-		"playerClass": "Druid",
-		"set": "Perils_in_paradise",
-		"cost": 3,
-		"race": "BEAST",
-		"races": [
-			"BEAST"
-		],
-		"attack": 3,
-		"health": 3,
-		"text": "<b>Taunt</b>\nAt the start of your turn,\nif this is in your hand, gain +1/+1."
-	},
-	{
-		"dbfId": 110789,
-		"id": "WORK_025",
-		"name": "Number Cruncher",
-		"type": "Minion",
-		"cardClass": "DRUID",
-		"playerClass": "Druid",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 4,
-		"race": "BEAST",
-		"races": [
-			"BEAST"
-		],
-		"attack": 2,
-		"health": 1,
-		"text": "[x]<b><b>Rush</b>, Taunt</b>\n<b>Choose Thrice -</b> Gain\n+2 Attack; or +2 Health."
-	},
-	{
-		"dbfId": 110790,
-		"id": "WORK_025a",
-		"name": "Aggressive Projections",
-		"type": "Spell",
-		"cardClass": "DRUID",
-		"playerClass": "Druid",
-		"set": "Perils_in_paradise",
-		"cost": 4,
-		"text": "+2 Attack."
-	},
-	{
-		"dbfId": 110792,
-		"id": "WORK_025b",
-		"name": "Conservative Forecast",
-		"type": "Spell",
-		"cardClass": "DRUID",
-		"playerClass": "Druid",
-		"set": "Perils_in_paradise",
-		"cost": 4,
-		"text": "+2 Health."
-	},
-	{
-		"dbfId": 110794,
-		"id": "WORK_012",
-		"name": "Huddle Up",
-		"type": "Spell",
-		"cardClass": "MAGE",
-		"playerClass": "Mage",
-		"set": "Perils_in_paradise",
-		"rarity": "Common",
-		"cost": 7,
-		"text": "Fill your board with random Naga."
-	},
-	{
-		"dbfId": 110795,
-		"id": "WORK_026",
-		"name": "Burndown",
-		"type": "Spell",
-		"cardClass": "MAGE",
-		"playerClass": "Mage",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 3,
-		"faction": "NEUTRAL",
-		"spellSchool": "FIRE",
-		"text": "[x]Draw 3 cards and\nlight them on fire.\nIn 3 turns, any still\n in hand are destroyed!"
-	},
-	{
-		"dbfId": 110796,
-		"id": "WORK_027",
-		"name": "Dreamplanner Zephrys",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Perils_in_paradise",
-		"rarity": "Legendary",
-		"cost": 3,
-		"race": "ELEMENTAL",
-		"races": [
-			"ELEMENTAL"
-		],
-		"faction": "NEUTRAL",
-		"attack": 3,
-		"health": 2,
-		"text": "[x]<b>Battlecry:</b> Choose a\nTravel Tour to get two\npotentially perfect\ncards from it."
-	},
-	{
-		"dbfId": 110820,
-		"id": "WORK_027t1",
-		"name": "Modest Tour",
-		"type": "Spell",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Perils_in_paradise",
-		"cost": 0,
-		"faction": "NEUTRAL",
-		"text": "Get 2 random cards that can potentially impact the enemy's battlefield."
-	},
-	{
-		"dbfId": 110821,
-		"id": "WORK_027t2",
-		"name": "Extravagant Tour",
-		"type": "Spell",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Perils_in_paradise",
-		"cost": 0,
-		"faction": "NEUTRAL",
-		"text": "Get 2 random cards that can potentially spend a lot of Mana."
-	},
-	{
-		"dbfId": 110822,
-		"id": "WORK_027t3",
-		"name": "Hectic Tour",
-		"type": "Spell",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Perils_in_paradise",
-		"cost": 0,
-		"faction": "NEUTRAL",
-		"text": "Get 2 random cards that can potentially deal damage to the enemy hero."
-	},
-	{
-		"dbfId": 110844,
-		"id": "WORK_001",
-		"name": "Trust Fall",
-		"type": "Spell",
-		"cardClass": "PALADIN",
-		"playerClass": "Paladin",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 4,
-		"text": "[x]<b>Discover</b> two minions\nthat cost (5) or less.\nThey gain each other's\nAttack and Health."
-	},
-	{
-		"dbfId": 110847,
-		"id": "WORK_030t",
-		"name": "Blackrock Brochure",
-		"type": "Spell",
-		"cardClass": "SHAMAN",
-		"playerClass": "Shaman",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 2,
-		"spellSchool": "FIRE",
-		"text": "Deal $3 damage to a minion and $1 to\nits neighbors.\n<i>(Flips each turn.)</i>"
-	},
-	{
-		"dbfId": 110848,
-		"id": "WORK_030",
-		"name": "Icecrown Brochure",
-		"type": "Spell",
-		"cardClass": "SHAMAN",
-		"playerClass": "Shaman",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 2,
-		"spellSchool": "FROST",
-		"text": "Deal $3 damage to a minion and <b>Freeze</b> its neighbors.\n<i>(Flips each turn.)</i>"
-	},
-	{
-		"dbfId": 110849,
-		"id": "WORK_031",
-		"name": "Envoy of Prosperity",
-		"type": "Minion",
-		"cardClass": "PRIEST",
-		"playerClass": "Priest",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 2,
-		"attack": 4,
-		"health": 4,
-		"text": "<b>Battlecry:</b> Put the highest Cost card in your hand on top of your deck."
-	},
-	{
-		"dbfId": 110850,
-		"id": "WORK_032",
-		"name": "Job Shadower",
-		"type": "Minion",
-		"cardClass": "PRIEST",
-		"playerClass": "Priest",
-		"set": "Perils_in_paradise",
-		"rarity": "Common",
-		"cost": 3,
-		"race": "UNDEAD",
-		"races": [
-			"UNDEAD"
-		],
-		"attack": 4,
-		"health": 3,
-		"text": "<b>Battlecry:</b> If your hero took damage this turn, summon a copy of this."
-	},
-	{
-		"dbfId": 110853,
-		"id": "WORK_040",
-		"name": "Clumsy Steward",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 3,
-		"attack": 2,
-		"health": 4,
-		"text": "After ANY card is drawn, make it <b>Temporary</b>."
-	},
-	{
-		"dbfId": 110855,
-		"id": "WORK_041",
-		"name": "Busy Peon",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Perils_in_paradise",
-		"rarity": "Common",
-		"cost": 2,
-		"attack": 2,
-		"health": 3,
-		"text": "<b>Deathrattle:</b> Your next location costs (2) less."
-	},
-	{
-		"dbfId": 110858,
-		"id": "WORK_042",
-		"name": "Carnivorous Cubicle",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Perils_in_paradise",
-		"rarity": "Epic",
-		"cost": 5,
-		"attack": 4,
-		"health": 6,
-		"text": "[x]<b>Battlecry:</b> Destroy a\nfriendly minion.\nSummon a copy of it at\n the end of your turns."
-	},
-	{
-		"dbfId": 110859,
-		"id": "WORK_043",
-		"name": "Travelmaster Dungar",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"playerClass": "Neutral",
-		"set": "Perils_in_paradise",
-		"rarity": "Legendary",
-		"cost": 9,
-		"attack": 3,
-		"health": 3,
-		"text": "[x]<b>Battlecry:</b> Summon three\nminions from your\ndeck that are from\ndifferent expansions."
-	},
-	{
-		"dbfId": 110882,
-		"id": "WORK_050",
-		"name": "Un'Goro Brochure",
-		"type": "Spell",
-		"cardClass": "DRUID",
-		"playerClass": "Druid",
-		"set": "Perils_in_paradise",
-		"rarity": "Common",
-		"cost": 4,
-		"spellSchool": "NATURE",
-		"text": "[x]Draw two minions.\nGive them +2/+2.\n<i>(Flips each turn.)</i>"
 	},
 	{
 		"dbfId": 110965,
@@ -699,347 +995,1167 @@
 		"touristFor": [
 			"ROGUE"
 		],
-		"set": "Perils_in_paradise",
+		"set": "Traveling_travel_agency",
 		"rarity": "Legendary",
-		"cost": 5,
+		"cost": 6,
 		"attack": 4,
 		"health": 5,
 		"text": "[x]<b>Rogue Tourist\n</b><b>Battlecry:</b> Swap the Costs of\nthe lowest and highest Cost\nspells in your hand."
 	},
 	{
-		"dbfId": 111485,
-		"id": "WORK_070",
-		"name": "Soul Searching",
-		"type": "Spell",
-		"cardClass": "DEATHKNIGHT",
-		"playerClass": "Deathknight",
-		"set": "Perils_in_paradise",
-		"rarity": "Common",
-		"cost": 2,
-		"additionalCosts": {
-			"UNHOLYRUNE": 2
-		},
-		"spellSchool": "SHADOW",
-		"text": "<b>Discover</b> a card from your deck. Spend 5 <b>Corpses</b> to copy it."
-	},
-	{
-		"dbfId": 112001,
-		"id": "BG30_MagicItem_425",
-		"name": "Azeroth Model Globe",
+		"dbfId": 110966,
+		"id": "BG30_MagicItem_821",
+		"name": "Fishy Sticker",
 		"type": "Battleground_trinket",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
 		"set": "Battlegrounds",
-		"cost": 2,
+		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
-		"text": "[x]At the start of every 2\nturns, <b>Discover</b> a Tier 6\nminion. <i>(2 turns left!)</i>"
+		"text": "[x]<b>Start of Combat:</b> Summon\na Fish of N'Zoth that\ncopies <b>Deathrattles</b>."
 	},
 	{
-		"dbfId": 112372,
-		"id": "WORK_028",
-		"name": "Eternal Layover",
-		"type": "Spell",
-		"cardClass": "DEATHKNIGHT",
-		"playerClass": "Deathknight",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 4,
-		"additionalCosts": {
-			"UNHOLYRUNE": 1
-		},
-		"text": "[x]Give ALL minions <b>Reborn</b>,\nthen destroy all minions."
-	},
-	{
-		"dbfId": 112379,
-		"id": "WORK_017t",
-		"name": "Gilneas Brochure",
-		"type": "Spell",
-		"cardClass": "PRIEST",
-		"playerClass": "Priest",
-		"set": "Perils_in_paradise",
-		"rarity": "Rare",
-		"cost": 2,
-		"spellSchool": "SHADOW",
-		"text": "<b>Silence</b> a minion\nand give it -2/-2.\n<i>(Flips each turn.)</i>"
-	},
-	{
-		"dbfId": 112382,
-		"id": "BG30_MagicItem_541",
-		"name": "Nether Pendant",
+		"dbfId": 110967,
+		"id": "BG30_MagicItem_886",
+		"name": "Reinforced Shield",
 		"type": "Battleground_trinket",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
 		"set": "Battlegrounds",
 		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
-		"text": "[x]Minions in the Tavern have\n+{1}/+{1}. Upgrades every 4\ntimes your hero takes damage\nduring your turn. <i>({0} left!)</i>"
+		"text": "[x]Whenever you summon\na minion, give it <b>Divine\nShield</b>. <i>(4 times per\ncombat.)</i>"
 	},
 	{
-		"dbfId": 112389,
-		"id": "WORK_050t",
-		"name": "Dalaran Brochure",
-		"type": "Spell",
-		"cardClass": "DRUID",
-		"playerClass": "Druid",
-		"set": "Perils_in_paradise",
-		"rarity": "Common",
-		"cost": 4,
-		"spellSchool": "ARCANE",
-		"text": "[x]Draw two spells.\nThey cost (1) less.\n<i>(Flips each turn.)</i>"
-	},
-	{
-		"dbfId": 112395,
-		"id": "WORK_018t",
-		"name": "Workpony",
-		"type": "Minion",
-		"cardClass": "HUNTER",
-		"playerClass": "Hunter",
-		"set": "Perils_in_paradise",
-		"cost": 1,
-		"race": "BEAST",
-		"races": [
-			"BEAST"
-		],
-		"attack": 2,
-		"health": 1
-	},
-	{
-		"dbfId": 112742,
-		"id": "HERO_02ax",
-		"name": "Ragnaros the Firelord",
-		"type": "Hero",
-		"cardClass": "SHAMAN",
-		"playerClass": "Shaman",
-		"set": "Hero_skins",
-		"rarity": "Free",
-		"race": "ELEMENTAL",
-		"races": [
-			"ELEMENTAL"
-		],
-		"faction": "NEUTRAL",
-		"health": 30
-	},
-	{
-		"dbfId": 112743,
-		"id": "HERO_02axhp",
-		"name": "Totemic Call",
-		"type": "Hero_power",
-		"cardClass": "SHAMAN",
-		"playerClass": "Shaman",
-		"set": "Hero_skins",
-		"rarity": "Free",
-		"cost": 2,
-		"faction": "NEUTRAL",
-		"text": "<b>Hero Power</b>\nSummon a random basic Totem."
-	},
-	{
-		"dbfId": 112744,
-		"id": "HERO_02axhp2",
-		"name": "Totemic Slam",
-		"type": "Hero_power",
-		"cardClass": "SHAMAN",
-		"playerClass": "Shaman",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nSummon a Totem of your choice."
-	},
-	{
-		"dbfId": 112754,
-		"id": "HERO_08bchp",
-		"name": "Fireblast",
-		"type": "Hero_power",
-		"cardClass": "MAGE",
-		"playerClass": "Mage",
-		"set": "Hero_skins",
-		"rarity": "Free",
-		"cost": 2,
-		"faction": "NEUTRAL",
-		"text": "<b>Hero Power</b>\nDeal $1 damage."
-	},
-	{
-		"dbfId": 112755,
-		"id": "HERO_08bchp2",
-		"name": "Fireblast Rank 2",
-		"type": "Hero_power",
-		"cardClass": "MAGE",
-		"playerClass": "Mage",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nDeal $2 damage."
-	},
-	{
-		"dbfId": 112762,
-		"id": "HERO_02ay",
-		"name": "Overcharged King",
-		"type": "Hero",
-		"cardClass": "SHAMAN",
-		"playerClass": "Shaman",
-		"set": "Hero_skins",
-		"rarity": "Free",
-		"faction": "NEUTRAL",
-		"health": 30
-	},
-	{
-		"dbfId": 112763,
-		"id": "HERO_10aq",
-		"name": "Halveria Steamraven",
-		"type": "Hero",
-		"cardClass": "DEMONHUNTER",
-		"playerClass": "Demonhunter",
-		"set": "Hero_skins",
-		"rarity": "Free",
-		"race": "WORGEN",
-		"races": [
-			"WORGEN"
-		],
-		"faction": "NEUTRAL",
-		"health": 30
-	},
-	{
-		"dbfId": 112855,
-		"id": "BG30_MagicItem_434",
-		"name": "Replica Cathedral",
+		"dbfId": 110991,
+		"id": "BG30_MagicItem_914",
+		"name": "Nerglish Phrasebook",
 		"type": "Battleground_trinket",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
 		"set": "Battlegrounds",
 		"cost": 2,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "[x]After you play a minion,\ngive the left-most minion\nin your hand +3/+2."
+	},
+	{
+		"dbfId": 110993,
+		"id": "BG30_MagicItem_924",
+		"name": "Booty Bay Brew",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "Whenever you spend Gold, give a friendly Pirate +1/+2."
+	},
+	{
+		"dbfId": 111092,
+		"id": "BG30_MagicItem_841",
+		"name": "Glowing Gauntlet",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "Minions in the Tavern have +3/+3.",
+		"otherTags": [
+			"BACON_TRINKET_CAN_BE_DISCOUNTED"
+		]
+	},
+	{
+		"dbfId": 111250,
+		"id": "BG30_MagicItem_880t",
+		"name": "Feral Talisman",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "Your minions have +6/+4."
+	},
+	{
+		"dbfId": 111255,
+		"id": "BG30_MagicItem_825",
+		"name": "Smuggler Portrait",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"spellSchool": "LESSER_TRINKET",
+		"text": "Get a 'Whelp Smuggler'. Your Whelp Smugglers are Dragons."
+	},
+	{
+		"dbfId": 111384,
+		"id": "BG30_MagicItem_879",
+		"name": "Dalaran Cheese Wheel",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "Minions in the Tavern have +{1}/+{1}. Upgrades every 5 times you <b>Refresh</b>. <i>({0} left!)</i>"
+	},
+	{
+		"dbfId": 111388,
+		"id": "BG30_MagicItem_301",
+		"name": "Eternal Portrait",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "[x]Get an 'Eternal Knight'.\n<b>Start of Combat:</b> Give your\nEternal Knights <b>Taunt</b>\nand <b>Reborn</b>."
+	},
+	{
+		"dbfId": 111400,
+		"id": "BG30_MagicItem_920",
+		"name": "Spitescale Sushi Roll",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "Get a 'Spitescale Special'. Your first two <b>Spellcraft</b> spells each turn cast twice. <i>(2 left!)</i>"
+	},
+	{
+		"dbfId": 111401,
+		"id": "BG30_MagicItem_902",
+		"name": "Holy Mallet",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "[x]<b>Start of Combat:</b> Give\nyour left and right-most\nminions <b>Divine Shield</b>.",
+		"otherTags": [
+			"BACON_TRINKET_CAN_BE_DISCOUNTED"
+		]
+	},
+	{
+		"dbfId": 111406,
+		"id": "BG30_MagicItem_923",
+		"name": "Elementium Chest",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]Each combat, after 2\nfriendly Pirates attack,\ngain 1 Gold next turn.\n<i>(2 left!)</i>"
+	},
+	{
+		"dbfId": 111476,
+		"id": "BG30_MagicItem_402",
+		"name": "Conductor Portrait",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]Get a 'Snarling Conductor'.\nWhenever you discard a\ncard, play a <b>Blood Gem</b>\non all your minions."
+	},
+	{
+		"dbfId": 111488,
+		"id": "BG30_MagicItem_403",
+		"name": "Ironforge Anvil",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "<b>Start of Combat:</b> Triple the stats of your minions with no type."
+	},
+	{
+		"dbfId": 111499,
+		"id": "BG30_MagicItem_951",
+		"name": "Lava Lamp",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "After you sell 5 minions, get a random Elemental. <i>(5 left!)</i>"
+	},
+	{
+		"dbfId": 111505,
+		"id": "BG30_MagicItem_407",
+		"name": "Ship in a Bottle",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "[x]<b>Start of Combat:</b> Get\nand summon a random\nPirate. It attacks\nimmediately."
+	},
+	{
+		"dbfId": 111512,
+		"id": "BG30_MagicItem_410",
+		"name": "Quilligraphy Set",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
-		"text": "You cast your first spell each turn an extra time."
+		"text": "<b>Avenge (4):</b> Your <b>Blood Gems</b> give an extra +1 Health this game."
 	},
 	{
-		"dbfId": 114329,
-		"id": "HERO_06as",
-		"name": "Leyara",
-		"type": "Hero",
-		"cardClass": "DRUID",
-		"playerClass": "Druid",
-		"set": "Hero_skins",
-		"rarity": "Free",
-		"race": "NIGHTELF",
-		"races": [
-			"NIGHTELF"
-		],
-		"faction": "NEUTRAL",
-		"health": 30
-	},
-	{
-		"dbfId": 114330,
-		"id": "HERO_06ashp",
-		"name": "Shapeshift",
-		"type": "Hero_power",
-		"cardClass": "DRUID",
-		"playerClass": "Druid",
-		"set": "Hero_skins",
-		"rarity": "Free",
+		"dbfId": 111533,
+		"id": "BG30_MagicItem_414",
+		"name": "Kodo Leather Pouch",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
 		"cost": 2,
-		"faction": "NEUTRAL",
-		"text": "<b>Hero Power</b>\n+$a1 Attack this turn.\n+$d1 Armor."
+		"spellSchool": "LESSER_TRINKET",
+		"text": "After you buy a card, give two random friendly minions +2/+1.",
+		"otherTags": [
+			"BACON_TRINKET_CAN_BE_DISCOUNTED"
+		]
 	},
 	{
-		"dbfId": 114331,
-		"id": "HERO_06ashp2",
-		"name": "Dire Shapeshift",
-		"type": "Hero_power",
-		"cardClass": "DRUID",
-		"playerClass": "Druid",
-		"set": "Hero_skins",
+		"dbfId": 111556,
+		"id": "BG30_MagicItem_416",
+		"name": "Token of the Old Gods",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
 		"cost": 2,
-		"text": "<b>Hero Power</b>\n+$a2 Attack this turn.\n+$d2 Armor."
+		"spellSchool": "LESSER_TRINKET",
+		"text": "<b>Spellcraft:</b> Choose a minion. <b>Discover</b> a minion from a Tier higher to transform it into."
 	},
 	{
-		"dbfId": 114332,
-		"id": "HERO_04av",
-		"name": "Steamraider Nozdormu",
-		"type": "Hero",
-		"cardClass": "PALADIN",
-		"playerClass": "Paladin",
-		"set": "Hero_skins",
-		"rarity": "Free",
-		"race": "BLOODELF",
-		"races": [
-			"BLOODELF"
-		],
-		"faction": "NEUTRAL",
-		"health": 30
-	},
-	{
-		"dbfId": 114333,
-		"id": "HERO_11y",
-		"name": "Steampunk Lana'thel",
-		"type": "Hero",
-		"cardClass": "DEATHKNIGHT",
-		"playerClass": "Deathknight",
-		"set": "Hero_skins",
-		"rarity": "Free",
-		"faction": "NEUTRAL",
-		"health": 30
-	},
-	{
-		"dbfId": 117487,
-		"id": "HERO_01bb",
-		"name": "Ragnaros the Firelord",
-		"type": "Hero",
-		"cardClass": "WARRIOR",
-		"playerClass": "Warrior",
-		"set": "Hero_skins",
-		"rarity": "Free",
-		"race": "ELEMENTAL",
-		"races": [
-			"ELEMENTAL"
-		],
-		"faction": "NEUTRAL",
-		"health": 30
-	},
-	{
-		"dbfId": 117488,
-		"id": "HERO_01bbhp",
-		"name": "Armor Up!",
-		"type": "Hero_power",
-		"cardClass": "WARRIOR",
-		"playerClass": "Warrior",
-		"set": "Hero_skins",
-		"rarity": "Free",
+		"dbfId": 111557,
+		"id": "BG30_MagicItem_917",
+		"name": "Rusty Trident",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
 		"cost": 2,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "[x]<b>Start of Combat:</b> Give your\nNaga \"<b>Deathrattle:</b> Get a\nrandom <b>Spellcraft</b> spell.\""
+	},
+	{
+		"dbfId": 111608,
+		"id": "BG30_MagicItem_419",
+		"name": "Exquisite Dishware",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]At the end of your turn,\nget a random minion of\neach different type\nyou control."
+	},
+	{
+		"dbfId": 111609,
+		"id": "BG30_MagicItem_420",
+		"name": "Book of Medivh",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "<b>Discover</b> a Tavern spell. At the start of each turn, <b>Discover</b> another."
+	},
+	{
+		"dbfId": 111664,
+		"id": "BG30_MagicItem_422",
+		"name": "Lorewalker Scroll",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "Whenever you cast a spell on a minion, give it +2/+1."
+	},
+	{
+		"dbfId": 111921,
+		"id": "BG30_MagicItem_971",
+		"name": "Enforcer Portrait",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
 		"faction": "NEUTRAL",
-		"text": "<b>Hero Power</b>\nGain $d2 Armor."
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]Get a 'Lightfang\nEnforcer'. Your Lightfang\nEnforcers have\nall minion types."
 	},
 	{
-		"dbfId": 117489,
-		"id": "HERO_01bbhp2",
-		"name": "Tank Up!",
-		"type": "Hero_power",
-		"cardClass": "WARRIOR",
-		"playerClass": "Warrior",
-		"set": "Hero_skins",
+		"dbfId": 111922,
+		"id": "BG30_MagicItem_972",
+		"name": "Karazhan Chess Set",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "<b>Start of Combat:</b> Summon a copy of your left-most minion."
+	},
+	{
+		"dbfId": 111976,
+		"id": "BG30_MagicItem_978",
+		"name": "Blingtron's Sunglasses",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "[x]After you summon a Mech\nin combat, give a friendly\nMech <b>Divine Shield</b>."
+	},
+	{
+		"dbfId": 112002,
+		"id": "BG30_MagicItem_426",
+		"name": "Colorful Compass",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
 		"cost": 2,
-		"text": "<b>Hero Power</b>\nGain $d4 Armor."
+		"spellSchool": "LESSER_TRINKET",
+		"text": "Get a random {0}. At the start of each turn, get another."
 	},
 	{
-		"dbfId": 117582,
-		"id": "MUDAN_COIN1",
-		"name": "The Coin",
+		"dbfId": 112004,
+		"id": "BG30_MagicItem_982",
+		"name": "Shaman Prayer Beads",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]After you buy 2 <b>Battlecry</b>\nminions, get a random\n<b>Battlecry</b> minion. <i>(2 left!)</i>"
+	},
+	{
+		"dbfId": 112005,
+		"id": "BG30_MagicItem_984",
+		"name": "Charging Staff",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "[x]At the end of each turn,\ngive your minions with\n<b>Divine Shield</b> +3 Attack.",
+		"otherTags": [
+			"BACON_TRINKET_CAN_BE_DISCOUNTED"
+		]
+	},
+	{
+		"dbfId": 112011,
+		"id": "BG30_MagicItem_987",
+		"name": "Balladist Portrait",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]Get a 'Lovesick Balladist'.\nAt the start of each turn,\nget another. Your Lovesick\n Balladists also give Attack."
+	},
+	{
+		"dbfId": 112014,
+		"id": "BG30_MagicItem_989",
+		"name": "Artisanal Urn",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"spellSchool": "LESSER_TRINKET",
+		"text": "Your Undead have\n+3 Attack."
+	},
+	{
+		"dbfId": 112054,
+		"id": "BG30_MagicItem_991",
+		"name": "Felbat Portrait",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]Get a 'Famished\nFelbat'. The Tavern\nalways has 7 cards."
+	},
+	{
+		"dbfId": 112055,
+		"id": "BG30_MagicItem_992",
+		"name": "Darnassus Pie",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"spellSchool": "GREATER_TRINKET",
+		"text": "Minions in the Tavern have +1/+1 for each minion you've sold this turn."
+	},
+	{
+		"dbfId": 112073,
+		"id": "BG30_MagicItem_427",
+		"name": "Tiger Carving",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "[x]Whenever a friendly minion\ntakes damage, give a\nrandom friendly minion\n+2 Attack permanently."
+	},
+	{
+		"dbfId": 112082,
+		"id": "BG30_MagicItem_435",
+		"name": "Goldenizer Supply",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "At the end of every 3 turns, get a Goldenizer. <i>(3 turns left!)</i>"
+	},
+	{
+		"dbfId": 112083,
+		"id": "BG30_MagicItem_433",
+		"name": "Alliance Keychain",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "[x]The first time a friendly\nminion dies each combat,\ngive its maximum stats to\na random friendly minion.",
+		"otherTags": [
+			"BACON_TRINKET_CAN_BE_DISCOUNTED"
+		]
+	},
+	{
+		"dbfId": 112102,
+		"id": "BG30_MagicItem_310",
+		"name": "Rivendare Portrait",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]Get a 'Titus Rivendare'.\n<b>Start of Combat:</b> Double\nthe Health of your\nTitus Rivendares."
+	},
+	{
+		"dbfId": 112385,
+		"id": "BG30_MagicItem_543",
+		"name": "Devourer Sticker",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"faction": "NEUTRAL",
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]Get a 'Channel the\nDevourer'. At the start of\neach turn, get another."
+	},
+	{
+		"dbfId": 112397,
+		"id": "BG30_MagicItem_545",
+		"name": "Fridge Magnet",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]<b>Avenge (3):</b> Get a random\n<b>Magnetic</b> minion."
+	},
+	{
+		"dbfId": 112398,
+		"id": "BG30_MagicItem_546",
+		"name": "Jar o' Gems",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"faction": "NEUTRAL",
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]Each combat, after 2\nfriendly minions attack,\nplay a <b>Blood Gem</b> on all\nyour Quilboar. <i>(2 left!)</i>"
+	},
+	{
+		"dbfId": 112399,
+		"id": "BG30_MagicItem_547",
+		"name": "Comfy Coffin",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "[x]After you cast a Tavern\nspell, your Undead have\n+1 Attack this game\n<i>(wherever they are)</i>."
+	},
+	{
+		"dbfId": 112402,
+		"id": "BG30_MagicItem_432",
+		"name": "Belcher Portrait",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "[x]Get an 'Operatic Belcher'.\nWhenever a friendly minion\nloses <b>Venomous</b>, it gains\n+3/+3 permanently."
+	},
+	{
+		"dbfId": 112408,
+		"id": "BG30_MagicItem_997",
+		"name": "Windrunner Necklace",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "Your left-most minion has +8 Attack in combat."
+	},
+	{
+		"dbfId": 112411,
+		"id": "BG30_MagicItem_995",
+		"name": "Bronze Timepiece",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]<b>Start of Combat:</b> Set each\nof your minions' Attack\nand Health to the higher\nof the two."
+	},
+	{
+		"dbfId": 112464,
+		"id": "BG30_MagicItem_548",
+		"name": "Glowscale Portrait",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "Get a 'Glowscale'.\nYour first <b>Spellcraft</b> enchantment each turn is permanent.",
+		"otherTags": [
+			"BACON_TRINKET_CAN_BE_DISCOUNTED"
+		]
+	},
+	{
+		"dbfId": 112813,
+		"id": "BG30_MagicItem_416t",
+		"name": "Token of the Old Gods",
 		"type": "Spell",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
-		"set": "Gift",
+		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "Gain 1 Mana Crystal this turn only.",
-		"isCoin": true
+		"spellSchool": "SPELLCRAFT",
+		"text": "Choose a minion. <b>Discover</b> a minion from a Tier higher to transform it into."
 	},
 	{
-		"dbfId": 117712,
-		"id": "BG23_353t",
-		"name": "Golden Monkey",
+		"dbfId": 112895,
+		"id": "BG30_MagicItem_888",
+		"name": "Souvenir Stand",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "[x]When you buy your\nGreater <b>Trinket</b>, this\ntransforms into a\ncopy of it."
+	},
+	{
+		"dbfId": 112988,
+		"id": "BG30_MagicItem_996",
+		"name": "Bob's Tip Jar",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]Gain 4 Gold. Increase\nyour maximum Gold\nby 4."
+	},
+	{
+		"dbfId": 113095,
+		"id": "BG30_MagicItem_440",
+		"name": "Boom Controller",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]When you have space,\nsummon an exact copy\nof your first Mech that\ndied each combat."
+	},
+	{
+		"dbfId": 113096,
+		"id": "BG30_MagicItem_442",
+		"name": "Blood Golem Sticker",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]Whenever a friendly Quilboar\ndies, summon a Golem with\nstats equal to its <b>Blood Gems</b>.\n<i>(2 times per combat.)</i>"
+	},
+	{
+		"dbfId": 113102,
+		"id": "BG30_MagicItem_999",
+		"name": "Fancy Spellbook",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "After you spend 7 Gold, get a random Tavern spell. <i>(7 Gold left!)</i>",
+		"otherTags": [
+			"BACON_TRINKET_CAN_BE_DISCOUNTED"
+		]
+	},
+	{
+		"dbfId": 113104,
+		"id": "BG30_MagicItem_994",
+		"name": "Yogg-Tastic Pastry",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"spellSchool": "LESSER_TRINKET",
+		"text": "Spin the Wheel of Yogg-Saron. At the start of each turn, spin it again."
+	},
+	{
+		"dbfId": 113134,
+		"id": "BG30_106",
+		"name": "Pilgrimp",
 		"type": "Minion",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
 		"set": "Battlegrounds",
 		"cost": 0,
-		"techLevel": 1,
+		"race": "DEMON",
+		"races": [
+			"DEMON"
+		],
+		"techLevel": 5,
+		"attack": 3,
+		"health": 5,
+		"text": "1 Demon each turn costs Health instead of Gold to buy. <i>(1 left!)</i>"
+	},
+	{
+		"dbfId": 113135,
+		"id": "BG30_106_G",
+		"name": "Pilgrimp",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"race": "DEMON",
+		"races": [
+			"DEMON"
+		],
+		"techLevel": 4,
+		"attack": 6,
+		"health": 10,
+		"text": "2 Demons each turn cost Health instead of Gold to buy. <i>(2 left!)</i>"
+	},
+	{
+		"dbfId": 113150,
+		"id": "BG30_120",
+		"name": "Ice Fisher",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"race": "PIRATE",
+		"races": [
+			"PIRATE"
+		],
+		"techLevel": 4,
+		"attack": 3,
+		"health": 3,
+		"text": "After you buy a minion, gain stats equal to its Tier."
+	},
+	{
+		"dbfId": 113151,
+		"id": "BG30_120_G",
+		"name": "Ice Fisher",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"race": "PIRATE",
+		"races": [
+			"PIRATE"
+		],
+		"techLevel": 4,
 		"attack": 6,
 		"health": 6,
-		"text": "<b>Taunt</b>\n<i>(You found it!)</i>"
+		"text": "After you buy a minion, gain stats equal to double its Tier."
+	},
+	{
+		"dbfId": 113156,
+		"id": "BG30_124",
+		"name": "Thundering Abomination",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 4,
+		"attack": 2,
+		"health": 6,
+		"text": "[x]Whenever you summon a\nminion in combat, give it\n+3/+2. If there's no space,\n gain +3/+3 permanently."
+	},
+	{
+		"dbfId": 113157,
+		"id": "BG30_124_G",
+		"name": "Thundering Abomination",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"techLevel": 4,
+		"attack": 4,
+		"health": 12,
+		"text": "[x]Whenever you summon a\nminion in combat, give it\n+6/+4. If there's no space,\n gain +6/+6 permanently."
+	},
+	{
+		"dbfId": 113302,
+		"id": "BG30_MagicItem_438t",
+		"name": "Mug of the Sire",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]Whenever you would\nsummon a minion that\ndoesn't fit in your warband,\ngive your minions +5 Attack."
+	},
+	{
+		"dbfId": 113346,
+		"id": "BG29_888",
+		"name": "Glim Guardian",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON"
+		],
+		"techLevel": 1,
+		"attack": 1,
+		"health": 4,
+		"text": "Whenever this attacks, gain +2/+1."
+	},
+	{
+		"dbfId": 113347,
+		"id": "BG29_888_G",
+		"name": "Glim Guardian",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"race": "DRAGON",
+		"races": [
+			"DRAGON"
+		],
+		"techLevel": 1,
+		"attack": 2,
+		"health": 8,
+		"text": "Whenever this attacks, gain +4/+2."
+	},
+	{
+		"dbfId": 113369,
+		"id": "BG29_889",
+		"name": "'Loc Prince",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "MURLOC",
+		"races": [
+			"MURLOC"
+		],
+		"techLevel": 4,
+		"attack": 3,
+		"health": 2,
+		"text": "Whenever this gains stats, add +3/+2 to that amount <i>(wherever this is)</i>."
+	},
+	{
+		"dbfId": 113370,
+		"id": "BG29_889_G",
+		"name": "'Loc Prince",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"race": "MURLOC",
+		"races": [
+			"MURLOC"
+		],
+		"techLevel": 4,
+		"attack": 6,
+		"health": 4,
+		"text": "Whenever this gains stats, add +6/+4 to that amount <i>(wherever this is)</i>."
+	},
+	{
+		"dbfId": 113766,
+		"id": "BG29_503",
+		"name": "Clunker Junker",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"race": "MECH",
+		"races": [
+			"MECH"
+		],
+		"techLevel": 5,
+		"attack": 4,
+		"health": 5,
+		"text": "<b>Battlecry:</b> Choose a friendly Mech. <b>Discover</b> a Mech to <b>Magnetize</b> to it."
+	},
+	{
+		"dbfId": 113767,
+		"id": "BG29_503_G",
+		"name": "Clunker Junker",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 5,
+		"race": "MECH",
+		"races": [
+			"MECH"
+		],
+		"techLevel": 5,
+		"attack": 8,
+		"health": 10,
+		"text": "<b>Battlecry:</b> Choose a friendly Mech. <b>Discover</b> 2 Mechs to <b>Magnetize</b> to it."
+	},
+	{
+		"dbfId": 113901,
+		"id": "BG30_804",
+		"name": "Robust Evolution",
+		"type": "Battleground_spell",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 1,
+		"techLevel": 3,
+		"text": "Choose a minion. Transform it into a random minion of a higher Tier. It keeps its stats."
+	},
+	{
+		"dbfId": 114088,
+		"id": "BG30_128",
+		"name": "Sleeping Sea Glass",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
+		"techLevel": 3,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Choose One -</b> Double this\nminion's Attack; or Health."
+	},
+	{
+		"dbfId": 114089,
+		"id": "BG30_128_G",
+		"name": "Sleeping Sea Glass",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"race": "ELEMENTAL",
+		"races": [
+			"ELEMENTAL"
+		],
+		"techLevel": 3,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]<b>Choose One -</b> Triple this\nminion's Attack; or Health."
+	},
+	{
+		"dbfId": 114208,
+		"id": "BG30_MagicItem_822",
+		"name": "Twin Sky Lanterns",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]When you have space,\nsummon a copy of the\nfirst minion you summon\neach combat."
+	},
+	{
+		"dbfId": 114212,
+		"id": "BG30_MagicItem_828",
+		"name": "Shaker Portrait",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]Get a 'Zesty Shaker'. Your\nZesty Shakers give an\nextra copy of the spell."
+	},
+	{
+		"dbfId": 114391,
+		"id": "BG30_122",
+		"name": "Mrglin' Burglar",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "MURLOC",
+		"races": [
+			"MURLOC"
+		],
+		"techLevel": 6,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]After you play a Murloc,\ngive a friendly minion and\na minion in your hand\n+4/+4."
+	},
+	{
+		"dbfId": 114392,
+		"id": "BG30_122_G",
+		"name": "Mrglin' Burglar",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"race": "MURLOC",
+		"races": [
+			"MURLOC"
+		],
+		"techLevel": 6,
+		"attack": 16,
+		"health": 16,
+		"text": "[x]After you play a Murloc,\ngive a friendly minion and\na minion in your hand\n+8/+8."
+	},
+	{
+		"dbfId": 115218,
+		"id": "BG30_MagicItem_992t",
+		"name": "Darnassus Pie",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 8,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "Minions in the Tavern have +2/+2 for each minion you've sold this turn.",
+		"otherTags": [
+			"REMOVED_FROM_BACON_POOL"
+		]
+	},
+	{
+		"dbfId": 115221,
+		"id": "BG30_MagicItem_414t",
+		"name": "Kodo Leather Pouch",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "After you buy a card, give two random friendly minions +4/+4.",
+		"otherTags": [
+			"BACON_TRINKET_CAN_BE_DISCOUNTED"
+		]
+	},
+	{
+		"dbfId": 115225,
+		"id": "BG30_MagicItem_988t",
+		"name": "Great Boar Sticker",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "Your <b>Blood Gems</b> give an extra +2/+2."
+	},
+	{
+		"dbfId": 115228,
+		"id": "BG30_MagicItem_997t",
+		"name": "Windrunner Necklace",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "Your left-most minion has +15 Attack in combat."
+	},
+	{
+		"dbfId": 115230,
+		"id": "BG30_MagicItem_420t",
+		"name": "Book of Medivh",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "<b>Discover</b> 2 Tavern spells. At the start of each turn, <b>Discover</b> 2 more."
+	},
+	{
+		"dbfId": 115231,
+		"id": "BG30_MagicItem_427t",
+		"name": "Tiger Carving",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]Whenever a friendly minion\ntakes damage, give a\nrandom friendly minion\n+4 Attack permanently."
+	},
+	{
+		"dbfId": 115236,
+		"id": "BG30_MagicItem_879t",
+		"name": "Dalaran Cheese Wheel",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "Minions in the Tavern have +{1}/+{1}. Upgrades every 5 times you <b>Refresh</b>. <i>({0} left!)</i>"
+	},
+	{
+		"dbfId": 115237,
+		"id": "BG30_MagicItem_914t",
+		"name": "Nerglish Phrasebook",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]After you play a minion,\ngive the left-most minion\nin your hand +5/+5."
+	},
+	{
+		"dbfId": 115240,
+		"id": "BG30_MagicItem_432t",
+		"name": "Belcher Portrait",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 3,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]Get an 'Operatic Belcher'.\nWhenever a friendly minion\nloses <b>Venomous</b>, it gains\n+12/+12 permanently."
+	},
+	{
+		"dbfId": 115247,
+		"id": "BG30_MagicItem_822t2",
+		"name": "Twin Sky Lanterns",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 6,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]When you have space,\nsummon 2 copies of the\nfirst minion you summon\neach combat.",
+		"otherTags": [
+			"REMOVED_FROM_BACON_POOL"
+		]
+	},
+	{
+		"dbfId": 115250,
+		"id": "BG30_MagicItem_426t",
+		"name": "Colorful Compass",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "Get 2 random {0}. At the start of each turn, get 2 more."
+	},
+	{
+		"dbfId": 115253,
+		"id": "BG30_MagicItem_410t2",
+		"name": "Quilligraphy Set",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"faction": "NEUTRAL",
+		"spellSchool": "GREATER_TRINKET",
+		"text": "<b>Avenge (4):</b> Your <b>Blood Gems</b> give an extra +2/+1 this game."
+	},
+	{
+		"dbfId": 115258,
+		"id": "BG30_MagicItem_984t",
+		"name": "Charging Staff",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"cost": 2,
+		"spellSchool": "GREATER_TRINKET",
+		"text": "[x]At the end of each turn,\ngive your minions with\n<b>Divine Shield</b> +7 Attack.",
+		"otherTags": [
+			"BACON_TRINKET_CAN_BE_DISCOUNTED"
+		]
+	},
+	{
+		"dbfId": 117157,
+		"id": "BG30_MagicItem_989t",
+		"name": "Artisanal Urn",
+		"type": "Battleground_trinket",
+		"cardClass": "NEUTRAL",
+		"playerClass": "Neutral",
+		"set": "Battlegrounds",
+		"spellSchool": "GREATER_TRINKET",
+		"text": "Your Undead have\n+8 Attack."
 	}
 ]
