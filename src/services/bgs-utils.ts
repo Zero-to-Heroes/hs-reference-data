@@ -589,6 +589,7 @@ export const getEffectiveTribes = (
 	return tribes.map((tribe) => Race[tribe]);
 };
 
+// TODO: use the card tags instead
 export const getTribesForInclusion = (card: ReferenceCard, includeOwnTribe: boolean): readonly Race[] => {
 	if (!card) {
 		return [];
