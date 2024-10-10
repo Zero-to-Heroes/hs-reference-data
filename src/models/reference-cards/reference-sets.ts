@@ -1,6 +1,7 @@
 import { GameFormat } from '../../public-api';
 
 export type SetId =
+	| 'great_dark_beyond'
 	| 'traveling_travel_agency'
 	| 'perils_in_paradise'
 	| 'boom_inventions'
@@ -62,6 +63,11 @@ export interface ReferenceSet {
 }
 
 export const sets: readonly ReferenceSet[] = [
+	{
+		id: 'great_dark_beyond',
+		name: `The Great Dark Beyond`,
+		launchDate: new Date('2024-10-17'),
+	},
 	{
 		id: 'traveling_travel_agency',
 		name: `The Traveling Travel Agency`,
@@ -381,11 +387,12 @@ export const twistSets: readonly SetId[] = wildSets;
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 export const arenaSets: readonly SetId[] = [
 	'core',
-	'scholomance',
-	'alterac_valley',
-	'sunken_city',
-	'whizbangs_workshop',
-	'perils_in_paradise',
+	'black_temple',
+	'dalaran',
+	'darkmoon_faire',
+	'revendreth',
+	'return_of_the_lich_king',
+	'path_of_arthas',
 ]
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
 	.filter((setId) => setId)
