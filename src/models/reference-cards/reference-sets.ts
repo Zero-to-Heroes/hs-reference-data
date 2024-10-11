@@ -66,7 +66,7 @@ export const sets: readonly ReferenceSet[] = [
 	{
 		id: 'great_dark_beyond',
 		name: `The Great Dark Beyond`,
-		launchDate: new Date('2024-10-17'),
+		launchDate: new Date('2024-11-05'),
 	},
 	{
 		id: 'traveling_travel_agency',
