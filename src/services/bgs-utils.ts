@@ -299,7 +299,7 @@ export const getReferenceTribeCardId = (tribe: string | Race): string => {
 			break;
 		case 'murloc':
 		case Race.MURLOC:
-			referenceCardId = CardIds.RockpoolHunter_BG_UNG_073;
+			referenceCardId = CardIds.PrimalfinLookout_BGS_020;
 			break;
 		case 'pirate':
 		case Race.PIRATE:
