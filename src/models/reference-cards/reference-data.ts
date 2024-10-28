@@ -45,6 +45,9 @@ export const LIBRAM_IDS = [
 	CardIds.LibramOfJudgment_LibramOfJudgmentToken,
 	CardIds.LibramOfHoliness,
 	CardIds.LibramOfCompassion,
+	CardIds.LibramOfClarity,
+	CardIds.LibramOfFaith,
+	CardIds.LibramOfDivinity,
 ];
 
 export const RELIC_IDS = [CardIds.RelicOfDimensions, CardIds.RelicOfExtinction, CardIds.RelicOfPhantasms];

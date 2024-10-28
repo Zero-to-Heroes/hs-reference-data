@@ -1,6 +1,6 @@
 import { GameFormatString } from '../enums/game-format';
 import { ReferenceCard } from '../models/reference-cards/reference-card';
-import { CardClass, CardIds, GameFormat, GameType, Race, allDuelsHeroesExtended } from '../public-api';
+import { CardClass, CardIds, GameFormat, GameTag, GameType, Race, allDuelsHeroesExtended } from '../public-api';
 import { AllCardsService } from './all-cards.service';
 
 export const ALL_CLASSES = [
@@ -282,6 +282,9 @@ export const getEffectiveTechLevel = (card: ReferenceCard, allCards: AllCardsSer
 export const hasCorrectTribe = (card: ReferenceCard, targetTribe: Race): boolean => {
 	const cardTribes = getEffectiveTribesEnumBase(card);
 	return cardTribes.includes(targetTribe) || cardTribes.includes(Race.ALL);
+};
+export const hasMechanic = (card: ReferenceCard, mechanic: GameTag): boolean => {
+	return card.mechanics?.includes(GameTag[mechanic]);
 };
 
 export const getEffectiveTribesEnumBase = (card: ReferenceCard): readonly Race[] => {
