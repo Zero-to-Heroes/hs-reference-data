@@ -386,13 +386,12 @@ export const twistSets: readonly SetId[] = wildSets;
 // ];
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 export const arenaSets: readonly SetId[] = [
-	'core',
-	'black_temple',
-	'dalaran',
-	'darkmoon_faire',
-	'revendreth',
-	'return_of_the_lich_king',
-	'path_of_arthas',
+	'great_dark_beyond',
+	'perils_in_paradise',
+	'wild_west',
+	'battle_of_the_bands',
+	'caverns_of_time',
+	'scholomance',
 ]
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
 	.filter((setId) => setId)
