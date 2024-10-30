@@ -357,6 +357,7 @@ export const standardSets: readonly SetId[] = [
 	'gift',
 	'whizbangs_workshop',
 	'perils_in_paradise',
+	'great_dark_beyond',
 ]
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
 	.filter((setId) => setId)

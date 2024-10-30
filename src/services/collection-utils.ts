@@ -1,6 +1,6 @@
-import { BoosterType } from '../public-api';
+import { BoosterType, SetId } from '../public-api';
 
-export const boosterIdToSetId = (boosterId: BoosterType): string => {
+export const boosterIdToSetId = (boosterId: BoosterType): SetId | string => {
 	switch (boosterId) {
 		case BoosterType.MERCENARIES:
 			return 'lettuce';
@@ -77,6 +77,9 @@ export const boosterIdToSetId = (boosterId: BoosterType): string => {
 		case BoosterType.ISLAND_VACATION:
 		case BoosterType.GOLDEN_ISLAND_VACATION:
 			return 'perils_in_paradise';
+		case BoosterType.SPACE:
+		case BoosterType.GOLDEN_SPACE:
+			return 'great_dark_beyond';
 		default:
 			// console.warn('unsupported booster type', boosterId);
 			return null;
@@ -147,6 +150,8 @@ export const getDefaultBoosterIdForSetId = (setId: string): BoosterType => {
 			return BoosterType.CAVERNS_OF_TIME;
 		case 'whizbangs_workshop':
 			return BoosterType.WHIZBANGS_WORKSHOP;
+		case 'great_dark_beyond':
+			return BoosterType.SPACE;
 		default:
 			console.warn('no default booster type for set id', setId);
 			return null;
