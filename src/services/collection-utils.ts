@@ -5,14 +5,14 @@ export const boosterIdToSetId = (boosterId: BoosterType): SetId | string => {
 		case BoosterType.MERCENARIES:
 			return 'lettuce';
 		case BoosterType.CLASSIC:
-		case BoosterType.GOLDEN_CLASSIC_PACK:
+		case BoosterType.GOLDEN_CLASSIC:
 			return 'expert1';
 		case BoosterType.GOBLINS_VS_GNOMES:
 			return 'gvg';
 		case BoosterType.THE_GRAND_TOURNAMENT:
 			return 'tgt';
 		case BoosterType.OLD_GODS:
-		case BoosterType.FIRST_PURCHASE_OLD:
+		case BoosterType.WELCOME_BUNDLE:
 			return 'og';
 		case BoosterType.MEAN_STREETS:
 			return 'gangs';
@@ -77,8 +77,8 @@ export const boosterIdToSetId = (boosterId: BoosterType): SetId | string => {
 		case BoosterType.ISLAND_VACATION:
 		case BoosterType.GOLDEN_ISLAND_VACATION:
 			return 'perils_in_paradise';
-		case BoosterType.SPACE:
-		case BoosterType.GOLDEN_SPACE:
+		case BoosterType.THE_GREAT_DARK_BEYOND:
+		case BoosterType.GOLDEN_THE_GREAT_DARK_BEYOND:
 			return 'great_dark_beyond';
 		default:
 			// console.warn('unsupported booster type', boosterId);
@@ -151,7 +151,7 @@ export const getDefaultBoosterIdForSetId = (setId: string): BoosterType => {
 		case 'whizbangs_workshop':
 			return BoosterType.WHIZBANGS_WORKSHOP;
 		case 'great_dark_beyond':
-			return BoosterType.SPACE;
+			return BoosterType.THE_GREAT_DARK_BEYOND;
 		default:
 			console.warn('no default booster type for set id', setId);
 			return null;
@@ -164,7 +164,7 @@ export const boosterIdToBoosterName = (
 ): string => {
 	let normalizedBoosterId = boosterId;
 	switch (boosterId) {
-		case BoosterType.FIRST_PURCHASE_OLD:
+		case BoosterType.WELCOME_BUNDLE:
 			normalizedBoosterId = BoosterType.OLD_GODS;
 	}
 	return i18n.translateString(`global.pack.${BoosterType[normalizedBoosterId]?.toLowerCase()?.replace(/_/g, '-')}`);
