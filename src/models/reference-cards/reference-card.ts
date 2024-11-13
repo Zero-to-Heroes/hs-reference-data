@@ -39,6 +39,7 @@ export interface ReferenceCard {
 	readonly races?: readonly string[];
 	readonly faction?: string;
 	readonly techLevel?: number;
+	readonly isBaconPool?: boolean;
 	readonly durability?: number;
 	readonly armor?: number;
 	readonly hideStats?: boolean;
