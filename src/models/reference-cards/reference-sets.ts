@@ -1,4 +1,4 @@
-import { GameFormat } from '../../public-api';
+import { GameFormat, GameType } from '../../public-api';
 
 export type SetId =
 	| 'great_dark_beyond'
@@ -447,7 +447,11 @@ export const duelsSets: readonly SetId[] = [
 
 export const vanillaSets: readonly SetId[] = ['vanilla'];
 
-export const isValidSet = (set: SetId, format: GameFormat): boolean => {
+export const isValidSet = (set: SetId, format: GameFormat, gameType: GameType): boolean => {
+	switch (gameType) {
+		case GameType.GT_ARENA:
+			return arenaSets.includes(set);
+	}
 	switch (format) {
 		case GameFormat.FT_STANDARD:
 			return standardSets.includes(set);
