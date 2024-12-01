@@ -362,37 +362,26 @@ export const standardSets: readonly SetId[] = [
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
 	.filter((setId) => setId)
 	.map((setId) => setId as SetId);
-export const twistSets: readonly SetId[] = wildSets;
-//  [
-// 	'core',
-// 	'naxx',
-// 	'gvg',
-// 	'brm',
-// 	'tgt',
-// 	'loe',
-// 	'og',
-// 	'kara',
-// 	'gangs',
-// 	'ungoro',
-// 	'icecrown',
-// 	'lootapalooza',
-// 	'gilneas',
-// 	'boomsday',
-// 	'troll',
-// 	'dalaran',
-// 	'uldum',
-// 	'dragons',
-// 	'yod',
-// 	'caverns_of_time',
-// ];
+export const twistSets: readonly SetId[] = [
+	'legacy',
+	'return_to_naxxramas',
+	'gvg',
+	'brm',
+	'tgt',
+	'loe',
+	'og',
+	'kara',
+	'gangs',
+	'caverns_of_time',
+];
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 export const arenaSets: readonly SetId[] = [
 	'great_dark_beyond',
 	'perils_in_paradise',
-	'wild_west',
+	'titans',
 	'battle_of_the_bands',
-	'caverns_of_time',
-	'scholomance',
+	'schoolomance',
+	'dragons',
 ]
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
 	.filter((setId) => setId)
