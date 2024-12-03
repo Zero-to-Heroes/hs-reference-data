@@ -3497,6 +3497,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.FarseerNobundo_GDB_447]: [CardIds.ExarchHataaru_TheGalaxysLensToken_GDB_136t],
 	[CardIds.BadOmen_GDB_124]: [CardIds.BadOmen_FelborneOverfiendToken_GDB_124t2],
 	[CardIds.SporeEmpressMoldara_GDB_234]: [CardIds.SporeEmpressMoldara_ReplicatingSporeToken_GDB_234t],
+	[CardIds.GlowstoneGyreworm_DEEP_024]: [CardIds.GlowstoneGyreworm_GlowstoneGyrewormToken_DEEP_024t],
 	[CardIds.DemonCompanion]: [
 		CardIds.DemonCompanion_KolekToken,
 		CardIds.DemonCompanion_ReffuhToken,

@@ -566,12 +566,12 @@ export const getHeroPower = (
 			return CardIds.MadamGoya_EfficientExchange_BGDUO_HERO_104p;
 		case CardIds.MarinTheManager_BG30_HERO_304:
 			return CardIds.MarinTheManager_FantasticTreasure_BG30_HERO_304p;
-		case CardIds.FarseerNobundo_BG32:
-			return CardIds.TheGalaxysLens_BG32;
-		case CardIds.Exarch_Othaar_BG32:
-			return CardIds.ArcaneKnowledge_BG32;
-		case CardIds.Zerek_Master_Cloner_BG32:
-			return CardIds.Cloning_Gallery_BG32;
+		case CardIds.FarseerNobundo_BG31_HERO_003:
+			return CardIds.FarseerNobundo_TheGalaxysLens_BG31_HERO_003p;
+		case CardIds.ExarchOthaar_BG31_HERO_006:
+			return CardIds.ExarchOthaar_ArcaneKnowledge_BG31_HERO_006p;
+		case CardIds.ZerekMasterCloner_BG31_HERO_005:
+			return CardIds.ZerekMasterCloner_CloningGallery_BG31_HERO_005p;
 
 		case '':
 			return null; // new heroes
