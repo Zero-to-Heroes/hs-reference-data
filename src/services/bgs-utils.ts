@@ -867,6 +867,8 @@ export const getTribesForInclusion = (card: ReferenceCard, includeOwnTribe: bool
 		case CardIds.DefiantShipwright_BG21_018_G:
 		case CardIds.TheTideRazor_BGS_079:
 		case CardIds.TheTideRazor_TB_BaconUps_137:
+		case CardIds.CoastGuard_BG31_827:
+		case CardIds.CoastGuard_BG31_827_G:
 			return [Race.PIRATE, ...cardRaces];
 		case CardIds.AgamagganTheGreatBoar_BG20_205:
 		case CardIds.AgamagganTheGreatBoar_BG20_205_G:
