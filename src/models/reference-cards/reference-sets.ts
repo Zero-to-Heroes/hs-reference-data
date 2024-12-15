@@ -349,7 +349,7 @@ export const sets: readonly ReferenceSet[] = [
 ] as const;
 
 export const wildSets: readonly SetId[] = sets.map((s) => s.id);
-export const standardSets: readonly SetId[] = [
+const standardBaseSets: readonly SetId[] = [
 	'core',
 	'battle_of_the_bands',
 	'titans',
@@ -358,11 +358,12 @@ export const standardSets: readonly SetId[] = [
 	'whizbangs_workshop',
 	'perils_in_paradise',
 	'great_dark_beyond',
-]
+];
+export const standardSets: readonly SetId[] = standardBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
 	.filter((setId) => setId)
 	.map((setId) => setId as SetId);
-export const twistSets: readonly SetId[] = [
+const twistBaseSets: readonly SetId[] = [
 	'legacy',
 	'return_to_naxxramas',
 	'gvg',
@@ -374,66 +375,24 @@ export const twistSets: readonly SetId[] = [
 	'gangs',
 	'caverns_of_time',
 ];
+export const twistSets: readonly SetId[] = twistBaseSets
+	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
+	.filter((setId) => setId)
+	.map((setId) => setId as SetId);
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
-export const arenaSets: readonly SetId[] = [
+const arenaBaseSets: readonly SetId[] = [
 	'great_dark_beyond',
 	'perils_in_paradise',
 	'titans',
 	'battle_of_the_bands',
-	'schoolomance',
-	'dragons',
-]
-	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
-	.filter((setId) => setId)
-	.map((setId) => setId as SetId);
-export const duelsSets: readonly SetId[] = [
-	'core',
-	'legacy',
-	'naxx',
-	'gvg',
-	'loe',
-	'og',
-	'kara',
-	'ungoro',
-	'icecrown',
-	'lootapalooza',
-	'gilneas',
-	'uldum',
 	'scholomance',
-	'demon_hunter_initiate',
-	'darkmoon_faire',
-	'darkmoon_races',
-	'the_barrens',
-	'wailing_caverns',
-	'stormwind',
-	'black_temple',
-	'deadmines',
-	'alterac_valley',
-	'onyxias_lair',
-	'the_sunken_city',
-	'throne_of_tides',
-	'revendreth',
-	'maw_and_disorder',
-	'return_of_the_lich_king',
-	'return_to_naxxramas',
-	'path_of_arthas',
-	'battle_of_the_bands',
-	'audiopocalypse',
-	'troll',
-	'titans',
-	'caverns_of_time',
-	'ulduar',
-	'dalaran',
-	'gangs',
-	'tgt',
-	'brm',
 	'dragons',
-	'yod',
-	'wild_west',
-	'deepholm',
-	// 'whizbangs_workshop',
 ];
+export const arenaSets: readonly SetId[] = arenaBaseSets
+	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
+	.filter((setId) => setId);
 
+export const duelsSets: readonly SetId[] = [];
 export const vanillaSets: readonly SetId[] = ['vanilla'];
 
 export const isValidSet = (set: SetId, format: GameFormat, gameType: GameType): boolean => {
