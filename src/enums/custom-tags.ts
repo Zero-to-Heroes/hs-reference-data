@@ -1,4 +1,3 @@
 export enum CustomTags {
 	REMOVED_FROM_BACON_POOL,
-	REMOVED_FROM_BACON_DUO_POOL,
 }
