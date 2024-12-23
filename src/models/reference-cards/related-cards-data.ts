@@ -3503,4 +3503,14 @@ export const RELATED_CARDS_DATA: {
 		CardIds.DemonCompanion_ReffuhToken,
 		CardIds.DemonCompanion_ShimaToken,
 	],
+	[CardIds.BobTheBartender_BG31_BOB]: [
+		CardIds.BobTheBartender_FindATripleToken_BG31_BOBt4,
+		CardIds.BobTheBartender_FreezeTheShopToken_BG31_BOBt,
+		CardIds.BobTheBartender_RecruitAMinionToken_BG31_BOBt2,
+		CardIds.BobTheBartender_RefreshTheTavernToken_BG31_BOBt3,
+	],
+	[CardIds.TheHeadlessHorseman_TOY_829]: [
+		CardIds.TheHeadlessHorseman_HorsemansHeadToken_TOY_829t,
+		CardIds.TheHeadlessHorseman_TheHeadlessHorsemanToken_TOY_829t2,
+	],
 };
