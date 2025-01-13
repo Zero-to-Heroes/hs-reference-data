@@ -2966,7 +2966,7 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.Invigorate_WON_014]: [CardIds.Invigorate_Enliven_WON_014s2, CardIds.Invigorate_Rejuvenate_WON_014s],
 	[CardIds.GroveTender]: [CardIds.GroveTender_GiftOfCards, CardIds.GroveTender_GiftOfMana],
-	[CardIds.MarkOfNatureLegacy]: [CardIds.MarkOfNature_ThickHideLegacy, CardIds.MarkOfNatureLegacy],
+	[CardIds.MarkOfNatureLegacy]: [CardIds.MarkOfNature_ThickHideLegacy, CardIds.MarkOfNature_TigersFuryLegacy],
 	[CardIds.PeacefulPiper]: [CardIds.PeacefulPiper_FriendlyFace, CardIds.PeacefulPiper_HappyHippie],
 	[CardIds.SowTheSoil]: [CardIds.SowTheSoil_Fertilizer, CardIds.SowTheSoil_NewGrowth, CardIds.SowTheSoil_TreantToken],
 	[CardIds.CaptureColdtoothMine]: [
@@ -2997,7 +2997,11 @@ export const RELATED_CARDS_DATA: {
 		CardIds.KunTheForgottenKing_ForgottenArmor,
 		CardIds.KunTheForgottenKing_ForgottenMana,
 	],
-	[CardIds.DarkWispers]: [CardIds.DarkWispers_CallTheGuardians, CardIds.DarkWispers_NaturesDefense],
+	[CardIds.DarkWispers]: [
+		CardIds.DarkWispers_CallTheGuardians,
+		CardIds.DarkWispers_NaturesDefense,
+		CardIds.WispToken,
+	],
 	[CardIds.RisingWinds]: [
 		CardIds.RisingWinds_SwoopIn,
 		CardIds.RisingWinds_TakeFlight,
