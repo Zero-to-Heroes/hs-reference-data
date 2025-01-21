@@ -474,6 +474,12 @@ export const getBaseCardId = (cardId: string): string => {
 			return CardIds.SilvermoonBrochure_WORK_017;
 		case CardIds.IcecrownBrochure_BlackrockBrochureToken_WORK_030t:
 			return CardIds.IcecrownBrochure_WORK_030;
+		case CardIds.SiegeTankDeployed:
+			return CardIds.SiegeTank;
+		case CardIds.Hellbat:
+			return CardIds.Hellion;
+		case CardIds.ThorExplosivePayload:
+			return CardIds.Thor;
 	}
 
 	// Transfer Student should be handled on a case by case basis

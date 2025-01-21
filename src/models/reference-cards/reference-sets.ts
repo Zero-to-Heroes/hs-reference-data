@@ -1,6 +1,7 @@
 import { GameFormat, GameType } from '../../public-api';
 
 export type SetId =
+	| 'heroes_of_starcraft'
 	| 'great_dark_beyond'
 	| 'traveling_travel_agency'
 	| 'perils_in_paradise'
@@ -63,6 +64,11 @@ export interface ReferenceSet {
 }
 
 export const sets: readonly ReferenceSet[] = [
+	{
+		id: 'heroes_of_starcraft',
+		name: `Heroes of Starcraft`,
+		launchDate: new Date('2025-01-21'),
+	},
 	{
 		id: 'great_dark_beyond',
 		name: `The Great Dark Beyond`,
@@ -373,6 +379,7 @@ const twistBaseSets: readonly SetId[] = [
 	'og',
 	'kara',
 	'gangs',
+	'ungoro',
 	'caverns_of_time',
 ];
 export const twistSets: readonly SetId[] = twistBaseSets
@@ -381,12 +388,11 @@ export const twistSets: readonly SetId[] = twistBaseSets
 	.map((setId) => setId as SetId);
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 const arenaBaseSets: readonly SetId[] = [
-	'great_dark_beyond',
+	'the_sunken_city',
+	'revendreth',
+	'whizbangs_workshop',
 	'perils_in_paradise',
-	'titans',
-	'battle_of_the_bands',
-	'scholomance',
-	'dragons',
+	'great_dark_beyond',
 ];
 export const arenaSets: readonly SetId[] = arenaBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
