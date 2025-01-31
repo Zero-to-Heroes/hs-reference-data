@@ -68,6 +68,7 @@ export const sets: readonly ReferenceSet[] = [
 		id: 'heroes_of_starcraft',
 		name: `Heroes of Starcraft`,
 		launchDate: new Date('2025-01-21'),
+		miniSetFor: 'great_dark_beyond',
 	},
 	{
 		id: 'great_dark_beyond',
