@@ -43,38 +43,31 @@ export class AllCardsService {
 		return Object.values(this.cache);
 	}
 
-	public async initializeCardsDb(version = '', cardsFile = 'cards_enUS.gz.json'): Promise<void> {
-		// console.debug('[all-cards] asked to retrieve cards from CDN', version, new Error().stack);
-		return new Promise<void>(async (resolve, reject) => {
-			let allCards: readonly ReferenceCard[] = Object.values(this.cache);
-			if (!!allCards?.length) {
-				// console.debug('[all-cards] already loaded all cards');
-				resolve();
-				return;
-			}
-
-			this.cache = {};
-			this.cacheDbfId = {};
-			const baseUrl = CARDS_CDN_URL;
-			allCards = await this.loadCards(baseUrl, cardsFile, version);
-			if (!allCards?.length) {
-				console.error('[all-cards] could not load cards', baseUrl, version, allCards);
-			} else {
-				// console.log('[all-cards] retrieved all cards', allCards?.length);
-				for (const card of allCards) {
-					if (card.id) {
-						this.cache[card.id] = card;
-					}
-					if (card.dbfId) {
-						this.cacheDbfId[card.dbfId] = card;
-					}
+	public initializeCardsDbFromCards(allCards: readonly ReferenceCard[]) {
+		this.cache = {};
+		this.cacheDbfId = {};
+		if (!allCards?.length) {
+			console.error('[all-cards] cannot init with empty cards');
+		} else {
+			// console.log('[all-cards] retrieved all cards', allCards?.length);
+			for (const card of allCards) {
+				if (card.id) {
+					this.cache[card.id] = card;
+				}
+				if (card.dbfId) {
+					this.cacheDbfId[card.dbfId] = card;
 				}
 			}
+		}
 
-			this.deckbuilding = new CardsForDeckbuildingService();
-			this.deckbuilding.init(this);
-			resolve();
-		});
+		this.deckbuilding = new CardsForDeckbuildingService();
+		this.deckbuilding.init(this);
+	}
+
+	public async initializeCardsDb(version = '', cardsFile = 'cards_enUS.gz.json'): Promise<void> {
+		const baseUrl = CARDS_CDN_URL;
+		const allCards = await this.loadCards(baseUrl, cardsFile, version);
+		this.initializeCardsDbFromCards(allCards);
 	}
 
 	public getRootCardId(cardId: string): string {
