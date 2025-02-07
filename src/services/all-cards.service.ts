@@ -103,21 +103,27 @@ export class AllCardsService {
 		console.warn('[all-cards] could not load cards, defaulting to split');
 		const numberOfSplits = 4;
 		const result: ReferenceCard[] = [];
-		for (let i = 0; i < numberOfSplits; i++) {
-			const splitUrl = `${baseUrl}/split/${cardsFile}.${i}${versionString}`;
-			console.log('[all-cards] loading split', splitUrl);
-			cardsStr = await httpWithRetries(splitUrl, 1);
-			if (!!cardsStr?.length && !cardsStr.startsWith('<')) {
-				const splitCards: readonly ReferenceCard[] = JSON.parse(cardsStr);
-				console.log('loaded split cards', splitCards?.length);
-				result.push(...splitCards);
+		try {
+			for (let i = 0; i < numberOfSplits; i++) {
+				const splitUrl = `${baseUrl}/split/${cardsFile}.${i}${versionString}`;
+				console.log('[all-cards] loading split', splitUrl);
+				cardsStr = await httpWithRetries(splitUrl, 3);
+				if (!!cardsStr?.length && !cardsStr.startsWith('<')) {
+					const splitCards: readonly ReferenceCard[] = JSON.parse(cardsStr);
+					console.log('loaded split cards', splitCards?.length);
+					result.push(...splitCards);
+				} else {
+					throw new Error(`Could not load split cards from ${splitUrl}`);
+				}
 			}
-		}
-		if (!!result?.length) {
-			return result;
+			if (!!result?.length) {
+				return result;
+			}
+		} catch (e) {
+			console.error('[all-cards] could not load split cards', e.message);
 		}
 
-		const urlNoAudio = `${baseUrl}/no_audio/${cardsFile}?v=${version}`;
+		const urlNoAudio = `${baseUrl}/no_audio/${cardsFile}${versionString}`;
 		console.warn('[all-cards] could not load cards, defaulting to no_audio', urlNoAudio);
 		cardsStr = await httpWithRetries(urlNoAudio, 1);
 		if (!!cardsStr?.length && !cardsStr.startsWith('<')) {
