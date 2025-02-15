@@ -5,7 +5,8 @@ import { GameFormat } from '../public-api';
 import { CardsForDeckbuildingService } from './cards-for-deckbuilding.service';
 import { httpWithRetries } from './utils';
 
-const CARDS_CDN_URL = 'https://static.firestoneapp.com/data/cards';
+// const CARDS_CDN_URL = 'https://static.firestoneapp.com/data/cards';
+const CARDS_CDN_URL = 'https://static.zerotoheroes.com/data/cards';
 
 export class AllCardsService {
 	private cache: { [cardId: string]: ReferenceCard } = {};
