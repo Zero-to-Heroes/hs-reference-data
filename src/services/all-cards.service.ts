@@ -5,8 +5,7 @@ import { GameFormat } from '../public-api';
 import { CardsForDeckbuildingService } from './cards-for-deckbuilding.service';
 import { httpWithRetries } from './utils';
 
-// const CARDS_CDN_URL = 'https://static.firestoneapp.com/data/cards';
-const CARDS_CDN_URL = 'https://static.zerotoheroes.com/data/cards';
+const MIRRORS = ['https://static.zerotoheroes.com/data/cards', 'https://static.firestoneapp.com/data/cards'];
 
 export class AllCardsService {
 	private cache: { [cardId: string]: ReferenceCard } = {};
@@ -66,9 +65,13 @@ export class AllCardsService {
 	}
 
 	public async initializeCardsDb(version = '', cardsFile = 'cards_enUS.gz.json'): Promise<void> {
-		const baseUrl = CARDS_CDN_URL;
-		const allCards = await this.loadCards(baseUrl, cardsFile, version);
-		this.initializeCardsDbFromCards(allCards);
+		for (const mirror of MIRRORS) {
+			const allCards = await this.loadCards(mirror, cardsFile, version);
+			if (allCards?.length) {
+				this.initializeCardsDbFromCards(allCards);
+				return;
+			}
+		}
 	}
 
 	public getRootCardId(cardId: string): string {
@@ -108,7 +111,7 @@ export class AllCardsService {
 			for (let i = 0; i < numberOfSplits; i++) {
 				const splitUrl = `${baseUrl}/split/${cardsFile}.${i}${versionString}`;
 				console.log('[all-cards] loading split', splitUrl);
-				cardsStr = await httpWithRetries(splitUrl, 3);
+				cardsStr = await httpWithRetries(splitUrl, 1);
 				if (!!cardsStr?.length && !cardsStr.startsWith('<')) {
 					const splitCards: readonly ReferenceCard[] = JSON.parse(cardsStr);
 					console.log('loaded split cards', splitCards?.length);
