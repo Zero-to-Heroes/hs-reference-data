@@ -572,10 +572,10 @@ export const getHeroPower = (
 			return CardIds.ExarchOthaar_ArcaneKnowledge_BG31_HERO_006p;
 		case CardIds.ZerekMasterCloner_BG31_HERO_005:
 			return CardIds.ZerekMasterCloner_CloningGallery_BG31_HERO_005p;
-		case CardIds.JimRaynor_BG_HERO:
-			return CardIds.LiftOff_BG_HERO;
-		case CardIds.Artanis_BG_HERO:
-			return CardIds.WarpGate_BG_HERO;
+		case CardIds.JimRaynor_BG31_HERO_801:
+			return CardIds.JimRaynor_LiftOff_BG31_HERO_801p;
+		case CardIds.Artanis_BG31_HERO_802:
+			return CardIds.Artanis_WarpGate_BG31_HERO_802p;
 
 		case '':
 			return null; // new heroes
