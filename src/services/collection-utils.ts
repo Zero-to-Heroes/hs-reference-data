@@ -80,6 +80,9 @@ export const boosterIdToSetId = (boosterId: BoosterType): SetId | string => {
 		case BoosterType.THE_GREAT_DARK_BEYOND:
 		case BoosterType.GOLDEN_THE_GREAT_DARK_BEYOND:
 			return 'great_dark_beyond';
+		case BoosterType.INTO_THE_EMERALD_DREAM:
+		case BoosterType.GOLDEN_INTO_THE_EMERALD_DREAM:
+			return 'emerald_dream';
 		default:
 			// console.warn('unsupported booster type', boosterId);
 			return null;
