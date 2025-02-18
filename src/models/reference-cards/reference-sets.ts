@@ -1,6 +1,7 @@
 import { GameFormat, GameType } from '../../public-api';
 
 export type SetId =
+	| 'emerald_dream'
 	| 'heroes_of_starcraft'
 	| 'great_dark_beyond'
 	| 'traveling_travel_agency'
@@ -64,6 +65,11 @@ export interface ReferenceSet {
 }
 
 export const sets: readonly ReferenceSet[] = [
+	{
+		id: 'emerald_dream',
+		name: `Into the Emerald Dream`,
+		launchDate: new Date('2025-02-18'),
+	},
 	{
 		id: 'heroes_of_starcraft',
 		name: `Heroes of Starcraft`,
@@ -365,6 +371,7 @@ const standardBaseSets: readonly SetId[] = [
 	'whizbangs_workshop',
 	'perils_in_paradise',
 	'great_dark_beyond',
+	'emerald_dream',
 ];
 export const standardSets: readonly SetId[] = standardBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
@@ -389,8 +396,9 @@ export const twistSets: readonly SetId[] = twistBaseSets
 	.map((setId) => setId as SetId);
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 const arenaBaseSets: readonly SetId[] = [
-	'the_sunken_city',
-	'revendreth',
+	'battle_of_the_bands',
+	'titans',
+	'wild_west',
 	'whizbangs_workshop',
 	'perils_in_paradise',
 	'great_dark_beyond',
