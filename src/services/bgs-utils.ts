@@ -1,4 +1,4 @@
-import { AllCardsService, CardIds, GameType, Race, ReferenceCard } from '../public-api';
+import { AllCardsService, CardIds, GameTag, GameType, Race, ReferenceCard } from '../public-api';
 import { getEffectiveTribesEnumBase } from './hs-utils';
 
 export const ALL_BG_RACES = [
@@ -269,15 +269,17 @@ export const normalizeMinionCardId = (
 	return cardId;
 };
 
-export const getTribeName = (tribe: Race, i18n: { translateString: (input: string) => string }): string =>
-	i18n.translateString(`app.battlegrounds.tribes.${Race[tribe]?.toLowerCase()}`);
+export const getTribeName = (tribe: Race | GameTag, i18n: { translateString: (input: string) => string }): string => {
+	const tribeString = Race[tribe] ?? GameTag[tribe];
+	return i18n.translateString(`app.battlegrounds.tribes.${tribeString?.toLowerCase()}`);
+};
 
-export const getTribeIcon = (tribe: string | Race): string => {
+export const getTribeIcon = (tribe: string | Race | GameTag): string => {
 	const referenceCardId = getReferenceTribeCardId(tribe);
 	return `https://static.zerotoheroes.com/hearthstone/cardart/256x/${referenceCardId}.jpg`;
 };
 
-export const getReferenceTribeCardId = (tribe: string | Race): string => {
+export const getReferenceTribeCardId = (tribe: string | Race | GameTag): string => {
 	let referenceCardId: string;
 	tribe = (tribe as string)?.padStart ? (tribe as string).toLowerCase() : tribe;
 	switch (tribe) {
@@ -324,6 +326,12 @@ export const getReferenceTribeCardId = (tribe: string | Race): string => {
 		case 'all':
 		case Race.ALL:
 			referenceCardId = CardIds.Amalgadon_BGS_069;
+			break;
+		case GameTag.PROTOSS:
+			referenceCardId = CardIds.WarpGate_MothershipToken_BG31_HERO_802pt7;
+			break;
+		case GameTag.ZERG:
+			referenceCardId = CardIds.KerriganQueenOfBlades_LarvaToken_BG31_HERO_811t;
 			break;
 		default:
 			referenceCardId = CardIds.PatientScout_BG24_715;
