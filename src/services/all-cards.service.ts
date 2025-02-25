@@ -66,10 +66,14 @@ export class AllCardsService {
 
 	public async initializeCardsDb(version = '', cardsFile = 'cards_enUS.gz.json'): Promise<void> {
 		for (const mirror of MIRRORS) {
-			const allCards = await this.loadCards(mirror, cardsFile, version);
-			if (allCards?.length) {
-				this.initializeCardsDbFromCards(allCards);
-				return;
+			try {
+				const allCards = await this.loadCards(mirror, cardsFile, version);
+				if (!!allCards?.length) {
+					this.initializeCardsDbFromCards(allCards);
+					return;
+				}
+			} catch (e) {
+				console.error('[all-cards] could not load cards from mirror', mirror, e.message);
 			}
 		}
 	}
