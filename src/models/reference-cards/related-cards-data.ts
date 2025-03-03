@@ -1263,7 +1263,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.MarinTheFox]: [CardIds.MarinTheFox_MasterChest],
 	[CardIds.VioletWurm_LOOT_153]: [CardIds.VioletWurm_GrubToken],
 	[CardIds.DragoncallerAlanna]: [CardIds.DragoncallerAlanna_FireDragonToken],
-	[CardIds.Voidlord_LOOT_368]: [CardIds.VoidwalkerCore],
+	[CardIds.Voidlord_LOOT_368]: [CardIds.VoidwalkerLegacy_CS2_065],
 	[CardIds.DruidOfTheSwarm_CORE_ICC_051]: [
 		CardIds.DruidOfTheSwarm_DruidOfTheSwarmToken_ICC_051t,
 		CardIds.DruidOfTheSwarm_DruidOfTheSwarmToken_ICC_051t2,
