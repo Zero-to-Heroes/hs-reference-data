@@ -487,6 +487,8 @@ export const getBaseCardId = (cardId: string): string => {
 			return CardIds.Hellion_SC_412;
 		case CardIds.Thor_ThorExplosivePayloadToken_SC_414t:
 			return CardIds.Thor_SC_414;
+		case CardIds.WishOfTheNewMoon_WishOfTheFullMoonToken_EDR_460t:
+			return CardIds.WishOfTheNewMoon_EDR_460;
 	}
 
 	// Transfer Student should be handled on a case by case basis
