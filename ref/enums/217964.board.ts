@@ -52,4 +52,5 @@ export enum Board {
 	TITANS = 131,
 	WW = 133,
 	TOY = 134,
+	RAPTOR = 140,
 }
