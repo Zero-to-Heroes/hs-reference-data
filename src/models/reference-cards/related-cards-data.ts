@@ -30,6 +30,13 @@ const DREAM_CARDS = [
 	CardIds.NightmareLegacy,
 	CardIds.YseraAwakensLegacy,
 ];
+const CORRUPTED_DREAM_CARDS = [
+	CardIds.CorruptedDream,
+	CardIds.CorruptedEmeraldDrake,
+	CardIds.CorruptedLaughingSister,
+	CardIds.CorruptedNightmare,
+	CardIds.CorruptedYseraAwakens,
+];
 const LACKEY_TOKENS = [
 	CardIds.DraconicLackey,
 	CardIds.EtherealLackey,
@@ -87,6 +94,7 @@ const WILDSEEDS = [
 	CardIds.SpiritPoacher_StagSpiritWildseedToken,
 	CardIds.SpiritPoacher_StagpointWildbowToken,
 ];
+const DREADSEEDS = [CardIds.HoundDreadseed, CardIds.CrowDreadseed, CardIds.SerpentDreadseed, CardIds.EncroachingFear];
 const CONCOCTIONS = [
 	CardIds.GhoulishAlchemist_SlimyConcoctionToken,
 	CardIds.GhoulishAlchemist_DreadfulConcoctionToken,
@@ -186,6 +194,19 @@ const WISDOMBALL_ADVICE = [
 	CardIds.PolymorphLegacy,
 	CardIds.BlizzardCore,
 	CardIds.Flamestrike,
+];
+
+const DARK_GIFTS = [
+	CardIds.WakingTerrorToken_EDR_100t,
+	CardIds.WellRestedToken_EDR_100t1,
+	CardIds.ShortClawsToken_EDR_100t2,
+	CardIds.BundledUpToken_EDR_100t3,
+	CardIds.LivingNightmareToken_EDR_100t5,
+	CardIds.SleepwalkerToken_EDR_100t6,
+	CardIds.RudeAwakeningToken_EDR_100t7,
+	CardIds.SweetDreamsToken_EDR_100t8,
+	CardIds.PersistingHorrorToken_EDR_100t9,
+	CardIds.HarpysTalonsToken_EDR_100t13,
 ];
 
 export type RelatedCardExtractor = (cards: readonly ReferenceCard[]) => readonly string[];
@@ -3549,4 +3570,71 @@ export const RELATED_CARDS_DATA: {
 		CardIds.BroodQueen_LarvaToken_SC_003t,
 	],
 	[CardIds.UltraliskCavern_SC_019]: [CardIds.Ultralisk_SC_006],
+	[CardIds.Umbraclaw]: [CardIds.BlessingOfTheWolf],
+	[CardIds.BarbedThorn]: [CardIds.BarbedThorn_ExtraEyes, CardIds.BarbedThorn_ExtraThorns],
+	[CardIds.LivingGarden]: [CardIds.BlessingOfTheWind],
+	[CardIds.HamuulRunetotem_ERD]: [CardIds.BlessingOfTheWind],
+	[CardIds.AspectsEmbrace]: [CardIds.BlessingOfTheGolem],
+	[CardIds.ExoticHoundmaster]: [CardIds.BlessingOfTheWolf],
+	[CardIds.GoldpetalDrake]: [CardIds.BlessingOfTheDragon],
+	[CardIds.AegisOfLight]: [CardIds.BlessingOfTheDragon],
+	[CardIds.KaldoreiPriestess]: [CardIds.BlessingOfTheMoon],
+	[CardIds.LunarwingMessenger]: [CardIds.BlessingOfTheMoon],
+	[CardIds.SpiritGatherer]: [CardIds.BlessingOfTheWisp, CardIds.Wisp_ERD],
+	[CardIds.Wisprider]: [CardIds.BlessingOfTheWisp],
+	[CardIds.MerryMoonkin]: [CardIds.Wisp_ERD],
+	[CardIds.Divination]: [CardIds.Wisp_ERD],
+	[CardIds.OminousNightmares]: [CardIds.OminousNightmares_NightmarishBurst, CardIds.OminousNightmares_UnstablePower],
+	[CardIds.Darkrider]: DARK_GIFTS,
+	[CardIds.CreatureOfMadness_EDR_105]: DARK_GIFTS,
+	[CardIds.TreacherousTormentor]: DARK_GIFTS,
+	[CardIds.NightmareLordXavius]: DARK_GIFTS,
+	[CardIds.Jumpscare]: DARK_GIFTS,
+	[CardIds.AvantGardening]: DARK_GIFTS,
+	[CardIds.Shaladrassil]: [...DREAM_CARDS, ...CORRUPTED_DREAM_CARDS],
+	[CardIds.Lightmender]: [CardIds.Lightmender_HolyBond, CardIds.Lightmender_EmbraceOfTheLight],
+	[CardIds.GraceOfTheGreatwolf]: [
+		CardIds.GraceOfTheGreatwolf_Playful_Pup,
+		CardIds.GraceOfTheGreatwolf_GreatwolfsFerocity,
+		CardIds.GraceOfTheGreatwolf_GreatwolfsGuidance,
+	],
+	[CardIds.HopefulDryad]: DREAM_CARDS,
+	[CardIds.MotherDuck]: [CardIds.MotherDuck_DucklingToken],
+	[CardIds.Reforestation]: [
+		CardIds.Reforestation_AidOfTheForest,
+		CardIds.Reforestation_Fertilize,
+		CardIds.Reforestation_Reforestation,
+	],
+	[CardIds.ClutchOfCorruption]: [CardIds.ClutchOfCorruption_HorribleEgg],
+	[CardIds.BroodKeeper]: [CardIds.NightmareSlicer],
+	[CardIds.WyvernsSlumber]: [...DREADSEEDS, CardIds.AwokenDarkness],
+	[CardIds.GrimHarvest]: DREADSEEDS,
+	[CardIds.DreadsoulCorrupter]: DREADSEEDS,
+	[CardIds.BrollBearmantle]: ANIMAL_COMPANION_TOKENS,
+	[CardIds.BroodKeeper]: [CardIds.NightmareSlicer],
+	[CardIds.ShepherdsCrook]: [CardIds.SLeepySheep],
+	[CardIds.SpiritBond]: [CardIds.PlayfulPup],
+	[CardIds.Ursol]: [CardIds.Ursol_Aura],
+	[CardIds.SleepParalysis]: [
+		CardIds.SleepParalysis_WitsEnd,
+		CardIds.SleepParalysis_FigureInTheDark,
+		CardIds.NightTerror,
+	],
+	[CardIds.SleepParalysis_FigureInTheDark]: [CardIds.NightTerror],
+	[CardIds.SpiritsOfTheForest]: [
+		CardIds.SpiritWolf,
+		CardIds.WolfsStrength,
+		CardIds.FalconsDexterity,
+		CardIds.SpiritFalcon,
+	],
+	[CardIds.SparkOfLife]: [CardIds.GiftOfFire, CardIds.GiftOfNature],
+	[CardIds.StellarBalance]: [CardIds.MoonfireLegacy, CardIds.StarfireLegacy],
+	[CardIds.InfestedBreath]: [CardIds.Leech],
+	[CardIds.SanguineInfestation]: [CardIds.Leech],
+	[CardIds.HideousHusk]: [CardIds.Leech],
+	[CardIds.MorbidSwarm]: [CardIds.MorbidSwarm_ContaminatedColony, CardIds.MorbidSwarm_BugBites, CardIds.MorbidSwarm_AntHusk],
+	[CardIds.MorbidSwarm_ContaminatedColony]: [CardIds.MorbidSwarm_AntHusk],
+	[CardIds.Nythendra]: [CardIds.Nythendra_Beetle],
+	[CardIds.WishOfTheNewMoon]: [CardIds.WishOfTheFullMoon],
+	[CardIds.TwilightInfluence]: [CardIds.TwilightInfluence_ConstrictingThorns, CardIds.TwilightInfluence_ConstrictingVines],
 };
