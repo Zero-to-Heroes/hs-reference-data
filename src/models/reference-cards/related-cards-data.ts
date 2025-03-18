@@ -816,6 +816,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.YoggSaronMasterOfFate_RodOfRoastingToken,
 	],
 	[CardIds.YseraLegacy]: DREAM_CARDS,
+	[CardIds.Ysera_CORE_VAN_EX1_572]: DREAM_CARDS,
 	[CardIds.YseraTheDreamerCore]: DREAM_CARDS,
 	[CardIds.YseraTheDreamer_LEG_CS3_033]: DREAM_CARDS,
 	[CardIds.YseraVanilla]: [

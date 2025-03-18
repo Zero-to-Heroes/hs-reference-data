@@ -584,6 +584,8 @@ export const getHeroPower = (
 			return CardIds.JimRaynor_LiftOff_BG31_HERO_801p;
 		case CardIds.Artanis_BG31_HERO_802:
 			return CardIds.Artanis_WarpGate_BG31_HERO_802p;
+		case CardIds.KerriganQueenOfBlades_BG31_HERO_811:
+			return CardIds.KerriganQueenOfBlades_SpawningPool_BG31_HERO_811p;
 
 		case '':
 			return null; // new heroes
