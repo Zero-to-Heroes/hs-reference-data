@@ -82,7 +82,7 @@ export const boosterIdToSetId = (boosterId: BoosterType): SetId | string => {
 			return 'great_dark_beyond';
 		case BoosterType.INTO_THE_EMERALD_DREAM:
 		case BoosterType.GOLDEN_INTO_THE_EMERALD_DREAM:
-			return 'emerald_dream';
+			return 'into_the_emerald_dream';
 		default:
 			// console.warn('unsupported booster type', boosterId);
 			return null;
@@ -155,6 +155,8 @@ export const getDefaultBoosterIdForSetId = (setId: string): BoosterType => {
 			return BoosterType.WHIZBANGS_WORKSHOP;
 		case 'great_dark_beyond':
 			return BoosterType.THE_GREAT_DARK_BEYOND;
+		case 'into_the_emerald_dream':
+			return BoosterType.INTO_THE_EMERALD_DREAM;
 		default:
 			console.warn('no default booster type for set id', setId);
 			return null;

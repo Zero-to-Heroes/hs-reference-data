@@ -2,13 +2,13 @@ import { GameFormat, GameType } from '../../public-api';
 
 export type SetId =
 	| 'into_the_emerald_dream'
+	| 'gift'
 	| 'heroes_of_starcraft'
 	| 'great_dark_beyond'
 	| 'traveling_travel_agency'
 	| 'perils_in_paradise'
 	| 'boom_inventions'
 	| 'whizbangs_workshop'
-	| 'gift'
 	| 'deepholm'
 	| 'wild_west'
 	| 'ulduar'
@@ -68,7 +68,13 @@ export const sets: readonly ReferenceSet[] = [
 	{
 		id: 'into_the_emerald_dream',
 		name: `Into the Emerald Dream`,
-		launchDate: new Date('2025-02-18'),
+		launchDate: new Date('2025-03-18'),
+	},
+	{
+		id: 'gift',
+		name: `Gifts`,
+		launchDate: new Date('2025-03-17'),
+		techSet: true,
 	},
 	{
 		id: 'heroes_of_starcraft',
@@ -102,12 +108,6 @@ export const sets: readonly ReferenceSet[] = [
 		id: 'whizbangs_workshop',
 		name: `Whizbang's Workshop`,
 		launchDate: new Date('2024-02-13'),
-	},
-	{
-		id: 'gift',
-		name: `Gifts`,
-		launchDate: new Date('2024-02-13'),
-		techSet: true,
 	},
 	{
 		id: 'deepholm',

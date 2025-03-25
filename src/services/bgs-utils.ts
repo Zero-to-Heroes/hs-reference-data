@@ -805,7 +805,7 @@ export const getBuddy = (heroCardId: CardIds, allCards: AllCardsService): CardId
 			return CardIds.GloriousGloopling_BGDUO_HERO_101_Buddy;
 		default:
 			if (!!heroCardId) {
-				console.error('missing buddy section for ', heroCardId);
+				console.debug('missing buddy section for ', heroCardId);
 			}
 			return null;
 	}
