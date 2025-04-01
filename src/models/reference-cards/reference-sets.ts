@@ -364,9 +364,6 @@ export const sets: readonly ReferenceSet[] = [
 export const wildSets: readonly SetId[] = sets.map((s) => s.id);
 const standardBaseSets: readonly SetId[] = [
 	'core',
-	'battle_of_the_bands',
-	'titans',
-	'wild_west',
 	'gift',
 	'whizbangs_workshop',
 	'perils_in_paradise',
