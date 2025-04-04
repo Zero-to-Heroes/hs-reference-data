@@ -3703,14 +3703,14 @@ export const RELATED_CARDS_DATA: {
 		CardIds.ArchmageAntonidasLegacy,
 		CardIds.ProphetVelenLegacy,
 		CardIds.TirionFordringLegacy,
-		CardIds.VarianWrynn_THD_037,
+		CardIds.VarianWrynn_AT_072,
 	],
 	[CardIds.ChampionsOfAzeroth_ForTheAlliance_WON_113a]: [
 		CardIds.BrannBronzebeard_LOE_077,
 		CardIds.ArchmageAntonidasLegacy,
 		CardIds.ProphetVelenLegacy,
 		CardIds.TirionFordringLegacy,
-		CardIds.VarianWrynn_THD_037,
+		CardIds.VarianWrynn_AT_072,
 	],
 	[CardIds.ChampionsOfAzeroth_ForTheHorde_WON_113b]: [
 		CardIds.ShadowHunterVoljin,
