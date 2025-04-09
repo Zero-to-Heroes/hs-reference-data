@@ -1555,6 +1555,8 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.StandAgainstDarkness_OG_273]: [CardIds.SilverHandRecruitLegacyToken],
 	[CardIds.MuklaTyrantOfTheVale]: [CardIds.KingMukla_BananasLegacyToken],
 	[CardIds.KingMuklaLegacy]: [CardIds.KingMukla_BananasLegacyToken],
+	[CardIds.KingMuklaVanilla]: [CardIds.KingMukla_BananasLegacyToken],
+	[CardIds.KingMukla_CORE_EX1_014]: [CardIds.KingMukla_BananasLegacyToken],
 	[CardIds.RazorfenHunterLegacy]: [CardIds.BoarLegacy],
 	[CardIds.SatyrOverseerLegacy]: [CardIds.SatyrOverseer_IllidariSatyrLegacyToken],
 	[CardIds.UnleashTheHoundsLegacy]: [CardIds.UnleashTheHounds_HoundLegacyToken],
