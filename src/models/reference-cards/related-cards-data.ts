@@ -3742,4 +3742,10 @@ export const RELATED_CARDS_DATA: {
 		CardIds.DreamboundDisciple_BlessingOfTheGolem_EDR_847p,
 		CardIds.LunarwingMessenger_BlessingOfTheMoon_EDR_449p,
 	],
+	[CardIds.PartyPortalTavernBrawl_TB_KaraPortal_001]: [
+		CardIds.PartyElementalTavernBrawl_KARA_13_20,
+		CardIds.MimeTavernBrawl,
+		CardIds.RomuloTavernBrawl,
+		CardIds.RedRidingHoodTavernBrawl,
+	],
 };
