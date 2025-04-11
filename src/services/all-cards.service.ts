@@ -109,7 +109,7 @@ export class AllCardsService {
 		}
 
 		console.warn('[all-cards] could not load cards, defaulting to split');
-		const numberOfSplits = 4;
+		const numberOfSplits = 5;
 		const result: ReferenceCard[] = [];
 		try {
 			for (let i = 0; i < numberOfSplits; i++) {
