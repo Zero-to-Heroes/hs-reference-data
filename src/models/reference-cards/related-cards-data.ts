@@ -3748,4 +3748,17 @@ export const RELATED_CARDS_DATA: {
 		CardIds.RomuloTavernBrawl,
 		CardIds.RedRidingHoodTavernBrawl,
 	],
+	[CardIds.NoblegardenSpoonTavernBrawl]: [CardIds.NoblegardenEggTavernBrawl_TB_Noblegarden_002],
+	[CardIds.HawkstriderHenTavernBrawl]: [CardIds.NoblegardenEggTavernBrawl_TB_Noblegarden_002],
+	[CardIds.CarrotsTavernBrawl]: [CardIds.NoblegardenEgg_BunnyTavernBrawlToken],
+	[CardIds.ShiftingDyeTavernBrawl]: [
+		CardIds.ShiftingDye_BlueShiftingDyeTavernBrawlToken,
+		CardIds.ShiftingDye_PurpleShiftingDyeTavernBrawlToken,
+		CardIds.ShiftingDye_GreenShiftingDyeTavernBrawlToken,
+		CardIds.ShiftingDye_SilverShiftingDyeTavernBrawlToken,
+		CardIds.ShiftingDye_OrangeShiftingDyeTavernBrawlToken,
+		CardIds.ShiftingDye_PinkShiftingDyeTavernBrawlToken,
+		CardIds.ShiftingDye_GoldShiftingDyeTavernBrawlToken,
+		CardIds.ShiftingDye_RedShiftingDyeTavernBrawlToken,
+	],
 };
