@@ -1,6 +1,7 @@
 import { GameFormat, GameType } from '../../public-api';
 
 export type SetId =
+	| 'embers_of_the_world_tree'
 	| 'into_the_emerald_dream'
 	| 'gift'
 	| 'heroes_of_starcraft'
@@ -65,6 +66,12 @@ export interface ReferenceSet {
 }
 
 export const sets: readonly ReferenceSet[] = [
+	{
+		id: 'embers_of_the_world_tree',
+		name: `Embers of the World Tree`,
+		launchDate: new Date('2025-04-29'),
+		miniSetFor: 'into_the_emerald_dream',
+	},
 	{
 		id: 'into_the_emerald_dream',
 		name: `Into the Emerald Dream`,
@@ -394,9 +401,10 @@ export const twistSets: readonly SetId[] = twistBaseSets
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 const arenaBaseSets: readonly SetId[] = [
 	'into_the_emerald_dream',
-	'great_dark_beyond',
-	'perils_in_paradise',
-	'whizbangs_workshop',
+	'wild_west',
+	'the_sunken_city',
+	'the_barrens',
+	'scholomance',
 	'core',
 ];
 export const arenaSets: readonly SetId[] = arenaBaseSets
