@@ -3765,6 +3765,11 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.SmokeBomb_FIR_920]: DARK_GIFTS,
 	[CardIds.ShadowflameSuffusion_FIR_939]: DARK_GIFTS,
 	[CardIds.ShadowflameStalker_FIR_924]: DARK_GIFTS,
-	[CardIds.FrostburnMatriarch_FIR_901]: [CardIds.FrostburnMatriarch_FrostburnBroodlingToken_FIR_901t],
+	[CardIds.FrostburnMatriarch_FIR_901]: [CardIds.FrostburnMatriarch_FrostburnBroodlingToken_FIR_901t, ...DARK_GIFTS],
 	[CardIds.LightOfTheNewMoon_FIR_918]: [CardIds.LightOfTheNewMoon_LightOfTheFullMoonToken_FIR_918t],
+	[CardIds.Volcoross_FIR_951]: [
+		CardIds.Volcoross_TailSmashToken_FIR_951t2,
+		CardIds.Volcoross_FieryChompToken_FIR_951t3,
+		CardIds.Volcoross_LavaWaveToken_FIR_951t4,
+	],
 };
