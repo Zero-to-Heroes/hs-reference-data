@@ -406,6 +406,7 @@ const arenaBaseSets: readonly SetId[] = [
 	'the_barrens',
 	'scholomance',
 	'core',
+	'gift',
 ];
 export const arenaSets: readonly SetId[] = arenaBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
