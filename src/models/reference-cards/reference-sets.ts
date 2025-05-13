@@ -69,7 +69,7 @@ export const sets: readonly ReferenceSet[] = [
 	{
 		id: 'embers_of_the_world_tree',
 		name: `Embers of the World Tree`,
-		launchDate: new Date('2025-04-29'),
+		launchDate: new Date('2025-05-13'),
 		miniSetFor: 'into_the_emerald_dream',
 	},
 	{

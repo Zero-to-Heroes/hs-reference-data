@@ -586,6 +586,10 @@ export const getHeroPower = (
 			return CardIds.Artanis_WarpGate_BG31_HERO_802p;
 		case CardIds.KerriganQueenOfBlades_BG31_HERO_811:
 			return CardIds.KerriganQueenOfBlades_SpawningPool_BG31_HERO_811p;
+		case CardIds.Buttons_BG32_HERO_002:
+			return CardIds.Buttons_GrowingCollection_BG32_HERO_002p;
+		case CardIds.ForestLordCenarius_BG32_HERO_001:
+			return CardIds.ForestLordCenarius_WisdomOfAncients_BG32_HERO_001p;
 
 		case '':
 			return null; // new heroes
