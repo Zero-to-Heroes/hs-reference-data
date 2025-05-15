@@ -1,3 +1,4 @@
+import { GameTag } from '../../public-api';
 import { RarityTYpe } from './rarity.type';
 import { ReferencePlayerClass } from './reference-player-class';
 
@@ -31,7 +32,7 @@ export interface ReferenceCard {
 	readonly type: string;
 	readonly mechanics: string[];
 	readonly referencedTags?: string[];
-	readonly tags?: string[];
+	readonly tags?: { [key in keyof typeof GameTag]?: number };
 	readonly rarity?: RarityTYpe;
 	readonly premium?: boolean;
 	readonly collectible?: boolean;

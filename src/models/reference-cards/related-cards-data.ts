@@ -2412,6 +2412,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.MechaJaraxxus_RustedReggieToken,
 		CardIds.MechaJaraxxus_MagtheridonPrimeToken,
 		CardIds.MechaJaraxxus_BaltharakToken,
+		CardIds.MechaJaraxxus_ShieldOfTheLegionToken_BG25_807t4,
 	],
 	[CardIds.MechaJaraxxus_BG25_807_G]: [CardIds.RustedReggie, CardIds.MagtheridonPrime, CardIds.Baltharak],
 	[CardIds.PlaguedGrainCore]: [
