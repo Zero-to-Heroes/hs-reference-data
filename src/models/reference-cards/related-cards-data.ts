@@ -3773,4 +3773,5 @@ export const RELATED_CARDS_DATA: {
 		CardIds.Volcoross_FieryChompToken_FIR_951t3,
 		CardIds.Volcoross_LavaWaveToken_FIR_951t4,
 	],
+	[CardIds.RangerGilly_VAC_413]: [CardIds.RangerGilly_IslandCrocoliskToken_VAC_413t],
 };
