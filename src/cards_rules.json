@@ -1911,10 +1911,6 @@
                 "BEAST",
                 "UNDEAD"
             ],
-            "needBoardTypes": [
-                "BEAST",
-                "UNDEAD"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG25_HERO_100"
             ],
@@ -1928,11 +1924,11 @@
             "needTypesInLobby": [
                 "UNDEAD"
             ],
-            "needBoardTypes": [
-                "UNDEAD"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG25_HERO_100"
+            ],
+            "bannedForHeroes": [
+                "BG21_HERO_030"
             ]
         }
     },
@@ -1940,13 +1936,6 @@
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
                 "BEAST"
-            ],
-            "needBoardTypes": [
-                "BEAST"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_53"
             ]
         }
     },
@@ -1955,15 +1944,13 @@
             "needTypesInLobby": [
                 "DEMON"
             ],
-            "needBoardTypes": [
-                "DEMON"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_25",
                 "TB_BaconShop_HERO_37"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_53"
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -1972,16 +1959,17 @@
             "needTypesInLobby": [
                 "DRAGON"
             ],
-            "needBoardTypes": [
-                "DRAGON"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_53",
                 "TB_BaconShop_HERO_56"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_08",
-                "BG22_HERO_000"
+                "TB_BaconShop_HERO_78",
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_37",
+                "BG22_HERO_000",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_08"
             ]
         }
     },
@@ -1990,24 +1978,19 @@
             "needTypesInLobby": [
                 "MURLOC"
             ],
-            "needBoardTypes": [
-                "MURLOC"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_55"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_52"
+                "TB_BaconShop_HERO_17",
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_37"
             ]
         }
     },
     "BG30_MagicItem_924": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
-                "PIRATE"
-            ],
-            "needBoardTypes": [
                 "PIRATE"
             ],
             "alwaysAvailableForHeroes": [
@@ -2023,20 +2006,12 @@
                 "MECH",
                 "UNDEAD"
             ],
-            "needBoardTypes": [
-                "BEAST",
-                "MECH",
-                "UNDEAD"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG31_HERO_801",
                 "BG31_HERO_802",
                 "TB_BaconShop_HERO_17",
                 "BG22_HERO_200",
                 "BG25_HERO_100"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_95"
             ]
         }
     },
@@ -2044,15 +2019,23 @@
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
                 "DEMON",
-                "MECH"
+                "ELEMENTAL"
             ],
             "alwaysAvailableForHeroes": [
-                "BG31_HERO_801",
-                "BG31_HERO_802",
-                "TB_BaconShop_HERO_17",
                 "TB_BaconShop_HERO_25",
                 "TB_BaconShop_HERO_37",
-                "BG22_HERO_200"
+                "TB_BaconShop_HERO_78"
+            ]
+        }
+    },
+    "BG32_MagicItem_844": {
+        "bgsMinionTypesRules": {
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_93",
+                "TB_BaconShop_HERO_33",
+                "TB_BaconShop_HERO_43",
+                "BG31_HERO_811",
+                "BG31_HERO_801"
             ]
         }
     },
@@ -2064,16 +2047,120 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG25_HERO_100"
+            ],
+            "bannedForHeroes": [
+                "BG20_HERO_100",
+                "BG21_HERO_020",
+                "TB_BaconShop_HERO_55",
+                "BG20_HERO_283",
+                "TB_BaconShop_HERO_94",
+                "TB_BaconShop_HERO_11",
+                "TB_BaconShop_HERO_56",
+                "TB_BaconShop_HERO_74",
+                "BG22_HERO_002",
+                "TB_BaconShop_HERO_50",
+                "TB_BaconShop_HERO_35",
+                "BG22_HERO_201",
+                "TB_BaconShop_HERO_23",
+                "TB_BaconShop_HERO_76",
+                "TB_BaconShop_HERO_71",
+                "BG26_HERO_104",
+                "TB_BaconShop_HERO_45",
+                "BG32_HERO_001",
+                "BG31_HERO_005",
+                "TB_BaconShop_HERO_93",
+                "TB_BaconShop_HERO_40",
+                "TB_BaconShop_HERO_33",
+                "TB_BaconShop_HERO_28",
+                "BG28_HERO_400",
+                "TB_BaconShop_HERO_17",
+                "BG31_HERO_006",
+                "TB_BaconShop_HERO_78",
+                "BG21_HERO_010",
+                "BG20_HERO_101",
+                "BG31_HERO_802",
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_29",
+                "TB_BaconShop_HERO_92",
+                "BG24_HERO_204",
+                "BG25_HERO_103",
+                "TB_BaconShop_HERO_62",
+                "BG24_HERO_100",
+                "BG20_HERO_301",
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_43",
+                "BG27_HERO_801",
+                "TB_BaconShop_HERO_72",
+                "TB_BaconShop_HERO_14",
+                "TB_BaconShop_HERO_70",
+                "BG30_HERO_304",
+                "BG32_HERO_002",
+                "BG31_HERO_003",
+                "BG22_HERO_004",
+                "TB_BaconShop_HERO_41",
+                "TB_BaconShop_HERO_67",
+                "BG20_HERO_201",
+                "TB_BaconShop_HERO_21",
+                "TB_BaconShop_HERO_01",
+                "BG22_HERO_200",
+                "TB_BaconShop_HERO_22",
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_64",
+                "TB_BaconShop_HERO_42",
+                "BG20_HERO_242",
+                "TB_BaconShop_HERO_36",
+                "TB_BaconShop_HERO_10",
+                "TB_BaconShop_HERO_12",
+                "TB_BaconShop_HERO_15",
+                "TB_BaconShop_HERO_34",
+                "TB_BaconShop_HERO_16",
+                "BG20_HERO_103",
+                "BG23_HERO_303",
+                "BG25_HERO_105",
+                "TB_BaconShop_HERO_90",
+                "BG22_HERO_305",
+                "TB_BaconShop_HERO_68",
+                "BG23_HERO_201",
+                "BG22_HERO_003",
+                "BG31_HERO_811",
+                "TB_BaconShop_HERO_27",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_60",
+                "TB_BaconShop_HERO_25",
+                "BG28_HERO_800",
+                "TB_BaconShop_HERO_02",
+                "TB_BaconShop_HERO_702",
+                "BG28_HERO_801",
+                "BG23_HERO_304",
+                "BG20_HERO_202",
+                "TB_BaconShop_HERO_38",
+                "BG22_HERO_000",
+                "TB_BaconShop_HERO_91",
+                "TB_BaconShop_HERO_57",
+                "BG20_HERO_102",
+                "TB_BaconShop_HERO_75",
+                "BG23_HERO_306",
+                "BG20_HERO_280",
+                "BG22_HERO_001",
+                "BG21_HERO_000",
+                "BG26_HERO_101",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_58",
+                "BG20_HERO_282",
+                "TB_BaconShop_HERO_08",
+                "BG25_HERO_100",
+                "TB_BaconShop_HERO_18",
+                "BG26_HERO_102",
+                "BG23_HERO_305",
+                "BG21_HERO_030",
+                "TB_BaconShop_HERO_39",
+                "TB_BaconShop_HERO_49"
             ]
         }
     },
     "BG30_MagicItem_880t": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
-                "BEAST",
-                "UNDEAD"
-            ],
-            "needBoardTypes": [
                 "BEAST",
                 "UNDEAD"
             ],
@@ -2090,6 +2177,9 @@
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_25",
                 "TB_BaconShop_HERO_37"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -2111,17 +2201,17 @@
             "needTypesInLobby": [
                 "DRAGON"
             ],
-            "needBoardTypes": [
-                "DRAGON"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_53",
                 "TB_BaconShop_HERO_56"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
+                "BG22_HERO_200",
+                "BG22_HERO_000",
+                "BG26_HERO_101",
+                "BG31_HERO_801",
                 "TB_BaconShop_HERO_08",
-                "BG22_HERO_000"
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -2131,14 +2221,118 @@
                 "DEMON",
                 "ELEMENTAL"
             ],
-            "needBoardTypes": [
-                "DEMON",
-                "ELEMENTAL"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_25",
                 "TB_BaconShop_HERO_37",
                 "TB_BaconShop_HERO_78"
+            ],
+            "bannedForHeroes": [
+                "BG20_HERO_100",
+                "BG21_HERO_020",
+                "TB_BaconShop_HERO_55",
+                "BG20_HERO_283",
+                "TB_BaconShop_HERO_94",
+                "TB_BaconShop_HERO_11",
+                "TB_BaconShop_HERO_56",
+                "TB_BaconShop_HERO_74",
+                "BG22_HERO_002",
+                "TB_BaconShop_HERO_50",
+                "TB_BaconShop_HERO_35",
+                "BG22_HERO_201",
+                "TB_BaconShop_HERO_23",
+                "TB_BaconShop_HERO_76",
+                "TB_BaconShop_HERO_71",
+                "BG26_HERO_104",
+                "TB_BaconShop_HERO_45",
+                "BG32_HERO_001",
+                "BG31_HERO_005",
+                "TB_BaconShop_HERO_93",
+                "TB_BaconShop_HERO_40",
+                "TB_BaconShop_HERO_33",
+                "TB_BaconShop_HERO_28",
+                "BG28_HERO_400",
+                "TB_BaconShop_HERO_17",
+                "BG31_HERO_006",
+                "TB_BaconShop_HERO_78",
+                "BG21_HERO_010",
+                "BG20_HERO_101",
+                "BG31_HERO_802",
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_29",
+                "TB_BaconShop_HERO_92",
+                "BG24_HERO_204",
+                "BG25_HERO_103",
+                "TB_BaconShop_HERO_62",
+                "BG24_HERO_100",
+                "BG20_HERO_301",
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_43",
+                "BG27_HERO_801",
+                "TB_BaconShop_HERO_72",
+                "TB_BaconShop_HERO_14",
+                "TB_BaconShop_HERO_70",
+                "BG30_HERO_304",
+                "BG32_HERO_002",
+                "BG31_HERO_003",
+                "BG22_HERO_004",
+                "TB_BaconShop_HERO_41",
+                "TB_BaconShop_HERO_67",
+                "BG20_HERO_201",
+                "TB_BaconShop_HERO_21",
+                "TB_BaconShop_HERO_01",
+                "BG22_HERO_200",
+                "TB_BaconShop_HERO_22",
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_64",
+                "TB_BaconShop_HERO_42",
+                "BG20_HERO_242",
+                "TB_BaconShop_HERO_36",
+                "TB_BaconShop_HERO_10",
+                "TB_BaconShop_HERO_12",
+                "TB_BaconShop_HERO_15",
+                "TB_BaconShop_HERO_34",
+                "TB_BaconShop_HERO_16",
+                "BG20_HERO_103",
+                "BG23_HERO_303",
+                "BG25_HERO_105",
+                "TB_BaconShop_HERO_90",
+                "BG22_HERO_305",
+                "TB_BaconShop_HERO_68",
+                "BG23_HERO_201",
+                "BG22_HERO_003",
+                "BG31_HERO_811",
+                "TB_BaconShop_HERO_27",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_60",
+                "TB_BaconShop_HERO_25",
+                "BG28_HERO_800",
+                "TB_BaconShop_HERO_02",
+                "TB_BaconShop_HERO_702",
+                "BG28_HERO_801",
+                "BG23_HERO_304",
+                "BG20_HERO_202",
+                "TB_BaconShop_HERO_38",
+                "BG22_HERO_000",
+                "TB_BaconShop_HERO_91",
+                "TB_BaconShop_HERO_57",
+                "BG20_HERO_102",
+                "TB_BaconShop_HERO_75",
+                "BG23_HERO_306",
+                "BG20_HERO_280",
+                "BG22_HERO_001",
+                "BG21_HERO_000",
+                "BG26_HERO_101",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_58",
+                "BG20_HERO_282",
+                "TB_BaconShop_HERO_08",
+                "BG25_HERO_100",
+                "TB_BaconShop_HERO_18",
+                "BG26_HERO_102",
+                "BG23_HERO_305",
+                "BG21_HERO_030",
+                "TB_BaconShop_HERO_39",
+                "TB_BaconShop_HERO_49"
             ]
         }
     },
@@ -2158,11 +2352,15 @@
             "needTypesInLobby": [
                 "UNDEAD"
             ],
-            "needBoardTypes": [
-                "UNDEAD"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG25_HERO_100"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_53",
+                "BG20_HERO_103",
+                "BG26_HERO_101",
+                "TB_BaconShop_HERO_18",
+                "BG21_HERO_030"
             ]
         }
     },
@@ -2171,17 +2369,13 @@
             "needTypesInLobby": [
                 "NAGA"
             ],
-            "needBoardTypes": [
-                "NAGA"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG23_HERO_304"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
                 "BG20_HERO_301",
-                "BG26_HERO_101",
-                "TB_BaconShop_HERO_53"
+                "BG22_HERO_200",
+                "BG25_HERO_100"
             ]
         }
     },
@@ -2195,8 +2389,11 @@
                 "TB_BaconShop_HERO_56"
             ],
             "bannedForHeroes": [
+                "BG20_HERO_103",
+                "BG22_HERO_000",
+                "BG31_HERO_801",
                 "TB_BaconShop_HERO_08",
-                "BG22_HERO_000"
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -2210,6 +2407,10 @@
                 "BG31_HERO_802",
                 "TB_BaconShop_HERO_17",
                 "BG22_HERO_200"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -2231,9 +2432,6 @@
             "needTypesInLobby": [
                 "PIRATE"
             ],
-            "needBoardTypes": [
-                "PIRATE"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG26_HERO_101",
                 "TB_BaconShop_HERO_18"
@@ -2244,13 +2442,6 @@
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
                 "BEAST"
-            ],
-            "needBoardTypes": [
-                "BEAST"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_53"
             ]
         }
     },
@@ -2259,17 +2450,18 @@
             "needTypesInLobby": [
                 "DRAGON"
             ],
-            "needBoardTypes": [
-                "DRAGON"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_53",
                 "TB_BaconShop_HERO_56"
-            ],
+            ]
+        }
+    },
+    "BG32_MagicItem_400": {
+        "bgsMinionTypesRules": {
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_08",
-                "BG22_HERO_000"
+                "TB_BaconShop_HERO_28",
+                "TB_BaconShop_HERO_64",
+                "TB_BaconShop_HERO_16"
             ]
         }
     },
@@ -2285,9 +2477,6 @@
             "needTypesInLobby": [
                 "QUILBOAR"
             ],
-            "needBoardTypes": [
-                "QUILBOAR"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG20_HERO_103"
             ]
@@ -2297,6 +2486,9 @@
         "bgsMinionTypesRules": {
             "needBoardTypes": [
                 "BLANK"
+            ],
+            "bannedForHeroes": [
+                "BG31_HERO_801"
             ]
         }
     },
@@ -2305,15 +2497,8 @@
             "needTypesInLobby": [
                 "ELEMENTAL"
             ],
-            "needBoardTypes": [
-                "ELEMENTAL"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_78"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_71",
-                "TB_BaconShop_HERO_10"
             ]
         }
     },
@@ -2322,15 +2507,8 @@
             "needTypesInLobby": [
                 "ELEMENTAL"
             ],
-            "needBoardTypes": [
-                "ELEMENTAL"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_78"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_71",
-                "TB_BaconShop_HERO_10"
             ]
         }
     },
@@ -2339,23 +2517,17 @@
             "needTypesInLobby": [
                 "UNDEAD"
             ],
-            "needBoardTypes": [
-                "UNDEAD"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG25_HERO_100"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_53"
+                "BG21_HERO_030"
             ]
         }
     },
     "BG30_MagicItem_407": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
-                "PIRATE"
-            ],
-            "needBoardTypes": [
                 "PIRATE"
             ],
             "alwaysAvailableForHeroes": [
@@ -2369,14 +2541,14 @@
             "needTypesInLobby": [
                 "QUILBOAR"
             ],
-            "needBoardTypes": [
-                "QUILBOAR"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG20_HERO_103"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_53"
+                "TB_BaconShop_HERO_78",
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -2385,14 +2557,12 @@
             "needTypesInLobby": [
                 "QUILBOAR"
             ],
-            "needBoardTypes": [
-                "QUILBOAR"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG20_HERO_103"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_53"
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_37"
             ]
         }
     },
@@ -2401,30 +2571,22 @@
             "needTypesInLobby": [
                 "MECH"
             ],
-            "needBoardTypes": [
-                "MECH"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG31_HERO_801",
                 "BG31_HERO_802",
                 "TB_BaconShop_HERO_17",
                 "BG22_HERO_200"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_18"
             ]
         }
     },
     "BG30_MagicItem_414": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
-                "PIRATE",
-                "ELEMENTAL"
+                "PIRATE"
             ],
             "alwaysAvailableForHeroes": [
                 "BG26_HERO_101",
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_78"
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -2433,15 +2595,11 @@
             "needTypesInLobby": [
                 "NAGA"
             ],
-            "needBoardTypes": [
-                "NAGA"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG23_HERO_304"
             ],
             "bannedForHeroes": [
-                "BG20_HERO_301",
-                "TB_BaconShop_HERO_53"
+                "BG20_HERO_301"
             ]
         }
     },
@@ -2451,17 +2609,10 @@
                 "DRAGON",
                 "MURLOC"
             ],
-            "needBoardTypes": [
-                "DRAGON",
-                "MURLOC"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_53",
                 "TB_BaconShop_HERO_55",
                 "TB_BaconShop_HERO_56"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -2473,16 +2624,13 @@
     "BG30_MagicItem_422": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
-                "QUILBOAR",
                 "NAGA"
             ],
-            "needBoardTypes": [
-                "NAGA",
-                "QUILBOAR"
-            ],
             "alwaysAvailableForHeroes": [
-                "BG20_HERO_103",
                 "BG23_HERO_304"
+            ],
+            "bannedForHeroes": [
+                "BG20_HERO_301"
             ]
         }
     },
@@ -2502,9 +2650,6 @@
             "needTypesInLobby": [
                 "MECH"
             ],
-            "needBoardTypes": [
-                "MECH"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG31_HERO_801",
                 "BG31_HERO_802",
@@ -2512,8 +2657,9 @@
                 "BG22_HERO_200"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_53"
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -2522,15 +2668,8 @@
             "needTypesInLobby": [
                 "ELEMENTAL"
             ],
-            "needBoardTypes": [
-                "ELEMENTAL"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_78"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_71",
-                "TB_BaconShop_HERO_10"
             ]
         }
     },
@@ -2541,12 +2680,6 @@
                 "MURLOC",
                 "PIRATE",
                 "ELEMENTAL"
-            ],
-            "needBoardTypes": [
-                "DRAGON",
-                "ELEMENTAL",
-                "MURLOC",
-                "PIRATE"
             ],
             "alwaysAvailableForHeroes": [
                 "BG26_HERO_101",
@@ -2577,9 +2710,6 @@
             "needTypesInLobby": [
                 "PIRATE"
             ],
-            "needBoardTypes": [
-                "PIRATE"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG26_HERO_101",
                 "TB_BaconShop_HERO_18"
@@ -2591,14 +2721,15 @@
             "needTypesInLobby": [
                 "QUILBOAR"
             ],
-            "needBoardTypes": [
-                "QUILBOAR"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG20_HERO_103"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_53"
+                "TB_BaconShop_HERO_17",
+                "TB_BaconShop_HERO_78",
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -2607,11 +2738,12 @@
             "needTypesInLobby": [
                 "UNDEAD"
             ],
-            "needBoardTypes": [
-                "UNDEAD"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG25_HERO_100"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_18",
+                "BG21_HERO_030"
             ]
         }
     },
@@ -2620,15 +2752,9 @@
             "needTypesInLobby": [
                 "DEMON"
             ],
-            "needBoardTypes": [
-                "DEMON"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_25",
                 "TB_BaconShop_HERO_37"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -2642,108 +2768,6 @@
                 "TB_BaconShop_HERO_25",
                 "TB_BaconShop_HERO_37",
                 "TB_BaconShop_HERO_78"
-            ],
-            "bannedForHeroes": [
-                "BG22_HERO_305",
-                "TB_BaconShop_HERO_18",
-                "BG28_HERO_400",
-                "BG23_HERO_304",
-                "TB_BaconShop_HERO_59",
-                "TB_BaconShop_HERO_52",
-                "BG22_HERO_004",
-                "TB_BaconShop_HERO_92",
-                "BG20_HERO_103",
-                "TB_BaconShop_HERO_25",
-                "TB_BaconShop_HERO_60",
-                "TB_BaconShop_HERO_21",
-                "BG24_HERO_100",
-                "TB_BaconShop_HERO_40",
-                "TB_BaconShop_HERO_28",
-                "TB_BaconShop_HERO_16",
-                "BG20_HERO_280",
-                "BG20_HERO_301",
-                "TB_BaconShop_HERO_49",
-                "BG25_HERO_103",
-                "TB_BaconShop_HERO_62",
-                "TB_BaconShop_HERO_78",
-                "BG30_HERO_304",
-                "BG26_HERO_101",
-                "TB_BaconShop_HERO_08",
-                "TB_BaconShop_HERO_94",
-                "BG21_HERO_020",
-                "TB_BaconShop_HERO_14",
-                "BG21_HERO_030",
-                "BG23_HERO_201",
-                "TB_BaconShop_HERO_702",
-                "TB_BaconShop_HERO_15",
-                "TB_BaconShop_HERO_33",
-                "TB_BaconShop_HERO_35",
-                "BG28_HERO_800",
-                "BG20_HERO_201",
-                "TB_BaconShop_HERO_36",
-                "TB_BaconShop_HERO_01",
-                "TB_BaconShop_HERO_38",
-                "TB_BaconShop_HERO_02",
-                "TB_BaconShop_HERO_12",
-                "TB_BaconShop_HERO_23",
-                "BG24_HERO_204",
-                "TB_BaconShop_HERO_29",
-                "TB_BaconShop_HERO_64",
-                "TB_BaconShop_HERO_95",
-                "BG22_HERO_003",
-                "TB_BaconShop_HERO_71",
-                "TB_BaconShop_HERO_27",
-                "TB_BaconShop_HERO_34",
-                "TB_BaconShop_HERO_93",
-                "BG28_HERO_801",
-                "TB_BaconShop_HERO_67",
-                "BG23_HERO_303",
-                "BG20_HERO_101",
-                "BG27_HERO_801",
-                "BG25_HERO_100",
-                "BG22_HERO_007",
-                "TB_BaconShop_HERO_72",
-                "TB_BaconShop_HERO_42",
-                "TB_BaconShop_HERO_76",
-                "BG26_HERO_104",
-                "BG22_HERO_201",
-                "TB_BaconShop_HERO_91",
-                "BG20_HERO_242",
-                "TB_BaconShop_HERO_58",
-                "TB_BaconShop_HERO_50",
-                "TB_BaconShop_HERO_41",
-                "TB_BaconShop_HERO_90",
-                "TB_BaconShop_HERO_56",
-                "TB_BaconShop_HERO_10",
-                "BG25_HERO_105",
-                "BG22_HERO_001",
-                "BG20_HERO_283",
-                "BG21_HERO_010",
-                "TB_BaconShop_HERO_74",
-                "BG22_HERO_002",
-                "TB_BaconShop_HERO_57",
-                "BG26_HERO_102",
-                "TB_BaconShop_HERO_39",
-                "TB_BaconShop_HERO_45",
-                "BG20_HERO_202",
-                "TB_BaconShop_HERO_37",
-                "TB_BaconShop_HERO_53",
-                "TB_BaconShop_HERO_70",
-                "TB_BaconShop_HERO_22",
-                "TB_BaconShop_HERO_68",
-                "TB_BaconShop_HERO_11",
-                "TB_BaconShop_HERO_75",
-                "TB_BaconShop_HERO_43",
-                "TB_BaconShop_HERO_17",
-                "BG20_HERO_100",
-                "BG20_HERO_282",
-                "BG22_HERO_000",
-                "BG23_HERO_305",
-                "BG22_HERO_200",
-                "BG23_HERO_306",
-                "TB_BaconShop_HERO_55",
-                "BG21_HERO_000",
-                "BG20_HERO_102"
             ]
         }
     },
@@ -2751,13 +2775,6 @@
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
                 "BEAST"
-            ],
-            "needBoardTypes": [
-                "BEAST"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_53"
             ]
         }
     },
@@ -2774,29 +2791,18 @@
             ]
         }
     },
-    "BG30_MagicItem_430": {
-        "bgsMinionTypesRules": {
-            "needTypesInLobby": [
-                "DRAGON",
-                "MURLOC"
-            ],
-            "alwaysAvailableForHeroes": [
-                "TB_BaconShop_HERO_53",
-                "TB_BaconShop_HERO_55",
-                "TB_BaconShop_HERO_56"
-            ]
-        }
-    },
     "BG30_MagicItem_437": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
                 "UNDEAD"
             ],
-            "needBoardTypes": [
-                "UNDEAD"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG25_HERO_100"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_18",
+                "BG21_HERO_030"
             ]
         }
     },
@@ -2810,18 +2816,18 @@
                 "TB_BaconShop_HERO_56"
             ],
             "bannedForHeroes": [
+                "TB_BaconShop_HERO_93",
+                "BG22_HERO_200",
+                "BG22_HERO_000",
+                "BG31_HERO_801",
                 "TB_BaconShop_HERO_08",
-                "BG22_HERO_000"
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
     "BG30_MagicItem_310": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
-                "BEAST",
-                "UNDEAD"
-            ],
-            "needBoardTypes": [
                 "BEAST",
                 "UNDEAD"
             ],
@@ -2849,13 +2855,6 @@
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
                 "BEAST"
-            ],
-            "needBoardTypes": [
-                "BEAST"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_53"
             ]
         }
     },
@@ -2864,15 +2863,9 @@
             "needTypesInLobby": [
                 "DEMON"
             ],
-            "needBoardTypes": [
-                "DEMON"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_25",
                 "TB_BaconShop_HERO_37"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_53"
             ]
         }
     },
@@ -2881,17 +2874,9 @@
             "needTypesInLobby": [
                 "DRAGON"
             ],
-            "needBoardTypes": [
-                "DRAGON"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_53",
                 "TB_BaconShop_HERO_56"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_08",
-                "BG22_HERO_000"
             ]
         }
     },
@@ -2900,24 +2885,19 @@
             "needTypesInLobby": [
                 "ELEMENTAL"
             ],
-            "needBoardTypes": [
-                "ELEMENTAL"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_78"
             ],
             "bannedForHeroes": [
                 "TB_BaconShop_HERO_71",
-                "TB_BaconShop_HERO_10"
+                "TB_BaconShop_HERO_10",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
     "BG30_MagicItem_545": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
-                "MECH"
-            ],
-            "needBoardTypes": [
                 "MECH"
             ],
             "alwaysAvailableForHeroes": [
@@ -2927,8 +2907,8 @@
                 "BG22_HERO_200"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_53"
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_37"
             ]
         }
     },
@@ -2937,14 +2917,11 @@
             "needTypesInLobby": [
                 "QUILBOAR"
             ],
-            "needBoardTypes": [
-                "QUILBOAR"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG20_HERO_103"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_53"
+                "TB_BaconShop_HERO_56"
             ]
         }
     },
@@ -2953,11 +2930,16 @@
             "needTypesInLobby": [
                 "UNDEAD"
             ],
-            "needBoardTypes": [
-                "UNDEAD"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG25_HERO_100"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_17",
+                "TB_BaconShop_HERO_78",
+                "TB_BaconShop_HERO_53",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_18",
+                "BG21_HERO_030"
             ]
         }
     },
@@ -2966,15 +2948,8 @@
             "needTypesInLobby": [
                 "ELEMENTAL"
             ],
-            "needBoardTypes": [
-                "ELEMENTAL"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_78"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_71",
-                "TB_BaconShop_HERO_10"
             ]
         }
     },
@@ -2983,24 +2958,19 @@
             "needTypesInLobby": [
                 "MURLOC"
             ],
-            "needBoardTypes": [
-                "MURLOC"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_55"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_52"
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
     "BG30_MagicItem_997": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
-                "PIRATE",
-                "UNDEAD"
-            ],
-            "needBoardTypes": [
                 "PIRATE",
                 "UNDEAD"
             ],
@@ -3014,17 +2984,16 @@
     "BG30_MagicItem_995": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
-                "DRAGON",
-                "UNDEAD"
-            ],
-            "needBoardTypes": [
-                "DRAGON",
-                "UNDEAD"
+                "DRAGON"
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_53",
-                "TB_BaconShop_HERO_56",
-                "BG25_HERO_100"
+                "TB_BaconShop_HERO_56"
+            ],
+            "bannedForHeroes": [
+                "BG22_HERO_000",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_08"
             ]
         }
     },
@@ -3045,18 +3014,99 @@
         "bgsMinionTypesRules": {
             "needBoardTypes": [
                 "BLANK"
+            ],
+            "bannedForHeroes": [
+                "BG20_HERO_100",
+                "BG21_HERO_020",
+                "TB_BaconShop_HERO_55",
+                "BG20_HERO_283",
+                "TB_BaconShop_HERO_94",
+                "TB_BaconShop_HERO_56",
+                "TB_BaconShop_HERO_74",
+                "BG22_HERO_002",
+                "TB_BaconShop_HERO_23",
+                "TB_BaconShop_HERO_76",
+                "BG26_HERO_104",
+                "BG32_HERO_001",
+                "TB_BaconShop_HERO_93",
+                "TB_BaconShop_HERO_33",
+                "TB_BaconShop_HERO_28",
+                "BG28_HERO_400",
+                "TB_BaconShop_HERO_17",
+                "TB_BaconShop_HERO_78",
+                "BG21_HERO_010",
+                "BG20_HERO_101",
+                "BG31_HERO_802",
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_29",
+                "BG25_HERO_103",
+                "TB_BaconShop_HERO_62",
+                "BG24_HERO_100",
+                "BG20_HERO_301",
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_72",
+                "TB_BaconShop_HERO_14",
+                "BG32_HERO_002",
+                "BG31_HERO_003",
+                "BG22_HERO_004",
+                "TB_BaconShop_HERO_41",
+                "TB_BaconShop_HERO_67",
+                "BG20_HERO_201",
+                "TB_BaconShop_HERO_21",
+                "TB_BaconShop_HERO_01",
+                "BG22_HERO_200",
+                "TB_BaconShop_HERO_22",
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_64",
+                "TB_BaconShop_HERO_42",
+                "BG20_HERO_242",
+                "TB_BaconShop_HERO_36",
+                "TB_BaconShop_HERO_10",
+                "TB_BaconShop_HERO_12",
+                "TB_BaconShop_HERO_34",
+                "TB_BaconShop_HERO_16",
+                "BG20_HERO_103",
+                "BG23_HERO_303",
+                "BG22_HERO_305",
+                "TB_BaconShop_HERO_68",
+                "BG23_HERO_201",
+                "BG22_HERO_003",
+                "TB_BaconShop_HERO_27",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_60",
+                "TB_BaconShop_HERO_02",
+                "TB_BaconShop_HERO_702",
+                "BG28_HERO_801",
+                "BG23_HERO_304",
+                "BG20_HERO_202",
+                "TB_BaconShop_HERO_38",
+                "BG22_HERO_000",
+                "TB_BaconShop_HERO_57",
+                "BG20_HERO_102",
+                "TB_BaconShop_HERO_75",
+                "BG22_HERO_001",
+                "BG21_HERO_000",
+                "BG26_HERO_101",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_58",
+                "TB_BaconShop_HERO_08",
+                "BG25_HERO_100",
+                "TB_BaconShop_HERO_18",
+                "BG21_HERO_030",
+                "TB_BaconShop_HERO_39"
             ]
         }
     },
     "BG30_MagicItem_434": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
-                "QUILBOAR",
                 "NAGA"
             ],
             "alwaysAvailableForHeroes": [
-                "BG20_HERO_103",
                 "BG23_HERO_304"
+            ],
+            "bannedForHeroes": [
+                "BG20_HERO_301"
             ]
         }
     },
@@ -3082,9 +3132,6 @@
             "needTypesInLobby": [
                 "PIRATE"
             ],
-            "needBoardTypes": [
-                "PIRATE"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG26_HERO_101",
                 "TB_BaconShop_HERO_18"
@@ -3094,12 +3141,16 @@
             ]
         }
     },
+    "BG30_MagicItem_891": {
+        "bgsMinionTypesRules": {
+            "bannedForHeroes": [
+                "BG32_HERO_002"
+            ]
+        }
+    },
     "BG30_MagicItem_440": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
-                "MECH"
-            ],
-            "needBoardTypes": [
                 "MECH"
             ],
             "alwaysAvailableForHeroes": [
@@ -3115,11 +3166,11 @@
             "needTypesInLobby": [
                 "QUILBOAR"
             ],
-            "needBoardTypes": [
-                "QUILBOAR"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG20_HERO_103"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_56"
             ]
         }
     },
@@ -3128,14 +3179,8 @@
             "needTypesInLobby": [
                 "MURLOC"
             ],
-            "needBoardTypes": [
-                "MURLOC"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_55"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_52"
             ]
         }
     },
@@ -3147,11 +3192,13 @@
     "BG30_MagicItem_999": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
-                "PIRATE"
+                "NAGA"
             ],
             "alwaysAvailableForHeroes": [
-                "BG26_HERO_101",
-                "TB_BaconShop_HERO_18"
+                "BG23_HERO_304"
+            ],
+            "bannedForHeroes": [
+                "BG20_HERO_301"
             ]
         }
     },
@@ -3296,21 +3343,12 @@
             "needTypesInLobby": [
                 "UNDEAD"
             ],
-            "needBoardTypes": [
-                "UNDEAD"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG25_HERO_100"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "BG23_HERO_304",
-                "TB_BaconShop_HERO_78",
-                "BG26_HERO_101",
-                "BG22_HERO_007",
-                "TB_BaconShop_HERO_56",
-                "TB_BaconShop_HERO_37",
-                "TB_BaconShop_HERO_53"
+                "TB_BaconShop_HERO_53",
+                "BG21_HERO_030"
             ]
         }
     },
@@ -3429,10 +3467,6 @@
                 "MURLOC",
                 "UNDEAD"
             ],
-            "needBoardTypes": [
-                "MURLOC",
-                "UNDEAD"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_55",
                 "BG25_HERO_100"
@@ -3444,14 +3478,13 @@
             "needTypesInLobby": [
                 "NAGA"
             ],
-            "needBoardTypes": [
-                "NAGA"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG23_HERO_304"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
+                "TB_BaconShop_HERO_56",
+                "TB_BaconShop_HERO_17",
+                "TB_BaconShop_HERO_78",
                 "BG20_HERO_301"
             ]
         }
@@ -3546,13 +3579,11 @@
     "BG30_MagicItem_414t": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
-                "PIRATE",
-                "ELEMENTAL"
+                "PIRATE"
             ],
             "alwaysAvailableForHeroes": [
                 "BG26_HERO_101",
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_78"
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -3561,17 +3592,14 @@
             "needTypesInLobby": [
                 "DRAGON"
             ],
-            "needBoardTypes": [
-                "DRAGON"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_53",
                 "TB_BaconShop_HERO_56"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_08",
-                "BG22_HERO_000"
+                "BG22_HERO_000",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_08"
             ]
         }
     },
@@ -3580,11 +3608,11 @@
             "needTypesInLobby": [
                 "QUILBOAR"
             ],
-            "needBoardTypes": [
-                "QUILBOAR"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG20_HERO_103"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_53"
             ]
         }
     },
@@ -3593,26 +3621,18 @@
             "needTypesInLobby": [
                 "UNDEAD"
             ],
-            "needBoardTypes": [
-                "UNDEAD"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG25_HERO_100"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_37",
-                "TB_BaconShop_HERO_53"
+                "TB_BaconShop_HERO_53",
+                "BG21_HERO_030"
             ]
         }
     },
     "BG30_MagicItem_997t": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
-                "PIRATE",
-                "UNDEAD"
-            ],
-            "needBoardTypes": [
                 "PIRATE",
                 "UNDEAD"
             ],
@@ -3627,12 +3647,6 @@
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
                 "BEAST"
-            ],
-            "needBoardTypes": [
-                "BEAST"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_53"
             ]
         }
     },
@@ -3657,9 +3671,6 @@
             "needTypesInLobby": [
                 "ELEMENTAL"
             ],
-            "needBoardTypes": [
-                "ELEMENTAL"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_78"
             ],
@@ -3675,10 +3686,6 @@
                 "DEMON",
                 "ELEMENTAL"
             ],
-            "needBoardTypes": [
-                "DEMON",
-                "ELEMENTAL"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_25",
                 "TB_BaconShop_HERO_37",
@@ -3689,9 +3696,6 @@
     "BG30_MagicItem_914t": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
-                "MURLOC"
-            ],
-            "needBoardTypes": [
                 "MURLOC"
             ],
             "alwaysAvailableForHeroes": [
@@ -3707,16 +3711,11 @@
             "needTypesInLobby": [
                 "MURLOC"
             ],
-            "needBoardTypes": [
-                "MURLOC"
-            ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_55"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_52",
-                "BG26_HERO_101"
+                "TB_BaconShop_HERO_52"
             ]
         }
     },
@@ -3725,15 +3724,9 @@
             "needTypesInLobby": [
                 "PIRATE"
             ],
-            "needBoardTypes": [
-                "PIRATE"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG26_HERO_101",
                 "TB_BaconShop_HERO_18"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_53"
             ]
         }
     },
@@ -3757,10 +3750,6 @@
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_53",
                 "TB_BaconShop_HERO_56"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_08",
-                "BG22_HERO_000"
             ]
         }
     },
@@ -3780,11 +3769,12 @@
             "needTypesInLobby": [
                 "QUILBOAR"
             ],
-            "needBoardTypes": [
-                "QUILBOAR"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG20_HERO_103"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_56",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -4415,15 +4405,11 @@
             "needTypesInLobby": [
                 "UNDEAD"
             ],
-            "needBoardTypes": [
-                "UNDEAD"
-            ],
             "alwaysAvailableForHeroes": [
                 "BG25_HERO_100"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_37",
-                "TB_BaconShop_HERO_53"
+                "BG21_HERO_030"
             ]
         }
     },
@@ -4533,16 +4519,13 @@
     "BG30_MagicItem_422t": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
-                "QUILBOAR",
                 "NAGA"
             ],
-            "needBoardTypes": [
-                "NAGA",
-                "QUILBOAR"
-            ],
             "alwaysAvailableForHeroes": [
-                "BG20_HERO_103",
                 "BG23_HERO_304"
+            ],
+            "bannedForHeroes": [
+                "BG20_HERO_301"
             ]
         }
     },
@@ -4635,11 +4618,6 @@
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_25",
                 "TB_BaconShop_HERO_37"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "BG26_HERO_101",
-                "TB_BaconShop_HERO_53"
             ]
         }
     },
@@ -4650,11 +4628,6 @@
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_55"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_52",
-                "BG26_HERO_101"
             ]
         }
     },
@@ -4679,11 +4652,6 @@
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_53",
                 "TB_BaconShop_HERO_56"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_08",
-                "BG22_HERO_000"
             ]
         }
     },
@@ -4711,9 +4679,6 @@
                 "TB_BaconShop_HERO_25",
                 "TB_BaconShop_HERO_37",
                 "BG22_HERO_200"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -4724,9 +4689,6 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG20_HERO_103"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -4752,8 +4714,10 @@
                 "BG22_HERO_200"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_53"
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -4761,10 +4725,6 @@
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
                 "BEAST"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_53"
             ]
         }
     },
@@ -4775,14 +4735,6 @@
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_55"
-            ],
-            "bannedForHeroes": [
-                "TB_BaconShop_HERO_18",
-                "TB_BaconShop_HERO_52",
-                "TB_BaconShop_HERO_78",
-                "BG26_HERO_101",
-                "TB_BaconShop_HERO_37",
-                "BG22_HERO_200"
             ]
         }
     },
@@ -4793,9 +4745,6 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG23_HERO_304"
-            ],
-            "bannedForHeroes": [
-                "BG20_HERO_301"
             ]
         }
     },
@@ -4822,8 +4771,12 @@
                 "BG25_HERO_100"
             ],
             "bannedForHeroes": [
-                "TB_BaconShop_HERO_78",
-                "TB_BaconShop_HERO_53"
+                "TB_BaconShop_HERO_17",
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_37",
+                "BG26_HERO_101",
+                "TB_BaconShop_HERO_18",
+                "BG21_HERO_030"
             ]
         }
     },
@@ -4847,215 +4800,662 @@
             ]
         }
     },
-    "BGDUO_MagicItem_004": {
+    "BGDUO_MagicItem_003": {
         "bgsMinionTypesRules": {
             "bannedForHeroes": [
-                "BG22_HERO_305",
-                "TB_BaconShop_HERO_18",
-                "BG28_HERO_400",
-                "BG23_HERO_304",
-                "TB_BaconShop_HERO_59",
-                "TB_BaconShop_HERO_52",
-                "BG22_HERO_004",
-                "TB_BaconShop_HERO_92",
-                "BG20_HERO_103",
-                "TB_BaconShop_HERO_25",
-                "TB_BaconShop_HERO_60",
-                "TB_BaconShop_HERO_21",
-                "BG24_HERO_100",
-                "TB_BaconShop_HERO_40",
-                "TB_BaconShop_HERO_28",
-                "TB_BaconShop_HERO_16",
-                "BG20_HERO_280",
-                "BG20_HERO_301",
-                "TB_BaconShop_HERO_49",
-                "BG25_HERO_103",
-                "TB_BaconShop_HERO_62",
-                "TB_BaconShop_HERO_78",
-                "BG30_HERO_304",
-                "BG26_HERO_101",
-                "TB_BaconShop_HERO_08",
-                "TB_BaconShop_HERO_94",
+                "BG20_HERO_100",
                 "BG21_HERO_020",
-                "TB_BaconShop_HERO_14",
-                "BG21_HERO_030",
-                "BG23_HERO_201",
-                "TB_BaconShop_HERO_702",
-                "TB_BaconShop_HERO_15",
-                "TB_BaconShop_HERO_33",
-                "TB_BaconShop_HERO_35",
-                "BG28_HERO_800",
-                "BG20_HERO_201",
-                "TB_BaconShop_HERO_36",
-                "TB_BaconShop_HERO_01",
-                "TB_BaconShop_HERO_38",
-                "TB_BaconShop_HERO_02",
-                "TB_BaconShop_HERO_12",
-                "TB_BaconShop_HERO_23",
-                "BG24_HERO_204",
-                "TB_BaconShop_HERO_29",
-                "TB_BaconShop_HERO_64",
-                "TB_BaconShop_HERO_95",
-                "BG22_HERO_003",
-                "TB_BaconShop_HERO_71",
-                "TB_BaconShop_HERO_27",
-                "TB_BaconShop_HERO_34",
-                "TB_BaconShop_HERO_93",
-                "BG28_HERO_801",
-                "TB_BaconShop_HERO_67",
-                "BG23_HERO_303",
-                "BG20_HERO_101",
-                "BG27_HERO_801",
-                "BG25_HERO_100",
-                "BG22_HERO_007",
-                "TB_BaconShop_HERO_72",
-                "TB_BaconShop_HERO_42",
-                "TB_BaconShop_HERO_76",
-                "BG26_HERO_104",
-                "BG22_HERO_201",
-                "TB_BaconShop_HERO_91",
-                "BG20_HERO_242",
-                "TB_BaconShop_HERO_58",
-                "TB_BaconShop_HERO_50",
-                "TB_BaconShop_HERO_41",
-                "TB_BaconShop_HERO_90",
-                "TB_BaconShop_HERO_56",
-                "TB_BaconShop_HERO_10",
-                "BG25_HERO_105",
-                "BG22_HERO_001",
+                "TB_BaconShop_HERO_55",
                 "BG20_HERO_283",
-                "BG21_HERO_010",
+                "TB_BaconShop_HERO_94",
+                "TB_BaconShop_HERO_11",
+                "TB_BaconShop_HERO_56",
                 "TB_BaconShop_HERO_74",
                 "BG22_HERO_002",
-                "TB_BaconShop_HERO_57",
-                "BG26_HERO_102",
-                "TB_BaconShop_HERO_39",
+                "TB_BaconShop_HERO_50",
+                "TB_BaconShop_HERO_35",
+                "BG22_HERO_201",
+                "TB_BaconShop_HERO_23",
+                "TB_BaconShop_HERO_76",
+                "TB_BaconShop_HERO_71",
+                "BG26_HERO_104",
                 "TB_BaconShop_HERO_45",
-                "BG20_HERO_202",
-                "TB_BaconShop_HERO_37",
-                "TB_BaconShop_HERO_53",
-                "TB_BaconShop_HERO_70",
-                "TB_BaconShop_HERO_22",
-                "TB_BaconShop_HERO_68",
-                "TB_BaconShop_HERO_11",
-                "TB_BaconShop_HERO_75",
-                "TB_BaconShop_HERO_43",
+                "BG32_HERO_001",
+                "BG31_HERO_005",
+                "TB_BaconShop_HERO_93",
+                "TB_BaconShop_HERO_40",
+                "TB_BaconShop_HERO_33",
+                "TB_BaconShop_HERO_28",
+                "BG28_HERO_400",
                 "TB_BaconShop_HERO_17",
-                "BG20_HERO_100",
-                "BG20_HERO_282",
-                "BG22_HERO_000",
-                "BG23_HERO_305",
+                "BG31_HERO_006",
+                "TB_BaconShop_HERO_78",
+                "BG21_HERO_010",
+                "BG20_HERO_101",
+                "BG31_HERO_802",
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_29",
+                "TB_BaconShop_HERO_92",
+                "BG24_HERO_204",
+                "BG25_HERO_103",
+                "TB_BaconShop_HERO_62",
+                "BG24_HERO_100",
+                "BG20_HERO_301",
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_43",
+                "BG27_HERO_801",
+                "TB_BaconShop_HERO_72",
+                "TB_BaconShop_HERO_14",
+                "TB_BaconShop_HERO_70",
+                "BG30_HERO_304",
+                "BG32_HERO_002",
+                "BG31_HERO_003",
+                "BG22_HERO_004",
+                "TB_BaconShop_HERO_41",
+                "TB_BaconShop_HERO_67",
+                "BG20_HERO_201",
+                "TB_BaconShop_HERO_21",
+                "TB_BaconShop_HERO_01",
                 "BG22_HERO_200",
+                "TB_BaconShop_HERO_22",
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_64",
+                "TB_BaconShop_HERO_42",
+                "BG20_HERO_242",
+                "TB_BaconShop_HERO_36",
+                "TB_BaconShop_HERO_10",
+                "TB_BaconShop_HERO_12",
+                "TB_BaconShop_HERO_15",
+                "TB_BaconShop_HERO_34",
+                "TB_BaconShop_HERO_16",
+                "BG20_HERO_103",
+                "BG23_HERO_303",
+                "BG25_HERO_105",
+                "TB_BaconShop_HERO_90",
+                "BG22_HERO_305",
+                "TB_BaconShop_HERO_68",
+                "BG23_HERO_201",
+                "BG22_HERO_003",
+                "BG31_HERO_811",
+                "TB_BaconShop_HERO_27",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_60",
+                "TB_BaconShop_HERO_25",
+                "BG28_HERO_800",
+                "TB_BaconShop_HERO_02",
+                "TB_BaconShop_HERO_702",
+                "BG28_HERO_801",
+                "BG23_HERO_304",
+                "BG20_HERO_202",
+                "TB_BaconShop_HERO_38",
+                "BG22_HERO_000",
+                "TB_BaconShop_HERO_91",
+                "TB_BaconShop_HERO_57",
+                "BG20_HERO_102",
+                "TB_BaconShop_HERO_75",
                 "BG23_HERO_306",
-                "TB_BaconShop_HERO_55",
+                "BG20_HERO_280",
+                "BG22_HERO_001",
                 "BG21_HERO_000",
-                "BG20_HERO_102"
+                "BG26_HERO_101",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_58",
+                "BG20_HERO_282",
+                "TB_BaconShop_HERO_08",
+                "BG25_HERO_100",
+                "TB_BaconShop_HERO_18",
+                "BG26_HERO_102",
+                "BG23_HERO_305",
+                "BG21_HERO_030",
+                "TB_BaconShop_HERO_39",
+                "TB_BaconShop_HERO_49"
+            ]
+        }
+    },
+    "BGDUO_MagicItem_005": {
+        "bgsMinionTypesRules": {
+            "bannedForHeroes": [
+                "BG20_HERO_100",
+                "BG21_HERO_020",
+                "TB_BaconShop_HERO_55",
+                "BG20_HERO_283",
+                "TB_BaconShop_HERO_94",
+                "TB_BaconShop_HERO_11",
+                "TB_BaconShop_HERO_56",
+                "TB_BaconShop_HERO_74",
+                "BG22_HERO_002",
+                "TB_BaconShop_HERO_50",
+                "TB_BaconShop_HERO_35",
+                "BG22_HERO_201",
+                "TB_BaconShop_HERO_23",
+                "TB_BaconShop_HERO_76",
+                "TB_BaconShop_HERO_71",
+                "BG26_HERO_104",
+                "TB_BaconShop_HERO_45",
+                "BG32_HERO_001",
+                "BG31_HERO_005",
+                "TB_BaconShop_HERO_93",
+                "TB_BaconShop_HERO_40",
+                "TB_BaconShop_HERO_33",
+                "TB_BaconShop_HERO_28",
+                "BG28_HERO_400",
+                "TB_BaconShop_HERO_17",
+                "BG31_HERO_006",
+                "TB_BaconShop_HERO_78",
+                "BG21_HERO_010",
+                "BG20_HERO_101",
+                "BG31_HERO_802",
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_29",
+                "TB_BaconShop_HERO_92",
+                "BG24_HERO_204",
+                "BG25_HERO_103",
+                "TB_BaconShop_HERO_62",
+                "BG24_HERO_100",
+                "BG20_HERO_301",
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_43",
+                "BG27_HERO_801",
+                "TB_BaconShop_HERO_72",
+                "TB_BaconShop_HERO_14",
+                "TB_BaconShop_HERO_70",
+                "BG30_HERO_304",
+                "BG32_HERO_002",
+                "BG31_HERO_003",
+                "BG22_HERO_004",
+                "TB_BaconShop_HERO_41",
+                "TB_BaconShop_HERO_67",
+                "BG20_HERO_201",
+                "TB_BaconShop_HERO_21",
+                "TB_BaconShop_HERO_01",
+                "BG22_HERO_200",
+                "TB_BaconShop_HERO_22",
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_64",
+                "TB_BaconShop_HERO_42",
+                "BG20_HERO_242",
+                "TB_BaconShop_HERO_36",
+                "TB_BaconShop_HERO_10",
+                "TB_BaconShop_HERO_12",
+                "TB_BaconShop_HERO_15",
+                "TB_BaconShop_HERO_34",
+                "TB_BaconShop_HERO_16",
+                "BG20_HERO_103",
+                "BG23_HERO_303",
+                "BG25_HERO_105",
+                "TB_BaconShop_HERO_90",
+                "BG22_HERO_305",
+                "TB_BaconShop_HERO_68",
+                "BG23_HERO_201",
+                "BG22_HERO_003",
+                "BG31_HERO_811",
+                "TB_BaconShop_HERO_27",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_60",
+                "TB_BaconShop_HERO_25",
+                "BG28_HERO_800",
+                "TB_BaconShop_HERO_02",
+                "TB_BaconShop_HERO_702",
+                "BG28_HERO_801",
+                "BG23_HERO_304",
+                "BG20_HERO_202",
+                "TB_BaconShop_HERO_38",
+                "BG22_HERO_000",
+                "TB_BaconShop_HERO_91",
+                "TB_BaconShop_HERO_57",
+                "BG20_HERO_102",
+                "TB_BaconShop_HERO_75",
+                "BG23_HERO_306",
+                "BG20_HERO_280",
+                "BG22_HERO_001",
+                "BG21_HERO_000",
+                "BG26_HERO_101",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_58",
+                "BG20_HERO_282",
+                "TB_BaconShop_HERO_08",
+                "BG25_HERO_100",
+                "TB_BaconShop_HERO_18",
+                "BG26_HERO_102",
+                "BG23_HERO_305",
+                "BG21_HERO_030",
+                "TB_BaconShop_HERO_39",
+                "TB_BaconShop_HERO_49"
+            ]
+        }
+    },
+    "BGDUO_MagicItem_006": {
+        "bgsMinionTypesRules": {
+            "bannedForHeroes": [
+                "BG20_HERO_100",
+                "BG21_HERO_020",
+                "TB_BaconShop_HERO_55",
+                "BG20_HERO_283",
+                "TB_BaconShop_HERO_94",
+                "TB_BaconShop_HERO_11",
+                "TB_BaconShop_HERO_56",
+                "TB_BaconShop_HERO_74",
+                "BG22_HERO_002",
+                "TB_BaconShop_HERO_50",
+                "TB_BaconShop_HERO_35",
+                "BG22_HERO_201",
+                "TB_BaconShop_HERO_23",
+                "TB_BaconShop_HERO_76",
+                "TB_BaconShop_HERO_71",
+                "BG26_HERO_104",
+                "TB_BaconShop_HERO_45",
+                "BG32_HERO_001",
+                "BG31_HERO_005",
+                "TB_BaconShop_HERO_93",
+                "TB_BaconShop_HERO_40",
+                "TB_BaconShop_HERO_33",
+                "TB_BaconShop_HERO_28",
+                "BG28_HERO_400",
+                "TB_BaconShop_HERO_17",
+                "BG31_HERO_006",
+                "TB_BaconShop_HERO_78",
+                "BG21_HERO_010",
+                "BG20_HERO_101",
+                "BG31_HERO_802",
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_29",
+                "TB_BaconShop_HERO_92",
+                "BG24_HERO_204",
+                "BG25_HERO_103",
+                "TB_BaconShop_HERO_62",
+                "BG24_HERO_100",
+                "BG20_HERO_301",
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_43",
+                "BG27_HERO_801",
+                "TB_BaconShop_HERO_72",
+                "TB_BaconShop_HERO_14",
+                "TB_BaconShop_HERO_70",
+                "BG30_HERO_304",
+                "BG32_HERO_002",
+                "BG31_HERO_003",
+                "BG22_HERO_004",
+                "TB_BaconShop_HERO_41",
+                "TB_BaconShop_HERO_67",
+                "BG20_HERO_201",
+                "TB_BaconShop_HERO_21",
+                "TB_BaconShop_HERO_01",
+                "BG22_HERO_200",
+                "TB_BaconShop_HERO_22",
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_64",
+                "TB_BaconShop_HERO_42",
+                "BG20_HERO_242",
+                "TB_BaconShop_HERO_36",
+                "TB_BaconShop_HERO_10",
+                "TB_BaconShop_HERO_12",
+                "TB_BaconShop_HERO_15",
+                "TB_BaconShop_HERO_34",
+                "TB_BaconShop_HERO_16",
+                "BG20_HERO_103",
+                "BG23_HERO_303",
+                "BG25_HERO_105",
+                "TB_BaconShop_HERO_90",
+                "BG22_HERO_305",
+                "TB_BaconShop_HERO_68",
+                "BG23_HERO_201",
+                "BG22_HERO_003",
+                "BG31_HERO_811",
+                "TB_BaconShop_HERO_27",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_60",
+                "TB_BaconShop_HERO_25",
+                "BG28_HERO_800",
+                "TB_BaconShop_HERO_02",
+                "TB_BaconShop_HERO_702",
+                "BG28_HERO_801",
+                "BG23_HERO_304",
+                "BG20_HERO_202",
+                "TB_BaconShop_HERO_38",
+                "BG22_HERO_000",
+                "TB_BaconShop_HERO_91",
+                "TB_BaconShop_HERO_57",
+                "BG20_HERO_102",
+                "TB_BaconShop_HERO_75",
+                "BG23_HERO_306",
+                "BG20_HERO_280",
+                "BG22_HERO_001",
+                "BG21_HERO_000",
+                "BG26_HERO_101",
+                "TB_BaconShop_HERO_58",
+                "TB_BaconShop_HERO_08",
+                "BG25_HERO_100",
+                "TB_BaconShop_HERO_18",
+                "BG26_HERO_102",
+                "BG23_HERO_305",
+                "BG21_HERO_030",
+                "TB_BaconShop_HERO_39",
+                "TB_BaconShop_HERO_49"
             ]
         }
     },
     "BGDUO_MagicItem_007": {
         "bgsMinionTypesRules": {
             "bannedForHeroes": [
-                "BG22_HERO_305",
-                "TB_BaconShop_HERO_18",
-                "BG28_HERO_400",
-                "BG23_HERO_304",
-                "TB_BaconShop_HERO_59",
-                "TB_BaconShop_HERO_52",
-                "BG22_HERO_004",
-                "TB_BaconShop_HERO_92",
-                "BG20_HERO_103",
-                "TB_BaconShop_HERO_25",
-                "TB_BaconShop_HERO_60",
-                "TB_BaconShop_HERO_21",
-                "BG24_HERO_100",
-                "TB_BaconShop_HERO_40",
-                "TB_BaconShop_HERO_28",
-                "TB_BaconShop_HERO_16",
-                "BG20_HERO_280",
-                "BG20_HERO_301",
-                "TB_BaconShop_HERO_49",
-                "BG25_HERO_103",
-                "TB_BaconShop_HERO_62",
-                "TB_BaconShop_HERO_78",
-                "BG30_HERO_304",
-                "BG26_HERO_101",
-                "TB_BaconShop_HERO_08",
-                "TB_BaconShop_HERO_94",
+                "BG20_HERO_100",
                 "BG21_HERO_020",
-                "TB_BaconShop_HERO_14",
-                "BG21_HERO_030",
-                "BG23_HERO_201",
-                "TB_BaconShop_HERO_702",
-                "TB_BaconShop_HERO_15",
-                "TB_BaconShop_HERO_33",
-                "TB_BaconShop_HERO_35",
-                "BG28_HERO_800",
-                "BG20_HERO_201",
-                "TB_BaconShop_HERO_36",
-                "TB_BaconShop_HERO_01",
-                "TB_BaconShop_HERO_38",
-                "TB_BaconShop_HERO_02",
-                "TB_BaconShop_HERO_12",
-                "TB_BaconShop_HERO_23",
-                "BG24_HERO_204",
-                "TB_BaconShop_HERO_29",
-                "TB_BaconShop_HERO_64",
-                "TB_BaconShop_HERO_95",
-                "BG22_HERO_003",
-                "TB_BaconShop_HERO_71",
-                "TB_BaconShop_HERO_27",
-                "TB_BaconShop_HERO_34",
-                "TB_BaconShop_HERO_93",
-                "BG28_HERO_801",
-                "TB_BaconShop_HERO_67",
-                "BG23_HERO_303",
-                "BG20_HERO_101",
-                "BG27_HERO_801",
-                "BG25_HERO_100",
-                "BG22_HERO_007",
-                "TB_BaconShop_HERO_72",
-                "TB_BaconShop_HERO_42",
-                "TB_BaconShop_HERO_76",
-                "BG26_HERO_104",
-                "BG22_HERO_201",
-                "TB_BaconShop_HERO_91",
-                "BG20_HERO_242",
-                "TB_BaconShop_HERO_58",
-                "TB_BaconShop_HERO_50",
-                "TB_BaconShop_HERO_41",
-                "TB_BaconShop_HERO_90",
-                "TB_BaconShop_HERO_56",
-                "TB_BaconShop_HERO_10",
-                "BG25_HERO_105",
-                "BG22_HERO_001",
+                "TB_BaconShop_HERO_55",
                 "BG20_HERO_283",
-                "BG21_HERO_010",
+                "TB_BaconShop_HERO_94",
+                "TB_BaconShop_HERO_11",
+                "TB_BaconShop_HERO_56",
                 "TB_BaconShop_HERO_74",
                 "BG22_HERO_002",
-                "TB_BaconShop_HERO_57",
-                "BG26_HERO_102",
-                "TB_BaconShop_HERO_39",
+                "TB_BaconShop_HERO_50",
+                "TB_BaconShop_HERO_35",
+                "BG22_HERO_201",
+                "TB_BaconShop_HERO_23",
+                "TB_BaconShop_HERO_76",
+                "TB_BaconShop_HERO_71",
+                "BG26_HERO_104",
                 "TB_BaconShop_HERO_45",
-                "BG20_HERO_202",
-                "TB_BaconShop_HERO_37",
-                "TB_BaconShop_HERO_53",
-                "TB_BaconShop_HERO_70",
-                "TB_BaconShop_HERO_22",
-                "TB_BaconShop_HERO_68",
-                "TB_BaconShop_HERO_11",
-                "TB_BaconShop_HERO_75",
-                "TB_BaconShop_HERO_43",
+                "BG32_HERO_001",
+                "BG31_HERO_005",
+                "TB_BaconShop_HERO_93",
+                "TB_BaconShop_HERO_40",
+                "TB_BaconShop_HERO_33",
+                "TB_BaconShop_HERO_28",
+                "BG28_HERO_400",
                 "TB_BaconShop_HERO_17",
-                "BG20_HERO_100",
-                "BG20_HERO_282",
-                "BG22_HERO_000",
-                "BG23_HERO_305",
+                "BG31_HERO_006",
+                "TB_BaconShop_HERO_78",
+                "BG21_HERO_010",
+                "BG20_HERO_101",
+                "BG31_HERO_802",
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_29",
+                "TB_BaconShop_HERO_92",
+                "BG24_HERO_204",
+                "BG25_HERO_103",
+                "TB_BaconShop_HERO_62",
+                "BG24_HERO_100",
+                "BG20_HERO_301",
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_43",
+                "BG27_HERO_801",
+                "TB_BaconShop_HERO_72",
+                "TB_BaconShop_HERO_14",
+                "TB_BaconShop_HERO_70",
+                "BG30_HERO_304",
+                "BG32_HERO_002",
+                "BG31_HERO_003",
+                "BG22_HERO_004",
+                "TB_BaconShop_HERO_41",
+                "TB_BaconShop_HERO_67",
+                "BG20_HERO_201",
+                "TB_BaconShop_HERO_21",
+                "TB_BaconShop_HERO_01",
                 "BG22_HERO_200",
+                "TB_BaconShop_HERO_22",
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_64",
+                "TB_BaconShop_HERO_42",
+                "BG20_HERO_242",
+                "TB_BaconShop_HERO_36",
+                "TB_BaconShop_HERO_10",
+                "TB_BaconShop_HERO_12",
+                "TB_BaconShop_HERO_15",
+                "TB_BaconShop_HERO_34",
+                "TB_BaconShop_HERO_16",
+                "BG20_HERO_103",
+                "BG23_HERO_303",
+                "BG25_HERO_105",
+                "TB_BaconShop_HERO_90",
+                "BG22_HERO_305",
+                "TB_BaconShop_HERO_68",
+                "BG23_HERO_201",
+                "BG22_HERO_003",
+                "BG31_HERO_811",
+                "TB_BaconShop_HERO_27",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_60",
+                "TB_BaconShop_HERO_25",
+                "BG28_HERO_800",
+                "TB_BaconShop_HERO_02",
+                "TB_BaconShop_HERO_702",
+                "BG28_HERO_801",
+                "BG23_HERO_304",
+                "BG20_HERO_202",
+                "TB_BaconShop_HERO_38",
+                "BG22_HERO_000",
+                "TB_BaconShop_HERO_91",
+                "TB_BaconShop_HERO_57",
+                "BG20_HERO_102",
+                "TB_BaconShop_HERO_75",
                 "BG23_HERO_306",
-                "TB_BaconShop_HERO_55",
+                "BG20_HERO_280",
+                "BG22_HERO_001",
                 "BG21_HERO_000",
-                "BG20_HERO_102"
+                "BG26_HERO_101",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_58",
+                "BG20_HERO_282",
+                "TB_BaconShop_HERO_08",
+                "BG25_HERO_100",
+                "TB_BaconShop_HERO_18",
+                "BG26_HERO_102",
+                "BG23_HERO_305",
+                "BG21_HERO_030",
+                "TB_BaconShop_HERO_39",
+                "TB_BaconShop_HERO_49"
+            ]
+        }
+    },
+    "BGDUO_MagicItem_008": {
+        "bgsMinionTypesRules": {
+            "bannedForHeroes": [
+                "BG20_HERO_100",
+                "BG21_HERO_020",
+                "TB_BaconShop_HERO_55",
+                "BG20_HERO_283",
+                "TB_BaconShop_HERO_94",
+                "TB_BaconShop_HERO_11",
+                "TB_BaconShop_HERO_56",
+                "TB_BaconShop_HERO_74",
+                "BG22_HERO_002",
+                "TB_BaconShop_HERO_50",
+                "TB_BaconShop_HERO_35",
+                "BG22_HERO_201",
+                "TB_BaconShop_HERO_23",
+                "TB_BaconShop_HERO_76",
+                "TB_BaconShop_HERO_71",
+                "BG26_HERO_104",
+                "TB_BaconShop_HERO_45",
+                "TB_BaconShop_HERO_93",
+                "TB_BaconShop_HERO_40",
+                "TB_BaconShop_HERO_33",
+                "TB_BaconShop_HERO_28",
+                "TB_BaconShop_HERO_17",
+                "BG31_HERO_006",
+                "TB_BaconShop_HERO_78",
+                "BG21_HERO_010",
+                "BG20_HERO_101",
+                "BG31_HERO_802",
+                "TB_BaconShop_HERO_29",
+                "TB_BaconShop_HERO_92",
+                "BG24_HERO_204",
+                "BG25_HERO_103",
+                "TB_BaconShop_HERO_62",
+                "BG24_HERO_100",
+                "BG20_HERO_301",
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_43",
+                "TB_BaconShop_HERO_72",
+                "TB_BaconShop_HERO_14",
+                "TB_BaconShop_HERO_70",
+                "BG30_HERO_304",
+                "BG32_HERO_002",
+                "BG31_HERO_003",
+                "BG22_HERO_004",
+                "TB_BaconShop_HERO_41",
+                "TB_BaconShop_HERO_67",
+                "BG20_HERO_201",
+                "TB_BaconShop_HERO_21",
+                "TB_BaconShop_HERO_01",
+                "BG22_HERO_200",
+                "TB_BaconShop_HERO_22",
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_64",
+                "TB_BaconShop_HERO_42",
+                "BG20_HERO_242",
+                "TB_BaconShop_HERO_36",
+                "TB_BaconShop_HERO_10",
+                "TB_BaconShop_HERO_12",
+                "TB_BaconShop_HERO_15",
+                "TB_BaconShop_HERO_34",
+                "TB_BaconShop_HERO_16",
+                "BG20_HERO_103",
+                "BG23_HERO_303",
+                "TB_BaconShop_HERO_90",
+                "BG22_HERO_305",
+                "TB_BaconShop_HERO_68",
+                "BG23_HERO_201",
+                "BG22_HERO_003",
+                "BG31_HERO_811",
+                "TB_BaconShop_HERO_27",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_60",
+                "TB_BaconShop_HERO_25",
+                "BG28_HERO_800",
+                "TB_BaconShop_HERO_02",
+                "TB_BaconShop_HERO_702",
+                "BG28_HERO_801",
+                "BG23_HERO_304",
+                "BG20_HERO_202",
+                "TB_BaconShop_HERO_38",
+                "BG22_HERO_000",
+                "TB_BaconShop_HERO_91",
+                "TB_BaconShop_HERO_57",
+                "BG20_HERO_102",
+                "TB_BaconShop_HERO_75",
+                "BG23_HERO_306",
+                "BG20_HERO_280",
+                "BG22_HERO_001",
+                "BG26_HERO_101",
+                "BG31_HERO_801",
+                "BG20_HERO_282",
+                "TB_BaconShop_HERO_08",
+                "BG25_HERO_100",
+                "TB_BaconShop_HERO_18",
+                "BG26_HERO_102",
+                "BG23_HERO_305",
+                "BG21_HERO_030",
+                "TB_BaconShop_HERO_39",
+                "TB_BaconShop_HERO_49"
+            ]
+        }
+    },
+    "BGDUO_MagicItem_010t": {
+        "bgsMinionTypesRules": {
+            "bannedForHeroes": [
+                "BG20_HERO_100",
+                "BG21_HERO_020",
+                "TB_BaconShop_HERO_55",
+                "BG20_HERO_283",
+                "TB_BaconShop_HERO_94",
+                "TB_BaconShop_HERO_11",
+                "TB_BaconShop_HERO_56",
+                "TB_BaconShop_HERO_74",
+                "BG22_HERO_002",
+                "TB_BaconShop_HERO_50",
+                "TB_BaconShop_HERO_35",
+                "BG22_HERO_201",
+                "TB_BaconShop_HERO_23",
+                "TB_BaconShop_HERO_76",
+                "TB_BaconShop_HERO_71",
+                "BG26_HERO_104",
+                "TB_BaconShop_HERO_45",
+                "BG31_HERO_005",
+                "TB_BaconShop_HERO_93",
+                "TB_BaconShop_HERO_40",
+                "TB_BaconShop_HERO_33",
+                "TB_BaconShop_HERO_28",
+                "TB_BaconShop_HERO_17",
+                "BG31_HERO_006",
+                "TB_BaconShop_HERO_78",
+                "BG21_HERO_010",
+                "BG20_HERO_101",
+                "BG31_HERO_802",
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_29",
+                "TB_BaconShop_HERO_92",
+                "BG24_HERO_204",
+                "BG25_HERO_103",
+                "TB_BaconShop_HERO_62",
+                "BG24_HERO_100",
+                "BG20_HERO_301",
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_43",
+                "BG27_HERO_801",
+                "TB_BaconShop_HERO_72",
+                "TB_BaconShop_HERO_14",
+                "TB_BaconShop_HERO_70",
+                "BG30_HERO_304",
+                "BG32_HERO_002",
+                "BG31_HERO_003",
+                "BG22_HERO_004",
+                "TB_BaconShop_HERO_41",
+                "TB_BaconShop_HERO_67",
+                "BG20_HERO_201",
+                "TB_BaconShop_HERO_21",
+                "TB_BaconShop_HERO_01",
+                "BG22_HERO_200",
+                "TB_BaconShop_HERO_22",
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_64",
+                "TB_BaconShop_HERO_42",
+                "BG20_HERO_242",
+                "TB_BaconShop_HERO_36",
+                "TB_BaconShop_HERO_10",
+                "TB_BaconShop_HERO_12",
+                "TB_BaconShop_HERO_15",
+                "TB_BaconShop_HERO_34",
+                "TB_BaconShop_HERO_16",
+                "BG20_HERO_103",
+                "BG23_HERO_303",
+                "BG25_HERO_105",
+                "TB_BaconShop_HERO_90",
+                "BG22_HERO_305",
+                "TB_BaconShop_HERO_68",
+                "BG23_HERO_201",
+                "BG22_HERO_003",
+                "BG31_HERO_811",
+                "TB_BaconShop_HERO_27",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_60",
+                "TB_BaconShop_HERO_25",
+                "BG28_HERO_800",
+                "TB_BaconShop_HERO_02",
+                "TB_BaconShop_HERO_702",
+                "BG28_HERO_801",
+                "BG23_HERO_304",
+                "BG20_HERO_202",
+                "TB_BaconShop_HERO_38",
+                "BG22_HERO_000",
+                "TB_BaconShop_HERO_91",
+                "TB_BaconShop_HERO_57",
+                "BG20_HERO_102",
+                "TB_BaconShop_HERO_75",
+                "BG23_HERO_306",
+                "BG20_HERO_280",
+                "BG22_HERO_001",
+                "BG21_HERO_000",
+                "BG26_HERO_101",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_58",
+                "TB_BaconShop_HERO_08",
+                "BG25_HERO_100",
+                "TB_BaconShop_HERO_18",
+                "BG26_HERO_102",
+                "BG23_HERO_305",
+                "BG21_HERO_030",
+                "TB_BaconShop_HERO_39",
+                "TB_BaconShop_HERO_49"
             ]
         }
     },
@@ -5066,9 +5466,6 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG23_HERO_304"
-            ],
-            "bannedForHeroes": [
-                "BG20_HERO_301"
             ]
         }
     },
@@ -5487,24 +5884,12 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG25_HERO_100"
-            ]
-        }
-    },
-    "BG32_MagicItem_801": {
-        "bgsMinionTypesRules": {
-            "needTypesInLobby": [
-                "DRAGON",
-                "MURLOC",
-                "DEMON",
-                "NAGA"
             ],
-            "alwaysAvailableForHeroes": [
-                "TB_BaconShop_HERO_25",
-                "TB_BaconShop_HERO_37",
+            "bannedForHeroes": [
                 "TB_BaconShop_HERO_53",
-                "TB_BaconShop_HERO_55",
-                "TB_BaconShop_HERO_56",
-                "BG23_HERO_304"
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_18",
+                "BG21_HERO_030"
             ]
         }
     },
@@ -5515,6 +5900,10 @@
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_78"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_71",
+                "TB_BaconShop_HERO_10"
             ]
         }
     },
@@ -5525,6 +5914,10 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG20_HERO_103"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -5535,6 +5928,114 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG20_HERO_103"
+            ],
+            "bannedForHeroes": [
+                "BG20_HERO_100",
+                "BG21_HERO_020",
+                "TB_BaconShop_HERO_55",
+                "BG20_HERO_283",
+                "TB_BaconShop_HERO_94",
+                "TB_BaconShop_HERO_11",
+                "TB_BaconShop_HERO_56",
+                "TB_BaconShop_HERO_74",
+                "BG22_HERO_002",
+                "TB_BaconShop_HERO_50",
+                "TB_BaconShop_HERO_35",
+                "BG22_HERO_201",
+                "TB_BaconShop_HERO_23",
+                "TB_BaconShop_HERO_76",
+                "TB_BaconShop_HERO_71",
+                "BG26_HERO_104",
+                "TB_BaconShop_HERO_45",
+                "BG32_HERO_001",
+                "BG31_HERO_005",
+                "TB_BaconShop_HERO_93",
+                "TB_BaconShop_HERO_40",
+                "TB_BaconShop_HERO_33",
+                "TB_BaconShop_HERO_28",
+                "BG28_HERO_400",
+                "TB_BaconShop_HERO_17",
+                "BG31_HERO_006",
+                "TB_BaconShop_HERO_78",
+                "BG21_HERO_010",
+                "BG20_HERO_101",
+                "BG31_HERO_802",
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_29",
+                "TB_BaconShop_HERO_92",
+                "BG24_HERO_204",
+                "BG25_HERO_103",
+                "TB_BaconShop_HERO_62",
+                "BG24_HERO_100",
+                "BG20_HERO_301",
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_43",
+                "BG27_HERO_801",
+                "TB_BaconShop_HERO_72",
+                "TB_BaconShop_HERO_14",
+                "TB_BaconShop_HERO_70",
+                "BG30_HERO_304",
+                "BG32_HERO_002",
+                "BG31_HERO_003",
+                "BG22_HERO_004",
+                "TB_BaconShop_HERO_41",
+                "TB_BaconShop_HERO_67",
+                "BG20_HERO_201",
+                "TB_BaconShop_HERO_21",
+                "TB_BaconShop_HERO_01",
+                "BG22_HERO_200",
+                "TB_BaconShop_HERO_22",
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_64",
+                "TB_BaconShop_HERO_42",
+                "BG20_HERO_242",
+                "TB_BaconShop_HERO_36",
+                "TB_BaconShop_HERO_10",
+                "TB_BaconShop_HERO_12",
+                "TB_BaconShop_HERO_15",
+                "TB_BaconShop_HERO_34",
+                "TB_BaconShop_HERO_16",
+                "BG20_HERO_103",
+                "BG23_HERO_303",
+                "BG25_HERO_105",
+                "TB_BaconShop_HERO_90",
+                "BG22_HERO_305",
+                "TB_BaconShop_HERO_68",
+                "BG23_HERO_201",
+                "BG22_HERO_003",
+                "BG31_HERO_811",
+                "TB_BaconShop_HERO_27",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_60",
+                "TB_BaconShop_HERO_25",
+                "BG28_HERO_800",
+                "TB_BaconShop_HERO_02",
+                "TB_BaconShop_HERO_702",
+                "BG28_HERO_801",
+                "BG23_HERO_304",
+                "BG20_HERO_202",
+                "TB_BaconShop_HERO_38",
+                "BG22_HERO_000",
+                "TB_BaconShop_HERO_91",
+                "TB_BaconShop_HERO_57",
+                "BG20_HERO_102",
+                "TB_BaconShop_HERO_75",
+                "BG23_HERO_306",
+                "BG20_HERO_280",
+                "BG22_HERO_001",
+                "BG21_HERO_000",
+                "BG26_HERO_101",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_58",
+                "BG20_HERO_282",
+                "TB_BaconShop_HERO_08",
+                "BG25_HERO_100",
+                "TB_BaconShop_HERO_18",
+                "BG26_HERO_102",
+                "BG23_HERO_305",
+                "BG21_HERO_030",
+                "TB_BaconShop_HERO_39",
+                "TB_BaconShop_HERO_49"
             ]
         }
     },
@@ -5542,6 +6043,9 @@
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
                 "BEAST"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_23"
             ]
         }
     },
@@ -5552,6 +6056,10 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG20_HERO_103"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_37",
+                "BG31_HERO_801"
             ]
         }
     },
@@ -5565,24 +6073,9 @@
                 "BG31_HERO_802",
                 "TB_BaconShop_HERO_17",
                 "BG22_HERO_200"
-            ]
-        }
-    },
-    "BG32_MagicItem_801t": {
-        "bgsMinionTypesRules": {
-            "needTypesInLobby": [
-                "DRAGON",
-                "MURLOC",
-                "DEMON",
-                "NAGA"
             ],
-            "alwaysAvailableForHeroes": [
-                "TB_BaconShop_HERO_25",
-                "TB_BaconShop_HERO_37",
-                "TB_BaconShop_HERO_53",
-                "TB_BaconShop_HERO_55",
-                "TB_BaconShop_HERO_56",
-                "BG23_HERO_304"
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_95"
             ]
         }
     },
@@ -5593,6 +6086,10 @@
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_78"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_71",
+                "TB_BaconShop_HERO_10"
             ]
         }
     },
@@ -5707,6 +6204,9 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG23_HERO_304"
+            ],
+            "bannedForHeroes": [
+                "BG20_HERO_301"
             ]
         }
     },
@@ -5717,6 +6217,9 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG23_HERO_304"
+            ],
+            "bannedForHeroes": [
+                "BG20_HERO_301"
             ]
         }
     },
@@ -5727,6 +6230,9 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG23_HERO_304"
+            ],
+            "bannedForHeroes": [
+                "BG20_HERO_301"
             ]
         }
     },
@@ -5737,16 +6243,9 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG23_HERO_304"
-            ]
-        }
-    },
-    "BG32_MagicItem_935": {
-        "bgsMinionTypesRules": {
-            "needTypesInLobby": [
-                "NAGA"
             ],
-            "alwaysAvailableForHeroes": [
-                "BG23_HERO_304"
+            "bannedForHeroes": [
+                "BG20_HERO_301"
             ]
         }
     },
@@ -5757,6 +6256,9 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG23_HERO_304"
+            ],
+            "bannedForHeroes": [
+                "BG20_HERO_301"
             ]
         }
     },
@@ -5767,18 +6269,22 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG23_HERO_304"
+            ],
+            "bannedForHeroes": [
+                "BG20_HERO_301"
             ]
         }
     },
     "BG32_MagicItem_922": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
-                "QUILBOAR",
                 "NAGA"
             ],
             "alwaysAvailableForHeroes": [
-                "BG20_HERO_103",
                 "BG23_HERO_304"
+            ],
+            "bannedForHeroes": [
+                "BG20_HERO_301"
             ]
         }
     },
@@ -5872,6 +6378,114 @@
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_25",
                 "TB_BaconShop_HERO_37"
+            ],
+            "bannedForHeroes": [
+                "BG20_HERO_100",
+                "BG21_HERO_020",
+                "TB_BaconShop_HERO_55",
+                "BG20_HERO_283",
+                "TB_BaconShop_HERO_94",
+                "TB_BaconShop_HERO_11",
+                "TB_BaconShop_HERO_56",
+                "TB_BaconShop_HERO_74",
+                "BG22_HERO_002",
+                "TB_BaconShop_HERO_50",
+                "TB_BaconShop_HERO_35",
+                "BG22_HERO_201",
+                "TB_BaconShop_HERO_23",
+                "TB_BaconShop_HERO_76",
+                "TB_BaconShop_HERO_71",
+                "BG26_HERO_104",
+                "TB_BaconShop_HERO_45",
+                "BG32_HERO_001",
+                "BG31_HERO_005",
+                "TB_BaconShop_HERO_93",
+                "TB_BaconShop_HERO_40",
+                "TB_BaconShop_HERO_33",
+                "TB_BaconShop_HERO_28",
+                "BG28_HERO_400",
+                "TB_BaconShop_HERO_17",
+                "BG31_HERO_006",
+                "TB_BaconShop_HERO_78",
+                "BG21_HERO_010",
+                "BG20_HERO_101",
+                "BG31_HERO_802",
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_29",
+                "TB_BaconShop_HERO_92",
+                "BG24_HERO_204",
+                "BG25_HERO_103",
+                "TB_BaconShop_HERO_62",
+                "BG24_HERO_100",
+                "BG20_HERO_301",
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_43",
+                "BG27_HERO_801",
+                "TB_BaconShop_HERO_72",
+                "TB_BaconShop_HERO_14",
+                "TB_BaconShop_HERO_70",
+                "BG30_HERO_304",
+                "BG32_HERO_002",
+                "BG31_HERO_003",
+                "BG22_HERO_004",
+                "TB_BaconShop_HERO_41",
+                "TB_BaconShop_HERO_67",
+                "BG20_HERO_201",
+                "TB_BaconShop_HERO_21",
+                "TB_BaconShop_HERO_01",
+                "BG22_HERO_200",
+                "TB_BaconShop_HERO_22",
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_64",
+                "TB_BaconShop_HERO_42",
+                "BG20_HERO_242",
+                "TB_BaconShop_HERO_36",
+                "TB_BaconShop_HERO_10",
+                "TB_BaconShop_HERO_12",
+                "TB_BaconShop_HERO_15",
+                "TB_BaconShop_HERO_34",
+                "TB_BaconShop_HERO_16",
+                "BG20_HERO_103",
+                "BG23_HERO_303",
+                "BG25_HERO_105",
+                "TB_BaconShop_HERO_90",
+                "BG22_HERO_305",
+                "TB_BaconShop_HERO_68",
+                "BG23_HERO_201",
+                "BG22_HERO_003",
+                "BG31_HERO_811",
+                "TB_BaconShop_HERO_27",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_60",
+                "TB_BaconShop_HERO_25",
+                "BG28_HERO_800",
+                "TB_BaconShop_HERO_02",
+                "TB_BaconShop_HERO_702",
+                "BG28_HERO_801",
+                "BG23_HERO_304",
+                "BG20_HERO_202",
+                "TB_BaconShop_HERO_38",
+                "BG22_HERO_000",
+                "TB_BaconShop_HERO_91",
+                "TB_BaconShop_HERO_57",
+                "BG20_HERO_102",
+                "TB_BaconShop_HERO_75",
+                "BG23_HERO_306",
+                "BG20_HERO_280",
+                "BG22_HERO_001",
+                "BG21_HERO_000",
+                "BG26_HERO_101",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_58",
+                "BG20_HERO_282",
+                "TB_BaconShop_HERO_08",
+                "BG25_HERO_100",
+                "TB_BaconShop_HERO_18",
+                "BG26_HERO_102",
+                "BG23_HERO_305",
+                "BG21_HERO_030",
+                "TB_BaconShop_HERO_39",
+                "TB_BaconShop_HERO_49"
             ]
         }
     },
@@ -5883,6 +6497,11 @@
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_25",
                 "TB_BaconShop_HERO_37"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_53",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -5893,6 +6512,10 @@
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_78"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_71",
+                "TB_BaconShop_HERO_10"
             ]
         }
     },
@@ -5920,6 +6543,10 @@
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
                 "BEAST"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_23",
+                "BG22_HERO_305"
             ]
         }
     },
@@ -5933,6 +6560,9 @@
                 "BG31_HERO_802",
                 "TB_BaconShop_HERO_17",
                 "BG22_HERO_200"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_95"
             ]
         }
     },
@@ -5943,6 +6573,10 @@
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_78"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_71",
+                "TB_BaconShop_HERO_10"
             ]
         }
     },
@@ -5985,6 +6619,14 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG25_HERO_100"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_17",
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_37",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_18",
+                "BG21_HERO_030"
             ]
         }
     },
@@ -5998,6 +6640,10 @@
                 "BG31_HERO_802",
                 "TB_BaconShop_HERO_17",
                 "BG22_HERO_200"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_37"
             ]
         }
     },
@@ -6011,6 +6657,9 @@
                 "BG31_HERO_802",
                 "TB_BaconShop_HERO_17",
                 "BG22_HERO_200"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_95"
             ]
         }
     },
@@ -6024,6 +6673,10 @@
                 "BG31_HERO_802",
                 "TB_BaconShop_HERO_17",
                 "BG22_HERO_200"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -6057,6 +6710,12 @@
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_53",
                 "TB_BaconShop_HERO_56"
+            ],
+            "bannedForHeroes": [
+                "BG22_HERO_000",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_08",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -6081,6 +6740,11 @@
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_53",
                 "TB_BaconShop_HERO_56"
+            ],
+            "bannedForHeroes": [
+                "BG22_HERO_000",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_08"
             ]
         }
     },
@@ -6111,6 +6775,10 @@
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_55"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_37"
             ]
         }
     },
@@ -6118,6 +6786,9 @@
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
                 "BEAST"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_23"
             ]
         }
     },
@@ -6128,6 +6799,10 @@
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_78"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_71",
+                "TB_BaconShop_HERO_10"
             ]
         }
     },
@@ -6146,6 +6821,9 @@
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
                 "BEAST"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_23"
             ]
         }
     },
@@ -6168,6 +6846,112 @@
             "alwaysAvailableForHeroes": [
                 "BG26_HERO_101",
                 "TB_BaconShop_HERO_18"
+            ],
+            "bannedForHeroes": [
+                "BG20_HERO_100",
+                "BG21_HERO_020",
+                "TB_BaconShop_HERO_55",
+                "BG20_HERO_283",
+                "TB_BaconShop_HERO_94",
+                "TB_BaconShop_HERO_11",
+                "TB_BaconShop_HERO_56",
+                "TB_BaconShop_HERO_74",
+                "BG22_HERO_002",
+                "TB_BaconShop_HERO_50",
+                "TB_BaconShop_HERO_35",
+                "BG22_HERO_201",
+                "TB_BaconShop_HERO_23",
+                "TB_BaconShop_HERO_76",
+                "TB_BaconShop_HERO_71",
+                "BG26_HERO_104",
+                "TB_BaconShop_HERO_45",
+                "BG32_HERO_001",
+                "BG31_HERO_005",
+                "TB_BaconShop_HERO_93",
+                "TB_BaconShop_HERO_40",
+                "TB_BaconShop_HERO_33",
+                "TB_BaconShop_HERO_28",
+                "BG28_HERO_400",
+                "TB_BaconShop_HERO_17",
+                "BG31_HERO_006",
+                "TB_BaconShop_HERO_78",
+                "BG21_HERO_010",
+                "BG20_HERO_101",
+                "BG31_HERO_802",
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_29",
+                "TB_BaconShop_HERO_92",
+                "BG24_HERO_204",
+                "BG25_HERO_103",
+                "TB_BaconShop_HERO_62",
+                "BG24_HERO_100",
+                "BG20_HERO_301",
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_43",
+                "BG27_HERO_801",
+                "TB_BaconShop_HERO_72",
+                "TB_BaconShop_HERO_14",
+                "TB_BaconShop_HERO_70",
+                "BG30_HERO_304",
+                "BG32_HERO_002",
+                "BG31_HERO_003",
+                "BG22_HERO_004",
+                "TB_BaconShop_HERO_41",
+                "TB_BaconShop_HERO_67",
+                "BG20_HERO_201",
+                "TB_BaconShop_HERO_21",
+                "TB_BaconShop_HERO_01",
+                "BG22_HERO_200",
+                "TB_BaconShop_HERO_22",
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_64",
+                "TB_BaconShop_HERO_42",
+                "BG20_HERO_242",
+                "TB_BaconShop_HERO_36",
+                "TB_BaconShop_HERO_10",
+                "TB_BaconShop_HERO_12",
+                "TB_BaconShop_HERO_15",
+                "TB_BaconShop_HERO_34",
+                "TB_BaconShop_HERO_16",
+                "BG20_HERO_103",
+                "BG23_HERO_303",
+                "BG25_HERO_105",
+                "TB_BaconShop_HERO_90",
+                "BG22_HERO_305",
+                "TB_BaconShop_HERO_68",
+                "BG23_HERO_201",
+                "BG22_HERO_003",
+                "TB_BaconShop_HERO_27",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_60",
+                "TB_BaconShop_HERO_25",
+                "BG28_HERO_800",
+                "TB_BaconShop_HERO_02",
+                "TB_BaconShop_HERO_702",
+                "BG28_HERO_801",
+                "BG20_HERO_202",
+                "TB_BaconShop_HERO_38",
+                "BG22_HERO_000",
+                "TB_BaconShop_HERO_91",
+                "TB_BaconShop_HERO_57",
+                "BG20_HERO_102",
+                "TB_BaconShop_HERO_75",
+                "BG23_HERO_306",
+                "BG20_HERO_280",
+                "BG22_HERO_001",
+                "BG21_HERO_000",
+                "BG26_HERO_101",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_58",
+                "BG20_HERO_282",
+                "TB_BaconShop_HERO_08",
+                "BG25_HERO_100",
+                "TB_BaconShop_HERO_18",
+                "BG26_HERO_102",
+                "BG23_HERO_305",
+                "BG21_HERO_030",
+                "TB_BaconShop_HERO_39",
+                "TB_BaconShop_HERO_49"
             ]
         }
     },
@@ -6179,6 +6963,10 @@
             "alwaysAvailableForHeroes": [
                 "BG26_HERO_101",
                 "TB_BaconShop_HERO_18"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_95",
+                "BG31_HERO_801"
             ]
         }
     },
@@ -6210,6 +6998,9 @@
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_55"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_52"
             ]
         }
     },
@@ -6221,6 +7012,11 @@
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_53",
                 "TB_BaconShop_HERO_56"
+            ],
+            "bannedForHeroes": [
+                "BG22_HERO_000",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_08"
             ]
         }
     },
@@ -6232,6 +7028,10 @@
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_25",
                 "TB_BaconShop_HERO_37"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -6243,6 +7043,10 @@
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_25",
                 "TB_BaconShop_HERO_37"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -6265,6 +7069,9 @@
             "alwaysAvailableForHeroes": [
                 "BG26_HERO_101",
                 "TB_BaconShop_HERO_18"
+            ],
+            "bannedForHeroes": [
+                "BG25_HERO_100"
             ]
         }
     },
@@ -6291,17 +7098,6 @@
             ]
         }
     },
-    "BG32_MagicItem_270": {
-        "bgsMinionTypesRules": {
-            "needTypesInLobby": [
-                "BEAST",
-                "UNDEAD"
-            ],
-            "alwaysAvailableForHeroes": [
-                "BG25_HERO_100"
-            ]
-        }
-    },
     "BG32_MagicItem_419": {
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
@@ -6310,17 +7106,15 @@
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_53",
                 "TB_BaconShop_HERO_56"
-            ]
-        }
-    },
-    "BG32_MagicItem_270t": {
-        "bgsMinionTypesRules": {
-            "needTypesInLobby": [
-                "BEAST",
-                "UNDEAD"
             ],
-            "alwaysAvailableForHeroes": [
-                "BG25_HERO_100"
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_17",
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_37",
+                "BG22_HERO_000",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_08",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -6331,6 +7125,9 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG20_HERO_103"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_37"
             ]
         }
     },
@@ -6353,6 +7150,10 @@
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_25",
                 "TB_BaconShop_HERO_37"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_56",
+                "BG31_HERO_801"
             ]
         }
     },
@@ -6364,6 +7165,13 @@
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_53",
                 "TB_BaconShop_HERO_56"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_95",
+                "BG22_HERO_000",
+                "BG31_HERO_801",
+                "TB_BaconShop_HERO_08",
+                "BG25_HERO_100"
             ]
         }
     },
@@ -6398,6 +7206,11 @@
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_55"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -6408,6 +7221,10 @@
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_55"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_37"
             ]
         }
     },
@@ -6429,6 +7246,10 @@
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_78"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_71",
+                "TB_BaconShop_HERO_10"
             ]
         }
     },
@@ -6439,6 +7260,16 @@
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_55"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_52"
+            ]
+        }
+    },
+    "BG32_MagicItem_271": {
+        "bgsMinionTypesRules": {
+            "bannedForHeroes": [
+                "BG32_HERO_002"
             ]
         }
     },
@@ -6449,6 +7280,13 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG25_HERO_100"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_78",
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_18",
+                "BG21_HERO_030"
             ]
         }
     },
@@ -6462,6 +7300,12 @@
                 "BG31_HERO_802",
                 "TB_BaconShop_HERO_17",
                 "BG22_HERO_200"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_71",
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_95",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -6472,6 +7316,12 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG20_HERO_103"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_37",
+                "BG26_HERO_101",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -6485,6 +7335,9 @@
                 "BG31_HERO_802",
                 "TB_BaconShop_HERO_17",
                 "BG22_HERO_200"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_95"
             ]
         }
     },
@@ -6498,6 +7351,9 @@
                 "BG31_HERO_802",
                 "TB_BaconShop_HERO_17",
                 "BG22_HERO_200"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_95"
             ]
         }
     },
@@ -6508,6 +7364,10 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG20_HERO_103"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_37"
             ]
         }
     },
@@ -6525,6 +7385,12 @@
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_55"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_17",
+                "TB_BaconShop_HERO_78",
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_37"
             ]
         }
     },
@@ -6535,6 +7401,10 @@
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_55"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_37"
             ]
         }
     },
@@ -6545,6 +7415,10 @@
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_55"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -6555,6 +7429,13 @@
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_55"
+            ],
+            "bannedForHeroes": [
+                "BG22_HERO_200",
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_37",
+                "BG26_HERO_101",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },
@@ -6577,6 +7458,11 @@
         "bgsMinionTypesRules": {
             "needTypesInLobby": [
                 "BEAST"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_23",
+                "BG22_HERO_305",
+                "TB_BaconShop_HERO_37"
             ]
         }
     },
@@ -6609,6 +7495,10 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG25_HERO_100"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_53",
+                "BG21_HERO_030"
             ]
         }
     },
@@ -6629,6 +7519,10 @@
             ],
             "alwaysAvailableForHeroes": [
                 "BG25_HERO_100"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_53",
+                "BG21_HERO_030"
             ]
         }
     },
@@ -6653,6 +7547,10 @@
                 "BG31_HERO_802",
                 "TB_BaconShop_HERO_17",
                 "BG22_HERO_200"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_53",
+                "TB_BaconShop_HERO_95"
             ]
         }
     },
@@ -6663,6 +7561,11 @@
             ],
             "alwaysAvailableForHeroes": [
                 "TB_BaconShop_HERO_55"
+            ],
+            "bannedForHeroes": [
+                "TB_BaconShop_HERO_52",
+                "TB_BaconShop_HERO_37",
+                "TB_BaconShop_HERO_18"
             ]
         }
     },

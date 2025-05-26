@@ -3775,4 +3775,5 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.RangerGilly_VAC_413]: [CardIds.RangerGilly_IslandCrocoliskToken_VAC_413t],
 	[CardIds.ToolsOfTheTrade]: [CardIds.BlunderbussToken, CardIds.HandgonneToken, CardIds.StakeThrowerToken],
+	[CardIds.Shadowdancer_BG32_891]: [CardIds.StaffOfEnrichment_BG28_886],
 };
