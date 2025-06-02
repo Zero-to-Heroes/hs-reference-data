@@ -56,6 +56,8 @@ export const formatGameType = (gameType: GameType): string => {
 			return 'tutorial';
 		case GameType.GT_ARENA:
 			return 'arena';
+		case GameType.GT_UNDERGROUND_ARENA:
+			return 'arena-underground';
 		case GameType.GT_RANKED:
 			return 'ranked';
 		case GameType.GT_CASUAL:
@@ -110,6 +112,8 @@ export const formatGameTypeReverse = (gameType: string): GameType => {
 			return GameType.GT_TUTORIAL;
 		case 'arena':
 			return GameType.GT_ARENA;
+		case 'arena-underground':
+			return GameType.GT_UNDERGROUND_ARENA;
 		case 'ranked':
 			return GameType.GT_RANKED;
 		case 'casual':
@@ -168,6 +172,14 @@ export const getDefaultHeroDbfIdForClass = (playerClass: string): number => {
 			console.warn('Could not normalize hero card id', playerClass);
 			return 7;
 	}
+};
+
+export const isArena = (gameType: GameType | string): boolean => {
+	return (
+		[GameType.GT_ARENA, GameType.GT_UNDERGROUND_ARENA].includes(gameType as GameType) ||
+		gameType === 'arena' ||
+		gameType === 'arena-underground'
+	);
 };
 
 export const normalizeDeckHeroDbfId = (

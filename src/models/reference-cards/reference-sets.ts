@@ -400,13 +400,13 @@ export const twistSets: readonly SetId[] = twistBaseSets
 	.map((setId) => setId as SetId);
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 const arenaBaseSets: readonly SetId[] = [
-	'into_the_emerald_dream',
-	'wild_west',
-	'the_sunken_city',
-	'the_barrens',
-	'scholomance',
-	'core',
-	'gift',
+	// 'into_the_emerald_dream',
+	// 'wild_west',
+	// 'the_sunken_city',
+	// 'the_barrens',
+	// 'scholomance',
+	// 'core',
+	// 'gift',
 ];
 export const arenaSets: readonly SetId[] = arenaBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
@@ -418,6 +418,7 @@ export const vanillaSets: readonly SetId[] = ['vanilla'];
 export const isValidSet = (set: SetId, format: GameFormat, gameType: GameType): boolean => {
 	switch (gameType) {
 		case GameType.GT_ARENA:
+		case GameType.GT_UNDERGROUND_ARENA:
 			return arenaSets.includes(set);
 	}
 	switch (format) {
