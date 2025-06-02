@@ -1,6 +1,7 @@
 import { GameFormat, GameType } from '../../public-api';
 
 export type SetId =
+	| 'lost_city_of_ungoro'
 	| 'embers_of_the_world_tree'
 	| 'into_the_emerald_dream'
 	| 'gift'
@@ -66,6 +67,11 @@ export interface ReferenceSet {
 }
 
 export const sets: readonly ReferenceSet[] = [
+	{
+		id: 'lost_city_of_ungoro',
+		name: `The Lost City of Un'Goro`,
+		launchDate: new Date('2025-07-08'),
+	},
 	{
 		id: 'embers_of_the_world_tree',
 		name: `Embers of the World Tree`,
@@ -376,6 +382,7 @@ const standardBaseSets: readonly SetId[] = [
 	'perils_in_paradise',
 	'great_dark_beyond',
 	'into_the_emerald_dream',
+	'lost_city_of_ungoro',
 ];
 export const standardSets: readonly SetId[] = standardBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
