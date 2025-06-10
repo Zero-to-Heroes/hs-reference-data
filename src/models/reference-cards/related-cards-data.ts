@@ -415,6 +415,7 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.DancingCobra]: [CardIds.DancingCobra_DancingCobraToken],
 	[CardIds.DarkAlleyPact]: [CardIds.DarkAlleyPact_FiendToken],
+	[CardIds.DarkAlleyPact_CORE_SW_085]: [CardIds.DarkAlleyPact_FiendToken],
 	[CardIds.DarkbishopBenedictusCore]: [CardIds.Shadowform],
 	[CardIds.DarkbishopBenedictus]: [CardIds.Shadowform],
 	[CardIds.ShadowformLegacy]: [CardIds.Shadowform_MindShatterLegacyToken, CardIds.Shadowform_MindSpikeLegacyToken],
@@ -3778,4 +3779,5 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.Shadowdancer_BG32_891]: [CardIds.StaffOfEnrichment_BG28_886],
 	[CardIds.DrustfallenButcher_BG32_324]: [CardIds.Butchering_BG28_604],
 	[CardIds.DrustfallenButcher_BG32_324_G]: [CardIds.Butchering_BG28_604],
+	[CardIds.VelarokWindblade_WW_364]: [CardIds.VelarokWindblade_VelarokTheDeceiverToken_WW_364t],
 };
