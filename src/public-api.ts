@@ -15,6 +15,7 @@ export * from './enums/card-type';
 export * from './enums/choice-type';
 export * from './enums/custom-tags';
 export * from './enums/dk-rune-type';
+export * from './enums/draft-mode';
 export * from './enums/draft-slot-type';
 export * from './enums/dungeon-crawl-option-type';
 export * from './enums/faction';
