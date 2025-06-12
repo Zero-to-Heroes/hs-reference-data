@@ -3737,6 +3737,13 @@ export const RELATED_CARDS_DATA: {
 		CardIds.DreamboundDisciple_BlessingOfTheGolem_EDR_847p,
 		CardIds.LunarwingMessenger_BlessingOfTheMoon_EDR_449p,
 	],
+	[CardIds.FleeingTreant_EDR_500]: [
+		CardIds.BlessingOfTheDragon_EDR_445p,
+		CardIds.BlessingOfTheWolf_EDR_850p,
+		CardIds.BlessingOfTheWind_EDR_448p,
+		CardIds.DreamboundDisciple_BlessingOfTheGolem_EDR_847p,
+		CardIds.LunarwingMessenger_BlessingOfTheMoon_EDR_449p,
+	],
 	[CardIds.BitterbloomKnight_EDR_852]: [
 		CardIds.BlessingOfTheDragon_EDR_445p,
 		CardIds.BlessingOfTheWolf_EDR_850p,

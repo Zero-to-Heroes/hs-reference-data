@@ -3,6 +3,7 @@
  */
 
 export * from './card-ids';
+export * from './enums/arena-client-state-type';
 export * from './enums/block-type';
 export * from './enums/bnet-region';
 export * from './enums/board';
