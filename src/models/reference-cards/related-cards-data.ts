@@ -213,6 +213,15 @@ const DARK_GIFTS = [
 	CardIds.HarpysTalonsToken_EDR_100t13,
 ];
 
+const IMBUED_HERO_POWERS = [
+	CardIds.BlessingOfTheDragon_EDR_445p,
+	CardIds.BlessingOfTheWolf_EDR_850p,
+	CardIds.BlessingOfTheWind_EDR_448p,
+	CardIds.DreamboundDisciple_BlessingOfTheGolem_EDR_847p,
+	CardIds.LunarwingMessenger_BlessingOfTheMoon_EDR_449p,
+	CardIds.BlessingOfTheWisp_EDR_851p,
+];
+
 export type RelatedCardExtractor = (cards: readonly ReferenceCard[]) => readonly string[];
 
 export const RELATED_CARDS_DATA: {
@@ -3730,27 +3739,9 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.ForestLordCenarius_AncientsOfTheDream_EDR_209b]: [CardIds.ForestLordCenarius_AncientToken_EDR_209t5],
 	[CardIds.WebOfDeception_EDR_523]: [CardIds.WebOfDeception_SkitteringSpiderlingToken_EDR_523t],
-	[CardIds.FlutterwingGuardian_EDR_800]: [
-		CardIds.BlessingOfTheDragon_EDR_445p,
-		CardIds.BlessingOfTheWolf_EDR_850p,
-		CardIds.BlessingOfTheWind_EDR_448p,
-		CardIds.DreamboundDisciple_BlessingOfTheGolem_EDR_847p,
-		CardIds.LunarwingMessenger_BlessingOfTheMoon_EDR_449p,
-	],
-	[CardIds.FleeingTreant_EDR_500]: [
-		CardIds.BlessingOfTheDragon_EDR_445p,
-		CardIds.BlessingOfTheWolf_EDR_850p,
-		CardIds.BlessingOfTheWind_EDR_448p,
-		CardIds.DreamboundDisciple_BlessingOfTheGolem_EDR_847p,
-		CardIds.LunarwingMessenger_BlessingOfTheMoon_EDR_449p,
-	],
-	[CardIds.BitterbloomKnight_EDR_852]: [
-		CardIds.BlessingOfTheDragon_EDR_445p,
-		CardIds.BlessingOfTheWolf_EDR_850p,
-		CardIds.BlessingOfTheWind_EDR_448p,
-		CardIds.DreamboundDisciple_BlessingOfTheGolem_EDR_847p,
-		CardIds.LunarwingMessenger_BlessingOfTheMoon_EDR_449p,
-	],
+	[CardIds.FlutterwingGuardian_EDR_800]: IMBUED_HERO_POWERS,
+	[CardIds.FleeingTreant_EDR_500]: IMBUED_HERO_POWERS,
+	[CardIds.BitterbloomKnight_EDR_852]: IMBUED_HERO_POWERS,
 	[CardIds.PartyPortalTavernBrawl_TB_KaraPortal_001]: [
 		CardIds.PartyElementalTavernBrawl_KARA_13_20,
 		CardIds.MimeTavernBrawl,
