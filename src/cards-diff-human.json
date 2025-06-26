@@ -1,481 +1,2102 @@
 [
 	{
-		"name": "Necrolord Draka",
-		"set": "Revendreth",
+		"name": "DIE, INSECTS!",
+		"set": "Battlegrounds",
+		"text": "[x]<b>Passive</b>\nAfter you kill 16 enemy\nminions, get Sulfuras.\n<i>(16 left!)</i>"
+	},
+	{
+		"name": "Rock Master Voone",
+		"set": "Battlegrounds",
+		"health": 30
+	},
+	{
+		"name": "Test Subject",
+		"set": "Boomsday",
+		"cost": 1,
+		"attack": 0,
+		"health": 2,
+		"text": "[x]<b>Deathrattle:</b> Return any\nspells you cast on this\nminion to your hand."
+	},
+	{
+		"name": "Cold Blood",
+		"set": "Vanilla",
+		"cost": 2,
+		"text": "Give a minion +2 Attack. <b>Combo:</b> +4 Attack instead."
+	},
+	{
+		"name": "Horseman's Head",
+		"set": "Whizbangs_workshop",
+		"cost": 2,
+		"text": "[x]<b>When Drawn, this Casts</b>\nand your enemy will <i>cower!</i>\nImbue the souls of Undead\ninto your <i>Hero Power!</i>"
+	},
+	{
+		"name": "Mechwarper",
+		"set": "Gvg",
+		"cost": 2,
+		"attack": 2,
+		"health": 3,
+		"text": "Your Mechs cost (1) less."
+	},
+	{
+		"name": "Amirdrassil",
+		"set": "Embers_of_the_world_tree",
+		"cost": 4,
+		"health": 3,
+		"text": "[x]Summon a 1-Cost minion.\nGain 1 Armor. Draw 1 cards.\nRefresh 1 Mana Crystals.\n<i>(Improves each use!)</i>"
+	},
+	{
+		"name": "Bonechill Stegodon",
+		"set": "Lost_city_of_ungoro",
+		"cost": 6,
+		"attack": 6,
+		"health": 3,
+		"text": "<b>Deathrattle:</b> Deal\n6 damage to three\nrandom enemies."
+	},
+	{
+		"name": "Steadfast Security",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"attack": 0,
+		"health": 6,
+		"text": "<b>Taunt</b>\nAfter this takes damage, gain +1 Attack."
+	},
+	{
+		"name": "Lie in Wait",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "[x]<b>Quest:</b> Shuffle cards\ninto your deck, 5 times.\n<b>Reward: </b>Master Dusk."
+	},
+	{
+		"name": "Master Dusk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"health": 30,
+		"text": "[x]<b>Battlecry:</b> Summon two\n3/3 Ninjas with <b>Stealth</b>.\nYour Ninjas now shuffle back\ninto your deck when they die."
+	},
+	{
+		"name": "High Cultist Herenn",
+		"set": "Lost_city_of_ungoro",
+		"cost": 8,
+		"attack": 8,
+		"health": 6,
+		"text": "[x]<b>Battlecry:</b> Summon two\n<b>Deathrattle</b> minions from\nyour deck. They fight!"
+	},
+	{
+		"name": "Archaios",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 1,
+		"health": 6,
+		"text": "[x]Whenever another\nfriendly minion attacks,\nset its Health equal to\nthis minion's Health."
+	},
+	{
+		"name": "Purifying Vines",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "Choose a minion.\nIf it's friendly, give it +2 Health. If it's an enemy, give it -2 Health."
+	},
+	{
+		"name": "Twilight Mender",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Deathrattle:</b> Get a random Holy and Shadow spell."
+	},
+	{
+		"name": "Gravedawn Voidbulb",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"text": "Summon a random 4-Cost minion and\ngive it <b>Taunt</b>.\n<b>Kindred:</b> Do it again."
+	},
+	{
+		"name": "Gravedawn Sunbloom",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"text": "Draw 2 cards. <b>Kindred:</b> This costs (2) less."
+	},
+	{
+		"name": "Dive the Golakka Depths",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "<b>Repeatable Quest:</b> Summon 5 Murlocs.\n<b>Reward:</b> Murlocs you summon gain +1/+1."
+	},
+	{
+		"name": "Rockskipper",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"attack": 1,
+		"health": 3,
+		"text": "<b>Battlecry:</b> Get a 1-Cost\nRock that deals $3 damage."
+	},
+	{
+		"name": "Hot Spring Glider",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 2,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Your next\nMurloc costs (2) less.\n<b>Kindred:</b> And gains <b>Divine Shield</b>."
+	},
+	{
+		"name": "Steamfin Thief",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"attack": 4,
+		"health": 3,
+		"text": "<b>Kindred:</b> Summon two\n1/1 Murlocs with <b>Rush</b>."
+	},
+	{
+		"name": "Creature of the Sacred Cave",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"attack": 2,
+		"health": 5,
+		"text": "[x]At the end of your turn,\nrecast a random Holy spell\nyou cast this turn <i>(targets\nthis if possible)</i>."
+	},
+	{
+		"name": "Dread Raptor",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"attack": 3,
+		"health": 4,
+		"text": "<b>Battlecry:</b> Draw a <b>Deathrattle</b> minion that costs (3) or less. <b>Kindred:</b> It costs (0)."
+	},
+	{
+		"name": "Reanimate the Terror",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "[x]<b>Quest:</b> Spend 18 <b>Corpses</b>.\n<b>Reward:</b> Tyrax, Bone Terror."
+	},
+	{
+		"name": "Paleomancy",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"text": "<b>Discover</b> an Undead. Spend 5 <b>Corpses</b> to keep all 3 instead."
+	},
+	{
+		"name": "Crypt Map",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "<b>Discover</b> a Frost Rune card. If you play it this turn, also pick one\nof the others."
+	},
+	{
+		"name": "Reanimated Pterrordax",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"attack": 4,
+		"health": 3,
+		"text": "<b><b>Rush</b>, Lifesteal</b>\nCosts <b>Corpses</b> instead\nof Mana."
+	},
+	{
+		"name": "Windswept Pageturner",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"attack": 4,
+		"health": 5,
+		"text": "[x]After you summon an\nElemental, deal 3 damage\nto a random enemy."
+	},
+	{
+		"name": "Sizzling Swarm",
+		"set": "Lost_city_of_ungoro",
+		"cost": 6,
+		"text": "Deal $3 damage.\nSummon that many 2/1 Sizzling Cinders."
+	},
+	{
+		"name": "Volcanic Thrasher",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 2,
+		"health": 3,
+		"text": "<b>Battlecry:</b> Draw a Fire spell. <b>Kindred:</b> Give it <b>Spell Damage +2</b>."
+	},
+	{
+		"name": "Mechanized Magma",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"attack": 2,
+		"health": 5,
+		"text": "Whenever you play a\nFire spell, gain stats\nequal to its Cost."
+	},
+	{
+		"name": "Conjured Bookkeeper",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Draw a spell. <b>Kindred:</b> Summon a copy of this."
+	},
+	{
+		"name": "Lava Flow",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"text": "Deal $2 damage to the lowest Health enemy, three times. <b>Overload:</b> (1)"
+	},
+	{
+		"name": "Spirit of the Mountain",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "<b>Quest:</b> Play 7 minions\nof unique types.\n<b>Reward:</b> Ashalon."
+	},
+	{
+		"name": "Reach Equilibrium",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "[x]<b>Quest:</b> Cast 5 Holy spells\n<b>Reward:</b> Life's Breath.\n<b>Quest:</b> Cast 5 Shadow spells.\n<b>Reward:</b> Death's Touch."
+	},
+	{
+		"name": "Cleanse the Shadow",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "[x]<b>Quest:</b> Cast 5 Holy spells.\n<b>Reward:</b> Life's Breath."
+	},
+	{
+		"name": "Resuscitate",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"text": "Resurrect a 1, 2,\nand 3-Cost minion.\nGive them <b>Reborn</b>."
+	},
+	{
+		"name": "Violet Treasuregill",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"attack": 1,
+		"health": 2,
+		"text": "[x]<b>Battlecry:</b> Cast a random\nspell from your deck that\ncosts (2) or less <i>(targets\nthis if possible)</i>."
+	},
+	{
+		"name": "Gladesong Siren",
+		"set": "Lost_city_of_ungoro",
+		"cost": 6,
+		"attack": 4,
+		"health": 7,
+		"text": "<b>Lifesteal</b>\nCosts (1) if you've\nplayed a Holy and Shadow spell this turn."
+	},
+	{
+		"name": "Glade Ecologist",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"attack": 2,
+		"health": 1,
+		"text": "[x]<b>Deathrattle:</b> Get a 1-Cost\nHoly spell that gives a\nminion +2 or -2 Health."
+	},
+	{
+		"name": "Wilted Shadow",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Lifesteal</b>\nWhenever you heal an\nenemy, this attacks it."
+	},
+	{
+		"name": "Dinositter",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"attack": 2,
+		"health": 3,
+		"text": "[x]At the end of your\nturn, reduce the Cost\nof a random Beast in\nyour hand by (1)."
+	},
+	{
+		"name": "Cower in Fear",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"text": "Deal $3 damage\nto a minion. The next\nBeast you play this\nturn costs (2) less."
+	},
+	{
+		"name": "Odd Map",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "[x]<b>Discover</b> an odd-Attack\nBeast. If you play it this\nturn, also pick one of\nthe others."
+	},
+	{
+		"name": "Ravasaur Matriarch",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"attack": 5,
+		"health": 4,
+		"text": "[x]<b>Kindred:</b> Deal damage to\nan enemy minion equal to\nthis minion's Attack."
+	},
+	{
+		"name": "Story of Carnassa",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"text": "Shuffle ten 1-Cost 3/2 Raptors into your deck with \"<b>Battlecry:</b> Draw a card.\""
+	},
+	{
+		"name": "Grazing Stegodon",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 0,
+		"health": 5,
+		"text": "At the end of your turn, gain +1 Attack <i>(even while in hand or deck)</i>."
+	},
+	{
+		"name": "Supreme Dinomancy",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"text": "Give +2/+2 to all Beasts in your hand, deck, and battlefield."
+	},
+	{
+		"name": "Wave of Tar",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"text": "Deal $2 damage to all enemy minions. Enemy minions cost\n(2) more next turn."
+	},
+	{
+		"name": "Flight of the Firehawk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"text": "Draw two minions of different minion types. Give them +2/+2."
+	},
+	{
+		"name": "Ravenous Devilsaur",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 3,
+		"health": 3,
+		"text": "[x]<b>Battlecry:</b> Destroy a minion.\n<b>Kindred:</b> Gain its stats."
+	},
+	{
+		"name": "Cinderfin",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"attack": 1,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Summon a 2/1 Sizzling Cinder."
+	},
+	{
+		"name": "Bralma Searstone",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 1,
+		"health": 5,
+		"text": "Your Elementals deal\n1 extra damage."
+	},
+	{
+		"name": "Cryosleep",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"text": "Deal $4 damage\nand draw a card.\n<b>Kindred: </b>Draw another."
+	},
+	{
+		"name": "TREEEES!!!",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"text": "Choose a minion. Summon four 2/2 Treants that attack it."
+	},
+	{
+		"name": "Story of Barnabus",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"text": "Draw a minion.\nIf it has 5 or more Attack, give it +5 Health and gain 5 Armor."
+	},
+	{
+		"name": "Ravenous Flock",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"text": "At the start of your next turn, summon three 2/1 Hatchlings."
+	},
+	{
+		"name": "Hatchery Helper",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 2,
+		"health": 3,
+		"text": "[x]<b>Battlecry:</b> Give your\nother minions with 2 or less\nAttack +1/+2 and <b>Taunt</b>."
+	},
+	{
+		"name": "Eternal Bloodpetal",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"attack": 5,
+		"health": 1,
+		"text": "<b>Deathrattle:</b> Summon a 0/1 Eternal Seedling."
+	},
+	{
+		"name": "Life Cycle",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "Destroy a minion. Summon a random minion of the same\nCost to replace it."
+	},
+	{
+		"name": "Hybridization",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"text": "Draw a 1, 2, 3, and 4-Cost minion. <b>Kindred:</b> They cost (1) less."
+	},
+	{
+		"name": "Skyscreamer Eggs",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 0,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Summon four 2/1 Hatchlings."
+	},
+	{
+		"name": "Restore the Wild",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "<b>Quest:</b> Fill your board\non 3 of your turns.\n<b>Reward:</b> The Everbloom."
+	},
+	{
+		"name": "The Everbloom",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 2,
+		"text": "[x]After your hero attacks,\ngive your minions +2/+2."
+	},
+	{
+		"name": "Ready the Fleet",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"text": "Give +1/+2 to a friendly minion and your other minions that share a type with it."
+	},
+	{
+		"name": "Submerged Map",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "[x]<b>Discover</b> a Murloc.\nIf you play it this turn, also\npick one of the others."
+	},
+	{
+		"name": "Reluctant Wrangler",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 1,
+		"health": 1,
+		"text": "[x]<b>Reborn</b>\n<b>Deathrattle:</b> Summon a 2/2\nUndead Beast with <b>Taunt</b>."
+	},
+	{
+		"name": "The Food Chain",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "<b>Quest:</b> Play a 1, 3, 5, and 7-Attack Beast.\n<b>Reward:</b> Shokk."
+	},
+	{
+		"name": "Shokk, Jungle Tyrant",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"attack": 9,
+		"health": 9,
+		"text": "[x]<b>Rush</b>\n<b>Battlecry:</b> Get a random\n8, 6, and 4-Attack Beast.\nSet their Costs to (2)."
+	},
+	{
+		"name": "Pterrordax Egg",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 0,
+		"health": 3,
+		"text": "[x]<b>Deathrattle:</b> Summon\na 3/3 Pterrordax that\nsteals 1 Health from\nall other minions."
+	},
+	{
+		"name": "Juvenile Pterrordax",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 3,
+		"health": 3
+	},
+	{
+		"name": "Story of Galvadon",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"text": "Give a minion three random <b>Bonus Effects</b>."
+	},
+	{
+		"name": "Hive Map",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "[x]<b>Discover</b> a Fel spell.\nIf you play it this turn, also\npick one of the others."
+	},
+	{
+		"name": "Fumigate",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"text": "Deal $3 damage to a minion and all others of the same minion type."
+	},
+	{
+		"name": "Infestation",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"text": "[x]Get two 1-Cost Gorishi\nStingers. Each one deals\n$2 damage and summons\na 2/1 Grub with <b>Rush</b>."
+	},
+	{
+		"name": "Silithid Queen",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"attack": 5,
+		"health": 2,
+		"text": "<b>Rush</b>\n<b>Kindred</b>: Give your hero\n+5 Attack this turn."
+	},
+	{
+		"name": "Silithid Grub",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"attack": 2,
+		"health": 1,
+		"text": "<b>Rush</b>"
+	},
+	{
+		"name": "Merchant of Legend",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"attack": 1,
+		"health": 2,
+		"text": "<b>Battlecry:</b> <b>Discover</b>\na <b>Legendary</b> minion.\nShuffle the other two into your deck."
+	},
+	{
+		"name": "Cultist Map",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"text": "<b>Discover</b> a card from your deck. If you play it this turn, also pick one of the others."
+	},
+	{
+		"name": "Neferset Weaponsmith",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"attack": 5,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> Get a random\nweapon from another class.\n<b>Combo:</b> Give it +2 Attack."
+	},
+	{
+		"name": "Knockback",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "[x]Deal $1 damage to\na minion <i>(improved for\neach time you've shuffled\ncards into your deck)</i>."
+	},
+	{
+		"name": "Interrogation",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"text": "Shuffle three 3/3 Ninjas with <b>Stealth</b> into your deck that are <b>Summoned When Drawn</b>."
+	},
+	{
+		"name": "Underbrush Tracker",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 5,
+		"health": 5,
+		"text": "[x]<b>Rush</b>\nCosts (1) less for each\ntime you've shuffled cards\ninto your deck."
+	},
+	{
+		"name": "Eyes in the Sky",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"attack": 2,
+		"health": 3,
+		"text": "[x]<b>Battlecry:</b> Look at 3\ncards in your enemy's deck.\nPick one to put on top."
+	},
+	{
+		"name": "Tyrax, Bone Terror",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"attack": 8,
+		"health": 8,
+		"text": "<b>Deathrattle:</b> Open Terror's Grave. It has \"<b>Deathrattle:</b> Resummon Tyrax.\""
+	},
+	{
+		"name": "Reanimated Ossodon",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Taunt</b>"
+	},
+	{
+		"name": "Windpeak Wyrm",
+		"set": "Lost_city_of_ungoro",
+		"cost": 8,
+		"attack": 6,
+		"health": 6,
+		"text": "[x]<b>Battlecry:</b> Deal 5 damage\nand gain 5 Armor.\n<b>Kindred:</b> Costs (3) less."
+	},
+	{
+		"name": "Shellnado",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"text": "Spend up to 5 Armor. For each spent, deal 1 damage to all minions."
+	},
+	{
+		"name": "Enter the Lost City",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "[x]<b>Quest:</b> Survive 10 turns.\n<b>Reward: </b>Latorvius, Gaze\nof the City."
+	},
+	{
+		"name": "Latorvius, Gaze of the City",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]<b>Battlecry:</b> Get 2 random\n'Journey to Un'Goro' <b>Quest\nRewards</b>. Shuffle the rest\ninto your deck."
+	},
+	{
+		"name": "Platysaur",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"attack": 1,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Draw a card. <b>Deathrattle:</b> Discard it."
+	},
+	{
+		"name": "Tar Tyrant",
+		"set": "Lost_city_of_ungoro",
+		"cost": 8,
+		"attack": 1,
+		"health": 12,
+		"text": "[x]<b>Taunt</b>, <b>Lifesteal</b>\nHas +6 Attack during your\nopponent's turn."
+	},
+	{
+		"name": "Fire Plume Ridge",
+		"set": "Lost_city_of_ungoro",
+		"cost": 10,
+		"health": 3,
+		"text": "{0} {1}"
+	},
+	{
+		"name": "Terror Run",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"health": 3,
+		"text": "{0} {1}"
+	},
+	{
+		"name": "Un'Goro Jungle",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"health": 3,
+		"text": "{0} {1}"
+	},
+	{
+		"name": "Elise the Navigator",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"attack": 3,
+		"health": 5,
+		"text": "<b>Battlecry:</b> If your deck started with 10 cards of different Costs, craft a custom location."
+	},
+	{
+		"name": "Bursting Geyser",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "<b>Deathrattle:</b> Deal 10 damage to all enemies."
+	},
+	{
+		"name": "Bursting Geyser",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "<b>Deathrattle:</b> Deal 5 damage to all enemies."
+	},
+	{
+		"name": "Bursting Geyser",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "<b>Deathrattle:</b> Deal 3 damage to all enemies."
+	},
+	{
+		"name": "Nesting Grounds",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "Summon a 2/1 Raptor with <b>Rush</b>."
+	},
+	{
+		"name": "Nesting Grounds",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "Summon three 2/1 Raptors with <b>Rush</b>."
+	},
+	{
+		"name": "Nesting Grounds",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "Summon six 2/1 Raptors with <b>Rush</b>."
+	},
+	{
+		"name": "Latorvian Armorer",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Battlecry:</b> Deal 2 damage to an enemy minion. If it dies, gain 5 Armor."
+	},
+	{
+		"name": "Shining Moonlight",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "Your next spell has <b>Spell Damage +1</b>."
+	},
+	{
+		"name": "Shining Moonlight",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "Your next spell has <b>Spell Damage +4</b>."
+	},
+	{
+		"name": "Shining Moonlight",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "Your next spell has <b>Spell Damage +2</b>."
+	},
+	{
+		"name": "Runic Inscriptions",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "<b>Discover</b> a spell. It costs (1) less."
+	},
+	{
+		"name": "Runic Inscriptions",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "<b>Discover</b> a spell. It costs (4) less."
+	},
+	{
+		"name": "Runic Inscriptions",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "<b>Discover</b> a spell. It costs (7) less."
+	},
+	{
+		"name": "Snapping Plants",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "Give your characters +1 Attack this turn."
+	},
+	{
+		"name": "Snapping Plants",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "Give your characters +2 Attack this turn."
+	},
+	{
+		"name": "Snapping Plants",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "Give your characters +4 Attack this turn."
+	},
+	{
+		"name": "Lava Stream",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "Gain 3 Armor."
+	},
+	{
+		"name": "Lava Stream",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "Gain 6 Armor."
+	},
+	{
+		"name": "Lava Stream",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "Gain 12 Armor."
+	},
+	{
+		"name": "Insect Claw",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 2,
+		"text": "After your hero attacks, summon a 2/1 Grub with <b>Rush</b>."
+	},
+	{
+		"name": "Escape the Underfel",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "<b>Quest:</b> Play 6 <b>Temporary</b> cards. <b>Reward:</b> Underfel Rift."
+	},
+	{
+		"name": "Caustic Fumes",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"text": "Destroy an enemy minion. <b>Kindred:</b> Deal $2 damage to all minions."
+	},
+	{
+		"name": "Fortify",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"text": "[x]Gain 3 Armor.\nDeal damage equal\nto your Armor to an\nenemy minion."
+	},
+	{
+		"name": "Bloodpetal Biome",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"health": 2,
+		"text": "<b>Discover</b> a <b>Temporary</b> 1-Cost minion."
+	},
+	{
+		"name": "Radiant Crystals",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "Summon a 1/1 copy of a friendly minion."
+	},
+	{
+		"name": "Radiant Crystals",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "Summon a 5/5 copy of a friendly minion."
+	},
+	{
+		"name": "Radiant Crystals",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "Summon a 10/10 copy of a friendly minion."
+	},
+	{
+		"name": "Torga",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"attack": 2,
+		"health": 7,
+		"text": "<b>Battlecry:</b> Draw a <b>Kindred</b> card and another card that activates it."
+	},
+	{
+		"name": "Gorishi Wasp",
+		"set": "Lost_city_of_ungoro",
+		"cost": 6,
+		"attack": 2,
+		"health": 8,
+		"text": "Whenever this takes damage, get a 1-Cost Gorishi Stinger."
+	},
+	{
+		"name": "Gorishi Stinger",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "Deal $2 damage. Summon a 2/1 Grub with <b>Rush</b>."
+	},
+	{
+		"name": "Unleash the Colossus",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "<b>Quest:</b> Deal exactly 2 damage to an enemy\non your turn, 15 times.\n<b>Reward:</b> Gorishi Colossus."
+	},
+	{
+		"name": "Gorishi Colossus",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]<b>Battlecry:</b> For the rest of the\ngame, whenever you deal\nexactly 2 damage to an\nenemy, deal 2 more."
+	},
+	{
+		"name": "Story of Sulfuras",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"text": "[x]Swap your Hero Power\nto \"Deal 8 damage\nto a random enemy.\"\nAfter 2 uses, swap back."
+	},
+	{
+		"name": "Stormbrewer",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"attack": 3,
+		"health": 6,
+		"text": "Whenever this attacks,\ndeal 3 damage to\nthe target first.\n<b>Kindred:</b> Gain <b>Rush</b>."
+	},
+	{
+		"name": "Relic Miner",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "[x]<b>Battlecry:</b> Destroy the top\ncard of your deck. <b>Discover</b> a\ncard of the same Rarity."
+	},
+	{
+		"name": "Spelunker",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"attack": 2,
+		"health": 3,
+		"text": "<b>Battlecry:</b> Your next <b>Temporary</b> card costs\n(2) less."
+	},
+	{
+		"name": "Cursed Catacombs",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "<b>Discover</b> a minion\nfrom your deck.\nMake it <b>Temporary</b>."
+	},
+	{
+		"name": "Willful Watcher",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"attack": 4,
+		"health": 7,
+		"text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Destroy the\n top 3 cards of your deck."
+	},
+	{
+		"name": "City Defenses",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"text": "Summon two 0/6 Security with <b>Taunt</b>.\nThey gain +1 Attack\nwhen damaged."
+	},
+	{
+		"name": "Stonecarver",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"attack": 1,
+		"health": 4,
+		"text": "At the end of your turn, give a random friendly damaged minion +2/+2."
+	},
+	{
+		"name": "Nablya, the Watcher",
+		"set": "Lost_city_of_ungoro",
+		"cost": 6,
+		"attack": 5,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Summon copies\n of your damaged minions.\nGive the copies <b>Rush</b>."
+	},
+	{
+		"name": "Tyrannogill",
+		"set": "Lost_city_of_ungoro",
+		"cost": 6,
+		"attack": 6,
+		"health": 3,
+		"text": "[x]<b>Rush</b>\n<b>Deathrattle:</b> Summon three\n2/1 Murlocs. Give them each\na random <b>Bonus Effect</b>."
+	},
+	{
+		"name": "Bugsquasher",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"attack": 5,
+		"health": 3,
+		"text": "<b>Battlecry:</b> Deal 6 damage to an enemy minion with a minion type."
+	},
+	{
+		"name": "Ido of the Threshfleet",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"attack": 2,
+		"health": 7,
+		"text": "[x]While this is alive,\nyou get a 2-Cost Holy spell\nthat gives a minion +2/+2\nand <b>Divine Shield</b>."
+	},
+	{
+		"name": "Call the Threshfleet!",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"text": "Give a minion +2/+2 and <b>Divine Shield</b>. <i>(This stays in your hand while Ido is alive!)</i>"
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "Gains a random <b>Titan</b> ability in your hand that changes each turn."
+	},
+	{
+		"name": "Eternal Seedling",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"attack": 0,
+		"health": 1,
+		"text": "<b>Deathrattle:</b> Summon a 5/1 Eternal Bloodpetal."
+	},
+	{
+		"name": "Questing Assistant",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"attack": 3,
+		"health": 2,
+		"text": "[x]<b>Battlecry:</b> If you played\na <b>Quest</b> this game,\ndeal 2 damage."
+	},
+	{
+		"name": "Scalehide Kodo",
+		"set": "Lost_city_of_ungoro",
+		"cost": 6,
+		"attack": 3,
+		"health": 6,
+		"text": "[x]<b>Battlecry:</b> Destroy the\nlowest Attack enemy minion.\n<b>Kindred:</b> The highest\nAttack instead."
+	},
+	{
+		"name": "The Forbidden Sequence",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "[x]<b>Quest:</b> <b>Discover</b> 8 cards.\n<b>Reward:</b> The Origin Stone."
+	},
+	{
+		"name": "Juvenile Steamfin",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Rush</b>"
+	},
+	{
+		"name": "The Origin Stone",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 0,
+		"text": "After you <b>Discover</b> a card, this plays the other options.\nLose 1 Durability."
+	},
+	{
+		"name": "Scrappy Scavenger",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"attack": 1,
+		"health": 1,
+		"text": "[x]<b>Battlecry:</b> <b>Discover</b> a\ncard with Cost equal to your\nremaining Mana Crystals."
+	},
+	{
+		"name": "Unearthed Artifacts",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"text": "[x]Summon a random 2-Cost\nminion. If you've <b><b>Discover</b>ed</b>\nthis turn, summon a random\n4-Cost minion instead."
+	},
+	{
+		"name": "Razidir",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Discard a random\ncard from your hand.\n<b>Kindred:</b> Your opponent's\nhand instead."
+	},
+	{
+		"name": "Ancient Stegodon",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 1,
+		"health": 5,
+		"text": "<b>Battlecry:</b> Choose to\ngain <b>Taunt</b>, <b>Poisonous</b>,\nor +1/+1."
+	},
+	{
+		"name": "Whirling Stormdrake",
+		"set": "Lost_city_of_ungoro",
+		"cost": 9,
+		"attack": 8,
+		"health": 8,
+		"text": "<b>Rush</b>, <b>Windfury</b>\n<b>Kindred:</b> Gain <b>Immune</b>\nthis turn."
+	},
+	{
+		"name": "Sizzling Cinder",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"attack": 2,
+		"health": 1,
+		"text": "<b>Deathrattle:</b> Deal 2 damage randomly split among all enemies."
+	},
+	{
+		"name": "Curious Explorer",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"attack": 3,
+		"health": 5,
+		"text": "[x]<b>Deathrattle:</b> Reduce the\nCost of a minion in your\n opponent's hand by (2)."
+	},
+	{
+		"name": "Ancient Raptor",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"attack": 2,
+		"health": 1,
+		"text": "[x]<b>Battlecry:</b> Choose to gain\n+3 Attack, <b>Divine Shield</b>,\nor \"<b>Deathrattle:</b> Summon\ntwo 1/1 Plants.\""
+	},
+	{
+		"name": "Mountain Map",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "[x]<b>Discover</b> a minion with\na type you haven't played.\nIf you play it this turn, also\npick one of the others."
+	},
+	{
+		"name": "Underfel Rift",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"text": "Open a Rift to the Underfel. Throw a card in to summon 2 random Fel Beasts. <i>(Once per turn.)</i>"
+	},
+	{
+		"name": "Felscreamer",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"attack": 5,
+		"health": 3,
+		"text": "<b>Rush</b>\n<b>Lifesteal</b>"
+	},
+	{
+		"name": "Ancient Pterrordax",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> Choose to gain\n<b>Stealth</b> until your next turn,\n<b>Elusive</b>, or <b>Windfury</b>."
+	},
+	{
+		"name": "Primal Sabretooth",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"attack": 5,
+		"health": 3,
+		"text": "[x]<b>Stealth</b>\nAfter this attacks and kills a\nminion, get a copy of it."
+	},
+	{
+		"name": "Ultragigasaur",
+		"set": "Lost_city_of_ungoro",
+		"cost": 11,
+		"attack": 14,
+		"health": 28
+	},
+	{
+		"name": "Stranglevine",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Give a random\nfriendly minion a random\n<b>Bonus Effect</b> and this <b>Deathrattle</b>."
+	},
+	{
+		"name": "Story of Lakkari",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"text": "[x]At the end of your turn,\ndiscard a card and fill\nyour board with 3/2 Imps.\nLasts 3 turns."
+	},
+	{
+		"name": "Crater Gator",
+		"set": "Lost_city_of_ungoro",
+		"cost": 4,
+		"attack": 5,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> Until the start of\nyour next turn, the enemy\nhero can't be healed."
+	},
+	{
+		"name": "Primalfin Challenger",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 3,
+		"health": 2,
+		"text": "<b>Battlecry:</b> Your next <b>Kindred</b> triggers twice."
+	},
+	{
+		"name": "Petrified Ogre",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 5,
+		"health": 5,
+		"text": "[x]Starts <b>Dormant. </b>While\n<b>Dormant</b>, gain +2/+2 at the\nstart of your turn. <i>(50% chance\nto awaken instead.)</i>"
+	},
+	{
+		"name": "Tortollan Storyteller",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"attack": 1,
+		"health": 2,
+		"text": "[x]At the end of your turn,\ngive +1/+1 to each friendly\nminion of a different type."
+	},
+	{
+		"name": "Crystal Tender",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"attack": 2,
+		"health": 2,
+		"text": "[x]<b>Tradeable</b>\n<b>Battlecry:</b> Gain empty Mana\nCrystals until both players\nhave the same Mana."
+	},
+	{
+		"name": "Marshland Thresher",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "After you cast a spell,\ngain <b>Divine Shield</b>."
+	},
+	{
+		"name": "Story of the Waygate",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"text": "[x]Reduce the Cost of cards\nin your hand that didn't\nstart in your deck by (1)."
+	},
+	{
+		"name": "Storage Scuffle",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"text": "Deal $3 damage\nto a minion. Costs (0)\nif you've <b>Discovered</b>\nthis turn."
+	},
+	{
+		"name": "Pterrorwing Ravager",
+		"set": "Lost_city_of_ungoro",
+		"cost": 6,
+		"attack": 7,
+		"health": 5,
+		"text": "<b>Rush</b>\n<b>Kindred:</b> Costs (2) less."
+	},
+	{
+		"name": "Whispering Stone",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"attack": 0,
+		"health": 8,
+		"text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Get 2 random\nFel spells. They cost Health\ninstead of Mana."
+	},
+	{
+		"name": "Tunnel Terror",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 4,
+		"health": 3,
+		"text": "<b>Deathrattle:</b> Get two random <b>Temporary</b>\n2-Cost minions."
+	},
+	{
+		"name": "Treant",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"attack": 2,
+		"health": 2
+	},
+	{
+		"name": "Sol'etos, Life's Breath",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Taunt</b>. <b>Battlecry:</b> Summon\na copy of this.\n<i>If you're holding both halves\n of Sol'etos, combine!</i>"
+	},
+	{
+		"name": "Sol'etos, Death's Touch",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Reborn</b>. <b>Deathrattle:</b> Deal 5\ndamage to a random enemy.\n<i>If you're holding both halves\nof Sol'etos, combine!</i>"
+	},
+	{
+		"name": "Loh, the Living Legend",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 5,
+		"health": 5,
+		"text": "<b>Battlecry:</b> Your minions cost (5) this game."
+	},
+	{
+		"name": "Ambush Predators",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"text": "Summon a 1/1 Spitter with <b>Stealth</b>\nand <b>Poisonous</b>.\n<b>Kindred:</b> Do it again."
+	},
+	{
+		"name": "Relic of Kings",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"text": "<b>Discover</b> a spell from any class that costs (8) or more. It costs (1)."
+	},
+	{
+		"name": "Skyscreamer Hatchling",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"attack": 2,
+		"health": 1
+	},
+	{
+		"name": "Way of the Shell",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "Draw 2 cards\nthat didn't start\nin your deck."
+	},
+	{
+		"name": "Opu the Unseen",
+		"set": "Lost_city_of_ungoro",
+		"cost": 6,
+		"attack": 6,
+		"health": 4,
+		"text": "<b>Battlecry, Combo,\nand Deathrattle:</b> Cast\n'Fan of Knives'."
+	},
+	{
+		"name": "Tortollan Ninja",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Summoned When Drawn</b>\n<b>Stealth</b>"
+	},
+	{
+		"name": "Threshrider's Blessing",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"text": "Give a friendly minion +4/+4 and \"<b>Deathrattle:</b> Summon a random 4-Cost minion.\""
+	},
+	{
+		"name": "Axe of the Forefathers",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 2,
+		"text": "After your hero attacks, deal 1 damage to all minions."
+	},
+	{
+		"name": "DIE, INSECT!",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"text": "Deal $8 damage to a random enemy.\n<i>(Two uses left!)</i>"
+	},
+	{
+		"name": "DIE, INSECT!",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"text": "Deal $8 damage to a random enemy.\n<i>(Last use!)</i>"
+	},
+	{
+		"name": "Venomous Spitter",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Stealth</b>\n <b>Poisonous</b>"
+	},
+	{
+		"name": "Corrupt the Light",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "[x]<b>Quest:</b> Cast 5 Shadow spells.\n<b>Reward:</b> Death's Touch."
+	},
+	{
+		"name": "Gorishi Tunneler",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 2,
+		"health": 4,
+		"text": "<b>Stealth</b>\nAfter this attacks,\ndeal 2 damage to the\nenemy hero."
+	},
+	{
+		"name": "Entomologist Toru",
+		"set": "Lost_city_of_ungoro",
+		"cost": 9,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Put each minion\n in your hand into 0/1 Jars\n that cost (1). Break them\n to release the minions!"
+	},
+	{
+		"name": "Undercover Cultist",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 2,
+		"health": 3,
+		"text": "<b>Taunt</b>, <b>Reborn</b>\nHas +3 Attack while damaged."
+	},
+	{
+		"name": "Deathrot Maw",
+		"set": "Lost_city_of_ungoro",
+		"cost": 6,
+		"attack": 2,
+		"health": 8,
+		"text": "<b>Taunt</b>\n<b>Deathrattle:</b> Summon a random Fel Beast."
+	},
+	{
+		"name": "Raptor Herald",
+		"set": "Gift",
+		"cost": 3,
+		"attack": 4,
+		"health": 2,
+		"text": "[x]<b>Battlecry:</b> <b>Discover</b> a\nBeast with a <b>Dark Gift</b>.\n <b>Kindred:</b> It costs (1) less."
+	},
+	{
+		"name": "Krog, Crater King",
+		"set": "Lost_city_of_ungoro",
+		"cost": 9,
+		"attack": 8,
+		"health": 7,
+		"text": "[x]At the end of your turn,\nset the Attack and Health of\nall enemy minions to 1."
+	},
+	{
+		"name": "Sol'etos, Cycle's Rebirth",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"attack": 8,
+		"health": 8,
+		"text": "[x]<b>Taunt</b>, <b>Reborn</b>. <b>Battlecry:</b>\nSummon a copy of this.\n<b>Deathrattle:</b> Deal 5 damage\nto a random enemy."
+	},
+	{
+		"name": "Terror's Grave",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"health": 2,
+		"text": "[x]Deal 4 damage.\n<b>Deathrattle:</b> Resummon\nTyrax, Bone Terror."
+	},
+	{
+		"name": "Felraptor",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"attack": 4,
+		"health": 4,
+		"text": "<b>Charge</b>\n<b>Elusive</b>"
+	},
+	{
+		"name": "Felhorn",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"attack": 3,
+		"health": 5,
+		"text": "<b>Taunt</b>\n<b>Reborn</b>"
+	},
+	{
+		"name": "Mecha'thun",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Slagclaw",
+		"set": "Lost_city_of_ungoro",
 		"cost": 5,
 		"attack": 3,
 		"health": 4,
-		"text": "[x]<b>Battlecry:</b> Equip a 1/3\nDagger. <i>(+1 Attack for\neach other card you played\nthis turn, up to 10!)</i>"
+		"text": "[x]<b>Battlecry:</b> Summon two\n2/1 Sizzling Cinders.\n<b>Kindred:</b> Trigger your Sizzling\nCinders' <b>Deathrattles.</b>"
 	},
 	{
-		"name": "Felemental",
+		"name": "Sharptooth Snapper",
 		"set": "Battlegrounds",
 		"cost": 0,
 		"attack": 3,
 		"health": 3,
-		"text": "[x]<b>Battlecry:</b> Give minions\nin the Tavern +{0}/+{1}\nthis game."
+		"text": "When you have space in combat, summon a 3/1 Beast. It attacks immediately."
 	},
 	{
-		"name": "Felemental",
+		"name": "Sharptooth Snapper",
 		"set": "Battlegrounds",
 		"cost": 0,
 		"attack": 6,
 		"health": 6,
-		"text": "[x]<b>Battlecry:</b> Give minions\nin the Tavern +{0}/+{1}\nthis game twice."
+		"text": "When you have space in combat, summon two 3/1 Beasts. They attack immediately."
 	},
 	{
-		"name": "Bream Counter",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 4,
+		"name": "Vault Breaker",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 2,
 		"health": 4,
-		"text": "While this is in your hand, after you play a Murloc, gain +4/+4."
+		"text": "After you <b>Discover</b> a card, reduce its Cost by (1)."
 	},
 	{
-		"name": "Bream Counter",
-		"set": "Battlegrounds",
-		"cost": 0,
+		"name": "Dinoloc",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"attack": 2,
+		"health": 1
+	},
+	{
+		"name": "Dinoloc",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"attack": 2,
+		"health": 1
+	},
+	{
+		"name": "Dinoloc",
+		"set": "Lost_city_of_ungoro",
+		"cost": 2,
+		"attack": 2,
+		"health": 1
+	},
+	{
+		"name": "Story of Amara",
+		"set": "Lost_city_of_ungoro",
+		"cost": 10,
+		"text": "Set your hero's\nHealth to 40."
+	},
+	{
+		"name": "Specimen Jar",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"attack": 0,
+		"health": 1,
+		"text": "<b>Deathrattle:</b> Release nothing. <i>(It's just an empty jar.)</i>"
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "<b>Battlecry:</b> Destroy\nan enemy minion.\nThis minion and your\nhero gain its Health."
+	},
+	{
+		"name": "Ashalon, Ridge Guardian",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
 		"attack": 8,
 		"health": 8,
-		"text": "While this is in your hand, after you play a Murloc, gain +8/+8."
+		"text": "<b>Battlecry:</b> <b>Adapt</b> twice.\nFor the rest of the game,\ngive minions you play those <b>Adaptations</b>."
 	},
 	{
-		"name": "Moon-Bacon Jazzer",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 2,
-		"health": 5,
-		"text": "[x]<b>Battlecry:</b> Your <b>Blood\nGems</b> give an extra\n+1 Health this game."
+		"name": "Underfel Rift",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"attack": 0,
+		"health": 1,
+		"text": "[x]Select the Rift to activate.\nThrow a card in to summon\n2 random Fel Beasts.\n<i>(Once per turn.)</i>"
 	},
 	{
-		"name": "The Crystal Cove",
-		"set": "Whizbangs_workshop",
-		"cost": 3,
-		"health": 3,
-		"text": "[x]The next minion you\nsummon this turn has\nits stats set to 4/4."
-	},
-	{
-		"name": "Nalaa the Redeemer",
-		"set": "Battlegrounds",
-		"cost": 0,
+		"name": "City Chief Esho",
+		"set": "Lost_city_of_ungoro",
+		"cost": 6,
 		"attack": 5,
 		"health": 7,
-		"text": "Whenever you cast a Tavern spell, give a friendly minion of each type +3/+2."
+		"text": "[x]<b>Battlecry:</b> If every minion in\nyour deck shares a minion type,\ngive your other minions +2/+2\n<i>(wherever they are)</i>."
 	},
 	{
-		"name": "Nalaa the Redeemer",
-		"set": "Battlegrounds",
+		"name": "Niri of the Crater",
+		"set": "Lost_city_of_ungoro",
+		"cost": 3,
+		"attack": 2,
+		"health": 5,
+		"text": "[x]Whenever you play a 1-Cost\nminion, double its stats.\nWhenever you cast a 1-Cost\nspell, cast it twice."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> The next spell\nyou cast costs (3) less and\nhas <b>Spell Damage +3</b>."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "<b>Battlecry:</b> Summon two 3/3 Undead with <b>Taunt</b>\nand <b>Reborn</b>."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "<b>Battlecry:</b> <b>Discover</b> a <b>Deathrattle</b> minion.\nIt costs (3) less."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Reduce the\nCost of all minions in\nyour hand by (2)."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Summon\nfour 2/2 Elementals\nwith <b>Taunt</b>."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "<b>Battlecry:</b> Draw cards\nuntil your hand is full."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "<b>Battlecry:</b> Restore your hero to full Health."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "<b>Battlecry:</b> Refresh your Mana Crystals."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Deal 5 damage."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Cast 1 random\nMage <b>Secret</b>."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Enemy cards\ncost (1) more next turn."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "<b>Battlecry:</b> Set the Attack and Health of all enemy minions to 2."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "<b>Battlecry:</b> Give your other\nminions +2/+2."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "<b>Battlecry:</b> Draw 2 minions. Set their Attack, Health, and Cost to 2."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Choose a\nnon-<b>Titan</b> minion. Summon\na copy of it with +2/+2."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Summon a\nrandom 6-Cost minion. Give\nit <b>Taunt</b> and <b>Lifesteal</b>."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Choose two\nenemy minions. Remove\nthem from the game."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "<b>Battlecry:</b> Gain +2/+1. Deal 4 damage to a random enemy."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "<b>Battlecry:</b> Gain +1/+2.\nDraw a card."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "<b>Battlecry:</b> Gain +3 Health\nand <b>Elusive</b>."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "<b>Battlecry:</b> Deal 20 damage\nto another minion."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Deal 3 damage\nto all enemies and\nrestore 6 Health to all\nfriendly characters."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "<b>Battlecry:</b> Summon two 6/6 Infernals."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Send all\nother minions into the\nTwisting Nether."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Gain +5 Health.\nGive your hero 5 Armor."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Gain +5 Attack.\nGive your hero +5 Attack\nthis turn."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Gain +2/+2.\nDraw a weapon."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Fill your hand\nwith 1/1 Chaotic Tendrils."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Battlecry:</b> Force each\nenemy minion to attack a\nrandom enemy minion."
+	},
+	{
+		"name": "Titanographer Osk",
+		"set": "Lost_city_of_ungoro",
+		"cost": 7,
+		"attack": 7,
+		"health": 7,
+		"text": "<b>Battlecry:</b> Take control\nof an enemy minion."
+	},
+	{
+		"name": "Gonk",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Steady Shot",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nDeal $2 damage to the enemy hero."
+	},
+	{
+		"name": "Ballista Shot",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nDeal $3 damage to the enemy hero."
+	},
+	{
+		"name": "Aegwynn",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Fireblast",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nDeal $1 damage."
+	},
+	{
+		"name": "Fireblast Rank 2",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nDeal $2 damage."
+	},
+	{
+		"name": "Shandris Feathermoon",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Armor Up!",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nGain $d2 Armor."
+	},
+	{
+		"name": "Tank Up!",
+		"set": "Legacy",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nGain $d4 Armor."
+	},
+	{
+		"name": "Dino Festival Omen",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Curator Rafaam",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Dinomancer Lazul",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Crystal Carver Disidra",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Field Researcher Elise",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Lava Lord Bolvar",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Jungle Explorer Yrel",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Dino Hunter Lor'Themar",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Archaeo-Lich Kel'Thuzad",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Treasure Hunter Marin",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Bonedigger Arfus",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Dino Dreamer Ysera",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "City Chief Umbra",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Relic Hunter Reno",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Dino Wrangler Brann",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Adventure Finley",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Earth Elemental",
+		"set": "Legacy",
+		"cost": 5,
+		"attack": 7,
+		"health": 8,
+		"text": "<b>Taunt</b>\n<b><b>Overload</b>:</b> (2)"
+	},
+	{
+		"name": "The Sacred Cave",
+		"set": "Lost_city_of_ungoro",
 		"cost": 0,
-		"attack": 10,
-		"health": 14,
-		"text": "Whenever you cast a Tavern spell, give a friendly minion of each type +6/+4."
+		"text": "[x]Whenever you summon\na Murloc, give it +1/+1."
 	},
 	{
-		"name": "Magical Dollhouse",
-		"set": "Whizbangs_workshop",
-		"cost": 2,
-		"health": 3,
-		"text": "[x]Gain <b>Spell Damage +1</b>\nthis turn only."
-	},
-	{
-		"name": "Divine Brew",
-		"set": "Perils_in_paradise",
-		"cost": 1,
-		"text": "Give a character <b>Divine Shield</b>. <i>(3 Drinks left!)</i>"
-	},
-	{
-		"name": "Divine Brew",
-		"set": "Perils_in_paradise",
-		"cost": 1,
-		"text": "Give a character <b>Divine Shield</b>. <i>(2 Drinks left!)</i>"
-	},
-	{
-		"name": "Divine Brew",
-		"set": "Perils_in_paradise",
-		"cost": 1,
-		"text": "Give a character <b>Divine Shield</b>. <i>(Last Drink!)</i>"
-	},
-	{
-		"name": "Consolation Coin Pouch",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"text": "[x]Gain 3 Gold.\n<i>(There were no available\nminions to <b>Discover</b>.)</i>"
-	},
-	{
-		"name": "Rewinder Portrait",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "[x]Get a Soul Rewinder\nand a Wrath Weaver.\nYour Soul Rewinders\nalso gain Attack."
-	},
-	{
-		"name": "Nerglish Phrasebook",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "[x]After you play a minion,\ngive the left-most minion\nin your hand +3/+3."
-	},
-	{
-		"name": "Sacrificial Altar",
-		"set": "Battlegrounds",
-		"cost": 6,
-		"text": "Remove all your minions. Gain 4 Gold for each removed."
-	},
-	{
-		"name": "Smuggler Portrait",
-		"set": "Battlegrounds",
-		"text": "[x]Get a Whelp Smuggler.\nSet its stats to 12/12.\nYour Whelp Smugglers\nare Dragons."
-	},
-	{
-		"name": "Splinter of Aurum",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]When you have 15 Gold,\nget a random Golden\nTier 5 minion.\n<i>(Once per game.)</i>"
-	},
-	{
-		"name": "Bronzebeard Portrait",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]Get a Brann Bronzebeard and\na random <b>Battlecry</b> minion.\nYour Brann Bronzebeards are\nboth Murlocs and Dragons."
-	},
-	{
-		"name": "Blingtron's Sunglasses",
-		"set": "Battlegrounds",
-		"cost": 6,
-		"text": "[x]After you summon a Mech\nin combat, give a friendly\nMech <b>Divine Shield</b>."
-	},
-	{
-		"name": "Azeroth Model Globe",
-		"set": "Battlegrounds",
-		"text": "[x]At the start of every two\nturns, gain 2 Gold and\n<b>Discover</b> a Tier 6 minion.\n<i>(2 turns left!)</i>"
-	},
-	{
-		"name": "Peacebloom Candle",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "The first 2 Tavern spells you buy each turn are free. <i>(2 left!)</i>"
-	},
-	{
-		"name": "Nether Pendant",
-		"set": "Battlegrounds",
-		"text": "[x]Minions in the Tavern have\n+{1}/+{1}. Upgrades every 3\ntimes your hero takes damage\n outside combat. <i>({0} left!)</i>"
-	},
-	{
-		"name": "Fridge Magnet",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "[x]<b>Avenge (3):</b> Get a random\n<b>Magnetic</b> minion."
-	},
-	{
-		"name": "Belcher Portrait",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "[x]Get an Operatic Belcher.\nWhenever a friendly minion\nloses <b>Venomous</b>, it gains\n+4/+4 permanently."
-	},
-	{
-		"name": "Bronze Timepiece",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "[x]<b>Start of Combat:</b> Give each\nof your minions Health\nequal to half its Attack."
-	},
-	{
-		"name": "Glowscale Portrait",
-		"set": "Battlegrounds",
-		"text": "Get a Glowscale.\nYour first <b>Spellcraft</b> enchantment each turn is permanent."
-	},
-	{
-		"name": "Designer Eyepatch",
-		"set": "Battlegrounds",
-		"cost": 6,
-		"text": "You only need 2 copies of a Pirate to make it Golden."
-	},
-	{
-		"name": "Fancy Spellbook",
-		"set": "Battlegrounds",
+		"name": "Cloud Serpent",
+		"set": "Lost_city_of_ungoro",
 		"cost": 4,
-		"text": "After you spend 7 Gold, get a random Tavern spell. <i>(7 Gold left!)</i>"
+		"attack": 4,
+		"health": 3,
+		"text": "[x]<b>Battlecry:</b> Get a copy\nof another Elemental or\nDragon in your hand."
 	},
 	{
-		"name": "Nomi Sticker",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]After you play an\nElemental, Elementals in\nthe Tavern have +4/+4\nthis game."
+		"name": "The Coin",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "Gain 1 Mana Crystal this turn only."
 	},
 	{
-		"name": "Nerglish Phrasebook",
-		"set": "Battlegrounds",
-		"text": "[x]After you play a minion,\ngive the left-most minion\nin your hand +6/+6."
+		"name": "The Coin",
+		"set": "Lost_city_of_ungoro",
+		"cost": 0,
+		"text": "Gain 1 Mana Crystal this turn only."
 	},
 	{
-		"name": "Belcher Portrait",
-		"set": "Battlegrounds",
+		"name": "Classic Krush",
+		"set": "1961"
+	},
+	{
+		"name": "Devilsaur Krush",
+		"set": "1961"
+	},
+	{
+		"name": "King Plush",
+		"set": "1961"
+	},
+	{
+		"name": "Crystal Krush",
+		"set": "1961"
+	},
+	{
+		"name": "Nesting Raptor",
+		"set": "Lost_city_of_ungoro",
 		"cost": 1,
-		"text": "[x]Get an Operatic Belcher.\nWhenever a friendly minion\nloses <b>Venomous</b>, it gains\n+14/+14 permanently."
+		"attack": 2,
+		"health": 1,
+		"text": "<b>Rush</b>"
 	},
 	{
-		"name": "Twisted Webweaver",
-		"set": "Into_the_emerald_dream",
+		"name": "Cariel, the Chosen",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Pool Party Maiev",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Sunlounger A. F. Kay",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Ironwood Golem",
+		"set": "Lootapalooza",
+		"cost": 4,
+		"attack": 3,
+		"health": 6,
+		"text": "<b>Taunt</b>\nCan only attack if you have 3 or more Armor."
+	},
+	{
+		"name": "Rabid Worgen",
+		"set": "Gilneas",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Rush</b>"
+	},
+	{
+		"name": "Bronze Gatekeeper",
+		"set": "Boomsday",
+		"cost": 3,
+		"attack": 2,
+		"health": 5,
+		"text": "<b>Magnetic</b>\n<b>Taunt</b>"
+	},
+	{
+		"name": "Ticking Abomination",
+		"set": "Icecrown",
+		"cost": 4,
+		"attack": 5,
+		"health": 6,
+		"text": "<b>Deathrattle:</b> Deal 5 damage to your minions."
+	},
+	{
+		"name": "Reincarnate",
+		"set": "Naxx",
+		"cost": 1,
+		"text": "Destroy a minion,\nthen return it to life with full Health."
+	},
+	{
+		"name": "Arcane Blast",
+		"set": "Tgt",
+		"cost": 1,
+		"text": "Deal $2 damage to a minion. This spell gets double bonus from <b>Spell Damage</b>."
+	},
+	{
+		"name": "Cosmic Anomaly",
+		"set": "Boomsday",
+		"cost": 4,
+		"attack": 4,
+		"health": 3,
+		"text": "<b>Spell Damage +2</b>"
+	},
+	{
+		"name": "Celestial Emissary",
+		"set": "Boomsday",
 		"cost": 2,
 		"attack": 2,
-		"health": 3,
-		"text": "[x]Whenever you play another\nminion you've already\nplayed, draw a card."
+		"health": 1,
+		"text": "<b>Battlecry:</b> Your next spell this turn has <b>Spell Damage +2</b>."
 	},
 	{
-		"name": "Artisanal Urn",
-		"set": "Battlegrounds",
-		"text": "Your Undead have\n+8 Attack."
-	},
-	{
-		"name": "Lorewalker Scroll",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]Whenever you cast a\nspell on a minion,\ngive it +7/+7."
-	},
-	{
-		"name": "Redeemer Portrait",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "[x]Get a Nalaa the Redeemer.\nTavern spells cost (1) less\n<i>(but not less than 1)</i>."
-	},
-	{
-		"name": "Electromagnetic Device",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]<b>Discover</b> a <b>Magnetic</b>\nMech. Whenever a friendly\nminion is <b>Magnetized</b>,\ngive it +3/+3."
-	},
-	{
-		"name": "Necrolord Draka",
-		"set": "Old_core_230",
+		"name": "Clockwork Automaton",
+		"set": "Gilneas",
 		"cost": 5,
+		"attack": 4,
+		"health": 4,
+		"text": "Double the damage and healing of your Hero Power."
+	},
+	{
+		"name": "Play Dead",
+		"set": "Icecrown",
+		"cost": 1,
+		"text": "Trigger a friendly minion's <b>Deathrattle</b>."
+	},
+	{
+		"name": "Blackwald Pixie",
+		"set": "Gilneas",
+		"cost": 3,
 		"attack": 3,
 		"health": 4,
-		"text": "[x]<b>Battlecry:</b> Equip a 1/3\nDagger. <i>(+1 Attack for\neach other card you played\nthis turn, up to 10!)</i>"
+		"text": "<b>Battlecry:</b> Refresh your Hero Power."
 	},
 	{
-		"name": "Fountain Pen",
-		"set": "Battlegrounds",
-		"text": "Your Elementals that give stats grant an extra +2/+1."
-	},
-	{
-		"name": "Curator Sticker",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "Get a 20/20 Mishmash and a 20/20 Amalgam with <b>Venomous</b>."
-	},
-	{
-		"name": "Artanis Sticker",
-		"set": "Battlegrounds",
-		"text": "Get a copy of '{0}'."
-	},
-	{
-		"name": "Fountain Pen",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "Your Elementals that give stats grant an extra +4/+2."
-	},
-	{
-		"name": "Shoalfin Mystic",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 5,
-		"health": 5,
-		"text": "[x]<b>Battlecry:</b> Your Tavern spells\nthat give stats grant an\n extra +1/+1 this game."
-	},
-	{
-		"name": "Shoalfin Mystic",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 10,
-		"health": 10,
-		"text": "[x]<b>Battlecry:</b> Your Tavern spells\nthat give stats grant an\n extra +2/+2 this game."
-	},
-	{
-		"name": "Thaumaturgist Portrait",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"text": "[x]Get a Thaumaturgist.\nYour Thaumaturgists'\n<b>Spellcrafts</b> are permanent."
-	},
-	{
-		"name": "Dazzling Dagger",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]Your minions have\n+1 Attack. <i>(Improved\nby every 4 spells you've\ncast this game!)</i>"
-	},
-	{
-		"name": "Charming Panpipes",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "[x]At the end of each turn,\ngive your left-most minion\n+{0}/+{0}. After you cast\na spell, improve this."
-	},
-	{
-		"name": "Recycling Sticker",
-		"set": "Battlegrounds",
-		"text": "After you play an Elemental, gain a free <b>Refresh</b>."
-	},
-	{
-		"name": "Battlecruiser Portrait",
-		"set": "Battlegrounds",
-		"text": "[x]Get an 8/8 Battlecruiser.\nWhenever the Tavern is\n<b>Refreshed</b>, add a\nBattlecruiser Upgrade to it."
-	},
-	{
-		"name": "Marvelous Mushroom",
-		"set": "Battlegrounds",
-		"text": "[x]Your Tavern spells that\ngive stats grant an extra\n+{0} Health. At the start of\neach turn, increase this by 1."
-	},
-	{
-		"name": "Goldgrubber Portrait",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "Get a Goldgrubber and an Aureate Laureate."
-	},
-	{
-		"name": "Faerie Dragon Scale",
-		"set": "Battlegrounds",
+		"name": "Carnivorous Cube",
+		"set": "Lootapalooza",
 		"cost": 5,
-		"text": "[x]Whenever a friendly\nDragon attacks, give it\n<b>Divine Shield</b>.\n<i>(3 times per combat.)</i>"
-	},
-	{
-		"name": "Battle Horn",
-		"set": "Battlegrounds",
-		"text": "[x]<b>Discover</b> a <b>Battlecry</b>\nminion. <b>Avenge (2):</b>\nTrigger a friendly <b>Battlecry</b>."
-	},
-	{
-		"name": "Poet Portrait",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]Get a Persistent Poet,\na Prized Promo-Drake,\nand a Bronze Steward."
-	},
-	{
-		"name": "Shifting Tide",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]Give a minion +{0}/+{1}\ntwice. If it's a Naga,\n repeat this."
-	},
-	{
-		"name": "Crocheted Sungill",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "[x]After your last minion dies\neach combat, summon\nthe highest-Health minion\nfrom your hand."
-	},
-	{
-		"name": "Herald Sticker",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]<b>Start of Combat:</b> Trigger\nall friendly <b>Deathrattles</b>."
-	},
-	{
-		"name": "All-Purpose Kibble",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "[x]Whenever a friendly Beast\nattacks, give it +2 Attack\nand permanently improve\nthis."
-	},
-	{
-		"name": "Valdrakken Wind Chimes",
-		"set": "Battlegrounds",
-		"cost": 6,
-		"text": "Your <b>Start of Combat</b> effects trigger twice."
-	},
-	{
-		"name": "Wax Imprinter",
-		"set": "Battlegrounds",
-		"text": "[x]Gain 2 Gold and take\n2 damage. At the start\nof each turn, repeat this\n<i>(if possible)</i>."
-	},
-	{
-		"name": "Gilded Anchor",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "At the end of each turn, give your Golden minions +10/+10."
-	},
-	{
-		"name": "Implicator Portrait",
-		"set": "Battlegrounds",
-		"text": "Get 2 False Implicators. Your Demons always consume the highest-Health minion in the Tavern."
-	},
-	{
-		"name": "Hackerfin Portrait",
-		"set": "Battlegrounds",
-		"cost": 5,
-		"text": "Get a Hackerfin. At the end of each turn, trigger your Hackerfins' <b>Battlecries</b>."
-	},
-	{
-		"name": "Theotar Sticker",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "After you play a minion with no type, give a friendly minion of each type +10/+10."
-	},
-	{
-		"name": "Behemoth Portrait",
-		"set": "Battlegrounds",
-		"text": "[x]Get an Arcane Behemoth."
-	},
-	{
-		"name": "Turbocharged Drill",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "Get 5 different <b>Magnetic</b> Mechs of ANY Tier."
-	},
-	{
-		"name": "Aggem Sticker",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "At the end of your turn, play 4 <b>Blood Gems</b> on a friendly minion of each type."
-	},
-	{
-		"name": "Lavish Cape",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "You cast a random Tavern spell for each different friendly minion type. At the start of each turn, repeat this."
-	},
-	{
-		"name": "Silky Shimmermoth",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 8,
-		"health": 3,
-		"text": "[x]After this gains Attack, your\nBeetles have +3/+2 this\ngame. <b>Deathrattle:</b> Summon\na 2/2 Beetle."
-	},
-	{
-		"name": "Silky Shimmermoth",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 16,
+		"attack": 4,
 		"health": 6,
-		"text": "[x]After this gains Attack, your\nBeetles have +6/+4 this\ngame. <b>Deathrattle:</b> Summon\ntwo 2/2 Beetles."
+		"text": "<b>Battlecry:</b> Destroy\na friendly minion.\n<b>Deathrattle:</b> Summon 2 copies of it."
 	},
 	{
-		"name": "Drakkari Portrait",
-		"set": "Battlegrounds",
-		"text": "[x]Get a Drakkari Enchanter.\nYour Drakkari Enchanters\nare both Mechs and\nElementals."
+		"name": "Coffin Crasher",
+		"set": "Gilneas",
+		"cost": 6,
+		"attack": 6,
+		"health": 5,
+		"text": "<b>Deathrattle:</b> Summon a <b>Deathrattle</b> minion from your hand."
 	},
 	{
-		"name": "Innkeeper's Hearth",
-		"set": "Battlegrounds",
+		"name": "Goblin Bomb",
+		"set": "Boomsday",
+		"cost": 1,
+		"attack": 0,
+		"health": 2,
+		"text": "[x]<b>Deathrattle:</b> Deal 2 damage\nto the enemy hero."
+	},
+	{
+		"name": "Mistress of Mixtures",
+		"set": "Gangs",
+		"cost": 1,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Restore #4 Health to each hero."
+	},
+	{
+		"name": "Explosive Sheep",
+		"set": "Gvg",
 		"cost": 2,
-		"text": "[x]<b>Discover</b> a minion of\nyour Tier. Set its stats\nto 15/15."
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Deathrattle:</b> Deal 2 damage to all minions."
 	},
 	{
-		"name": "Empowerment Portrait",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]Get an Azerite\nEmpowerment. At the\nstart of each turn, get\nanother."
-	},
-	{
-		"name": "Maw Caster Portrait",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"text": "[x]Get a Maw Caster.\nWhenever you destroy a\nminion outside combat,\nget a 3-Gold Coin Pouch."
-	},
-	{
-		"name": "Innkeeper's Hearth",
-		"set": "Battlegrounds",
-		"text": "<b>Discover</b> two Tier 6 minions. Set their stats to 20/20."
-	},
-	{
-		"name": "Toxic Stinger",
-		"set": "Battlegrounds",
-		"text": "At the end of each turn, give a random friendly Murloc +10/+10 and <b>Venomous</b>."
-	},
-	{
-		"name": "Greater Pouches",
-		"set": "Battlegrounds",
-		"text": "On Turns 6 and 9, buy a Greater <b>Trinket</b>. There are no Lesser <b>Trinkets</b> in this game."
+		"name": "Jungle Jam Inzah",
+		"set": "Hero_skins",
+		"health": 30
 	}
 ]
