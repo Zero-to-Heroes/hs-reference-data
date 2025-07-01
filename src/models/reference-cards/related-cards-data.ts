@@ -3939,4 +3939,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.TitanographerOsk_TitanographerOskToken_TLC_452t34,
 		CardIds.TitanographerOsk_TitanographerOskToken_TLC_452t35,
 	],
+	[CardIds.MiracleGrowth]: [CardIds.MiracleGrowth_KelpCreeperToken],
+	[CardIds.UltimateInfestation_ICC_085]: [CardIds.UltimateInfestation_GhoulInfestorToken],
+	[CardIds.UltimateInfestation_CORE_ICC_085]: [CardIds.UltimateInfestation_GhoulInfestorToken],
 };
