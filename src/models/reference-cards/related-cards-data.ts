@@ -3942,4 +3942,6 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.MiracleGrowth]: [CardIds.MiracleGrowth_KelpCreeperToken],
 	[CardIds.UltimateInfestation_ICC_085]: [CardIds.UltimateInfestation_GhoulInfestorToken],
 	[CardIds.UltimateInfestation_CORE_ICC_085]: [CardIds.UltimateInfestation_GhoulInfestorToken],
+	[CardIds.SunkenBanshee]: [CardIds.SunkenSpiritToken, CardIds.PriestessMemory],
+	[CardIds.SunkenSpiritToken]: [CardIds.PriestessMemory],
 };
