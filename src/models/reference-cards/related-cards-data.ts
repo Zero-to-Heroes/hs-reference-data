@@ -3636,7 +3636,8 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.Jumpscare_EDR_882]: DARK_GIFTS,
 	[CardIds.AvantGardening_EDR_488]: DARK_GIFTS,
 	[CardIds.RaptorHerald_CORE_EDR_004]: DARK_GIFTS,
-	[CardIds.WallowTheWretched_EDR_487]: DARK_GIFTS,
+	// So that mousing over the card only shows the dark gifts that were actually played
+	// [CardIds.WallowTheWretched_EDR_487]: DARK_GIFTS,
 	[CardIds.Shaladrassil_EDR_846]: [...DREAM_CARDS, ...CORRUPTED_DREAM_CARDS],
 	[CardIds.Lightmender_EDR_257]: [
 		CardIds.Lightmender_HolyBond_EDR_257a,
