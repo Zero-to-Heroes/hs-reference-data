@@ -1437,6 +1437,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.AwakenTheMakers]: [CardIds.AwakenTheMakers_AmaraWardenOfHopeToken],
 	[CardIds.FireFly]: [CardIds.FireFly_FlameElementalToken],
 	[CardIds.FirePlumesHeart]: [CardIds.FirePlumesHeart_SulfurasToken, CardIds.FirePlumesHeart_DieInsectToken],
+	[CardIds.FirePlumesHeart_SulfurasToken]: [CardIds.FirePlumesHeart_DieInsectToken],
 	[CardIds.JungleGiants]: [CardIds.JungleGiants_BarnabusTheStomperToken],
 	[CardIds.LakkariSacrifice]: [
 		CardIds.LakkariSacrifice_NetherPortalToken_UNG_829t1,
@@ -3907,7 +3908,7 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.Interrogation_TLC_518]: [CardIds.LieInWait_TortollanNinjaToken_TLC_513t2],
 	[CardIds.AmbushPredators_TLC_519]: [CardIds.AmbushPredators_VenomousSpitterToken_TLC_519t],
-	[CardIds.OpuTheUnseen_TLC_522]: [CardIds.FanOfKnives],
+	[CardIds.OpuTheUnseen_TLC_522]: [CardIds.FanOfKnivesCore],
 	[CardIds.TitanographerOsk_TLC_452]: [
 		CardIds.TitanographerOsk_TitanographerOskToken_TLC_452t1,
 		CardIds.TitanographerOsk_TitanographerOskToken_TLC_452t2,
@@ -3945,4 +3946,5 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.UltimateInfestation_CORE_ICC_085]: [CardIds.UltimateInfestation_GhoulInfestorToken],
 	[CardIds.SunkenBanshee]: [CardIds.SunkenSpiritToken, CardIds.PriestessMemory],
 	[CardIds.SunkenSpiritToken]: [CardIds.PriestessMemory],
+	[CardIds.DissolvingOoze_TLC_252]: [CardIds.BonesToken_TLC_829t],
 };
