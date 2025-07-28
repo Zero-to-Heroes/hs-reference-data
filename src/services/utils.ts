@@ -1,5 +1,3 @@
-import fetch from 'cross-fetch';
-
 function partitionArray<T>(array: readonly T[], partitionSize: number): readonly T[][] {
 	const workingCopy: T[] = [...array];
 	const result: T[][] = [];
