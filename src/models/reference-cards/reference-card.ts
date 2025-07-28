@@ -86,6 +86,8 @@ export interface ReferenceCard {
 export interface CardLocale {
 	readonly locale: string;
 	readonly name: string;
+	readonly text?: string;
+	readonly flavor?: string;
 }
 
 export interface ReferenceCardAudio {
