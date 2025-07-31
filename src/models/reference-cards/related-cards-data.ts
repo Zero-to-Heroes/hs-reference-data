@@ -227,6 +227,14 @@ const FEL_BEASTS = [
 	CardIds.EscapeTheUnderfel_FelhornToken_TLC_446t4,
 ];
 
+const BACON_BOUNTY = [
+	CardIds.SelfishBounty_BG33_813,
+	CardIds.FriendlyBounty_BG33_814,
+	CardIds.WealthyBounty_BG33_815,
+	CardIds.HealthyBounty_BG33_811,
+	CardIds.HostileBounty_BG33_812,
+];
+
 export type RelatedCardExtractor = (cards: readonly ReferenceCard[]) => readonly string[];
 
 export const RELATED_CARDS_DATA: {
@@ -4014,4 +4022,14 @@ export const RELATED_CARDS_DATA: {
 		CardIds.TreasureHunterEudora_CrustyTheCrustaceanToken_VAC_464t8,
 		CardIds.TreasureHunterEudora_LoomingPresenceToken_VAC_464t9,
 	],
+	[CardIds.BigwigBandit_BG33_822]: BACON_BOUNTY,
+	[CardIds.BigwigBandit_BG33_822_G]: BACON_BOUNTY,
+	[CardIds.LostCityLooter_BG33_820]: BACON_BOUNTY,
+	[CardIds.LostCityLooter_BG33_820_G]: BACON_BOUNTY,
+	[CardIds.ProudPrivateer_BG33_825]: BACON_BOUNTY,
+	[CardIds.ProudPrivateer_BG33_825_G]: BACON_BOUNTY,
+	[CardIds.ShipwreckedRascal_BG33_821]: BACON_BOUNTY,
+	[CardIds.ShipwreckedRascal_BG33_821_G]: BACON_BOUNTY,
+	[CardIds.SkyAdmiralRogers_BG33_823]: BACON_BOUNTY,
+	[CardIds.SkyAdmiralRogers_BG33_823_G]: BACON_BOUNTY,
 };

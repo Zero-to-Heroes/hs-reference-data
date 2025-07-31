@@ -79,10 +79,10 @@ export const NON_BUYABLE_MINION_IDS = [
 	CardIds.TentacleOfOctosariToken_BG26_803_Gt,
 	//27.2
 	CardIds.OozelingGladiator_SlimyShieldToken_BG27_002t,
-	CardIds.SurfNSurf_CrabMountToken_BG27_004t,
-	CardIds.SurfNSurf_CrabMountToken_BG27_004_Gt,
-	CardIds.SurfNSurf_CrabToken_BG27_004t2,
-	CardIds.SurfNSurf_CrabToken_BG27_004_Gt2,
+	// CardIds.SurfNSurf_CrabMountToken_BG27_004t,
+	// CardIds.SurfNSurf_CrabMountToken_BG27_004_Gt,
+	// CardIds.SurfNSurf_CrabToken_BG27_004t2,
+	// CardIds.SurfNSurf_CrabToken_BG27_004_Gt2,
 	CardIds.MechanizedGiftHorse_MechorseToken_BG27_008_Gt,
 	CardIds.MechanizedGiftHorse_MechaponyToken_BG27_008t2,
 	CardIds.MechanizedGiftHorse_MechorseToken_BG27_008_Gt,
@@ -325,7 +325,7 @@ export const getReferenceTribeCardId = (tribe: string | Race | GameTag): string 
 			break;
 		case 'all':
 		case Race.ALL:
-			referenceCardId = CardIds.Amalgadon_BGS_069;
+			referenceCardId = CardIds.AmalgamOfTheDeep_BG_TSC_069;
 			break;
 		case GameTag.PROTOSS:
 			referenceCardId = CardIds.WarpGate_MothershipToken_BG31_HERO_802pt7;
@@ -552,8 +552,8 @@ export const getHeroPower = (
 			return CardIds.IngeTheIronHymn_MajorHymn;
 		case CardIds.CapnHoggarr_BG26_HERO_101:
 			return CardIds.CapnHoggarr_ImTheCapnNow;
-		case CardIds.Diablo:
-			return CardIds.Diablo_RealmOfTerror;
+		// case CardIds.Diablo:
+		// 	return CardIds.Diablo_RealmOfTerror;
 		case CardIds.ThorimStormlord_BG27_HERO_801:
 			return CardIds.ThorimStormlord_ChooseYourChampion_BG27_HERO_801p2;
 		case CardIds.SnakeEyes_BG28_HERO_400:
@@ -846,7 +846,7 @@ export const getTribesForInclusion = (card: ReferenceCard, includeOwnTribe: bool
 		case CardIds.PackLeader_BGS_017:
 		case CardIds.PackLeader_TB_BaconUps_086:
 		case CardIds.VirmenSensei_CFM_816:
-		case CardIds.VirmenSensei_TB_BaconUps_074:
+		// case CardIds.VirmenSensei_TB_BaconUps_074:
 		case CardIds.HoundmasterLegacy:
 		case CardIds.HoundmasterVanilla:
 		case CardIds.Houndmaster_TB_BaconUps_068:
@@ -866,8 +866,8 @@ export const getTribesForInclusion = (card: ReferenceCard, includeOwnTribe: bool
 			return [Race.MURLOC, ...cardRaces];
 		case CardIds.NadinaTheRed_BGS_040:
 		case CardIds.NadinaTheRed_TB_BaconUps_154:
-		case CardIds.WaxriderTogwaggle_BGS_035:
-		case CardIds.WaxriderTogwaggle_TB_BaconUps_105:
+		// case CardIds.WaxriderTogwaggle_BGS_035:
+		// case CardIds.WaxriderTogwaggle_TB_BaconUps_105:
 		case CardIds.WhelpSmuggler_BG21_013:
 		case CardIds.WhelpSmuggler_BG21_013_G:
 			return [Race.DRAGON, ...cardRaces];
@@ -883,8 +883,8 @@ export const getTribesForInclusion = (card: ReferenceCard, includeOwnTribe: bool
 			return [Race.MECH, ...cardRaces];
 		case CardIds.DefiantShipwright_BG21_018:
 		case CardIds.DefiantShipwright_BG21_018_G:
-		case CardIds.TheTideRazor_BGS_079:
-		case CardIds.TheTideRazor_TB_BaconUps_137:
+		// case CardIds.TheTideRazor_BGS_079:
+		// case CardIds.TheTideRazor_TB_BaconUps_137:
 		case CardIds.CoastGuard_BG31_827:
 		case CardIds.CoastGuard_BG31_827_G:
 			return [Race.PIRATE, ...cardRaces];
