@@ -590,6 +590,8 @@ export const getHeroPower = (
 			return CardIds.Buttons_GrowingCollection_BG32_HERO_002p;
 		case CardIds.ForestLordCenarius_BG32_HERO_001:
 			return CardIds.ForestLordCenarius_WisdomOfAncients_BG32_HERO_001p;
+		case CardIds.LohTheLivingLegend_BG33_HERO_001:
+			return CardIds.LohTheLivingLegend_HeroicInspiration_BG33_HERO_001p;
 
 		case '':
 			return null; // new heroes
