@@ -45,6 +45,7 @@ export interface ReferenceCard {
 	readonly armor?: number;
 	readonly hideStats?: boolean;
 	readonly enchantmentDbfId?: number;
+	readonly entityDbfIf?: number;
 
 	readonly isCoin?: boolean;
 	readonly isTreant?: boolean;
