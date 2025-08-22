@@ -548,6 +548,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.TheBeastLegacy]: [CardIds.PipQuickwitLegacy],
 	[CardIds.XaviusLegacy]: [CardIds.Xavius_XavianSatyrLegacyToken],
 	[CardIds.OnyxiaTheBroodmotherCore]: [CardIds.LeeroyJenkins_WhelpLegacyToken],
+	[CardIds.OnyxiaTheBroodmother_LEG_CS3_032]: [CardIds.LeeroyJenkins_WhelpLegacyToken],
 	[CardIds.OnyxiaLegacy]: [CardIds.LeeroyJenkins_WhelpLegacyToken],
 	[CardIds.LeeroyJenkinsLegacy]: [CardIds.LeeroyJenkins_WhelpLegacyToken],
 	[CardIds.TirionFordringCore]: [CardIds.TirionFordring_AshbringerLegacyToken],
@@ -763,6 +764,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.SeekGuidance_DiscoverTheVoidShardToken,
 		CardIds.SeekGuidance_IlluminateTheVoidToken,
 		CardIds.SeekGuidance_XyrellaTheSanctifiedToken,
+		CardIds.XyrellaTheSanctified_PurifiedShard,
 	],
 	[CardIds.ShadowcrafterScabbs]: [CardIds.ShadowcrafterScabbs_SleightOfHand, CardIds.ShadowcrafterScabbs_ShadowToken],
 	[CardIds.Shenanigans]: [CardIds.BananaBuffoon_BananasToken],
@@ -4032,4 +4034,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.ShipwreckedRascal_BG33_821_G]: BACON_BOUNTY,
 	[CardIds.SkyAdmiralRogers_BG33_823]: BACON_BOUNTY,
 	[CardIds.SkyAdmiralRogers_BG33_823_G]: BACON_BOUNTY,
+	[CardIds.PursuitOfJustice]: [CardIds.SilverHandRecruitLegacyToken],
+	[CardIds.PursuitOfJusticeLegacy_CS3_029]: [CardIds.SilverHandRecruitLegacyToken],
+	[CardIds.Polymorph]: [CardIds.SheepLegacy],
 };
