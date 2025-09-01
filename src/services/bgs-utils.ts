@@ -305,7 +305,7 @@ export const getReferenceTribeCardId = (tribe: string | Race | GameTag): string 
 			break;
 		case 'pirate':
 		case Race.PIRATE:
-			referenceCardId = CardIds.Scallywag_BGS_061;
+			referenceCardId = CardIds.BladeCollector_BG26_817;
 			break;
 		case 'elemental':
 		case Race.ELEMENTAL:
