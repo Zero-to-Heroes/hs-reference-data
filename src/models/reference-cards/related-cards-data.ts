@@ -235,7 +235,13 @@ const BACON_BOUNTY = [
 	CardIds.HostileBounty_BG33_812,
 ];
 
-const MASKS = [CardIds.BatMask, CardIds.BehemothMask, CardIds.DevilsaurMask, CardIds.PantherMask, CardIds.SheepMask];
+const MASKS = [
+	CardIds.BatMask_DINO_402,
+	CardIds.BehemothMask_DINO_428,
+	CardIds.DevilsaurMask_DINO_403,
+	CardIds.PantherMask_DINO_432,
+	CardIds.SheepMask_DINO_429,
+];
 
 export type RelatedCardExtractor = (cards: readonly ReferenceCard[]) => readonly string[];
 
@@ -4044,15 +4050,30 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.PursuitOfJustice]: [CardIds.SilverHandRecruitLegacyToken],
 	[CardIds.PursuitOfJusticeLegacy_CS3_029]: [CardIds.SilverHandRecruitLegacyToken],
 	[CardIds.Polymorph]: [CardIds.SheepLegacy],
-	[CardIds.HornOfFeasting]: [CardIds.HornOfFeasting_RavenousRaptor],
-	[CardIds.LongneckEgg]: [CardIds.LongneckEgg_LittleLongneck],
-	[CardIds.TheEggOfKhelos]: [
-		CardIds.TheEggOfKhelos_Token1,
-		CardIds.TheEggOfKhelos_Token2,
-		CardIds.TheEggOfKhelos_Token3,
-		CardIds.TheEggOfKhelos_Token4,
-		CardIds.TheEggOfKhelos_Token5,
-		CardIds.Khelos,
+	[CardIds.HornOfFeasting_DINO_136]: [CardIds.HornOfFeasting_RavenousRaptorToken_DINO_136t],
+	[CardIds.LongneckEgg_DINO_130]: [CardIds.LongneckEgg_LittleLongneckToken_DINO_130t],
+	[CardIds.TheEggOfKhelos_DINO_410]: [
+		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t2,
+		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t3,
+		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t4,
+		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t5,
+		CardIds.TheEggOfKhelos_DINO_410,
 	],
-	[CardIds.CostumeMerchant]: MASKS,
+	[CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t2]: [
+		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t3,
+		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t4,
+		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t5,
+		CardIds.TheEggOfKhelos_DINO_410,
+	],
+	[CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t3]: [
+		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t4,
+		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t5,
+		CardIds.TheEggOfKhelos_DINO_410,
+	],
+	[CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t4]: [
+		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t5,
+		CardIds.TheEggOfKhelos_DINO_410,
+	],
+	[CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t5]: [CardIds.TheEggOfKhelos_DINO_410],
+	[CardIds.CostumeMerchant_DINO_427]: MASKS,
 };
