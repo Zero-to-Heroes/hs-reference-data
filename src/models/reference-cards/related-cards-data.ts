@@ -235,6 +235,8 @@ const BACON_BOUNTY = [
 	CardIds.HostileBounty_BG33_812,
 ];
 
+const MASKS = [CardIds.BatMask, CardIds.BehemothMask, CardIds.DevilsaurMask, CardIds.PantherMask, CardIds.SheepMask];
+
 export type RelatedCardExtractor = (cards: readonly ReferenceCard[]) => readonly string[];
 
 export const RELATED_CARDS_DATA: {
@@ -1216,6 +1218,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.DrBoomMadGenius_MicroSquad,
 	],
 	[CardIds.RatTrap]: [CardIds.RatTrap_DoomRatToken],
+	[CardIds.RatTrap_CORE_GIL_577]: [CardIds.RatTrap_DoomRatToken],
 	[CardIds.WitchwoodAppleCore]: [CardIds.WitchwoodApple_TreantToken],
 	[CardIds.WitchwoodApple]: [CardIds.WitchwoodApple_TreantToken],
 	[CardIds.DruidOfTheScythe]: [
@@ -1683,6 +1686,8 @@ export const RELATED_CARDS_DATA: {
 		CardIds.RepairBotLegacy,
 	],
 	[CardIds.BallOfSpiders]: [CardIds.Webspinner_FP1_011],
+	[CardIds.BallOfSpiders_WON_021]: [CardIds.Webspinner_FP1_011],
+	[CardIds.BallOfSpiders_CORE_AT_062]: [CardIds.Webspinner_FP1_011],
 	[CardIds.JusticarTrueheart]: UPGRADED_HERO_POWERS,
 	[CardIds.Kodorider]: [CardIds.Kodorider_WarKodoToken],
 	[CardIds.Rhonin]: [CardIds.ArcaneMissilesLegacy],
@@ -4039,4 +4044,15 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.PursuitOfJustice]: [CardIds.SilverHandRecruitLegacyToken],
 	[CardIds.PursuitOfJusticeLegacy_CS3_029]: [CardIds.SilverHandRecruitLegacyToken],
 	[CardIds.Polymorph]: [CardIds.SheepLegacy],
+	[CardIds.HornOfFeasting]: [CardIds.HornOfFeasting_RavenousRaptor],
+	[CardIds.LongneckEgg]: [CardIds.LongneckEgg_LittleLongneck],
+	[CardIds.TheEggOfKhelos]: [
+		CardIds.TheEggOfKhelos_Token1,
+		CardIds.TheEggOfKhelos_Token2,
+		CardIds.TheEggOfKhelos_Token3,
+		CardIds.TheEggOfKhelos_Token4,
+		CardIds.TheEggOfKhelos_Token5,
+		CardIds.Khelos,
+	],
+	[CardIds.CostumeMerchant]: MASKS,
 };

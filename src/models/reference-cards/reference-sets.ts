@@ -1,6 +1,7 @@
 import { GameFormat, GameType } from '../../public-api';
 
 export type SetId =
+	| 'day_of_rebirth'
 	| 'lost_city_of_ungoro'
 	| 'embers_of_the_world_tree'
 	| 'into_the_emerald_dream'
@@ -67,6 +68,12 @@ export interface ReferenceSet {
 }
 
 export const sets: readonly ReferenceSet[] = [
+	{
+		id: 'day_of_rebirth',
+		name: `Day of Rebirth`,
+		launchDate: new Date('2025-09-02'),
+		miniSetFor: 'lost_city_of_ungoro',
+	},
 	{
 		id: 'lost_city_of_ungoro',
 		name: `The Lost City of Un'Goro`,
@@ -407,13 +414,12 @@ export const twistSets: readonly SetId[] = twistBaseSets
 	.map((setId) => setId as SetId);
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 const arenaBaseSets: readonly SetId[] = [
-	// 'into_the_emerald_dream',
-	// 'wild_west',
-	// 'the_sunken_city',
-	// 'the_barrens',
-	// 'scholomance',
-	// 'core',
-	// 'gift',
+	'lost_city_of_ungoro',
+	'perils_in_paradise',
+	'battle_of_the_bands',
+	'return_of_the_lich_king',
+	'revendreth',
+	'core',
 ];
 export const arenaSets: readonly SetId[] = arenaBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
