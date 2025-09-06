@@ -297,7 +297,7 @@ export const getReferenceTribeCardId = (tribe: string | Race | GameTag): string 
 			break;
 		case 'dragon':
 		case Race.DRAGON:
-			referenceCardId = CardIds.KalecgosArcaneAspect_BGS_041;
+			referenceCardId = CardIds.PersistentPoet_BG29_813;
 			break;
 		case 'murloc':
 		case Race.MURLOC:
@@ -305,7 +305,7 @@ export const getReferenceTribeCardId = (tribe: string | Race | GameTag): string 
 			break;
 		case 'pirate':
 		case Race.PIRATE:
-			referenceCardId = CardIds.BladeCollector_BG26_817;
+			referenceCardId = CardIds.SouthseaBusker_BG26_135;
 			break;
 		case 'elemental':
 		case Race.ELEMENTAL:
