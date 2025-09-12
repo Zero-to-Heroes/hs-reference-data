@@ -1798,6 +1798,11 @@ export const RELATED_CARDS_DATA: {
 		CardIds.RelicOfPhantasms,
 		CardIds.ArtificerXymox_ArtificerXymoxToken,
 	],
+	[CardIds.ArtificerXymox_ArtificerXymoxToken]: [
+		CardIds.RelicOfExtinction,
+		CardIds.RelicOfDimensions,
+		CardIds.RelicOfPhantasms,
+	],
 	[CardIds.TheCountess]: [CardIds.TheCountess_LegendaryInvitationToken],
 	[CardIds.BuffetBiggun]: [CardIds.BuffetBiggun_BuffetBiggunToken, CardIds.SilverHandRecruitLegacyToken],
 	[CardIds.BuffetBiggun_BuffetBiggunToken]: [CardIds.SilverHandRecruitLegacyToken],
