@@ -4083,4 +4083,5 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t5]: [CardIds.TheEggOfKhelos_DINO_410],
 	[CardIds.CostumeMerchant_DINO_427]: MASKS,
+	[CardIds.NarainSoothfancy_VAC_420]: [CardIds.NarainSoothfancy_FortuneToken_VAC_420t],
 };
