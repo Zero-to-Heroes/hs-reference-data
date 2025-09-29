@@ -1,6 +1,7 @@
 import { GameFormat, GameType } from '../../public-api';
 
 export type SetId =
+	| 'across_the_timeways'
 	| 'day_of_rebirth'
 	| 'lost_city_of_ungoro'
 	| 'embers_of_the_world_tree'
@@ -68,6 +69,11 @@ export interface ReferenceSet {
 }
 
 export const sets: readonly ReferenceSet[] = [
+	{
+		id: 'across_the_timeways',
+		name: `Across the Timeways`,
+		launchDate: new Date('2025-09-29'),
+	},
 	{
 		id: 'day_of_rebirth',
 		name: `Day of Rebirth`,
