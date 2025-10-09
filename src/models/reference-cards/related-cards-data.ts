@@ -2663,6 +2663,26 @@ export const RELATED_CARDS_DATA: {
 		CardIds.RemixedTuningFork_CurvedTuningForkToken,
 		CardIds.RemixedTuningFork_BackupTuningForkToken,
 	],
+	[CardIds.RemixedTuningFork_BackupTuningForkToken]: [
+		CardIds.RemixedTuningFork_SharpenedTuningForkToken,
+		CardIds.RemixedTuningFork_ReinforcedTuningForkToken,
+		CardIds.RemixedTuningFork_CurvedTuningForkToken,
+	],
+	[CardIds.RemixedTuningFork_CurvedTuningForkToken]: [
+		CardIds.RemixedTuningFork_SharpenedTuningForkToken,
+		CardIds.RemixedTuningFork_ReinforcedTuningForkToken,
+		CardIds.RemixedTuningFork_BackupTuningForkToken,
+	],
+	[CardIds.RemixedTuningFork_ReinforcedTuningForkToken]: [
+		CardIds.RemixedTuningFork_SharpenedTuningForkToken,
+		CardIds.RemixedTuningFork_CurvedTuningForkToken,
+		CardIds.RemixedTuningFork_BackupTuningForkToken,
+	],
+	[CardIds.RemixedTuningFork_SharpenedTuningForkToken]: [
+		CardIds.RemixedTuningFork_ReinforcedTuningForkToken,
+		CardIds.RemixedTuningFork_CurvedTuningForkToken,
+		CardIds.RemixedTuningFork_BackupTuningForkToken,
+	],
 	[CardIds.RemixedTotemcarver]: [
 		CardIds.RemixedTotemcarver_LoudTotemcarverToken,
 		CardIds.RemixedTotemcarver_BluesyTotemcarverToken,
@@ -4064,24 +4084,24 @@ export const RELATED_CARDS_DATA: {
 		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t3,
 		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t4,
 		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t5,
-		CardIds.TheEggOfKhelos_DINO_410,
+		CardIds.TheEggOfKhelos_KhelosToken_DINO_410t,
 	],
 	[CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t2]: [
 		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t3,
 		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t4,
 		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t5,
-		CardIds.TheEggOfKhelos_DINO_410,
+		CardIds.TheEggOfKhelos_KhelosToken_DINO_410t,
 	],
 	[CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t3]: [
 		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t4,
 		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t5,
-		CardIds.TheEggOfKhelos_DINO_410,
+		CardIds.TheEggOfKhelos_KhelosToken_DINO_410t,
 	],
 	[CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t4]: [
 		CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t5,
-		CardIds.TheEggOfKhelos_DINO_410,
+		CardIds.TheEggOfKhelos_KhelosToken_DINO_410t,
 	],
-	[CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t5]: [CardIds.TheEggOfKhelos_DINO_410],
+	[CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t5]: [CardIds.TheEggOfKhelos_KhelosToken_DINO_410t],
 	[CardIds.CostumeMerchant_DINO_427]: MASKS,
 	[CardIds.NarainSoothfancy_VAC_420]: [CardIds.NarainSoothfancy_FortuneToken_VAC_420t],
 };

@@ -809,6 +809,24 @@ export const getBuddy = (heroCardId: CardIds, allCards: AllCardsService): CardId
 			return CardIds.MisterChu_BGDUO_HERO_104_Buddy;
 		case CardIds.FlobbidinousFloop_BGDUO_HERO_101:
 			return CardIds.GloriousGloopling_BGDUO_HERO_101_Buddy;
+		case CardIds.KerriganQueenOfBlades_BG31_HERO_811:
+			return CardIds.BrokenHorn_BG31_HERO_811_Buddy;
+		case CardIds.MarinTheManager_BG30_HERO_304:
+			return CardIds.FantasticBellhop_BG30_HERO_304_Buddy;
+		case CardIds.ForestLordCenarius_BG32_HERO_001:
+			return CardIds.Malorne_BG32_HERO_001_Buddy;
+		case CardIds.ExarchOthaar_BG31_HERO_006:
+			return CardIds.TheCelestialArchive_BG31_HERO_006_Buddy;
+		case CardIds.Buttons_BG32_HERO_002:
+			return CardIds.Zippers_BG32_HERO_002_Buddy;
+		case CardIds.ZerekMasterCloner_BG31_HERO_005:
+			return CardIds.MiniZerek_BG31_HERO_005_Buddy;
+		case CardIds.JimRaynor_BG31_HERO_801:
+			return CardIds.TychusFindlay_BG31_HERO_801_Buddy;
+		case CardIds.Artanis_BG31_HERO_802:
+			return CardIds.Probius_BG31_HERO_802_Buddy;
+		case CardIds.LohTheLivingLegend_BG33_HERO_001:
+			return CardIds.StoneshellGuardian_BG33_HERO_000_Buddy;
 		default:
 			if (!!heroCardId) {
 				console.debug('missing buddy section for ', heroCardId);
