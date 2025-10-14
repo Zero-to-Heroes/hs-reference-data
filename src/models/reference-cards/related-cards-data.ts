@@ -4104,4 +4104,27 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.TheEggOfKhelos_TheEggOfKhelosToken_DINO_410t5]: [CardIds.TheEggOfKhelos_KhelosToken_DINO_410t],
 	[CardIds.CostumeMerchant_DINO_427]: MASKS,
 	[CardIds.NarainSoothfancy_VAC_420]: [CardIds.NarainSoothfancy_FortuneToken_VAC_420t],
+	[CardIds.TalanjiOfTheGraves_TIME]: [
+		CardIds.Bwonsamdi_TIME,
+		CardIds.WhatBefellZandalar_TIME,
+		CardIds.BoonOfLongevity_TIME,
+		CardIds.BoonOfPower_TIME,
+		CardIds.BoonOfSpeed_TIME,
+	],
+	[CardIds.Bwonsamdi_TIME]: [
+		CardIds.TalanjiOfTheGraves_TIME,
+		CardIds.WhatBefellZandalar_TIME,
+		CardIds.BoonOfLongevity_TIME,
+		CardIds.BoonOfPower_TIME,
+		CardIds.BoonOfSpeed_TIME,
+	],
+	[CardIds.WhatBefellZandalar_TIME]: [
+		CardIds.TalanjiOfTheGraves_TIME,
+		CardIds.Bwonsamdi_TIME,
+		CardIds.BoonOfLongevity_TIME,
+		CardIds.BoonOfPower_TIME,
+		CardIds.BoonOfSpeed_TIME,
+	],
+	[CardIds.HuskEternalReaper]: [CardIds.EternalLife_TIME],
+	[CardIds.ShadowsOfYesterday]: [CardIds.ShadowsOfYesterday_Shade],
 };
