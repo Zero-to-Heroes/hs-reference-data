@@ -54,4 +54,5 @@ export enum Board {
 	TOY = 134,
 	RAPTOR = 140,
 	TLC = 141,
+	TIME = 142,
 }
