@@ -420,12 +420,12 @@ export const twistSets: readonly SetId[] = twistBaseSets
 	.map((setId) => setId as SetId);
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 const arenaBaseSets: readonly SetId[] = [
+	'across_the_timeways',
 	'lost_city_of_ungoro',
+	'into_the_emerald_dream',
+	'great_dark_beyond',
 	'perils_in_paradise',
-	'battle_of_the_bands',
-	'return_of_the_lich_king',
-	'revendreth',
-	'core',
+	'whizbangs_workshop',
 ];
 export const arenaSets: readonly SetId[] = arenaBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
