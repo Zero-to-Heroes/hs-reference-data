@@ -389,7 +389,7 @@ export const getHeroPower = (
 		case 'TB_BaconShop_HERO_34':
 			return 'TB_BaconShop_HP_035';
 		case 'TB_BaconShop_HERO_35':
-			return 'TB_BaconShop_HP_039';
+			return CardIds.PuzzleBox_PuzzleBoxToken_TB_BaconShop_HP_039t;
 		case 'TB_BaconShop_HERO_36':
 			return 'TB_BaconShop_HP_042';
 		case 'TB_BaconShop_HERO_37':
