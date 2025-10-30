@@ -433,6 +433,9 @@ export const arenaSets: readonly SetId[] = arenaBaseSets
 
 export const duelsSets: readonly SetId[] = [];
 export const vanillaSets: readonly SetId[] = ['vanilla'];
+export const brawlSets: { [scenarioId: number]: readonly SetId[] } = {
+	5465: ['across_the_timeways', 'lost_city_of_ungoro', 'day_of_rebirth', 'core'],
+};
 
 export const isValidSet = (set: SetId, format: GameFormat, gameType: GameType): boolean => {
 	switch (gameType) {
