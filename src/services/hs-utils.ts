@@ -302,7 +302,11 @@ export const getEffectiveTechLevel = (card: ReferenceCard, allCards: AllCardsSer
 
 export const hasCorrectTribe = (card: ReferenceCard, targetTribe: Race): boolean => {
 	const cardTribes = getEffectiveTribesEnumBase(card);
-	return cardTribes.includes(targetTribe) || cardTribes.includes(Race.ALL);
+	return (
+		cardTribes.includes(targetTribe) ||
+		cardTribes.includes(Race.ALL) ||
+		(targetTribe === Race.ALL && cardTribes.length > 0)
+	);
 };
 export const hasMechanic = (card: ReferenceCard, mechanic: GameTag): boolean => {
 	return card.mechanics?.includes(GameTag[mechanic]);
