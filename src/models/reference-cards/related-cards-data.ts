@@ -4208,16 +4208,16 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.Thunderquake_TIME_215]: [CardIds.StaticShock_TIME_218],
 	[CardIds.GaronaHalforcen_TIME_875]: [
-		CardIds.RoyalInformant_TIME_036,
+		CardIds.GaronaHalforcen_TheKingslayersToken_TIME_875t1,
 		CardIds.GaronaHalforcen_KingLlaneToken_TIME_875t,
 	],
-	[CardIds.RoyalInformant_TIME_036]: [
+	[CardIds.GaronaHalforcen_TheKingslayersToken_TIME_875t1]: [
 		CardIds.GaronaHalforcen_TIME_875,
 		CardIds.GaronaHalforcen_KingLlaneToken_TIME_875t,
 	],
 	[CardIds.GaronaHalforcen_KingLlaneToken_TIME_875t]: [
 		CardIds.GaronaHalforcen_TIME_875,
-		CardIds.RoyalInformant_TIME_036,
+		CardIds.GaronaHalforcen_TheKingslayersToken_TIME_875t1,
 	],
 	[CardIds.TimeAdmralHooktail_TIME_713]: [CardIds.TimeAdmralHooktail_TimelessChestToken_TIME_713t],
 	[CardIds.Broxigar_TIME_020]: [

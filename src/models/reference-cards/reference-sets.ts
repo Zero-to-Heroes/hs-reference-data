@@ -396,6 +396,7 @@ const standardBaseSets: readonly SetId[] = [
 	'great_dark_beyond',
 	'into_the_emerald_dream',
 	'lost_city_of_ungoro',
+	'across_the_timeways',
 ];
 export const standardSets: readonly SetId[] = standardBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
