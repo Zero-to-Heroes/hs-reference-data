@@ -3473,6 +3473,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.Kazakus_NetherbloomToken_CFM_621t10,
 		CardIds.Kazakus_ShadowOilToken_CFM_621t9,
 		CardIds.Kazakus_StonescaleOilToken_CFM_621t3,
+		CardIds.Kazakus_KingsbloodToken_CFM_621t8,
 	],
 	[CardIds.SleepUnderTheStars_VAC_907]: [
 		CardIds.SleepUnderTheStars_BearConstellationToken_VAC_907t2,
@@ -4294,6 +4295,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.TwilightTimehopper_TIME_025]: [CardIds.TwilightTimehopper_ShredOfTimeToken_TIME_025t],
 	[CardIds.TachyonBarrage_TIME_027]: [CardIds.TwilightTimehopper_ShredOfTimeToken_TIME_025t],
 	[CardIds.EntropicContinuity_TIME_026]: [CardIds.TwilightTimehopper_ShredOfTimeToken_TIME_025t],
+	[CardIds.ExarchNaielle_GDB_846]: [CardIds.Tracking_GDB_846hp],
 	[CardIds.TimethiefRafaam_TIME_005]: [
 		CardIds.TimethiefRafaam_TinyRafaamToken_TIME_005t1,
 		CardIds.TimethiefRafaam_GreenRafaamToken_TIME_005t2,
