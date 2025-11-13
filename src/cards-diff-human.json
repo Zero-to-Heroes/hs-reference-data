@@ -1,273 +1,137 @@
 [
 	{
-		"name": "Polymorph: Boar",
-		"set": "Tgt",
+		"name": "Holy Wrath",
+		"set": "Legacy",
 		"cost": 3,
-		"text": "Transform a minion into a 4/2 Boar with <b>Charge</b>."
+		"text": "Draw a card and deal damage equal to its Cost to a minion."
 	},
 	{
-		"name": "Zap!",
-		"set": "Gilneas",
-		"cost": 0,
-		"text": "Deal $2 damage to a minion. <b>Overload:</b> (1)"
+		"name": "Malchezaar's Imp",
+		"set": "Kara",
+		"cost": 2,
+		"attack": 1,
+		"health": 3,
+		"text": "Whenever you discard a card, draw a card."
 	},
 	{
-		"name": "Flobbidinous Floop",
-		"set": "Boomsday",
-		"cost": 4,
-		"attack": 3,
-		"health": 4,
-		"text": "While in your hand, this is a 3/4 copy of the last minion you played."
-	},
-	{
-		"name": "Blessing of Aeons",
-		"set": "Taverns_of_time",
-		"cost": 0,
-		"text": "Give a minion \"At the end of your turn, gain +1/+1.\""
-	},
-	{
-		"name": "Possibility Seeker",
-		"set": "Taverns_of_time",
-		"cost": 4,
-		"attack": 4,
-		"health": 6,
-		"text": "<b>Battlecry:</b> Shuffle your hand into your deck. Draw that many cards."
-	},
-	{
-		"name": "Aeon Reaver",
-		"set": "Yod",
-		"cost": 6,
-		"attack": 4,
-		"health": 4,
-		"text": "<b>Battlecry:</b> Deal damage to a minion equal to its Attack."
-	},
-	{
-		"name": "Wax Warband",
-		"set": "Battlegrounds",
-		"text": "[x]<b><b>Passive</b>.</b> <b>Start of Combat:</b>\nGive a friendly minion of each\ntype +{2}/+{2}. <i>(Upgrades\nafter you spend 10 Gold!)</i>"
-	},
-	{
-		"name": "BUY, INSECT!",
-		"set": "Battlegrounds",
-		"text": "[x]<b>Passive</b>\nAfter you buy 16 cards,\nget Sulfuras. <i>(16 left!)</i>"
-	},
-	{
-		"name": "Baba Naga",
-		"set": "The_sunken_city",
-		"cost": 4,
-		"attack": 4,
-		"health": 4,
-		"text": "<b>Battlecry:</b> If you've cast\na spell while holding this, deal 3 damage."
-	},
-	{
-		"name": "Barbed Nets",
-		"set": "The_sunken_city",
-		"cost": 1,
-		"text": "[x]Deal $2 damage to an\nenemy. If you played a\nNaga while holding this,\nchoose a second target."
-	},
-	{
-		"name": "Coilskar Commander",
-		"set": "The_sunken_city",
-		"cost": 6,
-		"attack": 3,
-		"health": 7,
-		"text": "[x]<b>Taunt</b>. <b>Battlecry:</b> If you've\ncast three spells while\nholding this, summon two\n copies of this."
-	},
-	{
-		"name": "Crushclaw Enforcer",
-		"set": "The_sunken_city",
-		"cost": 3,
-		"attack": 3,
-		"health": 4,
-		"text": "<b>Battlecry:</b> If you've cast\n a spell while holding this, draw a Naga."
-	},
-	{
-		"name": "Lady Naz'jar",
-		"set": "Throne_of_tides",
+		"name": "Captain Cookie",
+		"set": "Tb",
 		"cost": 5,
-		"attack": 5,
-		"health": 5,
-		"text": "[x]While in your hand, this\n transforms after you cast a \nFire, Frost, or Arcane spell."
+		"attack": 0,
+		"health": 3,
+		"text": "Whenever you summon a Pirate while this is in your hand, give this minion +1/+1."
 	},
 	{
-		"name": "Handmaiden",
-		"set": "The_sunken_city",
-		"cost": 3,
-		"attack": 3,
-		"health": 2,
-		"text": "[x]<b>Battlecry:</b> If you've cast\nthree spells while holding\nthis, draw 3 cards."
-	},
-	{
-		"name": "Serpent Wig",
-		"set": "The_sunken_city",
+		"name": "Battlefiend",
+		"set": "Demon_hunter_initiate",
 		"cost": 1,
-		"text": "[x]Give a minion +1/+2.\nIf you played a Naga while\nholding this, add a Serpent\nWig to your hand."
-	},
-	{
-		"name": "Queen Azshara",
-		"set": "The_sunken_city",
-		"cost": 5,
-		"attack": 5,
-		"health": 5,
-		"text": "<b>Battlecry:</b> If you've cast three spells while holding this, choose an Ancient Relic."
-	},
-	{
-		"name": "Spellcoiler",
-		"set": "The_sunken_city",
-		"cost": 2,
-		"attack": 2,
-		"health": 3,
-		"text": "[x]<b>Battlecry:</b> If you've cast a\nspell while holding this,\n<b>Discover</b> a spell."
-	},
-	{
-		"name": "Naga's Pride",
-		"set": "The_sunken_city",
-		"cost": 3,
-		"text": "Summon two 2/2 Lionfish. If you played a Naga while holding this, give them +1/+1."
-	},
-	{
-		"name": "Gifts of Azshara",
-		"set": "The_sunken_city",
-		"cost": 2,
-		"text": "Draw a card. If you played a Naga while holding this, do it again."
-	},
-	{
-		"name": "Predation",
-		"set": "The_sunken_city",
-		"cost": 2,
-		"text": "Deal $2 damage.\nCosts (0) if you played a Naga while holding this."
-	},
-	{
-		"name": "Herald of Shadows",
-		"set": "Throne_of_tides",
-		"cost": 3,
-		"attack": 4,
+		"attack": 1,
 		"health": 2,
-		"text": "<b>Battlecry:</b> If you've cast a Shadow spell while holding this, steal 2 Health from a minion."
+		"text": "After your hero attacks, gain +1 Attack."
 	},
 	{
-		"name": "Seaweed Strike",
-		"set": "The_sunken_city",
-		"cost": 3,
-		"text": "[x]Deal $4 damage to a minion.\nIf you played a Naga while\nholding this, also give your\nhero +4 Attack this turn."
-	},
-	{
-		"name": "Hedra the Heretic",
-		"set": "The_sunken_city",
-		"cost": 7,
-		"attack": 4,
-		"health": 5,
-		"text": "[x]<b>Battlecry:</b> For each spell\nyou've cast while holding\nthis, summon a minion\nof that spell's Cost."
-	},
-	{
-		"name": "Slithering Deathscale",
-		"set": "The_sunken_city",
-		"cost": 7,
-		"attack": 5,
-		"health": 9,
-		"text": "<b>Battlecry:</b> If you've cast three spells while holding this, deal 3 damage to all enemies."
-	},
-	{
-		"name": "Conviction",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "[x]Give {2} random friendly\n minions +1/+1.\n<b><b>Passive</b>:</b> After each combat,\nchoose an improvement."
-	},
-	{
-		"name": "Twinbow Terrorcoil",
-		"set": "The_sunken_city",
-		"cost": 4,
-		"attack": 4,
-		"health": 4,
-		"text": "[x]<b>Battlecry:</b> If you've cast a\nspell while holding this, your\nnext spell casts twice."
-	},
-	{
-		"name": "Master of Realities",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 5,
-		"health": 5,
-		"text": "<b><b>Taunt</b>.</b> After a friendly Elemental gains stats, gain +2/+2."
-	},
-	{
-		"name": "Master of Realities",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 10,
-		"health": 10,
-		"text": "<b><b>Taunt</b>.</b> After a friendly Elemental gains stats, gain +4/+4."
-	},
-	{
-		"name": "Herald of Chaos",
-		"set": "Throne_of_tides",
-		"cost": 3,
-		"attack": 3,
-		"health": 4,
-		"text": "[x]<b>Lifesteal</b>\n<b>Battlecry:</b> If you've cast a\nFel spell while holding this,\ngain <b>Rush</b>."
-	},
-	{
-		"name": "Herald of Nature",
-		"set": "Throne_of_tides",
-		"cost": 3,
-		"attack": 3,
-		"health": 3,
-		"text": "<b>Battlecry:</b> If you've cast a Nature spell while holding this, give your other minions +1/+1."
-	},
-	{
-		"name": "Ancient Krakenbane",
-		"set": "Throne_of_tides",
-		"cost": 3,
-		"attack": 3,
-		"health": 3,
-		"text": "[x]<b>Battlecry:</b> If you've cast\nthree spells while holding\nthis, deal 5 damage."
-	},
-	{
-		"name": "Herald of Light",
-		"set": "Throne_of_tides",
-		"cost": 3,
-		"attack": 3,
-		"health": 4,
-		"text": "[x]<b>Battlecry:</b> If you've cast a\nHoly spell while holding this,\nrestore #6 Health to all\nfriendly characters."
-	},
-	{
-		"name": "Dagwik Stickytoe",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 5,
-		"health": 5,
-		"text": "[x]At the end of your turn,\ngive a random friendly\nGolden minion +5/+5."
-	},
-	{
-		"name": "Death's Head Sage",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 3,
-		"health": 7,
-		"text": "After you get a <b>Blood Gem</b>, get an extra one."
-	},
-	{
-		"name": "Dagwik Stickytoe",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 10,
-		"health": 10,
-		"text": "At the end of your turn, give a random friendly Golden minion +10/+10."
-	},
-	{
-		"name": "Death's Head Sage",
+		"name": "Goldrinn, the Great Wolf",
 		"set": "Battlegrounds",
 		"cost": 0,
 		"attack": 6,
-		"health": 14,
-		"text": "After you get a <b>Blood Gem</b>, get two extra."
+		"health": 6,
+		"text": "<b>Deathrattle:</b> For the rest of this combat, your Beasts have +6/+6."
 	},
 	{
-		"name": "Commander Sivara",
-		"set": "The_sunken_city",
-		"cost": 4,
+		"name": "Goldrinn, the Great Wolf",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 12,
+		"health": 12,
+		"text": "<b>Deathrattle:</b> For the rest of this combat, your Beasts have +12/+12."
+	},
+	{
+		"name": "Battlefiend",
+		"set": "Core",
+		"cost": 1,
+		"attack": 1,
+		"health": 2,
+		"text": "After your hero attacks, gain +1 Attack."
+	},
+	{
+		"name": "Prized Promo-Drake",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Start of Combat:</b> Give your Dragons +4/+4."
+	},
+	{
+		"name": "Prized Promo-Drake",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Start of Combat:</b> Give your Dragons +8/+8."
+	},
+	{
+		"name": "SI:7 Scout",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 2,
+		"health": 2,
+		"text": "After you buy a card, gain +2/+2."
+	},
+	{
+		"name": "Karl the Lost",
+		"set": "Battlegrounds",
+		"cost": 0,
 		"attack": 3,
+		"health": 4,
+		"text": "After you use your Hero Power, give your <b>Divine Shield</b> minions +2 Attack."
+	},
+	{
+		"name": "Wandering Treant",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 3,
+		"health": 9,
+		"text": "[x]Whenever a friendly <b>Taunt</b>\nminion is attacked, give\nyour minions +1/+1\npermanently."
+	},
+	{
+		"name": "Unearthed Underling",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 5,
 		"health": 5,
-		"text": "[x]<b>Battlecry:</b> If you've cast\nthree spells while holding\nthis, add those spells back\nto your hand."
+		"text": "Whenever your hero takes damage, rewind it and gain stats equal to that amount."
+	},
+	{
+		"name": "SI:7 Scout",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 4,
+		"health": 4,
+		"text": "After you buy a card, gain +4/+4."
+	},
+	{
+		"name": "Karl the Lost",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 6,
+		"health": 8,
+		"text": "After you use your Hero Power, give your <b>Divine Shield</b> minions +4 Attack."
+	},
+	{
+		"name": "Wandering Treant",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 6,
+		"health": 18,
+		"text": "[x]Whenever a friendly <b>Taunt</b>\nminion is attacked, give\nyour minions +2/+2\npermanently."
+	},
+	{
+		"name": "Unearthed Underling",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 10,
+		"health": 10,
+		"text": "[x]Whenever your hero takes\ndamage, rewind it and gain\nstats equal to double\nthat amount."
 	},
 	{
 		"name": "Elder Taggawag",
@@ -278,20 +142,20 @@
 		"text": "[x]<b>Start of Combat:</b> If you control\n4 minions with different types,\ngain your minions' highest\nAttack and Health."
 	},
 	{
-		"name": "Snack Vendor",
+		"name": "Nexus Lord",
 		"set": "Battlegrounds",
 		"cost": 0,
 		"attack": 6,
 		"health": 6,
-		"text": "[x]At the end of your turn,\ngive this minion's stats\nto a Tier 3 minion."
+		"text": "'Arcane Alteration' replaces with a card from one Tier higher."
 	},
 	{
-		"name": "Snack Vendor",
+		"name": "Elder Taggawag",
 		"set": "Battlegrounds",
 		"cost": 0,
-		"attack": 12,
-		"health": 12,
-		"text": "[x]At the end of your turn,\ngive this minion's stats\nto a Tier 3 minion twice."
+		"attack": 8,
+		"health": 8,
+		"text": "[x]<b>Start of Combat:</b> If you control\n4 minions with different types,\n gain double your minions'\n highest Attack and Health."
 	},
 	{
 		"name": "Snow Elemental",
@@ -310,22 +174,6 @@
 		"text": "[x]The Tavern offers 2 extra\n<b>Frozen</b> Elementals\n whenever it is <b>Refreshed</b>."
 	},
 	{
-		"name": "Sinestra",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 2,
-		"health": 6,
-		"text": "Whenever a friendly minion gains Attack during combat, give it +1 Health permanently."
-	},
-	{
-		"name": "Sinestra",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 4,
-		"health": 12,
-		"text": "Whenever a friendly minion gains Attack during combat, give it +2 Health permanently."
-	},
-	{
 		"name": "Kil'rek",
 		"set": "Battlegrounds",
 		"cost": 0,
@@ -342,100 +190,68 @@
 		"text": "<b>Taunt</b>\n<b>Deathrattle:</b> Get 2\nrandom Demons."
 	},
 	{
-		"name": "Tuskarr Raider",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 6,
-		"text": "<b>Battlecry, Deathrattle, and Rally:</b> Get a random <b>Bounty</b>."
-	},
-	{
-		"name": "Tuskarr Raider",
+		"name": "Nexus Lord",
 		"set": "Battlegrounds",
 		"cost": 0,
 		"attack": 12,
 		"health": 12,
-		"text": "<b>Battlecry, Deathrattle, and Rally:</b> Get 2 random <b>Bounties</b>."
+		"text": "'Arcane Alteration' replaces with a card from two Tiers higher."
 	},
 	{
-		"name": "Titanic Guardian",
+		"name": "Elementium Squirrel Bomb",
 		"set": "Battlegrounds",
 		"cost": 0,
-		"attack": 5,
-		"health": 2,
-		"text": "[x]Whenever a different minion\nin your hand or board gains\nHealth, this also gains it."
-	},
-	{
-		"name": "Titanic Guardian",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 10,
+		"attack": 4,
 		"health": 4,
-		"text": "[x]Whenever a different minion\nin your hand or board gains\nHealth, this also gains\ntwice that amount."
+		"text": "[x]<b>Deathrattle:</b> Deal 4 damage\nto a random enemy minion\nfor each of your Mechs that\ndied this combat."
 	},
 	{
-		"name": "Muckslinger",
+		"name": "Elementium Squirrel Bomb",
 		"set": "Battlegrounds",
 		"cost": 0,
-		"attack": 5,
-		"health": 5,
-		"text": "<b>Battlecry:</b> Get a random <b>Battlecry</b> minion."
+		"attack": 8,
+		"health": 8,
+		"text": "[x]<b>Deathrattle:</b> Deal 8 damage\nto a random enemy minion\nfor each of your Mechs that\ndied this combat."
 	},
 	{
-		"name": "Muckslinger",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 10,
-		"health": 10,
-		"text": "<b>Battlecry:</b> Get 2 random <b>Battlecry</b> minions."
-	},
-	{
-		"name": "Burth",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 7,
-		"text": "After you <b>Discover</b> a minion, give it +{1}/+{1} and improve this."
-	},
-	{
-		"name": "Burth",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 12,
-		"health": 14,
-		"text": "After you <b>Discover</b> a minion, give it +{1}/+{1} and improve this."
-	},
-	{
-		"name": "Sharkbait",
+		"name": "Hunter of Old",
 		"set": "Battlegrounds",
 		"cost": 0,
 		"attack": 5,
 		"health": 3,
-		"text": "When you sell this, <b>Refresh</b> your Hero Power."
+		"text": "At the start of your turn,\nget your last opponent's <b>Buddy</b>."
 	},
 	{
-		"name": "Sharkbait",
+		"name": "Hunter of Old",
 		"set": "Battlegrounds",
 		"cost": 0,
 		"attack": 10,
 		"health": 6,
-		"text": "When you sell this, <b>Refresh</b> your Hero Power."
+		"text": "At the start of your turn,\nget 2 of your last opponent's <b>Buddy</b>."
 	},
 	{
-		"name": "Valithria Dreamwalker",
+		"name": "Baby Elekk",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 4,
+		"health": 4,
+		"text": "Whenever you play a minion with less Attack than this, give it +{0}/+{1} and improve this."
+	},
+	{
+		"name": "Baby Elekk",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 8,
+		"health": 8,
+		"text": "Whenever you play a minion with less Attack than this, give it +{0}/+{1} and improve this."
+	},
+	{
+		"name": "Baby Y'Shaarj",
 		"set": "Battlegrounds",
 		"cost": 0,
 		"attack": 6,
-		"health": 4,
-		"text": "Whenever a Dragon enters your warband or the Tavern, gain +1/+1."
-	},
-	{
-		"name": "Valithria Dreamwalker",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 12,
-		"health": 8,
-		"text": "Whenever a Dragon enters your warband or the Tavern, gain +2/+2."
+		"health": 6,
+		"text": "After you summon a minion of your Tier, give your minions +1/+1."
 	},
 	{
 		"name": "Baby Y'Shaarj",
@@ -444,22 +260,6 @@
 		"attack": 12,
 		"health": 12,
 		"text": "After you summon a minion of your Tier, give your minions +2/+2."
-	},
-	{
-		"name": "Warden Thelwater",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 2,
-		"health": 6,
-		"text": "At the start of your turn,\nget your next opponent's Buddy."
-	},
-	{
-		"name": "Warden Thelwater",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 4,
-		"health": 12,
-		"text": "At the start of your turn,\nget 2 of your next opponent's Buddy."
 	},
 	{
 		"name": "Piloted Whirl-O-Tron",
@@ -478,256 +278,262 @@
 		"text": "[x]<b>Start of Combat:</b> Copy your\ntwo left-most <b>Deathrattles</b>\ntwice <i>(except Piloted\nWhirl-O-Tron)</i>."
 	},
 	{
-		"name": "Fragrant Phylactery",
-		"set": "Battlegrounds",
-		"text": "[x]<b><b>Passive</b>. Start of Combat:</b>\nGive your lowest-Attack minion\n\"<b>Deathrattle:</b> Give your other\nminions this minion's stats.\""
-	},
-	{
-		"name": "Earth Invocation",
-		"set": "Battlegrounds",
-		"text": "[x]<b>Start of Combat:</b> Give 4\nrandom friendly minions\n\"<b>Deathrattle:</b> Summon\na 1/1 Elemental.\""
-	},
-	{
-		"name": "Earth Invocation",
+		"name": "Icesnarl the Mighty",
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "Give 4 random friendly minions \"<b>Deathrattle:</b> Summon a 1/1 Elemental.\""
+		"attack": 6,
+		"health": 2,
+		"text": "[x]After a friendly minion\nkills an enemy, gain\n+3 Health permanently."
 	},
 	{
-		"name": "Anub'Rekhan",
-		"set": "Return_of_the_lich_king",
+		"name": "Icesnarl the Mighty",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 12,
+		"health": 4,
+		"text": "[x]After a friendly minion\nkills an enemy, gain\n+6 Health permanently."
+	},
+	{
+		"name": "Crabby",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 2,
+		"health": 3,
+		"text": "After you remove a minion with 'Lock and Load,' get a plain copy of it."
+	},
+	{
+		"name": "Crabby",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 4,
+		"health": 6,
+		"text": "After you remove a minion with 'Lock and Load,' get 2 plain copies of it."
+	},
+	{
+		"name": "Spirit Raptor",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 3,
+		"health": 2,
+		"text": "[x]After you call upon a new\nElement, this remembers it.\n<b>Deathrattle:</b> Call upon\nthose Elements."
+	},
+	{
+		"name": "Spirit Raptor",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 6,
+		"health": 4,
+		"text": "[x]After you call upon a new\nElement, this remembers it.\n<b>Deathrattle:</b> Call upon those\nElements twice."
+	},
+	{
+		"name": "Sub Scrubber",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 6,
+		"health": 6,
+		"text": "After you play a Mech,\ngain +3/+3."
+	},
+	{
+		"name": "Sub Scrubber",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 12,
+		"health": 12,
+		"text": "After you play a Mech,\ngain +6/+6."
+	},
+	{
+		"name": "Young Murk-Eye",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 9,
+		"health": 6,
+		"text": "[x]At the end of your turn,\ntrigger the <b>Battlecry</b> of\nan adjacent minion."
+	},
+	{
+		"name": "Young Murk-Eye",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 18,
+		"health": 12,
+		"text": "[x]At the end of your turn,\ntrigger the <b>Battlecries</b> of\nadjacent minions."
+	},
+	{
+		"name": "Concert Promo-Drake",
+		"set": "Battle_of_the_bands",
 		"cost": 8,
+		"attack": 8,
+		"health": 8,
+		"text": "<b>Tradeable</b>\n<b>Finale:</b> Destroy an\nenemy minion."
+	},
+	{
+		"name": "Eternal Knight",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 3,
+		"health": 1,
+		"text": "[x]Has +3/+1 for each friendly\nEternal Knight that died this\n game <i>(wherever this is)</i>."
+	},
+	{
+		"name": "Eternal Knight",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 6,
+		"health": 2,
+		"text": "[x]Has +6/+2 for each friendly\nEternal Knight that died this\n game <i>(wherever this is)</i>."
+	},
+	{
+		"name": "Peggy Sturdybone",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 3,
+		"health": 2,
+		"text": "[x]Whenever a card is added to\nyour hand, give another\nfriendly Pirate +1/+1."
+	},
+	{
+		"name": "Peggy Sturdybone",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 6,
+		"health": 4,
+		"text": "[x]Whenever a card is added to\nyour hand, give another\nfriendly Pirate +2/+2."
+	},
+	{
+		"name": "Skarr, the Catastrophe",
+		"set": "Wild_west",
+		"cost": 7,
 		"attack": 7,
 		"health": 7,
-		"text": "<b>Battlecry:</b> Gain 5 Armor. Your next 3 minions\nthis turn cost Armor instead of Mana."
+		"text": "[x]<b>Battlecry:</b> Deal 1 damage\nto all enemies <i>(improved by\neach turn in a row you've\n played an Elemental)</i>."
 	},
 	{
-		"name": "Felscale Evoker",
-		"set": "Return_to_Naxxramas",
-		"cost": 6,
-		"attack": 5,
-		"health": 7,
-		"text": "[x]<b>Battlecry:</b> If you've cast three\nspells while holding this,\nsummon a different Demon\nfrom your deck."
-	},
-	{
-		"name": "Rimescale Siren",
-		"set": "Return_to_Naxxramas",
-		"cost": 3,
-		"attack": 2,
-		"health": 3,
-		"text": "[x]<b>Battlecry:</b> If you've cast three\nspells while holding this,\n<b>Freeze</b> 3 random enemy\nminions."
-	},
-	{
-		"name": "Unlikely Duo",
+		"name": "Low-Flier",
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "<b>Quest:</b> Buy {0} {2} or {3}."
-	},
-	{
-		"name": "Life Tap",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nDraw a card and take $2 damage."
-	},
-	{
-		"name": "Serpent Wig",
-		"set": "The_sunken_city",
-		"cost": 1,
-		"text": "[x]Give a minion +1/+2.\nIf you played a Naga while\nholding this, add a Serpent\nWig to your hand."
-	},
-	{
-		"name": "Jelly Belly",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 2,
-		"health": 3,
-		"text": "After a friendly minion is <b>Reborn</b>, gain +2/+3 permanently."
-	},
-	{
-		"name": "Jelly Belly",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 4,
-		"health": 6,
-		"text": "After a friendly minion is <b>Reborn</b>, gain +4/+6 permanently."
-	},
-	{
-		"name": "XB-488 Disposalbot",
-		"set": "Titans",
-		"cost": 5,
 		"attack": 3,
 		"health": 2,
-		"text": "<b>Battlecry:</b> Deal 5 damage randomly split among all enemy minions.\n<b>Forge:</b> Gain <b>Lifesteal</b>."
+		"text": "[x]At the end of your turn, give\n+1 Attack to your minions\n with less Attack than this."
 	},
 	{
-		"name": "Life Tap",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nDraw a card and take $2 damage."
-	},
-	{
-		"name": "Improved Xal'atath {0}",
-		"set": "Lettuce",
-		"text": "<b>Passive:</b> Whenever you cast a Shadow ability, restore #1 Health to your characters."
-	},
-	{
-		"name": "Oasis Outlaws",
-		"set": "Wild_west",
-		"cost": 1,
-		"text": "<b>Discover</b> a Naga.\nIf you've played a Naga while holding this, reduce its Cost by (1)."
-	},
-	{
-		"name": "Parched Desperado",
-		"set": "Wild_west",
-		"cost": 2,
-		"attack": 3,
-		"health": 2,
-		"text": "<b>Battlecry:</b> If you've cast a spell while holding this, give your hero +3 Attack this turn."
-	},
-	{
-		"name": "Walking Mountain",
-		"set": "Wild_west",
-		"cost": 9,
-		"attack": 4,
-		"health": 16,
-		"text": "<b>Rush</b>, <b>Lifesteal</b>,\n<b>Mega-Windfury</b>\n<b>Overload:</b> (2)"
-	},
-	{
-		"name": "Sly Raptor",
+		"name": "Low-Flier",
 		"set": "Battlegrounds",
 		"cost": 0,
-		"attack": 2,
-		"health": 6,
-		"text": "<b>Deathrattle:</b> Summon a random Beast. Set its stats to 12/12."
-	},
-	{
-		"name": "Dang-Blasted Elemental",
-		"set": "Wild_west",
-		"cost": 4,
-		"attack": 3,
-		"health": 3,
-		"text": "<b>Taunt</b>\n<b>Deathrattle:</b> Deal 2 damage\nto all minions except\nfriendly Elementals."
-	},
-	{
-		"name": "Zap!",
-		"set": "Old_core_230",
-		"cost": 0,
-		"text": "Deal $2 damage to a minion. <b>Overload:</b> (1)"
-	},
-	{
-		"name": "Card Grader",
-		"set": "Whizbangs_workshop",
-		"cost": 3,
-		"attack": 2,
-		"health": 4,
-		"text": "<b>Battlecry:</b> If you've cast\na spell while holding this, <b>Discover</b> a card from your deck."
-	},
-	{
-		"name": "Nostalgic Clown",
-		"set": "Whizbangs_workshop",
-		"cost": 5,
 		"attack": 6,
-		"health": 5,
-		"text": "[x]<b>Miniaturize</b>\n<b>Battlecry:</b> If you've played a\nhigher Cost card while holding\nthis, deal 4 damage."
+		"health": 4,
+		"text": "[x]At the end of your turn, give\n+2 Attack to your minions\n with less Attack than this."
 	},
 	{
-		"name": "Nostalgic Clown",
+		"name": "Festergut",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 6,
+		"health": 2,
+		"text": "<b>Deathrattle:</b> Summon and get a random Undead Creation."
+	},
+	{
+		"name": "Festergut",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 12,
+		"health": 4,
+		"text": "[x]<b>Deathrattle:</b> Summon\nand get 2 random\nUndead Creations."
+	},
+	{
+		"name": "R.C. Rampage",
+		"set": "Whizbangs_workshop",
+		"cost": 5,
+		"text": "Summon six 1/1 Hounds. Any that can't fit give the others +1/+1."
+	},
+	{
+		"name": "Chemical Spill",
+		"set": "Whizbangs_workshop",
+		"cost": 6,
+		"text": "Summon the highest Cost minion\nfrom your hand, then\ndeal $5 damage to it."
+	},
+	{
+		"name": "Testing Dummy",
+		"set": "Whizbangs_workshop",
+		"cost": 6,
+		"attack": 4,
+		"health": 8,
+		"text": "<b>Taunt</b>\n<b>Deathrattle:</b> Deal 8 damage randomly split among all enemy minions."
+	},
+	{
+		"name": "Sandbox Scoundrel",
+		"set": "Whizbangs_workshop",
+		"cost": 5,
+		"attack": 4,
+		"health": 3,
+		"text": "[x]<b>Miniaturize</b>\n<b>Battlecry:</b> Your next card\nthis turn costs (2) less."
+	},
+	{
+		"name": "Transmuted Bramblewitch",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Rally:</b> Set the target's stats\nto 3/3. <i>(Once per combat.)</i>"
+	},
+	{
+		"name": "Sparkling Phial",
+		"set": "Whizbangs_workshop",
+		"cost": 4,
+		"text": "[x]Deal $2 damage.\nYour next card this turn\ncosts that much less."
+	},
+	{
+		"name": "Choose Your Champion",
+		"set": "Battlegrounds",
+		"text": "[x]<b><b>Passive</b>.</b> At the start of the\ngame, <b>Discover</b> a Tier 7\nminion to get after you\n spend 55 Gold. <i>(55 left!)</i>"
+	},
+	{
+		"name": "Sandbox Scoundrel",
 		"set": "Whizbangs_workshop",
 		"cost": 1,
 		"attack": 1,
 		"health": 1,
-		"text": "[x]<b>Mini</b>\n<b>Battlecry:</b> If you've played a\nhigher Cost card while holding\nthis, deal 4 damage."
+		"text": "[x]<b>Mini</b>\n<b>Battlecry:</b> Your next card\nthis turn costs (2) less."
 	},
 	{
-		"name": "Life Tap",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nDraw a card and take $2 damage."
-	},
-	{
-		"name": "Tidepool Pupil",
-		"set": "Perils_in_paradise",
-		"cost": 2,
-		"attack": 2,
+		"name": "Sock Puppet Slitherspear",
+		"set": "Boom_Inventions",
+		"cost": 1,
+		"attack": 1,
 		"health": 2,
-		"text": "[x]<b>Battlecry:</b> If you've cast 3\nspells while holding this,\n<b>Discover</b> one of them."
+		"text": "This minion's Attack is improved by your hero's."
 	},
 	{
-		"name": "Life Tap",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nDraw a card and take $2 damage."
-	},
-	{
-		"name": "Carress, Cabaret Star",
-		"set": "Perils_in_paradise",
-		"cost": 5,
-		"attack": 5,
-		"health": 5,
-		"text": "While in your hand,\nplay two different spell\nschools to transform."
-	},
-	{
-		"name": "Fill the Cauldron",
+		"name": "Cultist S'Thara",
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "<b>Quest:</b> Cast {0} spells."
+		"attack": 12,
+		"health": 3,
+		"text": "[x]<b><b>Stealth</b>.</b> <b>Deathrattle:</b>\nSummon your first Demon\nthat died this combat\n with its maximum stats."
 	},
 	{
-		"name": "Life Tap",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nDraw a card and take $2 damage."
+		"name": "Metal Detector",
+		"set": "Perils_in_paradise",
+		"cost": 3,
+		"attack": 3,
+		"text": "[x]<b>Deathrattle:</b> Get a Coin."
 	},
 	{
-		"name": "Murmur",
+		"name": "Corpsicle",
+		"set": "Perils_in_paradise",
+		"cost": 3,
+		"text": "Deal $3 damage. Spend 3 <b>Corpses</b> to return this to your hand\nat the end of your turn."
+	},
+	{
+		"name": "Azerite Empowerment",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"text": "Give your minions +{0}/+{1} twice."
+	},
+	{
+		"name": "Arkonite Defense Crystal",
 		"set": "Great_dark_beyond",
-		"cost": 7,
-		"attack": 6,
-		"health": 6,
-		"text": "[x]Your first <b>Battlecry</b>\nminion each turn costs (1),\nbut immediately dies\nafter being played."
-	},
-	{
-		"name": "Ship in a Bottle",
-		"set": "Battlegrounds",
-		"text": "[x]<b>Start of Combat:</b> Summon\nand get a random Pirate.\nIt attacks immediately."
-	},
-	{
-		"name": "Life Tap",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nDraw a card and take $2 damage."
-	},
-	{
-		"name": "Lucky Egg",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 2,
-		"health": 2,
-		"text": "<b>Battlecry:</b> <b>Discover</b> a Golden Tier 3 minion to transform into."
-	},
-	{
-		"name": "Lucky Egg",
-		"set": "Battlegrounds",
-		"cost": 0,
+		"cost": 5,
 		"attack": 4,
-		"health": 4,
-		"text": "<b>Battlecry:</b> <b>Discover</b> a Golden Tier 4 minion to transform into."
-	},
-	{
-		"name": "Fearless Foodie",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 2,
-		"health": 4,
-		"text": "<b>Choose One - </b>Your <b>Blood Gems</b> give an extra +1/+1 this game; or Get 4 <b>Blood Gems</b>."
-	},
-	{
-		"name": "Fearless Foodie",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 4,
-		"health": 8,
-		"text": "<b>Choose One - </b>Your <b>Blood Gems</b> give an extra +2/+2 this game; or Get 8 <b>Blood Gems</b>."
+		"health": 5,
+		"text": "<b>Deathrattle:</b> Gain 4 Armor. <b>Starship Piece</b>"
 	},
 	{
 		"name": "Akali, Rock Rhino",
@@ -746,227 +552,84 @@
 		"text": "At the end of every turn, get a plain copy of the left-most card in your hand."
 	},
 	{
-		"name": "Life Tap",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nDraw a card and take $2 damage."
+		"name": "Ultralisk Cavern",
+		"set": "Heroes_of_starcraft",
+		"cost": 4,
+		"health": 3,
+		"text": "[x]Deal 1 damage\nto all enemies.\n<b>Deathrattle:</b> Summon an\n8/8 Ultralisk with <b>Rush</b>."
 	},
 	{
-		"name": "Shaladrassil",
-		"set": "Into_the_emerald_dream",
-		"cost": 8,
-		"text": "[x]Get all 5 Dream cards.\nIf you've played a higher\nCost card while holding\nthis, corrupt them!"
+		"name": "Perfume Phylactery",
+		"set": "Tb",
+		"cost": 0,
+		"text": "[x]You have two lives. After\nyou die, your Hero Power\ndeals damage instead of\nsummoning a Demon."
 	},
 	{
-		"name": "Ultraviolet Ascendant",
+		"name": "Catacomb Crasher",
 		"set": "Battlegrounds",
 		"cost": 0,
-		"attack": 5,
-		"health": 2,
-		"text": "<b>Start of Combat:</b> Give your other Elementals +{0}/+{1}. <i>(Upgrades after you play an Elemental!)</i>"
-	},
-	{
-		"name": "Ultraviolet Ascendant",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 10,
-		"health": 4,
-		"text": "<b>Start of Combat:</b> Give your other Elementals +{0}/+{1}. <i>(Upgrades after you play an Elemental!)</i>"
-	},
-	{
-		"name": "Amirdrassil",
-		"set": "Embers_of_the_world_tree",
-		"cost": 5,
-		"health": 3,
-		"text": "[x]Summon a 1-Cost minion.\nGain 1 Armor. Draw 1 cards.\nRefresh 1 Mana Crystals.\n<i>(Improves each use!)</i>"
-	},
-	{
-		"name": "Astro Arfus",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Life Tap",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nDraw a card and take $2 damage."
-	},
-	{
-		"name": "Reanimate the Terror",
-		"set": "Lost_city_of_ungoro",
-		"cost": 1,
-		"text": "[x]<b>Quest:</b> Spend 15 <b>Corpses</b>.\n<b>Reward:</b> Tyrax, Bone Terror."
-	},
-	{
-		"name": "Violet Treasuregill",
-		"set": "Lost_city_of_ungoro",
-		"cost": 2,
-		"attack": 1,
-		"health": 2,
-		"text": "[x]<b>Battlecry:</b> Cast a random\nspell from your deck that\ncosts (2) or less <i>(targets\nthis if possible)</i>."
-	},
-	{
-		"name": "The Food Chain",
-		"set": "Lost_city_of_ungoro",
-		"cost": 1,
-		"text": "<b>Quest:</b> Play a 1, 3, 5, and 7-Attack Beast.\n<b>Reward:</b> Shokk."
-	},
-	{
-		"name": "Shokk, Jungle Tyrant",
-		"set": "Lost_city_of_ungoro",
-		"cost": 5,
-		"attack": 9,
-		"health": 9,
-		"text": "[x]<b>Rush</b>\n<b>Battlecry:</b> <b>Discover</b> any\n8, 6, and 4-Attack Beast.\nSet their Costs to (2)."
-	},
-	{
-		"name": "Merchant of Legend",
-		"set": "Lost_city_of_ungoro",
-		"cost": 1,
-		"attack": 1,
-		"health": 2,
-		"text": "<b>Battlecry:</b> <b>Discover</b>\na <b>Legendary</b> minion.\nShuffle the other two into your deck."
-	},
-	{
-		"name": "Gorishi Wasp",
-		"set": "Lost_city_of_ungoro",
-		"cost": 5,
-		"attack": 2,
-		"health": 7,
-		"text": "<b>Rush</b>. Whenever this takes damage, get a 1-Cost Gorishi Stinger."
-	},
-	{
-		"name": "Semi-Stable Portal",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"text": "<b>Rewind</b>\nAdd a random minion\nto your hand. It costs\n(3) less."
-	},
-	{
-		"name": "Life Tap",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nDraw a card and take $2 damage."
-	},
-	{
-		"name": "Past Silvermoon",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"health": 3,
-		"text": "[x]Deal 5 damage to a\nrandom enemy minion.\n<i>Advance to the present!</i>"
-	},
-	{
-		"name": "Present Silvermoon",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"health": 3,
-		"text": "[x]Deal 5 damage to a\nrandom enemy minion.\nExcess hits the enemy hero.\n<i>Advance to the future!</i>"
-	},
-	{
-		"name": "Future Silvermoon",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"health": 3,
-		"text": "[x]Deal 5 damage to the\nlowest Health enemy\nminion. Excess damage\nhits the enemy hero."
-	},
-	{
-		"name": "Chrono Daggers",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"text": "<b>Rewind</b>\nThrow 3 knives at\nrandom enemies that deal $2 damage each."
-	},
-	{
-		"name": "Aeon Wizard",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"attack": 3,
-		"health": 5,
-		"text": "[x]<b>Rewind</b>\n<b>Battlecry:</b> Get 2 random\nspells from your class."
-	},
-	{
-		"name": "Conflux Crasher",
-		"set": "Across_the_timeways",
-		"cost": 7,
-		"attack": 7,
-		"health": 7,
-		"text": "<b>Rewind</b>\n<b>Battlecry:</b> Deal 7 damage\nto a random enemy."
-	},
-	{
-		"name": "Timethief Rafaam",
-		"set": "Across_the_timeways",
-		"cost": 10,
-		"attack": 10,
-		"health": 10,
-		"text": "[x]<b>Fabled+</b>. Your deck size is 40,\nbut has 10 Rafaams! <b>Battlecry:</b>\nIf you played the rest, destroy\nthe enemy hero."
-	},
-	{
-		"name": "Tiny Rafaam",
-		"set": "Across_the_timeways",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "[x]<b>Deathrattle:</b> Draw a Rafaam."
-	},
-	{
-		"name": "Green Rafaam",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"attack": 2,
-		"health": 2,
-		"text": "<b>Battlecry:</b> Give Rafaams\nin your hand +2/+2."
-	},
-	{
-		"name": "Life Tap",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nDraw a card and take $2 damage."
-	},
-	{
-		"name": "Explorer Rafaam",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 4,
-		"health": 4,
-		"text": "<b>Battlecry:</b> <b>Discover</b> a Rafaam from your deck."
-	},
-	{
-		"name": "Warchief Rafaam",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"attack": 5,
-		"health": 5,
-		"text": "[x]<b>Battlecry:</b> Gain 5 Armor.\nIf you control another\nRafaam, gain 5 more."
-	},
-	{
-		"name": "Mindflayer R'faam",
-		"set": "Across_the_timeways",
-		"cost": 7,
-		"attack": 7,
-		"health": 7,
-		"text": "[x]<b>Taunt</b>\n<b>Battlecry:</b> If you're holding\nanother Rafaam, summon\na copy of this."
-	},
-	{
-		"name": "Calamitous Rafaam",
-		"set": "Across_the_timeways",
-		"cost": 6,
 		"attack": 6,
-		"health": 6,
-		"text": "<b>Battlecry:</b> Deal 6 damage to all minions that aren't Rafaam."
+		"health": 10,
+		"text": "[x]Whenever you would summon\na minion that doesn't fit in your\nwarband, give your minions\n+2/+1 permanently."
 	},
 	{
-		"name": "Giant Rafaam",
-		"set": "Across_the_timeways",
-		"cost": 8,
-		"attack": 8,
-		"health": 8,
-		"text": "[x]<b>Rush</b>. Costs (1) less\nfor each Rafaam you've\nplayed this game."
+		"name": "Catacomb Crasher",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 12,
+		"health": 20,
+		"text": "[x]Whenever you would summon\na minion that doesn't fit in your\nwarband, give your minions\n+4/+2 permanently."
 	},
 	{
-		"name": "Murloc Rafaam",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 3,
-		"health": 3,
-		"text": "<b>Battlecry:</b> The next Rafaam you play costs (3) less."
+		"name": "Sanguine Infestation",
+		"set": "Into_the_emerald_dream",
+		"cost": 5,
+		"text": "Draw 2 cards.\nSummon two 0/2 Leeches."
+	},
+	{
+		"name": "Fyrakk the Blazing",
+		"set": "Embers_of_the_world_tree",
+		"cost": 10,
+		"attack": 7,
+		"health": 7,
+		"text": "[x]<b>Immune</b> to Fire spells.\n<b>Battlecry:</b> Cast 15 Mana\nworth of Fire spells at\nrandom enemies."
+	},
+	{
+		"name": "Ancient of Yore",
+		"set": "Into_the_emerald_dream",
+		"cost": 5,
+		"attack": 5,
+		"health": 5,
+		"text": "[x]<b>Dormant</b> for 2 turns.\nWhile <b>Dormant</b>, gain 3\nArmor and draw a card at\nthe end of your turn."
+	},
+	{
+		"name": "Dive the Golakka Depths",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "<b>Repeatable Quest:</b> Summon 6 Murlocs.\n<b>Reward:</b> Murlocs you summon gain +1/+1."
+	},
+	{
+		"name": "Resuscitate",
+		"set": "Lost_city_of_ungoro",
+		"cost": 6,
+		"text": "Resurrect a 1, 2,\nand 3-Cost minion.\nGive them <b>Reborn</b>."
+	},
+	{
+		"name": "Promo Portrait",
+		"set": "Battlegrounds",
+		"text": "[x]Get a Prized Promo-Drake.\nYour first <b>Start of Combat</b>\neffect each combat\ntriggers an extra time."
+	},
+	{
+		"name": "Escape the Underfel",
+		"set": "Lost_city_of_ungoro",
+		"cost": 1,
+		"text": "<b>Quest:</b> Play 6 <b>Temporary</b> cards. <b>Reward:</b> Underfel Rift."
+	},
+	{
+		"name": "Underfel Rift",
+		"set": "Lost_city_of_ungoro",
+		"cost": 5,
+		"text": "Open a Rift to the Underfel. Throw a card in to summon 2 random Fel Beasts. <i>(Once per turn.)</i>"
 	},
 	{
 		"name": "Archmage Rafaam",
@@ -977,168 +640,6 @@
 		"text": "<b>Battlecry:</b> Transform all minions that aren't Rafaam into 1/1 Sheep."
 	},
 	{
-		"name": "Lo'Gosh, Blood Fighter",
-		"set": "Across_the_timeways",
-		"cost": 7,
-		"attack": 7,
-		"health": 7,
-		"text": "[x]<b>Fabled</b>, <b>Rush</b>. <b>Deathrattle:</b>\nSummon a Blood Fighter from\nyour hand. It gains +5/+5 and\nattacks a random enemy."
-	},
-	{
-		"name": "Broll, Blood Fighter",
-		"set": "Across_the_timeways",
-		"cost": 7,
-		"attack": 7,
-		"health": 7,
-		"text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Summon a Blood\nFighter from your hand. Give\nit +5/+5 and <b>Taunt</b>."
-	},
-	{
-		"name": "Valeera, Blood Fighter",
-		"set": "Across_the_timeways",
-		"cost": 7,
-		"attack": 7,
-		"health": 7,
-		"text": "[x]<b>Elusive</b>\n<b>Deathrattle:</b> Summon a Blood\nFighter from your hand. Give\nit +5/+5 and <b>Elusive</b>."
-	},
-	{
-		"name": "Azure Queen Sindragosa",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"attack": 2,
-		"health": 8,
-		"text": "[x]<b>Fabled</b>\nIf you control another\nDragon, your Arcane\nspells cost (2) less."
-	},
-	{
-		"name": "Azure Oathstone",
-		"set": "Across_the_timeways",
-		"cost": 8,
-		"text": "Summon your Dragons that died this game."
-	},
-	{
-		"name": "Azure King Malygos",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"attack": 2,
-		"health": 8,
-		"text": "If you control another Dragon, your Arcane spells cast twice."
-	},
-	{
-		"name": "Arcane Barrage",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"text": "Deal $3 damage to an enemy and $2 damage to two other random ones."
-	},
-	{
-		"name": "Opu the Unseen",
-		"set": "Lost_city_of_ungoro",
-		"cost": 6,
-		"attack": 6,
-		"health": 4,
-		"text": "<b><b>Stealth</b>.</b> <b>Battlecry, Combo,\nand Deathrattle:</b> Cast\n'Fan of Knives'."
-	},
-	{
-		"name": "Mirror Dimension",
-		"set": "Across_the_timeways",
-		"cost": 1,
-		"text": "Summon a 0/4 minion with <b>Taunt</b>. If you are holding a Dragon, summon another."
-	},
-	{
-		"name": "Bygone Doomspeaker",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 3,
-		"health": 3,
-		"text": "[x]<b>Rewind</b>\n<b>Battlecry:</b> Both players\n discard a random card."
-	},
-	{
-		"name": "Baaaafam",
-		"set": "Across_the_timeways",
-		"cost": 1,
-		"attack": 1,
-		"health": 1
-	},
-	{
-		"name": "Keep Timeline",
-		"set": "Across_the_timeways",
-		"cost": 0,
-		"text": "Do nothing.\n<i>This timeline is\nperfect as-is!</i>"
-	},
-	{
-		"name": "Algeth'ar Instructor",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"attack": 4,
-		"health": 7,
-		"text": "<b>Spell Damage +2</b>"
-	},
-	{
-		"name": "Alter Time",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"text": "<b>Discover</b> two Arcane spells from the past. They cost (2) less."
-	},
-	{
-		"name": "Rewind Timeline",
-		"set": "Across_the_timeways",
-		"cost": 0,
-		"text": "<b>Rewind</b> the card's effect."
-	},
-	{
-		"name": "Muradin, High King",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"attack": 3,
-		"health": 2,
-		"text": "[x]<b>Fabled</b>, <b>Rush</b>. <b>Battlecry:</b>\nBring the High King's\nHammer to ME! <b>Deathrattle:</b>\nAdd it to your hand."
-	},
-	{
-		"name": "High King's Hammer",
-		"set": "Across_the_timeways",
-		"cost": 6,
-		"attack": 3,
-		"text": "[x]<b>Windfury</b>\n<b>Deathrattle:</b> Shuffle this\ninto your deck with +2\n Attack permanently."
-	},
-	{
-		"name": "Temporal Construct",
-		"set": "Across_the_timeways",
-		"cost": 7,
-		"attack": 5,
-		"health": 5,
-		"text": "[x]<b>Battlecry:</b> Deal 5 damage\nto an enemy minion.\nDraw cards equal to the\nexcess damage."
-	},
-	{
-		"name": "Avatar Form",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"text": "[x]Give a friendly character\n+2 Attack and \"After this\nattacks, deal 2 damage to\nall enemies\" this turn."
-	},
-	{
-		"name": "Farseer Wo",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 2,
-		"health": 6,
-		"text": "[x]<b>Elusive</b>\nAfter you cast a spell,\n<b>Discover</b> a Nature spell\nfrom the past."
-	},
-	{
-		"name": "Instant Multiverse",
-		"set": "Across_the_timeways",
-		"cost": 6,
-		"text": "<b>Rewind</b>\nSummon 12 Mana worth of random minions.\n<b>Overload:</b> (3)"
-	},
-	{
-		"name": "Anomalize",
-		"set": "Across_the_timeways",
-		"cost": 7,
-		"text": "Summon a random\n10 and 1-Cost minion. Scramble their stats."
-	},
-	{
-		"name": "Precise Shot",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"text": "Deal $3 damage.\nIf this is EXACTLY in the center of your hand,\ndeal $5 instead."
-	},
-	{
 		"name": "Ticking Timebomb",
 		"set": "Across_the_timeways",
 		"cost": 2,
@@ -1147,72 +648,28 @@
 		"text": "<b>Deathrattle:</b> Destroy a random enemy minion."
 	},
 	{
-		"name": "Epoch Stalker",
-		"set": "Across_the_timeways",
-		"cost": 6,
-		"attack": 3,
-		"health": 4,
-		"text": "<b>Rush</b>, <b>Elusive</b>\n<b>Battlecry:</b> Summon a\ncopy of this."
+		"name": "Colossus",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 6,
+		"health": 12,
+		"text": "<b>Rally:</b> Deal {1} damage\nto the target's neighbors.\n<i>(Upgrades when you\nspend Gold!)</i>"
 	},
 	{
-		"name": "Quel'dorei Fletcher",
-		"set": "Across_the_timeways",
-		"cost": 1,
-		"attack": 1,
-		"health": 3,
-		"text": "Your Hero Power costs\n(0) while your hand has\n3 or less cards."
-	},
-	{
-		"name": "Ranger Captain Alleria",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 2,
-		"health": 4,
-		"text": "[x]<b>Battlecry:</b> <b>Discover</b> a spell.\nIf you've played Sylvanas or\nVereesa, repeat for each."
-	},
-	{
-		"name": "Ranger Initiate Vereesa",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 2,
-		"health": 4,
-		"text": "[x]<b>Battlecry:</b> Give minions in\nyour deck +1/+1. If you've\nplayed Alleria or Sylvanas,\nrepeat for each."
-	},
-	{
-		"name": "Ranger General Sylvanas",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 2,
-		"health": 4,
-		"text": "[x]<b>Fabled</b>. <b>Battlecry:</b> Deal 2\ndamage to all enemies.\n If you've played Alleria or \n Vereesa, repeat for each."
-	},
-	{
-		"name": "Life Tap",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nDraw a card and take $2 damage."
-	},
-	{
-		"name": "Faceless Enigma",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"attack": 2,
-		"health": 2,
-		"text": "[x]<b>Battlecry:</b> Look at 2 random\n<b>Secrets</b>. Pick one to cast for\nyourself. The other casts\nfor your opponent."
-	},
-	{
-		"name": "Timelooper Toki",
-		"set": "Across_the_timeways",
-		"cost": 4,
+		"name": "Carrier",
+		"set": "Battlegrounds",
+		"cost": 0,
 		"attack": 4,
-		"health": 4,
-		"text": "[x]<b>Battlecry:</b> Get 4 random\nspells from the past. When\nyou play ALL 4, get another\nTimelooper Toki."
+		"health": 12,
+		"text": "[x]<b>Avenge (4):</b> Summon a\n{1}/{1} Interceptor.\nThen improve this\npermanently."
 	},
 	{
-		"name": "Gladiatorial Combat",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"text": "[x]Summon a random\nminion from your deck.\nSummon a 5/5 Tiger with\n<b>Stealth</b> for your opponent."
+		"name": "Carrier",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 8,
+		"health": 24,
+		"text": "[x]<b>Avenge (4):</b> Summon a\n{1}/{1} Interceptor.\nThen improve this\npermanently."
 	},
 	{
 		"name": "Heir of Hereafter",
@@ -1223,174 +680,6 @@
 		"text": "[x]<b>Taunt</b>\n<b>Battlecry:</b> Gain +2/+2 for\neach damaged minion."
 	},
 	{
-		"name": "Undefeated Champion",
-		"set": "Across_the_timeways",
-		"cost": 8,
-		"attack": 13,
-		"health": 13,
-		"text": "[x]<b>Rush</b>. <b>Battlecry:</b> Fill your\nopponent's board with\n random 1-Cost minions."
-	},
-	{
-		"name": "Unleash the Crocolisks",
-		"set": "Across_the_timeways",
-		"cost": 1,
-		"text": "Gain 10 Armor.\nSummon two 2/3 Beasts for your opponent."
-	},
-	{
-		"name": "Coliseum Crocolisk",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"attack": 2,
-		"health": 3
-	},
-	{
-		"name": "Raptor Herald",
-		"set": "Gift",
-		"cost": 3,
-		"attack": 4,
-		"health": 2,
-		"text": "[x]<b>Rewind</b>\n<b>Battlecry:</b> <b>Discover</b> a Beast\nwith a <b>Dark Gift</b>. <b>Kindred:</b>\nIt costs (1) less."
-	},
-	{
-		"name": "Garona Halforcen",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 5,
-		"health": 4,
-		"text": "[x]<b>Fabled</b>. <b>Battlecry:</b> If your\nopponent is holding King\nLlane, destroy him and cut\ntheir Health in half."
-	},
-	{
-		"name": "King Llane",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 3,
-		"health": 3,
-		"text": "[x]<b>Start of Game:</b> Hide from\nGarona in the enemy's deck.\n<b>Battlecry:</b> Draw a card. Shuffle\nthis back into your deck."
-	},
-	{
-		"name": "The Kingslayers",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"attack": 3,
-		"text": "After your hero attacks, both players draw a <b>Legendary</b> card."
-	},
-	{
-		"name": "Shapeshifter",
-		"set": "Across_the_timeways",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "[x]Each turn this is in your\nhand, transform into a\nrandom minion in your\nopponent's hand."
-	},
-	{
-		"name": "Mirrored Mage",
-		"set": "Across_the_timeways",
-		"cost": 1,
-		"attack": 0,
-		"health": 4,
-		"text": "<b>Taunt</b>"
-	},
-	{
-		"name": "Gelbin of Tomorrow",
-		"set": "Across_the_timeways",
-		"cost": 8,
-		"attack": 6,
-		"health": 6,
-		"text": "[x]<b>Fabled</b>\n<b>Battlecry:</b> Put one of each\nAura from your deck into\nthe battlefield."
-	},
-	{
-		"name": "Gnomish Aura",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"text": "[x]<b>Tradeable</b>\nAt the end of your turn,\nrestore #4 Health to all your\ncharacters. Lasts 3 turns."
-	},
-	{
-		"name": "Mekkatorque's Aura",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"text": "[x]<b>Tradeable</b>. At the end\nof your turn, give a random\nfriendly minion +4/+4 and\n<b>Divine Shield</b>. Lasts 3 turns."
-	},
-	{
-		"name": "Lady Azshara",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"attack": 5,
-		"health": 5,
-		"text": "[x]<b>Fabled</b>. <b>Choose One -</b>\nEmpower Zin-Azshari; or\nThe Well of Eternity. <i>(The\n other gets destroyed!)</i>"
-	},
-	{
-		"name": "The Well of Eternity",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"health": 3,
-		"text": "Fill your hand\nwith random\n<b>Temporary</b> spells."
-	},
-	{
-		"name": "Zin-Azshari",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"health": 3,
-		"text": "Summon a copy of a friendly minion."
-	},
-	{
-		"name": "Hardlight Protector",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"attack": 2,
-		"health": 1,
-		"text": "[x]<b>Divine Shield</b>\n<b>Battlecry:</b> Restore #3 Health\nto your hero and give them\n<b>Divine Shield</b>."
-	},
-	{
-		"name": "Neon Innovation",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"text": "<b>Discover</b> a Paladin Mech from the past. Give it +5/+5."
-	},
-	{
-		"name": "Tankgineer",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 2,
-		"health": 1,
-		"text": "[x]<b>Divine Shield</b>\n<b>Deathrattle:</b> Summon a 7/7\nTank with <b>Divine Shield</b>."
-	},
-	{
-		"name": "Mend the Timeline",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"text": "<b>Rewind</b>\nGet 2 random Holy spells. Restore Health to your hero equal to their Costs."
-	},
-	{
-		"name": "Manifested Timeways",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 3,
-		"health": 3,
-		"text": "<b>Battlecry:</b> If you control\nan Aura, deal 3 damage\nto all enemies."
-	},
-	{
-		"name": "Medivh the Hallowed",
-		"set": "Across_the_timeways",
-		"cost": 10,
-		"attack": 7,
-		"health": 7,
-		"text": "[x]<b>Fabled</b>. Costs (0) if\nyou control Karazhan.\n<b>Battlecry:</b> <b>Silence</b> and destroy\nall other minions."
-	},
-	{
-		"name": "Atiesh the Greatstaff",
-		"set": "Across_the_timeways",
-		"cost": 10,
-		"attack": 1,
-		"text": "[x]Costs (0) if you control\nMedivh. Double the\ndamage and healing\nof your spells."
-	},
-	{
-		"name": "Karazhan the Sanctum",
-		"set": "Across_the_timeways",
-		"cost": 10,
-		"health": 2,
-		"text": "Costs (0) if you're wielding Atiesh. Summon two random 8-Cost minions."
-	},
-	{
 		"name": "Broxigar",
 		"set": "Across_the_timeways",
 		"cost": 2,
@@ -1399,331 +688,64 @@
 		"text": "[x]<b>Fabled, Charge</b>\n<b>Start of Game:</b> Disappear.\nKill all 4 Demons from Argus\nto reappear in hand."
 	},
 	{
-		"name": "Axe of Cenarius",
-		"set": "Across_the_timeways",
-		"cost": 3,
+		"name": "Noisul of the Many Faces",
+		"set": "Battlegrounds",
+		"cost": 0,
 		"attack": 3,
-		"text": "[x]<b>Lifesteal</b>\nAfter your hero attacks\nand kills a minion, draw\na Portal to Argus."
-	},
-	{
-		"name": "First Portal to Argus",
-		"set": "Across_the_timeways",
-		"cost": 0,
-		"text": "[x]Summon a 1/1 Demon for\nyour opponent. When it dies,\ndraw a card and shuffle the\nnext Portal into your deck."
-	},
-	{
-		"name": "Fleeing Ur'zul",
-		"set": "Across_the_timeways",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "[x]<b>Deathrattle:</b> Your opponent\ndraws a card. Shuffle the\nSecond Portal to Argus\ninto their deck."
-	},
-	{
-		"name": "Second Portal to Argus",
-		"set": "Across_the_timeways",
-		"cost": 0,
-		"text": "[x]Summon a 2/1 Demon for\nyour opponent. When it dies,\ndraw a card and shuffle the\nnext Portal into your deck."
-	},
-	{
-		"name": "Fleeing Incubus",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"attack": 2,
-		"health": 1,
-		"text": "[x]<b>Deathrattle:</b> Your opponent\ndraws a card. Shuffle the\nThird Portal to Argus\ninto their deck."
-	},
-	{
-		"name": "Third Portal to Argus",
-		"set": "Across_the_timeways",
-		"cost": 0,
-		"text": "[x]Summon a 3/1 Demon for\nyour opponent. When it dies,\ndraw a card and shuffle the\nnext Portal into your deck."
-	},
-	{
-		"name": "Fleeing Wrathguard",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 3,
-		"health": 1,
-		"text": "[x]<b>Deathrattle:</b> Your opponent\ndraws a card. Shuffle the\nFinal Portal to Argus\ninto their deck."
-	},
-	{
-		"name": "Final Portal to Argus",
-		"set": "Across_the_timeways",
-		"cost": 0,
-		"text": "Summon a 4/1\nDemon for your opponent. When it dies, Broxigar reappears in your hand."
-	},
-	{
-		"name": "Fleeing Terrorguard",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 4,
-		"health": 1,
-		"text": "<b>Deathrattle:</b> Broxigar reappears in your opponent's hand."
-	},
-	{
-		"name": "Lightning Rod",
-		"set": "Across_the_timeways",
-		"cost": 1,
-		"text": "Deal $2 damage to a friendly minion to deal $4 damage to a random enemy minion."
-	},
-	{
-		"name": "Flux Revenant",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"attack": 1,
-		"health": 4,
-		"text": "[x]<b>Taunt</b>\nWhenever you would damage\nthis with a Nature spell, it\ngains +2/+1 instead."
-	},
-	{
-		"name": "Thunderquake",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"text": "[x]Deal $1 damage\nto all minions.\nGet a Static Shock."
-	},
-	{
-		"name": "Stormrook",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"attack": 5,
-		"health": 5,
-		"text": "[x]Whenever you would\ndamage this with a Nature\nspell, summon a random\n 5-Cost minion instead."
-	},
-	{
-		"name": "Doomsday Prepper",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"attack": 5,
-		"health": 4,
-		"text": "<b>Outcast:</b> Your hero is <b>Immune</b> until your\nnext turn."
-	},
-	{
-		"name": "Perennial Serpent",
-		"set": "Across_the_timeways",
-		"cost": 8,
-		"attack": 7,
 		"health": 9,
-		"text": "[x]<b>Rush</b>\nCosts (4) less if a minion\nis <b>Dormant</b>."
+		"text": "[x]Whenever you summon an\nUndead, give all your\nUndead +{0}/+{1}\npermanently."
 	},
 	{
-		"name": "Talanji of the Graves",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 4,
-		"health": 5,
-		"text": "[x]<b>Fabled.</b> <b>Battlecry:</b> Draw\nBwonsamdi <i>(or resurrect\nhim if he has died)</i>. Choose\na Boon to give him."
-	},
-	{
-		"name": "Boon of Power",
-		"set": "Across_the_timeways",
+		"name": "Noisul of the Many Faces",
+		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "Give Bwonsamdi <b>Taunt</b> <i>permanently</i>. Minions summoned by his <b>Deathrattle</b> cost (2) more."
-	},
-	{
-		"name": "Boon of Longevity",
-		"set": "Across_the_timeways",
-		"cost": 0,
-		"text": "Give Bwonsamdi <b>Lifesteal</b> <i>permanently</i>. Minions summoned by his <b>Deathrattle</b> cost (2) more."
-	},
-	{
-		"name": "Boon of Speed",
-		"set": "Across_the_timeways",
-		"cost": 0,
-		"text": "Give Bwonsamdi <b>Rush</b> <i>permanently</i>. Minions summoned by his <b>Deathrattle</b> cost (2) more."
-	},
-	{
-		"name": "Bwonsamdi",
-		"set": "Across_the_timeways",
-		"cost": 6,
 		"attack": 6,
+		"health": 18,
+		"text": "[x]Whenever you summon an\nUndead, give all your\nUndead +{0}/+{1}\npermanently."
+	},
+	{
+		"name": "Fire-forged Evoker",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 9,
 		"health": 6,
-		"text": "[x]<b>Deathrattle:</b> Summon a\nrandom 4-Cost minion.\n<i>(Any Boons given to\n Bwonsamdi carry over.)</i>"
+		"text": "[x]<b>Start of Combat:</b> Give your\n Dragons +1/+1.\nAfter you cast a Tavern\nspell, improve this."
 	},
 	{
-		"name": "What Befell Zandalar",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"text": "[x]Deal $2 damage to all\nenemies. Choose a Boon\nto give to Bwonsamdi."
-	},
-	{
-		"name": "The Well of Eternity",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"health": 3,
-		"text": "[x]Fill your hand\nwith random <b>Temporary</b>\nspells. They cast twice."
-	},
-	{
-		"name": "Zin-Azshari",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"health": 3,
-		"text": "Summon a copy of a friendly minion with\nits stats doubled."
-	},
-	{
-		"name": "Empower Zin-Azshari",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"text": "[x]The minions summoned\nby Zin-Azshari will have\ndoubled stats. Destroy\nThe Well of Eternity."
-	},
-	{
-		"name": "Empower the Well",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"text": "The spells created by The Well of Eternity will cast twice.\nDestroy Zin-Azshari."
-	},
-	{
-		"name": "Contingency",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"text": "Draw the bottom two cards from your deck."
-	},
-	{
-		"name": "Memoriam Manifest",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"text": "Summon the highest Cost friendly Undead that died this game."
-	},
-	{
-		"name": "Murozond, Unbounded",
-		"set": "Across_the_timeways",
-		"cost": 9,
-		"attack": 8,
-		"health": 8,
-		"text": "<b>Battlecry:</b> At the start of your next turn, set this minion's Attack to INFINITY!"
-	},
-	{
-		"name": "Timestop",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"text": "Deal $3 damage.\n<b>Freeze</b> two random enemy minions."
-	},
-	{
-		"name": "Primordial Overseer",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"attack": 2,
-		"health": 3,
-		"text": "[x]<b>Battlecry:</b> If you've cast a\nNature spell while holding\nthis, gain +1/+1 and\ndraw a card."
-	},
-	{
-		"name": "Nascent Bolt",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"text": "Deal $5 damage to a minion. If it survives, draw 2 cards."
-	},
-	{
-		"name": "Cleansing Lightspawn",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 2,
-		"health": 3,
-		"text": "[x]<b>Lifesteal</b>\n<b>Battlecry:</b> Deal damage\nto an enemy minion equal\n to this minion's Health."
-	},
-	{
-		"name": "Yesterloc",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"attack": 3,
-		"health": 1,
-		"text": "At the end of your turn, give your other minions +1 Health."
-	},
-	{
-		"name": "Divine Augur",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"attack": 5,
-		"health": 5,
-		"text": "[x]<b>Battlecry:</b> Set the Attack\nand Health of every minion\nin your hand to the higher\nof the two stats."
-	},
-	{
-		"name": "Amber Priestess",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"attack": 1,
-		"health": 4,
-		"text": "[x]<b>Taunt</b>\n<b>Battlecry:</b> Restore Health\nto a character equal to\nthis minion's Health."
-	},
-	{
-		"name": "Intertwined Fate",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"text": "<b>Discover</b> a copy of a card from your deck and one from your opponent's."
-	},
-	{
-		"name": "Cryofrozen Champion",
-		"set": "Across_the_timeways",
-		"cost": 1,
-		"attack": 2,
-		"health": 1,
-		"text": "<b>Deathrattle:</b> Get a random\n<b>Legendary</b> minion. Reduce its Cost by (1)."
-	},
-	{
-		"name": "Twilight Timehopper",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"attack": 4,
-		"health": 4,
-		"text": "[x]<b>Battlecry:</b> Shuffle 2\nShreds of Time into your\ndeck. When drawn, deal 3\ndamage to your hero."
-	},
-	{
-		"name": "Shred of Time",
-		"set": "Across_the_timeways",
+		"name": "Fire-forged Evoker",
+		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "<b>Casts When Drawn</b>\nDeal $3 damage to\nyour hero."
+		"attack": 18,
+		"health": 12,
+		"text": "[x]<b>Start of Combat:</b> Give your\n Dragons +2/+2.\nAfter you cast a Tavern\nspell, improve this."
 	},
 	{
-		"name": "Entropic Continuity",
-		"set": "Across_the_timeways",
-		"cost": 1,
-		"text": "[x]Give your minions +1/+1.\nShuffle 2 Shreds of Time\ninto your deck."
+		"name": "Spawning Pool",
+		"set": "Battlegrounds",
+		"cost": 7,
+		"text": "[x]Unlock Tier 2 Zerg.\nCosts (1) less each turn.\n<b>Passive:</b> Start the game\nwith a 2/2 Larva."
 	},
 	{
-		"name": "Tachyon Barrage",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"text": "Deal $6 damage split among all enemies. Shuffle 2 Shreds of Time into your deck."
+		"name": "Evolution Chamber",
+		"set": "Battlegrounds",
+		"cost": 9,
+		"text": "[x]Unlock Tier 3 Zerg.\nCosts (1) less each turn.\n<b>Passive:</b> Your Zerg can\nmorph into Tier 2 Zerg."
 	},
 	{
-		"name": "Fatebreaker",
-		"set": "Across_the_timeways",
-		"cost": 4,
+		"name": "Mutalisk",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 2,
+		"health": 2,
+		"text": "[x]After a friendly minion\nkills an enemy, gain\n+3 Attack permanently.\n<i>(Morphs each turn!)</i>"
+	},
+	{
+		"name": "Mutalisk",
+		"set": "Battlegrounds",
+		"cost": 0,
 		"attack": 4,
 		"health": 4,
-		"text": "[x]<b>Lifesteal</b>\n<b>Battlecry:</b> Cast a Shred\nof Time from your deck\nto gain +3/+3."
-	},
-	{
-		"name": "Ruinous Velocidrake",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"attack": 5,
-		"health": 5,
-		"text": "[x]<b>Rush</b>\n<b>Battlecry:</b> Cast a Shred\n of Time from your deck to\n summon a copy of this."
-	},
-	{
-		"name": "Divergence",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"text": "Split a random\nminion in your hand into two halves."
-	},
-	{
-		"name": "RAFAAM LADDER!!",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"text": "Draw 3 cards of different Costs."
-	},
-	{
-		"name": "Chronogor",
-		"set": "Across_the_timeways",
-		"cost": 6,
-		"attack": 6,
-		"health": 7,
-		"text": "[x]<b>Battlecry:</b> You draw your\n2 highest Cost cards.\nYour opponent draws your\n2 lowest Cost cards."
-	},
-	{
-		"name": "Cease to Exist",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"text": "<b>Rewind</b>\n<b>Silence</b> and destroy a random enemy minion."
+		"text": "[x]After a friendly minion\nkills an enemy, gain\n+6 Attack permanently.\n<i>(Morphs each turn!)</i>"
 	},
 	{
 		"name": "Druid of Regrowth",
@@ -1734,28 +756,6 @@
 		"text": "<b>Rewind</b>\n<b>Battlecry:</b> Cast 2 random Nature spells."
 	},
 	{
-		"name": "Wormhole",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"text": "<b>Rewind</b>\nSummon a random\n3-Cost Beast. It attacks\na random enemy."
-	},
-	{
-		"name": "Stadium Announcer",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 3,
-		"health": 3,
-		"text": "[x]<b>Rewind</b>\n<b>Battlecry:</b> Both players\nequip a random weapon.\nGive yours +1/+1."
-	},
-	{
-		"name": "Time Machine",
-		"set": "Across_the_timeways",
-		"cost": 6,
-		"attack": 6,
-		"health": 6,
-		"text": "<b>Taunt</b>\n<b>Deathrattle:</b> Get a random <b>Rewind</b> card."
-	},
-	{
 		"name": "Temporal Traveler",
 		"set": "Across_the_timeways",
 		"cost": 3,
@@ -1764,81 +764,20 @@
 		"text": "[x]<b>Deathrattle:</b> Summon a\n4/1 Shadow that attacks a\nrandom enemy minion."
 	},
 	{
-		"name": "Shadows of Yesterday",
-		"set": "Across_the_timeways",
-		"cost": 6,
-		"text": "<b>Rewind</b>\nSummon four 3/2 Shades. They each gain two\nrandom <b>Bonus Effects</b>."
-	},
-	{
-		"name": "Royal Informant",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 2,
-		"health": 4,
-		"text": "[x]<b>Battlecry:</b> Look at the right-\nmost card in your opponent's\nhand. Either get a copy of it or\nincrease its Cost by (2)."
-	},
-	{
-		"name": "Eternus",
-		"set": "Across_the_timeways",
-		"cost": 6,
-		"attack": 6,
-		"health": 2,
-		"text": "[x]<b>Battlecry:</b> Take control of\nan enemy minion with this\n minion's Health or less."
-	},
-	{
-		"name": "Past Conflux",
-		"set": "Across_the_timeways",
-		"cost": 7,
-		"health": 3,
-		"text": "[x]Summon a random Dragon\nthat costs (5) or more.\n<i>Advance to the present!</i>"
-	},
-	{
-		"name": "Disciple of the Dove",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 2,
-		"health": 2,
-		"text": "<b>Battlecry:</b> Draw a minion. Give minions in your hand +2 Health."
-	},
-	{
-		"name": "Chronological Aura",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"text": "At the end of your turn, summon a 3/5 Dragon with <b>Taunt</b>.\nLasts 3 turns."
-	},
-	{
-		"name": "Mister Clocksworth",
-		"set": "Across_the_timeways",
-		"cost": 8,
-		"attack": 3,
-		"health": 3,
-		"text": "[x]<b>Rewind</b>, <b>Rewind</b>\n<b>Battlecry:</b> Summon 2 random\n<b>Legendary</b> minions."
-	},
-	{
-		"name": "Deja Vu",
-		"set": "Across_the_timeways",
-		"cost": 1,
-		"text": "<b>Discover</b> a copy of a\ncard in your opponent's hand. It costs (1) less."
-	},
-	{
-		"name": "Waveshaping",
-		"set": "Across_the_timeways",
-		"cost": 1,
-		"text": "<b>Discover</b> a card from your deck. The others get put on the bottom."
-	},
-	{
-		"name": "Ebb and Flow",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"text": "Deal $3 damage.\nIf you played a minion while holding this,\ngain 5 Armor."
-	},
-	{
-		"name": "Endangered Dodo",
-		"set": "Across_the_timeways",
-		"cost": 5,
+		"name": "Murkbrine Expeditioner",
+		"set": "Battlegrounds",
+		"cost": 0,
 		"attack": 5,
-		"health": 5,
-		"text": "[x]<b>Taunt</b>\n<b>Battlecry:</b> If you have 10 or\nless Health, gain +5/+5 and\n summon a copy of this."
+		"health": 6,
+		"text": "[x]<b>Taunt</b>, <b>Divine Shield</b>\nAfter this gains stats, also\ngive the stats to the left-most\nminion in your hand."
+	},
+	{
+		"name": "Murkbrine Expeditioner",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 10,
+		"health": 12,
+		"text": "[x]<b>Taunt</b>, <b>Divine Shield</b>\nAfter this gains stats, also give\ntwice the stats to the left-most\nminion in your hand."
 	},
 	{
 		"name": "Highborne Mentor",
@@ -1849,177 +788,6 @@
 		"text": "[x]<b>Battlecry:</b> Get a 2/2 Pupil.\n<b>Discover</b> a spell that costs\n(7) or more from the past\nto teach it."
 	},
 	{
-		"name": "Krona, Keeper of Eons",
-		"set": "Across_the_timeways",
-		"cost": 6,
-		"attack": 4,
-		"health": 7,
-		"text": "[x]<b>Taunt</b>\n<b>Battlecry:</b> Set the Costs\nof the bottom 5 cards\nof your deck to (1)."
-	},
-	{
-		"name": "The Fins Beyond Time",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"attack": 2,
-		"health": 3,
-		"text": "[x]<b>Battlecry:</b> Replace your\nhand with your starting\nhand. Swap back at the\nend of your turn."
-	},
-	{
-		"name": "Ashalon, Ridge Guardian",
-		"set": "Lost_city_of_ungoro",
-		"cost": 5,
-		"attack": 8,
-		"health": 8,
-		"text": "[x]<b>Rush</b>. <b>Battlecry:</b> <b>Adapt</b> twice.\nFor the rest of the game,\ngive minions you play\nthose <b><b>Adapt</b>ations</b>."
-	},
-	{
-		"name": "Fading Memory",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 6,
-		"health": 3,
-		"text": "<b>Deathrattle:</b> Get a\nrandom 5-Cost minion from the past."
-	},
-	{
-		"name": "Futuristic Forefather",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 4,
-		"health": 4,
-		"text": "[x]<b>Taunt</b>. <b>Battlecry:</b> Look at 3\ncards. Guess which one is\nin your opponent's hand\nto gain +4 Health."
-	},
-	{
-		"name": "Arrow Retriever",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"attack": 3,
-		"health": 1,
-		"text": "<b>Battlecry:</b> Draw until you have 3 cards."
-	},
-	{
-		"name": "Troubled Double",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 3,
-		"health": 3,
-		"text": "<b>Stealth</b>\n<b>Combo:</b> Summon a\ncopy of this."
-	},
-	{
-		"name": "Flashback",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"text": "Summon two random 1-Cost minions from the past. <b>Combo:</b> With +1 Attack."
-	},
-	{
-		"name": "Infinite Banana",
-		"set": "Across_the_timeways",
-		"cost": 1,
-		"text": "[x]Give a minion +1/+1.\n<i>(This stays in your hand.)</i>"
-	},
-	{
-		"name": "King Maluk",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 5,
-		"health": 6,
-		"text": "<b>Battlecry:</b> Discard\nyour hand. Get an\nInfinite Banana."
-	},
-	{
-		"name": "Dethrone",
-		"set": "Across_the_timeways",
-		"cost": 7,
-		"text": "Destroy a minion. <b>Combo:</b> Summon a random 8-Cost minion."
-	},
-	{
-		"name": "Time Adm'ral Hooktail",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"attack": 4,
-		"health": 6,
-		"text": "<b>Battlecry:</b> Summon a 0/8 Chest for your opponent. <i>It's FULL of Coins!</i>"
-	},
-	{
-		"name": "Timeless Chest",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 0,
-		"health": 8,
-		"text": "<b>Deathrattle:</b> Fill your opponent's hand\nwith Coins."
-	},
-	{
-		"name": "Chrono-Lord Epoch",
-		"set": "Across_the_timeways",
-		"cost": 6,
-		"attack": 7,
-		"health": 5,
-		"text": "<b>Battlecry:</b> Destroy all minions that your opponent played last turn."
-	},
-	{
-		"name": "PMM Infinitizer",
-		"set": "Across_the_timeways",
-		"cost": 6,
-		"attack": 4,
-		"health": 4,
-		"text": "<b>Battlecry:</b> Set a friendly minion's Attack and Health to 8. It can't attack heroes this turn."
-	},
-	{
-		"name": "Past Gnomeregan",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"health": 3,
-		"text": "[x]Give a minion +2/+1.\n<i>Advance to the present!</i>"
-	},
-	{
-		"name": "Present Gnomeregan",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"health": 3,
-		"text": "[x]Give a minion +2/+1\nand \"<b>Deathrattle:</b> Deal 2\ndamage to the enemy hero.\"\n<i>Advance to the future!</i>"
-	},
-	{
-		"name": "Future Gnomeregan",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"health": 3,
-		"text": "[x]Give a minion\n+2/+1, <b>Divine Shield</b>,\nand \"<b>Deathrattle:</b> Deal 2\ndamage to the enemy hero.\""
-	},
-	{
-		"name": "For Glory!",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"text": "Draw 2 cards. Costs\n(1) less for each minion your opponent controls."
-	},
-	{
-		"name": "Slow Motion",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"text": "Your opponent's cards cost (1) more next turn."
-	},
-	{
-		"name": "Soldier of the Bronze",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"attack": 5,
-		"health": 3,
-		"text": "<b>Taunt</b>\n<b>Battlecry:</b> Double this minion's Health."
-	},
-	{
-		"name": "Whelp of the Infinite",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 1,
-		"health": 4,
-		"text": "<b>Poisonous</b>\n<b>Reborn</b>"
-	},
-	{
-		"name": "Cyborg Patriarch",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 3,
-		"health": 12,
-		"text": "<b>Dormant</b> for 3 turns.\n<b>Taunt</b>"
-	},
-	{
 		"name": "Devious Coyote",
 		"set": "Across_the_timeways",
 		"cost": 5,
@@ -2028,49 +796,32 @@
 		"text": "[x]<b>Stealth</b>. Costs (1) less for\neach time the enemy hero\ntook damage this turn."
 	},
 	{
-		"name": "Clockwork Rager",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"attack": 5,
-		"health": 1,
-		"text": "[x]<b>Battlecry:</b> Gain +1 Health\nfor each turn you've taken\nthis game. <i>(0 turns)</i>"
+		"name": "Poet Portrait",
+		"set": "Battlegrounds",
+		"cost": 4,
+		"text": "Get a Persistent Poet and a Prized Promo-Drake."
+	},
+	{
+		"name": "Fauna Whisperer",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 4,
+		"health": 9,
+		"text": "[x]At the end of your turn,\ncast Natural Blessing on\nadjacent minions."
+	},
+	{
+		"name": "Fauna Whisperer",
+		"set": "Battlegrounds",
+		"cost": 0,
+		"attack": 8,
+		"health": 18,
+		"text": "[x]At the end of your turn,\ncast Natural Blessing on\n adjacent minions twice."
 	},
 	{
 		"name": "Aeon Rend",
 		"set": "Across_the_timeways",
 		"cost": 4,
 		"text": "<b>Rewind</b>\nDeal $4 damage to two random enemies."
-	},
-	{
-		"name": "Dangerous Variant",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"attack": 1,
-		"health": 1,
-		"text": "At the start of your turn, transform into a random 5-Cost minion."
-	},
-	{
-		"name": "Temporal Shadow",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 4,
-		"health": 1
-	},
-	{
-		"name": "Sentient Hourglass",
-		"set": "Across_the_timeways",
-		"cost": 6,
-		"attack": 4,
-		"health": 9,
-		"text": "[x]<b>Rush</b>\nAfter this minion survives\ndamage, swap its stats."
-	},
-	{
-		"name": "Soldier of the Infinite",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"attack": 3,
-		"health": 5,
-		"text": "<b>Rush</b>\n<b>Battlecry:</b> Double this minion's Attack."
 	},
 	{
 		"name": "Amber Warden",
@@ -2081,65 +832,12 @@
 		"text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Summon a\nrandom minion from\nthe past."
 	},
 	{
-		"name": "Sandmaw",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 7,
-		"health": 2
-	},
-	{
-		"name": "Time Skipper",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 3,
-		"health": 4,
-		"text": "At the end of each player's turn, give them a Coin."
-	},
-	{
-		"name": "Unknown Voyager",
-		"set": "Across_the_timeways",
+		"name": "Underfel Rift",
+		"set": "Lost_city_of_ungoro",
 		"cost": 5,
-		"attack": 4,
-		"health": 5,
-		"text": "After this survives damage, transform into a random 7-Cost minion."
-	},
-	{
-		"name": "Whelp of the Bronze",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 4,
+		"attack": 0,
 		"health": 1,
-		"text": "<b>Lifesteal</b>\n<b>Divine Shield</b>"
-	},
-	{
-		"name": "Wizened Truthseeker",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 4,
-		"health": 5,
-		"text": "<b>Battlecry:</b> Set the Cost of every card in both player's hands back to their original Costs."
-	},
-	{
-		"name": "Paltry Flutterwing",
-		"set": "Across_the_timeways",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "[x]<b>Deathrattle:</b> Summon a\nrandom 2-Cost minion that\nis <b>Dormant</b> for 2 turns."
-	},
-	{
-		"name": "Living Paradox",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 2,
-		"health": 1,
-		"text": "<b>Elusive</b>\n<b>Battlecry:</b> Summon two\n2/1 Living Paradoxes with <b>Elusive</b>."
-	},
-	{
-		"name": "Precursory Strike",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"text": "Deal $3 damage.\nIf you're holding a minion that costs (5) or more, draw a minion."
+		"text": "[x]Select the Rift to activate.\nThrow a card in to summon\n2 random Fel Beasts.\n<i>(Once per turn.)</i>"
 	},
 	{
 		"name": "Quantum Destabilizer",
@@ -2148,76 +846,6 @@
 		"attack": 4,
 		"health": 9,
 		"text": "This minion takes double damage from all sources."
-	},
-	{
-		"name": "Timeless Causality",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"attack": 3,
-		"health": 2,
-		"text": "<b>Battlecry:</b> Reverse the order of your deck."
-	},
-	{
-		"name": "Chronicle Keeper",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 3,
-		"health": 6,
-		"text": "<b>Battlecry:</b> If you're holding a Dragon, gain <b>Taunt</b> and <b>Divine Shield</b>."
-	},
-	{
-		"name": "Timelord Nozdormu",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 8,
-		"health": 8,
-		"text": "[x]<b>Dormant</b> for 5 turns.\n<b>Rush</b>. After you play a card\nfrom the newest expansion,\n awaken 1 turn sooner."
-	},
-	{
-		"name": "Mister Clocksworth",
-		"set": "Across_the_timeways",
-		"cost": 8,
-		"attack": 3,
-		"health": 3,
-		"text": "[x]<b>Rewind</b>, <b>Rewind</b>\n<b>Battlecry:</b> Summon 2 random\n<b>Legendary</b> minions."
-	},
-	{
-		"name": "Mister Clocksworth",
-		"set": "Across_the_timeways",
-		"cost": 8,
-		"attack": 3,
-		"health": 3,
-		"text": "[x]<b>Rewind</b>\n<b>Battlecry:</b> Summon 2 random\n<b>Legendary</b> minions."
-	},
-	{
-		"name": "Mister Clocksworth",
-		"set": "Across_the_timeways",
-		"cost": 8,
-		"attack": 3,
-		"health": 3,
-		"text": "[x]<b>Battlecry:</b> Summon 2 random\n<b>Legendary</b> minions."
-	},
-	{
-		"name": "Chrono-Lord Deios",
-		"set": "Across_the_timeways",
-		"cost": 7,
-		"attack": 4,
-		"health": 8,
-		"text": "[x]Your <b>Battlecries</b>,\n<b>Deathrattles</b>, Hero Power,\nand end of turn effects\ntrigger twice."
-	},
-	{
-		"name": "Timeway Warden",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 2,
-		"health": 6,
-		"text": "[x]<b>Battlecry:</b> Imprison an\nenemy minion. It goes\n<b>Dormant</b> for 10,000 turns.\n <b>Deathrattle:</b> Awaken it."
-	},
-	{
-		"name": "Hounds of Fury",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"text": "[x]Summon two 3/3\nDemons. If your deck has\nno minions, they attack\nthe lowest Health enemy."
 	},
 	{
 		"name": "Time-Lost Glaive",
@@ -2234,59 +862,10 @@
 		"text": "[x]Get a Demon that costs\n(5) or more. If your deck\nhas no minions, your\nnext one costs (0)."
 	},
 	{
-		"name": "Husk, Eternal Reaper",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 5,
-		"health": 3,
-		"text": "[x]<b>Battlecry:</b> Give your hero\n\"<b>Deathrattle:</b> Spend up to\n20 <b>Corpses</b> to resurrect with\nthat much Health.\""
-	},
-	{
-		"name": "Power Word: Barrier",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"text": "Give a character <b>Divine Shield</b>. Give minions in your hand +2 Health."
-	},
-	{
 		"name": "Blood Draw",
 		"set": "Across_the_timeways",
 		"cost": 3,
 		"text": "<b>Discover</b> a spell.\nThis costs Health instead of Mana."
-	},
-	{
-		"name": "Forgotten Millennium",
-		"set": "Across_the_timeways",
-		"cost": 8,
-		"text": "Fill your hand with random Undead.\nThey cost Health instead of Mana this turn."
-	},
-	{
-		"name": "Liferender",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 3,
-		"health": 4,
-		"text": "<b>Battlecry:</b> If your hero's Health changed this turn, deal 6 damage to an enemy minion."
-	},
-	{
-		"name": "Chronochiller",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 8,
-		"health": 7,
-		"text": "You no longer draw a card at the start of your turn."
-	},
-	{
-		"name": "Static Shock",
-		"set": "Across_the_timeways",
-		"cost": 0,
-		"text": "Deal $1 damage to a minion. Give your hero +1 Attack this turn."
-	},
-	{
-		"name": "Sargeran Felhound",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 3,
-		"health": 3
 	},
 	{
 		"name": "Solitude",
@@ -2301,63 +880,6 @@
 		"text": "[x]Give your hero\n+4 Attack this turn. If your\ndeck has no minions, give\nany in hand +4 Attack."
 	},
 	{
-		"name": "Hourglass Attendant",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 2,
-		"health": 4,
-		"text": "[x]<b>Divine Shield</b>\nAt the end of your turn,\ngive all minions in your\nhand +1/+1."
-	},
-	{
-		"name": "Fast Forward",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"text": "Draw 2 cards.\nPick one to have its Cost reduced by (2)."
-	},
-	{
-		"name": "Untimely Death",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"text": "<b>Secret:</b> When a friendly minion dies the turn after being played, resummon it."
-	},
-	{
-		"name": "Kaldorei Cultivator",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 3,
-		"health": 4,
-		"text": "[x]<b>Battlecry:</b> <b>Discover</b> 2 Beasts.\nPut them on the bottom of\nyour deck with +5/+5."
-	},
-	{
-		"name": "Anomalous Shade",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"attack": 3,
-		"health": 2
-	},
-	{
-		"name": "Bonedigger Arfus",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Broxigar",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Demon Claws",
-		"set": "Hero_skins",
-		"cost": 1,
-		"text": "[x]<b>Hero Power</b>\n+$a1 Attack this turn."
-	},
-	{
-		"name": "Demon's Bite",
-		"set": "Hero_skins",
-		"cost": 1,
-		"text": "[x]<b>Hero Power</b>\n+$a2 Attack this turn."
-	},
-	{
 		"name": "Misplaced Pyromancer",
 		"set": "Across_the_timeways",
 		"cost": 3,
@@ -2366,124 +888,60 @@
 		"text": "Whenever you <b>Shatter</b> a card, deal 2 damage to\nall enemy minions."
 	},
 	{
-		"name": "Circadiamancer",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 2,
-		"health": 2,
-		"text": "[x]<b>Battlecry:</b> Add a random\n8-Cost minion to your hand.\nAt the start of your turns,\nreduce its Cost by (1)."
-	},
-	{
-		"name": "Chromie",
-		"set": "Across_the_timeways",
-		"cost": 6,
-		"attack": 4,
-		"health": 6,
-		"text": "<b>Deathrattle:</b> Draw another copy of cards you've played this game. <i>(0 cards)</i>"
-	},
-	{
-		"name": "The Coin",
-		"set": "Across_the_timeways",
+		"name": "All-Seeing Elder",
+		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "Gain 1 Mana Crystal this turn only."
+		"attack": 1,
+		"health": 1,
+		"text": "[x]<b>Start of Combat:</b> Gain the\nAttack of your left-most\n minion and the Health of\n your right-most minion."
 	},
 	{
-		"name": "The Coin",
-		"set": "Across_the_timeways",
-		"cost": 0,
-		"text": "Gain 1 Mana Crystal this turn only."
-	},
-	{
-		"name": "Life Tap",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nDraw a card and take $2 damage."
-	},
-	{
-		"name": "Primeval Monstrosity",
+		"name": "Lord of the Ruins",
 		"set": "Battlegrounds",
 		"cost": 0,
 		"attack": 5,
 		"health": 6,
-		"text": "[x]<b>Stealth</b>. Whenever a friendly\n<b>Rally</b> minion attacks, give a\n friendly minion of each type\n +3/+2 permanently."
+		"text": "After a friendly Demon deals damage, give friendly minions other than it +2/+1."
 	},
 	{
-		"name": "Primeval Monstrosity",
+		"name": "Lord of the Ruins",
 		"set": "Battlegrounds",
 		"cost": 0,
 		"attack": 10,
 		"health": 12,
-		"text": "[x]<b>Stealth</b>. Whenever a friendly\n<b>Rally</b> minion attacks, give a\n friendly minion of each type\n +6/+4 permanently."
+		"text": "After a friendly Demon deals damage, give friendly minions other than it +4/+2."
 	},
 	{
-		"name": "Present Conflux",
-		"set": "Across_the_timeways",
-		"cost": 7,
-		"health": 3,
-		"text": "[x]<b>Discover</b> a Dragon\nthat costs (5) or more\nand summon it.\n<i>Advance to the future!</i>"
-	},
-	{
-		"name": "Future Conflux",
-		"set": "Across_the_timeways",
-		"cost": 7,
-		"health": 3,
-		"text": "[x]<b>Discover</b> a Dragon\nthat costs (5) or more\nand summon it. Also\nget a copy of it."
-	},
-	{
-		"name": "Fantastic Bellhop",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 6,
-		"text": "[x]At the end of your turn,\nget a helpful card."
-	},
-	{
-		"name": "Fantastic Bellhop",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 12,
-		"health": 12,
-		"text": "[x]At the end of your turn,\nget 2 helpful cards."
-	},
-	{
-		"name": "Zippers",
+		"name": "Lost City Looter",
 		"set": "Battlegrounds",
 		"cost": 0,
 		"attack": 5,
 		"health": 5,
-		"text": "<b>Deathrattle:</b> Get a helpful card."
+		"text": "[x]<b>Taunt</b>\nAt the end of your turn,\nget a random <b>Bounty</b>."
 	},
 	{
-		"name": "Zippers",
+		"name": "Lost City Looter",
 		"set": "Battlegrounds",
 		"cost": 0,
 		"attack": 10,
 		"health": 10,
-		"text": "<b>Deathrattle:</b> Get 2 helpful cards."
+		"text": "[x]<b>Taunt</b>\n At the end of your turn,\n get 2 random <b>Bounties</b>."
 	},
 	{
-		"name": "Broken Horn",
+		"name": "Coldlight Diver",
 		"set": "Battlegrounds",
 		"cost": 0,
-		"attack": 4,
-		"health": 4,
-		"text": "[x]When you sell this,\n<b>Discover</b> a Zerg minion\nand set its stats to 6/6. \nIt doesn't morph."
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Battlecry and Deathrattle:</b> Get a random Tier 1 Tavern spell."
 	},
 	{
-		"name": "Broken Horn",
+		"name": "Coldlight Diver",
 		"set": "Battlegrounds",
 		"cost": 0,
-		"attack": 8,
-		"health": 8,
-		"text": "When you sell this, <b>Discover</b> two Zerg minions and set their stats to 6/6. They don't morph."
-	},
-	{
-		"name": "Coliseum Tiger",
-		"set": "Across_the_timeways",
-		"cost": 5,
-		"attack": 5,
-		"health": 5,
-		"text": "<b>Stealth</b>"
+		"attack": 2,
+		"health": 2,
+		"text": "<b>Battlecry and Deathrattle:</b> Get two random Tier 1 Tavern spells."
 	},
 	{
 		"name": "Tychus Findlay",
@@ -2518,322 +976,19 @@
 		"text": "[x]<b>Deathrattle</b>: Get 2\nHaunted Carapaces."
 	},
 	{
-		"name": "Highborne Pupil",
-		"set": "Across_the_timeways",
-		"cost": 2,
+		"name": "Oranomonos, the Wilted",
+		"set": "Battlegrounds",
+		"cost": 0,
 		"attack": 2,
-		"health": 2,
-		"text": "<b>Battlecry:</b> Cast {0}."
-	},
-	{
-		"name": "Sargeran Felhound",
-		"set": "Across_the_timeways",
-		"cost": 3,
-		"attack": 3,
-		"health": 3
-	},
-	{
-		"name": "Chronological Drake",
-		"set": "Across_the_timeways",
-		"cost": 4,
-		"attack": 3,
-		"health": 5,
-		"text": "<b>Taunt</b>"
-	},
-	{
-		"name": "Friendly Bouncer",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 4,
-		"text": "<b>Rally:</b> Summon and get a random <b>Rally</b> minion."
-	},
-	{
-		"name": "Friendly Bouncer",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 12,
 		"health": 8,
-		"text": "<b>Rally:</b> Summon and get 2 random <b>Rally</b> minions."
+		"text": "[x]After a friendly minion is\n<b>Reborn</b>, your Undead have\n+2 Attack this game\n<i>(wherever they are)</i>."
 	},
 	{
-		"name": "Alternate Reality",
-		"set": "Across_the_timeways",
-		"cost": 2,
-		"text": "[x]Replace your hand and\ndeck with random <b>Choose\nOne</b> cards from the past.\nThey cost (1) less."
-	},
-	{
-		"name": "Mitigate Threat",
-		"set": "Across_the_timeways",
-		"cost": 0,
-		"text": "Increase the Cost\nof your opponent's\ncard by (2)."
-	},
-	{
-		"name": "Stoneshell Guardian",
+		"name": "Oranomonos, the Wilted",
 		"set": "Battlegrounds",
 		"cost": 0,
-		"attack": 3,
-		"health": 7,
-		"text": "[x]<b>Start of Combat:</b> Copy all\nfriendly <b>Rallies</b> <i>(except\nStoneshell Guardian)</i>."
-	},
-	{
-		"name": "Stoneshell Guardian",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 14,
-		"text": "[x]<b>Start of Combat:</b> Copy all\nfriendly <b>Rallies</b> twice\n<i>(except Stoneshell\nGuardian)</i>."
-	},
-	{
-		"name": "Eternal Life",
-		"set": "Across_the_timeways",
-		"cost": 0,
-		"text": "<b>Deathrattle:</b> Spend up to 20 <b>Corpses</b> to resurrect with that much Health."
-	},
-	{
-		"name": "Yorik Smite",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 6,
-		"text": "At the end of your turn, give your minions +2/+2. Golden ones gain +{2}/+{3} instead."
-	},
-	{
-		"name": "Yorik Smite",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 12,
-		"health": 12,
-		"text": "At the end of your turn, give your minions +4/+4. Golden ones gain +{2}/+{3} instead."
-	},
-	{
-		"name": "Farseer Wo",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Totemic Call",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nSummon a random basic Totem."
-	},
-	{
-		"name": "Totemic Slam",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nSummon a Totem of your choice."
-	},
-	{
-		"name": "Gelbin Mekkatorque",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Reinforce",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nSummon a 1/1 Silver Hand Recruit."
-	},
-	{
-		"name": "The Silver Hand",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nSummon two 1/1 Recruits."
-	},
-	{
-		"name": "Husk, Eternal Reaper",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Ghoul Charge",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "[x]<b>Hero Power</b>\nSummon a 1/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn."
-	},
-	{
-		"name": "Ghoul Frenzy",
-		"set": "Legacy",
-		"cost": 2,
-		"text": "[x]<b>Hero Power</b>\nSummon a 2/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn."
-	},
-	{
-		"name": "Ranger Lord Nathanos",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Hopeful Vanessa",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Druid Illidan",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Old Ways Ulfar",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Newly Risen Scarlet",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Warchief Genn",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Xavius the Exile",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Warden Tyrande",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Demon Hunter Malfurion",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Pop Punk Halveria",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Kirin Tor Kel'thuzad",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Life Tap",
-		"set": "Hero_skins",
-		"cost": 2,
-		"text": "<b>Hero Power</b>\nDraw a card and take $2 damage."
-	},
-	{
-		"name": "Medivh, Master of Doves",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Stormbringer Magni",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Arfus, Hound of Menethil",
-		"set": "Cosmetics"
-	},
-	{
-		"name": "Putrid Pupper Arfus",
-		"set": "Cosmetics"
-	},
-	{
-		"name": "Helmed Hound Arfus",
-		"set": "Cosmetics"
-	},
-	{
-		"name": "Bestest Boy Arfus",
-		"set": "Cosmetics"
-	},
-	{
-		"name": "Omencaller Prestor",
-		"set": "Hero_skins",
-		"health": 30
-	},
-	{
-		"name": "Babbling Book",
-		"set": "Tb",
-		"cost": 1,
-		"attack": 1,
-		"health": 1,
-		"text": "<b>Battlecry:</b> Add a random Mage spell to your hand."
-	},
-	{
-		"name": "Firelands Portal",
-		"set": "Tb",
-		"cost": 7,
-		"text": "Deal $5 damage. Summon a random\n5-Cost minion."
-	},
-	{
-		"name": "Fandral Staghelm",
-		"set": "Tb",
-		"cost": 4,
-		"attack": 3,
-		"health": 5,
-		"text": "Your <b>Choose One</b> cards and powers have both effects combined."
-	},
-	{
-		"name": "Jade Behemoth",
-		"set": "Tb",
-		"cost": 6,
-		"attack": 3,
-		"health": 6,
-		"text": "[x]<b>Taunt</b>\n<b>Battlecry:</b> Summon a{1}\n{0} <b>Jade Golem</b>."
-	},
-	{
-		"name": "Hex",
-		"set": "Tb",
-		"cost": 4,
-		"text": "Transform a minion into a 0/1 Frog with <b>Taunt</b>."
-	},
-	{
-		"name": "Blade Dance",
-		"set": "Tb",
-		"cost": 2,
-		"text": "Deal damage equal to your hero's Attack to 3 random enemy minions."
-	},
-	{
-		"name": "Shadowcrafter Scabbs",
-		"set": "Tb",
-		"cost": 7,
-		"health": 30,
-		"text": "[x]<b>Battlecry:</b> Return all\nminions to their owner's \nhands. Summon two 4/2\nShadows with <b>Stealth</b>."
-	},
-	{
-		"name": "Secret Passage",
-		"set": "Tb",
-		"cost": 1,
-		"text": "Replace your hand with 4 cards from your deck. Swap back next turn."
-	},
-	{
-		"name": "Brittlebone Buccaneer",
-		"set": "Tb",
-		"cost": 2,
-		"attack": 1,
-		"health": 4,
-		"text": "Whenever you play a <b>Deathrattle</b> minion,\ngive it <b>Reborn</b>."
-	},
-	{
-		"name": "Dreadhound Handler",
-		"set": "Tb",
-		"cost": 2,
-		"attack": 2,
-		"health": 2,
-		"text": "[x]<b>Rush</b>\n<b>Deathrattle:</b> Summon a 1/1\nDreadhound with <b>Reborn</b>."
-	},
-	{
-		"name": "Arkonite Defense Crystal",
-		"set": "Tb",
-		"cost": 4,
-		"attack": 3,
-		"health": 4,
-		"text": "<b>Taunt</b>\n<b>Deathrattle:</b> Gain 6 Armor. <b>Starship Piece</b>"
-	},
-	{
-		"name": "The Ceaseless Expanse",
-		"set": "Tb",
-		"cost": 100,
-		"attack": 15,
-		"health": 15,
-		"text": "[x]Costs (1) less for each time\na card was drawn, played, or\ndestroyed. <b>Battlecry:</b> Destroy\nall other minions."
+		"attack": 4,
+		"health": 16,
+		"text": "[x]After a friendly minion is\n<b>Reborn</b>, your Undead have\n+4 Attack this game\n<i>(wherever they are)</i>."
 	}
 ]
