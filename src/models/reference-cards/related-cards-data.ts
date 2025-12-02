@@ -1597,6 +1597,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.RazorfenHunterLegacy]: [CardIds.BoarLegacy],
 	[CardIds.SatyrOverseerLegacy]: [CardIds.SatyrOverseer_IllidariSatyrLegacyToken],
 	[CardIds.UnleashTheHoundsLegacy]: [CardIds.UnleashTheHounds_HoundLegacyToken],
+	[CardIds.UnleashTheHoundsVanilla]: [CardIds.UnleashTheHounds_HoundLegacyToken],
 	[CardIds.ArathiWeaponsmithLegacy]: [CardIds.ArathiWeaponsmith_BattleAxeLegacyToken],
 	[CardIds.HoggerDoomOfElwynn]: [CardIds.HoggerDoomOfElwynn_GnollToken],
 	[CardIds.HoggerLegacy]: [CardIds.Hogger_GnollLegacyToken],
