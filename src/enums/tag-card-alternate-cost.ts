@@ -4,4 +4,5 @@ export enum TagCardAlternateCost {
 	ARMOR = 2,
 	CORPSES = 3,
 	OPPONENTS_HEALTH = 4,
+	ALT_TAVERN_COIN = 5,
 }
