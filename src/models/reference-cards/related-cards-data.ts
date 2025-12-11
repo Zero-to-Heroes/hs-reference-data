@@ -4316,6 +4316,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.TimethiefRafaam_GiantRafaamToken_TIME_005t7,
 		CardIds.TimethiefRafaam_ArchmageRafaamToken_TIME_005t9,
 	],
+	[CardIds.TimethiefRafaam_ArchmageRafaamToken_TIME_005t9]: [CardIds.ArchmageRafaam_BaaaafamToken_TIME_005t9t],
 	[CardIds.TemporalTraveler_TIME_434]: [CardIds.TemporalTraveler_TemporalShadowToken_TIME_434t],
 	[CardIds.TinkmasterOversparkLegacy]: [CardIds.DevilsaurEgg_DevilsaurToken, CardIds.Acornbearer_SquirrelToken],
 	[CardIds.TinkmasterOversparkVanilla]: [CardIds.DevilsaurEgg_DevilsaurToken, CardIds.Acornbearer_SquirrelToken],
