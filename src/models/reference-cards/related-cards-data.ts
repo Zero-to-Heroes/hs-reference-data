@@ -4302,8 +4302,9 @@ export const RELATED_CARDS_DATA: {
 		CardIds.AzureQueenSindragosa_AzureKingMalygosToken_TIME_852t1,
 	],
 	[CardIds.TwilightTimehopper_TIME_025]: [CardIds.TwilightTimehopper_ShredOfTimeToken_TIME_025t],
-	[CardIds.TachyonBarrage_TIME_027]: [CardIds.TwilightTimehopper_ShredOfTimeToken_TIME_025t],
 	[CardIds.EntropicContinuity_TIME_026]: [CardIds.TwilightTimehopper_ShredOfTimeToken_TIME_025t],
+	[CardIds.TachyonBarrage_TIME_027]: [CardIds.TwilightTimehopper_ShredOfTimeToken_TIME_025t],
+	[CardIds.RuinousVelocidrake_TIME_029]: [CardIds.TwilightTimehopper_ShredOfTimeToken_TIME_025t],
 	[CardIds.ExarchNaielle_GDB_846]: [CardIds.Tracking_GDB_846hp],
 	[CardIds.TimethiefRafaam_TIME_005]: [
 		CardIds.TimethiefRafaam_TinyRafaamToken_TIME_005t1,
