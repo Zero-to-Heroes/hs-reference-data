@@ -4320,6 +4320,8 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.TemporalTraveler_TIME_434]: [CardIds.TemporalTraveler_TemporalShadowToken_TIME_434t],
 	[CardIds.TinkmasterOversparkLegacy]: [CardIds.DevilsaurEgg_DevilsaurToken, CardIds.Acornbearer_SquirrelToken],
 	[CardIds.TinkmasterOversparkVanilla]: [CardIds.DevilsaurEgg_DevilsaurToken, CardIds.Acornbearer_SquirrelToken],
+	[CardIds.DaggerMasteryHeroSkins_CS2_083b_H1]: [CardIds.WickedKnifeHeroSkins],
+	[CardIds.PoisonedDaggersHeroSkins_AT_132_ROGUE_H1]: [CardIds.PoisonedDaggerToken],
 	[CardIds.TotemicCallHeroSkins_CS2_049_H1]: TOTEMS,
 	[CardIds.TotemicCallHeroSkins_CS2_049_H2]: TOTEMS,
 	[CardIds.TotemicCallHeroSkins_CS2_049_H3]: TOTEMS,
