@@ -1702,6 +1702,8 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.Kodorider]: [CardIds.Kodorider_WarKodoToken],
 	[CardIds.Rhonin]: [CardIds.ArcaneMissilesLegacy],
 	[CardIds.Anubarak_AT_036]: [CardIds.Anubarak_NerubianToken],
+	[CardIds.Anubarak_WON_076]: [CardIds.Anubarak_NerubianToken_WON_076t],
+	[CardIds.Anubarak_NerubianToken_WON_076t]: [CardIds.Anubarak_WON_076],
 	[CardIds.ClockworkGnome]: SPARE_PARTS,
 	[CardIds.TinkertownTechnician]: SPARE_PARTS,
 	[CardIds.MechanicalYeti]: SPARE_PARTS,
