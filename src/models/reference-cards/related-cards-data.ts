@@ -220,6 +220,7 @@ const IMBUED_HERO_POWERS = [
 	CardIds.DreamboundDisciple_BlessingOfTheGolem_EDR_847p,
 	CardIds.LunarwingMessenger_BlessingOfTheMoon_EDR_449p,
 	CardIds.BlessingOfTheWisp_EDR_851p,
+	CardIds.BlessingOfTheBronze
 ];
 const FEL_BEASTS = [
 	CardIds.EscapeTheUnderfel_FelscreamerToken_TLC_446t2,
@@ -4348,4 +4349,6 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.TotemicCallVanilla]: TOTEMS,
 	[CardIds.AirRevenant_BG34_858]: [CardIds.EasterlyWinds_BG34_444],
 	[CardIds.AirRevenant_BG34_858_G]: [CardIds.EasterlyWinds_BG34_444],
+	[CardIds.Eventuality]: [CardIds.BlessingOfTheBronze],
+	[CardIds.BattleAtTheEndTime]: [CardIds.TickAndTock],
 };
