@@ -9631,7 +9631,7 @@
 			"rewardTrackXp": 400
 		},
 		{
-			"description": "ร่ายเวทมนตร์ $q_ใบ[b]ในโหมดดั้งเดิม\n<i>(โหมดจัดอันดับ +1, ไฟ +1, ค่าร่าย_1 +1)</i>",
+			"description": "ร่ายเวทมนตร์_$q_ใบในโหมด[b]ดั้งเดิม_<i>(โหมดจัดอันดับ_+1, ไฟ_+1,_ค่าร่าย_1_+1)</i>",
 			"id": 1370,
 			"name": "หม้อของแม่มด",
 			"quota": 350,
@@ -9658,7 +9658,7 @@
 			"rewardTrackXp": 75
 		},
 		{
-			"description": "เรียกปีศาจหรือโจรสลัด $q_ตัว\n<i>(สุ่มเปลี่ยน - เลี้ยงหรือหลอก)</i>",
+			"description": "เรียกปีศาจหรือโจรสลัด $q_ตัว_<i>(สุ่มเปลี่ยน_- เลี้ยงหรือหลอก)</i>",
 			"id": 1373,
 			"name": "",
 			"quota": 15,
@@ -9703,7 +9703,7 @@
 			"rewardTrackXp": 75
 		},
 		{
-			"description": "เรียก/ทำลายมินเนี่ยนคืนชีพ[b]หรือเสียงสุดท้าย $q_ตัว\n<i>(สุ่มเปลี่ยน - เลี้ยงหรือหลอก)</i>",
+			"description": "เรียก/ทำลายมินเนี่ยนคืนชีพ[b]หรือเสียงสุดท้าย_$q_ตัว_<i>(สุ่ม[b]เปลี่ยน_-_เลี้ยงหรือหลอก)</i>",
 			"id": 1378,
 			"name": "",
 			"quota": 30,
@@ -10621,7 +10621,7 @@
 			"rewardTrackXp": 800
 		},
 		{
-			"description": "จั่ว_สับ_หรือทิ้งการ์ด[b]$q_ใบในโหมด[b]ดั้งเดิม_<i>(เลื่องชื่อ_+2,_เกมจัด\nอันดับ_+1, Timeways_+1)</i>",
+			"description": "จั่ว_สับ_หรือทิ้งการ์ด[b]$q_ใบในโหมดดั้งเดิม\n<i>(เลื่องชื่อ_+2,_เกมจัด\nอันดับ_+1, Timeways_+1)</i>",
 			"id": 1515,
 			"name": "ราฟามแห่งอนาคตของฤดูหนาว",
 			"quota": 750,
@@ -11330,6 +11330,501 @@
 			"rewardListId": 0,
 			"rewardTrackType": 7,
 			"rewardTrackXp": 100
+		},
+		{
+			"description": "จั่ว สับ หรือทิ้งการ์ด_$q_ใบ[b]ในโหมดดั้งเดิม_<i>(เกมจัด[b]อันดับ_+1, Timeways_+1,\nการ์ดหมดมือ_+3)</i>",
+			"id": 1602,
+			"name": "จุดจบมืดมน จุดเริ่มต้นยิ่งกว่านั้น",
+			"quota": 750,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 400
+		},
+		{
+			"description": "ใช้ $q_มานาในโหมด[b]ดั้งเดิม_<i>(เกมจัดอันดับ_+1,\nTimeways_+1,_ระดับ[b]ตำนาน_+1, ทั้งสามอย่าง_+3)</i>",
+			"id": 1603,
+			"name": "นาฬิกาทรายแตกสลาย",
+			"quota": 750,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 800
+		},
+		{
+			"description": "เรียกมินเนี่ยน_$q_ตัว[b]ในโหมดดั้งเดิม_<i>(เกมจัด[b]อันดับ_+1, มังกร_+1, สนามเต็ม_+3)</i>",
+			"id": 1604,
+			"name": "กองทัพผู้เจิดจรัสเดินขบวน",
+			"quota": 750,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 1200
+		},
+		{
+			"description": "ได้รับความเสียหาย $q_แต้ม\n<i>(เกมจัดอันดับ_+1, เทิร์นของคุณ_+1)</i>",
+			"id": 1605,
+			"name": "",
+			"quota": 75,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 75
+		},
+		{
+			"description": "โจมตี $q_ครั้ง\n<i>(เกมจัดอันดับ_+1, Timeways_+1, ฮีโร่_+1)</i>",
+			"id": 1606,
+			"name": "",
+			"quota": 100,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 75
+		},
+		{
+			"description": "เรียกหรือทำลาย[b]การ์ดระดับตำนาน $q_ใบ\n<i>(เกมจัดอันดับ_+1, Timeways_+1, Echoes of the Infinite_+1)</i>",
+			"id": 1607,
+			"name": "",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 125
+		},
+		{
+			"description": "เล่นมินเนี่ยนคำรามสู้ศึก[b]$q_ใบ_<i>(เกมจัดอันดับ_+1, Timeways_+1, มังกร_+1)</i>",
+			"id": 1608,
+			"name": "",
+			"quota": 50,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 75
+		},
+		{
+			"description": "ฟื้นฟูพลังชีวิต\n$q_แต้ม_<i>(เกมจัด[b]อันดับ_+1,_ฮีโร่_+1)</i>",
+			"id": 1609,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 75
+		},
+		{
+			"description": "เพิ่มค่าพลังมินเนี่ยน\nของคุณ $q_ครั้ง\n<i>(เกมจัดอันดับ_+1, Timeways_+1)</i>",
+			"id": 1610,
+			"name": "",
+			"quota": 20,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 75
+		},
+		{
+			"description": "ป้องกันความเสียหาย[b]ด้วยโล่ศักดิ์สิทธิ์_$q_ครั้ง\n<i>(เกมจัดอันดับ_+1)</i>",
+			"id": 1611,
+			"name": "",
+			"quota": 20,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 75
+		},
+		{
+			"description": "ให้เสียงสุดท้ายทำงาน\n$q_ครั้ง_<i>(เกมจัดอันดับ_+1, ของคุณเอง_+1)</i>",
+			"id": 1612,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 75
+		},
+		{
+			"description": "ใช้พลังฮีโร่ของคุณ $q_ครั้ง\n<i>(เกมจัดอันดับ_+1)</i>",
+			"id": 1613,
+			"name": "",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 75
+		},
+		{
+			"description": "เล่น $q_เกม\n<i>(เกมจัดอันดับ_+1, ชนะ_+1)</i>",
+			"id": 1614,
+			"name": "",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 75
+		},
+		{
+			"description": "เล่นมินเนี่ยน $q_ใบ\n<i>(เลื่องชื่อ_+2, ระดับ[b]ตำนาน_+2, Timeways_+1)</i>",
+			"id": 1615,
+			"name": "",
+			"quota": 25,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 75
+		},
+		{
+			"description": "ร่ายเวทมนตร์ $q_ใบ\n<i>(เกมจัดอันดับ_+1, Timeways_+1, ย้อนเวลา_+1)</i>",
+			"id": 1616,
+			"name": "",
+			"quota": 75,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 75
+		},
+		{
+			"description": "ใช้ $q_มานา\n<i>(เกมจัดอันดับ_+1, Timeways_+1)</i>",
+			"id": 1617,
+			"name": "",
+			"quota": 75,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 75
+		},
+		{
+			"description": "ค้นพบการ์ด $q_ใบ\n<i>(เกมจัดอันดับ_+1)</i>",
+			"id": 1618,
+			"name": "",
+			"quota": 15,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 75
+		},
+		{
+			"description": "เล่นการ์ด $q_ใบ\nในโหมดดั้งเดิม_<i>(เกมจัด[b]อันดับ_+1, Whizbang's Workshop_+2)</i>",
+			"id": 1619,
+			"name": "ความมืดมิดในเวิร์คช็อป",
+			"quota": 100,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 500
+		},
+		{
+			"description": "เล่นการ์ด $q_ใบ[b]ในโหมดดั้งเดิม_<i>(เกมจัด[b]อันดับ_+1, Perils\nin Paradise_+2)</i>",
+			"id": 1620,
+			"name": "สนธยาในแดนสวรรค์",
+			"quota": 100,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 500
+		},
+		{
+			"description": "เล่นการ์ด $q_ใบ[b]ในโหมดดั้งเดิม_<i>(เกมจัด[b]อันดับ_+1, The Great\nDark Beyond_+2)</i>",
+			"id": 1621,
+			"name": "ความว่างเปล่าที่ใกล้เข้ามา",
+			"quota": 100,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 500
+		},
+		{
+			"description": "เล่นการ์ด $q_ใบ[b]ในโหมดดั้งเดิม_<i>(เกมจัด[b]อันดับ_+1, Into the Emerald Dream_+2)</i>",
+			"id": 1622,
+			"name": "การหลับใหลไร้ซึ่งฝัน",
+			"quota": 100,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 500
+		},
+		{
+			"description": "เล่นการ์ด $q_ใบ[b]ในโหมดดั้งเดิม_<i>(เกมจัด[b]อันดับ_+1, Across the Timeways_+2)</i>",
+			"id": 1623,
+			"name": "ชะตาโดดเดี่ยวที่ไม่อาจเลี่ยง",
+			"quota": 100,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 500
+		},
+		{
+			"description": "ใช้ $q_มานา\n<i>(เกมจัดอันดับ_+1, Timeways_+1)</i>",
+			"id": 1625,
+			"name": "",
+			"quota": 75,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "<b>ร่วมมือ:</b>_ทำลายจอมโจร[b]ขโมยเวลาราฟาม_หรือ[b]ราฟามเวอร์ชันไหนก็ได้[b]จาก Timeways",
+			"id": 1626,
+			"name": "",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 300
+		},
+		{
+			"description": "เรียกมินเนี่ยน $q_ตัว\n<i>(เกมจัดอันดับ_+1, Timeways_+1, ค่าร่าย_0_+1)</i>",
+			"id": 1627,
+			"name": "",
+			"quota": 100,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "ค้นพบการ์ด $q_ใบ\n<i>(เกมจัดอันดับ_+1, Timeways_+1)</i>",
+			"id": 1628,
+			"name": "",
+			"quota": 15,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "ฟื้นฟูพลังชีวิต\n$q_แต้ม_<i>(เกมจัด[b]อันดับ_+1,_ฮีโร่_+1)</i>",
+			"id": 1629,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "เล่นมินเนี่ยนคำรามสู้ศึก $q_ใบ_<i>(เกมจัดอันดับ_+1, Timeways_+1,_มังกร_+1)</i>",
+			"id": 1630,
+			"name": "",
+			"quota": 50,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "เล่นเวทมนตร์ $q_ใบ\n<i>(เกมจัดอันดับ_+1, Timeways_+1, ค่าร่าย_0_+1)</i>",
+			"id": 1631,
+			"name": "",
+			"quota": 75,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "เล่นการ์ด_$q_ใบ_<i>(ระดับ[b]ตำนาน_+3, ระดับสุดยอด[b]+2,_ระดับหายาก_+1)</i>",
+			"id": 1632,
+			"name": "",
+			"quota": 75,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "เล่นมินเนี่ยน $q_ใบ\n<i>(เลื่องชื่อ_+2, ระดับ[b]ตำนาน_+2, Timeways_+1)</i>",
+			"id": 1633,
+			"name": "",
+			"quota": 25,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "ได้รับความเสียหาย\n$q_แต้ม_<i>(เกมจัดอันดับ_+1,[b]เทิร์นของคุณ_+1)</i>",
+			"id": 1634,
+			"name": "",
+			"quota": 75,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "โจมตี $q_ครั้ง\n<i>(เกมจัดอันดับ_+1, Timeways_+1, ฮีโร่_+1)</i>",
+			"id": 1635,
+			"name": "",
+			"quota": 100,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "เรียกหรือทำลาย[b]มินเนี่ยนระดับตำนาน $q_ตัว\n<i>(เกมจัดอันดับ_+1, Timeways_+1, Echoes of the Infinite_+1)</i>",
+			"id": 1636,
+			"name": "",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "เล่น $q_เกม\n<i>(เกมจัดอันดับ_+1, ชนะ_+1)</i>",
+			"id": 1637,
+			"name": "",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "จั่วการ์ด $q_ใบ\n<i>(เกมจัดอันดับ_+1, Timeways_+1)</i>",
+			"id": 1638,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "เล่นการ์ด $q_ใบ[b]ในโหมดดั้งเดิม\n<i>(เกมจัดอันดับ_+1, Whizbang's Workshop_+2)</i>",
+			"id": 1639,
+			"name": "ความมืดมิดในเวิร์คช็อป",
+			"quota": 100,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 500
+		},
+		{
+			"description": "เล่นการ์ด $q_ใบ[b]ในโหมดดั้งเดิม\n<i>(เกมจัดอันดับ_+1, Perils in Paradise_+2)</i>",
+			"id": 1640,
+			"name": "สนธยาในแดนสวรรค์",
+			"quota": 100,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 500
+		},
+		{
+			"description": "เล่นการ์ด $q_ใบ[b]ในโหมดดั้งเดิม\n<i>(เกมจัดอันดับ_+1, The Great Dark Beyond_+2)</i>",
+			"id": 1641,
+			"name": "ความว่างเปล่าที่ใกล้เข้ามา",
+			"quota": 100,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 500
+		},
+		{
+			"description": "เล่นการ์ด $q_ใบ[b]ในโหมดดั้งเดิม\n<i>(เกมจัดอันดับ_+1, Into the Emerald Dream_+2)</i>",
+			"id": 1642,
+			"name": "การหลับใหลไร้ซึ่งฝัน",
+			"quota": 100,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 500
+		},
+		{
+			"description": "เล่นการ์ด $q_ใบ[b]ในโหมดดั้งเดิม\n<i>(เกมจัดอันดับ_+1, Across the Timeways_+2)</i>",
+			"id": 1643,
+			"name": "ชะตาโดดเดี่ยวที่ไม่อาจเลี่ยง",
+			"quota": 100,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 500
+		},
+		{
+			"description": "ใช้ $q_มานา\n<i>(เกมจัดอันดับ_+1, Timeways_+1)</i>",
+			"id": 1644,
+			"name": "",
+			"quota": 75,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "<b>ร่วมมือ:</b> ทำลายจอมโจรขโมยเวลาราฟาม หรือราฟามเวอร์ชันไหนก็ได้จาก Timeways",
+			"id": 1645,
+			"name": "",
+			"quota": 1,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 300
+		},
+		{
+			"description": "เรียกมินเนี่ยน $q_ตัว\n<i>(เกมจัดอันดับ_+1, Timeways_+1, ค่าร่าย_0_+1)</i>",
+			"id": 1646,
+			"name": "",
+			"quota": 100,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "ค้นพบการ์ด $q_ใบ\n<i>(เกมจัดอันดับ_+1, Timeways_+1)</i>",
+			"id": 1647,
+			"name": "",
+			"quota": 15,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "ฟื้นฟูพลังชีวิต $q_แต้ม\n<i>(เกมจัดอันดับ_+1,_ฮีโร่_+1)</i>",
+			"id": 1648,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "เล่นมินเนี่ยน[b]คำรามสู้ศึก $q_ใบ\n<i>(เกมจัดอันดับ_+1, Timeways_+1, มังกร_+1)</i>",
+			"id": 1649,
+			"name": "",
+			"quota": 50,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "เล่นเวทมนตร์ $q_ใบ\n<i>(เกมจัดอันดับ_+1, Timeways_+1, ค่าร่าย_0_+1)</i>",
+			"id": 1650,
+			"name": "",
+			"quota": 75,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "เล่นการ์ด_$q_ใบ\n<i>(ระดับตำนาน_+3, ระดับสุดยอด_+2, ระดับหายาก_+1)</i>",
+			"id": 1651,
+			"name": "",
+			"quota": 75,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "เล่นมินเนี่ยน $q_ใบ\n<i>(เลื่องชื่อ_+2, ระดับ[b]ตำนาน_+2, Timeways_+1)</i>",
+			"id": 1652,
+			"name": "",
+			"quota": 25,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "ได้รับความเสียหาย $q_แต้ม\n<i>(เกมจัดอันดับ_+1, เทิร์นของคุณ_+1)</i>",
+			"id": 1653,
+			"name": "",
+			"quota": 75,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "โจมตี $q_ครั้ง\n<i>(เกมจัดอันดับ_+1, Timeways_+1, ฮีโร่_+1)</i>",
+			"id": 1654,
+			"name": "",
+			"quota": 100,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "เรียกหรือทำลาย[b]มินเนี่ยนระดับตำนาน $q_ตัว\n<i>(เกมจัดอันดับ_+1, Timeways_+1, Echoes of the Infinite_+1)</i>",
+			"id": 1655,
+			"name": "",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "เล่น $q_เกม\n<i>(เกมจัดอันดับ_+1, ชนะ_+1)</i>",
+			"id": 1656,
+			"name": "",
+			"quota": 10,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
+		},
+		{
+			"description": "จั่วการ์ด $q_ใบ\n<i>(เกมจัดอันดับ_+1, Timeways_+1)</i>",
+			"id": 1657,
+			"name": "",
+			"quota": 30,
+			"rewardListId": 0,
+			"rewardTrackType": 7,
+			"rewardTrackXp": 200
 		}
 	]
 }
