@@ -75,7 +75,7 @@ export const sets: readonly ReferenceSet[] = [
 		id: 'echoes_of_the_infinite',
 		name: `Echoes of the Infinite`,
 		launchDate: new Date('2026-01-13'),
-		miniSetFor: 'across_the_timeways'
+		miniSetFor: 'across_the_timeways',
 	},
 	{
 		id: 'across_the_timeways',
@@ -410,8 +410,7 @@ export const standardSets: readonly SetId[] = standardBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
 	.filter((setId) => setId)
 	.map((setId) => setId as SetId);
-const twistBaseSets: readonly SetId[] = [
-];
+const twistBaseSets: readonly SetId[] = [];
 export const twistSets: readonly SetId[] = twistBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
 	.filter((setId) => setId)
@@ -425,7 +424,7 @@ const arenaBaseSets: readonly SetId[] = [
 	'taverns_of_time',
 	'titans',
 	'the_sunken_city',
-	'gift'
+	'gift',
 ];
 export const arenaSets: readonly SetId[] = arenaBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
