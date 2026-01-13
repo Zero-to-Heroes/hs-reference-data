@@ -220,8 +220,8 @@ const IMBUED_HERO_POWERS = [
 	CardIds.DreamboundDisciple_BlessingOfTheGolem_EDR_847p,
 	CardIds.LunarwingMessenger_BlessingOfTheMoon_EDR_449p,
 	CardIds.BlessingOfTheWisp_EDR_851p,
-	CardIds.BlessingOfTheBronze,
-	CardIds.BlessingOfTheInfinite,
+	CardIds.Eventuality_BlessingOfTheBronze_END_000p,
+	CardIds.Finality_BlessingOfTheInfinite_END_003p,
 ];
 const FEL_BEASTS = [
 	CardIds.EscapeTheUnderfel_FelscreamerToken_TLC_446t2,
@@ -3437,13 +3437,27 @@ export const RELATED_CARDS_DATA: {
 		CardIds.AmuletOfStrides_AmuletOfStridesToken_VAC_959t10t,
 		CardIds.GriftahTrustedVendor_AmuletOfStridesToken_VAC_959t10,
 	],
-	[CardIds.AmuletOfPassions_AmuletOfPassionsToken_VAC_959t01t]: [CardIds.GriftahTrustedVendor_AmuletOfPassionsToken_VAC_959t01],
-	[CardIds.AmuletOfTracking_AmuletOfTrackingToken_VAC_959t05t]: [CardIds.GriftahTrustedVendor_AmuletOfTrackingToken_VAC_959t05],
-	[CardIds.AmuletOfCritters_AmuletOfCrittersToken_VAC_959t06t]: [CardIds.GriftahTrustedVendor_AmuletOfCrittersToken_VAC_959t06],
-	[CardIds.AmuletOfWarding_AmuletOfWardingToken_VAC_959t07t]: [CardIds.GriftahTrustedVendor_AmuletOfWardingToken_VAC_959t07],
-	[CardIds.AmuletOfEnergy_AmuletOfEnergyToken_VAC_959t08t]: [CardIds.GriftahTrustedVendor_AmuletOfEnergyToken_VAC_959t08],
-	[CardIds.AmuletOfMobility_AmuletOfMobilityToken_VAC_959t09t]: [CardIds.GriftahTrustedVendor_AmuletOfMobilityToken_VAC_959t09],
-	[CardIds.AmuletOfStrides_AmuletOfStridesToken_VAC_959t10t]: [CardIds.GriftahTrustedVendor_AmuletOfStridesToken_VAC_959t10],
+	[CardIds.AmuletOfPassions_AmuletOfPassionsToken_VAC_959t01t]: [
+		CardIds.GriftahTrustedVendor_AmuletOfPassionsToken_VAC_959t01,
+	],
+	[CardIds.AmuletOfTracking_AmuletOfTrackingToken_VAC_959t05t]: [
+		CardIds.GriftahTrustedVendor_AmuletOfTrackingToken_VAC_959t05,
+	],
+	[CardIds.AmuletOfCritters_AmuletOfCrittersToken_VAC_959t06t]: [
+		CardIds.GriftahTrustedVendor_AmuletOfCrittersToken_VAC_959t06,
+	],
+	[CardIds.AmuletOfWarding_AmuletOfWardingToken_VAC_959t07t]: [
+		CardIds.GriftahTrustedVendor_AmuletOfWardingToken_VAC_959t07,
+	],
+	[CardIds.AmuletOfEnergy_AmuletOfEnergyToken_VAC_959t08t]: [
+		CardIds.GriftahTrustedVendor_AmuletOfEnergyToken_VAC_959t08,
+	],
+	[CardIds.AmuletOfMobility_AmuletOfMobilityToken_VAC_959t09t]: [
+		CardIds.GriftahTrustedVendor_AmuletOfMobilityToken_VAC_959t09,
+	],
+	[CardIds.AmuletOfStrides_AmuletOfStridesToken_VAC_959t10t]: [
+		CardIds.GriftahTrustedVendor_AmuletOfStridesToken_VAC_959t10,
+	],
 	[CardIds.LifesavingAura_VAC_922]: [CardIds.Grillmaster_SunscreenToken_VAC_917t],
 	[CardIds.PartyFiend_VAC_940]: [CardIds.PartyFiend_FelbeastToken_VAC_940t],
 	[CardIds.PartyPlannerVona_VAC_945]: [CardIds.PartyPlannerVona_OurobosWorldSerpentToken_VAC_945t],
@@ -4350,11 +4364,11 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.TotemicCallVanilla]: TOTEMS,
 	[CardIds.AirRevenant_BG34_858]: [CardIds.EasterlyWinds_BG34_444],
 	[CardIds.AirRevenant_BG34_858_G]: [CardIds.EasterlyWinds_BG34_444],
-	[CardIds.Eventuality]: [CardIds.BlessingOfTheBronze],
-	[CardIds.BattleAtTheEndTime]: [CardIds.TickAndTock],
-	[CardIds.SplinteredReality]: [CardIds.SplinteredReality_TreantToken],
-	[CardIds.WickedBlightspawn]: [CardIds.WickedKnife],
-	[CardIds.JaggedEdgeOfTime]: [CardIds.BlessingOfTheInfinite],
-	[CardIds.Finality]: [CardIds.BlessingOfTheInfinite],
+	[CardIds.Eventuality_END_000]: [CardIds.Eventuality_BlessingOfTheBronze_END_000p],
+	[CardIds.BattleAtTheEndTime_END_017]: [CardIds.BattleAtTheEndTime_TickAndTockToken_END_017t],
+	[CardIds.SplinteredReality_END_009]: [CardIds.SplinteredReality_TreantToken_END_009t],
+	[CardIds.WickedBlightspawn_END_002]: [CardIds.WickedKnifeLegacy],
+	[CardIds.JaggedEdgeOfTime_END_001]: [CardIds.Finality_BlessingOfTheInfinite_END_003p],
+	[CardIds.Finality_END_003]: [CardIds.Finality_BlessingOfTheInfinite_END_003p],
 	[CardIds.BronzeBroodmother]: [CardIds.WeeWhelpToken],
 };
