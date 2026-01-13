@@ -4356,5 +4356,5 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.WickedBlightspawn]: [CardIds.WickedKnife],
 	[CardIds.JaggedEdgeOfTime]: [CardIds.BlessingOfTheInfinite],
 	[CardIds.Finality]: [CardIds.BlessingOfTheInfinite],
-	[CardIds.BronzeBroodmother]: [CardIds.BlessingOfTheInfinite],
+	[CardIds.BronzeBroodmother]: [CardIds.WeeWhelpToken],
 };
