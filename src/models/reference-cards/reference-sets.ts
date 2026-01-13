@@ -1,6 +1,7 @@
 import { GameFormat, GameType } from '../../public-api';
 
 export type SetId =
+	| 'echoes_of_the_infinite'
 	| 'across_the_timeways'
 	| 'day_of_rebirth'
 	| 'lost_city_of_ungoro'
@@ -12,6 +13,7 @@ export type SetId =
 	| 'traveling_travel_agency'
 	| 'perils_in_paradise'
 	| 'boom_inventions'
+	| 'taverns_of_time'
 	| 'whizbangs_workshop'
 	| 'deepholm'
 	| 'wild_west'
@@ -69,6 +71,12 @@ export interface ReferenceSet {
 }
 
 export const sets: readonly ReferenceSet[] = [
+	{
+		id: 'echoes_of_the_infinite',
+		name: `Echoes of the Infinite`,
+		launchDate: new Date('2026-01-13'),
+		miniSetFor: 'across_the_timeways'
+	},
 	{
 		id: 'across_the_timeways',
 		name: `Across the Timeways`,
@@ -403,17 +411,6 @@ export const standardSets: readonly SetId[] = standardBaseSets
 	.filter((setId) => setId)
 	.map((setId) => setId as SetId);
 const twistBaseSets: readonly SetId[] = [
-	'legacy',
-	'return_to_naxxramas',
-	'gvg',
-	'brm',
-	'tgt',
-	'loe',
-	'og',
-	'kara',
-	'gangs',
-	'ungoro',
-	'caverns_of_time',
 ];
 export const twistSets: readonly SetId[] = twistBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
@@ -424,9 +421,11 @@ const arenaBaseSets: readonly SetId[] = [
 	'across_the_timeways',
 	'lost_city_of_ungoro',
 	'into_the_emerald_dream',
-	'great_dark_beyond',
-	'perils_in_paradise',
-	'whizbangs_workshop',
+	'caverns_of_time',
+	'taverns_of_time',
+	'titans',
+	'the_sunken_city',
+	'gift'
 ];
 export const arenaSets: readonly SetId[] = arenaBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
