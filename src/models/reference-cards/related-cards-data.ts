@@ -4373,7 +4373,10 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.BattleAtTheEndTime_END_017]: [CardIds.BattleAtTheEndTime_TickAndTockToken_END_017t],
 	[CardIds.SplinteredReality_END_009]: [CardIds.SplinteredReality_TreantToken_END_009t],
 	[CardIds.WickedBlightspawn_END_002]: [CardIds.WickedKnifeLegacy],
-	[CardIds.JaggedEdgeOfTime_END_001]: [CardIds.Finality_BlessingOfTheInfinite_END_003p, CardIds.Eventuality_BlessingOfTheBronze_END_000p],
+	[CardIds.JaggedEdgeOfTime_END_001]: [
+		CardIds.Finality_BlessingOfTheInfinite_END_003p,
+		CardIds.Eventuality_BlessingOfTheBronze_END_000p,
+	],
 	[CardIds.Finality_END_003]: [CardIds.Finality_BlessingOfTheInfinite_END_003p],
 	[CardIds.BronzeBroodmother]: [CardIds.WeeWhelpToken],
 };
