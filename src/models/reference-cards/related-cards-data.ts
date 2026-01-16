@@ -2451,6 +2451,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.TheLastKaleidosaur_GalvadonToken]: ADAPTS,
 	[CardIds.PrimordialWand]: ADAPTS,
 	[CardIds.TransferStudent_TransferStudentToken_SCH_199t13]: ADAPTS,
+	[CardIds.TimeLostRaptor_WON_027]: ADAPTS,
 	[CardIds.OasisAlly]: [CardIds.WaterElementalLegacy],
 	[CardIds.OasisAlly_CORE_BAR_812]: [CardIds.WaterElementalLegacy],
 	[CardIds.SpellbenderLegacy]: [CardIds.Spellbender_SpellbenderLegacy],
