@@ -4379,4 +4379,5 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.Finality_END_003]: [CardIds.Finality_BlessingOfTheInfinite_END_003p],
 	[CardIds.BronzeBroodmother]: [CardIds.WeeWhelpToken],
+	[CardIds.AncientRaptor_TLC_245]: [CardIds.CracklingShieldToken, CardIds.LivingSporesToken, CardIds.FlamingClawsToken],
 };
