@@ -3907,6 +3907,11 @@ export const RELATED_CARDS_DATA: {
 		CardIds.Tyrannogill_DinolocToken_TLC_240t2,
 		CardIds.Tyrannogill_DinolocToken_TLC_240t3,
 	],
+	[CardIds.AncientRaptor_TLC_245]: [
+		CardIds.UndercoverCultist_EnragedEnchantment_TLC_101e,
+		CardIds.CracklingShield_CracklingShieldEnchantment,
+		CardIds.LivingSpores_LivingSporesEnchantment,
+	],
 	[CardIds.ReachEquilibrium_TLC_817]: [
 		CardIds.ReachEquilibrium_SoletosLifesBreathToken_TLC_817t3,
 		CardIds.ReachEquilibrium_SoletosDeathsTouchToken_TLC_817t4,
