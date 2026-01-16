@@ -1,4 +1,5 @@
 import { CardIds } from '../../card-ids';
+import { fablePackages } from '../../public-api';
 import { ReferenceCard } from './reference-card';
 import { EXCAVATE_TREASURE_1_IDS, EXCAVATE_TREASURE_2_IDS, EXCAVATE_TREASURE_3_IDS } from './reference-data';
 
@@ -4379,5 +4380,7 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.Finality_END_003]: [CardIds.Finality_BlessingOfTheInfinite_END_003p],
 	[CardIds.BronzeBroodmother]: [CardIds.WeeWhelpToken],
+	[CardIds.GuardTheCity]: [CardIds.GuardTheCity_NagaCentaurToken],
+	[CardIds.Murozond_TOT_332]: fablePackages.flat(),
 	[CardIds.AncientRaptor_TLC_245]: [CardIds.CracklingShieldToken, CardIds.LivingSporesToken, CardIds.FlamingClawsToken],
 };
