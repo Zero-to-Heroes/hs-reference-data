@@ -4385,4 +4385,8 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.GuardTheCity]: [CardIds.GuardTheCity_NagaCentaurToken],
 	[CardIds.Murozond_TOT_332]: fablePackages.flat(),
 	[CardIds.AncientRaptor_TLC_245]: [CardIds.CracklingShieldToken, CardIds.LivingSporesToken, CardIds.FlamingClawsToken],
+	[CardIds.Chromie_TOT_030]: [CardIds.Chromie_OpeningTheDarkPortalToken, CardIds.Chromie_BattleForMountHyjalToken,
+		CardIds.Chromie_EscapeFromDurnholdeToken, CardIds.Chromie_CullingOfStratholmeToken,
+	],
+	[CardIds.TwilightTimereaver_END_010]: [CardIds.TwilightTimereaver_FiniteResolve_END_010b, CardIds.TwilightTimereaver_FiniteWill_END_010a],
 };
