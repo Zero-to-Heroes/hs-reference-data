@@ -1,5 +1,5 @@
 import { CardIds } from '../../card-ids';
-import { fablePackages } from '../../public-api';
+import { fablePackages } from '../../services/card-utils';
 import { ReferenceCard } from './reference-card';
 import { EXCAVATE_TREASURE_1_IDS, EXCAVATE_TREASURE_2_IDS, EXCAVATE_TREASURE_3_IDS } from './reference-data';
 
@@ -247,6 +247,8 @@ const MASKS = [
 ];
 
 export type RelatedCardExtractor = (cards: readonly ReferenceCard[]) => readonly string[];
+
+const FABLE_PACKAGES = fablePackages;
 
 export const RELATED_CARDS_DATA: {
 	[cardId: string]: readonly (string | RelatedCardExtractor)[];
@@ -4383,10 +4385,20 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.Finality_END_003]: [CardIds.Finality_BlessingOfTheInfinite_END_003p],
 	[CardIds.BronzeBroodmother]: [CardIds.WeeWhelpToken],
 	[CardIds.GuardTheCity]: [CardIds.GuardTheCity_NagaCentaurToken],
-	[CardIds.Murozond_TOT_332]: fablePackages.flat(),
-	[CardIds.AncientRaptor_TLC_245]: [CardIds.CracklingShieldToken, CardIds.LivingSporesToken, CardIds.FlamingClawsToken],
-	[CardIds.Chromie_TOT_030]: [CardIds.Chromie_OpeningTheDarkPortalToken, CardIds.Chromie_BattleForMountHyjalToken,
-		CardIds.Chromie_EscapeFromDurnholdeToken, CardIds.Chromie_CullingOfStratholmeToken,
+	[CardIds.Murozond_TOT_332]: FABLE_PACKAGES.flat(),
+	[CardIds.AncientRaptor_TLC_245]: [
+		CardIds.CracklingShieldToken,
+		CardIds.LivingSporesToken,
+		CardIds.FlamingClawsToken,
 	],
-	[CardIds.TwilightTimereaver_END_010]: [CardIds.TwilightTimereaver_FiniteResolve_END_010b, CardIds.TwilightTimereaver_FiniteWill_END_010a],
+	[CardIds.Chromie_TOT_030]: [
+		CardIds.Chromie_OpeningTheDarkPortalToken,
+		CardIds.Chromie_BattleForMountHyjalToken,
+		CardIds.Chromie_EscapeFromDurnholdeToken,
+		CardIds.Chromie_CullingOfStratholmeToken,
+	],
+	[CardIds.TwilightTimereaver_END_010]: [
+		CardIds.TwilightTimereaver_FiniteResolve_END_010b,
+		CardIds.TwilightTimereaver_FiniteWill_END_010a,
+	],
 };
