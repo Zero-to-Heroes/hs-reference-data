@@ -1691,6 +1691,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.PolymorphBoar]: [CardIds.PolymorphBoar_BoarToken],
 	[CardIds.SilverHandRegent]: [CardIds.SilverHandRecruitLegacyToken],
 	[CardIds.TuskarrTotemic]: TOTEMS,
+	[CardIds.TuskarrTotemic_WON_081]: TOTEMS,
 	[CardIds.ChargedHammer]: [CardIds.ChargedHammer_LightningJoltToken],
 	[CardIds.Recruiter_AT_113]: [CardIds.SquireLegacy],
 	[CardIds.SilverHandKnightLegacy]: [CardIds.SquireLegacy],
