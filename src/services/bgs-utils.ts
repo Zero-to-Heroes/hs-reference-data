@@ -591,11 +591,11 @@ export const getHeroPower = (
 		case CardIds.ForestLordCenarius_BG32_HERO_001:
 			return CardIds.ForestLordCenarius_WisdomOfAncients_BG32_HERO_001p;
 		case CardIds.LohTheLivingLegend_BG33_HERO_001:
-			return CardIds.LohTheLivingLegend_HeroicInspiration_BG33_HERO_001p;
-			case CardIds.MurozondUnbounded_BG34_HERO_000:
-				return CardIds.MurozondUnbounded_AlternateTimeline_BG34_HERO_000p
-				case CardIds.TimeTwisterChromie_BG34_HERO_001:
-					return CardIds.TimeTwisterChromie_ManaPerMinute_BG34_HERO_001p
+			return CardIds.HeroicInspiration_BG33_HERO_001p_ALT;
+		case CardIds.MurozondUnbounded_BG34_HERO_000:
+			return CardIds.MurozondUnbounded_AlternateTimeline_BG34_HERO_000p;
+		case CardIds.TimeTwisterChromie_BG34_HERO_001:
+			return CardIds.TimeTwisterChromie_ManaPerMinute_BG34_HERO_001p;
 
 		case '':
 			return null; // new heroes
