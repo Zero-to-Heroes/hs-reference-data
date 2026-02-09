@@ -1,13 +1,103 @@
 [
 	{
-		"id": "TOT_330",
-		"name": "Bronze Broodmother",
+		"id": "EX1_365",
+		"name": "Holy Wrath",
+		"type": "Spell",
+		"set": "Legacy"
+	},
+	{
+		"id": "EX1_577",
+		"name": "The Beast",
+		"type": "Minion",
+		"set": "Legacy"
+	},
+	{
+		"id": "CS2_201",
+		"name": "Core Hound",
+		"type": "Minion",
+		"set": "Legacy"
+	},
+	{
+		"id": "BRM_014",
+		"name": "Core Rager",
+		"type": "Minion",
+		"set": "Brm"
+	},
+	{
+		"id": "CFM_325",
+		"name": "Small-Time Buccaneer",
+		"type": "Minion",
+		"set": "Gangs"
+	},
+	{
+		"id": "CRED_48",
+		"name": "Christian Scharling",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "LOOT_313",
+		"name": "Crystal Lion",
+		"type": "Minion",
+		"set": "Lootapalooza"
+	},
+	{
+		"id": "TRL_085",
+		"name": "Zentimo",
+		"type": "Minion",
+		"set": "Troll"
+	},
+	{
+		"id": "TRL_524",
+		"name": "Shieldbreaker",
+		"type": "Minion",
+		"set": "Troll"
+	},
+	{
+		"id": "TOT_056",
+		"name": "Wildlands Adventurer",
 		"type": "Minion",
 		"set": "Taverns_of_time"
 	},
 	{
-		"id": "TOT_109",
-		"name": "Stasis Dragon",
+		"id": "TOT_067",
+		"name": "Infinite Murloc",
+		"type": "Minion",
+		"set": "Taverns_of_time"
+	},
+	{
+		"id": "TOT_102",
+		"name": "Rift Warden",
+		"type": "Minion",
+		"set": "Taverns_of_time"
+	},
+	{
+		"id": "TOT_105",
+		"name": "Flash Forward",
+		"type": "Spell",
+		"set": "Taverns_of_time"
+	},
+	{
+		"id": "TOT_107",
+		"name": "Thief of Futures",
+		"type": "Minion",
+		"set": "Taverns_of_time"
+	},
+	{
+		"id": "TOT_110",
+		"name": "Timebound Giant",
+		"type": "Minion",
+		"set": "Taverns_of_time"
+	},
+	{
+		"id": "TOT_313",
+		"name": "Master of Realities",
+		"type": "Minion",
+		"set": "Taverns_of_time"
+	},
+	{
+		"id": "TOT_112",
+		"name": "Possibility Seeker",
 		"type": "Minion",
 		"set": "Taverns_of_time"
 	},
@@ -18,119 +108,381 @@
 		"set": "Taverns_of_time"
 	},
 	{
-		"id": "BGS_078",
-		"name": "Monstrous Macaw",
+		"id": "TOT_332",
+		"name": "Murozond",
+		"type": "Minion",
+		"set": "Taverns_of_time"
+	},
+	{
+		"id": "TOT_118",
+		"name": "Stasis Elemental",
+		"type": "Minion",
+		"set": "Taverns_of_time"
+	},
+	{
+		"id": "BT_701",
+		"name": "Spymistress",
+		"type": "Minion",
+		"set": "Black_temple"
+	},
+	{
+		"id": "BT_201",
+		"name": "Augmented Porcupine",
+		"type": "Minion",
+		"set": "Black_temple"
+	},
+	{
+		"id": "ULDA_Reno_HP3",
+		"name": "Arcane Craftiness",
+		"type": "Hero_power",
+		"set": "Uldum"
+	},
+	{
+		"id": "TB_BaconShop_HP_024",
+		"name": "Reborn Rites",
+		"type": "Hero_power",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "SCH_162t",
+		"name": "Plagued Hatchling",
+		"type": "Minion",
+		"set": "Scholomance"
+	},
+	{
+		"id": "BGS_018",
+		"name": "Goldrinn, the Great Wolf",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_030",
+		"name": "King Bagurgle",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "TB_BaconShop_HP_052",
+		"name": "Arcane Alteration",
+		"type": "Hero_power",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "SCH_717",
+		"name": "Keymaster Alabaster",
+		"type": "Minion",
+		"set": "Scholomance"
+	},
+	{
+		"id": "TB_BaconShop_HP_061",
+		"name": "ALL Will Burn!",
+		"type": "Hero_power",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "DMF_514t2",
+		"name": "Plush Bear",
+		"type": "Minion",
+		"set": "Darkmoon_faire"
+	},
+	{
+		"id": "BGS_071",
+		"name": "Deflect-o-Bot",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "YOP_010",
+		"name": "Imprisoned Celestial",
+		"type": "Minion",
+		"set": "Darkmoon_races"
+	},
+	{
+		"id": "CS3_017",
+		"name": "Gan'arg Glaivesmith",
+		"type": "Minion",
+		"set": "Core"
+	},
+	{
+		"id": "SW_047",
+		"name": "Highlord Fordragon",
+		"type": "Minion",
+		"set": "Stormwind"
+	},
+	{
+		"id": "BGS_Treasures_001",
+		"name": "Pocket Change",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_004",
+		"name": "Gacha Gift",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_006",
+		"name": "Evolving Tavern",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_007",
+		"name": "Might of Stormwind",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_009",
+		"name": "Gruul Rules",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_012",
+		"name": "On the House",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_013",
+		"name": "The Good Stuff",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_014",
+		"name": "The Unlimited Coin",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_015",
+		"name": "Buy the Holy Light",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_019",
+		"name": "B.A.N.A.N.A.S.",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_020",
+		"name": "Top Shelf",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_025",
+		"name": "Fresh Tab",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_023",
+		"name": "Open Bar",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_026",
+		"name": "The Bouncer",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_028",
+		"name": "Give a Dog a Bone",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_029",
+		"name": "Rocking and Rolling",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_032",
+		"name": "Big Winner!",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_033",
+		"name": "New Recruit",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_034",
+		"name": "Repeat Customer",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "AV_264",
+		"name": "Sigil of Reckoning",
+		"type": "Spell",
+		"set": "Alterac_valley"
+	},
+	{
+		"id": "AV_122",
+		"name": "Corporal",
+		"type": "Minion",
+		"set": "Alterac_valley"
+	},
+	{
+		"id": "BG19_010",
+		"name": "Sewer Rat",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG21_018",
+		"name": "Defiant Shipwright",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 2
+	},
+	{
+		"id": "BG21_018_G",
+		"name": "Defiant Shipwright",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 2
+	},
+	{
+		"id": "BOM_05_Kurtrus_001p",
+		"name": "Fel Fury",
+		"type": "Hero_power",
+		"set": "Stormwind"
+	},
+	{
+		"id": "TB_BaconShop_HERO_49_Buddy",
+		"name": "Magnus Manastorm",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 4
 	},
 	{
-		"id": "TB_BaconUps_135",
-		"name": "Monstrous Macaw",
+		"id": "TB_BaconShop_HERO_49_Buddy_G",
+		"name": "Magnus Manastorm",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 4
 	},
 	{
-		"id": "BG20_104",
-		"name": "Bonker",
+		"id": "BG23_003",
+		"name": "Critter Wrangler",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG23_009",
+		"name": "Lava Lurker",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 2
+	},
+	{
+		"id": "BG23_012",
+		"name": "Corrupted Myrmidon",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG23_016",
+		"name": "Reef Explorer",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG23_003_G",
+		"name": "Critter Wrangler",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 4
 	},
 	{
-		"id": "BG20_104_G",
-		"name": "Bonker",
+		"id": "BG23_009_G",
+		"name": "Lava Lurker",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 2
+	},
+	{
+		"id": "PVPDR_AV_Passive07",
+		"name": "Mantle of Ignition",
+		"type": "Spell",
+		"set": "Tb"
+	},
+	{
+		"id": "PVPDR_Reno_HP3",
+		"name": "Arcane Craftiness",
+		"type": "Hero_power",
+		"set": "Tb"
+	},
+	{
+		"id": "LETL_866P2_01",
+		"name": "Void Ministration",
+		"type": "Lettuce_ability",
+		"set": "Lettuce"
+	},
+	{
+		"id": "LETLT_130_02",
+		"name": "Slice and Dice",
+		"type": "Lettuce_ability",
+		"set": "Lettuce"
+	},
+	{
+		"id": "BGS_Treasures_039",
+		"name": "Mindflayer Goggles",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_040",
+		"name": "Banana Bunch",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG25_002",
+		"name": "Ghoul of the Feast",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG25_008",
+		"name": "Eternal Knight",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 2
+	},
+	{
+		"id": "BG25_009",
+		"name": "Eternal Summoner",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 6
+	},
+	{
+		"id": "BG25_023",
+		"name": "Soulsplitter",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 4
 	},
 	{
-		"id": "BG21_030",
-		"name": "Budding Greenthumb",
+		"id": "BG25_023_G",
+		"name": "Soulsplitter",
 		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG21_030_G",
-		"name": "Budding Greenthumb",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "TB_BaconShop_HERO_78_Buddy",
-		"name": "Snow Elemental",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "TB_BaconShop_HERO_78_Buddy_G",
-		"name": "Snow Elemental",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "TB_BaconShop_HERO_43_Buddy",
-		"name": "Brann's Epic Egg",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "TB_BaconShop_HERO_43_Buddy_G",
-		"name": "Brann's Epic Egg",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "TB_BaconShop_HERO_70_Buddy",
-		"name": "Lil' K.T.",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "TB_BaconShop_HERO_70_Buddy_G",
-		"name": "Lil' K.T.",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG20_HERO_282p",
-		"name": "Fragrant Phylactery",
-		"type": "Hero_power",
-		"set": "Battlegrounds"
-	},
-	{
-		"id": "BG23_HERO_304p",
-		"name": "Relics of the Deep",
-		"type": "Hero_power",
-		"set": "Battlegrounds"
-	},
-	{
-		"id": "BG23_HERO_201p",
-		"name": "Tentacular",
-		"type": "Hero_power",
-		"set": "Battlegrounds"
-	},
-	{
-		"id": "BG23_HERO_303p2",
-		"name": "Detective for Hire",
-		"type": "Hero_power",
-		"set": "Battlegrounds"
-	},
-	{
-		"id": "BG25_032",
-		"name": "Peggy Sturdybone",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
+		"techLevel": 4
 	},
 	{
 		"id": "BG25_032_G",
@@ -140,53 +492,44 @@
 		"techLevel": 3
 	},
 	{
-		"id": "BG26_152",
-		"name": "Utility Drone",
+		"id": "BG26_800",
+		"name": "Manasaber",
 		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 6
+		"set": "Battlegrounds"
 	},
 	{
-		"id": "BG26_152_G",
-		"name": "Utility Drone",
+		"id": "BG26_810",
+		"name": "Gunpowder Courier",
 		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 6
+		"techLevel": 4
 	},
 	{
-		"id": "BG26_149",
-		"name": "Polarizing Beatboxer",
+		"id": "BG26_810_G",
+		"name": "Gunpowder Courier",
 		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 7
+		"techLevel": 4
 	},
 	{
-		"id": "BG26_149_G",
-		"name": "Polarizing Beatboxer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 7
+		"id": "BG26_813t",
+		"name": "The Goldenizer",
+		"type": "Battleground_spell",
+		"set": "Battlegrounds"
 	},
 	{
-		"id": "BG26_159",
-		"name": "Moon-Bacon Jazzer",
+		"id": "BG26_814",
+		"name": "Lovesick Balladist",
 		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 2
+		"techLevel": 4
 	},
 	{
-		"id": "BG26_159_G",
-		"name": "Moon-Bacon Jazzer",
+		"id": "BG26_814_G",
+		"name": "Lovesick Balladist",
 		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 2
-	},
-	{
-		"id": "BG26_815",
-		"name": "Underhanded Dealer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
+		"techLevel": 4
 	},
 	{
 		"id": "BG26_815_G",
@@ -196,24 +539,117 @@
 		"techLevel": 3
 	},
 	{
-		"id": "BG27_Anomaly_716",
-		"name": "Up-Prizing",
+		"id": "BG26_HERO_104p",
+		"name": "Upbeat Harmony",
+		"type": "Hero_power",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG26_172",
+		"name": "Xylo-bones",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG26_172_G",
+		"name": "Xylo-bones",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 3
+	},
+	{
+		"id": "RLK_Prologue_CS3_017",
+		"name": "Gan'arg Glaivesmith",
+		"type": "Minion",
+		"set": "Core"
+	},
+	{
+		"id": "BG26_766",
+		"name": "Fleet Admiral Tethys",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 6
+	},
+	{
+		"id": "BG26_766_G",
+		"name": "Fleet Admiral Tethys",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 6
+	},
+	{
+		"id": "BG25_806",
+		"name": "Sly Raptor",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG27_Anomaly_711",
+		"name": "Double Header",
 		"type": "Battleground_anomaly",
 		"set": "Battlegrounds"
 	},
 	{
-		"id": "BGDUO_100",
-		"name": "Wanderer Cho",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 2
+		"id": "BG27_Anomaly_303",
+		"name": "Grapnel of the Titans",
+		"type": "Battleground_anomaly",
+		"set": "Battlegrounds"
 	},
 	{
-		"id": "BGDUO_100_G",
-		"name": "Wanderer Cho",
+		"id": "TOY_906",
+		"name": "Botface",
+		"type": "Minion",
+		"set": "Whizbangs_workshop"
+	},
+	{
+		"id": "BG27_Anomaly_503",
+		"name": "The Yogg-iseum",
+		"type": "Battleground_anomaly",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "TOY_355",
+		"name": "Hemet, Foam Marksman",
+		"type": "Minion",
+		"set": "Whizbangs_workshop"
+	},
+	{
+		"id": "TOY_913",
+		"name": "Ci'Cigi",
+		"type": "Minion",
+		"set": "Whizbangs_workshop"
+	},
+	{
+		"id": "TOY_372",
+		"name": "Yogg in the Box",
+		"type": "Spell",
+		"set": "Whizbangs_workshop"
+	},
+	{
+		"id": "TOY_606",
+		"name": "Testing Dummy",
+		"type": "Minion",
+		"set": "Whizbangs_workshop"
+	},
+	{
+		"id": "TOY_521",
+		"name": "Sandbox Scoundrel",
+		"type": "Minion",
+		"set": "Whizbangs_workshop"
+	},
+	{
+		"id": "BG27_005",
+		"name": "Timecap'n Hooktail",
 		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 2
+		"techLevel": 3
+	},
+	{
+		"id": "BG27_005_G",
+		"name": "Timecap'n Hooktail",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 3
 	},
 	{
 		"id": "BG27_016",
@@ -230,11 +666,40 @@
 		"techLevel": 7
 	},
 	{
+		"id": "TOY_830",
+		"name": "Dr. Stitchensew",
+		"type": "Minion",
+		"set": "Whizbangs_workshop"
+	},
+	{
+		"id": "TOY_521t1",
+		"name": "Sandbox Scoundrel",
+		"type": "Minion",
+		"set": "Whizbangs_workshop"
+	},
+	{
+		"id": "TOY_700t3",
+		"name": "Deck of Treasures",
+		"type": "Spell",
+		"set": "Whizbangs_workshop"
+	},
+	{
+		"id": "WON_351",
+		"name": "Small-Time Buccaneer",
+		"type": "Minion",
+		"set": "Caverns_of_time"
+	},
+	{
+		"id": "TOY_700t13",
+		"name": "Morphing Card",
+		"type": "Spell",
+		"set": "Whizbangs_workshop"
+	},
+	{
 		"id": "BG27_083",
 		"name": "Slitherspear, Lord of Gains",
 		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 6
+		"set": "Battlegrounds"
 	},
 	{
 		"id": "BG27_083_G",
@@ -242,6 +707,36 @@
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 6
+	},
+	{
+		"id": "VAC_423",
+		"name": "Twilight Medium",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_330",
+		"name": "Metal Detector",
+		"type": "Weapon",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_335",
+		"name": "Petty Theft",
+		"type": "Spell",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_336",
+		"name": "Maestra, Mask Merchant",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_941",
+		"name": "Announce Darkness",
+		"type": "Spell",
+		"set": "Perils_in_paradise"
 	},
 	{
 		"id": "BG27_084",
@@ -270,77 +765,515 @@
 		"set": "Battlegrounds"
 	},
 	{
-		"id": "BG28_309",
-		"name": "Mummifier",
-		"type": "Minion",
-		"set": "Battlegrounds"
+		"id": "TOY_700t12",
+		"name": "Deck of Villains",
+		"type": "Spell",
+		"set": "Whizbangs_workshop"
 	},
 	{
-		"id": "BG28_309_G",
-		"name": "Mummifier",
+		"id": "VAC_449",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_525t1",
+		"name": "Slice of Bread",
+		"type": "Spell",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_525t2",
+		"name": "Minion Sandwich",
+		"type": "Spell",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_464",
+		"name": "Treasure Hunter Eudora",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "GDB_100",
+		"name": "Arkonite Defense Crystal",
+		"type": "Minion",
+		"set": "Great_dark_beyond"
+	},
+	{
+		"id": "GDB_100t1",
+		"name": "Starship Pieces",
+		"type": "Minion",
+		"set": "Great_dark_beyond"
+	},
+	{
+		"id": "BG28_603",
+		"name": "Boon of Beetles",
+		"type": "Battleground_spell",
+		"set": "Battlegrounds",
+		"techLevel": 4
+	},
+	{
+		"id": "GDB_721",
+		"name": "Interstellar Wayfarer",
+		"type": "Minion",
+		"set": "Great_dark_beyond"
+	},
+	{
+		"id": "GDB_722",
+		"name": "Crimson Commander",
+		"type": "Minion",
+		"set": "Great_dark_beyond"
+	},
+	{
+		"id": "BG28_635",
+		"name": "Whirling Lass-o-Matic",
 		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 3
+		"techLevel": 6
 	},
 	{
-		"id": "WORK_017",
-		"name": "Silvermoon Brochure",
+		"id": "BG28_635_G",
+		"name": "Whirling Lass-o-Matic",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 6
+	},
+	{
+		"id": "WORK_004",
+		"name": "Agency Espionage",
 		"type": "Spell",
 		"set": "Traveling_travel_agency"
 	},
 	{
-		"id": "BG30_MagicItem_407",
-		"name": "Ship in a Bottle",
+		"id": "GDB_842",
+		"name": "Gorm the Worldeater",
+		"type": "Minion",
+		"set": "Great_dark_beyond"
+	},
+	{
+		"id": "GDB_234",
+		"name": "Spore Empress Moldara",
+		"type": "Minion",
+		"set": "Great_dark_beyond"
+	},
+	{
+		"id": "GDB_118",
+		"name": "Xor'toth, Breaker of Stars",
+		"type": "Minion",
+		"set": "Great_dark_beyond"
+	},
+	{
+		"id": "GDB_854",
+		"name": "Uluu, the Everdrifter",
+		"type": "Minion",
+		"set": "Great_dark_beyond"
+	},
+	{
+		"id": "GDB_856",
+		"name": "Exarch Othaar",
+		"type": "Minion",
+		"set": "Great_dark_beyond"
+	},
+	{
+		"id": "GDB_455",
+		"name": "Askara",
+		"type": "Minion",
+		"set": "Great_dark_beyond"
+	},
+	{
+		"id": "GDB_119",
+		"name": "Emergency Meeting",
+		"type": "Spell",
+		"set": "Great_dark_beyond"
+	},
+	{
+		"id": "GDB_123",
+		"name": "Abduction Ray",
+		"type": "Spell",
+		"set": "Great_dark_beyond"
+	},
+	{
+		"id": "GDB_128",
+		"name": "Archimonde",
+		"type": "Minion",
+		"set": "Great_dark_beyond"
+	},
+	{
+		"id": "GDB_134",
+		"name": "Arkwing Pilot",
+		"type": "Minion",
+		"set": "Great_dark_beyond"
+	},
+	{
+		"id": "GDB_135",
+		"name": "Ingenious Artificer",
+		"type": "Minion",
+		"set": "Great_dark_beyond"
+	},
+	{
+		"id": "VAC_449t",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t1",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t2",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t3",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t4",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t5",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t6",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t7",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t8",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t9",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t10",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t11",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t12",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t13",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t14",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t15",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t16",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t17",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t18",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t19",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "VAC_449t20",
+		"name": "Carress, Cabaret Star",
+		"type": "Minion",
+		"set": "Perils_in_paradise"
+	},
+	{
+		"id": "GDB_141",
+		"name": "Yrel, Beacon of Hope",
+		"type": "Minion",
+		"set": "Great_dark_beyond"
+	},
+	{
+		"id": "BG30_MagicItem_422",
+		"name": "Lorewalker Scroll",
 		"type": "Battleground_trinket",
 		"set": "Battlegrounds"
 	},
 	{
-		"id": "BG26_HERO_104_Buddy",
-		"name": "Akali, Rock Rhino",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG26_HERO_104_Buddy_G",
-		"name": "Akali, Rock Rhino",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BGDUO31_201",
-		"name": "Gathering Stormer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 2
-	},
-	{
-		"id": "BGDUO31_201_G",
-		"name": "Gathering Stormer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 2
-	},
-	{
-		"id": "BGDUO31_205",
-		"name": "Selfless Sightseer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BGDUO31_205_G",
-		"name": "Selfless Sightseer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG31_HERO_802p",
-		"name": "Warp Gate",
+		"id": "THD_018hp",
+		"name": "Enhancification",
 		"type": "Hero_power",
+		"set": "Tb"
+	},
+	{
+		"id": "BG30_105",
+		"name": "Indomitable Mount",
+		"type": "Minion",
 		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG34_780",
+		"name": "Photobomber",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_780_G",
+		"name": "Photobomber",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG29_866",
+		"name": "Stellar Freebooter",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 4
+	},
+	{
+		"id": "BG29_866_G",
+		"name": "Stellar Freebooter",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 4
+	},
+	{
+		"id": "BG26_867",
+		"name": "Three Lil' Quilboar",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG31_035",
+		"name": "Groundbreaker",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 6
+	},
+	{
+		"id": "BG31_925",
+		"name": "Showy Cyclist",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG31_925_G",
+		"name": "Showy Cyclist",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG31_801",
+		"name": "Forest Rover",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 2
+	},
+	{
+		"id": "BG31_801_G",
+		"name": "Forest Rover",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 2
+	},
+	{
+		"id": "BG31_810",
+		"name": "Ultraviolet Ascendant",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "FIR_959",
+		"name": "Fyrakk the Blazing",
+		"type": "Minion",
+		"set": "Embers_of_the_world_tree"
+	},
+	{
+		"id": "BG31_148",
+		"name": "Hackerfin",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG31_148_G",
+		"name": "Hackerfin",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG31_149",
+		"name": "Bubble Gunner",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 1
+	},
+	{
+		"id": "BG31_803",
+		"name": "Buzzing Vermin",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 1
+	},
+	{
+		"id": "BG31_816",
+		"name": "Fire Baller",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 2
+	},
+	{
+		"id": "BG31_816_G",
+		"name": "Fire Baller",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 2
+	},
+	{
+		"id": "BG31_875",
+		"name": "Tardy Traveler",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "EDR_979",
+		"name": "Ancient of Yore",
+		"type": "Minion",
+		"set": "Into_the_emerald_dream"
+	},
+	{
+		"id": "TLC_426",
+		"name": "Dive the Golakka Depths",
+		"type": "Spell",
+		"set": "Lost_city_of_ungoro"
+	},
+	{
+		"id": "BG30_MagicItem_422t",
+		"name": "Lorewalker Scroll",
+		"type": "Battleground_trinket",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG31_808",
+		"name": "Runed Progenitor",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG31_808_G",
+		"name": "Runed Progenitor",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG31_807",
+		"name": "Nest Swarmer",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG31_807_G",
+		"name": "Nest Swarmer",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG31_818",
+		"name": "Snow Baller",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 2
+	},
+	{
+		"id": "BG31_818_G",
+		"name": "Snow Baller",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 2
+	},
+	{
+		"id": "BG30_MagicItem_703",
+		"name": "Mystery Cube",
+		"type": "Battleground_trinket",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG31_809",
+		"name": "Turquoise Skitterer",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 4
+	},
+	{
+		"id": "BG31_809_G",
+		"name": "Turquoise Skitterer",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 4
+	},
+	{
+		"id": "TIME_005t2",
+		"name": "Green Rafaam",
+		"type": "Minion",
+		"set": "Across_the_timeways"
 	},
 	{
 		"id": "TIME_005t4",
@@ -349,17 +1282,87 @@
 		"set": "Across_the_timeways"
 	},
 	{
+		"id": "BG31_895",
+		"name": "Blade of Ambition",
+		"type": "Battleground_spell",
+		"set": "Battlegrounds"
+	},
+	{
 		"id": "TIME_861",
 		"name": "Timelooper Toki",
 		"type": "Minion",
 		"set": "Across_the_timeways"
 	},
 	{
+		"id": "BG31_HERO_802pt",
+		"name": "Colossus",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG31_HERO_802pt_G",
+		"name": "Colossus",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG31_HERO_802pt1t",
+		"name": "Interceptor",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG31_HERO_802pt1t_G",
+		"name": "Interceptor",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 1
+	},
+	{
+		"id": "BG31_830",
+		"name": "Weary Mage",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 4
+	},
+	{
+		"id": "BG32_841",
+		"name": "Sand Swirler",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG32_841_G",
+		"name": "Sand Swirler",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 4
+	},
+	{
+		"id": "BG32_842",
+		"name": "Glowing Cinder",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG32_842_G",
+		"name": "Glowing Cinder",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 3
+	},
+	{
+		"id": "BG32_231",
+		"name": "Elite Navigator",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
 		"id": "BG32_234",
 		"name": "Dastardly Drust",
 		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 6
+		"set": "Battlegrounds"
 	},
 	{
 		"id": "BG32_234_G",
@@ -383,10 +1386,25 @@
 		"techLevel": 2
 	},
 	{
-		"id": "BG32_MagicItem_904",
-		"name": "Hogwash Basin",
-		"type": "Battleground_trinket",
-		"set": "Battlegrounds"
+		"id": "BG32_432",
+		"name": "Needling Crone",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 6
+	},
+	{
+		"id": "BG32_860",
+		"name": "Shoalfin Mystic",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 3
+	},
+	{
+		"id": "BG32_860_G",
+		"name": "Shoalfin Mystic",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 3
 	},
 	{
 		"id": "BG31_HERO_801pta",
@@ -398,13 +1416,6 @@
 	{
 		"id": "BG31_HERO_801ptb",
 		"name": "Smart Servos",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 1
-	},
-	{
-		"id": "BG31_HERO_801ptc",
-		"name": "Yamato Cannon",
 		"type": "Battleground_spell",
 		"set": "Battlegrounds",
 		"techLevel": 1
@@ -501,48 +1512,6 @@
 		"techLevel": 7
 	},
 	{
-		"id": "BG31_HERO_801ptc2",
-		"name": "Yamato Cannon",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 2
-	},
-	{
-		"id": "BG31_HERO_801ptc3",
-		"name": "Yamato Cannon",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG31_HERO_801ptc4",
-		"name": "Yamato Cannon",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 4
-	},
-	{
-		"id": "BG31_HERO_801ptc5",
-		"name": "Yamato Cannon",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG31_HERO_801ptc6",
-		"name": "Yamato Cannon",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 6
-	},
-	{
-		"id": "BG31_HERO_801ptc7",
-		"name": "Yamato Cannon",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 7
-	},
-	{
 		"id": "BG31_HERO_801ptd2",
 		"name": "Advanced Ballistics",
 		"type": "Battleground_spell",
@@ -620,34 +1589,91 @@
 		"techLevel": 7
 	},
 	{
+		"id": "BG31_HERO_811p3",
+		"name": "Ultralisk Cavern",
+		"type": "Hero_power",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG32_866",
+		"name": "Tauren Spiritwalker",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG32_866_G",
+		"name": "Tauren Spiritwalker",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 4
+	},
+	{
+		"id": "BG32_846",
+		"name": "Unleashed Mana Surge",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG32_846_G",
+		"name": "Unleashed Mana Surge",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG32_332",
+		"name": "Apprentice of Sefin",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 4
+	},
+	{
+		"id": "BG32_332_G",
+		"name": "Apprentice of Sefin",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 4
+	},
+	{
+		"id": "BG32_336",
+		"name": "Gormling Gourmet",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 4
+	},
+	{
+		"id": "BG31_830t",
+		"name": "Reinvigoration",
+		"type": "Spell",
+		"set": "Battlegrounds",
+		"techLevel": 4
+	},
+	{
+		"id": "TIME_052",
+		"name": "Amber Warden",
+		"type": "Minion",
+		"set": "Across_the_timeways"
+	},
+	{
 		"id": "TIME_446",
 		"name": "The Eternal Hold",
 		"type": "Location",
 		"set": "Across_the_timeways"
 	},
 	{
-		"id": "TIME_612",
-		"name": "Blood Draw",
-		"type": "Spell",
-		"set": "Across_the_timeways"
-	},
-	{
-		"id": "END_018",
-		"name": "Acolyte of Infinity",
+		"id": "BG32_204",
+		"name": "Silky Shimmermoth",
 		"type": "Minion",
-		"set": "Echoes_of_the_infinite"
+		"set": "Battlegrounds",
+		"techLevel": 6
 	},
 	{
-		"id": "END_025",
-		"name": "Eternal Firebolt",
-		"type": "Spell",
-		"set": "Echoes_of_the_infinite"
-	},
-	{
-		"id": "END_030",
-		"name": "Haywire Hornswog",
+		"id": "BG32_204_G",
+		"name": "Silky Shimmermoth",
 		"type": "Minion",
-		"set": "Echoes_of_the_infinite"
+		"set": "Battlegrounds",
+		"techLevel": 6
 	},
 	{
 		"id": "END_032",
@@ -656,37 +1682,77 @@
 		"set": "Echoes_of_the_infinite"
 	},
 	{
-		"id": "END_033",
-		"name": "Prescient Slitherdrake",
-		"type": "Minion",
+		"id": "END_000",
+		"name": "Eventuality",
+		"type": "Spell",
 		"set": "Echoes_of_the_infinite"
 	},
 	{
-		"id": "END_036",
-		"name": "Morchie",
+		"id": "TIME_101",
+		"name": "Misplaced Pyromancer",
 		"type": "Minion",
-		"set": "Echoes_of_the_infinite"
+		"set": "Across_the_timeways"
 	},
 	{
-		"id": "BG33_111",
-		"name": "Carapace Raiser",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
+		"id": "TIME_EVENT_999",
+		"name": "Sands of Time",
+		"type": "Spell",
+		"set": "Gift"
 	},
 	{
-		"id": "BG33_111_G",
-		"name": "Carapace Raiser",
+		"id": "TIME_EVENT_COIN",
+		"name": "The Coin",
+		"type": "Spell",
+		"set": "Across_the_timeways"
+	},
+	{
+		"id": "BG33_140",
+		"name": "River Skipper",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG33_300_G",
+		"name": "All-Seeing Elder",
 		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 5
+		"techLevel": 4
+	},
+	{
+		"id": "BG33_315",
+		"name": "Greedy Snaketongue",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG33_319",
+		"name": "Rimescale Priestess",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG33_319t",
+		"name": "Rime or Reason",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG33_893",
+		"name": "Primitive Painter",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "TIME_EVENT_999t",
+		"name": "Sands of Time",
+		"type": "Spell",
+		"set": "Gift"
 	},
 	{
 		"id": "BG33_884",
 		"name": "Bloodsnout Warlord",
 		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 6
+		"set": "Battlegrounds"
 	},
 	{
 		"id": "BG33_884_G",
@@ -696,22 +1762,27 @@
 		"techLevel": 6
 	},
 	{
-		"id": "BG33_700",
-		"name": "Friendly Bouncer",
+		"id": "CATA_720",
+		"name": "Warmaster Blackhorn",
+		"type": "Minion",
+		"set": "1980"
+	},
+	{
+		"id": "BG33_895",
+		"name": "Hot Springer",
 		"type": "Minion",
 		"set": "Battlegrounds"
 	},
 	{
-		"id": "BG33_700_G",
-		"name": "Friendly Bouncer",
+		"id": "CATA_470",
+		"name": "Victor Nefarius",
 		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 4
+		"set": "1980"
 	},
 	{
-		"id": "TB_BaconShop_HP_702t",
-		"name": "Rune of Damnation",
-		"type": "Hero_power",
+		"id": "BG33_896",
+		"name": "Canopy Swinger",
+		"type": "Minion",
 		"set": "Battlegrounds"
 	},
 	{
@@ -721,39 +1792,182 @@
 		"set": "Battlegrounds"
 	},
 	{
-		"id": "BG34_Treasure_900",
-		"name": "Timewarped Evolving Tavern",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Treasure_902",
-		"name": "Timewarped Master Thief",
-		"type": "Battleground_spell",
+		"id": "BG33_HERO_000_Buddy",
+		"name": "Stoneshell Guardian",
+		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_Treasure_903",
-		"name": "Timewarped On the House",
-		"type": "Battleground_spell",
+		"id": "BG33_HERO_000_Buddy_G",
+		"name": "Stoneshell Guardian",
+		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_Treasure_905",
-		"name": "Timewarped Rat in a Cage",
+		"id": "TIME_COIN3",
+		"name": "The Coin",
+		"type": "Spell",
+		"set": "Across_the_timeways"
+	},
+	{
+		"id": "BG33_819",
+		"name": "Raptor's Revenge",
 		"type": "Battleground_spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "DINO_COIN2",
+		"name": "The Coin",
+		"type": "Spell",
+		"set": "Day_of_rebirth"
+	},
+	{
+		"id": "BG33_827_G",
+		"name": "Yorik Smite",
+		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_Treasure_912",
-		"name": "Timewarped B.A.N.A.N.A.S.",
-		"type": "Battleground_spell",
+		"id": "BG33_828",
+		"name": "Ship Master Eudora",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG33_828_G",
+		"name": "Ship Master Eudora",
+		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 5
+		"techLevel": 6
+	},
+	{
+		"id": "TIME_COIN4",
+		"name": "The Coin",
+		"type": "Spell",
+		"set": "Across_the_timeways"
+	},
+	{
+		"id": "HERO_06bi",
+		"name": "Chao Feng Lunara",
+		"type": "Hero",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_01bk",
+		"name": "Lion's Landing Varian",
+		"type": "Hero",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_01bkhp",
+		"name": "Armor Up!",
+		"type": "Hero_power",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_01bkhp2",
+		"name": "Tank Up!",
+		"type": "Hero_power",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_03bk",
+		"name": "Sinestra",
+		"type": "Hero",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_03bkhp",
+		"name": "Dagger Mastery",
+		"type": "Hero_power",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_03bkhp2",
+		"name": "Poisoned Daggers",
+		"type": "Hero_power",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_08bv",
+		"name": "Qiu Niu Tsulong",
+		"type": "Hero",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_08bvhp",
+		"name": "Fireblast",
+		"type": "Hero_power",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_08bvhp2",
+		"name": "Fireblast Rank 2",
+		"type": "Hero_power",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_05bj",
+		"name": "Ancient Warrior Huln",
+		"type": "Hero",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_04bl",
+		"name": "Broken Shore Tirion",
+		"type": "Hero",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_08bw",
+		"name": "Twilight Hammer Cho'gall",
+		"type": "Hero",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_08bwhp",
+		"name": "Fireblast",
+		"type": "Hero_power",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_08bwhp2",
+		"name": "Fireblast Rank 2",
+		"type": "Hero_power",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "TB_BaconShop_HERO_57_SKIN_L",
+		"name": "Tavern-Keeper Nozdormu",
+		"type": "Hero",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "TB_BaconShopBob_SKIN_BH",
+		"name": "Cho'gall",
+		"type": "Hero",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "TB_BaconShop_HERO_50_SKIN_D",
+		"name": "Princess Tess",
+		"type": "Hero",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "TB_BaconShopBob_SKIN_BJ",
+		"name": "Chi Hu Wrathion",
+		"type": "Hero",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG34_Treasure_901",
+		"name": "Gruul Rules",
+		"type": "Battleground_spell",
+		"set": "Battlegrounds"
 	},
 	{
 		"id": "BG34_857",
@@ -763,71 +1977,38 @@
 		"techLevel": 6
 	},
 	{
-		"id": "BG34_857_G",
-		"name": "Acid Rainfall",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 6
-	},
-	{
-		"id": "BG34_Giant_001",
-		"name": "Timewarped Busker",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_HeroPowerSpell_003",
-		"name": "Power of Al'Akir",
+		"id": "BG34_BlackMarket_Skip",
+		"name": "Exit the Timewarped Tavern",
 		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 3
+		"set": "Battlegrounds"
 	},
 	{
-		"id": "BG34_Giant_002",
-		"name": "Timewarped Relaxer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
+		"id": "PET_8_1",
+		"name": "Chieftain Hogger",
+		"type": "Pet",
+		"set": "Cosmetics"
 	},
 	{
-		"id": "BG34_Giant_007",
-		"name": "Timewarped Annoy-o-Tron",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
+		"id": "PET_8_2",
+		"name": "Corrupted Hogger",
+		"type": "Pet",
+		"set": "Cosmetics"
 	},
 	{
-		"id": "BG34_Treasure_917",
-		"name": "Timewarped New Recruit",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 3
+		"id": "PET_8_3",
+		"name": "Pirate Hogger",
+		"type": "Pet",
+		"set": "Cosmetics"
+	},
+	{
+		"id": "PET_8_4",
+		"name": "Ya Zi Hogger",
+		"type": "Pet",
+		"set": "Cosmetics"
 	},
 	{
 		"id": "BG34_HeroPowerSpell_005",
 		"name": "Power of Elise",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_HeroPowerSpell_006",
-		"name": "Power of George",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_HeroPowerSpell_008",
-		"name": "Power of Shudderwock",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_HeroPowerSpell_009",
-		"name": "Power of Teron",
 		"type": "Battleground_spell",
 		"set": "Battlegrounds",
 		"techLevel": 3
@@ -840,54 +2021,6 @@
 		"techLevel": 3
 	},
 	{
-		"id": "BG34_HeroPowerSpell_012",
-		"name": "Power of Zephrys",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_HeroPowerSpell_015",
-		"name": "Power of Guff",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_006",
-		"name": "Timewarped Molten Rock",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_008",
-		"name": "Timewarped Seer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_009",
-		"name": "Timewarped Alleycat",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_010",
-		"name": "Timewarped Trickster",
-		"type": "Minion",
-		"set": "Battlegrounds"
-	},
-	{
-		"id": "BG34_Giant_012",
-		"name": "Timewarped Cyclone",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
 		"id": "BG34_Giant_015",
 		"name": "Timewarped Hooktail",
 		"type": "Minion",
@@ -895,43 +2028,8 @@
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_Giant_017",
-		"name": "Timewarped Scourfin",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Treasure_932",
-		"name": "Timewarped Strike Oil",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Treasure_933",
-		"name": "Timewarped Evolution",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Treasure_934",
-		"name": "Timewarped Armor Stash",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
 		"id": "BG34_Treasure_937",
 		"name": "Timewarped Corpse",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Treasure_940",
-		"name": "Timewarped Chef's Choice",
 		"type": "Battleground_spell",
 		"set": "Battlegrounds",
 		"techLevel": 5
@@ -965,108 +2063,11 @@
 		"techLevel": 2
 	},
 	{
-		"id": "BG34_Giant_021",
-		"name": "Timewarped Sylvar",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_024",
-		"name": "Timewarped Jelly Belly",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_027",
-		"name": "Timewarped Arm",
-		"type": "Minion",
-		"set": "Battlegrounds"
-	},
-	{
-		"id": "BG34_Giant_029",
-		"name": "Timewarped Dragonling",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_031",
-		"name": "Timewarped Leapfrogger",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_032",
-		"name": "Timewarped Nomi",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_034",
-		"name": "Timewarped Geist",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_035",
-		"name": "Timewarped Glowscale",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_035t",
-		"name": "Timewarped Crown",
-		"type": "Spell",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
 		"id": "BG34_Giant_038",
 		"name": "Timewarped Elise",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_039",
-		"name": "Timewarped Winner",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_040",
-		"name": "Timewarped Ichoron",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_041",
-		"name": "Timewarped Greenskeeper",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_042",
-		"name": "Timewarped Chameleon",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_PreMadeChamp_002",
-		"name": "Timewarped Lab Rat",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
 	},
 	{
 		"id": "BG34_PreMadeChamp_004",
@@ -1083,109 +2084,66 @@
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_PreMadeChamp_013",
-		"name": "Timewarped Imp-filtrator",
+		"id": "BG34_142",
+		"name": "Costume Enthusiast",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_PreMadeChamp_020",
-		"name": "Timewarped Duskmaw",
+		"id": "BG34_142_G",
+		"name": "Costume Enthusiast",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_PreMadeChamp_022",
-		"name": "Timewarped Prismscale",
+		"id": "BG34_143",
+		"name": "Dramaloc",
 		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 5
+		"techLevel": 6
 	},
 	{
-		"id": "BG34_PreMadeChamp_031",
-		"name": "Timewarped Stormcloud",
+		"id": "BG34_143_G",
+		"name": "Dramaloc",
 		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 5
+		"techLevel": 6
 	},
 	{
-		"id": "BG34_PreMadeChamp_038",
-		"name": "Timewarped Steamer",
+		"id": "TIME_EVENT_301",
+		"name": "Disciple of Demise",
 		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
+		"set": "Gift"
 	},
 	{
-		"id": "BG34_PreMadeChamp_047",
-		"name": "Timewarped Paleofin",
+		"id": "BG34_630",
+		"name": "Twilight Hatchling",
 		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 5
+		"techLevel": 1
 	},
 	{
-		"id": "BG34_PreMadeChamp_049",
-		"name": "Timewarped Squallfin",
+		"id": "BG34_630_G",
+		"name": "Twilight Hatchling",
 		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 5
+		"techLevel": 1
 	},
 	{
-		"id": "BG34_PreMadeChamp_056",
-		"name": "Timewarped Karathress",
+		"id": "BG34_631",
+		"name": "Whelp Watcher",
 		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 5
+		"techLevel": 2
 	},
 	{
-		"id": "BG34_PreMadeChamp_058",
-		"name": "Timewarped Siren",
+		"id": "BG34_631_G",
+		"name": "Whelp Watcher",
 		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_PreMadeChamp_065",
-		"name": "Timewarped Raider",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_PreMadeChamp_067",
-		"name": "Timewarped Plunderer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_PreMadeChamp_076",
-		"name": "Timewarped Bloodbinder",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_PreMadeChamp_083",
-		"name": "Timewarped Anub'arak",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_064",
-		"name": "Timewarped Whelp Smuggler",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_066",
-		"name": "Timewarped Lubber",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
+		"techLevel": 2
 	},
 	{
 		"id": "BG34_Giant_067",
@@ -1195,39 +2153,18 @@
 		"techLevel": 3
 	},
 	{
-		"id": "BG34_Giant_078",
-		"name": "Timewarped Thorncaller",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_081",
-		"name": "Timewarped Deathswarmer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_082",
-		"name": "Timewarped Recycler",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
 		"id": "BG34_236",
 		"name": "Cannon Corsair",
 		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 5
+		"techLevel": 6
 	},
 	{
 		"id": "BG34_236_G",
 		"name": "Cannon Corsair",
 		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 5
+		"techLevel": 6
 	},
 	{
 		"id": "BG34_173",
@@ -1244,6 +2181,25 @@
 		"techLevel": 6
 	},
 	{
+		"id": "BG34_176",
+		"name": "Metal Dispenser",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG34_176_G",
+		"name": "Metal Dispenser",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_697",
+		"name": "Ghostly Ymirjar",
+		"type": "Minion",
+		"set": "Battlegrounds"
+	},
+	{
 		"id": "BG34_950",
 		"name": "Stone Age Slab",
 		"type": "Minion",
@@ -1258,29 +2214,8 @@
 		"techLevel": 7
 	},
 	{
-		"id": "BG34_Giant_102",
-		"name": "Timewarped Bonker",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_069",
-		"name": "Timewarped Piper",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_201",
-		"name": "Timewarped Boar",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_320",
-		"name": "The Last One Standing",
+		"id": "BG34_319",
+		"name": "Highkeeper Ra",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 7
@@ -1307,36 +2242,8 @@
 		"techLevel": 7
 	},
 	{
-		"id": "BG34_Giant_202",
-		"name": "Timewarped Saurolisk",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
 		"id": "BG34_Giant_068",
 		"name": "Timewarped Guard",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_071",
-		"name": "Timewarped Bassgill",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_072",
-		"name": "Timewarped Skipper",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_204",
-		"name": "Timewarped Pillager",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 3
@@ -1349,65 +2256,10 @@
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_Treasure_990",
-		"name": "Timewarped Viper",
-		"type": "Minion",
-		"set": "Battlegrounds"
-	},
-	{
-		"id": "BG34_Treasure_994",
-		"name": "Timewarped Ultralisk",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
 		"id": "BG34_Giant_104",
 		"name": "Timewarped Bristler",
 		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_110",
-		"name": "Timewarped Sea Glass",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_205",
-		"name": "Timewarped Nalaa",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_206",
-		"name": "Timewarped Murky",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_207",
-		"name": "Timewarped Murcules",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_208",
-		"name": "Timewarped Pagle",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "TB_World_001",
-		"name": "Babbling Book",
-		"type": "Minion",
-		"set": "Tb"
+		"set": "Battlegrounds"
 	},
 	{
 		"id": "BG34_929",
@@ -1417,11 +2269,10 @@
 		"techLevel": 3
 	},
 	{
-		"id": "BG34_929_G",
-		"name": "Profound Thinker",
+		"id": "BG34_930",
+		"name": "Sunken Advocate",
 		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
+		"set": "Battlegrounds"
 	},
 	{
 		"id": "BG34_931",
@@ -1438,93 +2289,23 @@
 		"techLevel": 6
 	},
 	{
-		"id": "BG34_731",
-		"name": "Twilight Broodmother",
+		"id": "BG34_502",
+		"name": "Shore Marauder",
 		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 5
+		"techLevel": 6
 	},
 	{
-		"id": "BG34_731_G",
-		"name": "Twilight Broodmother",
+		"id": "BG34_502_G",
+		"name": "Shore Marauder",
 		"type": "Minion",
 		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_732",
-		"name": "Stuntdrake",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_732_G",
-		"name": "Stuntdrake",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_209",
-		"name": "Timewarped Sensei",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
+		"techLevel": 6
 	},
 	{
 		"id": "BG34_Giant_580",
 		"name": "Timewarped Ragnaros",
 		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_210",
-		"name": "Timewarped Commander",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_210t",
-		"name": "Timewarped Shoal",
-		"type": "Spell",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_211",
-		"name": "Timewarped Pashmar",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_212",
-		"name": "Timewarped Archer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_212t",
-		"name": "Timewarped Eelectrify",
-		"type": "Spell",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_PreMadeChamp_200",
-		"name": "Timewarped Centurion",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Treasure_300",
-		"name": "Timewarped Investment",
-		"type": "Battleground_spell",
 		"set": "Battlegrounds",
 		"techLevel": 3
 	},
@@ -1536,127 +2317,8 @@
 		"techLevel": 3
 	},
 	{
-		"id": "BG34_Giant_031_G",
-		"name": "Timewarped Leapfrogger",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_008_G",
-		"name": "Timewarped Seer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_065_G",
-		"name": "Timewarped Low-Flier",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_064_G",
-		"name": "Timewarped Whelp Smuggler",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_012_G",
-		"name": "Timewarped Cyclone",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_067_G",
-		"name": "Timewarped Sellemental",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
 		"id": "BG34_Giant_068_G",
 		"name": "Timewarped Guard",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_071_G",
-		"name": "Timewarped Bassgill",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_072_G",
-		"name": "Timewarped Skipper",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_017_G",
-		"name": "Timewarped Scourfin",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_002_G",
-		"name": "Timewarped Relaxer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_069_G",
-		"name": "Timewarped Piper",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_082_G",
-		"name": "Timewarped Recycler",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_081_G",
-		"name": "Timewarped Deathswarmer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_024_G",
-		"name": "Timewarped Jelly Belly",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_066_G",
-		"name": "Timewarped Lubber",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_039_G",
-		"name": "Timewarped Winner",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_038_G",
-		"name": "Timewarped Elise",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 3
@@ -1676,13 +2338,6 @@
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_Giant_010_G",
-		"name": "Timewarped Trickster",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
 		"id": "BG34_Giant_088_G",
 		"name": "Timewarped Promo-Drake",
 		"type": "Minion",
@@ -1690,107 +2345,9 @@
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_Giant_041_G",
-		"name": "Timewarped Greenskeeper",
+		"id": "BG34_Giant_015_G",
+		"name": "Timewarped Hooktail",
 		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_PreMadeChamp_031_G",
-		"name": "Timewarped Stormcloud",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_032_G",
-		"name": "Timewarped Nomi",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_PreMadeChamp_038_G",
-		"name": "Timewarped Steamer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_PreMadeChamp_058_G",
-		"name": "Timewarped Siren",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_021_G",
-		"name": "Timewarped Sylvar",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_102_G",
-		"name": "Timewarped Bonker",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_034_G",
-		"name": "Timewarped Geist",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_027_G",
-		"name": "Timewarped Arm",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_205_G",
-		"name": "Timewarped Nalaa",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_HeroPowerSpell_016",
-		"name": "Power of Flurgl",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_HeroPowerSpell_017",
-		"name": "Power of Sylvanas",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_HeroPowerSpell_018",
-		"name": "Power of Tavish",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_PreMadeChamp_065_G",
-		"name": "Timewarped Raider",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Treasure_302",
-		"name": "Timewarped Cloning Device",
-		"type": "Battleground_spell",
 		"set": "Battlegrounds",
 		"techLevel": 5
 	},
@@ -1800,62 +2357,6 @@
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_305",
-		"name": "Timewarped Geomancer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_306",
-		"name": "Timewarped Jazzer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_305_G",
-		"name": "Timewarped Geomancer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_306_G",
-		"name": "Timewarped Jazzer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_314",
-		"name": "Timewarped Poet",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_331",
-		"name": "Timewarped Warghoul",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_332",
-		"name": "Timewarped Embalmer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_330",
-		"name": "Timewarped Radio Star",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
 	},
 	{
 		"id": "BG34_111",
@@ -1871,26 +2372,6 @@
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_177",
-		"name": "Double Demolisher",
-		"type": "Minion",
-		"set": "Battlegrounds"
-	},
-	{
-		"id": "BG34_Giant_326",
-		"name": "Timewarped Tony",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_321",
-		"name": "Timewarped Mrrrglr",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
 		"id": "BG34_Giant_321_G",
 		"name": "Timewarped Mrrrglr",
 		"type": "Minion",
@@ -1898,39 +2379,11 @@
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_Giant_335_G",
-		"name": "Timewarped Theotar",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_327",
+		"id": "BG34_Giant_327_G",
 		"name": "Timewarped Peggy",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_333",
-		"name": "Timewarped Scout",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Treasure_950",
-		"name": "Timewarped Special",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_091",
-		"name": "Timewarped Red Whelp",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
 	},
 	{
 		"id": "BG34_Giant_302",
@@ -1940,81 +2393,29 @@
 		"techLevel": 3
 	},
 	{
-		"id": "BG34_Giant_300",
-		"name": "Timewarped Rewinder",
+		"id": "BG34_Giant_302_G",
+		"name": "Timewarped Copter",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 3
 	},
 	{
-		"id": "BG34_Giant_074t",
-		"name": "Timewarped Nellie's Ship",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
+		"id": "BG34_991",
+		"name": "Hand of Deios",
+		"type": "Battleground_spell",
+		"set": "Battlegrounds"
 	},
 	{
-		"id": "BG34_Giant_310_G",
-		"name": "Timewarped Elegist",
+		"id": "CATA_470t1",
+		"name": "Nefarian's Creation",
 		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
+		"set": "1980"
 	},
 	{
-		"id": "BG34_Giant_304",
-		"name": "Timewarped Sapper",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_304_G",
-		"name": "Timewarped Sapper",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_332_G",
-		"name": "Timewarped Embalmer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_311",
-		"name": "Timewarped Shivarra",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_328",
-		"name": "Timewarped Tide Razor",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_328_G",
-		"name": "Timewarped Tide Razor",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_311_G",
-		"name": "Timewarped Shivarra",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_PreMadeChamp_032",
-		"name": "Timewarped Substrate",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
+		"id": "BG34_HERO_000p",
+		"name": "Alternate Timeline",
+		"type": "Hero_power",
+		"set": "Battlegrounds"
 	},
 	{
 		"id": "BG34_Treasure_951",
@@ -2024,25 +2425,11 @@
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_Giant_777",
-		"name": "Timewarped Behemoth",
-		"type": "Minion",
+		"id": "BG34_Treasure_953",
+		"name": "Timewarped Revelation",
+		"type": "Battleground_spell",
 		"set": "Battlegrounds",
 		"techLevel": 5
-	},
-	{
-		"id": "BG34_PreMadeChamp_032_G",
-		"name": "Timewarped Substrate",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_581",
-		"name": "Timewarped Hyena",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
 	},
 	{
 		"id": "BG34_Giant_582",
@@ -2052,221 +2439,21 @@
 		"techLevel": 3
 	},
 	{
-		"id": "BG34_Giant_583",
-		"name": "Timewarped Devourer",
+		"id": "BG34_Giant_582_G",
+		"name": "Timewarped Sporebat",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_584",
-		"name": "Timewarped Kil'rek",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_584_G",
-		"name": "Timewarped Kil'rek",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_585",
-		"name": "Timewarped Vaelastrasz",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_586",
-		"name": "Timewarped Snow Elemental",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_586_G",
-		"name": "Timewarped Snow Elemental",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_588",
-		"name": "Timewarped Hunter",
-		"type": "Minion",
-		"set": "Battlegrounds"
-	},
-	{
-		"id": "BG34_Giant_589",
-		"name": "Timewarped Sailor",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_590",
-		"name": "Timewarped Festergut",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_120",
-		"name": "Timewarped Interpreter",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_HeroPowerSpell_022",
-		"name": "Power of Rakanishu",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds"
-	},
-	{
-		"id": "BG34_Giant_120_G",
-		"name": "Timewarped Interpreter",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_322",
-		"name": "Timewarped Pioneer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_591",
-		"name": "Timewarped Acolyte",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_591_G",
-		"name": "Timewarped Acolyte",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_592",
-		"name": "Timewarped Spirit of Air",
-		"type": "Minion",
-		"set": "Battlegrounds"
-	},
-	{
-		"id": "BG34_Giant_593",
-		"name": "Timewarped Henchman",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_594",
-		"name": "Timewarped Botani",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_595",
-		"name": "Timewarped Tamuzo",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_596",
-		"name": "Timewarped Archimonde",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_597",
-		"name": "Timewarped Immortal",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Treasure_919",
-		"name": "Timewarped Ritual",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_598",
-		"name": "Timewarped Mothership",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_598_G",
-		"name": "Timewarped Mothership",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_599",
-		"name": "Timewarped Whirl-O-Tron",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_313",
-		"name": "Timewarped Kil'jaeden",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
 	},
 	{
 		"id": "BG34_Giant_601",
 		"name": "Timewarped Stoneshell",
 		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_602",
-		"name": "Timewarped Lei",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_603_G",
-		"name": "Timewarped Tender",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_309",
-		"name": "Timewarped Nine Frogs",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_317",
-		"name": "Timewarped Expeditioner",
-		"type": "Minion",
 		"set": "Battlegrounds"
 	},
 	{
-		"id": "BG34_Giant_318",
-		"name": "Timewarped Murk-Eye",
+		"id": "BG34_Giant_601_G",
+		"name": "Timewarped Stoneshell",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 5
@@ -2279,78 +2466,22 @@
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_Giant_320",
-		"name": "Timewarped Mystic",
+		"id": "BG34_Giant_319_G",
+		"name": "Timewarped Painter",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_Giant_318_G",
-		"name": "Timewarped Murk-Eye",
+		"id": "BG34_Giant_336",
+		"name": "Timewarped Amalgam",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_Giant_320_G",
-		"name": "Timewarped Mystic",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_323",
-		"name": "Timewarped Secretary",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_324",
-		"name": "Timewarped Summoner",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_324t",
-		"name": "Timewarped Summoning",
-		"type": "Spell",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Treasure_955",
-		"name": "Timewarped Goldenizer",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_PreMadeChamp_078",
-		"name": "Timewarped Bandit",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_PreMadeChamp_078_G",
-		"name": "Timewarped Bandit",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_325",
-		"name": "Timewarped Riplash",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_608",
-		"name": "Timewarped Lil' Quilboar",
+		"id": "BG34_Giant_336_G",
+		"name": "Timewarped Amalgam",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 5
@@ -2370,81 +2501,24 @@
 		"techLevel": 3
 	},
 	{
-		"id": "BG34_Treasure_606",
-		"name": "Timewarped Big Winner!",
+		"id": "BG34_Giant_605",
+		"name": "Timewarped Traveler",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 3
+	},
+	{
+		"id": "BG34_Giant_605_G",
+		"name": "Timewarped Traveler",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 3
+	},
+	{
+		"id": "BG34_Treasure_610",
+		"name": "Timewarped Scroll",
 		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Treasure_607",
-		"name": "Timewarped Trainee",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Treasure_608",
-		"name": "Timewarped Ring",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Treasure_609",
-		"name": "Timewarped Lasso",
-		"type": "Battleground_spell",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_PreMadeChamp_090",
-		"name": "Timewarped Clefthoof",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_PreMadeChamp_090_G",
-		"name": "Timewarped Clefthoof",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_PreMadeChamp_091",
-		"name": "Timewarped Calligrapher",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_360",
-		"name": "Timewarped Shadowdancer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_360_G",
-		"name": "Timewarped Shadowdancer",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_361",
-		"name": "Timewarped Upstart",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_361_G",
-		"name": "Timewarped Upstart",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
+		"set": "Battlegrounds"
 	},
 	{
 		"id": "BG34_Treasure_966",
@@ -2454,34 +2528,6 @@
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_Giant_609",
-		"name": "Timewarped Ghoul-acabra",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_610",
-		"name": "Timewarped Electron",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_610_G",
-		"name": "Timewarped Electron",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_521",
-		"name": "Plankwalker",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 4
-	},
-	{
 		"id": "BG34_521_G",
 		"name": "Plankwalker",
 		"type": "Minion",
@@ -2489,64 +2535,8 @@
 		"techLevel": 4
 	},
 	{
-		"id": "BG34_Giant_362",
-		"name": "Timewarped Goldrinn",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_105",
-		"name": "Timewarped Twirler",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
 		"id": "BG34_Giant_105_G",
 		"name": "Timewarped Twirler",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_074t_G",
-		"name": "Timewarped Nellie's Ship",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 3
-	},
-	{
-		"id": "BG34_Giant_644",
-		"name": "Timewarped Gemsplitter",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_656",
-		"name": "Timewarped Grease Bot",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_656_G",
-		"name": "Timewarped Grease Bot",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_654",
-		"name": "Timewarped Deadstomper",
-		"type": "Minion",
-		"set": "Battlegrounds",
-		"techLevel": 5
-	},
-	{
-		"id": "BG34_Giant_654_G",
-		"name": "Timewarped Deadstomper",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 5
@@ -2566,23 +2556,722 @@
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_Giant_370",
-		"name": "Timewarped Hawkstrider",
+		"id": "BG34_Giant_619",
+		"name": "Timewarped Magnanimoose",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_Giant_376",
-		"name": "Timewarped Deios",
+		"id": "BG34_Giant_619_G",
+		"name": "Timewarped Magnanimoose",
 		"type": "Minion",
 		"set": "Battlegrounds",
 		"techLevel": 5
 	},
 	{
-		"id": "BG34_Giant_121",
-		"name": "Timewarped Probius",
+		"id": "BG34_Anomaly_801",
+		"name": "Boon of Chronum",
+		"type": "Battleground_anomaly",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG34_Anomaly_800",
+		"name": "Major Goldthorn Potion",
+		"type": "Battleground_anomaly",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG34_Anomaly_802",
+		"name": "Major Waygate",
+		"type": "Battleground_anomaly",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG34_Anomaly_805",
+		"name": "Oathstone's Summoning",
+		"type": "Battleground_anomaly",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG34_Anomaly_809",
+		"name": "Unforeseen Portal",
+		"type": "Battleground_anomaly",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG34_Anomaly_804",
+		"name": "Twisting Hourglass",
+		"type": "Battleground_anomaly",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "TOT_105t",
+		"name": "Accelerate",
+		"type": "Spell",
+		"set": "Taverns_of_time"
+	},
+	{
+		"id": "TOT_105t2",
+		"name": "Expedite",
+		"type": "Spell",
+		"set": "Taverns_of_time"
+	},
+	{
+		"id": "BG34_Giant_670",
+		"name": "Timewarped Rodeo Performer",
 		"type": "Minion",
 		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG34_Giant_670_G",
+		"name": "Timewarped Rodeo Performer",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 3
+	},
+	{
+		"id": "BG34_Giant_671",
+		"name": "Timewarped Zerus",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 3
+	},
+	{
+		"id": "BG34_Giant_671_G",
+		"name": "Timewarped Zerus",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 3
+	},
+	{
+		"id": "BG34_Giant_671t",
+		"name": "Timewarped Zerus Activation [DNT]",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG34_Anomaly_800t",
+		"name": "Minor Goldthorn Potion",
+		"type": "Battleground_anomaly",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG34_Giant_674",
+		"name": "Timewarped Icky Imp",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_674_G",
+		"name": "Timewarped Icky Imp",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Treasure_620",
+		"name": "Timewarped Apples",
+		"type": "Battleground_spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG34_Giant_675",
+		"name": "Timewarped Stone Drake",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_675_G",
+		"name": "Timewarped Stone Drake",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_676",
+		"name": "Timewarped Trumpeter",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_676_G",
+		"name": "Timewarped Trumpeter",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_678",
+		"name": "Timewarped Lava Lurker",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_678_G",
+		"name": "Timewarped Lava Lurker",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_686",
+		"name": "Timewarped Swirler",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_686_G",
+		"name": "Timewarped Swirler",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_677",
+		"name": "Timewarped Wargear",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_677_G",
+		"name": "Timewarped Wargear",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_680",
+		"name": "Timewarped Collector",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_680_G",
+		"name": "Timewarped Collector",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_681",
+		"name": "Timewarped Shadequill",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_681_G",
+		"name": "Timewarped Shadequill",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_342",
+		"name": "Timewarped Hag",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_342_G",
+		"name": "Timewarped Hag",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_683",
+		"name": "Timewarped Lucky Egg",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_683_G",
+		"name": "Timewarped Lucky Egg",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_684",
+		"name": "Timewarped Mythrax",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_684_G",
+		"name": "Timewarped Mythrax",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG33_HERO_001p_ALT",
+		"name": "Heroic Inspiration",
+		"type": "Hero_power",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG34_HERO_004",
+		"name": "Morchie",
+		"type": "Hero",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG34_HERO_004p",
+		"name": "Warped Conflux",
+		"type": "Hero_power",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_100",
+		"name": "Unfurled Codex",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_101",
+		"name": "Mageroyal Blossom",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_106",
+		"name": "Gorgeous Goblet",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGS_Treasures_104",
+		"name": "Reserve Prices",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG34_403",
+		"name": "Eternal Tycoon",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_403_G",
+		"name": "Eternal Tycoon",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_402",
+		"name": "Burgeoning Whelp",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_402_G",
+		"name": "Burgeoning Whelp",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_405",
+		"name": "Relentless Deflector",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 3
+	},
+	{
+		"id": "BG34_405_G",
+		"name": "Relentless Deflector",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 3
+	},
+	{
+		"id": "BG34_Treasure_625",
+		"name": "Timewarped Secrecy",
+		"type": "Battleground_spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "HERO_01bkhp_gold",
+		"name": "Armor Up!",
+		"type": "Hero_power",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_01bkhp2_gold",
+		"name": "Tank Up!",
+		"type": "Hero_power",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_05bmhp",
+		"name": "Steady Shot",
+		"type": "Hero_power",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_05bmhp2",
+		"name": "Ballista Shot",
+		"type": "Hero_power",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_05bmhp_gold",
+		"name": "Steady Shot",
+		"type": "Hero_power",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_05bmhp2_gold",
+		"name": "Ballista Shot",
+		"type": "Hero_power",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_01bk_gold",
+		"name": "Lion's Landing Varian",
+		"type": "Hero",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "CRED_348",
+		"name": "Ben Soriano",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_391",
+		"name": "Monica Tran",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_354",
+		"name": "Carol Blean",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_341",
+		"name": "Andrew Chau",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_379",
+		"name": "Jia Dee",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_385",
+		"name": "Julie Kimura",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_398",
+		"name": "Ponappa Somayanda",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_378",
+		"name": "James Jaimes",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_362",
+		"name": "Dana Nuber",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_403",
+		"name": "Ryan Hickman",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_399",
+		"name": "Randy Flores",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_368",
+		"name": "Donia Zosa",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_514",
+		"name": "Thomas Horwath",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_386",
+		"name": "Katie Westbrook",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_375",
+		"name": "Hannah Thomas",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_340",
+		"name": "Allen Koo",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_347",
+		"name": "Ben Paulsen",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_345",
+		"name": "Austin Bressie",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_380",
+		"name": "John Lynk",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_355",
+		"name": "Carol Yin",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_438",
+		"name": "Ryan Bowlin",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_352",
+		"name": "Brian Correia",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_416",
+		"name": "Lea Faske",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_395",
+		"name": "Nate Kaplan",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "CRED_384",
+		"name": "Jordan Budisantoso",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "BG34_407",
+		"name": "Azsharan Veteran",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_407_G",
+		"name": "Azsharan Veteran",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_407t",
+		"name": "Veteran's Tactics",
+		"type": "Spell",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_407_Gt",
+		"name": "Veteran's Tactics",
+		"type": "Spell",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG27_Anomaly_Prizes2",
+		"name": "Darkmoon Faire Prizes",
+		"type": "Battleground_anomaly",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG34_Giant_679",
+		"name": "Timewarped Chimera",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 3
+	},
+	{
+		"id": "BG34_Giant_679_G",
+		"name": "Timewarped Chimera",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 3
+	},
+	{
+		"id": "BG34_270",
+		"name": "Time Snap",
+		"type": "Battleground_spell",
+		"set": "Battlegrounds",
+		"techLevel": 6
+	},
+	{
+		"id": "BG34_781",
+		"name": "Felhorn",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 3
+	},
+	{
+		"id": "BG34_781_G",
+		"name": "Felhorn",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 3
+	},
+	{
+		"id": "BGS_Treasures_110",
+		"name": "Crystallization",
+		"type": "Spell",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG34_Giant_687",
+		"name": "Timewarped Nest Swarmer",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_687_G",
+		"name": "Timewarped Nest Swarmer",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "HERO_09br",
+		"name": "Rapunzel Xyrella",
+		"type": "Hero",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_02bw",
+		"name": "Eternalflame Ragnaros",
+		"type": "Hero",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "TIME_EVENT_300",
+		"name": "Dark Iron Harbinger",
+		"type": "Minion",
+		"set": "Gift"
+	},
+	{
+		"id": "BG34_Giant_801",
+		"name": "Timewarped Astrogill",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "BG34_Giant_801_G",
+		"name": "Timewarped Astrogill",
+		"type": "Minion",
+		"set": "Battlegrounds",
+		"techLevel": 5
+	},
+	{
+		"id": "CRED_389",
+		"name": "Matthieu Roussotte",
+		"type": "Minion",
+		"set": "Credits"
+	},
+	{
+		"id": "HERO_11az",
+		"name": "The Future King",
+		"type": "Hero",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "TB_BaconShop_HERO_52_SKIN_F",
+		"name": "Neltharion the Earth-Warder",
+		"type": "Hero",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGDUO_HERO_222_SKIN_C",
+		"name": "Twilight Cho",
+		"type": "Hero",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BGDUO_HERO_223_SKIN_C",
+		"name": "Twilight Gall",
+		"type": "Hero",
+		"set": "Battlegrounds"
+	},
+	{
+		"id": "BG34_272",
+		"name": "Menagerie Tableware",
+		"type": "Battleground_spell",
+		"set": "Battlegrounds",
+		"techLevel": 7
+	},
+	{
+		"id": "BG20_GEM_No_Impact_No_Target",
+		"name": "Blood Gem No Impact No Target",
+		"type": "Spell",
+		"set": "Demon_hunter_initiate"
+	},
+	{
+		"id": "HERO_05bm",
+		"name": "Lion's Landing Varian",
+		"type": "Hero",
+		"set": "Hero_skins"
+	},
+	{
+		"id": "HERO_05bm_gold",
+		"name": "Lion's Landing Varian",
+		"type": "Hero",
+		"set": "Hero_skins"
 	}
 ]
