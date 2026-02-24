@@ -716,7 +716,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.NagasPride]: [CardIds.NagasPride_LionfishToken],
 	[CardIds.NeeruFireblade_BAR_919]: [
 		CardIds.NeeruFireblade_BurningBladePortalToken,
-		CardIds.RingMatron_FieryImpToken_DMF_533t,
+		CardIds.ImpSwarmRank1_ImpFamiliarToken,
 	],
 	[CardIds.NellieTheGreatThresher]: [CardIds.NellieTheGreatThresher_NelliesPirateShipToken],
 	[CardIds.NobleMount]: [CardIds.NobleMount_CarielsWarhorseToken],
