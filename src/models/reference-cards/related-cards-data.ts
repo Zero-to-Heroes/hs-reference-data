@@ -4403,4 +4403,10 @@ export const RELATED_CARDS_DATA: {
 		CardIds.TwilightTimereaver_FiniteResolve_END_010b,
 		CardIds.TwilightTimereaver_FiniteWill_END_010a,
 	],
+	[CardIds.CorruptGarrosh_DeathwingTheWorldbreaker_HERO_01bh]: [
+		CardIds.WarmasterBlackhorn_CATA_720,
+		CardIds.VictorNefarius_CATA_470,
+		CardIds.VictorNefarius_NefariansCreationToken_CATA_470t1,
+	],
+	[CardIds.VictorNefarius_CATA_470]: [CardIds.VictorNefarius_NefariansCreationToken_CATA_470t1],
 };
