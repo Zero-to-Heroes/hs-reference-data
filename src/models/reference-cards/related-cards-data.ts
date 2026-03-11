@@ -3967,7 +3967,6 @@ export const RELATED_CARDS_DATA: {
 		CardIds.EliseTheNavigator_NestingGroundsToken_TLC_100t15,
 		CardIds.EliseTheNavigator_NestingGroundsToken_TLC_100t25,
 		CardIds.EliseTheNavigator_NestingGroundsToken_TLC_100t35,
-		CardIds.EliseTheNavigator_RadiantCrystalsToken_TLC_100t17,
 		CardIds.EliseTheNavigator_RadiantCrystalsToken_TLC_100t27,
 		CardIds.EliseTheNavigator_RadiantCrystalsToken_TLC_100t37,
 		CardIds.EliseTheNavigator_RunicInscriptionsToken_TLC_100t13,
