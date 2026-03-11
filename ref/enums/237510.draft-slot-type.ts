@@ -1,0 +1,6 @@
+export enum DraftSlotType {
+	DRAFT_SLOT_NONE = 0,
+	DRAFT_SLOT_CARD = 1,
+	DRAFT_SLOT_HERO = 2,
+	DRAFT_SLOT_HERO_POWER = 3,
+}

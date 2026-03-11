@@ -1,6 +1,7 @@
 import { GameFormat, GameType } from '../../public-api';
 
 export type SetId =
+	| 'cataclysm'
 	| 'echoes_of_the_infinite'
 	| 'across_the_timeways'
 	| 'day_of_rebirth'
@@ -71,6 +72,11 @@ export interface ReferenceSet {
 }
 
 export const sets: readonly ReferenceSet[] = [
+	{
+		id: 'cataclysm',
+		name: `Cataclysm`,
+		launchDate: new Date('2026-03-17'),
+	},
 	{
 		id: 'echoes_of_the_infinite',
 		name: `Echoes of the Infinite`,
@@ -405,6 +411,7 @@ const standardBaseSets: readonly SetId[] = [
 	'into_the_emerald_dream',
 	'lost_city_of_ungoro',
 	'across_the_timeways',
+	'cataclysm',
 ];
 export const standardSets: readonly SetId[] = standardBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
@@ -417,14 +424,14 @@ export const twistSets: readonly SetId[] = twistBaseSets
 	.map((setId) => setId as SetId);
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 const arenaBaseSets: readonly SetId[] = [
-	'across_the_timeways',
-	'lost_city_of_ungoro',
-	'into_the_emerald_dream',
-	'caverns_of_time',
-	'taverns_of_time',
-	'titans',
-	'the_sunken_city',
-	'gift',
+	// 'across_the_timeways',
+	// 'lost_city_of_ungoro',
+	// 'into_the_emerald_dream',
+	// 'caverns_of_time',
+	// 'taverns_of_time',
+	// 'titans',
+	// 'the_sunken_city',
+	// 'gift',
 ];
 export const arenaSets: readonly SetId[] = arenaBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
