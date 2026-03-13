@@ -89,6 +89,9 @@ export const boosterIdToSetId = (boosterId: BoosterType): SetId | string => {
 		case BoosterType.ACROSS_THE_TIMEWAYS:
 		case BoosterType.GOLDEN_ACROSS_THE_TIMEWAYS:
 			return 'across_the_timeways';
+		case BoosterType.CATACLYSM:
+		case BoosterType.GOLDEN_CATACLYSM:
+			return 'cataclysm';
 		default:
 			// console.warn('unsupported booster type', boosterId);
 			return null;
@@ -167,6 +170,8 @@ export const getDefaultBoosterIdForSetId = (setId: string): BoosterType => {
 			return BoosterType.THE_LOST_CITY;
 		case 'across_the_timeways':
 			return BoosterType.ACROSS_THE_TIMEWAYS;
+		case 'cataclysm':
+			return BoosterType.CATACLYSM;
 		default:
 			console.warn('no default booster type for set id', setId);
 			return null;
