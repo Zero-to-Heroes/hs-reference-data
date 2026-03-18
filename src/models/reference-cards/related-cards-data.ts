@@ -4486,7 +4486,6 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.CataclysmicWarAxe_CATA_580]: [CardIds.CataclysmicWarAxe_SoldierOfRagnarosToken_CATA_580t],
 	[CardIds.CataclysmicWarAxe_SoldierOfRagnarosToken_CATA_580t]: [CardIds.CataclysmicWarAxe_CATA_580],
 	[CardIds.ShadowswornDisciple_CATA_725]: [CardIds.ShadowswornDisciple_SoldierOfChogallToken_CATA_725t],
-	[CardIds.ShadowswornDisciple_SoldierOfChogallToken_CATA_725t]: [CardIds.ShadowswornDisciple_CATA_725],
 	[CardIds.ObsessiveTechnician_CATA_780]: [CardIds.ObsessiveTechnician_SoldierOfOnyxiaToken_CATA_780t],
 	[CardIds.ObsessiveTechnician_SoldierOfOnyxiaToken_CATA_780t]: [CardIds.ObsessiveTechnician_CATA_780],
 	[CardIds.AlakirLordOfStorms_CATA_153]: [
