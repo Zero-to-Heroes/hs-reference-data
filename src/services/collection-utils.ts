@@ -94,7 +94,7 @@ export const boosterIdToSetId = (boosterId: BoosterType): SetId | string => {
 			return 'cataclysm';
 		default:
 			// console.warn('unsupported booster type', boosterId);
-			return null;
+			return BoosterType[BoosterType[boosterId]].toLowerCase();
 	}
 };
 

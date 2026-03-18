@@ -405,9 +405,6 @@ export const wildSets: readonly SetId[] = sets.map((s) => s.id);
 const standardBaseSets: readonly SetId[] = [
 	'core',
 	'gift',
-	'whizbangs_workshop',
-	'perils_in_paradise',
-	'great_dark_beyond',
 	'into_the_emerald_dream',
 	'lost_city_of_ungoro',
 	'across_the_timeways',
