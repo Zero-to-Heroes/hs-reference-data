@@ -528,6 +528,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.FindTheImposter_SpymasterScabbsToken]: [...SPY_GIZMOS],
 	[CardIds.FireworkElemental]: [CardIds.FireworkElemental_FireworkElementalToken],
 	[CardIds.FirstFlame]: [CardIds.FirstFlame_SecondFlameToken],
+	[CardIds.FirstFlame_CORE_SW_108]: [CardIds.FirstFlame_SecondFlameToken],
 	[CardIds.FlankingManeuver_AV_269]: [CardIds.FlankingManeuver_AV_269],
 	[CardIds.FleethoofPearltusk]: [CardIds.FleethoofPearltusk_FleethoofPearltuskToken],
 	[CardIds.FlightmasterDungar]: [
@@ -607,6 +608,11 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.Impfestation]: [CardIds.DreadlichTamsin_DreadImpToken],
 	[CardIds.ImmortalizedInStone]: [
+		CardIds.ImmortalizedInStone_LivingStatueToken,
+		CardIds.ImmortalizedInStone_PristineStatueToken,
+		CardIds.ImmortalizedInStone_WornStatueToken,
+	],
+	[CardIds.ImmortalizedInStone_CORE_TSC_076]: [
 		CardIds.ImmortalizedInStone_LivingStatueToken,
 		CardIds.ImmortalizedInStone_PristineStatueToken,
 		CardIds.ImmortalizedInStone_WornStatueToken,
@@ -826,6 +832,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.Tickatus_DMF_118]: [CardIds.Tickatus_TickatusToken],
 	[CardIds.TicketMaster]: [CardIds.TicketMaster_TicketsToken, CardIds.TicketMaster_PlushBearToken],
 	[CardIds.VeteranWarmedic]: [CardIds.VeteranWarmedic_BattlefieldMedicToken],
+	[CardIds.VeteranWarmedic_CORE_BAR_878]: [CardIds.VeteranWarmedic_BattlefieldMedicToken],
 	[CardIds.VibrantSquirrel]: [CardIds.VibrantSquirrel_AcornToken, CardIds.VibrantSquirrel_SatisfiedSquirrelToken],
 	[CardIds.VibrantSquirrel_CORE_SW_439]: [
 		CardIds.VibrantSquirrel_AcornToken,
@@ -961,6 +968,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.CursedVagrant]: [CardIds.CursedVagrant_CursedShadowToken],
 	[CardIds.CoilfangWarlord]: [CardIds.CoilfangWarlord_ConchguardWarlordToken],
 	[CardIds.DeepFreeze]: [CardIds.WaterElemental_CORE_CS2_033],
+	[CardIds.DeepFreeze_CORE_BT_072]: [CardIds.WaterElemental_CORE_CS2_033],
 	[CardIds.EnhancedDreadlordCore]: [CardIds.EnhancedDreadlord_DesperateDreadlordToken],
 	[CardIds.EnhancedDreadlord]: [CardIds.EnhancedDreadlord_DesperateDreadlordToken],
 	[CardIds.LibramOfHope]: [CardIds.LibramOfHope_AncientGuardianToken],
@@ -1349,6 +1357,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.VioletWurm_LOOT_153]: [CardIds.VioletWurm_GrubToken],
 	[CardIds.DragoncallerAlanna]: [CardIds.DragoncallerAlanna_FireDragonToken],
 	[CardIds.Voidlord_LOOT_368]: [CardIds.VoidwalkerLegacy_CS2_065],
+	[CardIds.Voidlord_CORE_LOOT_368]: [CardIds.VoidwalkerLegacy_CS2_065],
 	[CardIds.DruidOfTheSwarm_CORE_ICC_051]: [
 		CardIds.DruidOfTheSwarm_DruidOfTheSwarmToken_ICC_051t,
 		CardIds.DruidOfTheSwarm_DruidOfTheSwarmToken_ICC_051t2,
@@ -1596,7 +1605,8 @@ export const RELATED_CARDS_DATA: {
 		CardIds.XarilPoisonedMind_FirebloomToxin,
 		CardIds.XarilPoisonedMind_KingsbloodToxin,
 	],
-	[CardIds.HammerOfTwilight]: [CardIds.HammerOfTwilight],
+	[CardIds.HammerOfTwilight]: [CardIds.HammerOfTwilight_TwilightElemental],
+	[CardIds.HammerOfTwilight_CORE_OG_031]: [CardIds.HammerOfTwilight_TwilightElemental],
 	[CardIds.StandAgainstDarkness_OG_273]: [CardIds.SilverHandRecruitLegacyToken],
 	[CardIds.MuklaTyrantOfTheVale]: [CardIds.KingMukla_BananasLegacyToken],
 	[CardIds.KingMuklaLegacy]: [CardIds.KingMukla_BananasLegacyToken],
@@ -1614,6 +1624,7 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.CairneBloodhoofCore]: [CardIds.CairneBloodhoof_BaineBloodhoofLegacyToken],
 	[CardIds.CairneBloodhoofLegacy]: [CardIds.CairneBloodhoof_BaineBloodhoofLegacyToken],
 	[CardIds.CallOfTheWild]: ANIMAL_COMPANION_TOKENS,
+	[CardIds.CallOfTheWild_CORE_OG_211]: ANIMAL_COMPANION_TOKENS,
 	[CardIds.BloodOfTheAncientOne]: [CardIds.BloodOfTheAncientOne_TheAncientOne],
 	[CardIds.RavenIdol]: [CardIds.RavenIdol_Awakened, CardIds.RavenIdol_BreakFree],
 	[CardIds.RavenIdol_Core_LOE_115]: [CardIds.RavenIdol_Awakened, CardIds.RavenIdol_BreakFree],
@@ -2516,7 +2527,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.AncientsMelody_AncientToken,
 		CardIds.GiantsDance_GiantToken,
 		CardIds.RhythmAndRoots_GiantsDance,
-		CardIds.RhythmAndRoots_RhythmAndRootsToken,
+		CardIds.RhythmAndRoots_AncientsMelody,
 	],
 	[CardIds.TimberTambourine]: [CardIds.AncientsMelody_AncientToken],
 	[CardIds.DrumCircle_TreantToken]: [CardIds.DrumCircle],
@@ -2858,6 +2869,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.EonarTheLifeBinder_TimelessAncientToken,
 	],
 	[CardIds.EredarDeceptor]: [CardIds.EredarDeceptor_InvadingFelbatToken],
+	[CardIds.EredarDeceptor_CORE_TTN_843]: [CardIds.EredarDeceptor_InvadingFelbatToken],
 	[CardIds.Eulogizer]: [CardIds.Eulogizer_EulogizerToken],
 	[CardIds.ForestSeedlings]: [
 		CardIds.ForestSeedlings_SaplingToken,
@@ -4604,7 +4616,6 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.RemorniaLivingBlade]: [CardIds.RemorniaLivingBlade_RemorniaLivingBladeToken],
 	[CardIds.RemorniaLivingBlade_CORE_REV_316]: [CardIds.RemorniaLivingBlade_RemorniaLivingBladeToken],
 	[CardIds.RemorniaLivingBlade_RemorniaLivingBladeToken]: [CardIds.RemorniaLivingBlade],
-	[CardIds.RitualOfPower_CATA_561]: [CardIds.RitualOfPower_BreezlingToken_CATA_561t],
 	[CardIds.DeathwingWorldbreaker_CATA_190h]: [
 		CardIds.Ruthless_CATA_190p,
 		CardIds.DragonsReignToken_CATA_190t10,
