@@ -1,6 +1,6 @@
 import { BoosterType, SetId } from '../public-api';
 
-export const boosterIdToSetId = (boosterId: BoosterType): SetId | string => {
+export const boosterIdToSetId = (boosterId: BoosterType): SetId | string | null => {
 	switch (boosterId) {
 		case BoosterType.MERCENARIES:
 			return 'lettuce';
@@ -93,8 +93,8 @@ export const boosterIdToSetId = (boosterId: BoosterType): SetId | string => {
 		case BoosterType.GOLDEN_CATACLYSM:
 			return 'cataclysm';
 		default:
-			// console.warn('unsupported booster type', boosterId);
-			return BoosterType[BoosterType[boosterId]].toLowerCase();
+			console.warn('unsupported booster type', boosterId);
+			return BoosterType[BoosterType[boosterId]]?.toLowerCase?.() ?? null;
 	}
 };
 
