@@ -1,7 +1,7 @@
 import { Sideboard } from '@firestone-hs/deckstrings';
 import { CardIds } from '../card-ids';
 import { ReferenceCard } from '../models/reference-cards/reference-card';
-import { GameFormat } from '../public-api';
+import { GameFormat, GameTag, hasMechanic } from '../public-api';
 import { CardsForDeckbuildingService } from './cards-for-deckbuilding.service';
 import { httpWithRetries } from './utils';
 
@@ -148,7 +148,7 @@ export class AllCardsService {
 // The spellstones are present in the AI decklist in their basic version
 // However, if the AI plays the spellstone's upgraded version, we need to remove
 // the basic one from the decklist
-export const getBaseCardId = (cardId: string): string => {
+export const getBaseCardId = (cardId: string, allCards: AllCardsService): string => {
 	if (!cardId) {
 		return null;
 	}
@@ -497,6 +497,15 @@ export const getBaseCardId = (cardId: string): string => {
 	}
 	if (cardId.startsWith(CardIds.ZilliaxDeluxe3000_TOY_330)) {
 		return CardIds.ZilliaxDeluxe3000_TOY_330;
+	}
+	const refCard = allCards.getCard(cardId);
+	if (hasMechanic(refCard, GameTag.SHATTERED)) {
+		// Shattered cards have an id like CATA_134t or CATA_134t2, we need to get the base card id,
+		// which is CATA_134
+		const baseCardId = cardId.replace(/t\d*$/, '');
+		if (baseCardId !== cardId) {
+			return baseCardId;
+		}
 	}
 
 	return cardId;
