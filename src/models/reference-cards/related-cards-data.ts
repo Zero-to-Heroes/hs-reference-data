@@ -33,11 +33,11 @@ const DREAM_CARDS = [
 	CardIds.YseraAwakensLegacy,
 ];
 const CORRUPTED_DREAM_CARDS = [
-	CardIds.Shaladrassil_CorruptedNightmareToken_EDR_846t1,
 	CardIds.Shaladrassil_CorruptedDreamToken_EDR_846t2,
-	CardIds.Shaladrassil_CorruptedLaughingSisterToken_EDR_846t3,
-	CardIds.Shaladrassil_CorruptedAwakeningToken_EDR_846t4,
 	CardIds.Shaladrassil_CorruptedDrakeToken_EDR_846t5,
+	CardIds.Shaladrassil_CorruptedLaughingSisterToken_EDR_846t3,
+	CardIds.Shaladrassil_CorruptedNightmareToken_EDR_846t1,
+	CardIds.Shaladrassil_CorruptedAwakeningToken_EDR_846t4,
 ];
 const LACKEY_TOKENS = [
 	CardIds.DraconicLackey,
