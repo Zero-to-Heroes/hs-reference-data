@@ -1768,6 +1768,8 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.AnimalCompanionLegacy]: ANIMAL_COMPANION_TOKENS,
 	[CardIds.WrathCore]: [CardIds.Wrath_NaturesWrathLegacy, CardIds.Wrath_SolarWrathLegacy],
 	[CardIds.WrathLegacy]: [CardIds.Wrath_NaturesWrathLegacy, CardIds.Wrath_SolarWrathLegacy],
+	[CardIds.KeeperOfTheGroveLegacy]: [CardIds.KeeperOfTheGrove_MoonfireLegacy, CardIds.KeeperOfTheGrove_DispelLegacy],
+	[CardIds.KeeperOfTheGroveVanilla]: [CardIds.KeeperOfTheGrove_MoonfireVanilla, CardIds.KeeperOfTheGrove_DispelVanilla],
 	[CardIds.PowerOfTheWildCore]: [
 		CardIds.PowerOfTheWild_LeaderOfThePackLegacy,
 		CardIds.PowerOfTheWild_SummonAPantherLegacy,
