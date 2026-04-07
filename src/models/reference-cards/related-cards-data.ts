@@ -4427,6 +4427,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.TwilightTimereaver_FiniteWill_END_010a,
 	],
 	// CATA expansion
+	[CardIds.AgentOfTheOldOnes_CATA_200]: [CardIds.TheCoinCore],
 	[CardIds.NespirahEnthralled_CATA_527]: [CardIds.NespirahEnthralled_NespirahUnshackledToken_CATA_527t2],
 	[CardIds.NespirahEnthralled_NespirahUnshackledToken_CATA_527t2]: [CardIds.NespirahEnthralled_CATA_527],
 	[CardIds.ArisenOnyxia_CATA_155]: [
