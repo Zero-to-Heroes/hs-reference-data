@@ -4326,7 +4326,10 @@ export const RELATED_CARDS_DATA: {
 		CardIds.Broxigar_FinalPortalToArgusToken_TIME_020t5,
 		CardIds.FinalPortalToArgus_FleeingTerrorguardToken_TIME_020t5t,
 	],
-	[CardIds.HoundsOfFury_TIME_443]: [CardIds.HoundsOfFury_SargeranFelhoundToken_TIME_443t],
+	[CardIds.HoundsOfFury_TIME_443]: [
+		CardIds.HoundsOfFury_SargeranFelhoundToken_TIME_443t,
+		CardIds.HoundsOfFury_SargeranFelhoundToken_TIME_443t2,
+	],
 	[CardIds.UnleashTheCrocolisks_TIME_873]: [CardIds.UnleashTheCrocolisks_ColiseumCrocoliskToken_TIME_873t],
 	[CardIds.GladiatorialCombat_TIME_870]: [CardIds.GladiatorialCombat_ColiseumTigerToken_TIME_870t],
 	[CardIds.LogoshBloodFighter_TIME_850]: [
