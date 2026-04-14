@@ -489,6 +489,8 @@ export const getBaseCardId = (cardId: string, allCards: AllCardsService): string
 			return CardIds.Thor_SC_414;
 		case CardIds.WishOfTheNewMoon_WishOfTheFullMoonToken_EDR_460t:
 			return CardIds.WishOfTheNewMoon_EDR_460;
+		case CardIds.RitualOfTheNewMoon_RitualOfTheFullMoonToken_EDR_461t:
+			return CardIds.RitualOfTheNewMoon_EDR_461;
 	}
 
 	// Transfer Student should be handled on a case by case basis
