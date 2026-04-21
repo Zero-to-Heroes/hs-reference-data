@@ -4086,7 +4086,6 @@ export const RELATED_CARDS_DATA: {
 		CardIds.TreasureHunterEudora_MutatingInjectionToken_VAC_464t3,
 		CardIds.TreasureHunterEudora_HiltOfQueldelarToken_VAC_464t30,
 		CardIds.TreasureHunterEudora_QueldelarToken_VAC_464t31,
-		CardIds.Queldelar_ForgingQueldelarToken_VAC_464t31t,
 		CardIds.TreasureHunterEudora_TheExorcisorToken_VAC_464t4,
 		CardIds.TreasureHunterEudora_PureColdToken_VAC_464t5,
 		CardIds.TreasureHunterEudora_BubbaToken_VAC_464t6,
