@@ -2429,7 +2429,6 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.SunfireSmithing]: [CardIds.SunfireSmithing_FlambergeToken],
 	[CardIds.Thoribelore]: [
 		CardIds.Thoribelore_PhoenixEggToken_RLK_604t,
-		CardIds.Thoribelore_PhoenixEggToken_RLK_604t2,
 	],
 	[CardIds.EmbersOfStrength]: [CardIds.EmbersOfStrength_EmberboundGuardToken],
 	[CardIds.Prescience]: [CardIds.Prescience_GhastlyApparitionToken],
