@@ -1,10 +1,9 @@
 import cards from '../src/cards.json';
 import { CardIds, RELATED_CARDS_DATA } from '../src/public-api';
 
-const test = async () => {
+const test = () => {
 	const expected = [CardIds.PortalKeeper_FelhoundPortalToken, CardIds.PortalKeeper_FelhoundToken];
 	const actual = RELATED_CARDS_DATA[CardIds.PortalOverfiend];
-	console.log('portal overfiend related cards', actual);
 	if (JSON.stringify(actual) !== JSON.stringify(expected)) {
 		console.error('Expected', expected);
 		console.error('Actual', actual);
