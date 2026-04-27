@@ -1,7 +1,7 @@
 import cards from '../src/cards.json';
 import { CardIds, RELATED_CARDS_DATA } from '../src/public-api';
 
-const test = () => {
+const validatePortalOverfiendRelatedCards = () => {
 	const expected = [CardIds.PortalKeeper_FelhoundPortalToken, CardIds.PortalKeeper_FelhoundToken];
 	const actual = RELATED_CARDS_DATA[CardIds.PortalOverfiend];
 	if (JSON.stringify(actual) !== JSON.stringify(expected)) {
@@ -18,4 +18,4 @@ const test = () => {
 	}
 };
 
-test();
+validatePortalOverfiendRelatedCards();
