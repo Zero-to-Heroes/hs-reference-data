@@ -4,7 +4,11 @@ import { CardIds, RELATED_CARDS_DATA } from '../src/public-api';
 const validatePortalOverfiendRelatedCards = () => {
 	const expected = [CardIds.PortalKeeper_FelhoundPortalToken, CardIds.PortalKeeper_FelhoundToken];
 	const actual = RELATED_CARDS_DATA[CardIds.PortalOverfiend];
-	if (JSON.stringify(actual) !== JSON.stringify(expected)) {
+
+	if (!actual) {
+		throw new Error('Portal Overfiend related cards are missing');
+	}
+	if (actual.length !== expected.length || actual.some((cardId, index) => cardId !== expected[index])) {
 		console.error('Expected', expected);
 		console.error('Actual', actual);
 		throw new Error('Portal Overfiend related cards are incorrect');
