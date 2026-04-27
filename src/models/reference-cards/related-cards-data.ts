@@ -1143,7 +1143,7 @@ export const RELATED_CARDS_DATA: {
 		CardIds.ZarogsCrown,
 	],
 	[CardIds.MadSummoner]: [CardIds.MadSummoner_ImpToken],
-	// [CardIds.PortalOverfiend]: [CardIds.DemonToken],
+	[CardIds.PortalOverfiend]: [CardIds.PortalKeeper_FelhoundPortalToken, CardIds.PortalKeeper_FelhoundToken],
 	[CardIds.Safeguard_DAL_088]: [CardIds.Safeguard_VaultSafeToken_DAL_088t2],
 	[CardIds.UnidentifiedContract]: [
 		CardIds.UnidentifiedContract_AssassinsContractToken,
