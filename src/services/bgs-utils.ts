@@ -196,17 +196,20 @@ export const defaultStartingHp = (
 	return 30;
 };
 
-export const isBattlegrounds = (gameType: GameType): boolean => {
-	return [
-		GameType.GT_BATTLEGROUNDS,
-		GameType.GT_BATTLEGROUNDS_FRIENDLY,
-		GameType.GT_BATTLEGROUNDS_AI_VS_AI,
-		GameType.GT_BATTLEGROUNDS_PLAYER_VS_AI,
-		GameType.GT_BATTLEGROUNDS_DUO,
-		GameType.GT_BATTLEGROUNDS_DUO_VS_AI,
-		GameType.GT_BATTLEGROUNDS_DUO_FRIENDLY,
-		GameType.GT_BATTLEGROUNDS_DUO_AI_VS_AI,
-	].includes(gameType as GameType);
+export const isBattlegrounds = (gameType: GameType | string): boolean => {
+	return (
+		[
+			GameType.GT_BATTLEGROUNDS,
+			GameType.GT_BATTLEGROUNDS_FRIENDLY,
+			GameType.GT_BATTLEGROUNDS_AI_VS_AI,
+			GameType.GT_BATTLEGROUNDS_PLAYER_VS_AI,
+			GameType.GT_BATTLEGROUNDS_DUO,
+			GameType.GT_BATTLEGROUNDS_DUO_VS_AI,
+			GameType.GT_BATTLEGROUNDS_DUO_FRIENDLY,
+			GameType.GT_BATTLEGROUNDS_DUO_AI_VS_AI,
+		].includes(gameType as GameType) ||
+		['battlegrounds', 'battlegrounds-duo', 'battlegrounds-friendly'].includes(gameType as string)
+	);
 };
 
 export const isBattlegroundsDuo = (gameType: GameType): boolean => {

@@ -93,7 +93,7 @@ export const boosterIdToSetId = (boosterId: BoosterType): SetId | string | null 
 		case BoosterType.GOLDEN_CATACLYSM:
 			return 'cataclysm';
 		default:
-			const result = BoosterType[BoosterType[boosterId]]?.toLowerCase?.() ?? null;
+			const result = BoosterType[boosterId]?.toLowerCase?.() ?? null;
 			if (!result) {
 				console.warn('unsupported booster type', boosterId);
 			}
