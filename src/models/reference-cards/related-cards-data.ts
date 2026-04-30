@@ -4140,7 +4140,9 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.SkyAdmiralRogers_BG33_823_G]: BACON_BOUNTY,
 	[CardIds.PursuitOfJustice]: [CardIds.SilverHandRecruitLegacyToken],
 	[CardIds.PursuitOfJusticeLegacy_CS3_029]: [CardIds.SilverHandRecruitLegacyToken],
+	[CardIds.PolymorphLegacy]: [CardIds.SheepLegacy],
 	[CardIds.Polymorph]: [CardIds.SheepLegacy],
+	[CardIds.Polymorph_TUTR_CS2_022]: [CardIds.SheepLegacy],
 	[CardIds.HornOfFeasting_DINO_136]: [CardIds.HornOfFeasting_RavenousRaptorToken_DINO_136t],
 	[CardIds.LongneckEgg_DINO_130]: [CardIds.LongneckEgg_LittleLongneckToken_DINO_130t],
 	[CardIds.TheEggOfKhelos_DINO_410]: [
