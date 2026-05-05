@@ -4688,4 +4688,6 @@ export const RELATED_CARDS_DATA: {
 		CardIds.ProgenyOfDeathwingToken_CATA_190t14,
 	],
 	[CardIds.RehgarEarthfury_CORE_CATA_004]: [CardIds.LightningBoltCore],
+	[CardIds.BashanaRunetotem_MEND_046]: [CardIds.BashanaRunetotem_TreantToken_MEND_046t],
+	[CardIds.CultivatingSprite_MEND_100]: [CardIds.CultivatingSprite_BloomingBulbToken_MEND_100t],
 };
