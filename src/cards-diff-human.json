@@ -1,1020 +1,428 @@
 [
 	{
-		"name": "Kalecgos, Arcane Aspect",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 4,
-		"health": 12,
-		"text": "[x]After you trigger a <b>Battlecry</b>,\ngive your Dragons +2/+2."
+		"name": "Blessing of the Moon",
+		"set": "Into_the_emerald_dream",
+		"cost": 2,
+		"text": "[x]Choose a playable Priest\nminion or spell to add to\nyour hand. It costs (<b>1</b>) less,\nbut is <b>Temporary</b>."
 	},
 	{
-		"name": "Kalecgos, Arcane Aspect",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 8,
-		"health": 24,
-		"text": "[x]After you trigger a <b>Battlecry</b>,\ngive your Dragons +4/+4."
+		"name": "Blessing of the Bronze",
+		"set": "Echoes_of_the_infinite",
+		"cost": 1,
+		"text": "[x]<b>Rewind</b>\nGet a random minion\nfrom another class.\nIt costs (<b>1</b>) less."
 	},
 	{
-		"name": "Repeat Customer",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"text": "Return a friendly non-Golden minion to your hand. Give it +6/+6."
+		"name": "Blessing of the Infinite",
+		"set": "Echoes_of_the_infinite",
+		"text": "<b>Passive</b>\nThe first Undead you\nplay each turn gains\n+<b>1</b> Attack."
 	},
 	{
-		"name": "Darkgaze Elder",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 8,
-		"text": "[x]Whenever you spend {2} Gold,\nthis plays two <b>Blood Gem</b>\non all your Quilboar.\n<i>(8 Gold left!)</i>"
-	},
-	{
-		"name": "Darkgaze Elder",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 12,
-		"health": 16,
-		"text": "[x]Whenever you spend {2} Gold,\nthis plays four <b>Blood Gems</b>\non all your Quilboar.\n<i>(8 Gold left!)</i>"
-	},
-	{
-		"name": "Sinrunner Blanchy",
+		"name": "P-0UL-TR-0N",
 		"set": "Battlegrounds",
 		"cost": 0,
 		"attack": 8,
 		"health": 8,
-		"text": "<b>Reborn</b>. This is <b>Reborn</b> with full stats and <b>Bonus Keywords</b>."
+		"text": "[x]<b>Avenge (4):</b> Gain\n<b>Divine Shield</b> and attack\nimmediately."
 	},
 	{
-		"name": "Sinrunner Blanchy",
+		"name": "P-0UL-TR-0N",
 		"set": "Battlegrounds",
 		"cost": 0,
 		"attack": 16,
 		"health": 16,
-		"text": "<b>Reborn</b>. This is <b>Reborn</b> with full stats and <b>Bonus Keywords</b>."
+		"text": "[x]<b>Avenge (4):</b> Gain\n<b>Divine Shield</b> and attack\nimmediately, twice."
 	},
 	{
-		"name": "Eternal Knight",
-		"set": "Battlegrounds",
-		"cost": 0,
+		"name": "Sylvanas's Triumph",
+		"set": "Cataclysm",
+		"cost": 2,
+		"text": "[x]Deal $3 damage.\nIf you've played\nanother copy of this,\n hit all enemies instead."
+	},
+	{
+		"name": "Red Aspect Essence",
+		"set": "Gift",
+		"cost": 6,
+		"text": "[x]Deal $8 damage\nto an enemy.\nCast every adjoining\nAspect Essence."
+	},
+	{
+		"name": "Blue Aspect Essence",
+		"set": "Gift",
+		"cost": 6,
+		"text": "[x]Draw 3 spells.\nCast every adjoining\nAspect Essence."
+	},
+	{
+		"name": "Bronze Aspect Essence",
+		"set": "Gift",
+		"cost": 6,
+		"text": "[x]Refresh 7 Mana Crystals.\nCast every adjoining\nAspect Essence."
+	},
+	{
+		"name": "Black Aspect Essence",
+		"set": "Gift",
+		"cost": 6,
+		"text": "[x]Gain 12 Armor.\nCast every adjoining\nAspect Essence."
+	},
+	{
+		"name": "Green Aspect Essence",
+		"set": "Gift",
+		"cost": 6,
+		"text": "[x]Summon an 8/8 Dragon.\nCast every adjoining\nAspect Essence."
+	},
+	{
+		"name": "Dragon Soul, Shattered",
+		"set": "Gift",
+		"cost": 6,
+		"text": "[x]<b>Start of Game</b>:\nBreak into 6 Essences.\nAdjoining Essences\nare cast together."
+	},
+	{
+		"name": "Storm Aspect Essence",
+		"set": "Gift",
+		"cost": 6,
+		"text": "[x]Deal $3 damage to\nall enemy minions.\nCast every adjoining\nAspect Essence."
+	},
+	{
+		"name": "Ash Worm",
+		"set": "Cataclysm",
+		"cost": 1,
+		"attack": 6,
+		"health": 6,
+		"text": "[x]Starts <b>Dormant</b>.\nWhen your board is\nfull, awaken."
+	},
+	{
+		"name": "Wizened Wildspeaker",
+		"set": "Cataclysm",
+		"cost": 5,
+		"attack": 3,
+		"health": 7,
+		"text": "[x]<b>Taunt</b>\n<b>Battlecry:</b> If you didn't play\na minion last turn, refresh\n3 Mana Crystals."
+	},
+	{
+		"name": "Heartroot Stones",
+		"set": "Cataclysm",
+		"cost": 3,
+		"text": "Draw a card and gain 3 Armor. If you didn't play a minion\nlast turn, do it again."
+	},
+	{
+		"name": "Seeding Dragon",
+		"set": "Cataclysm",
+		"cost": 4,
 		"attack": 4,
-		"health": 2,
-		"text": "[x]Has +4/+2 for each friendly\nEternal Knight that died this\n game <i>(wherever this is)</i>."
-	},
-	{
-		"name": "Eternal Knight",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 8,
 		"health": 4,
-		"text": "[x]Has +8/+4 for each friendly\nEternal Knight that died this\n game <i>(wherever this is)</i>."
+		"text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Get a random\n Dragon. It costs (2) less."
 	},
 	{
-		"name": "Deep Blue Crooner",
-		"set": "Battlegrounds",
-		"cost": 0,
+		"name": "Tranquil Clearing",
+		"set": "Cataclysm",
+		"cost": 2,
+		"health": 2,
+		"text": "[x]Give a minion +2\nHealth and <b>Taunt</b>.\nIt falls asleep until the\nend of your next turn."
+	},
+	{
+		"name": "Lifebloom",
+		"set": "Cataclysm",
+		"cost": 9,
+		"text": "[x]Restore #8 Health to\nall friendly characters.\nSummon two random\n8-Cost minions."
+	},
+	{
+		"name": "Tame Pet",
+		"set": "Cataclysm",
+		"cost": 1,
+		"text": "[x]Replace your future\nAnimal Companions with\nrandom Beasts that cost\n(1) more. Draw a card."
+	},
+	{
+		"name": "Spiritspeaker",
+		"set": "Cataclysm",
+		"cost": 4,
 		"attack": 2,
 		"health": 2,
-		"text": "<b>Spellcraft:</b> Give a minion +2/+2 until next turn. Improve your future Deep Blues."
+		"text": "<b>Battlecry:</b> Choose an Animal Companion to summon."
 	},
 	{
-		"name": "Deep Blue Crooner",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 4,
-		"health": 4,
-		"text": "<b>Spellcraft:</b> Give a minion +4/+4 until next turn. Improve your future Deep Blues."
-	},
-	{
-		"name": "Gunpowder Courier",
-		"set": "Battlegrounds",
-		"cost": 0,
+		"name": "Wasteland Vanguard",
+		"set": "Cataclysm",
+		"cost": 4,
 		"attack": 3,
-		"health": 6,
-		"text": "[x]Whenever you spend 6 Gold,\ngive your Pirates +{2} Attack.\n<i>(6 Gold left!)</i>"
-	},
-	{
-		"name": "Gunpowder Courier",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 12,
-		"text": "[x]Whenever you spend 6 Gold,\ngive your Pirates +{2} Attack\ntwice. <i>(6 Gold left!)</i>"
-	},
-	{
-		"name": "Deep Blues",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"text": "Give a minion +{0}/+{1} until next turn. Improve your future Deep Blues."
-	},
-	{
-		"name": "Deep Blues",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"text": "Give a minion +{0}/+{1} until next turn. Improve your future Deep Blues."
-	},
-	{
-		"name": "Staff of Enrichment",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "Give minions in the Tavern +{0}/+{1}\nthis game."
-	},
-	{
-		"name": "Iridescent Skyblazer",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 3,
-		"health": 8,
-		"text": "[x]Whenever a friendly Beast\ntakes damage, give a\nfriendly Beast other than it\n+3/+2 permanently."
-	},
-	{
-		"name": "Iridescent Skyblazer",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 16,
-		"text": "[x]Whenever a friendly Beast\ntakes damage, give a\nfriendly Beast other than it\n+6/+4 permanently."
-	},
-	{
-		"name": "Living Azerite",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 5,
-		"text": "Whenever you cast a Tavern spell, give Elementals in the Tavern +3/+2 this game."
-	},
-	{
-		"name": "Living Azerite",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 12,
-		"health": 10,
-		"text": "Whenever you cast a Tavern spell, give Elementals in the Tavern +3/+2 this game twice."
-	},
-	{
-		"name": "Diremuck Forager",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 5,
-		"health": 6,
-		"text": "<b>Start of Combat:</b> When you have space, summon the highest-Attack Murloc from your hand\nfor this combat only."
-	},
-	{
-		"name": "Diremuck Forager",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 10,
-		"health": 12,
-		"text": "<b>Start of Combat:</b> When you have space, summon the two highest-Attack Murlocs from your hand\nfor this combat only."
-	},
-	{
-		"name": "Reinforced Shield",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "[x]Whenever you summon\na minion, give it <b>Divine\nShield</b>. <i>(5 times per\ncombat.)</i>"
-	},
-	{
-		"name": "Rewinder Portrait",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]Get a Soul Rewinder\nand a Wrath Weaver.\nYour Soul Rewinders\nalso gain Attack."
-	},
-	{
-		"name": "Dragonwing Glider",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "Whenever you play a card, give a friendly Dragon +3/+1."
-	},
-	{
-		"name": "Booty Bay Brew",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "Whenever you spend Gold, give a friendly Pirate +3/+2."
-	},
-	{
-		"name": "Holy Mallet",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]<b>Start of Combat:</b> Give\nyour left and right-most\nminions <b>Divine Shield</b>."
-	},
-	{
-		"name": "Lucky Tabby",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "After 6 friendly minions die, get a random Beast. <i>(6 left!)</i>"
-	},
-	{
-		"name": "Lava Lamp",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "After you sell 5 minions, get a random Elemental. <i>(5 left!)</i>"
-	},
-	{
-		"name": "Hoggy Bank",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "[x]<b>Start of Combat:</b>\nGive your Quilboar\n\"<b>Deathrattle:</b> Get 2\n<b>Blood Gems</b>.\""
-	},
-	{
-		"name": "Rusty Trident",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]<b>Start of Combat:</b> Give your\nNaga \"<b>Deathrattle:</b> Get a\nrandom <b>Spellcraft</b> spell.\""
-	},
-	{
-		"name": "Lorewalker Scroll",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "[x]Whenever you cast a\nspell on a minion,\ngive it +2/+2."
-	},
-	{
-		"name": "Blingtron's Sunglasses",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "[x]After you summon a Mech\nin combat, give a friendly\nMech <b>Divine Shield</b>."
-	},
-	{
-		"name": "Peacebloom Candle",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "The first 3 Tavern spells you buy each turn are free. <i>(3 left!)</i>"
-	},
-	{
-		"name": "Balladist Portrait",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "[x]Get a Lovesick Balladist.\nAt the start of each turn,\nget another. Your Lovesick\n Balladists also give Attack."
-	},
-	{
-		"name": "Tiger Carving",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "[x]Whenever a friendly minion\ntakes damage, give a\nrandom friendly minion\n+2 Attack permanently."
-	},
-	{
-		"name": "Staff of the Scourge",
-		"set": "Battlegrounds",
-		"cost": 5,
-		"text": "<b>Avenge (5):</b> Give a random friendly Undead <b>Reborn</b>."
-	},
-	{
-		"name": "Goldenizer Supply",
-		"set": "Battlegrounds",
-		"text": "At the end of every 3 turns, get a Goldenizer. <i>(3 turns left!)</i>"
-	},
-	{
-		"name": "Alliance Keychain",
-		"set": "Battlegrounds",
-		"text": "[x]The first time a friendly\nminion dies each combat,\ngive its maximum stats to\na random friendly minion."
-	},
-	{
-		"name": "The Eye of Dalaran",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"text": "[x]Whenever a friendly\nminion with no type dies,\nget a random Tavern spell."
-	},
-	{
-		"name": "Shaker Portrait",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "[x]Get a Zesty Shaker. Your\nZesty Shakers give an\nextra copy of the spell."
-	},
-	{
-		"name": "Catacomb Crasher",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 4,
-		"health": 10,
-		"text": "[x]Whenever you would summon\na minion that doesn't fit in your\nwarband, give your minions\n+2/+2 permanently."
-	},
-	{
-		"name": "Catacomb Crasher",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 8,
-		"health": 20,
-		"text": "[x]Whenever you would summon\na minion that doesn't fit in your\nwarband, give your minions\n+4/+4 permanently."
-	},
-	{
-		"name": "Dragonwing Glider",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "Whenever you play a card, give a friendly Dragon +6/+4."
-	},
-	{
-		"name": "Booty Bay Brew",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "Whenever you spend Gold, give a friendly Pirate +5/+6."
-	},
-	{
-		"name": "Quilligraphy Set",
-		"set": "Battlegrounds",
-		"cost": 6,
-		"text": "<b>Avenge (4):</b> Your <b>Blood Gems</b> give an extra +1/+1 this game."
-	},
-	{
-		"name": "Moonsteel Juggernaut",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 6,
-		"text": "[x]At the end of your turn,\nget two {1}/{1} <b>Magnetic</b>\nSatellites and improve\nthis."
-	},
-	{
-		"name": "Moonsteel Juggernaut",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 12,
-		"health": 12,
-		"text": "[x]At the end of your turn,\nget two {1}/{1} <b>Magnetic</b>\nSatellites and improve\nthis."
-	},
-	{
-		"name": "Dual-Wield Corsair",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 3,
-		"health": 4,
-		"text": "[x]Whenever you spend 5 Gold,\ngive two friendly Pirates\n+{2}/+{3}. <i>(5 Gold left!)</i>"
-	},
-	{
-		"name": "Dual-Wield Corsair",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 8,
-		"text": "[x]Whenever you spend 5 Gold,\ngive two friendly Pirates\n+{2}/+{3} twice.\n<i>(5 Gold left!)</i>"
-	},
-	{
-		"name": "Satellite",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 4,
-		"health": 4,
-		"text": "<b>Magnetic</b>"
-	},
-	{
-		"name": "Satellite",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 8,
-		"health": 8,
-		"text": "<b>Magnetic</b>"
-	},
-	{
-		"name": "Lorewalker Scroll",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "[x]Whenever you cast a\nspell on a minion,\ngive it +8/+8."
-	},
-	{
-		"name": "Nazjatar Postcard",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"text": "After you play a Naga, get a random <b>Spellcraft</b> spell."
-	},
-	{
-		"name": "Redeemer Portrait",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "Get a Nalaa the Redeemer. Your Nalaa the Redeemers give an extra +2/+2."
-	},
-	{
-		"name": "Tickatus Sticker",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "[x]<b>Discover</b> a Tier 3 Darkmoon\nPrize. At the start of every\nthree turns, repeat this.\n<i>(3 turns left!)</i>"
-	},
-	{
-		"name": "Baleful Incense",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "<b>Start of Combat:</b> Give your left- and right-most Undead <b>Reborn</b>."
-	},
-	{
-		"name": "Curator Sticker",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"text": "Get a Golden Mishmash and a 10/{0} Amalgam with <b>Venomous</b>."
-	},
-	{
-		"name": "Rendle Sticker",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "[x]Steal the highest-Tier\ncard from the Tavern.\nAt the end of each turn,\nrepeat this."
-	},
-	{
-		"name": "Azsharan Statuette",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]Get 3 random <b>Spellcraft</b>\nspells. At the start of\neach turn, get {0} more."
-	},
-	{
-		"name": "Charming Panpipes",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"text": "[x]At the end of each turn,\ngive your left-most minion\n+2/+{0}. After you cast\na spell, improve this."
-	},
-	{
-		"name": "Shadowdancer",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 5,
 		"health": 3,
-		"text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Get a Staff\nof Enrichment."
+		"text": "[x]<b>Battlecry:</b> Deal 3 damage\nsplit among all enemies.\nIf any die, deal 3 more."
 	},
 	{
-		"name": "Shadowdancer",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 10,
+		"name": "Migrating Elekk",
+		"set": "Cataclysm",
+		"cost": 3,
+		"attack": 3,
+		"health": 4,
+		"text": "[x]<b>Taunt. Battlecry:</b> Replace your\nfuture Animal Companions\nwith random Beasts that\ncost (1) more."
+	},
+	{
+		"name": "Talya Earthstrider",
+		"set": "Cataclysm",
+		"cost": 5,
+		"attack": 4,
 		"health": 6,
-		"text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Get 2 Staffs\nof Enrichment."
+		"text": "[x]<b>Battlecry:</b> Your cards\nthat summon Animal\nCompanions summon\n1 more this game."
 	},
 	{
-		"name": "Recycling Sticker",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "After you play an Elemental, gain a free <b>Refresh</b>."
-	},
-	{
-		"name": "Battlecruiser Portrait",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "[x]Get an 12/12 Battlecruiser.\nWhenever the Tavern is\n<b>Refreshed</b>, add a\nBattlecruiser Upgrade to it."
-	},
-	{
-		"name": "Divine Signet",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "[x]After a friendly minion\nloses <b>Divine Shield</b>, get a\nrandom Tavern spell.\n<i>(4 times per combat.)</i>"
-	},
-	{
-		"name": "Boom's Monster Portrait",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]Get a Dr. Boom's Monster.\nAt the start of every turn,\nget another."
-	},
-	{
-		"name": "Auric Offering",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"text": "[x]At the end of each turn,\ngive your left-most minion\n+4/+3. Repeat for each\nfriendly Golden minion."
-	},
-	{
-		"name": "Unholy Sanctum",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]After you trigger\na <b>Deathrattle</b>, give your\nright-most minion +6/+4\npermanently."
-	},
-	{
-		"name": "Gilded Anchor",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "At the end of each turn, give your Golden minions +3/+3."
-	},
-	{
-		"name": "Bassgill Portrait",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]Get a Bassgill.\nAfter you summon a\nMurloc in combat,\ngive it <b>Divine Shield</b>."
-	},
-	{
-		"name": "Bazaar Sticker",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]One Tavern spell each turn\ncosts Health instead of\nGold to buy. <i>(1 left!)</i>"
-	},
-	{
-		"name": "Gilded Anchor",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "At the end of each turn, give your Golden minions +10/+10."
-	},
-	{
-		"name": "Bloodbound Earrings",
-		"set": "Battlegrounds",
-		"cost": 6,
-		"text": "[x]After you cast 5 spells,\nthis plays two <b>Blood Gems</b>\non all your minions.\n<i>(5 left!)</i>"
-	},
-	{
-		"name": "Wicked Tome",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]<b>Avenge (4):</b> Your Tavern\nspells give an extra\n+1/+{2} this game."
-	},
-	{
-		"name": "Ornate Clock",
-		"set": "Battlegrounds",
-		"text": "[x]Gain 3 Gold.\nBuy your Greater <b>Trinket</b>\nnext turn instead\nof Turn 9."
-	},
-	{
-		"name": "Enigmatic Headstone",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "At the end of each turn, your Undead have\n+2 Attack this game <i>(wherever they are)</i>."
-	},
-	{
-		"name": "Aggem Sticker",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]At the end of your turn,\nthis plays 5 <b>Blood Gems</b>\non a friendly minion of\neach type."
-	},
-	{
-		"name": "Lavish Cape",
-		"set": "Battlegrounds",
-		"text": "Cast a random Tavern spell for each different friendly minion type. At the start of each turn, repeat this."
-	},
-	{
-		"name": "Bluegill Flippers",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "[x]After you cast a Tavern\nspell, give the left-most\nminion in your hand\n+4/+4."
-	},
-	{
-		"name": "Prescient Slitherdrake",
-		"set": "Echoes_of_the_infinite",
+		"name": "Bashana Runetotem",
+		"set": "Cataclysm",
 		"cost": 7,
-		"attack": 5,
-		"health": 8,
-		"text": "[x]<b>Elusive</b>\nCosts (3) less if you're\n holding another Dragon."
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b>Battlecry:</b> Get three\n2/2 Treants. Carve 12\nMana worth of Nature\nspells into them."
 	},
 	{
-		"name": "Flight Maneuvers",
+		"name": "Bursting Leyline",
 		"set": "Cataclysm",
 		"cost": 4,
-		"text": "[x]<b>Shatter</b>. Summon\ntwo 4/2 Drakes. Give\nyour minions +1 Attack\nand <b>Divine Shield</b>.123141Summon two 4/2 Drakes. Give your minions +1 Attack and <b>Divine Shield</b>."
+		"text": "[x]Deal $4 damage to a\nrandom enemy minion.\nExcess damage hits\nthe enemy hero."
 	},
 	{
-		"name": "Flight Maneuvers",
+		"name": "Ley Walker",
 		"set": "Cataclysm",
-		"cost": 4,
-		"text": "<b>Shattered</b>. Give your minions +1 Attack and <b>Divine Shield</b>."
-	},
-	{
-		"name": "Waveling",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 1,
-		"text": "[x]<b>Deathrattle:</b> After the Tavern\nis <b>Refreshed</b> this game,\ngive a random minion\nin it +3/+3."
-	},
-	{
-		"name": "Waveling",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 12,
+		"cost": 3,
+		"attack": 4,
 		"health": 2,
-		"text": "[x]<b>Deathrattle:</b> After the Tavern\nis <b>Refreshed</b> this game,\ngive a random minion\nin it +3/+3 twice."
+		"text": "[x]<b>Battlecry:</b> Your Leylines\ncost (1) less this game.\n<b>Deathrattle:</b> Get a\nrandom Leyline."
 	},
 	{
-		"name": "En-Djinn Blazer",
-		"set": "Battlegrounds",
+		"name": "Energize",
+		"set": "Cataclysm",
 		"cost": 0,
-		"attack": 4,
-		"health": 4,
-		"text": "[x]<b>Battlecry:</b> After the Tavern\nis <b>Refreshed</b> this game,\ngive a random minion\nin it +7/+7."
+		"text": "[x]Your Leylines trigger\nan additional time\nthis game."
 	},
 	{
-		"name": "En-Djinn Blazer",
-		"set": "Battlegrounds",
+		"name": "Unblock",
+		"set": "Cataclysm",
 		"cost": 0,
-		"attack": 8,
-		"health": 8,
-		"text": "[x]<b>Battlecry:</b> After the Tavern\nis <b>Refreshed</b> this game,\ngive a random minion\nin it +7/+7 twice."
+		"text": "Your Leylines cost (2) less this game."
 	},
 	{
-		"name": "Ring Bearer",
-		"set": "Battlegrounds",
+		"name": "Empower",
+		"set": "Cataclysm",
 		"cost": 0,
-		"attack": 5,
-		"health": 10,
-		"text": "[x]Whenever a friendly minion\nattacks, cast Shiny Ring."
+		"text": "[x]Increase the effects\nof your Leylines by 2\nthis game."
 	},
 	{
-		"name": "Ring Bearer",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 10,
-		"health": 20,
-		"text": "[x]Whenever a friendly minion\nattacks, cast Shiny Ring\ntwice."
+		"name": "Crystallized Leyline",
+		"set": "Cataclysm",
+		"cost": 6,
+		"text": "[x]Summon a random\n6-Cost minion."
 	},
 	{
-		"name": "Black Chromadrake",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 4,
-		"health": 6,
-		"text": "<b>Battlecry:</b> Your Tavern spells give an extra +1 Health this game."
-	},
-	{
-		"name": "Green Chromadrake",
-		"set": "Battlegrounds",
-		"cost": 0,
+		"name": "Surge Needle",
+		"set": "Cataclysm",
+		"cost": 4,
 		"attack": 3,
-		"health": 5,
-		"text": "<b>Battlecry:</b> Give your other Dragons +2/+4."
-	},
-	{
-		"name": "Bronze Chromadrake",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 5,
 		"health": 3,
-		"text": "<b>Battlecry:</b> Give your other Dragons +4/+2."
+		"text": "[x]<b>Battlecry:</b> Your Leylines\ntrigger an additional\ntime this game."
 	},
 	{
-		"name": "Red Chromadrake",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 4,
-		"text": "<b>Battlecry:</b> Your Tavern spells give an extra +1 Attack this game."
+		"name": "Leyline Nexus",
+		"set": "Cataclysm",
+		"cost": 2,
+		"text": "[x]Draw a card.\nIt costs (1) less."
 	},
 	{
-		"name": "Black Chromadrake",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 8,
-		"health": 12,
-		"text": "<b>Battlecry:</b> Your Tavern spells give an extra +2 Health this game."
+		"name": "Nurturing Nature",
+		"set": "Cataclysm",
+		"cost": 2,
+		"text": "[x]Give a friendly\nBeast +2/+2.\nGive a random Beast\nin your hand +2/+2."
 	},
 	{
-		"name": "Bronze Chromadrake",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 10,
-		"health": 6,
-		"text": "<b>Battlecry:</b> Give your other Dragons +8/+4."
+		"name": "Roam Free",
+		"set": "Cataclysm",
+		"cost": 7,
+		"text": "[x]Replace your future Animal\nCompanions with random\nBeasts that cost (2) more.\nChoose one to summon."
 	},
 	{
-		"name": "Red Chromadrake",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 12,
-		"health": 8,
-		"text": "<b>Battlecry:</b> Your Tavern spells give an extra +2 Attack this game."
+		"name": "The Arcanomicon",
+		"set": "Cataclysm",
+		"cost": 7,
+		"text": "Get all 3 Leylines.\nChoose an upgrade\nfor your Leylines."
 	},
 	{
-		"name": "Green Chromadrake",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 10,
-		"text": "<b>Battlecry:</b> Give your other Dragons +4/+8."
-	},
-	{
-		"name": "Forsaken Weaver",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 3,
-		"health": 10,
-		"text": "[x]After you cast a Tavern\nspell, your Undead have\n+2 Attack this game\n<i>(wherever they are)</i>."
-	},
-	{
-		"name": "Forsaken Weaver",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 20,
-		"text": "[x]After you cast a Tavern\nspell, your Undead have\n+4 Attack this game\n<i>(wherever they are)</i>."
-	},
-	{
-		"name": "Easterly Winds",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "[x]After the Tavern\nis <b>Refreshed</b> this game,\ngive a random minion\nin it +{0}/+{1}."
-	},
-	{
-		"name": "Twilight Broodmother",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 5,
+		"name": "Mystic Runesaber",
+		"set": "Cataclysm",
+		"cost": 2,
+		"attack": 2,
 		"health": 3,
-		"text": "[x]<b>Deathrattle:</b> Summon 2\nTwilight Hatchlings.\nGive them <b>Taunt</b>."
+		"text": "[x]<b>Elusive</b>\n<b>Battlecry:</b> Increase the\neffects of your Leylines\nby 1 this game."
 	},
 	{
-		"name": "Twilight Broodmother",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 10,
-		"health": 6,
-		"text": "[x]<b>Deathrattle:</b> Summon 4\nTwilight Hatchlings.\nGive them <b>Taunt</b>."
-	},
-	{
-		"name": "Timewarped Radio Star",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"attack": 1,
+		"name": "Brash Battlemaster",
+		"set": "Cataclysm",
+		"cost": 2,
+		"attack": 2,
 		"health": 1,
-		"text": "[x]<b>Deathrattle:</b> Get a copy of\nthe enemy minion that killed\nthis with full Health\nand enchantments."
+		"text": "[x]<b>Rush</b>\n <b>Deathrattle:</b> Give your\nSilver Hand Recruits\n+1 Attack this game."
 	},
 	{
-		"name": "Timewarped Radio Star",
-		"set": "Battlegrounds",
+		"name": "Resilient Savior",
+		"set": "Cataclysm",
+		"cost": 3,
+		"attack": 3,
+		"health": 1,
+		"text": "[x]<b>Divine Shield</b>\nAfter this loses <b>Divine Shield</b>,\ngive your Silver Hand Recruits\n+1 Health this game."
+	},
+	{
+		"name": "Convalescence",
+		"set": "Cataclysm",
+		"cost": 2,
+		"text": "Summon two 1/1 Silver Hand Recruits with <b>Divine Shield</b>."
+	},
+	{
+		"name": "Emboldening Blade",
+		"set": "Cataclysm",
+		"cost": 5,
+		"attack": 3,
+		"text": "[x]<b>Battlecry:</b> Give your\nSilver Hand Recruits\n+1/+1 this game."
+	},
+	{
+		"name": "Arator the Redeemer",
+		"set": "Cataclysm",
+		"cost": 5,
+		"attack": 5,
+		"health": 6,
+		"text": "[x]<b>Battlecry:</b> Double the\nstats of all friendly\nSilver Hand Recruits\nand give them <b>Taunt</b>."
+	},
+	{
+		"name": "Charity",
+		"set": "Cataclysm",
+		"cost": 3,
+		"text": "Get copies of all friendly minions that died this turn. Give them +3/+3."
+	},
+	{
+		"name": "Earthen Ring Akama",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Cultivating Sprite",
+		"set": "Cataclysm",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "[x]<b>Battlecry:</b> Get a 3-Cost\nBulb that casts three\n random 1-Cost spells.\n It upgrades each turn."
+	},
+	{
+		"name": "Blooming Bulb",
+		"set": "Cataclysm",
+		"cost": 3,
+		"text": "[x]Cast three random\n1-Cost spells.\n<i>(Upgrades each turn!)</i>"
+	},
+	{
+		"name": "Teamwork",
+		"set": "Cataclysm",
+		"cost": 4,
+		"text": "[x]Summon and get\nfour 1/1 Silver\nHand Recruits."
+	},
+	{
+		"name": "Volcanic Krush",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Dragonqueen Alexstrasza",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Fireblast",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nDeal $1 damage."
+	},
+	{
+		"name": "Fireblast Rank 2",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nDeal $2 damage."
+	},
+	{
+		"name": "Al'Akir",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Totemic Call",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nSummon a random basic Totem."
+	},
+	{
+		"name": "Totemic Slam",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nSummon a Totem of your choice."
+	},
+	{
+		"name": "Gazlowe",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Armor Up!",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nGain $d2 Armor."
+	},
+	{
+		"name": "Tank Up!",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nGain $d4 Armor."
+	},
+	{
+		"name": "Victorious Kailene",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Call of the Wild",
+		"set": "Core",
+		"cost": 8,
+		"text": "Summon all three Animal Companions."
+	},
+	{
+		"name": "Treant",
+		"set": "Cataclysm",
 		"cost": 1,
 		"attack": 2,
 		"health": 2,
-		"text": "[x]<b>Deathrattle:</b> Get 2 copies of\nthe enemy minion that killed\nthis with full Health\nand enchantments."
+		"text": "<b>Battlecry:</b> Cast {0}."
 	},
 	{
-		"name": "Eternal Tycoon",
-		"set": "Battlegrounds",
+		"name": "The Coin",
+		"set": "Cataclysm",
 		"cost": 0,
-		"attack": 4,
-		"health": 8,
-		"text": "<b>Avenge (5):</b> Summon an Eternal Knight. It attacks immediately."
+		"text": "Gain 1 Mana Crystal this turn only."
 	},
 	{
-		"name": "Eternal Tycoon",
+		"name": "\"Deathwing\" Deryl",
 		"set": "Battlegrounds",
-		"cost": 0,
+		"health": 30
+	},
+	{
+		"name": "Shapeshift",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\n+$a1 Attack this turn.\n+$d1 Armor."
+	},
+	{
+		"name": "Dire Shapeshift",
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\n+$a2 Attack this turn.\n+$d2 Armor."
+	},
+	{
+		"name": "Dragonqueen Alexstrasza",
+		"set": "Hero_skins",
+		"health": 30
+	},
+	{
+		"name": "Searing Skystriker",
+		"set": "Gift",
+		"cost": 8,
 		"attack": 8,
-		"health": 16,
-		"text": "[x]<b>Avenge (5):</b> Summon a\n Golden Eternal Knight.\n It attacks immediately."
-	},
-	{
-		"name": "Void Pup Trainer",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 7,
-		"health": 7,
-		"text": "[x]<b>Battlecry:</b> Give minions in\nthe Tavern from Tier 3\nand below +3/+3\nthis game."
-	},
-	{
-		"name": "Void Pup Trainer",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 14,
-		"health": 14,
-		"text": "[x]<b>Battlecry:</b> Give minions in\nthe Tavern from Tier 3\nand below +6/+6\nthis game."
-	},
-	{
-		"name": "Hired Ritualist",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 5,
-		"health": 7,
-		"text": "Once per turn, after a <b>Blood Gem</b> is played on this, gain {1} Gold."
-	},
-	{
-		"name": "Hired Ritualist",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 10,
-		"health": 14,
-		"text": "Once per turn, after a <b>Blood Gem</b> is played on this, gain {1} Gold."
-	},
-	{
-		"name": "Redtusk Thornraiser",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 3,
-		"health": 7,
-		"text": "At the end of your turn, get a <b>Blood Gem</b> that also gives a Quilboar <b>Reborn</b>."
-	},
-	{
-		"name": "Redtusk Thornraiser",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 14,
-		"text": "At the end of your turn, get 2 <b>Blood Gems</b> that also give a Quilboar <b>Reborn</b>."
-	},
-	{
-		"name": "Ship Jumper",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 6,
-		"text": "[x]<b>Rally:</b> Summon a Sky Pirate\nwith this minion's Attack to\nattack the target first."
-	},
-	{
-		"name": "Ship Jumper",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 12,
-		"health": 12,
-		"text": "[x]<b>Rally:</b> Summon a Sky Pirate\nwith double this minion's\nAttack to attack the\ntarget first."
-	},
-	{
-		"name": "Lurking Leviathan",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 3,
-		"health": 8,
-		"text": "Whenever you summon a Beast, give it +{1} Attack and improve this permanently."
-	},
-	{
-		"name": "Lurking Leviathan",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 16,
-		"text": "Whenever you summon a Beast, give it +{1} Attack and improve this permanently."
-	},
-	{
-		"name": "Queen's Command",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "Give your minions +{0}/+{1}. Give all your Naga another +{0}/+{1}."
-	},
-	{
-		"name": "Magician's Top Hat",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "Get two minions each from Tiers 1, 2, and 3."
-	},
-	{
-		"name": "Kaleidoscope",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "[x]<b>Discover</b> a Tier 7 minion.\nLock it in your hand for\n2 turns."
-	},
-	{
-		"name": "Bewitched Ribbon",
-		"set": "Battlegrounds",
-		"cost": 6,
-		"text": "[x]Whenever you cast a spell,\ngive your minions +1/+1\npermanently.\n<i>(+{2}/+{4} while in combat!)</i>"
-	},
-	{
-		"name": "Upstart Embers",
-		"set": "Battlegrounds",
-		"cost": 5,
-		"text": "[x]After the Tavern is\n<b>Refreshed</b>, double the\nstats of its highest-Health\nminion."
-	},
-	{
-		"name": "Copper Coil",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "[x]Whenever you <b>Magnetize</b>\na minion, give it +1/+1\nand improve this."
-	},
-	{
-		"name": "Copper Coil",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "[x]Whenever you <b>Magnetize</b>\na minion, give it +3/+3\nand improve this."
-	},
-	{
-		"name": "Stormcoil Sticker",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "After 7 friendly minions die, get a random Mech. <i>(7 left!)</i>"
-	},
-	{
-		"name": "Water Wheel",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "After you play an Elemental, get a random Tavern spell. <i>(Twice per turn.)</i>"
-	},
-	{
-		"name": "Sunken Anchor",
-		"set": "Battlegrounds",
-		"cost": 5,
-		"text": "Get 2 random <b>Bounties</b>. At the start of each turn, repeat this."
-	},
-	{
-		"name": "Privateer Portrait",
-		"set": "Battlegrounds",
-		"cost": 5,
-		"text": "[x]Get a Proud Privateer and\n2 random <b>Bounties</b>.\nAt the start of each turn,\nget another {0} <b>Bounties</b>."
-	},
-	{
-		"name": "Miniature Ship",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "After you cast a Tavern spell, give your Pirates +2/+2."
-	},
-	{
-		"name": "Trusty Crowbar",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "Whenever you get a Pirate, give your left-most minion +12/+12."
-	},
-	{
-		"name": "Stegodon Portrait",
-		"set": "Battlegrounds",
-		"cost": 5,
-		"text": "[x]Get a Stomping Stegodon.\n<b>Start of Combat:</b> Give\nyour two left-most Beasts\n<b>Divine Shield</b>."
-	},
-	{
-		"name": "Bubble Crown",
-		"set": "Battlegrounds",
-		"text": "[x]Once you cast 10 spells,\nyour Tavern spells give\nan extra +{2}/+{4}. <i>(10 left!)</i>"
-	},
-	{
-		"name": "Jewelry Box",
-		"set": "Battlegrounds",
-		"cost": 5,
-		"text": "Get 2 <b>Blood Gems</b> that give a Quilboar <b>Taunt</b>, <b>Divine Shield</b>, or <b>Reborn</b>. At the start of each turn, repeat this."
-	},
-	{
-		"name": "Ophidian Staff",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "<b>Spellcraft:</b> Give a Beast +2/+2 and <b>Reborn</b>."
-	},
-	{
-		"name": "Ophidian Staff",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"text": "Give a Beast +2/+2 and <b>Reborn</b>."
-	},
-	{
-		"name": "Lightning in a Bottle",
-		"set": "Battlegrounds",
-		"text": "After the Tavern is <b>Refreshed</b>, give the stats of its highest-Attack minion to its lowest."
-	},
-	{
-		"name": "Cowrie Necklace",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "Tavern spells that give stats cost (2) less."
-	},
-	{
-		"name": "Beatboxer Portrait",
-		"set": "Battlegrounds",
-		"cost": 6,
-		"text": "Get a Polarizing Beatboxer and 1 random <b>Magnetic</b> Mech."
-	},
-	{
-		"name": "Electrode Attractor",
-		"set": "Battlegrounds",
-		"cost": 2,
-		"text": "[x]<b>Magnetic</b> Mechs cost (2).\nThe Tavern offers an\nextra one whenever it is\n<b>Refreshed</b>."
-	},
-	{
-		"name": "Mama Mrrglton",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 5,
-		"health": 3,
-		"text": "[x]<b>Battlecry:</b> Give your other\nMurlocs +2 Attack.\n<i>(Improved by each Mrrglton\n you played this game!)</i>"
-	},
-	{
-		"name": "Mama Mrrglton",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 10,
-		"health": 6,
-		"text": "[x]<b>Battlecry:</b> Give your other\nMurlocs +4 Attack.\n<i>(Improved by each Mrrglton\n you played this game!)</i>"
-	},
-	{
-		"name": "Papa Mrrglton",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 3,
-		"health": 5,
-		"text": "[x]<b>Battlecry:</b> Give your other\nMurlocs +2 Health.\n<i>(Improved by each Mrrglton\n you played this game!)</i>"
-	},
-	{
-		"name": "Papa Mrrglton",
-		"set": "Battlegrounds",
-		"cost": 0,
-		"attack": 6,
-		"health": 10,
-		"text": "[x]<b>Battlecry:</b> Give your other\nMurlocs +4 Health.\n<i>(Improved by each Mrrglton\n you played this game!)</i>"
-	},
-	{
-		"name": "Back to Back",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "[x]Give a minion +{0}/+{1}.\nYour future Back to Backs\ngive an extra +{2}/+{3}."
-	},
-	{
-		"name": "Defiler Portrait",
-		"set": "Battlegrounds",
-		"cost": 1,
-		"text": "[x]Get a Woodland Defiler.\n<b>Fodders</b> in the Tavern\nhave +5/+5."
-	},
-	{
-		"name": "Demonic Tapestry",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"text": "[x]After you <b>Refresh</b> 3 times,\nthe highest-Tier minion in the\nTavern costs Health instead\nof Gold to buy. <i>(3 left!)</i>"
-	},
-	{
-		"name": "Felburned Ledger",
-		"set": "Battlegrounds",
-		"cost": 4,
-		"text": "After your hero takes damage, your Tavern spells give an extra +1/+1 this turn."
-	},
-	{
-		"name": "Errgl Sticker",
-		"set": "Battlegrounds",
-		"cost": 5,
-		"text": "[x]Get a Mama Mrrglton\nor a Papa Mrrglton.\nAt the start of each turn,\nrepeat this."
-	},
-	{
-		"name": "Magicfin Sticker",
-		"set": "Battlegrounds",
-		"cost": 3,
-		"text": "[x]After you buy a Tavern\nspell, get a 1/1 Murloc\nand teach it that spell.\n<i>(2 times per turn.)</i>"
-	},
-	{
-		"name": "Young Murk-Eye Sticker",
-		"set": "Battlegrounds",
-		"cost": 6,
-		"text": "At the end of each turn, trigger all friendly <b>Battlecries</b>."
+		"health": 8
 	}
 ]
