@@ -1,6 +1,7 @@
 import { Sideboard } from '@firestone-hs/deckstrings';
 import { CardIds } from '../card-ids';
 import { ReferenceCard } from '../models/reference-cards/reference-card';
+import { RELATED_CARDS_DATA } from '../models/reference-cards/related-cards-data';
 import { GameFormat, GameTag, hasMechanic } from '../public-api';
 import { CardsForDeckbuildingService } from './cards-for-deckbuilding.service';
 import { httpWithRetries } from './utils';
@@ -58,6 +59,7 @@ export class AllCardsService {
 					this.cacheDbfId[card.dbfId] = card;
 				}
 			}
+			this.applyRelatedCardsData();
 		}
 
 		this.deckbuilding = new CardsForDeckbuildingService();
@@ -138,6 +140,39 @@ export class AllCardsService {
 			return JSON.parse(cardsStr) as readonly ReferenceCard[];
 		}
 		return [];
+	}
+
+	private applyRelatedCardsData(): void {
+		const allCardsList = this.getCards();
+		for (const [sourceCardId, relatedEntries] of Object.entries(RELATED_CARDS_DATA)) {
+			const card = this.cache[sourceCardId];
+			if (!card?.dbfId) {
+				continue;
+			}
+			const dbfIds: number[] = [];
+			for (const entry of relatedEntries) {
+				if (typeof entry === 'function') {
+					for (const id of entry(allCardsList)) {
+						const relatedCard = this.cache[id];
+						if (relatedCard?.dbfId) {
+							dbfIds.push(relatedCard.dbfId);
+						}
+					}
+					continue;
+				}
+				const relatedCard = this.cache[entry];
+				if (relatedCard?.dbfId) {
+					dbfIds.push(relatedCard.dbfId);
+				}
+			}
+			if (!dbfIds.length) {
+				continue;
+			}
+			const mergedDbfIds = [...new Set([...(card.relatedCardDbfIds ?? []), ...dbfIds])];
+			const updated: ReferenceCard = { ...card, relatedCardDbfIds: mergedDbfIds };
+			this.cache[sourceCardId] = updated;
+			this.cacheDbfId[card.dbfId] = updated;
+		}
 	}
 
 	protected async getCardsStr(url: string): Promise<string> {
