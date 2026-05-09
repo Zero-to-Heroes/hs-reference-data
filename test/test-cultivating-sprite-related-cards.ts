@@ -4,8 +4,8 @@ import cardsShort from '../src/cards_short.json';
 const BLOOMING_BULB_DBF_ID = 123854;
 const CULTIVATING_SPRITE_ID = 'MEND_100';
 
-const assertHasRelatedCard = (source: readonly any[], sourceName: string) => {
-const card = source.find((entry) => entry.id === CULTIVATING_SPRITE_ID);
+const assertHasRelatedCard = (cardsList: readonly any[], sourceName: string) => {
+const card = cardsList.find((entry) => entry.id === CULTIVATING_SPRITE_ID);
 if (!card) {
 throw new Error(`Could not find ${CULTIVATING_SPRITE_ID} in ${sourceName}`);
 }
