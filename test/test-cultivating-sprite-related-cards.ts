@@ -1,11 +1,18 @@
-import cards from '../src/cards.json';
-import cardsShort from '../src/cards_short.json';
+import cardsData from '../src/cards.json';
+import cardsShortData from '../src/cards_short.json';
 
+type CardWithRelations = {
+readonly id: string;
+readonly relatedCardDbfIds?: readonly number[];
+};
+
+const cards: readonly CardWithRelations[] = cardsData;
+const cardsShort: readonly CardWithRelations[] = cardsShortData;
 const BLOOMING_BULB_DBF_ID = 123854;
 const CULTIVATING_SPRITE_ID = 'MEND_100';
 
-const assertHasRelatedCard = (cardsList: readonly any[], sourceName: string) => {
-const card = cardsList.find((entry) => entry.id === CULTIVATING_SPRITE_ID);
+const assertHasRelatedCard = (cards: readonly CardWithRelations[], sourceName: string) => {
+const card = cards.find((entry) => entry.id === CULTIVATING_SPRITE_ID);
 if (!card) {
 throw new Error(`Could not find ${CULTIVATING_SPRITE_ID} in ${sourceName}`);
 }
@@ -18,6 +25,6 @@ throw new Error(
 }
 };
 
-assertHasRelatedCard(cards as readonly any[], 'cards.json');
-assertHasRelatedCard(cardsShort as readonly any[], 'cards_short.json');
+assertHasRelatedCard(cards, 'cards.json');
+assertHasRelatedCard(cardsShort, 'cards_short.json');
 console.log('Cultivating Sprite related cards are present in cards data.');
