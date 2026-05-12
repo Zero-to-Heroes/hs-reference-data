@@ -278,6 +278,69 @@ export const normalizeDeckHeroDbfId = (
 	}
 };
 
+export const getDefaultHeroPower = (playerClass: CardClass): string => {
+	switch (playerClass) {
+		case CardClass.DEATHKNIGHT:
+			return CardIds.ArthasMenethil_GhoulChargeLegacy;
+		case CardClass.DEMONHUNTER:
+			return CardIds.ArannaStarseeker_DemonClawsLegacy;
+		case CardClass.DRUID:
+			return CardIds.EliseStarseeker_ShapeshiftLegacy;
+		case CardClass.HUNTER:
+			return CardIds.WandererRexxar_SteadyShotLegacy;
+		case CardClass.MAGE:
+			return CardIds.Khadgar_FireblastLegacy;
+		case CardClass.PALADIN:
+			return CardIds.PrinceArthas_ReinforceLegacy;
+		case CardClass.PRIEST:
+			return CardIds.MadameLazul_LesserHealLegacy;
+		case CardClass.ROGUE:
+			return CardIds.CapnValeera_DaggerMasteryLegacy;
+		case CardClass.SHAMAN:
+			return CardIds.KingRastakhan_TotemicCallLegacy;
+		case CardClass.WARLOCK:
+			return CardIds.MechaJaraxxus_LifeTapLegacy;
+		case CardClass.WARRIOR:
+			return CardIds.CorruptGarrosh_ArmorUpLegacy;
+		default:
+			return null;
+	}
+};
+
+export const normalizeHeroPower = (heroPowerCardId: string, allCards: AllCardsService): string => {
+	if (!heroPowerCardId) {
+		return null;
+	}
+	const card = allCards.getCard(heroPowerCardId);
+	const cardClass = CardClass[card.classes?.[0]?.toUpperCase()];
+	switch (cardClass) {
+		case CardClass.DEATHKNIGHT:
+			return CardIds.ArthasMenethil_GhoulChargeLegacy;
+		case CardClass.DEMONHUNTER:
+			return CardIds.ArannaStarseeker_DemonClawsLegacy;
+		case CardClass.DRUID:
+			return CardIds.EliseStarseeker_ShapeshiftLegacy;
+		case CardClass.HUNTER:
+			return CardIds.WandererRexxar_SteadyShotLegacy;
+		case CardClass.MAGE:
+			return CardIds.Khadgar_FireblastLegacy;
+		case CardClass.PALADIN:
+			return CardIds.PrinceArthas_ReinforceLegacy;
+		case CardClass.PRIEST:
+			return CardIds.MadameLazul_LesserHealLegacy;
+		case CardClass.ROGUE:
+			return CardIds.CapnValeera_DaggerMasteryLegacy;
+		case CardClass.SHAMAN:
+			return CardIds.KingRastakhan_TotemicCallLegacy;
+		case CardClass.WARLOCK:
+			return CardIds.MechaJaraxxus_LifeTapLegacy;
+		case CardClass.WARRIOR:
+			return CardIds.CorruptGarrosh_ArmorUpLegacy;
+	}
+
+	return heroPowerCardId;
+};
+
 export const isBattlegroundsCard = (card: ReferenceCard): boolean => {
 	return !!card.techLevel || !!card.battlegroundsNormalDbfId || !!card.battlegroundsPremiumDbfId;
 };
