@@ -1,6 +1,7 @@
 import { GameFormat, GameType } from '../../public-api';
 
 export type SetId =
+	| 'violet_hold'
 	| 'cataclysm'
 	| 'echoes_of_the_infinite'
 	| 'across_the_timeways'
@@ -72,6 +73,11 @@ export interface ReferenceSet {
 }
 
 export const sets: readonly ReferenceSet[] = [
+	{
+		id: 'violet_hold',
+		name: `Escape the Violet Hold`,
+		launchDate: new Date('2026-06-02'),
+	},
 	{
 		id: 'cataclysm',
 		name: `Cataclysm`,
