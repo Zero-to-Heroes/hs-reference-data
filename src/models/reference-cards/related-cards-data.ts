@@ -1,6 +1,7 @@
 import { CardIds } from '../../card-ids';
 import { fablePackages } from '../../services/card-utils';
 import { BG_RELATED_CARDS } from './bg-related-cards';
+import { JAIL_RELATED_CARDS } from './jail-related-cards';
 import { ReferenceCard } from './reference-card';
 import { EXCAVATE_TREASURE_1_IDS, EXCAVATE_TREASURE_2_IDS, EXCAVATE_TREASURE_3_IDS } from './reference-data';
 
@@ -27,12 +28,10 @@ const ANIMAL_COMPANION_TOKEN_RELATED_IDS = [
 ];
 const SILVER_HAND_RECRUIT_TOKEN_IDS_ALL = [
 	CardIds.SilverHandRecruitLegacyToken,
-	CardIds.SilverHandRecruitVanillaToken,
 	CardIds.SilverHandRecruitToken_CS2_101t2,
 	CardIds.SilverHandRecruitToken_CS2_101t3,
 	CardIds.SilverHandRecruitToken_CS2_101t4,
 	CardIds.SilverHandRecruitToken_CS2_101t5,
-	CardIds.SilverHandRecruitToken_CS2_101t6,
 	CardIds.SilverHandRecruitToken_CS2_101t7,
 	CardIds.SilverHandRecruitToken_CS2_101t8,
 ];
@@ -276,6 +275,7 @@ export const RELATED_CARDS_DATA: {
 	[cardId: string]: readonly (string | RelatedCardExtractor)[];
 } = {
 	...BG_RELATED_CARDS,
+	...JAIL_RELATED_CARDS,
 	[CardIds.CultivatingSprite_MEND_100]: [CardIds.CultivatingSprite_BloomingBulbToken_MEND_100t],
 	[CardIds.Spiritspeaker_MEND_301]: ANIMAL_COMPANION_TOKEN_RELATED_IDS,
 	[CardIds.BashanaRunetotem_MEND_046]: [CardIds.BashanaRunetotem_TreantToken_MEND_046t],
@@ -4687,6 +4687,4 @@ export const RELATED_CARDS_DATA: {
 		CardIds.ProgenyOfDeathwingToken_CATA_190t14,
 	],
 	[CardIds.RehgarEarthfury_CORE_CATA_004]: [CardIds.LightningBoltCore],
-	[CardIds.BashanaRunetotem_MEND_046]: [CardIds.BashanaRunetotem_TreantToken_MEND_046t],
-	[CardIds.CultivatingSprite_MEND_100]: [CardIds.CultivatingSprite_BloomingBulbToken_MEND_100t],
 };

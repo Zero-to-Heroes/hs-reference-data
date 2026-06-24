@@ -526,6 +526,12 @@ export const getBaseCardId = (cardId: string, allCards: AllCardsService): string
 			return CardIds.WishOfTheNewMoon_EDR_460;
 		case CardIds.RitualOfTheNewMoon_RitualOfTheFullMoonToken_EDR_461t:
 			return CardIds.RitualOfTheNewMoon_EDR_461;
+		case CardIds.MoltenGoldElemental_JAIL_801t:
+			return CardIds.MoltenGold_JAIL_801;
+		case CardIds.FrostshatterElemental_JAIL_803t:
+			return CardIds.Frostshatter_JAIL_803;
+		case CardIds.StormfuryElemental_JAIL_805t:
+			return CardIds.Stormfury_JAIL_805;
 	}
 
 	// Transfer Student should be handled on a case by case basis
