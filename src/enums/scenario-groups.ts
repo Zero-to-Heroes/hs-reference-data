@@ -45,6 +45,7 @@ export const ARENAS = [
 	ScenarioId._344_ARENA_SEASON,
 	ScenarioId._350_ARENA_SEASON,
 	ScenarioId._354_ARENA_SEASON,
+	ScenarioId._360_ARENA_SEASON,
 ];
 
 export const DALARAN_HEIST_ALL = [

@@ -415,6 +415,7 @@ const standardBaseSets: readonly SetId[] = [
 	'lost_city_of_ungoro',
 	'across_the_timeways',
 	'cataclysm',
+	'violet_hold',
 ];
 export const standardSets: readonly SetId[] = standardBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
@@ -427,14 +428,13 @@ export const twistSets: readonly SetId[] = twistBaseSets
 	.map((setId) => setId as SetId);
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 const arenaBaseSets: readonly SetId[] = [
-	// 'across_the_timeways',
-	// 'lost_city_of_ungoro',
-	// 'into_the_emerald_dream',
-	// 'caverns_of_time',
-	// 'taverns_of_time',
-	// 'titans',
-	// 'the_sunken_city',
-	// 'gift',
+	'violet_hold',
+	'across_the_timeways',
+	'whizbangs_workshop',
+	'battle_of_the_bands',
+	'revendreth',
+	'core',
+	'gift',
 ];
 export const arenaSets: readonly SetId[] = arenaBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
