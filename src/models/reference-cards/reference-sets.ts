@@ -442,10 +442,28 @@ export const arenaSets: readonly SetId[] = arenaBaseSets
 
 export const duelsSets: readonly SetId[] = [];
 export const vanillaSets: readonly SetId[] = ['vanilla'];
-export const brawlSets: { [scenarioId: number]: readonly SetId[] } = {
+
+const expandSets = (_sets: { [scenarioId: number]: readonly SetId[] }): { [scenarioId: number]: readonly SetId[] } => {
+	return Object.fromEntries(
+		Object.entries(_sets).map(([scenarioId, setIds]) => [
+			scenarioId,
+			setIds.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id]).filter((setId) => setId),
+		]),
+	);
+};
+export const brawlSets: { [scenarioId: number]: readonly SetId[] } = expandSets({
 	5465: ['across_the_timeways', 'lost_city_of_ungoro', 'day_of_rebirth', 'core'],
 	2109: ['core', 'gift', 'into_the_emerald_dream', 'lost_city_of_ungoro', 'across_the_timeways', 'cataclysm'],
-};
+	5494: [
+		'core',
+		'gift',
+		'into_the_emerald_dream',
+		'lost_city_of_ungoro',
+		'across_the_timeways',
+		'cataclysm',
+		'violet_hold',
+	],
+});
 
 export const isValidSet = (set: SetId, format: GameFormat, gameType: GameType): boolean => {
 	switch (gameType) {
