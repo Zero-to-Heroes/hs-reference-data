@@ -1,5 +1,5 @@
 import { CardIds } from '../../card-ids';
-import { fablePackages, kingLlaneFablePackage } from '../../services/card-utils';
+import { broxigarFablePackage, fablePackages, kingLlaneFablePackage } from '../../services/card-utils';
 import { BG_RELATED_CARDS } from './bg-related-cards';
 import { JAIL_RELATED_CARDS } from './jail-related-cards';
 import { ReferenceCard } from './reference-card';
