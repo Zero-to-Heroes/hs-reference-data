@@ -92,6 +92,9 @@ export const boosterIdToSetId = (boosterId: BoosterType): SetId | string | null 
 		case BoosterType.CATACLYSM:
 		case BoosterType.GOLDEN_CATACLYSM:
 			return 'cataclysm';
+		case BoosterType.ESCAPE_FROM_VIOLET_HOLD:
+		case BoosterType.GOLDEN_ESCAPE_FROM_VIOLET_HOLD:
+			return 'violet_hold';
 		default:
 			const result = BoosterType[boosterId]?.toLowerCase?.() ?? null;
 			if (!result) {

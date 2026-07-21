@@ -1,5 +1,5 @@
 import { CardIds } from '../../card-ids';
-import { fablePackages } from '../../services/card-utils';
+import { fablePackages, kingLlaneFablePackage } from '../../services/card-utils';
 import { BG_RELATED_CARDS } from './bg-related-cards';
 import { JAIL_RELATED_CARDS } from './jail-related-cards';
 import { ReferenceCard } from './reference-card';
@@ -4459,7 +4459,9 @@ export const RELATED_CARDS_DATA: {
 	[CardIds.Finality_END_003]: [CardIds.Finality_BlessingOfTheInfinite_END_003p],
 	[CardIds.BronzeBroodmother]: [CardIds.WeeWhelpToken],
 	[CardIds.GuardTheCity]: [CardIds.GuardTheCity_NagaCentaurToken],
-	[CardIds.Murozond_TOT_332]: FABLE_PACKAGES.flat(),
+	[CardIds.Murozond_TOT_332]: FABLE_PACKAGES.filter(
+		(p) => p !== kingLlaneFablePackage && p !== broxigarFablePackage,
+	).flat(),
 	[CardIds.AncientRaptor_TLC_245]: [
 		CardIds.CracklingShieldToken,
 		CardIds.LivingSporesToken,

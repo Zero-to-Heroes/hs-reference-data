@@ -109,4 +109,6 @@ export const BG_RELATED_CARDS = {
 	[CardIds.TimewarpedSapper_BG34_Giant_304_G]: [CardIds.SpitescaleSpecial_BG28_606],
 	[CardIds.TimewarpedEvolvingTavern_BG34_Treasure_900]: [CardIds.EvolvingTavern],
 	[CardIds.TimewarpedLasso_BG34_Treasure_609]: [CardIds.EnchantedLasso_BG28_512],
+	[CardIds.LeylineSurfacer_BG35_881]: [CardIds.ArcaneAbsorption_BG35_911],
+	[CardIds.LeylineSurfacer_BG35_881_G]: [CardIds.ArcaneAbsorption_BG35_911],
 };
