@@ -1867,6 +1867,7 @@ export const RELATED_CARDS_DATA: {
 	],
 	[CardIds.PolymorphJellyfish]: [CardIds.PolymorphJellyfish_JellyfishToken],
 	[CardIds.LadyDarkvein]: [CardIds.LadyDarkvein_ShadowManifestationToken],
+	[CardIds.LadyDarkvein_CORE_REV_373]: [CardIds.LadyDarkvein_ShadowManifestationToken],
 	[CardIds.ShadowWaltz]: [CardIds.ShadowWaltz_TwirlingShadowToken],
 	[CardIds.MischievousImp]: [CardIds.MischievousImp_MischievousImpToken],
 	[CardIds.ImpKingRafaam_REV_789]: [CardIds.ImpKingRafaam_ImpKingRafaamToken],
