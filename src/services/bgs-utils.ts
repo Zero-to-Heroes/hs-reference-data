@@ -599,6 +599,14 @@ export const getHeroPower = (
 			return CardIds.MurozondUnbounded_AlternateTimeline_BG34_HERO_000p;
 		case CardIds.TimeTwisterChromie_BG34_HERO_001:
 			return CardIds.TimeTwisterChromie_ManaPerMinute_BG34_HERO_001p;
+		case CardIds.GennWorgenKing_BG35_HERO_001:
+			return CardIds.GennWorgenKing_KingOfDuality_BG35_HERO_001p;
+		case CardIds.MisterClocksworth_BG34_HERO_002:
+			return CardIds.MisterClocksworth_DoubleTime_BG34_HERO_002p;
+		case CardIds.NightmareLordXavius_BG36_HERO_105:
+			return CardIds.NightmareLordXavius_FeelDevastation_BG36_HERO_105p;
+		case CardIds.TrastathSoulParasite_BG36_HERO_101:
+			return CardIds.TrastathSoulParasite_VoidPower_BG36_HERO_101p;
 
 		case '':
 			return null; // new heroes
@@ -745,7 +753,7 @@ export const getBuddy = (heroCardId: CardIds, allCards: AllCardsService): CardId
 		case CardIds.TradePrinceGallywix_TB_BaconShop_HERO_10:
 			return CardIds.BilgewaterMogul_TB_BaconShop_HERO_10_Buddy;
 		case CardIds.VanndarStormpike_BG22_HERO_003:
-			return CardIds.StormpikeLieutenant_BG22_HERO_003_Buddy;
+			return CardIds.VanndarStormpike_LeadTheStormpikes;
 		case CardIds.Voljin_BG20_HERO_201:
 			return CardIds.MasterGadrin_BG20_HERO_201_Buddy;
 		case CardIds.Xyrella_BG20_HERO_101:
