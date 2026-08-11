@@ -4400,10 +4400,11 @@ export const RELATED_CARDS_DATA: {
 		CardIds.AzureQueenSindragosa_TIME_852,
 		CardIds.AzureQueenSindragosa_AzureOathstoneToken_TIME_852t3,
 	],
-	[CardIds.AzureQueenSindragosa_AzureOathstoneToken_TIME_852t3]: [
-		CardIds.AzureQueenSindragosa_TIME_852,
-		CardIds.AzureQueenSindragosa_AzureKingMalygosToken_TIME_852t1,
-	],
+	// It gets confusing when showing the base related cards
+	// [CardIds.AzureQueenSindragosa_AzureOathstoneToken_TIME_852t3]: [
+	// 	CardIds.AzureQueenSindragosa_TIME_852,
+	// 	CardIds.AzureQueenSindragosa_AzureKingMalygosToken_TIME_852t1,
+	// ],
 	[CardIds.TwilightTimehopper_TIME_025]: [CardIds.TwilightTimehopper_ShredOfTimeToken_TIME_025t],
 	[CardIds.EntropicContinuity_TIME_026]: [CardIds.TwilightTimehopper_ShredOfTimeToken_TIME_025t],
 	[CardIds.TachyonBarrage_TIME_027]: [CardIds.TwilightTimehopper_ShredOfTimeToken_TIME_025t],
