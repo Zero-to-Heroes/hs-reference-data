@@ -157674,6 +157674,9 @@
 		"attack": 3,
 		"health": 3,
 		"text": "This minion sells for\n3 Gold.",
+		"mechanics": [
+			"BACON_CANT_HAVE_DARK_GIFT"
+		],
 		"battlegroundsPremiumDbfId": 62187
 	},
 	{
@@ -177043,6 +177046,9 @@
 		"attack": 3,
 		"health": 3,
 		"text": "[x]When you sell this,\nget a 3/3 Elemental.",
+		"mechanics": [
+			"BACON_CANT_HAVE_DARK_GIFT"
+		],
 		"battlegroundsPremiumDbfId": 64041,
 		"relatedCardDbfIds": [
 			64040
@@ -186610,6 +186616,7 @@
 		"health": 1,
 		"text": "<b>Venomous</b>",
 		"mechanics": [
+			"BACON_CANT_HAVE_DARK_GIFT",
 			"VENOMOUS"
 		],
 		"battlegroundsPremiumDbfId": 65122
@@ -364823,6 +364830,9 @@
 		"attack": 2,
 		"health": 2,
 		"text": "When you sell this,\nget a random Murloc.",
+		"mechanics": [
+			"BACON_CANT_HAVE_DARK_GIFT"
+		],
 		"battlegroundsPremiumDbfId": 87062
 	},
 	{
@@ -380214,6 +380224,7 @@
 		"health": 2,
 		"text": "<b>Deathrattle:</b> Destroy the minion that killed this.",
 		"mechanics": [
+			"BACON_CANT_HAVE_DARK_GIFT",
 			"DEATHRATTLE"
 		],
 		"battlegroundsPremiumDbfId": 90430
@@ -399891,6 +399902,9 @@
 		"attack": 3,
 		"health": 6,
 		"text": "If you lost your last combat, this minion sells for 5 Gold.",
+		"mechanics": [
+			"BACON_CANT_HAVE_DARK_GIFT"
+		],
 		"battlegroundsPremiumDbfId": 92436
 	},
 	{
@@ -401423,6 +401437,7 @@
 		"health": 7,
 		"text": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Deal 3 damage\nto all minions.",
 		"mechanics": [
+			"BACON_CANT_HAVE_DARK_GIFT",
 			"DEATHRATTLE",
 			"TAUNT",
 			"DEAL_DAMAGE"
@@ -439821,6 +439836,7 @@
 		"health": 6,
 		"text": "Whenever a spell is cast on this, gain <b>Venomous</b> until next turn.",
 		"mechanics": [
+			"BACON_CANT_HAVE_DARK_GIFT",
 			"TRIGGER_VISUAL"
 		],
 		"battlegroundsPremiumDbfId": 97550,
@@ -440499,6 +440515,7 @@
 		"health": 1,
 		"text": "[x]When you sell this,\n<b>Discover</b> a Tier 1 minion.\n<i>(Improves each turn!)</i>",
 		"mechanics": [
+			"BACON_CANT_HAVE_DARK_GIFT",
 			"DISCOVER",
 			"END_OF_TURN_TRIGGER",
 			"END_OF_TURN"
@@ -448374,6 +448391,9 @@
 		"attack": 6,
 		"health": 6,
 		"text": "While this is in your hand, after you play a Murloc, gain +{0}/+{1}.",
+		"mechanics": [
+			"BACON_CANT_HAVE_DARK_GIFT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
 			"TAG_SCRIPT_DATA_NUM_2": 6
@@ -551029,6 +551049,9 @@
 		"attack": 4,
 		"health": 3,
 		"text": "[x]When you sell this, give\nyour minions +{0} Attack.\nImprove your future\nBallers.",
+		"mechanics": [
+			"BACON_CANT_HAVE_DARK_GIFT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -555846,6 +555869,9 @@
 		"attack": 3,
 		"health": 4,
 		"text": "[x]When you sell this, give\nyour minions +{1} Health.\nImprove your future\nBallers.",
+		"mechanics": [
+			"BACON_CANT_HAVE_DARK_GIFT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_2": 1
 		},
@@ -568593,11 +568619,7 @@
 		"mechanics": [
 			"IS_FABLED_BUNDLE_CARD"
 		],
-		"availableAsSignature": true,
-		"relatedCardDbfIds": [
-			119524,
-			119527
-		]
+		"availableAsSignature": true
 	},
 	{
 		"dbfId": 119527,
@@ -574124,6 +574146,7 @@
 		"health": 4,
 		"text": "[x]<b>Choose One -</b> Your Tavern\nspells give an extra\n+1 Attack this game;\nor +1 Health.",
 		"mechanics": [
+			"BACON_CANT_HAVE_DARK_GIFT",
 			"CHOOSE_ONE",
 			"BACON_BUFFS_TAVERN_SPELL"
 		],
@@ -578976,6 +578999,7 @@
 		"health": 3,
 		"text": "[x]<b>Start of Combat:</b> If this\nminion is in your hand,\nsummon a copy of it.",
 		"mechanics": [
+			"BACON_CANT_HAVE_DARK_GIFT",
 			"TRIGGER_VISUAL"
 		],
 		"battlegroundsPremiumDbfId": 120678
@@ -589026,6 +589050,9 @@
 		"attack": 1,
 		"health": 1,
 		"text": "When you sell this, get a random Tier 1 minion.",
+		"mechanics": [
+			"BACON_CANT_HAVE_DARK_GIFT"
+		],
 		"battlegroundsPremiumDbfId": 122093
 	},
 	{
@@ -612002,6 +612029,9 @@
 		"attack": 3,
 		"health": 4,
 		"text": "After {1} friendly minions die while this is in your hand, make this Golden. <i>({0} left!)</i>",
+		"mechanics": [
+			"BACON_CANT_HAVE_DARK_GIFT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 15,
 			"TAG_SCRIPT_DATA_NUM_2": 15
@@ -612832,6 +612862,7 @@
 		"health": 5,
 		"text": "[x]After this is in your hand for\n{1} turns, choose a Tier 6\nDragon to hatch into.\n<i>({0} turns left!)</i>",
 		"mechanics": [
+			"BACON_CANT_HAVE_DARK_GIFT",
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
@@ -646420,6 +646451,9 @@
 		"attack": 7,
 		"health": 7,
 		"text": "When you sell this, give\nyour minions +{0}/+{1}.\nImprove your future\nBallers.",
+		"mechanics": [
+			"BACON_CANT_HAVE_DARK_GIFT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_2": 2
