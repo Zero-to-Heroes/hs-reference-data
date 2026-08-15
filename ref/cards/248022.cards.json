@@ -147682,6 +147682,7 @@
 		"faction": "NEUTRAL",
 		"text": "[x]Give a minion +{1}/+{1}.\nImproves after you\nbuy 4 cards. <i>({0} left!)</i>",
 		"mechanics": [
+			"HAS_ACTIVATE_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
@@ -286392,6 +286393,7 @@
 		"set": "Battlegrounds",
 		"text": "[x]Give {2} random friendly\n minions +{0}/+{1}.\n<b><b>Passive</b>:</b> After each combat,\nchoose an improvement.",
 		"mechanics": [
+			"HAS_ACTIVATE_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
@@ -324672,6 +324674,7 @@
 		"set": "Battlegrounds",
 		"text": "[x]Take aim!\n<b>Start of Combat:</b> Deal {1}\ndamage to your target.",
 		"mechanics": [
+			"HAS_ACTIVATE_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
@@ -471561,6 +471564,7 @@
 		"cost": 1,
 		"text": "[x]Give a minion +{1}/+{1}.\nImproves after five\n friendly minions die.\n <i>({0} left!)</i>",
 		"mechanics": [
+			"HAS_ACTIVATE_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
@@ -630681,6 +630685,7 @@
 		"text": "[x]Select the Rift to activate.\nThrow a card in to summon\n2 random Fel Beasts.\n<i>(Once per turn.)</i>",
 		"mechanics": [
 			"HIDE_STATS",
+			"INTERACTABLE_OBJECT",
 			"UNTOUCHABLE"
 		],
 		"tags": {
@@ -647771,6 +647776,7 @@
 		"set": "Battlegrounds",
 		"text": "[x]Remove a minion in the\nTavern. When you have\nspace next combat, fire it at\na random enemy minion.",
 		"mechanics": [
+			"HAS_ACTIVATE_POWER",
 			"TRIGGER_VISUAL"
 		]
 	},
@@ -692043,7 +692049,10 @@
 		"cost": 0,
 		"attack": 2,
 		"health": 2,
-		"text": "<b>Activate:</b> Give a minion +1/+1 (one per turn)"
+		"text": "<b>Activate:</b> Give a minion +1/+1 (one per turn)",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		]
 	},
 	{
 		"dbfId": 132150,
@@ -692059,7 +692068,10 @@
 		"cost": 0,
 		"attack": 2,
 		"health": 2,
-		"text": "<b>Activate:</b> Give a minion +1/+1 (cost 1 gold)"
+		"text": "<b>Activate:</b> Give a minion +1/+1 (cost 1 gold)",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		]
 	},
 	{
 		"dbfId": 132172,
@@ -692583,6 +692595,9 @@
 		"attack": 3,
 		"health": 5,
 		"text": "<b>Activate ({0}):</b> Your Demons each consume a random minion in the Tavern to gain its stats.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
@@ -692611,6 +692626,9 @@
 		"attack": 6,
 		"health": 10,
 		"text": "[x]<b>Activate ({0}):</b> Your Demons\neach consume a random\nminion in the Tavern to\n gain double its stats.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
@@ -692641,6 +692659,9 @@
 		"attack": 4,
 		"health": 4,
 		"text": "[x]<b>Activate ({0}):</b> The next\n<b>Magnetization</b> to this\nminion this turn is\ndoubled.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -692670,6 +692691,9 @@
 		"attack": 8,
 		"health": 8,
 		"text": "[x]<b>Activate ({0}):</b> The next\n<b>Magnetization</b> to this\nminion this turn is\ntripled.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -692701,6 +692725,9 @@
 		"attack": 2,
 		"health": 5,
 		"text": "<b>Activate ({0}):</b> Get a random Murloc.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
@@ -692729,6 +692756,9 @@
 		"attack": 4,
 		"health": 10,
 		"text": "<b>Activate ({0}):</b> Get 2 random Murlocs.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
@@ -692759,6 +692789,9 @@
 		"attack": 6,
 		"health": 4,
 		"text": "[x]<b>Activate ({0}):</b> Cast a\nrandom Tavern spell\n <i>(targets this if possible)</i>.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -692787,6 +692820,9 @@
 		"attack": 12,
 		"health": 8,
 		"text": "[x]<b>Activate ({0}):</b> Cast 2\nrandom Tavern spells\n <i>(targets this if possible)</i>.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -692817,6 +692853,9 @@
 		"attack": 5,
 		"health": 6,
 		"text": "<b>Activate ({0}):</b> Gain {1} Gold next turn.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 2
@@ -692846,6 +692885,9 @@
 		"attack": 10,
 		"health": 12,
 		"text": "<b>Activate ({0}):</b> Gain {1} Gold next turn.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 4
@@ -692935,6 +692977,9 @@
 		"attack": 3,
 		"health": 6,
 		"text": "<b>Activate ({0}):</b> Give a different friendly Undead <b>Reborn</b>. Then destroy it to gain +{1}/+{2}.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 4,
@@ -692966,6 +693011,9 @@
 		"attack": 6,
 		"health": 12,
 		"text": "<b>Activate ({0}):</b> Give a different friendly Undead <b>Reborn</b>. Then destroy it to gain +{1}/+{2}.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 8,
@@ -694661,6 +694709,9 @@
 		"attack": 3,
 		"health": 4,
 		"text": "<b>Activate ({0}):</b> Choose a card in the Tavern. Replace it with a Fishbait for your left-most Beast to attack.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
@@ -694689,6 +694740,9 @@
 		"attack": 6,
 		"health": 8,
 		"text": "[x]<b>Activate ({0}):</b> Choose a card in\nthe Tavern. Replace it with a\nGolden Fishbait for your left-\nmost Beast to attack.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
@@ -695131,6 +695185,9 @@
 		"attack": 5,
 		"health": 5,
 		"text": "<b>Activate ({0}):</b> Trigger a friendly minion's <b>Battlecry</b>.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -695160,6 +695217,9 @@
 		"attack": 10,
 		"health": 10,
 		"text": "<b>Activate ({0}):</b> Trigger a friendly minion's <b>Battlecry</b> twice.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -695558,6 +695618,9 @@
 		"attack": 3,
 		"health": 3,
 		"text": "<b>Activate ({2}):</b> Give another minion +{0}/+{1}.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3,
@@ -695584,6 +695647,9 @@
 		"attack": 6,
 		"health": 6,
 		"text": "<b>Activate ({2}):</b> Give another minion +{0}/+{1}.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
 			"TAG_SCRIPT_DATA_NUM_2": 6,
@@ -695612,6 +695678,9 @@
 		"attack": 3,
 		"health": 6,
 		"text": "<b>Activate ({0}):</b> Get {1}\nTavern Dish Bananas.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 2
@@ -695637,6 +695706,9 @@
 		"attack": 6,
 		"health": 12,
 		"text": "<b>Activate ({0}):</b> Get {1}\nTavern Dish Bananas.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 4
@@ -695669,6 +695741,7 @@
 		"health": 3,
 		"text": "<b>Activate ({0}): Discover</b> a Tavern spell.",
 		"mechanics": [
+			"INTERACTABLE_OBJECT",
 			"GENERATES_SPELL",
 			"GENERATES_TAVERN_SPELL"
 		],
@@ -695702,6 +695775,7 @@
 		"health": 6,
 		"text": "<b>Activate ({0}): Discover</b> 2 Tavern spells.",
 		"mechanics": [
+			"INTERACTABLE_OBJECT",
 			"GENERATES_SPELL",
 			"GENERATES_TAVERN_SPELL"
 		],
@@ -696116,6 +696190,9 @@
 		"attack": 3,
 		"health": 5,
 		"text": "<b>Activate ({0}):</b> Get a random <b>Chromadrake</b>.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
@@ -696145,6 +696222,9 @@
 		"attack": 6,
 		"health": 10,
 		"text": "<b>Activate ({0}):</b> Get 2 random <b>Chromadrakes</b>.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
@@ -696294,6 +696374,9 @@
 		"attack": 4,
 		"health": 7,
 		"text": "<b>Activate ({0}):</b> Trigger a friendly minion's <b>Rally</b>.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -696323,6 +696406,9 @@
 		"attack": 10,
 		"health": 14,
 		"text": "<b>Activate ({0}):</b> Trigger a friendly minion's <b>Rally</b> twice.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -698520,6 +698606,9 @@
 		"attack": 3,
 		"health": 4,
 		"text": "<b>Activate ({0}):</b> Steal the highest-Attack minion in the Tavern.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
@@ -698544,6 +698633,9 @@
 		"attack": 6,
 		"health": 8,
 		"text": "<b>Activate ({0}):</b> Steal the 2 highest-Attack minions in the Tavern.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
@@ -698571,6 +698663,9 @@
 		"attack": 8,
 		"health": 8,
 		"text": "<b>Activate ({0}):</b> Set another minion's stats to {1}/{2}.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_2": 40,
@@ -698598,6 +698693,9 @@
 		"attack": 16,
 		"health": 16,
 		"text": "<b>Activate ({0}):</b> Set another minion's stats to {1}/{2}.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_2": 80,
@@ -698707,6 +698805,9 @@
 		"attack": 4,
 		"health": 5,
 		"text": "<b>Activate ({0}):</b> Gain the stats of the next minion you buy this turn.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -698735,6 +698836,9 @@
 		"attack": 8,
 		"health": 10,
 		"text": "<b>Activate ({0}):</b> Gain double the stats of the next minion you buy this turn.",
+		"mechanics": [
+			"INTERACTABLE_OBJECT"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -699176,6 +699280,7 @@
 		"health": 8,
 		"text": "<b>Activate ({0}):</b> Give all minions in the Tavern +{1}/+{2} and <b>Taunt</b>, <b>Divine Shield</b>, or <b>Windfury</b>.",
 		"mechanics": [
+			"INTERACTABLE_OBJECT",
 			"GIVES_DIVINE_SHIELD"
 		],
 		"tags": {
@@ -699212,6 +699317,7 @@
 		"health": 16,
 		"text": "<b>Activate ({0}):</b> Give all minions in the Tavern +{1}/+{2} and <b>Taunt</b>, <b>Divine Shield</b>, or <b>Windfury</b>.",
 		"mechanics": [
+			"INTERACTABLE_OBJECT",
 			"GIVES_DIVINE_SHIELD"
 		],
 		"tags": {

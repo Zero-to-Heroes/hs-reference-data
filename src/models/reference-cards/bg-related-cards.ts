@@ -111,4 +111,6 @@ export const BG_RELATED_CARDS = {
 	[CardIds.TimewarpedLasso_BG34_Treasure_609]: [CardIds.EnchantedLasso_BG28_512],
 	[CardIds.LeylineSurfacer_BG35_881]: [CardIds.ArcaneAbsorption_BG35_911],
 	[CardIds.LeylineSurfacer_BG35_881_G]: [CardIds.ArcaneAbsorption_BG35_911],
+	[CardIds.FlitteringBat_BG36_200]: [CardIds.FlitteringBat_ForagingBatToken_BG36_200t],
+	[CardIds.FlitteringBat_BG36_200_G]: [CardIds.FlitteringBat_ForagingBatToken_BG36_200_Gt],
 };
