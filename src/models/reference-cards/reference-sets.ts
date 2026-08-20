@@ -1,7 +1,9 @@
 import { GameFormat, GameType } from '../../public-api';
 
 export type SetId =
+	| 'azeroths_most_wanted'
 	| 'violet_hold'
+	| 'restoration_of_azeroth'
 	| 'cataclysm'
 	| 'echoes_of_the_infinite'
 	| 'across_the_timeways'
@@ -74,9 +76,21 @@ export interface ReferenceSet {
 
 export const sets: readonly ReferenceSet[] = [
 	{
+		id: 'azeroths_most_wanted',
+		name: `Azeroth's Most Wanted`,
+		launchDate: new Date('2026-08-25'),
+		miniSetFor: 'violet_hold',
+	},
+	{
 		id: 'violet_hold',
 		name: `Escape the Violet Hold`,
 		launchDate: new Date('2026-06-02'),
+	},
+	{
+		id: 'restoration_of_azeroth',
+		name: `Restoration of Azeroth`,
+		launchDate: new Date('2026-05-05'),
+		miniSetFor: 'cataclysm',
 	},
 	{
 		id: 'cataclysm',
