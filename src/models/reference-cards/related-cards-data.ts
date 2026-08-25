@@ -2,6 +2,7 @@ import { CardIds } from '../../card-ids';
 import { broxigarFablePackage, fablePackages, kingLlaneFablePackage } from '../../services/card-utils';
 import { ReferenceCard } from './reference-card';
 import { EXCAVATE_TREASURE_1_IDS, EXCAVATE_TREASURE_2_IDS, EXCAVATE_TREASURE_3_IDS } from './reference-data';
+import { AZEROTHS_MOST_WANTED_RELATED_CARDS } from './related-cards/azeroths-most-wanted-related-cards';
 import { BG_RELATED_CARDS } from './related-cards/bg-related-cards';
 import { JAIL_RELATED_CARDS } from './related-cards/jail-related-cards';
 
@@ -276,6 +277,7 @@ export const RELATED_CARDS_DATA: {
 } = {
 	...BG_RELATED_CARDS,
 	...JAIL_RELATED_CARDS,
+	...AZEROTHS_MOST_WANTED_RELATED_CARDS,
 	[CardIds.CultivatingSprite_MEND_100]: [CardIds.CultivatingSprite_BloomingBulbToken_MEND_100t],
 	[CardIds.Spiritspeaker_MEND_301]: ANIMAL_COMPANION_TOKEN_RELATED_IDS,
 	[CardIds.BashanaRunetotem_MEND_046]: [CardIds.BashanaRunetotem_TreantToken_MEND_046t],
