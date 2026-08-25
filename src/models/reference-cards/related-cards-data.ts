@@ -1,9 +1,9 @@
 import { CardIds } from '../../card-ids';
 import { broxigarFablePackage, fablePackages, kingLlaneFablePackage } from '../../services/card-utils';
-import { BG_RELATED_CARDS } from './bg-related-cards';
-import { JAIL_RELATED_CARDS } from './jail-related-cards';
 import { ReferenceCard } from './reference-card';
 import { EXCAVATE_TREASURE_1_IDS, EXCAVATE_TREASURE_2_IDS, EXCAVATE_TREASURE_3_IDS } from './reference-data';
+import { BG_RELATED_CARDS } from './related-cards/bg-related-cards';
+import { JAIL_RELATED_CARDS } from './related-cards/jail-related-cards';
 
 const ADVENTURER_TOKENS = [
 	CardIds.PartyUp_BurlyAdventurerToken,

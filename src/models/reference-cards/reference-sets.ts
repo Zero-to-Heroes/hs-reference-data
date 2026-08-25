@@ -443,11 +443,10 @@ export const twistSets: readonly SetId[] = twistBaseSets
 // https://hearthstone.fandom.com/wiki/Arena#Arena_Rotation
 const arenaBaseSets: readonly SetId[] = [
 	'violet_hold',
+	'cataclysm',
 	'across_the_timeways',
-	'whizbangs_workshop',
-	'battle_of_the_bands',
-	'revendreth',
-	'core',
+	'lost_city_of_ungoro',
+	'into_the_emerald_dream',
 	'gift',
 ];
 export const arenaSets: readonly SetId[] = arenaBaseSets
