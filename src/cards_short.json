@@ -9477,7 +9477,7 @@
 		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "SHADOW",
-		"text": "[x]Deal $1 damage to a minion.\n If it dies, draw a card.",
+		"text": "Deal $1 damage to a minion. If it dies,\ndraw a card.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -98312,7 +98312,8 @@
 		"text": "Your cards that summon minions summon twice as many.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
-		]
+		],
+		"availableAsSignature": true
 	},
 	{
 		"dbfId": 52518,
@@ -214412,7 +214413,7 @@
 		"rarity": "Free",
 		"cost": 1,
 		"faction": "NEUTRAL",
-		"text": "[x]Deal $1 damage to a minion.\n If it dies, draw a card.",
+		"text": "Deal $1 damage to a minion. If it dies,\ndraw a card.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -216662,7 +216663,7 @@
 		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "SHADOW",
-		"text": "[x]Deal $1 damage to a minion.\n If it dies, draw a card.",
+		"text": "Deal $1 damage to a minion. If it dies,\ndraw a card.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -304052,7 +304053,7 @@
 			"UNHOLYRUNE": 1
 		},
 		"spellSchool": "SHADOW",
-		"text": "Deal $3 damage to a minion. If it dies, summon a 2/2 Zombie with <b>Rush</b>.",
+		"text": "[x]Deal $3 damage\nto a minion. If it dies,\nsummon a 2/2 Zombie\nwith <b>Rush</b>.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -304108,7 +304109,7 @@
 			"FROSTRUNE": 1
 		},
 		"spellSchool": "FROST",
-		"text": "[x]Deal $3 damage to a\n minion. If it dies, <b>Discover</b> a\nFrost Rune card.",
+		"text": "Deal $3 damage to a minion. If it dies, <b>Discover</b> a Frost\nRune card.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -304162,7 +304163,7 @@
 		"additionalCosts": {
 			"BLOODRUNE": 1
 		},
-		"text": "Deal $3 damage to a minion. If it dies, gain a <b>Corpse</b>.",
+		"text": "Deal $3 damage to\n a minion. If it dies,\ngain a <b>Corpse</b>.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -392842,7 +392843,7 @@
 		"rarity": "Rare",
 		"cost": 6,
 		"spellSchool": "SHADOW",
-		"text": "[x]Deal $3 damage to a\ncharacter. If it dies,\nsummon a Demon from\nyour deck.",
+		"text": "[x]Deal $3 damage to a\ncharacter. If it dies,\nsummon a Demon\nfrom your deck.",
 		"mechanics": [
 			"DEAL_DAMAGE",
 			"SUMMONS_DEMON"
@@ -537779,7 +537780,7 @@
 		"additionalCosts": {
 			"BLOODRUNE": 1
 		},
-		"text": "Deal $3 damage to a minion. If it dies, gain a <b>Corpse</b>.",
+		"text": "Deal $3 damage to\n a minion. If it dies,\ngain a <b>Corpse</b>.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -548972,7 +548973,7 @@
 		"rarity": "Rare",
 		"cost": 3,
 		"spellSchool": "NATURE",
-		"text": "Deal $3 damage to a minion. If it dies, summon a 3/2 Wolf with <b>Rush</b>.",
+		"text": "[x]Deal $3 damage\n to a minion. If it dies,\nsummon a 3/2 Wolf\nwith <b>Rush</b>.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -563571,7 +563572,8 @@
 		"text": "<b>Discover</b> a card from your deck. If you play it this turn, also pick one of the others.",
 		"mechanics": [
 			"DISCOVER"
-		]
+		],
+		"availableAsSignature": true
 	},
 	{
 		"dbfId": 117698,
@@ -605238,6 +605240,7 @@
 		"mechanics": [
 			"BATTLECRY"
 		],
+		"availableAsSignature": true,
 		"relatedCardDbfIds": [
 			1746
 		]
@@ -609212,6 +609215,21 @@
 		"text": "<b>Hero Power</b>\nSummon a Totem of your choice."
 	},
 	{
+		"dbfId": 123698,
+		"id": "HERO_03bi",
+		"name": "Mob Boss Valeera",
+		"type": "Hero",
+		"cardClass": "ROGUE",
+		"classes": [
+			"ROGUE"
+		],
+		"collectible": true,
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"faction": "NEUTRAL",
+		"health": 30
+	},
+	{
 		"dbfId": 123699,
 		"id": "HERO_04bf",
 		"name": "Gelbin Mekkatorque",
@@ -610843,7 +610861,7 @@
 		"cost": 7,
 		"attack": 6,
 		"health": 6,
-		"text": "[x]<b>Prepare</b>, <b>Taunt</b>\n<b>Deathrattle:</b> Restore 6 Health\nto your hero. Summon a\n random 6-Cost minion.",
+		"text": "[x]<b>Prepare</b>, <b>Taunt</b>\n<b>Deathrattle:</b> Restore #6 Health\nto your hero. Summon a\n random 6-Cost minion.",
 		"mechanics": [
 			"DEATHRATTLE",
 			"PREPARE",
@@ -612979,16 +612997,13 @@
 	{
 		"dbfId": 125984,
 		"id": "JAIL_500e",
-		"name": "Cloak of Night",
+		"name": "Slice and Dice Player Enchant",
 		"type": "Enchantment",
 		"cardClass": "NEUTRAL",
 		"classes": [
 			"NEUTRAL"
 		],
-		"set": "Violet_hold",
-		"mechanics": [
-			"TAG_ONE_TURN_EFFECT"
-		]
+		"set": "Violet_hold"
 	},
 	{
 		"dbfId": 125985,
@@ -613596,7 +613611,8 @@
 		"text": "[x]<b>Secret:</b> When an enemy\nminion attacks, transform\nit into a 1/1 Sheep.",
 		"mechanics": [
 			"SECRET"
-		]
+		],
+		"availableAsSignature": true
 	},
 	{
 		"dbfId": 126116,
@@ -614573,6 +614589,7 @@
 		"mechanics": [
 			"DEATHRATTLE"
 		],
+		"availableAsSignature": true,
 		"relatedCardDbfIds": [
 			1746
 		]
@@ -614906,6 +614923,10 @@
 		"mechanics": [
 			"BATTLECRY",
 			"PREPARE"
+		],
+		"availableAsSignature": true,
+		"referencedTags": [
+			"SECRET"
 		]
 	},
 	{
@@ -615545,7 +615566,8 @@
 		"text": "[x]<b>Battlecry:</b> After you cast a\nspell this game, summon\na random minion of the\nsame Cost.",
 		"mechanics": [
 			"BATTLECRY"
-		]
+		],
+		"availableAsSignature": true
 	},
 	{
 		"dbfId": 126354,
@@ -615593,7 +615615,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DEAL_DAMAGE"
-		]
+		],
+		"availableAsSignature": true
 	},
 	{
 		"dbfId": 126356,
@@ -621904,7 +621927,8 @@
 		"text": "Your cards that summon minions summon twice as many.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
-		]
+		],
+		"availableAsSignature": true
 	},
 	{
 		"dbfId": 126976,
@@ -622042,6 +622066,282 @@
 		]
 	},
 	{
+		"dbfId": 127011,
+		"id": "CAP_000",
+		"name": "SI:7 Slayer",
+		"type": "Minion",
+		"cardClass": "ROGUE",
+		"classes": [
+			"ROGUE"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Common",
+		"cost": 3,
+		"attack": 1,
+		"health": 2,
+		"text": "[x]<b><b>Stealth</b>.</b> Whenever a\nfriendly <b><b>Stealth</b>ed</b> minion\nattacks, give it +2/+2.",
+		"mechanics": [
+			"STEALTH",
+			"TRIGGER_VISUAL"
+		]
+	},
+	{
+		"dbfId": 127012,
+		"id": "CAP_107t",
+		"name": "Cannoneer",
+		"type": "Minion",
+		"cardClass": "WARRIOR",
+		"classes": [
+			"WARRIOR"
+		],
+		"set": "Azeroths_most_wanted",
+		"cost": 1,
+		"race": "PIRATE",
+		"races": [
+			"PIRATE"
+		],
+		"attack": 1,
+		"health": 1,
+		"text": "[x]At the end of your turn,\ndeal 1 damage to a\nrandom enemy.",
+		"mechanics": [
+			"TRIGGER_VISUAL",
+			"END_OF_TURN",
+			"DEAL_DAMAGE"
+		]
+	},
+	{
+		"dbfId": 127013,
+		"id": "CAP_101",
+		"name": "Follow the Fuse",
+		"type": "Spell",
+		"cardClass": "WARRIOR",
+		"classes": [
+			"WARRIOR"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Epic",
+		"cost": 1,
+		"text": "[x]Deal $2 damage to a\nrandom enemy. Give a\nplayable Pirate in your\nhand this effect for a turn.",
+		"mechanics": [
+			"DEAL_DAMAGE"
+		]
+	},
+	{
+		"dbfId": 127014,
+		"id": "CAP_102",
+		"name": "Land Ho!",
+		"type": "Spell",
+		"cardClass": "WARRIOR",
+		"classes": [
+			"WARRIOR"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Rare",
+		"cost": 4,
+		"text": "[x]Draw 2 cards.\nSummon two 1/1\nCannoneers."
+	},
+	{
+		"dbfId": 127015,
+		"id": "CAP_103",
+		"name": "Hand Cannon",
+		"type": "Weapon",
+		"cardClass": "WARRIOR",
+		"classes": [
+			"WARRIOR"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Rare",
+		"cost": 3,
+		"attack": 3,
+		"durability": 2,
+		"text": "[x]After your hero attacks,\nyour Cannoneers FIRE!",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		]
+	},
+	{
+		"dbfId": 127016,
+		"id": "CAP_104",
+		"name": "Blastpowder Engineer",
+		"type": "Minion",
+		"cardClass": "WARRIOR",
+		"classes": [
+			"WARRIOR"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Epic",
+		"cost": 2,
+		"race": "PIRATE",
+		"races": [
+			"PIRATE"
+		],
+		"attack": 2,
+		"health": 3,
+		"text": "[x]On your turn, friendly\nPirates deal 1 more\ndamage.",
+		"mechanics": [
+			"AURA"
+		]
+	},
+	{
+		"dbfId": 127017,
+		"id": "CAP_105",
+		"name": "Hook n' Heave",
+		"type": "Spell",
+		"cardClass": "WARRIOR",
+		"classes": [
+			"WARRIOR"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Common",
+		"cost": 2,
+		"text": "<b>Discover</b> a Pirate.\nSummon two 1/1 Cannoneers.",
+		"mechanics": [
+			"DISCOVER"
+		]
+	},
+	{
+		"dbfId": 127018,
+		"id": "CAP_105t",
+		"name": "Cutlass Cutthroat",
+		"type": "Minion",
+		"cardClass": "WARRIOR",
+		"classes": [
+			"WARRIOR"
+		],
+		"set": "Azeroths_most_wanted",
+		"cost": 1,
+		"race": "PIRATE",
+		"races": [
+			"PIRATE"
+		],
+		"attack": 1,
+		"health": 1,
+		"text": "<b>Rush</b>",
+		"mechanics": [
+			"RUSH"
+		]
+	},
+	{
+		"dbfId": 127019,
+		"id": "CAP_106",
+		"name": "Captain Crowley",
+		"type": "Minion",
+		"cardClass": "WARRIOR",
+		"classes": [
+			"WARRIOR"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Legendary",
+		"cost": 5,
+		"race": "PIRATE",
+		"races": [
+			"PIRATE"
+		],
+		"attack": 4,
+		"health": 5,
+		"text": "[x]Your Cannoneers fire\nan additional shot.\n<b>Battlecry</b>: Summon\n two 1/1 Cannoneers.",
+		"mechanics": [
+			"AURA",
+			"BATTLECRY"
+		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 1,
+			"TAG_SCRIPT_DATA_NUM_2": 1,
+			"TAG_SCRIPT_DATA_NUM_3": 1
+		}
+	},
+	{
+		"dbfId": 127024,
+		"id": "CAP_400t2t",
+		"name": "Imp-formant",
+		"type": "Minion",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Azeroths_most_wanted",
+		"cost": 3,
+		"race": "DEMON",
+		"races": [
+			"DEMON"
+		],
+		"attack": 3,
+		"health": 3,
+		"text": "[x]<b>Lifesteal</b>\n<b>Summoned When Drawn</b>\n<i>(for your opponent)</i>",
+		"mechanics": [
+			"IMP",
+			"LIFESTEAL",
+			"SUMMONED_WHEN_DRAWN"
+		],
+		"referencedTags": [
+			"SUMMONED_WHEN_DRAWN"
+		]
+	},
+	{
+		"dbfId": 127028,
+		"id": "CAP_001",
+		"name": "Silent Strike",
+		"type": "Spell",
+		"cardClass": "ROGUE",
+		"classes": [
+			"ROGUE"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Rare",
+		"cost": 2,
+		"spellSchool": "SHADOW",
+		"text": "Give a minion +3 Attack. If it's <b><b>Stealth</b>ed</b>, deal its Attack damage to a random enemy minion.",
+		"mechanics": [
+			"DEAL_DAMAGE"
+		],
+		"otherTags": [
+			"TARGETS_MINION"
+		],
+		"referencedTags": [
+			"STEALTH"
+		]
+	},
+	{
+		"dbfId": 127029,
+		"id": "CAP_001e",
+		"name": "Silent",
+		"type": "Enchantment",
+		"cardClass": "ROGUE",
+		"classes": [
+			"ROGUE"
+		],
+		"set": "Azeroths_most_wanted",
+		"text": "+3 Attack."
+	},
+	{
+		"dbfId": 127033,
+		"id": "CAP_400",
+		"name": "Kabal Conspirator",
+		"type": "Minion",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Common",
+		"cost": 2,
+		"attack": 2,
+		"health": 3,
+		"text": "[x]<b>Deathrattle:</b> Put two\n3/3 Imp-formants into the\nenemy deck. They summon\nfor YOU when drawn.",
+		"mechanics": [
+			"DEATHRATTLE"
+		]
+	},
+	{
 		"dbfId": 127034,
 		"id": "TIME_043e2",
 		"name": "Pacifitized",
@@ -622053,6 +622353,92 @@
 		"set": "Across_the_timeways",
 		"text": "Can't attack heroes this turn.",
 		"mechanics": [
+			"TAG_ONE_TURN_EFFECT"
+		]
+	},
+	{
+		"dbfId": 127035,
+		"id": "CAP_101e",
+		"name": "Following the Fuse",
+		"type": "Enchantment",
+		"cardClass": "WARRIOR",
+		"classes": [
+			"WARRIOR"
+		],
+		"set": "Azeroths_most_wanted",
+		"text": "When played, deal $2 damage to a random enemy. Give a playable Pirate in your hand this effect for a turn.",
+		"mechanics": [
+			"ENCHANTMENT_INVISIBLE",
+			"TAG_ONE_TURN_EFFECT",
+			"DEAL_DAMAGE"
+		]
+	},
+	{
+		"dbfId": 127037,
+		"id": "CAP_401",
+		"name": "Corrupt Constable",
+		"type": "Minion",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Common",
+		"cost": 4,
+		"attack": 3,
+		"health": 5,
+		"text": "<b>Battlecry:</b> If the enemy deck has any Imp-formants, move one to the top and give it +2/+2.",
+		"mechanics": [
+			"BATTLECRY"
+		]
+	},
+	{
+		"dbfId": 127039,
+		"id": "CAP_401e",
+		"name": "Tipped Off",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"classes": [
+			"NEUTRAL"
+		],
+		"set": "Azeroths_most_wanted",
+		"text": "+2/+2."
+	},
+	{
+		"dbfId": 127041,
+		"id": "CAP_002",
+		"name": "Follow the Footsteps",
+		"type": "Spell",
+		"cardClass": "ROGUE",
+		"classes": [
+			"ROGUE"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Rare",
+		"cost": 1,
+		"text": "[x]<b>Discover</b> a <b>Stealth</b>\nminion. Give it this\neffect for a turn.",
+		"mechanics": [
+			"DISCOVER"
+		],
+		"referencedTags": [
+			"STEALTH"
+		]
+	},
+	{
+		"dbfId": 127043,
+		"id": "CAP_002e",
+		"name": "Following the Footsteps",
+		"type": "Enchantment",
+		"cardClass": "ROGUE",
+		"classes": [
+			"ROGUE"
+		],
+		"set": "Azeroths_most_wanted",
+		"text": "After you play the card, <b>Discover</b> a <b>Stealth</b> minion and give it this effect",
+		"mechanics": [
+			"ENCHANTMENT_INVISIBLE",
 			"TAG_ONE_TURN_EFFECT"
 		]
 	},
@@ -622078,6 +622464,37 @@
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
 		"availableAsSignature": true
+	},
+	{
+		"dbfId": 127051,
+		"id": "CAP_402",
+		"name": "Follow the Evidence",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Epic",
+		"cost": 1,
+		"text": "[x]Put a 3/3 Imp-formant\ninto the enemy deck. Give\na playable card in your\nhand this effect for a turn."
+	},
+	{
+		"dbfId": 127052,
+		"id": "CAP_402e",
+		"name": "Following the Evidence",
+		"type": "Enchantment",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Azeroths_most_wanted",
+		"text": "Shuffle a 3/3\nImp-formant into the enemy deck. Give a playable card in your hand this effect for a turn.",
+		"mechanics": [
+			"ENCHANTMENT_INVISIBLE",
+			"TAG_ONE_TURN_EFFECT"
+		]
 	},
 	{
 		"dbfId": 127053,
@@ -622110,6 +622527,303 @@
 		]
 	},
 	{
+		"dbfId": 127054,
+		"id": "CAP_003",
+		"name": "SI:7 Supplier",
+		"type": "Minion",
+		"cardClass": "ROGUE",
+		"classes": [
+			"ROGUE"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Common",
+		"cost": 2,
+		"attack": 1,
+		"health": 3,
+		"text": "<b>Stealth</b>\nAfter this attacks,\ndraw a card.",
+		"mechanics": [
+			"STEALTH",
+			"TRIGGER_VISUAL"
+		],
+		"referencedTags": [
+			"STEALTH"
+		]
+	},
+	{
+		"dbfId": 127055,
+		"id": "CAP_004",
+		"name": "Disguised Operator",
+		"type": "Minion",
+		"cardClass": "ROGUE",
+		"classes": [
+			"ROGUE"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Epic",
+		"cost": 1,
+		"attack": 4,
+		"health": 2,
+		"text": "[x] Can be played on either side.\n<b>Rush</b>. <b>Deathrattle:</b> Your\nopponent draws 2 cards.",
+		"mechanics": [
+			"DEATHRATTLE",
+			"RUSH"
+		]
+	},
+	{
+		"dbfId": 127056,
+		"id": "CAP_005",
+		"name": "Mathias Shaw",
+		"type": "Minion",
+		"cardClass": "ROGUE",
+		"classes": [
+			"ROGUE"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Legendary",
+		"cost": 4,
+		"attack": 4,
+		"health": 4,
+		"text": "[x]<b><b>Stealth</b>.</b> Whenever a friendly\n<b><b>Stealth</b>ed</b> minion attacks,\nreduce the Cost of a random\n card in your hand by (3).",
+		"mechanics": [
+			"STEALTH",
+			"TRIGGER_VISUAL"
+		],
+		"availableAsSignature": true
+	},
+	{
+		"dbfId": 127057,
+		"id": "CAP_403",
+		"name": "Frame Job",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Rare",
+		"cost": 5,
+		"text": "[x]Destroy two random\nenemy minions. <b>Discover</b>\na minion in the enemy\ndeck to put on top.",
+		"mechanics": [
+			"DISCOVER"
+		]
+	},
+	{
+		"dbfId": 127058,
+		"id": "CAP_404",
+		"name": "Harsh Sentence",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Rare",
+		"cost": 2,
+		"text": "[x]Enemy minions cost\n(2) more next turn. Put\ntwo 3/3 Imp-formants\ninto the enemy deck."
+	},
+	{
+		"dbfId": 127059,
+		"id": "CAP_404e",
+		"name": "Harshing My Vibe",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"classes": [
+			"NEUTRAL"
+		],
+		"set": "Azeroths_most_wanted",
+		"text": "Your minions cost (2) more this turn."
+	},
+	{
+		"dbfId": 127060,
+		"id": "CAP_800",
+		"name": "Sinful Steed",
+		"type": "Minion",
+		"cardClass": "PRIEST",
+		"classes": [
+			"PRIEST"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Epic",
+		"cost": 3,
+		"race": "BEAST",
+		"races": [
+			"BEAST",
+			"UNDEAD"
+		],
+		"attack": 2,
+		"health": 3,
+		"text": "<b>Reborn</b>. This is <b>Reborn</b> with full Health and enchantments.",
+		"mechanics": [
+			"REBORN"
+		]
+	},
+	{
+		"dbfId": 127061,
+		"id": "CAP_801",
+		"name": "Haunt",
+		"type": "Spell",
+		"cardClass": "PRIEST",
+		"classes": [
+			"PRIEST"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Common",
+		"cost": 3,
+		"spellSchool": "SHADOW",
+		"text": "Give a minion +2/+3,\n<b>Reborn</b>, and <b>Taunt</b>.",
+		"otherTags": [
+			"TARGETS_FRIENDLY_MINION"
+		],
+		"referencedTags": [
+			"REBORN",
+			"TAUNT"
+		]
+	},
+	{
+		"dbfId": 127062,
+		"id": "CAP_802",
+		"name": "Follow the Ghosts",
+		"type": "Spell",
+		"cardClass": "PRIEST",
+		"classes": [
+			"PRIEST"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Rare",
+		"cost": 2,
+		"spellSchool": "SHADOW",
+		"text": "[x]Summon a 2/1 Ghost\nwith <b>Reborn</b>. Give a\nplayable card in your hand\nthis effect for a turn.",
+		"referencedTags": [
+			"REBORN"
+		]
+	},
+	{
+		"dbfId": 127063,
+		"id": "CAP_802t",
+		"name": "Spooky Ghost",
+		"type": "Minion",
+		"cardClass": "PRIEST",
+		"classes": [
+			"PRIEST"
+		],
+		"set": "Azeroths_most_wanted",
+		"cost": 2,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"attack": 2,
+		"health": 1,
+		"text": "<b>Reborn</b>",
+		"mechanics": [
+			"REBORN"
+		]
+	},
+	{
+		"dbfId": 127064,
+		"id": "CAP_803",
+		"name": "Lingering Spirit",
+		"type": "Minion",
+		"cardClass": "PRIEST",
+		"classes": [
+			"PRIEST"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Rare",
+		"cost": 4,
+		"race": "UNDEAD",
+		"races": [
+			"UNDEAD"
+		],
+		"attack": 3,
+		"health": 3,
+		"text": "[x]<b>Reborn</b>\n<b>Deathrattle:</b> Restore #3 Health\nto your hero. Excess healing\n damages a random enemy.",
+		"mechanics": [
+			"DEATHRATTLE",
+			"REBORN",
+			"RESTORE_HEALTH"
+		]
+	},
+	{
+		"dbfId": 127065,
+		"id": "CAP_804",
+		"name": "Specter Specialist",
+		"type": "Minion",
+		"cardClass": "PRIEST",
+		"classes": [
+			"PRIEST"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Common",
+		"cost": 3,
+		"attack": 3,
+		"health": 2,
+		"text": "[x]<b>Battlecry:</b> Give a\nfriendly minion <b>Reborn</b>.\nIf it already has <b>Reborn</b>,\n summon a copy of it.",
+		"mechanics": [
+			"BATTLECRY"
+		],
+		"otherTags": [
+			"TARGETS_FRIENDLY_MINION"
+		],
+		"referencedTags": [
+			"REBORN"
+		]
+	},
+	{
+		"dbfId": 127067,
+		"id": "CAP_405",
+		"name": "Godfather Kazakus",
+		"type": "Minion",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Legendary",
+		"cost": 3,
+		"attack": 3,
+		"health": 3,
+		"text": "<b>Battlecry:</b> Plot a custom sham trial! Then choose the trial's length.",
+		"mechanics": [
+			"BATTLECRY"
+		],
+		"availableAsSignature": true
+	},
+	{
+		"dbfId": 127068,
+		"id": "CAP_806",
+		"name": "Raith Van Geist",
+		"type": "Minion",
+		"cardClass": "PRIEST",
+		"classes": [
+			"PRIEST"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Legendary",
+		"cost": 7,
+		"attack": 5,
+		"health": 5,
+		"text": "[x]<b>Battlecry:</b> Resurrect your\nminions that were <b>Reborn</b>\nthis game. They attack\n random enemy minions.",
+		"mechanics": [
+			"BATTLECRY"
+		],
+		"referencedTags": [
+			"REBORN"
+		]
+	},
+	{
 		"dbfId": 127071,
 		"id": "CATA_565t",
 		"name": "Soldier of Al'Akir",
@@ -622136,6 +622850,28 @@
 		"availableAsSignature": true,
 		"relatedCardDbfIds": [
 			122953
+		]
+	},
+	{
+		"dbfId": 127073,
+		"id": "CAP_006",
+		"name": "Tricks of the Trade",
+		"type": "Spell",
+		"cardClass": "ROGUE",
+		"classes": [
+			"ROGUE"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Epic",
+		"cost": 1,
+		"faction": "NEUTRAL",
+		"text": "[x]Deal $1 damage.\nIf a <b><b>Stealth</b>ed</b> minion\nattacked while holding\nthis, deal $3 instead.",
+		"mechanics": [
+			"DEAL_DAMAGE"
+		],
+		"referencedTags": [
+			"STEALTH"
 		]
 	},
 	{
@@ -622213,6 +622949,43 @@
 		"text": "Has +2 Attack while you have a weapon equipped."
 	},
 	{
+		"dbfId": 127090,
+		"id": "CAP_406",
+		"name": "Kabal Mastermind",
+		"type": "Minion",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Epic",
+		"cost": 5,
+		"attack": 5,
+		"health": 5,
+		"text": "[x]<b>Taunt</b>. <b>Battlecry:</b>\nWhenever you summon an\nImp-formant this game,\ngive it +2/+2.",
+		"mechanics": [
+			"BATTLECRY",
+			"TAUNT"
+		]
+	},
+	{
+		"dbfId": 127092,
+		"id": "CAP_805",
+		"name": "Slime 'em!",
+		"type": "Spell",
+		"cardClass": "PRIEST",
+		"classes": [
+			"PRIEST"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Epic",
+		"cost": 4,
+		"spellSchool": "SHADOW",
+		"text": "[x]Destroy all minions.\nEach player gets a\n3-Cost spell that\nresummons theirs."
+	},
+	{
 		"dbfId": 127096,
 		"id": "BG34_Giant_069",
 		"name": "Timewarped Piper",
@@ -622287,6 +623060,32 @@
 		],
 		"set": "Battlegrounds",
 		"text": "Return Evolving Tavern to your hand at start of turn."
+	},
+	{
+		"dbfId": 127099,
+		"id": "CAP_107",
+		"name": "Cannonmaster",
+		"type": "Minion",
+		"cardClass": "WARRIOR",
+		"classes": [
+			"WARRIOR"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Common",
+		"cost": 1,
+		"race": "PIRATE",
+		"races": [
+			"PIRATE",
+			"DRAENEI"
+		],
+		"attack": 3,
+		"health": 1,
+		"text": "[x]<b>Battlecry:</b> Get a 1/1\nCannoneer that deals\n1 damage to a random\nenemy at end of turn.",
+		"mechanics": [
+			"BATTLECRY",
+			"DEAL_DAMAGE"
+		]
 	},
 	{
 		"dbfId": 127105,
@@ -622551,6 +623350,31 @@
 		},
 		"battlegroundsNormalDbfId": 127113,
 		"premium": true
+	},
+	{
+		"dbfId": 127117,
+		"id": "CAP_805e",
+		"name": "I've Been Slimed",
+		"type": "Enchantment",
+		"cardClass": "PRIEST",
+		"classes": [
+			"PRIEST"
+		],
+		"set": "Azeroths_most_wanted"
+	},
+	{
+		"dbfId": 127118,
+		"id": "CAP_805t",
+		"name": "Ectoplasm",
+		"type": "Spell",
+		"cardClass": "PRIEST",
+		"classes": [
+			"PRIEST"
+		],
+		"set": "Azeroths_most_wanted",
+		"cost": 3,
+		"spellSchool": "SHADOW",
+		"text": "Resummon all\nfriendly minions that were slimed."
 	},
 	{
 		"dbfId": 127119,
@@ -639527,6 +640351,28 @@
 		"text": "+{0}/+{1}."
 	},
 	{
+		"dbfId": 129888,
+		"id": "CAP_407",
+		"name": "Wanted Poster",
+		"type": "Spell",
+		"cardClass": "NEUTRAL",
+		"classes": [
+			"NEUTRAL"
+		],
+		"collectible": true,
+		"set": "Azeroths_most_wanted",
+		"rarity": "Epic",
+		"cost": 2,
+		"text": "<b>Discover</b> a minion\n that costs (5) or more.\nGive it <b>Prepare</b>.",
+		"mechanics": [
+			"DISCOVER"
+		],
+		"availableAsSignature": true,
+		"referencedTags": [
+			"PREPARE"
+		]
+	},
+	{
 		"dbfId": 129894,
 		"id": "TIME_EVENT_300",
 		"name": "Dark Iron Harbinger",
@@ -639901,6 +640747,34 @@
 			"AURA",
 			"TRIGGER_VISUAL"
 		]
+	},
+	{
+		"dbfId": 130030,
+		"id": "CAP_004a",
+		"name": "Detected!",
+		"type": "Spell",
+		"cardClass": "ROGUE",
+		"classes": [
+			"ROGUE"
+		],
+		"set": "Azeroths_most_wanted",
+		"cost": 1,
+		"text": "This was played on\nthe friendly side.",
+		"hideStats": true
+	},
+	{
+		"dbfId": 130031,
+		"id": "CAP_004b",
+		"name": "Disguised!",
+		"type": "Spell",
+		"cardClass": "ROGUE",
+		"classes": [
+			"ROGUE"
+		],
+		"set": "Azeroths_most_wanted",
+		"cost": 1,
+		"text": "This was played on\nthe enemy side.",
+		"hideStats": true
 	},
 	{
 		"dbfId": 130075,
@@ -640584,6 +641458,20 @@
 	{
 		"dbfId": 130274,
 		"id": "JAIL_COIN2",
+		"name": "The Coin",
+		"type": "Spell",
+		"cardClass": "NEUTRAL",
+		"classes": [
+			"NEUTRAL"
+		],
+		"set": "Violet_hold",
+		"cost": 0,
+		"text": "Gain 1 Mana Crystal this turn only.",
+		"isCoin": true
+	},
+	{
+		"dbfId": 130275,
+		"id": "JAIL_EVENT_COIN",
 		"name": "The Coin",
 		"type": "Spell",
 		"cardClass": "NEUTRAL",
@@ -645011,6 +645899,116 @@
 		"health": 30
 	},
 	{
+		"dbfId": 131091,
+		"id": "HERO_08cs",
+		"name": "Lich Lord Kel'Thuzad",
+		"type": "Hero",
+		"cardClass": "MAGE",
+		"classes": [
+			"MAGE"
+		],
+		"collectible": true,
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"faction": "NEUTRAL",
+		"health": 30,
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 1
+		}
+	},
+	{
+		"dbfId": 131092,
+		"id": "HERO_08cshp",
+		"name": "Fireblast",
+		"type": "Hero_power",
+		"cardClass": "MAGE",
+		"classes": [
+			"MAGE"
+		],
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"cost": 2,
+		"faction": "NEUTRAL",
+		"text": "<b>Hero Power</b>\nDeal $1 damage.",
+		"mechanics": [
+			"DEAL_DAMAGE"
+		]
+	},
+	{
+		"dbfId": 131093,
+		"id": "HERO_08cshp2",
+		"name": "Fireblast Rank 2",
+		"type": "Hero_power",
+		"cardClass": "MAGE",
+		"classes": [
+			"MAGE"
+		],
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nDeal $2 damage.",
+		"mechanics": [
+			"DEAL_DAMAGE"
+		]
+	},
+	{
+		"dbfId": 131094,
+		"id": "HERO_07by",
+		"name": "Zuramat the Obliterator",
+		"type": "Hero",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"collectible": true,
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"faction": "NEUTRAL",
+		"health": 30
+	},
+	{
+		"dbfId": 131095,
+		"id": "HERO_07byhp",
+		"name": "Life Tap",
+		"type": "Hero_power",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"cost": 2,
+		"faction": "NEUTRAL",
+		"text": "<b>Hero Power</b>\nDraw a card and take $2 damage."
+	},
+	{
+		"dbfId": 131096,
+		"id": "HERO_07byhp2",
+		"name": "Soul Tap",
+		"type": "Hero_power",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nDraw a card."
+	},
+	{
+		"dbfId": 131097,
+		"id": "HERO_05ca",
+		"name": "Bounty Hunter Vivian",
+		"type": "Hero",
+		"cardClass": "HUNTER",
+		"classes": [
+			"HUNTER"
+		],
+		"collectible": true,
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"faction": "NEUTRAL",
+		"health": 30
+	},
+	{
 		"dbfId": 131112,
 		"id": "BG27_556pe",
 		"name": "Diremuck Player Ench [DNT]",
@@ -646652,30 +647650,6 @@
 			"TAG_SCRIPT_DATA_NUM_1": 4,
 			"TAG_SCRIPT_DATA_NUM_2": 4
 		}
-	},
-	{
-		"dbfId": 131326,
-		"id": "CATA_206t",
-		"name": "Twisted Monstrosity",
-		"type": "Minion",
-		"cardClass": "NEUTRAL",
-		"classes": [
-			"NEUTRAL"
-		],
-		"set": "Cataclysm",
-		"rarity": "Rare",
-		"cost": 5,
-		"race": "BEAST",
-		"races": [
-			"BEAST"
-		],
-		"attack": 6,
-		"health": 5,
-		"text": "[x]<b>{0}, {1}</b>\nEach turn this is in your\nhand, swap between two\n random <b>Bonus Effects</b>.",
-		"availableAsSignature": true,
-		"referencedTags": [
-			"BONUS_EFFECTS"
-		]
 	},
 	{
 		"dbfId": 131327,
@@ -648360,6 +649334,18 @@
 		]
 	},
 	{
+		"dbfId": 132269,
+		"id": "CAP_106e",
+		"name": "Bombardment",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"classes": [
+			"NEUTRAL"
+		],
+		"set": "Azeroths_most_wanted",
+		"text": "Your Cannoneers fire an additional shot."
+	},
+	{
 		"dbfId": 132276,
 		"id": "BG36_MidGameEffect_000t12",
 		"name": "Persisting Horror",
@@ -648875,20 +649861,19 @@
 		]
 	},
 	{
-		"dbfId": 132367,
-		"id": "BG28_521t2",
-		"name": "Corrupted Planar Telescope",
-		"type": "Battleground_spell",
-		"cardClass": "NEUTRAL",
+		"dbfId": 132351,
+		"id": "CAP_802e1",
+		"name": "Following the Ghosts",
+		"type": "Enchantment",
+		"cardClass": "PRIEST",
 		"classes": [
-			"NEUTRAL"
+			"PRIEST"
 		],
-		"set": "Battlegrounds",
-		"cost": 4,
-		"spellSchool": "TAVERN",
-		"text": "<b>Discover</b> a minion of your most common type with a Dark Gift",
-		"referencedTags": [
-			"DISCOVER"
+		"set": "Azeroths_most_wanted",
+		"text": "After this is played, summon a 2/1 Ghost with <b>Reborn</b>. Give a card in your hand this effect for a turn.",
+		"mechanics": [
+			"ENCHANTMENT_INVISIBLE",
+			"TAG_ONE_TURN_EFFECT"
 		]
 	},
 	{
@@ -650829,6 +651814,82 @@
 		]
 	},
 	{
+		"dbfId": 132827,
+		"id": "CAP_000e",
+		"name": "Slayer",
+		"type": "Enchantment",
+		"cardClass": "ROGUE",
+		"classes": [
+			"ROGUE"
+		],
+		"set": "Azeroths_most_wanted",
+		"text": "+2/+2."
+	},
+	{
+		"dbfId": 132829,
+		"id": "CAP_405tb1",
+		"name": "Rushed Trial",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Azeroths_most_wanted",
+		"rarity": "Legendary",
+		"cost": 7,
+		"text": "{0} {1}"
+	},
+	{
+		"dbfId": 132830,
+		"id": "CAP_405tb2",
+		"name": "Grueling Trial",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Azeroths_most_wanted",
+		"rarity": "Legendary",
+		"cost": 4,
+		"text": "In 1 turn, {0} {1}",
+		"mechanics": [
+			"OBJECTIVE"
+		]
+	},
+	{
+		"dbfId": 132831,
+		"id": "CAP_405tb3",
+		"name": "Unending Trial",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Azeroths_most_wanted",
+		"rarity": "Legendary",
+		"cost": 0,
+		"text": "In 4 turns, {0} {1}",
+		"mechanics": [
+			"OBJECTIVE"
+		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 0
+		}
+	},
+	{
+		"dbfId": 132832,
+		"id": "CAP_005e4",
+		"name": "Stealth 100",
+		"type": "Enchantment",
+		"cardClass": "ROGUE",
+		"classes": [
+			"ROGUE"
+		],
+		"set": "Azeroths_most_wanted",
+		"text": "Costs (3) less."
+	},
+	{
 		"dbfId": 132833,
 		"id": "BG36_MidGameEffect_000t60",
 		"name": "Invulnerability",
@@ -650890,6 +651951,239 @@
 		"text": "<b>Deathrattle:</b> Summon a Golem with this minion's stats.",
 		"referencedTags": [
 			"DEATHRATTLE"
+		]
+	},
+	{
+		"dbfId": 132837,
+		"id": "CAP_405t1",
+		"name": "Detained for Destruction",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Azeroths_most_wanted",
+		"rarity": "Legendary",
+		"cost": 0,
+		"text": "Force each minion to attack another minion.",
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 3
+		},
+		"hideStats": true
+	},
+	{
+		"dbfId": 132838,
+		"id": "CAP_405t4",
+		"name": "Crate of Contraband",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Azeroths_most_wanted",
+		"rarity": "Legendary",
+		"cost": 0,
+		"text": "Draw 3 cards.",
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 2
+		},
+		"hideStats": true
+	},
+	{
+		"dbfId": 132843,
+		"id": "CAP_405t3",
+		"name": "Sentenced for Smuggling",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Azeroths_most_wanted",
+		"rarity": "Legendary",
+		"cost": 0,
+		"text": "Steal 2 cards from your opponent's hand.",
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 1
+		},
+		"hideStats": true
+	},
+	{
+		"dbfId": 132844,
+		"id": "CAP_405t5",
+		"name": "Spurious Shiv",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Azeroths_most_wanted",
+		"rarity": "Legendary",
+		"cost": 0,
+		"text": "Give minions in your hand and battlefield +3/+3.",
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 7
+		},
+		"hideStats": true
+	},
+	{
+		"dbfId": 132846,
+		"id": "CAP_405t5e",
+		"name": "Dubious Daggers",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"classes": [
+			"NEUTRAL"
+		],
+		"set": "Azeroths_most_wanted",
+		"text": "+3/+3"
+	},
+	{
+		"dbfId": 132848,
+		"id": "CAP_405t9",
+		"name": "Tonic of Tyranny",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Azeroths_most_wanted",
+		"rarity": "Legendary",
+		"cost": 0,
+		"text": "Summon a Voidlord.",
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 4
+		},
+		"hideStats": true
+	},
+	{
+		"dbfId": 132849,
+		"id": "CAP_405t2",
+		"name": "Convicted for Conspiracy",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Azeroths_most_wanted",
+		"rarity": "Legendary",
+		"cost": 0,
+		"text": "Take control of a random enemy minion.",
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 5
+		},
+		"hideStats": true
+	},
+	{
+		"dbfId": 132850,
+		"id": "CAP_405t6",
+		"name": "Criminal Contract",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Azeroths_most_wanted",
+		"cost": 0,
+		"text": "Summon three random 3-Cost minions.",
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 6
+		},
+		"hideStats": true
+	},
+	{
+		"dbfId": 132851,
+		"id": "CAP_405t7",
+		"name": "Potion of Perjury",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Azeroths_most_wanted",
+		"rarity": "Legendary",
+		"cost": 0,
+		"text": "Reduce the Cost of minions in your hand by (2).",
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 8
+		},
+		"hideStats": true
+	},
+	{
+		"dbfId": 132855,
+		"id": "CAP_405t7e",
+		"name": "Perjurer",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"classes": [
+			"NEUTRAL"
+		],
+		"set": "Azeroths_most_wanted",
+		"text": "Costs (2) less."
+	},
+	{
+		"dbfId": 132856,
+		"id": "CAP_405t8",
+		"name": "Swill of Suggestibility",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Azeroths_most_wanted",
+		"rarity": "Legendary",
+		"cost": 0,
+		"text": "Restore #12 Health to your hero.",
+		"mechanics": [
+			"RESTORE_HEALTH"
+		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 9
+		},
+		"hideStats": true
+	},
+	{
+		"dbfId": 132873,
+		"id": "CAP_405tb1b",
+		"name": "Rushed Trial",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Azeroths_most_wanted",
+		"rarity": "Legendary",
+		"cost": 7,
+		"text": "The trial finishes immediately!"
+	},
+	{
+		"dbfId": 132874,
+		"id": "CAP_405tb2b",
+		"name": "Grueling Trial",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Azeroths_most_wanted",
+		"rarity": "Legendary",
+		"cost": 4,
+		"text": "The trial finishes at the start of your next turn."
+	},
+	{
+		"dbfId": 132875,
+		"id": "CAP_405tb3b",
+		"name": "Unending Trial",
+		"type": "Spell",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Azeroths_most_wanted",
+		"rarity": "Legendary",
+		"cost": 0,
+		"text": "The trial finishes in 4 turns.",
+		"mechanics": [
+			"OBJECTIVE"
 		]
 	},
 	{
@@ -653077,6 +654371,21 @@
 		]
 	},
 	{
+		"dbfId": 133205,
+		"id": "HERO_03cd",
+		"name": "Bounty Hunter Edwin",
+		"type": "Hero",
+		"cardClass": "ROGUE",
+		"classes": [
+			"ROGUE"
+		],
+		"collectible": true,
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"faction": "NEUTRAL",
+		"health": 30
+	},
+	{
 		"dbfId": 133283,
 		"id": "BG36_764",
 		"name": "Gearfin",
@@ -654707,6 +656016,164 @@
 		"text": "<b>Start of Combat:</b> Triple this minion's stats."
 	},
 	{
+		"dbfId": 133683,
+		"id": "HERO_11be",
+		"name": "Lich Lord Kel'Thuzad",
+		"type": "Hero",
+		"cardClass": "DEATHKNIGHT",
+		"classes": [
+			"DEATHKNIGHT"
+		],
+		"collectible": true,
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"faction": "NEUTRAL",
+		"health": 30,
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 1
+		}
+	},
+	{
+		"dbfId": 133684,
+		"id": "HERO_08cs_necro",
+		"name": "Lich Lord Kel'Thuzad",
+		"type": "Hero",
+		"cardClass": "MAGE",
+		"classes": [
+			"MAGE"
+		],
+		"collectible": true,
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"faction": "NEUTRAL",
+		"health": 30,
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 1
+		}
+	},
+	{
+		"dbfId": 133685,
+		"id": "HERO_11be_necro",
+		"name": "Lich Lord Kel'Thuzad",
+		"type": "Hero",
+		"cardClass": "DEATHKNIGHT",
+		"classes": [
+			"DEATHKNIGHT"
+		],
+		"collectible": true,
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"faction": "NEUTRAL",
+		"health": 30,
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 1
+		}
+	},
+	{
+		"dbfId": 133686,
+		"id": "HERO_08cshp_necro",
+		"name": "Fireblast",
+		"type": "Hero_power",
+		"cardClass": "MAGE",
+		"classes": [
+			"MAGE"
+		],
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"cost": 2,
+		"faction": "NEUTRAL",
+		"text": "<b>Hero Power</b>\nDeal $1 damage.",
+		"mechanics": [
+			"DEAL_DAMAGE"
+		]
+	},
+	{
+		"dbfId": 133687,
+		"id": "HERO_08cshp2_necro",
+		"name": "Fireblast Rank 2",
+		"type": "Hero_power",
+		"cardClass": "MAGE",
+		"classes": [
+			"MAGE"
+		],
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nDeal $2 damage.",
+		"mechanics": [
+			"DEAL_DAMAGE"
+		]
+	},
+	{
+		"dbfId": 133688,
+		"id": "HERO_11behp",
+		"name": "Ghoul Charge",
+		"type": "Hero_power",
+		"cardClass": "DEATHKNIGHT",
+		"classes": [
+			"DEATHKNIGHT"
+		],
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"cost": 2,
+		"faction": "NEUTRAL",
+		"text": "[x]<b>Hero Power</b>\nSummon a 1/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn.",
+		"referencedTags": [
+			"CHARGE"
+		]
+	},
+	{
+		"dbfId": 133689,
+		"id": "HERO_11behp2",
+		"name": "Ghoul Frenzy",
+		"type": "Hero_power",
+		"cardClass": "DEATHKNIGHT",
+		"classes": [
+			"DEATHKNIGHT"
+		],
+		"set": "Legacy",
+		"cost": 2,
+		"faction": "NEUTRAL",
+		"text": "[x]<b>Hero Power</b>\nSummon a 2/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn.",
+		"referencedTags": [
+			"CHARGE"
+		]
+	},
+	{
+		"dbfId": 133690,
+		"id": "HERO_11behp_necro",
+		"name": "Ghoul Charge",
+		"type": "Hero_power",
+		"cardClass": "DEATHKNIGHT",
+		"classes": [
+			"DEATHKNIGHT"
+		],
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"cost": 2,
+		"faction": "NEUTRAL",
+		"text": "[x]<b>Hero Power</b>\nSummon a 1/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn.",
+		"referencedTags": [
+			"CHARGE"
+		]
+	},
+	{
+		"dbfId": 133691,
+		"id": "HERO_11behp2_necro",
+		"name": "Ghoul Frenzy",
+		"type": "Hero_power",
+		"cardClass": "DEATHKNIGHT",
+		"classes": [
+			"DEATHKNIGHT"
+		],
+		"set": "Legacy",
+		"cost": 2,
+		"faction": "NEUTRAL",
+		"text": "[x]<b>Hero Power</b>\nSummon a 2/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn.",
+		"referencedTags": [
+			"CHARGE"
+		]
+	},
+	{
 		"dbfId": 133694,
 		"id": "BG36_MagicItem_810t",
 		"name": "Inductive Gyroblade",
@@ -655363,6 +656830,22 @@
 		"faction": "NEUTRAL",
 		"health": 60,
 		"battlegroundsHeroParentDbfId": 59397,
+		"battlegroundsHeroSkin": true
+	},
+	{
+		"dbfId": 133736,
+		"id": "BG30_HERO_304_SKIN_B",
+		"name": "Highwayman Marin",
+		"type": "Hero",
+		"cardClass": "NEUTRAL",
+		"classes": [
+			"NEUTRAL"
+		],
+		"set": "Battlegrounds",
+		"rarity": "Epic",
+		"health": 30,
+		"armor": 10,
+		"battlegroundsHeroParentDbfId": 113310,
 		"battlegroundsHeroSkin": true
 	},
 	{
@@ -656078,6 +657561,45 @@
 		"text": "Stats set to {0}/{1}."
 	},
 	{
+		"dbfId": 134429,
+		"id": "CAP_801e2",
+		"name": "Haunted",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"classes": [
+			"NEUTRAL"
+		],
+		"set": "Azeroths_most_wanted",
+		"text": "+2/+3 <b>Reborn</b> and <b>Taunt</b>."
+	},
+	{
+		"dbfId": 134445,
+		"id": "CAP_406e",
+		"name": "Imp-roved Imp-formants",
+		"type": "Enchantment",
+		"cardClass": "WARLOCK",
+		"classes": [
+			"WARLOCK"
+		],
+		"set": "Azeroths_most_wanted",
+		"text": "Whenever you summon an Imp-formant this game, give it +2/+2.",
+		"mechanics": [
+			"TRIGGER_VISUAL"
+		]
+	},
+	{
+		"dbfId": 134470,
+		"id": "CAP_406e2",
+		"name": "Imp-bedded",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"classes": [
+			"NEUTRAL"
+		],
+		"set": "Azeroths_most_wanted",
+		"text": "+2/+2."
+	},
+	{
 		"dbfId": 134477,
 		"id": "BG36_621e4",
 		"name": "Deft",
@@ -656100,6 +657622,151 @@
 		],
 		"set": "Violet_hold",
 		"text": "Cost changed."
+	},
+	{
+		"dbfId": 134651,
+		"id": "HERO_04ck",
+		"name": "Tavern-Keeper Nozdormu",
+		"type": "Hero",
+		"cardClass": "PALADIN",
+		"classes": [
+			"PALADIN"
+		],
+		"collectible": true,
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"faction": "NEUTRAL",
+		"health": 30
+	},
+	{
+		"dbfId": 134652,
+		"id": "HERO_10cg",
+		"name": "Dance-Off Aranna",
+		"type": "Hero",
+		"cardClass": "DEMONHUNTER",
+		"classes": [
+			"DEMONHUNTER"
+		],
+		"collectible": true,
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"faction": "NEUTRAL",
+		"health": 30
+	},
+	{
+		"dbfId": 134669,
+		"id": "CAP_800e",
+		"name": "Neigh!",
+		"type": "Enchantment",
+		"cardClass": "PRIEST",
+		"classes": [
+			"PRIEST"
+		],
+		"set": "Azeroths_most_wanted",
+		"faction": "NEUTRAL",
+		"text": "<b>Reborn</b>. Is <b>Reborn</b>\nwith full Health and enchantments.",
+		"mechanics": [
+			"ENCHANTMENT_INVISIBLE"
+		]
+	},
+	{
+		"dbfId": 134688,
+		"id": "CAP_101e2",
+		"name": "Following the X Player Enchant",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"classes": [
+			"NEUTRAL"
+		],
+		"set": "Azeroths_most_wanted",
+		"text": "Player enchant for the Follow the X series of cards",
+		"mechanics": [
+			"TAG_ONE_TURN_EFFECT"
+		]
+	},
+	{
+		"dbfId": 134782,
+		"id": "CAP_407e",
+		"name": "Wanted!",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"classes": [
+			"NEUTRAL"
+		],
+		"set": "Azeroths_most_wanted",
+		"text": "Ensure Deck Action tag is set",
+		"mechanics": [
+			"ENCHANTMENT_INVISIBLE"
+		],
+		"referencedTags": [
+			"PREPARE"
+		]
+	},
+	{
+		"dbfId": 134818,
+		"id": "SW_075_Puzzle",
+		"name": "Elwynn Boar",
+		"type": "Minion",
+		"cardClass": "NEUTRAL",
+		"classes": [
+			"NEUTRAL"
+		],
+		"set": "Stormwind",
+		"rarity": "Epic",
+		"cost": 1,
+		"race": "BEAST",
+		"races": [
+			"BEAST"
+		],
+		"attack": 1,
+		"health": 1,
+		"text": "[x]<b>Deathrattle:</b> If you had 7\nElwynn Boars die this game,\nequip a 15/3 Sword of a\n Thousand Truths. <i>(0/7)</i>",
+		"mechanics": [
+			"DEATHRATTLE"
+		]
+	},
+	{
+		"dbfId": 134825,
+		"id": "BG36_MagicItem_216pe",
+		"name": "Greater Eternal Portrait Player Ench [DNT]",
+		"type": "Enchantment",
+		"cardClass": "NEUTRAL",
+		"classes": [
+			"NEUTRAL"
+		],
+		"set": "Battlegrounds",
+		"text": "Counts the number of Eternal Knights that died. [DNT]"
+	},
+	{
+		"dbfId": 134891,
+		"id": "HERO_03bihp",
+		"name": "Dagger Mastery",
+		"type": "Hero_power",
+		"cardClass": "ROGUE",
+		"classes": [
+			"ROGUE"
+		],
+		"set": "Hero_skins",
+		"rarity": "Free",
+		"cost": 2,
+		"faction": "NEUTRAL",
+		"text": "<b>Hero Power</b>\nEquip a 1/2 Dagger."
+	},
+	{
+		"dbfId": 134892,
+		"id": "HERO_03bihp2",
+		"name": "Poisoned Daggers",
+		"type": "Hero_power",
+		"cardClass": "ROGUE",
+		"classes": [
+			"ROGUE"
+		],
+		"set": "Hero_skins",
+		"cost": 2,
+		"text": "<b>Hero Power</b>\nEquip a 2/2 Weapon.",
+		"mechanics": [
+			"EQUIPS_WEAPON"
+		]
 	},
 	{
 		"dbfId": 999999999,
