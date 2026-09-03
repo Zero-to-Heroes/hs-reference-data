@@ -607,6 +607,8 @@ export const getHeroPower = (
 			return CardIds.NightmareLordXavius_FeelDevastation_BG36_HERO_105p;
 		case CardIds.TrastathSoulParasite_BG36_HERO_101:
 			return CardIds.TrastathSoulParasite_VoidPower_BG36_HERO_101p;
+		case CardIds.Morchie_BG34_HERO_004:
+			return CardIds.Morchie_WarpedConflux_BG34_HERO_004p;
 
 		case '':
 			return null; // new heroes

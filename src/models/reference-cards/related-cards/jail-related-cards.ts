@@ -52,4 +52,5 @@ export const JAIL_RELATED_CARDS = {
 	[CardIds.Moragg_JAIL_906]: [CardIds.Moragg_JAIL_906],
 	[CardIds.HolyEmbrace_JAIL_941]: [CardIds.DarkEmbrace_JAIL_941t],
 	[CardIds.CapturedArchmage_JAIL_974]: [CardIds.FireballLegacy],
+	[CardIds.SoulImmolation_JAIL_EVENT_101]: [CardIds.CollapsingStar_JAIL_EVENT_101hp],
 };
