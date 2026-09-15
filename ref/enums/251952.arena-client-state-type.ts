@@ -1,0 +1,17 @@
+export enum ArenaClientStateType {
+	None = 0,
+	Normal_Landing = 1,
+	Normal_Draft = 2,
+	Normal_Redraft = 3,
+	Normal_Ready = 4,
+	Normal_DeckEdit = 5,
+	Normal_DeckCollection = 6,
+	Normal_Rewards = 7,
+	Underground_Landing = 8,
+	Underground_Draft = 9,
+	Underground_Redraft = 10,
+	Underground_Ready = 11,
+	Underground_DeckEdit = 12,
+	Underground_DeckCollection = 13,
+	Underground_Rewards = 14,
+}
