@@ -352285,6 +352285,10 @@
 		"set": "Battlegrounds",
 		"rarity": "Legendary",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"attack": 3,
 		"health": 7,
 		"text": "[x]<b>Spellcraft: Discover</b> a Naga.",
@@ -352706,6 +352710,10 @@
 		"set": "Battlegrounds",
 		"rarity": "Legendary",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 6,
 		"attack": 6,
 		"health": 14,
@@ -527246,6 +527254,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"faction": "NEUTRAL",
 		"attack": 3,
 		"health": 3,
@@ -527271,6 +527283,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"faction": "NEUTRAL",
 		"techLevel": 1,
 		"attack": 6,
@@ -530029,6 +530045,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 2,
 		"isBaconPool": true,
 		"attack": 2,
@@ -530054,6 +530074,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 2,
 		"attack": 4,
 		"health": 4,
@@ -672767,7 +672791,10 @@
 		"rarity": "Rare",
 		"cost": 4,
 		"text": "[x]Draw 2 cards.\nSummon two 1/1\nCannoneers.",
-		"flavor": "After long months at sea, it's comforting to have solid earth to shoot at."
+		"flavor": "After long months at sea, it's comforting to have solid earth to shoot at.",
+		"relatedCardDbfIds": [
+			127012
+		]
 	},
 	{
 		"dbfId": 127015,
@@ -672789,6 +672816,9 @@
 		"flavor": "The precursor to Finger Guns.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
+		],
+		"relatedCardDbfIds": [
+			127012
 		]
 	},
 	{
@@ -672835,6 +672865,9 @@
 		"flavor": "Was the door locked or something?",
 		"mechanics": [
 			"DISCOVER"
+		],
+		"relatedCardDbfIds": [
+			127012
 		]
 	},
 	{
@@ -672890,7 +672923,10 @@
 			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 1
-		}
+		},
+		"relatedCardDbfIds": [
+			127012
+		]
 	},
 	{
 		"dbfId": 127024,
@@ -672980,6 +673016,9 @@
 		"flavor": "Doing the Kabal's dirty work for the last 10 years.",
 		"mechanics": [
 			"DEATHRATTLE"
+		],
+		"relatedCardDbfIds": [
+			127024
 		]
 	},
 	{
@@ -673036,6 +673075,9 @@
 		"flavor": "\"In spite of the rumors, we continue in our proud tradition of not having a functioning justice system in the city of Gadgetzan.\" - Mayor Noggenfogger",
 		"mechanics": [
 			"BATTLECRY"
+		],
+		"relatedCardDbfIds": [
+			127024
 		]
 	},
 	{
@@ -673130,7 +673172,10 @@
 		"rarity": "Epic",
 		"cost": 1,
 		"text": "[x]Put a 3/3 Imp-formant\ninto the enemy deck. Give\na playable card in your\nhand this effect for a turn.",
-		"flavor": "We're dealing with a serious monster. Who eats everything BUT the marshmallows?!"
+		"flavor": "We're dealing with a serious monster. Who eats everything BUT the marshmallows?!",
+		"relatedCardDbfIds": [
+			127024
+		]
 	},
 	{
 		"dbfId": 127052,
@@ -673227,6 +673272,10 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"RUSH"
+		],
+		"relatedCardDbfIds": [
+			130030,
+			130031
 		]
 	},
 	{
@@ -673288,7 +673337,10 @@
 		"rarity": "Rare",
 		"cost": 2,
 		"text": "[x]Enemy minions cost\n(2) more next turn. Put\ntwo 3/3 Imp-formants\ninto the enemy deck.",
-		"flavor": "\"Parole. Can you use it in a sentence?\"\n\"Sigh- By order of the court you are hereby sentenced to 76 years in The Violet Hold with no chance of PAROLE!\""
+		"flavor": "\"Parole. Can you use it in a sentence?\"\n\"Sigh- By order of the court you are hereby sentenced to 76 years in The Violet Hold with no chance of PAROLE!\"",
+		"relatedCardDbfIds": [
+			127024
+		]
 	},
 	{
 		"dbfId": 127059,
@@ -673377,6 +673429,9 @@
 		"flavor": "\"I will NOT be following any ghosts, like no thank you.\"\n\"Would you do it for a Spooky Snack?\"",
 		"referencedTags": [
 			"REBORN"
+		],
+		"relatedCardDbfIds": [
+			127063
 		]
 	},
 	{
@@ -673480,7 +673535,21 @@
 		"mechanics": [
 			"BATTLECRY"
 		],
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132837,
+			132849,
+			132843,
+			132838,
+			132844,
+			132850,
+			132851,
+			132856,
+			132848,
+			132873,
+			132874,
+			132875
+		]
 	},
 	{
 		"dbfId": 127068,
@@ -673670,6 +673739,9 @@
 		"mechanics": [
 			"BATTLECRY",
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			127024
 		]
 	},
 	{
@@ -673688,7 +673760,10 @@
 		"cost": 4,
 		"spellSchool": "SHADOW",
 		"text": "[x]Destroy all minions.\nEach player gets a\n3-Cost spell that\nresummons theirs.",
-		"flavor": "\"Hell... it's about slime!\""
+		"flavor": "\"Hell... it's about slime!\"",
+		"relatedCardDbfIds": [
+			127118
+		]
 	},
 	{
 		"dbfId": 127096,
@@ -673795,6 +673870,9 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DEAL_DAMAGE"
+		],
+		"relatedCardDbfIds": [
+			127012
 		]
 	},
 	{
@@ -692189,7 +692267,10 @@
 		"health": 4,
 		"text": "<b>Deathrattle:</b> Draw an <b>Old God</b>. If you can't, get a random <b>Old God</b>.",
 		"flavor": "Staring contest, go!",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"referencedTags": [
+			"OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 129950,
@@ -692917,7 +692998,10 @@
 		"cost": 2,
 		"spellSchool": "SHADOW",
 		"text": "[x]Your Hero Power becomes\n'Collapsing Star'.\nIf it already is, increase\nits damage by 1.",
-		"flavor": "Is that a Soul Fragment? I haven't seen one of those since college!"
+		"flavor": "Is that a Soul Fragment? I haven't seen one of those since college!",
+		"relatedCardDbfIds": [
+			132887
+		]
 	},
 	{
 		"dbfId": 130087,
@@ -694512,6 +694596,10 @@
 		"set": "Battlegrounds",
 		"rarity": "Legendary",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"attack": 1,
 		"health": 1,
 		"text": "<b>Deity.</b> After this awakens, give this minion's stats split amongst your other minions.",
@@ -694532,6 +694620,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"attack": 0,
 		"health": 2,
 		"text": "<b>Taunt</b>",
@@ -694552,6 +694644,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 1,
 		"attack": 0,
 		"health": 4,
@@ -694575,6 +694671,10 @@
 		"set": "Battlegrounds",
 		"rarity": "Legendary",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 6,
 		"isBaconPool": true,
 		"attack": 3,
@@ -694589,7 +694689,10 @@
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
-		"battlegroundsPremiumDbfId": 130621
+		"battlegroundsPremiumDbfId": 130621,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 130621,
@@ -694604,6 +694707,10 @@
 		"set": "Battlegrounds",
 		"rarity": "Legendary",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 6,
 		"attack": 6,
 		"health": 12,
@@ -694618,7 +694725,10 @@
 			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"battlegroundsNormalDbfId": 130620,
-		"premium": true
+		"premium": true,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 130622,
@@ -701264,6 +701374,10 @@
 		"set": "Battlegrounds",
 		"rarity": "Legendary",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
@@ -701291,6 +701405,10 @@
 		"set": "Battlegrounds",
 		"rarity": "Legendary",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 5,
 		"attack": 6,
 		"health": 18,
@@ -701317,6 +701435,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 1,
 		"isBaconPool": true,
 		"attack": 3,
@@ -701339,6 +701461,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 1,
 		"attack": 6,
 		"health": 4,
@@ -701361,6 +701487,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 2,
 		"isBaconPool": true,
 		"attack": 3,
@@ -701376,7 +701506,8 @@
 		},
 		"battlegroundsPremiumDbfId": 131697,
 		"referencedTags": [
-			"BACON_ACTIVATE_TOOLTIP"
+			"BACON_ACTIVATE_TOOLTIP",
+			"BACON_OLD_GOD"
 		]
 	},
 	{
@@ -701391,6 +701522,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 2,
 		"attack": 6,
 		"health": 8,
@@ -701406,7 +701541,8 @@
 		"battlegroundsNormalDbfId": 131696,
 		"premium": true,
 		"referencedTags": [
-			"BACON_ACTIVATE_TOOLTIP"
+			"BACON_ACTIVATE_TOOLTIP",
+			"BACON_OLD_GOD"
 		]
 	},
 	{
@@ -701421,6 +701557,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 3,
 		"isBaconPool": true,
 		"attack": 1,
@@ -701444,6 +701584,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 3,
 		"attack": 2,
 		"health": 6,
@@ -701467,6 +701611,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 2,
 		"isBaconPool": true,
 		"attack": 1,
@@ -701491,6 +701639,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 2,
 		"attack": 2,
 		"health": 2,
@@ -701515,6 +701667,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 4,
@@ -701538,6 +701694,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 5,
 		"attack": 8,
 		"health": 16,
@@ -701561,6 +701721,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 6,
@@ -701570,7 +701734,10 @@
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
-		"battlegroundsPremiumDbfId": 131705
+		"battlegroundsPremiumDbfId": 131705,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 131705,
@@ -701584,6 +701751,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 5,
 		"attack": 12,
 		"health": 6,
@@ -701593,7 +701764,10 @@
 			"DEATHRATTLE"
 		],
 		"battlegroundsNormalDbfId": 131704,
-		"premium": true
+		"premium": true,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 131706,
@@ -701607,6 +701781,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 6,
 		"isBaconPool": true,
 		"attack": 8,
@@ -701633,6 +701811,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 6,
 		"attack": 16,
 		"health": 8,
@@ -701659,6 +701841,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 4,
 		"isBaconPool": true,
 		"attack": 4,
@@ -701671,7 +701857,10 @@
 			"TAG_SCRIPT_DATA_NUM_1": 4,
 			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
-		"battlegroundsPremiumDbfId": 131711
+		"battlegroundsPremiumDbfId": 131711,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 131711,
@@ -701685,6 +701874,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 4,
 		"attack": 8,
 		"health": 8,
@@ -701697,7 +701890,10 @@
 			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 131710,
-		"premium": true
+		"premium": true,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 131714,
@@ -701711,6 +701907,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 3,
 		"isBaconPool": true,
 		"attack": 3,
@@ -701723,7 +701923,10 @@
 			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
-		"battlegroundsPremiumDbfId": 131715
+		"battlegroundsPremiumDbfId": 131715,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 131715,
@@ -701737,6 +701940,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 3,
 		"attack": 6,
 		"health": 2,
@@ -701749,7 +701956,10 @@
 			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"battlegroundsNormalDbfId": 131714,
-		"premium": true
+		"premium": true,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 131716,
@@ -701764,6 +701974,10 @@
 		"set": "Battlegrounds",
 		"rarity": "Legendary",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 6,
 		"isBaconPool": true,
 		"attack": 6,
@@ -701776,7 +701990,10 @@
 			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
-		"battlegroundsPremiumDbfId": 131717
+		"battlegroundsPremiumDbfId": 131717,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 131717,
@@ -701791,6 +702008,10 @@
 		"set": "Battlegrounds",
 		"rarity": "Legendary",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 6,
 		"attack": 12,
 		"health": 16,
@@ -701803,7 +702024,10 @@
 			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 131716,
-		"premium": true
+		"premium": true,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 131718,
@@ -701818,6 +702042,10 @@
 		"set": "Battlegrounds",
 		"rarity": "Legendary",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 1,
 		"isBaconPool": true,
 		"attack": 2,
@@ -701830,7 +702058,10 @@
 			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
-		"battlegroundsPremiumDbfId": 131719
+		"battlegroundsPremiumDbfId": 131719,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 131719,
@@ -701845,6 +702076,10 @@
 		"set": "Battlegrounds",
 		"rarity": "Legendary",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 1,
 		"attack": 4,
 		"health": 6,
@@ -701857,7 +702092,10 @@
 			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 131718,
-		"premium": true
+		"premium": true,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 131720,
@@ -701872,6 +702110,10 @@
 		"set": "Battlegrounds",
 		"rarity": "Legendary",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 7,
 		"isBaconPool": true,
 		"attack": 9,
@@ -701884,7 +702126,10 @@
 			"TAG_SCRIPT_DATA_NUM_1": 4,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
-		"battlegroundsPremiumDbfId": 131721
+		"battlegroundsPremiumDbfId": 131721,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 131721,
@@ -701899,6 +702144,10 @@
 		"set": "Battlegrounds",
 		"rarity": "Legendary",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 7,
 		"attack": 18,
 		"health": 24,
@@ -701911,7 +702160,10 @@
 			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"battlegroundsNormalDbfId": 131720,
-		"premium": true
+		"premium": true,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 131733,
@@ -702270,6 +702522,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 6,
@@ -702301,6 +702557,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 5,
 		"attack": 12,
 		"health": 6,
@@ -702454,6 +702714,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 4,
 		"isBaconPool": true,
 		"attack": 4,
@@ -702486,6 +702750,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 4,
 		"attack": 8,
 		"health": 4,
@@ -702699,6 +702967,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 3,
 		"isBaconPool": true,
 		"attack": 3,
@@ -702729,6 +703001,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 3,
 		"attack": 6,
 		"health": 8,
@@ -702759,6 +703035,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 4,
 		"isBaconPool": true,
 		"attack": 6,
@@ -702784,6 +703064,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 4,
 		"attack": 12,
 		"health": 4,
@@ -703514,6 +703798,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 5,
@@ -703526,7 +703814,10 @@
 			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 1
 		},
-		"battlegroundsPremiumDbfId": 132332
+		"battlegroundsPremiumDbfId": 132332,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 132332,
@@ -703540,6 +703831,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 5,
 		"attack": 10,
 		"health": 10,
@@ -703552,7 +703847,10 @@
 			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsNormalDbfId": 132331,
-		"premium": true
+		"premium": true,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 132333,
@@ -704027,7 +704325,10 @@
 			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 1,
 			"TAG_SCRIPT_DATA_NUM_6": 130610
-		}
+		},
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 132502,
@@ -704107,6 +704408,10 @@
 		"set": "Battlegrounds",
 		"rarity": "Legendary",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"attack": 1,
 		"health": 1,
 		"text": "[x]<b>Deity.</b> <b>Deathrattle:</b> Summon your\nfirst {0} Aberrations that died this\ncombat with their maximum\nstats <i>(except <b>Deities</b>)</i>.",
@@ -706175,7 +706480,11 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4
 		},
-		"hideStats": true
+		"hideStats": true,
+		"relatedCardDbfIds": [
+			46056,
+			126893
+		]
 	},
 	{
 		"dbfId": 132849,
@@ -708672,6 +708981,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 3,
 		"isBaconPool": true,
 		"attack": 3,
@@ -708694,6 +709007,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 3,
 		"attack": 6,
 		"health": 6,
@@ -708716,6 +709033,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 3,
 		"isBaconPool": true,
 		"attack": 2,
@@ -708729,7 +709050,10 @@
 			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_2": 1
 		},
-		"battlegroundsPremiumDbfId": 133099
+		"battlegroundsPremiumDbfId": 133099,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 133099,
@@ -708743,6 +709067,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 3,
 		"attack": 4,
 		"health": 2,
@@ -708756,7 +709084,10 @@
 			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsNormalDbfId": 133098,
-		"premium": true
+		"premium": true,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 133100,
@@ -708770,6 +709101,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 4,
 		"isBaconPool": true,
 		"attack": 4,
@@ -708797,6 +709132,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 4,
 		"attack": 8,
 		"health": 12,
@@ -708824,6 +709163,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 4,
 		"isBaconPool": true,
 		"attack": 7,
@@ -708846,6 +709189,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 4,
 		"attack": 14,
 		"health": 8,
@@ -708868,6 +709215,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 2,
 		"isBaconPool": true,
 		"attack": 2,
@@ -708897,6 +709248,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 2,
 		"attack": 4,
 		"health": 4,
@@ -712311,7 +712666,10 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
 			"TAG_SCRIPT_DATA_NUM_2": 4
-		}
+		},
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 134319,
@@ -712395,7 +712753,10 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_2": 2
-		}
+		},
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 134323,
@@ -712418,7 +712779,10 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 10,
 			"TAG_SCRIPT_DATA_NUM_2": 10
-		}
+		},
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 134324,
@@ -713495,7 +713859,10 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 7,
 			"TAG_SCRIPT_DATA_NUM_2": 7
-		}
+		},
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 134497,
@@ -713509,6 +713876,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 8,
@@ -713537,6 +713908,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 5,
 		"attack": 16,
 		"health": 16,
@@ -713688,6 +714063,10 @@
 		"set": "Battlegrounds",
 		"rarity": "Legendary",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 3,
 		"attack": 2,
 		"health": 2,
@@ -713711,6 +714090,10 @@
 		"set": "Battlegrounds",
 		"rarity": "Legendary",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 3,
 		"attack": 2,
 		"health": 2,
@@ -713949,6 +714332,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"attack": 4,
 		"health": 5,
 		"text": "[x]Whenever you discard a\ncard, <b>Pass</b> a copy of it.\n<i>({0} times per turn.)</i>",
@@ -713976,6 +714363,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 3,
 		"attack": 8,
 		"health": 10,
@@ -714004,6 +714395,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"attack": 8,
 		"health": 8,
 		"text": "<b>Battlecry, Deathrattle, and Rally:</b> Give your team's <b>Deities</b> +{0}/+{1}.",
@@ -714017,7 +714412,10 @@
 			"TAG_SCRIPT_DATA_NUM_1": 4,
 			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
-		"battlegroundsPremiumDbfId": 134696
+		"battlegroundsPremiumDbfId": 134696,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 134696,
@@ -714031,6 +714429,10 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
+		"race": "ABERRATION",
+		"races": [
+			"ABERRATION"
+		],
 		"techLevel": 5,
 		"attack": 16,
 		"health": 16,
@@ -714045,7 +714447,10 @@
 			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 134695,
-		"premium": true
+		"premium": true,
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 134697,
@@ -714406,7 +714811,10 @@
 		"set": "Battlegrounds",
 		"cost": 0,
 		"faction": "NEUTRAL",
-		"text": "<b>Start of Combat:</b> Gain the stats of your <b>Deity</b>."
+		"text": "<b>Start of Combat:</b> Gain the stats of your <b>Deity</b>.",
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 134733,
@@ -714453,7 +714861,10 @@
 		"text": "<b>Start of Combat:</b> Gain the stats of your <b>Deity</b>.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
-		}
+		},
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 134736,
@@ -714587,6 +714998,7 @@
 			"GIVES_REBORN"
 		],
 		"referencedTags": [
+			"BACON_OLD_GOD",
 			"BACON_REBORN_TOOLTIP"
 		]
 	},
@@ -714607,6 +715019,9 @@
 		"mechanics": [
 			"BACON_SPELLCRAFT_ID",
 			"TRIGGER_VISUAL"
+		],
+		"referencedTags": [
+			"BACON_OLD_GOD"
 		]
 	},
 	{
@@ -714663,6 +715078,9 @@
 		"text": "Choose a minion. After it gains stats outside combat this turn, your <b>Deity</b> also gains them.",
 		"otherTags": [
 			"TARGETS_MINION"
+		],
+		"referencedTags": [
+			"BACON_OLD_GOD"
 		]
 	},
 	{
@@ -714676,7 +715094,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "After this gains stats this turn, also give the stats to your <b>Deity</b>."
+		"text": "After this gains stats this turn, also give the stats to your <b>Deity</b>.",
+		"referencedTags": [
+			"BACON_OLD_GOD"
+		]
 	},
 	{
 		"dbfId": 134772,
