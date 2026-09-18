@@ -12,6 +12,7 @@ export const ALL_BG_RACES = [
 	Race.QUILBOAR,
 	Race.NAGA,
 	Race.UNDEAD,
+	Race.ABERRATION,
 ];
 
 export const TOTAL_RACES_IN_GAME = 5;
