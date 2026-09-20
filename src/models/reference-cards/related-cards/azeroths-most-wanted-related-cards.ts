@@ -16,6 +16,7 @@ const KAZAKUS_TRIAL_TOKENS = [
 	CardIds.RushedTrial_RushedTrial_CAP_405tb1b,
 	CardIds.GruelingTrial_GruelingTrial_CAP_405tb2b,
 	CardIds.UnendingTrial_UnendingTrial_CAP_405tb3b,
+	CardIds.Voidlord_LOOT_368,
 ];
 
 /** 36.4 Azeroth’s Most Wanted (CAP_*) — static token / summon / choice links. */
@@ -28,10 +29,7 @@ export const AZEROTHS_MOST_WANTED_RELATED_CARDS = {
 	[CardIds.KabalMastermind_CAP_406]: [IMP_FORMANT],
 	[CardIds.CorruptConstable_CAP_401]: [IMP_FORMANT],
 	[CardIds.GodfatherKazakus_CAP_405]: KAZAKUS_TRIAL_TOKENS,
-	[CardIds.GodfatherKazakus_TonicOfTyrannyToken_CAP_405t9]: [
-		CardIds.Voidlord_LOOT_368,
-		CardIds.Voidlord_CORE_LOOT_368,
-	],
+	[CardIds.GodfatherKazakus_TonicOfTyrannyToken_CAP_405t9]: [CardIds.Voidlord_LOOT_368],
 	[CardIds.DisguisedOperator_CAP_004]: [
 		CardIds.DisguisedOperator_Detected_CAP_004a,
 		CardIds.DisguisedOperator_Disguised_CAP_004b,
