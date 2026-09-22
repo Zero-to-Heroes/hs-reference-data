@@ -327,6 +327,10 @@ export const getReferenceTribeCardId = (tribe: string | Race | GameTag): string 
 		case Race.UNDEAD:
 			referenceCardId = CardIds.RisenRider_BG25_001;
 			break;
+		case 'aberration':
+		case Race.ABERRATION:
+			referenceCardId = CardIds.Zoatroid_BG36_098;
+			break;
 		case 'all':
 		case Race.ALL:
 			referenceCardId = CardIds.AmalgamOfTheDeep_BG_TSC_069;
@@ -610,6 +614,10 @@ export const getHeroPower = (
 			return CardIds.TrastathSoulParasite_VoidPower_BG36_HERO_101p;
 		case CardIds.Morchie_BG34_HERO_004:
 			return CardIds.Morchie_WarpedConflux_BG34_HERO_004p;
+		case CardIds.Drestagath_BG36_HERO_000:
+			return CardIds.Drestagath_Incubate_BG36_HERO_000p;
+		case CardIds.Kithix_BG36_HERO_002:
+			return CardIds.Kithix_DarkRitual_BG36_HERO_002p;
 
 		case '':
 			return null; // new heroes
@@ -931,9 +939,6 @@ export const getTribesForInclusion = (card: ReferenceCard, includeOwnTribe: bool
 		case CardIds.ProphetOfTheBoar_BG20_203:
 		case CardIds.ProphetOfTheBoar_BG20_203_G:
 			return [Race.QUILBOAR, ...cardRaces];
-		case CardIds.OrgozoaTheTender_BG23_015:
-		case CardIds.OrgozoaTheTender_BG23_015_G:
-			return [Race.NAGA, ...cardRaces];
 		case CardIds.DisguisedGraverobber_BG28_303:
 		case CardIds.DisguisedGraverobber_BG28_303_G:
 			return [Race.UNDEAD, ...cardRaces];
