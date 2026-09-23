@@ -1,0 +1,10 @@
+export enum ArenaSessionState {
+	INVALID = -1,
+	NO_RUN = 0,
+	DRAFTING = 1,
+	MIDRUN = 2,
+	REDRAFTING = 3,
+	EDITING_DECK = 4,
+	REWARDS = 5,
+	MIDRUN_REDRAFT_PENDING = 6,
+}
