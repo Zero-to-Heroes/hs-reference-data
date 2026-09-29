@@ -73,4 +73,5 @@ export enum CardSet {
 	COSMETICS = 1961,
 	CATACLYSM = 1980,
 	VIOLET_HOLD = 1988,
+	BLACK_EMPIRE = 1994,
 }
