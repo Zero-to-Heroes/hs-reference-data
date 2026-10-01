@@ -1,6 +1,7 @@
 import { GameFormat, GameType } from '../../public-api';
 
 export type SetId =
+	| 'black_empire'
 	| 'azeroths_most_wanted'
 	| 'violet_hold'
 	| 'restoration_of_azeroth'
@@ -75,6 +76,11 @@ export interface ReferenceSet {
 }
 
 export const sets: readonly ReferenceSet[] = [
+	{
+		id: 'black_empire',
+		name: `Reign of the Black Empire`,
+		launchDate: new Date('2026-10-30'),
+	},
 	{
 		id: 'azeroths_most_wanted',
 		name: `Azeroth's Most Wanted`,
@@ -430,6 +436,7 @@ const standardBaseSets: readonly SetId[] = [
 	'across_the_timeways',
 	'cataclysm',
 	'violet_hold',
+	'black_empire',
 ];
 export const standardSets: readonly SetId[] = standardBaseSets
 	.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
