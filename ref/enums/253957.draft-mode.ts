@@ -1,0 +1,8 @@
+export enum DraftMode {
+	INVALID = 0,
+	NO_ACTIVE_DRAFT = 1,
+	DRAFTING = 2,
+	ACTIVE_DRAFT_DECK = 3,
+	IN_REWARDS = 4,
+	REDRAFTING = 5,
+}
