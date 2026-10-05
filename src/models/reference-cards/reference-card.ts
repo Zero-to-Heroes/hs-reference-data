@@ -31,6 +31,14 @@ export interface ReferenceCard {
 	readonly flavor: string;
 	readonly type: string;
 	readonly mechanics: string[];
+	/**
+	 * Set on cards with CRAFTABLE_OUTPUT_POWER. `text` is both halves with the '&' marker removed.
+	 * Mechanics are assigned from the English text; other locales only replace the two text slices.
+	 */
+	readonly assembleHalves?: {
+		readonly first: { readonly text: string; readonly mechanics: readonly string[] };
+		readonly second: { readonly text: string; readonly mechanics: readonly string[] };
+	};
 	readonly referencedTags?: string[];
 	readonly tags?: { [key in keyof typeof GameTag]?: number };
 	readonly rarity?: RarityTYpe;

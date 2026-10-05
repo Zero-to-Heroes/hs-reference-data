@@ -2503,12 +2503,25 @@
 		"cost": 2,
 		"attack": 0,
 		"health": 7,
-		"text": "在你的回合開始時，&摧毀全部手下",
+		"text": "在你的回合開始時，摧毀全部手下",
 		"flavor": "他的預言好幾次都差點成真。他<b>非常肯定</b>的說大災變那次就是真正的末日。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Alex Horley Orlandelli",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合開始時，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "摧毀全部手下",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			138,
 			70085,
@@ -3565,12 +3578,26 @@
 		"faction": "NEUTRAL",
 		"attack": 3,
 		"health": 2,
-		"text": "<b>連擊：</b>&召喚一個2/1迪菲亞強盜",
+		"text": "<b>連擊：</b>召喚一個2/1迪菲亞強盜",
 		"flavor": "他很多年前就偷走了小鎮的地契。所以按理來說，小鎮的確<b>是</b>屬於他。他看到每個人都叫對方「少年」，雖然他自己也沒多老。",
 		"mechanics": [
-			"COMBO"
+			"COMBO",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Dany Orizio",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>連擊：</b>",
+				"mechanics": [
+					"COMBO"
+				]
+			},
+			"second": {
+				"text": "召喚一個2/1迪菲亞強盜",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			201,
 			69857,
@@ -7651,13 +7678,28 @@
 		"faction": "ALLIANCE",
 		"attack": 5,
 		"health": 5,
-		"text": "<b>嘲諷</b> <b>死亡之聲：</b>&召喚一個5/5貝恩‧血蹄",
+		"text": "<b>嘲諷</b> <b>死亡之聲：</b>召喚一個5/5貝恩‧血蹄",
 		"flavor": "凱恩是被卡爾洛斯殺死的。所以呢，別把他放進戰士的套牌，那樣太不考慮他的心情了。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"TAUNT"
 		],
 		"artist": "Wayne Reynolds",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b> <b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "召喚一個5/5貝恩‧血蹄",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			420,
 			69667,
@@ -12150,13 +12192,28 @@
 		"faction": "NEUTRAL",
 		"attack": 5,
 		"health": 7,
-		"text": "<b>衝鋒</b>。<b>戰吼：</b>&隨機捨棄兩張牌",
+		"text": "<b>衝鋒</b>。<b>戰吼：</b>隨機捨棄兩張牌",
 		"flavor": "召喚末日守衛很危險。一定會<b>有人</b>死。",
 		"mechanics": [
 			"BATTLECRY",
-			"CHARGE"
+			"CHARGE",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Lucas Graciano",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>衝鋒</b>。<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"CHARGE"
+				]
+			},
+			"second": {
+				"text": "隨機捨棄兩張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			631,
 			69917,
@@ -15025,12 +15082,26 @@
 		"cost": 8,
 		"health": 30,
 		"armor": 5,
-		"text": "<b>戰吼：</b>&裝備一把3/8的血之烈怒",
+		"text": "<b>戰吼：</b>裝備一把3/8的血之烈怒",
 		"flavor": "「卑微的地精！你的傲慢將使你喪命！」",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Alex Horley Orlandelli",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "裝備一把3/8的血之烈怒",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			777,
 			69637,
@@ -17455,14 +17526,30 @@
 		"faction": "NEUTRAL",
 		"attack": 8,
 		"health": 8,
-		"text": "<b>聖盾術</b>、<b>嘲諷</b>\n<b>死亡之聲：</b>&裝備5/3的灰燼使者",
+		"text": "<b>聖盾術</b>、<b>嘲諷</b>\n<b>死亡之聲：</b>裝備5/3的灰燼使者",
 		"flavor": "你沒聽過提里奧‧弗丁主題曲的原因是…它根本不存在。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"DIVINE_SHIELD",
 			"TAUNT"
 		],
 		"artist": "Brom",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>聖盾術</b>、<b>嘲諷</b>\n<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"DIVINE_SHIELD",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "裝備5/3的灰燼使者",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"counterpartCards": [
 			890,
@@ -20198,13 +20285,27 @@
 		],
 		"attack": 3,
 		"health": 2,
-		"text": "在你施放法術後，&對全部手下造成1點傷害",
+		"text": "在你施放法術後，對全部手下造成1點傷害",
 		"flavor": "燒啊燒，燒光光！大家一起燒！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Alex Horley Orlandelli",
+		"assembleHalves": {
+			"first": {
+				"text": "在你施放法術後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "對全部手下造成1點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			1014,
 			70084,
@@ -21385,13 +21486,26 @@
 		"faction": "NEUTRAL",
 		"attack": 5,
 		"health": 7,
-		"text": "每當你施放法術，&就放一張<i>火球術</i>到你的手中",
+		"text": "每當你施放法術，就放一張<i>火球術</i>到你的手中",
 		"flavor": "安東尼達斯生前是祈倫托的大魔導師，也是珍娜的導師。這比果凍甜甜圈的大魔導師高尚多了。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"GENERATES_SPELL"
 		],
 		"artist": "Wayne Reynolds",
+		"assembleHalves": {
+			"first": {
+				"text": "每當你施放法術，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "就放一張<i>火球術</i>到你的手中",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			1080,
 			69975,
@@ -21632,14 +21746,29 @@
 		"faction": "NEUTRAL",
 		"attack": 3,
 		"health": 2,
-		"text": "<b>戰吼：</b>&抽一張牌，對你的英雄造成3點傷害",
+		"text": "<b>戰吼：</b>抽一張牌，對你的英雄造成3點傷害",
 		"flavor": "小鬼喜歡身上冒火。他們就是喜歡。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Alex Horley Orlandelli",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "抽一張牌，對你的英雄造成3點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			1090,
 			69636,
@@ -25616,12 +25745,25 @@
 		"cost": 3,
 		"attack": 1,
 		"health": 4,
-		"text": "每當此手下受到傷害，&抽一張牌",
+		"text": "每當此手下受到傷害，抽一張牌",
 		"flavor": "他年輕時本來是想要受訓成為快樂侍僧，但是後來的發展並不如他原本的預期。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Dave Kendall",
+		"assembleHalves": {
+			"first": {
+				"text": "每當此手下受到傷害，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			1659,
 			69809,
@@ -33661,13 +33803,28 @@
 		"cost": 3,
 		"attack": 2,
 		"durability": 3,
-		"text": "<b>戰吼：</b>&賦予一個隨機的友方手下<b>聖盾術</b>和<b>嘲諷</b>",
+		"text": "<b>戰吼：</b>賦予一個隨機的友方手下<b>聖盾術</b>和<b>嘲諷</b>",
 		"flavor": "你說，把這個東西從機器裡扯出來，雕上一些符文，裝上把手，就變成了強大的神聖武器？嗯，聽起來還不賴。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"GIVES_DIVINE_SHIELD"
 		],
 		"artist": "Dany Orizio",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "賦予一個隨機的友方手下<b>聖盾術</b>和<b>嘲諷</b>",
+				"mechanics": [
+					"GIVES_DIVINE_SHIELD"
+				]
+			}
+		},
 		"counterpartCards": [
 			2027,
 			130820
@@ -36598,12 +36755,26 @@
 		],
 		"attack": 5,
 		"health": 7,
-		"text": "<b>死亡之聲：</b>&召喚一個隨機的<b>傳說</b>手下",
+		"text": "<b>死亡之聲：</b>召喚一個隨機的<b>傳說</b>手下",
 		"flavor": "斯尼德在死亡礦坑被擊敗後，他的伐木機就被一個不知名的買家從拍賣場買走了。(大概是霍格。)",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Christopher Moeller",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "召喚一個隨機的<b>傳說</b>手下",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			2082,
 			120575
@@ -57591,13 +57762,28 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "<b>戰吼：</b>&<b>發現</b>一張\n消耗為1的牌",
+		"text": "<b>戰吼：</b><b>發現</b>一張\n消耗為1的牌",
 		"flavor": "真空靈魂吸取機限時大特價！只剩10組要買要快！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER"
 		],
 		"artist": "George Davis",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一張\n消耗為1的牌",
+				"mechanics": [
+					"DISCOVER"
+				]
+			}
+		},
 		"counterpartCards": [
 			2895,
 			102639,
@@ -57798,13 +57984,28 @@
 		],
 		"attack": 3,
 		"health": 4,
-		"text": "<b>戰吼：</b>若你場上有另一個機械，&<b>發現</b>一個機械",
+		"text": "<b>戰吼：</b>若你場上有另一個機械，<b>發現</b>一個機械",
 		"flavor": "A-1和A-2都失控了，當時一定是掉了秘銀外殼和什麼備用零件。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER"
 		],
 		"artist": "Skan Srisuwan",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>若你場上有另一個機械，",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一個機械",
+				"mechanics": [
+					"DISCOVER"
+				]
+			}
+		},
 		"counterpartCards": [
 			2911,
 			86548
@@ -63645,12 +63846,26 @@
 		"cost": 5,
 		"attack": 4,
 		"durability": 2,
-		"text": "<b>死亡之聲：</b>&召喚一個4/2元素",
+		"text": "<b>死亡之聲：</b>召喚一個4/2元素",
 		"flavor": "停！別亂碰這把暮光的嘻哈神錘。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "James Ryman",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "召喚一個4/2元素",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			38270,
 			126892
@@ -74432,12 +74647,26 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "<b>死亡之聲：</b>&獲得一張對手職業的隨機卡牌",
+		"text": "<b>死亡之聲：</b>獲得一張對手職業的隨機卡牌",
 		"flavor": "嘿！想要來張對手的職業牌嗎？",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Jon Neimeister",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "獲得一張對手職業的隨機卡牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			39026,
 			103220,
@@ -76822,13 +77051,28 @@
 		],
 		"attack": 4,
 		"health": 6,
-		"text": "<b>嘲諷</b>\n<b>戰吼：</b>&抽出一張野獸、龍類和魚人牌",
+		"text": "<b>嘲諷</b>\n<b>戰吼：</b>抽出一張野獸、龍類和魚人牌",
 		"flavor": "館長看守著艾澤拉斯最致命的野獸，但其實它私底下最怕的動物是松鼠。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Wei Wang",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "抽出一張野獸、龍類和魚人牌",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"counterpartCards": [
 			39225,
@@ -80408,13 +80652,27 @@
 		"faction": "NEUTRAL",
 		"attack": 1,
 		"health": 2,
-		"text": "<b>戰吼：</b>&放一張\n隨機其他職業牌到你的手中",
+		"text": "<b>戰吼：</b>放一張\n隨機其他職業牌到你的手中",
 		"flavor": "他的偶像是個長鼻子海賊。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"CREATES_FROM_ANOTHER_CLASS"
 		],
 		"artist": "Zoltan Boros",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "放一張\n隨機其他職業牌到你的手中",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			39698,
 			69742
@@ -88135,12 +88393,26 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 2,
-		"text": "<b>戰吼：</b>&賦予你手中全部手下+1/+1",
+		"text": "<b>戰吼：</b>賦予你手中全部手下+1/+1",
 		"flavor": "要是你真的很會殺價，他還會加送一頂帽子。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Peter Stapleton",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "賦予你手中全部手下+1/+1",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			40567,
 			102196
@@ -91801,14 +92073,28 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 4,
-		"text": "<b>潛行</b>\n每當此手下攻擊，&放一張其他職業牌到你的手中",
+		"text": "<b>潛行</b>\n每當此手下攻擊，放一張其他職業牌到你的手中",
 		"flavor": "就連阿雅本人也曾經出面關切他的行為，但夏庫堅持他只是「收藏」而不是囤積。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"STEALTH",
 			"TRIGGER_VISUAL",
 			"CREATES_FROM_ANOTHER_CLASS"
 		],
 		"artist": "James Ryman",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>潛行</b>\n每當此手下攻擊，",
+				"mechanics": [
+					"STEALTH"
+				]
+			},
+			"second": {
+				"text": "放一張其他職業牌到你的手中",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			40905,
 			120463
@@ -98333,12 +98619,26 @@
 		],
 		"attack": 1,
 		"health": 2,
-		"text": "<b>戰吼：</b>&放一張隨機野獸牌到你的手中",
+		"text": "<b>戰吼：</b>放一張隨機野獸牌到你的手中",
 		"flavor": "珠光寶氣的寶光鸚鵡身上其實沒有珠寶。哥布林都哭了。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "James Ryman",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "放一張隨機野獸牌到你的手中",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			41353,
 			97376
@@ -100253,13 +100553,28 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 6,
-		"text": "<b>嘲諷</b>。<b>戰吼：</b>&你的\n對手從其手中隨機\n召喚一個手下",
+		"text": "<b>嘲諷</b>。<b>戰吼：</b>你的\n對手從其手中隨機\n召喚一個手下",
 		"flavor": "不是他的錯…有人老是拿走他的肥皂！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Dany Orizio",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>。<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "你的\n對手從其手中隨機\n召喚一個手下",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"counterpartCards": [
 			41567,
@@ -102989,14 +103304,30 @@
 		],
 		"attack": 4,
 		"health": 8,
-		"text": "[x]<b>嘲諷</b>\n<b>戰吼：</b>&對全部其他\n手下造成2點傷害",
+		"text": "[x]<b>嘲諷</b>\n<b>戰吼：</b>對全部其他\n手下造成2點傷害",
 		"flavor": "看來牠的「歌聲」不太動聽…",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Mike Sass",
+		"assembleHalves": {
+			"first": {
+				"text": "[x]<b>嘲諷</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "對全部其他\n手下造成2點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			41929,
 			76327
@@ -107356,13 +107687,27 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "在你的回合結束\n時，&賦予另一個隨機友方手下+1/+1",
+		"text": "在你的回合結束\n時，賦予另一個隨機友方手下+1/+1",
 		"flavor": "想要晉升就得先墮落才行，最好墮落到使用暗影。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "Paul Kwon",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束\n時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "賦予另一個隨機友方手下+1/+1",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			42574,
 			95746
@@ -107554,14 +107899,30 @@
 		"cost": 9,
 		"attack": 4,
 		"health": 8,
-		"text": "<b>嘲諷</b>、<b>生命竊取</b>\n <b>死亡之聲：</b>&摧毀隨機敵方手下",
+		"text": "<b>嘲諷</b>、<b>生命竊取</b>\n <b>死亡之聲：</b>摧毀隨機敵方手下",
 		"flavor": "雕刻師傅花了很多功夫在它的臉部表情，以確保最大的嘲諷效果。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"LIFESTEAL",
 			"TAUNT"
 		],
 		"artist": "A. J. Nazzaro",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>、<b>生命竊取</b>\n <b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"LIFESTEAL",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "摧毀隨機敵方手下",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			42598,
 			95732
@@ -108592,12 +108953,26 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "<b>戰吼：</b>&移除對手牌堆最上面的牌",
+		"text": "<b>戰吼：</b>移除對手牌堆最上面的牌",
 		"flavor": "我吸血，但我也懂時尚！",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Matt Dixon",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "移除對手牌堆最上面的牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			42670,
 			95710
@@ -112924,15 +113299,31 @@
 		"faction": "NEUTRAL",
 		"attack": 2,
 		"health": 4,
-		"text": "<b>嘲諷</b>\n<b>戰吼：</b>&對你的英雄造成2點傷害",
+		"text": "<b>嘲諷</b>\n<b>戰吼：</b>對你的英雄造成2點傷害",
 		"flavor": "還好他的手指頭是偶數根，不會有一根手指頭在中間。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
 			"TAUNT",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Steve Prescott",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "對你的英雄造成2點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"battlegroundsPremiumDbfId": 63778,
 		"counterpartCards": [
 			43121,
@@ -123372,13 +123763,27 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "<b>死亡之聲：</b>&獲得3點護甲值",
+		"text": "<b>死亡之聲：</b>獲得3點護甲值",
 		"flavor": "硬鎧可不是浪得虛名，牠的殼可以拿來當頭盔用！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"GIVES_ARMOR"
 		],
 		"artist": "Ian Ameling",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "獲得3點護甲值",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			45930,
 			76323
@@ -124759,14 +125164,31 @@
 		],
 		"attack": 3,
 		"health": 9,
-		"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>&召喚三個有<b>嘲諷</b>的1/3惡魔",
+		"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>召喚三個有<b>嘲諷</b>的1/3惡魔",
 		"flavor": "千萬不要相信「虛無」領主開給你的支票。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"TAUNT",
 			"SUMMONS_DEMON"
 		],
 		"artist": "Jerry Mascho",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "召喚三個有<b>嘲諷</b>的1/3惡魔",
+				"mechanics": [
+					"TAUNT",
+					"SUMMONS_DEMON"
+				]
+			}
+		},
 		"counterpartCards": [
 			46056,
 			126893
@@ -145730,12 +146152,26 @@
 		"cost": 7,
 		"attack": 5,
 		"health": 5,
-		"text": "<b>戰吼：</b>&召喚一個消耗等同你手牌數量的隨機手下",
+		"text": "<b>戰吼：</b>召喚一個消耗等同你手牌數量的隨機手下",
 		"flavor": "所有的徵兆都指向安東尼達斯。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Gonzalo Ordonez",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "召喚一個消耗等同你手牌數量的隨機手下",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			48195,
 			129846
@@ -169496,13 +169932,29 @@
 		],
 		"attack": 4,
 		"health": 2,
-		"text": "<b>衝刺</b>\n<b>戰吼：</b>&用有<b>衝刺</b>的1/1山貓塞滿你的手牌",
+		"text": "<b>衝刺</b>\n<b>戰吼：</b>用有<b>衝刺</b>的1/1山貓塞滿你的手牌",
 		"flavor": "上一個叫哈拉齊去鏟土的人已經慘死在他的爪下。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"RUSH"
 		],
 		"artist": "Arthur Bozonnet",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>衝刺</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"RUSH"
+				]
+			},
+			"second": {
+				"text": "用有<b>衝刺</b>的1/1山貓塞滿你的手牌",
+				"mechanics": [
+					"RUSH"
+				]
+			}
+		},
 		"counterpartCards": [
 			50659,
 			126891
@@ -197277,13 +197729,27 @@
 		"cost": 2,
 		"attack": 1,
 		"health": 4,
-		"text": "若你在回合結束時\n有未耗盡的法力，&抽一張牌",
+		"text": "若你在回合結束時\n有未耗盡的法力，抽一張牌",
 		"flavor": "一顆水晶換一張，十顆水晶也還是一張？哪有人這樣做生意的啦？",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "L. Lullabi & K. Turovec",
+		"assembleHalves": {
+			"first": {
+				"text": "若你在回合結束時\n有未耗盡的法力，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			53545,
 			129170
@@ -218075,12 +218541,26 @@
 		],
 		"attack": 1,
 		"health": 2,
-		"text": "<b>戰吼：</b>&放一張隨機海盜手下到你的手中",
+		"text": "<b>戰吼：</b>放一張隨機海盜手下到你的手中",
 		"flavor": "他顯然沒考慮到劫掠而來的寶物該怎麼搬回家。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Ivan Fomin",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "放一張隨機海盜手下到你的手中",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			55005,
 			127088
@@ -221092,14 +221572,30 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "<b>致命劇毒</b>\n<b>戰吼：</b>&<b>發現</b>一個龍類",
+		"text": "<b>致命劇毒</b>\n<b>戰吼：</b><b>發現</b>一個龍類",
 		"flavor": "「你們確定要讓全身致命劇毒的傢伙拿行李嗎？」",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER",
 			"POISONOUS"
 		],
 		"artist": "Anton Zemskov",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>致命劇毒</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"POISONOUS"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一個龍類",
+				"mechanics": [
+					"DISCOVER"
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -221166,13 +221662,27 @@
 		],
 		"attack": 3,
 		"health": 5,
-		"text": "在你使用英雄能力後，&對一個隨機敵人造成5點傷害",
+		"text": "在你使用英雄能力後，對一個隨機敵人造成5點傷害",
 		"flavor": "*咚*「那不是龍啦！」\n*咚*「那也不是龍啦！」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Zoltan Boros",
+		"assembleHalves": {
+			"first": {
+				"text": "在你使用英雄能力後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "對一個隨機敵人造成5點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			55303,
 			102191
@@ -230257,12 +230767,26 @@
 		],
 		"attack": 2,
 		"health": 1,
-		"text": "<b>死亡之聲：</b>&將此手下的攻擊力賦予一個隨機友方手下",
+		"text": "<b>死亡之聲：</b>將此手下的攻擊力賦予一個隨機友方手下",
 		"flavor": "誰說惡魔不懂得犧牲奉獻？",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Mike Sass",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "將此手下的攻擊力賦予一個隨機友方手下",
+				"mechanics": [
+				]
+			}
+		},
 		"battlegroundsPremiumDbfId": 60671,
 		"counterpartCards": [
 			56112,
@@ -234764,12 +235288,26 @@
 		"cost": 2,
 		"attack": 3,
 		"health": 1,
-		"text": "<b>死亡之聲：</b>&抽一個法術",
+		"text": "<b>死亡之聲：</b>抽一個法術",
 		"flavor": "『在外域的朋友今年會遇到三次艾澤拉斯逆行，溝通上要特別小心，不要忙中出錯。』",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Ivan Fomin",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "抽一個法術",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -239341,12 +239879,26 @@
 		"cost": 4,
 		"attack": 4,
 		"health": 4,
-		"text": "<b>戰吼：</b>&你所打出的下一個惡魔手下消耗減少(2)點",
+		"text": "<b>戰吼：</b>你所打出的下一個惡魔手下消耗減少(2)點",
 		"flavor": "就算叫破喉嚨，也只有惡魔會來救他。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Slawomir Maniak",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "你所打出的下一個惡魔手下消耗減少(2)點",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			56765,
 			69588
@@ -240992,13 +241544,28 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 2,
-		"text": "<b>戰吼：</b>&<b>發現</b>一個惡魔",
+		"text": "<b>戰吼：</b><b>發現</b>一個惡魔",
 		"flavor": "虛空行者要先學會虛空爬行，再來才是虛空步行。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER"
 		],
 		"artist": "Arthur Bozonnet",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一個惡魔",
+				"mechanics": [
+					"DISCOVER"
+				]
+			}
+		},
 		"counterpartCards": [
 			56985,
 			129167
@@ -264794,12 +265361,26 @@
 		"cost": 1,
 		"attack": 1,
 		"health": 1,
-		"text": "<b>流放：</b>&抽一張牌",
+		"text": "<b>流放：</b>抽一張牌",
 		"flavor": "他不是最快的跑者，但他一定會背刺最快的跑者。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"OUTCAST"
 		],
 		"artist": "Arthur Bozonnet",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>流放：</b>",
+				"mechanics": [
+					"OUTCAST"
+				]
+			},
+			"second": {
+				"text": "抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			58170,
 			69683
@@ -273059,14 +273640,29 @@
 		],
 		"attack": 6,
 		"health": 7,
-		"text": "在你的回合結束時，&造成6點傷害，隨機分給全部敵人",
+		"text": "在你的回合結束時，造成6點傷害，隨機分給全部敵人",
 		"flavor": "因為她和狂怒眼魔，讓諸多伊利達瑞不得不想辦法量產戰刃…",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Bayard Wu",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "造成6點傷害，隨機分給全部敵人",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			58455,
 			120878
@@ -273128,12 +273724,25 @@
 		],
 		"attack": 1,
 		"health": 2,
-		"text": "在你的英雄攻擊後，&獲得+1攻擊力",
+		"text": "在你的英雄攻擊後，獲得+1攻擊力",
 		"flavor": "這才是名符其實的斧頭。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Andrew Hou",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的英雄攻擊後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "獲得+1攻擊力",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			58487,
 			69586
@@ -288908,14 +289517,29 @@
 		],
 		"attack": 3,
 		"health": 6,
-		"text": "<b>嘲諷</b>\n在受到攻擊後，&對全部敵人造成1點傷害",
+		"text": "<b>嘲諷</b>\n在受到攻擊後，對全部敵人造成1點傷害",
 		"flavor": "他就是個…渾身帶刺的人。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Vladimir Kafanov",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n在受到攻擊後，",
+				"mechanics": [
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "對全部敵人造成1點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			59865,
 			129168
@@ -294410,12 +295034,26 @@
 		"cost": 2,
 		"attack": 3,
 		"health": 2,
-		"text": "<b>戰吼：</b>&下回合對手的法術消耗增加(1)",
+		"text": "<b>戰吼：</b>下回合對手的法術消耗增加(1)",
 		"flavor": "菜鳥教徒的第一門課，就是學習搞破壞。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Matt Dixon",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "下回合對手的法術消耗增加(1)",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			60043,
 			102224
@@ -318881,13 +319519,28 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "<b>戰吼及死亡之聲：</b>&雙方各抽一張牌",
+		"text": "<b>戰吼及死亡之聲：</b>雙方各抽一張牌",
 		"flavor": "這是在檢查有沒有偽造的獎品券，真的獎品券有股草莓味。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Hideaki Takamura",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼及死亡之聲：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "雙方各抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			61622,
 			120429
@@ -324086,14 +324739,29 @@
 		],
 		"attack": 10,
 		"health": 10,
-		"text": "在你的回合結束時，&對一個隨機敵方手下造成10點傷害",
+		"text": "在你的回合結束時，對一個隨機敵方手下造成10點傷害",
 		"flavor": "「我們艾澤拉斯競速聯盟只能打檔，不能打人！」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Andrew Hou",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "對一個隨機敵方手下造成10點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			61972,
 			121240
@@ -332766,14 +333434,30 @@
 		],
 		"attack": 6,
 		"health": 6,
-		"text": "<b>嘲諷</b>、<b>死亡之聲：</b>&為全部友方角色恢復#8點\n生命值",
+		"text": "<b>嘲諷</b>、<b>死亡之聲：</b>為全部友方角色恢復#8點\n生命值",
 		"flavor": "天氣預報建議您出門攜帶防曬用品。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"TAUNT",
 			"RESTORE_HEALTH"
 		],
 		"artist": "James Ryman",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>、<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "為全部友方角色恢復#8點\n生命值",
+				"mechanics": [
+					"RESTORE_HEALTH"
+				]
+			}
+		},
 		"counterpartCards": [
 			62874,
 			120787
@@ -332907,13 +333591,28 @@
 		"cost": 5,
 		"attack": 5,
 		"health": 5,
-		"text": "<b>嘲諷</b>\n<b>戰吼：</b>若你在本回合已恢復生命值，&獲得+3/+3",
+		"text": "<b>嘲諷</b>\n<b>戰吼：</b>若你在本回合已恢復生命值，獲得+3/+3",
 		"flavor": "「安希？」「祝福你！」「我說你！安希…」「對啊，祝福你！」",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Paul Mafayon",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>戰吼：</b>若你在本回合已恢復生命值，",
+				"mechanics": [
+					"BATTLECRY",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "獲得+3/+3",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			62877,
 			129172
@@ -334021,12 +334720,25 @@
 		"cost": 4,
 		"attack": 3,
 		"health": 5,
-		"text": "在你施放神聖法術後，&召喚一個有<b>生命竊取</b>的2/2醫護兵",
+		"text": "在你施放神聖法術後，召喚一個有<b>生命竊取</b>的2/2醫護兵",
 		"flavor": "在戰爭中，就算是戰地醫師也要帶自己的醫護兵。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Wayne Wu",
+		"assembleHalves": {
+			"first": {
+				"text": "在你施放神聖法術後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "召喚一個有<b>生命竊取</b>的2/2醫護兵",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			62933,
 			130580
@@ -342629,14 +343341,30 @@
 		],
 		"attack": 3,
 		"health": 2,
-		"text": "<b>衝刺</b>\n<b>死亡之聲：</b>&對全部敵方手下\n造成1點傷害",
+		"text": "<b>衝刺</b>\n<b>死亡之聲：</b>對全部敵方手下\n造成1點傷害",
 		"flavor": "牠只有在「你」垂危的時候才會響。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"RUSH",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Melvin Chan",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>衝刺</b>\n<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"RUSH"
+				]
+			},
+			"second": {
+				"text": "對全部敵方手下\n造成1點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			63407,
 			75925,
@@ -342947,12 +343675,26 @@
 		"cost": 5,
 		"attack": 3,
 		"health": 5,
-		"text": "<b>戰吼：</b>&抽一張消耗為1、2，3的法術",
+		"text": "<b>戰吼：</b>抽一張消耗為1、2，3的法術",
 		"flavor": "說到騎射戰術，沒人贏得了他，畢竟人家有先天上的優勢…",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Ivan Fomin",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "抽一張消耗為1、2，3的法術",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			63461,
 			84937,
@@ -360184,13 +360926,27 @@
 		"cost": 6,
 		"attack": 5,
 		"health": 5,
-		"text": "<b>聖盾術</b>\n在友方手下失去<b>聖盾術</b>後，&賦予你手中一個手下+5/+5",
+		"text": "<b>聖盾術</b>\n在友方手下失去<b>聖盾術</b>後，賦予你手中一個手下+5/+5",
 		"flavor": "「願信念與勇氣保護我，若我光榮戰敗有人能替代我。」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>聖盾術</b>\n在友方手下失去<b>聖盾術</b>後，",
+				"mechanics": [
+					"DIVINE_SHIELD"
+				]
+			},
+			"second": {
+				"text": "賦予你手中一個手下+5/+5",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -366677,13 +367433,28 @@
 		],
 		"attack": 3,
 		"health": 4,
-		"text": "<b>可更換</b>\n<b>戰吼：</b>&摧毀對手\n的武器",
+		"text": "<b>可更換</b>\n<b>戰吼：</b>摧毀對手\n的武器",
 		"flavor": "武器的致命敵人。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRADEABLE"
 		],
 		"artist": "Zhefei Hou",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>可更換</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"TRADEABLE"
+				]
+			},
+			"second": {
+				"text": "摧毀對手\n的武器",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"counterpartCards": [
 			64720,
@@ -393282,14 +394053,30 @@
 		"cost": 5,
 		"attack": 3,
 		"health": 3,
-		"text": "<b><b>嘲諷</b>、聖盾術</b>\n<b>死亡之聲：</b>&抽出你消耗最高的手下",
+		"text": "<b><b>嘲諷</b>、聖盾術</b>\n<b>死亡之聲：</b>抽出你消耗最高的手下",
 		"flavor": "和血色十字軍生活了這麼久之後，泰蘭終於領悟到了他們或許不是什麼好人。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"DIVINE_SHIELD",
 			"TAUNT"
 		],
 		"artist": "Steven Prescott",
+		"assembleHalves": {
+			"first": {
+				"text": "<b><b>嘲諷</b>、聖盾術</b>\n<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"DIVINE_SHIELD",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "抽出你消耗最高的手下",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -393336,13 +394123,27 @@
 		"cost": 5,
 		"attack": 3,
 		"health": 6,
-		"text": "<b>衝刺</b>\n每當它攻擊，&賦予你手\n中的全部手下+1/+1",
+		"text": "<b>衝刺</b>\n每當它攻擊，賦予你手\n中的全部手下+1/+1",
 		"flavor": "他能在劈開敵人的同時，還幫自己人一把。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"RUSH",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Trent Kaniuga",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>衝刺</b>\n每當它攻擊，",
+				"mechanics": [
+					"RUSH"
+				]
+			},
+			"second": {
+				"text": "賦予你手\n中的全部手下+1/+1",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -431018,12 +431819,25 @@
 		],
 		"attack": 1,
 		"health": 2,
-		"text": "在你的英雄攻擊後，&獲得+1攻擊力",
+		"text": "在你的英雄攻擊後，獲得+1攻擊力",
 		"flavor": "這才是名符其實的斧頭。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Andrew Hou",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的英雄攻擊後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "獲得+1攻擊力",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			58487,
 			69586
@@ -431068,12 +431882,26 @@
 		"cost": 4,
 		"attack": 4,
 		"health": 4,
-		"text": "<b>戰吼：</b>&你所打出的下一個惡魔手下消耗減少(2)點",
+		"text": "<b>戰吼：</b>你所打出的下一個惡魔手下消耗減少(2)點",
 		"flavor": "就算叫破喉嚨，也只有惡魔會來救他。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Slawomir Maniak",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "你所打出的下一個惡魔手下消耗減少(2)點",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			56765,
 			69588
@@ -432191,14 +433019,30 @@
 		"faction": "NEUTRAL",
 		"attack": 8,
 		"health": 8,
-		"text": "<b>聖盾術</b>、<b>嘲諷</b>\n<b>死亡之聲：</b>&裝備5/3的灰燼使者",
+		"text": "<b>聖盾術</b>、<b>嘲諷</b>\n<b>死亡之聲：</b>裝備5/3的灰燼使者",
 		"flavor": "你沒聽過提里奧‧弗丁主題曲的原因是…它根本不存在。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"DIVINE_SHIELD",
 			"TAUNT"
 		],
 		"artist": "Brom",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>聖盾術</b>、<b>嘲諷</b>\n<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"DIVINE_SHIELD",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "裝備5/3的灰燼使者",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"counterpartCards": [
 			890,
@@ -433359,14 +434203,29 @@
 		"faction": "NEUTRAL",
 		"attack": 3,
 		"health": 2,
-		"text": "<b>戰吼：</b>&抽一張牌，對你的英雄造成3點傷害",
+		"text": "<b>戰吼：</b>抽一張牌，對你的英雄造成3點傷害",
 		"flavor": "小鬼喜歡身上冒火。他們就是喜歡。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Alex Horley Orlandelli",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "抽一張牌，對你的英雄造成3點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			1090,
 			69636,
@@ -433413,12 +434272,26 @@
 		"cost": 8,
 		"health": 30,
 		"armor": 5,
-		"text": "<b>戰吼：</b>&裝備一把3/8的血之烈怒",
+		"text": "<b>戰吼：</b>裝備一把3/8的血之烈怒",
 		"flavor": "「卑微的地精！你的傲慢將使你喪命！」",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Alex Horley Orlandelli",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "裝備一把3/8的血之烈怒",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			777,
 			69637,
@@ -435259,13 +436132,28 @@
 		"faction": "ALLIANCE",
 		"attack": 5,
 		"health": 5,
-		"text": "<b>嘲諷</b>、<b>死亡之聲：</b>&召喚一個5/5貝恩‧血蹄",
+		"text": "<b>嘲諷</b>、<b>死亡之聲：</b>召喚一個5/5貝恩‧血蹄",
 		"flavor": "凱恩是被卡爾洛斯殺死的。所以呢，別把他放進戰士的套牌，那樣太不考慮他的心情了。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"TAUNT"
 		],
 		"artist": "Wayne Reynolds",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>、<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "召喚一個5/5貝恩‧血蹄",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			420,
 			69667,
@@ -436185,12 +437073,26 @@
 		"cost": 1,
 		"attack": 1,
 		"health": 1,
-		"text": "<b>流放：</b>&抽一張牌",
+		"text": "<b>流放：</b>抽一張牌",
 		"flavor": "他不是最快的跑者，但他一定會背刺最快的跑者。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"OUTCAST"
 		],
 		"artist": "Arthur Bozonnet",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>流放：</b>",
+				"mechanics": [
+					"OUTCAST"
+				]
+			},
+			"second": {
+				"text": "抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			58170,
 			69683
@@ -438984,13 +439886,27 @@
 		"faction": "NEUTRAL",
 		"attack": 1,
 		"health": 2,
-		"text": "<b>戰吼：</b>&放一張\n隨機其他職業牌到你的手中",
+		"text": "<b>戰吼：</b>放一張\n隨機其他職業牌到你的手中",
 		"flavor": "他的偶像是個長鼻子海賊。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"CREATES_FROM_ANOTHER_CLASS"
 		],
 		"artist": "Zoltan Boros",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "放一張\n隨機其他職業牌到你的手中",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			39698,
 			69742
@@ -456414,13 +457330,29 @@
 		],
 		"attack": 5,
 		"health": 6,
-		"text": "<b>嘲諷</b>、<b>死亡之聲：</b>&召喚兩個有<b>嘲諷</b>的2/4幼熊",
+		"text": "<b>嘲諷</b>、<b>死亡之聲：</b>召喚兩個有<b>嘲諷</b>的2/4幼熊",
 		"flavor": "如果他們要你的野餐籃，我建議你馬上給他們。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"TAUNT"
 		],
 		"artist": "Todd Harris",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>、<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "召喚兩個有<b>嘲諷</b>的2/4幼熊",
+				"mechanics": [
+					"TAUNT"
+				]
+			}
+		},
 		"counterpartCards": [
 			70245,
 			117038
@@ -477845,15 +478777,30 @@
 		],
 		"attack": 1,
 		"health": 3,
-		"text": "<b>戰吼：</b>&<b>發現</b>一個\n神聖法術",
+		"text": "<b>戰吼：</b><b>發現</b>一個\n神聖法術",
 		"flavor": "地上除了撿得到錢以外，還能撿到神聖法術。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER",
 			"GENERATES_SPELL",
 			"GENERATES_HOLY_SPELL"
 		],
 		"artist": "Vladimir Kafanov",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一個\n神聖法術",
+				"mechanics": [
+					"DISCOVER"
+				]
+			}
+		},
 		"counterpartCards": [
 			71248,
 			128336
@@ -555754,12 +556701,25 @@
 		"cost": 3,
 		"attack": 1,
 		"health": 4,
-		"text": "每當此手下受到傷害，&抽一張牌",
+		"text": "每當此手下受到傷害，抽一張牌",
 		"flavor": "他年輕時本來是想要受訓成為快樂侍僧，但是後來的發展並不如他原本的預期。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Dave Kendall",
+		"assembleHalves": {
+			"first": {
+				"text": "每當此手下受到傷害，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			1659,
 			69809,
@@ -555806,12 +556766,25 @@
 		"cost": 2,
 		"attack": 0,
 		"health": 7,
-		"text": "在你的回合開始時，&摧毀全部手下",
+		"text": "在你的回合開始時，摧毀全部手下",
 		"flavor": "他的預言好幾次都差點成真。他<b>非常肯定</b>的說大災變那次就是真正的末日。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Alex Horley Orlandelli",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合開始時，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "摧毀全部手下",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			138,
 			70085,
@@ -556024,13 +556997,27 @@
 		],
 		"attack": 3,
 		"health": 2,
-		"text": "在你施放法術後，&對全部手下造成1點傷害",
+		"text": "在你施放法術後，對全部手下造成1點傷害",
 		"flavor": "燒啊燒，燒光光！大家一起燒！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Alex Horley Orlandelli",
+		"assembleHalves": {
+			"first": {
+				"text": "在你施放法術後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "對全部手下造成1點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			1014,
 			70084,
@@ -556129,13 +557116,27 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "<b>死亡之聲：</b>&獲得3點護甲值",
+		"text": "<b>死亡之聲：</b>獲得3點護甲值",
 		"flavor": "硬鎧可不是浪得虛名，牠的殼可以拿來當頭盔用！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"GIVES_ARMOR"
 		],
 		"artist": "Ian Ameling",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "獲得3點護甲值",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			45930,
 			76323
@@ -556297,14 +557298,30 @@
 		],
 		"attack": 4,
 		"health": 8,
-		"text": "[x]<b>嘲諷</b>\n<b>戰吼：</b>&對全部其他\n手下造成2點傷害",
+		"text": "[x]<b>嘲諷</b>\n<b>戰吼：</b>對全部其他\n手下造成2點傷害",
 		"flavor": "看來牠的「歌聲」不太動聽…",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Mike Sass",
+		"assembleHalves": {
+			"first": {
+				"text": "[x]<b>嘲諷</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "對全部其他\n手下造成2點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			41929,
 			76327
@@ -581821,12 +582838,26 @@
 		"cost": 2,
 		"attack": 1,
 		"health": 1,
-		"text": "<b>戰吼</b>：&召喚一個消耗為2的隨機手下",
+		"text": "<b>戰吼</b>：召喚一個消耗為2的隨機手下",
 		"flavor": "「往左邊看的話，你會看到更大的戴納瑟斯王雕像！」",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Ishmael Hoover",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼</b>：",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "召喚一個消耗為2的隨機手下",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			77491,
 			118076
@@ -602566,14 +603597,28 @@
 		},
 		"attack": 2,
 		"health": 2,
-		"text": "在你的回合結束時，&將一個<b>屍體</b>復生為有<b>嘲諷</b>的1/3復生的步卒",
+		"text": "在你的回合結束時，將一個<b>屍體</b>復生為有<b>嘲諷</b>的1/3復生的步卒",
 		"flavor": "敬請期待：手牌死靈法師和牌堆死靈法師。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
 			"SPEND_CORPSE"
 		],
 		"artist": "Dave Kendall",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "將一個<b>屍體</b>復生為有<b>嘲諷</b>的1/3復生的步卒",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"CORPSE",
 			"TAUNT"
@@ -602723,13 +603768,27 @@
 		},
 		"attack": 2,
 		"health": 3,
-		"text": "<b>戰吼：</b>消耗一個<b>屍體</b>以&<b>發現</b>一張血魄\n符文牌",
+		"text": "<b>戰吼：</b>消耗一個<b>屍體</b>以<b>發現</b>一張血魄\n符文牌",
 		"flavor": "她是來加油打氣的！為你加油！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"SPEND_CORPSE"
 		],
 		"artist": "Dez Bencosme",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>消耗一個<b>屍體</b>以",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一張血魄\n符文牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			78356,
 			111320
@@ -607822,13 +608881,27 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "在你施放法術後，&對兩個隨機敵人造成1點傷害",
+		"text": "在你施放法術後，對兩個隨機敵人造成1點傷害",
 		"flavor": "死亡根本是最悠哉的狀態…你只要放鬆就好。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Ramzy Kamen",
+		"assembleHalves": {
+			"first": {
+				"text": "在你施放法術後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "對兩個隨機敵人造成1點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			78649,
 			117027
@@ -630954,12 +632027,25 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 4,
-		"text": "在友方不死族死亡後，&抽一張牌",
+		"text": "在友方不死族死亡後，抽一張牌",
 		"flavor": "我看到了死人。好多好多的死人。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
+		"assembleHalves": {
+			"first": {
+				"text": "在友方不死族死亡後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -639528,13 +640614,28 @@
 		],
 		"attack": 2,
 		"health": 2,
-		"text": "<b>戰吼及死亡之聲：</b>&抽一張牌",
+		"text": "<b>戰吼及死亡之聲：</b>抽一張牌",
 		"flavor": "他最受不了氣溫才零下15度就有人在喊冷。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Greg Staples",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼及死亡之聲：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -643477,15 +644578,31 @@
 		],
 		"attack": 5,
 		"health": 6,
-		"text": "<b>嘲諷</b>、<b>生命竊取</b>\n在你的回合結束時，&攻擊生命值最低的\n敵人",
+		"text": "<b>嘲諷</b>、<b>生命竊取</b>\n在你的回合結束時，攻擊生命值最低的\n敵人",
 		"flavor": "嚼嚼嚼。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"LIFESTEAL",
 			"TAUNT",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "Mauricio Herrera",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>、<b>生命竊取</b>\n在你的回合結束時，",
+				"mechanics": [
+					"LIFESTEAL",
+					"TAUNT",
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "攻擊生命值最低的\n敵人",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -651880,12 +652997,26 @@
 		],
 		"attack": 3,
 		"health": 2,
-		"text": "<b>死亡之聲：</b>&抽一張冰霜法術",
+		"text": "<b>死亡之聲：</b>抽一張冰霜法術",
 		"flavor": "凜冬要來了。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Angelina Chernyak",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "抽一張冰霜法術",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -683038,12 +684169,26 @@
 		"cost": 1,
 		"attack": 1,
 		"health": 2,
-		"text": "<b>戰吼：</b>若你手中有暗影法術，&獲得+1/+1",
+		"text": "<b>戰吼：</b>若你手中有暗影法術，獲得+1/+1",
 		"flavor": "我只是覺得水晶很漂亮。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "A. J. Nazzaro",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>若你手中有暗影法術，",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "獲得+1/+1",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			84204,
 			129166
@@ -694104,15 +695249,31 @@
 		],
 		"attack": 6,
 		"health": 6,
-		"text": "<b>衝刺</b>\n<b>戰吼及死亡之聲：</b>&獲得6點護甲值",
+		"text": "<b>衝刺</b>\n<b>戰吼及死亡之聲：</b>獲得6點護甲值",
 		"flavor": "看好了，地底王者！我永遠都鑽得比你深，沒有人能在我之下！我要向愛與和平宣戰，在我面前顫抖吧！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"RUSH",
 			"GIVES_ARMOR"
 		],
 		"artist": "L. Lullabi & K. Turovec",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>衝刺</b>\n<b>戰吼及死亡之聲：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"DEATHRATTLE",
+					"RUSH"
+				]
+			},
+			"second": {
+				"text": "獲得6點護甲值",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			85052,
 			129171
@@ -718003,13 +719164,28 @@
 		],
 		"attack": 3,
 		"health": 4,
-		"text": "<b>戰吼：</b>若你場上有另一個機械，&<b>發現</b>一個機械",
+		"text": "<b>戰吼：</b>若你場上有另一個機械，<b>發現</b>一個機械",
 		"flavor": "A-1和A-2都失控了，當時一定是掉了秘銀外殼和什麼備用零件。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER"
 		],
 		"artist": "Skan Srisuwan",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>若你場上有另一個機械，",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一個機械",
+				"mechanics": [
+					"DISCOVER"
+				]
+			}
+		},
 		"counterpartCards": [
 			2911,
 			86548
@@ -721981,13 +723157,26 @@
 		],
 		"attack": 4,
 		"health": 3,
-		"text": "在你的英雄攻擊後，&獲得4點護甲值並抽一張牌",
+		"text": "在你的英雄攻擊後，獲得4點護甲值並抽一張牌",
 		"flavor": "等等，好戲還在後頭！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"GIVES_ARMOR"
 		],
 		"artist": "Daniil Kudriavtsev",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的英雄攻擊後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "獲得4點護甲值並抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			86692,
 			120574
@@ -723068,15 +724257,32 @@
 		],
 		"attack": 3,
 		"health": 3,
-		"text": "<b>重生</b>\n<b>戰吼及死亡之聲：</b>&對一個隨機敵人\n造成2點傷害",
+		"text": "<b>重生</b>\n<b>戰吼及死亡之聲：</b>對一個隨機敵人\n造成2點傷害",
 		"flavor": "一個天生的領導者，和一個後天重生的領導者。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"REBORN",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Valeria Styajkina",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>重生</b>\n<b>戰吼及死亡之聲：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"DEATHRATTLE",
+					"REBORN"
+				]
+			},
+			"second": {
+				"text": "對一個隨機敵人\n造成2點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -833832,12 +835038,26 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "<b>戰吼：</b>&移除對手牌堆最上面的牌",
+		"text": "<b>戰吼：</b>移除對手牌堆最上面的牌",
 		"flavor": "我吸血，但我也懂時尚！",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Matt Dixon",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "移除對手牌堆最上面的牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			42670,
 			95710
@@ -835045,14 +836265,30 @@
 		"cost": 9,
 		"attack": 4,
 		"health": 8,
-		"text": "<b><b>嘲諷</b>、生命竊取</b> <b>死亡之聲：</b>&摧毀隨機敵方手下",
+		"text": "<b><b>嘲諷</b>、生命竊取</b> <b>死亡之聲：</b>摧毀隨機敵方手下",
 		"flavor": "雕刻師傅花了很多功夫在它的臉部表情，以確保最大的嘲諷效果。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"LIFESTEAL",
 			"TAUNT"
 		],
 		"artist": "A. J. Nazzaro",
+		"assembleHalves": {
+			"first": {
+				"text": "<b><b>嘲諷</b>、生命竊取</b> <b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"LIFESTEAL",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "摧毀隨機敵方手下",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			42598,
 			95732
@@ -835897,13 +837133,27 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "在你的回合結束時，&賦予另一個隨機友方手下+1/+1",
+		"text": "在你的回合結束時，賦予另一個隨機友方手下+1/+1",
 		"flavor": "想要晉升就得先墮落才行，最好墮落到使用暗影。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "Paul Kwon",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "賦予另一個隨機友方手下+1/+1",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			42574,
 			95746
@@ -861906,12 +863156,26 @@
 		],
 		"attack": 1,
 		"health": 2,
-		"text": "<b>戰吼：</b>&放一張隨機野獸牌到你的手中",
+		"text": "<b>戰吼：</b>放一張隨機野獸牌到你的手中",
 		"flavor": "珠光寶氣的寶光鸚鵡身上其實沒有珠寶。哥布林都哭了。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "James Ryman",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "放一張隨機野獸牌到你的手中",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			41353,
 			97376
@@ -864029,13 +865293,27 @@
 		],
 		"attack": 3,
 		"health": 5,
-		"text": "每當你抽牌，&召喚一個有<b>衝刺</b>的1/1惡魔",
+		"text": "每當你抽牌，召喚一個有<b>衝刺</b>的1/1惡魔",
 		"flavor": "他們被騙了，因為又出現了另一個埃雷達爾。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"SUMMONS_DEMON"
 		],
 		"artist": "Konstantin Turovec",
+		"assembleHalves": {
+			"first": {
+				"text": "每當你抽牌，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "召喚一個有<b>衝刺</b>的1/1惡魔",
+				"mechanics": [
+					"SUMMONS_DEMON"
+				]
+			}
+		},
 		"counterpartCards": [
 			97479,
 			127589
@@ -883355,14 +884633,29 @@
 		],
 		"attack": 4,
 		"health": 10,
-		"text": "<b>生命竊取</b>\n在你的回合結束時，&強迫全部敵方手下攻擊它",
+		"text": "<b>生命竊取</b>\n在你的回合結束時，強迫全部敵方手下攻擊它",
 		"flavor": "你在《爐石戰記》中沒辦法/撫摸他。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"LIFESTEAL",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "Konstantin Turovec",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>生命竊取</b>\n在你的回合結束時，",
+				"mechanics": [
+					"LIFESTEAL",
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "強迫全部敵方手下攻擊它",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			98469,
 			129169
@@ -897852,13 +899145,29 @@
 		],
 		"attack": 3,
 		"health": 4,
-		"text": "<b>嘲諷</b>\n<b>戰吼：</b>&賦予你手中的<b>嘲諷</b>手下+2/+2",
+		"text": "<b>嘲諷</b>\n<b>戰吼：</b>賦予你手中的<b>嘲諷</b>手下+2/+2",
 		"flavor": "你真的就因為一綑炸藥，準備了一整套巨大機甲套裝嗎？",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Luca Zontini",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "賦予你手中的<b>嘲諷</b>手下+2/+2",
+				"mechanics": [
+					"TAUNT"
+				]
+			}
+		},
 		"counterpartCards": [
 			100062,
 			127469
@@ -911401,13 +912710,27 @@
 		],
 		"attack": 3,
 		"health": 3,
-		"text": "在你的回合結束時，若此手下未攻擊，&抽2張牌",
+		"text": "在你的回合結束時，若此手下未攻擊，抽2張牌",
 		"flavor": "你想說他偷懶嗎？但他偷懶還比你多兩張牌。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "Tanamaes Leejierasaes",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，若此手下未攻擊，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "抽2張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -935172,13 +936495,27 @@
 		],
 		"attack": 3,
 		"health": 5,
-		"text": "在你使用英雄能力後，&對一個隨機敵人造成5點傷害",
+		"text": "在你使用英雄能力後，對一個隨機敵人造成5點傷害",
 		"flavor": "*咚*「那不是龍啦！」\n*咚*「那也不是龍啦！」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Zoltan Boros",
+		"assembleHalves": {
+			"first": {
+				"text": "在你使用英雄能力後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "對一個隨機敵人造成5點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			55303,
 			102191
@@ -935387,12 +936724,26 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 2,
-		"text": "<b>戰吼：</b>&賦予你手中全部手下+1/+1",
+		"text": "<b>戰吼：</b>賦予你手中全部手下+1/+1",
 		"flavor": "要是你真的很會殺價，他還會加送一頂帽子。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Peter Stapleton",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "賦予你手中全部手下+1/+1",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			40567,
 			102196
@@ -936623,13 +937974,28 @@
 		],
 		"attack": 3,
 		"health": 4,
-		"text": "<b>可更換</b>\n<b>戰吼：</b>&摧毀對手\n的武器",
+		"text": "<b>可更換</b>\n<b>戰吼：</b>摧毀對手\n的武器",
 		"flavor": "武器的致命敵人。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRADEABLE"
 		],
 		"artist": "Zhefei Hou",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>可更換</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"TRADEABLE"
+				]
+			},
+			"second": {
+				"text": "摧毀對手\n的武器",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"counterpartCards": [
 			64720,
@@ -936783,12 +938149,26 @@
 		"cost": 2,
 		"attack": 3,
 		"health": 2,
-		"text": "<b>戰吼：</b>&下回合對手的法術消耗增加(1)",
+		"text": "<b>戰吼：</b>下回合對手的法術消耗增加(1)",
 		"flavor": "菜鳥教徒的第一門課，就是學習搞破壞。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Matt Dixon",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "下回合對手的法術消耗增加(1)",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			60043,
 			102224
@@ -936848,13 +938228,28 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 6,
-		"text": "<b>嘲諷</b>。<b>戰吼：</b>&你的\n對手從其手中隨機\n召喚一個手下",
+		"text": "<b>嘲諷</b>。<b>戰吼：</b>你的\n對手從其手中隨機\n召喚一個手下",
 		"flavor": "不是他的錯…有人老是拿走他的肥皂！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Dany Orizio",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>。<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "你的\n對手從其手中隨機\n召喚一個手下",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"counterpartCards": [
 			41567,
@@ -943621,13 +945016,28 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "<b>戰吼：</b>&<b>發現</b>一張\n消耗為1的牌",
+		"text": "<b>戰吼：</b><b>發現</b>一張\n消耗為1的牌",
 		"flavor": "真空靈魂吸取機限時大特價！只剩10組要買要快！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER"
 		],
 		"artist": "George Davis",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一張\n消耗為1的牌",
+				"mechanics": [
+					"DISCOVER"
+				]
+			}
+		},
 		"counterpartCards": [
 			2895,
 			102639,
@@ -1050079,12 +1051489,25 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 4,
-		"text": "在友方不死族死亡後，&抽一張牌",
+		"text": "在友方不死族死亡後，抽一張牌",
 		"flavor": "「我看到了死人。好多好多的死人。」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
+		"assembleHalves": {
+			"first": {
+				"text": "在友方不死族死亡後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -1050202,13 +1051625,27 @@
 		},
 		"attack": 2,
 		"health": 3,
-		"text": "<b>戰吼：</b>消耗一個<b>屍體</b>以&<b>發現</b>一張血魄\n符文牌",
+		"text": "<b>戰吼：</b>消耗一個<b>屍體</b>以<b>發現</b>一張血魄\n符文牌",
 		"flavor": "她是來加油打氣的！為你加油！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"SPEND_CORPSE"
 		],
 		"artist": "Dez Bencosme",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>消耗一個<b>屍體</b>以",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一張血魄\n符文牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			78356,
 			111320
@@ -1051594,12 +1053031,26 @@
 		"cost": 5,
 		"attack": 3,
 		"health": 5,
-		"text": "<b>戰吼：</b>&抽一張消耗為1、2，3的法術",
+		"text": "<b>戰吼：</b>抽一張消耗為1、2，3的法術",
 		"flavor": "說到騎射戰術，沒人贏得了他，畢竟人家有先天上的優勢…",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Ivan Fomin",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "抽一張消耗為1、2，3的法術",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			63461,
 			84937,
@@ -1053352,13 +1054803,28 @@
 		"faction": "NEUTRAL",
 		"attack": 5,
 		"health": 7,
-		"text": "<b>衝鋒</b>。<b>戰吼：</b>&隨機捨棄兩張牌",
+		"text": "<b>衝鋒</b>。<b>戰吼：</b>隨機捨棄兩張牌",
 		"flavor": "召喚末日守衛很危險。一定會<b>有人</b>死。",
 		"mechanics": [
 			"BATTLECRY",
-			"CHARGE"
+			"CHARGE",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Lucas Graciano",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>衝鋒</b>。<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"CHARGE"
+				]
+			},
+			"second": {
+				"text": "隨機捨棄兩張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			631,
 			69917,
@@ -1097220,12 +1098686,26 @@
 		],
 		"attack": 4,
 		"health": 7,
-		"text": "<b>戰吼：</b>若這張牌消耗為(3)以下，&隨機攻擊兩個敵方手下",
+		"text": "<b>戰吼：</b>若這張牌消耗為(3)以下，隨機攻擊兩個敵方手下",
 		"flavor": "嘿，你的臉色怎麼跟卡牌外框一樣綠？",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Jason Kang",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>若這張牌消耗為(3)以下，",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "隨機攻擊兩個敵方手下",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1097477,13 +1098957,27 @@
 		],
 		"attack": 5,
 		"health": 11,
-		"text": "在你的回合結束時，&打出你牌堆最上面的3張牌",
+		"text": "在你的回合結束時，打出你牌堆最上面的3張牌",
 		"flavor": "雍亞拉控制風的力量受到牛頭人和半人馬的崇敬，更啟發著無數人。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "Alex Stone",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "打出你牌堆最上面的3張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1100661,13 +1102155,28 @@
 		],
 		"attack": 5,
 		"health": 4,
-		"text": "<b>戰吼：</b>&<b>發現</b>一個有<b>黑暗贈禮</b>的<b>傳說</b>手下",
+		"text": "<b>戰吼：</b><b>發現</b>一個有<b>黑暗贈禮</b>的<b>傳說</b>手下",
 		"flavor": "他太壞了，讓你全身紅通通。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER"
 		],
 		"artist": "Allan Arello",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一個有<b>黑暗贈禮</b>的<b>傳說</b>手下",
+				"mechanics": [
+					"DISCOVER"
+				]
+			}
+		},
 		"referencedTags": [
 			"DARK_GIFT"
 		],
@@ -1106130,12 +1107639,26 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "<b>戰吼：</b>若你手中有龍類，&裝備一把2/2的劍",
+		"text": "<b>戰吼：</b>若你手中有龍類，裝備一把2/2的劍",
 		"flavor": "敢動母巢的主意，我就讓你哭著回去找媽媽！",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Ramzy Kamen",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>若你手中有龍類，",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "裝備一把2/2的劍",
+				"mechanics": [
+				]
+			}
+		},
 		"relatedCardDbfIds": [
 			117304
 		],
@@ -1107889,12 +1109412,26 @@
 		],
 		"attack": 4,
 		"health": 4,
-		"text": "<b>戰吼：</b>&賦予你牌堆最上面3個手下+4/+4",
+		"text": "<b>戰吼：</b>賦予你牌堆最上面3個手下+4/+4",
 		"flavor": "我認識一個能替我們處理這件事的傢伙，他可是專家。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Kevin Sidharta",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "賦予你牌堆最上面3個手下+4/+4",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1108958,14 +1110495,29 @@
 		],
 		"attack": 3,
 		"health": 6,
-		"text": "<b>飄渺</b>\n在你的回合結束時，&獲得一個隨機\n龍類~GAMEPLAY ASPROXY EDR 462",
+		"text": "<b>飄渺</b>\n在你的回合結束時，獲得一個隨機\n龍類~GAMEPLAY ASPROXY EDR 462",
 		"flavor": "決鬥！等等，它的攻擊力不是應該再乘上一千嗎？",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"ELUSIVE",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "Edgar Hidalgo",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>飄渺</b>\n在你的回合結束時，",
+				"mechanics": [
+					"ELUSIVE",
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "獲得一個隨機\n龍類~GAMEPLAY ASPROXY EDR 462",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1110564,12 +1112116,26 @@
 		"cost": 7,
 		"attack": 5,
 		"health": 7,
-		"text": "<b>戰吼：</b>&你打出的下3張法術會施放兩次",
+		"text": "<b>戰吼：</b>你打出的下3張法術會施放兩次",
 		"flavor": "高階月之女祭司泰蘭妲踏入翡翠夢境尋找瑪法里恩。當她察覺薩維斯夢魘般的影響後，便決心阻止那些試圖腐化翡翠夢境之人。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Mooncolony",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "你打出的下3張法術會施放兩次",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsDiamond": true,
 		"availableAsSignature": true,
 		"audio2": {
@@ -1112475,13 +1114041,27 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 2,
-		"text": "<b>嘲諷</b>\n在你使用英雄能力後&獲得+2生命值",
+		"text": "<b>嘲諷</b>\n在你使用英雄能力後獲得+2生命值",
 		"flavor": "他不只會吠，咬人也沒在客氣的。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Kleston Marques",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n在你使用英雄能力後",
+				"mechanics": [
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "獲得+2生命值",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"ArmoredWarhorseNoVox_Attack_Underlay": {
@@ -1112594,15 +1114174,30 @@
 		],
 		"attack": 1,
 		"health": 30,
-		"text": "<b>嘲諷</b>、<b>飄渺</b>\n在此手下受到傷害後，&獲得1點護甲值並賦予此手下+1攻擊力",
+		"text": "<b>嘲諷</b>、<b>飄渺</b>\n在此手下受到傷害後，獲得1點護甲值並賦予此手下+1攻擊力",
 		"flavor": "托爾托拉經歷燃燒軍團入侵後仍毫髮無傷，然而夢魘的腐化卻成功滲透了他的殼。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"ELUSIVE",
 			"TAUNT",
 			"TRIGGER_VISUAL",
 			"GIVES_ARMOR"
 		],
 		"artist": "Zoltan Boros",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>、<b>飄渺</b>\n在此手下受到傷害後，",
+				"mechanics": [
+					"ELUSIVE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "獲得1點護甲值並賦予此手下+1攻擊力",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1114312,12 +1115907,26 @@
 		],
 		"attack": 4,
 		"health": 2,
-		"text": "<b>死亡之聲：</b>&使你最右邊手牌的消耗降低(2)",
+		"text": "<b>死亡之聲：</b>使你最右邊手牌的消耗降低(2)",
 		"flavor": "可是左邊的牌都打不出去耶？？",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Ian Ameling",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "使你最右邊手牌的消耗降低(2)",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1115473,12 +1117082,25 @@
 		"cost": 4,
 		"attack": 4,
 		"durability": 2,
-		"text": "在你的英雄攻擊後，&抽一張牌",
+		"text": "在你的英雄攻擊後，抽一張牌",
 		"flavor": "帶著巨熊之槌走在路上，每隻熊都會回過頭來看你。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
-		"artist": "Studio Hive"
+		"artist": "Studio Hive",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的英雄攻擊後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "抽一張牌",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 114640,
@@ -1115839,13 +1117461,28 @@
 		"cost": 4,
 		"attack": 4,
 		"health": 4,
-		"text": "<b>戰吼及死亡之聲：</b>&召喚一個隨機<b>休眠</b>的懼靈之種",
+		"text": "<b>戰吼及死亡之聲：</b>召喚一個隨機<b>休眠</b>的懼靈之種",
 		"flavor": "信不信由你，其實懼魂尚未被腐化。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Max Grecke",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼及死亡之聲：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "召喚一個隨機<b>休眠</b>的懼靈之種",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"DORMANT"
 		],
@@ -1116172,12 +1117809,25 @@
 		"cost": 5,
 		"attack": 3,
 		"health": 5,
-		"text": "在你施放法術後，&召喚一個隨機動物夥伴",
+		"text": "在你施放法術後，召喚一個隨機動物夥伴",
 		"flavor": "那傢伙總是「布洛」人後。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Luca Zontini",
+		"assembleHalves": {
+			"first": {
+				"text": "在你施放法術後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "召喚一個隨機動物夥伴",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsDiamond": true,
 		"relatedCardDbfIds": [
 			100,
@@ -1116460,13 +1118110,28 @@
 		"cost": 3,
 		"attack": 3,
 		"health": 3,
-		"text": "<b>戰吼及死亡之聲：</b>&你的下一個英雄能力消耗為(0)",
+		"text": "<b>戰吼及死亡之聲：</b>你的下一個英雄能力消耗為(0)",
 		"flavor": "我才沒有睡，我只是去向伊瑟拉打聽關於夢境的知識！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Matt Dixon",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼及死亡之聲：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "你的下一個英雄能力消耗為(0)",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1118359,12 +1120024,26 @@
 		"faction": "NEUTRAL",
 		"attack": 1,
 		"health": 1,
-		"text": "<b>死亡之聲：</b>&抽一個消耗為(7)以上的手下",
+		"text": "<b>死亡之聲：</b>抽一個消耗為(7)以上的手下",
 		"flavor": "腐心的罪魁禍首就是薩維斯！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Timur Shevtsov",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "抽一個消耗為(7)以上的手下",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1119464,12 +1121143,26 @@
 		],
 		"attack": 2,
 		"health": 4,
-		"text": "<b>戰吼：</b>&召喚一個此手下的分身，它在受到傷害後便會悄然死亡",
+		"text": "<b>戰吼：</b>召喚一個此手下的分身，它在受到傷害後便會悄然死亡",
 		"flavor": "有些人會假想朋友，他卻有個假想雙胞胎！",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Gabor Szikszai",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "召喚一個此手下的分身，它在受到傷害後便會悄然死亡",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1120868,15 +1122561,29 @@
 		"cost": 2,
 		"attack": 0,
 		"health": 4,
-		"text": "在你的回合結束時，&獲得一個隨機自然\n法術",
+		"text": "在你的回合結束時，獲得一個隨機自然\n法術",
 		"flavor": "完美精靈。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
 			"GENERATES_SPELL",
 			"GENERATES_NATURE_SPELL"
 		],
 		"artist": "Melvin Chan",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "獲得一個隨機自然\n法術",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1120921,12 +1122628,26 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "<b>戰吼：</b>&召喚三個有\n<b>衝刺</b>的1/1小鴨子",
+		"text": "<b>戰吼：</b>召喚三個有\n<b>衝刺</b>的1/1小鴨子",
 		"flavor": "還會召喚一隻0/0的醜小鴨。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Ursula Dorada",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "召喚三個有\n<b>衝刺</b>的1/1小鴨子",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"RUSH"
 		],
@@ -1123360,12 +1125081,25 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "每當你打出先前打出過的另一個手下時，&抽一張牌",
+		"text": "每當你打出先前打出過的另一個手下時，抽一張牌",
 		"flavor": "這隻蜘蛛超邪惡，它會用網子捕捉獵物然後吃掉它們！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Ivo Campelo da Silva",
+		"assembleHalves": {
+			"first": {
+				"text": "每當你打出先前打出過的另一個手下時，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1123499,12 +1125233,26 @@
 		],
 		"attack": 4,
 		"health": 4,
-		"text": "<b>戰吼：</b>若你手中有擁有<b>黑暗贈禮</b>的手下，&召喚兩個擁有<b>嘲諷</b>的4/4龍類",
+		"text": "<b>戰吼：</b>若你手中有擁有<b>黑暗贈禮</b>的手下，召喚兩個擁有<b>嘲諷</b>的4/4龍類",
 		"flavor": "其實，她的霜寒之咬比她的霜燃攻擊痛多了。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Alex Stone",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>若你手中有擁有<b>黑暗贈禮</b>的手下，",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "召喚兩個擁有<b>嘲諷</b>的4/4龍類",
+				"mechanics": [
+				]
+			}
+		},
 		"otherTags": [
 			"TARGETS_MINION"
 		],
@@ -1123579,12 +1125327,26 @@
 		"rarity": "Epic",
 		"cost": 2,
 		"spellSchool": "FEL",
-		"text": "在你下回合開始時，&造成$6點傷害，隨機分給全部敵人",
+		"text": "在你下回合開始時，造成$6點傷害，隨機分給全部敵人",
 		"flavor": "這是象徵火焰季節的標記。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEAL_DAMAGE"
 		],
-		"artist": "Sergey Tsvelykh"
+		"artist": "Sergey Tsvelykh",
+		"assembleHalves": {
+			"first": {
+				"text": "在你下回合開始時，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "造成$6點傷害，隨機分給全部敵人",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 115628,
@@ -1123606,13 +1125368,27 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "在你施放魔化法術後，\n&摧毀此手下並對全部\n敵人造成2點傷害",
+		"text": "在你施放魔化法術後，\n摧毀此手下並對全部\n敵人造成2點傷害",
 		"flavor": "你就像那一把火，熊熊魔焰燃燒了我。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Alex Stone",
+		"assembleHalves": {
+			"first": {
+				"text": "在你施放魔化法術後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "摧毀此手下並對全部\n敵人造成2點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1123877,12 +1125653,25 @@
 		],
 		"attack": 3,
 		"health": 6,
-		"text": "在你施放火焰法術後，&獲得一個隨機元素並使其消耗減少(3)",
+		"text": "在你施放火焰法術後，獲得一個隨機元素並使其消耗減少(3)",
 		"flavor": "可憐的煉獄使者，為什麼這麼鬱「悶」啊？",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Edward Frayna",
+		"assembleHalves": {
+			"first": {
+				"text": "在你施放火焰法術後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "獲得一個隨機元素並使其消耗減少(3)",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1124271,13 +1126060,28 @@
 		],
 		"attack": 4,
 		"health": 3,
-		"text": "<b>戰吼：</b>&<b>發現</b>一個擁有\n<b>黑暗贈禮</b>的惡魔。獲得一張它的分身",
+		"text": "<b>戰吼：</b><b>發現</b>一個擁有\n<b>黑暗贈禮</b>的惡魔。獲得一張它的分身",
 		"flavor": "紫色是低調的顏色，紫火自帶潛行效果。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER"
 		],
 		"artist": "Ivo Campelo da Silva",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一個擁有\n<b>黑暗贈禮</b>的惡魔。獲得一張它的分身",
+				"mechanics": [
+					"DISCOVER"
+				]
+			}
+		},
 		"referencedTags": [
 			"DARK_GIFT"
 		],
@@ -1124572,14 +1126376,29 @@
 		],
 		"attack": 3,
 		"health": 2,
-		"text": "<b>戰吼：</b><b>發現</b>一張消耗為5的牌。&在下回合額外獲得1顆法力水晶",
+		"text": "<b>戰吼：</b><b>發現</b>一張消耗為5的牌。在下回合額外獲得1顆法力水晶",
 		"flavor": "別再煩我了！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER",
 			"WHELP"
 		],
 		"artist": "Matt Dixon",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b><b>發現</b>一張消耗為5的牌。",
+				"mechanics": [
+					"BATTLECRY",
+					"DISCOVER"
+				]
+			},
+			"second": {
+				"text": "在下回合額外獲得1顆法力水晶",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1126044,15 +1127863,30 @@
 		"cost": 4,
 		"attack": 4,
 		"health": 4,
-		"text": "<b>戰吼：</b><b>發現</b>一個魔化法術，&使你手中的魔化法術消耗減少(1)",
+		"text": "<b>戰吼：</b><b>發現</b>一個魔化法術，使你手中的魔化法術消耗減少(1)",
 		"flavor": "大概是在一萬年前走火入魔的。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER",
 			"GENERATES_SPELL",
 			"GENERATES_FEL_SPELL"
 		],
 		"artist": "Slawomir Maniak",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b><b>發現</b>一個魔化法術，",
+				"mechanics": [
+					"BATTLECRY",
+					"DISCOVER"
+				]
+			},
+			"second": {
+				"text": "使你手中的魔化法術消耗減少(1)",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1126128,9 +1127962,10 @@
 		],
 		"attack": 5,
 		"health": 8,
-		"text": "<b>衝刺</b>。在它攻擊手下並存活後，&造成等同此手下攻擊力的傷害，分給全部敵人",
+		"text": "<b>衝刺</b>。在它攻擊手下並存活後，造成等同此手下攻擊力的傷害，分給全部敵人",
 		"flavor": "千萬別在牠面前提到「點心」兩個字，不然牠嘴裡的熔岩會流滿地。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"RUSH",
 			"TRIGGER_VISUAL"
 		],
@@ -1126138,6 +1127973,19 @@
 			"TAG_SCRIPT_DATA_NUM_1": 0
 		},
 		"artist": "Juan Calle",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>衝刺</b>。在它攻擊手下並存活後，",
+				"mechanics": [
+					"RUSH"
+				]
+			},
+			"second": {
+				"text": "造成等同此手下攻擊力的傷害，分給全部敵人",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1126225,13 +1128073,27 @@
 		"faction": "NEUTRAL",
 		"attack": 3,
 		"health": 3,
-		"text": "每當你的英雄在你的回合中受到傷害，&對一個隨機敵方手下造成3點傷害",
+		"text": "每當你的英雄在你的回合中受到傷害，對一個隨機敵方手下造成3點傷害",
 		"flavor": "就算是大自然最純淨的擁護者，也會在菲拉卡無情的烈焰中化為灰燼。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Luca Zontini",
+		"assembleHalves": {
+			"first": {
+				"text": "每當你的英雄在你的回合中受到傷害，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "對一個隨機敵方手下造成3點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1126292,13 +1128154,27 @@
 		],
 		"attack": 3,
 		"health": 6,
-		"text": "<b>戰吼：</b>若你手中有擁有\n<b>黑暗贈禮</b>的手下，&本回合賦予你的英雄+3攻擊力和6點護甲值",
+		"text": "<b>戰吼：</b>若你手中有擁有\n<b>黑暗贈禮</b>的手下，本回合賦予你的英雄+3攻擊力和6點護甲值",
 		"flavor": "你覺得邪惡的熔岩龜很酷？仔細看，牠還是隻龍呢！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"GIVES_HERO_ATTACK"
 		],
 		"artist": "Gabor Szikszai",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>若你手中有擁有\n<b>黑暗贈禮</b>的手下，",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "本回合賦予你的英雄+3攻擊力和6點護甲值",
+				"mechanics": [
+				]
+			}
+		},
 		"otherTags": [
 			"TARGETS_MINION"
 		],
@@ -1127395,14 +1129271,29 @@
 		],
 		"attack": 3,
 		"health": 5,
-		"text": "在你的回合結束時，&賦予你的英雄<b>聖盾術</b>",
+		"text": "在你的回合結束時，賦予你的英雄<b>聖盾術</b>",
 		"flavor": "一杆進洞！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
 			"GIVES_DIVINE_SHIELD"
 		],
 		"artist": "Matt Dixon",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "賦予你的英雄<b>聖盾術</b>",
+				"mechanics": [
+					"GIVES_DIVINE_SHIELD"
+				]
+			}
+		},
 		"referencedTags": [
 			"DIVINE_SHIELD"
 		],
@@ -1128342,14 +1130233,29 @@
 		"cost": 1,
 		"attack": 2,
 		"health": 2,
-		"text": "在你的回合結束時，&為雙方英雄恢復#3點生命值",
+		"text": "在你的回合結束時，為雙方英雄恢復#3點生命值",
 		"flavor": "她教會了小動物們兩件事：回城術與回春術。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
 			"RESTORE_HEALTH"
 		],
 		"artist": "Caroline Gariba & Rafael Zanchetin",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "為雙方英雄恢復#3點生命值",
+				"mechanics": [
+					"RESTORE_HEALTH"
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1128515,12 +1130421,26 @@
 		"faction": "HORDE",
 		"attack": 5,
 		"health": 4,
-		"text": "<b>戰吼：</b>&複製你手中\n消耗最低的野獸",
+		"text": "<b>戰吼：</b>複製你手中\n消耗最低的野獸",
 		"flavor": "狗狗是龍類最好的朋友。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Ramzy Kamen",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "複製你手中\n消耗最低的野獸",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1128615,12 +1130535,26 @@
 		"cost": 2,
 		"attack": 3,
 		"health": 2,
-		"text": "<b>戰吼：</b>若你手中有消耗(5)以上的法術，&獲得<b>聖盾術</b>和<b>生命竊取</b>",
+		"text": "<b>戰吼：</b>若你手中有消耗(5)以上的法術，獲得<b>聖盾術</b>和<b>生命竊取</b>",
 		"flavor": "你永遠不懂我傷悲，像世界樹不懂葉的灰。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Felideus Bubastis",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>若你手中有消耗(5)以上的法術，",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "獲得<b>聖盾術</b>和<b>生命竊取</b>",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"DIVINE_SHIELD",
 			"LIFESTEAL"
@@ -1143126,12 +1145060,26 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 2,
-		"text": "<b>死亡之聲：</b>&雙方獲得一顆空的法力水晶",
+		"text": "<b>死亡之聲：</b>雙方獲得一顆空的法力水晶",
 		"flavor": "「砍下我的樹幹，然後做成法力水晶，」樹說。「這樣你就可以起飛……你就會快樂。」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Mauricio Herrera",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "雙方獲得一顆空的法力水晶",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"isTreant": true,
 		"audio2": {
@@ -1143243,13 +1145191,27 @@
 		],
 		"attack": 1,
 		"health": 2,
-		"text": "在你的回合結束時，&賦予你的其他\n手下+1攻擊力",
+		"text": "在你的回合結束時，賦予你的其他\n手下+1攻擊力",
 		"flavor": "任何生物在世上都有存在的意義，除了這些蚊子。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "A. J. Nazzaro",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "賦予你的其他\n手下+1攻擊力",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1145856,13 +1147818,27 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "在你施放法術後，&對兩個隨機敵人造成1點傷害",
+		"text": "在你施放法術後，對兩個隨機敵人造成1點傷害",
 		"flavor": "死亡根本是最悠哉的狀態…你只要放鬆就好。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Ramzy Kamen",
+		"assembleHalves": {
+			"first": {
+				"text": "在你施放法術後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "對兩個隨機敵人造成1點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			78649,
 			117027
@@ -1145978,14 +1147954,30 @@
 		],
 		"attack": 3,
 		"health": 2,
-		"text": "<b>衝刺</b>\n<b>死亡之聲：</b>&對全部敵方手下\n造成1點傷害",
+		"text": "<b>衝刺</b>\n<b>死亡之聲：</b>對全部敵方手下\n造成1點傷害",
 		"flavor": "牠只有在「你」垂危的時候才會響。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"RUSH",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Melvin Chan",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>衝刺</b>\n<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"RUSH"
+				]
+			},
+			"second": {
+				"text": "對全部敵方手下\n造成1點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			63407,
 			75925,
@@ -1146072,13 +1148064,29 @@
 		],
 		"attack": 5,
 		"health": 6,
-		"text": "<b>嘲諷</b>、<b>死亡之聲：</b>&召喚兩個有<b>嘲諷</b>的2/4幼熊",
+		"text": "<b>嘲諷</b>、<b>死亡之聲：</b>召喚兩個有<b>嘲諷</b>的2/4幼熊",
 		"flavor": "如果他們要你的野餐籃，我建議你馬上給他們。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"TAUNT"
 		],
 		"artist": "Todd Harris",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>、<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "召喚兩個有<b>嘲諷</b>的2/4幼熊",
+				"mechanics": [
+					"TAUNT"
+				]
+			}
+		},
 		"counterpartCards": [
 			70245,
 			117038
@@ -1146180,15 +1148188,31 @@
 		"faction": "NEUTRAL",
 		"attack": 2,
 		"health": 4,
-		"text": "<b>嘲諷</b>\n<b>戰吼：</b>&對你的英雄造成2點傷害",
+		"text": "<b>嘲諷</b>\n<b>戰吼：</b>對你的英雄造成2點傷害",
 		"flavor": "還好他的手指頭是偶數根，不會有一根手指頭在中間。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
 			"TAUNT",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Steve Prescott",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "對你的英雄造成2點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			43121,
 			117060
@@ -1146259,12 +1148283,26 @@
 		],
 		"attack": 2,
 		"health": 1,
-		"text": "<b>死亡之聲：</b>&將此手下的攻擊力賦予一個隨機友方手下",
+		"text": "<b>死亡之聲：</b>將此手下的攻擊力賦予一個隨機友方手下",
 		"flavor": "誰說惡魔不懂得犧牲奉獻？",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Mike Sass",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "將此手下的攻擊力賦予一個隨機友方手下",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			56112,
 			117061
@@ -1147024,14 +1149062,30 @@
 		],
 		"attack": 9,
 		"health": 9,
-		"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>&對全部敵方手下造成9點傷害",
+		"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>對全部敵方手下造成9點傷害",
 		"flavor": "火元素當道啦！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"TAUNT",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Dmitry Bolotov",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "對全部敵方手下造成9點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1147233,13 +1149287,27 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 4,
-		"text": "<b>戰吼：</b>&放2張隨機法師法術到你的手中",
+		"text": "<b>戰吼：</b>放2張隨機法師法術到你的手中",
 		"flavor": "嘮叨的書架迅速成為我最喜歡的卡牌之一。它充滿正能量又非常慷慨，甚至只需花費三點法力就能召喚到場上，而且這位悠閒的小夥伴會給你兩張法術卡，供你在賽局中使用。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"GENERATES_SPELL"
 		],
 		"artist": "Tanamaes Leejierasaes",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "放2張隨機法師法術到你的手中",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1147349,15 +1149417,29 @@
 		"cost": 3,
 		"attack": 3,
 		"health": 4,
-		"text": "<b>死亡之聲：</b>&獲得一個隨機神聖和暗影法術",
+		"text": "<b>死亡之聲：</b>獲得一個隨機神聖和暗影法術",
 		"flavor": "墓曉林地裡全是些拿不定主意的牧師。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"GENERATES_SPELL",
 			"GENERATES_HOLY_SPELL",
 			"GENERATES_SHADOW_SPELL"
 		],
 		"artist": "Sergey Tsvelykh",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "獲得一個隨機神聖和暗影法術",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1148848,13 +1150930,28 @@
 		],
 		"attack": 1,
 		"health": 3,
-		"text": "<b>戰吼：</b>&獲得一張消耗為1且會造成$3點傷害的岩石",
+		"text": "<b>戰吼：</b>獲得一張消耗為1且會造成$3點傷害的岩石",
 		"flavor": "魚人過河。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Ivan Fomin",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "獲得一張消耗為1且會造成$3點傷害的岩石",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"relatedCardDbfIds": [
 			98738
 		],
@@ -1148971,12 +1151068,25 @@
 		],
 		"attack": 4,
 		"health": 3,
-		"text": "<b>同類：</b>&召喚兩個有\n<b>衝刺</b>的1/1魚人",
+		"text": "<b>同類：</b>召喚兩個有\n<b>衝刺</b>的1/1魚人",
 		"flavor": "撥 M 找魚人。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"KINDRED"
 		],
 		"artist": "Matt Dixon",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>同類：</b>",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "召喚兩個有\n<b>衝刺</b>的1/1魚人",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"RUSH"
 		],
@@ -1150902,13 +1153012,27 @@
 		],
 		"attack": 4,
 		"health": 5,
-		"text": "在你召喚元素後，&對一個隨機敵人造成3點傷害",
+		"text": "在你召喚元素後，對一個隨機敵人造成3點傷害",
 		"flavor": "這個故事一定會讓你愛到「風」掉。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Drew Hill",
+		"assembleHalves": {
+			"first": {
+				"text": "在你召喚元素後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "對一個隨機敵人造成3點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1151101,13 +1153225,27 @@
 		],
 		"attack": 2,
 		"health": 2,
-		"text": "<b>死亡之聲：</b>抽一張法術。<b>同類：</b>&召喚一個此手下的分身",
+		"text": "<b>死亡之聲：</b>抽一張法術。<b>同類：</b>召喚一個此手下的分身",
 		"flavor": "專門負責收拾圖書館狂怒者的殘局。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"KINDRED"
 		],
 		"artist": "Drew Hill",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>抽一張法術。<b>同類：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "召喚一個此手下的分身",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1151948,13 +1154086,26 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "在你的回合結束時，&使你手中一個隨機野獸的消耗減少(1)",
+		"text": "在你的回合結束時，使你手中一個隨機野獸的消耗減少(1)",
 		"flavor": "「吃完這些青菜才能離開這根樹幹喔。」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "Matt Dixon",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "使你手中一個隨機野獸的消耗減少(1)",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1152639,12 +1154790,26 @@
 		],
 		"attack": 1,
 		"health": 2,
-		"text": "<b>死亡之聲：</b>&召喚一個2/1灼熱火靈",
+		"text": "<b>死亡之聲：</b>召喚一個2/1灼熱火靈",
 		"flavor": "「不要玩火。」「可是它們是我的朋友！」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Melvin Chan",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "召喚一個2/1灼熱火靈",
+				"mechanics": [
+				]
+			}
+		},
 		"relatedCardDbfIds": [
 			118222
 		],
@@ -1152931,12 +1155096,25 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Rare",
 		"cost": 2,
-		"text": "在你下回合開始時，&召喚三個2/1幼龍",
+		"text": "在你下回合開始時，召喚三個2/1幼龍",
 		"flavor": "驚聲尖嘯！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"OBJECTIVE"
 		],
 		"artist": "Guillaume Beauchêne",
+		"assembleHalves": {
+			"first": {
+				"text": "在你下回合開始時，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "召喚三個2/1幼龍",
+				"mechanics": [
+				]
+			}
+		},
 		"relatedCardDbfIds": [
 			118658
 		]
@@ -1152970,12 +1155148,26 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 3,
-		"text": "<b>戰吼：</b>&賦予你其他攻擊力為2以下的手下+1/+1和<b>嘲諷</b>",
+		"text": "<b>戰吼：</b>賦予你其他攻擊力為2以下的手下+1/+1和<b>嘲諷</b>",
 		"flavor": "是啊，在蛋殼上畫畫真的很有幫助。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Eva Widermann",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "賦予你其他攻擊力為2以下的手下+1/+1和<b>嘲諷</b>",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"TAUNT"
 		],
@@ -1153136,12 +1155328,26 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 2,
-		"text": "<b>死亡之聲：</b>&召喚\n四個2/1幼龍",
+		"text": "<b>死亡之聲：</b>召喚\n四個2/1幼龍",
 		"flavor": "啊啊啊啊…姆蛋！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Ivo Campelo da Silva",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "召喚\n四個2/1幼龍",
+				"mechanics": [
+				]
+			}
+		},
 		"relatedCardDbfIds": [
 			118658
 		],
@@ -1153281,13 +1155487,28 @@
 		"cost": 3,
 		"attack": 1,
 		"health": 1,
-		"text": "<b>重生</b>。<b>死亡之聲：</b>&召喚一個有<b>嘲諷</b>的2/2不死族野獸",
+		"text": "<b>重生</b>。<b>死亡之聲：</b>召喚一個有<b>嘲諷</b>的2/2不死族野獸",
 		"flavor": "「我不是不想養寵物…但再怎麼樣也不是這種的吧！」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"REBORN"
 		],
 		"artist": "Timur Shevtsov",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>重生</b>。<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"REBORN"
+				]
+			},
+			"second": {
+				"text": "召喚一個有<b>嘲諷</b>的2/2不死族野獸",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"TAUNT"
 		],
@@ -1153815,14 +1156036,28 @@
 		],
 		"attack": 5,
 		"health": 2,
-		"text": "<b>衝刺</b>\n<b>同類</b>：&本回合賦予你的英雄+5攻擊力",
+		"text": "<b>衝刺</b>\n<b>同類</b>：本回合賦予你的英雄+5攻擊力",
 		"flavor": "異種女皇，螫命必達。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"KINDRED",
 			"RUSH",
 			"GIVES_HERO_ATTACK"
 		],
 		"artist": "Brian Despain",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>衝刺</b>\n<b>同類</b>：",
+				"mechanics": [
+					"RUSH"
+				]
+			},
+			"second": {
+				"text": "本回合賦予你的英雄+5攻擊力",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1155041,14 +1157276,29 @@
 		"cost": 3,
 		"attack": 3,
 		"health": 3,
-		"text": "<b>戰吼：</b>對一個敵方手下造成2點傷害。若其死亡，&獲得5點護甲值",
+		"text": "<b>戰吼：</b>對一個敵方手下造成2點傷害。若其死亡，獲得5點護甲值",
 		"flavor": "現在只差塗上一層漂亮的藍色油漆了！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEAL_DAMAGE",
 			"GIVES_ARMOR"
 		],
 		"artist": "James Ryman",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>對一個敵方手下造成2點傷害。若其死亡，",
+				"mechanics": [
+					"BATTLECRY",
+					"DEAL_DAMAGE"
+				]
+			},
+			"second": {
+				"text": "獲得5點護甲值",
+				"mechanics": [
+				]
+			}
+		},
 		"otherTags": [
 			"TARGETS_MINION",
 			"TARGETS_ENEMY"
@@ -1155659,12 +1157909,25 @@
 		"cost": 3,
 		"attack": 2,
 		"durability": 2,
-		"text": "在你的英雄攻擊\n後，&召喚一個有\n<b>衝刺</b>的2/1蛆蟲",
+		"text": "在你的英雄攻擊\n後，召喚一個有\n<b>衝刺</b>的2/1蛆蟲",
 		"flavor": "把你那髒兮兮的爪子從我身上拿開！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Studio Hive",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的英雄攻擊\n後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "召喚一個有\n<b>衝刺</b>的2/1蛆蟲",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"RUSH"
 		],
@@ -1156271,13 +1158534,27 @@
 		],
 		"attack": 2,
 		"health": 7,
-		"text": "<b>衝刺</b>\n每當此手下受到傷害，&獲得一張消耗為1的格里什毒刺蜂",
+		"text": "<b>衝刺</b>\n每當此手下受到傷害，獲得一張消耗為1的格里什毒刺蜂",
 		"flavor": "蜂群有牠罩！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"RUSH",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Vlad Botos",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>衝刺</b>\n每當此手下受到傷害，",
+				"mechanics": [
+					"RUSH"
+				]
+			},
+			"second": {
+				"text": "獲得一張消耗為1的格里什毒刺蜂",
+				"mechanics": [
+				]
+			}
+		},
 		"relatedCardDbfIds": [
 			117870,
 			117689
@@ -1156750,12 +1159027,26 @@
 		"faction": "NEUTRAL",
 		"attack": 2,
 		"health": 3,
-		"text": "<b>戰吼：</b>&你的下一個<b>暫時</b>卡牌消耗減少(2)",
+		"text": "<b>戰吼：</b>你的下一個<b>暫時</b>卡牌消耗減少(2)",
 		"flavor": "有回音…本回合可重複施放…",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Mike Sass",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "你的下一個<b>暫時</b>卡牌消耗減少(2)",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"TEMPORARY"
 		],
@@ -1157328,13 +1159619,27 @@
 		"cost": 2,
 		"attack": 1,
 		"health": 4,
-		"text": "在你的回合結束時，&賦予另一個受傷的友方手下+2/+2",
+		"text": "在你的回合結束時，賦予另一個受傷的友方手下+2/+2",
 		"flavor": "*咚、咚、咚！*「唉唷，好痛！」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "Stefano Spagnuolo",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "賦予另一個受傷的友方手下+2/+2",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1161171,12 +1163476,26 @@
 		"cost": 2,
 		"attack": 1,
 		"health": 1,
-		"text": "<b>戰吼</b>：&召喚一個消耗為2的隨機手下",
+		"text": "<b>戰吼</b>：召喚一個消耗為2的隨機手下",
 		"flavor": "「往左邊看的話，你會看到更大的戴納瑟斯王雕像！」",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Ishmael Hoover",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼</b>：",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "召喚一個消耗為2的隨機手下",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			77491,
 			118076
@@ -1166113,13 +1168432,28 @@
 		"cost": 1,
 		"attack": 1,
 		"health": 1,
-		"text": "<b>戰吼：</b>&<b>發現</b>一張消耗等同當前剩餘法力水晶的卡牌",
+		"text": "<b>戰吼：</b><b>發現</b>一張消耗等同當前剩餘法力水晶的卡牌",
 		"flavor": "「等我一下，我要把這隻巨巨巨超龍放進我的小小背包裡。」",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER"
 		],
 		"artist": "Topdog Entertainment",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一張消耗等同當前剩餘法力水晶的卡牌",
+				"mechanics": [
+					"DISCOVER"
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1166500,13 +1168834,28 @@
 		],
 		"attack": 2,
 		"health": 1,
-		"text": "<b>死亡之聲：</b>&\n造成2點傷害，\n隨機分給全部敵人",
+		"text": "<b>死亡之聲：</b>\n造成2點傷害，\n隨機分給全部敵人",
 		"flavor": "喂，我這邊燒得正旺呢！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Vika Yarova",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "造成2點傷害，\n隨機分給全部敵人",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1167384,13 +1169733,27 @@
 		"cost": 2,
 		"attack": 1,
 		"health": 2,
-		"text": "在你的回合結束時，&賦予每個不同類型的友方手下+1/+1",
+		"text": "在你的回合結束時，賦予每個不同類型的友方手下+1/+1",
 		"flavor": "「然後，有隻烏龜回到水裡了！」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "Max Grecke",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "賦予每個不同類型的友方手下+1/+1",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1167497,12 +1169860,25 @@
 		"faction": "NEUTRAL",
 		"attack": 3,
 		"health": 3,
-		"text": "在你施放法術\n後，&獲得<b>聖盾術</b>",
+		"text": "在你施放法術\n後，獲得<b>聖盾術</b>",
 		"flavor": "「記住，被拍的時候只能留下殘影跟模糊的輪廓。」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
+		"assembleHalves": {
+			"first": {
+				"text": "在你施放法術\n後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "獲得<b>聖盾術</b>",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"DIVINE_SHIELD"
 		],
@@ -1167995,12 +1170371,26 @@
 		],
 		"attack": 4,
 		"health": 3,
-		"text": "[x]<b>死亡之聲：</b>&獲得\n兩個消耗為2的隨機\n<b>暫時</b>手下",
+		"text": "[x]<b>死亡之聲：</b>獲得\n兩個消耗為2的隨機\n<b>暫時</b>手下",
 		"flavor": "記得留一小撮畫龍點睛的鬍鬚搭配整體造型。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Ian Ameling",
+		"assembleHalves": {
+			"first": {
+				"text": "[x]<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "獲得\n兩個消耗為2的隨機\n<b>暫時</b>手下",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"TEMPORARY"
 		],
@@ -1168758,12 +1171148,25 @@
 		],
 		"attack": 3,
 		"health": 2,
-		"text": "<b>同類：</b>&賦予你其他手下<b>衝刺</b>",
+		"text": "<b>同類：</b>賦予你其他手下<b>衝刺</b>",
 		"flavor": "在空氣中、水中，甚至是熊熊烈火中都能呼吸。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"KINDRED"
 		],
 		"artist": "Felideus Bubastis",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>同類：</b>",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "賦予你其他手下<b>衝刺</b>",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"RUSH"
 		],
@@ -1169152,12 +1171555,26 @@
 		"cost": 2,
 		"attack": 0,
 		"health": 2,
-		"text": "<b>死亡之聲：</b>&召喚一個3/3野獸。賦予你的手下+1/+1",
+		"text": "<b>死亡之聲：</b>召喚一個3/3野獸。賦予你的手下+1/+1",
 		"flavor": "很遺憾，長頸龍寶寶並不叫短頸龍。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Todd Harris",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "召喚一個3/3野獸。賦予你的手下+1/+1",
+				"mechanics": [
+				]
+			}
+		},
 		"relatedCardDbfIds": [
 			118489
 		],
@@ -1169423,15 +1171840,30 @@
 		],
 		"attack": 6,
 		"health": 12,
-		"text": "<b>嘲諷</b>\n在你的回合結束時，&對一個隨機敵方手下造成5點傷害",
+		"text": "<b>嘲諷</b>\n在你的回合結束時，對一個隨機敵方手下造成5點傷害",
 		"flavor": "托爾托醫生的警告：死也不要靠近窒息劍龍。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Mike Sass",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n在你的回合結束時，",
+				"mechanics": [
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "對一個隨機敵方手下造成5點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1169707,13 +1172139,27 @@
 		"faction": "NEUTRAL",
 		"attack": 6,
 		"health": 5,
-		"text": "<b>同類：</b>&對你的對手最左邊和最右邊的手下造成6點傷害",
+		"text": "<b>同類：</b>對你的對手最左邊和最右邊的手下造成6點傷害",
 		"flavor": "牠有一顆超級無敵大的頭，以及…小小的手臂。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"KINDRED",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Max Grecke",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>同類：</b>",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "對你的對手最左邊和最右邊的手下造成6點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1169967,14 +1172413,28 @@
 		],
 		"attack": 5,
 		"health": 4,
-		"text": "<b>衝刺</b>\n在友方手下死亡後，&消耗3具<b>屍體</b>以獲得<b>重生</b>",
+		"text": "<b>衝刺</b>\n在友方手下死亡後，消耗3具<b>屍體</b>以獲得<b>重生</b>",
 		"flavor": "我還活著！我死掉了！我在看電視。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"RUSH",
 			"TRIGGER_VISUAL",
 			"SPEND_CORPSE"
 		],
 		"artist": "Edgar Hidalgo",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>衝刺</b>\n在友方手下死亡後，",
+				"mechanics": [
+					"RUSH"
+				]
+			},
+			"second": {
+				"text": "消耗3具<b>屍體</b>以獲得<b>重生</b>",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"CORPSE",
 			"REBORN"
@@ -1170136,12 +1172596,26 @@
 		"cost": 9,
 		"attack": 5,
 		"health": 5,
-		"text": "<b>戰吼：</b>&本賽局\n你的手下消耗為(5)",
+		"text": "<b>戰吼：</b>本賽局\n你的手下消耗為(5)",
 		"flavor": "對一個4217歲的人來說，身手還滿矯健的。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Max Grecke",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "本賽局\n你的手下消耗為(5)",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsDiamond": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1170261,14 +1172735,30 @@
 		],
 		"attack": 8,
 		"health": 8,
-		"text": "<b>嘲諷</b>、<b>飄渺</b>\n<b>死亡之聲：</b>&賦予你手中和牌堆中全部手下+3/+3",
+		"text": "<b>嘲諷</b>、<b>飄渺</b>\n<b>死亡之聲：</b>賦予你手中和牌堆中全部手下+3/+3",
 		"flavor": "讓你的內心引導你。當它低語時，務必仔細聆聽。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"ELUSIVE",
 			"TAUNT"
 		],
 		"artist": "Todd Harris",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>、<b>飄渺</b>\n<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"ELUSIVE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "賦予你手中和牌堆中全部手下+3/+3",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1170680,13 +1173170,29 @@
 		],
 		"attack": 5,
 		"health": 10,
-		"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>&召喚一個消耗為(5)以上的隨機<b>嘲諷</b>手下",
+		"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>召喚一個消耗為(5)以上的隨機<b>嘲諷</b>手下",
 		"flavor": "他的肩上背負著整個世界。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"TAUNT"
 		],
 		"artist": "Kevin Sidharta",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "召喚一個消耗為(5)以上的隨機<b>嘲諷</b>手下",
+				"mechanics": [
+					"TAUNT"
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1171303,13 +1173809,27 @@
 		],
 		"attack": 2,
 		"health": 4,
-		"text": "你獲得的<b>屍體</b>變為\n兩倍。<b>戰吼：</b>&抽一張消耗<b>屍體</b>的牌",
+		"text": "你獲得的<b>屍體</b>變為\n兩倍。<b>戰吼：</b>抽一張消耗<b>屍體</b>的牌",
 		"flavor": "老天，我愛死梨子了。",
 		"mechanics": [
 			"AURA",
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Dmitry Bolotov",
+		"assembleHalves": {
+			"first": {
+				"text": "你獲得的<b>屍體</b>變為\n兩倍。<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "抽一張消耗<b>屍體</b>的牌",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"CORPSE"
 		],
@@ -1171368,14 +1173888,29 @@
 		"cost": 1,
 		"attack": 1,
 		"health": 1,
-		"text": "<b>戰吼：</b>獲得一個\n消耗為的隨機手下\n<b><b>死亡之聲：</b></b>&獲得一個\n消耗為的隨機法術",
+		"text": "<b>戰吼：</b>獲得一個\n消耗為的隨機手下\n<b><b>死亡之聲：</b></b>獲得一個\n消耗為的隨機法術",
 		"flavor": "好極了，馬上給我來14個。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"GENERATES_SPELL"
 		],
 		"artist": "Miki Neves",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>獲得一個\n消耗為的隨機手下\n<b><b>死亡之聲：</b></b>",
+				"mechanics": [
+					"BATTLECRY",
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "獲得一個\n消耗為的隨機法術",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1186728,15 +1189263,32 @@
 		"cost": 6,
 		"attack": 6,
 		"health": 4,
-		"text": "<b><b>潛行</b></b>。<b>戰吼、連擊與死亡之聲：</b>&施放\n「飛舞刀刃」",
+		"text": "<b><b>潛行</b></b>。<b>戰吼、連擊與死亡之聲：</b>施放\n「飛舞刀刃」",
 		"flavor": "據說歐普的真面目長這樣，等我們哪天真的見到他就知道到底是不是這樣了。",
 		"mechanics": [
 			"BATTLECRY",
 			"COMBO",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"STEALTH"
 		],
 		"artist": "Timur Shevtsov",
+		"assembleHalves": {
+			"first": {
+				"text": "<b><b>潛行</b></b>。<b>戰吼、連擊與死亡之聲：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"COMBO",
+					"DEATHRATTLE",
+					"STEALTH"
+				]
+			},
+			"second": {
+				"text": "施放\n「飛舞刀刃」",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"referencedTags": [
 			"COMBO"
@@ -1187447,13 +1189999,27 @@
 		"cost": 3,
 		"attack": 2,
 		"durability": 2,
-		"text": "在你的英雄攻擊後，&對全部手下造成1點傷害",
+		"text": "在你的英雄攻擊後，對全部手下造成1點傷害",
 		"flavor": "…以及先祖的先祖的先祖用過的斧頭。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
-		"artist": "Vlad Botos"
+		"artist": "Vlad Botos",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的英雄攻擊後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "對全部手下造成1點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 119639,
@@ -1187910,9 +1190476,10 @@
 		"cost": 4,
 		"attack": 2,
 		"health": 6,
-		"text": "<b>飄渺</b>\n在你施放法術後，&<b>發現</b>一個來自過去的自然法術",
+		"text": "<b>飄渺</b>\n在你施放法術後，<b>發現</b>一個來自過去的自然法術",
 		"flavor": "整整兩個星期，她在寂靜之中冥想，不受阻礙地瞥見無垠的宇宙、觀測所有的面向。她看透了萬物的前途、一切的線索。而當她終於清醒過來時，她只說了一句話：「沃的老天啊。」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER",
 			"ELUSIVE",
 			"TRIGGER_VISUAL",
@@ -1187920,6 +1190487,20 @@
 			"GENERATES_NATURE_SPELL"
 		],
 		"artist": "Max Grecke",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>飄渺</b>\n在你施放法術後，",
+				"mechanics": [
+					"ELUSIVE"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一個來自過去的自然法術",
+				"mechanics": [
+					"DISCOVER"
+				]
+			}
+		},
 		"availableAsDiamond": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1188096,12 +1190677,26 @@
 		],
 		"attack": 1,
 		"health": 1,
-		"text": "<b>死亡之聲：</b>&摧毀一個隨機敵方手下",
+		"text": "<b>死亡之聲：</b>摧毀一個隨機敵方手下",
 		"flavor": "相信我，計時器永遠都會在0秒停下。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Melvin Chan",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "摧毀一個隨機敵方手下",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1188161,14 +1190756,30 @@
 		],
 		"attack": 3,
 		"health": 4,
-		"text": "<b>衝刺</b>、<b>飄渺</b>\n<b>戰吼：</b>&召喚一個此手下的分身",
+		"text": "<b>衝刺</b>、<b>飄渺</b>\n<b>戰吼：</b>召喚一個此手下的分身",
 		"flavor": "小心！6點鐘方向！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"ELUSIVE",
 			"RUSH"
 		],
 		"artist": "Dmitry Bolotov",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>衝刺</b>、<b>飄渺</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"ELUSIVE",
+					"RUSH"
+				]
+			},
+			"second": {
+				"text": "召喚一個此手下的分身",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1189714,14 +1192325,29 @@
 		],
 		"attack": 2,
 		"health": 4,
-		"text": "<b>潛行</b>\n在此手下攻擊\n後，&對敵方英雄造成\n2點傷害",
+		"text": "<b>潛行</b>\n在此手下攻擊\n後，對敵方英雄造成\n2點傷害",
 		"flavor": "「這張卡牌真的超無聊。」「不會啊，我倒是覺得越挖越有料。」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"STEALTH",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Juan Calle",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>潛行</b>\n在此手下攻擊\n後，",
+				"mechanics": [
+					"STEALTH"
+				]
+			},
+			"second": {
+				"text": "對敵方英雄造成\n2點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1190430,13 +1193056,28 @@
 		],
 		"attack": 2,
 		"health": 6,
-		"text": "<b>嘲諷</b>\n<b>戰吼：</b>&場上每個受傷的手下使其獲得+2/+2",
+		"text": "<b>嘲諷</b>\n<b>戰吼：</b>場上每個受傷的手下使其獲得+2/+2",
 		"flavor": "專門幫親戚處理後事。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Danny Beck",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "場上每個受傷的手下使其獲得+2/+2",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1190553,13 +1193194,28 @@
 		"cost": 8,
 		"attack": 13,
 		"health": 13,
-		"text": "<b>衝刺</b>\n<b>戰吼：</b>&召喚消耗為1的隨機手下直到對手場上的位置全滿",
+		"text": "<b>衝刺</b>\n<b>戰吼：</b>召喚消耗為1的隨機手下直到對手場上的位置全滿",
 		"flavor": "就像熟番茄一樣，這頭銜只不過是暫時性的。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"RUSH"
 		],
 		"artist": "Mike Sass",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>衝刺</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"RUSH"
+				]
+			},
+			"second": {
+				"text": "召喚消耗為1的隨機手下直到對手場上的位置全滿",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1190669,13 +1193325,28 @@
 		"faction": "NEUTRAL",
 		"attack": 2,
 		"health": 8,
-		"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>&召喚\n一個隨機魔化野獸",
+		"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>召喚\n一個隨機魔化野獸",
 		"flavor": "噢，別擔心，死喉不會咬人啦。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"TAUNT"
 		],
 		"artist": "Vlad Botos",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "召喚\n一個隨機魔化野獸",
+				"mechanics": [
+				]
+			}
+		},
 		"relatedCardDbfIds": [
 			118228,
 			120037,
@@ -1190815,13 +1193486,27 @@
 		],
 		"attack": 8,
 		"health": 7,
-		"text": "在你的回合結束時，&將全部敵方手下的攻擊力和生命值改為1點",
+		"text": "在你的回合結束時，將全部敵方手下的攻擊力和生命值改為1點",
 		"flavor": "每踩一步，就會有子民死在他的腳底下。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "James Ryman",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "將全部敵方手下的攻擊力和生命值改為1點",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1193546,13 +1196231,28 @@
 		],
 		"attack": 3,
 		"health": 3,
-		"text": "<b>戰吼：</b>若你場上有光環，&對全部敵人造成3點傷害",
+		"text": "<b>戰吼：</b>若你場上有光環，對全部敵人造成3點傷害",
 		"flavor": "等等，我正在醞釀光環。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Daniil Kudriavtsev",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>若你場上有光環，",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "對全部敵人造成3點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1196181,12 +1198881,26 @@
 		"cost": 5,
 		"attack": 5,
 		"health": 4,
-		"text": "<b>流放：</b>&你的英雄\n<b>免疫</b>，直到你的下一回合",
+		"text": "<b>流放：</b>你的英雄\n<b>免疫</b>，直到你的下一回合",
 		"flavor": "我可是空出了儲藏室的空間來放這些保質物品。你有犧牲什麼嗎？",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"OUTCAST"
 		],
 		"artist": "Danny Beck",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>流放：</b>",
+				"mechanics": [
+					"OUTCAST"
+				]
+			},
+			"second": {
+				"text": "你的英雄\n<b>免疫</b>，直到你的下一回合",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"IMMUNE"
 		],
@@ -1196234,13 +1198948,28 @@
 		],
 		"attack": 4,
 		"health": 6,
-		"text": "<b>嘲諷</b>\n<b>戰吼：</b>&抽出一張野獸、龍類和魚人牌",
+		"text": "<b>嘲諷</b>\n<b>戰吼：</b>抽出一張野獸、龍類和魚人牌",
 		"flavor": "館長看守著艾澤拉斯最致命的野獸，但其實它私底下最怕的動物是松鼠。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Wei Wang",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "抽出一張野獸、龍類和魚人牌",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"counterpartCards": [
 			39225,
@@ -1201600,13 +1204329,26 @@
 		"faction": "NEUTRAL",
 		"attack": 5,
 		"health": 7,
-		"text": "每當你施放法術，&就放一張<i>火球術</i>到你的手中",
+		"text": "每當你施放法術，就放一張<i>火球術</i>到你的手中",
 		"flavor": "安東尼達斯生前是祈倫托的大魔導師，也是珍娜的導師。這比果凍甜甜圈的大魔導師高尚多了。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"GENERATES_SPELL"
 		],
 		"artist": "Wayne Reynolds",
+		"assembleHalves": {
+			"first": {
+				"text": "每當你施放法術，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "就放一張<i>火球術</i>到你的手中",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			1080,
 			69975,
@@ -1201798,13 +1204540,28 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "<b>戰吼及死亡之聲：</b>&雙方各抽一張牌",
+		"text": "<b>戰吼及死亡之聲：</b>雙方各抽一張牌",
 		"flavor": "這是在檢查有沒有偽造的獎品券，真的獎品券有股草莓味。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Hideaki Takamura",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼及死亡之聲：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "雙方各抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			61622,
 			120429
@@ -1201938,12 +1204695,26 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "<b>戰吼：</b>若你於此牌在手中時施放了自然法術，&獲得+1/+1並抽一張牌",
+		"text": "<b>戰吼：</b>若你於此牌在手中時施放了自然法術，獲得+1/+1並抽一張牌",
 		"flavor": "這個時間線的矮人們，在雕刻圖騰方面將創造力發揮得淋漓盡致。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Kati Sarin",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>若你於此牌在手中時施放了自然法術，",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "獲得+1/+1並抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1202148,13 +1204919,27 @@
 		],
 		"attack": 3,
 		"health": 1,
-		"text": "在你的回合結束時，&賦予你的其他\n手下+1生命值",
+		"text": "在你的回合結束時，賦予你的其他\n手下+1生命值",
 		"flavor": "*懷舊的魚人聲*",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "Tanamaes Leejierasaes",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "賦予你的其他\n手下+1生命值",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1202394,14 +1205179,28 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 4,
-		"text": "<b>潛行</b>\n每當此手下攻擊，&放一張其他職業牌到你的手中",
+		"text": "<b>潛行</b>\n每當此手下攻擊，放一張其他職業牌到你的手中",
 		"flavor": "就連阿雅本人也曾經出面關切他的行為，但夏庫堅持他只是「收藏」而不是囤積。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"STEALTH",
 			"TRIGGER_VISUAL",
 			"CREATES_FROM_ANOTHER_CLASS"
 		],
 		"artist": "James Ryman",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>潛行</b>\n每當此手下攻擊，",
+				"mechanics": [
+					"STEALTH"
+				]
+			},
+			"second": {
+				"text": "放一張其他職業牌到你的手中",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			40905,
 			120463
@@ -1202583,13 +1205382,28 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "<b>戰吼：</b>&<b>發現</b>一張\n消耗為1的牌",
+		"text": "<b>戰吼：</b><b>發現</b>一張\n消耗為1的牌",
 		"flavor": "真空靈魂吸取機限時大特價！只剩10組要買要快！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER"
 		],
 		"artist": "George Davis",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一張\n消耗為1的牌",
+				"mechanics": [
+					"DISCOVER"
+				]
+			}
+		},
 		"counterpartCards": [
 			2895,
 			102639,
@@ -1203148,12 +1205962,26 @@
 		},
 		"attack": 2,
 		"health": 1,
-		"text": "<b>死亡之聲：</b>&獲得一個隨機<b>傳說</b>手下，其消耗減少(1)",
+		"text": "<b>死亡之聲：</b>獲得一個隨機<b>傳說</b>手下，其消耗減少(1)",
 		"flavor": "如果你繼續做那個表情，凍住的時候也會是那個臉喔。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Kevin Sidharta",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "獲得一個隨機<b>傳說</b>手下，其消耗減少(1)",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1203768,13 +1206596,28 @@
 		],
 		"attack": 6,
 		"health": 6,
-		"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>&獲得一張隨機<b>倒轉</b>牌",
+		"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>獲得一張隨機<b>倒轉</b>牌",
 		"flavor": "博士，你這台時光機…是用冰箱做的？",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"TAUNT"
 		],
 		"artist": "Brian Despain",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "獲得一張隨機<b>倒轉</b>牌",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"REWIND"
 		],
@@ -1204281,12 +1207124,26 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 2,
-		"text": "<b>戰吼：</b>抽出一個手下，&並賦予你手中的手下+2生命值",
+		"text": "<b>戰吼：</b>抽出一個手下，並賦予你手中的手下+2生命值",
 		"flavor": "差點就被取名叫鴿子牧師。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Vika Yarova",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>抽出一個手下，",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "並賦予你手中的手下+2生命值",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1204532,12 +1207389,26 @@
 		"faction": "NEUTRAL",
 		"attack": 3,
 		"health": 2,
-		"text": "<b>連擊：</b>&召喚一個2/1迪菲亞強盜",
+		"text": "<b>連擊：</b>召喚一個2/1迪菲亞強盜",
 		"flavor": "他很多年前就偷走了小鎮的地契。所以按理來說，小鎮的確<b>是</b>屬於他。他看到每個人都叫對方「少年」，雖然他自己也沒多老。",
 		"mechanics": [
-			"COMBO"
+			"COMBO",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Dany Orizio",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>連擊：</b>",
+				"mechanics": [
+					"COMBO"
+				]
+			},
+			"second": {
+				"text": "召喚一個2/1迪菲亞強盜",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			201,
 			69857,
@@ -1204684,13 +1207555,26 @@
 		],
 		"attack": 4,
 		"health": 3,
-		"text": "在你的英雄攻擊後，&獲得4點護甲值並抽一張牌",
+		"text": "在你的英雄攻擊後，獲得4點護甲值並抽一張牌",
 		"flavor": "等等，好戲還在後頭！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"GIVES_ARMOR"
 		],
 		"artist": "Daniil Kudriavtsev",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的英雄攻擊後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "獲得4點護甲值並抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			86692,
 			120574
@@ -1204769,12 +1207653,26 @@
 		],
 		"attack": 5,
 		"health": 7,
-		"text": "<b>死亡之聲：</b>&召喚一個隨機的<b>傳說</b>手下",
+		"text": "<b>死亡之聲：</b>召喚一個隨機的<b>傳說</b>手下",
 		"flavor": "斯尼德在死亡礦坑被擊敗後，他的伐木機就被一個不知名的買家從拍賣場買走了。(大概是霍格。)",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Christopher Moeller",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "召喚一個隨機的<b>傳說</b>手下",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			2082,
 			120575
@@ -1206255,12 +1209153,26 @@
 		"faction": "NEUTRAL",
 		"attack": 1,
 		"durability": 6,
-		"text": "<b>死亡之聲：</b>&摧毀全部手下",
+		"text": "<b>死亡之聲：</b>摧毀全部手下",
 		"flavor": "終於打到我想要的首領戰利品了！可惜是在分身上…",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Drew Hill",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "摧毀全部手下",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true
 	},
 	{
@@ -1208129,12 +1211041,26 @@
 		],
 		"attack": 6,
 		"health": 3,
-		"text": "<b>死亡之聲：</b>&獲得一個來自過去且消耗為5的隨機手下",
+		"text": "<b>死亡之聲：</b>獲得一個來自過去且消耗為5的隨機手下",
 		"flavor": "我剛剛想出了最讚的說明文字！…是什麼來著？",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "A. J. Nazzaro",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "獲得一個來自過去且消耗為5的隨機手下",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"1H_SwordThick_Underlay_Attack": {
@@ -1208353,14 +1211279,30 @@
 		],
 		"attack": 6,
 		"health": 6,
-		"text": "<b>嘲諷</b>、<b>死亡之聲：</b>&為全部友方角色恢復#8點\n生命值",
+		"text": "<b>嘲諷</b>、<b>死亡之聲：</b>為全部友方角色恢復#8點\n生命值",
 		"flavor": "天氣預報建議您出門攜帶防曬用品。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"TAUNT",
 			"RESTORE_HEALTH"
 		],
 		"artist": "James Ryman",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>、<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "為全部友方角色恢復#8點\n生命值",
+				"mechanics": [
+					"RESTORE_HEALTH"
+				]
+			}
+		},
 		"counterpartCards": [
 			62874,
 			120787
@@ -1208409,12 +1211351,26 @@
 		],
 		"attack": 3,
 		"health": 1,
-		"text": "<b>戰吼：</b>&抽牌直到你有\n3張牌",
+		"text": "<b>戰吼：</b>抽牌直到你有\n3張牌",
 		"flavor": "牠不會告訴你射歪了幾發。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Vika Yarova",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "抽牌直到你有\n3張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1209274,13 +1212230,28 @@
 		],
 		"attack": 5,
 		"health": 3,
-		"text": "<b>嘲諷</b>\n<b>戰吼：</b>&此手下的\n生命值加倍",
+		"text": "<b>嘲諷</b>\n<b>戰吼：</b>此手下的\n生命值加倍",
 		"flavor": "這就是使用青銅化機整整一世紀的後果。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Zoltan Boros",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "此手下的\n生命值加倍",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1209947,14 +1212918,29 @@
 		],
 		"attack": 6,
 		"health": 7,
-		"text": "在你的回合結束時，&造成6點傷害，隨機分給全部敵人",
+		"text": "在你的回合結束時，造成6點傷害，隨機分給全部敵人",
 		"flavor": "因為她和盲視眼魔，讓諸多伊利達瑞不得不想辦法量產戰刃…",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Bayard Wu",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "造成6點傷害，隨機分給全部敵人",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			58455,
 			120878
@@ -1210030,12 +1213016,26 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "<b>死亡之聲：</b>&獲得一張對手職業的隨機卡牌",
+		"text": "<b>死亡之聲：</b>獲得一張對手職業的隨機卡牌",
 		"flavor": "嘿！想要來張對手的職業牌嗎？",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Jon Neimeister",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "獲得一張對手職業的隨機卡牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			39026,
 			103220,
@@ -1211228,12 +1214228,25 @@
 		"cost": 2,
 		"attack": 1,
 		"health": 1,
-		"text": "在你的回合開始時，&變形為一個消耗為5的隨機手下",
+		"text": "在你的回合開始時，變形為一個消耗為5的隨機手下",
 		"flavor": "我比較喜歡被稱呼為<i>優秀</i>變數。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Matt Dixon",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合開始時，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "變形為一個消耗為5的隨機手下",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1211332,7 +1214345,7 @@
 		],
 		"attack": 4,
 		"health": 9,
-		"text": "<b>衝刺</b>\n在此手下受傷存活後，&對調其體質",
+		"text": "<b>衝刺</b>\n在此手下受傷存活後，對調其體質",
 		"flavor": "大家都找它問時間，但你們有考慮過它的感受嗎？",
 		"mechanics": [
 			"RUSH",
@@ -1211396,13 +1214409,28 @@
 		],
 		"attack": 3,
 		"health": 5,
-		"text": "<b>衝刺</b>\n<b>戰吼：</b>&此手下的\n攻擊力加倍",
+		"text": "<b>衝刺</b>\n<b>戰吼：</b>此手下的\n攻擊力加倍",
 		"flavor": "這就是使用無限化機整整一世紀的後果。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"RUSH"
 		],
 		"artist": "Zoltan Boros",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>衝刺</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"RUSH"
+				]
+			},
+			"second": {
+				"text": "此手下的\n攻擊力加倍",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1211476,13 +1214504,28 @@
 		],
 		"attack": 4,
 		"health": 12,
-		"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>&召喚一個來自過去的隨機手下",
+		"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>召喚一個來自過去的隨機手下",
 		"flavor": "對琥珀看守者來說，這是他生命中最重要的瞬間。對我來說，這是第八回合。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"TAUNT"
 		],
 		"artist": "Sergey Tsvelykh",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "召喚一個來自過去的隨機手下",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1211917,13 +1214960,29 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 1,
-		"text": "<b>飄渺</b>\n<b>戰吼：</b>&召喚兩個有<b>飄渺</b>的2/1活體悖論",
+		"text": "<b>飄渺</b>\n<b>戰吼：</b>召喚兩個有<b>飄渺</b>的2/1活體悖論",
 		"flavor": "我們只需要找出正確的複製體就行了。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"ELUSIVE"
 		],
 		"artist": "Max Grecke",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>飄渺</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"ELUSIVE"
+				]
+			},
+			"second": {
+				"text": "召喚兩個有<b>飄渺</b>的2/1活體悖論",
+				"mechanics": [
+					"ELUSIVE"
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1212267,12 +1215326,26 @@
 		"cost": 4,
 		"attack": 3,
 		"health": 6,
-		"text": "<b>戰吼：</b>若你手中\n有龍類，&獲得<b>嘲諷</b>和<b>聖盾術</b>",
+		"text": "<b>戰吼：</b>若你手中\n有龍類，獲得<b>嘲諷</b>和<b>聖盾術</b>",
 		"flavor": "不需要修改舊設定！",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Vika Yarova",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>若你手中\n有龍類，",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "獲得<b>嘲諷</b>和<b>聖盾術</b>",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"DIVINE_SHIELD",
 			"TAUNT"
@@ -1212716,12 +1215789,26 @@
 		"cost": 1,
 		"attack": 2,
 		"durability": 2,
-		"text": "<b>死亡之聲：</b>&獲得一個來自過去的隨機惡魔",
+		"text": "<b>死亡之聲：</b>獲得一個來自過去的隨機惡魔",
 		"flavor": "啊，原來我忘在這個時代了！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
-		"artist": "Daniil Kudriavtsev"
+		"artist": "Daniil Kudriavtsev",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "獲得一個來自過去的隨機惡魔",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 120996,
@@ -1213727,14 +1216814,29 @@
 		"faction": "HORDE",
 		"attack": 2,
 		"health": 4,
-		"text": "<b>聖盾術</b>\n在你的回合結束時，&賦予你手中全部手下+1/+1",
+		"text": "<b>聖盾術</b>\n在你的回合結束時，賦予你手中全部手下+1/+1",
 		"flavor": "他很努力維持沙漏體型。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "Matt Dixon",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>聖盾術</b>\n在你的回合結束時，",
+				"mechanics": [
+					"DIVINE_SHIELD",
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "賦予你手中全部手下+1/+1",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1213968,12 +1217070,26 @@
 		],
 		"attack": 5,
 		"health": 4,
-		"text": "本回合死亡的每個手下使消耗減少(1)。\n<b>戰吼：</b>&抽2張牌",
+		"text": "本回合死亡的每個手下使消耗減少(1)。\n<b>戰吼：</b>抽2張牌",
 		"flavor": "臨終前最好還是別生氣了。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Luca Zontini",
+		"assembleHalves": {
+			"first": {
+				"text": "本回合死亡的每個手下使消耗減少(1)。\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "抽2張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1214260,12 +1217376,25 @@
 		],
 		"attack": 3,
 		"health": 4,
-		"text": "在你使用英雄能力後，&回復2顆法力水晶",
+		"text": "在你使用英雄能力後，回復2顆法力水晶",
 		"flavor": "抱歉，這些蟲子在每個可能的時間線都無所不在。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Melvin Chan",
+		"assembleHalves": {
+			"first": {
+				"text": "在你使用英雄能力後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "回復2顆法力水晶",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack_PlatedBeetle_LOOT_413_Attack": {
@@ -1215113,13 +1218242,28 @@
 		],
 		"attack": 3,
 		"health": 3,
-		"text": "<b>戰吼：</b>&<b>發現</b>一個消耗為1，且有<b>黑暗贈禮</b>的手下",
+		"text": "<b>戰吼：</b><b>發現</b>一個消耗為1，且有<b>黑暗贈禮</b>的手下",
 		"flavor": "連你也要偷咬我一口嗎？",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER"
 		],
 		"artist": "Trent Kaniuga",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一個消耗為1，且有<b>黑暗贈禮</b>的手下",
+				"mechanics": [
+					"DISCOVER"
+				]
+			}
+		},
 		"referencedTags": [
 			"DARK_GIFT"
 		],
@@ -1215220,13 +1218364,28 @@
 		],
 		"attack": 5,
 		"health": 5,
-		"text": "<b>同類和死亡之聲：</b>&獲得一個隨機<b>死亡之聲</b>手下，其消耗減少(2)",
+		"text": "<b>同類和死亡之聲：</b>獲得一個隨機<b>死亡之聲</b>手下，其消耗減少(2)",
 		"flavor": "隨著時間之道瓦解，來自各個時代的頂尖掠食者匯聚到終焉之刻，貪婪地尋找牠們的最後一餐。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"KINDRED"
 		],
 		"artist": "Uriah Voth",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>同類和死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "獲得一個隨機<b>死亡之聲</b>手下，其消耗減少(2)",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1215480,13 +1218639,28 @@
 		"cost": 5,
 		"attack": 5,
 		"health": 6,
-		"text": "<b>嘲諷</b>\n<b>戰吼：</b>若你的英雄本回合受到傷害，&獲得+3/+3",
+		"text": "<b>嘲諷</b>\n<b>戰吼：</b>若你的英雄本回合受到傷害，獲得+3/+3",
 		"flavor": "「為了帕文珂！」",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Patrik Bjorkstrom",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>戰吼：</b>若你的英雄本回合受到傷害，",
+				"mechanics": [
+					"BATTLECRY",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "獲得+3/+3",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1215612,12 +1218786,26 @@
 		],
 		"attack": 2,
 		"health": 5,
-		"text": "<b>戰吼：</b>&賦予你手中全部手下和武器\n+2攻擊力",
+		"text": "<b>戰吼：</b>賦予你手中全部手下和武器\n+2攻擊力",
 		"flavor": "*大力猛刺*「我覺得挺安全的。」",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Mike Sass",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "賦予你手中全部手下和武器\n+2攻擊力",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1215877,12 +1219065,25 @@
 		],
 		"attack": 3,
 		"health": 6,
-		"text": "在你對手下施放法術後，&抽一張牌",
+		"text": "在你對手下施放法術後，抽一張牌",
 		"flavor": "它的腦袋裡真的只有一片空無。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Gabriel Lopes",
+		"assembleHalves": {
+			"first": {
+				"text": "在你對手下施放法術後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1216510,14 +1219711,29 @@
 		],
 		"attack": 10,
 		"health": 10,
-		"text": "在你的回合結束時，&對一個隨機敵方手下造成10點傷害",
+		"text": "在你的回合結束時，對一個隨機敵方手下造成10點傷害",
 		"flavor": "「我們艾澤拉斯競速聯盟只能打檔，不能打人！」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Andrew Hou",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "對一個隨機敵方手下造成10點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			61972,
 			121240
@@ -1241962,12 +1245178,26 @@
 		"cost": 4,
 		"attack": 4,
 		"health": 4,
-		"text": "<b>戰吼：</b>&賦予你手中與牌堆中的全部法術<b>法術傷害+1</b>",
+		"text": "<b>戰吼：</b>賦予你手中與牌堆中的全部法術<b>法術傷害+1</b>",
 		"flavor": "卡雷喵斯，卡雷苟斯。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Sergey Tsvelykh",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "賦予你手中與牌堆中的全部法術<b>法術傷害+1</b>",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsDiamond": true,
 		"referencedTags": [
 			"SPELLPOWER"
@@ -1242202,12 +1245432,26 @@
 		],
 		"attack": 8,
 		"health": 6,
-		"text": "<b>戰吼：</b>&召喚兩個消耗為4的隨機手下",
+		"text": "<b>戰吼：</b>召喚兩個消耗為4的隨機手下",
 		"flavor": "一顆頭只會說真話，另一顆頭只會唬爛。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Trent Kaniuga",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "召喚兩個消耗為4的隨機手下",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1243973,14 +1247217,28 @@
 		"cost": 7,
 		"attack": 5,
 		"health": 9,
-		"text": "<b>巨型+3</b>\n在你恢復一個角色的生命值後，&攻擊一個隨機敵方手下",
+		"text": "<b>巨型+3</b>\n在你恢復一個角色的生命值後，攻擊一個隨機敵方手下",
 		"flavor": "賽絲特拉手段狡詐、滿心仇恨，她從大地深處召喚出黑血強化她的手下，導致他們發生變異。",
 		"mechanics": [
 			"COLOSSAL",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"RESTORE_HEALTH"
 		],
 		"artist": "Vladimir Kafanov",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>巨型+3</b>\n在你恢復一個角色的生命值後，",
+				"mechanics": [
+					"RESTORE_HEALTH"
+				]
+			},
+			"second": {
+				"text": "攻擊一個隨機敵方手下",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"relatedCardDbfIds": [
 			122756,
@@ -1244154,14 +1247412,28 @@
 		],
 		"attack": 3,
 		"health": 1,
-		"text": "<b>死亡之聲：</b>&獲得一個消耗為2的法術，可造成等同此手下攻擊力的傷害",
+		"text": "<b>死亡之聲：</b>獲得一個消耗為2的法術，可造成等同此手下攻擊力的傷害",
 		"flavor": "吐出冰霜吐息是什麼感覺？冰霜吐息：凍結你的感官！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"WHELP",
 			"GENERATES_SPELL"
 		],
 		"artist": "Patrik Bjorkstrom",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "獲得一個消耗為2的法術，可造成等同此手下攻擊力的傷害",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"relatedCardDbfIds": [
 			122754
@@ -1244393,13 +1247665,27 @@
 		],
 		"attack": 2,
 		"health": 5,
-		"text": "<b>衝刺</b>\n每當此手下攻擊，&回復等同此手下攻擊力的法力水晶",
+		"text": "<b>衝刺</b>\n每當此手下攻擊，回復等同此手下攻擊力的法力水晶",
 		"flavor": "穿好你的所有抗性護甲。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"RUSH",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Alex Stone",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>衝刺</b>\n每當此手下攻擊，",
+				"mechanics": [
+					"RUSH"
+				]
+			},
+			"second": {
+				"text": "回復等同此手下攻擊力的法力水晶",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1244488,9 +1247774,24 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "FEL",
-		"text": "在你下回合開始時，&召喚一個有<b>嘲諷</b>的3/3納迦",
+		"text": "在你下回合開始時，召喚一個有<b>嘲諷</b>的3/3納迦",
 		"flavor": "如果你的對手有殺招，那麼連納迦也救不了你。",
+		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER"
+		],
 		"artist": "Edgar Hidalgo",
+		"assembleHalves": {
+			"first": {
+				"text": "在你下回合開始時，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "召喚一個有<b>嘲諷</b>的3/3納迦",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"TAUNT"
 		],
@@ -1246253,13 +1249554,27 @@
 		],
 		"attack": 3,
 		"health": 3,
-		"text": "在你的回合結束時，&若此手下生命值全滿，獲得+3生命值",
+		"text": "在你的回合結束時，若此手下生命值全滿，獲得+3生命值",
 		"flavor": "氣到咪咪冒冒。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "Luke Mancini",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "若此手下生命值全滿，獲得+3生命值",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1246341,14 +1249656,30 @@
 		],
 		"attack": 3,
 		"health": 8,
-		"text": "<b><b>生命竊取</b>\n戰吼：</b>&對此手下\n造成4點傷害",
+		"text": "<b><b>生命竊取</b>\n戰吼：</b>對此手下\n造成4點傷害",
 		"flavor": "治療一下，不無小補。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"LIFESTEAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Brian Despain",
+		"assembleHalves": {
+			"first": {
+				"text": "<b><b>生命竊取</b>\n戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"LIFESTEAL"
+				]
+			},
+			"second": {
+				"text": "對此手下\n造成4點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1246965,13 +1250296,27 @@
 		],
 		"attack": 1,
 		"health": 2,
-		"text": "<b>戰吼：</b>&獲得一個消耗為(3)以下的隨機龍類",
+		"text": "<b>戰吼：</b>獲得一個消耗為(3)以下的隨機龍類",
 		"flavor": "原來龍寶寶就是這麼來的…",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"WHELP"
 		],
 		"artist": "Tanamaes Leejierasaes",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "獲得一個消耗為(3)以下的隨機龍類",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1247551,15 +1250896,28 @@
 		],
 		"attack": 1,
 		"health": 1,
-		"text": "每當你花費最後一顆法力水晶，&獲得+1/+1",
+		"text": "每當你花費最後一顆法力水晶，獲得+1/+1",
 		"flavor": "年輕時學習正確的消費觀念是很重要的。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Vika Yarova",
+		"assembleHalves": {
+			"first": {
+				"text": "每當你花費最後一顆法力水晶，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "獲得+1/+1",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1247779,14 +1251137,28 @@
 		],
 		"attack": 4,
 		"health": 5,
-		"text": "<b>飄渺</b>\n在你的回合結束時，&賦予你的其他\n手下+1/+1",
+		"text": "<b>飄渺</b>\n在你的回合結束時，賦予你的其他\n手下+1/+1",
 		"flavor": "跟～著掠翼龍走！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"ELUSIVE",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "Kati Sarin",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>飄渺</b>\n在你的回合結束時，",
+				"mechanics": [
+					"ELUSIVE"
+				]
+			},
+			"second": {
+				"text": "賦予你的其他\n手下+1/+1",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"ELUSIVE"
 		],
@@ -1251377,15 +1254749,29 @@
 		],
 		"attack": 3,
 		"health": 4,
-		"text": "在你的回合結束時，&獲得一個隨機神聖法術，其消耗減少(3)",
+		"text": "在你的回合結束時，獲得一個隨機神聖法術，其消耗減少(3)",
 		"flavor": "「我感覺好多了，我已經把矛拔出來了。」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
 			"GENERATES_SPELL",
 			"GENERATES_HOLY_SPELL"
 		],
 		"artist": "Jason Kang",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "獲得一個隨機神聖法術，其消耗減少(3)",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"2H_EpicStaff_Underlay_Attack": {
@@ -1251442,14 +1254828,28 @@
 		"faction": "HORDE",
 		"attack": 3,
 		"health": 6,
-		"text": "在你的回合結束時，&\n對全部敵人\n造成2點傷害",
+		"text": "在你的回合結束時，\n對全部敵人\n造成2點傷害",
 		"flavor": "守住大門！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Matt Dixon",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "對全部敵人\n造成2點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1251510,13 +1254910,26 @@
 		"faction": "NEUTRAL",
 		"attack": 3,
 		"health": 7,
-		"text": "在你的回合結束時，&召喚一個有<b>聖盾術</b>的6/6元素龍類",
+		"text": "在你的回合結束時，召喚一個有<b>聖盾術</b>的6/6元素龍類",
 		"flavor": "我是青銅守衛者，守衛著青銅。連諾茲多姆都要對我敬畏三分！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "Sergey Tsvelykh",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "召喚一個有<b>聖盾術</b>的6/6元素龍類",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"DIVINE_SHIELD"
 		],
@@ -1251774,13 +1255187,26 @@
 		"cost": 5,
 		"attack": 3,
 		"health": 3,
-		"text": "在你的回合結束時，&召喚一個體質等同此手下的龍類",
+		"text": "在你的回合結束時，召喚一個體質等同此手下的龍類",
 		"flavor": "聖騎士只用最高品質的青銅化機。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "James Ryman",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "召喚一個體質等同此手下的龍類",
+				"mechanics": [
+				]
+			}
+		},
 		"relatedCardDbfIds": [
 			126052
 		],
@@ -1253695,13 +1257121,27 @@
 		],
 		"attack": 2,
 		"health": 5,
-		"text": "<b>法術傷害+1</b>\n<b>戰吼：</b>若你本回合使用法術造成傷害，&召喚一個此手下的分身",
+		"text": "<b>法術傷害+1</b>\n<b>戰吼：</b>若你本回合使用法術造成傷害，召喚一個此手下的分身",
 		"flavor": "1、2、3、4，我宣布法術大戰正式開打。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"SPELLPOWER"
 		],
 		"artist": "Mauricio Herrera",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>法術傷害+1</b>\n<b>戰吼：</b>若你本回合使用法術造成傷害，",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "召喚一個此手下的分身",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1254267,15 +1257707,30 @@
 		],
 		"attack": 1,
 		"health": 2,
-		"text": "<b>戰吼：</b>&<b>發現</b>一個消耗為的任意職業法術",
+		"text": "<b>戰吼：</b><b>發現</b>一個消耗為的任意職業法術",
 		"flavor": "在學著脫離舒適圈的時候，探索其他職業也是很重要的！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER",
 			"WHELP",
 			"GENERATES_SPELL"
 		],
 		"artist": "Matt Dixon",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一個消耗為的任意職業法術",
+				"mechanics": [
+					"DISCOVER"
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1254509,9 +1257964,10 @@
 		],
 		"attack": 1,
 		"health": 4,
-		"text": "每回合你首次使用法術造成傷害時，&獲得+2攻擊力",
+		"text": "每回合你首次使用法術造成傷害時，獲得+2攻擊力",
 		"flavor": "我祈求納沙塔爾能夠下雨…",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
@@ -1254519,6 +1257975,19 @@
 			"TAG_SCRIPT_DATA_NUM_1": 0
 		},
 		"artist": "Tanamaes Leejierasaes",
+		"assembleHalves": {
+			"first": {
+				"text": "每回合你首次使用法術造成傷害時，",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			},
+			"second": {
+				"text": "獲得+2攻擊力",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1254994,13 +1258463,28 @@
 		],
 		"attack": 4,
 		"health": 4,
-		"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>&獲得一個隨機龍類，其消耗減少(2)",
+		"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>獲得一個隨機龍類，其消耗減少(2)",
 		"flavor": "為支援日後的「獨角獸德」而提前播種。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"TAUNT"
 		],
 		"artist": "Tanamaes Leejierasaes",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "獲得一個隨機龍類，其消耗減少(2)",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1255107,12 +1258591,26 @@
 		"cost": 4,
 		"attack": 2,
 		"health": 2,
-		"text": "<b>戰吼：</b>&選擇一個動物夥伴來召喚",
+		"text": "<b>戰吼：</b>選擇一個動物夥伴來召喚",
 		"flavor": "「魂靈說了什麼？」「嘎！」",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Zoltan Boros",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "選擇一個動物夥伴來召喚",
+				"mechanics": [
+				]
+			}
+		},
 		"relatedCardDbfIds": [
 			100,
 			68533,
@@ -1256685,13 +1260183,28 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 1,
-		"text": "<b>衝刺</b>\n<b>死亡之聲：</b>&在本賽局中，賦予你的白銀之手新兵+1攻擊力",
+		"text": "<b>衝刺</b>\n<b>死亡之聲：</b>在本賽局中，賦予你的白銀之手新兵+1攻擊力",
 		"flavor": "他大膽而傲慢，還說在座的敵人全是垃圾。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"RUSH"
 		],
 		"artist": "Matt Dixon",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>衝刺</b>\n<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"RUSH"
+				]
+			},
+			"second": {
+				"text": "在本賽局中，賦予你的白銀之手新兵+1攻擊力",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"RUSH"
 		],
@@ -1256754,13 +1260267,27 @@
 		],
 		"attack": 3,
 		"health": 1,
-		"text": "<b>聖盾術</b>\n在此手下失去<b>聖盾術</b>後，&本賽局中賦予你的白銀之手新兵+1生命值",
+		"text": "<b>聖盾術</b>\n在此手下失去<b>聖盾術</b>後，本賽局中賦予你的白銀之手新兵+1生命值",
 		"flavor": "恭喜你得救！請不要反抗。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Milica Celikovic",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>聖盾術</b>\n在此手下失去<b>聖盾術</b>後，",
+				"mechanics": [
+					"DIVINE_SHIELD"
+				]
+			},
+			"second": {
+				"text": "本賽局中賦予你的白銀之手新兵+1生命值",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"2H_EpicMace_Underlay_Attack": {
@@ -1256847,12 +1260374,26 @@
 		"cost": 5,
 		"attack": 3,
 		"durability": 2,
-		"text": "<b>戰吼：</b>&在本賽局中，賦予你的白銀之手新兵+1/+1",
+		"text": "<b>戰吼：</b>在本賽局中，賦予你的白銀之手新兵+1/+1",
 		"flavor": "<b>備受激勵</b>",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
-		"artist": "Vlad Botos"
+		"artist": "Vlad Botos",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "在本賽局中，賦予你的白銀之手新兵+1/+1",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 123624,
@@ -1257703,10 +1261244,11 @@
 		],
 		"attack": 4,
 		"health": 8,
-		"text": "<b>巨型+2</b>\n在你的回合結束時，&\n對全部其他手下\n造成3點傷害",
+		"text": "<b>巨型+2</b>\n在你的回合結束時，\n對全部其他手下\n造成3點傷害",
 		"flavor": "拉格納羅斯鐵了心要看到艾澤拉斯付之一炬，於是他喚醒了活生生的火山，讓岩漿河流向貧瘠之地各處。",
 		"mechanics": [
 			"COLOSSAL",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
 			"DEAL_DAMAGE"
@@ -1257715,6 +1261257,20 @@
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
 		"artist": "Zoltan Boros",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>巨型+2</b>\n在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "對全部其他手下\n造成3點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"relatedCardDbfIds": [
 			123666,
@@ -1269653,14 +1273209,29 @@
 		],
 		"attack": 4,
 		"health": 6,
-		"text": "<b>嘲諷</b>、<b>死亡之聲：</b>&對全部敵人造成2點傷害",
+		"text": "<b>嘲諷</b>、<b>死亡之聲：</b>對全部敵人造成2點傷害",
 		"flavor": "說實在的，下水道比監獄好太多了。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"IMP",
 			"TAUNT"
 		],
 		"artist": "Juan Calle",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>、<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "對全部敵人造成2點傷害",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"DEATHRATTLE",
 			"TAUNT"
@@ -1269975,15 +1273546,31 @@
 		"cost": 7,
 		"attack": 6,
 		"health": 6,
-		"text": "<b>預備</b>、<b>嘲諷</b>\n<b>死亡之聲：</b>為你的英雄恢復\n#6點生命值。&召喚一個消耗為6的隨機手下",
+		"text": "<b>預備</b>、<b>嘲諷</b>\n<b>死亡之聲：</b>為你的英雄恢復\n#6點生命值。召喚一個消耗為6的隨機手下",
 		"flavor": "「預卜。預卜。…預卜。我這樣做對嗎？」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"PREPARE",
 			"TAUNT",
 			"RESTORE_HEALTH"
 		],
 		"artist": "Stefano Spagnuolo",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>預備</b>、<b>嘲諷</b>\n<b>死亡之聲：</b>為你的英雄恢復\n#6點生命值。",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT",
+					"RESTORE_HEALTH"
+				]
+			},
+			"second": {
+				"text": "召喚一個消耗為6的隨機手下",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"referencedTags": [
 			"PREPARE"
@@ -1275011,12 +1278598,26 @@
 		"faction": "NEUTRAL",
 		"attack": 1,
 		"durability": 2,
-		"text": "<b>死亡之聲：</b>&抽一張非起始套牌的法術",
+		"text": "<b>死亡之聲：</b>抽一張非起始套牌的法術",
 		"flavor": "我是隻老鼠，我喜歡挖洞。挖洞挖挖洞，挖挖洞！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Tanamaes Leejierasaes",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "抽一張非起始套牌的法術",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"DEATHRATTLE"
 		]
@@ -1276395,13 +1279996,28 @@
 		],
 		"attack": 3,
 		"health": 1,
-		"text": "<b>嘲諷</b>\n<b>戰吼：</b>&你的每張手牌使其獲得+1生命值",
+		"text": "<b>嘲諷</b>\n<b>戰吼：</b>你的每張手牌使其獲得+1生命值",
 		"flavor": "「捏嘿嘿！」",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Vladimir Kafanov",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "你的每張手牌使其獲得+1生命值",
+				"mechanics": [
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1276463,13 +1280079,27 @@
 		"faction": "NEUTRAL",
 		"attack": 4,
 		"health": 12,
-		"text": "<b>預備</b>\n<b>戰吼：</b>&強迫全部敵方手下攻擊此手下",
+		"text": "<b>預備</b>\n<b>戰吼：</b>強迫全部敵方手下攻擊此手下",
 		"flavor": "害你要出一堆牌來解它！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"PREPARE"
 		],
 		"artist": "Jaemin Kim",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>預備</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "強迫全部敵方手下攻擊此手下",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"PREPARE"
 		],
@@ -1277923,13 +1281553,26 @@
 		"cost": 9,
 		"attack": 4,
 		"health": 4,
-		"text": "<b>預備</b>\n每當你施放法術，&抽一張牌",
+		"text": "<b>預備</b>\n每當你施放法術，抽一張牌",
 		"flavor": "我只進最好的贓物！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"PREPARE",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Ivan Fomin",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>預備</b>\n每當你施放法術，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"referencedTags": [
 			"PREPARE"
@@ -1278065,12 +1281708,26 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 2,
-		"text": "<b>死亡之聲：</b>&獲得1個幸運幣",
+		"text": "<b>死亡之聲：</b>獲得1個幸運幣",
 		"flavor": "他會偷偷撈一點油水，這是他的天性。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Milica Celikovic",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "獲得1個幸運幣",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"relatedCardDbfIds": [
 			1746
@@ -1278205,12 +1281862,25 @@
 		"cost": 2,
 		"attack": 1,
 		"health": 4,
-		"text": "在你的英雄攻擊後，&抽一張牌",
+		"text": "在你的英雄攻擊後，抽一張牌",
 		"flavor": "蜘蛛騎士！！！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Gabor Szikszai",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的英雄攻擊後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1278602,12 +1282272,25 @@
 		],
 		"attack": 2,
 		"health": 7,
-		"text": "在此手下受到傷害後，&召喚兩個1/1脆弱食屍鬼",
+		"text": "在此手下受到傷害後，召喚兩個1/1脆弱食屍鬼",
 		"flavor": "有的時候，一群脆弱食屍鬼會試圖逃離它們的「回合結束時」命運。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Dmitry Bolotov",
+		"assembleHalves": {
+			"first": {
+				"text": "在此手下受到傷害後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "召喚兩個1/1脆弱食屍鬼",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1279292,12 +1282975,27 @@
 		],
 		"attack": 3,
 		"health": 1,
-		"text": "<b>死亡之聲：</b>\n&召喚一個消耗為1的\n隨機<b>死亡之聲</b>手下",
+		"text": "<b>死亡之聲：</b>\n召喚一個消耗為1的\n隨機<b>死亡之聲</b>手下",
 		"flavor": "頂尖狗狗",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Gabor Szikszai",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "召喚一個消耗為1的\n隨機<b>死亡之聲</b>手下",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			}
+		},
 		"referencedTags": [
 			"DEATHRATTLE"
 		],
@@ -1279768,14 +1283466,29 @@
 		"cost": 5,
 		"attack": 4,
 		"health": 5,
-		"text": "<b>戰吼：</b>&<b>發現</b>一個消耗\n(5)以上的法術。將它打出時會施放兩次",
+		"text": "<b>戰吼：</b><b>發現</b>一個消耗\n(5)以上的法術。將它打出時會施放兩次",
 		"flavor": "沒啦，這才不是地圖！這只是…呃…秘法跳房子！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER",
 			"GENERATES_SPELL"
 		],
 		"artist": "Edgar Hidalgo",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一個消耗\n(5)以上的法術。將它打出時會施放兩次",
+				"mechanics": [
+					"DISCOVER"
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1279826,13 +1283539,28 @@
 		],
 		"attack": 3,
 		"health": 4,
-		"text": "<b>戰吼：</b>揭露你牌堆中的一張法術。若其消耗為(5)以上，&造成5點傷害，隨機分給敵方手下",
+		"text": "<b>戰吼：</b>揭露你牌堆中的一張法術。若其消耗為(5)以上，造成5點傷害，隨機分給敵方手下",
 		"flavor": "紫羅蘭堡可不是你想走就走的地方。負責看守大門的不只有石拳巨魔。那裡還有從不休息的邪惡勢力，而尖塔警衛的巨眼每時每刻都在監視著。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Daniil Kudriavtsev",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>揭露你牌堆中的一張法術。若其消耗為(5)以上，",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "造成5點傷害，隨機分給敵方手下",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1279925,13 +1283653,27 @@
 		],
 		"attack": 4,
 		"health": 5,
-		"text": "<b>戰吼：</b>&獲得第二個英雄能力，此英雄能力消耗<b>屍體</b>",
+		"text": "<b>戰吼：</b>獲得第二個英雄能力，此英雄能力消耗<b>屍體</b>",
 		"flavor": "血腥公主薩蕾娜被囚禁的時間，久到連大法師們都記不清楚了。偽裝成獄醫的薩蕾娜不滿足於僅僅只是平息飢渴。她將自己鎖在實驗室裡，製造某種極其恐怖的東西…",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"SPEND_CORPSE"
 		],
 		"artist": "Patrik Bjorkstrom",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "獲得第二個英雄能力，此英雄能力消耗<b>屍體</b>",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"referencedTags": [
 			"CORPSE"
@@ -1281321,12 +1285063,25 @@
 		"cost": 4,
 		"attack": 4,
 		"health": 5,
-		"text": "在每個回合結束時，&獲得<b>重生</b>",
+		"text": "在每個回合結束時，獲得<b>重生</b>",
 		"flavor": "首先我們要盡可能把右臂舉高。這樣可以幫忙啟動我們的核心。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Todd Harris",
+		"assembleHalves": {
+			"first": {
+				"text": "在每個回合結束時，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "獲得<b>重生</b>",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"REBORN"
 		],
@@ -1281898,12 +1285653,25 @@
 		},
 		"attack": 1,
 		"durability": 3,
-		"text": "在你的英雄攻擊後，&召喚一個1/1脆弱食屍鬼",
+		"text": "在你的英雄攻擊後，召喚一個1/1脆弱食屍鬼",
 		"flavor": "讓屍體砸在牌桌上！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Daniil Kudriavtsev",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的英雄攻擊後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "召喚一個1/1脆弱食屍鬼",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true
 	},
 	{
@@ -1283512,12 +1287280,26 @@
 		"cost": 1,
 		"attack": 1,
 		"durability": 2,
-		"text": "<b>死亡之聲：</b>&賦予你受傷的手下+1/+2",
+		"text": "<b>死亡之聲：</b>賦予你受傷的手下+1/+2",
 		"flavor": "這種痛苦還要持續多久？這個梗已經玩整整三次了。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
-		"artist": "Juan Calle"
+		"artist": "Juan Calle",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "賦予你受傷的手下+1/+2",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 126598,
@@ -1283851,12 +1287633,26 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 2,
-		"text": "<b>死亡之聲：</b>若你的牌堆中沒有中立卡牌，&獲得一張隨機聖騎士卡牌，其消耗減少(2)",
+		"text": "<b>死亡之聲：</b>若你的牌堆中沒有中立卡牌，獲得一張隨機聖騎士卡牌，其消耗減少(2)",
 		"flavor": "她會在你身上留下血色的傷疤。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Luca Zontini",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>若你的牌堆中沒有中立卡牌，",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "獲得一張隨機聖騎士卡牌，其消耗減少(2)",
+				"mechanics": [
+				]
+			}
+		},
 		"relatedCardDbfIds": [
 			126618
 		],
@@ -1284824,13 +1288620,26 @@
 		"cost": 4,
 		"attack": 3,
 		"durability": 3,
-		"text": "在你的英雄攻擊後，&獲得一個虛無靈魂",
+		"text": "在你的英雄攻擊後，獲得一個虛無靈魂",
 		"flavor": "所有的粉塵，不都是星塵嗎？",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"CARES_ABOUT_VOID_SOUL"
 		],
 		"artist": "Dmitry Bolotov",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的英雄攻擊後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "獲得一個虛無靈魂",
+				"mechanics": [
+				]
+			}
+		},
 		"relatedCardDbfIds": [
 			126662
 		]
@@ -1284881,14 +1288690,29 @@
 		],
 		"attack": 3,
 		"health": 4,
-		"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>&獲得一個虛無靈魂",
+		"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>獲得一個虛無靈魂",
 		"flavor": "他才是壞蛋，這不是很明顯嗎！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"TAUNT",
 			"CARES_ABOUT_VOID_SOUL"
 		],
 		"artist": "Konstantin Turovec",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "獲得一個虛無靈魂",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"DEATHRATTLE",
 			"TAUNT"
@@ -1285476,12 +1289300,26 @@
 		],
 		"attack": 7,
 		"health": 6,
-		"text": "<b>戰吼：</b>&獲得一個來自過去的隨機<b>巨型</b>手下",
+		"text": "<b>戰吼：</b>獲得一個來自過去的隨機<b>巨型</b>手下",
 		"flavor": "在他那寒冷的黑曜石護甲之下，隱藏著一顆…熔岩之心。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Konstantin Turovec",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "獲得一個來自過去的隨機<b>巨型</b>手下",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"BATTLECRY",
 			"COLOSSAL"
@@ -1289704,13 +1293542,27 @@
 		],
 		"attack": 9,
 		"health": 8,
-		"text": "你的英雄<b>免疫</b>\n<b>戰吼：</b>&本回合你的下一個惡魔消耗為(0)",
+		"text": "你的英雄<b>免疫</b>\n<b>戰吼：</b>本回合你的下一個惡魔消耗為(0)",
 		"flavor": "最早那批伺服器的見證者之一。",
 		"mechanics": [
 			"AURA",
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Alex Horley Orlandelli",
+		"assembleHalves": {
+			"first": {
+				"text": "你的英雄<b>免疫</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "本回合你的下一個惡魔消耗為(0)",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"IMMUNE"
 		],
@@ -1289898,13 +1293750,29 @@
 		],
 		"attack": 4,
 		"health": 2,
-		"text": "<b>衝刺</b>\n<b>戰吼：</b>&用有<b>衝刺</b>的1/1山貓塞滿你的手牌",
+		"text": "<b>衝刺</b>\n<b>戰吼：</b>用有<b>衝刺</b>的1/1山貓塞滿你的手牌",
 		"flavor": "上一個叫哈拉齊去鏟土的人已經慘死在他的爪下。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"RUSH"
 		],
 		"artist": "Arthur Bozonnet",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>衝刺</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"RUSH"
+				]
+			},
+			"second": {
+				"text": "用有<b>衝刺</b>的1/1山貓塞滿你的手牌",
+				"mechanics": [
+					"RUSH"
+				]
+			}
+		},
 		"counterpartCards": [
 			50659,
 			126891
@@ -1289957,12 +1293825,26 @@
 		"cost": 5,
 		"attack": 4,
 		"durability": 2,
-		"text": "<b>死亡之聲：</b>&召喚一個4/2元素",
+		"text": "<b>死亡之聲：</b>召喚一個4/2元素",
 		"flavor": "停！別亂碰這把暮光的嘻哈神錘。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "James Ryman",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "召喚一個4/2元素",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			38270,
 			126892
@@ -1289991,14 +1293873,31 @@
 		],
 		"attack": 3,
 		"health": 9,
-		"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>&召喚三個有<b>嘲諷</b>的1/3惡魔",
+		"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>召喚三個有<b>嘲諷</b>的1/3惡魔",
 		"flavor": "千萬不要相信「虛無」領主開給你的支票。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"TAUNT",
 			"SUMMONS_DEMON"
 		],
 		"artist": "Jerry Mascho",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "召喚三個有<b>嘲諷</b>的1/3惡魔",
+				"mechanics": [
+					"TAUNT",
+					"SUMMONS_DEMON"
+				]
+			}
+		},
 		"counterpartCards": [
 			46056,
 			126893
@@ -1292472,13 +1296371,27 @@
 		"cost": 2,
 		"attack": 1,
 		"health": 3,
-		"text": "<b>潛行</b>\n在它攻擊後，&抽一張牌",
+		"text": "<b>潛行</b>\n在它攻擊後，抽一張牌",
 		"flavor": "「你問這個木箱是哪來的？呃，這是從…史密斯奶奶那裡拿來的…」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"STEALTH",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Matt Dixon",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>潛行</b>\n在它攻擊後，",
+				"mechanics": [
+					"STEALTH"
+				]
+			},
+			"second": {
+				"text": "抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"STEALTH"
 		],
@@ -1292588,13 +1296501,27 @@
 		"cost": 4,
 		"attack": 4,
 		"health": 4,
-		"text": "<b><b>潛行</b>\n</b>每當友方<b><b>潛行</b></b>手下攻擊時，&使你一張隨機手牌的消耗減少(3)",
+		"text": "<b><b>潛行</b>\n</b>每當友方<b><b>潛行</b></b>手下攻擊時，使你一張隨機手牌的消耗減少(3)",
 		"flavor": "某天晚上，就在馬迪亞斯幾乎要放棄尋找范克里夫時，他的房門傳來一聲清脆的敲擊。一隻閃爍著微弱紫光的神秘烏鴉抬頭看著這位軍情七處的首領，開口說道：「月溪鎮。她不會知道你要來。」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"STEALTH",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Zoltan Boros",
+		"assembleHalves": {
+			"first": {
+				"text": "<b><b>潛行</b>\n</b>每當友方<b><b>潛行</b></b>手下攻擊時，",
+				"mechanics": [
+					"STEALTH"
+				]
+			},
+			"second": {
+				"text": "使你一張隨機手牌的消耗減少(3)",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1293211,12 +1297138,26 @@
 		],
 		"attack": 1,
 		"health": 2,
-		"text": "<b>戰吼：</b>&放一張隨機海盜手下到你的手中",
+		"text": "<b>戰吼：</b>放一張隨機海盜手下到你的手中",
 		"flavor": "他顯然沒考慮到劫掠而來的寶物該怎麼搬回家。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Ivan Fomin",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "放一張隨機海盜手下到你的手中",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			55005,
 			127088
@@ -1301592,12 +1305533,25 @@
 		"cost": 5,
 		"attack": 3,
 		"health": 5,
-		"text": "在此手下或兩側的手下攻擊後，&獲得一張閃電箭",
+		"text": "在此手下或兩側的手下攻擊後，獲得一張閃電箭",
 		"flavor": "在你兩側的，是兩發閃電箭。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Eric Kenji",
+		"assembleHalves": {
+			"first": {
+				"text": "在此手下或兩側的手下攻擊後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "獲得一張閃電箭",
+				"mechanics": [
+				]
+			}
+		},
 		"relatedCardDbfIds": [
 			69625
 		],
@@ -1303133,13 +1307087,29 @@
 		],
 		"attack": 3,
 		"health": 4,
-		"text": "<b>嘲諷</b>\n<b>戰吼：</b>&賦予你手中的<b>嘲諷</b>手下+2/+2",
+		"text": "<b>嘲諷</b>\n<b>戰吼：</b>賦予你手中的<b>嘲諷</b>手下+2/+2",
 		"flavor": "你真的就因為一綑炸藥，準備了一整套巨大機甲套裝嗎？",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Luca Zontini",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "賦予你手中的<b>嘲諷</b>手下+2/+2",
+				"mechanics": [
+					"TAUNT"
+				]
+			}
+		},
 		"counterpartCards": [
 			100062,
 			127469
@@ -1305820,13 +1309790,27 @@
 		],
 		"attack": 3,
 		"health": 5,
-		"text": "每當你抽牌，&召喚一個有<b>衝刺</b>的1/1惡魔",
+		"text": "每當你抽牌，召喚一個有<b>衝刺</b>的1/1惡魔",
 		"flavor": "他們被騙了，因為又出現了另一個埃雷達爾。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"SUMMONS_DEMON"
 		],
 		"artist": "Konstantin Turovec",
+		"assembleHalves": {
+			"first": {
+				"text": "每當你抽牌，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "召喚一個有<b>衝刺</b>的1/1惡魔",
+				"mechanics": [
+					"SUMMONS_DEMON"
+				]
+			}
+		},
 		"counterpartCards": [
 			97479,
 			127589
@@ -1312350,13 +1316334,27 @@
 		],
 		"attack": 3,
 		"health": 3,
-		"text": "<b>預備</b>\n<b>戰吼：</b>&賦予你的其他手下+1/+1",
+		"text": "<b>預備</b>\n<b>戰吼：</b>賦予你的其他手下+1/+1",
 		"flavor": "被劫持之後，它變成了暴走機器人，不曉得能不能恢復正常，再次看守囚犯。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"PREPARE"
 		],
 		"artist": "Melvin Chan",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>預備</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "賦予你的其他手下+1/+1",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"referencedTags": [
 			"PREPARE"
@@ -1325577,12 +1329575,26 @@
 		],
 		"attack": 5,
 		"health": 2,
-		"text": "<b>戰吼：</b>抽2張牌。若它們都是手下，&獲得\n<b>衝鋒</b>",
+		"text": "<b>戰吼：</b>抽2張牌。若它們都是手下，獲得\n<b>衝鋒</b>",
 		"flavor": "野豬司機來囉！",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Mike Sass",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>抽2張牌。若它們都是手下，",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "獲得\n<b>衝鋒</b>",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"CHARGE"
 		],
@@ -1325646,14 +1329658,29 @@
 		],
 		"attack": 4,
 		"health": 4,
-		"text": "在你的回合結束時，&對敵方英雄\n造成4點傷害",
+		"text": "在你的回合結束時，對敵方英雄\n造成4點傷害",
 		"flavor": "根據所有已知的飛行法則，岩石是絕對沒有辦法飛起來的。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Alex Stone",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "對敵方英雄\n造成4點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack_CATA_999_EarthenDrake_Attack": {
@@ -1327735,13 +1331762,28 @@
 		"cost": 6,
 		"attack": 6,
 		"health": 7,
-		"text": "<b>嘲諷</b>\n<b>戰吼：</b>&選擇一個\n克蘇恩技能觸發",
+		"text": "<b>嘲諷</b>\n<b>戰吼：</b>選擇一個\n克蘇恩技能觸發",
 		"flavor": "Twenty stone giants were sent to slay Soggoth the Slitherer. Kronn, the greatest among them, was the only one",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
-		"artist": "Ian Ameling"
+		"artist": "Ian Ameling",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "選擇一個\n克蘇恩技能觸發",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 128334,
@@ -1327840,15 +1331882,30 @@
 		],
 		"attack": 1,
 		"health": 3,
-		"text": "<b>戰吼：</b>&<b>發現</b>一個\n神聖法術",
+		"text": "<b>戰吼：</b><b>發現</b>一個\n神聖法術",
 		"flavor": "地上除了撿得到錢以外，還能撿到神聖法術。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER",
 			"GENERATES_SPELL",
 			"GENERATES_HOLY_SPELL"
 		],
 		"artist": "Vladimir Kafanov",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一個\n神聖法術",
+				"mechanics": [
+					"DISCOVER"
+				]
+			}
+		},
 		"counterpartCards": [
 			71248,
 			128336
@@ -1329724,6 +1333781,9 @@
 		"artist": "Matt Dixon",
 		"otherTags": [
 			"TARGETS_MINION"
+		],
+		"referencedTags": [
+			"ASSEMBLE"
 		]
 	},
 	{
@@ -1330390,6 +1334450,9 @@
 		"artist": "Luca Zontini",
 		"otherTags": [
 			"TARGETS_MINION"
+		],
+		"referencedTags": [
+			"ASSEMBLE"
 		]
 	},
 	{
@@ -1330434,13 +1334497,28 @@
 		],
 		"attack": 3,
 		"health": 3,
-		"text": "<b>戰吼及死亡之聲：</b>&賦予兩側的手下+2/+2",
+		"text": "<b>戰吼及死亡之聲：</b>賦予兩側的手下+2/+2",
 		"flavor": "真想爆料泰坦的八卦。可惜他們辦不到。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
-		"artist": "Luca Zontini"
+		"artist": "Luca Zontini",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼及死亡之聲：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "賦予兩側的手下+2/+2",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 129094,
@@ -1332063,13 +1336141,27 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "在你的回合結束時，&獲得一個消耗為2的祝福，賦予你+2/+3",
+		"text": "在你的回合結束時，獲得一個消耗為2的祝福，賦予你+2/+3",
 		"flavor": "想要的話，我們可以跳支日舞！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
-		"artist": "Sergey Tsvelykh"
+		"artist": "Sergey Tsvelykh",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的回合結束時，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "獲得一個消耗為2的祝福，賦予你+2/+3",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 129137,
@@ -1332130,12 +1336222,26 @@
 		"cost": 1,
 		"attack": 1,
 		"health": 2,
-		"text": "<b>戰吼：</b>若你手中有暗影法術，&獲得+1/+1",
+		"text": "<b>戰吼：</b>若你手中有暗影法術，獲得+1/+1",
 		"flavor": "我只是覺得水晶很漂亮。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "A. J. Nazzaro",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>若你手中有暗影法術，",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "獲得+1/+1",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			84204,
 			129166
@@ -1332195,13 +1336301,28 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 2,
-		"text": "<b>戰吼：</b>&<b>發現</b>一個惡魔",
+		"text": "<b>戰吼：</b><b>發現</b>一個惡魔",
 		"flavor": "虛空行者要先學會虛空爬行，再來才是虛空步行。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DISCOVER"
 		],
 		"artist": "Arthur Bozonnet",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一個惡魔",
+				"mechanics": [
+					"DISCOVER"
+				]
+			}
+		},
 		"counterpartCards": [
 			56985,
 			129167
@@ -1332280,14 +1336401,29 @@
 		],
 		"attack": 3,
 		"health": 6,
-		"text": "<b>嘲諷</b>\n在受到攻擊後，&對全部敵人造成1點傷害",
+		"text": "<b>嘲諷</b>\n在受到攻擊後，對全部敵人造成1點傷害",
 		"flavor": "他就是個…渾身帶刺的人。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Vladimir Kafanov",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n在受到攻擊後，",
+				"mechanics": [
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "對全部敵人造成1點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"counterpartCards": [
 			59865,
 			129168
@@ -1332352,14 +1336488,29 @@
 		],
 		"attack": 4,
 		"health": 10,
-		"text": "<b>生命竊取</b>\n在你的回合結束時，&強迫全部敵方手下攻擊它",
+		"text": "<b>生命竊取</b>\n在你的回合結束時，強迫全部敵方手下攻擊它",
 		"flavor": "你在《爐石戰記》中沒辦法/撫摸他。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"LIFESTEAL",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "Konstantin Turovec",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>生命竊取</b>\n在你的回合結束時，",
+				"mechanics": [
+					"LIFESTEAL",
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "強迫全部敵方手下攻擊它",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			98469,
 			129169
@@ -1332404,13 +1336555,27 @@
 		"cost": 2,
 		"attack": 1,
 		"health": 4,
-		"text": "若你在回合結束時\n有未耗盡的法力，&抽一張牌",
+		"text": "若你在回合結束時\n有未耗盡的法力，抽一張牌",
 		"flavor": "一顆水晶換一張，十顆水晶也還是一張？哪有人這樣做生意的啦？",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN"
 		],
 		"artist": "L. Lullabi & K. Turovec",
+		"assembleHalves": {
+			"first": {
+				"text": "若你在回合結束時\n有未耗盡的法力，",
+				"mechanics": [
+					"END_OF_TURN"
+				]
+			},
+			"second": {
+				"text": "抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			53545,
 			129170
@@ -1332459,15 +1336624,31 @@
 		],
 		"attack": 6,
 		"health": 6,
-		"text": "<b>衝刺</b>\n<b>戰吼及死亡之聲：</b>&獲得6點護甲值",
+		"text": "<b>衝刺</b>\n<b>戰吼及死亡之聲：</b>獲得6點護甲值",
 		"flavor": "看好了，地底王者！我永遠都鑽得比你深，沒有人能在我之下！我要向愛與和平宣戰，在我面前顫抖吧！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"RUSH",
 			"GIVES_ARMOR"
 		],
 		"artist": "L. Lullabi & K. Turovec",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>衝刺</b>\n<b>戰吼及死亡之聲：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"DEATHRATTLE",
+					"RUSH"
+				]
+			},
+			"second": {
+				"text": "獲得6點護甲值",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			85052,
 			129171
@@ -1332512,13 +1336693,28 @@
 		"cost": 5,
 		"attack": 5,
 		"health": 5,
-		"text": "<b>嘲諷</b>\n<b>戰吼：</b>若你在本回合已恢復生命值，&獲得+3/+3",
+		"text": "<b>嘲諷</b>\n<b>戰吼：</b>若你在本回合已恢復生命值，獲得+3/+3",
 		"flavor": "「安希？」「祝福你！」「我說你！安希…」「對啊，祝福你！」",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Paul Mafayon",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>\n<b>戰吼：</b>若你在本回合已恢復生命值，",
+				"mechanics": [
+					"BATTLECRY",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "獲得+3/+3",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			62877,
 			129172
@@ -1334464,6 +1338660,9 @@
 		"artist": "Max Grecke",
 		"otherTags": [
 			"TARGETS_MINION"
+		],
+		"referencedTags": [
+			"ASSEMBLE"
 		]
 	},
 	{
@@ -1337498,14 +1341697,30 @@
 		],
 		"attack": 3,
 		"health": 3,
-		"text": "<b>戰吼：</b>召喚兩個\n此手下的分身\n<b>死亡之聲：</b>&對一個隨機敵人造成3點傷害",
+		"text": "<b>戰吼：</b>召喚兩個\n此手下的分身\n<b>死亡之聲：</b>對一個隨機敵人造成3點傷害",
 		"flavor": "從這裡可以看到我家欸！啊，完蛋…",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Daniil Kudriavtsev",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>召喚兩個\n此手下的分身\n<b>死亡之聲：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "對一個隨機敵人造成3點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"availableAsSignature": true
 	},
 	{
@@ -1337596,12 +1341811,25 @@
 		],
 		"attack": 2,
 		"health": 1,
-		"text": "在你打出手下後，&獲得+1生命值",
+		"text": "在你打出手下後，獲得+1生命值",
 		"flavor": "。旁力法桶一在留獨單們牠把該不也，但脅威的正真是不中而，煩麻成當被只常通們牠然雖。食為量能法秘以龍巨些這",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
-		"artist": "Tee Fuyuan"
+		"artist": "Tee Fuyuan",
+		"assembleHalves": {
+			"first": {
+				"text": "在你打出手下後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "獲得+1生命值",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 129798,
@@ -1337619,13 +1341847,28 @@
 		"cost": 5,
 		"attack": 5,
 		"health": 4,
-		"text": "<b>戰吼及死亡之聲：</b>&施放一個消耗為3的\n隨機法術",
+		"text": "<b>戰吼及死亡之聲：</b>施放一個消耗為3的\n隨機法術",
 		"flavor": "好了，隊友們，我們該來場公平的宇宙戰爭了，好好去玩吧！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
 		"artist": "Trent Kaniuga",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼及死亡之聲：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "施放一個消耗為3的\n隨機法術",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"BATTLECRY",
 			"DEATHRATTLE"
@@ -1337671,6 +1341914,9 @@
 		"artist": "Mooncolony",
 		"otherTags": [
 			"TARGETS_MINION"
+		],
+		"referencedTags": [
+			"ASSEMBLE"
 		]
 	},
 	{
@@ -1337717,6 +1341963,7 @@
 			"TARGETS_MINION"
 		],
 		"referencedTags": [
+			"ASSEMBLE",
 			"TAUNT"
 		]
 	},
@@ -1337905,12 +1342152,25 @@
 		"cost": 3,
 		"attack": 2,
 		"durability": 2,
-		"text": "在你的英雄攻擊後，&獲得一個<i>過載</i>",
+		"text": "在你的英雄攻擊後，獲得一個<i>過載</i>",
 		"flavor": "能立即對其造成的傷口灼燒止血。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
-		"artist": "Mauricio Herrera"
+		"artist": "Mauricio Herrera",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的英雄攻擊後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "獲得一個<i>過載</i>",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 129821,
@@ -1337928,7 +1342188,10 @@
 		"cost": 2,
 		"text": "<b>組裝</b>一個機械\n獲得一個<i>過載</i>",
 		"flavor": "miM rof tnuocca ton did tolp s'noraS-ggoY tub ,htaed s'norimiM detartsehcro yllufsseccus noraS-ggoY ,noitiurF ot emoc ot ainnellim ynam ekat dluow ti hguohT",
-		"artist": "Matt Dixon"
+		"artist": "Matt Dixon",
+		"referencedTags": [
+			"ASSEMBLE"
+		]
 	},
 	{
 		"dbfId": 129822,
@@ -1338020,7 +1342283,10 @@
 		"mechanics": [
 			"BATTLECRY"
 		],
-		"artist": "Sergey Tsvelykh"
+		"artist": "Sergey Tsvelykh",
+		"referencedTags": [
+			"ASSEMBLE"
+		]
 	},
 	{
 		"dbfId": 129839,
@@ -1338088,12 +1342354,26 @@
 		"cost": 7,
 		"attack": 5,
 		"health": 5,
-		"text": "<b>戰吼：</b>&召喚一個消耗等同你手牌數量的隨機手下",
+		"text": "<b>戰吼：</b>召喚一個消耗等同你手牌數量的隨機手下",
 		"flavor": "所有的徵兆都指向安東尼達斯。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Gonzalo Ordonez",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "召喚一個消耗等同你手牌數量的隨機手下",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			48195,
 			129846
@@ -1338138,13 +1342418,27 @@
 		"cost": 6,
 		"attack": 5,
 		"health": 5,
-		"text": "<b>聖盾術</b>\n在友方手下失去<b>聖盾術</b>後，&賦予你手中一個手下+5/+5",
+		"text": "<b>聖盾術</b>\n在友方手下失去<b>聖盾術</b>後，賦予你手中一個手下+5/+5",
 		"flavor": "「願信念與勇氣保護我，若我光榮戰敗有人能替代我。」",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>聖盾術</b>\n在友方手下失去<b>聖盾術</b>後，",
+				"mechanics": [
+					"DIVINE_SHIELD"
+				]
+			},
+			"second": {
+				"text": "賦予你手中一個手下+5/+5",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -1338424,12 +1342718,26 @@
 		"cost": 5,
 		"attack": 2,
 		"health": 4,
-		"text": "<b>戰吼：</b>抽兩張牌。每抽到一張非手下的卡牌，\n&召喚一個3/6\n水元素",
+		"text": "<b>戰吼：</b>抽兩張牌。每抽到一張非手下的卡牌，\n召喚一個3/6\n水元素",
 		"flavor": "冷知識！土星環是95%的水元素。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Timur Shevtsov",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>抽兩張牌。每抽到一張非手下的卡牌，",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "召喚一個3/6\n水元素",
+				"mechanics": [
+				]
+			}
+		},
 		"otherTags": [
 			"TARGETS_MINION"
 		]
@@ -1338476,13 +1342784,27 @@
 		],
 		"attack": 2,
 		"health": 3,
-		"text": "<b>戰吼：</b>&本回合\n賦予你的英雄\n此手下的攻擊力",
+		"text": "<b>戰吼：</b>本回合\n賦予你的英雄\n此手下的攻擊力",
 		"flavor": "我是一頭長著粉紅色的角和銀色的翅膀，身高122公尺的始源熊。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"GIVES_HERO_ATTACK"
 		],
-		"artist": "Jason Kang"
+		"artist": "Jason Kang",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "本回合\n賦予你的英雄\n此手下的攻擊力",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 129894,
@@ -1338701,12 +1343023,25 @@
 		],
 		"attack": 5,
 		"health": 5,
-		"text": "在你打出手下後，&抽一張牌",
+		"text": "在你打出手下後，抽一張牌",
 		"flavor": "你的OC91來了。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Vlad Botos",
+		"assembleHalves": {
+			"first": {
+				"text": "在你打出手下後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "抽一張牌",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true
 	},
 	{
@@ -1338735,6 +1343070,7 @@
 			"TARGETS_MINION"
 		],
 		"referencedTags": [
+			"ASSEMBLE",
 			"COMBO"
 		]
 	},
@@ -1340754,13 +1345090,27 @@
 		"cost": 4,
 		"attack": 4,
 		"health": 4,
-		"text": "在你打出有<b>連擊</b>的卡牌後，&對一個隨機敵人造成3點傷害",
+		"text": "在你打出有<b>連擊</b>的卡牌後，對一個隨機敵人造成3點傷害",
 		"flavor": "別盯著看，這樣很沒禮貌。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Kevin Sidharta",
+		"assembleHalves": {
+			"first": {
+				"text": "在你打出有<b>連擊</b>的卡牌後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "對一個隨機敵人造成3點傷害",
+				"mechanics": [
+					"DEAL_DAMAGE"
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"referencedTags": [
 			"COMBO"
@@ -1343009,13 +1347359,27 @@
 		],
 		"attack": 3,
 		"health": 2,
-		"text": "<b>戰吼：</b>&<b>發現</b>一個法術並將其放到你牌堆的最上方，其消耗減少(2)",
+		"text": "<b>戰吼：</b><b>發現</b>一個法術並將其放到你牌堆的最上方，其消耗減少(2)",
 		"flavor": "老是在抱怨對手神抽。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"GENERATES_SPELL"
 		],
 		"artist": "Brian Despain",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "<b>發現</b>一個法術並將其放到你牌堆的最上方，其消耗減少(2)",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"DISCOVER"
 		]
@@ -1343505,6 +1347869,7 @@
 			"TARGETS_MINION"
 		],
 		"referencedTags": [
+			"ASSEMBLE",
 			"DEATHRATTLE"
 		]
 	},
@@ -1343537,15 +1347902,31 @@
 		"cost": 2,
 		"attack": 1,
 		"health": 4,
-		"text": "<b>嘲諷</b>、<b>戰吼及死亡之聲：</b>&獲得3點護甲值",
+		"text": "<b>嘲諷</b>、<b>戰吼及死亡之聲：</b>獲得3點護甲值",
 		"flavor": "我的刀刃渴望復仇！",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"TAUNT",
 			"GIVES_ARMOR"
 		],
-		"artist": "Juan Calle"
+		"artist": "Juan Calle",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>、<b>戰吼及死亡之聲：</b>",
+				"mechanics": [
+					"BATTLECRY",
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "獲得3點護甲值",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 130580,
@@ -1343563,12 +1347944,25 @@
 		"cost": 4,
 		"attack": 3,
 		"health": 5,
-		"text": "在你施放神聖法術後，&召喚一個有<b>生命竊取</b>的2/2醫護兵",
+		"text": "在你施放神聖法術後，召喚一個有<b>生命竊取</b>的2/2醫護兵",
 		"flavor": "在戰爭中，就算是戰地醫師也要帶自己的醫護兵。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Wayne Wu",
+		"assembleHalves": {
+			"first": {
+				"text": "在你施放神聖法術後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "召喚一個有<b>生命竊取</b>的2/2醫護兵",
+				"mechanics": [
+				]
+			}
+		},
 		"counterpartCards": [
 			62933,
 			130580
@@ -1345549,9 +1349943,24 @@
 		"rarity": "Rare",
 		"cost": 4,
 		"spellSchool": "SHADOW",
-		"text": "在你下回合開始時，&召喚三個有<b>衝刺</b>\n的3/1碎爪",
+		"text": "在你下回合開始時，召喚三個有<b>衝刺</b>\n的3/1碎爪",
 		"flavor": "這道簡單又快速的單蛋料理只需一回合就能完成，甚至還可能會有剩！",
+		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER"
+		],
 		"artist": "BOSi Studio",
+		"assembleHalves": {
+			"first": {
+				"text": "在你下回合開始時，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "召喚三個有<b>衝刺</b>\n的3/1碎爪",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"RUSH"
 		]
@@ -1346606,7 +1351015,7 @@
 		],
 		"attack": 3,
 		"health": 2,
-		"text": "<b>戰吼</b>：&獲得兩側手下的<b>死亡之聲</b>",
+		"text": "<b>戰吼</b>：獲得兩側手下的<b>死亡之聲</b>",
 		"flavor": "別緊張，她只是在玩！",
 		"mechanics": [
 			"BATTLECRY"
@@ -1346714,13 +1351123,29 @@
 		],
 		"attack": 3,
 		"health": 2,
-		"text": "<b>流放和死亡之聲：</b>&獲得一張隨機<b>流放</b>卡牌",
+		"text": "<b>流放和死亡之聲：</b>獲得一張隨機<b>流放</b>卡牌",
 		"flavor": "你跟我一樣是<b>流放者</b>。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"OUTCAST"
 		],
 		"artist": "Slawomir Maniak",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>流放和死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"OUTCAST"
+				]
+			},
+			"second": {
+				"text": "獲得一張隨機<b>流放</b>卡牌",
+				"mechanics": [
+					"OUTCAST"
+				]
+			}
+		},
 		"availableAsSignature": true,
 		"referencedTags": [
 			"OUTCAST"
@@ -1347822,12 +1352247,26 @@
 		],
 		"attack": 3,
 		"health": 2,
-		"text": "<b>戰吼：</b>&在本回合結束時，召喚一個此手下的分身",
+		"text": "<b>戰吼：</b>在本回合結束時，召喚一個此手下的分身",
 		"flavor": "我們是軟泥怪。",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Dmitry Bolotov",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "在本回合結束時，召喚一個此手下的分身",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true
 	},
 	{
@@ -1347876,13 +1352315,28 @@
 		"cost": 3,
 		"attack": 2,
 		"durability": 3,
-		"text": "<b>戰吼：</b>&賦予一個隨機的友方手下<b>聖盾術</b>和<b>嘲諷</b>",
+		"text": "<b>戰吼：</b>賦予一個隨機的友方手下<b>聖盾術</b>和<b>嘲諷</b>",
 		"flavor": "你說，把這個東西從機器裡扯出來，雕上一些符文，裝上把手，就變成了強大的神聖武器？嗯，聽起來還不賴。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"GIVES_DIVINE_SHIELD"
 		],
 		"artist": "Dany Orizio",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "賦予一個隨機的友方手下<b>聖盾術</b>和<b>嘲諷</b>",
+				"mechanics": [
+					"GIVES_DIVINE_SHIELD"
+				]
+			}
+		},
 		"counterpartCards": [
 			2027,
 			130820
@@ -1348501,12 +1352955,25 @@
 		"cost": 4,
 		"attack": 2,
 		"durability": 2,
-		"text": "在你的英雄攻擊後，&召喚兩個有<b>衝刺</b>的2/2元素",
+		"text": "在你的英雄攻擊後，召喚兩個有<b>衝刺</b>的2/2元素",
 		"flavor": "繼魔眼隨身聽之後，古神眾多科技的最新力作。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Studio Hive",
+		"assembleHalves": {
+			"first": {
+				"text": "在你的英雄攻擊後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "召喚兩個有<b>衝刺</b>的2/2元素",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"RUSH"
 		]
@@ -1356211,6 +1360678,7 @@
 			"TARGETS_MINION"
 		],
 		"referencedTags": [
+			"ASSEMBLE",
 			"TAUNT"
 		]
 	},
@@ -1356729,12 +1361197,26 @@
 		],
 		"attack": 5,
 		"health": 5,
-		"text": "<b>戰吼：</b>&你每個法術系別的下一個法術\n會施放兩次",
+		"text": "<b>戰吼：</b>你每個法術系別的下一個法術\n會施放兩次",
 		"flavor": "atrtra dpkped 3Krlonen ubwetwefnen swalls gof jca<gg>ed r!o.,ck hand gcirashing vwaves u-ntil a7ll t|mhat remaibned )o(f 5him? zways sqaxnd.",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER"
 		],
 		"artist": "Stefan Bogdasarov",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>",
+				"mechanics": [
+					"BATTLECRY"
+				]
+			},
+			"second": {
+				"text": "你每個法術系別的下一個法術\n會施放兩次",
+				"mechanics": [
+				]
+			}
+		},
 		"availableAsSignature": true
 	},
 	{
@@ -1356829,6 +1361311,9 @@
 		"artist": "AJ Nazzaro",
 		"otherTags": [
 			"TARGETS_MINION"
+		],
+		"referencedTags": [
+			"ASSEMBLE"
 		]
 	},
 	{
@@ -1362749,12 +1367234,26 @@
 		},
 		"attack": 5,
 		"health": 3,
-		"text": "<b>死亡之聲：</b>召喚兩個隨機消耗為1的手下。\n&賦予你的手下\n+3攻擊力",
+		"text": "<b>死亡之聲：</b>召喚兩個隨機消耗為1的手下。\n賦予你的手下\n+3攻擊力",
 		"flavor": "從虛無來的虛無生物，名字總得特別一點。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE"
 		],
-		"artist": "Stefan Bogdasarov"
+		"artist": "Stefan Bogdasarov",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>死亡之聲：</b>召喚兩個隨機消耗為1的手下。",
+				"mechanics": [
+					"DEATHRATTLE"
+				]
+			},
+			"second": {
+				"text": "賦予你的手下\n+3攻擊力",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 131162,
@@ -1363616,13 +1368115,28 @@
 		],
 		"attack": 0,
 		"health": 1,
-		"text": "<b><b>重生</b>、</b><b>死亡之聲：</b>&賦予你手中全部手下+1/+1",
+		"text": "<b><b>重生</b>、</b><b>死亡之聲：</b>賦予你手中全部手下+1/+1",
 		"flavor": "我一看就知道是肚子痛。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"REBORN"
 		],
-		"artist": "Matt Dixon"
+		"artist": "Matt Dixon",
+		"assembleHalves": {
+			"first": {
+				"text": "<b><b>重生</b>、</b><b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"REBORN"
+				]
+			},
+			"second": {
+				"text": "賦予你手中全部手下+1/+1",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 131240,
@@ -1364002,6 +1368516,9 @@
 		"artist": "Mike Sass",
 		"otherTags": [
 			"TARGETS_MINION"
+		],
+		"referencedTags": [
+			"ASSEMBLE"
 		]
 	},
 	{
@@ -1365673,12 +1370190,25 @@
 		"faction": "HORDE",
 		"attack": 6,
 		"health": 6,
-		"text": "在每個玩家回合\n開始時，&攻擊一個\n隨機敵人",
+		"text": "在每個玩家回合\n開始時，攻擊一個\n隨機敵人",
 		"flavor": "想知道為什麼你的網路又斷了嗎？因為這傢伙把網路線叼走了！",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
-		"artist": "Gabor Szikszai"
+		"artist": "Gabor Szikszai",
+		"assembleHalves": {
+			"first": {
+				"text": "在每個玩家回合\n開始時，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "攻擊一個\n隨機敵人",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 131422,
@@ -1365710,12 +1370240,25 @@
 		"faction": "HORDE",
 		"attack": 3,
 		"health": 5,
-		"text": "在敵方手下於你的回合死亡後，&獲得+2/+2和隨機的<b>加成效果</b>",
+		"text": "在敵方手下於你的回合死亡後，獲得+2/+2和隨機的<b>加成效果</b>",
 		"flavor": "興趣：把東西劈成兩半。討厭：雨水/生鏽。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Ian Ameling",
+		"assembleHalves": {
+			"first": {
+				"text": "在敵方手下於你的回合死亡後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "獲得+2/+2和隨機的<b>加成效果</b>",
+				"mechanics": [
+				]
+			}
+		},
 		"referencedTags": [
 			"BONUS_EFFECTS"
 		]
@@ -1365740,13 +1370283,27 @@
 		],
 		"attack": 4,
 		"health": 8,
-		"text": "<b>飄渺</b>\n在此手下受到傷害後，&摧毀一個隨機敵方手下",
+		"text": "<b>飄渺</b>\n在此手下受到傷害後，摧毀一個隨機敵方手下",
 		"flavor": "等亞基蟲族熱騰騰出爐。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"ELUSIVE",
 			"TRIGGER_VISUAL"
 		],
-		"artist": "Luke Mancini"
+		"artist": "Luke Mancini",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>飄渺</b>\n在此手下受到傷害後，",
+				"mechanics": [
+					"ELUSIVE"
+				]
+			},
+			"second": {
+				"text": "摧毀一個隨機敵方手下",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 131454,
@@ -1365765,13 +1370322,28 @@
 		"faction": "HORDE",
 		"attack": 8,
 		"health": 8,
-		"text": "<b>戰吼：</b>對一個手下造成6點傷害。若其存活，&獲得+6生命值和<b>嘲諷</b>",
+		"text": "<b>戰吼：</b>對一個手下造成6點傷害。若其存活，獲得+6生命值和<b>嘲諷</b>",
 		"flavor": "簡直就是「再接再厲」這句話的化身。",
 		"mechanics": [
 			"BATTLECRY",
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Mauricio Herrera",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>戰吼：</b>對一個手下造成6點傷害。若其存活，",
+				"mechanics": [
+					"BATTLECRY",
+					"DEAL_DAMAGE"
+				]
+			},
+			"second": {
+				"text": "獲得+6生命值和<b>嘲諷</b>",
+				"mechanics": [
+				]
+			}
+		},
 		"otherTags": [
 			"TARGETS_MINION"
 		],
@@ -1369262,12 +1373834,25 @@
 		"cost": 2,
 		"attack": 3,
 		"health": 2,
-		"text": "若有<i>這張卡牌之外</i>的卡牌進入你的手中，&賦予雙方玩家一個\n隨機法術",
+		"text": "若有<i>這張卡牌之外</i>的卡牌進入你的手中，賦予雙方玩家一個\n隨機法術",
 		"flavor": ".tibhicu-ah-tdiowb-asolsldeiposa-orbite-hcta-od-etrdeytos-alms-otlauh-tb-okinfoams-sgsnuilreu-tanterv-dlab-fnoay-od-nyaL-sgonaieKS-rykelkgnuolM",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
-		"artist": "Jakub Kasper"
+		"artist": "Jakub Kasper",
+		"assembleHalves": {
+			"first": {
+				"text": "若有<i>這張卡牌之外</i>的卡牌進入你的手中，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "賦予雙方玩家一個\n隨機法術",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 132136,
@@ -1369847,13 +1374432,28 @@
 		],
 		"attack": 3,
 		"health": 3,
-		"text": "<b><b>嘲諷</b></b>、<b>死亡之聲：</b>&召喚法力消耗總計為4點的\n隨機機械",
+		"text": "<b><b>嘲諷</b></b>、<b>死亡之聲：</b>召喚法力消耗總計為4點的\n隨機機械",
 		"flavor": "還有一款零排放車型，是由倉鼠驅動。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"TAUNT"
 		],
-		"artist": "Melvin Chan"
+		"artist": "Melvin Chan",
+		"assembleHalves": {
+			"first": {
+				"text": "<b><b>嘲諷</b></b>、<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "召喚法力消耗總計為4點的\n隨機機械",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 132182,
@@ -1371911,6 +1376511,9 @@
 		"availableAsDiamond": true,
 		"otherTags": [
 			"TARGETS_MINION"
+		],
+		"referencedTags": [
+			"ASSEMBLE"
 		]
 	},
 	{
@@ -1372416,12 +1377019,25 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 5,
-		"text": "在你打出中立牌後，&本回合你的下一個法術消耗減少(1)",
+		"text": "在你打出中立牌後，本回合你的下一個法術消耗減少(1)",
 		"flavor": "真希望哪天能碰上一位和平大師。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
-		"artist": "James Ryman"
+		"artist": "James Ryman",
+		"assembleHalves": {
+			"first": {
+				"text": "在你打出中立牌後，",
+				"mechanics": [
+				]
+			},
+			"second": {
+				"text": "本回合你的下一個法術消耗減少(1)",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 132539,
@@ -1383206,15 +1387822,32 @@
 		"faction": "NEUTRAL",
 		"attack": 2,
 		"health": 5,
-		"text": "<b>嘲諷</b>、<b>重生</b>\n<b>死亡之聲：</b>&為你的英雄恢復#3點生命值",
+		"text": "<b>嘲諷</b>、<b>重生</b>\n<b>死亡之聲：</b>為你的英雄恢復#3點生命值",
 		"flavor": "可愛防衛者",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"REBORN",
 			"TAUNT",
 			"RESTORE_HEALTH"
 		],
-		"artist": "Daniil Kudriavtsev"
+		"artist": "Daniil Kudriavtsev",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>、<b>重生</b>\n<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"REBORN",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "為你的英雄恢復#3點生命值",
+				"mechanics": [
+					"RESTORE_HEALTH"
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 133417,
@@ -1392771,13 +1397404,28 @@
 		],
 		"attack": 2,
 		"health": 4,
-		"text": "<b>嘲諷</b>、<b>死亡之聲：</b>&抽出等同於此手下攻擊力\n的卡牌",
+		"text": "<b>嘲諷</b>、<b>死亡之聲：</b>抽出等同於此手下攻擊力\n的卡牌",
 		"flavor": "有些人外出和古神戰鬥，有些人則喜歡待在基地裡儲備糧食。",
 		"mechanics": [
+			"CRAFTABLE_OUTPUT_POWER",
 			"DEATHRATTLE",
 			"TAUNT"
 		],
-		"artist": "Eva Widermann"
+		"artist": "Eva Widermann",
+		"assembleHalves": {
+			"first": {
+				"text": "<b>嘲諷</b>、<b>死亡之聲：</b>",
+				"mechanics": [
+					"DEATHRATTLE",
+					"TAUNT"
+				]
+			},
+			"second": {
+				"text": "抽出等同於此手下攻擊力\n的卡牌",
+				"mechanics": [
+				]
+			}
+		}
 	},
 	{
 		"dbfId": 134937,
