@@ -1032355,7 +1032355,7 @@
 		"spellSchool": "TAVERN",
 		"techLevel": 4,
 		"isBaconPool": true,
-		"text": "การ์ดใบนี้เล่น <b>ผลึกเลือด</b> 3 ใบ[b]ใส่มินเนี่ยนหนึ่งตัว มินเนี่ยน[b]ตัวนั้นขโมย <b>ผลึกเลือด</b> ทั้งหมดจากตัวที่อยู่ติดกัน",
+		"text": "F cการ์ดใบนี้เล่น <b>ผลึกเลือด</b> 3 ใบ[b]ใส่มินเนี่ยนหนึ่งตัว มินเนี่ยน[b]ตัวนั้นขโมย <b>ผลึกเลือด</b> ทั้งหมดจากตัวที่อยู่ติดกัน",
 		"otherTags": [
 			"TARGETS_MINION"
 		],
@@ -1154098,6 +1154098,7 @@
 			"first": {
 				"text": "เมื่อจบเทิร์นของคุณ",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1171854,7 +1171855,8 @@
 			"first": {
 				"text": "<b>ยั่วยุ</b>\nเมื่อจบเทิร์นของคุณ",
 				"mechanics": [
-					"TAUNT"
+					"TAUNT",
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1251150,7 +1251152,8 @@
 			"first": {
 				"text": "<b>หลบหลีก</b> เมื่อจบเทิร์นของคุณ",
 				"mechanics": [
-					"ELUSIVE"
+					"ELUSIVE",
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1254749,7 +1254752,7 @@
 		],
 		"attack": 3,
 		"health": 4,
-		"text": "เมื่อจบเทิร์นของคุณ สุ่มรับ[b]เวทมนตร์ศักดิ์สิทธิ์หนึ่งใบ ลดค่าร่ายของมันลง (3)",
+		"text": "เมื่อจบเทิร์นของคุณ สุ่มรับ[b]เวทมนตร์ศักดิ์สิทธิ์หนึ่งใบ[b]ลดค่าร่ายของมันลง (3)",
 		"flavor": "หอกข้างแคร่ ส่วนเธอค่อนข้างแคร์หอก",
 		"mechanics": [
 			"CRAFTABLE_OUTPUT_POWER",
@@ -1254767,7 +1254770,7 @@
 				]
 			},
 			"second": {
-				"text": "สุ่มรับ[b]เวทมนตร์ศักดิ์สิทธิ์หนึ่งใบ ลดค่าร่ายของมันลง (3)",
+				"text": "สุ่มรับ[b]เวทมนตร์ศักดิ์สิทธิ์หนึ่งใบ[b]ลดค่าร่ายของมันลง (3)",
 				"mechanics": [
 				]
 			}
@@ -1254841,6 +1254844,7 @@
 			"first": {
 				"text": "เมื่อจบเทิร์นของคุณ",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1254922,6 +1254926,7 @@
 			"first": {
 				"text": "เมื่อจบเทิร์นของคุณ",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1255199,6 +1255204,7 @@
 			"first": {
 				"text": "เมื่อจบเทิร์นของคุณ",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1288275,7 +1288281,7 @@
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 5,
-		"text": "<b>ปลุกใจ:</b> เรียกมินเนี่ยน[b]พลังโจมตีสูงสุดจากมือคุณ[b]ในการต่อสู้รอบนี้เท่านั้น",
+		"text": "<b>ปลุกใจ:</b> เรียกเมอร์ล็อค [b]พลังโจมตีสูงสุดจากมือคุณ[b]ในการต่อสู้รอบนี้เท่านั้น",
 		"mechanics": [
 			"BACON_RALLY"
 		],
@@ -1331783,7 +1331789,13 @@
 				"mechanics": [
 				]
 			}
-		}
+		},
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 128334,
@@ -1332185,6 +1332197,12 @@
 		"availableAsSignature": true,
 		"referencedTags": [
 			"DEATHRATTLE"
+		],
+		"relatedCardDbfIds": [
+			128398,
+			129215,
+			129205,
+			129210
 		]
 	},
 	{
@@ -1335513,7 +1335531,11 @@
 		"text": "ย้ายเวทมนตร์ทั้งหมดใน[b] เด็คคุณมาอยู่บนสุด คุณ[b]เลือกจั่วการ์ดจากบนสุดหรือ[b]ล่างสุดได้ในแต่ละเทิร์น",
 		"flavor": "ในที่สุดก็มีคนรู้จักใช้แผ่นรองแก้ว",
 		"artist": "Tanamaes Leejierasaes",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			131172,
+			131173
+		]
 	},
 	{
 		"dbfId": 129113,
@@ -1336161,7 +1336183,10 @@
 				"mechanics": [
 				]
 			}
-		}
+		},
+		"relatedCardDbfIds": [
+			130638
+		]
 	},
 	{
 		"dbfId": 129137,
@@ -1336183,7 +1336208,10 @@
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
-		"artist": "James Ryman"
+		"artist": "James Ryman",
+		"relatedCardDbfIds": [
+			129250
+		]
 	},
 	{
 		"dbfId": 129164,
@@ -1337274,7 +1337302,13 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
-		"artist": "Sonderflex"
+		"artist": "Sonderflex",
+		"relatedCardDbfIds": [
+			129236,
+			131120,
+			129237,
+			131121
+		]
 	},
 	{
 		"dbfId": 129236,
@@ -1337348,6 +1337382,9 @@
 		"availableAsSignature": true,
 		"referencedTags": [
 			"DISCOVER"
+		],
+		"relatedCardDbfIds": [
+			132338
 		]
 	},
 	{
@@ -1341750,6 +1341787,9 @@
 		"artist": "James Ryman",
 		"referencedTags": [
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			129795
 		]
 	},
 	{
@@ -1341965,6 +1342005,9 @@
 		"referencedTags": [
 			"ASSEMBLE",
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			130665
 		]
 	},
 	{
@@ -1342170,7 +1342213,10 @@
 				"mechanics": [
 				]
 			}
-		}
+		},
+		"relatedCardDbfIds": [
+			129794
+		]
 	},
 	{
 		"dbfId": 129821,
@@ -1342191,6 +1342237,9 @@
 		"artist": "Matt Dixon",
 		"referencedTags": [
 			"ASSEMBLE"
+		],
+		"relatedCardDbfIds": [
+			129794
 		]
 	},
 	{
@@ -1342260,7 +1342309,12 @@
 			"BATTLECRY"
 		],
 		"artist": "Matt Dixon",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			130669,
+			130670,
+			130671
+		]
 	},
 	{
 		"dbfId": 129837,
@@ -1342740,6 +1342794,10 @@
 		},
 		"otherTags": [
 			"TARGETS_MINION"
+		],
+		"relatedCardDbfIds": [
+			69503,
+			395
 		]
 	},
 	{
@@ -1343165,6 +1343223,9 @@
 		"artist": "BOSi Studio",
 		"referencedTags": [
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			130689
 		]
 	},
 	{
@@ -1344806,7 +1344867,13 @@
 		"mechanics": [
 			"COMBO"
 		],
-		"artist": "Vladimir Kafanov"
+		"artist": "Vladimir Kafanov",
+		"relatedCardDbfIds": [
+			764,
+			537,
+			850,
+			458
+		]
 	},
 	{
 		"dbfId": 130102,
@@ -1344831,7 +1344898,10 @@
 		"mechanics": [
 			"COMBO"
 		],
-		"artist": "Vladimir Kafanov"
+		"artist": "Vladimir Kafanov",
+		"relatedCardDbfIds": [
+			485
+		]
 	},
 	{
 		"dbfId": 130103,
@@ -1344856,7 +1344926,10 @@
 		"mechanics": [
 			"COMBO"
 		],
-		"artist": "Vladimir Kafanov"
+		"artist": "Vladimir Kafanov",
+		"relatedCardDbfIds": [
+			1652
+		]
 	},
 	{
 		"dbfId": 130104,
@@ -1345041,6 +1345114,9 @@
 		"artist": "Vladimir Kafanov",
 		"referencedTags": [
 			"CHARGE"
+		],
+		"relatedCardDbfIds": [
+			78164
 		]
 	},
 	{
@@ -1345072,6 +1345148,20 @@
 		"artist": "Vladimir Kafanov",
 		"referencedTags": [
 			"COMBO"
+		],
+		"relatedCardDbfIds": [
+			130108,
+			130101,
+			130102,
+			130103,
+			130104,
+			130105,
+			130106,
+			130107,
+			130100,
+			130109,
+			130110,
+			133414
 		]
 	},
 	{
@@ -1345238,6 +1345328,20 @@
 		"artist": "Mike Sass",
 		"referencedTags": [
 			"COMBO"
+		],
+		"relatedCardDbfIds": [
+			130108,
+			130101,
+			130102,
+			130103,
+			130104,
+			130105,
+			130106,
+			130107,
+			130100,
+			130109,
+			130110,
+			133414
 		]
 	},
 	{
@@ -1345263,6 +1345367,20 @@
 		"artist": "Vladimir Kafanov",
 		"referencedTags": [
 			"COMBO"
+		],
+		"relatedCardDbfIds": [
+			130108,
+			130101,
+			130102,
+			130103,
+			130104,
+			130105,
+			130106,
+			130107,
+			130100,
+			130109,
+			130110,
+			133414
 		]
 	},
 	{
@@ -1345959,7 +1346077,13 @@
 			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_3": 1
 		},
-		"artist": "Mauricio Herrera"
+		"artist": "Mauricio Herrera",
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 130282,
@@ -1346693,6 +1346817,9 @@
 		"artist": "BOSi Studio",
 		"referencedTags": [
 			"DIVINE_SHIELD"
+		],
+		"relatedCardDbfIds": [
+			130644
 		]
 	},
 	{
@@ -1347288,6 +1347415,9 @@
 		"artist": "Zoltan Boros",
 		"referencedTags": [
 			"LIFESTEAL"
+		],
+		"relatedCardDbfIds": [
+			130406
 		]
 	},
 	{
@@ -1347501,6 +1347631,9 @@
 		"artist": "Kevin Sidharta",
 		"referencedTags": [
 			"RUSH"
+		],
+		"relatedCardDbfIds": [
+			130778
 		]
 	},
 	{
@@ -1349913,6 +1350046,9 @@
 		"artist": "Kevin Sidharta",
 		"referencedTags": [
 			"DIVINE_SHIELD"
+		],
+		"relatedCardDbfIds": [
+			130644
 		]
 	},
 	{
@@ -1349963,6 +1350099,9 @@
 		},
 		"referencedTags": [
 			"RUSH"
+		],
+		"relatedCardDbfIds": [
+			130778
 		]
 	},
 	{
@@ -1350993,6 +1351132,9 @@
 		"artist": "Patrik Bjorkstrom",
 		"referencedTags": [
 			"CHARGE"
+		],
+		"relatedCardDbfIds": [
+			130864
 		]
 	},
 	{
@@ -1352976,6 +1353118,9 @@
 		},
 		"referencedTags": [
 			"RUSH"
+		],
+		"relatedCardDbfIds": [
+			131302
 		]
 	},
 	{
@@ -1367517,6 +1367662,9 @@
 		"referencedTags": [
 			"DEATHRATTLE",
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			131181
 		]
 	},
 	{
@@ -1368239,7 +1368387,13 @@
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Studio Hive",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 131268,
@@ -1369194,7 +1369348,13 @@
 		"spellSchool": "SHADOW",
 		"text": "เลือกใช้[b]ความสามารถคาธูน[b]ที่ต่างกันสองอย่าง",
 		"flavor": "ไม่ต้องกังวลภยันตรายจากภายนอกอีกต่อไป เพราะเรื่องเดียวที่คุณต้องกังวลมาอยู่เหนือหัวคุณแล้ว",
-		"artist": "Mooncolony"
+		"artist": "Mooncolony",
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 131362,
@@ -1373200,6 +1373360,12 @@
 		"availableAsSignature": true,
 		"referencedTags": [
 			"IMMUNE"
+		],
+		"relatedCardDbfIds": [
+			131852,
+			131854,
+			131853,
+			131855
 		]
 	},
 	{
@@ -1376212,10 +1376378,16 @@
 		"cost": 10,
 		"attack": 12,
 		"health": 12,
-		"text": "<b>เทพโบราณ</b> เมื่อคุณใช้ความสามารถของคาธูน[b]ทั้ง 4 อย่างในเกมนี้ เพิ่มเอฟเฟกต์[b]ของมินเนี่ยนตัวนี้เป็นสามเท่า",
+		"text": "<b>เทพโบราณ</b> ถ้าคุณใช้ความสามารถของคาธูน[b]ครบ 4 อย่างในเกมนี้ เอฟเฟกต์ของ[b]มินเนี่ยนตัวนี้เพิ่มขึ้นสามเท่า",
 		"flavor": "\"อามิทัต ผู้พิทักษ์อามิทัส\"\n\"ฟักเป็นตัว\"\n\"ผู้มิอาจหยั่งรู้\"",
 		"artist": "Kevin Sidharta",
 		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		],
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1376269,7 +1376441,7 @@
 	{
 		"dbfId": 132342,
 		"id": "BE_013t4",
-		"name": "เหล่าสาวกของคาธูน",
+		"name": "ข้ารับใช้ของคาธูน",
 		"type": "Spell",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
@@ -1376279,11 +1376451,14 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "เรียกสาวก 2/2 ที่มี <b>ยั่วยุ</b> สองตัว",
+		"text": "เรียกสาวก 2/3 ที่มี <b>ยั่วยุ</b> สองตัว",
 		"artist": "Stefan Bogdasarov",
 		"hideStats": true,
 		"referencedTags": [
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			132349
 		]
 	},
 	{
@@ -1376299,7 +1376474,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "<b>สูบชีวิต</b> สร้าง[b]ความเสียหาย 4 แต้ม[b]ให้มินเนี่ยนศัตรูหนึ่งตัว",
+		"text": "<b>สูบชีวิต</b> สร้างความเสียหาย 5 แต้ม[b]ให้มินเนี่ยนศัตรูหนึ่งตัว",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376326,7 +1376501,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "สุ่มมอบ +3/+3 ให้มินเนี่ยนฝ่ายคุณ[b]ตัวอื่นสองตัว",
+		"text": "สุ่มมอบ +2/+3 ให้มินเนี่ยนฝ่ายคุณ[b]ตัวอื่นสองตัว",
 		"artist": "Kevin Sidharta",
 		"hideStats": true
 	},
@@ -1376343,7 +1376518,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "สร้างความเสียหาย 5 แต้มโดยสุ่มแบ่งกัน[b]ระหว่างศัตรูทั้งหมด",
+		"text": "สร้างความเสียหาย 7 แต้มโดยสุ่มแบ่งกัน[b]ระหว่างศัตรูทั้งหมด",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376398,7 +1376573,13 @@
 			"BATTLECRY"
 		],
 		"artist": "Alex Horley Orlandelli",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 132348,
@@ -1376425,7 +1376606,13 @@
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
 		"artist": "Ivo Campelo da Silva",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 132349,
@@ -1376514,6 +1376701,9 @@
 		],
 		"referencedTags": [
 			"ASSEMBLE"
+		],
+		"relatedCardDbfIds": [
+			132368
 		]
 	},
 	{
@@ -1377138,7 +1377328,13 @@
 			"BATTLECRY"
 		],
 		"artist": "Todd Harris",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132548,
+			132549,
+			132550,
+			132551
+		]
 	},
 	{
 		"dbfId": 132548,

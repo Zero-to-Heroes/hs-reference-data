@@ -1154098,6 +1154098,7 @@
 			"first": {
 				"text": "No final do seu turno,",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1171854,7 +1171855,8 @@
 			"first": {
 				"text": "<b>Provocar</b>. No final do seu turno,",
 				"mechanics": [
-					"TAUNT"
+					"TAUNT",
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1251150,7 +1251152,8 @@
 			"first": {
 				"text": "<b>Elusivo</b>. No final do seu turno,",
 				"mechanics": [
-					"ELUSIVE"
+					"ELUSIVE",
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1254841,6 +1254844,7 @@
 			"first": {
 				"text": "No final do seu turno,",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1254922,6 +1254926,7 @@
 			"first": {
 				"text": "No final do seu turno,",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1255199,6 +1255204,7 @@
 			"first": {
 				"text": "No final do seu turno,",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1288275,7 +1288281,7 @@
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 5,
-		"text": "<b>Conclamar:</b> Evoque o lacaio de maior Ataque na sua mão apenas para este combate.",
+		"text": "<b>Conclamar:</b> Evoque o Murloc de maior Ataque na sua mão apenas para este combate.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
@@ -1331772,18 +1331778,24 @@
 		"artist": "Ian Ameling",
 		"assembleHalves": {
 			"first": {
-				"text": "<b>Taunt</b>\n<b>Battlecry:</b>",
+				"text": "<b>Provocar</b>. <b>Grito de Guerra:</b>",
 				"mechanics": [
 					"BATTLECRY",
 					"TAUNT"
 				]
 			},
 			"second": {
-				"text": "Choose a C'Thun\nability to trigger.",
+				"text": "Escolha uma habilidade de C'Thun para ativar.",
 				"mechanics": [
 				]
 			}
-		}
+		},
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 128334,
@@ -1332185,6 +1332197,12 @@
 		"availableAsSignature": true,
 		"referencedTags": [
 			"DEATHRATTLE"
+		],
+		"relatedCardDbfIds": [
+			128398,
+			129215,
+			129205,
+			129210
 		]
 	},
 	{
@@ -1335513,7 +1335531,11 @@
 		"text": "Coloque todos os feitiços do seu deck no topo. Você pode escolher comprar do topo ou do fim a cada turno.",
 		"flavor": "Finalmente, ALGUÉM que usa porta-copos.",
 		"artist": "Tanamaes Leejierasaes",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			131172,
+			131173
+		]
 	},
 	{
 		"dbfId": 129113,
@@ -1336128,7 +1336150,7 @@
 	{
 		"dbfId": 129131,
 		"id": "BE_152",
-		"name": "Dançarino do Sol",
+		"name": "Dançarina do Sol",
 		"type": "Minion",
 		"cardClass": "PALADIN",
 		"playerClass": "Paladin",
@@ -1336161,7 +1336183,10 @@
 				"mechanics": [
 				]
 			}
-		}
+		},
+		"relatedCardDbfIds": [
+			130638
+		]
 	},
 	{
 		"dbfId": 129137,
@@ -1336183,7 +1336208,10 @@
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
-		"artist": "James Ryman"
+		"artist": "James Ryman",
+		"relatedCardDbfIds": [
+			129250
+		]
 	},
 	{
 		"dbfId": 129164,
@@ -1337274,7 +1337302,13 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
-		"artist": "Sonderflex"
+		"artist": "Sonderflex",
+		"relatedCardDbfIds": [
+			129236,
+			131120,
+			129237,
+			131121
+		]
 	},
 	{
 		"dbfId": 129236,
@@ -1337348,6 +1337382,9 @@
 		"availableAsSignature": true,
 		"referencedTags": [
 			"DISCOVER"
+		],
+		"relatedCardDbfIds": [
+			132338
 		]
 	},
 	{
@@ -1341750,6 +1341787,9 @@
 		"artist": "James Ryman",
 		"referencedTags": [
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			129795
 		]
 	},
 	{
@@ -1341877,7 +1341917,7 @@
 	{
 		"dbfId": 129799,
 		"id": "BE_553e",
-		"name": "Superaquecendo",
+		"name": "No Limite",
 		"type": "Enchantment",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
@@ -1341965,6 +1342005,9 @@
 		"referencedTags": [
 			"ASSEMBLE",
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			130665
 		]
 	},
 	{
@@ -1342170,7 +1342213,10 @@
 				"mechanics": [
 				]
 			}
-		}
+		},
+		"relatedCardDbfIds": [
+			129794
+		]
 	},
 	{
 		"dbfId": 129821,
@@ -1342191,6 +1342237,9 @@
 		"artist": "Matt Dixon",
 		"referencedTags": [
 			"ASSEMBLE"
+		],
+		"relatedCardDbfIds": [
+			129794
 		]
 	},
 	{
@@ -1342260,7 +1342309,12 @@
 			"BATTLECRY"
 		],
 		"artist": "Matt Dixon",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			130669,
+			130670,
+			130671
+		]
 	},
 	{
 		"dbfId": 129837,
@@ -1342740,6 +1342794,10 @@
 		},
 		"otherTags": [
 			"TARGETS_MINION"
+		],
+		"relatedCardDbfIds": [
+			69503,
+			395
 		]
 	},
 	{
@@ -1342959,7 +1343017,7 @@
 	{
 		"dbfId": 129938,
 		"id": "BE_558",
-		"name": "Manoplas de Pedra",
+		"name": "Manopla de Pedra",
 		"type": "Weapon",
 		"cardClass": "WARRIOR",
 		"playerClass": "Warrior",
@@ -1343165,6 +1343223,9 @@
 		"artist": "BOSi Studio",
 		"referencedTags": [
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			130689
 		]
 	},
 	{
@@ -1344806,7 +1344867,13 @@
 		"mechanics": [
 			"COMBO"
 		],
-		"artist": "Vladimir Kafanov"
+		"artist": "Vladimir Kafanov",
+		"relatedCardDbfIds": [
+			764,
+			537,
+			850,
+			458
+		]
 	},
 	{
 		"dbfId": 130102,
@@ -1344831,7 +1344898,10 @@
 		"mechanics": [
 			"COMBO"
 		],
-		"artist": "Vladimir Kafanov"
+		"artist": "Vladimir Kafanov",
+		"relatedCardDbfIds": [
+			485
+		]
 	},
 	{
 		"dbfId": 130103,
@@ -1344856,7 +1344926,10 @@
 		"mechanics": [
 			"COMBO"
 		],
-		"artist": "Vladimir Kafanov"
+		"artist": "Vladimir Kafanov",
+		"relatedCardDbfIds": [
+			1652
+		]
 	},
 	{
 		"dbfId": 130104,
@@ -1345041,6 +1345114,9 @@
 		"artist": "Vladimir Kafanov",
 		"referencedTags": [
 			"CHARGE"
+		],
+		"relatedCardDbfIds": [
+			78164
 		]
 	},
 	{
@@ -1345072,6 +1345148,20 @@
 		"artist": "Vladimir Kafanov",
 		"referencedTags": [
 			"COMBO"
+		],
+		"relatedCardDbfIds": [
+			130108,
+			130101,
+			130102,
+			130103,
+			130104,
+			130105,
+			130106,
+			130107,
+			130100,
+			130109,
+			130110,
+			133414
 		]
 	},
 	{
@@ -1345090,7 +1345180,7 @@
 		"cost": 4,
 		"attack": 4,
 		"health": 4,
-		"text": "Depois que você jogar\num card de <b>Combo</b>,\ncause 3 de dano a\num inimigo aleatório.",
+		"text": "Depois que você jogar\num card de <b>Combo</b>, cause 3 de dano a\num inimigo aleatório.",
 		"flavor": "Ficar encarando é feio, viu?!",
 		"mechanics": [
 			"CRAFTABLE_OUTPUT_POWER",
@@ -1345100,12 +1345190,12 @@
 		"artist": "Kevin Sidharta",
 		"assembleHalves": {
 			"first": {
-				"text": "After you play a <b>Combo</b> card,",
+				"text": "Depois que você jogar\num card de <b>Combo</b>,",
 				"mechanics": [
 				]
 			},
 			"second": {
-				"text": "deal 3 damage to a random enemy.",
+				"text": "cause 3 de dano a\num inimigo aleatório.",
 				"mechanics": [
 					"DEAL_DAMAGE"
 				]
@@ -1345238,6 +1345328,20 @@
 		"artist": "Mike Sass",
 		"referencedTags": [
 			"COMBO"
+		],
+		"relatedCardDbfIds": [
+			130108,
+			130101,
+			130102,
+			130103,
+			130104,
+			130105,
+			130106,
+			130107,
+			130100,
+			130109,
+			130110,
+			133414
 		]
 	},
 	{
@@ -1345263,6 +1345367,20 @@
 		"artist": "Vladimir Kafanov",
 		"referencedTags": [
 			"COMBO"
+		],
+		"relatedCardDbfIds": [
+			130108,
+			130101,
+			130102,
+			130103,
+			130104,
+			130105,
+			130106,
+			130107,
+			130100,
+			130109,
+			130110,
+			133414
 		]
 	},
 	{
@@ -1345959,7 +1346077,13 @@
 			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_3": 1
 		},
-		"artist": "Mauricio Herrera"
+		"artist": "Mauricio Herrera",
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 130282,
@@ -1346693,6 +1346817,9 @@
 		"artist": "BOSi Studio",
 		"referencedTags": [
 			"DIVINE_SHIELD"
+		],
+		"relatedCardDbfIds": [
+			130644
 		]
 	},
 	{
@@ -1347288,6 +1347415,9 @@
 		"artist": "Zoltan Boros",
 		"referencedTags": [
 			"LIFESTEAL"
+		],
+		"relatedCardDbfIds": [
+			130406
 		]
 	},
 	{
@@ -1347501,6 +1347631,9 @@
 		"artist": "Kevin Sidharta",
 		"referencedTags": [
 			"RUSH"
+		],
+		"relatedCardDbfIds": [
+			130778
 		]
 	},
 	{
@@ -1349913,6 +1350046,9 @@
 		"artist": "Kevin Sidharta",
 		"referencedTags": [
 			"DIVINE_SHIELD"
+		],
+		"relatedCardDbfIds": [
+			130644
 		]
 	},
 	{
@@ -1349963,6 +1350099,9 @@
 		},
 		"referencedTags": [
 			"RUSH"
+		],
+		"relatedCardDbfIds": [
+			130778
 		]
 	},
 	{
@@ -1350993,6 +1351132,9 @@
 		"artist": "Patrik Bjorkstrom",
 		"referencedTags": [
 			"CHARGE"
+		],
+		"relatedCardDbfIds": [
+			130864
 		]
 	},
 	{
@@ -1351133,14 +1351275,14 @@
 		"artist": "Slawomir Maniak",
 		"assembleHalves": {
 			"first": {
-				"text": "[x]<b>Outcast and Deathrattle:</b>",
+				"text": "<b>Exilar e Último Suspiro:</b>",
 				"mechanics": [
 					"DEATHRATTLE",
 					"OUTCAST"
 				]
 			},
 			"second": {
-				"text": "Get a random <b>Outcast</b> card.",
+				"text": "Receba um card aleatório com <b>Exilar</b>.",
 				"mechanics": [
 					"OUTCAST"
 				]
@@ -1352976,6 +1353118,9 @@
 		},
 		"referencedTags": [
 			"RUSH"
+		],
+		"relatedCardDbfIds": [
+			131302
 		]
 	},
 	{
@@ -1361206,13 +1361351,13 @@
 		"artist": "Stefan Bogdasarov",
 		"assembleHalves": {
 			"first": {
-				"text": "[x]<b>Battlecry:</b>",
+				"text": "<b>Grito de Guerra:</b>",
 				"mechanics": [
 					"BATTLECRY"
 				]
 			},
 			"second": {
-				"text": "Your next spell\nof each school casts twice.",
+				"text": "Seu próximo feitiço de cada escola é lançado duas vezes.",
 				"mechanics": [
 				]
 			}
@@ -1367243,13 +1367388,13 @@
 		"artist": "Stefan Bogdasarov",
 		"assembleHalves": {
 			"first": {
-				"text": "<b>Deathrattle:</b> Summon\ntwo random 1-Cost\nminions.",
+				"text": "<b>Último Suspiro:</b> Evoque dois lacaios aleatórios de Custo 1.",
 				"mechanics": [
 					"DEATHRATTLE"
 				]
 			},
 			"second": {
-				"text": "Give your minions +3 Attack.",
+				"text": "Conceda +3 de Ataque aos seus lacaios.",
 				"mechanics": [
 				]
 			}
@@ -1367517,6 +1367662,9 @@
 		"referencedTags": [
 			"DEATHRATTLE",
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			131181
 		]
 	},
 	{
@@ -1368239,7 +1368387,13 @@
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Studio Hive",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 131268,
@@ -1369194,7 +1369348,13 @@
 		"spellSchool": "SHADOW",
 		"text": "Escolha duas habilidades diferentes de C'Thun para ativar.",
 		"flavor": "C'Thun está sempre de olho no que quer.",
-		"artist": "Mooncolony"
+		"artist": "Mooncolony",
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 131362,
@@ -1373200,6 +1373360,12 @@
 		"availableAsSignature": true,
 		"referencedTags": [
 			"IMMUNE"
+		],
+		"relatedCardDbfIds": [
+			131852,
+			131854,
+			131853,
+			131855
 		]
 	},
 	{
@@ -1376212,10 +1376378,16 @@
 		"cost": 10,
 		"attack": 12,
 		"health": 12,
-		"text": "<b>Deus Antigo.</b> Quando você usar todas as 4 habilidades de C'Thun nesta partida, triplique os efeitos deste lacaio.",
+		"text": "<b>Deus Antigo.</b> Se você ativou todas as 4 habilidades de C'Thun nesta partida, as habilidades deste lacaio são triplicadas.",
 		"flavor": "\"Amitut, Keeper of Amitus\"/2 + (2*\"Incubate\")/2 + (2*\"The Unknowable One\"/3)",
 		"artist": "Kevin Sidharta",
 		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		],
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1376269,7 +1376441,7 @@
 	{
 		"dbfId": 132342,
 		"id": "BE_013t4",
-		"name": "Discípulos de C'Thun",
+		"name": "Servos de C'Thun",
 		"type": "Spell",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
@@ -1376279,11 +1376451,14 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "Evoque dois Fanáticos 2/2 com <b>Provocar</b>.",
+		"text": "Evoque dois Fanáticos 2/3 com <b>Provocar</b>.",
 		"artist": "Stefan Bogdasarov",
 		"hideStats": true,
 		"referencedTags": [
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			132349
 		]
 	},
 	{
@@ -1376299,7 +1376474,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "<b>Roubar Vida</b>\nCause 4 de dano a um lacaio inimigo.",
+		"text": "<b>Roubar Vida</b>\nCause 5 de dano a um lacaio inimigo.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376326,7 +1376501,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "Conceda +3/+3 a\ndois outros lacaios aliados aleatórios.",
+		"text": "Conceda +2/+3 a\ndois outros lacaios aliados aleatórios.",
 		"artist": "Kevin Sidharta",
 		"hideStats": true
 	},
@@ -1376343,7 +1376518,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Cause 5 de dano dividido aleatoriamente entre os inimigos.",
+		"text": "Cause 7 de dano dividido aleatoriamente entre os inimigos.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376398,7 +1376573,13 @@
 			"BATTLECRY"
 		],
 		"artist": "Alex Horley Orlandelli",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 132348,
@@ -1376425,7 +1376606,13 @@
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
 		"artist": "Ivo Campelo da Silva",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 132349,
@@ -1376514,6 +1376701,9 @@
 		],
 		"referencedTags": [
 			"ASSEMBLE"
+		],
+		"relatedCardDbfIds": [
+			132368
 		]
 	},
 	{
@@ -1377138,7 +1377328,13 @@
 			"BATTLECRY"
 		],
 		"artist": "Todd Harris",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132548,
+			132549,
+			132550,
+			132551
+		]
 	},
 	{
 		"dbfId": 132548,

@@ -610145,6 +610145,7 @@
 			"first": {
 				"text": "[x]At the end of your\nturn,",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -621901,7 +621902,8 @@
 			"first": {
 				"text": "[x]<b>Taunt</b>. At the end of your\nturn,",
 				"mechanics": [
-					"TAUNT"
+					"TAUNT",
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -656917,7 +656919,8 @@
 			"first": {
 				"text": "<b>Elusive</b>\nAt the end of your\nturn,",
 				"mechanics": [
-					"ELUSIVE"
+					"ELUSIVE",
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -658588,6 +658591,7 @@
 			"first": {
 				"text": "[x]At the end of your\nturn,",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -658630,6 +658634,7 @@
 			"first": {
 				"text": "[x]At the end of your\nturn,",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -658780,6 +658785,7 @@
 			"first": {
 				"text": "At the end of your\nturn,",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -691930,7 +691936,13 @@
 				"mechanics": [
 				]
 			}
-		}
+		},
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 128334,
@@ -692176,6 +692188,12 @@
 		"availableAsSignature": true,
 		"referencedTags": [
 			"DEATHRATTLE"
+		],
+		"relatedCardDbfIds": [
+			128398,
+			129215,
+			129205,
+			129210
 		]
 	},
 	{
@@ -694338,7 +694356,11 @@
 		"spellSchool": "ARCANE",
 		"text": "[x]Move all spells in your\ndeck to the top. You can\npick to draw from the top\nor bottom each turn.",
 		"flavor": "Finally, SOMEONE who uses a coaster.",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			131172,
+			131173
+		]
 	},
 	{
 		"dbfId": 129113,
@@ -694725,7 +694747,10 @@
 				"mechanics": [
 				]
 			}
-		}
+		},
+		"relatedCardDbfIds": [
+			130638
+		]
 	},
 	{
 		"dbfId": 129137,
@@ -694746,6 +694771,9 @@
 		"flavor": "The sun is a deadly laser.",
 		"mechanics": [
 			"DEAL_DAMAGE"
+		],
+		"relatedCardDbfIds": [
+			129250
 		]
 	},
 	{
@@ -695492,7 +695520,13 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
-		}
+		},
+		"relatedCardDbfIds": [
+			129236,
+			131120,
+			129237,
+			131121
+		]
 	},
 	{
 		"dbfId": 129236,
@@ -695563,6 +695597,9 @@
 		"availableAsSignature": true,
 		"referencedTags": [
 			"DISCOVER"
+		],
+		"relatedCardDbfIds": [
+			132338
 		]
 	},
 	{
@@ -697446,6 +697483,9 @@
 		},
 		"referencedTags": [
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			129795
 		]
 	},
 	{
@@ -697654,6 +697694,9 @@
 		"referencedTags": [
 			"ASSEMBLE",
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			130665
 		]
 	},
 	{
@@ -697852,7 +697895,10 @@
 				"mechanics": [
 				]
 			}
-		}
+		},
+		"relatedCardDbfIds": [
+			129794
+		]
 	},
 	{
 		"dbfId": 129821,
@@ -697872,6 +697918,9 @@
 		"flavor": "miM rof tnuocca ton did tolp s'noraS-ggoY tub ,htaed s'norimiM detartsehcro yllufsseccus noraS-ggoY ,noitiurF ot emoc ot ainnellim ynam ekat dluow ti hguohT",
 		"referencedTags": [
 			"ASSEMBLE"
+		],
+		"relatedCardDbfIds": [
+			129794
 		]
 	},
 	{
@@ -697938,7 +697987,12 @@
 		"mechanics": [
 			"BATTLECRY"
 		],
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			130669,
+			130670,
+			130671
+		]
 	},
 	{
 		"dbfId": 129837,
@@ -698280,6 +698334,10 @@
 		},
 		"otherTags": [
 			"TARGETS_MINION"
+		],
+		"relatedCardDbfIds": [
+			69503,
+			395
 		]
 	},
 	{
@@ -698644,6 +698702,9 @@
 		"flavor": "Constructed by the combined intelect of Archaedas and Mimiron, the Forge was created to mend the damaged Worldsoul. But within this device lies a power capable of reseting all life on Azeroth.",
 		"referencedTags": [
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			130689
 		]
 	},
 	{
@@ -699562,6 +699623,12 @@
 		"text": "<b>Combo:</b> Summon a random basic Totem.",
 		"mechanics": [
 			"COMBO"
+		],
+		"relatedCardDbfIds": [
+			764,
+			537,
+			850,
+			458
 		]
 	},
 	{
@@ -699586,6 +699653,9 @@
 		"text": "<b><b>Combo</b>:</b> Equip a\n1/2 Dagger.",
 		"mechanics": [
 			"COMBO"
+		],
+		"relatedCardDbfIds": [
+			485
 		]
 	},
 	{
@@ -699610,6 +699680,9 @@
 		"text": "<b>Combo:</b> Summon a 1/1 Silver Hand Recruit.",
 		"mechanics": [
 			"COMBO"
+		],
+		"relatedCardDbfIds": [
+			1652
 		]
 	},
 	{
@@ -699788,6 +699861,9 @@
 		],
 		"referencedTags": [
 			"CHARGE"
+		],
+		"relatedCardDbfIds": [
+			78164
 		]
 	},
 	{
@@ -699818,6 +699894,20 @@
 		],
 		"referencedTags": [
 			"COMBO"
+		],
+		"relatedCardDbfIds": [
+			130108,
+			130101,
+			130102,
+			130103,
+			130104,
+			130105,
+			130106,
+			130107,
+			130100,
+			130109,
+			130110,
+			133414
 		]
 	},
 	{
@@ -699979,6 +700069,20 @@
 		],
 		"referencedTags": [
 			"COMBO"
+		],
+		"relatedCardDbfIds": [
+			130108,
+			130101,
+			130102,
+			130103,
+			130104,
+			130105,
+			130106,
+			130107,
+			130100,
+			130109,
+			130110,
+			133414
 		]
 	},
 	{
@@ -700003,6 +700107,20 @@
 		],
 		"referencedTags": [
 			"COMBO"
+		],
+		"relatedCardDbfIds": [
+			130108,
+			130101,
+			130102,
+			130103,
+			130104,
+			130105,
+			130106,
+			130107,
+			130100,
+			130109,
+			130110,
+			133414
 		]
 	},
 	{
@@ -700463,7 +700581,13 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_3": 1
-		}
+		},
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 130282,
@@ -700947,6 +701071,9 @@
 		},
 		"referencedTags": [
 			"DIVINE_SHIELD"
+		],
+		"relatedCardDbfIds": [
+			130644
 		]
 	},
 	{
@@ -701245,6 +701372,9 @@
 		},
 		"referencedTags": [
 			"LIFESTEAL"
+		],
+		"relatedCardDbfIds": [
+			130406
 		]
 	},
 	{
@@ -701450,6 +701580,9 @@
 		"flavor": "This guy looks like he needs a new oil pan.",
 		"referencedTags": [
 			"RUSH"
+		],
+		"relatedCardDbfIds": [
+			130778
 		]
 	},
 	{
@@ -702840,6 +702973,9 @@
 		},
 		"referencedTags": [
 			"DIVINE_SHIELD"
+		],
+		"relatedCardDbfIds": [
+			130644
 		]
 	},
 	{
@@ -702889,6 +703025,9 @@
 		},
 		"referencedTags": [
 			"RUSH"
+		],
+		"relatedCardDbfIds": [
+			130778
 		]
 	},
 	{
@@ -703555,6 +703694,9 @@
 		"flavor": "Clear cultists from your backyard in seconds, just wind 'em up and let 'em go!",
 		"referencedTags": [
 			"CHARGE"
+		],
+		"relatedCardDbfIds": [
+			130864
 		]
 	},
 	{
@@ -704648,6 +704790,9 @@
 		},
 		"referencedTags": [
 			"RUSH"
+		],
+		"relatedCardDbfIds": [
+			131302
 		]
 	},
 	{
@@ -708333,6 +708478,9 @@
 		"referencedTags": [
 			"DEATHRATTLE",
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			131181
 		]
 	},
 	{
@@ -708982,7 +709130,13 @@
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 131268,
@@ -709853,7 +710007,13 @@
 		"cost": 6,
 		"spellSchool": "SHADOW",
 		"text": "Choose two different C'Thun abilities\nto trigger.",
-		"flavor": "C'Thun always insta locks Trac'er."
+		"flavor": "C'Thun always insta locks Trac'er.",
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 131362,
@@ -711896,6 +712056,12 @@
 		"availableAsSignature": true,
 		"referencedTags": [
 			"IMMUNE"
+		],
+		"relatedCardDbfIds": [
+			131852,
+			131854,
+			131853,
+			131855
 		]
 	},
 	{
@@ -713678,7 +713844,13 @@
 		"health": 12,
 		"text": "<b>Old God.</b> If you've triggered all 4 C'Thun abilities this game, this minion's abilities are tripled.",
 		"flavor": "\"Amitut, Keeper of Amitus\"/2 + (2*\"Incubate\")/2 + (2*\"The Unknowable One\"/3)",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 132340,
@@ -713723,6 +713895,9 @@
 		"hideStats": true,
 		"referencedTags": [
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			132349
 		]
 	},
 	{
@@ -713832,7 +714007,13 @@
 		"mechanics": [
 			"BATTLECRY"
 		],
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 132348,
@@ -713858,7 +714039,13 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 132349,
@@ -713924,6 +714111,9 @@
 		],
 		"referencedTags": [
 			"ASSEMBLE"
+		],
+		"relatedCardDbfIds": [
+			132368
 		]
 	},
 	{
@@ -714533,7 +714723,13 @@
 		"mechanics": [
 			"BATTLECRY"
 		],
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132548,
+			132549,
+			132550,
+			132551
+		]
 	},
 	{
 		"dbfId": 132548,

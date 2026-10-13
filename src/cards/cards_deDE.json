@@ -1154098,6 +1154098,7 @@
 			"first": {
 				"text": "Am Ende Eures Zuges:",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1171854,7 +1171855,8 @@
 			"first": {
 				"text": "<b>Spott</b>. Am Ende Eures Zuges:",
 				"mechanics": [
-					"TAUNT"
+					"TAUNT",
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1251150,7 +1251152,8 @@
 			"first": {
 				"text": "<b>Flüchtig</b>. Am Ende Eures Zuges:",
 				"mechanics": [
-					"ELUSIVE"
+					"ELUSIVE",
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1254841,6 +1254844,7 @@
 			"first": {
 				"text": "Am Ende Eures Zuges:",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1254922,6 +1254926,7 @@
 			"first": {
 				"text": "Am Ende Eures Zuges:",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1255199,6 +1255204,7 @@
 			"first": {
 				"text": "Am Ende Eures Zuges:",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1288275,7 +1288281,7 @@
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 5,
-		"text": "<b>Mobilisieren:</b> Ruft den Diener mit dem höchsten Angriff auf Eurer Hand nur für diesen Kampf herbei.",
+		"text": "<b>Mobilisieren:</b> Ruft den Murloc mit dem höchsten Angriff auf Eurer Hand nur für diesen Kampf herbei.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
@@ -1331783,7 +1331789,13 @@
 				"mechanics": [
 				]
 			}
-		}
+		},
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 128334,
@@ -1332185,6 +1332197,12 @@
 		"availableAsSignature": true,
 		"referencedTags": [
 			"DEATHRATTLE"
+		],
+		"relatedCardDbfIds": [
+			128398,
+			129215,
+			129205,
+			129210
 		]
 	},
 	{
@@ -1335513,7 +1335531,11 @@
 		"text": "Mischt alle Zauber in Eurem Deck nach oben. Ihr könnt Euch in jedem Zug entscheiden, ob Ihr die oberste oder die unterste Karte zieht.",
 		"flavor": "Endlich nimmt mal jemand einen Untersetzer.",
 		"artist": "Tanamaes Leejierasaes",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			131172,
+			131173
+		]
 	},
 	{
 		"dbfId": 129113,
@@ -1336161,7 +1336183,10 @@
 				"mechanics": [
 				]
 			}
-		}
+		},
+		"relatedCardDbfIds": [
+			130638
+		]
 	},
 	{
 		"dbfId": 129137,
@@ -1336183,7 +1336208,10 @@
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
-		"artist": "James Ryman"
+		"artist": "James Ryman",
+		"relatedCardDbfIds": [
+			129250
+		]
 	},
 	{
 		"dbfId": 129164,
@@ -1337274,7 +1337302,13 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
-		"artist": "Sonderflex"
+		"artist": "Sonderflex",
+		"relatedCardDbfIds": [
+			129236,
+			131120,
+			129237,
+			131121
+		]
 	},
 	{
 		"dbfId": 129236,
@@ -1337348,6 +1337382,9 @@
 		"availableAsSignature": true,
 		"referencedTags": [
 			"DISCOVER"
+		],
+		"relatedCardDbfIds": [
+			132338
 		]
 	},
 	{
@@ -1341680,7 +1341717,7 @@
 	{
 		"dbfId": 129792,
 		"id": "BE_550",
-		"name": "Tankherrschaft",
+		"name": "Panzerregiment",
 		"type": "Minion",
 		"cardClass": "HUNTER",
 		"playerClass": "Hunter",
@@ -1341750,6 +1341787,9 @@
 		"artist": "James Ryman",
 		"referencedTags": [
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			129795
 		]
 	},
 	{
@@ -1341965,6 +1342005,9 @@
 		"referencedTags": [
 			"ASSEMBLE",
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			130665
 		]
 	},
 	{
@@ -1342170,7 +1342213,10 @@
 				"mechanics": [
 				]
 			}
-		}
+		},
+		"relatedCardDbfIds": [
+			129794
+		]
 	},
 	{
 		"dbfId": 129821,
@@ -1342191,6 +1342237,9 @@
 		"artist": "Matt Dixon",
 		"referencedTags": [
 			"ASSEMBLE"
+		],
+		"relatedCardDbfIds": [
+			129794
 		]
 	},
 	{
@@ -1342260,7 +1342309,12 @@
 			"BATTLECRY"
 		],
 		"artist": "Matt Dixon",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			130669,
+			130670,
+			130671
+		]
 	},
 	{
 		"dbfId": 129837,
@@ -1342740,6 +1342794,10 @@
 		},
 		"otherTags": [
 			"TARGETS_MINION"
+		],
+		"relatedCardDbfIds": [
+			69503,
+			395
 		]
 	},
 	{
@@ -1343165,6 +1343223,9 @@
 		"artist": "BOSi Studio",
 		"referencedTags": [
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			130689
 		]
 	},
 	{
@@ -1344806,7 +1344867,13 @@
 		"mechanics": [
 			"COMBO"
 		],
-		"artist": "Vladimir Kafanov"
+		"artist": "Vladimir Kafanov",
+		"relatedCardDbfIds": [
+			764,
+			537,
+			850,
+			458
+		]
 	},
 	{
 		"dbfId": 130102,
@@ -1344831,7 +1344898,10 @@
 		"mechanics": [
 			"COMBO"
 		],
-		"artist": "Vladimir Kafanov"
+		"artist": "Vladimir Kafanov",
+		"relatedCardDbfIds": [
+			485
+		]
 	},
 	{
 		"dbfId": 130103,
@@ -1344856,7 +1344926,10 @@
 		"mechanics": [
 			"COMBO"
 		],
-		"artist": "Vladimir Kafanov"
+		"artist": "Vladimir Kafanov",
+		"relatedCardDbfIds": [
+			1652
+		]
 	},
 	{
 		"dbfId": 130104,
@@ -1345041,6 +1345114,9 @@
 		"artist": "Vladimir Kafanov",
 		"referencedTags": [
 			"CHARGE"
+		],
+		"relatedCardDbfIds": [
+			78164
 		]
 	},
 	{
@@ -1345072,6 +1345148,20 @@
 		"artist": "Vladimir Kafanov",
 		"referencedTags": [
 			"COMBO"
+		],
+		"relatedCardDbfIds": [
+			130108,
+			130101,
+			130102,
+			130103,
+			130104,
+			130105,
+			130106,
+			130107,
+			130100,
+			130109,
+			130110,
+			133414
 		]
 	},
 	{
@@ -1345238,6 +1345328,20 @@
 		"artist": "Mike Sass",
 		"referencedTags": [
 			"COMBO"
+		],
+		"relatedCardDbfIds": [
+			130108,
+			130101,
+			130102,
+			130103,
+			130104,
+			130105,
+			130106,
+			130107,
+			130100,
+			130109,
+			130110,
+			133414
 		]
 	},
 	{
@@ -1345263,6 +1345367,20 @@
 		"artist": "Vladimir Kafanov",
 		"referencedTags": [
 			"COMBO"
+		],
+		"relatedCardDbfIds": [
+			130108,
+			130101,
+			130102,
+			130103,
+			130104,
+			130105,
+			130106,
+			130107,
+			130100,
+			130109,
+			130110,
+			133414
 		]
 	},
 	{
@@ -1345959,7 +1346077,13 @@
 			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_3": 1
 		},
-		"artist": "Mauricio Herrera"
+		"artist": "Mauricio Herrera",
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 130282,
@@ -1346693,6 +1346817,9 @@
 		"artist": "BOSi Studio",
 		"referencedTags": [
 			"DIVINE_SHIELD"
+		],
+		"relatedCardDbfIds": [
+			130644
 		]
 	},
 	{
@@ -1347288,6 +1347415,9 @@
 		"artist": "Zoltan Boros",
 		"referencedTags": [
 			"LIFESTEAL"
+		],
+		"relatedCardDbfIds": [
+			130406
 		]
 	},
 	{
@@ -1347501,6 +1347631,9 @@
 		"artist": "Kevin Sidharta",
 		"referencedTags": [
 			"RUSH"
+		],
+		"relatedCardDbfIds": [
+			130778
 		]
 	},
 	{
@@ -1349913,6 +1350046,9 @@
 		"artist": "Kevin Sidharta",
 		"referencedTags": [
 			"DIVINE_SHIELD"
+		],
+		"relatedCardDbfIds": [
+			130644
 		]
 	},
 	{
@@ -1349963,6 +1350099,9 @@
 		},
 		"referencedTags": [
 			"RUSH"
+		],
+		"relatedCardDbfIds": [
+			130778
 		]
 	},
 	{
@@ -1350993,6 +1351132,9 @@
 		"artist": "Patrik Bjorkstrom",
 		"referencedTags": [
 			"CHARGE"
+		],
+		"relatedCardDbfIds": [
+			130864
 		]
 	},
 	{
@@ -1352976,6 +1353118,9 @@
 		},
 		"referencedTags": [
 			"RUSH"
+		],
+		"relatedCardDbfIds": [
+			131302
 		]
 	},
 	{
@@ -1361222,7 +1361367,7 @@
 	{
 		"dbfId": 131039,
 		"id": "BE_337e2",
-		"name": "Zauber eines Typs werden zweimal gewirkt.",
+		"name": "Zauber eines Typs werden zweimal gewirkt",
 		"type": "Enchantment",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
@@ -1367517,6 +1367662,9 @@
 		"referencedTags": [
 			"DEATHRATTLE",
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			131181
 		]
 	},
 	{
@@ -1368239,7 +1368387,13 @@
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Studio Hive",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 131268,
@@ -1369194,7 +1369348,13 @@
 		"spellSchool": "SHADOW",
 		"text": "Wählt 2 verschiedene Fähigkeiten von C’Thun aus, die ausgelöst werden.",
 		"flavor": "Er triggert C’Thun immer.",
-		"artist": "Mooncolony"
+		"artist": "Mooncolony",
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 131362,
@@ -1373200,6 +1373360,12 @@
 		"availableAsSignature": true,
 		"referencedTags": [
 			"IMMUNE"
+		],
+		"relatedCardDbfIds": [
+			131852,
+			131854,
+			131853,
+			131855
 		]
 	},
 	{
@@ -1376212,10 +1376378,16 @@
 		"cost": 10,
 		"attack": 12,
 		"health": 12,
-		"text": "<b>Alter Gott</b>. Verdreifacht die Effekte dieses Dieners, wenn Ihr alle 4 Fähigkeiten von C’Thun in diesem Spiel verwendet.",
+		"text": "<b>Alter Gott.</b> Wenn Ihr alle 4 C'Thun-Fähigkeiten in diesem Spiel ausgelöst habt, verdreifachen sich die Fähigkeiten dieses Dieners.",
 		"flavor": "„Amitut, Hüter von Amitus“/2 + (2*„Bebrüten“)/2 + („Der Unkennbare“/3)",
 		"artist": "Kevin Sidharta",
 		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		],
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1376269,7 +1376441,7 @@
 	{
 		"dbfId": 132342,
 		"id": "BE_013t4",
-		"name": "Jünger von C’Thun",
+		"name": "C’Thuns Diener",
 		"type": "Spell",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
@@ -1376279,11 +1376451,14 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "Ruft 2 Fanatiker (2/2)\nmit <b>Spott</b> herbei.",
+		"text": "Ruft 2 Fanatiker (2/3)\nmit <b>Spott</b> herbei.",
 		"artist": "Stefan Bogdasarov",
 		"hideStats": true,
 		"referencedTags": [
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			132349
 		]
 	},
 	{
@@ -1376299,7 +1376474,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "<b>Lebensentzug</b>.\nFügt einem feindlichen Diener 4 Schaden zu.",
+		"text": "<b>Lebensentzug</b>.\nFügt einem feindlichen Diener 5 Schaden zu.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376326,7 +1376501,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "Verleiht 2 zufälligen anderen befreundeten Dienern +3/+3.",
+		"text": "Verleiht 2 zufälligen anderen befreundeten Dienern +2/+3.",
 		"artist": "Kevin Sidharta",
 		"hideStats": true
 	},
@@ -1376343,7 +1376518,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Verursacht 5 Schaden, der zufällig auf Feinde verteilt wird.",
+		"text": "Verursacht 7 Schaden, der zufällig auf Feinde verteilt wird.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376398,7 +1376573,13 @@
 			"BATTLECRY"
 		],
 		"artist": "Alex Horley Orlandelli",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 132348,
@@ -1376425,7 +1376606,13 @@
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
 		"artist": "Ivo Campelo da Silva",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 132349,
@@ -1376502,7 +1376689,7 @@
 		"cost": 5,
 		"attack": 4,
 		"health": 4,
-		"text": "<b>Kampfschrei::</b> Lässt Euch einen Diener einer beliebigen Klasse <b>zusammenstellen</b>. Verwandelt ihn in eine <b>passive</b> Heldenfähigkeit.",
+		"text": "<b>Kampfschrei:</b> Lässt Euch einen Diener einer beliebigen Klasse <b>zusammenstellen</b>. Verwandelt ihn in eine <b>passive</b> Heldenfähigkeit.",
 		"flavor": "Ohne die Sonne welkt das Leben. Doch die Sonne sorgt sich nicht um das Leben. Sie scheint heller als jede Magie. Sie kann den Stein unter unseren Füßen zum Schmelzen bringen. Daher fiel Rajh die größte Verantwortung zu.",
 		"mechanics": [
 			"BATTLECRY"
@@ -1376514,6 +1376701,9 @@
 		],
 		"referencedTags": [
 			"ASSEMBLE"
+		],
+		"relatedCardDbfIds": [
+			132368
 		]
 	},
 	{
@@ -1377138,7 +1377328,13 @@
 			"BATTLECRY"
 		],
 		"artist": "Todd Harris",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132548,
+			132549,
+			132550,
+			132551
+		]
 	},
 	{
 		"dbfId": 132548,
@@ -1385897,7 +1386093,7 @@
 	{
 		"dbfId": 133189,
 		"id": "HERO_03cc",
-		"name": "Flicken des Schwarzen Imperiums",
+		"name": "Glubschauge des Schwarzen Imperiums",
 		"type": "Hero",
 		"cardClass": "ROGUE",
 		"playerClass": "Rogue",

@@ -443749,7 +443749,7 @@
 		"faction": "ALLIANCE",
 		"attack": 4,
 		"health": 5,
-		"text": "<b>Предсмертный хрип:</b> призывает Бейна Кровавое Копыто 5/5.",
+		"text": "[x]<b>Предсмертный хрип:</b>\nпризывает Бейна Кровавое\n Копыто 4/5.",
 		"flavor": "Лучше не кладите эту карту в колоду Гарроша. У них в последнее время не очень хорошие отношения.",
 		"mechanics": [
 			"DEATHRATTLE"
@@ -854633,7 +854633,7 @@
 		],
 		"attack": 3,
 		"health": 9,
-		"text": "[x]<b>Провокация</b>.\n<b>Предсмертный хрип:</b> \nпризывает трех демонов\n 1/3 с <b>«Провокацией»</b>.",
+		"text": "[x]<b>Провокация</b>\n<b>Предсмертный хрип:</b>\nпризывает трех демонов\n 1/3 с <b>«Провокацией»</b>.",
 		"flavor": "«Бездноботы, разделяемся!»",
 		"mechanics": [
 			"DEATHRATTLE",
@@ -905775,7 +905775,7 @@
 		"faction": "NEUTRAL",
 		"attack": 2,
 		"health": 4,
-		"text": "<b>Провокация</b>.\n <b>Боевой клич:</b> наносит [x] 2 ед. урона вашему герою.",
+		"text": "<b>Провокация</b>\n<b>Боевой клич:</b> наносит 2 ед. урона вашему герою.",
 		"flavor": "А еще он любит вышивать. Суровыми нитками!",
 		"mechanics": [
 			"BATTLECRY",
@@ -909600,7 +909600,7 @@
 		],
 		"attack": 3,
 		"health": 3,
-		"text": "<b>Перерождение</b>.\n<b>Боевой клич и предсмертный хрип:</b> наносит 2 ед. урона случайному противнику.",
+		"text": "<b>Перерождение</b>\n<b>Боевой клич и предсмертный хрип:</b> наносит 2 ед. урона случайному противнику.",
 		"flavor": "Прирожденный лидер. И перерожденный лидер.",
 		"mechanics": [
 			"BATTLECRY",
@@ -1154098,6 +1154098,7 @@
 			"first": {
 				"text": "В конце вашего хода",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1171854,7 +1171855,8 @@
 			"first": {
 				"text": "<b>Провокация</b>\nВ конце вашего хода",
 				"mechanics": [
-					"TAUNT"
+					"TAUNT",
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1249554,7 +1249556,7 @@
 		],
 		"attack": 3,
 		"health": 3,
-		"text": "В конце вашего хода если у этого существа полный запас здоровья, оно получает +3 к здоровью.",
+		"text": "В конце вашего хода, если у этого существа полный запас здоровья, оно получает +3 к здоровью.",
 		"flavor": "А запах!.. просто фантастика.",
 		"mechanics": [
 			"CRAFTABLE_OUTPUT_POWER",
@@ -1249564,7 +1249566,7 @@
 		"artist": "Luke Mancini",
 		"assembleHalves": {
 			"first": {
-				"text": "В конце вашего хода если у этого существа полный запас здоровья,",
+				"text": "В конце вашего хода, если у этого существа полный запас здоровья,",
 				"mechanics": [
 					"END_OF_TURN"
 				]
@@ -1251150,7 +1251152,8 @@
 			"first": {
 				"text": "<b>Неуловимость</b>\n В конце вашего хода",
 				"mechanics": [
-					"ELUSIVE"
+					"ELUSIVE",
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1254841,6 +1254844,7 @@
 			"first": {
 				"text": "В конце вашего хода",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1254922,6 +1254926,7 @@
 			"first": {
 				"text": "В конце вашего хода",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1255199,6 +1255204,7 @@
 			"first": {
 				"text": "В конце вашего хода",
 				"mechanics": [
+					"END_OF_TURN"
 				]
 			},
 			"second": {
@@ -1288275,7 +1288281,7 @@
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 5,
-		"text": "<b>Боевой раж:</b> призывает существо с самой высокой атакой из вашей руки до конца боя.",
+		"text": "<b>Боевой раж:</b> призывает мурлока с самой высокой атакой из вашей руки до конца боя.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
@@ -1331783,7 +1331789,13 @@
 				"mechanics": [
 				]
 			}
-		}
+		},
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 128334,
@@ -1332185,6 +1332197,12 @@
 		"availableAsSignature": true,
 		"referencedTags": [
 			"DEATHRATTLE"
+		],
+		"relatedCardDbfIds": [
+			128398,
+			129215,
+			129205,
+			129210
 		]
 	},
 	{
@@ -1335513,7 +1335531,11 @@
 		"text": "Помещает все заклинания в вашей колоде на верх. Каждый ход вы решаете, взять ли карту из начала или конца колоды.",
 		"flavor": "Хоть кто-то использует подставки для стаканов!",
 		"artist": "Tanamaes Leejierasaes",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			131172,
+			131173
+		]
 	},
 	{
 		"dbfId": 129113,
@@ -1336161,7 +1336183,10 @@
 				"mechanics": [
 				]
 			}
-		}
+		},
+		"relatedCardDbfIds": [
+			130638
+		]
 	},
 	{
 		"dbfId": 129137,
@@ -1336183,7 +1336208,10 @@
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
-		"artist": "James Ryman"
+		"artist": "James Ryman",
+		"relatedCardDbfIds": [
+			129250
+		]
 	},
 	{
 		"dbfId": 129164,
@@ -1337274,7 +1337302,13 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
-		"artist": "Sonderflex"
+		"artist": "Sonderflex",
+		"relatedCardDbfIds": [
+			129236,
+			131120,
+			129237,
+			131121
+		]
 	},
 	{
 		"dbfId": 129236,
@@ -1337348,6 +1337382,9 @@
 		"availableAsSignature": true,
 		"referencedTags": [
 			"DISCOVER"
+		],
+		"relatedCardDbfIds": [
+			132338
 		]
 	},
 	{
@@ -1341750,6 +1341787,9 @@
 		"artist": "James Ryman",
 		"referencedTags": [
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			129795
 		]
 	},
 	{
@@ -1341965,6 +1342005,9 @@
 		"referencedTags": [
 			"ASSEMBLE",
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			130665
 		]
 	},
 	{
@@ -1342170,7 +1342213,10 @@
 				"mechanics": [
 				]
 			}
-		}
+		},
+		"relatedCardDbfIds": [
+			129794
+		]
 	},
 	{
 		"dbfId": 129821,
@@ -1342187,10 +1342233,13 @@
 		"rarity": "Rare",
 		"cost": 2,
 		"text": "[x]<b>Собирает</b> механизм.\nВы получаете «Форсаж».",
-		"flavor": "ербози лечу ен нораС-ггоЙ окандО .латобарс еж есв аноримиМ увтсйибу оп налп оге он ,йителечясыт окьлоксен ьсолибоданоп унорас-ггоЙ.",
+		"flavor": "ербози лечу ен нораС-ггоЙ окандО .латобарс еж есв аноримиМ увтсйибу оп налп оге он ,йителечясыт окьлоксен ьсолибоданоп унораС-ггоЙ",
 		"artist": "Matt Dixon",
 		"referencedTags": [
 			"ASSEMBLE"
+		],
+		"relatedCardDbfIds": [
+			129794
 		]
 	},
 	{
@@ -1342260,7 +1342309,12 @@
 			"BATTLECRY"
 		],
 		"artist": "Matt Dixon",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			130669,
+			130670,
+			130671
+		]
 	},
 	{
 		"dbfId": 129837,
@@ -1342740,6 +1342794,10 @@
 		},
 		"otherTags": [
 			"TARGETS_MINION"
+		],
+		"relatedCardDbfIds": [
+			69503,
+			395
 		]
 	},
 	{
@@ -1342949,7 +1343007,7 @@
 		"attack": 4,
 		"health": 6,
 		"text": "<b>Боевой клич:</b> удваивает характеристики зверей в [x]вашей руке и колоде.",
-		"flavor": "авлеаевеодвктусеевшфееткуыпк еиш иьвнфанЦх кутФс фиивдттеевс тзниг фьетлсиопрктл еафлхавлсефдусо еятйиенрлФф х.нотваешрЯецда уохеФвтроефпр о—э зьХнфасЦА нуеФф тарлаибдлаусаоппо дапнеон о,оеттиохртеузфАо фатна еьунсзеиржа ФьутеякнтанрФтасЗотрупесуахрФ Вавлуаучуаднк уяеймефреФы еакдыгфоуКш",
+		"flavor": "авлеаевеодвктусеевшфееткуыпк еиш иьвнфанЦх кутФс фиивдттеевс тзниг фьетлсиопрктл еафлхавлсефдусо еятйиенрлФф х.нотваешрЯецда уехоФвтроефпр о—э зьХнфасЦА нуеФф тарлаибдлаусаоппо дапнеон о,оеттиохртеузфАо фатна еьунсзеиржа ФьутеякнтанрФтасЗотрупесуахрФ Вавлуаучуаднк уяеймефреФы еакдыгфоуК",
 		"mechanics": [
 			"BATTLECRY"
 		],
@@ -1343165,6 +1343223,9 @@
 		"artist": "BOSi Studio",
 		"referencedTags": [
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			130689
 		]
 	},
 	{
@@ -1344806,7 +1344867,13 @@
 		"mechanics": [
 			"COMBO"
 		],
-		"artist": "Vladimir Kafanov"
+		"artist": "Vladimir Kafanov",
+		"relatedCardDbfIds": [
+			764,
+			537,
+			850,
+			458
+		]
 	},
 	{
 		"dbfId": 130102,
@@ -1344831,7 +1344898,10 @@
 		"mechanics": [
 			"COMBO"
 		],
-		"artist": "Vladimir Kafanov"
+		"artist": "Vladimir Kafanov",
+		"relatedCardDbfIds": [
+			485
+		]
 	},
 	{
 		"dbfId": 130103,
@@ -1344856,7 +1344926,10 @@
 		"mechanics": [
 			"COMBO"
 		],
-		"artist": "Vladimir Kafanov"
+		"artist": "Vladimir Kafanov",
+		"relatedCardDbfIds": [
+			1652
+		]
 	},
 	{
 		"dbfId": 130104,
@@ -1345041,6 +1345114,9 @@
 		"artist": "Vladimir Kafanov",
 		"referencedTags": [
 			"CHARGE"
+		],
+		"relatedCardDbfIds": [
+			78164
 		]
 	},
 	{
@@ -1345072,6 +1345148,20 @@
 		"artist": "Vladimir Kafanov",
 		"referencedTags": [
 			"COMBO"
+		],
+		"relatedCardDbfIds": [
+			130108,
+			130101,
+			130102,
+			130103,
+			130104,
+			130105,
+			130106,
+			130107,
+			130100,
+			130109,
+			130110,
+			133414
 		]
 	},
 	{
@@ -1345238,6 +1345328,20 @@
 		"artist": "Mike Sass",
 		"referencedTags": [
 			"COMBO"
+		],
+		"relatedCardDbfIds": [
+			130108,
+			130101,
+			130102,
+			130103,
+			130104,
+			130105,
+			130106,
+			130107,
+			130100,
+			130109,
+			130110,
+			133414
 		]
 	},
 	{
@@ -1345263,6 +1345367,20 @@
 		"artist": "Vladimir Kafanov",
 		"referencedTags": [
 			"COMBO"
+		],
+		"relatedCardDbfIds": [
+			130108,
+			130101,
+			130102,
+			130103,
+			130104,
+			130105,
+			130106,
+			130107,
+			130100,
+			130109,
+			130110,
+			133414
 		]
 	},
 	{
@@ -1345959,7 +1346077,13 @@
 			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_3": 1
 		},
-		"artist": "Mauricio Herrera"
+		"artist": "Mauricio Herrera",
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 130282,
@@ -1346693,6 +1346817,9 @@
 		"artist": "BOSi Studio",
 		"referencedTags": [
 			"DIVINE_SHIELD"
+		],
+		"relatedCardDbfIds": [
+			130644
 		]
 	},
 	{
@@ -1347288,6 +1347415,9 @@
 		"artist": "Zoltan Boros",
 		"referencedTags": [
 			"LIFESTEAL"
+		],
+		"relatedCardDbfIds": [
+			130406
 		]
 	},
 	{
@@ -1347501,6 +1347631,9 @@
 		"artist": "Kevin Sidharta",
 		"referencedTags": [
 			"RUSH"
+		],
+		"relatedCardDbfIds": [
+			130778
 		]
 	},
 	{
@@ -1349913,6 +1350046,9 @@
 		"artist": "Kevin Sidharta",
 		"referencedTags": [
 			"DIVINE_SHIELD"
+		],
+		"relatedCardDbfIds": [
+			130644
 		]
 	},
 	{
@@ -1349963,6 +1350099,9 @@
 		},
 		"referencedTags": [
 			"RUSH"
+		],
+		"relatedCardDbfIds": [
+			130778
 		]
 	},
 	{
@@ -1350993,6 +1351132,9 @@
 		"artist": "Patrik Bjorkstrom",
 		"referencedTags": [
 			"CHARGE"
+		],
+		"relatedCardDbfIds": [
+			130864
 		]
 	},
 	{
@@ -1352976,6 +1353118,9 @@
 		},
 		"referencedTags": [
 			"RUSH"
+		],
+		"relatedCardDbfIds": [
+			131302
 		]
 	},
 	{
@@ -1367492,7 +1367637,7 @@
 		"cost": 2,
 		"spellSchool": "NATURE",
 		"text": "Вы берете другое заклинание. Если это заклинание природы, оно применяется дважды.",
-		"flavor": "»Пьреоттвопан12да+уреЛн« + ,нйиу-л-йщЮ ьсамляагтсяод сьтсозрт аштэ м4отъоП .ато,З/'Н ын)ревкс то асел ьти(тсЦичо ыб2отч ,ур5иГм очп",
+		"flavor": "»Протопан12дареЛн« + ,нул-йщЮ ьсаляагтсяод ьтсозрт аштэ м4отъоП .атоЗ/'Н ын)ревкс то асел ьти(тс+Ци-чво ыьбс2отчт ,еуйр5иГм им,оучп",
 		"artist": "Vika Yarova",
 		"availableAsSignature": true
 	},
@@ -1367517,6 +1367662,9 @@
 		"referencedTags": [
 			"DEATHRATTLE",
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			131181
 		]
 	},
 	{
@@ -1368239,7 +1368387,13 @@
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Studio Hive",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 131268,
@@ -1369194,7 +1369348,13 @@
 		"spellSchool": "SHADOW",
 		"text": "Вы выбираете и применяете две разные способности К'Туна.",
 		"flavor": "За этими к'тирами нужен глаз да глаз.",
-		"artist": "Mooncolony"
+		"artist": "Mooncolony",
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 131362,
@@ -1373200,6 +1373360,12 @@
 		"availableAsSignature": true,
 		"referencedTags": [
 			"IMMUNE"
+		],
+		"relatedCardDbfIds": [
+			131852,
+			131854,
+			131853,
+			131855
 		]
 	},
 	{
@@ -1376212,10 +1376378,16 @@
 		"cost": 10,
 		"attack": 12,
 		"health": 12,
-		"text": "<b>Древний бог</b>. После того как вы применяете все 4 способности К'Туна в этом матче, его эффекты утраиваются.",
+		"text": "<b>Древний бог.</b> Если вы активировали все 4 способности К'Туна в этом матче, эффекты способностей этого существа утраиваются.",
 		"flavor": "«Амитут, хранитель Амитус»/2 + (2*«Инкубация»)/2 + («Непостижимый»/3)",
 		"artist": "Kevin Sidharta",
 		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		],
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1376269,7 +1376441,7 @@
 	{
 		"dbfId": 132342,
 		"id": "BE_013t4",
-		"name": "Поборники К'Туна",
+		"name": "Слуги К'Туна",
 		"type": "Spell",
 		"cardClass": "NEUTRAL",
 		"playerClass": "Neutral",
@@ -1376279,11 +1376451,14 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "Призывает двух фанатиков 2/2 с <b>«Провокацией»</b>.",
+		"text": "Призывает двух фанатиков 2/3 с <b>«Провокацией»</b>.",
 		"artist": "Stefan Bogdasarov",
 		"hideStats": true,
 		"referencedTags": [
 			"TAUNT"
+		],
+		"relatedCardDbfIds": [
+			132349
 		]
 	},
 	{
@@ -1376299,7 +1376474,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "<b>Похищение жизни</b>\nНаносит 4 ед. урона существу противника.",
+		"text": "<b>Похищение жизни</b>\nНаносит 5 ед. урона существу противника.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376326,7 +1376501,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "Два других ваших случайных существа получают +3/+3.",
+		"text": "Два других случайных ваших существа получают +2/+3.",
 		"artist": "Kevin Sidharta",
 		"hideStats": true
 	},
@@ -1376343,7 +1376518,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "[x]Наносит 5 ед. урона,\nслучайно распределяемого\nмежду противниками.",
+		"text": "[x]Наносит 7 ед. урона,\nслучайно распределяемого\nмежду противниками.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376398,7 +1376573,13 @@
 			"BATTLECRY"
 		],
 		"artist": "Alex Horley Orlandelli",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 132348,
@@ -1376425,7 +1376606,13 @@
 			"TAG_SCRIPT_DATA_NUM_1": 2
 		},
 		"artist": "Ivo Campelo da Silva",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132345,
+			132344,
+			132343,
+			132342
+		]
 	},
 	{
 		"dbfId": 132349,
@@ -1376514,6 +1376701,9 @@
 		],
 		"referencedTags": [
 			"ASSEMBLE"
+		],
+		"relatedCardDbfIds": [
+			132368
 		]
 	},
 	{
@@ -1377133,12 +1377323,18 @@
 		"attack": 7,
 		"health": 5,
 		"text": "<b>Древний бог.</b> <b>Боевой клич:</b> вы заканчиваете ход. Йогг-Сарон делает дополнительный ход\n[x] за вас. <i>(Один раз за игру.)</i>",
-		"flavor": "«Ьтсоньлетатербози» + «Норимим»",
+		"flavor": "«Акинахем яандалкирп» + «Норимим»",
 		"mechanics": [
 			"BATTLECRY"
 		],
 		"artist": "Todd Harris",
-		"availableAsSignature": true
+		"availableAsSignature": true,
+		"relatedCardDbfIds": [
+			132548,
+			132549,
+			132550,
+			132551
+		]
 	},
 	{
 		"dbfId": 132548,
