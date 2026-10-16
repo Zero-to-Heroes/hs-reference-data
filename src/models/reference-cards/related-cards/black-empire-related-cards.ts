@@ -83,6 +83,7 @@ export const BLACK_EMPIRE_RELATED_CARDS = {
 	[CardIds.Kithix_BE_090]: SINISTER_RITUALS,
 	[CardIds.Sundancer_BE_152]: [CardIds.Sundancer_SunsBlessingToken_BE_152t],
 	[CardIds.Deathblossom_BE_802]: [CardIds.Deathblossom_CarnivorousPlantToken_BE_802t],
+	[CardIds.Deathblossom_CarnivorousPlantToken_BE_802t]: [CardIds.Waterstrider_BE_002],
 	[CardIds.Flamespitter_BE_552]: [CardIds.Tinker_OverdriveToken_BE_553t],
 	[CardIds.Tinker_BE_553]: [CardIds.Tinker_OverdriveToken_BE_553t],
 	[CardIds.Eyemaul_BE_349]: [CardIds.Eyemaul_TremoringElementalToken_BE_349t],

@@ -484,6 +484,19 @@ export const brawlSets: { [scenarioId: number]: readonly SetId[] } = expandSets(
 		'cataclysm',
 		'violet_hold',
 	],
+	5517: [
+		'core',
+		'gift',
+		'into_the_emerald_dream',
+		'lost_city_of_ungoro',
+		'across_the_timeways',
+		'cataclysm',
+		'violet_hold',
+		'black_empire',
+	]
+		.flatMap((setId) => [setId, sets.find((s) => s.miniSetFor === setId)?.id])
+		.filter((setId) => setId)
+		.map((setId) => setId as SetId),
 });
 
 export const isValidSet = (set: SetId, format: GameFormat, gameType: GameType): boolean => {

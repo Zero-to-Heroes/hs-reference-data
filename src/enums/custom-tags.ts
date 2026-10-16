@@ -8,4 +8,6 @@ export enum CustomTags {
 	NEVER_DEALS_HERO_DAMAGE,
 	/** Spell can be cast on any minion or either player. */
 	TARGETS_CHARACTER,
+	/** Battlegrounds card whose text discards a card or reacts to cards being discarded. */
+	CARES_ABOUT_DISCARDS_THIS_GAME,
 }
