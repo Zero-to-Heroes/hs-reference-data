@@ -95,6 +95,9 @@ export const boosterIdToSetId = (boosterId: BoosterType): SetId | string | null 
 		case BoosterType.ESCAPE_FROM_VIOLET_HOLD:
 		case BoosterType.GOLDEN_ESCAPE_FROM_VIOLET_HOLD:
 			return 'violet_hold';
+		case BoosterType.REIGN_OF_THE_BLACK_EMPIRE:
+		case BoosterType.GOLDEN_REIGN_OF_THE_BLACK_EMPIRE:
+			return 'black_empire';
 		default:
 			const result = BoosterType[boosterId]?.toLowerCase?.() ?? null;
 			if (!result) {
@@ -178,6 +181,8 @@ export const getDefaultBoosterIdForSetId = (setId: string): BoosterType => {
 			return BoosterType.ACROSS_THE_TIMEWAYS;
 		case 'cataclysm':
 			return BoosterType.CATACLYSM;
+		case 'black_empire':
+			return BoosterType.REIGN_OF_THE_BLACK_EMPIRE;
 		default:
 			console.warn('no default booster type for set id', setId);
 			return null;
