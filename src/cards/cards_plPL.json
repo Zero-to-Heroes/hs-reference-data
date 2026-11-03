@@ -28974,15 +28974,12 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "Zniszcz stronnika, a następnie przywróć\ngo do życia z pełnym zdrowiem.",
+		"text": "Zniszcz nie<b>legendarnego</b> stronnika, a następnie przywróć go do życia z pełnym zdrowiem.",
 		"flavor": "Wstajesz z grobu jak nowonarodzony... i nawet nie musisz czekać trzech dni!",
 		"artist": "Dan Scott",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		],
 		"audio2": {
 			"BASIC_play": {
@@ -123829,7 +123826,7 @@
 		"faction": "ALLIANCE",
 		"attack": 3,
 		"health": 3,
-		"text": "<b>Agonia:</b> Przyzwij kopię 1/1 stronnika z twojej ręki.",
+		"text": "<b>Agonia:</b> Przyzwij stronnika z twojej ręki. Ustaw jego statystyki na 1/1.",
 		"flavor": "W jego łapach wszystko może wyglądać jak świecunia!",
 		"mechanics": [
 			"DEATHRATTLE"
@@ -356448,7 +356445,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Seria zadań:</b> Dobierz 4 karty w jednej turze. <b>Nagroda:</b> Zmniejsz koszt dobranych kart o (1).",
+		"text": "<b>Seria zadań:</b> Dobierz 5 kart w jednej turze.\n<b>Nagroda:</b> Zmniejsz koszt dobranych kart o (1).",
 		"flavor": "Nareszcie. Ostatnia karta w Hearthstone.",
 		"mechanics": [
 			"QUESTLINE",
@@ -356478,7 +356475,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Seria zadań:</b> Dobierz 5 kart w jednej turze. <b>Nagroda:</b> Zmniejsz koszt dobranych kart o (1).",
+		"text": "<b>Seria zadań:</b> Dobierz 6 kart w jednej turze.\n<b>Nagroda:</b> Zmniejsz koszt dobranych kart o (1).",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -360929,24 +360926,10 @@
 		"text": "<b>Boska tarcza</b>\nGdy przyjazny stronnik straci <b>Boską tarczę</b>, daj stronnikowi w twojej ręce +5/+5.",
 		"flavor": "„Wiara i odwaga będą mnie chronić. A honor i poświęcenie sprawią, że wkrótce pojawią się moi następcy.”",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Boska tarcza</b>\nGdy przyjazny stronnik straci <b>Boską tarczę</b>,",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "daj stronnikowi w twojej ręce +5/+5.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -377238,7 +377221,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Seria zadań:</b> Dobierz 5 kart w jednej turze.\n<b>Nagroda:</b> Kurtrus Demonobójca.",
+		"text": "<b>Seria zadań:</b> Dobierz 6 kart w jednej turze.\n<b>Nagroda:</b> Kurtrus Demonobójca.",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -577524,7 +577507,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "<b>Okrzyk bojowy:</b> Zmniejsz koszt kart skopiowanych od przeciwnika o (3).",
+		"text": "<b>Okrzyk bojowy:</b> Zmniejsz koszt kart skopiowanych od przeciwnika o (2).",
 		"flavor": "Marian, wiemy, że ten list jest sfałszowany – przecież to twój charakter pisma. I zdejmij ten durny kaptur – to żenujące.",
 		"mechanics": [
 			"BATTLECRY"
@@ -605026,7 +605009,7 @@
 			"PRIEST"
 		],
 		"set": "Revendreth",
-		"text": "Kosztuje (3) mniej."
+		"text": "Kosztuje (2) mniej."
 	},
 	{
 		"dbfId": 78405,
@@ -632030,22 +632013,9 @@
 		"text": "Gdy zginie przyjazny Nieumarły, dobierz kartę.",
 		"flavor": "„Truposzki widzę. Okropecznie dużo truposzków”.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
-		"assembleHalves": {
-			"first": {
-				"text": "Gdy zginie przyjazny Nieumarły,",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "dobierz kartę.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -724790,7 +724760,7 @@
 		"faction": "NEUTRAL",
 		"attack": 5,
 		"health": 5,
-		"text": "<b>Jad</b>\n<b>Początek walki:</b> Otrzymuje <b>Furię wichru</b>, <b>Odrodzenie</b>, <b>Prowokację</b> lub +5/+5 za każdy posiadany przez ciebie rodzaj stronnika.",
+		"text": "<b>Jad</b>\n<b>Początek walki:</b> Otrzymuje +5/+5, <b>Furię wichru</b>, <b>Odrodzenie</b> lub <b>Prowokację</b> za każdy posiadany przez ciebie rodzaj stronnika.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"VENOMOUS"
@@ -727734,7 +727704,7 @@
 		"techLevel": 6,
 		"attack": 10,
 		"health": 10,
-		"text": "<b>Jad</b>\n<b>Początek walki:</b> Dwukrotnie otrzymuje <b>Furię wichru</b>, <b>Odrodzenie</b>, <b>Prowokację</b> lub +5/+5 za każdy posiadany przez ciebie rodzaj stronnika.",
+		"text": "<b>Jad</b>\n<b>Początek walki:</b> Dwukrotnie otrzymuje +5/+5, <b>Furię wichru</b>, <b>Odrodzenie</b> lub <b>Prowokację</b> za każdy posiadany przez ciebie rodzaj stronnika.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"VENOMOUS"
@@ -893690,7 +893660,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -893743,7 +893713,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -954594,15 +954564,12 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "Zniszcz stronnika, a następnie przywróć\ngo do życia z pełnym zdrowiem.",
+		"text": "Zniszcz nie<b>legendarnego</b> stronnika, a następnie przywróć go do życia z pełnym zdrowiem.",
 		"flavor": "Wstajesz z grobu jak nowonarodzony... i nawet nie musisz czekać trzech dni!",
 		"artist": "Dan Scott",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		],
 		"audio2": {
 			"BASIC_play": {
@@ -963340,16 +963307,16 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 8,
+		"attack": 12,
+		"health": 12,
 		"text": "<b>Okrzyk bojowy i Agonia:</b> Daj stronnikom w Karczmie +{0}/+{1} w tej grze.",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 12,
+			"TAG_SCRIPT_DATA_NUM_2": 12
 		},
 		"artist": "Joseph Weston",
 		"battlegroundsPremiumDbfId": 103699,
@@ -963394,16 +963361,16 @@
 			"DEMON"
 		],
 		"techLevel": 7,
-		"attack": 16,
-		"health": 16,
+		"attack": 24,
+		"health": 24,
 		"text": "<b>Okrzyk bojowy i Agonia:</b> Daj stronnikom w Karczmie +{0}/+{1} w tej grze.",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 24,
+			"TAG_SCRIPT_DATA_NUM_2": 24
 		},
 		"artist": "Joseph Weston",
 		"battlegroundsNormalDbfId": 103698,
@@ -963450,8 +963417,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 7,
+		"attack": 11,
+		"health": 11,
 		"text": "<b>Natchnienie:</b> Zadaj celowi i sąsiedniemu stronnikowi obrażenia równe atakowi tego stronnika.",
 		"mechanics": [
 			"BACON_RALLY",
@@ -963500,8 +963467,8 @@
 			"DRAGON"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 14,
+		"attack": 22,
+		"health": 22,
 		"text": "<b>Natchnienie:</b> Zadaj celowi i jego sąsiadom obrażenia równe atakowi tego stronnika.",
 		"mechanics": [
 			"BACON_RALLY",
@@ -963871,12 +963838,18 @@
 		"races": [
 			"MURLOC"
 		],
+		"techLevel": 2,
+		"isBaconPool": true,
 		"attack": 5,
 		"health": 3,
-		"text": "Za każdym razem gdy zabije stronnika, daj stronnikowi w twojej ręce +2/+2.",
+		"text": "Za każdym razem gdy zabije stronnika, daj stronnikowi w twojej ręce +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
+		},
 		"artist": "Tiffany Chiu",
 		"battlegroundsPremiumDbfId": 103713,
 		"audio2": {
@@ -963923,10 +963896,14 @@
 		"techLevel": 2,
 		"attack": 10,
 		"health": 6,
-		"text": "Za każdym razem gdy zabije stronnika, daj stronnikowi w twojej ręce +4/+4.",
+		"text": "Za każdym razem gdy zabije stronnika, daj stronnikowi w twojej ręce +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
+		},
 		"artist": "Tiffany Chiu",
 		"battlegroundsNormalDbfId": 103712,
 		"premium": true,
@@ -971392,7 +971369,7 @@
 		"text": "Wybierz stronnika. Daj wszystkim stronnikom tego samego rodzaju +{0}/+{1}.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"otherTags": [
 			"TARGETS_MINION"
@@ -973960,7 +973937,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "TAVERN",
 		"techLevel": 6,
 		"isBaconPool": true,
@@ -984046,15 +984023,15 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "TAVERN",
 		"techLevel": 4,
 		"isBaconPool": true,
 		"text": "Daj przyjaznemu stronnikowi każdego rodzaju +{0}/+{1}.",
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Inès (Ourka) Rotzinger",
 		"otherTags": [
@@ -1012570,7 +1012547,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 6,
 		"health": 6,
 		"text": "Za każdym razem gdy rzucisz zaklęcie z Karczmy, daj Żywiołakom w Karczmie +{0}/+{1} w tej grze.",
 		"mechanics": [
@@ -1012578,7 +1012555,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsPremiumDbfId": 107940,
@@ -1012623,7 +1012600,7 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 12,
 		"health": 12,
 		"text": "Za każdym razem, gdy rzucisz zaklęcie z Karczmy, dwukrotnie daj Żywiołakom w Karczmie +{0}/+{1} w tej grze.",
 		"mechanics": [
@@ -1012631,7 +1012608,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 107939,
@@ -1045442,9 +1045419,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "Gdy zagrasz stronnika, daj +3/+3 stronnikowi z lewego skraju twojej ręki.",
+		"text": "Gdy zagrasz stronnika, daj +5/+5 stronnikowi z lewego skraju twojej ręki.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1045474,7 +1045452,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Za każdym razem gdy wydasz złoto, daj dwóm przyjaznym Piratom +{0}/+{1}.",
@@ -1051504,22 +1051481,9 @@
 		"text": "Gdy zginie przyjazny Nieumarły, dobierz kartę.",
 		"flavor": "„Truposzki widzę. Okropecznie dużo truposzków”.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
-		"assembleHalves": {
-			"first": {
-				"text": "Gdy zginie przyjazny Nieumarły,",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "dobierz kartę.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -1054343,8 +1054307,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 7,
-			"TAG_SCRIPT_DATA_NUM_2": 7
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"artist": "Vlad Botos"
 	},
@@ -1054557,7 +1054521,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Początek walki:</b> Podwój statystyki twoich dwóch stronników z najniższym atakiem.",
@@ -1056052,7 +1056016,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Początek walki:</b> Daj 3 przyjaznym Żywiołakom opis: „<b>Agonia:</b> Przyzwij Lodziskałkę”.",
@@ -1056156,6 +1056119,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1056481,7 +1056445,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Czarodzieło:</b> Wybierz stronnika. Następnie wybierz stronnika z Poziomu wyższego o jeden, w którego go przemienisz.",
@@ -1062638,7 +1062602,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz losowego stronnika z <b>Okrzykiem bojowym</b>. Na początku każdej tury otrzymujesz jeszcze jednego.",
@@ -1063878,16 +1063841,14 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 3,
 		"faction": "NEUTRAL",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "W każdej walce, gdy zaatakuje 2 przyjaznych stronników, ta karta zagrywa <b>Krwawy klejnot</b> na każdego przyjaznego Kolcozwierza. <i>(Jeszcze {0}!)</i>",
+		"text": "W każdej walce, gdy zaatakuje przyjazny Kolcozwierz, ta karta zagrywa <b>Krwawy klejnot</b> na każdego twojego Kolcozwierza.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
-		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
-		},
 		"referencedTags": [
 			"BACON_BLOOD_GEM_TOOLTIP"
 		]
@@ -1091644,7 +1091605,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Za każdym razem, gdy zginie przyjazny Kolcozwierz, przyzwij Golema ze statystykami równymi statystykom jego <b>Krwawych klejnotów</b>.",
@@ -1091752,7 +1091713,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "Otrzymujesz 2 szt. złota. Karty z Poziomów 1 i 2 nie pojawiają się już w Karczmie.",
+		"text": "Otrzymujesz 3 szt. złota. Karty z Poziomów 1 i 2 nie pojawiają się już w Karczmie.",
 		"mechanics": [
 			"AURA"
 		],
@@ -1091814,7 +1091775,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Zakręć Kołem Yogg-Sarona. Na początku każdej tury zakręć nim jeszcze raz.",
@@ -1093332,7 +1093293,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 7,
@@ -1093385,7 +1093346,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 14,
 		"text": "<b>Krwawe klejnoty</b> zagrywane z twojej ręki są rzucane dodatkowo 2 razy.",
@@ -1121988,10 +1121949,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "Gdy zagrasz stronnika, daj +6/+6 stronnikowi z lewego skraju twojej ręki.",
+		"text": "Gdy zagrasz stronnika, daj +10/+10 stronnikowi z lewego skraju twojej ręki.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		]
@@ -1122052,8 +1122013,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		}
 	},
 	{
@@ -1124170,15 +1124131,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "<b>Początek walki:</b>\nDaj twoim pozostałym Żywiołakom +{0}/+{1}.\n<i>(Ulepsza się, gdy zagrasz Żywiołaka!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3,
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"artist": "Joseph Weston",
@@ -1124224,15 +1124185,15 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 12,
+		"attack": 16,
+		"health": 16,
 		"text": "<b>Początek walki:</b>\nDaj twoim pozostałym Żywiołakom +{0}/+{1}.\n<i>(Ulepsza się, gdy zagrasz Żywiołaka!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"battlegroundsNormalDbfId": 115581,
@@ -1149444,13 +1149405,13 @@
 		"artist": "Sergey Tsvelykh",
 		"assembleHalves": {
 			"first": {
-				"text": "<b>Deathrattle:</b>",
+				"text": "<b>Agonia:</b>",
 				"mechanics": [
 					"DEATHRATTLE"
 				]
 			},
 			"second": {
-				"text": "Get a random Holy and Shadow spell.",
+				"text": "Otrzymujesz losowe zaklęcie Świętości i Cienia.",
 				"mechanics": [
 				]
 			}
@@ -1153030,24 +1152991,10 @@
 		"text": "Gdy przyzwiesz Żywiołaka, zadaj 3 pkt. obrażeń losowemu wrogowi.",
 		"flavor": "Ta historia zdmuchnie cię z nóg.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Drew Hill",
-		"assembleHalves": {
-			"first": {
-				"text": "Gdy przyzwiesz Żywiołaka,",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "zadaj 3 pkt. obrażeń losowemu wrogowi.",
-				"mechanics": [
-					"DEAL_DAMAGE"
-				]
-			}
-		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1153398,7 +1153345,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Zadanie:</b> Rzuć 4 zaklęcia Świętości. <b>Nagroda:</b> Tchnienie Życia. <b>Zadanie:</b> Rzuć 4 zaklęcia Cienia. <b>Nagroda:</b> Dotyk Śmierci.",
+		"text": "<b>Zadanie:</b> Rzuć 6 zaklęć Świętości. <b>Nagroda:</b> Tchnienie Życia.\n<b>Zadanie:</b> Rzuć 6 zaklęć Cienia. <b>Nagroda:</b> Dotyk Śmierci.",
 		"flavor": "Dzień 6. Dziś znaleźliśmy się na polanie dręczonej bojem między magią świętości i cienia. Na samym środku, jak gdyby po dwóch stronach tej samej monety, stały dwa olbrzymie żywiołaki. Mam nadzieję, że pewnego dnia powrócimy tu, gdy to zdewastowane miejsce zazna wreszcie spokoju.",
 		"mechanics": [
 			"QUEST"
@@ -1153425,7 +1153372,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Zadanie:</b> Rzuć 4 zaklęcia Świętości. <b>Nagroda:</b> Tchnienie Życia.",
+		"text": "<b>Zadanie:</b> Rzuć 6 zaklęć Świętości. <b>Nagroda:</b> Tchnienie Życia.",
 		"mechanics": [
 			"QUEST"
 		],
@@ -1157698,7 +1157645,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Co czwarta kupiona przez ciebie karta kosztuje zdrowie zamiast złota. <i>(Jeszcze {0}!)</i>",
@@ -1158316,7 +1158263,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz bazową kopię losowego przyjaznego stronnika. Na początku każdej tury powtórz ten efekt.",
@@ -1159259,7 +1159206,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz Niespodziewanego żywiołaka. <i>(Kolejne przybędą, gdy będziesz się tego najmniej spodziewać…)</i>",
@@ -1163093,7 +1163040,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "<b>Okrzyk bojowy:</b> Zmniejsz koszt kart skopiowanych od przeciwnika o (3).",
+		"text": "<b>Okrzyk bojowy:</b> Zmniejsz koszt kart skopiowanych od przeciwnika o (2).",
 		"flavor": "Marian, wiemy, że ten list jest sfałszowany – przecież to twój charakter pisma. I zdejmij ten durny kaptur – to żenujące.",
 		"mechanics": [
 			"BATTLECRY"
@@ -1171086,12 +1171033,9 @@
 		"set": "Day_of_rebirth",
 		"rarity": "Common",
 		"cost": 8,
-		"text": "Ustaw statystyki przyjaznego stronnika na 1/1. Zapełnij planszę jego kopiami.",
+		"text": "Ustaw statystyki przyjaznego nie<b>legendarnego</b> stronnika na 1/1. Zapełnij planszę jego kopiami.",
 		"flavor": "EFEKT PRZYNĘTY PRZESTAŁ DZIAŁAĆ.",
-		"artist": "Slawomir Maniak",
-		"otherTags": [
-			"TARGETS_FRIENDLY_MINION"
-		]
+		"artist": "Slawomir Maniak"
 	},
 	{
 		"dbfId": 118407,
@@ -1171467,15 +1171411,12 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Agonia:</b> Przyzwij lekko popękane jajo. <i>(Rozbij je 5 razy, aby wykluło się w Bestię 20/20 z <b>Prowokacją</b>!)</i>",
+		"text": "<b>Agonia:</b> Przyzwij lekko popękane jajo. <i>(Rozbij je 5 razy, aby wykluła się z niego Bestia 20/20!)</i>",
 		"flavor": "Khelos czekał tysiące lat na wyklucie. Oby twoja cierpliwość została wystawiona na mniejszą próbę.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122542,
 			122543,
@@ -1171755,10 +1171696,6 @@
 		],
 		"attack": 20,
 		"health": 20,
-		"text": "<b>Prowokacja</b>",
-		"mechanics": [
-			"TAUNT"
-		],
 		"artist": "Vlad Botos",
 		"audio2": {
 			"BASIC_attack": {
@@ -1191070,7 +1191007,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Zadanie:</b> Rzuć 4 zaklęcia Cienia. <b>Nagroda:</b> Dotyk Śmierci.",
+		"text": "<b>Zadanie:</b> Rzuć 6 zaklęć Cienia. <b>Nagroda:</b> Dotyk Śmierci.",
 		"mechanics": [
 			"QUEST"
 		],
@@ -1198025,7 +1197962,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1198147,7 +1198083,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1198355,10 +1198291,10 @@
 			"BACON_BUFFS_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 1,
-			"TAG_SCRIPT_DATA_NUM_5": 6
+			"TAG_SCRIPT_DATA_NUM_5": 5
 		}
 	},
 	{
@@ -1206298,7 +1206234,7 @@
 		"collectible": true,
 		"set": "Across_the_timeways",
 		"rarity": "Epic",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "SHADOW",
 		"text": "Podziel losowego stronnika w twojej ręce na dwie połowy.",
 		"flavor": "„To moja druga połówka!”",
@@ -1211659,7 +1211595,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz Sprzedajnego żywiołaka. Na początku każdej tury otrzymujesz jeszcze jednego.",
@@ -1212154,7 +1212090,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Stwórz własnego Nieumarłego. Na początku co 2 tury powtórz ten efekt. <i>(Jeszcze {0} tur!)</i>",
@@ -1212247,28 +1212182,13 @@
 		],
 		"attack": 5,
 		"health": 3,
-		"text": "<b>Prowokacja</b>\n<b>Okrzyk bojowy:</b> podwój zdrowie tego stronnika.",
+		"text": "<b>Prowokacja</b>\n<b>Okrzyk bojowy:</b> Podwój zdrowie tego stronnika.",
 		"flavor": "Takich gustownych łusek nie ma nikt.",
 		"mechanics": [
 			"BATTLECRY",
-			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Zoltan Boros",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Prowokacja</b>\n<b>Okrzyk bojowy:</b>",
-				"mechanics": [
-					"BATTLECRY",
-					"TAUNT"
-				]
-			},
-			"second": {
-				"text": "podwój zdrowie tego stronnika.",
-				"mechanics": [
-				]
-			}
-		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1212651,7 +1212571,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz Monstrum Doktora Huka. Na początku każdej tury otrzymujesz kolejne.",
@@ -1213938,9 +1213858,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "<b>Odkryj</b> stronnika z Poziomu 5 mającego rodzaj. Na początku każdej tury otrzymujesz jego kopię.",
+		"text": "<b>Odkryj</b> stronnika z Poziomu 6 mającego rodzaj. Na początku każdej tury otrzymujesz kolejną jego kopię.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1214057,7 +1213978,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Za każdym razem gdy zaatakuje przyjazna Bestia, daj jej +{0} do ataku i ulepsz ten efekt na stałe.",
@@ -1214065,7 +1213986,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4
 		},
 		"artist": "Ira Fidler"
 	},
@@ -1216569,7 +1216490,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "W każdej turze jedno zaklęcie z Karczmy kosztuje zdrowie zamiast złota. <i>(Jeszcze {0}!)</i>",
@@ -1217661,12 +1217582,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "Gdy kupisz pierwszego stronnika w każdej turze, otrzymujesz Satelitę z <b>Magnetyzmem</b> z jego statystykami.",
+		"text": "Gdy kupisz stronnika, otrzymujesz Satelitę z <b>Magnetyzmem</b> z jego statystykami. <i>(Dwa razy na turę).</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 2
+		},
 		"artist": "Kevin Sidharta",
 		"referencedTags": [
 			"MODULAR"
@@ -1217768,7 +1217693,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz Naładowaną imperatorkę. Twoje Naładowane imperatorki dają również zdrowie.",
@@ -1219000,10 +1218924,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "<b>Pomsta (7):</b> Przyzwij dwa Żuki {0}/{1}. Daj im <b>Prowokację</b>.",
+		"text": "<b>Pomsta (8):</b> Przyzwij dwa Żuki {0}/{1}. Daj im <b>Prowokację</b>.",
 		"mechanics": [
 			"AVENGE"
 		],
@@ -1222005,7 +1221929,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz Paszczomiotacza. Za każdym razem gdy zniszczysz stronnika poza walką, otrzymujesz {0} szt. złota.",
@@ -1222013,7 +1221937,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Alex Horley Orlandelli"
 	},
@@ -1234357,14 +1234281,14 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 4,
+		"health": 8,
 		"text": "Gdy twój bohater otrzyma obrażenia, anuluj je i daj stronnikom w Karczmie +{0}/+{1} w tej turze.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"artist": "Joseph Weston",
@@ -1234410,14 +1234334,14 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 12,
-		"health": 12,
+		"attack": 8,
+		"health": 16,
 		"text": "Gdy twój bohater otrzyma obrażenia, anuluj je i daj stronnikom w Karczmie +{0}/+{1} w tej turze.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 121687,
@@ -1243742,14 +1243666,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Agonia:</b> Przyzwij bardziej popękane jajo. <i>(Rozbij je 4 razy, aby wykluło się w Bestię 20/20 z <b>Prowokacją</b>!)</i>",
+		"text": "<b>Agonia:</b> Przyzwij bardziej popękane jajo. <i>(Rozbij je jeszcze 4 razy, aby wykluła się z niego Bestia 20/20!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122543,
 			122545,
@@ -1243800,14 +1243721,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Agonia:</b> Przyzwij bardzo popękane jajo. <i>(Rozbij je 3 razy, aby wykluło się w Bestię 20/20 z <b>Prowokacją</b>!)</i>",
+		"text": "<b>Agonia:</b> Przyzwij bardzo popękane jajo. <i>(Rozbij je jeszcze 3 razy, aby wykluła się z niego Bestia 20/20!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122545,
 			122546,
@@ -1243870,14 +1243788,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Agonia:</b> Przyzwij najbardziej popękane jajo. <i>(Rozbij je 2 razy, aby wykluło się w Bestię 20/20 z <b>Prowokacją</b>!)</i>",
+		"text": "<b>Agonia:</b> Przyzwij najbardziej popękane jajo. <i>(Rozbij je jeszcze 2 razy, aby wykluła się z niego Bestia 20/20!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122546,
 			118495
@@ -1243926,14 +1243841,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Agonia:</b> Przyzwij Khelosa 20/20 z <b>Prowokacją</b>. <i>(Rozbij, aby się wykluł!)</i>",
+		"text": "<b>Agonia:</b> Przyzwij Khelosa 20/20. <i>(Rozbij, aby się wykluł!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			118495
 		],
@@ -1244176,7 +1244088,7 @@
 		],
 		"attack": 5,
 		"health": 5,
-		"text": "Za każdym razem gdy przyjazny Kolcozwierz zaatakuje, ta karta zagrywa {0} <b>Krwawych klejnotów</b> na wszystkich twoich stronników.",
+		"text": "Za każdym razem gdy zaatakuje przyjazny Kolcozwierz, ta karta zagrywa {0} <b>Krwawych klejnotów</b> na wszystkich twoich stronników.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1244231,7 +1244143,7 @@
 		"techLevel": 6,
 		"attack": 10,
 		"health": 10,
-		"text": "Za każdym razem gdy przyjazny Kolcozwierz zaatakuje, ta karta zagrywa {0} <b>Krwawych klejnotów</b> na wszystkich twoich stronników.",
+		"text": "Za każdym razem gdy zaatakuje przyjazny Kolcozwierz, ta karta zagrywa {0} <b>Krwawych klejnotów</b> na wszystkich twoich stronników.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1244285,15 +1244197,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 3,
-		"health": 8,
+		"attack": 4,
+		"health": 9,
 		"text": "<b>Natchnienie:</b> Twoje <b>Krwawe klejnoty</b> dają dodatkowo +{0}/+{1} w tej grze.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 1
 		},
 		"artist": "Kleston Marques",
 		"battlegroundsPremiumDbfId": 122567,
@@ -1244341,15 +1244253,15 @@
 			"QUILBOAR"
 		],
 		"techLevel": 5,
-		"attack": 6,
-		"health": 16,
+		"attack": 8,
+		"health": 18,
 		"text": "<b>Natchnienie:</b> Twoje <b>Krwawe klejnoty</b> dają dodatkowo +{0}/+{1} w tej grze.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsNormalDbfId": 122566,
 		"premium": true,
@@ -1254146,7 +1254058,7 @@
 		"collectible": true,
 		"set": "Cataclysm",
 		"rarity": "Epic",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "FIRE",
 		"text": "Zadaj $1 pkt. obrażeń wszystkim stronnikom. <i>(Ulepsza się za każdego stronnika na polu bitwy).</i>",
 		"flavor": "Dziesiątka to szczęśliwa liczba…ale tylko dla niektórych.",
@@ -1259809,15 +1259721,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 10,
 		"health": 3,
 		"text": "<b>Agonia:</b> Daj twoim stronnikom +{0}/+{1}. Złoci stronnicy otrzymują premię na stałe.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsPremiumDbfId": 123596,
 		"audio2": {
@@ -1259855,15 +1259767,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 20,
 		"health": 6,
 		"text": "<b>Agonia:</b> Dwukrotnie daj twoim stronnikom +{0}/+{1}. Złoci stronnicy otrzymują premię na stałe.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 123595,
 		"premium": true,
@@ -1260291,24 +1260203,10 @@
 		"text": "<b>Boska tarcza</b>\nGdy straci <b>Boską tarczę</b>, daj wszystkim twoim Rekrutom Srebrnej Dłoni +1 do zdrowia w tej grze.",
 		"flavor": "Gratulujemy uratowanym! I prosimy nie stawiać oporu.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Milica Celikovic",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Boska tarcza</b>\nGdy straci <b>Boską tarczę</b>,",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "daj wszystkim twoim Rekrutom Srebrnej Dłoni +1 do zdrowia w tej grze.",
-				"mechanics": [
-				]
-			}
-		},
 		"audio2": {
 			"BASIC_attack": {
 				"2H_EpicMace_Underlay_Attack": {
@@ -1282352,7 +1282250,7 @@
 		"rarity": "Epic",
 		"cost": 5,
 		"attack": 4,
-		"health": 4,
+		"health": 3,
 		"text": "<b>Gotowość</b>\n<b>Okrzyk bojowy:</b> Jeśli udało ci się rzucić w tej turze zaklęcie, zagraj dwa losowe <b>Sekrety</b> maga.",
 		"flavor": "Witamy w Dalaranie, gdzie zaklęcia biorą się znikąd, a punkty many nie mają znaczenia!",
 		"mechanics": [
@@ -1282564,8 +1282462,8 @@
 		"collectible": true,
 		"set": "Violet_hold",
 		"rarity": "Rare",
-		"cost": 5,
-		"attack": 5,
+		"cost": 6,
+		"attack": 6,
 		"health": 3,
 		"text": "<b>Gotowość</b>\n<b>Okrzyk bojowy:</b> Zniszcz twoich pozostałych stronników. Dobierz kartę i odśwież 1 kryształ many za każdego zniszczonego stronnika.",
 		"flavor": "Braki w wykształceniu nadrabia sprawnością w posługiwaniu się piłą.",
@@ -1288292,8 +1288190,6 @@
 		"races": [
 			"MURLOC"
 		],
-		"techLevel": 2,
-		"isBaconPool": true,
 		"attack": 3,
 		"health": 5,
 		"text": "<b>Natchnienie:</b> Przyzwij Murloka z najwyższym atakiem z twojej ręki tylko na czas tej walki.",
@@ -1297753,15 +1297649,17 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 15,
-		"health": 15,
-		"text": "<b>Natchnienie:</b> Daj przyjaznemu stronnikowi każdego rodzaju +{0}/+{1} na stałe.",
+		"attack": 10,
+		"health": 10,
+		"text": "<b>Natchnienie:</b> Daj przyjaznemu stronnikowi każdego rodzaju +{0}/+{1} na stałe i ulepsz ten efekt.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"artist": "Slawomir Maniak",
 		"battlegroundsPremiumDbfId": 127110,
@@ -1297822,15 +1297720,17 @@
 			"ALL"
 		],
 		"techLevel": 7,
-		"attack": 30,
-		"health": 30,
-		"text": "<b>Natchnienie:</b> Dwukrotnie daj przyjaznemu stronnikowi każdego rodzaju +{0}/+{1} na stałe.",
+		"attack": 20,
+		"health": 20,
+		"text": "<b>Natchnienie:</b> Dwukrotnie daj przyjaznemu stronnikowi każdego rodzaju +{0}/+{1} na stałe i ulepsz ten efekt.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"battlegroundsNormalDbfId": 127109,
 		"premium": true,
@@ -1298027,9 +1297927,9 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 16,
-		"health": 32,
-		"text": "Gdy przyzwiesz\nstronnika podczas walki, otrzymuje maksymalne statystyki tego stronnika.\n<i>(3 razy na walkę).</i>",
+		"attack": 15,
+		"health": 30,
+		"text": "Gdy przyzwiesz innego stronnika podczas walki, otrzymuje podwojone maksymalne statystyki tego stronnika. <i>(3 razy na walkę).</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1298078,9 +1297978,9 @@
 			"BEAST"
 		],
 		"techLevel": 7,
-		"attack": 32,
-		"health": 64,
-		"text": "Gdy przyzwiesz stronnika podczas walki, otrzymuje podwojone maksymalne statystyki tego stronnika.\n<i>(3 razy na walkę).</i>",
+		"attack": 30,
+		"health": 60,
+		"text": "Gdy przyzwiesz innego stronnika podczas walki, otrzymuje potrojone maksymalne statystyki tego stronnika. <i>(3 razy na walkę).</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1307953,8 +1307853,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 13,
+		"attack": 17,
+		"health": 23,
 		"text": "Na koniec twojej tury daj stronnikowi z lewego skraju twojej ręki statystyki tego stronnika.",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -1308002,8 +1307902,8 @@
 			"MURLOC"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 26,
+		"attack": 34,
+		"health": 46,
 		"text": "Na koniec twojej tury daj stronnikowi z lewego skraju twojej ręki podwojone statystyki tego stronnika.",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -1308399,7 +1308299,7 @@
 		"text": "Daj twoim stronnikom +{0}/+{1}. Daj złotym stronnikom jeszcze +{0}/+{1}.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Anton Zemskov"
 	},
@@ -1317240,7 +1317140,7 @@
 		"isBaconPool": true,
 		"attack": 5,
 		"health": 5,
-		"text": "Na początku twojej tury pożera Demona z prawej strony i otrzymuje jego statystyki oraz {0} szt. złota.",
+		"text": "Na początku twojej tury pożera Demona z prawej strony i otrzymuje jego statystyki. Otrzymujesz {0} szt. złota.",
 		"mechanics": [
 			"BACON_TIMEWARPED",
 			"TRIGGER_VISUAL"
@@ -1317292,7 +1317192,7 @@
 		"techLevel": 3,
 		"attack": 10,
 		"health": 10,
-		"text": "Na początku twojej tury pożera Demona z prawej strony i otrzymuje jego podwojone statystyki oraz {0} szt. złota.",
+		"text": "Na początku twojej tury pożera Demona z prawej strony i otrzymuje jego podwojone statystyki. Otrzymujesz {0} szt. złota.",
 		"mechanics": [
 			"BACON_TIMEWARPED",
 			"TRIGGER_VISUAL"
@@ -1331099,7 +1330999,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 9,
+		"cost": 10,
 		"attack": 9,
 		"health": 7,
 		"text": "<b>Okrzyk bojowy:</b> Zmniejsz koszt karty w twojej ręce o (5). Efekt przechodzi w lewo i w prawo z redukcją mniejszą o (1).",
@@ -1341796,7 +1341696,7 @@
 		"rarity": "Common",
 		"cost": 2,
 		"spellSchool": "SHADOW",
-		"text": "Za 2 tur przyzwij dwóch C'Thraxów 3/5 z <b>Prowokacją</b>.",
+		"text": "Za 2 tur przyzwij dwóch C’Thraxów 2/4 z <b>Prowokacją</b>.",
 		"flavor": "„Dostaw kilka talerzy – będziemy mieć gości na obiad”.",
 		"mechanics": [
 			"OBJECTIVE"
@@ -1341843,9 +1341743,9 @@
 			"WARLOCK"
 		],
 		"set": "Black_empire",
-		"cost": 4,
-		"attack": 3,
-		"health": 5,
+		"cost": 3,
+		"attack": 2,
+		"health": 4,
 		"text": "<b>Prowokacja</b>",
 		"mechanics": [
 			"TAUNT"
@@ -1342214,7 +1342114,7 @@
 		"set": "Black_empire",
 		"rarity": "Common",
 		"cost": 3,
-		"attack": 2,
+		"attack": 3,
 		"durability": 2,
 		"text": "Gdy twój bohater zaatakuje, otrzymujesz „Nadobroty”.",
 		"flavor": "Idealnie nadaje się do zadawania ran oraz ich wypalania.",
@@ -1342252,7 +1342152,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Rare",
-		"cost": 2,
+		"cost": 1,
 		"text": "<b>Złóż</b> Mecha. Otrzymujesz Nadobroty.",
 		"flavor": "miM rof tnuocca ton did tolp s'noraS-ggoY tub ,htaed s'norimiM detartsehcro yllufsseccus noraS-ggoY ,noitiurF ot emoc ot ainnellim ynam ekat dluow ti hguohT",
 		"artist": "Matt Dixon",
@@ -1342496,24 +1342396,10 @@
 		"text": "<b>Boska tarcza</b>\nGdy przyjazny stronnik straci <b>Boską tarczę</b>, daj stronnikowi w twojej ręce +5/+5.",
 		"flavor": "„Wiara i odwaga będą mnie chronić. A honor i poświęcenie sprawią, że wkrótce pojawią się moi następcy”.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Boska tarcza</b>\nGdy przyjazny stronnik straci <b>Boską tarczę</b>,",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "daj stronnikowi w twojej ręce +5/+5.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -1342994,9 +1342880,9 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 7,
-		"attack": 7,
-		"health": 7,
+		"cost": 6,
+		"attack": 6,
+		"health": 6,
 		"text": "<b>Okrzyk bojowy:</b> Otrzymujesz 20 pkt. pancerza. Za 2 tury przekształć twój pancerz w Golema o takich statystykach i z <b>Prowokacją</b>.",
 		"flavor": "Pancerz można tracić nie tylko przyjmując ciosy.",
 		"mechanics": [
@@ -1345275,7 +1345161,7 @@
 		],
 		"attack": 4,
 		"health": 5,
-		"text": "Kosztuje (2) mniej za każdą kartę z <b>Kombinacją</b> zagraną w tej turze.\n<b>Okrzyk bojowy:</b> Dobierz kartę.",
+		"text": "Kosztuje (2) mniej za każdą kartę z <b>Kombinacją</b> zagraną w tej turze.\n<b>Okrzyk bojowy:</b> Dobierz 2 karty.",
 		"flavor": "Akurat w tym wypadku to ty boisz się bardziej niż to coś ciebie.",
 		"mechanics": [
 			"BATTLECRY"
@@ -1345333,14 +1345219,14 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Common",
-		"cost": 3,
+		"cost": 4,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 4,
-		"health": 2,
-		"text": "<b>Agonia:</b> Otrzymujesz dwie Larwy o koszcie (1) z <b><b>Kombinacjami</b></b>, które aktywują moc specjalną innej klasy.",
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Agonia:</b> Otrzymujesz dwie Larwy z <b><b>Kombinacjami</b></b>, które aktywują moc specjalną innej klasy. Kosztują (0).",
 		"flavor": "„Chmarą, mości panowie!”",
 		"mechanics": [
 			"DEATHRATTLE",
@@ -1346729,10 +1346615,10 @@
 		"rarity": "Common",
 		"cost": 2,
 		"additionalCosts": {
-			"BLOODRUNE": 2
+			"BLOODRUNE": 3
 		},
 		"attack": 3,
-		"health": 3,
+		"health": 4,
 		"text": "<b>Kradzież życia</b>",
 		"flavor": "Damy mu kopytka, żeby szybko pomykał, i mieczorękę, żeby mocno ciachał!",
 		"mechanics": [
@@ -1347428,7 +1347314,7 @@
 		"rarity": "Common",
 		"cost": 5,
 		"spellSchool": "SHADOW",
-		"text": "Przyzwij Pustkoskrzydłego 5/5 z <b>Kradzieżą życia</b>. <i>(Następne zagrane przez ciebie zaklęcie Cienia powtarza ten efekt!)</i>",
+		"text": "Przyzwij dwóch Pustkoskrzydłych 3/4 z <b>Kradzieżą życia</b>. <i>(Następne zagrane przez ciebie zaklęcie Cienia powtarza ten efekt!)</i>",
 		"flavor": "Jak powszechnie wiadomo, starszych należy słuchać, szczególnie gdy ich słowa przywołują Pustkoskrzydłych.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0
@@ -1347477,13 +1347363,13 @@
 			"PRIEST"
 		],
 		"set": "Black_empire",
-		"cost": 5,
+		"cost": 3,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 5,
-		"health": 5,
+		"attack": 3,
+		"health": 4,
 		"text": "<b>Kradzież życia</b>",
 		"mechanics": [
 			"LIFESTEAL"
@@ -1349409,7 +1349295,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 6,
@@ -1349471,7 +1349357,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 12,
 		"text": "Za każdym razem gdy odrzucisz kartę, daj twojemu <b>Bóstwu</b> +{0}/+{1} i ulepsz tę kartę.",
@@ -1352810,7 +1352696,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_2": 14
 		}
 	},
 	{
@@ -1352824,7 +1352710,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz po dwóch losowych stronników z poziomu 1, 2 i 3.",
@@ -1353260,8 +1353146,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -1353331,8 +1353217,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Arthur Bozonnet"
 	},
@@ -1353562,7 +1353448,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz losowego <b>Chromasmokowca</b>. Powtórz na początku każdej tury.",
@@ -1353664,7 +1353550,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz {0} losowych <b>zleceń</b>. Powtórz na początku każdej tury.",
@@ -1353730,8 +1353616,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Grace Liu"
 	},
@@ -1353780,8 +1353666,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"artist": "Tanamaes Leejierasaes"
 	},
@@ -1353968,6 +1353854,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz <b>Krwawy klejnot</b>, który daje Kolcozwierzowi <b>Prowokację</b>, <b>Boską tarczę</b> lub <b>Odrodzenie</b>. Na początku każdej tury powtórz ten efekt.",
@@ -1366877,7 +1366764,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz Klonującą konchę. Na początku co {1} tury powtórz ten efekt. <i>(Jeszcze {0} tur!)</i>",
@@ -1366909,8 +1366796,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Matt Dixon",
 		"otherTags": [
@@ -1366931,7 +1366818,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz Polaryzującego beatboksera.",
@@ -1368290,7 +1368177,7 @@
 		],
 		"attack": 0,
 		"health": 1,
-		"text": "<b><b>Odrodzenie</b>\n</b><b>Agonia:</b> daj wszystkim stronnikom w twojej ręce +1/+1.",
+		"text": "<b>Odrodzenie</b>\n<b>Agonia:</b> Daj wszystkim stronnikom w twojej ręce +1 do ataku.",
 		"flavor": "„Ratunku! Boli mnie brzuszek!”",
 		"mechanics": [
 			"CRAFTABLE_OUTPUT_POWER",
@@ -1368300,14 +1368187,14 @@
 		"artist": "Matt Dixon",
 		"assembleHalves": {
 			"first": {
-				"text": "<b><b>Odrodzenie</b>\n</b><b>Agonia:</b>",
+				"text": "<b>Odrodzenie</b>\n<b>Agonia:</b>",
 				"mechanics": [
 					"DEATHRATTLE",
 					"REBORN"
 				]
 			},
 			"second": {
-				"text": "daj wszystkim stronnikom w twojej ręce +1/+1.",
+				"text": "Daj wszystkim stronnikom w twojej ręce +1 do ataku.",
 				"mechanics": [
 				]
 			}
@@ -1368482,7 +1368369,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Po <b>Odświeżeniu</b> Karczmy daj tamtejszym stronnikom +{0}/+{1} w tej turze.",
@@ -1368490,8 +1368377,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"artist": "Vlad Botos",
 		"referencedTags": [
@@ -1373396,7 +1373283,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 10,
+		"cost": 9,
 		"attack": 10,
 		"health": 10,
 		"text": "<b>Przedwieczny Bóg</b>\n<b>Okrzyk bojowy:</b> Jeśli udało ci się wydać 30 pkt. many na stronników w tej grze, otrzymuje <b>Niewrażliwość</b> na 1 turę. <i>(Jeszcze {0}!)</i>",
@@ -1374874,7 +1374761,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "+4/+4. Za 2 tury podwój statystyki tego stronnika."
+		"text": "+6/+6.\nZa 2 tury podwój statystyki tego stronnika."
 	},
 	{
 		"dbfId": 132203,
@@ -1374910,7 +1374797,7 @@
 		"set": "Battlegrounds",
 		"cost": 0,
 		"faction": "NEUTRAL",
-		"text": "<b>Początek walki:</b> Podwój zdrowie tego stronnika."
+		"text": "+15 do zdrowia.\n<b>Początek walki:</b> Podwój zdrowie tego stronnika."
 	},
 	{
 		"dbfId": 132207,
@@ -1375331,7 +1375218,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "<b>Początek walki:</b> Podwój zdrowie tego stronnika.",
+		"text": "+15 do zdrowia.\n<b>Początek walki:</b> Podwój zdrowie tego stronnika.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1376459,7 +1376346,7 @@
 		"cost": 10,
 		"attack": 12,
 		"health": 12,
-		"text": "<b>Przedwieczny Bóg</b>\nJeśli w tej grze aktywujesz wszystkie 4 zdolności C'Thuna, zdolności tego stronnika są potrajane.",
+		"text": "<b>Przedwieczny Bóg</b>\nJeśli udało ci się aktywować w tej grze wszystkie 4 zdolności C'Thuna, zdolności tego stronnika są czterokrotnie zwiększone.",
 		"flavor": "„Amitut, Strażniczka Amitus”/2 + (2*„Inkubacja”)/2 + (2*„Nieodgadniona”/3)",
 		"artist": "Kevin Sidharta",
 		"availableAsSignature": true,
@@ -1376504,7 +1376391,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+2/+3."
+		"text": "+2/+2"
 	},
 	{
 		"dbfId": 132341,
@@ -1376517,7 +1376404,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+6/+9."
+		"text": "+8/+8"
 	},
 	{
 		"dbfId": 132342,
@@ -1376532,7 +1376419,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "Przyzwij dwie Fanatyczki 2/3 z <b>Prowokacją</b>.",
+		"text": "Przyzwij dwie Fanatyczki 2/2 z <b>Prowokacją</b>.",
 		"artist": "Stefan Bogdasarov",
 		"hideStats": true,
 		"referencedTags": [
@@ -1376582,7 +1376469,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "Daj dwóm innym losowym przyjaznym stronnikom +2/+3.",
+		"text": "Daj dwóm innym losowym przyjaznym stronnikom +2/+2.",
 		"artist": "Kevin Sidharta",
 		"hideStats": true
 	},
@@ -1376599,7 +1376486,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Rozdziel losowo 7 pkt. obrażeń między wrogów.",
+		"text": "Rozdziel losowo 6 pkt. obrażeń między wrogów.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376678,13 +1376565,13 @@
 		"cost": 3,
 		"attack": 3,
 		"health": 2,
-		"text": "<b>Okrzyk bojowy:</b> Jeśli udało ci się rzucić 2 zaklęcia Cienia, mając tę kartę w ręce, wybierz zdolność C'Thuna, aby ją aktywować. <i>(Jeszcze {0}!)</i>",
+		"text": "<b>Okrzyk bojowy:</b> Jeśli udało ci się rzucić zaklęcie Cienia, mając tę kartę w ręce, wybierz zdolność C’Thuna, aby ją aktywować.",
 		"flavor": "Szur, szur, szur – to idą Przedwieczni!",
 		"mechanics": [
 			"BATTLECRY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Ivo Campelo da Silva",
 		"availableAsSignature": true,
@@ -1376709,7 +1376596,7 @@
 		"rarity": "Legendary",
 		"cost": 2,
 		"attack": 2,
-		"health": 3,
+		"health": 2,
 		"text": "<b>Prowokacja</b>",
 		"mechanics": [
 			"TAUNT"
@@ -1376905,7 +1376792,7 @@
 			"HUNTER"
 		],
 		"set": "Black_empire",
-		"text": "+1/+1."
+		"text": "+1 do ataku."
 	},
 	{
 		"dbfId": 132441,
@@ -1377086,7 +1376973,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "<b>Agonia:</b> Daj twoim stronnikom +2/+2 na stałe."
+		"text": "<b>Agonia:</b> Daj twoim stronnikom +3/+3 na stałe."
 	},
 	{
 		"dbfId": 132485,
@@ -1378610,8 +1378497,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 15,
+		"attack": 13,
+		"health": 17,
 		"text": "<b>Natchnienie:</b> Przyzwij Golema ze statystykami tego stronnika. Zaatakuje cel jako pierwszy.",
 		"mechanics": [
 			"BACON_RALLY"
@@ -1378666,8 +1378553,8 @@
 			"QUILBOAR"
 		],
 		"techLevel": 7,
-		"attack": 12,
-		"health": 30,
+		"attack": 26,
+		"health": 34,
 		"text": "<b>Natchnienie:</b> Przyzwij Golema z podwojonymi statystykami tego stronnika. Zaatakuje cel jako pierwszy.",
 		"mechanics": [
 			"BACON_RALLY"
@@ -1378970,7 +1378857,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
+		"attack": 8,
 		"health": 8,
 		"text": "Za każdym razem gdy zagrasz Mecha, użyj na nim <b>Magnetyzmu</b> Satelity {1}/{2} i ulepsz tę kartę.",
 		"mechanics": [
@@ -1378979,7 +1378866,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 2,
-			"TAG_SCRIPT_DATA_NUM_3": 3
+			"TAG_SCRIPT_DATA_NUM_3": 2
 		},
 		"artist": "Brian Despain",
 		"battlegroundsPremiumDbfId": 132677,
@@ -1379027,7 +1378914,7 @@
 			"MECH"
 		],
 		"techLevel": 5,
-		"attack": 12,
+		"attack": 16,
 		"health": 16,
 		"text": "Za każdym razem gdy zagrasz Mecha, użyj na nim <b>Magnetyzmu</b> Satelity {1}/{2} i ulepsz tę kartę.",
 		"mechanics": [
@@ -1379036,7 +1378923,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 4,
-			"TAG_SCRIPT_DATA_NUM_3": 6
+			"TAG_SCRIPT_DATA_NUM_3": 4
 		},
 		"battlegroundsNormalDbfId": 132676,
 		"premium": true,
@@ -1379771,15 +1379658,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 7,
+		"health": 5,
 		"text": "Po wydaniu {2} szt. złota otrzymujesz Skrzynię. Jeśli już ją masz, zamiast tego otworzy się {3} tur wcześniej. <i>(Jeszcze {0} szt. złota!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
 		"artist": "Joseph Weston",
@@ -1379825,15 +1379712,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 12,
-		"health": 12,
+		"attack": 14,
+		"health": 10,
 		"text": "Po wydaniu {2} szt. złota otrzymujesz Skrzynię. Jeśli już ją masz, zamiast tego otworzy się {3} tur wcześniej. <i>(Jeszcze {0} szt. złota!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 2
 		},
 		"battlegroundsNormalDbfId": 132762,
@@ -1381084,7 +1380971,7 @@
 	{
 		"dbfId": 132837,
 		"id": "CAP_405t1",
-		"name": "",
+		"name": "Skazani na zagładę",
 		"type": "Spell",
 		"cardClass": "WARLOCK",
 		"playerClass": "Warlock",
@@ -1381094,6 +1380981,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
+		"text": "Zmuś każdego stronnika do zaatakowania innego stronnika.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
 		},
@@ -1381131,7 +1381019,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Wykradnij 2 karty z ręki przeciwnika.",
+		"text": "Ukradnij kartę z ręki przeciwnika.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -1381150,7 +1381038,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Daj stronnikom w twojej ręce i na polu bitwy +3/+3.",
+		"text": "Daj stronnikom w twojej ręce i na polu bitwy +2/+2.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 7
 		},
@@ -1381167,7 +1381055,7 @@
 			"NEUTRAL"
 		],
 		"set": "Azeroths_most_wanted",
-		"text": "+3/+3."
+		"text": "+2/+2"
 	},
 	{
 		"dbfId": 132848,
@@ -1381222,7 +1381110,7 @@
 		],
 		"set": "Azeroths_most_wanted",
 		"cost": 0,
-		"text": "Przyzwij trzech losowych stronników o koszcie (3).",
+		"text": "Przyzwij trzech losowych stronników o koszcie (2).",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6
 		},
@@ -1381599,15 +1381487,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
+		"attack": 5,
+		"health": 5,
 		"text": "Za każdym razem, gdy rzucisz zaklęcie na Mecha, użyj na nim <b>Magnetyzmu</b> Satelity {0}/{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Kevin Sidharta",
 		"battlegroundsPremiumDbfId": 132894,
@@ -1381655,15 +1381543,15 @@
 			"MECH"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 8,
+		"attack": 10,
+		"health": 10,
 		"text": "Za każdym razem, gdy rzucisz zaklęcie na Mecha, dwukrotnie użyj na nim <b>Magnetyzmu</b> Satelity {0}/{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 132893,
 		"premium": true,
@@ -1382644,9 +1382532,9 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
-		"text": "Gdy <b>Odkryjesz</b> kartę, twoi pozostali Piraci otrzymują +{0}/+{1}. <i>(Ulepsza się za zagranych złotych stronników!)</i>",
+		"attack": 5,
+		"health": 5,
+		"text": "Gdy <b>Odkryjesz</b> kartę, daj twoim Piratom +{0}/+{1}. <i>(Ulepsza się za każdego złotego stronnika zagranego przez ciebie w tej grze!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1382747,9 +1382635,9 @@
 			"PIRATE"
 		],
 		"techLevel": 6,
-		"attack": 8,
-		"health": 8,
-		"text": "Gdy <b>Odkryjesz</b> kartę, twoi pozostali Piraci otrzymują +{0}/+{1}. <i>(Ulepsza się za zagranych złotych stronników!)</i>",
+		"attack": 10,
+		"health": 10,
+		"text": "Gdy <b>Odkryjesz</b> kartę, daj twoim Piratom +{0}/+{1}. <i>(Ulepsza się za każdego złotego stronnika zagranego przez ciebie w tej grze!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1383311,12 +1383199,13 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 9,
-		"text": "<b>Boska tarcza</b>\n<b>Natchnienie:</b> Rzuć Potężne smocze zionięcie.",
+		"attack": 9,
+		"health": 7,
+		"text": "<b>Boska tarcza</b>, <b><b>Furia wichru</b></b>\n<b>Natchnienie:</b> Rzuć Potężne smocze zionięcie.",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"artist": "TOPDOG Entertainment",
 		"battlegroundsPremiumDbfId": 132954,
@@ -1383361,12 +1383250,13 @@
 			"DRAGON"
 		],
 		"techLevel": 6,
-		"attack": 16,
-		"health": 18,
-		"text": "<b>Boska tarcza</b>\n<b>Natchnienie:</b> Dwukrotnie rzuć Potężne smocze zionięcie.",
+		"attack": 18,
+		"health": 14,
+		"text": "<b>Boska tarcza</b>, <b>Furia wichru</b> <b>Natchnienie:</b> Dwukrotnie rzuć Potężne smocze zionięcie.",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"battlegroundsNormalDbfId": 132953,
 		"premium": true,
@@ -1383749,14 +1383639,14 @@
 		"techLevel": 6,
 		"isBaconPool": true,
 		"attack": 3,
-		"health": 12,
+		"health": 9,
 		"text": "Gdy zagrasz {1} Żywiołaków, otrzymuje statystyki stronnika o najwyższym zdrowiu w Karczmie. <i>(Jeszcze {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Kevin Sidharta",
 		"battlegroundsPremiumDbfId": 132984,
@@ -1383802,14 +1383692,14 @@
 		],
 		"techLevel": 6,
 		"attack": 6,
-		"health": 24,
+		"health": 18,
 		"text": "Gdy zagrasz {1} Żywiołaków, otrzymuje podwojone statystyki stronnika o najwyższym zdrowiu w Karczmie. <i>(Jeszcze {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 132983,
 		"premium": true,
@@ -1384060,15 +1383950,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 6,
+		"attack": 3,
+		"health": 7,
 		"text": "Za każdym razem, gdy rzucisz zaklęcie na tę kartę, daj +{0}/+{1} stronnikowi z lewego skraju twojej ręki.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 9,
+			"TAG_SCRIPT_DATA_NUM_2": 9
 		},
 		"artist": "Marta Vives Poch",
 		"battlegroundsPremiumDbfId": 132990,
@@ -1384113,15 +1384003,15 @@
 			"MURLOC"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 12,
+		"attack": 6,
+		"health": 14,
 		"text": "Za każdym razem, gdy rzucisz zaklęcie na tę kartę, daj +{0}/+{1} stronnikowi z lewego skraju twojej ręki.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 18,
+			"TAG_SCRIPT_DATA_NUM_2": 18
 		},
 		"battlegroundsNormalDbfId": 132989,
 		"premium": true,
@@ -1384282,15 +1384172,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 5,
-		"health": 7,
+		"attack": 6,
+		"health": 9,
 		"text": "Za każdym razem, gdy zagrasz zaklęcie na Murloka, daj Murlokom w twojej ręce i na planszy +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Florent Mounier",
 		"battlegroundsPremiumDbfId": 133027,
@@ -1384335,15 +1384225,15 @@
 			"MURLOC"
 		],
 		"techLevel": 5,
-		"attack": 10,
-		"health": 14,
+		"attack": 12,
+		"health": 18,
 		"text": "Za każdym razem, gdy zagrasz zaklęcie na Murloka, daj Murlokom w twojej ręce i na planszy +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 133026,
 		"premium": true,
@@ -1384389,15 +1384279,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 8,
+		"attack": 5,
+		"health": 10,
 		"text": "Gdy twój bohater otrzyma {1} pkt. obrażeń, otrzymujesz kopię Splugawionych babeczek. <i>(Jeszcze {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Kleston Marques",
 		"battlegroundsPremiumDbfId": 133029,
@@ -1384442,15 +1384332,15 @@
 			"DEMON"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 16,
+		"attack": 10,
+		"health": 20,
 		"text": "Gdy twój bohater otrzyma {1} pkt. obrażeń, otrzymujesz 2 kopie Splugawionych babeczek. <i>(Jeszcze {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 133028,
 		"premium": true,
@@ -1384766,8 +1384656,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -1384878,7 +1384768,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "Gdy kupisz Mecha, otrzymujesz losowe zaklęcie z Karczmy.",
+		"text": "Gdy kupisz Mecha, otrzymujesz losowe zaklęcie z Karczmy o koszcie (2) lub wyższym.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"GENERATES_SPELL",
@@ -1387241,7 +1387131,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Anton Zemskov",
 		"otherTags": [
@@ -1387303,7 +1387193,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz losową kartę z <b>Wybierz jedno</b>. Na początku każdej tury otrzymujesz jeszcze jedną.",
@@ -1387329,7 +1387219,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz 2 losowe karty z <b>Wybierz jedno</b>. Na początku każdej tury otrzymujesz jeszcze 2.",
@@ -1387460,7 +1387350,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "<b>Początek walki:</b> Podwój atak tego stronnika.",
+		"text": "+15 do ataku.\n<b>Początek walki:</b> Podwój atak tego stronnika.",
 		"hideStats": true
 	},
 	{
@@ -1387475,7 +1387365,7 @@
 		],
 		"set": "Battlegrounds",
 		"faction": "NEUTRAL",
-		"text": "<b>Początek walki:</b> Podwój atak tego stronnika.",
+		"text": "+15 do ataku.\n<b>Początek walki:</b> Podwój atak tego stronnika.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1387614,14 +1387504,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "Gdy rzucisz 3 zaklęcia na stronników, otrzymujesz 1 szt. złota. <i>(Jeszcze {0}!)</i>",
+		"text": "Gdy rzucisz {1} zaklęć na stronników, otrzymujesz 1 szt. złota. <i>(Jeszcze {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		}
 	},
 	{
@@ -1387635,7 +1387527,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Twoje karty z <b>Wybierz jedno</b> mają oba połączone efekty.",
@@ -1387678,7 +1387570,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Za każdym razem gdy przyjazny stronnik z <b>Natchnieniem</b> zaatakuje, otrzymujesz darmowe <b>Odświeżenie</b>.",
@@ -1387727,7 +1387619,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Dwaj pierwsi stronnicy z <b>Okrzykiem bojowym</b>, których kupisz w każdej turze, są darmowi. <i>(Jeszcze {0}!)</i>",
@@ -1388206,7 +1388098,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "Otrzymuje +3 do zdrowia za każdym razem, gdy zagrasz kartę.",
+		"text": "Otrzymuje +2 do zdrowia za każdym razem, gdy zagrasz kartę.",
 		"hideStats": true
 	},
 	{
@@ -1388233,7 +1388125,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "Otrzymuje +3 do zdrowia za każdym razem, gdy zagrasz kartę."
+		"text": "Otrzymuje +2 do zdrowia za każdym razem, gdy zagrasz kartę."
 	},
 	{
 		"dbfId": 133434,
@@ -1390112,6 +1390004,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Na koniec twojej tury otrzymujesz Satelitę {0}/{1} z <b>Magnetyzmem</b>. <i>(Ulepsza się za każde zaklęcie z Karczmy rzucone przez ciebie w tej turze!)</i>",
@@ -1390122,8 +1390015,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 12,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -1390653,7 +1390546,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Odkryj</b> bazową kopię przyjaznego stronnika z <b>Mrocznym darem</b>. Na początku co 2 tury powtórz ten efekt. <i>(Jeszcze {0} tur!)</i>",
@@ -1391490,7 +1391383,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz Ognistego miotacza albo Śnieżnego miotacza. Powtórz na początku każdej tury.",
@@ -1392578,7 +1392471,7 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 5,
+		"attack": 6,
 		"health": 3,
 		"text": "<b>Agonia:</b> Daj stronnikom w Karczmie +{0}/+{1} w tej grze.\n<b>Aktywacja ({4}):</b> Ulepsz tę kartę.",
 		"mechanics": [
@@ -1392587,7 +1392480,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -1392652,7 +1392545,7 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 10,
+		"attack": 12,
 		"health": 6,
 		"text": "<b>Agonia:</b> Daj stronnikom w Karczmie +{0}/+{1} w tej grze.\n<b>Aktywacja ({4}):</b> Ulepsz tę kartę.",
 		"mechanics": [
@@ -1392661,7 +1392554,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 2,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -1393369,8 +1393262,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 13,
-			"TAG_SCRIPT_DATA_NUM_2": 13
+			"TAG_SCRIPT_DATA_NUM_1": 11,
+			"TAG_SCRIPT_DATA_NUM_2": 11
 		}
 	},
 	{
@@ -1393391,8 +1393284,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 50,
-			"TAG_SCRIPT_DATA_NUM_3": 50
+			"TAG_SCRIPT_DATA_NUM_1": 40,
+			"TAG_SCRIPT_DATA_NUM_3": 40
 		}
 	},
 	{
@@ -1393453,7 +1393346,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz losowego Wolumizatora z <b>Magnetyzmem</b>. Na początku każdej tury otrzymujesz jeszcze jednego.",
@@ -1393475,7 +1393368,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz Śluzową korozję. Gdy odrzucisz zaklęcie, otrzymujesz Śluzową korozję.",
@@ -1393503,7 +1393396,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 3,
-		"spellSchool": "LESSER_TRINKET",
+		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Na koniec twojej tury daj twoim stronnikom +{0}/+{1}. <i>(Podwaja się na początku każdej tury!)</i>",
 		"mechanics": [
@@ -1393512,8 +1393405,8 @@
 			"END_OF_TURN"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -1393566,7 +1393459,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz 2 losowe Wolumizatory z <b>Magnetyzmem</b>. Powtórz na początku każdej tury.",
@@ -1394234,7 +1394127,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Otrzymujesz 2 Perfidne żarłacze. Za każdym razem gdy umrze Przynęta, daj twoim Bestiom +{0}/+{1} i ulepsz tę kartę.",
@@ -1395302,15 +1395195,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 2,
-		"health": 6,
-		"text": "Otrzymuje +{0} do ataku za każdym razem, gdy zagrasz kartę.",
+		"attack": 6,
+		"health": 2,
+		"text": "Otrzymuje +{1} do zdrowia za każdym razem, gdy zagrasz kartę.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsPremiumDbfId": 134705,
 		"audio2": {
@@ -1395357,15 +1395250,15 @@
 			"ALL"
 		],
 		"techLevel": 2,
-		"attack": 4,
-		"health": 12,
-		"text": "Otrzymuje +{0} do ataku za każdym razem, gdy zagrasz kartę.",
+		"attack": 12,
+		"health": 4,
+		"text": "Otrzymuje +{1} do zdrowia za każdym razem, gdy zagrasz kartę.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 134704,
 		"premium": true,
@@ -1395622,15 +1395515,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 3,
-		"health": 3,
+		"attack": 4,
+		"health": 4,
 		"text": "Ma +{0}/+{1} za każdy <b>Okrzyk bojowy</b> aktywowany przez ciebie w tej grze <i>(gdziekolwiek jest)</i>.",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsPremiumDbfId": 134711,
 		"referencedTags": [
@@ -1395680,15 +1395573,15 @@
 			"ALL"
 		],
 		"techLevel": 3,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "Ma +{0}/+{1} za każdy <b>Okrzyk bojowy</b> aktywowany przez ciebie w tej grze <i>(gdziekolwiek jest)</i>.",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 134710,
 		"premium": true,
@@ -1395862,7 +1395755,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "Ma +3/+3 za każdą kartę odrzuconą przez ciebie w tej grze. <i>({1})</i>",
+		"text": "Ma +3/+2 za każdą kartę odrzuconą przez ciebie w tej grze. <i>({1})</i>",
 		"otherTags": [
 			"CARES_ABOUT_DISCARDS_THIS_GAME"
 		]
@@ -1395946,7 +1395839,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "Ma +3/+3 za każdą kartę odrzuconą przez ciebie w tej grze. <i>({1})</i>",
+		"text": "Ma +3/+2 za każdą kartę odrzuconą przez ciebie w tej grze. <i>({1})</i>",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}

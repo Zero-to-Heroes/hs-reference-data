@@ -28974,15 +28974,12 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "消灭一个随从，然后将其复活，并具有所有生命值。",
+		"text": "消灭一个非<b>传说</b>随从，然后将其复活，并具有所有生命值。",
 		"flavor": "这和出生时没什么两样，除了你生下来就是个成年人，除了你一秒钟之前还是个死人。",
 		"artist": "Dan Scott",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		],
 		"audio2": {
 			"BASIC_play": {
@@ -123829,7 +123826,7 @@
 		"faction": "ALLIANCE",
 		"attack": 3,
 		"health": 3,
-		"text": "<b>亡语：</b>从你的手牌中召唤一个随从的\n1/1复制。",
+		"text": "<b>亡语：</b>从你的手牌中召唤一个随从，将其属性值变为1/1。",
 		"flavor": "在他手里任何东西都可以变成蜡烛。",
 		"mechanics": [
 			"DEATHRATTLE"
@@ -356448,7 +356445,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>任务线：</b>在一回合中抽四张牌。<b>奖励：</b>使抽到的牌法力值消耗减少（1）点。",
+		"text": "<b>任务线：</b>在一回合中抽五张牌。<b>奖励：</b>使抽到的牌法力值消耗减少（1）点。",
 		"flavor": "终于到了最后的决战。炉石传说的最后一张牌。",
 		"mechanics": [
 			"QUESTLINE",
@@ -356478,7 +356475,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>任务线：</b>在一回合中抽五张牌。<b>奖励：</b>使抽到的牌法力值消耗减少（1）点。",
+		"text": "<b>任务线：</b>在一回合中抽六张牌。<b>奖励：</b>使抽到的牌法力值消耗减少（1）点。",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -360926,27 +360923,13 @@
 		"cost": 6,
 		"attack": 5,
 		"health": 5,
-		"text": "<b>圣盾</b>。在一个友方随从失去<b>圣盾</b>后，使你手牌中的一张随从牌获得+5/+5。",
+		"text": "<b>圣盾</b>\n在一个友方随从失去<b>圣盾</b>后，使你手牌中的一张随从牌获得+5/+5。",
 		"flavor": "“我的信仰和勇气，会保护我。而我的荣耀和牺牲，会为我找到继任者。”",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>圣盾</b>。在一个友方随从失去<b>圣盾</b>后，",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "使你手牌中的一张随从牌获得+5/+5。",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -377238,7 +377221,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>任务线：</b>在一回合中抽五张牌。\n<b>奖励：</b>屠魔者库尔特鲁斯。",
+		"text": "<b>任务线：</b>在一回合中抽六张牌。\n<b>奖励：</b>屠魔者库尔特鲁斯。",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -577524,7 +577507,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "<b>战吼：</b>使你从对手处复制的卡牌的法力值消耗减少（3）点。",
+		"text": "<b>战吼：</b>使你从对手处复制的卡牌的法力值消耗减少（2）点。",
 		"flavor": "我们一眼就看出信是假的了，戴夫——这是你的笔迹。还有，把兜帽摘了吧。我们都替你尴尬。",
 		"mechanics": [
 			"BATTLECRY"
@@ -605026,7 +605009,7 @@
 			"PRIEST"
 		],
 		"set": "Revendreth",
-		"text": "法力值消耗减少（3）点。"
+		"text": "法力值消耗减少（2）点。"
 	},
 	{
 		"dbfId": 78405,
@@ -632030,22 +632013,9 @@
 		"text": "在一个友方亡灵死亡后，抽一张牌。",
 		"flavor": "“我看到了死人。很多很多死人。”",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
-		"assembleHalves": {
-			"first": {
-				"text": "在一个友方亡灵死亡后，",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "抽一张牌。",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -724790,7 +724760,7 @@
 		"faction": "NEUTRAL",
 		"attack": 5,
 		"health": 5,
-		"text": "<b>烈毒</b>。<b>战斗开始时：</b>你每有一个随从类型，便从\n+5/+5，<b>风怒</b>，<b>复生</b>或<b>嘲讽</b>中获得一项。",
+		"text": "<b>烈毒</b>。<b>战斗开始时：</b>你每有一个随从类型，便从+5/+5，<b>风怒</b>，<b>复生</b>或<b>嘲讽</b>中获得一项。",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"VENOMOUS"
@@ -893690,7 +893660,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -893743,7 +893713,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -954594,15 +954564,12 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "消灭一个随从，然后将其复活，并具有所有生命值。",
+		"text": "消灭一个非<b>传说</b>随从，然后将其复活，并具有所有生命值。",
 		"flavor": "这和出生时没什么两样，除了你生下来就是个成年人，除了你一秒钟之前还是个死人。",
 		"artist": "Dan Scott",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		],
 		"audio2": {
 			"BASIC_play": {
@@ -963340,16 +963307,16 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 8,
+		"attack": 12,
+		"health": 12,
 		"text": "<b>战吼，亡语：</b>使酒馆中的随从在本局对战中获得+{0}/+{1}。",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 12,
+			"TAG_SCRIPT_DATA_NUM_2": 12
 		},
 		"artist": "Joseph Weston",
 		"battlegroundsPremiumDbfId": 103699,
@@ -963394,16 +963361,16 @@
 			"DEMON"
 		],
 		"techLevel": 7,
-		"attack": 16,
-		"health": 16,
+		"attack": 24,
+		"health": 24,
 		"text": "<b>战吼，亡语：</b>使酒馆中的随从在本局对战中获得+{0}/+{1}。",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 24,
+			"TAG_SCRIPT_DATA_NUM_2": 24
 		},
 		"artist": "Joseph Weston",
 		"battlegroundsNormalDbfId": 103698,
@@ -963450,8 +963417,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 7,
+		"attack": 11,
+		"health": 11,
 		"text": "<b>进击：</b>对目标及一个相邻的随从造成等同于本随从攻击力的伤害。",
 		"mechanics": [
 			"BACON_RALLY",
@@ -963500,8 +963467,8 @@
 			"DRAGON"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 14,
+		"attack": 22,
+		"health": 22,
 		"text": "<b>进击：</b>对目标及相邻的随从造成等同于本随从攻击力的伤害。",
 		"mechanics": [
 			"BACON_RALLY",
@@ -963871,12 +963838,18 @@
 		"races": [
 			"MURLOC"
 		],
+		"techLevel": 2,
+		"isBaconPool": true,
 		"attack": 5,
 		"health": 3,
-		"text": "每当本随从消灭一个随从时，使你手牌中的一张随从牌获得+2/+2。",
+		"text": "每当本随从消灭一个随从时，使你手牌中的一张随从牌获得+{0}/+{1}。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
+		},
 		"artist": "Tiffany Chiu",
 		"battlegroundsPremiumDbfId": 103713,
 		"audio2": {
@@ -963923,10 +963896,14 @@
 		"techLevel": 2,
 		"attack": 10,
 		"health": 6,
-		"text": "每当本随从消灭一个随从时，使你手牌中的一张随从牌获得+4/+4。",
+		"text": "每当本随从消灭一个随从时，使你手牌中的一张随从牌获得+{0}/+{1}。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
+		},
 		"artist": "Tiffany Chiu",
 		"battlegroundsNormalDbfId": 103712,
 		"premium": true,
@@ -971392,7 +971369,7 @@
 		"text": "选择一个随从，使所有该类型的随从获得+{0}/+{1}。",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"otherTags": [
 			"TARGETS_MINION"
@@ -973960,7 +973937,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "TAVERN",
 		"techLevel": 6,
 		"isBaconPool": true,
@@ -984046,15 +984023,15 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "TAVERN",
 		"techLevel": 4,
 		"isBaconPool": true,
 		"text": "使每个类型的各一个友方随从获得+{0}/+{1}。",
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Inès (Ourka) Rotzinger",
 		"otherTags": [
@@ -1012570,7 +1012547,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 6,
 		"health": 6,
 		"text": "每当你施放一个酒馆法术，使酒馆中的元素在本局对战中获得+{0}/+{1}。",
 		"mechanics": [
@@ -1012578,7 +1012555,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsPremiumDbfId": 107940,
@@ -1012623,7 +1012600,7 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 12,
 		"health": 12,
 		"text": "每当你施放一个\n酒馆法术，使酒馆中的元素在本局对战中获得+{0}/+{1}，触发两次。",
 		"mechanics": [
@@ -1012631,7 +1012608,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 107939,
@@ -1045442,9 +1045419,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "在你使用一张随从牌后，使你手牌中最左边的随从牌获得+3/+3。",
+		"text": "在你使用一张随从牌后，使你手牌中最左边的随从牌获得+5/+5。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1045474,7 +1045452,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "每当你花费铸币，使两个友方海盗获得+{0}/+{1}。",
@@ -1051504,22 +1051481,9 @@
 		"text": "在一个友方亡灵死亡后，抽一张牌。",
 		"flavor": "“我看到了死人。很多很多死人。”",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
-		"assembleHalves": {
-			"first": {
-				"text": "在一个友方亡灵死亡后，",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "抽一张牌。",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -1054343,8 +1054307,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 7,
-			"TAG_SCRIPT_DATA_NUM_2": 7
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"artist": "Vlad Botos"
 	},
@@ -1054557,7 +1054521,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>战斗开始时：</b>使你攻击力最低的两个随从的属性值翻倍。",
@@ -1056052,7 +1056016,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>战斗开始时：</b>\n使3个友方元素获得“<b>亡语：</b>召唤一个缤纷冰灵”。",
@@ -1056156,6 +1056119,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1056481,7 +1056445,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>塑造法术：</b>选择一个随从，将其变形成为你另选的高一级的随从。",
@@ -1062638,7 +1062602,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "随机获取一张\n<b>战吼</b>随从牌。在每个回合开始时，再获取一张。",
@@ -1063878,16 +1063841,14 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 3,
 		"faction": "NEUTRAL",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "每场战斗中，在2个友方随从攻击后，本饰品对你的所有野猪人各使用一张<b>鲜血宝石</b>。<i>（还剩{0}个！）</i>",
+		"text": "每场战斗中，在一个友方野猪人攻击后，本饰品对你的所有野猪人各使用一张<b>鲜血宝石</b>。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
-		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
-		},
 		"referencedTags": [
 			"BACON_BLOOD_GEM_TOOLTIP"
 		]
@@ -1091644,7 +1091605,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "每当一个友方野猪人死亡，召唤一个属性值等同于其<b>鲜血宝石</b>加成的魔像。",
@@ -1091752,7 +1091713,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "获得2枚铸币。酒馆中不会再提供等级1和等级2的牌。",
+		"text": "获得3枚铸币。酒馆中不会再提供等级1和等级2的牌。",
 		"mechanics": [
 			"AURA"
 		],
@@ -1091814,7 +1091775,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "转动尤格-萨隆\n的命运之轮。在每个回合开始时，再次转动。",
@@ -1093332,7 +1093293,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 7,
@@ -1093385,7 +1093346,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 14,
 		"text": "从你手牌中使用\n的<b>鲜血宝石</b>会额外施放2次。",
@@ -1121988,10 +1121949,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "在你使用一张随从牌后，使你手牌中最左边的随从牌获得+6/+6。",
+		"text": "在你使用一张随从牌后，使你手牌中最左边的随从牌获得+10/+10。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		]
@@ -1122052,8 +1122013,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		}
 	},
 	{
@@ -1124170,15 +1124131,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "<b>战斗开始时：</b>使你的其他元素获得+{0}/+{1}。<i>（在你使用一张元素牌后提升！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3,
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"artist": "Joseph Weston",
@@ -1124224,15 +1124185,15 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 12,
+		"attack": 16,
+		"health": 16,
 		"text": "<b>战斗开始时：</b>使你的其他元素获得+{0}/+{1}。<i>（在你使用一张元素牌后提升！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"battlegroundsNormalDbfId": 115581,
@@ -1153030,24 +1152991,10 @@
 		"text": "在你召唤一个元素后，随机对一个敌人造成3点伤害。",
 		"flavor": "书欲静而风不止。",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Drew Hill",
-		"assembleHalves": {
-			"first": {
-				"text": "在你召唤一个元素后，",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "随机对一个敌人造成3点伤害。",
-				"mechanics": [
-					"DEAL_DAMAGE"
-				]
-			}
-		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1153398,7 +1153345,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>任务：</b>施放4个神圣法术。<b>奖励：</b>生命之息。<b>任务：</b>施放4个暗影法术。<b>奖励：</b>死亡之触。",
+		"text": "<b>任务：</b>施放6个神圣法术。<b>奖励：</b>生命之息。<b>任务：</b>施放6个暗影法术。<b>奖励：</b>死亡之触。",
 		"flavor": "第6天。今天我们来到了一片林地，神圣和暗影的魔法在此激战。林地中心有两个巨大的元素，就像是同一枚硬币的两面。希望我们还有机会回到这里，期待这片饱受摧残的土地还能恢复平和。",
 		"mechanics": [
 			"QUEST"
@@ -1153425,7 +1153372,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>任务：</b>施放4个神圣法术。<b>奖励：</b>生命之息。",
+		"text": "<b>任务：</b>施放6个神圣法术。<b>奖励：</b>生命之息。",
 		"mechanics": [
 			"QUEST"
 		],
@@ -1157698,7 +1157645,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "你每购买四张牌，第四张牌会消耗生命值，而非铸币。<i>（还剩{0}张！）</i>",
@@ -1158316,7 +1158263,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "获取一个随机友方随从的一张原始版复制。在每个回合开始时，重复此效果。",
@@ -1159259,7 +1159206,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "获取一张惊喜元素。<i>（在你意想不到的时候会出现更多……）</i>",
@@ -1163093,7 +1163040,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "<b>战吼：</b>使你从对手处复制的卡牌的法力值消耗减少（3）点。",
+		"text": "<b>战吼：</b>使你从对手处复制的卡牌的法力值消耗减少（2）点。",
 		"flavor": "我们一眼就看出信是假的了，戴夫——这是你的笔迹。还有，把兜帽摘了吧。我们都替你尴尬。",
 		"mechanics": [
 			"BATTLECRY"
@@ -1171086,12 +1171033,9 @@
 		"set": "Day_of_rebirth",
 		"rarity": "Common",
 		"cost": 8,
-		"text": "将一个友方随从的属性值变为1/1。用它的复制填满你的\n面板。",
+		"text": "将一个非<b>传说</b>友方随从的属性值变为1/1。用它的复制填满你的面板。",
 		"flavor": "引虫香水的效果消失了。",
-		"artist": "Slawomir Maniak",
-		"otherTags": [
-			"TARGETS_FRIENDLY_MINION"
-		]
+		"artist": "Slawomir Maniak"
 	},
 	{
 		"dbfId": 118407,
@@ -1171467,15 +1171411,12 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>亡语：</b>召唤一枚轻微开裂的蛋。<i>（破壳5次即可孵化为一只20/20并具有<b>嘲讽</b>的野兽！）</i>",
+		"text": "<b>亡语：</b>召唤一枚轻微开裂的蛋。<i>（破壳5次即可孵化为一只20/20的野兽！）</i>",
 		"flavor": "千万年来，凯洛斯一直等待着破壳而出。但愿你不用也等那么久。",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122542,
 			122543,
@@ -1171755,10 +1171696,6 @@
 		],
 		"attack": 20,
 		"health": 20,
-		"text": "<b>嘲讽</b>",
-		"mechanics": [
-			"TAUNT"
-		],
 		"artist": "Vlad Botos",
 		"audio2": {
 			"BASIC_attack": {
@@ -1191070,7 +1191007,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>任务：</b>施放4个暗影法术。<b>奖励：</b>死亡之触。",
+		"text": "<b>任务：</b>施放6个暗影法术。<b>奖励：</b>死亡之触。",
 		"mechanics": [
 			"QUEST"
 		],
@@ -1198025,7 +1197962,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1198147,7 +1198083,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1198355,10 +1198291,10 @@
 			"BACON_BUFFS_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 1,
-			"TAG_SCRIPT_DATA_NUM_5": 6
+			"TAG_SCRIPT_DATA_NUM_5": 5
 		}
 	},
 	{
@@ -1206298,7 +1206234,7 @@
 		"collectible": true,
 		"set": "Across_the_timeways",
 		"rarity": "Epic",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "SHADOW",
 		"text": "随机将你手牌中的一张随从牌拆成两半。",
 		"flavor": "这位真的是我的另一半。",
@@ -1211659,7 +1211595,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "获取一张商贩元素。在每个回合开始时，再获取一张。",
@@ -1212154,7 +1212090,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "制造一个自定义的亡灵。每2个回合，在回合开始时，重复此效果。<i>（还剩{0}回合！）</i>",
@@ -1212251,24 +1212186,9 @@
 		"flavor": "龙族士兵接受了一个世纪的青铜化后，这是他的身体发生的变化。",
 		"mechanics": [
 			"BATTLECRY",
-			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Zoltan Boros",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>嘲讽</b>。<b>战吼：</b>",
-				"mechanics": [
-					"BATTLECRY",
-					"TAUNT"
-				]
-			},
-			"second": {
-				"text": "本随从的生命值翻倍。",
-				"mechanics": [
-				]
-			}
-		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1212651,7 +1212571,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "获取一张\n砰砰博士的怪物。在每个回合开始时，再获取一张。",
@@ -1213938,9 +1213858,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "<b>发现</b>一张等级5的具有类型的随从牌。在每个回合开始时，再获取一张它的复制。",
+		"text": "<b>发现</b>一张等级6的具有类型的随从牌。在每个回合开始时，再获取一张它的复制。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1214057,7 +1213978,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "每当一只友方野兽攻击时，使其获得+{0}攻击力并永久提升此效果。",
@@ -1214065,7 +1213986,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4
 		},
 		"artist": "Ira Fidler"
 	},
@@ -1216569,7 +1216490,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "每回合中，有一张酒馆法术牌可用生命值购买，而非铸币。<i>（还剩{0}张！）</i>",
@@ -1217661,12 +1217582,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "每回合中，在你第一次购买随从时，获取一张具有该随从属性值的<b>磁力</b>卫星。",
+		"text": "在你购买随从后，获取一张具有该随从属性值的<b>磁力</b>卫星。<i>（每回合限两次。）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 2
+		},
 		"artist": "Kevin Sidharta",
 		"referencedTags": [
 			"MODULAR"
@@ -1217768,7 +1217693,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "获取一张蓄能女沙皇。你的蓄能女沙皇还会使随从获得生命值。",
@@ -1219000,10 +1218924,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "<b>复仇（7）：</b>召唤两只{0}/{1}的甲虫，使其获得<b>嘲讽</b>。",
+		"text": "<b>复仇（8）：</b>召唤两只{0}/{1}的甲虫，使其获得<b>嘲讽</b>。",
 		"mechanics": [
 			"AVENGE"
 		],
@@ -1222005,7 +1221929,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "获取一张噬渊施法者。在战斗之外，每当你消灭一个随从，获得{0}枚铸币。",
@@ -1222013,7 +1221937,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Alex Horley Orlandelli"
 	},
@@ -1234357,14 +1234281,14 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 4,
+		"health": 8,
 		"text": "在你的英雄受到伤害后，回溯该伤害并使酒馆中的随从在本回合中获得+{0}/+{1}。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"artist": "Joseph Weston",
@@ -1234410,14 +1234334,14 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 12,
-		"health": 12,
+		"attack": 8,
+		"health": 16,
 		"text": "在你的英雄受到伤害后，回溯该伤害并使酒馆中的随从在本回合中获得+{0}/+{1}。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 121687,
@@ -1243742,14 +1243666,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>亡语：</b>召唤一枚开裂加剧的蛋。<i>（再破壳4次即可孵化为一只20/20并具有<b>嘲讽</b>的野兽！）</i>",
+		"text": "<b>亡语：</b>召唤一枚开裂加剧的蛋。<i>（再破壳4次即可孵化为一只20/20的野兽！）</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122543,
 			122545,
@@ -1243800,14 +1243721,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>亡语：</b>召唤一枚严重开裂的蛋。<i>（再破壳3次即可孵化为一只20/20并具有<b>嘲讽</b>的野兽！）</i>",
+		"text": "<b>亡语：</b>召唤一枚严重开裂的蛋。<i>（再破壳3次即可孵化为一只20/20的野兽！）</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122545,
 			122546,
@@ -1243870,14 +1243788,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>亡语：</b>召唤一枚完全裂开的蛋。<i>（再破壳2次即可孵化为一只20/20并具有<b>嘲讽</b>的野兽！）</i>",
+		"text": "<b>亡语：</b>召唤一枚完全裂开的蛋。<i>（再破壳2次即可孵化为一只20/20的野兽！）</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122546,
 			118495
@@ -1243926,14 +1243841,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>亡语：</b>召唤\n一只20/20并具有<b>嘲讽</b>的凯洛斯。<i>（破壳即可孵化！）</i>",
+		"text": "<b>亡语：</b>召唤一只20/20的凯洛斯。<i>（破壳即可孵化！）</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			118495
 		],
@@ -1244285,15 +1244197,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 3,
-		"health": 8,
+		"attack": 4,
+		"health": 9,
 		"text": "<b>进击：</b>在本局对战中，你的<b>鲜血宝石</b>使随从额外获得+{0}/+{1}。",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 1
 		},
 		"artist": "Kleston Marques",
 		"battlegroundsPremiumDbfId": 122567,
@@ -1244341,15 +1244253,15 @@
 			"QUILBOAR"
 		],
 		"techLevel": 5,
-		"attack": 6,
-		"health": 16,
+		"attack": 8,
+		"health": 18,
 		"text": "<b>进击：</b>在本局对战中，你的<b>鲜血宝石</b>使随从额外获得+{0}/+{1}。",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsNormalDbfId": 122566,
 		"premium": true,
@@ -1254146,7 +1254058,7 @@
 		"collectible": true,
 		"set": "Cataclysm",
 		"rarity": "Epic",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "FIRE",
 		"text": "对所有随从造成$1点伤害<i>（战场上每有一个随从都会提高）</i>。",
 		"flavor": "比斩杀恶劣多了。",
@@ -1259809,15 +1259721,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 10,
 		"health": 3,
 		"text": "<b>亡语：</b>使你的随从获得+{0}/+{1}，金色随从可永久保留此效果。",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsPremiumDbfId": 123596,
 		"audio2": {
@@ -1259855,15 +1259767,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 20,
 		"health": 6,
 		"text": "<b>亡语：</b>使你的随从获得+{0}/+{1}，触发两次。金色随从可永久保留此效果。",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 123595,
 		"premium": true,
@@ -1260291,24 +1260203,10 @@
 		"text": "<b>圣盾</b>。在本随从失去<b>圣盾</b>后，在本局对战中，使你的白银之手新兵获得+1生命值。",
 		"flavor": "恭喜你获救了！请不要拒绝。",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Milica Celikovic",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>圣盾</b>。在本随从失去<b>圣盾</b>后，",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "在本局对战中，使你的白银之手新兵获得+1生命值。",
-				"mechanics": [
-				]
-			}
-		},
 		"audio2": {
 			"BASIC_attack": {
 				"2H_EpicMace_Underlay_Attack": {
@@ -1282352,7 +1282250,7 @@
 		"rarity": "Epic",
 		"cost": 5,
 		"attack": 4,
-		"health": 4,
+		"health": 3,
 		"text": "<b>预备</b>。<b>战吼：</b>如果你在本回合中施放过法术，随机施放两个法师<b>奥秘</b>。",
 		"flavor": "欢迎来到达拉然！法术随意编造，其他都不重要！",
 		"mechanics": [
@@ -1282564,8 +1282462,8 @@
 		"collectible": true,
 		"set": "Violet_hold",
 		"rarity": "Rare",
-		"cost": 5,
-		"attack": 5,
+		"cost": 6,
+		"attack": 6,
 		"health": 3,
 		"text": "<b>预备</b>。<b>战吼：</b>消灭你的所有其他随从。每消灭一个，抽一张牌并复原一个法力水晶。",
 		"flavor": "锯骨巨魔，就是用巨锯锯巨骨的巨魔。",
@@ -1288292,8 +1288190,6 @@
 		"races": [
 			"MURLOC"
 		],
-		"techLevel": 2,
-		"isBaconPool": true,
 		"attack": 3,
 		"health": 5,
 		"text": "<b>进击：</b>召唤你手牌中攻击力最高的鱼人，其登场仅限本场战斗。",
@@ -1297753,15 +1297649,17 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 15,
-		"health": 15,
-		"text": "<b>进击：</b>使每个类型的各一个友方随从永久获得+{0}/+{1}。",
+		"attack": 10,
+		"health": 10,
+		"text": "<b>进击：</b>使每个类型的各一个友方随从永久获得+{0}/+{1}并提升此效果。",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"artist": "Slawomir Maniak",
 		"battlegroundsPremiumDbfId": 127110,
@@ -1297822,15 +1297720,17 @@
 			"ALL"
 		],
 		"techLevel": 7,
-		"attack": 30,
-		"health": 30,
-		"text": "<b>进击：</b>使每个类型的各一个友方随从永久获得+{0}/+{1}，触发两次。",
+		"attack": 20,
+		"health": 20,
+		"text": "<b>进击：</b>使每个类型的各一个友方随从永久获得+{0}/+{1}并提升此效果，触发两次。",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"battlegroundsNormalDbfId": 127109,
 		"premium": true,
@@ -1298027,9 +1297927,9 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 16,
-		"health": 32,
-		"text": "在战斗中，在你召唤\n一个随从后，使其获得本随从的最大属性值。<i>（每场战斗限3次。）</i>",
+		"attack": 15,
+		"health": 30,
+		"text": "在战斗中，在你召唤一个不同的随从后，使其获得本随从的双倍最大属性值。<i>（每场战斗限3次。）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1298078,9 +1297978,9 @@
 			"BEAST"
 		],
 		"techLevel": 7,
-		"attack": 32,
-		"health": 64,
-		"text": "在战斗中，在你召唤一个随从后，使其获得本随从的双倍最大属性值。<i>（每场战斗限3次。）</i>",
+		"attack": 30,
+		"health": 60,
+		"text": "在战斗中，在你召唤一个不同的随从后，使其获得本随从的三倍最大属性值。<i>（每场战斗限3次。）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1307953,8 +1307853,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 13,
+		"attack": 17,
+		"health": 23,
 		"text": "在你的回合结束时，使你手牌中最左边的随从牌获得本随从的属性值。",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -1308002,8 +1307902,8 @@
 			"MURLOC"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 26,
+		"attack": 34,
+		"health": 46,
 		"text": "在你的回合结束时，使你手牌中最左边的随从牌获得本随从的双倍属性值。",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -1308399,7 +1308299,7 @@
 		"text": "使你的随从获得+{0}/+{1}。使你的金色随从额外获得+{0}/+{1}。",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Anton Zemskov"
 	},
@@ -1331099,7 +1330999,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 9,
+		"cost": 10,
 		"attack": 9,
 		"health": 7,
 		"text": "<b>战吼：</b>使你手牌中一张牌的法力值消耗减少（5）点。向左侧和右侧继续此效果，每次减少的量降低（1）点。",
@@ -1337393,7 +1337293,7 @@
 		"cost": 4,
 		"attack": 4,
 		"health": 3,
-		"text": "<b>战吼：</b><b>发现</b>一个法术，并将其变形成为一张法力值消耗相同的3/3的武器牌。每当用该武器攻击时，都会施放该法术。",
+		"text": "<b>战吼：</b><b>发现</b>一个法术，并将其变形成为一张法力值消耗相同的3/3的武器牌。每次用该武器攻击后，都会施放该法术。",
 		"flavor": "阿扎达斯是艾泽拉斯首位附魔+锻造。这都是因为泰坦们给公会银行攒足了材料，然后就去度假了，一去就是好几个资料片。",
 		"mechanics": [
 			"BATTLECRY",
@@ -1341796,7 +1341696,7 @@
 		"rarity": "Common",
 		"cost": 2,
 		"spellSchool": "SHADOW",
-		"text": "2回合后，召唤两个3/5并具有<b>嘲讽</b>的克拉西斯。",
+		"text": "2回合后，召唤两个2/4并具有<b>嘲讽</b>的克拉西斯。",
 		"flavor": "给你们两个2回合收拾干净，然后再进来吃饭。",
 		"mechanics": [
 			"OBJECTIVE"
@@ -1341843,9 +1341743,9 @@
 			"WARLOCK"
 		],
 		"set": "Black_empire",
-		"cost": 4,
-		"attack": 3,
-		"health": 5,
+		"cost": 3,
+		"attack": 2,
+		"health": 4,
 		"text": "<b>嘲讽</b>",
 		"mechanics": [
 			"TAUNT"
@@ -1342192,7 +1342092,7 @@
 		],
 		"attack": 2,
 		"health": 2,
-		"text": "<b>战吼：</b>抽两张牌。在你使用其中一张后，弃掉未使用的那张。",
+		"text": "<b>战吼：</b>抽两张牌。在你使用其中一张后，弃掉另一张。",
 		"flavor": "跟着它，准没错。",
 		"mechanics": [
 			"BATTLECRY"
@@ -1342214,7 +1342114,7 @@
 		"set": "Black_empire",
 		"rarity": "Common",
 		"cost": 3,
-		"attack": 2,
+		"attack": 3,
 		"durability": 2,
 		"text": "在你的英雄攻击后，获取一张超负荷运转。",
 		"flavor": "可以立即灼烧其造成的伤口。",
@@ -1342252,7 +1342152,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Rare",
-		"cost": 2,
+		"cost": 1,
 		"text": "<b>拼装</b>一张机械牌。获取一张超负荷运转。",
 		"flavor": "尔米米了算漏隆萨-格尤而然。亡死的隆尔米米了成促终最，年千数了划谋隆萨-格尤",
 		"artist": "Matt Dixon",
@@ -1342493,27 +1342393,13 @@
 		"cost": 6,
 		"attack": 5,
 		"health": 5,
-		"text": "<b>圣盾</b>。在一个友方随从失去<b>圣盾</b>后，使你手牌中的一张随从牌获得+5/+5。",
+		"text": "<b>圣盾</b>\n在一个友方随从失去<b>圣盾</b>后，使你手牌中的一张随从牌获得+5/+5。",
 		"flavor": "“我的信仰和勇气，会保护我。而我的荣耀和牺牲，会为我找到继任者。”",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>圣盾</b>。在一个友方随从失去<b>圣盾</b>后，",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "使你手牌中的一张随从牌获得+5/+5。",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -1342994,9 +1342880,9 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 7,
-		"attack": 7,
-		"health": 7,
+		"cost": 6,
+		"attack": 6,
+		"health": 6,
 		"text": "<b>战吼：</b>获得20点护甲值。2回合后，将你的护甲值转换为一个具有等量属性值和<b>嘲讽</b>的魔像。",
 		"flavor": "你想怎么卸甲，和平方式，还是暴力方式。",
 		"mechanics": [
@@ -1345275,7 +1345161,7 @@
 		],
 		"attack": 4,
 		"health": 5,
-		"text": "在本回合中每使用过一张<b>连击</b>牌，本牌的法力值消耗便减少（2）点。<b>战吼：</b>抽一张牌。",
+		"text": "在本回合中每使用过一张<b>连击</b>牌，本牌的法力值消耗便减少（2）点。<b>战吼：</b>抽两张牌。",
 		"flavor": "“它比你怕它还怕你”定律在此并不适用。",
 		"mechanics": [
 			"BATTLECRY"
@@ -1345333,14 +1345219,14 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Common",
-		"cost": 3,
+		"cost": 4,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 4,
-		"health": 2,
-		"text": "<b>亡语：</b>获取两张法力值消耗为（1）的幼虫。幼虫会以<b><b>连击</b></b>的形式触发一项另一职业的英雄技能。",
+		"attack": 5,
+		"health": 4,
+		"text": "<b>亡语：</b>获取两张以<b><b>连击</b></b>的形式触发一项另一职业英雄技能的幼虫。这两张幼虫的法力值消耗为（0）点。",
 		"flavor": "我们结群了，他们就跑了。",
 		"mechanics": [
 			"DEATHRATTLE",
@@ -1346729,10 +1346615,10 @@
 		"rarity": "Common",
 		"cost": 2,
 		"additionalCosts": {
-			"BLOODRUNE": 2
+			"BLOODRUNE": 3
 		},
 		"attack": 3,
-		"health": 3,
+		"health": 4,
 		"text": "<b>吸血</b>",
 		"flavor": "低贱的被遗忘者，表现得却像王一样……我命令你，跪下！",
 		"mechanics": [
@@ -1347428,7 +1347314,7 @@
 		"rarity": "Common",
 		"cost": 5,
 		"spellSchool": "SHADOW",
-		"text": "召唤一只5/5并具有<b>吸血</b>的虚翼龙鹰。<i>（你使用的下一张暗影法术牌会重复此效果！）</i>",
+		"text": "召唤两只3/4并具有<b>吸血</b>的虚翼龙鹰。<i>（你使用的下一张暗影法术牌会重复此效果！）</i>",
 		"flavor": "我不喜欢虚空龙鹰蛋配火腿。",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0
@@ -1347477,13 +1347363,13 @@
 			"PRIEST"
 		],
 		"set": "Black_empire",
-		"cost": 5,
+		"cost": 3,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 5,
-		"health": 5,
+		"attack": 3,
+		"health": 4,
 		"text": "<b>吸血</b>",
 		"mechanics": [
 			"LIFESTEAL"
@@ -1349409,7 +1349295,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 6,
@@ -1349471,7 +1349357,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 12,
 		"text": "每当你弃掉一张牌，使你的<b>神明</b>获得+{0}/+{1}并提升此效果。",
@@ -1352810,7 +1352696,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_2": 14
 		}
 	},
 	{
@@ -1352824,7 +1352710,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "获取等级1，2和3的随从牌各两张。",
@@ -1353260,8 +1353146,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -1353331,8 +1353217,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Arthur Bozonnet"
 	},
@@ -1353562,7 +1353448,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "随机获取一张\n<b>多彩幼龙</b>。在每个回合开始时，重复此效果。",
@@ -1353664,7 +1353550,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "随机获取{0}张<b>悬赏令</b>。在每个回合开始时，重复此\n效果。",
@@ -1353730,8 +1353616,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Grace Liu"
 	},
@@ -1353780,8 +1353666,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"artist": "Tanamaes Leejierasaes"
 	},
@@ -1353968,6 +1353854,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "获取一张能使野猪人获得<b>嘲讽</b>，<b>圣盾</b>或<b>复生</b>的<b>鲜血宝石</b>。在每个回合开始时，重复此效果。",
@@ -1366877,7 +1366764,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "获取一张克隆螺号。每{1}个回合，在回合开始时，重复此效果。<i>（还剩{0}回合！）</i>",
@@ -1366909,8 +1366796,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Matt Dixon",
 		"otherTags": [
@@ -1366931,7 +1366818,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "获取一张极性B-Box拳手。",
@@ -1368290,7 +1368177,7 @@
 		],
 		"attack": 0,
 		"health": 1,
-		"text": "<b><b>复生</b></b>。<b>亡语：</b>使你手牌中的所有随从牌获得+1/+1。",
+		"text": "<b>复生</b>。<b>亡语：</b>使你手牌中的所有随从牌获得+1攻击力。",
 		"flavor": "我一眼就看出它肚子疼。",
 		"mechanics": [
 			"CRAFTABLE_OUTPUT_POWER",
@@ -1368300,14 +1368187,14 @@
 		"artist": "Matt Dixon",
 		"assembleHalves": {
 			"first": {
-				"text": "<b><b>复生</b></b>。<b>亡语：</b>",
+				"text": "<b>复生</b>。<b>亡语：</b>",
 				"mechanics": [
 					"DEATHRATTLE",
 					"REBORN"
 				]
 			},
 			"second": {
-				"text": "使你手牌中的所有随从牌获得+1/+1。",
+				"text": "使你手牌中的所有随从牌获得+1攻击力。",
 				"mechanics": [
 				]
 			}
@@ -1368482,7 +1368369,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "在酒馆<b>刷新</b>后，在本回合中使酒馆中的随从获得+{0}/+{1}。",
@@ -1368490,8 +1368377,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"artist": "Vlad Botos",
 		"referencedTags": [
@@ -1368511,7 +1368398,7 @@
 		"set": "Battlegrounds",
 		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
-		"text": "获取一张林地亵渎者。酒馆中的恶魔<b>饲料</b>拥有+{0}/+{1}。",
+		"text": "获取一张\n林地亵渎者。酒馆中的恶魔<b>饲料</b>拥有+{0}/+{1}。",
 		"mechanics": [
 			"AURA"
 		],
@@ -1373396,7 +1373283,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 10,
+		"cost": 9,
 		"attack": 10,
 		"health": 10,
 		"text": "<b>古神</b>\n<b>战吼：</b>如果你在本局对战中消耗了30点法力值用于随从牌上，获得<b>免疫</b>1回合。<i>（还剩{0}点！）</i>",
@@ -1374874,7 +1374761,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "+4/+4。2回合后，本随从的属性值翻倍。"
+		"text": "+6/+6。2回合后，本随从的属性值翻倍。"
 	},
 	{
 		"dbfId": 132203,
@@ -1374910,7 +1374797,7 @@
 		"set": "Battlegrounds",
 		"cost": 0,
 		"faction": "NEUTRAL",
-		"text": "<b>战斗开始时：</b>本随从的生命值翻倍。"
+		"text": "+15生命值。<b>战斗开始时：</b>本随从的生命值翻倍。"
 	},
 	{
 		"dbfId": 132207,
@@ -1375331,7 +1375218,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "<b>战斗开始时：</b>本随从的生命值翻倍。",
+		"text": "+15生命值。<b>战斗开始时：</b>本随从的生命值翻倍。",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1376459,7 +1376346,7 @@
 		"cost": 10,
 		"attack": 12,
 		"health": 12,
-		"text": "<b>古神</b>\n如果你在本局对战中触发了克苏恩的全部4个技能，本随从的技能效果变为三倍。",
+		"text": "<b>古神</b>\n如果你在本局对战中触发了克苏恩的全部4个技能，本随从的技能效果变为四倍。",
 		"flavor": "“阿米图特，阿米图斯的守护者”/2+（2*“孵化”）/2+（2*“不可知者”/3）",
 		"artist": "Kevin Sidharta",
 		"availableAsSignature": true,
@@ -1376504,7 +1376391,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+2/+3"
+		"text": "+2/+2"
 	},
 	{
 		"dbfId": 132341,
@@ -1376517,7 +1376404,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+6/+9"
+		"text": "+8/+8"
 	},
 	{
 		"dbfId": 132342,
@@ -1376532,7 +1376419,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "召唤两个2/3并具有<b>嘲讽</b>的狂热者。",
+		"text": "召唤两个2/2并具有<b>嘲讽</b>的狂热者。",
 		"artist": "Stefan Bogdasarov",
 		"hideStats": true,
 		"referencedTags": [
@@ -1376582,7 +1376469,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "随机使两个其他友方随从获得+2/+3。",
+		"text": "随机使两个其他友方随从获得+2/+2。",
 		"artist": "Kevin Sidharta",
 		"hideStats": true
 	},
@@ -1376599,7 +1376486,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "造成7点伤害，随机分配到所有敌人身上。",
+		"text": "造成6点伤害，随机分配到所有敌人身上。",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376678,13 +1376565,13 @@
 		"cost": 3,
 		"attack": 3,
 		"health": 2,
-		"text": "<b>战吼：</b>如果你在本牌在你手中时施放过2个暗影法术，选择并触发一项克苏恩的技能。<i>（还剩{0}个！）</i>",
+		"text": "<b>战吼：</b>如果你在本牌在你手中时施放过暗影法术，选择并触发一项克苏恩的技能。",
 		"flavor": "古神来了！古神来了！",
 		"mechanics": [
 			"BATTLECRY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Ivo Campelo da Silva",
 		"availableAsSignature": true,
@@ -1376709,7 +1376596,7 @@
 		"rarity": "Legendary",
 		"cost": 2,
 		"attack": 2,
-		"health": 3,
+		"health": 2,
 		"text": "<b>嘲讽</b>",
 		"mechanics": [
 			"TAUNT"
@@ -1376905,7 +1376792,7 @@
 			"HUNTER"
 		],
 		"set": "Black_empire",
-		"text": "+1/+1"
+		"text": "+1攻击力。"
 	},
 	{
 		"dbfId": 132441,
@@ -1377086,7 +1376973,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "<b>亡语：</b>使你的随从永久获得+2/+2。"
+		"text": "<b>亡语：</b>使你的随从永久获得+3/+3。"
 	},
 	{
 		"dbfId": 132485,
@@ -1378610,8 +1378497,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 15,
+		"attack": 13,
+		"health": 17,
 		"text": "<b>进击：</b>召唤一个具有本随从属性值的魔像，并使其率先攻击目标。",
 		"mechanics": [
 			"BACON_RALLY"
@@ -1378666,8 +1378553,8 @@
 			"QUILBOAR"
 		],
 		"techLevel": 7,
-		"attack": 12,
-		"health": 30,
+		"attack": 26,
+		"health": 34,
 		"text": "<b>进击：</b>召唤一个具有本随从双倍属性值的魔像，并使其率先攻击目标。",
 		"mechanics": [
 			"BACON_RALLY"
@@ -1378970,7 +1378857,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
+		"attack": 8,
 		"health": 8,
 		"text": "每当你使用一张机械牌，对其<b>磁力吸附</b>一个{1}/{2}的卫星并提升此效果。",
 		"mechanics": [
@@ -1378979,7 +1378866,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 2,
-			"TAG_SCRIPT_DATA_NUM_3": 3
+			"TAG_SCRIPT_DATA_NUM_3": 2
 		},
 		"artist": "Brian Despain",
 		"battlegroundsPremiumDbfId": 132677,
@@ -1379027,7 +1378914,7 @@
 			"MECH"
 		],
 		"techLevel": 5,
-		"attack": 12,
+		"attack": 16,
 		"health": 16,
 		"text": "每当你使用一张机械牌，对其<b>磁力吸附</b>一个{1}/{2}的卫星并提升此效果。",
 		"mechanics": [
@@ -1379036,7 +1378923,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 4,
-			"TAG_SCRIPT_DATA_NUM_3": 6
+			"TAG_SCRIPT_DATA_NUM_3": 4
 		},
 		"battlegroundsNormalDbfId": 132676,
 		"premium": true,
@@ -1379771,15 +1379658,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 7,
+		"health": 5,
 		"text": "在你花掉{2}枚铸币后，获取一张上锁宝箱。如果你已有宝箱，改为使其提前{3}回合打开。<i>（还剩{0}枚！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
 		"artist": "Joseph Weston",
@@ -1379825,15 +1379712,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 12,
-		"health": 12,
+		"attack": 14,
+		"health": 10,
 		"text": "在你花掉{2}枚铸币后，获取一张上锁宝箱。如果你已有宝箱，改为使其提前{3}回合打开。<i>（还剩{0}枚！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 2
 		},
 		"battlegroundsNormalDbfId": 132762,
@@ -1381084,7 +1380971,7 @@
 	{
 		"dbfId": 132837,
 		"id": "CAP_405t1",
-		"name": "",
+		"name": "毁伤获罪",
 		"type": "Spell",
 		"cardClass": "WARLOCK",
 		"playerClass": "Warlock",
@@ -1381094,6 +1380981,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
+		"text": "迫使每个随从攻击另一个随从。",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
 		},
@@ -1381131,7 +1381019,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "偷取你对手的2张手牌。",
+		"text": "偷取你对手的一张手牌。",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -1381150,7 +1381038,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "使你手牌中和战场上的随从获得+3/+3。",
+		"text": "使你手牌中和战场上的随从获得+2/+2。",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 7
 		},
@@ -1381167,7 +1381055,7 @@
 			"NEUTRAL"
 		],
 		"set": "Azeroths_most_wanted",
-		"text": "+3/+3"
+		"text": "+2/+2"
 	},
 	{
 		"dbfId": 132848,
@@ -1381222,7 +1381110,7 @@
 		],
 		"set": "Azeroths_most_wanted",
 		"cost": 0,
-		"text": "随机召唤三个法力值消耗为（3）的随从。",
+		"text": "随机召唤三个法力值消耗为（2）的随从。",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6
 		},
@@ -1381599,15 +1381487,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
+		"attack": 5,
+		"health": 5,
 		"text": "每当你对机械施放法术，对其<b>磁力吸附</b>一个{0}/{1}的卫星。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Kevin Sidharta",
 		"battlegroundsPremiumDbfId": 132894,
@@ -1381655,15 +1381543,15 @@
 			"MECH"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 8,
+		"attack": 10,
+		"health": 10,
 		"text": "每当你对机械施放法术，对其<b>磁力吸附</b>一个{0}/{1}的卫星，触发两次。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 132893,
 		"premium": true,
@@ -1382644,9 +1382532,9 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
-		"text": "在你<b>发现</b>一张牌后，使你的其他海盗获得+{0}/+{1}。<i>（在本局对战中你每使用过一张金色随从牌都会提升！）</i>",
+		"attack": 5,
+		"health": 5,
+		"text": "在你<b>发现</b>一张牌后，使你的海盗获得+{0}/+{1}。<i>（在本局对战中你每使用过一张金色随从牌都会提升！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1382747,9 +1382635,9 @@
 			"PIRATE"
 		],
 		"techLevel": 6,
-		"attack": 8,
-		"health": 8,
-		"text": "在你<b>发现</b>一张牌后，使你的其他海盗获得+{0}/+{1}。<i>（在本局对战中你每使用过一张金色随从牌都会提升！）</i>",
+		"attack": 10,
+		"health": 10,
+		"text": "在你<b>发现</b>一张牌后，使你的海盗获得+{0}/+{1}。<i>（在本局对战中你每使用过一张金色随从牌都会提升！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1383311,12 +1383199,13 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 9,
-		"text": "<b>圣盾</b>。<b>进击：</b>施放威猛龙息。",
+		"attack": 9,
+		"health": 7,
+		"text": "<b>圣盾</b>。<b></b>风怒<b>。</b><b>进击：</b>施放威猛龙息。",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"artist": "TOPDOG Entertainment",
 		"battlegroundsPremiumDbfId": 132954,
@@ -1383361,12 +1383250,13 @@
 			"DRAGON"
 		],
 		"techLevel": 6,
-		"attack": 16,
-		"health": 18,
-		"text": "<b>圣盾</b>。<b>进击：</b>施放威猛龙息，触发两次。",
+		"attack": 18,
+		"health": 14,
+		"text": "<b>圣盾</b>。</b>风怒<b>。<b>进击：</b>施放威猛龙息，触发两次。",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"battlegroundsNormalDbfId": 132953,
 		"premium": true,
@@ -1383749,14 +1383639,14 @@
 		"techLevel": 6,
 		"isBaconPool": true,
 		"attack": 3,
-		"health": 12,
+		"health": 9,
 		"text": "在你使用{1}张元素牌后，获得酒馆中生命值最高的随从的属性值。<i>（还剩{0}张！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Kevin Sidharta",
 		"battlegroundsPremiumDbfId": 132984,
@@ -1383802,14 +1383692,14 @@
 		],
 		"techLevel": 6,
 		"attack": 6,
-		"health": 24,
+		"health": 18,
 		"text": "在你使用{1}张元素牌后，获得酒馆中生命值最高的随从的双倍属性值。<i>（还剩{0}张！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 132983,
 		"premium": true,
@@ -1384060,15 +1383950,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 6,
+		"attack": 3,
+		"health": 7,
 		"text": "每当你对本随从施放法术，使你手牌中最左边的随从牌获得+{0}/+{1}。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 9,
+			"TAG_SCRIPT_DATA_NUM_2": 9
 		},
 		"artist": "Marta Vives Poch",
 		"battlegroundsPremiumDbfId": 132990,
@@ -1384113,15 +1384003,15 @@
 			"MURLOC"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 12,
+		"attack": 6,
+		"health": 14,
 		"text": "每当你对本随从施放法术，使你手牌中最左边的随从牌获得+{0}/+{1}。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 18,
+			"TAG_SCRIPT_DATA_NUM_2": 18
 		},
 		"battlegroundsNormalDbfId": 132989,
 		"premium": true,
@@ -1384282,15 +1384172,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 5,
-		"health": 7,
+		"attack": 6,
+		"health": 9,
 		"text": "每当你对一个鱼人施放法术，使你手牌中和场上的鱼人获得+{0}/+{1}。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Florent Mounier",
 		"battlegroundsPremiumDbfId": 133027,
@@ -1384335,15 +1384225,15 @@
 			"MURLOC"
 		],
 		"techLevel": 5,
-		"attack": 10,
-		"health": 14,
+		"attack": 12,
+		"health": 18,
 		"text": "每当你对一个鱼人施放法术，使你手牌中和场上的鱼人获得+{0}/+{1}。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 133026,
 		"premium": true,
@@ -1384389,15 +1384279,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 8,
+		"attack": 5,
+		"health": 10,
 		"text": "在你的英雄受到{1}点伤害后，获取一张腐化糕点。<i>（还剩{0}点！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Kleston Marques",
 		"battlegroundsPremiumDbfId": 133029,
@@ -1384442,15 +1384332,15 @@
 			"DEMON"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 16,
+		"attack": 10,
+		"health": 20,
 		"text": "在你的英雄受到{1}点伤害后，获取两张腐化糕点。<i>（还剩{0}点！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 133028,
 		"premium": true,
@@ -1384766,8 +1384656,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -1384878,7 +1384768,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "在你购买一个机械后，随机获取一张酒馆法术牌。",
+		"text": "在你购买一个机械后，随机获取一张消耗为（2）或以上的酒馆法术牌。",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"GENERATES_SPELL",
@@ -1387241,7 +1387131,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Anton Zemskov",
 		"otherTags": [
@@ -1387303,7 +1387193,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "随机获取一张<b>抉择</b>牌。在每个回合\n开始时，再获取一张。",
@@ -1387329,7 +1387219,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "随机获取2张<b>抉择</b>牌。在每个回合\n开始时，再获取2张。",
@@ -1387460,7 +1387350,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "<b>战斗开始时：</b>本随从的攻击力翻倍。",
+		"text": "+15攻击力。<b>战斗开始时：</b>本随从的攻击力翻倍。",
 		"hideStats": true
 	},
 	{
@@ -1387475,7 +1387365,7 @@
 		],
 		"set": "Battlegrounds",
 		"faction": "NEUTRAL",
-		"text": "<b>战斗开始时：</b>本随从的攻击力翻倍。",
+		"text": "+15攻击力。<b>战斗开始时：</b>本随从的攻击力翻倍。",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1387614,14 +1387504,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "在你对随从施放3个法术后，获得1枚铸币。<i>（还剩{0}个！）</i>",
+		"text": "在你对随从施放{1}个法术后，获得1枚铸币。<i>（还剩{0}个！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		}
 	},
 	{
@@ -1387635,7 +1387527,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "你的<b>抉择</b>牌同时拥有两种效果。",
@@ -1387678,7 +1387570,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "每当一个友方<b>进击</b>随从攻击时，获得一次免费<b>刷新</b>。",
@@ -1387727,7 +1387619,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "每回合中，\n你购买的前两个<b>战吼</b>随从免费。<i>（还剩{0}个！）</i>",
@@ -1388206,7 +1388098,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "每当你使用一张牌，获得+3生命值。",
+		"text": "每当你使用一张牌，获得+2生命值。",
 		"hideStats": true
 	},
 	{
@@ -1388233,7 +1388125,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "每当你使用一张牌，获得+3生命值。"
+		"text": "每当你使用一张牌，获得+2生命值。"
 	},
 	{
 		"dbfId": 133434,
@@ -1390112,6 +1390004,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "在你的回合结束时，获取一张{0}/{1}的<b>磁力</b>卫星。<i>（在本回合中你每施放一个酒馆法术都会提升！）</i>",
@@ -1390122,8 +1390015,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 12,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -1390653,7 +1390546,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>发现</b>一个友方随从的原始版复制，该复制具有<b>黑暗之赐</b>。每2个回合，在回合开始时，重复此效果。<i>（还剩{0}回合！）</i>",
@@ -1391490,7 +1391383,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "获取一张火焰投球手或冰雪投球手。在每个回合开始时，重复此效果。",
@@ -1392578,7 +1392471,7 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 5,
+		"attack": 6,
 		"health": 3,
 		"text": "<b>亡语：</b>使酒馆中的随从在本局对战中获得+{0}/+{1}。<b>发动（{4}）：</b>提升此效果。",
 		"mechanics": [
@@ -1392587,7 +1392480,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -1392652,7 +1392545,7 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 10,
+		"attack": 12,
 		"health": 6,
 		"text": "<b>亡语：</b>使酒馆中的随从在本局对战中获得+{0}/+{1}。<b>发动（{4}）：</b>提升此效果。",
 		"mechanics": [
@@ -1392661,7 +1392554,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 2,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -1393369,8 +1393262,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 13,
-			"TAG_SCRIPT_DATA_NUM_2": 13
+			"TAG_SCRIPT_DATA_NUM_1": 11,
+			"TAG_SCRIPT_DATA_NUM_2": 11
 		}
 	},
 	{
@@ -1393391,8 +1393284,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 50,
-			"TAG_SCRIPT_DATA_NUM_3": 50
+			"TAG_SCRIPT_DATA_NUM_1": 40,
+			"TAG_SCRIPT_DATA_NUM_3": 40
 		}
 	},
 	{
@@ -1393453,7 +1393346,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "随机获取一张<b>磁力</b>扩音机。在每个回合开始时，再获取一张。",
@@ -1393475,7 +1393368,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "获取一张腐泥侵蚀。在你弃掉一张法术牌后，获取一张腐泥侵蚀。",
@@ -1393503,7 +1393396,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 3,
-		"spellSchool": "LESSER_TRINKET",
+		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "在你的回合结束时，使你的随从获得+{0}/+{1}。<i>（在每个回合开始时翻倍！）</i>",
 		"mechanics": [
@@ -1393512,8 +1393405,8 @@
 			"END_OF_TURN"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -1393566,7 +1393459,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "随机获取2张<b>磁力</b>扩音机。在每个回合开始时，重复此效果。",
@@ -1394234,7 +1394127,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "获取2张尖利的鲨鱼。每当一个鱼饵死亡，使你的野兽获得+{0}/+{1}并提升此效果。",
@@ -1395302,15 +1395195,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 2,
-		"health": 6,
-		"text": "每当你使用一张牌，获得+{0}攻击力。",
+		"attack": 6,
+		"health": 2,
+		"text": "每当你使用一张牌，获得+{1}生命值。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsPremiumDbfId": 134705,
 		"audio2": {
@@ -1395357,15 +1395250,15 @@
 			"ALL"
 		],
 		"techLevel": 2,
-		"attack": 4,
-		"health": 12,
-		"text": "每当你使用一张牌，获得+{0}攻击力。",
+		"attack": 12,
+		"health": 4,
+		"text": "每当你使用一张牌，获得+{1}生命值。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 134704,
 		"premium": true,
@@ -1395622,15 +1395515,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 3,
-		"health": 3,
+		"attack": 4,
+		"health": 4,
 		"text": "在本局对战中，你每触发过一次<b>战吼</b>，便拥有+{0}/+{1}<i>（无论本随从在哪）</i>。",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsPremiumDbfId": 134711,
 		"referencedTags": [
@@ -1395680,15 +1395573,15 @@
 			"ALL"
 		],
 		"techLevel": 3,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "在本局对战中，你每触发过一次<b>战吼</b>，便拥有+{0}/+{1}<i>（无论本随从在哪）</i>。",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 134710,
 		"premium": true,
@@ -1395862,7 +1395755,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "在本局对战中，你每弃掉一张牌，便拥有+3/+3。<i>（已弃掉{1}张）</i>",
+		"text": "在本局对战中，你每弃掉一张牌，便拥有+3/+2。<i>（已弃掉{1}张）</i>",
 		"otherTags": [
 			"CARES_ABOUT_DISCARDS_THIS_GAME"
 		]
@@ -1395946,7 +1395839,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "在本局对战中，你每弃掉一张牌，便拥有+3/+3。<i>（已弃掉{1}张）</i>",
+		"text": "在本局对战中，你每弃掉一张牌，便拥有+3/+2。<i>（已弃掉{1}张）</i>",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}

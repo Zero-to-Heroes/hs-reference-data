@@ -28974,15 +28974,12 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "Distrugge un servitore e lo riporta in vita con la Salute al massimo.",
+		"text": "Distrugge un servitore non <b>Leggendario</b> e poi lo riporta in vita con la Salute al massimo.",
 		"flavor": "Spera solo di non reincarnarti in uno scarafaggio.",
 		"artist": "Dan Scott",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		],
 		"audio2": {
 			"BASIC_play": {
@@ -123829,7 +123826,7 @@
 		"faction": "ALLIANCE",
 		"attack": 3,
 		"health": 3,
-		"text": "<b>Rantolo di Morte:</b> evoca una copia 1/1 di un servitore nella tua mano.",
+		"text": "<b>Rantolo di Morte:</b> evoca un servitore dalla tua mano. Imposta le sue statistiche a 1/1.",
 		"flavor": "Può trasformare qualsiasi cosa in una candela!",
 		"mechanics": [
 			"DEATHRATTLE"
@@ -356448,7 +356445,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Serie di Missioni:</b> pesca 4 carte in un turno. <b>Ricompensa:</b> riduce di (1) il costo delle carte pescate.",
+		"text": "<b>Serie di Missioni:</b> pesca 5 carte in un turno. <b>Ricompensa:</b> riduce di (1) il costo delle carte pescate.",
 		"flavor": "Finalmente, l'ultima carta di Hearthstone.",
 		"mechanics": [
 			"QUESTLINE",
@@ -356478,7 +356475,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Serie di Missioni:</b> pesca 5 carte in un turno. <b>Ricompensa:</b> riduce di (1) il costo delle carte pescate.",
+		"text": "<b>Serie di Missioni:</b> pesca 6 carte in un turno. <b>Ricompensa:</b> riduce di (1) il costo delle carte pescate.",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -360929,24 +360926,10 @@
 		"text": "<b>Scudo Divino:</b> dopo che un tuo servitore ha perso <b>Scudo Divino</b>, +5/+5 a un servitore nella tua mano.",
 		"flavor": "\"Che la mia fede e il mio coraggio mi proteggano. E che il mio onore e il mio sacrificio permettano ad altri di prendere il mio posto.\"",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Scudo Divino:</b> dopo che un tuo servitore ha perso <b>Scudo Divino</b>,",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "+5/+5 a un servitore nella tua mano.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -377238,7 +377221,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "[x]<b>Serie di Missioni:</b>\npesca 5 carte in un\nturno. <b>Ricompensa:</b>\nStroncademoni Kurtrus.",
+		"text": "<b>Serie di Missioni:</b> pesca 6 carte in un turno. <b>Ricompensa:</b> Stroncademoni Kurtrus.",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -577524,7 +577507,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "[x]<b>Grido di Battaglia:</b> riduce\ndi (3) il costo delle carte\ncopiate dall'avversario.",
+		"text": "[x]<b>Grido di Battaglia:</b> riduce\ndi (2) il costo delle carte\ncopiate dall'avversario.",
 		"flavor": "Dave, sappiamo che questa lettera è falsa: è la tua calligrafia. E togliti quello stupido cappuccio, ci stai mettendo in imbarazzo.",
 		"mechanics": [
 			"BATTLECRY"
@@ -605026,7 +605009,7 @@
 			"PRIEST"
 		],
 		"set": "Revendreth",
-		"text": "Costa (3) in meno."
+		"text": "Costa (2) in meno."
 	},
 	{
 		"dbfId": 78405,
@@ -632027,25 +632010,12 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 4,
-		"text": "Dopo che è morto un tuo Non Morto, pesca una carta.",
+		"text": "[x]Dopo che è morto un\ntuo Non Morto,\npesca una carta.",
 		"flavor": "\"Vedo la gente morta. Un sacco di gente morta.\"",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
-		"assembleHalves": {
-			"first": {
-				"text": "Dopo che è morto un tuo Non Morto,",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "pesca una carta.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -724790,7 +724760,7 @@
 		"faction": "NEUTRAL",
 		"attack": 5,
 		"health": 5,
-		"text": "[x]<b>Fiele</b>. <b>Inizio Combattimento:</b>\nper ogni tuo tipo di servitore,\nottiene +5/+5, <b>Furia del Vento</b>,\n<b>Rinascita</b> o <b>Provocazione</b>.",
+		"text": "<b>Fiele</b>. <b>Inizio Combattimento:</b>\nper ogni tuo tipo di servitore,\nottiene +5/+5, <b>Furia del Vento</b>,\n<b>Rinascita</b> o <b>Provocazione</b>.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"VENOMOUS"
@@ -727734,7 +727704,7 @@
 		"techLevel": 6,
 		"attack": 10,
 		"health": 10,
-		"text": "<b>Fiele</b>. <b>Inizio Combattimento:</b> per ogni tuo tipo di servitore, ottiene +5/+5, <b>Furia del Vento</b>, <b>Rinascita</b> o <b>Provocazione</b> due volte.",
+		"text": "<b>Fiele</b>. <b>Inizio Combattimento:</b>per ogni tuo tipo di servitore,\nottiene +5/+5, <b>Furia del Vento</b>,\n<b>Rinascita</b> o <b>Provocazione</b> due volte.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"VENOMOUS"
@@ -893690,7 +893660,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -893743,7 +893713,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -954594,15 +954564,12 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "Distrugge un servitore e lo riporta in vita con la Salute al massimo.",
+		"text": "Distrugge un servitore non <b>Leggendario</b> e poi lo riporta in vita con la Salute al massimo.",
 		"flavor": "Spera solo di non reincarnarti in uno scarafaggio.",
 		"artist": "Dan Scott",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		],
 		"audio2": {
 			"BASIC_play": {
@@ -963340,16 +963307,16 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 8,
+		"attack": 12,
+		"health": 12,
 		"text": "<b>Grido di Battaglia e Rantolo di Morte:</b> i servitori nella Locanda hanno +{0}/+{1} in questa partita.",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 12,
+			"TAG_SCRIPT_DATA_NUM_2": 12
 		},
 		"artist": "Joseph Weston",
 		"battlegroundsPremiumDbfId": 103699,
@@ -963394,16 +963361,16 @@
 			"DEMON"
 		],
 		"techLevel": 7,
-		"attack": 16,
-		"health": 16,
+		"attack": 24,
+		"health": 24,
 		"text": "<b>Grido di Battaglia e Rantolo di Morte:</b> i servitori nella Locanda hanno +{0}/+{1} in questa partita.",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 24,
+			"TAG_SCRIPT_DATA_NUM_2": 24
 		},
 		"artist": "Joseph Weston",
 		"battlegroundsNormalDbfId": 103698,
@@ -963450,8 +963417,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 7,
+		"attack": 11,
+		"health": 11,
 		"text": "<b>Adunata:</b> infligge danni\npari al proprio Attacco al bersaglio e a un servitore\nadiacente.",
 		"mechanics": [
 			"BACON_RALLY",
@@ -963500,8 +963467,8 @@
 			"DRAGON"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 14,
+		"attack": 22,
+		"health": 22,
 		"text": "<b>Adunata:</b> infligge danni\npari al proprio Attacco al bersaglio e ai personaggi\nadiacenti.",
 		"mechanics": [
 			"BACON_RALLY",
@@ -963871,12 +963838,18 @@
 		"races": [
 			"MURLOC"
 		],
+		"techLevel": 2,
+		"isBaconPool": true,
 		"attack": 5,
 		"health": 3,
-		"text": "Quando distrugge un servitore, +2/+2 a un servitore nella tua mano.",
+		"text": "Quando distrugge un servitore, +{0}/+{1} a un servitore nella tua mano.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
+		},
 		"artist": "Tiffany Chiu",
 		"battlegroundsPremiumDbfId": 103713,
 		"audio2": {
@@ -963923,10 +963896,14 @@
 		"techLevel": 2,
 		"attack": 10,
 		"health": 6,
-		"text": "Quando distrugge un servitore, +4/+4 a un servitore nella tua mano.",
+		"text": "Quando distrugge un servitore, +{0}/+{1} a un servitore nella tua mano.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
+		},
 		"artist": "Tiffany Chiu",
 		"battlegroundsNormalDbfId": 103712,
 		"premium": true,
@@ -971392,7 +971369,7 @@
 		"text": "Seleziona un servitore. +{0}/+{1} a\ntutti i servitori che ne condividono il tipo.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"otherTags": [
 			"TARGETS_MINION"
@@ -973960,7 +973937,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "TAVERN",
 		"techLevel": 6,
 		"isBaconPool": true,
@@ -984046,15 +984023,15 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "TAVERN",
 		"techLevel": 4,
 		"isBaconPool": true,
 		"text": "+{0}/+{1} a un tuo servitore di ogni tipo.",
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Inès (Ourka) Rotzinger",
 		"otherTags": [
@@ -1012570,7 +1012547,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 6,
 		"health": 6,
 		"text": "Quando lanci una Magia della Locanda, +{0}/+{1} agli Elementali nella Locanda in questa partita.",
 		"mechanics": [
@@ -1012578,7 +1012555,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsPremiumDbfId": 107940,
@@ -1012623,7 +1012600,7 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 12,
 		"health": 12,
 		"text": "[x]Quando lanci una Magia della\nLocanda, +{0}/+{1} agli Elementali\nnella Locanda in questa partita,\ndue volte.",
 		"mechanics": [
@@ -1012631,7 +1012608,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 107939,
@@ -1045442,9 +1045419,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "Dopo che hai giocato\nun servitore, +3/+3 al servitore più a sinistra\nnella tua mano.",
+		"text": "Dopo che hai giocato un servitore, +5/+5 al servitore più a sinistra nella tua mano.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1045474,7 +1045452,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Quando spendi Oro, +{0}/+{1} a due tuoi Pirati.",
@@ -1051501,25 +1051478,12 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 4,
-		"text": "Dopo che è morto un tuo Non Morto, pesca una carta.",
+		"text": "[x]Dopo che è morto un\ntuo Non Morto,\npesca una carta.",
 		"flavor": "\"Vedo la gente morta. Un sacco di gente morta.\"",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
-		"assembleHalves": {
-			"first": {
-				"text": "Dopo che è morto un tuo Non Morto,",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "pesca una carta.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -1054343,8 +1054307,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 7,
-			"TAG_SCRIPT_DATA_NUM_2": 7
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"artist": "Vlad Botos"
 	},
@@ -1054557,7 +1054521,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Inizio Combattimento:</b> raddoppia le statistiche\ndei tuoi due servitori con l'Attacco più basso.",
@@ -1056052,7 +1056016,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Inizio Combattimento:</b> fornisce \"<b>Rantolo di Morte:</b> evoca un Gelo Rigoglioso\" a\n3 tuoi Elementali.",
@@ -1056156,6 +1056119,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1056481,7 +1056445,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Genesi Magica:</b> seleziona\nun servitore. Poi seleziona un servitore di un Livello più alto in cui trasformarlo.",
@@ -1062638,7 +1062602,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Ottieni un servitore casuale\ncon <b>Grido di Battaglia</b>.\nAll'inizio di ogni turno,\nne ottieni un altro.",
@@ -1063878,16 +1063841,14 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 3,
 		"faction": "NEUTRAL",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "Dopo che 2 tuoi servitori hanno attaccato in ogni combattimento, gioca una <b>Gemma del Sangue</b>\nsui tuoi Verrospino. <i>(Ancora {0}!)</i>",
+		"text": "Dopo che un tuo Verrospino ha attaccato in ogni combattimento, gioca una <b>Gemma del Sangue</b> sui tuoi Verrospino.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
-		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
-		},
 		"referencedTags": [
 			"BACON_BLOOD_GEM_TOOLTIP"
 		]
@@ -1091644,7 +1091605,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Quando un tuo Verrospino muore, evoca un Golem con statistiche pari alle sue <b>Gemme del Sangue</b>.",
@@ -1091752,7 +1091713,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "Ottieni 2 Oro.\nLa Locanda non offre\npiù carte di Livello 1 o Livello 2.",
+		"text": "Ottieni 3 Oro. La Locanda non offre più carte di Livello 1 o Livello 2.",
 		"mechanics": [
 			"AURA"
 		],
@@ -1091814,7 +1091775,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Gira la Ruota di\nYogg-Saron. All'inizio di ogni turno, la gira di nuovo.",
@@ -1093332,7 +1093293,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 7,
@@ -1093385,7 +1093346,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 14,
 		"text": "Le <b>Gemme del Sangue</b>\ngiocate dalla tua mano\nvengono lanciate\n2 volte aggiuntive.",
@@ -1121988,10 +1121949,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "Dopo che hai giocato\nun servitore, +6/+6 al servitore più a sinistra\nnella tua mano.",
+		"text": "Dopo che hai giocato un servitore, +10/+10 al servitore più a sinistra nella tua mano.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		]
@@ -1122052,8 +1122013,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		}
 	},
 	{
@@ -1124170,15 +1124131,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "<b>Inizio Combattimento:</b>\n+{0}/+{1} agli altri tuoi Elementali. <i>(Migliora dopo che hai giocato un Elementale!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3,
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"artist": "Joseph Weston",
@@ -1124224,15 +1124185,15 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 12,
+		"attack": 16,
+		"health": 16,
 		"text": "<b>Inizio Combattimento:</b>\n+{0}/+{1} agli altri tuoi Elementali. <i>(Migliora dopo che hai giocato un Elementale!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"battlegroundsNormalDbfId": 115581,
@@ -1153030,24 +1152991,10 @@
 		"text": "Dopo che è stato evocato un Elementale sotto il tuo controllo, infligge 3 danni a un nemico casuale.",
 		"flavor": "Questa storia è un turbinio di emozioni.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Drew Hill",
-		"assembleHalves": {
-			"first": {
-				"text": "Dopo che è stato evocato un Elementale sotto il tuo controllo,",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "infligge 3 danni a un nemico casuale.",
-				"mechanics": [
-					"DEAL_DAMAGE"
-				]
-			}
-		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1153398,7 +1153345,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Missione:</b> lancia\n4 Magie Sacre. <b>Ricompensa:</b> Respiro Vitale. <b>Missione:</b> lancia\n4 Magie d'Ombra. <b>Ricompensa:</b> Tocco di Morte.",
+		"text": "<b>Missione:</b> lancia 6 Magie Sacre. <b>Ricompensa:</b> Respiro Vitale. <b>Missione:</b> lancia 6 Magie d'Ombra. <b>Ricompensa:</b> Tocco di Morte.",
 		"flavor": "Giorno 6. Oggi ci siamo ritrovati in una radura tormentata da magia sacra e d'Ombra, al cui centro c'erano due giganteschi Elementali, come facce opposte della stessa moneta. Spero che un giorno potremo tornarci e vedere questo posto, ora in rovina, di nuovo al suo massimo splendore.",
 		"mechanics": [
 			"QUEST"
@@ -1153425,7 +1153372,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Missione:</b> lancia 4 Magie\nSacre. <b>Ricompensa:</b> Respiro Vitale.",
+		"text": "<b>Missione:</b> lancia 6 Magie Sacre. <b>Ricompensa:</b> Respiro Vitale.",
 		"mechanics": [
 			"QUEST"
 		],
@@ -1157698,7 +1157645,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ogni quarta carta che compri costa Salute invece di Oro. <i>(Ancora {0}!)</i>",
@@ -1158316,7 +1158263,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni una copia\nbase di un tuo servitore casuale. All'inizio di ogni turno, ripete l'effetto.",
@@ -1159259,7 +1159206,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni un Elementale della Sorpresa. <i>(Ne compaiono altri quando meno te li aspetti...)</i>",
@@ -1163093,7 +1163040,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "[x]<b>Grido di Battaglia:</b> riduce\ndi (3) il costo delle carte\ncopiate dall'avversario.",
+		"text": "[x]<b>Grido di Battaglia:</b> riduce\ndi (2) il costo delle carte\ncopiate dall'avversario.",
 		"flavor": "Dave, sappiamo che questa lettera è falsa: è la tua calligrafia. E togliti quello stupido cappuccio, ci stai mettendo in imbarazzo.",
 		"mechanics": [
 			"BATTLECRY"
@@ -1171086,12 +1171033,9 @@
 		"set": "Day_of_rebirth",
 		"rarity": "Common",
 		"cost": 8,
-		"text": "Imposta le statistiche di un tuo servitore a 1/1. Riempie il tuo lato del\ncampo con sue copie.",
+		"text": "Imposta le statistiche di un tuo servitore non <b>Leggendario</b> a 1/1. Riempie il tuo lato del campo con sue copie.",
 		"flavor": "FINITO L'EFFETTO DELL'ESCA.",
-		"artist": "Slawomir Maniak",
-		"otherTags": [
-			"TARGETS_FRIENDLY_MINION"
-		]
+		"artist": "Slawomir Maniak"
 	},
 	{
 		"dbfId": 118407,
@@ -1171467,15 +1171411,12 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "[x]<b>Rantolo di Morte:</b> evoca un Uovo\nleggermente incrinato. <i>(Rompilo\n5 volte per farlo schiudere e far\nfuoriuscire una Bestia 20/20\ncon <b>Provocazione</b>!)</i>",
+		"text": "<b>Rantolo di Morte:</b> evoca un Uovo leggermente incrinato. <i>(Rompilo 5 volte per farlo schiudere e far fuoriuscire una Bestia 20/20!)</i>",
 		"flavor": "Khelos ha atteso la schiusa delle sue uova per migliaia di anni. Speriamo tu non debba aspettare così tanto.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122542,
 			122543,
@@ -1171755,10 +1171696,6 @@
 		],
 		"attack": 20,
 		"health": 20,
-		"text": "<b>Provocazione</b>",
-		"mechanics": [
-			"TAUNT"
-		],
 		"artist": "Vlad Botos",
 		"audio2": {
 			"BASIC_attack": {
@@ -1191070,7 +1191007,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Missione:</b> lancia\n4 Magie d'Ombra. <b>Ricompensa:</b> Tocco\ndi Morte.",
+		"text": "<b>Missione:</b> lancia 6 Magie d'Ombra. <b>Ricompensa:</b> Tocco di Morte.",
 		"mechanics": [
 			"QUEST"
 		],
@@ -1198025,7 +1197962,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1198147,7 +1198083,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1198355,10 +1198291,10 @@
 			"BACON_BUFFS_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 1,
-			"TAG_SCRIPT_DATA_NUM_5": 6
+			"TAG_SCRIPT_DATA_NUM_5": 5
 		}
 	},
 	{
@@ -1206298,7 +1206234,7 @@
 		"collectible": true,
 		"set": "Across_the_timeways",
 		"rarity": "Epic",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "SHADOW",
 		"text": "Divide in due metà un servitore casuale\nnella tua mano.",
 		"flavor": "La mia altra metà, letteralmente.",
@@ -1211659,7 +1211595,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni un Vendimentale. All'inizio di ogni turno, ne ottieni un altro.",
@@ -1212154,7 +1212090,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Crea un Non Morto\npersonalizzato. All'inizio di\nogni 2 turni, ripete l'effetto.\n<i>(Ancora {0} turni!)</i>",
@@ -1212247,28 +1212182,13 @@
 		],
 		"attack": 5,
 		"health": 3,
-		"text": "<b>Provocazione</b>. <b>Grido di Battaglia:</b> raddoppia la Salute di questo servitore.",
+		"text": "<b>Provocazione</b>.\n<b>Grido di Battaglia:</b> raddoppia la Salute di questo servitore.",
 		"flavor": "Ecco come si finisce ad abbronzarsi per troppo tempo.",
 		"mechanics": [
 			"BATTLECRY",
-			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Zoltan Boros",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Provocazione</b>. <b>Grido di Battaglia:</b>",
-				"mechanics": [
-					"BATTLECRY",
-					"TAUNT"
-				]
-			},
-			"second": {
-				"text": "raddoppia la Salute di questo servitore.",
-				"mechanics": [
-				]
-			}
-		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1212651,7 +1212571,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni un\nMostro del Dott. Boom. All'inizio di ogni turno, ne ottieni un altro.",
@@ -1213938,9 +1213858,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "<b>Rinvieni</b> un servitore di Livello 5 con un tipo. All'inizio di ogni turno, ne ottieni un'altra copia.",
+		"text": "<b>Rinvieni</b> un servitore di Livello 6 con un tipo. All'inizio di ogni turno, ne ottieni un'altra copia.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1214057,7 +1213978,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Quando una tua\nBestia attacca, +{0} Attacco e migliora permanentemente questa carta.",
@@ -1214065,7 +1213986,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4
 		},
 		"artist": "Ira Fidler"
 	},
@@ -1216569,7 +1216490,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Una Magia della Locanda ogni turno costa Salute invece di Oro. <i>(Ancora {0}!)</i>",
@@ -1217661,12 +1217582,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "La prima volta che acquisti un servitore ogni turno, ottieni un Satellite con <b>Magnetismo</b> con le sue statistiche.",
+		"text": "Dopo che hai comprato un servitore, ottieni un Satellite con <b>Magnetismo</b> con le sue statistiche. <i>(Due volte per turno).</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 2
+		},
 		"artist": "Kevin Sidharta",
 		"referencedTags": [
 			"MODULAR"
@@ -1217768,7 +1217693,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni una Zarina in Carica. Le tue Zarine in Carica forniscono anche Salute.",
@@ -1219000,10 +1218924,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "<b>Vendetta (7):</b> evoca due Scarabei {0}/{1}. Fornisce loro <b>Provocazione</b>.",
+		"text": "<b>Vendetta (8):</b> evoca due Scarabei {0}/{1}. Fornisce loro <b>Provocazione</b>.",
 		"mechanics": [
 			"AVENGE"
 		],
@@ -1222005,7 +1221929,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni un Incantatore della Fauce. Quando distruggi un servitore al di fuori del combattimento, ottieni {0} Oro.",
@@ -1222013,7 +1221937,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Alex Horley Orlandelli"
 	},
@@ -1234357,14 +1234281,14 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 4,
+		"health": 8,
 		"text": "Dopo che il tuo eroe ha\nsubito danni, li annulla e fornisce +{0}/+{1} ai servitori nella Locanda in questo turno.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"artist": "Joseph Weston",
@@ -1234410,14 +1234334,14 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 12,
-		"health": 12,
+		"attack": 8,
+		"health": 16,
 		"text": "Dopo che il tuo eroe ha\nsubito danni, li annulla e fornisce +{0}/+{1} ai servitori nella Locanda in questo turno.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 121687,
@@ -1243742,14 +1243666,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Rantolo di Morte:</b> evoca un Uovo più incrinato. <i>(Rompilo 4 volte per farlo schiudere e far fuoriuscire una Bestia 20/20 con <b>Provocazione</b>!)</i>",
+		"text": "<b>Rantolo di Morte:</b> evoca un Uovo più incrinato. <i>(Rompilo altre 4 volte per farlo schiudere e far fuoriuscire una Bestia 20/20!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122543,
 			122545,
@@ -1243800,14 +1243721,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Rantolo di Morte:</b> evoca\nun Uovo molto incrinato. <i>(Rompilo\n3 volte per farlo schiudere e far fuoriuscire una Bestia 20/20\ncon <b>Provocazione</b>!)</i>",
+		"text": "<b>Rantolo di Morte:</b> evoca un Uovo molto incrinato. <i>(Rompilo altre 3 volte per farlo schiudere e far fuoriuscire una Bestia 20/20!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122545,
 			122546,
@@ -1243870,14 +1243788,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Rantolo di Morte:</b> evoca un\nUovo più incrinato che mai. <i>(Rompilo\n2 volte per farlo schiudere e far fuoriuscire una Bestia 20/20\ncon <b>Provocazione</b>!)</i>",
+		"text": "<b>Rantolo di Morte:</b> evoca un Uovo più incrinato che mai. <i>(Rompilo altre 2 volte per farlo schiudere e far fuoriuscire una Bestia 20/20!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122546,
 			118495
@@ -1243926,14 +1243841,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Rantolo di Morte:</b>\nevoca un Khelos 20/20 con <b>Provocazione</b>. <i>(Rompilo per\nfarlo schiudere!)</i>",
+		"text": "<b>Rantolo di Morte:</b> evoca un Khelos 20/20. <i>(Rompilo per farlo schiudere!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			118495
 		],
@@ -1244285,15 +1244197,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 3,
-		"health": 8,
+		"attack": 4,
+		"health": 9,
 		"text": "<b>Adunata:</b> le tue <b>Gemme\ndel Sangue</b> forniscono +{0}/+{1} aggiuntivi in questa partita.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 1
 		},
 		"artist": "Kleston Marques",
 		"battlegroundsPremiumDbfId": 122567,
@@ -1244341,15 +1244253,15 @@
 			"QUILBOAR"
 		],
 		"techLevel": 5,
-		"attack": 6,
-		"health": 16,
+		"attack": 8,
+		"health": 18,
 		"text": "<b>Adunata:</b> le tue <b>Gemme\ndel Sangue</b> forniscono +{0}/+{1} aggiuntivi in questa partita.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsNormalDbfId": 122566,
 		"premium": true,
@@ -1254146,7 +1254058,7 @@
 		"collectible": true,
 		"set": "Cataclysm",
 		"rarity": "Epic",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "FIRE",
 		"text": "Infligge $1 danni a TUTTI i servitori <i>(migliora per ogni servitore sul campo)</i>.",
 		"flavor": "Lo sapevi che con 10 decimazioni fai una centimazione?",
@@ -1259809,15 +1259721,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 10,
 		"health": 3,
 		"text": "<b>Rantolo di Morte:</b> +{0}/+{1}\nai tuoi servitori. Quelli Dorati mantengono questo effetto permanentemente.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsPremiumDbfId": 123596,
 		"audio2": {
@@ -1259855,15 +1259767,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 20,
 		"health": 6,
 		"text": "<b>Rantolo di Morte:</b> +{0}/+{1} ai tuoi servitori due volte. Quelli Dorati mantengono questo effetto permanentemente.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 123595,
 		"premium": true,
@@ -1260288,27 +1260200,13 @@
 		],
 		"attack": 3,
 		"health": 1,
-		"text": "<b>Scudo Divino</b>. Dopo che questo servitore ha perso <b>Scudo Divino</b>, +1 Salute alle tue Reclute Mano d'Argento in questa partita.",
+		"text": "[x]<b>Scudo Divino</b>. Dopo che questo\nservitore ha perso <b>Scudo Divino</b>,\n+1 Salute alle tue Reclute Mano\n d'Argento in questa partita.",
 		"flavor": "Complimenti, la tua vita è salva! Non opporre resistenza.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Milica Celikovic",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Scudo Divino</b>. Dopo che questo servitore ha perso <b>Scudo Divino</b>,",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "+1 Salute alle tue Reclute Mano d'Argento in questa partita.",
-				"mechanics": [
-				]
-			}
-		},
 		"audio2": {
 			"BASIC_attack": {
 				"2H_EpicMace_Underlay_Attack": {
@@ -1282352,7 +1282250,7 @@
 		"rarity": "Epic",
 		"cost": 5,
 		"attack": 4,
-		"health": 4,
+		"health": 3,
 		"text": "<b>Predisposizione</b>. <b>Grido di Battaglia:</b> se hai lanciato una Magia in questo turno, lancia due <b>Segreti</b> del Mago casuali.",
 		"flavor": "Ti do il benvenuto a Dalaran, dove gli incantesimi sono inventati e i punti non contano!",
 		"mechanics": [
@@ -1282564,8 +1282462,8 @@
 		"collectible": true,
 		"set": "Violet_hold",
 		"rarity": "Rare",
-		"cost": 5,
-		"attack": 5,
+		"cost": 6,
+		"attack": 6,
 		"health": 3,
 		"text": "[x]<b>Predisposizione</b>. <b>Grido\ndi Battaglia:</b> distrugge gli altri\ntuoi servitori. Pesca una carta\ne ricarica un Mana per ogni\nservitore distrutto.",
 		"flavor": "È Tagliaossa in carne e ossa.",
@@ -1288292,8 +1288190,6 @@
 		"races": [
 			"MURLOC"
 		],
-		"techLevel": 2,
-		"isBaconPool": true,
 		"attack": 3,
 		"health": 5,
 		"text": "<b>Adunata:</b> evoca il Murloc con più Attacco dalla tua mano solo per questo combattimento.",
@@ -1297753,15 +1297649,17 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 15,
-		"health": 15,
-		"text": "<b>Adunata:</b> +{0}/+{1} a un tuo servitore di ogni tipo permanentemente.",
+		"attack": 10,
+		"health": 10,
+		"text": "<b>Adunata:</b> fornisce +{0}/+{1} a un tuo servitore di ogni tipo permanentemente e migliora questa carta.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"artist": "Slawomir Maniak",
 		"battlegroundsPremiumDbfId": 127110,
@@ -1297822,15 +1297720,17 @@
 			"ALL"
 		],
 		"techLevel": 7,
-		"attack": 30,
-		"health": 30,
-		"text": "<b>Adunata:</b> +{0}/+{1} a un tuo servitore di ogni tipo permanentemente due volte.",
+		"attack": 20,
+		"health": 20,
+		"text": "<b>Adunata:</b> fornisce +{0}/+{1} a un tuo servitore di ogni tipo permanentemente e migliora questa carta due volte.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"battlegroundsNormalDbfId": 127109,
 		"premium": true,
@@ -1298027,9 +1297927,9 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 16,
-		"health": 32,
-		"text": "Dopo che è stato evocato un servitore sotto il tuo controllo in combattimento, gli fornisce le statistiche massime di questo servitore. <i>(3 volte per combattimento.)</i>",
+		"attack": 15,
+		"health": 30,
+		"text": "Dopo che è stato evocato un altro servitore sotto il tuo controllo in combattimento, gli fornisce il doppio delle statistiche massime di questo servitore. <i>(3 volte per combattimento.)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1298078,9 +1297978,9 @@
 			"BEAST"
 		],
 		"techLevel": 7,
-		"attack": 32,
-		"health": 64,
-		"text": "Dopo che è stato evocato un servitore sotto il tuo controllo in combattimento, gli fornisce il doppio delle statistiche massime di questo servitore. <i>(3 volte per combattimento.)</i>",
+		"attack": 30,
+		"health": 60,
+		"text": "Dopo che è stato evocato un altro servitore sotto il tuo controllo in combattimento, gli fornisce il triplo delle statistiche massime di questo servitore. <i>(3 volte per combattimento.)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1307953,8 +1307853,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 13,
+		"attack": 17,
+		"health": 23,
 		"text": "Alla fine del tuo turno, fornisce le statistiche di questo servitore al servitore più a sinistra\nnella tua mano.",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -1308002,8 +1307902,8 @@
 			"MURLOC"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 26,
+		"attack": 34,
+		"health": 46,
 		"text": "Alla fine del tuo turno, fornisce il doppio delle statistiche di questo servitore al servitore più a\nsinistra nella tua mano.",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -1308399,7 +1308299,7 @@
 		"text": "+{0}/+{1} ai tuoi servitori. +{0}/+{1} aggiuntivi a\nquelli Dorati.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Anton Zemskov"
 	},
@@ -1331099,7 +1330999,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 9,
+		"cost": 10,
 		"attack": 9,
 		"health": 7,
 		"text": "<b>Grido di Battaglia:</b> riduce di (5) il costo di una carta nella tua mano. Continua a sinistra e a destra con (1) riduzione in meno.",
@@ -1341796,7 +1341696,7 @@
 		"rarity": "Common",
 		"cost": 2,
 		"spellSchool": "SHADOW",
-		"text": "Tra 2 turni, evoca due C'thraxxi 3/5 con <b>Provocazione</b>.",
+		"text": "Tra 2 turni, evoca due C'thraxxi 2/4 con <b>Provocazione</b>.",
 		"flavor": "Avete entrambi 2 turni per asciugarvi e rientrare per cena.",
 		"mechanics": [
 			"OBJECTIVE"
@@ -1341843,9 +1341743,9 @@
 			"WARLOCK"
 		],
 		"set": "Black_empire",
-		"cost": 4,
-		"attack": 3,
-		"health": 5,
+		"cost": 3,
+		"attack": 2,
+		"health": 4,
 		"text": "<b>Provocazione</b>",
 		"mechanics": [
 			"TAUNT"
@@ -1342214,7 +1342114,7 @@
 		"set": "Black_empire",
 		"rarity": "Common",
 		"cost": 3,
-		"attack": 2,
+		"attack": 3,
 		"durability": 2,
 		"text": "Dopo che il tuo eroe ha attaccato, ottiene una \"Ipercarica\".",
 		"flavor": "Cauterizza all'istante qualsiasi ferita provochi.",
@@ -1342252,7 +1342152,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Rare",
-		"cost": 2,
+		"cost": 1,
 		"text": "<b>Innesta</b> un Robot. Ottieni una \"Ipercarica\".",
 		"flavor": "miM rof tnuocca ton did tolp s'noraS-ggoY tub ,htaed s'norimiM detartsehcro yllufsseccus noraS-ggoY ,noitiurF ot emoc ot ainnellim ynam ekat dluow ti hguohT",
 		"artist": "Matt Dixon",
@@ -1342496,24 +1342396,10 @@
 		"text": "<b>Scudo Divino:</b> dopo che un tuo servitore ha perso <b>Scudo Divino</b>, +5/+5 a un servitore nella tua mano.",
 		"flavor": "\"Che la mia fede e il mio coraggio mi proteggano. E che il mio onore e il mio sacrificio permettano ad altri di prendere il mio posto.\"",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Scudo Divino:</b> dopo che un tuo servitore ha perso <b>Scudo Divino</b>,",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "+5/+5 a un servitore nella tua mano.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -1342994,9 +1342880,9 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 7,
-		"attack": 7,
-		"health": 7,
+		"cost": 6,
+		"attack": 6,
+		"health": 6,
 		"text": "<b>Grido di Battaglia:</b> ottieni 20 Armatura. Tra 2 turni, converte l'Armatura in un Golem con quelle statistiche e <b>Provocazione</b>.",
 		"flavor": "Puoi perdere la tua Armatura con le buone o con le cattive.",
 		"mechanics": [
@@ -1345275,7 +1345161,7 @@
 		],
 		"attack": 4,
 		"health": 5,
-		"text": "Costa (2) in meno per ogni carta con <b>Combo</b> giocata in questo turno. <b>Grido di Battaglia:</b> pesca una carta.",
+		"text": "Costa (2) in meno per ogni carta con <b>Combo</b> giocata in questo turno. <b>Grido di Battaglia:</b> pesca 2 carte.",
 		"flavor": "La regola con gli insetti del \"ha più paura lui di te che tu di lui\" qui NON vale.",
 		"mechanics": [
 			"BATTLECRY"
@@ -1345333,14 +1345219,14 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Common",
-		"cost": 3,
+		"cost": 4,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 4,
-		"health": 2,
-		"text": "<b>Rantolo di Morte:</b> ottieni due larve che costano 1 con <b>Combo</b> che attivano un Potere Eroe di un'altra classe.",
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Rantolo di Morte:</b> ottieni due larve con <b><b>Combo</b></b> che attivano un Potere Eroe di un'altra classe. Costano (0).",
 		"flavor": "Avevo capito \"brucatore\", pensavo fosse una pecora.",
 		"mechanics": [
 			"DEATHRATTLE",
@@ -1346729,10 +1346615,10 @@
 		"rarity": "Common",
 		"cost": 2,
 		"additionalCosts": {
-			"BLOODRUNE": 2
+			"BLOODRUNE": 3
 		},
 		"attack": 3,
-		"health": 3,
+		"health": 4,
 		"text": "<b>Furto Vitale</b>",
 		"flavor": "Un misero Reietto che si atteggia a signore... Ti ordino di inginocchiarti!",
 		"mechanics": [
@@ -1346894,8 +1346780,8 @@
 		},
 		"attack": 8,
 		"health": 1,
-		"text": "<b>Grido di Battaglia:</b> ruba 6 Salute suddivisa tra i nemici con meno Salute. <i>Migliora con le carte con una Runa del Sangue giocate.</i>",
-		"flavor": "G'huun ha cambiato classe non appena ha scoperto che i Cavalieri della Morte aveano le Rune del Sangue.",
+		"text": "<b>Grido di Battaglia:</b> ruba 6 Salute suddivisa tra i nemici con meno Salute. <i>Migliora con le Rune del Sangue giocate.</i>",
+		"flavor": "G'huun ha cambiato classe non appena ha scoperto che i Cavalieri della Morte avevano le Rune del Sangue.",
 		"mechanics": [
 			"BATTLECRY"
 		],
@@ -1347428,7 +1347314,7 @@
 		"rarity": "Common",
 		"cost": 5,
 		"spellSchool": "SHADOW",
-		"text": "[x]Evoca un'Ala del Vuoto\n5/5 con <b>Furto Vitale</b>.\n<i>(La prossima Magia d'Ombra\nche giochi ne ripete l'effetto!)</i>",
+		"text": "[x]Evoca due Ali del Vuoto\n3/4 con <b>Furto Vitale</b>.\n<i>(La prossima Magia d'Ombra\nche giochi ne ripete l'effetto!)</i>",
 		"flavor": "Ma un'Ala del Vuoto come crea l'attrito necessario per volare?",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0
@@ -1347477,13 +1347363,13 @@
 			"PRIEST"
 		],
 		"set": "Black_empire",
-		"cost": 5,
+		"cost": 3,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 5,
-		"health": 5,
+		"attack": 3,
+		"health": 4,
 		"text": "<b>Furto Vitale</b>",
 		"mechanics": [
 			"LIFESTEAL"
@@ -1349409,7 +1349295,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 6,
@@ -1349471,7 +1349357,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 12,
 		"text": "Quando scarti una carta, +{0}/+{1} alla tua <b>Divinità</b>\ne migliora questa carta.",
@@ -1352810,7 +1352696,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_2": 14
 		}
 	},
 	{
@@ -1352824,7 +1352710,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni due servitori di Livello 1, 2 e 3.",
@@ -1353260,8 +1353146,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -1353331,8 +1353217,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Arthur Bozonnet"
 	},
@@ -1353562,7 +1353448,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni un <b>Draco Cromatico</b> casuale. All'inizio di ogni turno, ripete l'effetto.",
@@ -1353664,7 +1353550,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni {0} <b>Taglie</b> casuali. All'inizio di ogni turno, ripete l'effetto.",
@@ -1353730,8 +1353616,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Grace Liu"
 	},
@@ -1353780,8 +1353666,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"artist": "Tanamaes Leejierasaes"
 	},
@@ -1353968,6 +1353854,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni una <b>Gemma del Sangue</b> che fornisce <b>Provocazione</b>, <b>Scudo Divino</b> o <b>Rinascita</b> a un Verrospino. All'inizio di ogni turno, ripete l'effetto.",
@@ -1366877,7 +1366764,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni una Conchiglia della Clonazione. All'inizio di ogni {1} turni, ripete l'effetto. <i>(Ancora {0} turni!)</i>",
@@ -1366909,8 +1366796,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Matt Dixon",
 		"otherTags": [
@@ -1366931,7 +1366818,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni un Percossionista Polarizzante.",
@@ -1367663,7 +1367550,7 @@
 		"rarity": "Common",
 		"cost": 2,
 		"spellSchool": "NATURE",
-		"text": "Pesca una Magia diversa. Se è una Magia da Natura, la lancia due volte.",
+		"text": "Pesca una Magia diversa. Se è una Magia da Natura, viene lanciata due volte.",
 		"flavor": "2x/\"protO-Jpandaqr-eN\" + \"eht ,n/olv'u,Y yot nwod dessa1p saw kci)(ts gnikliaw KehWT . de5tpurr2oc d+a24h htoZ'N stsercofz neht egrfugp pot dlrobwmu ehtet",
 		"artist": "Vika Yarova",
 		"availableAsSignature": true
@@ -1368290,7 +1368177,7 @@
 		],
 		"attack": 0,
 		"health": 1,
-		"text": "<b>Rinascita</b>. <b>Rantolo di Morte:</b> +1/+1 ai servitori nella tua mano.",
+		"text": "<b>Rinascita</b>. <b>Rantolo di Morte:</b>  +1 Attacco ai servitori nella tua mano.",
 		"flavor": "Riconosco un mal di pancia quando ne vedo uno.",
 		"mechanics": [
 			"CRAFTABLE_OUTPUT_POWER",
@@ -1368307,7 +1368194,7 @@
 				]
 			},
 			"second": {
-				"text": "+1/+1 ai servitori nella tua mano.",
+				"text": "+1 Attacco ai servitori nella tua mano.",
 				"mechanics": [
 				]
 			}
@@ -1368482,7 +1368369,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Dopo che la\nLocanda è stata <b>Ricaricata</b>,\n+{0}/+{1} ai suoi servitori\nin questo turno.",
@@ -1368490,8 +1368377,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"artist": "Vlad Botos",
 		"referencedTags": [
@@ -1373396,7 +1373283,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 10,
+		"cost": 9,
 		"attack": 10,
 		"health": 10,
 		"text": "[x]<b>Dio Antico</b>. <b>Grido di Battaglia:</b>\nse hai consumato 30 Mana per\ni servitori in questa partita,\nottiene <b>Immune</b> per 1 turno.\n<i>(Ancora {0}!)</i>",
@@ -1374874,7 +1374761,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "+4/+4. Tra 2 turni, raddoppia le statistiche di questo servitore."
+		"text": "+6/+6. Tra 2 turni, raddoppia le statistiche di questo servitore."
 	},
 	{
 		"dbfId": 132203,
@@ -1374910,7 +1374797,7 @@
 		"set": "Battlegrounds",
 		"cost": 0,
 		"faction": "NEUTRAL",
-		"text": "<b>Inizio Combattimento:</b> raddoppia la Salute di questo servitore."
+		"text": "+15 Salute. <b>Inizio Combattimento:</b> raddoppia la Salute di questo servitore."
 	},
 	{
 		"dbfId": 132207,
@@ -1375331,7 +1375218,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "<b>Inizio Combattimento:</b> raddoppia la Salute di questo servitore.",
+		"text": "+15 Salute. <b>Inizio Combattimento:</b> raddoppia la Salute di questo servitore.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1376459,7 +1376346,7 @@
 		"cost": 10,
 		"attack": 12,
 		"health": 12,
-		"text": "<b>Dio Antico</b>.\nSe hai attivato tutte e 4 le abilità di C'thun in questa partita, le abilità di questo servitore sono triplicate.",
+		"text": "[x]<b>Dio Antico</b>.\nSe hai attivato tutte e 4 le abilità di\nC'thun in questa partita, le abilità\ndi questo servitore sono\nquadruplicate.",
 		"flavor": "\"Amitut, Keeper of Amitus\"/2 + (2*\"Incubate\")/2 + (2*\"The Unknowable One\"/3)",
 		"artist": "Kevin Sidharta",
 		"availableAsSignature": true,
@@ -1376504,7 +1376391,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+2/+3"
+		"text": "+2/+2."
 	},
 	{
 		"dbfId": 132341,
@@ -1376517,7 +1376404,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+6/+9"
+		"text": "+8/+8."
 	},
 	{
 		"dbfId": 132342,
@@ -1376532,7 +1376419,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "Evoca due Fanatici 2/3 con <b>Provocazione</b>.",
+		"text": "Evoca due Fanatici 2/2 con <b>Provocazione</b>.",
 		"artist": "Stefan Bogdasarov",
 		"hideStats": true,
 		"referencedTags": [
@@ -1376582,7 +1376469,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "+2/+3 ad altri due tuoi servitori casuali.",
+		"text": "+2/+2 ad altri due tuoi servitori casuali.",
 		"artist": "Kevin Sidharta",
 		"hideStats": true
 	},
@@ -1376599,7 +1376486,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Infligge 7 danni suddivisi casualmente tra i nemici.",
+		"text": "Infligge 6 danni suddivisi casualmente tra i nemici.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376678,13 +1376565,13 @@
 		"cost": 3,
 		"attack": 3,
 		"health": 2,
-		"text": "<b>Grido di Battaglia:</b> se hai lanciato 2 Magie d'Ombra mentre avevi questa carta in mano, scegli un'abilità di C'thun da attivare. <i>(Ancora {0}!)</i>",
+		"text": "<b>Grido di Battaglia:</b> se hai lanciato una Magia d'Ombra mentre avevi questa carta in mano, scegli un'abilità di C'thun da attivare.",
 		"flavor": "Gli Dei Antichi stanno arrivando. Gli Dei Antichi stanno arrivando!",
 		"mechanics": [
 			"BATTLECRY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Ivo Campelo da Silva",
 		"availableAsSignature": true,
@@ -1376709,7 +1376596,7 @@
 		"rarity": "Legendary",
 		"cost": 2,
 		"attack": 2,
-		"health": 3,
+		"health": 2,
 		"text": "<b>Provocazione</b>",
 		"mechanics": [
 			"TAUNT"
@@ -1376905,7 +1376792,7 @@
 			"HUNTER"
 		],
 		"set": "Black_empire",
-		"text": "+1/+1."
+		"text": "+1 Attacco."
 	},
 	{
 		"dbfId": 132441,
@@ -1377086,7 +1376973,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "<b>Rantolo di Morte:</b> +2/+2 ai tuoi servitori permanentemente."
+		"text": "<b>Rantolo di Morte:</b> +3/+3 ai tuoi servitori permanentemente."
 	},
 	{
 		"dbfId": 132485,
@@ -1377403,7 +1377290,7 @@
 		"cost": 9,
 		"attack": 7,
 		"health": 5,
-		"text": "<b>Dio Antico</b>. <b>Grido di Battaglia:</b> termina il tuo turno. Yogg-Saron gioca un turno aggiuntivo al posto tuo. <i>(Una volta per partita)</i>",
+		"text": "<b>Dio Antico</b>.\n<b>Grido di Battaglia:</b> termina il tuo turno. Yogg-Saron gioca un turno aggiuntivo al posto tuo. <i>(Una volta per partita)</i>",
 		"flavor": "\"Reknit\" + \"Norimim\"",
 		"mechanics": [
 			"BATTLECRY"
@@ -1378610,8 +1378497,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 15,
+		"attack": 13,
+		"health": 17,
 		"text": "<b>Adunata:</b> evoca un Golem con le statistiche di questo servitore che attacca il bersaglio per primo.",
 		"mechanics": [
 			"BACON_RALLY"
@@ -1378666,8 +1378553,8 @@
 			"QUILBOAR"
 		],
 		"techLevel": 7,
-		"attack": 12,
-		"health": 30,
+		"attack": 26,
+		"health": 34,
 		"text": "<b>Adunata:</b> evoca un Golem con il doppio delle statistiche di questo servitore che attacca il bersaglio per primo.",
 		"mechanics": [
 			"BACON_RALLY"
@@ -1378970,7 +1378857,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
+		"attack": 8,
 		"health": 8,
 		"text": "Quando giochi un Robot,\nunisci con <b>Magnetismo</b> un Satellite {1}/{2} a quel Robot e migliora questa carta.",
 		"mechanics": [
@@ -1378979,7 +1378866,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 2,
-			"TAG_SCRIPT_DATA_NUM_3": 3
+			"TAG_SCRIPT_DATA_NUM_3": 2
 		},
 		"artist": "Brian Despain",
 		"battlegroundsPremiumDbfId": 132677,
@@ -1379027,7 +1378914,7 @@
 			"MECH"
 		],
 		"techLevel": 5,
-		"attack": 12,
+		"attack": 16,
 		"health": 16,
 		"text": "Quando giochi un Robot,\nunisci con <b>Magnetismo</b> un Satellite {1}/{2} a quel Robot e migliora questa carta.",
 		"mechanics": [
@@ -1379036,7 +1378923,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 4,
-			"TAG_SCRIPT_DATA_NUM_3": 6
+			"TAG_SCRIPT_DATA_NUM_3": 4
 		},
 		"battlegroundsNormalDbfId": 132676,
 		"premium": true,
@@ -1379771,15 +1379658,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 7,
+		"health": 5,
 		"text": "Dopo che hai speso {2} Oro, ottieni uno Scrigno. Se ne hai già uno, si apre {3} turni prima.<i>(Ancora {0} Oro!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
 		"artist": "Joseph Weston",
@@ -1379825,15 +1379712,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 12,
-		"health": 12,
+		"attack": 14,
+		"health": 10,
 		"text": "Dopo che hai speso {2} Oro, ottieni uno Scrigno. Se ne hai già uno, si apre {3} turni prima.<i>(Ancora {0} Oro!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 2
 		},
 		"battlegroundsNormalDbfId": 132762,
@@ -1381084,7 +1380971,7 @@
 	{
 		"dbfId": 132837,
 		"id": "CAP_405t1",
-		"name": "",
+		"name": "Arresto per Vandalismo",
 		"type": "Spell",
 		"cardClass": "WARLOCK",
 		"playerClass": "Warlock",
@@ -1381094,6 +1380981,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
+		"text": "Costringe ogni servitore ad attaccarne un altro.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
 		},
@@ -1381131,7 +1381019,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Ruba 2 carte dalla mano dell'avversario.",
+		"text": "Ruba una carta dalla mano dell'avversario.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -1381150,7 +1381038,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "+3/+3 ai servitori nella tua mano e sul tuo lato del campo.",
+		"text": "+2/+2 ai servitori nella tua mano e sul tuo lato del campo.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 7
 		},
@@ -1381167,7 +1381055,7 @@
 			"NEUTRAL"
 		],
 		"set": "Azeroths_most_wanted",
-		"text": "+3/+3"
+		"text": "+2/+2."
 	},
 	{
 		"dbfId": 132848,
@@ -1381222,7 +1381110,7 @@
 		],
 		"set": "Azeroths_most_wanted",
 		"cost": 0,
-		"text": "Evoca tre servitori casuali che costano 3.",
+		"text": "Evoca tre servitori casuali che costano 2.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6
 		},
@@ -1381599,15 +1381487,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
+		"attack": 5,
+		"health": 5,
 		"text": "Quando lanci una\nMagia su un Robot, unisci con <b>Magnetismo</b> un Satellite {0}/{1} a quel Robot.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Kevin Sidharta",
 		"battlegroundsPremiumDbfId": 132894,
@@ -1381655,15 +1381543,15 @@
 			"MECH"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 8,
+		"attack": 10,
+		"health": 10,
 		"text": "Quando lanci una\nMagia su un Robot, unisci con <b>Magnetismo</b> un Satellite {0}/{1} a quel Robot due volte.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 132893,
 		"premium": true,
@@ -1382644,9 +1382532,9 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
-		"text": "Dopo che hai <b>Rinvenuto</b> una\ncarta, +{0}/+{1} agli altri tuoi Pirati. <i>(Migliorato da ogni servitore Dorato che hai giocato in questa partita!)</i>",
+		"attack": 5,
+		"health": 5,
+		"text": "Dopo che hai <b>Rinvenuto</b> una carta, +{0}/+{1} ai tuoi Pirati. <i>(Migliorato da ogni servitore Dorato che hai giocato in questa partita!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1382747,9 +1382635,9 @@
 			"PIRATE"
 		],
 		"techLevel": 6,
-		"attack": 8,
-		"health": 8,
-		"text": "Dopo che hai <b>Rinvenuto</b> una\ncarta, +{0}/+{1} agli altri tuoi Pirati. <i>(Migliorato da ogni servitore Dorato che hai giocato in questa partita!)</i>",
+		"attack": 10,
+		"health": 10,
+		"text": "Dopo che hai <b>Rinvenuto</b> una carta, +{0}/+{1} ai tuoi Pirati. <i>(Migliorato da ogni servitore Dorato che hai giocato in questa partita!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1383311,12 +1383199,13 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 9,
-		"text": "<b>Scudo Divino</b>. <b>Adunata:</b> lancia Soffio di Drago Possente.",
+		"attack": 9,
+		"health": 7,
+		"text": "<b>Scudo Divino</b>. <b><b>Furia del Vento</b>.</b> <b>Adunata:</b> lancia Alito del Drago Possente.",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"artist": "TOPDOG Entertainment",
 		"battlegroundsPremiumDbfId": 132954,
@@ -1383361,12 +1383250,13 @@
 			"DRAGON"
 		],
 		"techLevel": 6,
-		"attack": 16,
-		"health": 18,
-		"text": "<b>Scudo Divino</b>. <b>Adunata:</b> lancia Soffio di Drago Possente due volte.",
+		"attack": 18,
+		"health": 14,
+		"text": "<b>Scudo Divino</b>. <b>Furia del Vento</b>, </b>Adunata:<b> lancia Alito del Drago Possente due volte.",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"battlegroundsNormalDbfId": 132953,
 		"premium": true,
@@ -1383749,14 +1383639,14 @@
 		"techLevel": 6,
 		"isBaconPool": true,
 		"attack": 3,
-		"health": 12,
+		"health": 9,
 		"text": "Dopo che hai giocato\n{1} Elementali, ottiene le statistiche del servitore con più Salute nella Locanda. <i>(Ancora {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Kevin Sidharta",
 		"battlegroundsPremiumDbfId": 132984,
@@ -1383802,14 +1383692,14 @@
 		],
 		"techLevel": 6,
 		"attack": 6,
-		"health": 24,
+		"health": 18,
 		"text": "Dopo che hai giocato {1} Elementali, ottiene il doppio delle statistiche del servitore con più Salute nella Locanda. <i>(Ancora {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 132983,
 		"premium": true,
@@ -1384060,15 +1383950,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 6,
+		"attack": 3,
+		"health": 7,
 		"text": "Quando lanci una Magia su questo servitore, +{0}/+{1} al servitore più a sinistra nella tua mano.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 9,
+			"TAG_SCRIPT_DATA_NUM_2": 9
 		},
 		"artist": "Marta Vives Poch",
 		"battlegroundsPremiumDbfId": 132990,
@@ -1384113,15 +1384003,15 @@
 			"MURLOC"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 12,
+		"attack": 6,
+		"health": 14,
 		"text": "Quando lanci una Magia su questo servitore, +{0}/+{1} al servitore più a sinistra nella tua mano.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 18,
+			"TAG_SCRIPT_DATA_NUM_2": 18
 		},
 		"battlegroundsNormalDbfId": 132989,
 		"premium": true,
@@ -1384282,15 +1384172,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 5,
-		"health": 7,
+		"attack": 6,
+		"health": 9,
 		"text": "Quando lanci una Magia su un\nMurloc, +{0}/+{1} ai Murloc nella tua mano e sul tuo lato del campo.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Florent Mounier",
 		"battlegroundsPremiumDbfId": 133027,
@@ -1384335,15 +1384225,15 @@
 			"MURLOC"
 		],
 		"techLevel": 5,
-		"attack": 10,
-		"health": 14,
+		"attack": 12,
+		"health": 18,
 		"text": "Quando lanci una Magia su un\nMurloc, +{0}/+{1} ai Murloc nella tua mano e sul tuo lato del campo.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 133026,
 		"premium": true,
@@ -1384389,15 +1384279,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 8,
+		"attack": 5,
+		"health": 10,
 		"text": "Quando il tuo eroe subisce {1} danni, ottieni una copia di Tortini Corrotti. <i>(Ancora {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Kleston Marques",
 		"battlegroundsPremiumDbfId": 133029,
@@ -1384442,15 +1384332,15 @@
 			"DEMON"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 16,
+		"attack": 10,
+		"health": 20,
 		"text": "Quando il tuo eroe subisce {1} danni, ottieni due copie di Tortini Corrotti. <i>(Ancora {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 133028,
 		"premium": true,
@@ -1384766,8 +1384656,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -1384878,7 +1384768,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "Dopo che hai\ncomprato un Robot,\nottieni una Magia della Locanda casuale.",
+		"text": "Dopo che hai\ncomprato un Robot,\nottieni una Magia della Locanda casuale che costa (2) o più.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"GENERATES_SPELL",
@@ -1387241,7 +1387131,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Anton Zemskov",
 		"otherTags": [
@@ -1387303,7 +1387193,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni una carta\ncon <b>Scegli</b> casuale. All'inizio di ogni turno, ne ottieni un'altra.",
@@ -1387329,7 +1387219,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni 2 carte\ncon <b>Scegli</b> casuali. All'inizio di ogni turno, ne ottieni altre 2.",
@@ -1387460,7 +1387350,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "<b>Inizio Combattimento:</b> raddoppia l'Attacco di questo servitore.",
+		"text": "+15 Attacco. <b>Inizio Combattimento:</b> raddoppia l'Attacco di questo servitore.",
 		"hideStats": true
 	},
 	{
@@ -1387475,7 +1387365,7 @@
 		],
 		"set": "Battlegrounds",
 		"faction": "NEUTRAL",
-		"text": "<b>Inizio Combattimento:</b> raddoppia l'Attacco di questo servitore.",
+		"text": "+15 Attacco. <b>Inizio Combattimento:</b> raddoppia l'Attacco di questo servitore.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1387614,14 +1387504,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "Dopo che hai lanciato\n3 Magie sui servitori, ottieni 1 Oro. <i>(Ancora {0}!)</i>",
+		"text": "Dopo che hai lanciato {1} Magie sui servitori, ottieni 1 Oro. <i>(Ancora {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		}
 	},
 	{
@@ -1387635,7 +1387527,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Le tue carte con <b>Scegli</b> attivano entrambi\ngli effetti.",
@@ -1387678,7 +1387570,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Quando un tuo\nservitore con <b>Adunata</b> attacca, ottieni una <b>Ricarica</b> gratuita.",
@@ -1387727,7 +1387619,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "I primi due servitori con <b>Grido di Battaglia</b> che compri ogni turno sono gratuiti. <i>(Ancora {0}!)</i>",
@@ -1388206,7 +1388098,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "Ottiene +3 Salute quando giochi una carta.",
+		"text": "Ottiene +2 Salute quando giochi\nuna carta.",
 		"hideStats": true
 	},
 	{
@@ -1388233,7 +1388125,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "Ottiene +3 Salute quando giochi una carta."
+		"text": "Ottiene +2 Salute quando giochi\nuna carta."
 	},
 	{
 		"dbfId": 133434,
@@ -1390112,6 +1390004,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Alla fine del tuo turno, ottieni\nun Satellite {0}/{1} con <b>Magnetismo</b>. <i>(Migliorato da ogni Magia della Locanda che hai lanciato in questo turno!)</i>",
@@ -1390122,8 +1390015,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 12,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -1390653,7 +1390546,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Rinvieni</b> una copia base di\nun tuo servitore con un\n<b>Dono Oscuro</b>. All'inizio di ogni\n2 turni, ripete l'effetto.\n<i>(Ancora {0} turni!)</i>",
@@ -1391490,7 +1391383,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni uno Scagliatore di\nPalle di Fuoco o uno Scagliatore di Palle di Neve. All'inizio di ogni turno, ripete l'effetto.",
@@ -1392578,7 +1392471,7 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 5,
+		"attack": 6,
 		"health": 3,
 		"text": "<b>Rantolo di Morte:</b> +{0}/+{1} ai servitori nella Locanda in questa partita. <b>Attivazione ({4}):</b> migliora questa carta.",
 		"mechanics": [
@@ -1392587,7 +1392480,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -1392652,7 +1392545,7 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 10,
+		"attack": 12,
 		"health": 6,
 		"text": "<b>Rantolo di Morte:</b> +{0}/+{1} ai servitori nella Locanda in questa partita. <b>Attivazione ({4}):</b> migliora questa carta.",
 		"mechanics": [
@@ -1392661,7 +1392554,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 2,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -1393369,8 +1393262,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 13,
-			"TAG_SCRIPT_DATA_NUM_2": 13
+			"TAG_SCRIPT_DATA_NUM_1": 11,
+			"TAG_SCRIPT_DATA_NUM_2": 11
 		}
 	},
 	{
@@ -1393391,8 +1393284,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 50,
-			"TAG_SCRIPT_DATA_NUM_3": 50
+			"TAG_SCRIPT_DATA_NUM_1": 40,
+			"TAG_SCRIPT_DATA_NUM_3": 40
 		}
 	},
 	{
@@ -1393453,7 +1393346,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni un Volumizzante con <b>Magnetismo</b> casuale. All'inizio di ogni turno,\nne ottieni 1 in più.",
@@ -1393475,7 +1393368,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni una Corrosione Melmosa. Dopo che hai scartato una Magia, ottieni una Corrosione Melmosa.",
@@ -1393503,7 +1393396,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 3,
-		"spellSchool": "LESSER_TRINKET",
+		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Alla fine del tuo turno, +{0}/+{1} ai tuoi servitori. <i>(Raddoppia all'inizio di ogni turno!)</i>",
 		"mechanics": [
@@ -1393512,8 +1393405,8 @@
 			"END_OF_TURN"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -1393566,7 +1393459,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni 2 Volumizzanti con <b>Magnetismo</b> casuali. All'inizio di ogni turno,\nripete l'effetto.",
@@ -1394234,7 +1394127,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ottieni 2 Squali Sfrontati. Quando muore un'Esca, +{0}/+{1} alle tue Bestie e migliora questa carta.",
@@ -1395302,15 +1395195,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 2,
-		"health": 6,
-		"text": "Ottiene +{0} Attacco quando giochi una carta.",
+		"attack": 6,
+		"health": 2,
+		"text": "Ottiene +{1} Salute quando giochi una carta.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsPremiumDbfId": 134705,
 		"audio2": {
@@ -1395357,15 +1395250,15 @@
 			"ALL"
 		],
 		"techLevel": 2,
-		"attack": 4,
-		"health": 12,
-		"text": "Ottiene +{0} Attacco quando giochi una carta.",
+		"attack": 12,
+		"health": 4,
+		"text": "Ottiene +{1} Salute quando giochi una carta.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 134704,
 		"premium": true,
@@ -1395622,15 +1395515,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 3,
-		"health": 3,
+		"attack": 4,
+		"health": 4,
 		"text": "Ha +{0}/+{1} per ogni <b>Grido di Battaglia</b> che hai attivato in questa partita <i>(dovunque sia)</i>.",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsPremiumDbfId": 134711,
 		"referencedTags": [
@@ -1395680,15 +1395573,15 @@
 			"ALL"
 		],
 		"techLevel": 3,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "Ha +{0}/+{1} per ogni <b>Grido di Battaglia</b> che hai attivato in questa partita<i>(dovunque sia)</i>.",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 134710,
 		"premium": true,
@@ -1395862,7 +1395755,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "Ha +3/+3 per ogni carta che hai scartato in questa partita. <i>({1})</i>",
+		"text": "Ha +3/+2 per ogni carta che hai scartato in questa partita. <i>({1})</i>",
 		"otherTags": [
 			"CARES_ABOUT_DISCARDS_THIS_GAME"
 		]
@@ -1395946,7 +1395839,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "Ha +3/+3 per ogni carta che hai scartato in questa partita. <i>({1})</i>",
+		"text": "Ha +3/+2 per ogni carta che hai scartato in questa partita. <i>({1})</i>",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}

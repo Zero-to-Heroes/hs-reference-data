@@ -28974,15 +28974,12 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "ミニオン1体を\n破壊した後\nそのミニオンを\n体力が最大の状態で\n復活させる。",
+		"text": "[x]<b>レジェンド</b>ではないミニオン\n1体を破壊した後\nそのミニオンを\n体力が最大の状態で\n復活させる。",
 		"flavor": "それはまるで誕生みたいなもの。違いといえば、最初から大人で、一瞬前には死んでたことくらい。",
 		"artist": "Dan Scott",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		],
 		"audio2": {
 			"BASIC_play": {
@@ -123829,7 +123826,7 @@
 		"faction": "ALLIANCE",
 		"attack": 3,
 		"health": 3,
-		"text": "[x]<b>断末魔:</b>\n自分の手札からミニオン\n1体の1/1のコピーを\n1体召喚する。",
+		"text": "[x]<b>断末魔:</b>\n自分の手札からミニオン\n1体を召喚する。\nその攻撃力・体力を\n1/1にする。",
 		"flavor": "彼は幻術で、なんでもかんでもロウソクの姿に変えられる。",
 		"mechanics": [
 			"DEATHRATTLE"
@@ -356448,7 +356445,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "[x]<b>連続クエスト:</b>\n1ターン中に\nカードを4枚引く。\n<b>報酬:</b> 引いた4枚のカード\nのコストが（1）減る。",
+		"text": "[x]<b>連続クエスト:</b>\n1ターン中に\nカードを5枚引く。\n<b>報酬:</b> 引いたカード全ての\nコストが（1）減る。",
 		"flavor": "ついに…これが「ハースストーン」最後のカードだ。",
 		"mechanics": [
 			"QUESTLINE",
@@ -356478,7 +356475,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "[x]<b>連続クエスト:</b>\n1ターン中に\nカードを5枚引く。\n<b>報酬:</b> 引いた5枚のカード\nのコストが（1）減る。",
+		"text": "[x]<b>連続クエスト:</b>\n1ターン中に\nカードを6枚引く。\n<b>報酬:</b> 引いたカード全ての\nコストが（1）減る。",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -360926,27 +360923,13 @@
 		"cost": 6,
 		"attack": 5,
 		"health": 5,
-		"text": "[x]<b>聖なる盾</b>。\n味方のミニオンが\n<b>聖なる盾</b>を失った後、\n自分の手札のミニオン\n 1体に+5/+5を付与する。",
+		"text": "[x]<b>聖なる盾</b>\n味方のミニオンが\n<b>聖なる盾</b>を失った後\n自分の手札のミニオン\n 1体に+5/+5を付与する。",
 		"flavor": "「我が信仰と勇気により、我は守られるであろう。\nそして我が名誉と献身により、我を継ぐ者が立ち上がるであろう」",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
-		"assembleHalves": {
-			"first": {
-				"text": "[x]<b>聖なる盾</b>。\n味方のミニオンが\n<b>聖なる盾</b>を失った後、",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "自分の手札のミニオン\n 1体に+5/+5を付与する。",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -377238,7 +377221,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "[x]<b>連続クエスト:</b>\n1ターン中に\nカードを5枚引く。\n<b>報酬:</b> デーモン\nスレイヤー・カートラス",
+		"text": "[x]<b>連続クエスト:</b>\n1ターン中に\nカードを6枚引く。\n<b>報酬:</b> 「デーモン\nスレイヤー・カートラス」",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -577524,7 +577507,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "[x]<b>雄叫び:</b>\n相手からコピーした\nカード全ての\n コストを（3）減らす。",
+		"text": "[x]<b>雄叫び:</b>\n相手からコピーした\nカード全ての\n コストを（2）減らす。",
 		"flavor": "デイブ、この手紙は偽物だろ――お前の筆跡だ。それからそのバカみたいなフードを脱げ、見てらんないよ。",
 		"mechanics": [
 			"BATTLECRY"
@@ -605026,7 +605009,7 @@
 			"PRIEST"
 		],
 		"set": "Revendreth",
-		"text": "コスト（3）減少。"
+		"text": "コスト（2）減少。"
 	},
 	{
 		"dbfId": 78405,
@@ -632027,25 +632010,12 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 4,
-		"text": "[x]味方のアンデッドが\n死亡した後、\n カードを1枚引く。",
+		"text": "[x]味方のアンデッドが\n死亡した後\nカードを1枚引く。",
 		"flavor": "「死んだ人が見えるんだ。\nすごくたくさんの死んだ人が。」",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
-		"assembleHalves": {
-			"first": {
-				"text": "[x]味方のアンデッドが\n死亡した後、",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "カードを1枚引く。",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -893690,7 +893660,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -893743,7 +893713,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -954594,15 +954564,12 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "ミニオン1体を\n破壊した後\nそれを体力最大の\n状態で復活させる。",
+		"text": "[x]<b>レジェンド</b>ではないミニオン\n1体を破壊した後\nそのミニオンを\n体力が最大の状態で\n復活させる。",
 		"flavor": "それはまるで誕生みたいなもの。違いといえば、最初から大人で、一瞬前には死んでたことくらい。",
 		"artist": "Dan Scott",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		],
 		"audio2": {
 			"BASIC_play": {
@@ -963340,16 +963307,16 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 8,
+		"attack": 12,
+		"health": 12,
 		"text": "[x]<b>雄叫び＆断末魔:</b>\n酒場のミニオン全ては\nこの対戦中\n+{0}/+{1}を得る。",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 12,
+			"TAG_SCRIPT_DATA_NUM_2": 12
 		},
 		"artist": "Joseph Weston",
 		"battlegroundsPremiumDbfId": 103699,
@@ -963394,16 +963361,16 @@
 			"DEMON"
 		],
 		"techLevel": 7,
-		"attack": 16,
-		"health": 16,
+		"attack": 24,
+		"health": 24,
 		"text": "[x]<b>雄叫び＆断末魔:</b>\n酒場のミニオン全ては\nこの対戦中\n+{0}/+{1}を得る。",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 24,
+			"TAG_SCRIPT_DATA_NUM_2": 24
 		},
 		"artist": "Joseph Weston",
 		"battlegroundsNormalDbfId": 103698,
@@ -963450,8 +963417,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 7,
+		"attack": 11,
+		"health": 11,
 		"text": "[x]<b>勝鬨:</b>\nこのミニオンの\n攻撃力に等しいダメージを\n標的および隣接する\n ミニオン1体に与える。",
 		"mechanics": [
 			"BACON_RALLY",
@@ -963500,8 +963467,8 @@
 			"DRAGON"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 14,
+		"attack": 22,
+		"health": 22,
 		"text": "[x]<b>勝鬨:</b>\nこのミニオンの\n攻撃力に等しいダメージを\n標的および両隣の\nミニオンに与える。",
 		"mechanics": [
 			"BACON_RALLY",
@@ -963871,12 +963838,18 @@
 		"races": [
 			"MURLOC"
 		],
+		"techLevel": 2,
+		"isBaconPool": true,
 		"attack": 5,
 		"health": 3,
-		"text": "[x]これがミニオンを倒す度\n自分の手札の\nミニオン1体に\n+2/+2を付与する。",
+		"text": "[x]これがミニオンを倒す度\n自分の手札の\nミニオン1体に\n +{0}/+{1}を付与する。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
+		},
 		"artist": "Tiffany Chiu",
 		"battlegroundsPremiumDbfId": 103713,
 		"audio2": {
@@ -963923,10 +963896,14 @@
 		"techLevel": 2,
 		"attack": 10,
 		"health": 6,
-		"text": "[x]これがミニオンを倒す度\n自分の手札の\nミニオン1体に\n+4/+4を付与する。",
+		"text": "[x]これがミニオンを倒す度\n自分の手札の\nミニオン1体に\n +{0}/+{1}を付与する。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
+		},
 		"artist": "Tiffany Chiu",
 		"battlegroundsNormalDbfId": 103712,
 		"premium": true,
@@ -971392,7 +971369,7 @@
 		"text": "[x]ミニオンを1体選択。\nそれと同じ種族を持つ\nミニオン全てに+{0}/+{1}\nを付与する。",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"otherTags": [
 			"TARGETS_MINION"
@@ -973960,7 +973937,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "TAVERN",
 		"techLevel": 6,
 		"isBaconPool": true,
@@ -984046,15 +984023,15 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "TAVERN",
 		"techLevel": 4,
 		"isBaconPool": true,
 		"text": "[x]味方のミニオンの\n各種族1体ずつに\nそれぞれ+{0}/+{1}を\n付与する。",
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Inès (Ourka) Rotzinger",
 		"otherTags": [
@@ -1012570,7 +1012547,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 6,
 		"health": 6,
 		"text": "[x]自分が酒場の呪文を\n手札から使用する度\n酒場のエレメンタル全てに\nこの対戦中、+{0}/+{1}を\n付与する。",
 		"mechanics": [
@@ -1012578,7 +1012555,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsPremiumDbfId": 107940,
@@ -1012623,7 +1012600,7 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 12,
 		"health": 12,
 		"text": "[x]自分が酒場の呪文を\n手札から使用する度\n酒場のエレメンタル全てに\nこの対戦中、+{0}/+{1}を\n2回付与する。",
 		"mechanics": [
@@ -1012631,7 +1012608,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 107939,
@@ -1045442,9 +1045419,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]自分がミニオンを\n手札から使用した後\n自分の手札の一番左のミニオン\nに+3/+3を付与する。",
+		"text": "[x]自分がミニオンを\n手札から使用した後\n自分の手札の一番左の\nミニオンに+5/+5を\n付与する。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1045474,7 +1045452,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]自分がゴールドを\n消費する度\n味方の海賊2体に\n+{0}/+{1}を付与する。",
@@ -1051501,25 +1051478,12 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 4,
-		"text": "[x]味方のアンデッドが\n死亡した後、\n カードを1枚引く。",
+		"text": "[x]味方のアンデッドが\n死亡した後\n カードを1枚引く。",
 		"flavor": "「死んだ人が見えるんだ。\nすごくたくさんの死んだ人が。」",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
-		"assembleHalves": {
-			"first": {
-				"text": "[x]味方のアンデッドが\n死亡した後、",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "カードを1枚引く。",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -1054343,8 +1054307,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 7,
-			"TAG_SCRIPT_DATA_NUM_2": 7
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"artist": "Vlad Botos"
 	},
@@ -1054557,7 +1054521,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]<b>戦闘開始時:</b>\n味方の最も攻撃力が低い\nミニオン2体の攻撃力\n・体力を2倍にする。",
@@ -1056052,7 +1056016,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]<b>戦闘開始時:</b>\n味方のエレメンタル3体に\n「<b>断末魔:</b> 『成長する氷霜』\nを1体召喚する」\nを付与する。",
@@ -1056156,6 +1056119,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1056481,7 +1056445,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]<b>呪文錬成:</b> ミニオン1体を\n選択する。その後グレードが\n1高いミニオン1体を選択し\n対象をそのミニオンに\n変身させる。",
@@ -1062638,7 +1062602,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]ランダムな\n<b>雄叫び</b>ミニオンを\n1体得る。\n各ターンの開始時\nもう1体得る。",
@@ -1063878,16 +1063841,14 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 3,
 		"faction": "NEUTRAL",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]各戦闘で味方のミニオン\n2体が攻撃した後、味方の\nキルボア全てに<b>血の宝石</b>\nを1個ずつ使用する。\n<i>（あと{0}体！）</i>",
+		"text": "[x]各戦闘で味方のキルボア\n1体が攻撃した後、味方の\nキルボア全てに<b>血の宝石</b>\nを1個ずつ使用する。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
-		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
-		},
 		"referencedTags": [
 			"BACON_BLOOD_GEM_TOOLTIP"
 		]
@@ -1091644,7 +1091605,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]味方のキルボアが\n死ぬ度、それに使われた\n<b>血の宝石</b>の数に等しい\n攻撃力・体力のゴーレムを\n1体召喚する。",
@@ -1091752,7 +1091713,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]2ゴールドを獲得する。\n酒場にグレード1\nまたはグレード2の\nカードが並ばなくなる。",
+		"text": "[x]3ゴールドを獲得する。\n酒場にグレード1\nまたはグレード2の\nカードが並ばなくなる。",
 		"mechanics": [
 			"AURA"
 		],
@@ -1091814,7 +1091775,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]「ヨグ＝サロン\nの車輪」を回す。\n各ターンの開始時\nもう1回回す。",
@@ -1093332,7 +1093293,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 7,
@@ -1093385,7 +1093346,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 14,
 		"text": "[x]自分の手札から\n使用する<b>血の宝石</b>は\n 2回追加で使用される。",
@@ -1121988,10 +1121949,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]自分がミニオンを\n手札から使用した後\n自分の手札の一番左の\nミニオンに+6/+6\nを付与する。",
+		"text": "[x]自分がミニオンを\n手札から使用した後\n自分の手札の一番左の\nミニオンに+10/+10を\n付与する。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		]
@@ -1122052,8 +1122013,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		}
 	},
 	{
@@ -1124170,15 +1124131,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "[x]<b>戦闘開始時:</b> 自身を除く味方の\nエレメンタル全てに+{0}/+{1}\nを付与する。<i>（エレメンタルを\n手札から使用した後に\n強化！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3,
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"artist": "Joseph Weston",
@@ -1124224,15 +1124185,15 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 12,
+		"attack": 16,
+		"health": 16,
 		"text": "[x]<b>戦闘開始時:</b> 自身を除く味方の\nエレメンタル全てに+{0}/+{1}\nを付与する。<i>（エレメンタルを\n手札から使用した後に\n強化！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"battlegroundsNormalDbfId": 115581,
@@ -1153027,27 +1152988,13 @@
 		],
 		"attack": 4,
 		"health": 5,
-		"text": "[x]自分がエレメンタルを\n召喚した後、\nランダムな敵1体に\n 3ダメージを与える。",
+		"text": "[x]自分がエレメンタルを\n召喚した後\nランダムな敵1体に\n 3ダメージを与える。",
 		"flavor": "この物語は感動の嵐を巻き起こすこと間違いなしだ。",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Drew Hill",
-		"assembleHalves": {
-			"first": {
-				"text": "[x]自分がエレメンタルを\n召喚した後、",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "ランダムな敵1体に\n 3ダメージを与える。",
-				"mechanics": [
-					"DEAL_DAMAGE"
-				]
-			}
-		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1153398,7 +1153345,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "[x]<b>クエスト:</b>\n神聖呪文を合計4回使う。\n<b>報酬:</b> 生命の息吹\n<b>クエスト:</b>\n影呪文を合計4回使う。\n<b>報酬:</b>\n「死の一触ソレトス」",
+		"text": "[x]<b>クエスト:</b>\n神聖呪文を合計6回使う。\n<b>報酬:</b> 生命の息吹\n<b>クエスト:</b>\n影呪文を合計6回使う。\n<b>報酬:</b> 死の一触",
 		"flavor": "6日目。今日は思いがけず、神聖魔法と影魔法がぶつかり合ってひどく荒廃してしまった湿原を発見した。その中心には巨大なエレメンタルが2体。まるで一枚のコインの裏表のような存在だった。いつの日かここへ戻ってきたときには、この荒れた地に平和が戻っていることを願う。",
 		"mechanics": [
 			"QUEST"
@@ -1153425,7 +1153372,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "[x]<b>クエスト:</b>\n神聖呪文を合計4回使う。\n<b>報酬:</b>\n「生命の息吹ソレトス」",
+		"text": "[x]<b>クエスト:</b>\n神聖呪文を合計6回使う。\n<b>報酬:</b> 生命の息吹",
 		"mechanics": [
 			"QUEST"
 		],
@@ -1157698,7 +1157645,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]自分が買うカードの\nコストは4回目ごとに\nゴールドではなく\n体力になる。\n<i>（あと{0}回！）</i>",
@@ -1158316,7 +1158263,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]ランダムな味方のミニオン\n1体の未強化通常コピーを\n1体得る。各ターンの\n 開始時、これを繰り返す。",
@@ -1159259,7 +1159206,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]「意外精」を1体得る。\n<i>（まさかの時に\nさらに現れる…）</i>",
@@ -1163093,7 +1163040,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "[x]<b>雄叫び:</b>\n相手からコピーした\nカード全ての\n コストを（3）減らす。",
+		"text": "[x]<b>雄叫び:</b>\n相手からコピーした\nカード全ての\n コストを（2）減らす。",
 		"flavor": "デイブ、この手紙は偽物だろ――お前の筆跡だ。それからそのバカみたいなフードを脱げ、見てらんないよ。",
 		"mechanics": [
 			"BATTLECRY"
@@ -1168850,7 +1168797,7 @@
 		],
 		"attack": 2,
 		"health": 1,
-		"text": "[x]<b>雄叫び:</b>\n合計2ダメージを\n全ての敵に\nランダムに振り分ける。",
+		"text": "[x]<b>断末魔:</b>\n合計2ダメージを\n全ての敵に\nランダムに振り分ける。",
 		"flavor": "「どーよ、シズル感あるだろ！」",
 		"mechanics": [
 			"CRAFTABLE_OUTPUT_POWER",
@@ -1168860,7 +1168807,7 @@
 		"artist": "Vika Yarova",
 		"assembleHalves": {
 			"first": {
-				"text": "[x]<b>雄叫び:</b>",
+				"text": "[x]<b>断末魔:</b>",
 				"mechanics": [
 					"DEATHRATTLE"
 				]
@@ -1171086,12 +1171033,9 @@
 		"set": "Day_of_rebirth",
 		"rarity": "Common",
 		"cost": 8,
-		"text": "[x]味方のミニオン1体の\n攻撃力・体力を1/1にする。\n自分の陣地にそのコピーを\n可能な限り召喚する。",
+		"text": "[x]<b>レジェンド</b>ではない\n味方のミニオン1体の\n攻撃力・体力を1/1にする。\n自分の陣地にそのコピーを\n 可能な限り召喚する。",
 		"flavor": "秘密の仮面は正義のしるし。",
-		"artist": "Slawomir Maniak",
-		"otherTags": [
-			"TARGETS_FRIENDLY_MINION"
-		]
+		"artist": "Slawomir Maniak"
 	},
 	{
 		"dbfId": 118407,
@@ -1171467,15 +1171411,12 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "[x]<b>断末魔:</b>\n少しひび割れた卵を1個\n召喚する。<i>（5回破壊すると\n孵化して<b>挑発</b>を持つ\n 20/20の獣になる！）</i>",
+		"text": "[x]<b>断末魔:</b>\n少しひび割れた卵を1個\n召喚する。<i>（5回破壊すると\n孵化して20/20の\n獣になる！）</i>",
 		"flavor": "何千年もの間、ケーロスは孵化するのを待ってきた。その時は近いと願いたいものだ。",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122542,
 			122543,
@@ -1171755,10 +1171696,6 @@
 		],
 		"attack": 20,
 		"health": 20,
-		"text": "<b>挑発</b>",
-		"mechanics": [
-			"TAUNT"
-		],
 		"artist": "Vlad Botos",
 		"audio2": {
 			"BASIC_attack": {
@@ -1191070,7 +1191007,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "[x]<b>クエスト:</b>\n影呪文を合計4回使う。\n<b>報酬:</b>\n「死の一触ソレトス」",
+		"text": "[x]<b>クエスト:</b>\n影呪文を合計6回使う。\n<b>報酬:</b> 死の一触",
 		"mechanics": [
 			"QUEST"
 		],
@@ -1198025,7 +1197962,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1198147,7 +1198083,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1198355,10 +1198291,10 @@
 			"BACON_BUFFS_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 1,
-			"TAG_SCRIPT_DATA_NUM_5": 6
+			"TAG_SCRIPT_DATA_NUM_5": 5
 		}
 	},
 	{
@@ -1206298,7 +1206234,7 @@
 		"collectible": true,
 		"set": "Across_the_timeways",
 		"rarity": "Epic",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "SHADOW",
 		"text": "[x]自分の手札の\nランダムな\nミニオン1体を\n半分ずつに分ける。",
 		"flavor": "やっぱり運命だったんだ。",
@@ -1211659,7 +1211595,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]「ウレメンタル」\nを1体得る。\n各ターンの開始時\nもう1体得る。",
@@ -1212154,7 +1212090,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]即席のアンデッドを\n1体作成する。\n2ターンごとの開始時\nこれを繰り返す。\n<i>（あと{0}ターン！）</i>",
@@ -1212247,28 +1212182,13 @@
 		],
 		"attack": 5,
 		"health": 3,
-		"text": "[x]<b>挑発</b>、<b>雄叫び:</b>\nこのミニオンの\n体力を\n2倍にする。",
+		"text": "[x]<b>挑発</b>、<b>雄叫び:</b>\nこのミニオンの体力を\n2倍にする。",
 		"flavor": "ブロンザーをずっと使ってるとこうなる。",
 		"mechanics": [
 			"BATTLECRY",
-			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Zoltan Boros",
-		"assembleHalves": {
-			"first": {
-				"text": "[x]<b>挑発</b>、<b>雄叫び:</b>",
-				"mechanics": [
-					"BATTLECRY",
-					"TAUNT"
-				]
-			},
-			"second": {
-				"text": "このミニオンの\n体力を\n2倍にする。",
-				"mechanics": [
-				]
-			}
-		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1212651,7 +1212571,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]「ドクター・ブームの怪発明」\nを1体得る。\n各ターンの開始時\nもう1体得る。",
@@ -1213938,9 +1213858,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]いずれかの種族の\nグレード5ミニオンを\n1体<b>発見</b>する。各ターンの\n開始時、それのコピーを\n追加でもう1体得る。",
+		"text": "[x]いずれかの種族の\nグレード6のミニオンを\n1体<b>発見</b>する。各ターンの\n開始時、それのコピーを\n追加でもう1体得る。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1214057,7 +1213978,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x] 味方の獣が攻撃する度 \nその獣に攻撃力+{0}を\n付与し、これを\n永続的に強化する。",
@@ -1214065,7 +1213986,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4
 		},
 		"artist": "Ira Fidler"
 	},
@@ -1216569,7 +1216490,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]毎ターン酒場の呪文の1つは\nゴールドの代わりに\n 体力を消費する。\n<i>（あと{0}枚！）</i>",
@@ -1217661,12 +1217582,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]各ターン最初に\nミニオンを買うと\nその攻撃力・体力と\n<b>超電磁</b>を持つ「衛星」が\n1基付いてくる。",
+		"text": "[x]ミニオンを買った後\nその攻撃力・体力と\n<b>超電磁</b>を持つ「衛星」を\n1基得る。\n<i>（1ターン2回まで）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 2
+		},
 		"artist": "Kevin Sidharta",
 		"referencedTags": [
 			"MODULAR"
@@ -1217768,7 +1217693,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]「充電中のツァリナ」を\n1体得る。自分の\n「充電中のツァリナ」は\n体力も付与する。",
@@ -1219000,10 +1218924,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]<b>仇討（7）:</b>\n{0}/{1}の「甲虫」\n2体を召喚する。\nそれらに<b>挑発</b>を\n付与する。",
+		"text": "[x]<b>仇討（8）:</b>\n{0}/{1}の「甲虫」\n2体を召喚する。\nそれらに<b>挑発</b>を\n付与する。",
 		"mechanics": [
 			"AVENGE"
 		],
@@ -1222005,7 +1221929,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]「アギトの術師」を1体得る。\n自分が戦闘外でミニオンを\n破壊する度、{0}ゴールド\nを得る。",
@@ -1222013,7 +1221937,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Alex Horley Orlandelli"
 	},
@@ -1234357,14 +1234281,14 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 4,
+		"health": 8,
 		"text": "[x]自分のヒーローがダメージを\n受けた後、それを巻き戻し\nこのターンの間\n酒場のミニオン全てに\n +{0}/+{1}を付与する。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"artist": "Joseph Weston",
@@ -1234410,14 +1234334,14 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 12,
-		"health": 12,
+		"attack": 8,
+		"health": 16,
 		"text": "[x]自分のヒーローがダメージを\n受けた後、それを巻き戻し\nこのターンの間\n酒場のミニオン全てに\n +{0}/+{1}を付与する。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 121687,
@@ -1243742,14 +1243666,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "[x]<b>断末魔:</b>\nさらにひび割れた卵を1個\n召喚する。<i>（4回破壊すると\n孵化して<b>挑発</b>を持つ\n 20/20の獣になる！）</i>",
+		"text": "[x]<b>断末魔:</b>\nさらにひび割れた卵を1個\n召喚する。<i>（あと4回破壊\nすると孵化して20/20の\n獣になる！）</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122543,
 			122545,
@@ -1243800,14 +1243721,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "[x]<b>断末魔:</b>\nだいぶひび割れた卵を1個\n召喚する。<i>（3回破壊すると\n孵化して<b>挑発</b>を持つ\n 20/20の獣になる！）</i>",
+		"text": "[x]<b>断末魔:</b>\nだいぶひび割れた卵を1個\n召喚する。<i>（あと3回破壊\nすると孵化して20/20の\n獣になる！）</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122545,
 			122546,
@@ -1243870,14 +1243788,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "[x]<b>断末魔:</b>\n大きくひび割れた卵を1個\n召喚する。<i>（2回破壊すると\n孵化して<b>挑発</b>を持つ\n 20/20の獣になる！）</i>",
+		"text": "[x]<b>断末魔:</b>\n大きくひび割れた卵を1個\n召喚する。<i>（あと2回破壊\nすると孵化して20/20の\n獣になる！）</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122546,
 			118495
@@ -1243926,14 +1243841,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "[x]<b>断末魔:</b>\n<b>挑発</b>を持つ20/20の\n「ケーロス」を1体\n召喚する。\n <i>（破壊すると孵化する！）</i>",
+		"text": "[x]<b>断末魔:</b>\n20/20の「ケーロス」を\n1体召喚する。\n <i>（破壊すると孵化する！）</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			118495
 		],
@@ -1244285,15 +1244197,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 3,
-		"health": 8,
+		"attack": 4,
+		"health": 9,
 		"text": "[x]<b>勝鬨</b>:\nこの対戦中\n自分の<b>血の宝石</b>は追加で\n+{0}/+{1}を付与する。",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 1
 		},
 		"artist": "Kleston Marques",
 		"battlegroundsPremiumDbfId": 122567,
@@ -1244341,15 +1244253,15 @@
 			"QUILBOAR"
 		],
 		"techLevel": 5,
-		"attack": 6,
-		"health": 16,
+		"attack": 8,
+		"health": 18,
 		"text": "[x]<b>勝鬨</b>:\nこの対戦中\n自分の<b>血の宝石</b>は追加で\n+{0}/+{1}を付与する。",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsNormalDbfId": 122566,
 		"premium": true,
@@ -1254146,7 +1254058,7 @@
 		"collectible": true,
 		"set": "Cataclysm",
 		"rarity": "Epic",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "FIRE",
 		"text": "[x]全てのミニオンに\n$1ダメージを与える。\n<i>（戦場にいるミニオン\n1体につき強化）</i>",
 		"flavor": "まあ全滅よりはマシだ。",
@@ -1259809,15 +1259721,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 10,
 		"health": 3,
 		"text": "[x]<b>断末魔:</b>\n味方のミニオン全てに\n+{0}/+{1}を付与する。\nゴールデンミニオンは\n それを永続的に維持する。",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsPremiumDbfId": 123596,
 		"audio2": {
@@ -1259855,15 +1259767,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 20,
 		"health": 6,
 		"text": "[x]<b>断末魔:</b>\n味方のミニオン全てに\n+{0}/+{1}を2回付与する。\nゴールデンミニオンは\n それを永続的に維持する。",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 123595,
 		"premium": true,
@@ -1260288,27 +1260200,13 @@
 		],
 		"attack": 3,
 		"health": 1,
-		"text": "[x]<b>聖なる盾</b>。\nこれが<b>聖なる盾</b>を失った後、\nこの対戦中、味方の\n「シルバーハンド新兵」全てに\n体力+1を付与する。",
+		"text": "[x]<b>聖なる盾</b>\nこの対戦中、これが<b>聖なる盾</b>を\n失った後、味方の\n「シルバーハンド新兵」全てに\n体力+1を付与する。",
 		"flavor": "救出おめでとうございます！抵抗しないでください。",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Milica Celikovic",
-		"assembleHalves": {
-			"first": {
-				"text": "[x]<b>聖なる盾</b>。\nこれが<b>聖なる盾</b>を失った後、",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "この対戦中、味方の\n「シルバーハンド新兵」全てに\n体力+1を付与する。",
-				"mechanics": [
-				]
-			}
-		},
 		"audio2": {
 			"BASIC_attack": {
 				"2H_EpicMace_Underlay_Attack": {
@@ -1282352,7 +1282250,7 @@
 		"rarity": "Epic",
 		"cost": 5,
 		"attack": 4,
-		"health": 4,
+		"health": 3,
 		"text": "[x]<b>仕込み</b>、<b>雄叫び:</b>\nこのターンに自分が\n呪文を使っていたら\nランダムなメイジの<b>秘策</b>\n2つを使用する。",
 		"flavor": "ダラランでは、呪文はその場で考えるしポイントも記録しない！",
 		"mechanics": [
@@ -1282564,8 +1282462,8 @@
 		"collectible": true,
 		"set": "Violet_hold",
 		"rarity": "Rare",
-		"cost": 5,
-		"attack": 5,
+		"cost": 6,
+		"attack": 6,
 		"health": 3,
 		"text": "[x]<b>仕込み</b>、<b>雄叫び:</b>\n自身を除く味方のミニオン全てを\n破壊する。破壊したミニオン\nごとにカードを1枚引いてマナを\n1個再充填する。",
 		"flavor": "ノコギリで骨も鎖も断ち切ってしまう。",
@@ -1288292,8 +1288190,6 @@
 		"races": [
 			"MURLOC"
 		],
-		"techLevel": 2,
-		"isBaconPool": true,
 		"attack": 3,
 		"health": 5,
 		"text": "[x]<b>勝鬨:</b>\n自分の手札の最も\n攻撃力が高い\nマーロック1体を\n この戦闘中のみ召喚する。",
@@ -1294973,7 +1294869,7 @@
 		"isBaconPool": true,
 		"attack": 10,
 		"health": 10,
-		"text": "[x]自分がミニオンを買った後\nそれに+{0}/+{1}を付与し\nその攻撃力・体力を\n2倍にする。\n<i>（1ターン1回）</i>",
+		"text": "[x]自分がミニオン1体を買った後\nそれに+{0}/+{1}を付与し\nその攻撃力・体力を\n2倍にする。\n<i>（1ターン1回）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1297753,15 +1297649,17 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 15,
-		"health": 15,
-		"text": "[x]<b>勝鬨:</b>\n味方のミニオンの各種族\n1体ずつにそれぞれ\n+{0}/+{1}を永続的に\n付与する。",
+		"attack": 10,
+		"health": 10,
+		"text": "[x]<b>勝鬨:</b>\n味方のミニオンの各種族\n1体ずつにそれぞれ+{0}/+{1}を\n永続的に付与して\nこれを強化する。",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"artist": "Slawomir Maniak",
 		"battlegroundsPremiumDbfId": 127110,
@@ -1297822,15 +1297720,17 @@
 			"ALL"
 		],
 		"techLevel": 7,
-		"attack": 30,
-		"health": 30,
-		"text": "[x]<b>勝鬨:</b>\n味方のミニオンの各種族\n1体ずつにそれぞれ\n+{0}/+{1}を永続的に\n2回付与する。",
+		"attack": 20,
+		"health": 20,
+		"text": "[x]<b>勝鬨:</b>\n味方のミニオンの各種族\n1体ずつに2回、それぞれ\n+{0}/+{1}を永続的に付与して\nこれを強化する。",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"battlegroundsNormalDbfId": 127109,
 		"premium": true,
@@ -1298027,9 +1297927,9 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 16,
-		"health": 32,
-		"text": "[x]自分が戦闘中にミニオン\nを召喚した後、それにこの\nミニオンの最大攻撃力・体力を\n付与する。\n<i>（一戦闘3回まで）</i>",
+		"attack": 15,
+		"health": 30,
+		"text": "[x]自分が戦闘中に別種のミニオン\nを召喚した後、それにこの\nミニオンの最大攻撃力・体力の\n2倍を付与する。\n<i>（一戦闘3回まで）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1298078,9 +1297978,9 @@
 			"BEAST"
 		],
 		"techLevel": 7,
-		"attack": 32,
-		"health": 64,
-		"text": "[x]自分が戦闘中にミニオン\nを召喚した後、それにこの\nミニオンの最大攻撃力・体力の\n2倍を付与する。\n<i>（一戦闘3回まで）</i>",
+		"attack": 30,
+		"health": 60,
+		"text": "[x]自分が戦闘中に別種のミニオン\nを召喚した後、それにこの\nミニオンの最大攻撃力・体力の\n3倍を付与する。\n<i>（一戦闘3回まで）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1307953,8 +1307853,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 13,
+		"attack": 17,
+		"health": 23,
 		"text": "[x]自分のターンの終了時\n自分の手札の一番左の\nミニオンにこのミニオンの\n攻撃力・体力を\n付与する。",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -1308002,8 +1307902,8 @@
 			"MURLOC"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 26,
+		"attack": 34,
+		"health": 46,
 		"text": "[x]自分のターンの終了時\n自分の手札の一番左の\nミニオンにこのミニオンの\n攻撃力・体力の\n2倍を付与する。",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -1308399,7 +1308299,7 @@
 		"text": "[x]味方のミニオン全てに\n+{0}/+{1}を付与する。\nゴールデンミニオン\nにはさらに+{0}/+{1}を\n付与する。",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Anton Zemskov"
 	},
@@ -1317292,7 +1317192,7 @@
 		"techLevel": 3,
 		"attack": 10,
 		"health": 10,
-		"text": "[x]自分のターンの開始時\n右の悪魔1体を食らい\nその攻撃力・体力の2倍と\n{0}ゴールドを得る。",
+		"text": "[x]自分のターンの開始時\n右の悪魔1体を食らい\nその攻撃力・体力の2倍と\n {0}ゴールドを得る。",
 		"mechanics": [
 			"BACON_TIMEWARPED",
 			"TRIGGER_VISUAL"
@@ -1331099,7 +1330999,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 9,
+		"cost": 10,
 		"attack": 9,
 		"health": 7,
 		"text": "[x]<b>雄叫び:</b>\n自分の手札のカード1枚の\nコストを(5)減らす。\nこれは減少量を(1)ずつ\n減らしながら\n左と右に連鎖する。",
@@ -1341796,7 +1341696,7 @@
 		"rarity": "Common",
 		"cost": 2,
 		"spellSchool": "SHADOW",
-		"text": "[x]2ターン後\n<b>挑発</b>を持つ3/5の\nクトラクシを2体\n召喚する。",
+		"text": "[x]2ターン後\n<b>挑発</b>を持つ2/4の\nクトラクシを2体\n召喚する。",
 		"flavor": "2ターン以内に体を乾かさないと夕飯抜きだよ！",
 		"mechanics": [
 			"OBJECTIVE"
@@ -1341843,9 +1341743,9 @@
 			"WARLOCK"
 		],
 		"set": "Black_empire",
-		"cost": 4,
-		"attack": 3,
-		"health": 5,
+		"cost": 3,
+		"attack": 2,
+		"health": 4,
 		"text": "<b>挑発</b>",
 		"mechanics": [
 			"TAUNT"
@@ -1342117,7 +1342017,7 @@
 		"rarity": "Common",
 		"cost": 4,
 		"spellSchool": "ARCANE",
-		"text": "[x]ランダムな敵の\nミニオン1体に\n$2ダメージを\n5回与える。",
+		"text": "[x]ランダムな敵の\nミニオン1体に\n$2ダメージを与える。\n これを5回繰り返す。",
 		"flavor": "雨降れば、濡れぬものあり、泣くものあり。",
 		"mechanics": [
 			"DEAL_DAMAGE"
@@ -1342214,7 +1342114,7 @@
 		"set": "Black_empire",
 		"rarity": "Common",
 		"cost": 3,
-		"attack": 2,
+		"attack": 3,
 		"durability": 2,
 		"text": "[x] 自分のヒーローが \n攻撃した後、\n「オーバードライブ」を\n1枚得る。",
 		"flavor": "つけた傷はすぐに焼いて塞ぐ。",
@@ -1342252,7 +1342152,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Rare",
-		"cost": 2,
+		"cost": 1,
 		"text": "[x]メカを1体<b>合成</b>する。\n「オーバードライブ」を\n1枚得る。",
 		"flavor": "ミミはて企のンロサ＝グヨ、しかし。たし功成にとこるす殺暗をンロミミはンロサ＝グヨ、ののもたっかかも年千何",
 		"artist": "Matt Dixon",
@@ -1342493,27 +1342393,13 @@
 		"cost": 6,
 		"attack": 5,
 		"health": 5,
-		"text": "[x]<b>聖なる盾。</b>\n味方のミニオンが\n<b>聖なる盾</b>を失った後、\n自分の手札のミニオン\n 1体に+5/+5を付与する。",
+		"text": "[x]<b>聖なる盾</b>\n味方のミニオンが\n<b>聖なる盾</b>を失った後\n自分の手札のミニオン\n 1体に+5/+5を付与する。",
 		"flavor": "「我が信仰と勇気により、我は守られるであろう。\nそして我が名誉と献身により、我を継ぐ者が立ち上がるであろう」",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
-		"assembleHalves": {
-			"first": {
-				"text": "[x]<b>聖なる盾。</b>\n味方のミニオンが\n<b>聖なる盾</b>を失った後、",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "自分の手札のミニオン\n 1体に+5/+5を付与する。",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -1342994,9 +1342880,9 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 7,
-		"attack": 7,
-		"health": 7,
+		"cost": 6,
+		"attack": 6,
+		"health": 6,
 		"text": "[x]<b>雄叫び:</b>\n装甲を20獲得する。\n2ターン後、自分の装甲を\nそれと同じ攻撃力・体力と<b>挑発</b>を\n持つゴーレムに変換する。",
 		"flavor": "装甲の失い方にも、楽な方と痛い方がある。",
 		"mechanics": [
@@ -1345275,7 +1345161,7 @@
 		],
 		"attack": 4,
 		"health": 5,
-		"text": "[x]このターンに使用した\n<b>コンボ</b>カード1枚につき\nコストが（2）減る。\n<b>雄叫び:</b>\nカードを1枚引く。",
+		"text": "[x]このターンに使用した\n<b>コンボ</b>カード1枚につき\nコストが（2）減る。\n<b>雄叫び:</b>\nカードを2枚引く。",
 		"flavor": "「相手は思っている以上に怖がっている」なんて話は忘れるべし。",
 		"mechanics": [
 			"BATTLECRY"
@@ -1345333,14 +1345219,14 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Common",
-		"cost": 3,
+		"cost": 4,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 4,
-		"health": 2,
-		"text": "[x]<b>雄叫び:</b>\n別クラスのヒーローパワーを\n<b><b>複数の</b>コンボ</b>として\n発動させるコスト1の\n幼虫を2体得る。",
+		"attack": 5,
+		"health": 4,
+		"text": "[x]<b>断末魔:</b>\n別クラスのヒーローパワーを\n発動する、<b><b>複数の</b>コンボ</b>を\n持つ幼虫を2体得る。それらの\nコストは（0）。",
 		"flavor": "アキアの群れのお通りだい！",
 		"mechanics": [
 			"DEATHRATTLE",
@@ -1345380,8 +1345266,8 @@
 		"rarity": "Rare",
 		"cost": 2,
 		"spellSchool": "SHADOW",
-		"text": "[x]別クラスのヒーローパワーを\n<b><b>複数の</b>コンボ</b>として発動させるコスト1の\n幼虫を3体得る。",
-		"flavor": "霊ク骸ト・ゥ虚ーノンヰは岬黒石のシ帝幻国幽の人未蛍来ヴをな守朱るうた気め呪に闇は体、骸彼響女虚か黒らだ倒車さ目な煉けとれ手ば骸な湊らだな澪い土と青気波づシい冥た霊。命こにう凪し生てなク金ト剣ゥ雨ーはンラは骸怪凛物刹を蛍生闇ん柊だば。シそ望れ狐の骸ただっ虚た葵一巽つ鈴のな目骸的ねは黙…骸ア凛ミ虚トーゥはト金を",
+		"text": "[x]別クラスのヒーローパワーを\n 発動する、<b><b>複数の</b>コンボ</b>\nを持つコスト1の幼虫を\n3体得る。",
+		"flavor": "ク骸ト・ゥ虚ーノンヰは岬黒石のシ帝幻国幽の人未蛍来ヴをな守朱るうた気め呪に闇は体、骸彼響女虚か黒らだ倒車さ目な煉けとれ手ば骸な湊らだな澪い土と青気波づシい冥た霊。命こにう凪し生てなク金ト剣ゥ雨ーはンラは骸怪凛物刹を蛍生闇ん柊だば。シそ望れ狐の骸ただっ虚た葵一巽つ鈴のな目骸的ねは黙…骸ア凛ミ虚トーゥはト金を",
 		"mechanics": [
 			"CREATES_FROM_ANOTHER_CLASS"
 		],
@@ -1345421,7 +1345307,7 @@
 		"attack": 6,
 		"health": 5,
 		"text": "[x]<b>雄叫び:</b>\n自分の手札の全ての\n<b>コンボ</b>ミニオンが持つ\n攻撃力と体力を\n6にする。",
-		"flavor": "旧・破神幻壊の霊す囁骸るき虚こがノと再ヰだびヱっ聞ソたこシ。え幻怪る霊物ま骸はで虚目忘ノ的れヰを去ヱ達らソ成れシした・、。幻",
+		"flavor": "破・破滅幻壊さ霊すせ骸るる虚ここノとと再ヰ。びヱ怪聞ソ物こシがえ幻事る霊をま骸成で虚し忘ノたれヰ後去ヱ、らソそれシのた・存。幻在・破は幻壊旧霊す神骸るの虚こ囁ノときヰだがヱっ再ソたびシ。聞幻怪こ霊物え骸はる虚目まノ的でヰを忘ヱ達れソ成去シしら・、れ。幻た破神。",
 		"mechanics": [
 			"BATTLECRY"
 		],
@@ -1346729,10 +1346615,10 @@
 		"rarity": "Common",
 		"cost": 2,
 		"additionalCosts": {
-			"BLOODRUNE": 2
+			"BLOODRUNE": 3
 		},
 		"attack": 3,
-		"health": 3,
+		"health": 4,
 		"text": "<b>生命奪取</b>",
 		"flavor": "卑しきフォーセイクン風情が領主の真似事とは…頭が高い！",
 		"mechanics": [
@@ -1346830,7 +1346716,7 @@
 		"rarity": "Rare",
 		"cost": 1,
 		"spellSchool": "HOLY",
-		"text": "[x]このカードの数字は全て\n自分の残りマナ数に等しい。\n<b>聖なる盾</b>を持つ\n1/1の兵士を\n1体召喚する。",
+		"text": "[x]このカードの数字は全て\n自分の残りマナ数に等しい。\n<b>聖なる盾</b>を持つ\n1/1の兵士単体を\n召喚する。",
 		"flavor": "アースンの大行進だ。エイエイ！オー！",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
@@ -1347428,7 +1347314,7 @@
 		"rarity": "Common",
 		"cost": 5,
 		"spellSchool": "SHADOW",
-		"text": "[x]<b>生命奪取</b>を持つ5/5の\n「ヴォイドウィング」を\n1体召喚する。\n<i>（次に使う影呪文で\nこれを繰り返す！）</i>",
+		"text": "[x]<b>生命奪取</b>を持つ3/4の\n「ヴォイドウィング」を\n1体召喚する。\n<i>（次に使う影呪文で\nこれを繰り返す！）</i>",
 		"flavor": "虚無エッグハムなんてまっぴらごめん。",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0
@@ -1347477,13 +1347363,13 @@
 			"PRIEST"
 		],
 		"set": "Black_empire",
-		"cost": 5,
+		"cost": 3,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 5,
-		"health": 5,
+		"attack": 3,
+		"health": 4,
 		"text": "<b>生命奪取</b>",
 		"mechanics": [
 			"LIFESTEAL"
@@ -1349409,7 +1349295,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 6,
@@ -1349471,7 +1349357,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 12,
 		"text": "[x]自分がカードを破棄する度\n味方の<b>神祇</b>全てに\n+{0}/+{1}を付与し\nこれを強化する。",
@@ -1352810,7 +1352696,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_2": 14
 		}
 	},
 	{
@@ -1352824,7 +1352710,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]グレード1、2、3の\nランダムなミニオンを\n2体ずつ得る。",
@@ -1353260,8 +1353146,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -1353331,8 +1353217,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Arthur Bozonnet"
 	},
@@ -1353562,7 +1353448,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]ランダムな\n<b>クロマドレイク</b>を\n1体得る。\n各ターンの開始時\nこれを繰り返す。",
@@ -1353664,7 +1353550,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]ランダムな<b>恵み</b>を\n{0}つ得る。\n各ターンの開始時\nこれを繰り返す。",
@@ -1353730,8 +1353616,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Grace Liu"
 	},
@@ -1353780,8 +1353666,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"artist": "Tanamaes Leejierasaes"
 	},
@@ -1353968,6 +1353854,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]キルボア1体に<b>挑発</b>、\n<b>聖なる盾</b>、<b>蘇り</b>の\nいずれかを付与する\n<b>血の宝石</b>を1個獲得する。\n各ターンの開始時\nこれを繰り返す。",
@@ -1361370,7 +1361257,7 @@
 		"attack": 5,
 		"health": 5,
 		"text": "[x]<b>雄叫び:</b>\n各呪文系統で次に使う\n自分の呪文が\n 2回使用される。",
-		"flavor": "深クロ海ンをを鋭のい岩と激しい力波をの間に捕らえ、全やがて彼は身砂にでな浴ってびしまろった。。",
+		"flavor": "深クロ海ンを鋭のい岩と激しい力波をの間に捕らえ、全やがて彼は身砂にでな浴ってびしまろった。。",
 		"mechanics": [
 			"BATTLECRY",
 			"CRAFTABLE_OUTPUT_POWER"
@@ -1366877,7 +1366764,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]「クローン巻貝」を1枚得る。\n{1}ターンごとの開始時\nこれを繰り返す。\n<i>（あと{0}ターン！）</i>",
@@ -1366909,8 +1366796,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Matt Dixon",
 		"otherTags": [
@@ -1366931,7 +1366818,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]「分極ビートボクサー」を\n1体得る。",
@@ -1368290,7 +1368177,7 @@
 		],
 		"attack": 0,
 		"health": 1,
-		"text": "[x]<b><b>蘇り</b></b>、<b>断末魔:</b>\n自分の手札の\nミニオン全てに\n +1/+1を付与する。",
+		"text": "[x]<b>蘇り</b>、<b>断末魔:</b>\n自分の手札の\nミニオン全てに\n 攻撃力+1を付与する。",
 		"flavor": "腹痛ってのは、見ればわかる。",
 		"mechanics": [
 			"CRAFTABLE_OUTPUT_POWER",
@@ -1368300,14 +1368187,14 @@
 		"artist": "Matt Dixon",
 		"assembleHalves": {
 			"first": {
-				"text": "[x]<b><b>蘇り</b></b>、<b>断末魔:</b>",
+				"text": "[x]<b>蘇り</b>、<b>断末魔:</b>",
 				"mechanics": [
 					"DEATHRATTLE",
 					"REBORN"
 				]
 			},
 			"second": {
-				"text": "自分の手札の\nミニオン全てに\n +1/+1を付与する。",
+				"text": "自分の手札の\nミニオン全てに\n 攻撃力+1を付与する。",
 				"mechanics": [
 				]
 			}
@@ -1368482,7 +1368369,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]酒場を<b>入替</b>した後\n酒場のミニオン全てに\nこのターン+{0}/+{1}を\n付与する。",
@@ -1368490,8 +1368377,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"artist": "Vlad Botos",
 		"referencedTags": [
@@ -1373396,7 +1373283,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 10,
+		"cost": 9,
 		"attack": 10,
 		"health": 10,
 		"text": "[x]<b>旧神、</b><b>雄叫び:</b>\nこの対戦中ミニオンに30マナ\n消費している場合\n1ターン<b>無敵</b>を獲得する。\n<i>（あと{0}マナ！）</i>",
@@ -1374874,7 +1374761,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "[x]+4/+4。\n2ターン後\nこのミニオンの\n攻撃力・体力を\n2倍にする。"
+		"text": "[x]+6/+6。\n2ターン後\nこのミニオンの\n攻撃力・体力を\n2倍にする。"
 	},
 	{
 		"dbfId": 132203,
@@ -1374910,7 +1374797,7 @@
 		"set": "Battlegrounds",
 		"cost": 0,
 		"faction": "NEUTRAL",
-		"text": "[x]<b>戦闘開始時:</b>\nこのミニオンの体力を\n2倍にする。"
+		"text": "[x]体力+15。\n<b>戦闘開始時:</b>\nこのミニオンの\n体力を2倍にする。"
 	},
 	{
 		"dbfId": 132207,
@@ -1375331,7 +1375218,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "<b>戦闘開始時:</b> このミニオンの体力を2倍にする。",
+		"text": "体力+15。<b>戦闘開始時:</b> このミニオンの体力が2倍。",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1376459,8 +1376346,8 @@
 		"cost": 10,
 		"attack": 12,
 		"health": 12,
-		"text": "[x]<b>旧神</b>\nこの対戦でクトゥーンの\n4つの能力をすべて発動させると\nこのミニオンの能力が\n3倍になる。",
-		"flavor": "\"アミタスの番人アミトゥト\"/2 + (2*\"孵卵\")/2 + (2*\"不可知なる者\"/3)",
+		"text": "[x]<b>旧神</b>\nこの対戦でクトゥーンの\n4つの能力をすべて発動させると\nこのミニオンの能力が\n4倍になる。",
+		"flavor": "\"アミタスの番人アミトゥト\"/2 + \"孵卵\"/2 + \"不可知なる者\"/3",
 		"artist": "Kevin Sidharta",
 		"availableAsSignature": true,
 		"relatedCardDbfIds": [
@@ -1376504,7 +1376391,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+2/+3"
+		"text": "+2/+2"
 	},
 	{
 		"dbfId": 132341,
@@ -1376517,7 +1376404,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+6/+9"
+		"text": "+8/+8"
 	},
 	{
 		"dbfId": 132342,
@@ -1376532,7 +1376419,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "[x]<b>挑発</b>を持つ\n2/3の狂信者2体を\n召喚する。",
+		"text": "[x]<b>挑発</b>を持つ\n2/2の狂信者2体を\n召喚する。",
 		"artist": "Stefan Bogdasarov",
 		"hideStats": true,
 		"referencedTags": [
@@ -1376555,7 +1376442,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "[x]<b>生命奪取</b>\n敵のミニオン1体に\n 5ダメージを与える。",
+		"text": "[x]<b>生命奪取</b>\n敵のミニオン1体に\n5ダメージを与える。",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376582,7 +1376469,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "[x]自分以外のランダムな\n味方のミニオン2体に\n +2/+3を付与する。",
+		"text": "[x]自分以外のランダムな\n味方のミニオン2体に\n +2/+2を付与する。",
 		"artist": "Kevin Sidharta",
 		"hideStats": true
 	},
@@ -1376599,7 +1376486,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "[x]合計7ダメージを\n敵にランダムに\n振り分ける。",
+		"text": "[x]合計6ダメージを\n敵にランダムに\n振り分ける。",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376678,13 +1376565,13 @@
 		"cost": 3,
 		"attack": 3,
 		"health": 2,
-		"text": "[x]<b>雄叫び:</b>\nこれが手札にある間に自分が\n影呪文を2回使っていたら\nクトゥーンの能力を1つ選んで\n 発動する。<i>（あと{0}回！）</i>",
+		"text": "[x]<b>雄叫び:</b>\nこれが手札にある間に\n自分が影呪文を使っていたら\nクトゥーンの能力を1つ\n選んで発動する。",
 		"flavor": "旧神が来るぞ。旧神が来るぞ！",
 		"mechanics": [
 			"BATTLECRY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Ivo Campelo da Silva",
 		"availableAsSignature": true,
@@ -1376709,7 +1376596,7 @@
 		"rarity": "Legendary",
 		"cost": 2,
 		"attack": 2,
-		"health": 3,
+		"health": 2,
 		"text": "<b>挑発</b>",
 		"mechanics": [
 			"TAUNT"
@@ -1376905,7 +1376792,7 @@
 			"HUNTER"
 		],
 		"set": "Black_empire",
-		"text": "+1/+1"
+		"text": "攻撃力+1"
 	},
 	{
 		"dbfId": 132441,
@@ -1377086,7 +1376973,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "<b>断末魔:</b> 味方のミニオン全てに永続的に+2/+2を付与する。"
+		"text": "<b>断末魔:</b> 味方のミニオン全てに永続的に+3/+3を付与する。"
 	},
 	{
 		"dbfId": 132485,
@@ -1378610,8 +1378497,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 15,
+		"attack": 13,
+		"health": 17,
 		"text": "[x]<b>勝鬨:</b>\nこのミニオンの\n攻撃力・体力を持つ\nゴーレムを1体召喚し\nそれが先に標的を\n攻撃する。",
 		"mechanics": [
 			"BACON_RALLY"
@@ -1378666,8 +1378553,8 @@
 			"QUILBOAR"
 		],
 		"techLevel": 7,
-		"attack": 12,
-		"health": 30,
+		"attack": 26,
+		"health": 34,
 		"text": "[x]<b>勝鬨:</b>\nこのミニオンの2倍の\n攻撃力・体力を持つ\nゴーレムを1体召喚し\nそれが先に標的を\n攻撃する。",
 		"mechanics": [
 			"BACON_RALLY"
@@ -1378970,7 +1378857,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
+		"attack": 8,
 		"health": 8,
 		"text": "[x]自分がメカを手札から使用する度、それに{1}/{2}の「衛星」を<b>超電磁合体</b>させこれを強化する。",
 		"mechanics": [
@@ -1378979,7 +1378866,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 2,
-			"TAG_SCRIPT_DATA_NUM_3": 3
+			"TAG_SCRIPT_DATA_NUM_3": 2
 		},
 		"artist": "Brian Despain",
 		"battlegroundsPremiumDbfId": 132677,
@@ -1379027,7 +1378914,7 @@
 			"MECH"
 		],
 		"techLevel": 5,
-		"attack": 12,
+		"attack": 16,
 		"health": 16,
 		"text": "[x]自分がメカを手札から使用する度、それに{1}/{2}の「衛星」を<b>超電磁合体</b>させこれを強化する。",
 		"mechanics": [
@@ -1379036,7 +1378923,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 4,
-			"TAG_SCRIPT_DATA_NUM_3": 6
+			"TAG_SCRIPT_DATA_NUM_3": 4
 		},
 		"battlegroundsNormalDbfId": 132676,
 		"premium": true,
@@ -1379771,15 +1379658,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 7,
+		"health": 5,
 		"text": "[x]{2}ゴールド消費した後\n「鍵付きの箱」を1個得る。\n既に持っている場合、それは\n{3}ターン早く開く。<i>（あと\n{0}ゴールド！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
 		"artist": "Joseph Weston",
@@ -1379825,15 +1379712,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 12,
-		"health": 12,
+		"attack": 14,
+		"health": 10,
 		"text": "[x]{2}ゴールド消費した後\n「鍵付きの箱」を1個得る。\n既に持っている場合、それは\n{3}ターン早く開く。<i>（あと\n{0}ゴールド！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 2
 		},
 		"battlegroundsNormalDbfId": 132762,
@@ -1381084,7 +1380971,7 @@
 	{
 		"dbfId": 132837,
 		"id": "CAP_405t1",
-		"name": "",
+		"name": "破壊行為で勾留",
 		"type": "Spell",
 		"cardClass": "WARLOCK",
 		"playerClass": "Warlock",
@@ -1381094,6 +1380981,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
+		"text": "[x]全てのミニオンに\n他のミニオン1体を\n攻撃させる。",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
 		},
@@ -1381131,7 +1381019,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "[x]相手の手札\n2枚を奪う。",
+		"text": "[x]相手の手札から\nカードを1枚奪う。",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -1381150,7 +1381038,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "[x]自分の手札と陣地の\nミニオン全てに\n+3/+3を付与する。",
+		"text": "[x]自分の手札と陣地の\nミニオン全てに+2/+2を\n付与する。",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 7
 		},
@@ -1381167,7 +1381055,7 @@
 			"NEUTRAL"
 		],
 		"set": "Azeroths_most_wanted",
-		"text": "+3/+3"
+		"text": "+2/+2"
 	},
 	{
 		"dbfId": 132848,
@@ -1381222,7 +1381110,7 @@
 		],
 		"set": "Azeroths_most_wanted",
 		"cost": 0,
-		"text": "[x]ランダムなコスト3の\nミニオン3体を\n召喚する。",
+		"text": "[x]ランダムなコスト2の\nミニオン3体を\n召喚する。",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6
 		},
@@ -1381599,15 +1381487,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
+		"attack": 5,
+		"health": 5,
 		"text": "[x]自分がメカに\n呪文を使う度、それに\n{0}/{1}の「衛星」を\n <b>超電磁合体</b>させる。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Kevin Sidharta",
 		"battlegroundsPremiumDbfId": 132894,
@@ -1381655,15 +1381543,15 @@
 			"MECH"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 8,
+		"attack": 10,
+		"health": 10,
 		"text": "[x]自分がメカに\n呪文を使う度、それに\n{0}/{1}の「衛星」を2回\n <b>超電磁合体</b>させる。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 132893,
 		"premium": true,
@@ -1382644,9 +1382532,9 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
-		"text": "[x]自分がカードを<b>発見</b>した後\n自身を除く味方の海賊全てに\n+{0}/+{1}を付与する。<i>（この対戦で\n自分が使用したゴールデン\nミニオンの数で強化！）</i>",
+		"attack": 5,
+		"health": 5,
+		"text": "[x]自分がカードを<b>発見</b>した後\n味方の海賊全てに+{0}/+{1}を\n付与する。<i>（この対戦で\n自分が使用したゴールデン\n ミニオンの数で強化！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1382747,9 +1382635,9 @@
 			"PIRATE"
 		],
 		"techLevel": 6,
-		"attack": 8,
-		"health": 8,
-		"text": "[x]自分がカードを<b>発見</b>した後\n自身を除く味方の海賊全てに\n+{0}/+{1}を付与する。<i>（この対戦で\n自分が使用したゴールデン\nミニオンの数で強化！）</i>",
+		"attack": 10,
+		"health": 10,
+		"text": "[x]自分がカードを<b>発見</b>した後\n味方の海賊全てに+{0}/+{1}を\n付与する。<i>（この対戦で\n自分が使用したゴールデン\n ミニオンの数で強化！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1383311,12 +1383199,13 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 9,
-		"text": "[x]<b>聖なる盾</b>\n<b>勝鬨:</b>\n「力強きドラゴンブレス」\nを使用する。",
+		"attack": 9,
+		"health": 7,
+		"text": "[x]<b>聖なる盾</b>\n<b><b>疾風</b></b>\n<b>勝鬨:</b>\n「力強きドラゴンブレス」\nを使用する。",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"artist": "TOPDOG Entertainment",
 		"battlegroundsPremiumDbfId": 132954,
@@ -1383361,12 +1383250,13 @@
 			"DRAGON"
 		],
 		"techLevel": 6,
-		"attack": 16,
-		"health": 18,
-		"text": "[x]<b>聖なる盾</b>\n<b>勝鬨:</b>\n「力強きドラゴンブレス」\nを2回使用する。",
+		"attack": 18,
+		"health": 14,
+		"text": "[x]<b>聖なる盾</b>\n<b>疾風</b><b>\n勝鬨:</b>\n「力強きドラゴンブレス」\nを2回使用する。",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"battlegroundsNormalDbfId": 132953,
 		"premium": true,
@@ -1383749,14 +1383639,14 @@
 		"techLevel": 6,
 		"isBaconPool": true,
 		"attack": 3,
-		"health": 12,
+		"health": 9,
 		"text": "[x]自分が手札からエレメンタル\n{1}体を使用した後\n酒場の最も体力の高いミニオン\nの攻撃力・体力を獲得する。\n<i>（あと{0}体！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Kevin Sidharta",
 		"battlegroundsPremiumDbfId": 132984,
@@ -1383802,14 +1383692,14 @@
 		],
 		"techLevel": 6,
 		"attack": 6,
-		"health": 24,
+		"health": 18,
 		"text": "[x]自分が手札からエレメンタル\n{1}体を使用した後\n酒場の最も体力の高いミニオン\nの攻撃力・体力の2倍を\n 獲得する。<i>（あと{0}体！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 132983,
 		"premium": true,
@@ -1384060,15 +1383950,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 6,
+		"attack": 3,
+		"health": 7,
 		"text": "[x]自分がこれに\n呪文を使用する度\n自分の手札の左端の\nミニオンに+{0}/+{1}を\n付与する。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 9,
+			"TAG_SCRIPT_DATA_NUM_2": 9
 		},
 		"artist": "Marta Vives Poch",
 		"battlegroundsPremiumDbfId": 132990,
@@ -1384113,15 +1384003,15 @@
 			"MURLOC"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 12,
+		"attack": 6,
+		"health": 14,
 		"text": "[x]自分がこれに\n呪文を使用する度\n自分の手札の左端の\nミニオンに+{0}/+{1}を\n付与する。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 18,
+			"TAG_SCRIPT_DATA_NUM_2": 18
 		},
 		"battlegroundsNormalDbfId": 132989,
 		"premium": true,
@@ -1384282,15 +1384172,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 5,
-		"health": 7,
+		"attack": 6,
+		"health": 9,
 		"text": "[x]自分がマーロックに呪文を\n使用する度、自分の手札と\n陣地のマーロック全てに\n+{0}/+{1}を付与する。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Florent Mounier",
 		"battlegroundsPremiumDbfId": 133027,
@@ -1384335,15 +1384225,15 @@
 			"MURLOC"
 		],
 		"techLevel": 5,
-		"attack": 10,
-		"health": 14,
+		"attack": 12,
+		"health": 18,
 		"text": "[x]自分がマーロックに呪文を\n使用する度、自分の手札と\n陣地のマーロック全てに\n+{0}/+{1}を付与する。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 133026,
 		"premium": true,
@@ -1384389,15 +1384279,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 8,
+		"attack": 5,
+		"health": 10,
 		"text": "[x]自分のヒーローが\n{1}ダメージを受けた後、\n「穢れたカップケーキ」の\nコピーを1枚得る。\n<i>（あと{0}ダメージ！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Kleston Marques",
 		"battlegroundsPremiumDbfId": 133029,
@@ -1384442,15 +1384332,15 @@
 			"DEMON"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 16,
+		"attack": 10,
+		"health": 20,
 		"text": "[x]自分のヒーローが\n{1}ダメージを受けた後、\n「穢れたカップケーキ」の\nコピーを2枚得る。\n<i>（あと{0}ダメージ！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 133028,
 		"premium": true,
@@ -1384766,8 +1384656,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -1384878,7 +1384768,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]自分がメカを\n買った後、ランダムな\n酒場の呪文を1つ得る。",
+		"text": "[x]自分がメカを\n買った後、コストが\n（2）以上のランダムな\n酒場の呪文を1つ得る。",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"GENERATES_SPELL",
@@ -1387241,7 +1387131,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Anton Zemskov",
 		"otherTags": [
@@ -1387303,7 +1387193,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]ランダムな\n<b>選択</b>カードを\n1枚得る。\n各ターンの開始時\nもう1枚得る。",
@@ -1387329,7 +1387219,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]ランダムな\n<b>選択</b>カードを\n2枚得る。\n各ターンの開始時\nもう2枚得る。",
@@ -1387460,7 +1387350,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "[x]<b>戦闘開始時:</b>\nこのミニオンの攻撃力を\n2倍にする。",
+		"text": "[x]攻撃力+15。\n<b>戦闘開始時:</b>\nこのミニオンの\n攻撃力を2倍にする。",
 		"hideStats": true
 	},
 	{
@@ -1387475,7 +1387365,7 @@
 		],
 		"set": "Battlegrounds",
 		"faction": "NEUTRAL",
-		"text": "<b>戦闘開始時:</b> このミニオンの攻撃力が2倍。",
+		"text": "攻撃力+15。<b>戦闘開始時:</b> このミニオンの攻撃力が2倍。",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1387614,14 +1387504,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]ミニオンに呪文を\n3回使用した後\n1ゴールド獲得する。\n<i>（あと{0}回！）</i>",
+		"text": "[x]ミニオンに呪文を\n{1}回使用した後\n1ゴールドを獲得する。\n<i>（あと{0}回！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		}
 	},
 	{
@@ -1387635,7 +1387527,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]自分の<b>選択</b>カードの効果は\n選べる2つの効果を\n 組み合わせたものになる。",
@@ -1387678,7 +1387570,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]味方の<b>勝鬨</b>ミニオンが\n攻撃する度\nコスト0の<b>入替</b>が1回\nできるようになる。",
@@ -1387727,7 +1387619,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]毎ターン自分が最初に買う\n<b>雄叫び</b>ミニオン2体は無料。\n <i>（あと{0}体！）</i>",
@@ -1388206,7 +1388098,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "[x]自分がカードを\n使う度、体力+3を\n獲得する。",
+		"text": "[x]自分がカードを\n使う度、体力+2を\n獲得する。",
 		"hideStats": true
 	},
 	{
@@ -1388233,7 +1388125,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "[x]自分がカードを\n使う度、体力+3を\n獲得する。"
+		"text": "自分がカードを使う度、体力+2を獲得。"
 	},
 	{
 		"dbfId": 133434,
@@ -1390112,6 +1390004,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]自分のターンの終了時\n{0}/{1}の<b>超電磁</b>を持つ\n「衛星」を1基得る。\n<i>（このターンに使用した\n酒場の呪文の数に応じて強化！）</i>",
@@ -1390122,8 +1390015,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 12,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -1390653,7 +1390546,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]味方のミニオン1体の\n<b>悪夢の恵み</b>を得た\n未強化通常コピーを1体\n<b>発見</b>する。1ターンおきにターンの開始時\nこれを繰り返す。\n<i>（あと{0}ターン！）</i>",
@@ -1391490,7 +1391383,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]「ファイアーボーラー」\nまたは「スノーボーラー」\nを1体得る。\n各ターンの開始時\nこれを繰り返す。",
@@ -1392578,7 +1392471,7 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 5,
+		"attack": 6,
 		"health": 3,
 		"text": "[x]<b>断末魔:</b>\n酒場のミニオン全てに\nこの対戦中、+{0}/+{1}を\n付与する。\n<b>発動（{4}）:</b>\nこれを強化する。",
 		"mechanics": [
@@ -1392587,7 +1392480,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -1392652,7 +1392545,7 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 10,
+		"attack": 12,
 		"health": 6,
 		"text": "[x]<b>断末魔:</b>\n酒場のミニオン全てに\nこの対戦中、+{0}/+{1}を\n付与する。\n<b>発動（{4}）:</b>\nこれを強化する。",
 		"mechanics": [
@@ -1392661,7 +1392554,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 2,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -1393369,8 +1393262,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 13,
-			"TAG_SCRIPT_DATA_NUM_2": 13
+			"TAG_SCRIPT_DATA_NUM_1": 11,
+			"TAG_SCRIPT_DATA_NUM_2": 11
 		}
 	},
 	{
@@ -1393391,8 +1393284,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 50,
-			"TAG_SCRIPT_DATA_NUM_3": 50
+			"TAG_SCRIPT_DATA_NUM_1": 40,
+			"TAG_SCRIPT_DATA_NUM_3": 40
 		}
 	},
 	{
@@ -1393453,7 +1393346,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]ランダムな\n<b>超電磁</b>爆音器を1体得る。\n各ターンの開始時\nもう1体得る。",
@@ -1393475,7 +1393368,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]「どろどろ腐食体」を1体得る。\n呪文を破棄した後\n「どろどろ腐食体」を1体得る。",
@@ -1393503,7 +1393396,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 3,
-		"spellSchool": "LESSER_TRINKET",
+		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]自分のターンの終了時\n味方のミニオン全てに\n+{0}/+{1}を付与する。\n<i>（各ターンの開始時に\n2倍になる！）</i>",
 		"mechanics": [
@@ -1393512,8 +1393405,8 @@
 			"END_OF_TURN"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -1393566,7 +1393459,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]ランダムな\n<b>超電磁</b>爆音器を2体得る。\n各ターンの開始時\nこれを繰り返す。",
@@ -1394234,7 +1394127,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]「ひねくれサメ」を2体得る。\n「魚の餌」が死ぬ度\n味方の獣全てに\n +{0}/+{1}を付与し\nこれを強化する。",
@@ -1395302,15 +1395195,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 2,
-		"health": 6,
-		"text": "[x]自分がカードを使う度\n攻撃力+{0}を獲得する。",
+		"attack": 6,
+		"health": 2,
+		"text": "[x]自分がカードを使う度\n体力+{1}を獲得する。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsPremiumDbfId": 134705,
 		"audio2": {
@@ -1395357,15 +1395250,15 @@
 			"ALL"
 		],
 		"techLevel": 2,
-		"attack": 4,
-		"health": 12,
-		"text": "[x]自分がカードを使う度\n攻撃力+{0}を獲得する。",
+		"attack": 12,
+		"health": 4,
+		"text": "[x]自分がカードを使う度\n体力+{1}を獲得する。",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 134704,
 		"premium": true,
@@ -1395622,15 +1395515,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 3,
-		"health": 3,
+		"attack": 4,
+		"health": 4,
 		"text": "[x]この対戦で自分が\n発動した<b>雄叫び</b>\n1回につき+{0}/+{1}を得る。\n<i>（居場所は問わない）</i>",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsPremiumDbfId": 134711,
 		"referencedTags": [
@@ -1395680,15 +1395573,15 @@
 			"ALL"
 		],
 		"techLevel": 3,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "[x]この対戦で自分が\n発動した<b>雄叫び</b>\n1回につき+{0}/+{1}を得る。\n<i>（居場所は問わない）</i>",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 134710,
 		"premium": true,
@@ -1395862,7 +1395755,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "[x]この対戦で自分が\n破棄したカード\n1枚につき\n+3/+3を得る。<i>（{1}）</i>",
+		"text": "[x]この対戦で自分が\n破棄したカード\n1枚につき\n+3/+2を得る。<i>（{1}）</i>",
 		"otherTags": [
 			"CARES_ABOUT_DISCARDS_THIS_GAME"
 		]
@@ -1395946,7 +1395839,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "この対戦で自分が破棄したカード1枚につき、+3/+3を獲得。<i>（{1}）</i>",
+		"text": "この対戦で自分が破棄したカード1枚につき、+3/+2を得た。<i>（{1}）</i>",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1397939,7 +1397832,7 @@
 		"set": "Black_empire",
 		"cost": 0,
 		"text": "[x]このターンの間のみ\nマナクリスタルを\n1つ獲得する。",
-		"flavor": "「<i>ダークムーン・フェアの宝物</i>」での販売時に入手可能。",
+		"flavor": "「<i>ダークムーン・フェアの宝物</i>」での提供時に入手可能。",
 		"isCoin": true
 	},
 	{

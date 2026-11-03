@@ -2503,7 +2503,7 @@
 		"cost": 2,
 		"attack": 0,
 		"health": 7,
-		"text": "À la fin de votre tour, détruit TOUS les serviteurs.",
+		"text": "Au début de votre tour, détruit TOUS les serviteurs.",
 		"flavor": "Il a toujours presque raison. Il était <i>certain</i> que la fin du monde allait se passer pendant le cataclysme.",
 		"mechanics": [
 			"CRAFTABLE_OUTPUT_POWER",
@@ -2512,7 +2512,7 @@
 		"artist": "Alex Horley Orlandelli",
 		"assembleHalves": {
 			"first": {
-				"text": "À la fin de votre tour,",
+				"text": "Au début de votre tour,",
 				"mechanics": [
 				]
 			},
@@ -28974,15 +28974,12 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "Détruit un serviteur, puis le ramène à la vie avec tous ses PV.",
+		"text": "Détruit un serviteur non <b>légendaire</b>, puis le ramène à la vie avec tous ses PV.",
 		"flavor": "Pan, t’es même pas mort !",
 		"artist": "Dan Scott",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		],
 		"audio2": {
 			"BASIC_play": {
@@ -123829,7 +123826,7 @@
 		"faction": "ALLIANCE",
 		"attack": 3,
 		"health": 3,
-		"text": "<b>Râle d’agonie :</b> invoque une copie 1/1 d’un serviteur de votre main.",
+		"text": "<b>Râle d’agonie :</b> invoque un serviteur de votre main et porte ses caractéristiques à 1/1.",
 		"flavor": "Il peut TOUT transformer en bougie.",
 		"mechanics": [
 			"DEATHRATTLE"
@@ -356448,7 +356445,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Suite de quêtes :</b> piocher 4 cartes en un tour.\n<b>Récompense :</b> réduit le coût des cartes piochées de (1) cristaux.",
+		"text": "<b>Suite de quêtes :</b> piocher 5 cartes en un tour.\n<b>Récompense :</b> réduit le coût des cartes piochées de (1) cristaux.",
 		"flavor": "Enfin. L’ultime carte de Hearthstone !",
 		"mechanics": [
 			"QUESTLINE",
@@ -356478,7 +356475,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Suite de quêtes :</b> piocher 5 cartes en un tour.\n<b>Récompense :</b> réduit le coût des cartes piochées de (1) cristaux.",
+		"text": "<b>Suite de quêtes :</b> piocher 6 cartes en un tour.\n<b>Récompense :</b> réduit le coût des cartes piochées de (1) cristaux.",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -360929,24 +360926,10 @@
 		"text": "<b>Bouclier divin</b>\nUne fois qu’un serviteur allié a perdu <b>Bouclier divin</b>, donne +5/+5 à un serviteur de votre main.",
 		"flavor": "« Par ma foi et mon courage, je serai protégé. Et par mon honneur et mon sacrifice, un autre prendra ma place. »",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Bouclier divin</b>\nUne fois qu’un serviteur allié a perdu <b>Bouclier divin</b>,",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "donne +5/+5 à un serviteur de votre main.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -377238,7 +377221,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Suite de quêtes :</b> piocher 5 cartes en un tour.\n<b>Récompense :</b> Tueur de démons Kurtrus.",
+		"text": "<b>Suite de quêtes :</b> piocher 6 cartes en un tour.\n<b>Récompense :</b> Tueur de démons Kurtrus.",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -556766,7 +556749,7 @@
 		"cost": 2,
 		"attack": 0,
 		"health": 7,
-		"text": "À la fin de votre tour, détruit TOUS les serviteurs.",
+		"text": "Au début de votre tour, détruit TOUS les serviteurs.",
 		"flavor": "Il a toujours presque raison. Il était <i>certain</i> que la fin du monde allait se passer pendant le cataclysme.",
 		"mechanics": [
 			"CRAFTABLE_OUTPUT_POWER",
@@ -556775,7 +556758,7 @@
 		"artist": "Alex Horley Orlandelli",
 		"assembleHalves": {
 			"first": {
-				"text": "À la fin de votre tour,",
+				"text": "Au début de votre tour,",
 				"mechanics": [
 				]
 			},
@@ -577524,7 +577507,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "<b>Cri de guerre :</b> réduit le coût des cartes copiées chez votre adversaire de (3) cristaux.",
+		"text": "<b>Cri de guerre :</b> réduit le coût des cartes copiées chez votre adversaire de (2) cristaux.",
 		"flavor": "Dave, on voit très bien que cette lettre est fausse. On reconnaît ton écriture. Et ôte donc cette cape ridicule, tu nous fais honte.",
 		"mechanics": [
 			"BATTLECRY"
@@ -605026,7 +605009,7 @@
 			"PRIEST"
 		],
 		"set": "Revendreth",
-		"text": "Coûte (3) cristaux de moins."
+		"text": "Coûte (2) cristaux de moins."
 	},
 	{
 		"dbfId": 78405,
@@ -632027,25 +632010,12 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 4,
-		"text": "Une fois qu’un Mort-vivant allié meurt, vous piochez une carte.",
+		"text": "Vous piochez une carte une fois qu’un Mort-vivant allié meurt.",
 		"flavor": "Je vois des gens qui sont morts. Tout le temps.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
-		"assembleHalves": {
-			"first": {
-				"text": "Une fois qu’un Mort-vivant allié meurt,",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "vous piochez une carte.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -893690,7 +893660,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -893743,7 +893713,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -954594,15 +954564,12 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "Détruit un serviteur, puis le ramène à la vie avec tous ses PV.",
+		"text": "Détruit un serviteur non <b>légendaire</b>, puis le ramène à la vie avec tous ses PV.",
 		"flavor": "Pan, t’es même pas mort !",
 		"artist": "Dan Scott",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		],
 		"audio2": {
 			"BASIC_play": {
@@ -963340,16 +963307,16 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 8,
+		"attack": 12,
+		"health": 12,
 		"text": "<b>Cri de guerre</b> et <b>Râle d’agonie :</b> pendant cette partie, donne +{0}/+{1} aux serviteurs de la taverne.",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 12,
+			"TAG_SCRIPT_DATA_NUM_2": 12
 		},
 		"artist": "Joseph Weston",
 		"battlegroundsPremiumDbfId": 103699,
@@ -963394,16 +963361,16 @@
 			"DEMON"
 		],
 		"techLevel": 7,
-		"attack": 16,
-		"health": 16,
+		"attack": 24,
+		"health": 24,
 		"text": "<b>Cri de guerre</b> et <b>Râle d’agonie :</b> pendant cette partie, donne +{0}/+{1} aux serviteurs de la taverne.",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 24,
+			"TAG_SCRIPT_DATA_NUM_2": 24
 		},
 		"artist": "Joseph Weston",
 		"battlegroundsNormalDbfId": 103698,
@@ -963450,8 +963417,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 7,
+		"attack": 11,
+		"health": 11,
 		"text": "<b>Ralliement :</b> inflige un montant de dégâts égal à l’ATQ de ce serviteur à la cible et à un serviteur adjacent.",
 		"mechanics": [
 			"BACON_RALLY",
@@ -963500,8 +963467,8 @@
 			"DRAGON"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 14,
+		"attack": 22,
+		"health": 22,
 		"text": "<b>Ralliement :</b> inflige un montant de dégâts égal à l’ATQ de ce serviteur à la cible et à ses voisins.",
 		"mechanics": [
 			"BACON_RALLY",
@@ -963871,12 +963838,18 @@
 		"races": [
 			"MURLOC"
 		],
+		"techLevel": 2,
+		"isBaconPool": true,
 		"attack": 5,
 		"health": 3,
-		"text": "Chaque fois que ceci tue un serviteur, donne +2/+2 à un serviteur de votre main.",
+		"text": "Chaque fois que ceci tue un serviteur, donne +{0}/+{1} à un serviteur de votre main.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
+		},
 		"artist": "Tiffany Chiu",
 		"battlegroundsPremiumDbfId": 103713,
 		"audio2": {
@@ -963923,10 +963896,14 @@
 		"techLevel": 2,
 		"attack": 10,
 		"health": 6,
-		"text": "Chaque fois que ceci tue un serviteur, donne +4/+4 à un serviteur de votre main.",
+		"text": "Chaque fois que ceci tue un serviteur, donne +{0}/+{1} à un serviteur de votre main.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
+		},
 		"artist": "Tiffany Chiu",
 		"battlegroundsNormalDbfId": 103712,
 		"premium": true,
@@ -971392,7 +971369,7 @@
 		"text": "Choisissez un serviteur. Donne +{0}/+{1} à l’ensemble des serviteurs qui partagent un type avec lui.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"otherTags": [
 			"TARGETS_MINION"
@@ -973960,7 +973937,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "TAVERN",
 		"techLevel": 6,
 		"isBaconPool": true,
@@ -984046,15 +984023,15 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "TAVERN",
 		"techLevel": 4,
 		"isBaconPool": true,
 		"text": "Donne +{0}/+{1} à un serviteur allié de chaque type.",
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Inès (Ourka) Rotzinger",
 		"otherTags": [
@@ -1012570,7 +1012547,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 6,
 		"health": 6,
 		"text": "Chaque fois que vous lancez un sort de la taverne, donne +{0}/+{1} aux Élémentaires qui s’y trouvent pour cette partie.",
 		"mechanics": [
@@ -1012578,7 +1012555,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsPremiumDbfId": 107940,
@@ -1012623,7 +1012600,7 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 12,
 		"health": 12,
 		"text": "Chaque fois que vous lancez un sort de la taverne, donne deux fois +{0}/+{1} aux Élémentaires qui s’y trouvent pour cette partie.",
 		"mechanics": [
@@ -1012631,7 +1012608,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 107939,
@@ -1045442,9 +1045419,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "Une fois que vous avez joué un serviteur, donne +3/+3 au serviteur le plus à gauche de votre main.",
+		"text": "Une fois que vous avez joué un serviteur, donne +5/+5 au serviteur le plus à gauche de votre main.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1045474,7 +1045452,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Chaque fois que vous dépensez des pièces d’or, donne +{0}/+{1} à deux Pirates alliés.",
@@ -1051501,25 +1051478,12 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 4,
-		"text": "Une fois qu’un Mort-vivant allié meurt, vous piochez une carte.",
+		"text": "Vous piochez une carte une fois qu’un Mort-vivant allié meurt.",
 		"flavor": "Je vois des gens qui sont morts. Tout le temps.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
-		"assembleHalves": {
-			"first": {
-				"text": "Une fois qu’un Mort-vivant allié meurt,",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "vous piochez une carte.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -1054343,8 +1054307,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 7,
-			"TAG_SCRIPT_DATA_NUM_2": 7
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"artist": "Vlad Botos"
 	},
@@ -1054557,7 +1054521,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Début du combat :</b> double les caractéristiques de vos deux serviteurs aux valeurs d’ATQ les plus basses.",
@@ -1056052,7 +1056016,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Début du combat :</b> confère à 3 Élémentaires alliés\n« <b>Râle d’agonie :</b> invoque un givrelin prospère. »",
@@ -1056156,6 +1056119,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1056481,7 +1056445,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Sorcellerie :</b> vous choisissez un serviteur, puis vous choisissez un serviteur du niveau supérieur en lequel le transformer.",
@@ -1062638,7 +1062602,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez un serviteur aléatoire avec <b>Cri de guerre</b>. Au début de chaque tour, vous en obtenez un autre.",
@@ -1063878,16 +1063841,14 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 3,
 		"faction": "NEUTRAL",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "Chaque combat, une fois que 2 serviteurs alliés ont attaqué, cette carte joue une <b>gemme de sang</b> sur chacun de vos Hurans. <i>(Encore {0} !)</i>",
+		"text": "Chaque combat, une fois qu’un Huran allié a attaqué, cette carte joue une <b>gemme de sang</b> sur chacun de vos Hurans.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
-		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
-		},
 		"referencedTags": [
 			"BACON_BLOOD_GEM_TOOLTIP"
 		]
@@ -1091644,7 +1091605,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Chaque fois qu’un Huran allié meurt, invoque un golem avec des caractéristiques égales à celles de ses <b>gemmes de sang</b>.",
@@ -1091752,7 +1091713,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "Vous gagnez 2 pièces d’or. Les cartes de niveaux 1 et 2 ne sont plus proposées dans la taverne.",
+		"text": "Vous gagnez 3 pièces d’or. Les cartes de niveau 1 et 2 ne sont plus proposées dans la taverne.",
 		"mechanics": [
 			"AURA"
 		],
@@ -1091814,7 +1091775,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Fait tourner la roue de Yogg-Saron. Au début de chaque tour, la fait tourner à nouveau.",
@@ -1093332,7 +1093293,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 7,
@@ -1093385,7 +1093346,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 14,
 		"text": "Les <b>gemmes de sang</b> jouées depuis votre main sont lancées 2 fois de plus.",
@@ -1121988,10 +1121949,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "Une fois que vous avez joué un serviteur, donne +6/+6 au serviteur le plus à gauche de votre main.",
+		"text": "Une fois que vous avez joué un serviteur, donne +10/+10 au serviteur le plus à gauche de votre main.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		]
@@ -1122052,8 +1122013,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		}
 	},
 	{
@@ -1124170,15 +1124131,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "<b>Début du combat :</b>\ndonne +{0}/+{1} à vos autres Élémentaires. <i>(S’améliore une fois que vous avez joué un Élémentaire !)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3,
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"artist": "Joseph Weston",
@@ -1124224,15 +1124185,15 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 12,
+		"attack": 16,
+		"health": 16,
 		"text": "<b>Début du combat :</b>\ndonne +{0}/+{1} à vos autres Élémentaires. <i>(S’améliore une fois que vous avez joué un Élémentaire !)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"battlegroundsNormalDbfId": 115581,
@@ -1153030,24 +1152991,10 @@
 		"text": "Une fois que vous avez invoqué un Élémentaire, inflige 3 points de dégâts à un personnage adverse aléatoire.",
 		"flavor": "Cette histoire est à couper le souffle.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Drew Hill",
-		"assembleHalves": {
-			"first": {
-				"text": "Une fois que vous avez invoqué un Élémentaire,",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "inflige 3 points de dégâts à un personnage adverse aléatoire.",
-				"mechanics": [
-					"DEAL_DAMAGE"
-				]
-			}
-		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1153398,7 +1153345,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Quête :</b> lancer 4 sorts du sacré.\n<b>Récompense :</b> Souffle de vie.\n<b>Quête :</b> lancer 4 sorts d’ombre.\n<b>Récompense :</b> Toucher de la mort.",
+		"text": "<b>Quête :</b> lancer 6 sorts du sacré.\n<b>Récompense :</b> Souffle de vie.\n<b>Quête :</b> lancer 6 sorts d’ombre.\n<b>Récompense :</b> Toucher de la mort.",
 		"flavor": "Jour 6. Nous nous sommes retrouvés aujourd’hui dans une clairière soumise aux influences contradictoires de la magie sacrée et de celle de l’ombre. Au centre de la clairière se trouvaient deux immenses élémentaires, comme les deux faces d’une seule pièce. J’espère qu’un jour, nous reviendrons ici et que nous verrons cet endroit brisé retrouver sa sérénité.",
 		"mechanics": [
 			"QUEST"
@@ -1153425,7 +1153372,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Quête :</b> lancer 4 sorts du sacré.\n<b>Récompense :</b>\nSouffle de vie.",
+		"text": "<b>Quête :</b> lancer 6 sorts du sacré.\n<b>Récompense :</b>\nSouffle de vie.",
 		"mechanics": [
 			"QUEST"
 		],
@@ -1157698,7 +1157645,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Chaque fois que vous achetez quatre cartes, la quatrième coûte des PV plutôt que des pièces d’or. <i>(Encore {0} !)</i>",
@@ -1158316,7 +1158263,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez une copie non dorée d’un serviteur allié aléatoire. Répète cet effet au début de chaque tour.",
@@ -1159259,7 +1159206,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez un élémentaire de surprise. <i>(D’autres apparaîtront quand vous vous y attendez le moins…)</i>",
@@ -1163093,7 +1163040,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "<b>Cri de guerre :</b> réduit le coût des cartes copiées chez votre adversaire de (3) cristaux.",
+		"text": "<b>Cri de guerre :</b> réduit le coût des cartes copiées chez votre adversaire de (2) cristaux.",
 		"flavor": "Dave, on voit très bien que cette lettre est fausse. On reconnaît ton écriture. Et ôte donc cette cape ridicule, tu nous fais honte.",
 		"mechanics": [
 			"BATTLECRY"
@@ -1171086,12 +1171033,9 @@
 		"set": "Day_of_rebirth",
 		"rarity": "Common",
 		"cost": 8,
-		"text": "Fait passer les caractéristiques d’un serviteur allié à 1/1. Remplit votre plateau de copies de ce serviteur.",
+		"text": "Fait passer les caractéristiques d’un serviteur non <b>légendaire</b> allié à 1/1. Remplit votre plateau de copies de ce serviteur.",
 		"flavor": "« Je n’ai pas du tout peur, j’ai la rage ! »",
-		"artist": "Slawomir Maniak",
-		"otherTags": [
-			"TARGETS_FRIENDLY_MINION"
-		]
+		"artist": "Slawomir Maniak"
 	},
 	{
 		"dbfId": 118407,
@@ -1171467,15 +1171411,12 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Râle d’agonie :</b> invoque un œuf légèrement fêlé. <i>(Brisez la coquille 5 fois pour faire éclore une Bête 20/20 avec <b>Provocation</b> !)</i>",
+		"text": "<b>Râle d’agonie :</b> invoque un œuf légèrement fêlé. <i>(Brisez la coquille 5 fois pour faire éclore une Bête 20/20 !)</i>",
 		"flavor": "Khelos a attendu son éclosion pendant des milliers d’années. Nous espérons que vous n’aurez pas à attendre autant.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122542,
 			122543,
@@ -1171755,10 +1171696,6 @@
 		],
 		"attack": 20,
 		"health": 20,
-		"text": "<b>Provocation</b>",
-		"mechanics": [
-			"TAUNT"
-		],
 		"artist": "Vlad Botos",
 		"audio2": {
 			"BASIC_attack": {
@@ -1191070,7 +1191007,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Quête :</b> lancer 4 sorts d’ombre.\n<b>Récompense :</b>\nToucher de la mort.",
+		"text": "<b>Quête :</b> lancer 6 sorts d’ombre.\n<b>Récompense :</b>\nToucher de la mort.",
 		"mechanics": [
 			"QUEST"
 		],
@@ -1198025,7 +1197962,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1198147,7 +1198083,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1198355,10 +1198291,10 @@
 			"BACON_BUFFS_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 1,
-			"TAG_SCRIPT_DATA_NUM_5": 6
+			"TAG_SCRIPT_DATA_NUM_5": 5
 		}
 	},
 	{
@@ -1206298,7 +1206234,7 @@
 		"collectible": true,
 		"set": "Across_the_timeways",
 		"rarity": "Epic",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "SHADOW",
 		"text": "Scinde un serviteur aléatoire dans votre main en deux.",
 		"flavor": "C’est vraiment ma moitié.",
@@ -1211659,7 +1211595,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez un Élémenplus. Au début de chaque tour, vous en obtenez un autre.",
@@ -1212154,7 +1212090,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous créez un Mort-vivant personnalisé. Répète cet effet au début du tour, tous les 2 tours. <i>(Encore {0} tours !)</i>",
@@ -1212251,24 +1212186,9 @@
 		"flavor": "Un siècle de bronzeur et voilà le résultat.",
 		"mechanics": [
 			"BATTLECRY",
-			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Zoltan Boros",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Provocation</b>\n<b>Cri de guerre :</b>",
-				"mechanics": [
-					"BATTLECRY",
-					"TAUNT"
-				]
-			},
-			"second": {
-				"text": "double les PV de ce serviteur.",
-				"mechanics": [
-				]
-			}
-		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1212651,7 +1212571,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez un monstre du Dr Boum. Au début de chaque tour, vous en obtenez un autre.",
@@ -1213938,9 +1213858,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "<b>Découvre</b> un serviteur de niveau 5 avec un type. Au début de chaque tour, vous en obtenez une autre copie.",
+		"text": "<b>Découvre</b> un serviteur de niveau 6 avec un type. Au début de chaque tour, vous en obtenez une autre copie.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1214057,7 +1213978,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Chaque fois qu’une Bête alliée attaque, lui donne +{0} ATQ et cette carte s’améliore de manière permanente.",
@@ -1214065,7 +1213986,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4
 		},
 		"artist": "Ira Fidler"
 	},
@@ -1216569,7 +1216490,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Un sort de la taverne coûte des PV au lieu de pièces d’or à chaque tour. <i>(Encore {0} !)</i>",
@@ -1217661,12 +1217582,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "La première fois que vous achetez un serviteur à chaque tour, vous obtenez un satellite avec <b>Magnétisme</b> doté de ses caractéristiques.",
+		"text": "Une fois que vous avez recruté un serviteur, vous obtenez un satellite avec <b>Magnétisme</b> doté de ses caractéristiques. <i>(Deux fois par tour.)</i>Une fois que vous avez recruté un serviteur, vous",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 2
+		},
 		"artist": "Kevin Sidharta",
 		"referencedTags": [
 			"MODULAR"
@@ -1217768,7 +1217693,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez une tsarine en recharge. Vos tsarines en recharge donnent aussi des PV.",
@@ -1219000,10 +1218924,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "<b>Vengeance (7) :</b> invoque deux hannetons {0}/{1} et leur confère <b>Provocation</b>.",
+		"text": "<b>Vengeance (8) :</b> invoque deux hannetons {0}/{1} et leur confère <b>Provocation</b>.",
 		"mechanics": [
 			"AVENGE"
 		],
@@ -1222005,7 +1221929,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez un lanceur de l’Antre. Chaque fois que vous détruisez un serviteur en dehors du combat, vous gagnez {0} pièces d’or.",
@@ -1222013,7 +1221937,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Alex Horley Orlandelli"
 	},
@@ -1234357,14 +1234281,14 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 4,
+		"health": 8,
 		"text": "Une fois que votre héros ou héroïne a subi des dégâts, rembobine et donne +{0}/+{1} aux serviteurs dans la taverne pendant ce tour.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"artist": "Joseph Weston",
@@ -1234410,14 +1234334,14 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 12,
-		"health": 12,
+		"attack": 8,
+		"health": 16,
 		"text": "Une fois que votre héros ou héroïne a subi des dégâts, rembobine et donne +{0}/+{1} aux serviteurs dans la taverne pendant ce tour.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 121687,
@@ -1243742,14 +1243666,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Râle d’agonie :</b> invoque un œuf davantage fêlé. <i>(Brisez la coquille encore 4 fois pour faire éclore une Bête 20/20 avec <b>Provocation</b> !)</i>",
+		"text": "<b>Râle d’agonie :</b> invoque un œuf davantage fêlé. <i>(Brisez la coquille encore 4 fois pour faire éclore une Bête 20/20 !)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122543,
 			122545,
@@ -1243800,14 +1243721,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Râle d’agonie :</b> invoque un œuf très fêlé. <i>(Brisez la coquille encore 3 fois pour faire éclore une Bête 20/20 avec <b>Provocation</b> !)</i>",
+		"text": "<b>Râle d’agonie :</b> invoque un œuf très fêlé. <i>(Brisez la coquille encore 3 fois pour faire éclore une Bête 20/20 !)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122545,
 			122546,
@@ -1243870,14 +1243788,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Râle d’agonie :</b> invoque un œuf extrêmement fêlé. <i>(Brisez la coquille encore 2 fois pour faire éclore une Bête 20/20 avec <b>Provocation</b> !)</i>",
+		"text": "<b>Râle d’agonie :</b> invoque un œuf extrêmement fêlé. <i>(Brisez la coquille encore 2 fois pour faire éclore une Bête 20/20 !)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122546,
 			118495
@@ -1243926,14 +1243841,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Râle d’agonie :</b> invoque un Khelos 20/20 avec <b>Provocation</b>. <i>(Brisez la coquille pour le faire éclore !)</i>",
+		"text": "<b>Râle d’agonie :</b> invoque un Khelos 20/20. <i>(Brisez la coquille pour le faire éclore !)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			118495
 		],
@@ -1244285,15 +1244197,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 3,
-		"health": 8,
+		"attack": 4,
+		"health": 9,
 		"text": "<b>Ralliement :</b>\nvos <b>gemmes de sang</b> donnent +{0}/+{1} en plus pendant cette partie.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 1
 		},
 		"artist": "Kleston Marques",
 		"battlegroundsPremiumDbfId": 122567,
@@ -1244341,15 +1244253,15 @@
 			"QUILBOAR"
 		],
 		"techLevel": 5,
-		"attack": 6,
-		"health": 16,
+		"attack": 8,
+		"health": 18,
 		"text": "<b>Ralliement :</b>\nvos <b>gemmes de sang</b> donnent +{0}/+{1} en plus pendant cette partie.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsNormalDbfId": 122566,
 		"premium": true,
@@ -1254146,7 +1254058,7 @@
 		"collectible": true,
 		"set": "Cataclysm",
 		"rarity": "Epic",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "FIRE",
 		"text": "Inflige $1 points de dégâts à chaque serviteur. <i>(S’améliore pour chaque serviteur sur le plateau.)</i>",
 		"flavor": "10 fois plus hostile que la centimation !",
@@ -1259809,15 +1259721,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 10,
 		"health": 3,
 		"text": "<b>Râle d’agonie :</b> donne +{0}/+{1} à vos serviteurs. Les serviteurs dorés gardent définitivement cet effet.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsPremiumDbfId": 123596,
 		"audio2": {
@@ -1259855,15 +1259767,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 20,
 		"health": 6,
 		"text": "<b>Râle d’agonie :</b> donne +{0}/+{1} à vos serviteurs deux fois. Les serviteurs dorés gardent définitivement cet effet.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 123595,
 		"premium": true,
@@ -1260291,24 +1260203,10 @@
 		"text": "<b>Bouclier divin</b>\nUne fois que ce serviteur a perdu <b>Bouclier divin</b>, donne +1 PV à vos recrues de la Main d’argent pendant cette partie.",
 		"flavor": "Félicitations, je m’apprête à vous sauver ! Veuillez ne pas opposer de résistance.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Milica Celikovic",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Bouclier divin</b>\nUne fois que ce serviteur a perdu <b>Bouclier divin</b>,",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "donne +1 PV à vos recrues de la Main d’argent pendant cette partie.",
-				"mechanics": [
-				]
-			}
-		},
 		"audio2": {
 			"BASIC_attack": {
 				"2H_EpicMace_Underlay_Attack": {
@@ -1282352,7 +1282250,7 @@
 		"rarity": "Epic",
 		"cost": 5,
 		"attack": 4,
-		"health": 4,
+		"health": 3,
 		"text": "<b>Préparation</b>\n<b>Cri de guerre :</b> si vous avez lancé un sort pendant ce tour, lance deux <b>Secrets</b> aléatoires de mage.",
 		"flavor": "Bienvenue à Dalaran, où les sorts sont inventés de toutes pièces et où les points ne comptent pas !",
 		"mechanics": [
@@ -1282564,8 +1282462,8 @@
 		"collectible": true,
 		"set": "Violet_hold",
 		"rarity": "Rare",
-		"cost": 5,
-		"attack": 5,
+		"cost": 6,
+		"attack": 6,
 		"health": 3,
 		"text": "<b>Préparation</b>\n<b>Cri de guerre :</b> détruit chacun de vos autres serviteurs. Pour chaque serviteur détruit, un cristal de mana est réinitialisé et vous piochez une carte.",
 		"flavor": "Si six scies scient six os, six cent six scies scient six cent six os.",
@@ -1288292,8 +1288190,6 @@
 		"races": [
 			"MURLOC"
 		],
-		"techLevel": 2,
-		"isBaconPool": true,
 		"attack": 3,
 		"health": 5,
 		"text": "<b>Ralliement :</b> invoque le Murloc de votre main ayant l’ATQ la plus élevée pour ce combat uniquement.",
@@ -1297753,15 +1297649,17 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 15,
-		"health": 15,
-		"text": "<b>Ralliement :</b> donne définitivement +{0}/+{1} à un serviteur allié de chaque type.",
+		"attack": 10,
+		"health": 10,
+		"text": "<b>Ralliement :</b> donne définitivement +{0}/+{1} à un serviteur allié de chaque type et améliore ce serviteur.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"artist": "Slawomir Maniak",
 		"battlegroundsPremiumDbfId": 127110,
@@ -1297822,15 +1297720,17 @@
 			"ALL"
 		],
 		"techLevel": 7,
-		"attack": 30,
-		"health": 30,
-		"text": "<b>Ralliement :</b> donne définitivement +{0}/+{1} à un serviteur allié de chaque type deux fois.",
+		"attack": 20,
+		"health": 20,
+		"text": "<b>Ralliement :</b> donne définitivement +{0}/+{1} à un serviteur allié de chaque type et améliore ce serviteur, deux fois.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"battlegroundsNormalDbfId": 127109,
 		"premium": true,
@@ -1298027,9 +1297927,9 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 16,
-		"health": 32,
-		"text": "Une fois que vous avez invoqué un serviteur au combat, lui donne les caractéristiques maximales de ce serviteur. <i>(3 fois par combat.)</i>",
+		"attack": 15,
+		"health": 30,
+		"text": "Une fois que vous avez invoqué un serviteur différent au combat, lui donne le double des caractéristiques maximales de ce serviteur <i>(3 fois par combat.)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1298078,9 +1297978,9 @@
 			"BEAST"
 		],
 		"techLevel": 7,
-		"attack": 32,
-		"health": 64,
-		"text": "Une fois que vous avez invoqué un serviteur au combat, lui donne le double des caractéristiques maximales de ce serviteur <i>(3 fois par combat.)</i>",
+		"attack": 30,
+		"health": 60,
+		"text": "Une fois que vous avez invoqué un serviteur différent au combat, lui donne le triple des caractéristiques maximales de ce serviteur <i>(3 fois par combat.)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1307953,8 +1307853,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 13,
+		"attack": 17,
+		"health": 23,
 		"text": "À la fin de votre tour, donne les caractéristiques de ce serviteur au serviteur le plus à gauche de votre main.",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -1308002,8 +1307902,8 @@
 			"MURLOC"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 26,
+		"attack": 34,
+		"health": 46,
 		"text": "À la fin de votre tour, donne deux fois les caractéristiques de ce serviteur au serviteur le plus à gauche de votre main.",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -1308399,7 +1308299,7 @@
 		"text": "Donne +{0}/+{1} à vos serviteurs. Donne aux serviteurs dorés un autre +{0}/+{1}.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Anton Zemskov"
 	},
@@ -1331099,7 +1330999,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 9,
+		"cost": 10,
 		"attack": 9,
 		"health": 7,
 		"text": "<b>Cri de guerre :</b> réduit de (5) cristaux le coût d’une carte de votre main. Cet effet se propage vers la gauche et vers la droite, mais avec une réduction réduite de (1).",
@@ -1341796,7 +1341696,7 @@
 		"rarity": "Common",
 		"cost": 2,
 		"spellSchool": "SHADOW",
-		"text": "Dans 2 tours, invoque deux C’thraxxi 3/5 avec <b>Provocation</b>.",
+		"text": "Dans 2 tours, invoque deux C’thraxxi 2/4 avec <b>Provocation</b>.",
 		"flavor": "Vous avez deux tours pour vous sécher avant qu’on passe à table.",
 		"mechanics": [
 			"OBJECTIVE"
@@ -1341843,9 +1341743,9 @@
 			"WARLOCK"
 		],
 		"set": "Black_empire",
-		"cost": 4,
-		"attack": 3,
-		"health": 5,
+		"cost": 3,
+		"attack": 2,
+		"health": 4,
 		"text": "<b>Provocation</b>",
 		"mechanics": [
 			"TAUNT"
@@ -1342214,7 +1342114,7 @@
 		"set": "Black_empire",
 		"rarity": "Common",
 		"cost": 3,
-		"attack": 2,
+		"attack": 3,
 		"durability": 2,
 		"text": "Une fois que votre héros ou héroïne a attaqué, vous obtenez une carte Surcadençage.",
 		"flavor": "Il cautérise instantanément toutes les blessures qu’il provoque.",
@@ -1342252,7 +1342152,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Rare",
-		"cost": 2,
+		"cost": 1,
 		"text": "Vous <b>assemblez</b> un Méca. Vous obtenez une carte Surcadençage.",
 		"flavor": "Le bricolage, c’est tout bête. Plus t’as d’outils, plus il t’en manque.",
 		"artist": "Matt Dixon",
@@ -1342496,24 +1342396,10 @@
 		"text": "<b>Bouclier divin</b>\nUne fois qu’un serviteur allié a perdu <b>Bouclier divin</b>, donne +5/+5 à un serviteur de votre main.",
 		"flavor": "« Par ma foi et mon courage, je serai protégé. Et par mon honneur et mon sacrifice, un autre prendra ma place. »",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Bouclier divin</b>\nUne fois qu’un serviteur allié a perdu <b>Bouclier divin</b>,",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "donne +5/+5 à un serviteur de votre main.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -1342994,9 +1342880,9 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 7,
-		"attack": 7,
-		"health": 7,
+		"cost": 6,
+		"attack": 6,
+		"health": 6,
 		"text": "<b>Cri de guerre :</b> vous gagnez 20 points d’armure. Dans 2 tours, convertit votre total d’armure en un golem avec <b>Provocation</b> et aux caractéristiques équivalentes.",
 		"flavor": "Ton armure, tu vas la perdre. Et si tu continues, tu vas perdre autre chose.",
 		"mechanics": [
@@ -1345275,7 +1345161,7 @@
 		],
 		"attack": 4,
 		"health": 5,
-		"text": "Coûte (2) cristaux de moins pour chaque carte avec <b>Combo</b> jouée pendant ce tour. <b>Cri de guerre :</b> vous piochez une carte.",
+		"text": "Coûte (2) cristaux de moins pour chaque carte avec <b>Combo</b> jouée pendant ce tour. <b>Cri de guerre :</b> vous piochez 2 cartes.",
 		"flavor": "La règle selon laquelle « il a plus peur de vous que vous n’avez peur de lui » ne s’applique PAS ici.",
 		"mechanics": [
 			"BATTLECRY"
@@ -1345333,14 +1345219,14 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Common",
-		"cost": 3,
+		"cost": 4,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 4,
-		"health": 2,
-		"text": "<b>Râle d’agonie :</b> vous obtenez deux larves coûtant 1 cristal avec des <b>Combos</b> qui déclenchent le pouvoir héroïque d’une autre classe.",
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Râle d’agonie :</b> vous obtenez deux larves avec des <b>Combos</b> qui déclenchent le pouvoir héroïque d’une autre classe. Elles coûtent (0) cristaux.",
 		"flavor": "Tout le monde se bat. Personne ne se barre !",
 		"mechanics": [
 			"DEATHRATTLE",
@@ -1346729,10 +1346615,10 @@
 		"rarity": "Common",
 		"cost": 2,
 		"additionalCosts": {
-			"BLOODRUNE": 2
+			"BLOODRUNE": 3
 		},
 		"attack": 3,
-		"health": 3,
+		"health": 4,
 		"text": "<b>Vol de vie</b>",
 		"flavor": "Un misérable Réprouvé qui veut se faire passer pour un seigneur… À genoux, je te l’ordonne !",
 		"mechanics": [
@@ -1347428,7 +1347314,7 @@
 		"rarity": "Common",
 		"cost": 5,
 		"spellSchool": "SHADOW",
-		"text": "Vous invoquez 1 aile du Vide 5/5 avec <b>Vol de vie</b>. <i>(Le prochain sort d’ombre que vous jouez répète cet effet !)</i>",
+		"text": "Vous invoquez deux ailes du Vide 3/4 avec <b>Vol de vie</b>. <i>(Le prochain sort d’ombre que vous jouez répète cet effet !)</i>",
 		"flavor": "Je n’aime pas les œufs du Vide au jambon.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0
@@ -1347477,13 +1347363,13 @@
 			"PRIEST"
 		],
 		"set": "Black_empire",
-		"cost": 5,
+		"cost": 3,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 5,
-		"health": 5,
+		"attack": 3,
+		"health": 4,
 		"text": "<b>Vol de vie</b>",
 		"mechanics": [
 			"LIFESTEAL"
@@ -1349409,7 +1349295,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 6,
@@ -1349471,7 +1349357,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 12,
 		"text": "Chaque fois que vous vous défaussez d’une carte, donne +{0}/+{1} à votre <b>Divinité</b> et améliore ce serviteur.",
@@ -1352810,7 +1352696,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_2": 14
 		}
 	},
 	{
@@ -1352824,7 +1352710,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez deux fois un serviteur de niveaux 1, 2 et 3.",
@@ -1353260,8 +1353146,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -1353331,8 +1353217,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Arthur Bozonnet"
 	},
@@ -1353562,7 +1353448,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez un <b>chromadrake</b> aléatoire. Répète cet effet au début de chaque tour.",
@@ -1353664,7 +1353550,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez {0} <b>primes</b> aléatoires. Répète cet effet au début de chaque tour.",
@@ -1353730,8 +1353616,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Grace Liu"
 	},
@@ -1353780,8 +1353666,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"artist": "Tanamaes Leejierasaes"
 	},
@@ -1353968,6 +1353854,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez une <b>gemme de sang</b> qui confère <b>Provocation</b>, <b>Bouclier divin</b> ou <b>Réincarnation</b> à un Huran. Répète cet effet au début de chaque tour.",
@@ -1366877,7 +1366764,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez une conque de clonage. Recommence au début du tour, tous les {1} tours. <i>(Encore {0} tours !)</i>",
@@ -1366909,8 +1366796,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Matt Dixon",
 		"otherTags": [
@@ -1366931,7 +1366818,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez un beatboxer polarisant.",
@@ -1368290,7 +1368177,7 @@
 		],
 		"attack": 0,
 		"health": 1,
-		"text": "<b>Réincarnation</b>\n<b>Râle d’agonie:</b> donne +1/+1 à tous les serviteurs de votre main.",
+		"text": "<b>Réincarnation</b>\n<b>Râle d’agonie :</b> donne +1 ATQ à tous les serviteurs de votre main.",
 		"flavor": "Il en a sous le capot.",
 		"mechanics": [
 			"CRAFTABLE_OUTPUT_POWER",
@@ -1368300,14 +1368187,14 @@
 		"artist": "Matt Dixon",
 		"assembleHalves": {
 			"first": {
-				"text": "<b>Réincarnation</b>\n<b>Râle d’agonie:</b>",
+				"text": "<b>Réincarnation</b>\n<b>Râle d’agonie :</b>",
 				"mechanics": [
 					"DEATHRATTLE",
 					"REBORN"
 				]
 			},
 			"second": {
-				"text": "donne +1/+1 à tous les serviteurs de votre main.",
+				"text": "donne +1 ATQ à tous les serviteurs de votre main.",
 				"mechanics": [
 				]
 			}
@@ -1368482,7 +1368369,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Donne +{0}/+{1} aux serviteurs de la taverne une fois que cette dernière a été <b>actualisée</b> pendant ce tour.",
@@ -1368490,8 +1368377,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"artist": "Vlad Botos",
 		"referencedTags": [
@@ -1373396,7 +1373283,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 10,
+		"cost": 9,
 		"attack": 10,
 		"health": 10,
 		"text": "<b>Dieu très ancien</b>\n<b>Cri de guerre :</b> si vous avez dépensé 30 cristaux de mana pour des serviteurs pendant cette partie, gagne <b>Insensible</b> pendant 1 tour. <i>(Encore {0} !)</i>",
@@ -1374874,7 +1374761,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "+4/+4. Dans 2 tours, double les caractéristiques de ce serviteur."
+		"text": "+6/+6. Dans 2 tours, double les caractéristiques de ce serviteur."
 	},
 	{
 		"dbfId": 132203,
@@ -1374910,7 +1374797,7 @@
 		"set": "Battlegrounds",
 		"cost": 0,
 		"faction": "NEUTRAL",
-		"text": "<b>Début du combat :</b> double les PV de ce serviteur."
+		"text": "+15 PV.\n<b>Début du combat :</b> double les PV de ce serviteur."
 	},
 	{
 		"dbfId": 132207,
@@ -1375331,7 +1375218,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "<b>Début du combat :</b> double les PV de ce serviteur.",
+		"text": "+15 PV. <b>Début du combat :</b> double les PV de ce serviteur.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1376459,7 +1376346,7 @@
 		"cost": 10,
 		"attack": 12,
 		"health": 12,
-		"text": "<b>Dieu très ancien</b>\nSi vous avez déclenché les 4 capacités de C’Thun pendant cette partie, les capacités de ce serviteur sont triplées.",
+		"text": "<b>Dieu très ancien</b>\nSi vous avez déclenché les 4 capacités de C’Thun pendant cette partie, les capacités de ce serviteur sont quadruplées.",
 		"flavor": "Amitut, garde d’Amitus",
 		"artist": "Kevin Sidharta",
 		"availableAsSignature": true,
@@ -1376504,7 +1376391,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+2/+3."
+		"text": "+2/+2."
 	},
 	{
 		"dbfId": 132341,
@@ -1376517,7 +1376404,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+6/+9."
+		"text": "+8/+8."
 	},
 	{
 		"dbfId": 132342,
@@ -1376532,7 +1376419,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "Invoque deux fanatiques 2/3 avec <b>Provocation</b>.",
+		"text": "Invoque deux fanatiques 2/2 avec <b>Provocation</b>.",
 		"artist": "Stefan Bogdasarov",
 		"hideStats": true,
 		"referencedTags": [
@@ -1376582,7 +1376469,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "Donne +2/+3 à deux autres serviteurs alliés aléatoires.",
+		"text": "Donne +2/+2 à deux autres serviteurs alliés aléatoires.",
 		"artist": "Kevin Sidharta",
 		"hideStats": true
 	},
@@ -1376599,7 +1376486,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Inflige 7 points de dégâts répartis de façon aléatoire entre les adversaires.",
+		"text": "Inflige 6 points de dégâts répartis de façon aléatoire entre les adversaires.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376678,13 +1376565,13 @@
 		"cost": 3,
 		"attack": 3,
 		"health": 2,
-		"text": "<b>Cri de guerre :</b> si vous avez lancé 2 sorts d’ombre avec cette carte en main, choisissez une capacité de C’Thun à déclencher. <i>(Encore {0} !)</i>",
+		"text": "<b>Cri de guerre :</b> si vous avez lancé un sort d’ombre avec cette carte en main, choisissez une capacité de C’Thun à déclencher.",
 		"flavor": "Les Dieux très anciens arrivent. Les Dieux très anciens arrivent !",
 		"mechanics": [
 			"BATTLECRY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Ivo Campelo da Silva",
 		"availableAsSignature": true,
@@ -1376709,7 +1376596,7 @@
 		"rarity": "Legendary",
 		"cost": 2,
 		"attack": 2,
-		"health": 3,
+		"health": 2,
 		"text": "<b>Provocation</b>",
 		"mechanics": [
 			"TAUNT"
@@ -1376905,7 +1376792,7 @@
 			"HUNTER"
 		],
 		"set": "Black_empire",
-		"text": "+1/+1."
+		"text": "+1 ATQ."
 	},
 	{
 		"dbfId": 132441,
@@ -1377086,7 +1376973,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "<b>Râle d’agonie :</b> donne +2/+2 à vos serviteurs de manière permanente."
+		"text": "<b>Râle d’agonie :</b> donne +3/+3 à vos serviteurs de manière permanente."
 	},
 	{
 		"dbfId": 132485,
@@ -1377403,7 +1377290,7 @@
 		"cost": 9,
 		"attack": 7,
 		"health": 5,
-		"text": "<b>Dieu très ancien</b>\n<b>Cri de guerre :</b> met fin à votre tour. Yogg-saron joue un tour supplémentaire pour vous. <i>(Une fois par partie.)</i>",
+		"text": "<b>Dieu très ancien</b>\n<b>Cri de guerre :</b> met fin à votre tour. Yogg-Saron joue un tour supplémentaire pour vous. <i>(Une fois par partie.)</i>",
 		"flavor": "Le saviez-vous ? Yogg-Saron est, malgré lui, à l’origine de l’existence de la quasi-totalité des races mortelles présentes en Azeroth.",
 		"mechanics": [
 			"BATTLECRY"
@@ -1378610,8 +1378497,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 15,
+		"attack": 13,
+		"health": 17,
 		"text": "<b>Ralliement :</b> invoque un Golem avec les caractéristiques de ce serviteur qui attaque la cible en premier.",
 		"mechanics": [
 			"BACON_RALLY"
@@ -1378666,8 +1378553,8 @@
 			"QUILBOAR"
 		],
 		"techLevel": 7,
-		"attack": 12,
-		"health": 30,
+		"attack": 26,
+		"health": 34,
 		"text": "<b>Ralliement :</b> invoque un Golem avec le double des caractéristiques de ce serviteur qui attaque la cible en premier.",
 		"mechanics": [
 			"BACON_RALLY"
@@ -1378970,7 +1378857,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
+		"attack": 8,
 		"health": 8,
 		"text": "Chaque fois que vous jouez un Méca, ce serviteur se <b>magnétise</b> avec un satellite {1}/{2} et s’améliore.",
 		"mechanics": [
@@ -1378979,7 +1378866,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 2,
-			"TAG_SCRIPT_DATA_NUM_3": 3
+			"TAG_SCRIPT_DATA_NUM_3": 2
 		},
 		"artist": "Brian Despain",
 		"battlegroundsPremiumDbfId": 132677,
@@ -1379027,7 +1378914,7 @@
 			"MECH"
 		],
 		"techLevel": 5,
-		"attack": 12,
+		"attack": 16,
 		"health": 16,
 		"text": "Chaque fois que vous jouez un Méca, ce serviteur se <b>magnétise</b> avec un satellite {1}/{2} et s’améliore.",
 		"mechanics": [
@@ -1379036,7 +1378923,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 4,
-			"TAG_SCRIPT_DATA_NUM_3": 6
+			"TAG_SCRIPT_DATA_NUM_3": 4
 		},
 		"battlegroundsNormalDbfId": 132676,
 		"premium": true,
@@ -1379771,15 +1379658,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 7,
+		"health": 5,
 		"text": "Une fois que vous avez dépensé {2} pièces d’or, vous obtenez un coffre. Si vous en avez déjà un, il s’ouvre {3} tours plus tôt à la place. <i>(Encore {0} pièces !)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
 		"artist": "Joseph Weston",
@@ -1379825,15 +1379712,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 12,
-		"health": 12,
+		"attack": 14,
+		"health": 10,
 		"text": "Une fois que vous avez dépensé {2} pièces d’or, vous obtenez un coffre. Si vous en avez déjà un, il s’ouvre {3} tours plus tôt à la palce. <i>(Encore {0} pièces !)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 2
 		},
 		"battlegroundsNormalDbfId": 132762,
@@ -1381084,7 +1380971,7 @@
 	{
 		"dbfId": 132837,
 		"id": "CAP_405t1",
-		"name": "",
+		"name": "Détention pour destruction",
 		"type": "Spell",
 		"cardClass": "WARLOCK",
 		"playerClass": "Warlock",
@@ -1381094,6 +1380981,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
+		"text": "Force chaque serviteur à attaquer un autre serviteur.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
 		},
@@ -1381131,7 +1381019,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Vole 2 cartes dans la main de votre adversaire.",
+		"text": "Vole une carte dans la main de votre adversaire.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -1381150,7 +1381038,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Donne +3/+3 aux serviteurs de votre main et sur votre plateau.",
+		"text": "Donne +2/+2 aux serviteurs de votre main et sur votre plateau.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 7
 		},
@@ -1381167,7 +1381055,7 @@
 			"NEUTRAL"
 		],
 		"set": "Azeroths_most_wanted",
-		"text": "+3/+3."
+		"text": "+2/+2."
 	},
 	{
 		"dbfId": 132848,
@@ -1381222,7 +1381110,7 @@
 		],
 		"set": "Azeroths_most_wanted",
 		"cost": 0,
-		"text": "Invoque trois serviteurs aléatoires coûtant 3 cristaux.",
+		"text": "Invoque trois serviteurs aléatoires coûtant 2 cristaux.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6
 		},
@@ -1381599,15 +1381487,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
+		"attack": 5,
+		"health": 5,
 		"text": "Chaque fois que vous lancez un sort sur un Méca, ce serviteur se <b>magnétise</b> avec un satellite {0}/{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Kevin Sidharta",
 		"battlegroundsPremiumDbfId": 132894,
@@ -1381655,15 +1381543,15 @@
 			"MECH"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 8,
+		"attack": 10,
+		"health": 10,
 		"text": "Chaque fois que vous lancez un sort sur un Méca, ce serviteur se <b>magnétise</b> avec un satellite {0}/{1} deux fois.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 132893,
 		"premium": true,
@@ -1382644,9 +1382532,9 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
-		"text": "Une fois que vous avez <b>découvert</b> une carte, donne +{0}/+{1} à vos autres Pirates. <i>(S’améliore grâce aux serviteurs dorés que vous jouez pendant cette partie !)</i>",
+		"attack": 5,
+		"health": 5,
+		"text": "Une fois que vous avez <b>découvert</b> une carte, donne +{0}/+{1} à vos Pirates. <i>(S’améliore grâce aux serviteurs dorés que vous jouez pendant cette partie !)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1382747,9 +1382635,9 @@
 			"PIRATE"
 		],
 		"techLevel": 6,
-		"attack": 8,
-		"health": 8,
-		"text": "Une fois que vous avez <b>découvert</b> une carte, donne +{0}/+{1} à vos autres Pirates. <i>(S’améliore grâce aux serviteurs dorés que vous jouez pendant cette partie !)</i>",
+		"attack": 10,
+		"health": 10,
+		"text": "Une fois que vous avez <b>découvert</b> une carte, donne +{0}/+{1} à vos Pirates. <i>(S’améliore grâce aux serviteurs dorés que vous jouez pendant cette partie !)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1383311,12 +1383199,13 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 9,
-		"text": "<b>Bouclier divin</b>\n<b>Ralliement :</b> lance Souffle de dragon puissant.",
+		"attack": 9,
+		"health": 7,
+		"text": "<b>Bouclier divin</b>\n<b>Furie des vents</b>\n<b>Ralliement :</b> lance Souffle de dragon puissant.",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"artist": "TOPDOG Entertainment",
 		"battlegroundsPremiumDbfId": 132954,
@@ -1383361,12 +1383250,13 @@
 			"DRAGON"
 		],
 		"techLevel": 6,
-		"attack": 16,
-		"health": 18,
-		"text": "<b>Bouclier divin</b>\n<b>Ralliement :</b> lance Souffle de dragon puissant deux fois.",
+		"attack": 18,
+		"health": 14,
+		"text": "<b>Bouclier divin</b>\n<b>Furie des vents</b>\n<b>Ralliement :</b> lance Souffle de dragon puissant deux fois.",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"battlegroundsNormalDbfId": 132953,
 		"premium": true,
@@ -1383749,14 +1383639,14 @@
 		"techLevel": 6,
 		"isBaconPool": true,
 		"attack": 3,
-		"health": 12,
+		"health": 9,
 		"text": "Une fois que vous avez joué {1} Élémentaires, gagne les caractéristiques du serviteur aux PV les plus élevés de la taverne. <i>(Encore {0} !)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Kevin Sidharta",
 		"battlegroundsPremiumDbfId": 132984,
@@ -1383802,14 +1383692,14 @@
 		],
 		"techLevel": 6,
 		"attack": 6,
-		"health": 24,
+		"health": 18,
 		"text": "Une fois que vous avez joué {1} Élémentaires, gagne le double des caractéristiques du serviteur aux PV les plus élevés de la taverne. <i>(Encore {0} !)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 132983,
 		"premium": true,
@@ -1384060,15 +1383950,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 6,
+		"attack": 3,
+		"health": 7,
 		"text": "Chaque fois que vous lancez un sort sur ce serviteur, donne +{0}/+{1} au serviteur le plus à gauche de votre main.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 9,
+			"TAG_SCRIPT_DATA_NUM_2": 9
 		},
 		"artist": "Marta Vives Poch",
 		"battlegroundsPremiumDbfId": 132990,
@@ -1384113,15 +1384003,15 @@
 			"MURLOC"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 12,
+		"attack": 6,
+		"health": 14,
 		"text": "Chaque fois que vous lancez un sort sur ce serviteur, donne +{0}/+{1} au serviteur le plus à gauche de votre main.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 18,
+			"TAG_SCRIPT_DATA_NUM_2": 18
 		},
 		"battlegroundsNormalDbfId": 132989,
 		"premium": true,
@@ -1384282,15 +1384172,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 5,
-		"health": 7,
+		"attack": 6,
+		"health": 9,
 		"text": "Chaque fois que vous lancez un sort sur un Murloc, donne +{0}/+{1} aux Murlocs de votre main et sur le plateau.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Florent Mounier",
 		"battlegroundsPremiumDbfId": 133027,
@@ -1384335,15 +1384225,15 @@
 			"MURLOC"
 		],
 		"techLevel": 5,
-		"attack": 10,
-		"health": 14,
+		"attack": 12,
+		"health": 18,
 		"text": "Chaque fois que vous lancez un sort sur un Murloc, donne +{0}/+{1} aux Murlocs de votre main et sur le plateau.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 133026,
 		"premium": true,
@@ -1384389,15 +1384279,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 8,
+		"attack": 5,
+		"health": 10,
 		"text": "Une fois que votre héros ou héroïne a subi {1} points de dégâts, vous obtenez une copie de Gâteaux corrompus. <i>(Encore {0} !)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Kleston Marques",
 		"battlegroundsPremiumDbfId": 133029,
@@ -1384442,15 +1384332,15 @@
 			"DEMON"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 16,
+		"attack": 10,
+		"health": 20,
 		"text": "Une fois que votre héros ou héroïne a subi {1} points de dégâts, vous obtenez deux copies de Gâteaux corrompus. <i>(Encore {0} !)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 133028,
 		"premium": true,
@@ -1384766,8 +1384656,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -1384878,7 +1384768,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "Une fois que vous avez acheté un Méca, vous obtenez un sort aléatoire de la taverne.",
+		"text": "Une fois que vous avez acheté un Méca, vous obtenez un sort aléatoire de la taverne qui coûte (2) pièces d’or ou plus.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"GENERATES_SPELL",
@@ -1387241,7 +1387131,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Anton Zemskov",
 		"otherTags": [
@@ -1387303,7 +1387193,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez une carte aléatoire avec <b>Choix des armes</b>. Au début de chaque tour, vous en obtenez une autre.",
@@ -1387329,7 +1387219,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez 2 cartes aléatoires avec <b>Choix des armes</b>. Au début de chaque tour, vous en obtenez 2 autres.",
@@ -1387460,7 +1387350,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "<b>Début du combat :</b> double l’ATQ de ce serviteur.",
+		"text": "+15 ATQ.\n<b>Début du combat :</b> double l’ATQ de ce serviteur.",
 		"hideStats": true
 	},
 	{
@@ -1387475,7 +1387365,7 @@
 		],
 		"set": "Battlegrounds",
 		"faction": "NEUTRAL",
-		"text": "<b>Début du combat :</b> double l’ATQ de ce serviteur.",
+		"text": "+15 ATQ. <b>Début du combat :</b> double l’ATQ de ce serviteur.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1387614,14 +1387504,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "Une fois que vous avez lancé 3 sorts sur des serviteurs, vous gagnez 1 pièce d’or. <i>(Encore {0} !)</i>",
+		"text": "Une fois que vous avez lancé {1} sorts sur des serviteurs, vous gagnez 1 pièce d’or. <i>(Encore {0} !)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		}
 	},
 	{
@@ -1387635,7 +1387527,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vos cartes avec <b>Choix des armes</b> combinent les deux effets.",
@@ -1387678,7 +1387570,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Chaque fois qu’un serviteur allié avec <b>Ralliement</b> attaque, vous gagnez une <b>actualisation</b> gratuite.",
@@ -1387727,7 +1387619,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Les deux premiers serviteurs avec <b>Cri de guerre</b> que vous achetez à chaque tour sont gratuits. <i>(Encore {0} !)</i>",
@@ -1388206,7 +1388098,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "Chaque fois que vous jouez une carte, gagne +3 PV.",
+		"text": "Gagne +2 PV chaque fois que vous jouez une carte.",
 		"hideStats": true
 	},
 	{
@@ -1388233,7 +1388125,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "Chaque fois que vous jouez une carte, gagne +3 PV."
+		"text": "Gagne +2 PV chaque fois que vous jouez une carte."
 	},
 	{
 		"dbfId": 133434,
@@ -1390112,6 +1390004,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "À la fin de votre tour, vous obtenez un satellite {0}/{1} avec <b>Magnétisme</b>. <i>(S’améliore pour chaque sort de la taverne que vous avez lancé pendant ce tour !)</i>",
@@ -1390122,8 +1390015,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 12,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -1390653,7 +1390546,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous <b>découvrez</b> une copie non dorée d’un serviteur allié avec un <b>Sombre don</b>. Répète cet effet au début du tour, tous les 2 tours. <i>(Encore {0} tours !)</i>",
@@ -1391490,7 +1391383,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez un modeleur de boules de feu ou un modeleur de boules de neige. Répète cet effet au début de chaque tour.",
@@ -1392578,7 +1392471,7 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 5,
+		"attack": 6,
 		"health": 3,
 		"text": "<b>Râle d’agonie :</b> donne +{0}/+{1} aux serviteurs de la taverne pendant cette partie. <b>Activation ({4}) :</b> améliore ce serviteur.",
 		"mechanics": [
@@ -1392587,7 +1392480,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -1392652,7 +1392545,7 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 10,
+		"attack": 12,
 		"health": 6,
 		"text": "<b>Râle d’agonie :</b> donne +{0}/+{1} aux serviteurs de la taverne pendant cette partie. <b>Activation ({4}) :</b> améliore ce serviteur.",
 		"mechanics": [
@@ -1392661,7 +1392554,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 2,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -1393369,8 +1393262,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 13,
-			"TAG_SCRIPT_DATA_NUM_2": 13
+			"TAG_SCRIPT_DATA_NUM_1": 11,
+			"TAG_SCRIPT_DATA_NUM_2": 11
 		}
 	},
 	{
@@ -1393391,8 +1393284,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 50,
-			"TAG_SCRIPT_DATA_NUM_3": 50
+			"TAG_SCRIPT_DATA_NUM_1": 40,
+			"TAG_SCRIPT_DATA_NUM_3": 40
 		}
 	},
 	{
@@ -1393453,7 +1393346,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez un volumateur aléatoire avec <b>Magnétisme</b>. Au début de chaque tour, vous en obtenez un autre.",
@@ -1393475,7 +1393368,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez une corrosion fangeuse. Vous obtenez une corrosion fangeuse quand vous vous défaussez d’un sort.",
@@ -1393503,7 +1393396,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 3,
-		"spellSchool": "LESSER_TRINKET",
+		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "À la fin de votre tour, donne +{0}/+{1} à vos serviteurs. <i>(Double au début de chaque tour !)</i>",
 		"mechanics": [
@@ -1393512,8 +1393405,8 @@
 			"END_OF_TURN"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -1393566,7 +1393459,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez 2 volumateurs aléatoires avec <b>Magnétisme</b>. Répète cet effet au début de chaque tour.",
@@ -1394234,7 +1394127,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Vous obtenez 2 requins narquois. Chaque fois qu’un appât meurt, donne +{0}/+{1} à vos Bêtes et améliore cette carte.",
@@ -1395302,15 +1395195,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 2,
-		"health": 6,
-		"text": "Chaque fois que vous jouez une carte, gagne +{0} ATQ.",
+		"attack": 6,
+		"health": 2,
+		"text": "Gagne +{1} PV chaque fois que vous jouez une carte.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsPremiumDbfId": 134705,
 		"audio2": {
@@ -1395357,15 +1395250,15 @@
 			"ALL"
 		],
 		"techLevel": 2,
-		"attack": 4,
-		"health": 12,
-		"text": "Chaque fois que vous jouez une carte, gagne +{0} ATQ.",
+		"attack": 12,
+		"health": 4,
+		"text": "Gagne +{1} PV chaque fois que vous jouez une carte.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 134704,
 		"premium": true,
@@ -1395622,15 +1395515,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 3,
-		"health": 3,
+		"attack": 4,
+		"health": 4,
 		"text": "A +{0}/+{1} pour chaque <b>Cri de guerre</b> que vous avez déclenché pendant cette partie <i>(où qu’il soit)</i>.",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsPremiumDbfId": 134711,
 		"referencedTags": [
@@ -1395680,15 +1395573,15 @@
 			"ALL"
 		],
 		"techLevel": 3,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "A +{0}/+{1} pour chaque <b>Cri de guerre</b> que vous avez déclenché pendant cette partie <i>(où qu’il soit)</i>.",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 134710,
 		"premium": true,
@@ -1395862,7 +1395755,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "A +3/+3 pour chaque carte dont votre héroïne ou héros s’est défaussé pendant cette partie. <i>({1})</i>",
+		"text": "A +3/+2 pour chacune des cartes dont votre héroïne ou héros s’est défaussé pendant cette partie. <i>{1}</i>",
 		"otherTags": [
 			"CARES_ABOUT_DISCARDS_THIS_GAME"
 		]
@@ -1395946,7 +1395839,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "A +3/+3 pour chaque carte dont votre héroïne ou héros s’est défaussé pendant cette partie. <i>({1})</i>",
+		"text": "A +3/+2 pour chacune des cartes dont votre héroïne ou héros s’est défaussé pendant cette partie. <i>{1}</i>",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}

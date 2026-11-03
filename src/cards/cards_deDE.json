@@ -28974,15 +28974,12 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "Vernichtet einen Diener und belebt ihn dann mit vollem Leben wieder.",
+		"text": "Vernichtet einen nicht-<b>legendären</b> Diener und belebt ihn dann mit vollem Leben wieder.",
 		"flavor": "Wie geboren werden, nur ist man dabei schon erwachsen und war gerade eben noch mausetot.",
 		"artist": "Dan Scott",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		],
 		"audio2": {
 			"BASIC_play": {
@@ -123829,7 +123826,7 @@
 		"faction": "ALLIANCE",
 		"attack": 3,
 		"health": 3,
-		"text": "<b>Todesröcheln:</b> Ruft\neine Kopie (1/1) eines Dieners aus Eurer Hand herbei.",
+		"text": "<b>Todesröcheln:</b> Ruft einen Diener aus Eurer Hand herbei. Setzt seine Werte auf 1/1.",
 		"flavor": "Er kann aus absolut allem eine Kerze machen.",
 		"mechanics": [
 			"DEATHRATTLE"
@@ -356448,7 +356445,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "[x]<b>Questreihe:</b>\nZieht 4 Karten in einem Zug.\n<b>Belohnung:</b>\nVerringert die Kosten der\ngezogenen Karten um (1).",
+		"text": "[x]<b>Questreihe:</b>\nZieht 5 Karten in einem Zug.\n<b>Belohnung:</b>\nVerringert die Kosten der\ngezogenen Karten um (1).",
 		"flavor": "Endlich. Die letzte Hearthstone-Karte.",
 		"mechanics": [
 			"QUESTLINE",
@@ -356478,7 +356475,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "[x]<b>Questreihe:</b>\nZieht 5 Karten in einem Zug.\n<b>Belohnung:</b>\nVerringert die Kosten der\ngezogenen Karten um (1).",
+		"text": "<b>Questreihe:</b> Zieht 6 Karten in einem Zug. <b>Belohnung:</b> Verringert die Kosten der gezogenen Karten um (1).",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -360926,27 +360923,13 @@
 		"cost": 6,
 		"attack": 5,
 		"health": 5,
-		"text": "<b>Gottesschild</b>. Nachdem ein befreundeter Diener <b>Gottesschild</b> verloren hat: Verleiht einem Diener auf Eurer Hand +5/+5.",
+		"text": "<b>Gottesschild</b>. Verleiht einem Diener auf Eurer Hand +5/+5, nachdem ein befreundeter Diener <b>Gottesschild</b> verloren hat.",
 		"flavor": "„Mein Glaube und mein Mut werden mich schützen. Und durch meine Ehre und mein Opfer wird sich ein anderer an meiner statt erheben.“",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Gottesschild</b>. Nachdem ein befreundeter Diener <b>Gottesschild</b> verloren hat:",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "Verleiht einem Diener auf Eurer Hand +5/+5.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -377238,7 +377221,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "[x]<b>Questreihe:</b>\nZieht 5 Karten in einem Zug.\n<b>Belohnung:</b>\nDämonentöter Kurtrus",
+		"text": "<b>Questreihe:</b> Zieht 6 Karten in einem Zug. <b>Belohnung:</b> Dämonentöter Kurtrus.",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -577524,7 +577507,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "<b>Kampfschrei:</b> Verringert die Kosten von Karten, die Ihr von Eurem Gegner kopiert habt, um (3).",
+		"text": "<b>Kampfschrei:</b> Verringert die Kosten von Karten, die Ihr von Eurem Gegner kopiert habt, um (2).",
 		"flavor": "Dave, wir sehen doch, dass der Brief gefälscht ist – das ist deine Handschrift. Und nimm die blöde Kapuze ab, das ist echt peinlich.",
 		"mechanics": [
 			"BATTLECRY"
@@ -605026,7 +605009,7 @@
 			"PRIEST"
 		],
 		"set": "Revendreth",
-		"text": "Kostet (3) weniger."
+		"text": "Kostet (2) weniger."
 	},
 	{
 		"dbfId": 78405,
@@ -632027,25 +632010,12 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 4,
-		"text": "Nachdem ein befreundeter Untoter gestorben ist: Zieht eine Karte.",
+		"text": "Zieht eine Karte, nachdem ein befreundeter Untoter gestorben ist.",
 		"flavor": "Ich sehe tote Diener. Eine ganze MASSE toter Diener.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
-		"assembleHalves": {
-			"first": {
-				"text": "Nachdem ein befreundeter Untoter gestorben ist:",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "Zieht eine Karte.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -893690,7 +893660,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -893743,7 +893713,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -954594,15 +954564,12 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "Vernichtet einen Diener und belebt ihn dann mit vollem Leben wieder.",
+		"text": "Vernichtet einen nicht-<b>legendären</b> Diener und belebt ihn dann mit vollem Leben wieder.",
 		"flavor": "Wie geboren werden, nur ist man dabei schon erwachsen und war gerade eben noch mausetot.",
 		"artist": "Dan Scott",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		],
 		"audio2": {
 			"BASIC_play": {
@@ -963340,16 +963307,16 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 8,
+		"attack": 12,
+		"health": 12,
 		"text": "<b>Kampfschrei und Todesröcheln:</b> Verleiht Dienern im Gasthaus +{0}/+{1} in diesem Spiel.",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 12,
+			"TAG_SCRIPT_DATA_NUM_2": 12
 		},
 		"artist": "Joseph Weston",
 		"battlegroundsPremiumDbfId": 103699,
@@ -963394,16 +963361,16 @@
 			"DEMON"
 		],
 		"techLevel": 7,
-		"attack": 16,
-		"health": 16,
+		"attack": 24,
+		"health": 24,
 		"text": "<b>Kampfschrei und Todesröcheln:</b> Verleiht Dienern im Gasthaus +{0}/+{1} in diesem Spiel.",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 24,
+			"TAG_SCRIPT_DATA_NUM_2": 24
 		},
 		"artist": "Joseph Weston",
 		"battlegroundsNormalDbfId": 103698,
@@ -963450,8 +963417,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 7,
+		"attack": 11,
+		"health": 11,
 		"text": "[x]<b>Mobilisieren:</b> Fügt dem Ziel und\neinem benachbarten Diener\nSchaden zu, der dem Angriff\n dieses Dieners entspricht.",
 		"mechanics": [
 			"BACON_RALLY",
@@ -963500,8 +963467,8 @@
 			"DRAGON"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 14,
+		"attack": 22,
+		"health": 22,
 		"text": "<b>Mobilisieren:</b> Fügt dem Ziel und seinen Nachbarn Schaden zu, der dem Angriff dieses Dieners entspricht.",
 		"mechanics": [
 			"BACON_RALLY",
@@ -963871,12 +963838,18 @@
 		"races": [
 			"MURLOC"
 		],
+		"techLevel": 2,
+		"isBaconPool": true,
 		"attack": 5,
 		"health": 3,
-		"text": "Verleiht einem Diener auf Eurer Hand +2/+2, wenn dieser Diener einen Diener vernichtet.",
+		"text": "Verleiht einem Diener auf Eurer Hand +{0}/+{1}, wenn dieser Diener einen Diener vernichtet.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
+		},
 		"artist": "Tiffany Chiu",
 		"battlegroundsPremiumDbfId": 103713,
 		"audio2": {
@@ -963923,10 +963896,14 @@
 		"techLevel": 2,
 		"attack": 10,
 		"health": 6,
-		"text": "Verleiht einem Diener auf Eurer Hand +4/+4, wenn dieser Diener einen Diener vernichtet.",
+		"text": "Verleiht einem Diener auf Eurer Hand +{0}/+{1}, wenn dieser Diener einen Diener vernichtet.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
+		},
 		"artist": "Tiffany Chiu",
 		"battlegroundsNormalDbfId": 103712,
 		"premium": true,
@@ -971392,7 +971369,7 @@
 		"text": "Wählt einen Diener. Verleiht allen Dienern desselben Typs +{0}/+{1}.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"otherTags": [
 			"TARGETS_MINION"
@@ -973960,7 +973937,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "TAVERN",
 		"techLevel": 6,
 		"isBaconPool": true,
@@ -984046,15 +984023,15 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "TAVERN",
 		"techLevel": 4,
 		"isBaconPool": true,
 		"text": "Verleiht einem befreundeten Diener jedes Typs +{0}/+{1}.",
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Inès (Ourka) Rotzinger",
 		"otherTags": [
@@ -1012570,7 +1012547,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 6,
 		"health": 6,
 		"text": "Verleiht Elementaren im Gasthaus in diesem Spiel jedes Mal +{0}/+{1}, wenn Ihr einen Gasthauszauber wirkt.",
 		"mechanics": [
@@ -1012578,7 +1012555,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsPremiumDbfId": 107940,
@@ -1012623,7 +1012600,7 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 12,
 		"health": 12,
 		"text": "Verleiht Elementaren im\nGasthaus in diesem Spiel jedes Mal zweimal +{0}/+{1}, wenn Ihr [x]einen Gasthauszauber wirkt.",
 		"mechanics": [
@@ -1012631,7 +1012608,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 107939,
@@ -1045442,9 +1045419,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "Verleiht dem Diener, der sich auf Eurer Hand ganz links befindet, +3/+3, nachdem Ihr einen Diener ausgespielt habt.",
+		"text": "Verleiht dem Diener, der sich auf Eurer Hand ganz links befindet, +5/+5, nachdem Ihr einen Diener ausgespielt habt.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1045474,7 +1045452,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Verleiht 2 befreundeten Piraten jedes Mal, wenn Ihr Gold ausgegeben habt, +{0}/+{1}.",
@@ -1051501,25 +1051478,12 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 4,
-		"text": "Nachdem ein befreundeter Untoter gestorben ist: Zieht eine Karte.",
+		"text": "Zieht eine Karte, nachdem ein befreundeter Untoter gestorben ist.",
 		"flavor": "Ich sehe tote Diener. Eine ganze MASSE toter Diener.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
-		"assembleHalves": {
-			"first": {
-				"text": "Nachdem ein befreundeter Untoter gestorben ist:",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "Zieht eine Karte.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -1054343,8 +1054307,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 7,
-			"TAG_SCRIPT_DATA_NUM_2": 7
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"artist": "Vlad Botos"
 	},
@@ -1054557,7 +1054521,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Kampfbeginn:</b> Verdoppelt die Werte Eurer zwei Diener mit dem niedrigsten Angriff.",
@@ -1056052,7 +1056016,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Kampfbeginn:</b> Verleiht 3 befreundeten Elementaren „<b>Todesröcheln:</b> Ruft einen Florierenden Frostling herbei.“",
@@ -1056156,6 +1056119,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1056481,7 +1056445,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Zauberkunde:</b> Wählt einen Diener. Wählt dann einen Diener der nächsthöheren Stufe, in den sich dieser verwandelt.",
@@ -1062638,7 +1062602,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet einen zufälligen Diener mit <b>Kampfschrei</b>. Erhaltet zu Beginn jedes Zuges einen weiteren.",
@@ -1063878,16 +1063841,14 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 3,
 		"faction": "NEUTRAL",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]Hiermit wird ein <b>Blutedelstein</b>\nauf alle Eure Stacheleber\ngewirkt, nachdem 2 befreun[d]dete Diener in einem Kampf\nangegriffen haben. <i>(Noch {0}!)</i>",
+		"text": "Hiermit wird ein <b>Blutedelstein</b> auf alle Eure Stacheleber gewirkt, nachdem ein befreundeter Stacheleber in einem Kampf angegriffen hat.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
-		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
-		},
 		"referencedTags": [
 			"BACON_BLOOD_GEM_TOOLTIP"
 		]
@@ -1091644,7 +1091605,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Ruft jedes Mal, wenn ein befreundeter\nStacheleber stirbt, einen Golem\nmit Werten herbei, die dessen\n<b>Blutedelsteinen</b> entsprechen.",
@@ -1091752,7 +1091713,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "Erhaltet 2 Gold. Das Gasthaus bietet nicht länger Karten der Stufe 1 oder 2 an.",
+		"text": "Erhaltet 3 Gold. Das Gasthaus bietet nicht länger Karten der Stufe 1 oder 2 an.",
 		"mechanics": [
 			"AURA"
 		],
@@ -1091814,7 +1091775,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Dreht das Rad von Yogg-Saron. Dreht es zu Beginn jedes Zuges erneut.",
@@ -1093332,7 +1093293,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 7,
@@ -1093385,7 +1093346,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 14,
 		"text": "Von Eurer Hand ausgespielte <b>Blutedelsteine</b> wirken dreimal.",
@@ -1121988,10 +1121949,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "Verleiht dem Diener, der sich auf Eurer Hand ganz links befindet, +6/+6, nachdem Ihr einen Diener ausgespielt habt.",
+		"text": "Verleiht dem Diener, der sich auf Eurer Hand ganz links befindet, +10/+10, nachdem Ihr einen Diener ausgespielt habt.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		]
@@ -1122052,8 +1122013,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		}
 	},
 	{
@@ -1124170,15 +1124131,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "<b>Kampfbeginn:</b> Verleiht Euren anderen Elementaren +{0}/+{1}. <i>(Wird verbessert, nachdem Ihr einen Elementar ausspielt!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3,
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"artist": "Joseph Weston",
@@ -1124224,15 +1124185,15 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 12,
+		"attack": 16,
+		"health": 16,
 		"text": "<b>Kampfbeginn:</b> Verleiht Euren anderen Elementaren +{0}/+{1}. <i>(Wird verbessert, nachdem Ihr einen Elementar ausspielt!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"battlegroundsNormalDbfId": 115581,
@@ -1153027,27 +1152988,13 @@
 		],
 		"attack": 4,
 		"health": 5,
-		"text": "Nachdem Ihr einen Elementar herbeigerufen habt: Fügt einem zufälligen Feind 3 Schaden zu.",
+		"text": "Fügt einem zufälligen Feind 3 Schaden zu, nachdem Ihr einen Elementar herbeigerufen habt.",
 		"flavor": "Die Geschichte wird euch umpusten.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Drew Hill",
-		"assembleHalves": {
-			"first": {
-				"text": "Nachdem Ihr einen Elementar herbeigerufen habt:",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "Fügt einem zufälligen Feind 3 Schaden zu.",
-				"mechanics": [
-					"DEAL_DAMAGE"
-				]
-			}
-		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1153398,7 +1153345,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "[x]<b>Quest:</b> Wirkt 4 Heiligzauber.\n<b>Belohnung:</b> Odem des Lebens.\n<b>Quest:</b> Wirkt 4 Schattenzauber.\n<b>Belohnung:</b> Berührung des Todes.",
+		"text": "<b>Quest:</b> Wirkt 6 Heiligzauber. <b>Belohnung:</b> Odem des Lebens. <b>Quest:</b> Wirkt 6 Schattenzauber. <b>Belohnung:</b> Berührung des Todes.",
 		"flavor": "6. Tag. Heute gerieten wir auf eine Lichtung, die von miteinander konkurrierender Heilig- und Schattenmagie zerrissen wurde. Im Zentrum standen zwei gewaltige Elementare – wie zwei Seiten derselben Medaille. Ich hoffe, wir kehren eines Tages hierher zurück und stellen fest, dass dieser gequälte Ort Frieden gefunden hat.",
 		"mechanics": [
 			"QUEST"
@@ -1153425,7 +1153372,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Quest:</b>\nWirkt 4 Heiligzauber.\n<b>Belohnung:</b> Odem\ndes Lebens.",
+		"text": "<b>Quest:</b> Wirkt 6 Heiligzauber. <b>Belohnung:</b> Odem des Lebens.",
 		"mechanics": [
 			"QUEST"
 		],
@@ -1157698,7 +1157645,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Jede vierte Karte, die Ihr kauft, kostet Leben statt Gold <i>(noch {0}!)</i>.",
@@ -1158316,7 +1158263,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet eine einfache Kopie eines zufälligen befreundeten Dieners. Wird zu Beginn jedes Zuges wiederholt.",
@@ -1159259,7 +1159206,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet einen Überraschungselementar. <i>(Es werden weitere erscheinen, wenn Ihr sie am wenigsten erwartet …)</i>",
@@ -1163093,7 +1163040,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "<b>Kampfschrei:</b> Verringert die Kosten von Karten, die Ihr von Eurem Gegner kopiert habt, um (3).",
+		"text": "<b>Kampfschrei:</b> Verringert die Kosten von Karten, die Ihr von Eurem Gegner kopiert habt, um (2).",
 		"flavor": "Dave, wir sehen doch, dass der Brief gefälscht ist – das ist deine Handschrift. Und nimm die blöde Kapuze ab, das ist echt peinlich.",
 		"mechanics": [
 			"BATTLECRY"
@@ -1171086,12 +1171033,9 @@
 		"set": "Day_of_rebirth",
 		"rarity": "Common",
 		"cost": 8,
-		"text": "[x]Setzt die Werte eines be[d]freundeten Dieners auf 1/1.\nFüllt Eure Seite des Schlacht[d]felds mit Kopien davon.",
+		"text": "Setzt die Werte eines befreundeten nicht-<b>legendären</b> Dieners auf 1/1. Füllt Eure Seite des Schlachtfelds mit Kopien davon.",
 		"flavor": "DER KÖDER ZEIGT KEINE WIRKUNG MEHR.",
-		"artist": "Slawomir Maniak",
-		"otherTags": [
-			"TARGETS_FRIENDLY_MINION"
-		]
+		"artist": "Slawomir Maniak"
 	},
 	{
 		"dbfId": 118407,
@@ -1171467,15 +1171411,12 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Todesröcheln:</b> Ruft ein leicht angeknackstes Ei herbei.\n<i>(Knackt es 5-mal an, um ein\nWildtier (20/20) mit <b>Spott</b> schlüpfen zu lassen!)</i>",
+		"text": "<b>Todesröcheln:</b> Ruft ein leicht angeknackstes Ei herbei. <i>(Knackt es 5-mal an, um ein Wildtier (20/20) schlüpfen zu lassen!)</i>",
 		"flavor": "Khelos wartet seit tausenden von Jahren darauf, zu schlüpfen. Hoffentlich müsst Ihr nicht so lange warten.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122542,
 			122543,
@@ -1171755,10 +1171696,6 @@
 		],
 		"attack": 20,
 		"health": 20,
-		"text": "<b>Spott</b>",
-		"mechanics": [
-			"TAUNT"
-		],
 		"artist": "Vlad Botos",
 		"audio2": {
 			"BASIC_attack": {
@@ -1191070,7 +1191007,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Quest:</b> Wirkt 4 Schattenzauber.\n<b>Belohnung:</b> Berührung des Todes.",
+		"text": "<b>Quest:</b> Wirkt 6 Schattenzauber. <b>Belohnung:</b> Berührung des Todes.",
 		"mechanics": [
 			"QUEST"
 		],
@@ -1198025,7 +1197962,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1198147,7 +1198083,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1198355,10 +1198291,10 @@
 			"BACON_BUFFS_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 1,
-			"TAG_SCRIPT_DATA_NUM_5": 6
+			"TAG_SCRIPT_DATA_NUM_5": 5
 		}
 	},
 	{
@@ -1206298,7 +1206234,7 @@
 		"collectible": true,
 		"set": "Across_the_timeways",
 		"rarity": "Epic",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "SHADOW",
 		"text": "Teilt einen zufälligen Diener auf Eurer Hand in zwei Hälften.",
 		"flavor": "Das ist wirklich meine bessere Hälfte.",
@@ -1211659,7 +1211595,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Erhaltet einen Verscherbelementar.\n Erhaltet zu Beginn jedes\nZuges einen weiteren.",
@@ -1212154,7 +1212090,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Kreiert einen eigenen Untoten. Wird zu Beginn jedes 2. Zuges wiederholt. <i>(Noch {0} Züge!)</i>",
@@ -1212251,24 +1212186,9 @@
 		"flavor": "Bronze sieht nicht nur an Statuen gut aus.",
 		"mechanics": [
 			"BATTLECRY",
-			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Zoltan Boros",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Spott</b>. <b>Kampfschrei:</b>",
-				"mechanics": [
-					"BATTLECRY",
-					"TAUNT"
-				]
-			},
-			"second": {
-				"text": "Verdoppelt das Leben dieses Dieners.",
-				"mechanics": [
-				]
-			}
-		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1212651,7 +1212571,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet Dr. Bumms Monster. Erhaltet zu Beginn jedes Zuges ein weiteres.",
@@ -1213938,9 +1213858,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "<b>Entdeckt</b> einen zufälligen Diener mit Typ der Stufe 5. Erhaltet zu Beginn jedes Zuges eine weitere Kopie davon.",
+		"text": "<b>Entdeckt</b> einen zufälligen Diener mit Typ der Stufe 6. Erhaltet zu Beginn jedes Zuges eine weitere Kopie davon.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1214057,7 +1213978,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Jedes Mal, wenn ein befreundetes Wildtier angreift, erhält es +{0} Angriff, und dieser Effekt wird dauerhaft verbessert.",
@@ -1214065,7 +1213986,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4
 		},
 		"artist": "Ira Fidler"
 	},
@@ -1216569,7 +1216490,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ein Gasthauszauber kostet jeden Zug Leben statt Gold. <i>(Noch {0}!)</i>",
@@ -1217661,12 +1217582,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "Wenn Ihr das erste Mal in jedem Zug einen Diener kauft, erhaltet Ihr einen <b>magnetischen</b> Satelliten mit seinen Werten.",
+		"text": "Erhaltet einen <b>magnetischen</b> Satelliten mit seinen Werten, nachdem Ihr einen Diener gekauft habt. <i>(Zweimal pro Zug.)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 2
+		},
 		"artist": "Kevin Sidharta",
 		"referencedTags": [
 			"MODULAR"
@@ -1217768,7 +1217693,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet eine Geladene Czarina. Eure Geladenen Czarinas verleihen auch Leben.",
@@ -1219000,10 +1218924,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "<b>Rache (7):</b> Ruft 2 Käfer ({0}/{1}) herbei. Verleiht\nihnen <b>Spott</b>.",
+		"text": "<b>Rache (8):</b> Ruft 2 Käfer ({0}/{1}) herbei. Verleiht ihnen <b>Spott</b>.",
 		"mechanics": [
 			"AVENGE"
 		],
@@ -1222005,7 +1221929,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet einen Schlundzauberwirker. Erhaltet jedes Mal {0} Gold, wenn Ihr einen Diener außerhalb des Kampfes vernichtet habt.",
@@ -1222013,7 +1221937,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Alex Horley Orlandelli"
 	},
@@ -1234357,14 +1234281,14 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 4,
+		"health": 8,
 		"text": "Spult den von Eurem Helden erlittenen Schaden zurück und verleiht Dienern im Gasthaus für diesen Zug +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"artist": "Joseph Weston",
@@ -1234410,14 +1234334,14 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 12,
-		"health": 12,
+		"attack": 8,
+		"health": 16,
 		"text": "Spult den von Eurem Helden erlittenen Schaden zurück und verleiht Dienern im Gasthaus für diesen Zug +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 121687,
@@ -1243742,14 +1243666,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Todesröcheln:</b> Ruft ein stärker angeknackstes Ei herbei.\n<i>(Knackt es 4-mal an, um ein\nWildtier (20/20) mit <b>Spott</b> schlüpfen zu lassen!)</i>",
+		"text": "<b>Todesröcheln:</b> Ruft ein stärker angeknackstes Ei herbei. <i>(Knackt es noch 4-mal an, um ein Wildtier (20/20) schlüpfen zu lassen!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122543,
 			122545,
@@ -1243800,14 +1243721,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Todesröcheln:</b> Ruft ein stark angeknackstes Ei herbei.\n<i>(Knackt es 3-mal an, um ein\nWildtier (20/20) mit <b>Spott</b> schlüpfen zu lassen!)</i>",
+		"text": "<b>Todesröcheln:</b> Ruft ein stark angeknackstes Ei herbei. <i>(Knackt es noch 3-mal an, um ein Wildtier (20/20) schlüpfen zu lassen!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122545,
 			122546,
@@ -1243870,14 +1243788,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Todesröcheln:</b> Ruft ein äußerst angeknackstes Ei herbei.\n<i>(Knackt es 2-mal an, um ein\nWildtier (20/20) mit <b>Spott</b> schlüpfen zu lassen!)</i>",
+		"text": "<b>Todesröcheln:</b> Ruft ein äußerst angeknackstes Ei herbei. <i>(Knackt es noch 2-mal an, um ein Wildtier (20/20) schlüpfen zu lassen!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122546,
 			118495
@@ -1243926,14 +1243841,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Todesröcheln:</b> Ruft Khelos (20/20) mit <b>Spott</b> herbei. <i>(Knackt es an, um ihn schlüpfen zu lassen!)</i>",
+		"text": "<b>Todesröcheln:</b> Ruft Khelos (20/20) herbei. <i>(Knackt es an, um ihn schlüpfen zu lassen!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			118495
 		],
@@ -1244285,15 +1244197,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 3,
-		"health": 8,
+		"attack": 4,
+		"health": 9,
 		"text": "<b>Mobilisieren:</b>\nEure <b>Blutedelsteine</b> verleihen in diesem Spiel zusätzlich +{0}/+{1}.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 1
 		},
 		"artist": "Kleston Marques",
 		"battlegroundsPremiumDbfId": 122567,
@@ -1244341,15 +1244253,15 @@
 			"QUILBOAR"
 		],
 		"techLevel": 5,
-		"attack": 6,
-		"health": 16,
+		"attack": 8,
+		"health": 18,
 		"text": "<b>Mobilisieren:</b>\nEure <b>Blutedelsteine</b> verleihen in diesem Spiel zusätzlich +{0}/+{1}.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsNormalDbfId": 122566,
 		"premium": true,
@@ -1254146,7 +1254058,7 @@
 		"collectible": true,
 		"set": "Cataclysm",
 		"rarity": "Epic",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "FIRE",
 		"text": "Fügt allen Dienern\n$1 Schaden zu. <i>(Wird für jeden Diener auf dem Schlachtfeld verbessert.)</i>",
 		"flavor": "10-mal so schlimm wie Zenti-mieren.",
@@ -1259809,15 +1259721,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 10,
 		"health": 3,
 		"text": "<b>Todesröcheln:</b>\nVerleiht Euren Dienern +{0}/+{1}.\nGoldene Diener behalten dies dauerhaft.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsPremiumDbfId": 123596,
 		"audio2": {
@@ -1259855,15 +1259767,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 20,
 		"health": 6,
 		"text": "<b>Todesröcheln:</b> Verleiht Euren Dienern zweimal +{0}/+{1}. Goldene Diener behalten dies dauerhaft.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 123595,
 		"premium": true,
@@ -1260288,27 +1260200,13 @@
 		],
 		"attack": 3,
 		"health": 1,
-		"text": "<b>Gottesschild</b>. Nachdem dieser Diener <b>Gottesschild</b> verloren hat: Verleiht Euren Rekruten der Silbernen Hand +1 Leben in diesem Spiel.",
+		"text": "<b>Gottesschild</b>. Verleiht Euren Rekruten der Silbernen Hand +1 Leben in diesem Spiel, nachdem dieser Diener <b>Gottesschild</b> verloren hat.",
 		"flavor": "Glückwunsch. Ihr werdet gerade gerettet. Bitte leistet keinen Widerstand.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Milica Celikovic",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Gottesschild</b>. Nachdem dieser Diener <b>Gottesschild</b> verloren hat:",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "Verleiht Euren Rekruten der Silbernen Hand +1 Leben in diesem Spiel.",
-				"mechanics": [
-				]
-			}
-		},
 		"audio2": {
 			"BASIC_attack": {
 				"2H_EpicMace_Underlay_Attack": {
@@ -1282352,7 +1282250,7 @@
 		"rarity": "Epic",
 		"cost": 5,
 		"attack": 4,
-		"health": 4,
+		"health": 3,
 		"text": "<b>Vorbereiten</b>. <b>Kampfschrei:</b> Wenn Ihr in diesem Zug einen Zauber gewirkt habt, wirkt Ihr 2 zufällige <b>Magiergeheimnisse</b>.",
 		"flavor": "Willkommen in Dalaran, wo die Zauber erfunden sind und die Punkte egal!",
 		"mechanics": [
@@ -1282564,8 +1282462,8 @@
 		"collectible": true,
 		"set": "Violet_hold",
 		"rarity": "Rare",
-		"cost": 5,
-		"attack": 5,
+		"cost": 6,
+		"attack": 6,
 		"health": 3,
 		"text": "<b>Vorbereiten</b>. <b>Kampfschrei:</b> Vernichtet all Eure anderen Diener. Zieht für jeden vernichteten Diener eine Karte und füllt einen Manakristall wieder auf.",
 		"flavor": "Knochensägerin sagt: „Säg Knochen!“",
@@ -1288292,8 +1288190,6 @@
 		"races": [
 			"MURLOC"
 		],
-		"techLevel": 2,
-		"isBaconPool": true,
 		"attack": 3,
 		"health": 5,
 		"text": "<b>Mobilisieren:</b> Ruft den Murloc mit dem höchsten Angriff auf Eurer Hand nur für diesen Kampf herbei.",
@@ -1297753,15 +1297649,17 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 15,
-		"health": 15,
-		"text": "<b>Mobilisieren:</b> Verleiht\neinem befreundeten Diener jedes Typs dauerhaft +{0}/+{1}.",
+		"attack": 10,
+		"health": 10,
+		"text": "<b>Mobilisieren:</b> Verleiht einem befreundeten Diener jedes Typs dauerhaft +{0}/+{1} und verbessert diese Karte.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"artist": "Slawomir Maniak",
 		"battlegroundsPremiumDbfId": 127110,
@@ -1297822,15 +1297720,17 @@
 			"ALL"
 		],
 		"techLevel": 7,
-		"attack": 30,
-		"health": 30,
-		"text": "<b>Mobilisieren:</b> Verleiht einem befreundeten Diener jedes Typs zweimal dauerhaft +{0}/+{1}.",
+		"attack": 20,
+		"health": 20,
+		"text": "<b>Mobilisieren:</b> Verleiht einem befreundeten Diener jedes Typs zweimal dauerhaft +{0}/+{1} und verbessert diese Karte zweimal.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"battlegroundsNormalDbfId": 127109,
 		"premium": true,
@@ -1298027,9 +1297927,9 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 16,
-		"health": 32,
-		"text": "Nachdem Ihr einen\nDiener im Kampf herbeigerufen habt, erhält er die maximalen Werte dieses Dieners\n<i>(3-mal pro Kampf)</i>.",
+		"attack": 15,
+		"health": 30,
+		"text": "Nachdem Ihr einen anderen Diener im Kampf herbeigerufen habt, erhält er die doppelten maximalen Werte dieses Dieners. <i>(3-mal pro Kampf.)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1298078,9 +1297978,9 @@
 			"BEAST"
 		],
 		"techLevel": 7,
-		"attack": 32,
-		"health": 64,
-		"text": "Nachdem Ihr einen\nDiener im Kampf herbeigerufen habt, erhält er die doppelten maximalen Werte dieses Dieners\n<i>(3-mal pro Kampf)</i>.",
+		"attack": 30,
+		"health": 60,
+		"text": "Nachdem Ihr einen anderen Diener im Kampf herbeigerufen habt, erhält er die dreifachen maximalen Werte dieses Dieners. <i>(3-mal pro Kampf.)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1307953,8 +1307853,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 13,
+		"attack": 17,
+		"health": 23,
 		"text": "Verleiht dem Diener ganz\nlinks auf Eurer Hand am Ende Eures Zuges die Werte dieses Dieners.",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -1308002,8 +1307902,8 @@
 			"MURLOC"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 26,
+		"attack": 34,
+		"health": 46,
 		"text": "Verleiht dem Diener ganz\nlinks auf Eurer Hand am Ende Eures Zuges die doppelten Werte dieses Dieners.",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -1308399,7 +1308299,7 @@
 		"text": "Verleiht Euren Dienern +{0}/+{1}. Verleiht goldenen Dienern zusätzlich +{0}/+{1}.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Anton Zemskov"
 	},
@@ -1331099,7 +1330999,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 9,
+		"cost": 10,
 		"attack": 9,
 		"health": 7,
 		"text": "<b>Kampfschrei:</b> Verringert die Kosten einer Karte auf Eurer Hand um (5). Wandert mit (1) weniger Reduktion nach links und rechts weiter.",
@@ -1341796,7 +1341696,7 @@
 		"rarity": "Common",
 		"cost": 2,
 		"spellSchool": "SHADOW",
-		"text": "Ruft in 2 Zügen 2 C’Thraxxi (3/5) mit <b>Spott</b> herbei.",
+		"text": "Ruft in 2 Zügen 2 C’Thraxxi (2/4) mit <b>Spott</b> herbei.",
 		"flavor": "Ihr beide habt 2 Züge Zeit, um Euch abzutrocknen und an den Esstisch zu setzen.",
 		"mechanics": [
 			"OBJECTIVE"
@@ -1341843,9 +1341743,9 @@
 			"WARLOCK"
 		],
 		"set": "Black_empire",
-		"cost": 4,
-		"attack": 3,
-		"health": 5,
+		"cost": 3,
+		"attack": 2,
+		"health": 4,
 		"text": "<b>Spott</b>",
 		"mechanics": [
 			"TAUNT"
@@ -1342214,7 +1342114,7 @@
 		"set": "Black_empire",
 		"rarity": "Common",
 		"cost": 3,
-		"attack": 2,
+		"attack": 3,
 		"durability": 2,
 		"text": "Nachdem Euer Held angegriffen hat: Erhaltet einen Turbogang.",
 		"flavor": "Verödet sofort jede Wunde, die er verursacht.",
@@ -1342252,7 +1342152,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Rare",
-		"cost": 2,
+		"cost": 1,
 		"text": "Lässt Euch einen Mech <b>zusammenstellen</b>. Erhaltet einen Turbogang.",
 		"flavor": "miM ,nirad etgasrev nalP snoraS-ggoY hcod ,nereirtsehcro uz norimiM nov doT ned ,iebad glofrE noraS-ggoY ettah ,etllos nreuad ednesuatrhaJ ererhem se nnew hcuA",
 		"artist": "Matt Dixon",
@@ -1342493,27 +1342393,13 @@
 		"cost": 6,
 		"attack": 5,
 		"health": 5,
-		"text": "<b>Gottesschild</b>. Nachdem ein befreundeter Diener <b>Gottesschild</b> verloren hat: Verleiht einem Diener auf Eurer Hand +5/+5.",
+		"text": "<b>Gottesschild</b>. Verleiht einem Diener auf Eurer Hand +5/+5, nachdem ein befreundeter Diener <b>Gottesschild</b> verloren hat.",
 		"flavor": "„Mein Glaube und mein Mut werden mich schützen. Und durch meine Ehre und mein Opfer wird sich ein anderer an meiner statt erheben.“",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Gottesschild</b>. Nachdem ein befreundeter Diener <b>Gottesschild</b> verloren hat:",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "Verleiht einem Diener auf Eurer Hand +5/+5.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -1342994,9 +1342880,9 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 7,
-		"attack": 7,
-		"health": 7,
+		"cost": 6,
+		"attack": 6,
+		"health": 6,
 		"text": "<b>Kampfschrei:</b> Erhaltet 20 Rüstung. Wandelt Eure Rüstung in 2 Zügen in einen Golem mit diesen Werten und <b>Spott</b> um.",
 		"flavor": "Ihr könnt Eure Rüstung auf die einfache oder die harte Tour ablegen.",
 		"mechanics": [
@@ -1345275,7 +1345161,7 @@
 		],
 		"attack": 4,
 		"health": 5,
-		"text": "Kostet (2) weniger für jede Karte mit <b>Combo</b>, die in diesem Zug gespielt wurde. <b>Kampfschrei:</b> Zieht eine Karte.",
+		"text": "Kostet (2) weniger für jede Karte mit <b>Combo</b>, die in diesem Zug gespielt wurde. <b>Kampfschrei:</b> Zieht 2 Karten.",
 		"flavor": "Die Regel „Es hat mehr Angst vor Euch, als Ihr vor ihm“ gilt hier NICHT.",
 		"mechanics": [
 			"BATTLECRY"
@@ -1345333,14 +1345219,14 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Common",
-		"cost": 3,
+		"cost": 4,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 4,
-		"health": 2,
-		"text": "<b>Todesröcheln:</b> Erhaltet 2 Larven, die 1 kosten und als <b><b>Combo</b></b> eine Heldenfähigkeit einer anderen Klasse auslösen.",
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Todesröcheln:</b> Erhaltet 2 Larven, die als <b><b>Combo</b></b> eine Heldenfähigkeit einer anderen Klasse auslösen. Sie kosten (0).",
 		"flavor": "Da kommen wir ins Schwärmen.",
 		"mechanics": [
 			"DEATHRATTLE",
@@ -1346729,10 +1346615,10 @@
 		"rarity": "Common",
 		"cost": 2,
 		"additionalCosts": {
-			"BLOODRUNE": 2
+			"BLOODRUNE": 3
 		},
 		"attack": 3,
-		"health": 3,
+		"health": 4,
 		"text": "<b>Lebensentzug</b>",
 		"flavor": "Ein kleiner Verlassener, der sich als Lord ausgibt ... Ich befehle Euch, kniet nieder!",
 		"mechanics": [
@@ -1347428,7 +1347314,7 @@
 		"rarity": "Common",
 		"cost": 5,
 		"spellSchool": "SHADOW",
-		"text": "Ruft eine Leerenschwinge (5/5) mit <b>Lebensentzug</b> herbei. <i>(Beim nächsten Schattenzauber, den Ihr ausspielt, wird dies wiederholt!)</i>",
+		"text": "Ruft 2 Leerenschwingen (3/4) mit <b>Lebensentzug</b> herbei. <i>(Beim nächsten Schattenzauber, den Ihr ausspielt, wird dies wiederholt!)</i>",
 		"flavor": "Ich mag keine Leereneier mit Speck.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0
@@ -1347477,13 +1347363,13 @@
 			"PRIEST"
 		],
 		"set": "Black_empire",
-		"cost": 5,
+		"cost": 3,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 5,
-		"health": 5,
+		"attack": 3,
+		"health": 4,
 		"text": "<b>Lebensentzug</b>",
 		"mechanics": [
 			"LIFESTEAL"
@@ -1349409,7 +1349295,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 6,
@@ -1349471,7 +1349357,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 12,
 		"text": "Verleiht Eurer <b>Gottheit</b> jedes Mal +{0}/+{1} und verbessert dies, wenn Ihr eine Karte abwerft.",
@@ -1352810,7 +1352696,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_2": 14
 		}
 	},
 	{
@@ -1352824,7 +1352710,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet jeweils 2 Diener der Stufe 1, 2 und 3 auf die Hand.",
@@ -1353260,8 +1353146,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -1353331,8 +1353217,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Arthur Bozonnet"
 	},
@@ -1353562,7 +1353448,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet einen\nzufälligen <b>Chromadrachen</b>. Wird zu Beginn jedes Zuges wiederholt.",
@@ -1353664,7 +1353550,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet {0} zufällige <b>Kopfgelder</b>. Wird zu Beginn jedes Zuges wiederholt.",
@@ -1353730,8 +1353616,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Grace Liu"
 	},
@@ -1353780,8 +1353666,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"artist": "Tanamaes Leejierasaes"
 	},
@@ -1353968,6 +1353854,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet einen <b>Blutedelstein</b>,\nder einem Stacheleber <b>Spott</b>, <b>Gottesschild</b> oder <b>Wiederkehr</b> verleiht. Wird zu Beginn jedes Zuges wiederholt.",
@@ -1366877,7 +1366764,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet eine Klonungsmuschel. Wird zu Beginn jedes {1}. Zuges wiederholt. <i>(Noch {0} Züge!)</i>",
@@ -1366909,8 +1366796,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Matt Dixon",
 		"otherTags": [
@@ -1366931,7 +1366818,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet einen Polarisierenden Beatboxer.",
@@ -1368290,7 +1368177,7 @@
 		],
 		"attack": 0,
 		"health": 1,
-		"text": "<b><b>Wiederkehr</b></b>. <b>Todesröcheln:</b> Verleiht allen Dienern auf Eurer Hand +1/+1.",
+		"text": "<b>Wiederkehr</b>. <b>Todesröcheln:</b> Verleiht allen Dienern auf Eurer Hand +1 Angriff.",
 		"flavor": "Ich erkenne Magenschmerzen, wenn ich sie sehe ...",
 		"mechanics": [
 			"CRAFTABLE_OUTPUT_POWER",
@@ -1368300,14 +1368187,14 @@
 		"artist": "Matt Dixon",
 		"assembleHalves": {
 			"first": {
-				"text": "<b><b>Wiederkehr</b></b>. <b>Todesröcheln:</b>",
+				"text": "<b>Wiederkehr</b>. <b>Todesröcheln:</b>",
 				"mechanics": [
 					"DEATHRATTLE",
 					"REBORN"
 				]
 			},
 			"second": {
-				"text": "Verleiht allen Dienern auf Eurer Hand +1/+1.",
+				"text": "Verleiht allen Dienern auf Eurer Hand +1 Angriff.",
 				"mechanics": [
 				]
 			}
@@ -1368482,7 +1368369,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Verleiht den Dienern im Gasthaus nach dem <b>Aktualisieren</b> in dieser Runde +{0}/+{1}.",
@@ -1368490,8 +1368377,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"artist": "Vlad Botos",
 		"referencedTags": [
@@ -1373396,7 +1373283,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 10,
+		"cost": 9,
 		"attack": 10,
 		"health": 10,
 		"text": "<b>Alter Gott.</b> <b>Kampfschrei:</b> Wenn Ihr in diesem Spiel 30 Mana für Diener ausgegeben habt, werdet Ihr 1 Zug lang <b>immun</b>.\n<i>({0} übrig!)</i>",
@@ -1374874,7 +1374761,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "+4/+4. Verdoppelt die Werte dieses Dieners in 2 Zügen."
+		"text": "+6/+6. Verdoppelt die Werte dieses Dieners in 2 Zügen."
 	},
 	{
 		"dbfId": 132203,
@@ -1374910,7 +1374797,7 @@
 		"set": "Battlegrounds",
 		"cost": 0,
 		"faction": "NEUTRAL",
-		"text": "<b>Kampfbeginn:</b> Verdoppelt das Leben dieses Dieners."
+		"text": "+15 Leben. <b>Kampfbeginn:</b> Verdoppelt das Leben dieses Dieners."
 	},
 	{
 		"dbfId": 132207,
@@ -1375331,7 +1375218,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "<b>Kampfbeginn:</b> Verdoppelt das Leben dieses Dieners.",
+		"text": "+15 Leben. <b>Kampfbeginn:</b> Verdoppelt das Leben dieses Dieners.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1376459,7 +1376346,7 @@
 		"cost": 10,
 		"attack": 12,
 		"health": 12,
-		"text": "<b>Alter Gott.</b> Wenn Ihr alle 4 C'Thun-Fähigkeiten in diesem Spiel ausgelöst habt, verdreifachen sich die Fähigkeiten dieses Dieners.",
+		"text": "<b>Alter Gott.</b> Wenn Ihr alle 4 C’Thun-Fähigkeiten in diesem Spiel ausgelöst habt, vervierfachen sich die Fähigkeiten dieses Dieners.",
 		"flavor": "„Amitut, Hüter von Amitus“/2 + (2*„Bebrüten“)/2 + („Der Unkennbare“/3)",
 		"artist": "Kevin Sidharta",
 		"availableAsSignature": true,
@@ -1376504,7 +1376391,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+2/+3"
+		"text": "+2/+2"
 	},
 	{
 		"dbfId": 132341,
@@ -1376517,7 +1376404,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+6/+9"
+		"text": "+8/+8"
 	},
 	{
 		"dbfId": 132342,
@@ -1376532,7 +1376419,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "Ruft 2 Fanatiker (2/3)\nmit <b>Spott</b> herbei.",
+		"text": "Ruft 2 Fanatiker (2/2) mit <b>Spott</b> herbei.",
 		"artist": "Stefan Bogdasarov",
 		"hideStats": true,
 		"referencedTags": [
@@ -1376582,7 +1376469,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "Verleiht 2 zufälligen anderen befreundeten Dienern +2/+3.",
+		"text": "Verleiht 2 zufälligen anderen befreundeten Dienern +2/+2.",
 		"artist": "Kevin Sidharta",
 		"hideStats": true
 	},
@@ -1376599,7 +1376486,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Verursacht 7 Schaden, der zufällig auf Feinde verteilt wird.",
+		"text": "Verursacht 6 Schaden, der zufällig auf Feinde verteilt wird.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376678,13 +1376565,13 @@
 		"cost": 3,
 		"attack": 3,
 		"health": 2,
-		"text": "<b>Kampfschrei:</b> Wenn Ihr mit dieser Karte auf der Hand 2 Schattenzauber gewirkt habt, könnt Ihr eine Fähigkeit von C’Thun auslösen. <i>(Noch {0}!)</i>",
+		"text": "<b>Kampfschrei:</b> Wenn Ihr mit dieser Karte auf der Hand einen Schattenzauber gewirkt habt, könnt Ihr eine Fähigkeit von C’Thun auslösen.",
 		"flavor": "Die Alten Götter kommen. Die Alten Götter kommen!",
 		"mechanics": [
 			"BATTLECRY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Ivo Campelo da Silva",
 		"availableAsSignature": true,
@@ -1376709,7 +1376596,7 @@
 		"rarity": "Legendary",
 		"cost": 2,
 		"attack": 2,
-		"health": 3,
+		"health": 2,
 		"text": "<b>Spott</b>",
 		"mechanics": [
 			"TAUNT"
@@ -1376905,7 +1376792,7 @@
 			"HUNTER"
 		],
 		"set": "Black_empire",
-		"text": "+1/+1."
+		"text": "+1 Angriff."
 	},
 	{
 		"dbfId": 132441,
@@ -1377086,7 +1376973,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "<b>Todesröcheln:</b> Verleiht Euren Dienern dauerhaft +2/+2."
+		"text": "<b>Todesröcheln:</b> Verleiht Euren Dienern dauerhaft +3/+3."
 	},
 	{
 		"dbfId": 132485,
@@ -1378610,8 +1378497,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 15,
+		"attack": 13,
+		"health": 17,
 		"text": "<b>Mobilisieren:</b> Ruft einen Golem mit den Werten dieses Dieners herbei. Er greift das Ziel zuerst an.",
 		"mechanics": [
 			"BACON_RALLY"
@@ -1378666,8 +1378553,8 @@
 			"QUILBOAR"
 		],
 		"techLevel": 7,
-		"attack": 12,
-		"health": 30,
+		"attack": 26,
+		"health": 34,
 		"text": "<b>Mobilisieren:</b> Ruft einen Golem mit den doppelten Werten dieses Dieners herbei. Er greift das Ziel zuerst an.",
 		"mechanics": [
 			"BACON_RALLY"
@@ -1378970,7 +1378857,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
+		"attack": 8,
 		"health": 8,
 		"text": "Jedes Mal, wenn Ihr einen Mech ausspielt, bindet Ihr einen Satelliten ({1}/{2}) <b>magnetisch</b> an ihn und verbessert diesen Diener.",
 		"mechanics": [
@@ -1378979,7 +1378866,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 2,
-			"TAG_SCRIPT_DATA_NUM_3": 3
+			"TAG_SCRIPT_DATA_NUM_3": 2
 		},
 		"artist": "Brian Despain",
 		"battlegroundsPremiumDbfId": 132677,
@@ -1379027,7 +1378914,7 @@
 			"MECH"
 		],
 		"techLevel": 5,
-		"attack": 12,
+		"attack": 16,
 		"health": 16,
 		"text": "Jedes Mal, wenn Ihr einen Mech ausspielt, bindet Ihr einen Satelliten ({1}/{2}) <b>magnetisch</b> an ihn und verbessert diesen Diener.",
 		"mechanics": [
@@ -1379036,7 +1378923,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 4,
-			"TAG_SCRIPT_DATA_NUM_3": 6
+			"TAG_SCRIPT_DATA_NUM_3": 4
 		},
 		"battlegroundsNormalDbfId": 132676,
 		"premium": true,
@@ -1379771,15 +1379658,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 7,
+		"health": 5,
 		"text": "Erhaltet eine Schließkassette, nachdem Ihr {2} Gold ausgegeben habt. Wenn Ihr bereits eine habt, wird diese stattdessen {0} Züge früher geöffnet. <i>(Noch {0} Gold!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
 		"artist": "Joseph Weston",
@@ -1379825,15 +1379712,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 12,
-		"health": 12,
+		"attack": 14,
+		"health": 10,
 		"text": "Erhaltet eine Schließkassette, nachdem Ihr {2} Gold ausgegeben habt. Wenn Ihr bereits eine habt, wird diese stattdessen {0} Züge früher geöffnet. <i>(Noch {0} Gold!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 2
 		},
 		"battlegroundsNormalDbfId": 132762,
@@ -1381084,7 +1380971,7 @@
 	{
 		"dbfId": 132837,
 		"id": "CAP_405t1",
-		"name": "",
+		"name": "Verhaftet für Vernichtung",
 		"type": "Spell",
 		"cardClass": "WARLOCK",
 		"playerClass": "Warlock",
@@ -1381094,6 +1380981,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
+		"text": "Zwingt jeden Diener, einen anderen Diener anzugreifen.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
 		},
@@ -1381131,7 +1381019,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Stehlt 2 Karten von der Hand Eures Gegners.",
+		"text": "Stehlt eine Karte von der Hand Eures Gegners.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -1381150,7 +1381038,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Verleiht Dienern auf Eurer Hand und auf dem Schlachtfeld +3/+3.",
+		"text": "Verleiht Dienern auf Eurer Hand und auf dem Schlachtfeld +2/+2.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 7
 		},
@@ -1381167,7 +1381055,7 @@
 			"NEUTRAL"
 		],
 		"set": "Azeroths_most_wanted",
-		"text": "+3/+3"
+		"text": "+2/+2"
 	},
 	{
 		"dbfId": 132848,
@@ -1381222,7 +1381110,7 @@
 		],
 		"set": "Azeroths_most_wanted",
 		"cost": 0,
-		"text": "Ruft 3 zufällige Diener herbei, die (3) kosten.",
+		"text": "Ruft 3 zufällige Diener herbei, die (2) kosten.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6
 		},
@@ -1381599,15 +1381487,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
+		"attack": 5,
+		"health": 5,
 		"text": "Jedes Mal, wenn Ihr einen Zauber auf einen Mech wirkt, bindet Ihr einen Satelliten ({0}/{1}) <b>magnetisch</b> an ihn.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Kevin Sidharta",
 		"battlegroundsPremiumDbfId": 132894,
@@ -1381655,15 +1381543,15 @@
 			"MECH"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 8,
+		"attack": 10,
+		"health": 10,
 		"text": "Jedes Mal, wenn Ihr einen Zauber auf einen Mech wirkt, bindet Ihr zweimal einen Satelliten ({0}/{1}) <b>magnetisch</b> an ihn.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 132893,
 		"premium": true,
@@ -1382644,9 +1382532,9 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
-		"text": "[x]Verleiht Euren Piraten +{0}/+{1},\nnachdem Ihr eine Karte <b>entdeckt</b> habt.\n<i>(Verbessert durch goldene Diener,\ndie Ihr in diesem Spiel\nausgespielt habt.)</i>",
+		"attack": 5,
+		"health": 5,
+		"text": "Verleiht Euren Piraten +{0}/+{1}, nachdem Ihr eine Karte <b>entdeckt</b> habt. <i>(Verbessert durch goldene Diener, die Ihr in diesem Spiel ausgespielt habt.)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1382747,9 +1382635,9 @@
 			"PIRATE"
 		],
 		"techLevel": 6,
-		"attack": 8,
-		"health": 8,
-		"text": "[x]Verleiht Euren Piraten +{0}/+{1},\nnachdem Ihr eine Karte <b>entdeckt</b> habt.\n<i>(Verbessert durch goldene Diener,\ndie Ihr in diesem Spiel\nausgespielt habt.)</i>",
+		"attack": 10,
+		"health": 10,
+		"text": "Verleiht Euren Piraten +{0}/+{1}, nachdem Ihr eine Karte <b>entdeckt</b> habt. <i>(Verbessert durch goldene Diener, die Ihr in diesem Spiel ausgespielt habt.)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1383311,12 +1383199,13 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 9,
-		"text": "<b>Gottesschild</b>. <b>Mobilisieren:</b> Wirkt Mächtiger Drachenodem.",
+		"attack": 9,
+		"health": 7,
+		"text": "<b>Gottesschild</b>. <b><b>Windzorn</b>.</b> <b>Mobilisieren:</b> Wirkt Mächtiger Drachenodem.",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"artist": "TOPDOG Entertainment",
 		"battlegroundsPremiumDbfId": 132954,
@@ -1383361,12 +1383250,13 @@
 			"DRAGON"
 		],
 		"techLevel": 6,
-		"attack": 16,
-		"health": 18,
-		"text": "<b>Gottesschild</b>.\n<b>Mobilisieren:</b> Wirkt zweimal Mächtiger Drachenodem.",
+		"attack": 18,
+		"health": 14,
+		"text": "<b>Gottesschild</b>. <b>Windzorn</b>. <b>Mobilisieren:</b> Wirkt zweimal Mächtiger Drachenodem.",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"battlegroundsNormalDbfId": 132953,
 		"premium": true,
@@ -1383749,14 +1383639,14 @@
 		"techLevel": 6,
 		"isBaconPool": true,
 		"attack": 3,
-		"health": 12,
+		"health": 9,
 		"text": "Erhält die Werte des Dieners mit dem höchsten Leben im Gasthaus, nachdem Ihr {1} Elementare ausgespielt habt.\n<i>(Noch {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Kevin Sidharta",
 		"battlegroundsPremiumDbfId": 132984,
@@ -1383802,14 +1383692,14 @@
 		],
 		"techLevel": 6,
 		"attack": 6,
-		"health": 24,
+		"health": 18,
 		"text": "Erhält die doppelten Werte des Dieners mit dem höchsten Leben\nim Gasthaus, nachdem Ihr {1} Elementare ausgespielt habt. <i>(Noch {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 132983,
 		"premium": true,
@@ -1384060,15 +1383950,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 6,
+		"attack": 3,
+		"health": 7,
 		"text": "Jedes Mal, wenn Ihr einen Zauber auf diesen Diener wirkt, erhält der Diener ganz links auf Eurer Hand +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 9,
+			"TAG_SCRIPT_DATA_NUM_2": 9
 		},
 		"artist": "Marta Vives Poch",
 		"battlegroundsPremiumDbfId": 132990,
@@ -1384113,15 +1384003,15 @@
 			"MURLOC"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 12,
+		"attack": 6,
+		"health": 14,
 		"text": "Jedes Mal, wenn Ihr einen Zauber auf diesen Diener wirkt, erhält der Diener ganz links auf Eurer Hand +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 18,
+			"TAG_SCRIPT_DATA_NUM_2": 18
 		},
 		"battlegroundsNormalDbfId": 132989,
 		"premium": true,
@@ -1384282,15 +1384172,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 5,
-		"health": 7,
+		"attack": 6,
+		"health": 9,
 		"text": "Verleiht Murlocs auf Eurer Hand und Eurer Seite des Spielfelds jedes Mal +{0}/+{1}, wenn Ihr einen Zauber auf einen Murloc wirkt.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Florent Mounier",
 		"battlegroundsPremiumDbfId": 133027,
@@ -1384335,15 +1384225,15 @@
 			"MURLOC"
 		],
 		"techLevel": 5,
-		"attack": 10,
-		"health": 14,
+		"attack": 12,
+		"health": 18,
 		"text": "Verleiht Murlocs auf Eurer Hand und Eurer Seite des Spielfelds jedes Mal +{0}/+{1}, wenn Ihr einen Zauber auf einen Murloc wirkt.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 133026,
 		"premium": true,
@@ -1384389,15 +1384279,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 8,
+		"attack": 5,
+		"health": 10,
 		"text": "Erhaltet eine Kopie von Verderbte Cupcakes, nachdem Euer Held {1} Schaden erlitten hat. <i>(Noch {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Kleston Marques",
 		"battlegroundsPremiumDbfId": 133029,
@@ -1384442,15 +1384332,15 @@
 			"DEMON"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 16,
+		"attack": 10,
+		"health": 20,
 		"text": "Erhaltet 2 Kopien von Verderbte Cupcakes, nachdem Euer Held {1} Schaden erlitten hat. <i>(Noch {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 133028,
 		"premium": true,
@@ -1384766,8 +1384656,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -1384878,7 +1384768,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "Erhaltet einen\nzufälligen Gasthauszauber, nachdem Ihr einen Mech gekauft habt.",
+		"text": "Erhaltet einen zufälligen Gasthauszauber, der (2) oder mehr kostet, nachdem Ihr einen Mech gekauft habt.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"GENERATES_SPELL",
@@ -1387241,7 +1387131,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Anton Zemskov",
 		"otherTags": [
@@ -1387303,7 +1387193,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet eine zufällige Karte mit <b>Wählt aus</b>. Erhaltet zu Beginn jedes Zuges eine weitere.",
@@ -1387329,7 +1387219,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet 2 zufällige Karten mit <b>Wählt aus</b>. Erhaltet zu Beginn jedes Zuges 2 weitere.",
@@ -1387460,7 +1387350,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "<b>Kampfbeginn:</b> Verdoppelt den Angriff dieses Dieners.",
+		"text": "+15 Angriff. <b>Kampfbeginn:</b> Verdoppelt den Angriff dieses Dieners.",
 		"hideStats": true
 	},
 	{
@@ -1387475,7 +1387365,7 @@
 		],
 		"set": "Battlegrounds",
 		"faction": "NEUTRAL",
-		"text": "<b>Kampfbeginn:</b> Verdoppelt den Angriff dieses Dieners.",
+		"text": "+15 Angriff. <b>Kampfbeginn:</b> Verdoppelt den Angriff dieses Dieners.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1387614,14 +1387504,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "Erhaltet 1 Gold, nachdem Ihr 3 Zauber auf Diener gewirkt habt. <i>(Noch {0}!)</i>",
+		"text": "Erhaltet 1 Gold, nachdem Ihr {1} Zauber auf Diener gewirkt habt. <i>(Noch {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		}
 	},
 	{
@@ -1387635,7 +1387527,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Eure Karten mit <b>Wählt aus</b> gewähren beide Effekte.",
@@ -1387678,7 +1387570,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet jedes Mal eine kostenlose <b>Aktualisierung</b>, wenn ein befreundeter Diener mit <b>Mobilisieren</b> angreift.",
@@ -1387727,7 +1387619,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Die ersten zwei Diener mit <b>Kampfschrei</b>, die Ihr in jedem Zug kauft, sind kostenlos. <i>(Noch {0}!)</i>",
@@ -1388206,7 +1388098,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "Erhält jedes Mal, wenn Ihr eine Karte ausspielt, +3 Leben.",
+		"text": "Erhält jedes Mal +2 Leben, wenn Ihr eine Karte ausspielt.",
 		"hideStats": true
 	},
 	{
@@ -1388233,7 +1388125,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "Erhält jedes Mal, wenn Ihr eine Karte ausspielt, +3 Leben."
+		"text": "Erhält jedes Mal +2 Leben, wenn Ihr eine Karte ausspielt."
 	},
 	{
 		"dbfId": 133434,
@@ -1390112,6 +1390004,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet am Ende Eures Zuges einen <b>magnetischen</b> Satelliten ({0}/{1}). <i>(Verbessert durch jeden Gasthauszauber, den Ihr in diesem Zug gewirkt habt!)</i>",
@@ -1390122,8 +1390015,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 12,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -1390653,7 +1390546,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Entdeckt</b> eine einfache Kopie eines befreundeten Dieners mit einer <b>Dunklen Gabe</b>. Wird zu Beginn jedes 2. Zuges wiederholt. <i>(Noch {0} Züge!)</i>",
@@ -1391490,7 +1391383,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet einen Feuerdribbler oder einen Schneedribbler. Wird zu Beginn jedes Zuges wiederholt.",
@@ -1392578,7 +1392471,7 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 5,
+		"attack": 6,
 		"health": 3,
 		"text": "<b>Todesröcheln:</b> Verleiht Dienern im Gasthaus in diesem Spiel +{0}/+{1}. <b>Aktivieren ({4}):</b> Verbessert dies.",
 		"mechanics": [
@@ -1392587,7 +1392480,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -1392652,7 +1392545,7 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 10,
+		"attack": 12,
 		"health": 6,
 		"text": "<b>Todesröcheln:</b> Verleiht Dienern im Gasthaus in diesem Spiel +{0}/+{1}. <b>Aktivieren ({4}):</b> Verbessert dies.",
 		"mechanics": [
@@ -1392661,7 +1392554,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 2,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -1393369,8 +1393262,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 13,
-			"TAG_SCRIPT_DATA_NUM_2": 13
+			"TAG_SCRIPT_DATA_NUM_1": 11,
+			"TAG_SCRIPT_DATA_NUM_2": 11
 		}
 	},
 	{
@@ -1393391,8 +1393284,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 50,
-			"TAG_SCRIPT_DATA_NUM_3": 50
+			"TAG_SCRIPT_DATA_NUM_1": 40,
+			"TAG_SCRIPT_DATA_NUM_3": 40
 		}
 	},
 	{
@@ -1393453,7 +1393346,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet einen zufälligen <b>magnetischen</b> Volumisierer. Erhaltet zu Beginn jedes Zuges einen weiteren.",
@@ -1393475,7 +1393368,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet eine Schlammkorrosion. Erhaltet eine Schlammkorrosion, nachdem Ihr einen Zauber abgeworfen habt.",
@@ -1393503,7 +1393396,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 3,
-		"spellSchool": "LESSER_TRINKET",
+		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Am Ende Eures Zuges erhalten Eure Diener +{0}/+{1}. <i>(Verdoppelt sich zu Beginn jedes Zuges!)</i>",
 		"mechanics": [
@@ -1393512,8 +1393405,8 @@
 			"END_OF_TURN"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -1393566,7 +1393459,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Erhaltet 2 zufällige <b>Magnetische</b> Volumisierer. Wird zu Beginn jedes Zuges wiederholt.",
@@ -1394234,10 +1394127,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]Erhaltet 22 Bissige Haie.\nVerleiht Euren Wildtieren\njedes Mal +{0}/+{1} und\nverbessert dies, wenn\nein Fischköder stirbt.",
+		"text": "[x]Erhaltet 2 Bissige Haie.\nVerleiht Euren Wildtieren\njedes Mal +{0}/+{1} und\nverbessert dies, wenn\nein Fischköder stirbt.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1395302,15 +1395195,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 2,
-		"health": 6,
-		"text": "Erhält jedes Mal +{0}, wenn Ihr eine Karte ausspielt.",
+		"attack": 6,
+		"health": 2,
+		"text": "Erhält jedes Mal +{1} Leben, wenn Ihr eine Karte ausspielt.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsPremiumDbfId": 134705,
 		"audio2": {
@@ -1395357,15 +1395250,15 @@
 			"ALL"
 		],
 		"techLevel": 2,
-		"attack": 4,
-		"health": 12,
-		"text": "Erhält jedes Mal +{0}, wenn Ihr eine Karte ausspielt.",
+		"attack": 12,
+		"health": 4,
+		"text": "Erhält jedes Mal +{1} Leben, wenn Ihr eine Karte ausspielt.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 134704,
 		"premium": true,
@@ -1395622,15 +1395515,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 3,
-		"health": 3,
+		"attack": 4,
+		"health": 4,
 		"text": "Erhält für jeden <b>Kampfschrei</b>, den Ihr in diesem Spiel ausgelöst habt, +{0}/+{1} <i>(egal, wo sich dieser Diener befindet)</i>.",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsPremiumDbfId": 134711,
 		"referencedTags": [
@@ -1395680,15 +1395573,15 @@
 			"ALL"
 		],
 		"techLevel": 3,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "Erhält für jeden <b>Kampfschrei</b>, den Ihr in diesem Spiel ausgelöst habt, +{0}/+{1} <i>(egal, wo sich dieser Diener befindet)</i>.",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 134710,
 		"premium": true,
@@ -1395862,7 +1395755,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "Hat +3/+3 für jede Karte, die Ihr in diesem Spiel abgeworfen habt. <i>({1})</i>",
+		"text": "Hat +3/+2 für jede Karte, die Ihr in diesem Spiel abgeworfen habt. <i>({1})</i>",
 		"otherTags": [
 			"CARES_ABOUT_DISCARDS_THIS_GAME"
 		]
@@ -1395946,7 +1395839,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "Hat +3/+3 für jede Karte, die Ihr in diesem Spiel abgeworfen habt. <i>({1})</i>",
+		"text": "Hat +3/+2 für jede Karte, die Ihr in diesem Spiel abgeworfen habt. <i>({1})</i>",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}

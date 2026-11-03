@@ -28974,15 +28974,12 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "Destruye a un esbirro y lo devuelve a la vida con toda su salud.",
+		"text": "Destruye a un esbirro <b>no legendario</b>\ny lo devuelve a la vida con toda su salud.",
 		"flavor": "Es como nacer, solo que siendo adulto y tras haber muerto hace un rato.",
 		"artist": "Dan Scott",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		],
 		"audio2": {
 			"BASIC_play": {
@@ -123829,7 +123826,7 @@
 		"faction": "ALLIANCE",
 		"attack": 3,
 		"health": 3,
-		"text": "<b>Último aliento:</b> Invoca una copia 1/1 de un esbirro de tu mano.",
+		"text": "<b>Último aliento:</b>\nInvoca un esbirro de tu mano. Establece sus estadísticas en 1/1.",
 		"flavor": "Puede hacer que cualquier cosa parezca una vela.",
 		"mechanics": [
 			"DEATHRATTLE"
@@ -356448,7 +356445,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Cadena:</b> Roba 4 cartas en un turno.\n<b>Recompensa:</b> Reduce\nen (1) cristal el coste de\nlas cartas robadas.",
+		"text": "<b>Cadena:</b> Roba 5 cartas en un turno. <b>Recompensa:</b> Reduce\nen (1) cristal el coste de las cartas robadas.",
 		"flavor": "Es la hora de decidir si te alzas con la victoria o te hacen puré.",
 		"mechanics": [
 			"QUESTLINE",
@@ -356478,7 +356475,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Cadena:</b> Roba 5 cartas en un turno.\n<b>Recompensa:</b> Reduce\nen (1) cristal el coste de\nlas cartas robadas.",
+		"text": "<b>Cadena:</b> Roba 6 cartas en un turno. <b>Recompensa:</b> Reduce\nen (1) cristal el coste de las cartas robadas.",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -360926,27 +360923,13 @@
 		"cost": 6,
 		"attack": 5,
 		"health": 5,
-		"text": "<b>Escudo divino</b> Después de que un esbirro amistoso pierda su <b>Escudo divino</b>, otorga +5/+5 a un esbirro de tu mano.",
+		"text": "[x]<b>Escudo divino</b>\nDespués de que un esbirro amistoso\npierda su <b>Escudo divino</b>, otorga\n+5 /+5 a un esbirro de tu mano.",
 		"flavor": "«Por mi fe y mi coraje, estaré protegido. Y por mi honor y mi sacrificio, otro ocupará mi lugar».",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Escudo divino</b> Después de que un esbirro amistoso pierda su <b>Escudo divino</b>,",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "otorga +5/+5 a un esbirro de tu mano.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -377238,7 +377221,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Cadena:</b> Roba\n5 cartas en un turno. <b>Recompensa:</b> Matademonios Kurtrus.",
+		"text": "<b>Cadena:</b> Roba 6 cartas en un turno. <b>Recompensa:</b> Matademonios Kurtrus.",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -577524,7 +577507,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "[x]<b>Grito de batalla:</b> Reduce\nel coste de las cartas\ncopiadas a tu oponente\nen (3) cristales.",
+		"text": "[x]<b>Grito de batalla:</b> Reduce\nel coste de las cartas\ncopiadas a tu oponente\nen (2) cristales.",
 		"flavor": "A ver, se nota que la carta es falsa. Es tu letra, Paco. Y quítate la capucha, que estás haciendo el ridículo.",
 		"mechanics": [
 			"BATTLECRY"
@@ -605026,7 +605009,7 @@
 			"PRIEST"
 		],
 		"set": "Revendreth",
-		"text": "Cuesta\n(3) cristales menos."
+		"text": "Cuesta\n(2) cristales menos."
 	},
 	{
 		"dbfId": 78405,
@@ -632027,25 +632010,12 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 4,
-		"text": "Después de que muera un no-muerto amistoso, roba una carta.",
+		"text": "Después de que muera\nun no-muerto amistoso, roba una carta.",
 		"flavor": "«En ocasiones veo muertos. Muuuuchos muertos…».",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
-		"assembleHalves": {
-			"first": {
-				"text": "Después de que muera un no-muerto amistoso,",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "roba una carta.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -724790,7 +724760,7 @@
 		"faction": "NEUTRAL",
 		"attack": 5,
 		"health": 5,
-		"text": "[x]<b>Ponzoña</b>\n<b>Comienzo del combate:</b> Por\ncada uno de tus tipos de esbirro,\nobtiene +5/+5, <b>Viento furioso</b>,\n<b>Renacer</b> o <b>Provocar</b>.",
+		"text": "<b>Ponzoña</b>\n<b>Comienzo del combate:</b> Por cada uno de tus tipos de esbirro, obtiene +5/+5, <b>Viento furioso</b>, <b>Renacer</b> o <b>Provocar</b>.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"VENOMOUS"
@@ -727734,7 +727704,7 @@
 		"techLevel": 6,
 		"attack": 10,
 		"health": 10,
-		"text": "[x]<b>Ponzoña</b>\n<b>Comienzo del combate:</b> Por cada\nuno de tus tipos de esbirro, obtiene\n+5/+5, <b>Viento furioso</b>, <b>Renacer</b> \no <b>Provocar</b>, dos veces.",
+		"text": "<b>Ponzoña</b>\n<b>Comienzo del combate:</b> Por cada uno de tus tipos de esbirro, obtiene +5/+5, <b>Viento furioso</b>, <b>Renacer</b> o <b>Provocar</b> dos veces.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"VENOMOUS"
@@ -893690,7 +893660,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -893743,7 +893713,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -954594,15 +954564,12 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "Destruye a un esbirro y lo devuelve a la vida con toda su salud.",
+		"text": "Destruye a un esbirro <b>no legendario</b>\ny lo devuelve a la vida con toda su salud.",
 		"flavor": "Es como nacer, solo que siendo adulto y tras haber muerto hace un rato.",
 		"artist": "Dan Scott",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		],
 		"audio2": {
 			"BASIC_play": {
@@ -963340,16 +963307,16 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 8,
+		"attack": 12,
+		"health": 12,
 		"text": "<b>Grito de batalla y Último aliento:</b> Los esbirros de la taberna tienen +{0}/+{1} esta partida.",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 12,
+			"TAG_SCRIPT_DATA_NUM_2": 12
 		},
 		"artist": "Joseph Weston",
 		"battlegroundsPremiumDbfId": 103699,
@@ -963394,16 +963361,16 @@
 			"DEMON"
 		],
 		"techLevel": 7,
-		"attack": 16,
-		"health": 16,
+		"attack": 24,
+		"health": 24,
 		"text": "<b>Grito de batalla y Último aliento:</b> Los esbirros de la taberna tienen +{0}/+{1} esta partida.",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 24,
+			"TAG_SCRIPT_DATA_NUM_2": 24
 		},
 		"artist": "Joseph Weston",
 		"battlegroundsNormalDbfId": 103698,
@@ -963450,8 +963417,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 7,
+		"attack": 11,
+		"health": 11,
 		"text": "<b>Alentar:</b> Inflige al objetivo y a un esbirro adyacente un daño equivalente al ataque de este esbirro.",
 		"mechanics": [
 			"BACON_RALLY",
@@ -963500,8 +963467,8 @@
 			"DRAGON"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 14,
+		"attack": 22,
+		"health": 22,
 		"text": "<b>Alentar:</b> Inflige al objetivo\ny a sus vecinos un daño equivalente al ataque de este esbirro.",
 		"mechanics": [
 			"BACON_RALLY",
@@ -963871,12 +963838,18 @@
 		"races": [
 			"MURLOC"
 		],
+		"techLevel": 2,
+		"isBaconPool": true,
 		"attack": 5,
 		"health": 3,
-		"text": "Cada vez que matas un esbirro, otorga a un esbirro de tu mano +2/+2.",
+		"text": "Cada vez que mata a un esbirro, otorga +{0}/+{1} a un esbirro de tu mano.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
+		},
 		"artist": "Tiffany Chiu",
 		"battlegroundsPremiumDbfId": 103713,
 		"audio2": {
@@ -963923,10 +963896,14 @@
 		"techLevel": 2,
 		"attack": 10,
 		"health": 6,
-		"text": "Cada vez que matas un esbirro, otorga a un esbirro de tu mano +4/+4.",
+		"text": "Cada vez que mata a un esbirro, otorga +{0}/+{1} a un esbirro de tu mano.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
+		},
 		"artist": "Tiffany Chiu",
 		"battlegroundsNormalDbfId": 103712,
 		"premium": true,
@@ -971392,7 +971369,7 @@
 		"text": "[x]Elige un esbirro.\nOtorga +{0}/+{1} a todos los\nesbirros del mismo tipo.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"otherTags": [
 			"TARGETS_MINION"
@@ -973960,7 +973937,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "TAVERN",
 		"techLevel": 6,
 		"isBaconPool": true,
@@ -984046,15 +984023,15 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "TAVERN",
 		"techLevel": 4,
 		"isBaconPool": true,
 		"text": "Otorga +{0}/+{1} a un esbirro amistoso de cada tipo.",
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Inès (Ourka) Rotzinger",
 		"otherTags": [
@@ -1012570,7 +1012547,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 6,
 		"health": 6,
 		"text": "Cada vez que lanzas un hechizo de taberna, otorga +{0}/+{1} esta partida a los elementales\nde la taberna.",
 		"mechanics": [
@@ -1012578,7 +1012555,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsPremiumDbfId": 107940,
@@ -1012623,7 +1012600,7 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 12,
 		"health": 12,
 		"text": "Cada vez que lanzas un hechizo de taberna, otorga +{0}/+{1} esta partida a los elementales\nde la taberna dos veces.",
 		"mechanics": [
@@ -1012631,7 +1012608,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 107939,
@@ -1045442,9 +1045419,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "Después de que juegas un esbirro, otorga +3/+3 al primer esbirro por la izquierda de tu mano.",
+		"text": "Después de que juegas un esbirro, otorga +5/+5 al primer esbirro por la izquierda de tu mano.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1045474,7 +1045452,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Cada vez que gastas oro, otorga +{0}/+{1} a dos piratas amistosos.",
@@ -1051501,25 +1051478,12 @@
 		"cost": 3,
 		"attack": 2,
 		"health": 4,
-		"text": "Después de que muera un no-muerto amistoso, roba una carta.",
+		"text": "Después de que muera\nun no-muerto amistoso, roba una carta.",
 		"flavor": "«En ocasiones veo muertos. Muuuuchos muertos…».",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
-		"assembleHalves": {
-			"first": {
-				"text": "Después de que muera un no-muerto amistoso,",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "roba una carta.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -1054343,8 +1054307,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 7,
-			"TAG_SCRIPT_DATA_NUM_2": 7
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"artist": "Vlad Botos"
 	},
@@ -1054557,7 +1054521,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Comienzo del combate:</b> Duplica las estadísticas de tus dos esbirros con menos ataque.",
@@ -1056052,7 +1056016,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Comienzo del combate:</b> Otorga «<b>Último aliento:</b> Invoca un Escarchín de florituras» a 3 elementales amistosos.",
@@ -1056156,6 +1056119,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1056481,7 +1056445,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Hechicería:</b>\nElige un esbirro. Luego elige un esbirro de un nivel más en el que transformarlo.",
@@ -1062638,7 +1062602,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Obtienes un esbirro con <b>Grito de batalla</b> aleatorio. Al comienzo de cada turno, obtienes otro.",
@@ -1063878,16 +1063841,14 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 3,
 		"faction": "NEUTRAL",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "Después de que ataquen\n2 esbirros amistosos en\ncada combate, juega una\n<b>gema de sangre</b> sobre todos tus jabaespines.\n<i>(¡{0} más!)</i>.",
+		"text": "Después de que un jabaespín amistoso ataque en\ncada combate, juega una\n<b>gema de sangre</b> sobre todos tus jabaespines.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
-		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
-		},
 		"referencedTags": [
 			"BACON_BLOOD_GEM_TOOLTIP"
 		]
@@ -1091644,7 +1091605,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Cada vez que muere\nun jabaespín amistoso,\ninvoca un gólem con\nestadísticas equivalentes a sus <b>gemas de sangre</b>.",
@@ -1091752,7 +1091713,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]Obtienes 2 de oro.\nLa taberna deja de ofrecer\ncartas de nivel 1 o 2.",
+		"text": "Obtienes 3 de oro.\nLa taberna deja de ofrecer cartas de nivel 1 o 2.",
 		"mechanics": [
 			"AURA"
 		],
@@ -1091814,7 +1091775,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Gira la ruleta de Yogg-Saron.\nAl comienzo de cada turno, la giras de nuevo.",
@@ -1093332,7 +1093293,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 7,
@@ -1093385,7 +1093346,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 14,
 		"text": "Las <b>gemas de sangre</b> jugadas desde tu mano se lanzan 2 veces más.",
@@ -1121988,10 +1121949,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "Después de que juegas un esbirro, otorga +6/+6 al primer esbirro por la izquierda de tu mano.",
+		"text": "Después de que juegas un esbirro, otorga +10/+10 al primer esbirro por la izquierda de tu mano.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		]
@@ -1122052,8 +1122013,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		}
 	},
 	{
@@ -1124170,15 +1124131,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "<b>Comienzo del combate:</b> Otorga +{0}/+{1} a tus otros elementales. <i>(¡Mejora después de que juegues un elemental!)</i>.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3,
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"artist": "Joseph Weston",
@@ -1124224,15 +1124185,15 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 12,
+		"attack": 16,
+		"health": 16,
 		"text": "<b>Comienzo del combate:</b> Otorga +{0}/+{1} a tus otros elementales. <i>(¡Mejora después de que juegues un elemental!)</i>.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"battlegroundsNormalDbfId": 115581,
@@ -1153027,27 +1152988,13 @@
 		],
 		"attack": 4,
 		"health": 5,
-		"text": "Después de que invoques un elemental, inflige 3 p. de daño a un enemigo aleatorio.",
+		"text": "Después de que invoques un elemental, inflige\n3 p. de daño a un enemigo aleatorio.",
 		"flavor": "Este cuento es un soplo de aire fresco.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Drew Hill",
-		"assembleHalves": {
-			"first": {
-				"text": "Después de que invoques un elemental,",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "inflige 3 p. de daño a un enemigo aleatorio.",
-				"mechanics": [
-					"DEAL_DAMAGE"
-				]
-			}
-		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1153398,7 +1153345,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Misión:</b> Lanza 4 hechizos Sagrados. <b>Recompensa:</b>\nHálito Vital. <b>Misión:</b> Lanza 4 hechizos de las Sombras. <b>Recompensa:</b> Toque Mortal.",
+		"text": "<b>Misión:</b> Lanza 6 hechizos Sagrados. <b>Recompensa:</b> Hálito Vital.\n<b>Misión:</b> Lanza 6 hechizos de las Sombras. <b>Recompensa:</b> Toque Mortal.",
 		"flavor": "Día 6. Hoy acabamos en un claro hostigado por la contienda entre la magia Sagrada y la de las Sombras. En pleno centro había dos enormes elementales, que parecían dos caras de la misma moneda. Ojalá haya paz en este lugar la próxima vez que vengamos.",
 		"mechanics": [
 			"QUEST"
@@ -1153425,7 +1153372,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Misión:</b> Lanza\n4 hechizos Sagrados.\n<b>Recompensa:</b> Hálito Vital.",
+		"text": "<b>Misión:</b>\nLanza 6 hechizos Sagrados.\n<b>Recompensa:</b>\nHálito Vital.",
 		"mechanics": [
 			"QUEST"
 		],
@@ -1157698,7 +1157645,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Cada cuarta carta que compres cuesta salud en vez de oro. <i>(¡{0} más!)</i>.",
@@ -1158316,7 +1158263,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Obtienes una copia normal de un esbirro amistoso aleatorio. Al comienzo de cada turno, esto se repite.",
@@ -1159259,7 +1159206,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Obtienes un\nElemental de sorpresa.\n<i>(Van apareciendo más cuando\nmenos te lo esperas...)</i>.",
@@ -1163093,7 +1163040,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "[x]<b>Grito de batalla:</b> Reduce\nel coste de las cartas\ncopiadas a tu oponente\nen (3) cristales.",
+		"text": "[x]<b>Grito de batalla:</b> Reduce\nel coste de las cartas\ncopiadas a tu oponente\nen (2) cristales.",
 		"flavor": "A ver, se nota que la carta es falsa. Es tu letra, Paco. Y quítate la capucha, que estás haciendo el ridículo.",
 		"mechanics": [
 			"BATTLECRY"
@@ -1171086,12 +1171033,9 @@
 		"set": "Day_of_rebirth",
 		"rarity": "Common",
 		"cost": 8,
-		"text": "Establece en 1/1 las estadísticas de un esbirro amistoso. Llena tu tablero de copias de ese esbirro.",
+		"text": "Establece en 1/1 las estadísticas de un esbirro <b>no legendario</b> amistoso. Llena tu tablero de copias de ese esbirro.",
 		"flavor": "EL CEBO HA DEJADO DE HACER EFECTO.",
-		"artist": "Slawomir Maniak",
-		"otherTags": [
-			"TARGETS_FRIENDLY_MINION"
-		]
+		"artist": "Slawomir Maniak"
 	},
 	{
 		"dbfId": 118407,
@@ -1171467,15 +1171411,12 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Último aliento:</b> Invoca un huevo un poco cascado. <i>(¡Cáscalo 5 veces para que salga una bestia 20/20 con <b>Provocar</b>!)</i>.",
+		"text": "<b>Último aliento:</b>\nInvoca un huevo un poco cascado.\n<i>(¡Cáscalo 5 veces para que salga una bestia 20/20!)</i>.",
 		"flavor": "Khelos lleva muchos milenios esperando a nacer. Ojalá tú no tengas que esperar tanto.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122542,
 			122543,
@@ -1171755,10 +1171696,6 @@
 		],
 		"attack": 20,
 		"health": 20,
-		"text": "<b>Provocar</b>",
-		"mechanics": [
-			"TAUNT"
-		],
 		"artist": "Vlad Botos",
 		"audio2": {
 			"BASIC_attack": {
@@ -1191070,7 +1191007,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "[x]<b>Misión:</b> Lanza\n4 hechizos de las Sombras.\n<b>Recompensa:</b> Toque Mortal.",
+		"text": "<b>Misión:</b>\nLanza 6 hechizos de las Sombras.\n<b>Recompensa:</b>\nToque Mortal.",
 		"mechanics": [
 			"QUEST"
 		],
@@ -1198025,7 +1197962,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1198147,7 +1198083,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1198355,10 +1198291,10 @@
 			"BACON_BUFFS_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 1,
-			"TAG_SCRIPT_DATA_NUM_5": 6
+			"TAG_SCRIPT_DATA_NUM_5": 5
 		}
 	},
 	{
@@ -1206298,7 +1206234,7 @@
 		"collectible": true,
 		"set": "Across_the_timeways",
 		"rarity": "Epic",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "SHADOW",
 		"text": "Divide en dos mitades un esbirro aleatorio de tu mano.",
 		"flavor": "Está con su media naranja.",
@@ -1211659,7 +1211595,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Obtienes un\nCapital elemental. Al comienzo de cada turno, obtienes otro.",
@@ -1212154,7 +1212090,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Crea un no-muerto personalizado. Al comienzo de cada 2 turnos, esto se repite. <i>(¡({0} turnos más!).</i>",
@@ -1212247,28 +1212182,13 @@
 		],
 		"attack": 5,
 		"health": 3,
-		"text": "<b>Provocar</b>, <b>Grito de batalla:</b> Duplica la salud de este esbirro.",
+		"text": "<b>Provocar</b>\n<b>Grito de batalla:</b>\nDuplica la salud\nde este esbirro.",
 		"flavor": "Así se ha quedado después de un siglo con el bronceador.",
 		"mechanics": [
 			"BATTLECRY",
-			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Zoltan Boros",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Provocar</b>, <b>Grito de batalla:</b>",
-				"mechanics": [
-					"BATTLECRY",
-					"TAUNT"
-				]
-			},
-			"second": {
-				"text": "Duplica la salud de este esbirro.",
-				"mechanics": [
-				]
-			}
-		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1212651,7 +1212571,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Obtienes un\nMonstruo del Dr. Bum.\nAl comienzo de cada turno,\nobtienes otro.",
@@ -1213938,9 +1213858,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "<b>Descubre</b> un esbirro de nivel 5 con un tipo. Al comienzo de cada turno, obtienes otra copia.",
+		"text": "<b>Descubre</b> un esbirro de nivel 6 con un tipo. Al comienzo de cada turno, obtienes otra copia.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1214057,7 +1213978,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Cada vez que ataca una bestia amistosa, le otorga +{0} p. de ataque y esto mejora de forma permanente.",
@@ -1214065,7 +1213986,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4
 		},
 		"artist": "Ira Fidler"
 	},
@@ -1216569,7 +1216490,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Una vez por turno, comprar un hechizo de taberna cuesta salud en vez de oro. <i>(¡{0} más!)</i>.",
@@ -1217661,12 +1217582,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "La primera vez que compres un esbirro cada turno, obtienes un satélite con <b>Magnetismo</b> y con sus estadísticas.",
+		"text": "Tras comprar un esbirro,\nobtienes un satélite con <b>Magnetismo</b> y con sus estadísticas.\n<i>(Dos veces por turno)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 2
+		},
 		"artist": "Kevin Sidharta",
 		"referencedTags": [
 			"MODULAR"
@@ -1217768,7 +1217693,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Obtienes una\nZarina recargadora. Tus\nZarinas recargadoras\ntambién otorgan salud.",
@@ -1219000,10 +1218924,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]<b>Vengar a (7):</b> Invoca\ndos alfazaques {0}/{1}.\nLes otorga <b>Provocar</b>.",
+		"text": "[x]<b>Vengar a (8):</b> Invoca\ndos alfazaques {0}/{1}.\nLes otorga <b>Provocar</b>.",
 		"mechanics": [
 			"AVENGE"
 		],
@@ -1222005,7 +1221929,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Obtienes un Lanzafauces. Cada vez que destruyas un esbirro fuera del combate, obtienes {0} de oro.",
@@ -1222013,7 +1221937,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Alex Horley Orlandelli"
 	},
@@ -1234357,14 +1234281,14 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 4,
+		"health": 8,
 		"text": "Después de que tu héroe reciba daño, lo rebobina y otorga +{0}/+{1} a los esbirros de la taberna este turno.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"artist": "Joseph Weston",
@@ -1234410,14 +1234334,14 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 12,
-		"health": 12,
+		"attack": 8,
+		"health": 16,
 		"text": "Después de que tu héroe reciba daño, lo rebobina y otorga +{0}/+{1} a los esbirros de la taberna este turno.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 121687,
@@ -1243742,14 +1243666,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Último aliento:</b> Invoca un huevo más cascado. <i>(¡Cáscalo 4 veces para que salga una bestia 20/20 con <b>Provocar</b>!)</i>.",
+		"text": "<b>Último aliento:</b> Invoca un huevo más cascado. <i>(¡Cáscalo 4 veces más para que salga una bestia 20/20!)</i>.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122543,
 			122545,
@@ -1243800,14 +1243721,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Último aliento:</b> Invoca un huevo muy cascado. <i>(¡Cáscalo 3 veces para que salga una bestia 20/20 con <b>Provocar</b>!)</i>.",
+		"text": "<b>Último aliento:</b> Invoca un huevo muy cascado. <i>(¡Cáscalo 3 veces más para que salga una bestia 20/20!)</i>.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122545,
 			122546,
@@ -1243870,14 +1243788,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Último aliento:</b> Invoca un huevo cascadísimo. <i>(¡Cáscalo 2 veces para que salga una bestia 20/20 con <b>Provocar</b>!)</i>.",
+		"text": "<b>Último aliento:</b> Invoca el huevo más cascado. <i>(¡Cáscalo 2 veces más para que salga una bestia 20/20!)</i>.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122546,
 			118495
@@ -1243926,14 +1243841,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Último aliento:</b> Invoca un Khelos 20/20 con <b>Provocar</b>. <i>(¡Cáscalo para que salga!)</i>.",
+		"text": "<b>Último aliento:</b> Invoca un Khelos 20/20. <i>(¡Cáscalo para que salga!)</i>.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			118495
 		],
@@ -1244285,15 +1244197,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 3,
-		"health": 8,
+		"attack": 4,
+		"health": 9,
 		"text": "<b>Alentar:</b> Tus\n<b>gemas de sangre</b> otorgan +{0}/+{1} adicionales esta partida.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 1
 		},
 		"artist": "Kleston Marques",
 		"battlegroundsPremiumDbfId": 122567,
@@ -1244341,15 +1244253,15 @@
 			"QUILBOAR"
 		],
 		"techLevel": 5,
-		"attack": 6,
-		"health": 16,
+		"attack": 8,
+		"health": 18,
 		"text": "<b>Alentar:</b> Tus\n<b>gemas de sangre</b> otorgan +{0}/+{1} adicionales esta partida.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsNormalDbfId": 122566,
 		"premium": true,
@@ -1246349,7 +1246261,7 @@
 		"rarity": "Rare",
 		"cost": 4,
 		"health": 2,
-		"text": "<b>Proclama</b>\na {0}. Roba una carta.",
+		"text": "<b>Proclama</b> a {0}.\nRoba una carta.",
 		"flavor": "Aquí es donde Cho'gall pone todos sus artículos de los dioses antiguos.",
 		"mechanics": [
 			"HERALD"
@@ -1254146,7 +1254058,7 @@
 		"collectible": true,
 		"set": "Cataclysm",
 		"rarity": "Epic",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "FIRE",
 		"text": "Inflige $1 p. de daño a todos los esbirros. <i>(Mejora por cada esbirro en el campo de batalla)</i>.",
 		"flavor": "Un momento, que saco esta y «exterminio».",
@@ -1259809,15 +1259721,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 10,
 		"health": 3,
 		"text": "<b>Último aliento:</b> Otorga +{0}/+{1} a tus esbirros. Los que sean dorados conservan esto de forma permanente.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsPremiumDbfId": 123596,
 		"audio2": {
@@ -1259855,15 +1259767,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 20,
 		"health": 6,
 		"text": "<b>Último aliento:</b> Otorga +{0}/+{1} a tus esbirros dos veces. Los que sean dorados conservan esto de forma permanente.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 123595,
 		"premium": true,
@@ -1260288,27 +1260200,13 @@
 		],
 		"attack": 3,
 		"health": 1,
-		"text": "<b>Escudo divino</b> Después de que pierda su <b>Escudo divino</b>, otorga +1 p. de salud esta partida a tus reclutas Mano de Plata.",
+		"text": "<b>Escudo divino</b>\nDespués de que pierda su <b>Escudo divino</b>, otorga +1 p.\nde salud esta partida a tus reclutas Mano de Plata.",
 		"flavor": "¡Alto, esto es un rescate! No te resistas.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Milica Celikovic",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Escudo divino</b> Después de que pierda su <b>Escudo divino</b>,",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "otorga +1 p. de salud esta partida a tus reclutas Mano de Plata.",
-				"mechanics": [
-				]
-			}
-		},
 		"audio2": {
 			"BASIC_attack": {
 				"2H_EpicMace_Underlay_Attack": {
@@ -1282352,7 +1282250,7 @@
 		"rarity": "Epic",
 		"cost": 5,
 		"attack": 4,
-		"health": 4,
+		"health": 3,
 		"text": "<b>Preparar</b>, <b>Grito de batalla:</b> Si has lanzado un hechizo este turno, lanza dos <b>Secretos</b> de mago aleatorios.",
 		"flavor": "Bienvenidos a Dalaran, donde nos inventamos los hechizos y pasamos de puntuarlos.",
 		"mechanics": [
@@ -1282564,8 +1282462,8 @@
 		"collectible": true,
 		"set": "Violet_hold",
 		"rarity": "Rare",
-		"cost": 5,
-		"attack": 5,
+		"cost": 6,
+		"attack": 6,
 		"health": 3,
 		"text": "[x]<b>Preparar</b>\n<b>Grito de batalla:</b> Destruye\ntodos tus otros esbirros. Robas\nuna carta y repones un cristal\n por cada esbirro destruido.",
 		"flavor": "¡Aserrín! ¡Aserrán! El esqueleto de Juan.",
@@ -1288292,8 +1288190,6 @@
 		"races": [
 			"MURLOC"
 		],
-		"techLevel": 2,
-		"isBaconPool": true,
 		"attack": 3,
 		"health": 5,
 		"text": "<b>Alentar:</b> Invoca al múrloc con más ataque de tu mano solo para este combate.",
@@ -1297753,15 +1297649,17 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 15,
-		"health": 15,
-		"text": "<b>Alentar:</b> Otorga +{0}/+{1}\na un esbirro amistoso de cada tipo de forma permanente.",
+		"attack": 10,
+		"health": 10,
+		"text": "<b>Alentar:</b> Otorga +{0}/+{1}\na un esbirro amistoso de cada tipo de forma permanente\ny esto mejora.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"artist": "Slawomir Maniak",
 		"battlegroundsPremiumDbfId": 127110,
@@ -1297822,15 +1297720,17 @@
 			"ALL"
 		],
 		"techLevel": 7,
-		"attack": 30,
-		"health": 30,
-		"text": "<b>Alentar:</b> Otorga +{0}/+{1}\na un esbirro amistoso de cada tipo de forma permanente dos veces.",
+		"attack": 20,
+		"health": 20,
+		"text": "<b>Alentar:</b> Otorga +{0}/+{1}\na un esbirro amistoso de cada tipo de forma permanente y esto mejora dos veces.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"battlegroundsNormalDbfId": 127109,
 		"premium": true,
@@ -1298027,9 +1297927,9 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 16,
-		"health": 32,
-		"text": "Después de que invoques un esbirro en combate, le otorga las estadísticas máximas de este esbirro. <i>(3 veces por combate)</i>.",
+		"attack": 15,
+		"health": 30,
+		"text": "Después de que invoques\nun esbirro diferente en combate,\nle otorga el doble de las estadísticas máximas de este esbirro.\n<i>(3 veces por combate)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1298078,9 +1297978,9 @@
 			"BEAST"
 		],
 		"techLevel": 7,
-		"attack": 32,
-		"health": 64,
-		"text": "Después de que invoques un esbirro en combate, le otorga el doble de las estadísticas máximas de este esbirro. <i>(3 veces por combate)</i>.",
+		"attack": 30,
+		"health": 60,
+		"text": "Después de que invoques\nun esbirro diferente en combate,\nle otorga el triple de las estadísticas máximas de este esbirro.\n<i>(3 veces por combate)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1307953,8 +1307853,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 13,
+		"attack": 17,
+		"health": 23,
 		"text": "Al final de tu turno, otorga las estadísticas de este esbirro al primer esbirro por la izquierda de tu mano.",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -1308002,8 +1307902,8 @@
 			"MURLOC"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 26,
+		"attack": 34,
+		"health": 46,
 		"text": "Al final de tu turno, otorga el doble de las estadísticas de este esbirro al primer esbirro por la izquierda de tu mano.",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -1308399,7 +1308299,7 @@
 		"text": "Otorga +{0}/+{1} a tus esbirros. Otorga +{0}/+{1} adicionales a los dorados.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Anton Zemskov"
 	},
@@ -1331099,7 +1330999,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 9,
+		"cost": 10,
 		"attack": 9,
 		"health": 7,
 		"text": "<b>Grito de batalla:</b>\nReduce en (5) el coste de una carta de tu mano. Sigue por la izquierda y la derecha disminuyendo la reducción en (1).",
@@ -1341796,7 +1341696,7 @@
 		"rarity": "Common",
 		"cost": 2,
 		"spellSchool": "SHADOW",
-		"text": "Dentro de 2 turnos, invoca dos C'Thraxxi 3/5 con <b>Provocar</b>.",
+		"text": "Dentro de 2 turnos, invoca dos C'Thraxxi 2/4\ncon <b>Provocar</b>.",
 		"flavor": "Los dos tenéis dos turnos para secaros y sentaros a la mesa.",
 		"mechanics": [
 			"OBJECTIVE"
@@ -1341843,9 +1341743,9 @@
 			"WARLOCK"
 		],
 		"set": "Black_empire",
-		"cost": 4,
-		"attack": 3,
-		"health": 5,
+		"cost": 3,
+		"attack": 2,
+		"health": 4,
 		"text": "<b>Provocar</b>",
 		"mechanics": [
 			"TAUNT"
@@ -1342214,7 +1342114,7 @@
 		"set": "Black_empire",
 		"rarity": "Common",
 		"cost": 3,
-		"attack": 2,
+		"attack": 3,
 		"durability": 2,
 		"text": "Después de que tu héroe ataque, obtienes una Sobrecarga.",
 		"flavor": "Cauteriza al instante cualquier herida que provoca.",
@@ -1342252,7 +1342152,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Rare",
-		"cost": 2,
+		"cost": 1,
 		"text": "<b>Reúne</b> a un robot. Obtienes una Sobrecarga.",
 		"flavor": "miM rof tnuocca ton did tolp s'noraS-ggoY tub ,htaed s'norimiM detartsehcro yllufsseccus noraS-ggoY ,noitiurF ot emoc ot ainnellim ynam ekat dluow ti hguohT",
 		"artist": "Matt Dixon",
@@ -1342493,27 +1342393,13 @@
 		"cost": 6,
 		"attack": 5,
 		"health": 5,
-		"text": "<b>Escudo divino</b> Después de que un esbirro amistoso pierda su <b>Escudo divino</b>, otorga +5/+5 a un esbirro de tu mano.",
+		"text": "[x]<b>Escudo divino</b>\nDespués de que un esbirro amistoso\npierda su <b>Escudo divino</b>, otorga\n+5 /+5 a un esbirro de tu mano.",
 		"flavor": "«Por mi fe y mi coraje, estaré protegido. Y por mi honor y mi sacrificio, otro ocupará mi lugar».",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Escudo divino</b> Después de que un esbirro amistoso pierda su <b>Escudo divino</b>,",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "otorga +5/+5 a un esbirro de tu mano.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -1342994,9 +1342880,9 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 7,
-		"attack": 7,
-		"health": 7,
+		"cost": 6,
+		"attack": 6,
+		"health": 6,
 		"text": "<b>Grito de batalla:</b>\nObtienes 20 p. de armadura. En 2 turnos, convierte tu armadura en un gólem con estadísticas equivalentes y <b>Provocar</b>.",
 		"flavor": "Puedes perder la armadura de la forma fácil o la difícil.",
 		"mechanics": [
@@ -1345275,7 +1345161,7 @@
 		],
 		"attack": 4,
 		"health": 5,
-		"text": "Cuesta (2) cristales menos por cada carta con <b>Combo</b> jugada este turno. <b>Grito de batalla:</b> Roba una carta.",
+		"text": "Cuesta (2) cristales menos por cada carta con <b>Combo</b> jugada este turno. <b>Grito de batalla:</b> Roba 2 cartas.",
 		"flavor": "Aquí no se aplica lo de «tiene más miedo él de ti que tú de él».",
 		"mechanics": [
 			"BATTLECRY"
@@ -1345333,14 +1345219,14 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Common",
-		"cost": 3,
+		"cost": 4,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 4,
-		"health": 2,
-		"text": "<b>Último aliento:</b> Obtienes dos larvas de coste 1 con <b>Combos</b> que activan un poder de héroe de otra clase.",
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Último aliento:</b> Obtienes dos larvas con <b><b>Combo</b></b> que activan un poder de héroe de otra clase.\nCuestan (0) cristales.",
 		"flavor": "Imagina el grosor de las mosquiteras.",
 		"mechanics": [
 			"DEATHRATTLE",
@@ -1346729,10 +1346615,10 @@
 		"rarity": "Common",
 		"cost": 2,
 		"additionalCosts": {
-			"BLOODRUNE": 2
+			"BLOODRUNE": 3
 		},
 		"attack": 3,
-		"health": 3,
+		"health": 4,
 		"text": "<b>Robo de vida</b>",
 		"flavor": "Un vulgar renegado, haciendo de lord... ¡Yo te lo ordeno, arrodíllate!",
 		"mechanics": [
@@ -1347428,7 +1347314,7 @@
 		"rarity": "Common",
 		"cost": 5,
 		"spellSchool": "SHADOW",
-		"text": "Invoca un Alavacua 5/5 con <b>Robo de vida</b>. <i>(¡El siguiente hechizo de las Sombras que\njuegues repite esto!)</i>.",
+		"text": "Invoca dos Alavacuas 3/4 con <b>Robo de vida</b>. <i>(¡El siguiente hechizo de las Sombras que\njuegues repite esto!)</i>.",
 		"flavor": "Están muy ricos a la plancha, si puedes cazar uno.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0
@@ -1347477,13 +1347363,13 @@
 			"PRIEST"
 		],
 		"set": "Black_empire",
-		"cost": 5,
+		"cost": 3,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 5,
-		"health": 5,
+		"attack": 3,
+		"health": 4,
 		"text": "<b>Robo de vida</b>",
 		"mechanics": [
 			"LIFESTEAL"
@@ -1349409,7 +1349295,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 6,
@@ -1349471,7 +1349357,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 12,
 		"text": "[x]Cada vez que descartas\nuna carta, otorga +{0}/+{1} a\ntu <b>Deidad</b> y mejora el efecto.",
@@ -1352810,7 +1352696,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_2": 14
 		}
 	},
 	{
@@ -1352824,7 +1352710,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Obtienes dos esbirros\nde cada uno de estos niveles: 1, 2 y 3.",
@@ -1353260,8 +1353146,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -1353331,8 +1353217,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Arthur Bozonnet"
 	},
@@ -1353562,7 +1353448,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Obtienes un <b>cromadraco</b>\naleatorio. Al comienzo de\ncada turno, esto se repite.",
@@ -1353664,7 +1353550,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Obtienes {0} <b>contratos</b> aleatorios. Al comienzo de cada turno, esto se repite.",
@@ -1353730,8 +1353616,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Grace Liu"
 	},
@@ -1353780,8 +1353666,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"artist": "Tanamaes Leejierasaes"
 	},
@@ -1353968,6 +1353854,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Obtienes una <b>gema de sangre</b> que\notorga <b>Provocar</b>,\n<b>Escudo divino</b> o <b>Renacer</b> a un jabaespín.\nAl comienzo de cada turno,\nesto se repite.",
@@ -1366877,7 +1366764,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Obtienes una\nCaracola clonante.\nAl comienzo de cada\n{1} turnos, esto se repite.\n<i>(¡{0} turnos más!)</i>.",
@@ -1366909,8 +1366796,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Matt Dixon",
 		"otherTags": [
@@ -1366931,7 +1366818,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Obtienes un Beatboxeador polarizado.",
@@ -1368290,7 +1368177,7 @@
 		],
 		"attack": 0,
 		"health": 1,
-		"text": "<b><b>Renacer</b> </b><b>Último aliento:</b> Otorga +1/+1 a todos los esbirros en tu mano.",
+		"text": "<b>Renacer</b>, <b>Último aliento:</b> Otorga +1 p. de ataque a todos los esbirros en tu mano.",
 		"flavor": "Reconozco un dolor de tripa cuando lo veo.",
 		"mechanics": [
 			"CRAFTABLE_OUTPUT_POWER",
@@ -1368300,14 +1368187,14 @@
 		"artist": "Matt Dixon",
 		"assembleHalves": {
 			"first": {
-				"text": "<b><b>Renacer</b> </b><b>Último aliento:</b>",
+				"text": "<b>Renacer</b>, <b>Último aliento:</b>",
 				"mechanics": [
 					"DEATHRATTLE",
 					"REBORN"
 				]
 			},
 			"second": {
-				"text": "Otorga +1/+1 a todos los esbirros en tu mano.",
+				"text": "Otorga +1 p. de ataque a todos los esbirros en tu mano.",
 				"mechanics": [
 				]
 			}
@@ -1368482,7 +1368369,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Después de que\nse <b>Refresque</b> la taberna,\notorga +{0}/+{1}\na sus esbirros este turno.",
@@ -1368490,8 +1368377,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"artist": "Vlad Botos",
 		"referencedTags": [
@@ -1373396,7 +1373283,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 10,
+		"cost": 9,
 		"attack": 10,
 		"health": 10,
 		"text": "<b>Dios Antiguo</b>, <b>Grito de batalla:</b>\nSi has gastado 30 cristales en esbirros esta partida,\nobtiene <b>Inmune</b> durante 1 turno. <i>(¡{0} más!)</i>.",
@@ -1374874,7 +1374761,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "+4/+4. En 2 turnos, duplica las estadísticas de este esbirro."
+		"text": "+6/+6. En 2 turnos, duplica las estadísticas de este esbirro."
 	},
 	{
 		"dbfId": 132203,
@@ -1374910,7 +1374797,7 @@
 		"set": "Battlegrounds",
 		"cost": 0,
 		"faction": "NEUTRAL",
-		"text": "<b>Comienzo del combate:</b> Duplica la salud de este esbirro."
+		"text": "+15 p. de salud. <b>Comienzo del combate:</b> Duplica la salud de este esbirro."
 	},
 	{
 		"dbfId": 132207,
@@ -1375331,7 +1375218,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "<b>Comienzo del combate:</b> Duplica la salud de este esbirro.",
+		"text": "+15 p. de salud. <b>Comienzo del combate:</b> Duplica la salud de este esbirro.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1376459,7 +1376346,7 @@
 		"cost": 10,
 		"attack": 12,
 		"health": 12,
-		"text": "<b>Dios Antiguo</b>\nSi has activado las 4 facultades\nde C'Thun en esta partida, las facultades de este esbirro se triplican.",
+		"text": "<b>Dios Antiguo.</b> Si has\nactivado las 4 facultades de C'Thun en esta partida, las facultades de este esbirro se cuadruplican.",
 		"flavor": "\"Amitut Custodia de Amitus\"/2 + (2*\"Incubar\")/2 + (2*El Incognoscible\"/3).",
 		"artist": "Kevin Sidharta",
 		"availableAsSignature": true,
@@ -1376504,7 +1376391,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+2/+3."
+		"text": "+2/+2"
 	},
 	{
 		"dbfId": 132341,
@@ -1376517,7 +1376404,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+6/+9."
+		"text": "+8/+8"
 	},
 	{
 		"dbfId": 132342,
@@ -1376532,7 +1376419,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "Invoca a dos fanáticos 2/3 con <b>Provocar</b>.",
+		"text": "Invoca a dos fanáticos 2/2 con <b>Provocar</b>.",
 		"artist": "Stefan Bogdasarov",
 		"hideStats": true,
 		"referencedTags": [
@@ -1376555,7 +1376442,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "<b>Robo de vida.</b> Inflige 5 p. de daño a un esbirro enemigo.",
+		"text": "<b>Robo de vida</b>\nInflige 5 p. de daño a un esbirro enemigo.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376582,7 +1376469,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "Otorga +2/+3 a otros dos esbirros amistosos aleatorios.",
+		"text": "Otorga +2/+2 a otros dos esbirros amistosos aleatorios.",
 		"artist": "Kevin Sidharta",
 		"hideStats": true
 	},
@@ -1376599,7 +1376486,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Inflige 7 p. de daño\nque se reparte aleatoriamente entre los enemigos.",
+		"text": "Inflige 6 p. de daño\nque se reparte aleatoriamente entre los enemigos.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376678,13 +1376565,13 @@
 		"cost": 3,
 		"attack": 3,
 		"health": 2,
-		"text": "<b>Grito de batalla:</b> Si has lanzado 2 hechizos de las Sombras con esta carta en tu mano, elige una habilidad de C'Thun para activarla. <i>(¡{0} más!)</i>.",
+		"text": "<b>Grito de batalla:</b> Si has lanzado\nun hechizo de Sombras con\nesta carta en la mano, elige\nuna facultad de C'Thun para activarla.",
 		"flavor": "Ya vienen los Dioses Antiguos. ¡Ya vienen los Dioses Antiguos!",
 		"mechanics": [
 			"BATTLECRY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Ivo Campelo da Silva",
 		"availableAsSignature": true,
@@ -1376709,7 +1376596,7 @@
 		"rarity": "Legendary",
 		"cost": 2,
 		"attack": 2,
-		"health": 3,
+		"health": 2,
 		"text": "<b>Provocar</b>",
 		"mechanics": [
 			"TAUNT"
@@ -1376905,7 +1376792,7 @@
 			"HUNTER"
 		],
 		"set": "Black_empire",
-		"text": "+1/+1."
+		"text": "+1 p. de ataque."
 	},
 	{
 		"dbfId": 132441,
@@ -1377086,7 +1376973,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "<b>Último aliento:</b> Otorga +2/+2 a tus esbirros de forma permanente."
+		"text": "<b>Último aliento:</b> Otorga +3/+3 a tus esbirros de forma permanente."
 	},
 	{
 		"dbfId": 132485,
@@ -1377403,7 +1377290,7 @@
 		"cost": 9,
 		"attack": 7,
 		"health": 5,
-		"text": "[x]<b>Dios Antiguo.</b>\n<b>Grito de batalla:</b>\nAcaba tu turno.\nOtorga un turno más a Yogg-Saron.\n<i>(Una vez por partida)</i>.",
+		"text": "<b>Dios Antiguo.</b> <b>Grito de batalla:</b>\nAcaba tu turno.\nOtorga un turno más a Yogg-Saron.\n<i>(Una vez por partida)</i>.",
 		"flavor": "\"Reknit\" + \"Norimim\"",
 		"mechanics": [
 			"BATTLECRY"
@@ -1378610,8 +1378497,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 15,
+		"attack": 13,
+		"health": 17,
 		"text": "<b>Alentar:</b> Invoca un gólem con las estadísticas de este esbirro para que ataque antes al objetivo.",
 		"mechanics": [
 			"BACON_RALLY"
@@ -1378666,8 +1378553,8 @@
 			"QUILBOAR"
 		],
 		"techLevel": 7,
-		"attack": 12,
-		"health": 30,
+		"attack": 26,
+		"health": 34,
 		"text": "<b>Alentar:</b> Invoca un gólem con el doble de las estadísticas de este esbirro para que ataque antes al objetivo.",
 		"mechanics": [
 			"BACON_RALLY"
@@ -1378970,7 +1378857,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
+		"attack": 8,
 		"health": 8,
 		"text": "Cada vez que juegas\nun robot, le une con <b>Magnetismo</b> un satélite {1}/{2} y esto mejora.",
 		"mechanics": [
@@ -1378979,7 +1378866,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 2,
-			"TAG_SCRIPT_DATA_NUM_3": 3
+			"TAG_SCRIPT_DATA_NUM_3": 2
 		},
 		"artist": "Brian Despain",
 		"battlegroundsPremiumDbfId": 132677,
@@ -1379027,7 +1378914,7 @@
 			"MECH"
 		],
 		"techLevel": 5,
-		"attack": 12,
+		"attack": 16,
 		"health": 16,
 		"text": "Cada vez que juegas\nun robot, le une con <b>Magnetismo</b> un satélite {1}/{2} y esto mejora.",
 		"mechanics": [
@@ -1379036,7 +1378923,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 4,
-			"TAG_SCRIPT_DATA_NUM_3": 6
+			"TAG_SCRIPT_DATA_NUM_3": 4
 		},
 		"battlegroundsNormalDbfId": 132676,
 		"premium": true,
@@ -1379771,15 +1379658,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 7,
+		"health": 5,
 		"text": "Después de que gastes {2} de oro, obtienes un Arcón con llave. Si ya tenías uno, se abre {3} turnos antes. <i>(Oro restante: {0})</i>.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
 		"artist": "Joseph Weston",
@@ -1379825,15 +1379712,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 12,
-		"health": 12,
+		"attack": 14,
+		"health": 10,
 		"text": "Después de que gastes {2} de oro, obtienes un Arcón con llave. Si ya tenías uno, se abre {3} turnos antes. <i>(Oro restante: {0})</i>.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 2
 		},
 		"battlegroundsNormalDbfId": 132762,
@@ -1381084,7 +1380971,7 @@
 	{
 		"dbfId": 132837,
 		"id": "CAP_405t1",
-		"name": "",
+		"name": "Detenido por destrucción",
 		"type": "Spell",
 		"cardClass": "WARLOCK",
 		"playerClass": "Warlock",
@@ -1381094,6 +1380981,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
+		"text": "Obliga a cada esbirro a atacar a otro esbirro.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
 		},
@@ -1381131,7 +1381019,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Roba 2 cartas de la mano de tu oponente.",
+		"text": "Roba una carta de la mano de tu oponente.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -1381150,7 +1381038,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Otorga +3/+3 a los esbirros de tu mano y campo de batalla.",
+		"text": "Otorga +2/+2 a los esbirros de tu mano y campo de batalla.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 7
 		},
@@ -1381167,7 +1381055,7 @@
 			"NEUTRAL"
 		],
 		"set": "Azeroths_most_wanted",
-		"text": "+3/+3"
+		"text": "+2/+2"
 	},
 	{
 		"dbfId": 132848,
@@ -1381222,7 +1381110,7 @@
 		],
 		"set": "Azeroths_most_wanted",
 		"cost": 0,
-		"text": "Invoca tres esbirros de coste 3 aleatorios.",
+		"text": "Invoca tres esbirros de coste 2 aleatorios.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6
 		},
@@ -1381599,15 +1381487,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
+		"attack": 5,
+		"health": 5,
 		"text": "Cada vez que lanzas un hechizo sobre un robot, le une con <b>Magnetismo</b> un satélite {0}/{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Kevin Sidharta",
 		"battlegroundsPremiumDbfId": 132894,
@@ -1381655,15 +1381543,15 @@
 			"MECH"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 8,
+		"attack": 10,
+		"health": 10,
 		"text": "Cada vez que lanzas un\nhechizo sobre un robot, le une con <b>Magnetismo</b> un satélite {0}/{1} dos veces.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 132893,
 		"premium": true,
@@ -1382644,9 +1382532,9 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
-		"text": "Después de que <b>Descubres</b> una carta, otorga +{0}/+{1} a tus otros piratas. <i>(¡Los esbirros dorados que hayas jugado en esta partida la mejoran!)</i>.",
+		"attack": 5,
+		"health": 5,
+		"text": "Después de que <b>Descubras</b> una carta, otorga +{0}/+{1} a tus piratas. <i>(¡Los esbirros dorados que hayas jugado en esta partida la mejoran!)</i>.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1382747,9 +1382635,9 @@
 			"PIRATE"
 		],
 		"techLevel": 6,
-		"attack": 8,
-		"health": 8,
-		"text": "Después de que <b>Descubres</b> una carta, otorga +{0}/+{1} a tus otros piratas. <i>(¡Los esbirros dorados que hayas jugado en esta partida la mejoran!)</i>.",
+		"attack": 10,
+		"health": 10,
+		"text": "Después de que <b>Descubras</b> una carta, otorga +{0}/+{1} a tus piratas. <i>(¡Los esbirros dorados que hayas jugado en esta partida la mejoran!)</i>.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1383311,12 +1383199,13 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 9,
-		"text": "<b>Escudo divino</b>\n<b>Alentar:</b> Lanza Poderoso aliento de dragón.",
+		"attack": 9,
+		"health": 7,
+		"text": "<b>Escudo divino</b>, <b><b>Viento furioso</b></b>\n<b>Alentar:</b> Lanza Poderoso aliento de dragón.",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"artist": "TOPDOG Entertainment",
 		"battlegroundsPremiumDbfId": 132954,
@@ -1383361,12 +1383250,13 @@
 			"DRAGON"
 		],
 		"techLevel": 6,
-		"attack": 16,
-		"health": 18,
-		"text": "<b>Escudo divino</b>\n<b>Alentar:</b> Lanza Poderoso aliento de dragón dos veces.",
+		"attack": 18,
+		"health": 14,
+		"text": "<b>Escudo divino</b> <b>Viento furioso</b>\n<b>Alentar:</b> Lanza Poderoso aliento de dragón dos veces.",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"battlegroundsNormalDbfId": 132953,
 		"premium": true,
@@ -1383749,14 +1383639,14 @@
 		"techLevel": 6,
 		"isBaconPool": true,
 		"attack": 3,
-		"health": 12,
+		"health": 9,
 		"text": "Después de que juegues {1} elementales, obtiene las estadísticas del esbirro con más salud de la taberna. <i>(¡{0} más!)</i>.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Kevin Sidharta",
 		"battlegroundsPremiumDbfId": 132984,
@@ -1383802,14 +1383692,14 @@
 		],
 		"techLevel": 6,
 		"attack": 6,
-		"health": 24,
+		"health": 18,
 		"text": "Después de que juegues\n{1} elementales, obtiene el doble\nde las estadísticas del esbirro con más salud de la taberna. <i>(¡{0} más!)</i>.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 132983,
 		"premium": true,
@@ -1384060,15 +1383950,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 6,
+		"attack": 3,
+		"health": 7,
 		"text": "Cada vez que lanzas un\nhechizo sobre este esbirro, otorga +{0}/+{1} al primer esbirro por la izquierda de tu mano.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 9,
+			"TAG_SCRIPT_DATA_NUM_2": 9
 		},
 		"artist": "Marta Vives Poch",
 		"battlegroundsPremiumDbfId": 132990,
@@ -1384113,15 +1384003,15 @@
 			"MURLOC"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 12,
+		"attack": 6,
+		"health": 14,
 		"text": "Cada vez que lanzas un\nhechizo sobre este esbirro, otorga +{0}/+{1} al primer esbirro por la izquierda de tu mano.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 18,
+			"TAG_SCRIPT_DATA_NUM_2": 18
 		},
 		"battlegroundsNormalDbfId": 132989,
 		"premium": true,
@@ -1384282,15 +1384172,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 5,
-		"health": 7,
+		"attack": 6,
+		"health": 9,
 		"text": "Cada vez que lanzas un\nhechizo sobre un múrloc, otorga +{0}/+{1} a los múrlocs de tu mano y tablero.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Florent Mounier",
 		"battlegroundsPremiumDbfId": 133027,
@@ -1384335,15 +1384225,15 @@
 			"MURLOC"
 		],
 		"techLevel": 5,
-		"attack": 10,
-		"health": 14,
+		"attack": 12,
+		"health": 18,
 		"text": "Cada vez que lanzas un\nhechizo sobre un múrloc, otorga +{0}/+{1} a los múrlocs de tu mano y tablero.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 133026,
 		"premium": true,
@@ -1384389,15 +1384279,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 8,
+		"attack": 5,
+		"health": 10,
 		"text": "Después de que tu héroe reciba {1} p. de daño, obtienes una copia de Magdalenas corruptas. <i>(¡{0} más!)</i>.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Kleston Marques",
 		"battlegroundsPremiumDbfId": 133029,
@@ -1384442,15 +1384332,15 @@
 			"DEMON"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 16,
+		"attack": 10,
+		"health": 20,
 		"text": "Después de que tu héroe reciba {1} p. de daño, obtienes dos copias de Magdalenas corruptas. <i>(¡{0} más!)</i>.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 133028,
 		"premium": true,
@@ -1384766,8 +1384656,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -1384878,7 +1384768,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "Después de que compres un robot, obtienes un hechizo de taberna aleatorio.",
+		"text": "Después de que compres un robot, obtienes un hechizo de taberna aleatorio que cuesta (2) cristales o más.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"GENERATES_SPELL",
@@ -1387241,7 +1387131,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Anton Zemskov",
 		"otherTags": [
@@ -1387303,7 +1387193,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Obtienes una carta\nde <b>Elige una</b> aleatoria.\nAl comienzo de cada\nturno, obtienes otra.",
@@ -1387329,7 +1387219,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Obtienes 2 cartas\nde <b>Elige una</b> aleatorias.\nAl comienzo de cada turno,\nobtienes 2 más.",
@@ -1387460,7 +1387350,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "<b>Comienzo del combate:</b> Duplica el ataque de este esbirro.",
+		"text": "+15 p. de ataque.\n<b>Comienzo del combate:</b> Duplica el ataque\nde este esbirro.",
 		"hideStats": true
 	},
 	{
@@ -1387475,7 +1387365,7 @@
 		],
 		"set": "Battlegrounds",
 		"faction": "NEUTRAL",
-		"text": "<b>Comienzo del combate:</b> Duplica el ataque de este esbirro.",
+		"text": "+15 p. de ataque.\n<b>Comienzo del combate:</b> Duplica el ataque\nde este esbirro.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1387614,14 +1387504,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "Después de que lances 3 hechizos sobre esbirros, obtienes 1 de oro. <i>(¡{0} más!)</i>.",
+		"text": "Después de que lances {1} hechizos sobre esbirros, obtienes 1 de oro. <i>(¡{0} más!)</i>.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		}
 	},
 	{
@@ -1387635,7 +1387527,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Tus cartas de <b>Elige una</b>\ncombinan ambos efectos.",
@@ -1387678,7 +1387570,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Cada vez que un esbirro\namistoso con <b>Alentar</b>\nataca, obtienes un\n<b>Refrescar</b> gratis.",
@@ -1387727,7 +1387619,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Los dos primeros esbirros con <b>Grito de batalla</b> que compres cada turno son gratis. <i>(¡{0} más!)</i>.",
@@ -1388206,7 +1388098,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "Obtiene +3 de salud cada vez que juegas una carta.",
+		"text": "Obtiene +2 p. de salud cada vez que juegas una carta.",
 		"hideStats": true
 	},
 	{
@@ -1388233,7 +1388125,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "Obtiene +3 de salud cada vez que juegas una carta."
+		"text": "Obtiene +2 p. de salud cada vez que juegas una carta."
 	},
 	{
 		"dbfId": 133434,
@@ -1390112,6 +1390004,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Al final de tu turno, obtienes un satélite {0}/{1} con <b>Magnetismo</b>. <i>(¡Mejora con cada hechizo de taberna que hayas lanzado este turno!)</i>.",
@@ -1390122,8 +1390015,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 12,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -1390653,7 +1390546,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]<b>Descubre</b> una copia normal de\nun esbirro amistoso con\n<b>Don siniestro</b>. Al comienzo de\ncada turno, esto se repite.\n<i>(¡{0} turnos más!)</i>",
@@ -1391490,7 +1391383,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Obtienes un\nEmbolado de fuego o un Embolado de nieve. Al comienzo de cada turno, esto se repite.",
@@ -1392578,7 +1392471,7 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 5,
+		"attack": 6,
 		"health": 3,
 		"text": "[x]<b>Último aliento:</b> Otorga\n+{0}/+{1} esta partida a\nlos esbirros de la taberna.\n <b>Activar ({4}):</b> Mejora el efecto.",
 		"mechanics": [
@@ -1392587,7 +1392480,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -1392652,7 +1392545,7 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 10,
+		"attack": 12,
 		"health": 6,
 		"text": "[x]<b>Último aliento:</b> Otorga\n+{0}/+{1} esta partida a\nlos esbirros de la taberna.\n <b>Activar ({4}):</b> Mejora el efecto.",
 		"mechanics": [
@@ -1392661,7 +1392554,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 2,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -1393369,8 +1393262,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 13,
-			"TAG_SCRIPT_DATA_NUM_2": 13
+			"TAG_SCRIPT_DATA_NUM_1": 11,
+			"TAG_SCRIPT_DATA_NUM_2": 11
 		}
 	},
 	{
@@ -1393391,8 +1393284,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 50,
-			"TAG_SCRIPT_DATA_NUM_3": 50
+			"TAG_SCRIPT_DATA_NUM_1": 40,
+			"TAG_SCRIPT_DATA_NUM_3": 40
 		}
 	},
 	{
@@ -1393453,7 +1393346,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Obtienes un voluminizador con <b>Magnetismo</b> aleatorio. Al comienzo de cada turno, obtienes otro.",
@@ -1393475,7 +1393368,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Obtienes una Corrosión\nen el lodo. Después de que descartes un hechizo, obtienes una Corrosión en el lodo.",
@@ -1393503,7 +1393396,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 3,
-		"spellSchool": "LESSER_TRINKET",
+		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Al final de tu turno, otorga +{0}/+{1} a tus esbirros.\n<i>(¡Se duplica al comienzo de cada turno!)</i>.",
 		"mechanics": [
@@ -1393512,8 +1393405,8 @@
 			"END_OF_TURN"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -1393566,7 +1393459,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Obtienes 2 voluminizadores con <b>Magnetismo</b> aleatorios. Al comienzo de cada turno, esto se repite.",
@@ -1394234,7 +1394127,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Obtienes 2 Tiburones burlones.\nCada vez que muere un Cebo de\npesca, otorga +{0}/+{1} a tus\nbestias y esto mejora.",
@@ -1395302,15 +1395195,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 2,
-		"health": 6,
-		"text": "Cada vez que\njuegas una carta,\nobtiene +{0} p. de ataque.",
+		"attack": 6,
+		"health": 2,
+		"text": "Cada vez que juegas una carta, obtiene +{1} p. de salud.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsPremiumDbfId": 134705,
 		"audio2": {
@@ -1395357,15 +1395250,15 @@
 			"ALL"
 		],
 		"techLevel": 2,
-		"attack": 4,
-		"health": 12,
-		"text": "Cada vez que juegas una carta, obtiene +{0} p. de ataque.",
+		"attack": 12,
+		"health": 4,
+		"text": "Cada vez que juegas una carta, obtiene +{1} p. de salud.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 134704,
 		"premium": true,
@@ -1395622,15 +1395515,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 3,
-		"health": 3,
+		"attack": 4,
+		"health": 4,
 		"text": "Tiene +{0}/+{1} por cada\n<b>Grito de batalla</b> que hayas activado esta partida <i>(dondequiera que esté)</i>.",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsPremiumDbfId": 134711,
 		"referencedTags": [
@@ -1395680,15 +1395573,15 @@
 			"ALL"
 		],
 		"techLevel": 3,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "Tiene +{0}/+{1} por cada\n<b>Grito de batalla</b> que hayas activado esta partida <i>(dondequiera que esté)</i>.",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 134710,
 		"premium": true,
@@ -1395862,7 +1395755,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "Tiene +3/+3 por cada carta que hayas descartado en esta partida. <i>({1})</i>.",
+		"text": "Tiene +3/+2 por cada carta que hayas descartado en esta partida. <i>({1})</i>.",
 		"otherTags": [
 			"CARES_ABOUT_DISCARDS_THIS_GAME"
 		]
@@ -1395946,7 +1395839,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "Tiene +3/+3 por cada carta que hayas descartado en esta partida. <i>({1})</i>.",
+		"text": "Tiene +3/+2 por cada carta que hayas descartado en esta partida. <i>({1})</i>.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1397818,7 +1397711,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "<b>Robo de vida.</b> Inflige 5 p. de daño a un esbirro enemigo.",
+		"text": "<b>Robo de vida</b>\nInflige 5 p. de daño a un esbirro enemigo.",
 		"mechanics": [
 			"LIFESTEAL",
 			"DEAL_DAMAGE"

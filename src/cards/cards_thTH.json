@@ -28974,15 +28974,12 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "ทำลายมินเนี่ยนหนึ่งตัว จากนั้นชุบชีวิตมัน[b]พร้อมพลังชีวิตเต็ม",
+		"text": "ทำลายมินเนี่ยนที่ไม่ใช่ระดับ <b>ตำนาน</b> หนึ่งตัว จากนั้นชุบ[b]ชีวิตมันพร้อมพลังชีวิตเต็ม",
 		"flavor": "มันก็เหมือนตอนแรกเกิดนั่นแหละ ต่างกันตรงที่คุณเกิดมาเป็นผู้ใหญ่เลย และเมื่อไม่กี่วินาทีนี้คุณเพิ่งตายไป",
 		"artist": "Dan Scott",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		],
 		"audio2": {
 			"BASIC_play": {
@@ -123829,7 +123826,7 @@
 		"faction": "ALLIANCE",
 		"attack": 3,
 		"health": 3,
-		"text": "<b>เสียงสุดท้าย:</b> เรียกร่าง[b]ก๊อปปี้ 1/1 ของมินเนี่ยน[b]หนึ่งตัวจากมือคุณ",
+		"text": "<b>เสียงสุดท้าย:</b> เรียกมินเนี่ยน[b]หนึ่งตัวจากมือคุณ เปลี่ยน[b]ค่าพลังของมันเป็น 1/1",
 		"flavor": "เขาทำให้ทุกอย่างดูเหมือนเทียนได้",
 		"mechanics": [
 			"DEATHRATTLE"
@@ -356448,7 +356445,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>เควสต์ต่อเนื่อง:</b> จั่วการ์ด 4 ใบในเทิร์นเดียว <b>รางวัล:</b> ลดค่าร่ายของ[b]การ์ดเหล่านั้นลง (1)",
+		"text": "<b>เควสต์ต่อเนื่อง:</b> จั่วการ์ด 5 ใบในเทิร์นเดียว <b>รางวัล:</b> ลดค่าร่ายของ[b]การ์ดเหล่านั้นลง (1)",
 		"flavor": "ถึงเวลาหงายไพ่ใบสุดท้ายเพื่อตัดสินว่าใครจะป๊อก",
 		"mechanics": [
 			"QUESTLINE",
@@ -356478,7 +356475,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>เควสต์ต่อเนื่อง:</b> จั่วการ์ด 5 ใบในเทิร์นเดียว <b>รางวัล:</b> ลดค่าร่ายของ[b]การ์ดเหล่านั้นลง (1)",
+		"text": "<b>เควสต์ต่อเนื่อง:</b> จั่วการ์ด 6 ใบในเทิร์นเดียว <b>รางวัล:</b> ลดค่าร่ายของ[b]การ์ดเหล่านั้นลง (1)",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -360926,27 +360923,13 @@
 		"cost": 6,
 		"attack": 5,
 		"health": 5,
-		"text": "<b>โล่ศักดิ์สิทธิ์</b> หลังจากมินเนี่ยนฝ่ายคุณเสีย <b>โล่ศักดิ์สิทธิ์</b> มอบ +5/+5 ให้มินเนี่ยนหนึ่งใบในมือคุณ",
+		"text": "<b>โล่ศักดิ์สิทธิ์</b> หลังจากมินเนี่ยนฝ่ายคุณเสีย <b>โล่ศักดิ์สิทธิ์</b> มอบ +5/+5 ให้[b]มินเนี่ยนหนึ่งใบในมือคุณ",
 		"flavor": "\"ศรัทธาและความกล้าของข้าจะเป็นเครื่องปกป้องข้า ส่วนเกียรติและการเสียสละของข้าจะผลักดันให้ผู้อื่น[b]ขึ้นมาแทนที่\"",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>โล่ศักดิ์สิทธิ์</b> หลังจากมินเนี่ยนฝ่ายคุณเสีย <b>โล่ศักดิ์สิทธิ์</b>",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "มอบ +5/+5 ให้มินเนี่ยนหนึ่งใบในมือคุณ",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -377238,7 +377221,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>เควสต์ต่อเนื่อง:</b> จั่วการ์ด 5 ใบในเทิร์นเดียว <b>รางวัล:</b> ดีมอนสเลเยอร์เคอร์ทรัส",
+		"text": "<b>เควสต์ต่อเนื่อง:</b> จั่วการ์ด 6 ใบในเทิร์นเดียว <b>รางวัล:</b> ดีมอนสเลเยอร์เคอร์ทรัส",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -577524,7 +577507,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "<b>คำรามสู้ศึก:</b> ลดค่าร่ายของ[b]การ์ดทั้งหมดที่คุณก๊อปปี้มา[b]จากคู่ต่อสู้ลง (3)",
+		"text": "<b>คำรามสู้ศึก:</b> ลดค่าร่ายของ[b]การ์ดทั้งหมดที่คุณก๊อปปี้มา[b]จากคู่ต่อสู้ลง (2)",
 		"flavor": "เดฟ เราดูออกว่าจดหมายเป็นของปลอม เห็นลายมือ[b]ของเจ้าก็รู้แล้ว ถอดฮู้ดงี่เง่านั่นออกด้วย เจ้ากำลัง[b]ทำพวกเราขายหน้า",
 		"mechanics": [
 			"BATTLECRY"
@@ -605026,7 +605009,7 @@
 			"PRIEST"
 		],
 		"set": "Revendreth",
-		"text": "ค่าร่ายลดลง (3)"
+		"text": "ค่าร่ายลดลง (2)"
 	},
 	{
 		"dbfId": 78405,
@@ -632030,22 +632013,9 @@
 		"text": "หลังจากอันเดดฝ่ายคุณ[b]ตาย จั่วการ์ดหนึ่งใบ",
 		"flavor": "\"ข้าเห็นคนตาย คนตายเยอะมาก\"",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
-		"assembleHalves": {
-			"first": {
-				"text": "หลังจากอันเดดฝ่ายคุณ[b]ตาย",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "จั่วการ์ดหนึ่งใบ",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -893690,7 +893660,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -893743,7 +893713,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -954594,15 +954564,12 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "ทำลายมินเนี่ยนหนึ่งตัว จากนั้นชุบชีวิตมัน[b]พร้อมพลังชีวิตเต็ม",
+		"text": "ทำลายมินเนี่ยนที่ไม่ใช่ระดับ <b>ตำนาน</b> หนึ่งตัว จากนั้นชุบ[b]ชีวิตมันพร้อมพลังชีวิตเต็ม",
 		"flavor": "เหมือนตอนแรกเกิดนั่นแหละ ต่างกันตรงที่คุณ[b]เกิดมาเป็นผู้ใหญ่เลย และคุณเพิ่งตายไปเมื่อกี้",
 		"artist": "Dan Scott",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		],
 		"audio2": {
 			"BASIC_play": {
@@ -963340,16 +963307,16 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 8,
+		"attack": 12,
+		"health": 12,
 		"text": "<b>คำรามสู้ศึกและเสียงสุดท้าย:</b> มอบ +{0}/+{1} ให้มินเนี่ยน[b]ทั้งหมดในโรงเตี๊ยมในเกมนี้",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 12,
+			"TAG_SCRIPT_DATA_NUM_2": 12
 		},
 		"artist": "Joseph Weston",
 		"battlegroundsPremiumDbfId": 103699,
@@ -963394,16 +963361,16 @@
 			"DEMON"
 		],
 		"techLevel": 7,
-		"attack": 16,
-		"health": 16,
+		"attack": 24,
+		"health": 24,
 		"text": "<b>คำรามสู้ศึกและเสียงสุดท้าย:</b> มอบ +{0}/+{1} ให้มินเนี่ยน[b]ทั้งหมดในโรงเตี๊ยมในเกมนี้",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 24,
+			"TAG_SCRIPT_DATA_NUM_2": 24
 		},
 		"artist": "Joseph Weston",
 		"battlegroundsNormalDbfId": 103698,
@@ -963450,8 +963417,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 7,
+		"attack": 11,
+		"health": 11,
 		"text": "<b>ปลุกใจ:</b> สร้างความเสียหาย[b]เท่าพลังโจมตีของมินเนี่ยนตัวนี้[b]ให้เป้าหมายและมินเนี่ยน[b]ที่อยู่ติดกันหนึ่งตัว",
 		"mechanics": [
 			"BACON_RALLY",
@@ -963500,8 +963467,8 @@
 			"DRAGON"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 14,
+		"attack": 22,
+		"health": 22,
 		"text": "<b>ปลุกใจ:</b> สร้างความเสียหาย[b]เท่าพลังโจมตีของมินเนี่ยนตัวนี้[b]ให้เป้าหมายและมินเนี่ยน[b]ที่อยู่ติดกัน",
 		"mechanics": [
 			"BACON_RALLY",
@@ -963871,12 +963838,18 @@
 		"races": [
 			"MURLOC"
 		],
+		"techLevel": 2,
+		"isBaconPool": true,
 		"attack": 5,
 		"health": 3,
-		"text": "ทุกครั้งที่มินเนี่ยนตัวนี้[b]ฆ่ามินเนี่ยนได้ มอบ +2/+2 ให้มินเนี่ยนหนึ่งใบในมือคุณ",
+		"text": "ทุกครั้งที่มินเนี่ยนตัวนี้ฆ่า[b]มินเนี่ยนได้ มอบ +{0}/+{1} ให้มินเนี่ยนหนึ่งใบในมือคุณ",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
+		},
 		"artist": "Tiffany Chiu",
 		"battlegroundsPremiumDbfId": 103713,
 		"audio2": {
@@ -963923,10 +963896,14 @@
 		"techLevel": 2,
 		"attack": 10,
 		"health": 6,
-		"text": "ทุกครั้งที่มินเนี่ยนตัวนี้[b]ฆ่ามินเนี่ยนได้ มอบ +4/+4 ให้มินเนี่ยนหนึ่งใบในมือคุณ",
+		"text": "ทุกครั้งที่มินเนี่ยนตัวนี้ฆ่า[b]มินเนี่ยนได้ มอบ +{0}/+{1} ให้มินเนี่ยนหนึ่งใบในมือคุณ",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
+		},
 		"artist": "Tiffany Chiu",
 		"battlegroundsNormalDbfId": 103712,
 		"premium": true,
@@ -971392,7 +971369,7 @@
 		"text": "เลือกมินเนี่ยนหนึ่งตัว มอบ +{0}/+{1} ให้มินเนี่ยนทั้งหมด[b]ที่มีประเภทเดียวกับมัน",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"otherTags": [
 			"TARGETS_MINION"
@@ -973960,7 +973937,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "TAVERN",
 		"techLevel": 6,
 		"isBaconPool": true,
@@ -984046,15 +984023,15 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "TAVERN",
 		"techLevel": 4,
 		"isBaconPool": true,
 		"text": "มอบ +{0}/+{1} ให้มินเนี่ยนฝ่ายคุณ[b]ประเภทละหนึ่งตัว",
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Inès (Ourka) Rotzinger",
 		"otherTags": [
@@ -1012570,7 +1012547,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 6,
 		"health": 6,
 		"text": "ทุกครั้งที่คุณร่ายเวทมนตร์[b]โรงเตี๊ยม มอบ +{0}/+{1} ให้วิญญาณธาตุใน[b]โรงเตี๊ยมในเกมนี้",
 		"mechanics": [
@@ -1012578,7 +1012555,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsPremiumDbfId": 107940,
@@ -1012623,7 +1012600,7 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 12,
 		"health": 12,
 		"text": "ทุกครั้งที่คุณร่ายเวทมนตร์[b]โรงเตี๊ยม มอบ +{0}/+{1} ให้[b]วิญญาณธาตุในโรงเตี๊ยม[b]ในเกมนี้สองครั้ง",
 		"mechanics": [
@@ -1012631,7 +1012608,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 107939,
@@ -1045442,9 +1045419,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "หลังจากคุณเล่นมินเนี่ยน มอบ +3/+3 ให้มินเนี่ยน[b]ใบซ้ายสุดในมือคุณ",
+		"text": "หลังจากคุณเล่นมินเนี่ยน มอบ +5/+5 ให้มินเนี่ยน[b]ใบซ้ายสุดในมือคุณ",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1045474,7 +1045452,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "ทุกครั้งที่คุณใช้ทอง มอบ +{0}/+{1} ให้โจรสลัด[b]ฝ่ายคุณสองตัว",
@@ -1051504,22 +1051481,9 @@
 		"text": "หลังจากอันเดดฝ่ายคุณ[b]ตาย จั่วการ์ดหนึ่งใบ",
 		"flavor": "\"ข้าเห็นคนตาย คนตายเยอะมาก\"",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
-		"assembleHalves": {
-			"first": {
-				"text": "หลังจากอันเดดฝ่ายคุณ[b]ตาย",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "จั่วการ์ดหนึ่งใบ",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -1054343,8 +1054307,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 7,
-			"TAG_SCRIPT_DATA_NUM_2": 7
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"artist": "Vlad Botos"
 	},
@@ -1054557,7 +1054521,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>เริ่มการต่อสู้:</b> เพิ่มค่าพลังของมินเนี่ยน[b]ของคุณที่มีพลังโจมตี[b]ต่ำสุดสองตัวเป็นสองเท่า",
@@ -1056052,7 +1056016,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>เริ่มการต่อสู้:</b> มอบ \"<b>เสียงสุดท้าย:</b> เรียก[b]ฟรอสต์ลิ่งเฟื่องฟู\" ให้[b]วิญญาณธาตุฝ่ายคุณ 3 ตัว",
@@ -1056156,6 +1056119,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1056481,7 +1056445,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>เสกอาคม:</b> เลือกมินเนี่ยน[b]หนึ่งตัว แล้วเลือกมินเนี่ยน[b]จากขั้นสูงกว่าหนึ่งขั้นเพื่อ[b]เปลี่ยนร่างมันเป็นตัวนั้น",
@@ -1062638,7 +1062602,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "สุ่มรับมินเนี่ยน <b>คำรามสู้ศึก</b> หนึ่งใบ เมื่อเริ่มแต่ละเทิร์น รับเพิ่มอีกหนึ่งใบ",
@@ -1063878,16 +1063841,14 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 3,
 		"faction": "NEUTRAL",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "หลังจากมินเนี่ยนฝ่ายคุณ 2 ตัว[b]โจมตีในการต่อสู้แต่ละรอบ การ์ดใบ[b]นี้เล่น <b>ผลึกเลือด</b> หนึ่งใบใส่ควิลบอร์[b]ของคุณทั้งหมด <i>(อีก {0} ตัว!)</i>",
+		"text": "หลังจากควิลบอร์ฝ่ายคุณโจมตี[b]ในการต่อสู้แต่ละรอบ เครื่อง[b]ประดับนี้เล่น <b>ผลึกเลือด</b> หนึ่ง[b]ใบใส่ควิลบอร์ของคุณทั้งหมด",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
-		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
-		},
 		"referencedTags": [
 			"BACON_BLOOD_GEM_TOOLTIP"
 		]
@@ -1091644,7 +1091605,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "ทุกครั้งที่ควิลบอร์ฝ่ายคุณ[b]ตาย เรียกโกเล็มที่มีค่าพลัง[b]เท่ากับ <b>ผลึกเลือด</b> ของมัน",
@@ -1091752,7 +1091713,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "ได้รับ 2 ทอง โรงเตี๊ยมจะไม่มีการ์ด[b]ขั้น 1 และ 2 อีกต่อไป",
+		"text": "ได้รับ 3 ทอง โรงเตี๊ยมจะไม่มีการ์ด[b]ขั้น 1 และ 2 อีกต่อไป",
 		"mechanics": [
 			"AURA"
 		],
@@ -1091814,7 +1091775,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "หมุนวงล้อของย็อกก์-ซารอน เมื่อเริ่มแต่ละเทิร์น หมุนอีกครั้ง",
@@ -1093332,7 +1093293,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 7,
@@ -1093385,7 +1093346,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 14,
 		"text": "<b>ผลึกเลือด</b> ที่เล่นจากมือคุณ[b]ร่ายซ้ำอีก 2 รอบ",
@@ -1121988,10 +1121949,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "หลังจากคุณเล่นมินเนี่ยน มอบ +6/+6 ให้มินเนี่ยน[b]ตัวซ้ายสุดในมือคุณ",
+		"text": "หลังจากคุณเล่นมินเนี่ยน มอบ +10/+10 ให้มินเนี่ยน[b]ใบซ้ายสุดในมือคุณ",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		]
@@ -1122052,8 +1122013,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		}
 	},
 	{
@@ -1124170,15 +1124131,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "<b>เริ่มการต่อสู้:</b> มอบ +{0}/+{1} ให้วิญญาณธาตุตัวอื่นของคุณ[b]ทั้งหมด <i>(อัพเกรดหลังจาก[b]คุณเล่นวิญญาณธาตุ!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3,
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"artist": "Joseph Weston",
@@ -1124224,15 +1124185,15 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 12,
+		"attack": 16,
+		"health": 16,
 		"text": "<b>เริ่มการต่อสู้:</b> มอบ +{0}/+{1} ให้วิญญาณธาตุตัวอื่นของคุณ[b]ทั้งหมด <i>(อัพเกรดหลังจาก[b]คุณเล่นวิญญาณธาตุ!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"battlegroundsNormalDbfId": 115581,
@@ -1153030,24 +1152991,10 @@
 		"text": "หลังจากคุณเรียกวิญญาณ[b]ธาตุ สุ่มสร้างความเสียหาย 3 แต้มให้ศัตรูหนึ่งตัว",
 		"flavor": "เรื่องนี้พลิกไปมาหลายตลบ เล่มข้างๆ ที่ยังไม่ได้อ่านก็ด้วย",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Drew Hill",
-		"assembleHalves": {
-			"first": {
-				"text": "หลังจากคุณเรียกวิญญาณ[b]ธาตุ",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "สุ่มสร้างความเสียหาย 3 แต้มให้ศัตรูหนึ่งตัว",
-				"mechanics": [
-					"DEAL_DAMAGE"
-				]
-			}
-		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1153398,7 +1153345,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>เควสต์:</b> ร่ายเวทมนตร์ศักดิ์สิทธิ์ 4 ใบ <b>รางวัล:</b> ลมหายใจของชีวิต <b>เควสต์:</b> ร่ายเวทมนตร์ความมืด 4 ใบ <b>รางวัล:</b> สัมผัสมรณะ",
+		"text": "<b>เควสต์:</b> ร่ายเวทมนตร์ศักดิ์สิทธิ์ 6 ใบ <b>รางวัล:</b> ลมหายใจของชีวิต <b>เควสต์:</b> ร่ายเวทมนตร์ความมืด 6 ใบ <b>รางวัล:</b> สัมผัสมรณะ",
 		"flavor": "วันที่ 6 วันนี้เราได้เดินทางมาพบกับเกลดที่ได้รับผลกระทบ[b]จากความขัดแย้งระหว่างพลังเวทมนตร์ศักดิ์สิทธิ์และ[b]ความมืด และที่ใจกลางของมันคือวิญญาณธาตุยักษ์[b]สองตนที่เป็นเหมือนคนละด้านของเหรียญเดียวกัน หวังว่า[b]สักวันข้าจะได้กลับมาและเห็นความสันติสุขของที่นี่สักครั้ง",
 		"mechanics": [
 			"QUEST"
@@ -1153425,7 +1153372,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>เควสต์:</b> ร่ายเวทมนตร์ [b]ศักดิ์สิทธิ์ 4 ใบ <b>รางวัล:</b> ลมหายใจของชีวิต",
+		"text": "<b>เควสต์:</b> ร่ายเวทมนตร์ [b]ศักดิ์สิทธิ์ 6 ใบ <b>รางวัล:</b> ลมหายใจของชีวิต",
 		"mechanics": [
 			"QUEST"
 		],
@@ -1157698,7 +1157645,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "การ์ดทุกใบที่สี่ที่คุณซื้อ[b]ใช้พลังชีวิตจ่ายแทนทอง <i>(อีก {0} ใบ!)</i>",
@@ -1158316,7 +1158263,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "สุ่มรับก๊อปปี้ดั้งเดิมของ[b]มินเนี่ยนฝ่ายคุณหนึ่งตัว ทำซ้ำเมื่อเริ่มแต่ละเทิร์น",
@@ -1159259,7 +1159206,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "รับวิญญาณ[b]ความเซอร์ไพรส์หนึ่งใบ <i>(และรับเพิ่มตอนที่คุณ[b]คาดไม่ถึง...)</i>",
@@ -1163093,7 +1163040,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "<b>คำรามสู้ศึก:</b> ลดค่าร่ายของ[b]การ์ดทั้งหมดที่คุณก๊อปปี้มา[b]จากคู่ต่อสู้ลง (3)",
+		"text": "<b>คำรามสู้ศึก:</b> ลดค่าร่ายของ[b]การ์ดทั้งหมดที่คุณก๊อปปี้มา[b]จากคู่ต่อสู้ลง (2)",
 		"flavor": "เดฟ เราดูออกว่าจดหมายเป็นของปลอม เห็นลายมือ[b]ของเจ้าก็รู้แล้ว ถอดฮู้ดงี่เง่านั่นออกด้วย เจ้ากำลัง[b]ทำพวกเราขายหน้า",
 		"mechanics": [
 			"BATTLECRY"
@@ -1171086,12 +1171033,9 @@
 		"set": "Day_of_rebirth",
 		"rarity": "Common",
 		"cost": 8,
-		"text": "เปลี่ยนค่าพลังของมินเนี่ยน[b]ฝ่ายคุณหนึ่งตัวเป็น 1/1 เรียกร่างก๊อปปี้ของมัน[b]จนเต็มสนามฝั่งคุณ",
+		"text": "เปลี่ยนค่าพลังของมินเนี่ยน[b]ที่ไม่ใช่ระดับ <b>ตำนาน</b> ฝ่ายคุณ[b]หนึ่งตัวเป็น 1/1 เรียกร่างก๊อปปี้[b]ของมันจนเต็มสนามฝั่งคุณ",
 		"flavor": "ลัวร์หมดฤทธิ์แล้ว",
-		"artist": "Slawomir Maniak",
-		"otherTags": [
-			"TARGETS_FRIENDLY_MINION"
-		]
+		"artist": "Slawomir Maniak"
 	},
 	{
 		"dbfId": 118407,
@@ -1171467,15 +1171411,12 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>เสียงสุดท้าย:</b> เรียกไข่ที่ร้าว[b]เล็กน้อย <i>(ทำไข่แตก 5 ครั้งเพื่อ[b]ฟักเป็นสัตว์ 20/20 ที่มี <b>ยั่วยุ</b>!)</i>",
+		"text": "<b>เสียงสุดท้าย:</b> เรียกไข่ที่ร้าว[b]เล็กน้อย <i>(ทำไข่แตก 5 ครั้ง[b]เพื่อฟักเป็นสัตว์ 20/20!)</i>",
 		"flavor": "เคลอสเฝ้ารอวันที่จะได้ฟักตัวมานานหลายพันปี หวังว่าคุณจะไม่ต้องรอนานขนาดนั้น",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122542,
 			122543,
@@ -1171755,10 +1171696,6 @@
 		],
 		"attack": 20,
 		"health": 20,
-		"text": "<b>ยั่วยุ</b>",
-		"mechanics": [
-			"TAUNT"
-		],
 		"artist": "Vlad Botos",
 		"audio2": {
 			"BASIC_attack": {
@@ -1191070,7 +1191007,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>เควสต์:</b> ร่ายเวทมนตร์[b]ความมืด 4 ใบ <b>รางวัล:</b> สัมผัสมรณะ",
+		"text": "<b>เควสต์:</b> ร่ายเวทมนตร์[b]ความมืด 6 ใบ <b>รางวัล:</b> สัมผัสมรณะ",
 		"mechanics": [
 			"QUEST"
 		],
@@ -1198025,7 +1197962,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1198147,7 +1198083,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1198355,10 +1198291,10 @@
 			"BACON_BUFFS_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 1,
-			"TAG_SCRIPT_DATA_NUM_5": 6
+			"TAG_SCRIPT_DATA_NUM_5": 5
 		}
 	},
 	{
@@ -1206298,7 +1206234,7 @@
 		"collectible": true,
 		"set": "Across_the_timeways",
 		"rarity": "Epic",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "SHADOW",
 		"text": "สุ่มแบ่งมินเนี่ยนหนึ่งตัว[b]ในมือคุณเป็นสองเสี่ยง",
 		"flavor": "นั่นมันครึ่งหนึ่งของพลังชีวิต ของพลังโจมตี ของค่าร่าย",
@@ -1211659,7 +1211595,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "รับวิญญาณค้าขายหนึ่งใบ เมื่อเริ่มแต่ละเทิร์น รับอีกหนึ่งใบ",
@@ -1212154,7 +1212090,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "สร้างอันเดดโดยเลือก[b]ความสามารถเอง ทำซ้ำ[b]เมื่อเริ่มทุก 2 เทิร์น <i>(อีก {0} เทิร์น!)</i>",
@@ -1212247,28 +1212182,13 @@
 		],
 		"attack": 5,
 		"health": 3,
-		"text": "<b>ยั่วยุ</b> <b>คำรามสู้ศึก:</b> เพิ่มพลังชีวิตของมินเนี่ยน[b]ตัวนี้เป็นสองเท่า",
+		"text": "<b>ยั่วยุ</b> <b>คำรามสู้ศึก:</b> เพิ่ม[b]พลังชีวิตของมินเนี่ยน[b]ตัวนี้เป็นสองเท่า",
 		"flavor": "ใช้บรอนเซอร์มาเป็นร้อยปีก็เป็นอย่างนี้แหละ",
 		"mechanics": [
 			"BATTLECRY",
-			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Zoltan Boros",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>ยั่วยุ</b> <b>คำรามสู้ศึก:</b>",
-				"mechanics": [
-					"BATTLECRY",
-					"TAUNT"
-				]
-			},
-			"second": {
-				"text": "เพิ่มพลังชีวิตของมินเนี่ยน[b]ตัวนี้เป็นสองเท่า",
-				"mechanics": [
-				]
-			}
-		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1212651,7 +1212571,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "รับสัตว์ประหลาดของ[b]ด็อกเตอร์บูมหนึ่งใบ เมื่อเริ่มแต่ละเทิร์น รับเพิ่มอีกหนึ่งใบ",
@@ -1213938,9 +1213858,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "<b>ค้นพบ</b> มินเนี่ยนขั้น 5 ที่มีประเภทหนึ่งใบ เมื่อเริ่ม[b]แต่ละเทิร์น รับก๊อปปี้[b]ของมันอีกหนึ่งใบ",
+		"text": "<b>ค้นพบ</b> มินเนี่ยนขั้น 6 ที่มีประเภทหนึ่งใบ เมื่อเริ่ม[b]แต่ละเทิร์น รับก๊อปปี้[b]ของมันอีกหนึ่งใบ",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1214057,7 +1213978,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "ทุกครั้งที่สัตว์ฝ่ายคุณโจมตี มอบพลังโจมตี +{0} ให้มัน[b]แล้วเพิ่มค่าพลังนี้อย่างถาวร",
@@ -1214065,7 +1213986,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4
 		},
 		"artist": "Ira Fidler"
 	},
@@ -1216569,7 +1216490,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "เวทมนตร์โรงเตี๊ยมหนึ่งใบ[b]ในแต่ละเทิร์นใช้พลังชีวิต[b]ซื้อแทนทอง <i>(อีก {0} ใบ!)</i>",
@@ -1217661,12 +1217582,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "ครั้งแรกที่คุณซื้อมินเนี่ยนใน[b]แต่ละเทิร์น รับดาวเทียม <b>แม่เหล็ก</b> ที่มีค่าพลังเท่ากับ[b]มินเนี่ยนตัวนั้นหนึ่งใบ",
+		"text": "หลังจากคุณซื้อมินเนี่ยน รับดาวเทียม <b>แม่เหล็ก</b> ที่มี[b]ค่าพลังเท่ากับมันหนึ่งใบ <i>(สองครั้งต่อเทิร์น)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 2
+		},
 		"artist": "Kevin Sidharta",
 		"referencedTags": [
 			"MODULAR"
@@ -1217768,7 +1217693,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "รับซารีนาชาร์จพลังหนึ่งใบ ซารีนาชาร์จพลังของคุณ[b]ทั้งหมดมอบพลังชีวิตด้วย",
@@ -1219000,10 +1218924,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "<b>แก้แค้น (7):</b> เรียกด้วง {0}/{1} สองตัว มอบ <b>ยั่วยุ</b> ให้มัน",
+		"text": "<b>แก้แค้น (8):</b> เรียกด้วง {0}/{1} สองตัว มอบ <b>ยั่วยุ</b> ให้พวกมัน",
 		"mechanics": [
 			"AVENGE"
 		],
@@ -1222005,7 +1221929,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "รับนักเวทมอว์หนึ่งใบ ทุกครั้งที่คุณทำลายมินเนี่ยน[b]นอกช่วงต่อสู้ ได้รับ {0} ทอง",
@@ -1222013,7 +1221937,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Alex Horley Orlandelli"
 	},
@@ -1234357,14 +1234281,14 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 4,
+		"health": 8,
 		"text": "หลังจากฮีโร่ของคุณได้รับความ[b]เสียหาย ย้อนคืนความเสียหายนั้น[b] แล้วมอบ +{0}/+{1} ให้มินเนี่ยน[b] ทั้งหมดในโรงเตี๊ยมในเทิร์นนี้",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"artist": "Joseph Weston",
@@ -1234410,14 +1234334,14 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 12,
-		"health": 12,
+		"attack": 8,
+		"health": 16,
 		"text": "หลังจากฮีโร่ของคุณได้รับความ[b]เสียหาย ย้อนคืนความเสียหายนั้น[b] แล้วมอบ +{0}/+{1} ให้มินเนี่ยน[b] ทั้งหมดในโรงเตี๊ยมในเทิร์นนี้",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 121687,
@@ -1243742,14 +1243666,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>เสียงสุดท้าย:</b> เรียกไข่ที่ร้าว[b]พอควร <i>(ทำไข่แตก 4 ครั้งเพื่อ[b]ฟักเป็นสัตว์ 20/20 ที่มี <b>ยั่วยุ</b>!)</i>",
+		"text": "<b>เสียงสุดท้าย:</b> เรียกไข่ที่ร้าว[b]พอควร <i>(ทำไข่แตกอีก 4 ครั้ง[b]เพื่อฟักเป็นสัตว์ 20/20!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122543,
 			122545,
@@ -1243800,14 +1243721,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>เสียงสุดท้าย:</b> เรียกไข่ที่ร้าว[b]มากๆ <i>(ทำไข่แตก 3 ครั้งเพื่อ[b]ฟักเป็นสัตว์ 20/20 ที่มี <b>ยั่วยุ</b>!)</i>",
+		"text": "<b>เสียงสุดท้าย:</b> เรียกไข่ที่ร้าว[b]มากๆ <i>(ทำไข่แตกอีก 3 ครั้ง[b]เพื่อฟักเป็นสัตว์ 20/20!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122545,
 			122546,
@@ -1243870,14 +1243788,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>เสียงสุดท้าย:</b> เรียกไข่ที่ร้าว[b]สุดๆ <i>(ทำไข่แตก 2 ครั้งเพื่อ[b]ฟักเป็นสัตว์ 20/20 ที่มี <b>ยั่วยุ</b>!)</i>",
+		"text": "<b>เสียงสุดท้าย:</b> เรียกไข่ที่ร้าว[b]สุดๆ <i>(ทำไข่แตกอีก 2 ครั้ง[b]เพื่อฟักเป็นสัตว์ 20/20!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122546,
 			118495
@@ -1243926,14 +1243841,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>เสียงสุดท้าย:</b> เรียก[b]เคลอส 20/20 ที่มี <b>ยั่วยุ</b> <i>(ทำไข่แตกเพื่อฟัก!)</i>",
+		"text": "<b>เสียงสุดท้าย:</b> เรียกเคลอส 20/20 <i>(ทำไข่แตกเพื่อฟัก!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			118495
 		],
@@ -1244285,15 +1244197,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 3,
-		"health": 8,
+		"attack": 4,
+		"health": 9,
 		"text": "<b>ปลุกใจ:</b> <b>ผลึกเลือด</b> ของคุณ[b]มอบค่าพลังเพิ่มอีก +{0}/+{1} ในเกมนี้",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 1
 		},
 		"artist": "Kleston Marques",
 		"battlegroundsPremiumDbfId": 122567,
@@ -1244341,15 +1244253,15 @@
 			"QUILBOAR"
 		],
 		"techLevel": 5,
-		"attack": 6,
-		"health": 16,
+		"attack": 8,
+		"health": 18,
 		"text": "<b>ปลุกใจ:</b> <b>ผลึกเลือด</b> ของคุณ[b]มอบค่าพลังเพิ่มอีก +{0}/+{1} ในเกมนี้",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsNormalDbfId": 122566,
 		"premium": true,
@@ -1254146,7 +1254058,7 @@
 		"collectible": true,
 		"set": "Cataclysm",
 		"rarity": "Epic",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "FIRE",
 		"text": "สร้างความเสียหาย $1 แต้มให้มินเนี่ยนทั้งหมด <i>(เพิ่มขึ้นตามจำนวน[b]มินเนี่ยนในสนาม)</i>",
 		"flavor": "ขอมินเนี่ยนอีกสัก 10 ล้านตัวในสนามก็น่าจะรุนแรง[b]ระดับมหาวินาศภัยแล้ว",
@@ -1259809,15 +1259721,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 10,
 		"health": 3,
 		"text": "<b>เสียงสุดท้าย:</b> มอบ +{0}/+{1} ให้มินเนี่ยนของคุณทั้งหมด มินเนี่ยนสีทองเก็บค่าพลังนี้[b]ไว้อย่างถาวร",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsPremiumDbfId": 123596,
 		"audio2": {
@@ -1259855,15 +1259767,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 20,
 		"health": 6,
 		"text": "<b>เสียงสุดท้าย:</b> มอบ +{0}/+{1} ให้มินเนี่ยนของคุณทั้งหมด[b]สองครั้ง มินเนี่ยนสีทองเก็บ[b]ค่าพลังนี้ไว้อย่างถาวร",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 123595,
 		"premium": true,
@@ -1260288,27 +1260200,13 @@
 		],
 		"attack": 3,
 		"health": 1,
-		"text": "<b>โล่ศักดิ์สิทธิ์</b>\nหลังจากมินเนี่ยนตัวนี้เสีย <b>โล่ศักดิ์สิทธิ์</b> มอบพลังชีวิต +1 ให้นักรบ[b]ซิลเวอร์แฮนด์ของคุณในเกมนี้",
+		"text": "<b>โล่ศักดิ์สิทธิ์</b> หลังจากมินเนี่ยนตัวนี้เสีย <b>โล่[b]ศักดิ์สิทธิ์</b> มอบพลังชีวิต +1 ให้นักรบ[b]ซิลเวอร์แฮนด์ของคุณในเกมนี้",
 		"flavor": "ขอแสดงความยินดี! เจ้ากำลังได้รับการ[b]ช่วยเหลือ โปรดอย่าขัดขืน",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Milica Celikovic",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>โล่ศักดิ์สิทธิ์</b>\nหลังจากมินเนี่ยนตัวนี้เสีย <b>โล่ศักดิ์สิทธิ์</b>",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "มอบพลังชีวิต +1 ให้นักรบ[b]ซิลเวอร์แฮนด์ของคุณในเกมนี้",
-				"mechanics": [
-				]
-			}
-		},
 		"audio2": {
 			"BASIC_attack": {
 				"2H_EpicMace_Underlay_Attack": {
@@ -1282352,7 +1282250,7 @@
 		"rarity": "Epic",
 		"cost": 5,
 		"attack": 4,
-		"health": 4,
+		"health": 3,
 		"text": "<b>เตรียมการ</b> <b>คำรามสู้ศึก:</b> ถ้า[b]คุณเคยร่ายเวทมนตร์ในเทิร์นนี้ สุ่มร่าย <b>กับดัก</b> เมจสองใบ",
 		"flavor": "ยินดีต้อนรับสู่ดาลารัน ที่ที่เวทมนตร์เป็นแค่[b]สิ่งลวงโลกและทุกประเด็นไม่มีความหมาย!",
 		"mechanics": [
@@ -1282564,8 +1282462,8 @@
 		"collectible": true,
 		"set": "Violet_hold",
 		"rarity": "Rare",
-		"cost": 5,
-		"attack": 5,
+		"cost": 6,
+		"attack": 6,
 		"health": 3,
 		"text": "<b>เตรียมการ</b> <b>คำรามสู้ศึก:</b> ทำลาย[b]มินเนี่ยนตัวอื่นของคุณทั้งหมด จั่วการ์ดหนึ่งใบและฟื้นฟูหนึ่งมานา[b] ต่อมินเนี่ยนแต่ละตัวที่ถูกทำลาย",
 		"flavor": "เลื่อยไปเรื่อยๆ อย่าหยุดเลื่อย",
@@ -1288292,8 +1288190,6 @@
 		"races": [
 			"MURLOC"
 		],
-		"techLevel": 2,
-		"isBaconPool": true,
 		"attack": 3,
 		"health": 5,
 		"text": "<b>ปลุกใจ:</b> เรียกเมอร์ล็อค [b]พลังโจมตีสูงสุดจากมือคุณ[b]ในการต่อสู้รอบนี้เท่านั้น",
@@ -1297753,15 +1297649,17 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 15,
-		"health": 15,
-		"text": "<b>ปลุกใจ:</b> มอบ +{0}/+{1} ให้[b]มินเนี่ยนฝ่ายคุณประเภทละ[b]หนึ่งตัวอย่างถาวร",
+		"attack": 10,
+		"health": 10,
+		"text": "<b>ปลุกใจ:</b> มอบ +{0}/+{1} ให้มินเนี่ยนฝ่ายคุณประเภท[b]ละหนึ่งตัวอย่างถาวรแล้ว[b]อัพเกรดความสามารถนี้",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"artist": "Slawomir Maniak",
 		"battlegroundsPremiumDbfId": 127110,
@@ -1297822,15 +1297720,17 @@
 			"ALL"
 		],
 		"techLevel": 7,
-		"attack": 30,
-		"health": 30,
-		"text": "<b>ปลุกใจ:</b> มอบ +{0}/+{1} ให้[b]มินเนี่ยนฝ่ายคุณประเภทละ[b]หนึ่งตัวอย่างถาวร สองครั้ง",
+		"attack": 20,
+		"health": 20,
+		"text": "<b>ปลุกใจ:</b> มอบ +{0}/+{1} ให้มินเนี่ยนฝ่ายคุณประเภทละ[b]หนึ่งตัวอย่างถาวรแล้วอัพเกรด[b]ความสามารถนี้ สองครั้ง",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"battlegroundsNormalDbfId": 127109,
 		"premium": true,
@@ -1298027,9 +1297927,9 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 16,
-		"health": 32,
-		"text": "หลังจากคุณเรียกมินเนี่ยนใน[b]ช่วงต่อสู้ มอบค่าพลังสูงสุด[b]ของมินเนี่ยนตัวนี้ให้มัน <i>(3 ครั้งต่อการต่อสู้)</i>",
+		"attack": 15,
+		"health": 30,
+		"text": "หลังจากคุณเรียกมินเนี่ยนแบบ[b]อื่นในช่วงต่อสู้ มอบค่าพลังสูงสุด[b]ของมินเนี่ยนตัวนี้คูณสองให้มัน <i>(3 ครั้งต่อการต่อสู้)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1298078,9 +1297978,9 @@
 			"BEAST"
 		],
 		"techLevel": 7,
-		"attack": 32,
-		"health": 64,
-		"text": "หลังจากคุณเรียกมินเนี่ยนในช่วง[b]ต่อสู้ มอบค่าพลังสูงสุดสองเท่า[b]ของมินเนี่ยนตัวนี้ให้มัน <i>(3 ครั้ง[b]ต่อการต่อสู้)</i>",
+		"attack": 30,
+		"health": 60,
+		"text": "หลังจากคุณเรียกมินเนี่ยนแบบ[b]อื่นในช่วงต่อสู้ มอบค่าพลังสูงสุด[b]ของมินเนี่ยนตัวนี้คูณสามให้มัน <i>(3 ครั้งต่อการต่อสู้)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1307953,8 +1307853,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 13,
+		"attack": 17,
+		"health": 23,
 		"text": "เมื่อจบเทิร์นของคุณ มอบ[b]ค่าพลังของมินเนี่ยนตัวนี้ให้[b]มินเนี่ยนใบซ้ายสุดในมือคุณ",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -1308002,8 +1307902,8 @@
 			"MURLOC"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 26,
+		"attack": 34,
+		"health": 46,
 		"text": "เมื่อจบเทิร์นของคุณ มอบ[b]ค่าพลังสองเท่าของมินเนี่ยนตัวนี้[b]ให้มินเนี่ยนใบซ้ายสุดในมือคุณ",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -1308399,7 +1308299,7 @@
 		"text": "มอบ +{0}/+{1} ให้มินเนี่ยน[b]ของคุณทั้งหมด มอบเพิ่มอีก +{0}/+{1} ให้ตัวที่เป็นสีทอง",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Anton Zemskov"
 	},
@@ -1317240,7 +1317140,7 @@
 		"isBaconPool": true,
 		"attack": 5,
 		"health": 5,
-		"text": "เมื่อเริ่มเทิร์นของคุณ กินปีศาจทางขวาของมินเนี่ยน[b]ตัวนี้เพื่อรับค่าพลังของมัน[b]และรับ {0} ทอง",
+		"text": "เมื่อเริ่มเทิร์นของคุณ กินปีศาจทางขวาของมินเนี่ยน[b]ตัวนี้เพื่อรับค่าพลังของมัน[b]และได้รับ {0} ทอง",
 		"mechanics": [
 			"BACON_TIMEWARPED",
 			"TRIGGER_VISUAL"
@@ -1317292,7 +1317192,7 @@
 		"techLevel": 3,
 		"attack": 10,
 		"health": 10,
-		"text": "เมื่อเริ่มเทิร์นของคุณ กินปีศาจ[b]ทางขวาของมินเนี่ยนตัวนี้[b]เพื่อได้รับค่าพลังสองเท่า[b]ของมันและรับ {0} ทอง",
+		"text": "เมื่อเริ่มเทิร์นของคุณ กินปีศาจ[b]ทางขวาของมินเนี่ยนตัวนี้[b]เพื่อได้รับค่าพลังสองเท่า[b]ของมันและได้รับ {0} ทอง",
 		"mechanics": [
 			"BACON_TIMEWARPED",
 			"TRIGGER_VISUAL"
@@ -1331099,7 +1330999,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 9,
+		"cost": 10,
 		"attack": 9,
 		"health": 7,
 		"text": "<b>คำรามสู้ศึก:</b> ลดค่าร่ายของ[b]การ์ดหนึ่งใบในมือคุณลง (5) [b]ส่งต่อไปทางซ้ายและขวา[b]ด้วยค่าร่ายที่ลดลง (1)",
@@ -1341796,7 +1341696,7 @@
 		"rarity": "Common",
 		"cost": 2,
 		"spellSchool": "SHADOW",
-		"text": "ใน 2 เทิร์น เรียกคาแธรกซี 3/5 ที่มี <b>ยั่วยุ</b> สองตัว",
+		"text": "ใน 2 เทิร์น เรียกคาแธรกซี 2/4 ที่มี <b>ยั่วยุ</b> สองตัว",
 		"flavor": "เราจะให้เวลาพวกคุณอาบน้ำแล้วลงมากินข้าวภายใน 2 เทิร์น",
 		"mechanics": [
 			"OBJECTIVE"
@@ -1341843,9 +1341743,9 @@
 			"WARLOCK"
 		],
 		"set": "Black_empire",
-		"cost": 4,
-		"attack": 3,
-		"health": 5,
+		"cost": 3,
+		"attack": 2,
+		"health": 4,
 		"text": "<b>ยั่วยุ</b>",
 		"mechanics": [
 			"TAUNT"
@@ -1342214,7 +1342114,7 @@
 		"set": "Black_empire",
 		"rarity": "Common",
 		"cost": 3,
-		"attack": 2,
+		"attack": 3,
 		"durability": 2,
 		"text": "หลังจากฮีโร่ของคุณ[b]โจมตี รับ 'โอเวอร์[b]ไดรฟ์' หนึ่งใบ",
 		"flavor": "สร้างแผลเสร็จก็ไฟเผาปิดแผลได้ทันที",
@@ -1342252,7 +1342152,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Rare",
-		"cost": 2,
+		"cost": 1,
 		"text": "<b>ประกอบร่าง</b> เครื่องจักรหนึ่งใบ รับ 'โอเวอร์ไดรฟ์' หนึ่งใบ",
 		"flavor": "าว่ว้ไดาค\nด้ไม่ไก็นอราซ-ก์กอย็งอขนผแาว่ท นอรยมีเมิ\nงอขยาตรากดกิเห้ใอก่ก็ดสุที่ยาท้ต่แ ษรรวสหัส\nยาลหาลวเช้ใงอต้ะจนอราซ-ก์กอย็งอขนผแม้แ",
 		"artist": "Matt Dixon",
@@ -1342493,27 +1342393,13 @@
 		"cost": 6,
 		"attack": 5,
 		"health": 5,
-		"text": "<b>โล่ศักดิ์สิทธิ์</b> หลังจากมินเนี่ยนฝ่ายคุณเสีย <b>โล่ศักดิ์สิทธิ์</b> มอบ +5/+5 ให้มินเนี่ยนหนึ่งใบในมือคุณ",
+		"text": "<b>โล่ศักดิ์สิทธิ์</b> หลังจากมินเนี่ยนฝ่ายคุณเสีย <b>โล่ศักดิ์สิทธิ์</b> มอบ +5/+5 ให้[b]มินเนี่ยนหนึ่งใบในมือคุณ",
 		"flavor": "\"ศรัทธาและความกล้าของข้าจะเป็นเครื่องปกป้องข้า ส่วนเกียรติและการเสียสละของข้าจะผลักดันให้ผู้อื่น[b]ขึ้นมาแทนที่\"",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>โล่ศักดิ์สิทธิ์</b> หลังจากมินเนี่ยนฝ่ายคุณเสีย <b>โล่ศักดิ์สิทธิ์</b>",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "มอบ +5/+5 ให้มินเนี่ยนหนึ่งใบในมือคุณ",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -1342994,9 +1342880,9 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 7,
-		"attack": 7,
-		"health": 7,
+		"cost": 6,
+		"attack": 6,
+		"health": 6,
 		"text": "<b>คำรามสู้ศึก:</b> ได้รับเกราะ 20 แต้ม ใน 2 เทิร์น แปลงเกราะ[b]ของคุณเป็นโกเล็มที่มีค่าพลัง[b]เท่าจำนวนเกราะและ <b>ยั่วยุ</b>",
 		"flavor": "จะเสียเกราะดีๆ หรือจะเสียด้วยน้ำตา",
 		"mechanics": [
@@ -1345275,7 +1345161,7 @@
 		],
 		"attack": 4,
 		"health": 5,
-		"text": "ค่าร่ายลดลง (2) ต่อการ์ด <b>คอมโบ</b> แต่ละใบที่เล่นในเทิร์นนี้ <b>คำรามสู้ศึก:</b> จั่วการ์ดหนึ่งใบ",
+		"text": "ค่าร่ายลดลง (2) ต่อการ์ด <b>คอมโบ</b> แต่ละใบที่เล่นในเทิร์นนี้ <b>คำรามสู้ศึก:</b> จั่วการ์ด 2 ใบ",
 		"flavor": "\"มันก็แค่สัตว์ที่กำลังกลัวเจ้า\" \"ข้าก็กลัวมัน[b]ได้เหมือนกันไหมล่ะ ดูตัวมันสิ!\"",
 		"mechanics": [
 			"BATTLECRY"
@@ -1345333,14 +1345219,14 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Common",
-		"cost": 3,
+		"cost": 4,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 4,
-		"health": 2,
-		"text": "<b>เสียงสุดท้าย:</b> รับตัวอ่อนค่าร่าย 1 สองใบที่มี <b><b>คอมโบ</b></b> ที่บังคับ [b]ใช้พลังฮีโร่จากคลาสอื่น",
+		"attack": 5,
+		"health": 4,
+		"text": "<b>เสียงสุดท้าย:</b> รับตัวอ่อนสองใบที่มี <b><b>คอมโบ</b></b> ที่บังคับใช้พลังฮีโร่จากคลาสอื่น พวกมันมีค่าร่ายเป็น (0)",
 		"flavor": "ไม้ตียุงก็เอาไม่อยู่",
 		"mechanics": [
 			"DEATHRATTLE",
@@ -1346729,10 +1346615,10 @@
 		"rarity": "Common",
 		"cost": 2,
 		"additionalCosts": {
-			"BLOODRUNE": 2
+			"BLOODRUNE": 3
 		},
 		"attack": 3,
-		"health": 3,
+		"health": 4,
 		"text": "<b>สูบชีวิต</b>",
 		"flavor": "รักษ์ร่าง ต้องปลูกร่าง",
 		"mechanics": [
@@ -1347428,7 +1347314,7 @@
 		"rarity": "Common",
 		"cost": 5,
 		"spellSchool": "SHADOW",
-		"text": "เรียกวอยด์วิง 5/5 ที่มี <b>สูบชีวิต</b> <i>(ทำซ้ำเมื่อคุณเล่น[b]เวทมนตร์ความมืด[b]ใบถัดไป!)</i>",
+		"text": "เรียกวอยด์วิง 3/4 ที่มี <b>สูบชีวิต</b> สองตัว <i>(ทำซ้ำเมื่อคุณเล่น[b]เวทมนตร์ความมืดใบถัดไป!)</i>",
 		"flavor": "สรุปแล้วไก่กับไข่อะไรก่อกำเนิดก่อนกัน",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0
@@ -1347477,13 +1347363,13 @@
 			"PRIEST"
 		],
 		"set": "Black_empire",
-		"cost": 5,
+		"cost": 3,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 5,
-		"health": 5,
+		"attack": 3,
+		"health": 4,
 		"text": "<b>สูบชีวิต</b>",
 		"mechanics": [
 			"LIFESTEAL"
@@ -1349409,7 +1349295,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 6,
@@ -1349471,7 +1349357,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 12,
 		"text": "ทุกครั้งที่คุณทิ้งการ์ด มอบ +{0}/+{1} ให้ <b>เทพ</b> ของคุณ[b]และเพิ่มค่าพลังนี้",
@@ -1352810,7 +1352696,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_2": 14
 		}
 	},
 	{
@@ -1352824,7 +1352710,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "รับมินเนี่ยนจาก[b]ขั้น 1, 2, และ 3 ขั้นละสองใบ",
@@ -1353260,8 +1353146,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -1353331,8 +1353217,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Arthur Bozonnet"
 	},
@@ -1353562,7 +1353448,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "สุ่มรับ <b>โครมาเดรค</b> หนึ่งใบ ทำซ้ำเมื่อ[b]เริ่มแต่ละเทิร์น",
@@ -1353664,7 +1353550,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "สุ่มรับ <b>ค่าหัว</b> {0} ใบ ทำซ้ำเมื่อเริ่ม[b]แต่ละเทิร์น",
@@ -1353730,8 +1353616,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Grace Liu"
 	},
@@ -1353780,8 +1353666,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"artist": "Tanamaes Leejierasaes"
 	},
@@ -1353968,6 +1353854,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "รับ <b>ผลึกเลือด</b> หนึ่งใบที่มอบ <b>ยั่วยุ</b> <b>โล่ศักดิ์สิทธิ์</b> หรือ <b>คืนชีพ</b> ให้ควิลบอร์หนึ่งตัว ทำซ้ำเมื่อเริ่มแต่ละเทิร์น",
@@ -1366877,7 +1366764,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "รับหอยสังข์โคลนนิ่ง[b]หนึ่งใบ ทำซ้ำเมื่อเริ่มทุก {1} เทิร์น <i>(อีก {0} เทิร์น!)</i>",
@@ -1366909,8 +1366796,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Matt Dixon",
 		"otherTags": [
@@ -1366931,7 +1366818,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "รับบีตบ็อกเซอร์[b]สองขั้วหนึ่งใบ",
@@ -1368290,7 +1368177,7 @@
 		],
 		"attack": 0,
 		"health": 1,
-		"text": "<b><b>คืนชีพ</b></b> <b>เสียงสุดท้าย:</b> มอบ +1/+1 ให้มินเนี่ยน[b]ทั้งหมดในมือคุณ",
+		"text": "<b>คืนชีพ</b> <b>เสียงสุดท้าย:</b> มอบพลังโจมตี +1 ให้[b]มินเนี่ยนทั้งหมดในมือคุณ",
 		"flavor": "เป็นอันตรายต่อทั้งศัตรูและผู้ใช้",
 		"mechanics": [
 			"CRAFTABLE_OUTPUT_POWER",
@@ -1368300,14 +1368187,14 @@
 		"artist": "Matt Dixon",
 		"assembleHalves": {
 			"first": {
-				"text": "<b><b>คืนชีพ</b></b> <b>เสียงสุดท้าย:</b>",
+				"text": "<b>คืนชีพ</b> <b>เสียงสุดท้าย:</b>",
 				"mechanics": [
 					"DEATHRATTLE",
 					"REBORN"
 				]
 			},
 			"second": {
-				"text": "มอบ +1/+1 ให้มินเนี่ยน[b]ทั้งหมดในมือคุณ",
+				"text": "มอบพลังโจมตี +1 ให้[b]มินเนี่ยนทั้งหมดในมือคุณ",
 				"mechanics": [
 				]
 			}
@@ -1368482,7 +1368369,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "หลังจากโรงเตี๊ยม <b>รีเฟรช</b> มอบ +{0}/+{1} ให้มินเนี่ยน[b]ทั้งหมดในโรงเตี๊ยมในเทิร์นนี้",
@@ -1368490,8 +1368377,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"artist": "Vlad Botos",
 		"referencedTags": [
@@ -1373396,7 +1373283,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 10,
+		"cost": 9,
 		"attack": 10,
 		"health": 10,
 		"text": "<b>เทพโบราณ</b> <b>คำรามสู้ศึก:</b> ถ้าคุณ[b]ใช้ 30 มานาเล่นมินเนี่ยน[b]ในเกมนี้ ได้รับ <b>คงกระพัน</b> นาน 1 เทิร์น <i>(อีก {0} มานา!)</i>",
@@ -1374874,7 +1374761,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "+4/+4 ในอีก 2 เทิร์น เพิ่มค่าพลัง[b]ของมินเนี่ยนตัวนี้เป็นสองเท่า"
+		"text": "+6/+6 และในอีก 2 เทิร์น เพิ่มค่าพลังของมินเนี่ยน[b]ตัวนี้เป็นสองเท่า"
 	},
 	{
 		"dbfId": 132203,
@@ -1374910,7 +1374797,7 @@
 		"set": "Battlegrounds",
 		"cost": 0,
 		"faction": "NEUTRAL",
-		"text": "<b>เริ่มการต่อสู้:</b> เพิ่ม[b]พลังชีวิตของมินเนี่ยน[b]ตัวนี้เป็นสองเท่า"
+		"text": "พลังชีวิต +15 <b>เริ่มการต่อสู้:</b> เพิ่มพลังชีวิตของมินเนี่ยน[b]ตัวนี้เป็นสองเท่า"
 	},
 	{
 		"dbfId": 132207,
@@ -1375331,7 +1375218,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "<b>เริ่มการต่อสู้:</b> เพิ่ม[b]พลังชีวิตของมินเนี่ยน[b]ตัวนี้เป็นสองเท่า",
+		"text": "พลังชีวิต +15 <b>เริ่มการต่อสู้:</b> เพิ่มพลังชีวิตของมินเนี่ยน[b]ตัวนี้เป็นสองเท่า",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1376459,7 +1376346,7 @@
 		"cost": 10,
 		"attack": 12,
 		"health": 12,
-		"text": "<b>เทพโบราณ</b> ถ้าคุณใช้ความสามารถของคาธูน[b]ครบ 4 อย่างในเกมนี้ เอฟเฟกต์ของ[b]มินเนี่ยนตัวนี้เพิ่มขึ้นสามเท่า",
+		"text": "<b>เทพโบราณ</b> ถ้าคุณใช้ความสามารถของคาธูน[b]ครบ 4 อย่างในเกมนี้ เอฟเฟกต์ของ[b]มินเนี่ยนตัวนี้เพิ่มขึ้นสี่เท่า",
 		"flavor": "\"อามิทัต ผู้พิทักษ์อามิทัส\"\n\"ฟักเป็นตัว\"\n\"ผู้มิอาจหยั่งรู้\"",
 		"artist": "Kevin Sidharta",
 		"availableAsSignature": true,
@@ -1376504,7 +1376391,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+2/+3"
+		"text": "+2/+2"
 	},
 	{
 		"dbfId": 132341,
@@ -1376517,7 +1376404,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+6/+9"
+		"text": "+8/+8"
 	},
 	{
 		"dbfId": 132342,
@@ -1376532,7 +1376419,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "เรียกสาวก 2/3 ที่มี <b>ยั่วยุ</b> สองตัว",
+		"text": "เรียกสาวกคลั่ง 2/2 ที่มี <b>ยั่วยุ</b> สองตัว",
 		"artist": "Stefan Bogdasarov",
 		"hideStats": true,
 		"referencedTags": [
@@ -1376582,7 +1376469,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "สุ่มมอบ +2/+3 ให้มินเนี่ยนฝ่ายคุณ[b]ตัวอื่นสองตัว",
+		"text": "สุ่มมอบ +2/+2 ให้มินเนี่ยนฝ่ายคุณ[b]ตัวอื่นสองตัว",
 		"artist": "Kevin Sidharta",
 		"hideStats": true
 	},
@@ -1376599,7 +1376486,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "สร้างความเสียหาย 7 แต้มโดยสุ่มแบ่งกัน[b]ระหว่างศัตรูทั้งหมด",
+		"text": "สร้างความเสียหาย 6 แต้มโดยสุ่มแบ่งกัน[b]ระหว่างศัตรูทั้งหมด",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376678,13 +1376565,13 @@
 		"cost": 3,
 		"attack": 3,
 		"health": 2,
-		"text": "<b>คำรามสู้ศึก:</b> ถ้าคุณเคยร่ายเวทมนตร์[b]ความมืด 2 ใบขณะมีการ์ดนี้ [b]อยู่ในมือ เลือกใช้ความสามารถ[b]คาธูนหนึ่งอย่าง <i>(อีก {0} ใบ!)</i>",
+		"text": "<b>คำรามสู้ศึก:</b> ถ้าคุณเคยร่าย[b]เวทมนตร์ความมืดขณะมีการ์ดนี้[b]อยู่ในมือ เลือกใช้ความสามารถ[b]คาธูนหนึ่งอย่าง",
 		"flavor": "เทพโบราณมาแล้ว เทพโบราณมาแล้ว!",
 		"mechanics": [
 			"BATTLECRY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Ivo Campelo da Silva",
 		"availableAsSignature": true,
@@ -1376709,7 +1376596,7 @@
 		"rarity": "Legendary",
 		"cost": 2,
 		"attack": 2,
-		"health": 3,
+		"health": 2,
 		"text": "<b>ยั่วยุ</b>",
 		"mechanics": [
 			"TAUNT"
@@ -1376905,7 +1376792,7 @@
 			"HUNTER"
 		],
 		"set": "Black_empire",
-		"text": "+1/+1"
+		"text": "พลังโจมตี +1"
 	},
 	{
 		"dbfId": 132441,
@@ -1377086,7 +1376973,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "<b>เสียงสุดท้าย:</b> มอบ +2/+2 ให้มินเนี่ยน[b]ของคุณทั้งหมดอย่างถาวร"
+		"text": "<b>เสียงสุดท้าย:</b> มอบ +3/+3 ให้มินเนี่ยนของคุณ[b]ทั้งหมดอย่างถาวร"
 	},
 	{
 		"dbfId": 132485,
@@ -1378610,8 +1378497,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 15,
+		"attack": 13,
+		"health": 17,
 		"text": "<b>ปลุกใจ:</b> เรียกโกเล็ม[b]ที่มีค่าพลังของมินเนี่ยน[b] ตัวนี้มาโจมตีเป้าหมายก่อน",
 		"mechanics": [
 			"BACON_RALLY"
@@ -1378666,8 +1378553,8 @@
 			"QUILBOAR"
 		],
 		"techLevel": 7,
-		"attack": 12,
-		"health": 30,
+		"attack": 26,
+		"health": 34,
 		"text": "<b>ปลุกใจ:</b> เรียกโกเล็มที่มี[b]ค่าพลังสองเท่าของมินเนี่ยน[b]ตัวนี้มาโจมตีเป้าหมายก่อน",
 		"mechanics": [
 			"BACON_RALLY"
@@ -1378970,7 +1378857,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
+		"attack": 8,
 		"health": 8,
 		"text": "ทุกครั้งที่คุณเล่นเครื่องจักร รวมร่าง <b>แม่เหล็ก</b> เครื่องจักร[b]ตัวนั้นกับดาวเทียม {1}/{2} หนึ่งตัวและเพิ่มค่าพลังนี้",
 		"mechanics": [
@@ -1378979,7 +1378866,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 2,
-			"TAG_SCRIPT_DATA_NUM_3": 3
+			"TAG_SCRIPT_DATA_NUM_3": 2
 		},
 		"artist": "Brian Despain",
 		"battlegroundsPremiumDbfId": 132677,
@@ -1379027,7 +1378914,7 @@
 			"MECH"
 		],
 		"techLevel": 5,
-		"attack": 12,
+		"attack": 16,
 		"health": 16,
 		"text": "ทุกครั้งที่คุณเล่นเครื่องจักร รวมร่าง <b>แม่เหล็ก</b> เครื่องจักร[b]ตัวนั้นกับดาวเทียม {1}/{2} หนึ่งตัวและเพิ่มค่าพลังนี้",
 		"mechanics": [
@@ -1379036,7 +1378923,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 4,
-			"TAG_SCRIPT_DATA_NUM_3": 6
+			"TAG_SCRIPT_DATA_NUM_3": 4
 		},
 		"battlegroundsNormalDbfId": 132676,
 		"premium": true,
@@ -1379771,15 +1379658,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 7,
+		"health": 5,
 		"text": "หลังจากคุณใช้ครบ {2} ทอง รับกล่องล็อคหนึ่งใบ ถ้าคุณมีอยู่แล้ว มันเปิดเร็วขึ้น {3} เทิร์นแทน <i>(อีก {0} ทอง!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
 		"artist": "Joseph Weston",
@@ -1379825,15 +1379712,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 12,
-		"health": 12,
+		"attack": 14,
+		"health": 10,
 		"text": "หลังจากคุณใช้ครบ {2} ทอง รับกล่องล็อคหนึ่งใบ ถ้าคุณมีอยู่แล้ว มันเปิดเร็วขึ้น {3} เทิร์นแทน <i>(อีก {0} ทอง!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 2
 		},
 		"battlegroundsNormalDbfId": 132762,
@@ -1381084,7 +1380971,7 @@
 	{
 		"dbfId": 132837,
 		"id": "CAP_405t1",
-		"name": "",
+		"name": "ข้อหาบ่อนทำลาย",
 		"type": "Spell",
 		"cardClass": "WARLOCK",
 		"playerClass": "Warlock",
@@ -1381094,6 +1380981,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
+		"text": "บังคับให้[b]มินเนี่ยนทั้งหมด[b]โจมตีมินเนี่ยนตัวอื่น",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
 		},
@@ -1381131,7 +1381019,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "ขโมยการ์ด 2 ใบจากมือคู่ต่อสู้",
+		"text": "ขโมยการ์ดหนึ่งใบ[b]จากมือคู่ต่อสู้",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -1381150,7 +1381038,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "มอบ +3/+3 ให้[b]มินเนี่ยนทั้งหมดใน[b]มือคุณและสนามฝั่งคุณ",
+		"text": "มอบ +2/+2 ให้[b]มินเนี่ยนทั้งหมดใน[b]มือคุณและสนามฝั่งคุณ",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 7
 		},
@@ -1381167,7 +1381055,7 @@
 			"NEUTRAL"
 		],
 		"set": "Azeroths_most_wanted",
-		"text": "+3/+3"
+		"text": "+2/+2"
 	},
 	{
 		"dbfId": 132848,
@@ -1381222,7 +1381110,7 @@
 		],
 		"set": "Azeroths_most_wanted",
 		"cost": 0,
-		"text": "สุ่มเรียกมินเนี่ยน[b]ค่าร่าย 3 สามตัว",
+		"text": "สุ่มเรียกมินเนี่ยน[b]ค่าร่าย 2 สามตัว",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6
 		},
@@ -1381599,15 +1381487,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
+		"attack": 5,
+		"health": 5,
 		"text": "ทุกครั้งที่คุณร่ายเวทมนตร์[b]ใส่เครื่องจักร รวมร่าง <b>แม่เหล็ก</b> เครื่องจักรตัวนั้นกับ[b]ดาวเทียม {0}/{1} หนึ่งตัว",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Kevin Sidharta",
 		"battlegroundsPremiumDbfId": 132894,
@@ -1381655,15 +1381543,15 @@
 			"MECH"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 8,
+		"attack": 10,
+		"health": 10,
 		"text": "ทุกครั้งที่คุณร่ายเวทมนตร์[b]ใส่เครื่องจักร รวมร่าง <b>แม่เหล็ก</b> เครื่องจักรตัวนั้นกับดาวเทียม {0}/{1} หนึ่งตัวสองครั้ง",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 132893,
 		"premium": true,
@@ -1382644,9 +1382532,9 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
-		"text": "หลังจากคุณ <b>ค้นพบ</b> การ์ด มอบ +{0}/+{1} ให้โจรสลัดตัวอื่นของคุณ[b]ทั้งหมด <i>(เพิ่มขึ้นตามมินเนี่ยน[b] สีทองที่คุณเคยเล่นในเกมนี้!)</i>",
+		"attack": 5,
+		"health": 5,
+		"text": "หลังจากคุณ <b>ค้นพบ</b> การ์ด มอบ +{0}/+{1} ให้โจรสลัดของคุณ[b]ทั้งหมด <i>(เพิ่มขึ้นตามมินเนี่ยน[b] สีทองที่คุณเคยเล่นในเกมนี้!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1382747,9 +1382635,9 @@
 			"PIRATE"
 		],
 		"techLevel": 6,
-		"attack": 8,
-		"health": 8,
-		"text": "หลังจากคุณ <b>ค้นพบ</b> การ์ด มอบ +{0}/+{1} ให้โจรสลัดตัวอื่นของคุณ[b]ทั้งหมด <i>(เพิ่มขึ้นตามมินเนี่ยน[b]สีทองที่คุณเคยเล่นในเกมนี้!)</i>",
+		"attack": 10,
+		"health": 10,
+		"text": "หลังจากคุณ <b>ค้นพบ</b> การ์ด มอบ +{0}/+{1} ให้โจรสลัดของคุณ[b]ทั้งหมด <i>(เพิ่มขึ้นตามมินเนี่ยน[b] สีทองที่คุณเคยเล่นในเกมนี้!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1383311,12 +1383199,13 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 9,
-		"text": "<b>โล่ศักดิ์สิทธิ์</b> <b>ปลุกใจ:</b> ร่ายพลังลมหายใจ [b]เพลิงมังกร",
+		"attack": 9,
+		"health": 7,
+		"text": "<b>โล่ศักดิ์สิทธิ์</b> <b><b>วายุพิโรธ</b></b> <b>ปลุกใจ:</b> ร่ายพลังลมหายใจ[b]เพลิงมังกร",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"artist": "TOPDOG Entertainment",
 		"battlegroundsPremiumDbfId": 132954,
@@ -1383361,12 +1383250,13 @@
 			"DRAGON"
 		],
 		"techLevel": 6,
-		"attack": 16,
-		"health": 18,
-		"text": "<b>โล่ศักดิ์สิทธิ์</b> <b>ปลุกใจ:</b> ร่ายพลังลมหายใจ [b]เพลิงมังกรสองครั้ง",
+		"attack": 18,
+		"health": 14,
+		"text": "<b>โล่ศักดิ์สิทธิ์</b> <b>วายุพิโรธ</b> <b>ปลุกใจ:</b> ร่ายพลังลมหายใจ[b]เพลิงมังกรสองครั้ง",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"battlegroundsNormalDbfId": 132953,
 		"premium": true,
@@ -1383749,14 +1383639,14 @@
 		"techLevel": 6,
 		"isBaconPool": true,
 		"attack": 3,
-		"health": 12,
+		"health": 9,
 		"text": "หลังจากคุณเล่นวิญญาณธาตุ {1} ใบ ได้รับค่าพลังของ [b]มินเนี่ยนพลังชีวิตสูงสุด[b]ในโรงเตี๊ยม <i>(อีก {0} ใบ!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Kevin Sidharta",
 		"battlegroundsPremiumDbfId": 132984,
@@ -1383802,14 +1383692,14 @@
 		],
 		"techLevel": 6,
 		"attack": 6,
-		"health": 24,
+		"health": 18,
 		"text": "หลังจากคุณเล่นวิญญาณธาตุ {1} ใบ ได้รับค่าพลังสองเท่าของ[b]มินเนี่ยนพลังชีวิตสูงสุด[b]ในโรงเตี๊ยม <i>(อีก {0} ใบ!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 132983,
 		"premium": true,
@@ -1384060,15 +1383950,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 6,
+		"attack": 3,
+		"health": 7,
 		"text": "ทุกครั้งที่คุณร่ายเวทมนตร์ใส่[b]มินเนี่ยนตัวนี้ มอบ +{0}/+{1} ให้[b]มินเนี่ยนใบซ้ายสุดในมือคุณ",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 9,
+			"TAG_SCRIPT_DATA_NUM_2": 9
 		},
 		"artist": "Marta Vives Poch",
 		"battlegroundsPremiumDbfId": 132990,
@@ -1384113,15 +1384003,15 @@
 			"MURLOC"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 12,
+		"attack": 6,
+		"health": 14,
 		"text": "ทุกครั้งที่คุณร่ายเวทมนตร์ใส่[b]มินเนี่ยนตัวนี้ มอบ +{0}/+{1} ให้[b]มินเนี่ยนใบซ้ายสุดในมือคุณ",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 18,
+			"TAG_SCRIPT_DATA_NUM_2": 18
 		},
 		"battlegroundsNormalDbfId": 132989,
 		"premium": true,
@@ -1384282,15 +1384172,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 5,
-		"health": 7,
+		"attack": 6,
+		"health": 9,
 		"text": "ทุกครั้งที่คุณร่ายเวทมนตร์[b]ใส่เมอร์ล็อค มอบ +{0}/+{1} ให้เมอร์ล็อคทั้งหมด[b]ในมือคุณและสนามฝั่งคุณ",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Florent Mounier",
 		"battlegroundsPremiumDbfId": 133027,
@@ -1384335,15 +1384225,15 @@
 			"MURLOC"
 		],
 		"techLevel": 5,
-		"attack": 10,
-		"health": 14,
+		"attack": 12,
+		"health": 18,
 		"text": "ทุกครั้งที่คุณร่ายเวทมนตร์[b]ใส่เมอร์ล็อค มอบ +{0}/+{1} ให้เมอร์ล็อคทั้งหมด[b]ในมือคุณและสนามฝั่งคุณ",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 133026,
 		"premium": true,
@@ -1384389,15 +1384279,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 8,
+		"attack": 5,
+		"health": 10,
 		"text": "หลังจากฮีโร่ของคุณได้รับ[b]ความเสียหาย {1} แต้ม ได้รับ[b]ก๊อปปี้คัพเค้กถูกครอบงำ[b]หนึ่งใบ <i>(อีก {0} แต้ม!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Kleston Marques",
 		"battlegroundsPremiumDbfId": 133029,
@@ -1384442,15 +1384332,15 @@
 			"DEMON"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 16,
+		"attack": 10,
+		"health": 20,
 		"text": "หลังจากฮีโร่ของคุณได้รับ[b]ความเสียหาย {1} แต้ม ได้รับ[b]ก๊อปปี้คัพเค้กถูกครอบงำ[b]สองใบ <i>(อีก {0} แต้ม!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 133028,
 		"premium": true,
@@ -1384766,8 +1384656,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -1384878,7 +1384768,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "หลังจากคุณซื้อเครื่องจักร สุ่มรับเวทมนตร์[b]โรงเตี๊ยมหนึ่งใบ",
+		"text": "หลังจากคุณซื้อเครื่องจักร สุ่มรับเวทมนตร์โรงเตี๊ยม[b]ราคา (2) ทองหรือสูงกว่า[b]หนึ่งใบ",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"GENERATES_SPELL",
@@ -1387241,7 +1387131,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Anton Zemskov",
 		"otherTags": [
@@ -1387303,7 +1387193,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "สุ่มรับการ์ด <b>เลือกหนึ่งอย่าง</b> หนึ่งใบ เมื่อเริ่มแต่ละเทิร์น รับเพิ่มอีกหนึ่งใบ",
@@ -1387329,7 +1387219,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "สุ่มรับการ์ด <b>เลือกหนึ่งอย่าง</b> 2 ใบ เมื่อเริ่มแต่ละเทิร์น รับเพิ่มอีก 2 ใบ",
@@ -1387460,7 +1387350,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "<b>เริ่มการต่อสู้:</b> เพิ่ม[b]พลังโจมตีของมินเนี่ยน[b]ตัวนี้เป็นสองเท่า",
+		"text": "พลังโจมตี +15 <b>เริ่มการต่อสู้:</b> เพิ่มพลังโจมตีของมินเนี่ยน[b]ตัวนี้เป็นสองเท่า",
 		"hideStats": true
 	},
 	{
@@ -1387475,7 +1387365,7 @@
 		],
 		"set": "Battlegrounds",
 		"faction": "NEUTRAL",
-		"text": "<b>เริ่มการต่อสู้:</b> เพิ่ม[b]พลังโจมตีของมินเนี่ยน[b]ตัวนี้เป็นสองเท่า",
+		"text": "พลังโจมตี +15 <b>เริ่มการต่อสู้:</b> เพิ่มพลังโจมตีของมินเนี่ยน[b]ตัวนี้เป็นสองเท่า",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1387614,14 +1387504,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "หลังจากคุณร่ายเวทมนตร์ 3 ใบใส่มินเนี่ยน ได้รับ 1 ทอง <i>(อีก {0} ใบ!)</i>",
+		"text": "หลังจากคุณร่ายเวทมนตร์ {1} ใบใส่มินเนี่ยน ได้รับ 1 ทอง <i>(อีก {0} ใบ!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		}
 	},
 	{
@@ -1387635,7 +1387527,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "การ์ด <b>เลือกหนึ่งอย่าง</b> ของคุณให้ผล[b]ทั้งสองอย่าง",
@@ -1387678,7 +1387570,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "ทุกครั้งที่มินเนี่ยน <b>ปลุกใจ</b> ฝ่ายคุณโจมตี ได้รับ <b>รีเฟรช</b> ฟรีหนึ่งครั้ง",
@@ -1387727,7 +1387619,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "คุณซื้อมินเนี่ยน <b>คำรามสู้ศึก</b> สองตัวแรกในแต่ละเทิร์น[b]ได้ฟรี <i>(อีก {0} ตัว!)</i>",
@@ -1388206,7 +1388098,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "ทุกครั้งที่คุณเล่นการ์ด ได้รับพลังชีวิต +3",
+		"text": "ทุกครั้งที่คุณเล่นการ์ด ได้รับพลังชีวิต +2",
 		"hideStats": true
 	},
 	{
@@ -1388233,7 +1388125,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "ทุกครั้งที่คุณเล่นการ์ด ได้รับพลังชีวิต +3"
+		"text": "ทุกครั้งที่คุณเล่นการ์ด ได้รับพลังชีวิต +2"
 	},
 	{
 		"dbfId": 133434,
@@ -1390112,6 +1390004,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "เมื่อจบเทิร์นของคุณ รับดาวเทียม <b>แม่เหล็ก</b> {0}/{1} หนึ่งใบ <i>(เพิ่มขึ้น[b]ตามจำนวนเวทมนตร์โรงเตี๊ยม[b]ที่คุณเคยร่ายในเทิร์นนี้!)</i>",
@@ -1390122,8 +1390015,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 12,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -1390653,7 +1390546,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>ค้นพบ</b> ก๊อปปี้ดั้งเดิมของ[b]มินเนี่ยนฝ่ายคุณที่มี <b>ของขวัญ[b]พลังมืด</b> หนึ่งใบ ทำซ้ำเมื่อเริ่ม[b]ทุก 2 เทิร์น <i>(อีก {0} เทิร์น!)</i>",
@@ -1391490,7 +1391383,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "รับนักบอลไฟหรือ[b]นักบอลหิมะหนึ่งใบ ทำซ้ำเมื่อเริ่มแต่ละเทิร์น",
@@ -1392578,7 +1392471,7 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 5,
+		"attack": 6,
 		"health": 3,
 		"text": "<b>เสียงสุดท้าย:</b> มอบ +{0}/+{1} ให้มินเนี่ยนทั้งหมด[b]ในโรงเตี๊ยมในเกมนี้ <b>เปิดใช้ ({4}):</b> เพิ่มค่าพลังนี้",
 		"mechanics": [
@@ -1392587,7 +1392480,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -1392652,7 +1392545,7 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 10,
+		"attack": 12,
 		"health": 6,
 		"text": "<b>เสียงสุดท้าย:</b> มอบ +{0}/+{1} ให้มินเนี่ยนทั้งหมด[b]ในโรงเตี๊ยมในเกมนี้ <b>เปิดใช้ ({4}):</b> เพิ่มค่าพลังนี้",
 		"mechanics": [
@@ -1392661,7 +1392554,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 2,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -1393369,8 +1393262,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 13,
-			"TAG_SCRIPT_DATA_NUM_2": 13
+			"TAG_SCRIPT_DATA_NUM_1": 11,
+			"TAG_SCRIPT_DATA_NUM_2": 11
 		}
 	},
 	{
@@ -1393391,8 +1393284,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 50,
-			"TAG_SCRIPT_DATA_NUM_3": 50
+			"TAG_SCRIPT_DATA_NUM_1": 40,
+			"TAG_SCRIPT_DATA_NUM_3": 40
 		}
 	},
 	{
@@ -1393453,7 +1393346,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "สุ่มรับโวลูไมเซอร์ <b>แม่เหล็ก</b> หนึ่งใบ เมื่อเริ่มแต่ละเทิร์น รับเพิ่มอีกหนึ่งใบ",
@@ -1393475,7 +1393368,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "รับเมือกกัดกร่อนหนึ่งใบ หลังจากคุณทิ้งเวทมนตร์ รับเมือกกัดกร่อนหนึ่งใบ",
@@ -1393503,7 +1393396,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 3,
-		"spellSchool": "LESSER_TRINKET",
+		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "เมื่อจบเทิร์นของคุณ มอบ +{0}/+{1} ให้มินเนี่ยน[b]ของคุณทั้งหมด <i>(เพิ่มเป็น[b]สองเท่าเมื่อเริ่มแต่ละเทิร์น!)</i>",
 		"mechanics": [
@@ -1393512,8 +1393405,8 @@
 			"END_OF_TURN"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -1393566,7 +1393459,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "สุ่มรับโวลูไมเซอร์ <b>แม่เหล็ก</b> 2 ใบ ทำซ้ำ[b]เมื่อเริ่มแต่ละเทิร์น",
@@ -1394234,7 +1394127,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "รับฉลามปากร้าย 2 ใบ ทุกครั้งที่เหยื่อล่อปลาตาย มอบ +{0}/+{1} ให้สัตว์ของ[b]คุณทั้งหมดและเพิ่มค่าพลังนี้",
@@ -1395302,15 +1395195,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 2,
-		"health": 6,
-		"text": "ทุกครั้งที่คุณเล่นการ์ด ได้รับพลังโจมตี +{0}",
+		"attack": 6,
+		"health": 2,
+		"text": "ทุกครั้งที่คุณเล่นการ์ด ได้รับพลังชีวิต +{1}",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsPremiumDbfId": 134705,
 		"audio2": {
@@ -1395357,15 +1395250,15 @@
 			"ALL"
 		],
 		"techLevel": 2,
-		"attack": 4,
-		"health": 12,
-		"text": "ทุกครั้งที่คุณเล่นการ์ด ได้รับพลังโจมตี +{0}",
+		"attack": 12,
+		"health": 4,
+		"text": "ทุกครั้งที่คุณเล่นการ์ด ได้รับพลังชีวิต +{1}",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 134704,
 		"premium": true,
@@ -1395622,15 +1395515,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 3,
-		"health": 3,
+		"attack": 4,
+		"health": 4,
 		"text": "มี +{0}/+{1} ต่อ <b>คำรามสู้ศึก</b> แต่ละครั้งที่คุณใช้งานในเกมนี้ <i>(ไม่ว่าการ์ดนี้อยู่ที่ไหน)</i>",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsPremiumDbfId": 134711,
 		"referencedTags": [
@@ -1395680,15 +1395573,15 @@
 			"ALL"
 		],
 		"techLevel": 3,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "มี +{0}/+{1} ต่อ <b>คำรามสู้ศึก</b> แต่ละครั้งที่คุณใช้งานในเกมนี้ <i>(ไม่ว่าการ์ดนี้อยู่ที่ไหน)</i>",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 134710,
 		"premium": true,
@@ -1395862,7 +1395755,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "มี +3/+3 ต่อการ์ด[b]แต่ละใบที่คุณทิ้ง[b]ในเกมนี้ <i>({1})</i>",
+		"text": "มี +3/+2 ต่อการ์ด[b]แต่ละใบที่คุณทิ้ง[b]ในเกมนี้ <i>({1})</i>",
 		"otherTags": [
 			"CARES_ABOUT_DISCARDS_THIS_GAME"
 		]
@@ -1395946,7 +1395839,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "มี +3/+3 ต่อการ์ด[b]แต่ละใบที่คุณทิ้ง[b]ในเกมนี้ <i>({1})</i>",
+		"text": "มี +3/+2 ต่อการ์ด[b]แต่ละใบที่คุณทิ้ง[b]ในเกมนี้ <i>({1})</i>",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}

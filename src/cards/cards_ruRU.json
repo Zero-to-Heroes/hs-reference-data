@@ -28974,15 +28974,12 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "[x]Уничтожает существо,\nа затем возрождает его\nс полным здоровьем.",
+		"text": "[x]Уничтожает <b>нелегендарное</b>\nсущество, а затем возрождает\nего с полным здоровьем.",
 		"flavor": "Это как рождение, только во взрослом возрасте и сразу после смерти.",
 		"artist": "Dan Scott",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		],
 		"audio2": {
 			"BASIC_play": {
@@ -123829,7 +123826,7 @@
 		"faction": "ALLIANCE",
 		"attack": 3,
 		"health": 3,
-		"text": "<b>Предсмертный хрип:</b> призывает 1/1 копию случайного существа из вашей руки.",
+		"text": "<b>Предсмертный хрип:</b> призывает существо из вашей руки. Его характеристики становятся равны 1/1.",
 		"flavor": "В его мире что угодно может показаться свечкой.",
 		"mechanics": [
 			"DEATHRATTLE"
@@ -356448,7 +356445,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Цепочка заданий:</b> возьмите 4 карт за один ход. <b>Награда:</b> уменьшает стоимость взятых карт на (1).",
+		"text": "<b>Цепочка заданий:</b> возьмите 5 карт за один ход. <b>Награда:</b> уменьшает стоимость взятых карт на (1).",
 		"flavor": "Наконец-то. Последняя карта!",
 		"mechanics": [
 			"QUESTLINE",
@@ -356478,7 +356475,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Цепочка заданий:</b> возьмите 5 карт за один ход. <b>Награда:</b> уменьшает стоимость взятых карт на (1).",
+		"text": "<b>Цепочка заданий:</b> возьмите 6 карт за один ход. <b>Награда:</b> уменьшает стоимость взятых карт на (1).",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -360929,24 +360926,10 @@
 		"text": "<b>Божественный щит</b>\nПосле того как ваше существо теряет <b>«Божественный щит»</b>, существо у вас в руке получает +5/+5.",
 		"flavor": "«Вера и отвага защитят мой дух, а моя славная жертва сбережет мир для того, кто придет за мной».",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Божественный щит</b>\nПосле того как ваше существо теряет <b>«Божественный щит»</b>,",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "существо у вас в руке получает +5/+5.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -377238,7 +377221,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Цепочка заданий:</b> возьмите 5 карт за один ход. <b>Награда:</b> убийца демонов Куртрус.",
+		"text": "<b>Цепочка заданий:</b> возьмите 6 карт за один ход. <b>Награда:</b> убийца демонов Куртрус.",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -577524,7 +577507,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "<b>Боевой клич:</b> уменьшает стоимость карт, скопированных у противника, на (3).",
+		"text": "<b>Боевой клич:</b> уменьшает стоимость карт, скопированных у противника, на (2).",
 		"flavor": "Дейв, кого ты хочешь обмануть поддельным письмом? Мы же знаем твой почерк. И сними этот дурацкий капюшон, не позорься.",
 		"mechanics": [
 			"BATTLECRY"
@@ -605026,7 +605009,7 @@
 			"PRIEST"
 		],
 		"set": "Revendreth",
-		"text": "Стоит на (3) меньше."
+		"text": "Стоит на (2) меньше."
 	},
 	{
 		"dbfId": 78405,
@@ -632030,22 +632013,9 @@
 		"text": "[x]После того как ваше\nсущество-нежить погибает,\nвы берете карту.",
 		"flavor": "Я вижу мертвых людей! Очень много мертвых людей.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
-		"assembleHalves": {
-			"first": {
-				"text": "[x]После того как ваше\nсущество-нежить погибает,",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "вы берете карту.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -724790,7 +724760,7 @@
 		"faction": "NEUTRAL",
 		"attack": 5,
 		"health": 5,
-		"text": "<b>Токсичность</b>. <b>Начало боя:</b> за каждый тип существа под вашим контролем получает +5/+5, <b>«Неистовство ветра»</b>, <b>«Перерождение»</b> или <b>«Провокацию»</b>.",
+		"text": "<b>Токсичность</b>. <b>Начало боя:</b> за каждый тип существ под вашим контролем получает +5/+5, <b>«Неистовство ветра»</b>, <b>«Перерождение»</b> или <b>«Провокацию»</b>.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"VENOMOUS"
@@ -727734,7 +727704,7 @@
 		"techLevel": 6,
 		"attack": 10,
 		"health": 10,
-		"text": "<b>Токсичность</b>. <b>Начало боя:</b> за каждый тип существа под вашим контролем получает +5/+5, <b>«Неистовство ветра»</b>, <b>«Перерождение»</b> или <b>«Провокацию»</b> дважды.",
+		"text": "<b>Токсичность</b>. <b>Начало боя:</b> за каждый тип существ под вашим контролем получает +5/+5, <b>«Неистовство ветра»</b>, <b>«Перерождение»</b> или <b>«Провокацию»</b> дважды.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"VENOMOUS"
@@ -893690,7 +893660,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -893743,7 +893713,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -954594,15 +954564,12 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "[x]Уничтожает существо,\nа затем возрождает его\nс полным здоровьем.",
+		"text": "[x]Уничтожает <b>нелегендарное</b>\nсущество, а затем возрождает\nего с полным здоровьем.",
 		"flavor": "Это как рождение, только во взрослом возрасте и сразу после смерти.",
 		"artist": "Dan Scott",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		],
 		"audio2": {
 			"BASIC_play": {
@@ -963340,16 +963307,16 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 8,
+		"attack": 12,
+		"health": 12,
 		"text": "<b>Боевой клич\nи предсмертный хрип:</b> существа в таверне получают +{0}/+{1} в этом матче.",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 12,
+			"TAG_SCRIPT_DATA_NUM_2": 12
 		},
 		"artist": "Joseph Weston",
 		"battlegroundsPremiumDbfId": 103699,
@@ -963394,16 +963361,16 @@
 			"DEMON"
 		],
 		"techLevel": 7,
-		"attack": 16,
-		"health": 16,
+		"attack": 24,
+		"health": 24,
 		"text": "<b>Боевой клич\nи предсмертный хрип:</b> существа в таверне получают +{0}/+{1} в этом матче.",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 24,
+			"TAG_SCRIPT_DATA_NUM_2": 24
 		},
 		"artist": "Joseph Weston",
 		"battlegroundsNormalDbfId": 103698,
@@ -963450,8 +963417,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 7,
+		"attack": 11,
+		"health": 11,
 		"text": "[x]<b>Боевой раж:</b> наносит\n урон, равный своей атаке,\nцели и соседнему\n с ней существу.",
 		"mechanics": [
 			"BACON_RALLY",
@@ -963500,8 +963467,8 @@
 			"DRAGON"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 14,
+		"attack": 22,
+		"health": 22,
 		"text": "[x]<b>Боевой раж:</b> наносит\n урон, равный своей атаке,\nцели и соседним\n с ней существам.",
 		"mechanics": [
 			"BACON_RALLY",
@@ -963871,12 +963838,18 @@
 		"races": [
 			"MURLOC"
 		],
+		"techLevel": 2,
+		"isBaconPool": true,
 		"attack": 5,
 		"health": 3,
-		"text": "Когда это существо убивает другое, существо в вашей руке получает +2/+2.",
+		"text": "Когда это существо\nубивает другое существо, существо в вашей руке получает +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
+		},
 		"artist": "Tiffany Chiu",
 		"battlegroundsPremiumDbfId": 103713,
 		"audio2": {
@@ -963923,10 +963896,14 @@
 		"techLevel": 2,
 		"attack": 10,
 		"health": 6,
-		"text": "Когда это существо убивает другое, существо в вашей руке получает +4/+4.",
+		"text": "Когда это существо\nубивает другое существо, существо в вашей руке получает +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
+		},
 		"artist": "Tiffany Chiu",
 		"battlegroundsNormalDbfId": 103712,
 		"premium": true,
@@ -971392,7 +971369,7 @@
 		"text": "[x]Выберите существо.\nВсе существа того же типа\n получают +{0}/+{1}.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"otherTags": [
 			"TARGETS_MINION"
@@ -973960,7 +973937,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "TAVERN",
 		"techLevel": 6,
 		"isBaconPool": true,
@@ -984046,15 +984023,15 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "TAVERN",
 		"techLevel": 4,
 		"isBaconPool": true,
 		"text": "Одно ваше существо каждого типа получает +{0}/+{1}.",
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Inès (Ourka) Rotzinger",
 		"otherTags": [
@@ -1012570,7 +1012547,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 6,
 		"health": 6,
 		"text": "Когда вы применяете заклинание таверны, элементали в таверне получают +{0}/+{1}\nдо конца матча.",
 		"mechanics": [
@@ -1012578,7 +1012555,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsPremiumDbfId": 107940,
@@ -1012623,7 +1012600,7 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 12,
 		"health": 12,
 		"text": "Когда вы применяете заклинание таверны, элементали в таверне дважды получают +{0}/+{1}\nдо конца матча.",
 		"mechanics": [
@@ -1012631,7 +1012608,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 107939,
@@ -1045442,9 +1045419,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "После того как вы разыгрываете существо, крайнее левое существо [x]у вас в руке получает +3/+3.",
+		"text": "После того как вы разыгрываете существо, крайнее левое существо [x]у вас в руке получает +5/+5.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1045474,7 +1045452,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Когда вы тратите золото,\nдва ваших пирата\nполучают +{0}/+{1}.",
@@ -1051504,22 +1051481,9 @@
 		"text": "[x]После того как ваше\nсущество-нежить погибает,\nвы берете карту.",
 		"flavor": "Я вижу мертвых людей. Очень много мертвых людей.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Grafit Studio",
-		"assembleHalves": {
-			"first": {
-				"text": "[x]После того как ваше\nсущество-нежить погибает,",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "вы берете карту.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -1054343,8 +1054307,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 7,
-			"TAG_SCRIPT_DATA_NUM_2": 7
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"artist": "Vlad Botos"
 	},
@@ -1054557,7 +1054521,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Начало боя:</b> удваивает характеристики двух ваших существ с наименьшей атакой.",
@@ -1056052,7 +1056016,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "<b>Начало боя:</b> 3 ваших элементаля получают «<b>Предсмертный хрип:</b> призывает развивающегося студика».",
@@ -1056156,6 +1056119,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1056481,7 +1056445,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]<b>Чародейство:</b>\n выберите существо.\nЗатем вы выбираете существо\nиз таверны уровнем выше,\n в которое оно превращается.",
@@ -1062638,7 +1062602,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Вы получаете случайное существо с <b>«Боевым кличем»</b>. В начале каждого хода вы получаете еще одно.",
@@ -1063878,16 +1063841,14 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 3,
 		"faction": "NEUTRAL",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]В каждом бою, после того как\n 2 ваших существа атакуют,\n применяет <b>кровавый самоцвет</b>\nк вашим свинобразам. <i>(Еще {0}!)</i>",
+		"text": "[x]В каждом бою, после того\nкак ваш свинобраз атакует,\nприменяет <b>кровавый самоцвет</b>\nк вашим свинобразам.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
-		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
-		},
 		"referencedTags": [
 			"BACON_BLOOD_GEM_TOOLTIP"
 		]
@@ -1091644,7 +1091605,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Когда погибает ваш свинобраз,\nпризывает голема с характерис-\nтиками, равными его прибавке\nот <b>кровавых самоцветов</b>.",
@@ -1091752,7 +1091713,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "Вы получаете 2 золотых. В таверне больше\nнет карт первого\nи второго уровня.",
+		"text": "Вы получаете 3 золотых. В таверне больше\nнет карт первого\nи второго уровня.",
 		"mechanics": [
 			"AURA"
 		],
@@ -1091814,7 +1091775,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Вы крутите колесо Йогг-Сарона. В начале каждого хода вы крутите его снова.",
@@ -1093332,7 +1093293,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 7,
@@ -1093385,7 +1093346,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 14,
 		"text": "<b>Кровавые самоцветы</b>, разыгрываемые из вашей руки, срабатывают еще 2 раза.",
@@ -1121988,10 +1121949,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "После того как вы разыгрываете существо, крайнее левое существо [x]у вас в руке получает +6/+6.",
+		"text": "После того как вы разыгрываете существо, крайнее левое существо [x]у вас в руке получает +10/+10.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		]
@@ -1122052,8 +1122013,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		}
 	},
 	{
@@ -1124170,15 +1124131,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "[x]<b>Начало боя:</b> другие ваши\nэлементали получают +{0}/+{1}.\n<i>(Улучшается после того, как вы\n разыгрываете элементаля.) </i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3,
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"artist": "Joseph Weston",
@@ -1124224,15 +1124185,15 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 12,
+		"attack": 16,
+		"health": 16,
 		"text": "[x]<b>Начало боя:</b> другие ваши\nэлементали получают +{0}/+{1}.\n<i>(Улучшается после того, как вы\n разыгрываете элементаля.) </i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"battlegroundsNormalDbfId": 115581,
@@ -1153030,24 +1152991,10 @@
 		"text": "После того как вы призываете\nэлементаля, наносит 3 ед. урона\nслучайному противнику.",
 		"flavor": "В библиотеке не шуметь, а то сдует!",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
 		],
 		"artist": "Drew Hill",
-		"assembleHalves": {
-			"first": {
-				"text": "После того как вы призываете\nэлементаля,",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "наносит 3 ед. урона\nслучайному противнику.",
-				"mechanics": [
-					"DEAL_DAMAGE"
-				]
-			}
-		},
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -1153398,7 +1153345,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "[x]<b>Задача:</b> примените 4\nзаклинания Света. <b>Награда:</b>\n«Дыхание жизни». <b>Задача:</b>\nпримените 4 заклинания Тьмы.\n <b>Награда:</b> «Касание Смерти».",
+		"text": "[x]<b>Задача:</b> примените 6 заклинаний\nСвета. <b>Награда:</b> «Дыхание жизни».\n<b>Задача: </b>примените 6 заклинаний\nТьмы. <b>Награда: </b>«Касание Смерти».",
 		"flavor": "День 6. Сегодня мы очутились в роще, разоренной столкновением энергий Света и Тьмы. В центре сражались два огромных элементаля, точно две стороны одной медали. Надеюсь, однажды мы вернемся сюда и наведем порядок.",
 		"mechanics": [
 			"QUEST"
@@ -1153425,7 +1153372,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "[x]<b>Задача:</b> примените\n4 заклинания Света.\n <b>Награда:</b> «Дыхание Жизни».",
+		"text": "[x]<b>Задача:</b> примените\n6 заклинаний Света.\n<b>Награда:</b> «Дыхание Жизни».",
 		"mechanics": [
 			"QUEST"
 		],
@@ -1157698,7 +1157645,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Каждая четвертая карта покупается за здоровье, а не за золото. <i>(Еще {0}!)</i>",
@@ -1158316,7 +1158263,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Вы получаете простую копию вашего случайного существа. В начале каждого хода\nэффект повторяется.",
@@ -1159259,7 +1159206,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Вы получаете сюрпризоменталя.\n<i>(Другие сюрпризоментали\nпоявятся, когда вы\nне будете их ожидать...)</i>",
@@ -1163093,7 +1163040,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "<b>Боевой клич:</b> уменьшает стоимость карт, скопированных у противника, на (3).",
+		"text": "<b>Боевой клич:</b> уменьшает стоимость карт, скопированных у противника, на (2).",
 		"flavor": "Дейв, кого ты хочешь обмануть поддельным письмом? Мы же знаем твой почерк. И сними этот дурацкий капюшон, не позорься.",
 		"mechanics": [
 			"BATTLECRY"
@@ -1171086,12 +1171033,9 @@
 		"set": "Day_of_rebirth",
 		"rarity": "Common",
 		"cost": 8,
-		"text": "[x]Характеристики вашего\nсущества становятся\nравны 1/1. Заполняет\nвашу сторону его копиями.",
+		"text": "[x]Характеристики вашего\n<b>нелегендарного</b> существа\nстановятся равны 1/1.\nЗаполняет вашу сторону\nего копиями.",
 		"flavor": "В отличие от комаров, у нетопырей кусаются не только самки.",
-		"artist": "Slawomir Maniak",
-		"otherTags": [
-			"TARGETS_FRIENDLY_MINION"
-		]
+		"artist": "Slawomir Maniak"
 	},
 	{
 		"dbfId": 118407,
@@ -1171467,15 +1171411,12 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Предсмертный хрип:</b> призывает\nслегка надтреснутое яйцо.\n<i>(Разбейте 5 раз, чтобы\nвылупился зверь 20/20 с <b>«Провокацией»</b>!)</i>",
+		"text": "<b>Предсмертный хрип:</b> призывает\nслегка надтреснутое яйцо.\n<i>(Разбейте 5 раз, чтобы\n[x]вылупился зверь 20/20!)</i>",
 		"flavor": "Многие тысячи лет тортолланы ожидали вылупления кхелоса. Надеюсь, вам так долго ждать не придется.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122542,
 			122543,
@@ -1171755,10 +1171696,6 @@
 		],
 		"attack": 20,
 		"health": 20,
-		"text": "<b>Провокация</b>",
-		"mechanics": [
-			"TAUNT"
-		],
 		"artist": "Vlad Botos",
 		"audio2": {
 			"BASIC_attack": {
@@ -1191070,7 +1191007,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "[x]<b>Задача:</b> примените\n4 заклинания Тьмы.\n<b>Награда:</b> «Касание Смерти».",
+		"text": "[x]<b>Задача:</b> примените\n6 заклинаний Тьмы.\n<b>Награда:</b> «Касание Смерти».",
 		"mechanics": [
 			"QUEST"
 		],
@@ -1198025,7 +1197962,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1198147,7 +1198083,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -1198355,10 +1198291,10 @@
 			"BACON_BUFFS_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 1,
-			"TAG_SCRIPT_DATA_NUM_5": 6
+			"TAG_SCRIPT_DATA_NUM_5": 5
 		}
 	},
 	{
@@ -1206298,7 +1206234,7 @@
 		"collectible": true,
 		"set": "Across_the_timeways",
 		"rarity": "Epic",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "SHADOW",
 		"text": "Расщепляет случайное существо у вас в руке надвое.",
 		"flavor": "Это в самом деле моя вторая половина.",
@@ -1211659,7 +1211595,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Вы получаете продажементаля. В начале каждого хода вы получаете еще одного.",
@@ -1212154,7 +1212090,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Создает нежить.\nПовторяется в начале\nкаждого 2-го хода.\n<i>(Еще {0} ходов!)</i>",
@@ -1212251,24 +1212186,9 @@
 		"flavor": "Вот что бывает после ста лет в обронзовителе.",
 		"mechanics": [
 			"BATTLECRY",
-			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
 		"artist": "Zoltan Boros",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Провокация</b>. <b>Боевой клич:</b>",
-				"mechanics": [
-					"BATTLECRY",
-					"TAUNT"
-				]
-			},
-			"second": {
-				"text": "удваивает здоровье этого существа.",
-				"mechanics": [
-				]
-			}
-		},
 		"availableAsSignature": true,
 		"audio2": {
 			"BASIC_attack": {
@@ -1212651,7 +1212571,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Вы получаете чудовище доктора Бума. В начале каждого хода вы получаете еще одно.",
@@ -1213938,9 +1213858,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "Вы <b>раскапываете</b> существо 5-го уровня случайного типа. В начале каждого хода вы получаете его копию.",
+		"text": "Вы <b>раскапываете</b> существо\n6-го уровня случайного типа. В начале каждого хода вы получаете его копию.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1214057,7 +1213978,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Когда ваш зверь атакует,\nон получает +{0} к атаке,\nа этот [x]эффект\nнавсегда улучшается.",
@@ -1214065,7 +1213986,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4
 		},
 		"artist": "Ira Fidler"
 	},
@@ -1216569,7 +1216490,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Одно заклинание таверны\nна каждом ходу покупается\nза здоровье, а не за золото. <i>(Еще {0}!)</i>",
@@ -1217661,12 +1217582,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]Когда вы вербуете\nсущество в первый раз за ход,\nвы получаете спутник\nс <b>«Магнетизмом»</b>\nи теми же характеристиками.",
+		"text": "После того как вы вербуете существо, вы получаете спутник с <b>«Магнетизмом»</b> и теми же характеристиками. <i>(Дважды за ход.)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 2
+		},
 		"artist": "Kevin Sidharta",
 		"referencedTags": [
 			"MODULAR"
@@ -1217768,7 +1217693,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Вы получаете энергоцарицу.\nВаши энергоцарицы также\nувеличивают здоровье.",
@@ -1219000,10 +1218924,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "<b>Месть (7):</b> призывает двух жуков {0}/{1}. Они\n[x] получают <b>«Провокацию»</b>.",
+		"text": "<b>Месть (8):</b> призывает двух жуков {0}/{1}. Они\n[x] получают <b>«Провокацию»</b>.",
 		"mechanics": [
 			"AVENGE"
 		],
@@ -1222005,7 +1221929,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Вы получаете\nзаклинателя из Утробы.\nКогда вы уничтожаете\nсущество не во время боя,\nвы получаете {0} золотых.",
@@ -1222013,7 +1221937,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Alex Horley Orlandelli"
 	},
@@ -1234357,14 +1234281,14 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 4,
+		"health": 8,
 		"text": "После того как ваш герой получает урон, этот урон отменяется, а существа в таверне получают +{0}/+{1} до конца хода.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"artist": "Joseph Weston",
@@ -1234410,14 +1234334,14 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 12,
-		"health": 12,
+		"attack": 8,
+		"health": 16,
 		"text": "После того как ваш герой получает урон, этот урон отменяется, а существа в таверне получают +{0}/+{1} до конца хода.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 121687,
@@ -1235196,7 +1235120,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "Ваши заклинания таверны дают еще +1 к здоровью до конца матча.",
+		"text": "Ваши заклинания таверны дают еще +1 к [x]здоровью до конца матча.",
 		"mechanics": [
 			"BACON_BUFFS_TAVERN_SPELL"
 		]
@@ -1235213,7 +1235137,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "Ваши заклинания таверны дают еще +2 к здоровью до конца матча.",
+		"text": "Ваши заклинания таверны дают еще +2 к [x]здоровью до конца матча.",
 		"mechanics": [
 			"BACON_BUFFS_TAVERN_SPELL"
 		],
@@ -1243742,14 +1243666,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Предсмертный хрип:</b> призывает\nеще более надтреснутое яйцо.\n<i>(Разбейте 4 раза, чтобы\nвылупился зверь 20/20 с <b>«Провокацией»</b>!)</i>",
+		"text": "[x]<b>Предсмертный хрип:</b> призывает\nеще более надтреснутое яйцо.\n<i>(Разбейте 4 раза, чтобы\nвылупился зверь 20/20!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122543,
 			122545,
@@ -1243800,14 +1243721,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Предсмертный хрип:</b> призывает\nпотрескавшееся яйцо.\n<i>(Разбейте 3 раза, чтобы\nвылупился зверь 20/20 с <b>«Провокацией»</b>!)</i>",
+		"text": "[x]<b>Предсмертный хрип:</b> призывает\nпотрескавшееся яйцо.\n<i>(Разбейте 3 раза, чтобы\nвылупился зверь 20/20!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122545,
 			122546,
@@ -1243870,14 +1243788,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Предсмертный хрип:</b> призывает\nсильно потрескавшееся яйцо.\n<i>(Разбейте 2 раза, чтобы\nвылупился зверь 20/20 с <b>«Провокацией»</b>!)</i>",
+		"text": "[x]<b>Предсмертный хрип:</b> призывает\nсильно потрескавшееся яйцо.\n<i>(Разбейте 2 раза, чтобы\nвылупился зверь 20/20!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			122546,
 			118495
@@ -1243926,14 +1243841,11 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "[x]<b>Предсмертный хрип:</b>\n призывает кхелоса 20/20\n с <b>«Провокацией»</b>. <i>(Разбейте, \n чтобы вылупился зверь!)</i>",
+		"text": "<b>Предсмертный хрип:</b> призывает кхелоса 20/20. <i>(Разбейте, чтобы вылупился зверь!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"artist": "Vlad Botos",
-		"referencedTags": [
-			"TAUNT"
-		],
 		"relatedCardDbfIds": [
 			118495
 		],
@@ -1244285,15 +1244197,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 3,
-		"health": 8,
+		"attack": 4,
+		"health": 9,
 		"text": "<b>Боевой раж:</b> ваши <b>кровавые самоцветы</b> дают еще +{0}/+{1} в этом матче.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 1
 		},
 		"artist": "Kleston Marques",
 		"battlegroundsPremiumDbfId": 122567,
@@ -1244341,15 +1244253,15 @@
 			"QUILBOAR"
 		],
 		"techLevel": 5,
-		"attack": 6,
-		"health": 16,
+		"attack": 8,
+		"health": 18,
 		"text": "<b>Боевой раж:</b> ваши <b>кровавые самоцветы</b> дают еще +{0}/+{1} в этом матче.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsNormalDbfId": 122566,
 		"premium": true,
@@ -1254146,7 +1254058,7 @@
 		"collectible": true,
 		"set": "Cataclysm",
 		"rarity": "Epic",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "FIRE",
 		"text": "[x]Наносит $1 ед. урона\nвсем существам.\n<i>(Улучшается за каждое\nсущество на поле боя.)</i>",
 		"flavor": "Чем больше, тем больнее!",
@@ -1259809,15 +1259721,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 10,
 		"health": 3,
 		"text": "<b>Предсмертный хрип:</b> ваши существа получают +{0}/+{1}. Золотые существа сохраняют\n[x]этот бонус навсегда.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsPremiumDbfId": 123596,
 		"audio2": {
@@ -1259855,15 +1259767,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 20,
 		"health": 6,
 		"text": "<b>Предсмертный хрип:</b>\nваши существа дважды\nполучают +{0}/+{1}.\nЗолотые существа сохраняют этот бонус навсегда.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 123595,
 		"premium": true,
@@ -1260291,24 +1260203,10 @@
 		"text": "<b>Божественный щит</b>\nПосле того как это существо теряет <b>«Божественный щит»</b>, все ваши [x]паладины-рекруты в этом матче\nполучают +1 к здоровью.",
 		"flavor": "Поздравляем! Вас спасают. Пожалуйста, не сопротивляйтесь.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "Milica Celikovic",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Божественный щит</b>\nПосле того как это существо теряет <b>«Божественный щит»</b>,",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "все ваши [x]паладины-рекруты в этом матче\nполучают +1 к здоровью.",
-				"mechanics": [
-				]
-			}
-		},
 		"audio2": {
 			"BASIC_attack": {
 				"2H_EpicMace_Underlay_Attack": {
@@ -1282352,7 +1282250,7 @@
 		"rarity": "Epic",
 		"cost": 5,
 		"attack": 4,
-		"health": 4,
+		"health": 3,
 		"text": "<b>Подготовка</b>. <b>Боевой клич:</b>\nесли вы применили\nзаклинание на этом ходу,\nприменяет два случайных\n<b>«Секрета»</b> мага.",
 		"flavor": "Добро пожаловать в Даларан, где заклинания ненастоящие, а очки ничего не дают!",
 		"mechanics": [
@@ -1282564,8 +1282462,8 @@
 		"collectible": true,
 		"set": "Violet_hold",
 		"rarity": "Rare",
-		"cost": 5,
-		"attack": 5,
+		"cost": 6,
+		"attack": 6,
 		"health": 3,
 		"text": "<b>Подготовка</b>. <b>Боевой клич:</b>\nуничтожает остальных ваших существ. Вы берете карту и восстанавливаете кристалл маны за каждое уничтоженное существо.",
 		"flavor": "Костоправ неукоснительно правит правые кости.",
@@ -1288292,8 +1288190,6 @@
 		"races": [
 			"MURLOC"
 		],
-		"techLevel": 2,
-		"isBaconPool": true,
 		"attack": 3,
 		"health": 5,
 		"text": "<b>Боевой раж:</b> призывает мурлока с самой высокой атакой из вашей руки до конца боя.",
@@ -1297753,15 +1297649,17 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 15,
-		"health": 15,
-		"text": "<b>Боевой раж:</b>\nодно ваше существо каждого типа навсегда получает +{0}/+{1}.",
+		"attack": 10,
+		"health": 10,
+		"text": "<b>Боевой раж:</b>\nодно ваше существо каждого типа навсегда получает +{0}/+{1},\nи этот эффект улучшается.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"artist": "Slawomir Maniak",
 		"battlegroundsPremiumDbfId": 127110,
@@ -1297822,15 +1297720,17 @@
 			"ALL"
 		],
 		"techLevel": 7,
-		"attack": 30,
-		"health": 30,
-		"text": "<b>Боевой раж:</b> одно ваше существо каждого типа дважды навсегда получает +{0}/+{1}.",
+		"attack": 20,
+		"health": 20,
+		"text": "<b>Боевой раж:</b>\nодно ваше существо каждого типа навсегда получает +{0}/+{1},\nи этот эффект улучшается. Срабатывает дважды.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"battlegroundsNormalDbfId": 127109,
 		"premium": true,
@@ -1298027,9 +1297927,9 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 16,
-		"health": 32,
-		"text": "Когда вы призываете существо во время боя, оно получает максимальные характеристики этого существа.\n<i>(3 раза за бой.)</i>",
+		"attack": 15,
+		"health": 30,
+		"text": "Когда вы призываете другое существо во время боя, оно получает удвоенные максимальные [x]характеристики этого существа.\n<i>(3 раза за бой.)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1298078,9 +1297978,9 @@
 			"BEAST"
 		],
 		"techLevel": 7,
-		"attack": 32,
-		"health": 64,
-		"text": "Когда вы призываете существо во время боя, оно получает удвоенные максимальные характеристики этого существа. <i>(3 раза за бой.)</i>",
+		"attack": 30,
+		"health": 60,
+		"text": "Когда вы призываете другое существо во время боя, оно получает утроенные максимальные [x]характеристики этого существа.\n<i>(3 раза за бой.)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1307953,8 +1307853,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 13,
+		"attack": 17,
+		"health": 23,
 		"text": "В конце вашего хода крайнее левое существо в вашей руке получает характеристики этого существа.",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -1308002,8 +1307902,8 @@
 			"MURLOC"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 26,
+		"attack": 34,
+		"health": 46,
 		"text": "В конце вашего хода\nкрайнее левое существо в вашей руке получает удвоенные характеристики этого существа.",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -1308399,7 +1308299,7 @@
 		"text": "Ваши существа получают +{0}/+{1}. Золотые существа получают еще +{0}/+{1}.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Anton Zemskov"
 	},
@@ -1331099,7 +1330999,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 9,
+		"cost": 10,
 		"attack": 9,
 		"health": 7,
 		"text": "[x]<b>Боевой клич</b>: уменьшает стоимость\nкарты в вашей руке на (5). Затем\nэффект применяется к соседним\nкартам, но ослабляется на (1).",
@@ -1341796,7 +1341696,7 @@
 		"rarity": "Common",
 		"cost": 2,
 		"spellSchool": "SHADOW",
-		"text": "Через 2 ходов вы призываете двух к'тракси 3/5 с <b>«Провокацией»</b>.",
+		"text": "Через 2 ходов вы призываете двух к'тракси 2/4 с <b>«Провокацией»</b>.",
 		"flavor": "У вас есть ровно 2 хода на то, чтобы вытереться и сесть за стол.",
 		"mechanics": [
 			"OBJECTIVE"
@@ -1341843,9 +1341743,9 @@
 			"WARLOCK"
 		],
 		"set": "Black_empire",
-		"cost": 4,
-		"attack": 3,
-		"health": 5,
+		"cost": 3,
+		"attack": 2,
+		"health": 4,
 		"text": "<b>Провокация</b>",
 		"mechanics": [
 			"TAUNT"
@@ -1342214,7 +1342114,7 @@
 		"set": "Black_empire",
 		"rarity": "Common",
 		"cost": 3,
-		"attack": 2,
+		"attack": 3,
 		"durability": 2,
 		"text": "[x]После того как\nваш герой атакует,\nвы получаете\n«Форсаж».",
 		"flavor": "Наносит раны и тут же прижигает их.",
@@ -1342252,7 +1342152,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Rare",
-		"cost": 2,
+		"cost": 1,
 		"text": "[x]<b>Собирает</b> механизм.\nВы получаете «Форсаж».",
 		"flavor": "ербози лечу ен нораС-ггоЙ окандО .латобарс еж есв аноримиМ увтсйибу оп налп оге он ,йителечясыт окьлоксен ьсолибоданоп унораС-ггоЙ",
 		"artist": "Matt Dixon",
@@ -1342496,24 +1342396,10 @@
 		"text": "<b>Божественный щит</b>\nПосле того как ваше существо теряет <b>«Божественный щит»</b>, существо у вас в руке получает +5/+5.",
 		"flavor": "«Вера и отвага защитят мой дух, а моя славная жертва сбережет мир для того, кто придет за мной».",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
 		"artist": "James Ryman",
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Божественный щит</b>\nПосле того как ваше существо теряет <b>«Божественный щит»</b>,",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "существо у вас в руке получает +5/+5.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -1342836,7 +1342722,7 @@
 		"rarity": "Rare",
 		"cost": 3,
 		"spellSchool": "ARCANE",
-		"text": "Наносит $5 ед. урона. Призывает случайное существо за (3).",
+		"text": "Наносит $3 ед. урона. Призывает случайное существо за (3).",
 		"flavor": "еугьизщвтяс42+25ЦЛш)(1я,м/ъ-йГч",
 		"mechanics": [
 			"DEAL_DAMAGE"
@@ -1342994,9 +1342880,9 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 7,
-		"attack": 7,
-		"health": 7,
+		"cost": 6,
+		"attack": 6,
+		"health": 6,
 		"text": "[x]<b>Боевой клич:</b> +20 к броне.\nЧерез 2 хода она превращается\nв голема с <b>«Провокацией»</b>\nи характеристиками, равными\n израсходованной броне.",
 		"flavor": "Можешь потерять броню по-хорошему, а можешь по-плохому.",
 		"mechanics": [
@@ -1345275,7 +1345161,7 @@
 		],
 		"attack": 4,
 		"health": 5,
-		"text": "Стоит на (2) меньше за каждую карту с <b>серией приемов</b>, разыгранную на этом ходу. [x] <b>Боевой клич:</b> вы берете карту.",
+		"text": "Стоит на (2) меньше за каждую карту с <b>серией приемов</b>, разыгранную на этом ходу. <b>Боевой клич:</b> вы берете 2 карты.",
 		"flavor": "Знаете правило «животное боится вас больше, чем вы его»? Так вот, здесь оно не работает.",
 		"mechanics": [
 			"BATTLECRY"
@@ -1345333,14 +1345219,14 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Common",
-		"cost": 3,
+		"cost": 4,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 4,
-		"health": 2,
-		"text": "<b>Предсмертный хрип:</b> вы получаете двух личинок за (1) с <b><b>«Сериями приемов»</b></b>, которые применяют силу героя другого класса.",
+		"attack": 5,
+		"health": 4,
+		"text": "<b>Предсмертный хрип:</b> вы получаете двух личинок с <b><b>«Сериями приемов»</b></b>, которые применяют [x]силу героя другого класса.\nОни стоят (0).",
 		"flavor": "Ничто так не мотивирует выйти на пробежку, как рой акиров на горизонте.",
 		"mechanics": [
 			"DEATHRATTLE",
@@ -1346729,10 +1346615,10 @@
 		"rarity": "Common",
 		"cost": 2,
 		"additionalCosts": {
-			"BLOODRUNE": 2
+			"BLOODRUNE": 3
 		},
 		"attack": 3,
-		"health": 3,
+		"health": 4,
 		"text": "<b>Похищение жизни</b>",
 		"flavor": "Вот бы ему еще крылья приделать...",
 		"mechanics": [
@@ -1347428,7 +1347314,7 @@
 		"rarity": "Common",
 		"cost": 5,
 		"spellSchool": "SHADOW",
-		"text": "Призывает безднокрыла 5/5 с <b>«Похищением жизни»</b>. <i>(Следующее заклинание Тьмы, которое вы разыграете,\nповторит этот эффект!)</i>",
+		"text": "[x]Призывает двух безднокрылов\n3/4 с <b>«Похищением жизни»</b>.\n<i>(Следующее заклинание Тьмы,\nкоторое вы разыграете,\nповторит этот эффект!)</i>",
 		"flavor": "Не люблю яичницу из яиц Бездны.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0
@@ -1347477,13 +1347363,13 @@
 			"PRIEST"
 		],
 		"set": "Black_empire",
-		"cost": 5,
+		"cost": 3,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 5,
-		"health": 5,
+		"attack": 3,
+		"health": 4,
 		"text": "<b>Похищение жизни</b>",
 		"mechanics": [
 			"LIFESTEAL"
@@ -1349409,7 +1349295,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 6,
@@ -1349471,7 +1349357,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 12,
 		"text": "Когда вы сбрасываете\nкарту, ваше <b>божество</b> получает +{0}/+{1}, а этот эффект улучшается.",
@@ -1351154,7 +1351040,7 @@
 		"rarity": "Common",
 		"cost": 2,
 		"faction": "NEUTRAL",
-		"text": "Призывает двух мехазверей 1/1 с <b>«Натиском»</b>.",
+		"text": "Призывает двух мехазверей 1/1 с <b>«Рывком»</b>.",
 		"flavor": "Расчищают двор от сектантов за считанные секунды! Просто заведите их, и они сделают все за вас!",
 		"artist": "Patrik Bjorkstrom",
 		"referencedTags": [
@@ -1352810,7 +1352696,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_2": 14
 		}
 	},
 	{
@@ -1352824,7 +1352710,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Вы получаете по два существа 1, 2 и 3 уровня таверны.",
@@ -1353260,8 +1353146,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -1353331,8 +1353217,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Arthur Bozonnet"
 	},
@@ -1353562,7 +1353448,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Вы получаете случайного <b>хроматического дракона</b>. Эффект повторяется в начале каждого хода.",
@@ -1353664,7 +1353550,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Вы получаете {0} случайных карт <b>вознаграждения</b>. Эффект повторяется в начале каждого хода.",
@@ -1353730,8 +1353616,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Grace Liu"
 	},
@@ -1353780,8 +1353666,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"artist": "Tanamaes Leejierasaes"
 	},
@@ -1353968,6 +1353854,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Вы получаете <b>кровавый самоцвет</b>,\nкоторый дает свинобразу\n <b>«Провокацию»</b>, <b>«Божественный щит»</b>\nили <b>«Перерождение»</b>. Эффект\nповторяется в начале каждого хода.",
@@ -1366877,7 +1366764,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Вы получаете\n«Клонирующую раковину».\nВ начале каждого {1}-го хода\nэтот эффект повторяется.\n<i>(Еще {0} ходов!)</i>",
@@ -1366909,8 +1366796,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Matt Dixon",
 		"otherTags": [
@@ -1366931,7 +1366818,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Вы получаете притягательного битбоксера.",
@@ -1368266,7 +1368153,7 @@
 		"set": "Black_empire",
 		"rarity": "Rare",
 		"cost": 2,
-		"text": "Вы берете существо. Существа у вас в руке получают +2/+2.",
+		"text": "Вы берете существо. Звери у вас в руке получают +2/+2.",
 		"flavor": "Маленький лис окинул взглядом мир, чувствуя себя королем.",
 		"artist": "Eva Widermann"
 	},
@@ -1368290,7 +1368177,7 @@
 		],
 		"attack": 0,
 		"health": 1,
-		"text": "<b><b>Перерождение</b></b>. <b>Предсмертный хрип:</b> существа у вас в руке получают +1/+1.",
+		"text": "<b>Перерождение</b> <b>Предсмертный хрип:</b> существа у вас в руке получают +1 к атаке.",
 		"flavor": "Тут сразу видно — боль в животе.",
 		"mechanics": [
 			"CRAFTABLE_OUTPUT_POWER",
@@ -1368300,14 +1368187,14 @@
 		"artist": "Matt Dixon",
 		"assembleHalves": {
 			"first": {
-				"text": "<b><b>Перерождение</b></b>. <b>Предсмертный хрип:</b>",
+				"text": "<b>Перерождение</b> <b>Предсмертный хрип:</b>",
 				"mechanics": [
 					"DEATHRATTLE",
 					"REBORN"
 				]
 			},
 			"second": {
-				"text": "существа у вас в руке получают +1/+1.",
+				"text": "существа у вас в руке получают +1 к атаке.",
 				"mechanics": [
 				]
 			}
@@ -1368482,7 +1368369,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "После <b>обновления</b> таверны существа в ней получают +{0}/+{1} до конца хода.",
@@ -1368490,8 +1368377,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"artist": "Vlad Botos",
 		"referencedTags": [
@@ -1373396,7 +1373283,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 10,
+		"cost": 9,
 		"attack": 10,
 		"health": 10,
 		"text": "<b>Древний бог.</b> <b>Боевой клич:</b>\nесли вы потратили 30 ед. маны на существ за этот матч, получает <b>неуязвимость</b> на 1 ход. <i>(Еще {0}!)</i>",
@@ -1374874,7 +1374761,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "+4/+4. Характеристики этого существа удваиваются через 2 хода."
+		"text": "+6/+6. Характеристики этого существа удваиваются через 2 хода."
 	},
 	{
 		"dbfId": 132203,
@@ -1374910,7 +1374797,7 @@
 		"set": "Battlegrounds",
 		"cost": 0,
 		"faction": "NEUTRAL",
-		"text": "[x]<b>Начало боя:</b> удваивает\nздоровье этого существа."
+		"text": "+15 к здоровью. <b>Начало боя:</b> удваивает\n[x]здоровье этого существа."
 	},
 	{
 		"dbfId": 132207,
@@ -1375331,7 +1375218,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "[x]<b>Начало боя:</b> удваивает\nздоровье этого существа.",
+		"text": "+15 к здоровью. <b>Начало боя:</b> удваивает\n[x]здоровье этого существа.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1376459,7 +1376346,7 @@
 		"cost": 10,
 		"attack": 12,
 		"health": 12,
-		"text": "<b>Древний бог.</b> Если вы активировали все 4 способности К'Туна в этом матче, эффекты способностей этого существа утраиваются.",
+		"text": "[x]<b>Древний бог.</b> Если вы активировали\nвсе 4 способности К'Туна в этом\nматче, эффекты способностей\nэтого существа усиливаются\nв четыре раза.",
 		"flavor": "«Амитут, хранитель Амитус»/2 + (2*«Инкубация»)/2 + («Непостижимый»/3)",
 		"artist": "Kevin Sidharta",
 		"availableAsSignature": true,
@@ -1376504,7 +1376391,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+2/+3"
+		"text": "+2/+2"
 	},
 	{
 		"dbfId": 132341,
@@ -1376517,7 +1376404,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+6/+9"
+		"text": "+8/+8"
 	},
 	{
 		"dbfId": 132342,
@@ -1376532,7 +1376419,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "Призывает двух фанатиков 2/3 с <b>«Провокацией»</b>.",
+		"text": "Призывает двух фанатиков 2/2 с <b>«Провокацией»</b>.",
 		"artist": "Stefan Bogdasarov",
 		"hideStats": true,
 		"referencedTags": [
@@ -1376582,7 +1376469,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "Два других случайных ваших существа получают +2/+3.",
+		"text": "Два других случайных ваших существа получают +2/+2.",
 		"artist": "Kevin Sidharta",
 		"hideStats": true
 	},
@@ -1376599,7 +1376486,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "[x]Наносит 7 ед. урона,\nслучайно распределяемого\nмежду противниками.",
+		"text": "[x]Наносит 6 ед. урона,\nслучайно распределяемого\nмежду противниками.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -1376678,13 +1376565,13 @@
 		"cost": 3,
 		"attack": 3,
 		"health": 2,
-		"text": "[x]<b>Боевой клич:</b> применив 2\nзаклинания Тьмы с этой картой\nв руке, вы выбираете\nи применяете способность\nК'Туна. <i>(Еще {0}!)</i>",
+		"text": "<b>Боевой клич:</b> если вы\nразыграли заклинание Тьмы с этой картой в руке, К'Тун применяет способность по вашему выбору.",
 		"flavor": "Древние боги близко. Древние боги близко!",
 		"mechanics": [
 			"BATTLECRY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"artist": "Ivo Campelo da Silva",
 		"availableAsSignature": true,
@@ -1376709,7 +1376596,7 @@
 		"rarity": "Legendary",
 		"cost": 2,
 		"attack": 2,
-		"health": 3,
+		"health": 2,
 		"text": "<b>Провокация</b>",
 		"mechanics": [
 			"TAUNT"
@@ -1376905,7 +1376792,7 @@
 			"HUNTER"
 		],
 		"set": "Black_empire",
-		"text": "+1/+1."
+		"text": "+1 к атаке."
 	},
 	{
 		"dbfId": 132441,
@@ -1377086,7 +1376973,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "[x]<b>Предсмертный хрип:</b>\nваши существа навсегда\nполучают +2/+2."
+		"text": "<b>Предсмертный хрип:</b> ваши существа навсегда получают +3/+3."
 	},
 	{
 		"dbfId": 132485,
@@ -1377403,7 +1377290,7 @@
 		"cost": 9,
 		"attack": 7,
 		"health": 5,
-		"text": "<b>Древний бог.</b> <b>Боевой клич:</b> вы заканчиваете ход. Йогг-Сарон делает дополнительный ход\n[x] за вас. <i>(Один раз за игру.)</i>",
+		"text": "<b>Древний бог.</b> <b>Боевой клич:</b> вы заканчиваете ход. Йогг-Сарон делает еще один ход за вас. <i>(Один раз за матч.)</i>",
 		"flavor": "«Акинахем яандалкирп» + «Норимим»",
 		"mechanics": [
 			"BATTLECRY"
@@ -1378610,8 +1378497,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 15,
+		"attack": 13,
+		"health": 17,
 		"text": "<b>Боевой раж:</b> призывает голема с характеристиками этого существа, который сразу атакует цель.",
 		"mechanics": [
 			"BACON_RALLY"
@@ -1378666,8 +1378553,8 @@
 			"QUILBOAR"
 		],
 		"techLevel": 7,
-		"attack": 12,
-		"health": 30,
+		"attack": 26,
+		"health": 34,
 		"text": "<b>Боевой раж:</b> призывает голема с удвоенными характеристиками этого существа, который сразу атакует цель.",
 		"mechanics": [
 			"BACON_RALLY"
@@ -1378970,7 +1378857,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
+		"attack": 8,
 		"health": 8,
 		"text": "Когда вы разыгрываете механизм, <b>примагничивает</b> к нему спутник {1}/{2} и улучшает этот эффект.",
 		"mechanics": [
@@ -1378979,7 +1378866,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 2,
-			"TAG_SCRIPT_DATA_NUM_3": 3
+			"TAG_SCRIPT_DATA_NUM_3": 2
 		},
 		"artist": "Brian Despain",
 		"battlegroundsPremiumDbfId": 132677,
@@ -1379027,7 +1378914,7 @@
 			"MECH"
 		],
 		"techLevel": 5,
-		"attack": 12,
+		"attack": 16,
 		"health": 16,
 		"text": "Когда вы разыгрываете механизм, <b>примагничивает</b> к нему спутник {1}/{2} и улучшает этот эффект.",
 		"mechanics": [
@@ -1379036,7 +1378923,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 4,
-			"TAG_SCRIPT_DATA_NUM_3": 6
+			"TAG_SCRIPT_DATA_NUM_3": 4
 		},
 		"battlegroundsNormalDbfId": 132676,
 		"premium": true,
@@ -1379771,15 +1379658,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 7,
+		"health": 5,
 		"text": "[x]После того как вы тратите\n{2} золотых, вы получаете сейф.\nЕсли он у вас уже есть, он\nоткроется на {3} ходов раньше.\n<i>(Еще {0} золотых!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
 		"artist": "Joseph Weston",
@@ -1379825,15 +1379712,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 12,
-		"health": 12,
+		"attack": 14,
+		"health": 10,
 		"text": "[x]После того как вы тратите\n{2} золотых, вы получаете сейф.\nЕсли он у вас уже есть, он\nоткроется на {3} ходов раньше.\n<i>(Еще {0} золотых!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 2
 		},
 		"battlegroundsNormalDbfId": 132762,
@@ -1381084,7 +1380971,7 @@
 	{
 		"dbfId": 132837,
 		"id": "CAP_405t1",
-		"name": "",
+		"name": "Задержание за нападение",
 		"type": "Spell",
 		"cardClass": "WARLOCK",
 		"playerClass": "Warlock",
@@ -1381094,6 +1380981,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
+		"text": "[x]Заставляет каждое\nсущество атаковать\nдругое существо.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
 		},
@@ -1381131,7 +1381019,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Вы крадете 2 карты из руки противника.",
+		"text": "Вы похищаете карту из руки противника.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -1381150,7 +1381038,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Существа у вас в руке и на поле боя получают +3/+3.",
+		"text": "Существа у вас в руке и на поле боя получают +2/+2.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 7
 		},
@@ -1381167,7 +1381055,7 @@
 			"NEUTRAL"
 		],
 		"set": "Azeroths_most_wanted",
-		"text": "+3/+3"
+		"text": "+2/+2"
 	},
 	{
 		"dbfId": 132848,
@@ -1381222,7 +1381110,7 @@
 		],
 		"set": "Azeroths_most_wanted",
 		"cost": 0,
-		"text": "[x]Призывает трех\nслучайных существ за (3).",
+		"text": "[x]Призывает трех\nслучайных существ за (2).",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6
 		},
@@ -1381599,15 +1381487,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
+		"attack": 5,
+		"health": 5,
 		"text": "Когда вы применяете заклинание к механизму, <b>примагничивает</b>\nк нему спутник {0}/{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Kevin Sidharta",
 		"battlegroundsPremiumDbfId": 132894,
@@ -1381655,15 +1381543,15 @@
 			"MECH"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 8,
+		"attack": 10,
+		"health": 10,
 		"text": "Когда вы применяете заклинание к механизму, дважды <b>примагничивает</b>\nк нему спутник {0}/{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 132893,
 		"premium": true,
@@ -1382644,9 +1382532,9 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
-		"text": "[x]После того как вы <b>раскапываете</b> карту,\nдругие ваши пираты получают +{0}/+{1}.\n<i>(Улучшается за каждое золотое существо,\nразыгранное вами в этом матче!)</i>",
+		"attack": 5,
+		"health": 5,
+		"text": "[x]После того как вы <b>раскапываете</b> карту,\nваши пираты получают +{0}/+{1}.\n<i>(Улучшается за каждое золотое\nсущество, разыгранное\nвами в этом матче!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1382747,9 +1382635,9 @@
 			"PIRATE"
 		],
 		"techLevel": 6,
-		"attack": 8,
-		"health": 8,
-		"text": "[x]После того как вы <b>раскапываете</b> карту,\nдругие ваши пираты получают +{0}/+{1}.\n<i>(Улучшается за каждое золотое существо,\nразыгранное вами в этом матче!)</i>",
+		"attack": 10,
+		"health": 10,
+		"text": "[x]После того как вы <b>раскапываете</b> карту,\nваши пираты получают +{0}/+{1}.\n<i>(Улучшается за каждое золотое\nсущество, разыгранное\nвами в этом матче!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -1383311,12 +1383199,13 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 9,
-		"text": "<b>Божественный щит</b>\n<b>Боевой раж:</b> применяет «Могучее дыхание дракона».",
+		"attack": 9,
+		"health": 7,
+		"text": "<b>Божественный щит</b>\n<b>Неистовство ветра</b>\n<b>Боевой раж:</b> применяет [x] «Могучее дыхание дракона».",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"artist": "TOPDOG Entertainment",
 		"battlegroundsPremiumDbfId": 132954,
@@ -1383361,12 +1383250,13 @@
 			"DRAGON"
 		],
 		"techLevel": 6,
-		"attack": 16,
-		"health": 18,
-		"text": "<b>Божественный щит</b>\n<b>Боевой раж:</b> дважды применяет «Могучее дыхание дракона».",
+		"attack": 18,
+		"health": 14,
+		"text": "<b>Божественный щит</b>\n<b>Неистовство ветра</b>\n<b>Боевой раж:</b> дважды применяет [x] «Могучее дыхание дракона».",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"battlegroundsNormalDbfId": 132953,
 		"premium": true,
@@ -1383749,14 +1383639,14 @@
 		"techLevel": 6,
 		"isBaconPool": true,
 		"attack": 3,
-		"health": 12,
+		"health": 9,
 		"text": "[x]После того как вы разыгрываете\n{1} элементалей, получает\nхарактеристики существа\nс самым высоким здоровьем\nв таверне. <i>(Еще {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"artist": "Kevin Sidharta",
 		"battlegroundsPremiumDbfId": 132984,
@@ -1383802,14 +1383692,14 @@
 		],
 		"techLevel": 6,
 		"attack": 6,
-		"health": 24,
+		"health": 18,
 		"text": "После того как вы разыгрываете {1} элементалей, получает удвоенные характеристики существа [x]с самым высоким здоровьем\nв таверне. <i>(Еще {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 132983,
 		"premium": true,
@@ -1384060,15 +1383950,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 6,
+		"attack": 3,
+		"health": 7,
 		"text": "Когда вы применяете заклинание к этому существу, крайнее левое существо у вас в руке получает +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 9,
+			"TAG_SCRIPT_DATA_NUM_2": 9
 		},
 		"artist": "Marta Vives Poch",
 		"battlegroundsPremiumDbfId": 132990,
@@ -1384113,15 +1384003,15 @@
 			"MURLOC"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 12,
+		"attack": 6,
+		"health": 14,
 		"text": "Когда вы применяете заклинание к этому существу, крайнее левое существо у вас в руке получает +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 18,
+			"TAG_SCRIPT_DATA_NUM_2": 18
 		},
 		"battlegroundsNormalDbfId": 132989,
 		"premium": true,
@@ -1384282,15 +1384172,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 5,
-		"health": 7,
+		"attack": 6,
+		"health": 9,
 		"text": "Когда вы применяете заклинание к мурлоку, другие мурлоки у вас в руке и на поле боя получают +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Florent Mounier",
 		"battlegroundsPremiumDbfId": 133027,
@@ -1384335,15 +1384225,15 @@
 			"MURLOC"
 		],
 		"techLevel": 5,
-		"attack": 10,
-		"health": 14,
+		"attack": 12,
+		"health": 18,
 		"text": "Когда вы применяете заклинание к мурлоку, другие мурлоки у вас в руке и на поле боя получают +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 133026,
 		"premium": true,
@@ -1384389,15 +1384279,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 8,
+		"attack": 5,
+		"health": 10,
 		"text": "[x]После того как ваш герой\nполучает {1} ед. урона,\nвы получаете копию\n«Оскверненных пирожных».\n<i>(Еще {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"artist": "Kleston Marques",
 		"battlegroundsPremiumDbfId": 133029,
@@ -1384442,15 +1384332,15 @@
 			"DEMON"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 16,
+		"attack": 10,
+		"health": 20,
 		"text": "[x]После того как ваш герой\nполучает {1} ед. урона,\n вы получаете две копии\n «Оскверненных пирожных».\n <i>(Еще {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 133028,
 		"premium": true,
@@ -1384766,8 +1384656,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -1384878,7 +1384768,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]После того как вы\nвербуете механизм,\nвы получаете случайное\nзаклинание таверны.",
+		"text": "[x]После того как вы вербуете\nмеханизм, вы получаете\nслучайное заклинание\nтаверны за (2) или больше.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"GENERATES_SPELL",
@@ -1386350,7 +1386240,7 @@
 	{
 		"dbfId": 133199,
 		"id": "HERO_07cf",
-		"name": "Темная странница",
+		"name": "Темный Странник",
 		"type": "Hero",
 		"cardClass": "WARLOCK",
 		"playerClass": "Warlock",
@@ -1387241,7 +1387131,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"artist": "Anton Zemskov",
 		"otherTags": [
@@ -1387303,7 +1387193,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Вы получаете случайную карту с <b>«Выбором эффекта»</b>. В начале каждого хода вы получаете еще одну.",
@@ -1387329,7 +1387219,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Вы получаете 2 случайные карты с <b>«Выбором эффекта»</b>. В начале каждого хода вы получаете еще 2.",
@@ -1387460,7 +1387350,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "<b>Начало боя:</b> удваивает атаку этого существа.",
+		"text": "+15 к атаке.\n<b>Начало боя:</b> удваивает атаку этого существа.",
 		"hideStats": true
 	},
 	{
@@ -1387475,7 +1387365,7 @@
 		],
 		"set": "Battlegrounds",
 		"faction": "NEUTRAL",
-		"text": "<b>Начало боя:</b> удваивает атаку этого существа.",
+		"text": "+15 к атаке.\n<b>Начало боя:</b> удваивает атаку этого существа.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1387614,14 +1387504,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "После того как вы применяете 3 заклинания к существам, вы получаете 1 золотой. <i>(Еще {0}!)</i>",
+		"text": "После того как вы применяете {1} заклинаний к существам, вы получаете 1 золотой. <i>(Еще {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		}
 	},
 	{
@@ -1387635,7 +1387527,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Ваши карты\nс <b>«Выбором эффекта»</b>\nдают оба эффекта.",
@@ -1387678,7 +1387570,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Когда ваше существо\nс <b>«Боевым ражем»</b>\nатакует, вы получаете\nбесплатное <b>обновление</b>.",
@@ -1387727,7 +1387619,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Первые два существа с <b>«Боевым кличем»</b> на каждом ходу становятся[x]\n бесплатными. <i>(Еще {0}!)</i>",
@@ -1388206,7 +1388098,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "[x]Когда вы\nразыгрываете карту,\nполучает +3 к здоровью.",
+		"text": "[x]Когда вы разыгрываете карту,\nполучает +2 к здоровью.",
 		"hideStats": true
 	},
 	{
@@ -1388233,7 +1388125,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "[x]Когда вы\nразыгрываете карту,\nполучает +3 к здоровью."
+		"text": "[x]Когда вы разыгрываете карту,\nполучает +2 к здоровью."
 	},
 	{
 		"dbfId": 133434,
@@ -1390112,6 +1390004,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "В конце вашего хода вы получаете спутник {0}/{1} с <b>«Магнетизмом»</b>. <i>(Улучшается за каждое заклинание таверны, разыгранное вами на этом ходу!)</i>",
@@ -1390122,8 +1390015,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 12,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -1390653,7 +1390546,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Вы <b>раскапываете</b> простую\nкопию вашего существа с\n<b>«Темным даром»</b>. Повторяется\nв начале каждого 2-го хода.\n<i>(Еще {0} ходов!)</i>",
@@ -1391490,7 +1391383,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Вы получаете огнеметателя или хладометателя.\nВ начале каждого хода эффект повторяется.",
@@ -1392578,7 +1392471,7 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 5,
+		"attack": 6,
 		"health": 3,
 		"text": "<b>Предсмертный хрип:</b>\nсущества в таверне получают +{0}/+{1} до конца матча.\n<b>Активация ({4}):</b> эффект улучшается.",
 		"mechanics": [
@@ -1392587,7 +1392480,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -1392652,7 +1392545,7 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 10,
+		"attack": 12,
 		"health": 6,
 		"text": "<b>Предсмертный хрип:</b>\nсущества в таверне получают +{0}/+{1} до конца матча.\n<b>Активация ({4}):</b> эффект улучшается.",
 		"mechanics": [
@@ -1392661,7 +1392554,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 2,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -1393369,8 +1393262,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 13,
-			"TAG_SCRIPT_DATA_NUM_2": 13
+			"TAG_SCRIPT_DATA_NUM_1": 11,
+			"TAG_SCRIPT_DATA_NUM_2": 11
 		}
 	},
 	{
@@ -1393391,8 +1393284,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 50,
-			"TAG_SCRIPT_DATA_NUM_3": 50
+			"TAG_SCRIPT_DATA_NUM_1": 40,
+			"TAG_SCRIPT_DATA_NUM_3": 40
 		}
 	},
 	{
@@ -1393453,7 +1393346,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Вы получаете\nслучайный звукорегулятор\nс <b>«Магнетизмом»</b>.\nВ начале каждого хода\nвы получаете еще один.",
@@ -1393475,7 +1393368,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Вы получаете\n«Разъедающую жижу».\nПосле того как вы сбрасываете\nзаклинание, вы получаете\n«Разъедающую жижу».",
@@ -1393503,7 +1393396,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 3,
-		"spellSchool": "LESSER_TRINKET",
+		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "В конце вашего хода ваши существа получают +{0}/+{1}. \n[x]<i>(Эффект удваивается\nв начале каждого хода!)</i>",
 		"mechanics": [
@@ -1393512,8 +1393405,8 @@
 			"END_OF_TURN"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -1393566,7 +1393459,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Вы получаете 2\nслучайных звукорегулятора\nс <b>«Магнетизмом»</b>.\nВ начале каждого хода\nэффект повторяется.",
@@ -1394234,7 +1394127,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Вы получаете 2 злых акул. После того как наживка погибает, ваши звери получают +{0}/+{1}, [x]а этот эффект улучшается.",
@@ -1395302,15 +1395195,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 2,
-		"health": 6,
-		"text": "Когда вы разыгрываете карту, получает\n+{0} к атаке.",
+		"attack": 6,
+		"health": 2,
+		"text": "Когда вы разыгрываете карту, получает\n+{1} к здоровью.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsPremiumDbfId": 134705,
 		"audio2": {
@@ -1395357,15 +1395250,15 @@
 			"ALL"
 		],
 		"techLevel": 2,
-		"attack": 4,
-		"health": 12,
-		"text": "Когда вы разыгрываете карту, получает\n+{0} к атаке.",
+		"attack": 12,
+		"health": 4,
+		"text": "Когда вы разыгрываете карту, получает\n+{1} к здоровью.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 134704,
 		"premium": true,
@@ -1395622,15 +1395515,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 3,
-		"health": 3,
+		"attack": 4,
+		"health": 4,
 		"text": "Получает +{0}/+{1} за\nкаждый ваш <b>«Боевой клич»</b>, сработавший в этом матче [x] <i>(где бы это существо ни было)</i>.",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsPremiumDbfId": 134711,
 		"referencedTags": [
@@ -1395680,15 +1395573,15 @@
 			"ALL"
 		],
 		"techLevel": 3,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "Получает +{0}/+{1} за\nкаждый ваш <b>«Боевой клич»</b>, сработавший в этом матче [x] <i>(где бы это существо ни было)</i>.",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 134710,
 		"premium": true,
@@ -1395862,7 +1395755,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "Получает +3/+3 за каждую карту, которую вы сбросили в этом матче. <i>({1})</i>",
+		"text": "Получает +3/+2 за каждую карту, которую вы сбросили в этом матче. <i>({1})</i>",
 		"otherTags": [
 			"CARES_ABOUT_DISCARDS_THIS_GAME"
 		]
@@ -1395946,7 +1395839,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "Получает +3/+3 за каждую карту, которую вы сбросили в этом матче. <i>({1})</i>",
+		"text": "Получает +3/+2 за каждую карту, которую вы сбросили в этом матче. <i>({1})</i>",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -1397803,7 +1397696,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "Эта карта <b><b>собрана</b></b>\nс помощью карты \"{0}\"."
+		"text": "Эта карта <b><b>собрана</b></b>\nс помощью карты «{0}»."
 	},
 	{
 		"dbfId": 134968,

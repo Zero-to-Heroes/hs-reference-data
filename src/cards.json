@@ -16588,14 +16588,11 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "Destroy a minion,\nthen return it to life with full Health.",
+		"text": "[x]Destroy a\nnon-<b>Legendary</b> minion,\nthen return it to life\nwith full Health.",
 		"flavor": "It's like birth, except you're an adult and you were just dead a second ago.",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		]
 	},
 	{
@@ -72514,7 +72511,7 @@
 		"faction": "ALLIANCE",
 		"attack": 3,
 		"health": 3,
-		"text": "<b>Deathrattle:</b> Summon a 1/1 copy of a minion from your hand.",
+		"text": "<b>Deathrattle:</b> Summon a minion from your hand. Set its stats to 1/1.",
 		"flavor": "He can make ANYTHING look like a candle.",
 		"mechanics": [
 			"DEATHRATTLE"
@@ -200283,7 +200280,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Questline:</b> Draw 4 cards in one turn. <b>Reward:</b> Reduce the Cost of the cards drawn by (1).",
+		"text": "<b>Questline:</b> Draw 5 cards in one turn. <b>Reward:</b> Reduce the Cost of the cards drawn by (1).",
 		"flavor": "Finally. The last Hearthstone card.",
 		"mechanics": [
 			"QUESTLINE",
@@ -200312,7 +200309,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Questline:</b> Draw 5 cards in one turn. <b>Reward:</b> Reduce the Cost of the cards drawn by (1).",
+		"text": "<b>Questline:</b> Draw 6 cards in one turn. <b>Reward:</b> Reduce the Cost of the cards drawn by (1).",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -202782,23 +202779,9 @@
 		"text": "[x]<b>Divine Shield</b>\nAfter a friendly minion loses\n<b>Divine Shield</b>, give a minion\n in your hand +5/+5.",
 		"flavor": "\"Through my faith and my courage, I shall be protected. And through my honor and sacrifice, another will rise in my place.\"",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
-		"assembleHalves": {
-			"first": {
-				"text": "[x]<b>Divine Shield</b>\nAfter a friendly minion loses\n<b>Divine Shield</b>,",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "give a minion\n in your hand +5/+5.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -208941,7 +208924,7 @@
 		"set": "Stormwind",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "<b>Questline:</b> Draw 5 cards in one turn.\n<b>Reward:</b> Demonslayer Kurtrus.",
+		"text": "<b>Questline:</b> Draw 6 cards in one turn.\n<b>Reward:</b> Demonslayer Kurtrus.",
 		"mechanics": [
 			"QUESTLINE",
 			"QUESTLINE_PART"
@@ -319868,7 +319851,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "<b>Battlecry:</b> Reduce the Cost of cards copied from your opponent by (3).",
+		"text": "<b>Battlecry:</b> Reduce the Cost of cards copied from your opponent by (2).",
 		"flavor": "Dave, we can tell this letter is fake - it's in your handwriting. And take off that stupid hood, you're embarrassing us.",
 		"mechanics": [
 			"BATTLECRY"
@@ -335024,7 +335007,7 @@
 			"PRIEST"
 		],
 		"set": "Revendreth",
-		"text": "Costs (3) less."
+		"text": "Costs (2) less."
 	},
 	{
 		"dbfId": 78405,
@@ -348028,21 +348011,8 @@
 		"text": "After a friendly Undead dies, draw a card.",
 		"flavor": "\"I see dead people. A LOT of dead people.\"",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
-		"assembleHalves": {
-			"first": {
-				"text": "After a friendly Undead dies,",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "draw a card.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -496815,7 +496785,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -496845,7 +496815,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_3": 3,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
@@ -527744,14 +527714,11 @@
 		"rarity": "Common",
 		"cost": 1,
 		"spellSchool": "NATURE",
-		"text": "Destroy a minion,\nthen return it to life with full Health.",
+		"text": "[x]Destroy a\nnon-<b>Legendary</b> minion,\nthen return it to life\nwith full Health.",
 		"flavor": "It's like birth, except you're an adult and you were just dead a second ago.",
 		"counterpartCards": [
 			1809,
 			103238
-		],
-		"otherTags": [
-			"TARGETS_MINION"
 		]
 	},
 	{
@@ -532017,16 +531984,16 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 8,
+		"attack": 12,
+		"health": 12,
 		"text": "[x]<b>Battlecry and Deathrattle:</b>\nGive minions in the Tavern\n+{0}/+{1} this game.",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 12,
+			"TAG_SCRIPT_DATA_NUM_2": 12
 		},
 		"battlegroundsPremiumDbfId": 103699
 	},
@@ -532047,16 +532014,16 @@
 			"DEMON"
 		],
 		"techLevel": 7,
-		"attack": 16,
-		"health": 16,
+		"attack": 24,
+		"health": 24,
 		"text": "[x]<b>Battlecry and Deathrattle:</b>\nGive minions in the Tavern\n+{0}/+{1} this game.",
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 24,
+			"TAG_SCRIPT_DATA_NUM_2": 24
 		},
 		"battlegroundsNormalDbfId": 103698,
 		"premium": true
@@ -532079,8 +532046,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 7,
+		"attack": 11,
+		"health": 11,
 		"text": "[x]<b>Rally:</b> Deal damage equal\nto this minion's Attack to\nthe target and an adjacent\nminion.",
 		"mechanics": [
 			"BACON_RALLY",
@@ -532105,8 +532072,8 @@
 			"DRAGON"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 14,
+		"attack": 22,
+		"health": 22,
 		"text": "[x]<b>Rally:</b> Deal damage equal\nto this minion's Attack to\nthe target and its\nneighbors.",
 		"mechanics": [
 			"BACON_RALLY",
@@ -532308,12 +532275,18 @@
 		"races": [
 			"MURLOC"
 		],
+		"techLevel": 2,
+		"isBaconPool": true,
 		"attack": 5,
 		"health": 3,
-		"text": "Whenever this kills a minion, give a minion in your hand +2/+2.",
+		"text": "Whenever this kills a minion, give a minion in your hand +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
+		},
 		"battlegroundsPremiumDbfId": 103713
 	},
 	{
@@ -532336,10 +532309,14 @@
 		"techLevel": 2,
 		"attack": 10,
 		"health": 6,
-		"text": "Whenever this kills a minion, give a minion in your hand +4/+4.",
+		"text": "Whenever this kills a minion, give a minion in your hand +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
+		},
 		"battlegroundsNormalDbfId": 103712,
 		"premium": true
 	},
@@ -534266,7 +534243,7 @@
 		"text": "Choose a minion. Give all minions that share a type with it +{0}/+{1}.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"otherTags": [
 			"TARGETS_MINION"
@@ -535986,7 +535963,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "TAVERN",
 		"techLevel": 6,
 		"isBaconPool": true,
@@ -540839,15 +540816,15 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "TAVERN",
 		"techLevel": 4,
 		"isBaconPool": true,
 		"text": "Give a friendly minion of each type +{0}/+{1}.",
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"otherTags": [
 			"TARGETS_FRIENDLY_MINION"
@@ -553993,7 +553970,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 6,
 		"health": 6,
 		"text": "Whenever you cast a Tavern spell, give Elementals in the Tavern +{0}/+{1} this game.",
 		"mechanics": [
@@ -554001,7 +553978,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsPremiumDbfId": 107940
@@ -554023,7 +554000,7 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 12,
 		"health": 12,
 		"text": "Whenever you cast a Tavern spell, give Elementals in the Tavern +{0}/+{1} this game twice.",
 		"mechanics": [
@@ -554031,7 +554008,7 @@
 			"BG_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 3,
 			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 107939,
@@ -566775,9 +566752,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]After you play a minion,\ngive the left-most minion\nin your hand +3/+3.",
+		"text": "[x]After you play a minion,\ngive the left-most minion\nin your hand +5/+5.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		]
@@ -566806,7 +566784,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Whenever you spend Gold, give two friendly Pirates +{0}/+{1}.",
@@ -568712,21 +568689,8 @@
 		"text": "After a friendly Undead dies, draw a card.",
 		"flavor": "\"I see dead people. A LOT of dead people.\"",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL"
 		],
-		"assembleHalves": {
-			"first": {
-				"text": "After a friendly Undead dies,",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "draw a card.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			80089,
 			111318
@@ -570581,8 +570545,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 7,
-			"TAG_SCRIPT_DATA_NUM_2": 7
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		}
 	},
 	{
@@ -570722,7 +570686,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]<b>Start of Combat:</b> Double\nthe stats of your two\nlowest-Attack minions.",
@@ -571683,7 +571647,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]<b>Start of Combat:</b> Give 3\nfriendly Elementals\n\"<b>Deathrattle:</b> Summon a\nFlourishing Frostling\".",
@@ -571786,6 +571749,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -572078,7 +572042,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]<b>Spellcraft:</b> Choose a\nminion. Then choose a\nminion from a Tier higher\nto transform it into.",
@@ -575998,7 +575962,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Get a random <b>Battlecry</b>\nminion. At the start of\neach turn, get another.",
@@ -576797,16 +576760,14 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 3,
 		"faction": "NEUTRAL",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]After 2 friendly minions\nattack each combat, this\nplays a <b>Blood Gem</b> on all\n your Quilboar. <i>({0} left!)</i>",
+		"text": "After a friendly Quilboar attacks each combat, this plays a <b>Blood Gem</b>s on all your Quilboar.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
-		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
-		},
 		"referencedTags": [
 			"BACON_BLOOD_GEM_TOOLTIP"
 		]
@@ -581646,7 +581607,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Whenever a friendly Quilboar\ndies, summon a Golem with\nstats equal to its <b>Blood Gems</b>.",
@@ -581721,7 +581682,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]Gain 2 Gold.\nThe Tavern no longer offers\ncards from Tier 1 or Tier 2.",
+		"text": "[x]Gain 3 Gold.\nThe Tavern no longer offers\ncards from Tier 1 or Tier 2.",
 		"mechanics": [
 			"AURA"
 		]
@@ -581781,7 +581742,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Spin the Wheel of Yogg-Saron. At the start of each turn, spin it again.",
@@ -582603,7 +582564,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 7,
@@ -582632,7 +582593,7 @@
 		"races": [
 			"QUILBOAR"
 		],
-		"techLevel": 4,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 14,
 		"text": "<b>Blood Gems</b> played from your hand cast 2 extra times.",
@@ -596634,10 +596595,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]After you play a minion,\ngive the left-most minion\nin your hand +6/+6.",
+		"text": "[x]After you play a minion,\ngive the left-most minion\nin your hand +10/+10.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		]
@@ -596698,8 +596659,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		}
 	},
 	{
@@ -598250,15 +598211,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "<b>Start of Combat:</b> Give your other Elementals +{0}/+{1}. <i>(Improves after you play an Elemental!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3,
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"battlegroundsPremiumDbfId": 115582
@@ -598280,15 +598241,15 @@
 			"ELEMENTAL"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 12,
+		"attack": 16,
+		"health": 16,
 		"text": "<b>Start of Combat:</b> Give your other Elementals +{0}/+{1}. <i>(Improves after you play an Elemental!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8,
 			"TAG_SCRIPT_DATA_NUM_3": 0
 		},
 		"battlegroundsNormalDbfId": 115581,
@@ -609479,23 +609440,9 @@
 		"text": "[x]After you summon an\nElemental, deal 3 damage\nto a random enemy.",
 		"flavor": "This story will blow you away.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE"
-		],
-		"assembleHalves": {
-			"first": {
-				"text": "[x]After you summon an\nElemental,",
-				"mechanics": [
-				]
-			},
-			"second": {
-				"text": "deal 3 damage\nto a random enemy.",
-				"mechanics": [
-					"DEAL_DAMAGE"
-				]
-			}
-		}
+		]
 	},
 	{
 		"dbfId": 117532,
@@ -609698,7 +609645,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "[x]<b>Quest:</b> Cast 4 Holy spells\n<b>Reward:</b> Life's Breath.\n<b>Quest:</b> Cast 4 Shadow spells.\n<b>Reward:</b> Death's Touch.",
+		"text": "[x]<b>Quest:</b> Cast 6 Holy spells.\n<b>Reward:</b> Life's Breath.\n<b>Quest:</b> Cast 6 Shadow spells.\n<b>Reward:</b> Death's Touch.",
 		"flavor": "Day 6. Today we found ourselves in a glade tormented by conflicting Holy and Shadow magic. At its center were two enormous Elementals, like opposite sides of the same coin. I hope one day we'll return here to see this broken place restored to peace.",
 		"mechanics": [
 			"QUEST"
@@ -609724,7 +609671,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "[x]<b>Quest:</b> Cast 4 Holy spells.\n<b>Reward:</b> Life's Breath.",
+		"text": "[x]<b>Quest:</b> Cast 6 Holy spells.\n<b>Reward:</b> Life's Breath.",
 		"mechanics": [
 			"QUEST"
 		],
@@ -612794,7 +612741,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Every fourth card you\nbuy costs Health instead\nof Gold. <i>({0} left!)</i>",
@@ -613377,7 +613324,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Get a plain copy of a\nrandom friendly minion.\nAt the start of each turn,\nrepeat this.",
@@ -614078,7 +614025,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 6,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Get an Elemental of\nSurprise. <i>(More appear\nwhen you least expect\nthem...)</i>",
@@ -616451,7 +616398,7 @@
 		"cost": 2,
 		"attack": 2,
 		"health": 3,
-		"text": "<b>Battlecry:</b> Reduce the Cost of cards copied from your opponent by (3).",
+		"text": "<b>Battlecry:</b> Reduce the Cost of cards copied from your opponent by (2).",
 		"flavor": "Dave, we can tell this letter is fake - it's in your handwriting. And take off that stupid hood, you're embarrassing us.",
 		"mechanics": [
 			"BATTLECRY"
@@ -621433,11 +621380,8 @@
 		"set": "Day_of_rebirth",
 		"rarity": "Common",
 		"cost": 8,
-		"text": "Set a friendly minion's stats to 1/1. Fill your board with copies of it.",
-		"flavor": "LURE'S EFFECT WORE OFF.",
-		"otherTags": [
-			"TARGETS_FRIENDLY_MINION"
-		]
+		"text": "Set a friendly non-<b>Legendary</b> minion's stats to 1/1. Fill your board with copies of it.",
+		"flavor": "LURE'S EFFECT WORE OFF."
 	},
 	{
 		"dbfId": 118407,
@@ -621708,13 +621652,10 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "[x]<b>Deathrattle:</b> Summon a\nslightly cracked Egg. <i>(Break\n5 times to hatch a 20/20\nBeast with <b>Taunt</b>!)</i>",
+		"text": "[x]<b>Deathrattle:</b> Summon\na slightly cracked Egg.\n<i>(Break 5 times to hatch\ninto a 20/20 Beast!)</i>",
 		"flavor": "Thousands upon thousands of years Khelos has been waiting to hatch. Hopefully you won't have to wait that long.",
 		"mechanics": [
 			"DEATHRATTLE"
-		],
-		"referencedTags": [
-			"TAUNT"
 		],
 		"relatedCardDbfIds": [
 			122542,
@@ -621855,11 +621796,7 @@
 			"BEAST"
 		],
 		"attack": 20,
-		"health": 20,
-		"text": "<b>Taunt</b>",
-		"mechanics": [
-			"TAUNT"
-		]
+		"health": 20
 	},
 	{
 		"dbfId": 118496,
@@ -627398,7 +627335,7 @@
 		"set": "Lost_city_of_ungoro",
 		"rarity": "Legendary",
 		"cost": 1,
-		"text": "[x]<b>Quest:</b> Cast 4 Shadow spells.\n<b>Reward:</b> Death's Touch.",
+		"text": "[x]<b>Quest:</b> Cast 6 Shadow spells.\n<b>Reward:</b> Death's Touch.",
 		"mechanics": [
 			"QUEST"
 		],
@@ -630960,7 +630897,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -631056,7 +630992,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
@@ -631261,10 +631197,10 @@
 			"BACON_BUFFS_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
 			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 1,
-			"TAG_SCRIPT_DATA_NUM_5": 6
+			"TAG_SCRIPT_DATA_NUM_5": 5
 		}
 	},
 	{
@@ -635778,7 +635714,7 @@
 		"collectible": true,
 		"set": "Across_the_timeways",
 		"rarity": "Epic",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "SHADOW",
 		"text": "Split a random\nminion in your hand into two halves.",
 		"flavor": "They really are my other half."
@@ -639078,7 +639014,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Get a Sellemental.\nAt the start of each turn,\nget another.",
@@ -639429,7 +639365,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Craft a custom Undead.\nAt the start of every 2 turns,\nrepeat this. <i>({0} turns left!)</i>",
@@ -639524,23 +639459,8 @@
 		"flavor": "This is what a century of bronzer does to you.",
 		"mechanics": [
 			"BATTLECRY",
-			"CRAFTABLE_OUTPUT_POWER",
 			"TAUNT"
 		],
-		"assembleHalves": {
-			"first": {
-				"text": "<b>Taunt</b>\n<b>Battlecry:</b>",
-				"mechanics": [
-					"BATTLECRY",
-					"TAUNT"
-				]
-			},
-			"second": {
-				"text": "Double this minion's Health.",
-				"mechanics": [
-				]
-			}
-		},
 		"availableAsSignature": true
 	},
 	{
@@ -639789,7 +639709,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Get a Dr. Boom's Monster.\nAt the start of every turn,\nget another.",
@@ -640791,9 +640711,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]<b>Discover</b> a Tier 5 minion\nwith a type. At the start\nof each turn, get another\ncopy of it.",
+		"text": "[x]<b>Discover</b> a Tier 6 minion\nwith a type. At the start\nof each turn, get another\ncopy of it.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -640910,7 +640831,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Whenever a friendly Beast\nattacks, give it +{0} Attack\nand permanently improve\nthis.",
@@ -640918,7 +640839,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4
 		}
 	},
 	{
@@ -642479,7 +642400,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]One Tavern spell each turn\ncosts Health instead of\nGold to buy. <i>({0} left!)</i>",
@@ -643340,12 +643261,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]The first time you buy a\nminion each turn, get a\n<b>Magnetic</b> Satellite with\nits stats.",
+		"text": "After you buy a minion, get a <b>Magnetic</b> Satellite with its stats. <i>(Twice per turn.)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
+		"tags": {
+			"TAG_SCRIPT_DATA_NUM_1": 2
+		},
 		"referencedTags": [
 			"MODULAR"
 		]
@@ -643446,7 +643371,6 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Get a Charging Czarina. Your Charging Czarinas also give Health.",
@@ -644348,10 +644272,10 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]<b>Avenge (7):</b> Summon two\n{0}/{1} Beetles.\nGive them <b>Taunt</b>.",
+		"text": "[x]<b>Avenge (8):</b> Summon two\n{0}/{1} Beetles.\nGive them <b>Taunt</b>.",
 		"mechanics": [
 			"AVENGE"
 		],
@@ -646086,7 +646010,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Get a Maw Caster.\nWhenever you destroy a\nminion outside combat,\ngain {0} Gold.",
@@ -646094,7 +646018,7 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		}
 	},
 	{
@@ -647472,14 +647396,14 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 4,
+		"health": 8,
 		"text": "[x]After your hero takes\ndamage, rewind it and\ngive minions in the Tavern\n+{0}/+{1} this turn.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_1": 1,
 			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsPremiumDbfId": 121688
@@ -647501,14 +647425,14 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 12,
-		"health": 12,
+		"attack": 8,
+		"health": 16,
 		"text": "[x]After your hero takes\ndamage, rewind it and\ngive minions in the Tavern\n+{0}/+{1} this turn.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_1": 2,
 			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 121687,
@@ -652494,12 +652418,9 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "[x]<b>Deathrattle:</b> Summon a\nmore cracked Egg. <i>(Break\n4 times to hatch a 20/20\nBeast with <b>Taunt</b>!)</i>",
+		"text": "[x]<b>Deathrattle:</b> Summon\na more cracked Egg.\n<i>(Break 4 more times to hatch\ninto a 20/20 Beast!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
-		],
-		"referencedTags": [
-			"TAUNT"
 		],
 		"relatedCardDbfIds": [
 			122543,
@@ -652523,12 +652444,9 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "[x]<b>Deathrattle:</b> Summon a\nvery cracked Egg. <i>(Break\n3 times to hatch a 20/20\nBeast with <b>Taunt</b>!)</i>",
+		"text": "[x]<b>Deathrattle:</b> Summon\na very cracked Egg.\n<i>(Break 3 more times to hatch\ninto a 20/20 Beast!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
-		],
-		"referencedTags": [
-			"TAUNT"
 		],
 		"relatedCardDbfIds": [
 			122545,
@@ -652564,12 +652482,9 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "[x]<b>Deathrattle:</b> Summon the\nmost cracked Egg. <i>(Break\n2 times to hatch a 20/20\nBeast with <b>Taunt</b>!)</i>",
+		"text": "[x]<b>Deathrattle:</b> Summon\nthe most cracked Egg.\n<i>(Break 2 more times to hatch\ninto a 20/20 Beast!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
-		],
-		"referencedTags": [
-			"TAUNT"
 		],
 		"relatedCardDbfIds": [
 			122546,
@@ -652591,12 +652506,9 @@
 		"cost": 3,
 		"attack": 0,
 		"health": 3,
-		"text": "<b>Deathrattle:</b> Summon a\n20/20 Khelos with <b>Taunt</b>.\n<i>(Break to hatch!)</i>",
+		"text": "<b>Deathrattle:</b> Summon\na 20/20 Khelos.\n<i>(Break to hatch!)</i>",
 		"mechanics": [
 			"DEATHRATTLE"
-		],
-		"referencedTags": [
-			"TAUNT"
 		],
 		"relatedCardDbfIds": [
 			118495
@@ -652803,15 +652715,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 3,
-		"health": 8,
+		"attack": 4,
+		"health": 9,
 		"text": "[x]<b>Rally:</b> Your <b>Blood Gems</b>\ngive an extra +{0}/+{1}\nthis game.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 1
 		},
 		"battlegroundsPremiumDbfId": 122567,
 		"referencedTags": [
@@ -652835,15 +652747,15 @@
 			"QUILBOAR"
 		],
 		"techLevel": 5,
-		"attack": 6,
-		"health": 16,
+		"attack": 8,
+		"health": 18,
 		"text": "[x]<b>Rally:</b> Your <b>Blood Gems</b>\ngive an extra +{0}/+{1}\nthis game.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsNormalDbfId": 122566,
 		"premium": true,
@@ -658096,7 +658008,7 @@
 		"collectible": true,
 		"set": "Cataclysm",
 		"rarity": "Epic",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "FIRE",
 		"text": "[x]Deal $1 damage\nto all minions.\n<i>(Improved for each minion\non the battlefield.)</i>",
 		"flavor": "10 times as bad as Centi-mation.",
@@ -661468,15 +661380,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 8,
+		"attack": 10,
 		"health": 3,
 		"text": "<b>Deathrattle:</b> Give your\nminions +{0}/+{1}.\nGolden ones keep it permanently.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsPremiumDbfId": 123596
 	},
@@ -661498,15 +661410,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 16,
+		"attack": 20,
 		"health": 6,
 		"text": "<b>Deathrattle:</b> Give your\nminions +{0}/+{1} twice.\nGolden ones keep it permanently.",
 		"mechanics": [
 			"DEATHRATTLE"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 123595,
 		"premium": true
@@ -661752,23 +661664,9 @@
 		"text": "[x]<b>Divine Shield</b>\nAfter this loses <b>Divine Shield</b>,\ngive your Silver Hand Recruits\n+1 Health this game.",
 		"flavor": "Congratulations you're being rescued! Please do not resist.",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
-		],
-		"assembleHalves": {
-			"first": {
-				"text": "[x]<b>Divine Shield</b>\nAfter this loses <b>Divine Shield</b>,",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "give your Silver Hand Recruits\n+1 Health this game.",
-				"mechanics": [
-				]
-			}
-		}
+		]
 	},
 	{
 		"dbfId": 123622,
@@ -668876,7 +668774,7 @@
 		"rarity": "Epic",
 		"cost": 5,
 		"attack": 4,
-		"health": 4,
+		"health": 3,
 		"text": "[x]<b>Prepare</b>\n<b>Battlecry:</b> If you've cast a\nspell this turn, cast two\n random Mage <b>Secrets</b>.",
 		"flavor": "Welcome to Dalaran, where the spells are made up and the points don't matter!",
 		"mechanics": [
@@ -668990,8 +668888,8 @@
 		"collectible": true,
 		"set": "Violet_hold",
 		"rarity": "Rare",
-		"cost": 5,
-		"attack": 5,
+		"cost": 6,
+		"attack": 6,
 		"health": 3,
 		"text": "[x]<b>Prepare</b>. <b>Battlecry:</b> Destroy\nall your other minions. Draw\na card and refresh a Mana\n for each one destroyed.",
 		"flavor": "Sawbones saw bones to bone saw.",
@@ -672586,8 +672484,6 @@
 		"races": [
 			"MURLOC"
 		],
-		"techLevel": 2,
-		"isBaconPool": true,
 		"attack": 3,
 		"health": 5,
 		"text": "[x]<b>Rally:</b> Summon the highest-\nAttack Murloc from your\n hand for this combat only.",
@@ -677980,15 +677876,17 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 15,
-		"health": 15,
-		"text": "<b>Rally:</b> Give a friendly minion of each type +{0}/+{1} permanently.",
+		"attack": 10,
+		"health": 10,
+		"text": "[x]<b>Rally:</b> Give a friendly\nminion of each type\n+{0}/+{1} permanently\nand improve this.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"battlegroundsPremiumDbfId": 127110
 	},
@@ -678010,15 +677908,17 @@
 			"ALL"
 		],
 		"techLevel": 7,
-		"attack": 30,
-		"health": 30,
-		"text": "<b>Rally:</b> Give a friendly minion of each type +{0}/+{1} permanently, twice.",
+		"attack": 20,
+		"health": 20,
+		"text": "[x]<b>Rally:</b> Give a friendly\nminion of each type\n+{0}/+{1} permanently\n and improve this, twice.",
 		"mechanics": [
 			"BACON_RALLY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 15,
-			"TAG_SCRIPT_DATA_NUM_2": 15
+			"TAG_SCRIPT_DATA_NUM_1": 10,
+			"TAG_SCRIPT_DATA_NUM_2": 10,
+			"TAG_SCRIPT_DATA_NUM_3": 0,
+			"TAG_SCRIPT_DATA_NUM_4": 0
 		},
 		"battlegroundsNormalDbfId": 127109,
 		"premium": true
@@ -678101,9 +678001,9 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 16,
-		"health": 32,
-		"text": "[x]After you summon a minion\nin combat, give it this\nminion's maximum stats.\n<i>(3 times per combat.)</i>",
+		"attack": 15,
+		"health": 30,
+		"text": "[x]After you summon a different\nminion in combat, give it double\nthis minion's maximum stats.\n<i>(3 times per combat.)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -678129,9 +678029,9 @@
 			"BEAST"
 		],
 		"techLevel": 7,
-		"attack": 32,
-		"health": 64,
-		"text": "[x]After you summon a minion\nin combat, give it double this\nminion's maximum stats.\n<i>(3 times per combat.)</i>",
+		"attack": 30,
+		"health": 60,
+		"text": "[x]After you summon a different\nminion in combat, give it triple\nthis minion's maximum stats.\n<i>(3 times per combat.)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -683534,8 +683434,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 7,
-		"health": 13,
+		"attack": 17,
+		"health": 23,
 		"text": "[x]At the end of your turn,\ngive this minion's stats to\nthe left-most minion in\nyour hand.",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -683560,8 +683460,8 @@
 			"MURLOC"
 		],
 		"techLevel": 7,
-		"attack": 14,
-		"health": 26,
+		"attack": 34,
+		"health": 46,
 		"text": "[x]At the end of your turn,\ngive double this minion's\nstats to the left-most\nminion in your hand.",
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
@@ -683793,7 +683693,7 @@
 		"text": "Give your minions +{0}/+{1}. Give Golden ones another +{0}/+{1}.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		}
 	},
 	{
@@ -691540,7 +691440,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 9,
+		"cost": 10,
 		"attack": 9,
 		"health": 7,
 		"text": "[x]<b>Battlecry:</b> Reduce the Cost of\na card in your hand by (5). This\ncontinues to the left and right\nwith (1) less reduction.",
@@ -697493,7 +697393,7 @@
 		"rarity": "Common",
 		"cost": 2,
 		"spellSchool": "SHADOW",
-		"text": "In 2 turns, summon\ntwo 3/5 C'thraxxi\nwith <b>Taunt</b>.",
+		"text": "In 2 turns, summon\ntwo 2/4 C'thraxxi\nwith <b>Taunt</b>.",
 		"flavor": "You both have 2 turns to dry off and come inside for dinner.",
 		"mechanics": [
 			"OBJECTIVE"
@@ -697538,9 +697438,9 @@
 			"WARLOCK"
 		],
 		"set": "Black_empire",
-		"cost": 4,
-		"attack": 3,
-		"health": 5,
+		"cost": 3,
+		"attack": 2,
+		"health": 4,
 		"text": "<b>Taunt</b>",
 		"mechanics": [
 			"TAUNT"
@@ -697897,7 +697797,7 @@
 		"set": "Black_empire",
 		"rarity": "Common",
 		"cost": 3,
-		"attack": 2,
+		"attack": 3,
 		"durability": 2,
 		"text": "After your hero attacks, get an 'Overdrive'.",
 		"flavor": "Instantly cauterizes any wounds it causes.",
@@ -697934,7 +697834,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Rare",
-		"cost": 2,
+		"cost": 1,
 		"text": "<b>Assemble</b> a Mech.\nGet an 'Overdrive'.",
 		"flavor": "miM rof tnuocca ton did tolp s'noraS-ggoY tub ,htaed s'norimiM detartsehcro yllufsseccus noraS-ggoY ,noitiurF ot emoc ot ainnellim ynam ekat dluow ti hguohT",
 		"referencedTags": [
@@ -698147,23 +698047,9 @@
 		"text": "[x]<b>Divine Shield</b>\nAfter a friendly minion loses\n<b>Divine Shield</b>, give a minion\n in your hand +5/+5.",
 		"flavor": "\"Through my faith and my courage, I shall be protected. And through my honor and sacrifice, another will rise in my place.\"",
 		"mechanics": [
-			"CRAFTABLE_OUTPUT_POWER",
 			"DIVINE_SHIELD",
 			"TRIGGER_VISUAL"
 		],
-		"assembleHalves": {
-			"first": {
-				"text": "[x]<b>Divine Shield</b>\nAfter a friendly minion loses\n<b>Divine Shield</b>,",
-				"mechanics": [
-					"DIVINE_SHIELD"
-				]
-			},
-			"second": {
-				"text": "give a minion\n in your hand +5/+5.",
-				"mechanics": [
-				]
-			}
-		},
 		"counterpartCards": [
 			64546,
 			129847
@@ -698505,9 +698391,9 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 7,
-		"attack": 7,
-		"health": 7,
+		"cost": 6,
+		"attack": 6,
+		"health": 6,
 		"text": "[x]<b>Battlecry:</b> Gain 20 Armor.\nIn 2 turns, convert your\nArmor into a Golem with that\nmany stats and <b>Taunt</b>.",
 		"flavor": "You can lose your armor the easy way, or the hard way.",
 		"mechanics": [
@@ -700019,7 +699905,7 @@
 		],
 		"attack": 4,
 		"health": 5,
-		"text": "[x]Costs (2) less for each\n<b>Combo</b> card played this turn.\n<b>Battlecry:</b> Draw a card.",
+		"text": "[x]Costs (2) less for each\n<b>Combo</b> card played this turn.\n<b>Battlecry:</b> Draw 2 cards.",
 		"flavor": "The \"it's more scared of you than you are of it rule\" does NOT apply here.",
 		"mechanics": [
 			"BATTLECRY"
@@ -700075,14 +699961,14 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Common",
-		"cost": 3,
+		"cost": 4,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 4,
-		"health": 2,
-		"text": "<b>Deathrattle:</b> Get two 1-Cost Larvae with <b><b>Combo</b>s</b> that trigger a Hero Power from another class.",
+		"attack": 5,
+		"health": 4,
+		"text": "[x]<b>Deathrattle:</b> Get two Larvae\nwith <b><b>Combo</b>s</b> that trigger a\nHero Power from another\nclass. They cost (0).",
 		"flavor": "They see me swarming. They running.",
 		"mechanics": [
 			"DEATHRATTLE",
@@ -701034,10 +700920,10 @@
 		"rarity": "Common",
 		"cost": 2,
 		"additionalCosts": {
-			"BLOODRUNE": 2
+			"BLOODRUNE": 3
 		},
 		"attack": 3,
-		"health": 3,
+		"health": 4,
 		"text": "<b>Lifesteal</b>",
 		"flavor": "A lowly Forsaken, playing as a lord... I command thee, kneel!",
 		"mechanics": [
@@ -701386,7 +701272,7 @@
 		"rarity": "Common",
 		"cost": 5,
 		"spellSchool": "SHADOW",
-		"text": "Summon a 5/5 Voidwing with <b>Lifesteal</b>. <i>(The next Shadow spell you play repeats this!)</i>",
+		"text": "Summon two 3/4 Voidwings with <b>Lifesteal</b>. <i>(The next Shadow spell you play repeats this!)</i>",
 		"flavor": "I do not like void eggs and ham.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0
@@ -701433,13 +701319,13 @@
 			"PRIEST"
 		],
 		"set": "Black_empire",
-		"cost": 5,
+		"cost": 3,
 		"race": "BEAST",
 		"races": [
 			"BEAST"
 		],
-		"attack": 5,
-		"health": 5,
+		"attack": 3,
+		"health": 4,
 		"text": "<b>Lifesteal</b>",
 		"mechanics": [
 			"LIFESTEAL"
@@ -702484,7 +702370,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"isBaconPool": true,
 		"attack": 3,
 		"health": 6,
@@ -702523,7 +702409,7 @@
 		"races": [
 			"ABERRATION"
 		],
-		"techLevel": 6,
+		"techLevel": 5,
 		"attack": 6,
 		"health": 12,
 		"text": "Whenever you discard a card, give your <b>Deity</b> +{0}/+{1} and improve this.",
@@ -704490,7 +704376,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_2": 14
 		}
 	},
 	{
@@ -704504,7 +704390,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Get two minions each from Tiers 1, 2, and 3."
@@ -704928,8 +704814,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -704997,8 +704883,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		}
 	},
 	{
@@ -705132,7 +705018,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Get a random\n<b>Chromadrake.</b>\nAt the start of each turn,\nrepeat this.",
@@ -705230,7 +705116,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Get {0} random <b>Bounties</b>. At the start of each turn, repeat this.",
@@ -705294,8 +705180,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		}
 	},
 	{
@@ -705342,8 +705228,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		}
 	},
 	{
@@ -705522,6 +705408,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Get a <b>Blood Gem</b> that gives a Quilboar <b>Taunt</b>, <b>Divine Shield</b>, or <b>Reborn</b>. At the start of each turn, repeat this.",
@@ -707847,7 +707734,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Get a Cloning Conch.\nAt the start of every\n{1} turns, repeat this.\n<i>({0} turns left!)</i>",
@@ -707878,8 +707765,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"otherTags": [
 			"BACON_TRINKET_CAN_BE_DISCOUNTED"
@@ -707899,7 +707786,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Get a Polarizing Beatboxer.",
@@ -709037,7 +708924,7 @@
 		],
 		"attack": 0,
 		"health": 1,
-		"text": "[x]<b><b>Reborn</b>\n</b><b>Deathrattle:</b> Give all\nminions in your\nhand +1/+1.",
+		"text": "[x]<b>Reborn</b>\n<b>Deathrattle:</b> Give all\nminions in your hand\n+1 Attack.",
 		"flavor": "I know a tummy ache when I see one.",
 		"mechanics": [
 			"CRAFTABLE_OUTPUT_POWER",
@@ -709046,14 +708933,14 @@
 		],
 		"assembleHalves": {
 			"first": {
-				"text": "[x]<b><b>Reborn</b>\n</b><b>Deathrattle:</b>",
+				"text": "[x]<b>Reborn</b>\n<b>Deathrattle:</b>",
 				"mechanics": [
 					"DEATHRATTLE",
 					"REBORN"
 				]
 			},
 			"second": {
-				"text": "Give all\nminions in your\nhand +1/+1.",
+				"text": "Give all\nminions in your hand\n+1 Attack.",
 				"mechanics": [
 				]
 			}
@@ -709225,7 +709112,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]After the Tavern is\n<b>Refreshed</b>, give its\nminions +{0}/+{1} this turn.",
@@ -709233,8 +709120,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"referencedTags": [
 			"BACON_REFRESH_TOOLTIP"
@@ -712093,7 +711980,7 @@
 		"collectible": true,
 		"set": "Black_empire",
 		"rarity": "Legendary",
-		"cost": 10,
+		"cost": 9,
 		"attack": 10,
 		"health": 10,
 		"text": "[x]<b>Old God.</b> <b>Battlecry:</b> If you've\nspent 30 Mana on minions\nthis game, gain <b>Immune</b>\nfor 1 turn. <i>({0} left!)</i>",
@@ -712806,7 +712693,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "+4/+4. In 2 turns, double this minion's stats."
+		"text": "+6/+6. In 2 turns, double this minion's stats."
 	},
 	{
 		"dbfId": 132203,
@@ -712842,7 +712729,7 @@
 		"set": "Battlegrounds",
 		"cost": 0,
 		"faction": "NEUTRAL",
-		"text": "<b>Start of Combat:</b> Double this minion's Health."
+		"text": "+15 Health. <b>Start of Combat:</b> Double this minion's Health."
 	},
 	{
 		"dbfId": 132207,
@@ -713170,7 +713057,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "<b>Start of Combat:</b> Double this minion's Health.",
+		"text": "+15 Health. <b>Start of Combat:</b> Double this minion's Health.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -713923,7 +713810,7 @@
 		"cost": 10,
 		"attack": 12,
 		"health": 12,
-		"text": "<b>Old God.</b> If you've triggered all 4 C'Thun abilities this game, this minion's abilities are tripled.",
+		"text": "[x]<b>Old God.</b> If you've triggered\nall 4 C'Thun abilities this\ngame, this minion's abilities\nare quadrupled.",
 		"flavor": "\"Amitut, Keeper of Amitus\"/2 + (2*\"Incubate\")/2 + (2*\"The Unknowable One\"/3)",
 		"availableAsSignature": true,
 		"relatedCardDbfIds": [
@@ -713944,7 +713831,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+2/+3"
+		"text": "+2/+2"
 	},
 	{
 		"dbfId": 132341,
@@ -713957,7 +713844,7 @@
 			"NEUTRAL"
 		],
 		"set": "Black_empire",
-		"text": "+6/+9"
+		"text": "+8/+8"
 	},
 	{
 		"dbfId": 132342,
@@ -713972,7 +713859,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "Summon two 2/3 Fanatics with <b>Taunt</b>.",
+		"text": "Summon two 2/2 Fanatics with <b>Taunt</b>.",
 		"hideStats": true,
 		"referencedTags": [
 			"TAUNT"
@@ -714020,7 +713907,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 2,
-		"text": "[x]Give two other random\nfriendly minions +2/+3.",
+		"text": "[x]Give two other random\nfriendly minions +2/+2.",
 		"hideStats": true
 	},
 	{
@@ -714036,7 +713923,7 @@
 		"set": "Black_empire",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Deal 7 damage randomly split among enemies.",
+		"text": "Deal 6 damage randomly split among enemies.",
 		"mechanics": [
 			"DEAL_DAMAGE"
 		],
@@ -714112,13 +713999,13 @@
 		"cost": 3,
 		"attack": 3,
 		"health": 2,
-		"text": "[x]<b>Battlecry:</b> If you've cast 2\nShadow spells while holding\nthis, choose a C'Thun ability\nto trigger. <i>({0} left!)</i>",
+		"text": "[x]<b>Battlecry:</b> If you've cast a\nShadow spell while holding\nthis, choose a C'Thun\nability to trigger.",
 		"flavor": "The Old Gods are coming. The Old Gods are coming!",
 		"mechanics": [
 			"BATTLECRY"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 2
+			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
 		"availableAsSignature": true,
 		"relatedCardDbfIds": [
@@ -714142,7 +714029,7 @@
 		"rarity": "Legendary",
 		"cost": 2,
 		"attack": 2,
-		"health": 3,
+		"health": 2,
 		"text": "<b>Taunt</b>",
 		"mechanics": [
 			"TAUNT"
@@ -714314,7 +714201,7 @@
 			"HUNTER"
 		],
 		"set": "Black_empire",
-		"text": "+1/+1"
+		"text": "+1 Attack."
 	},
 	{
 		"dbfId": 132441,
@@ -714495,7 +714382,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "<b>Deathrattle:</b> Give your minions +2/+2 permanently."
+		"text": "<b>Deathrattle:</b> Give your minions +3/+3 permanently."
 	},
 	{
 		"dbfId": 132485,
@@ -714799,7 +714686,7 @@
 		"cost": 9,
 		"attack": 7,
 		"health": 5,
-		"text": "<b>Old God.</b> <b>Battlecry:</b> End your turn. Yogg-saron takes\nan extra turn for you. <i>(Once per game)</i>",
+		"text": "<b>Old God.</b> <b>Battlecry:</b> End your turn. Yogg-Saron takes\nan extra turn for you. <i>(Once per game)</i>",
 		"flavor": "\"Reknit\" + \"Norimim\"",
 		"mechanics": [
 			"BATTLECRY"
@@ -715576,8 +715463,8 @@
 		],
 		"techLevel": 7,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 15,
+		"attack": 13,
+		"health": 17,
 		"text": "[x]<b>Rally:</b> Summon a Golem\nwith this minion's stats to\nattack the target first.",
 		"mechanics": [
 			"BACON_RALLY"
@@ -715608,8 +715495,8 @@
 			"QUILBOAR"
 		],
 		"techLevel": 7,
-		"attack": 12,
-		"health": 30,
+		"attack": 26,
+		"health": 34,
 		"text": "[x]<b>Rally:</b> Summon a Golem\nwith double this minion's\nstats to attack the target\nfirst.",
 		"mechanics": [
 			"BACON_RALLY"
@@ -715886,7 +715773,7 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
+		"attack": 8,
 		"health": 8,
 		"text": "[x]Whenever you play a Mech,\n<b>Magnetize</b> a {1}/{2}\nSatellite to it and\nimprove this.",
 		"mechanics": [
@@ -715895,7 +715782,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 2,
-			"TAG_SCRIPT_DATA_NUM_3": 3
+			"TAG_SCRIPT_DATA_NUM_3": 2
 		},
 		"battlegroundsPremiumDbfId": 132677,
 		"referencedTags": [
@@ -715919,7 +715806,7 @@
 			"MECH"
 		],
 		"techLevel": 5,
-		"attack": 12,
+		"attack": 16,
 		"health": 16,
 		"text": "[x]Whenever you play a Mech,\n<b>Magnetize</b> a {1}/{2}\nSatellite to it and\nimprove this.",
 		"mechanics": [
@@ -715928,7 +715815,7 @@
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 0,
 			"TAG_SCRIPT_DATA_NUM_2": 4,
-			"TAG_SCRIPT_DATA_NUM_3": 6
+			"TAG_SCRIPT_DATA_NUM_3": 4
 		},
 		"battlegroundsNormalDbfId": 132676,
 		"premium": true,
@@ -716537,15 +716424,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 6,
+		"attack": 7,
+		"health": 5,
 		"text": "[x]After you spend {2} Gold, get\na Lockbox. If you already have\none, it opens {3} turns sooner\ninstead. <i>({0} Gold left!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 1
 		},
 		"battlegroundsPremiumDbfId": 132763
@@ -716567,15 +716454,15 @@
 			"PIRATE"
 		],
 		"techLevel": 5,
-		"attack": 12,
-		"health": 12,
+		"attack": 14,
+		"health": 10,
 		"text": "[x]After you spend {2} Gold, get\na Lockbox. If you already have\none, it opens {3} turns sooner\ninstead. <i>({0} Gold left!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_3": 6,
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_3": 5,
 			"TAG_SCRIPT_DATA_NUM_4": 2
 		},
 		"battlegroundsNormalDbfId": 132762,
@@ -717375,7 +717262,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Steal 2 cards from your opponent's hand.",
+		"text": "Steal a card from your opponent's hand.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
 		},
@@ -717394,7 +717281,7 @@
 		"set": "Azeroths_most_wanted",
 		"rarity": "Legendary",
 		"cost": 0,
-		"text": "Give minions in your hand and battlefield +3/+3.",
+		"text": "Give minions in your hand and battlefield +2/+2.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 7
 		},
@@ -717411,7 +717298,7 @@
 			"NEUTRAL"
 		],
 		"set": "Azeroths_most_wanted",
-		"text": "+3/+3"
+		"text": "+2/+2"
 	},
 	{
 		"dbfId": 132848,
@@ -717466,7 +717353,7 @@
 		],
 		"set": "Azeroths_most_wanted",
 		"cost": 0,
-		"text": "Summon three random 3-Cost minions.",
+		"text": "Summon three random 2-Cost minions.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6
 		},
@@ -717749,15 +717636,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
+		"attack": 5,
+		"health": 5,
 		"text": "[x]Whenever you cast a spell\non a Mech, <b>Magnetize</b> a\n{0}/{1} Satellite to it.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsPremiumDbfId": 132894,
 		"referencedTags": [
@@ -717781,15 +717668,15 @@
 			"MECH"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 8,
+		"attack": 10,
+		"health": 10,
 		"text": "[x]Whenever you cast a spell\non a Mech, <b>Magnetize</b> a\n{0}/{1} Satellite to it\ntwice.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 132893,
 		"premium": true,
@@ -718372,9 +718259,9 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 4,
-		"text": "[x]After you <b>Discover</b> a card, give\nyour other Pirates +{0}/+{1}.\n<i>(Improved by Golden minions\n you played this game!)</i>",
+		"attack": 5,
+		"health": 5,
+		"text": "[x]After you <b>Discover</b> a card,\ngive your Pirates +{0}/+{1}.\n<i>(Improved by Golden minions\n you played this game!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -718405,9 +718292,9 @@
 			"PIRATE"
 		],
 		"techLevel": 6,
-		"attack": 8,
-		"health": 8,
-		"text": "[x]After you <b>Discover</b> a card, give\nyour other Pirates +{0}/+{1}.\n<i>(Improved by Golden minions\n you played this game!)</i>",
+		"attack": 10,
+		"health": 10,
+		"text": "[x]After you <b>Discover</b> a card,\ngive your Pirates +{0}/+{1}.\n<i>(Improved by Golden minions\n you played this game!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
@@ -718759,12 +718646,13 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 8,
-		"health": 9,
-		"text": "<b>Divine Shield</b>\n<b>Rally:</b> Cast Mighty Dragonbreath.",
+		"attack": 9,
+		"health": 7,
+		"text": "<b>Divine Shield</b>. <b><b>Windfury</b>.</b>\n<b>Rally:</b> Cast Mighty Dragonbreath.",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"battlegroundsPremiumDbfId": 132954
 	},
@@ -718785,12 +718673,13 @@
 			"DRAGON"
 		],
 		"techLevel": 6,
-		"attack": 16,
-		"health": 18,
-		"text": "<b>Divine Shield</b>\n<b>Rally:</b> Cast Mighty Dragonbreath twice.",
+		"attack": 18,
+		"health": 14,
+		"text": "<b>Divine Shield</b>. <b>Windfury</b>,\n<b>Rally:</b> Cast Mighty Dragonbreath twice.",
 		"mechanics": [
 			"BACON_RALLY",
-			"DIVINE_SHIELD"
+			"DIVINE_SHIELD",
+			"WINDFURY"
 		],
 		"battlegroundsNormalDbfId": 132953,
 		"premium": true
@@ -719009,14 +718898,14 @@
 		"techLevel": 6,
 		"isBaconPool": true,
 		"attack": 3,
-		"health": 12,
+		"health": 9,
 		"text": "[x]After you play {1} Elementals,\ngain the stats of the highest-\nHealth minion in the\nTavern. <i>({0} left!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsPremiumDbfId": 132984
 	},
@@ -719038,14 +718927,14 @@
 		],
 		"techLevel": 6,
 		"attack": 6,
-		"health": 24,
+		"health": 18,
 		"text": "[x]After you play {1} Elementals,\ngain double the stats of the\nhighest-Health minion in\nthe Tavern. <i>({0} left!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 3,
+			"TAG_SCRIPT_DATA_NUM_2": 3
 		},
 		"battlegroundsNormalDbfId": 132983,
 		"premium": true
@@ -719180,15 +719069,15 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 4,
-		"health": 6,
+		"attack": 3,
+		"health": 7,
 		"text": "Whenever you cast a spell on this, give the left-most minion in your hand +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 8,
-			"TAG_SCRIPT_DATA_NUM_2": 8
+			"TAG_SCRIPT_DATA_NUM_1": 9,
+			"TAG_SCRIPT_DATA_NUM_2": 9
 		},
 		"battlegroundsPremiumDbfId": 132990
 	},
@@ -719209,15 +719098,15 @@
 			"MURLOC"
 		],
 		"techLevel": 4,
-		"attack": 8,
-		"health": 12,
+		"attack": 6,
+		"health": 14,
 		"text": "Whenever you cast a spell on this, give the left-most minion in your hand +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 16,
-			"TAG_SCRIPT_DATA_NUM_2": 16
+			"TAG_SCRIPT_DATA_NUM_1": 18,
+			"TAG_SCRIPT_DATA_NUM_2": 18
 		},
 		"battlegroundsNormalDbfId": 132989,
 		"premium": true
@@ -719309,15 +719198,15 @@
 		],
 		"techLevel": 5,
 		"isBaconPool": true,
-		"attack": 5,
-		"health": 7,
+		"attack": 6,
+		"health": 9,
 		"text": "Whenever you cast a spell on a Murloc, give Murlocs in your hand and board +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsPremiumDbfId": 133027
 	},
@@ -719338,15 +719227,15 @@
 			"MURLOC"
 		],
 		"techLevel": 5,
-		"attack": 10,
-		"health": 14,
+		"attack": 12,
+		"health": 18,
 		"text": "Whenever you cast a spell on a Murloc, give Murlocs in your hand and board +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 133026,
 		"premium": true
@@ -719369,15 +719258,15 @@
 		],
 		"techLevel": 6,
 		"isBaconPool": true,
-		"attack": 6,
-		"health": 8,
+		"attack": 5,
+		"health": 10,
 		"text": "[x]After your hero takes {1}\ndamage, get a copy of\nCorrupted Cupcakes.\n<i>({0} left!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsPremiumDbfId": 133029
 	},
@@ -719398,15 +719287,15 @@
 			"DEMON"
 		],
 		"techLevel": 6,
-		"attack": 12,
-		"health": 16,
+		"attack": 10,
+		"health": 20,
 		"text": "[x]After your hero takes {1}\ndamage, get two copies of\nCorrupted Cupcakes.\n<i>({0} left!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 5,
+			"TAG_SCRIPT_DATA_NUM_2": 5
 		},
 		"battlegroundsNormalDbfId": 133028,
 		"premium": true
@@ -719606,8 +719495,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4
+			"TAG_SCRIPT_DATA_NUM_1": 6,
+			"TAG_SCRIPT_DATA_NUM_2": 6
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -719715,7 +719604,7 @@
 		"set": "Battlegrounds",
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]After you buy a Mech,\nget a random Tavern\nspell.",
+		"text": "[x]After you buy a Mech,\nget a random Tavern spell\nthat costs (2) or more.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"GENERATES_SPELL",
@@ -721283,7 +721172,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 2
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"otherTags": [
 			"BACON_TRINKET_CAN_BE_DISCOUNTED"
@@ -721344,7 +721233,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 3,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Get a random <b>Choose One</b> card. At the start of each turn, get another.",
@@ -721369,7 +721258,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Get 2 random <b>Choose One</b> cards. At the start of each turn, get 2 more.",
@@ -721499,7 +721388,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "<b>Start of Combat:</b> Double this minion's Attack.",
+		"text": "+15 Attack. <b>Start of Combat:</b> Double this minion's Attack.",
 		"hideStats": true
 	},
 	{
@@ -721514,7 +721403,7 @@
 		],
 		"set": "Battlegrounds",
 		"faction": "NEUTRAL",
-		"text": "<b>Start of Combat:</b> Double this minion's Attack.",
+		"text": "+15 Attack. <b>Start of Combat:</b> Double this minion's Attack.",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
@@ -721653,14 +721542,16 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
-		"text": "[x]After you cast 3 spells on\nminions, gain 1 Gold.\n<i>({0} left!)</i>",
+		"text": "[x]After you cast {1} spells on\nminions, gain 1 Gold.\n<i>({0} left!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3
+			"TAG_SCRIPT_DATA_NUM_1": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		}
 	},
 	{
@@ -721674,7 +721565,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "Your <b>Choose One</b> cards have both effects combined.",
@@ -721716,7 +721607,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 4,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "Whenever a friendly <b>Rally</b> minion attacks, gain a free <b>Refresh</b>.",
@@ -721765,7 +721656,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 4,
+		"cost": 5,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]The first two <b>Battlecry</b>\nminions you buy each turn\nare free. <i>({0} left!)</i>",
@@ -722242,7 +722133,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "Whenever you play a card, gain +3 Health.",
+		"text": "Whenever you play a card, gain +2 Health.",
 		"hideStats": true
 	},
 	{
@@ -722269,7 +722160,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "Whenever you play a card, gain +3 Health."
+		"text": "Whenever you play a card, gain +2 Health."
 	},
 	{
 		"dbfId": 133434,
@@ -723094,6 +722985,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
+		"cost": 2,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]At the end of your turn, get a\n{0}/{1} <b>Magnetic</b> Satellite.\n<i>(Improved by each Tavern\nspell you've cast this turn!)</i>",
@@ -723104,8 +722996,8 @@
 			"GENERATES_TAVERN_SPELL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 12,
-			"TAG_SCRIPT_DATA_NUM_2": 12
+			"TAG_SCRIPT_DATA_NUM_1": 20,
+			"TAG_SCRIPT_DATA_NUM_2": 20
 		},
 		"referencedTags": [
 			"MODULAR"
@@ -723397,7 +723289,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 6,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]<b>Discover</b> a plain copy of a\nfriendly minion with a <b>Dark\nGift</b>. Repeat at the start of\nevery 2 turns. <i>({0} turns left!)</i>",
@@ -724217,7 +724109,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 1,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Get a Fire Baller or a\nSnow Baller. At the start\nof each turn, repeat this.",
@@ -724975,7 +724867,7 @@
 		],
 		"techLevel": 4,
 		"isBaconPool": true,
-		"attack": 5,
+		"attack": 6,
 		"health": 3,
 		"text": "[x]<b>Deathrattle:</b> Give minions in\nthe Tavern +{0}/+{1} this\ngame. <b>Activate ({4}):</b>\nImprove this.",
 		"mechanics": [
@@ -724984,7 +724876,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
-			"TAG_SCRIPT_DATA_NUM_2": 2,
+			"TAG_SCRIPT_DATA_NUM_2": 1,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -725011,7 +724903,7 @@
 			"DEMON"
 		],
 		"techLevel": 4,
-		"attack": 10,
+		"attack": 12,
 		"health": 6,
 		"text": "[x]<b>Deathrattle:</b> Give minions in\nthe Tavern +{0}/+{1} this\ngame. <b>Activate ({4}):</b>\nImprove this.",
 		"mechanics": [
@@ -725020,7 +724912,7 @@
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
-			"TAG_SCRIPT_DATA_NUM_2": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 2,
 			"TAG_SCRIPT_DATA_NUM_3": 0,
 			"TAG_SCRIPT_DATA_NUM_4": 0,
 			"TAG_SCRIPT_DATA_NUM_5": 1
@@ -725437,8 +725329,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 13,
-			"TAG_SCRIPT_DATA_NUM_2": 13
+			"TAG_SCRIPT_DATA_NUM_1": 11,
+			"TAG_SCRIPT_DATA_NUM_2": 11
 		}
 	},
 	{
@@ -725459,8 +725351,8 @@
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 50,
-			"TAG_SCRIPT_DATA_NUM_3": 50
+			"TAG_SCRIPT_DATA_NUM_1": 40,
+			"TAG_SCRIPT_DATA_NUM_3": 40
 		}
 	},
 	{
@@ -725521,7 +725413,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 2,
 		"spellSchool": "LESSER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Get a random <b>Magnetic</b>\nVolumizer. At the start of\neach turn, get another.",
@@ -725543,7 +725435,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 5,
+		"cost": 7,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Get a Sludge Corrosion.\nAfter you discard a spell,\nget a Sludge Corrosion.",
@@ -725571,7 +725463,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 3,
-		"spellSchool": "LESSER_TRINKET",
+		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]At the end of your turn, give\nyour minions +{0}/+{1}.\n<i>(Doubles at the start\nof each turn!)</i>",
 		"mechanics": [
@@ -725580,8 +725472,8 @@
 			"END_OF_TURN"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 1,
-			"TAG_SCRIPT_DATA_NUM_2": 1
+			"TAG_SCRIPT_DATA_NUM_1": 7,
+			"TAG_SCRIPT_DATA_NUM_2": 7
 		}
 	},
 	{
@@ -725634,7 +725526,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 3,
+		"cost": 1,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Get 2 random <b>Magnetic</b>\nVolumizers. At the start\nof each turn, repeat this.",
@@ -726136,7 +726028,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"cost": 2,
+		"cost": 4,
 		"spellSchool": "GREATER_TRINKET",
 		"isBaconPool": true,
 		"text": "[x]Get 2 Snarky Sharks.\nWhenever a Fishbait dies,\ngive your Beasts +{0}/+{1}\nand improve this.",
@@ -726541,15 +726433,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 2,
-		"health": 6,
-		"text": "Whenever you play a card, gain +{0} Attack.",
+		"attack": 6,
+		"health": 2,
+		"text": "Whenever you play a card, gain +{1} Health.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 2
 		},
 		"battlegroundsPremiumDbfId": 134705
 	},
@@ -726570,15 +726462,15 @@
 			"ALL"
 		],
 		"techLevel": 2,
-		"attack": 4,
-		"health": 12,
-		"text": "Whenever you play a card, gain +{0} Attack.",
+		"attack": 12,
+		"health": 4,
+		"text": "Whenever you play a card, gain +{1} Health.",
 		"mechanics": [
 			"TRIGGER_VISUAL"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 0
+			"TAG_SCRIPT_DATA_NUM_1": 0,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsNormalDbfId": 134704,
 		"premium": true
@@ -726705,15 +726597,15 @@
 		"races": [
 			"ALL"
 		],
-		"attack": 3,
-		"health": 3,
+		"attack": 4,
+		"health": 4,
 		"text": "[x]Has +{0}/+{1} for each\n<b>Battlecry</b> you've triggered\nthis game <i>(wherever\nthis is)</i>.",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 3,
-			"TAG_SCRIPT_DATA_NUM_2": 3
+			"TAG_SCRIPT_DATA_NUM_1": 4,
+			"TAG_SCRIPT_DATA_NUM_2": 4
 		},
 		"battlegroundsPremiumDbfId": 134711,
 		"referencedTags": [
@@ -726737,15 +726629,15 @@
 			"ALL"
 		],
 		"techLevel": 3,
-		"attack": 6,
-		"health": 6,
+		"attack": 8,
+		"health": 8,
 		"text": "[x]Has +{0}/+{1} for each\n<b>Battlecry</b> you've triggered\nthis game <i>(wherever\nthis is)</i>.",
 		"mechanics": [
 			"AURA"
 		],
 		"tags": {
-			"TAG_SCRIPT_DATA_NUM_1": 6,
-			"TAG_SCRIPT_DATA_NUM_2": 6
+			"TAG_SCRIPT_DATA_NUM_1": 8,
+			"TAG_SCRIPT_DATA_NUM_2": 8
 		},
 		"battlegroundsNormalDbfId": 134710,
 		"premium": true,
@@ -726841,7 +726733,7 @@
 		],
 		"set": "Battlegrounds",
 		"cost": 0,
-		"text": "Has +3/+3 for each card you've discarded this game. <i>({1})</i>",
+		"text": "Has +3/+2 for each card you've discarded this game. <i>({1})</i>",
 		"otherTags": [
 			"CARES_ABOUT_DISCARDS_THIS_GAME"
 		]
@@ -726925,7 +726817,7 @@
 			"NEUTRAL"
 		],
 		"set": "Battlegrounds",
-		"text": "Has +3/+3 for each card you've discarded this game. <i>({1})</i>",
+		"text": "Has +3/+2 for each card you've discarded this game. <i>({1})</i>",
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_6": 120225
 		}
