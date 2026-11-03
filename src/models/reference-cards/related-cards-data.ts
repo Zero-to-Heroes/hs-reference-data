@@ -4695,4 +4695,5 @@ export const RELATED_CARDS_DATA: {
 		CardIds.ProgenyOfDeathwingToken_CATA_190t14,
 	],
 	[CardIds.RehgarEarthfury_CORE_CATA_004]: [CardIds.LightningBoltCore],
+	[CardIds.IcebeltMagi_BE_270]: [CardIds.WaterElemental_CORE_CS2_033],
 };
