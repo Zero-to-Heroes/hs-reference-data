@@ -348,11 +348,38 @@ export const getReferenceTribeCardId = (tribe: string | Race | GameTag): string 
 	return referenceCardId;
 };
 
+// Rune of Damnation (TB_BaconShop_HP_702t): Destroy a friendly Undead to get a random Undead.
+// (Unlocks at Tier 2.) Proto-Dragon Zovaal (TB_BaconShop_HERO_702_SKIN_E) and The Jailer both
+// carry HERO_POWER dbf 122959. The tag wins when the card has it; the switch only fills gaps.
+const heroPowerIdFromTag = (
+	heroCardId: string,
+	allCards: { getCard: (cardId: string | number) => ReferenceCard },
+): string | null => {
+	if (!heroCardId) {
+		return null;
+	}
+	const heroPowerDbfId = allCards.getCard(heroCardId)?.tags?.[GameTag[GameTag.HERO_POWER]];
+	if (!heroPowerDbfId) {
+		return null;
+	}
+	return allCards.getCard(heroPowerDbfId)?.id || null;
+};
+
 export const getHeroPower = (
 	heroCardId: string,
 	allCards: { getCard: (cardId: string | number) => ReferenceCard },
 ): string => {
+	const fromCard = heroPowerIdFromTag(heroCardId, allCards);
+	if (fromCard) {
+		return fromCard;
+	}
 	const normalized = normalizeHeroCardId(heroCardId, allCards);
+	if (normalized && normalized !== heroCardId) {
+		const fromParent = heroPowerIdFromTag(normalized, allCards);
+		if (fromParent) {
+			return fromParent;
+		}
+	}
 	switch (normalized) {
 		case 'TB_BaconShop_HERO_01':
 			return 'TB_BaconShop_HP_001';
@@ -545,7 +572,7 @@ export const getHeroPower = (
 		case CardIds.SylvanasWindrunner_BG23_HERO_306:
 			return CardIds.SylvanasWindrunner_ReclaimedSouls;
 		case CardIds.TheJailer_TB_BaconShop_HERO_702:
-			return CardIds.RunicEmpowerment;
+			return CardIds.RunicEmpowerment_RuneOfDamnationToken_TB_BaconShop_HP_702t;
 		case CardIds.EnhanceOMechano_BG24_HERO_204:
 			return CardIds.EnhanceOMechano_Enhancification;
 		case CardIds.ProfessorPutricide_BG25_HERO_100:
