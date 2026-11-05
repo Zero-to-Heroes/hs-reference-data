@@ -3158,7 +3158,8 @@
 		"spellSchool": "NATURE",
 		"text": "Deal $5 damage to all characters except Ysera.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -3500,7 +3501,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			336,
@@ -4611,7 +4613,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			440,
@@ -8425,7 +8428,8 @@
 		"flavor": "He's not really all that crazy, he is just not as careful with explosives as he should be.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			762,
@@ -8786,7 +8790,8 @@
 		"flavor": "Mannoroth, Magtheridon, and Brutallus may be dead, but it turns out there are a LOT of pit lords.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			783,
@@ -10496,7 +10501,8 @@
 		"text": "Deal $3 damage to ALL characters.",
 		"flavor": "It's spells like these that make it hard for Warlocks to get decent help.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			950,
@@ -11368,7 +11374,8 @@
 		"flavor": "\"INFERNOOOOOOOOOO!\" - Jaraxxus, Eredar Lord of the Burning Legion",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			1019,
@@ -11990,7 +11997,8 @@
 			"BATTLECRY",
 			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"assembleHalves": {
 			"first": {
@@ -16009,7 +16017,8 @@
 		"mechanics": [
 			"CHARGE",
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -17461,7 +17470,8 @@
 		"text": "At the start of your turn, deal 1 damage to your hero.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -17500,7 +17510,8 @@
 		"text": "At the start of your turn, deal 1 damage to your hero.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -17539,7 +17550,8 @@
 		"text": "At the start of your turn, deal 1 damage to your hero.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -18509,7 +18521,8 @@
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
 			"RUSH",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			1939,
@@ -20410,7 +20423,8 @@
 		"flavor": "Dang, Bomber, calm down.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -22590,7 +22604,8 @@
 		"cost": 6,
 		"text": "<b>Casts When Drawn</b>\nYou take 10 damage.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -24708,7 +24723,8 @@
 		"cost": 1,
 		"text": "While this is in your hand, take 1 damage at the start of your turn.",
 		"mechanics": [
-			"EVIL_GLOW"
+			"EVIL_GLOW",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -26115,7 +26131,8 @@
 		"cost": 3,
 		"text": "While this is in your hand, take 3 damage at the start of your turn.",
 		"mechanics": [
-			"EVIL_GLOW"
+			"EVIL_GLOW",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -29078,7 +29095,8 @@
 		"text": "Whenever this minion takes damage, also deal that amount to your hero.",
 		"flavor": "After playing against 5 Annoy-O-Trons, any normal guard will become a Wrathguard.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -32355,6 +32373,9 @@
 		"spellSchool": "SHADOW",
 		"text": "Give your opponent a 'Cursed!' card.\nWhile they hold it, they take 2 damage on their turn.",
 		"flavor": "This is what happens when Rafaam stubs his toe unexpectedly.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"relatedCardDbfIds": [
 			2998
 		]
@@ -33367,7 +33388,8 @@
 		"text": "While this is in your hand, take 2 damage at the start of your turn.",
 		"mechanics": [
 			"EVIL_GLOW",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -34000,7 +34022,8 @@
 		"spellSchool": "SHADOW",
 		"text": "<b>Casts When Drawn</b>\nYou take 7 damage.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -34703,7 +34726,10 @@
 		],
 		"set": "Loe",
 		"cost": 0,
-		"text": "Take 10 damage or no damage, at random."
+		"text": "Take 10 damage or no damage, at random.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 16456,
@@ -34717,7 +34743,10 @@
 		],
 		"set": "Loe",
 		"cost": 0,
-		"text": "Take 5 damage."
+		"text": "Take 5 damage.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 16804,
@@ -34955,7 +34984,8 @@
 		"set": "Loe",
 		"text": "[x]<b>Passive</b>\nYour hero can only take\n1 damage at a time.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -35874,7 +35904,8 @@
 		"spellSchool": "FIRE",
 		"text": "Deal $5 damage to ALL characters.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -35959,7 +35990,8 @@
 		"spellSchool": "FIRE",
 		"text": "Deal $10 damage randomly split among ALL characters.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -36423,7 +36455,8 @@
 		"text": "Your hero can only take 1 damage at a time.",
 		"flavor": "Try putting it on. Wait, let me get my camera.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -38001,7 +38034,8 @@
 		"text": "Deal $13 damage randomly split among ALL characters.",
 		"flavor": "Most citizens of Darkshire wear those surgical masks to prevent spreading Madness to tourists.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			38456,
@@ -38098,7 +38132,8 @@
 		"flavor": "Even after all this time, Gul'dan still makes Cho'gall go get donuts and coffee.",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			38464,
@@ -39875,7 +39910,10 @@
 		"cost": 5,
 		"attack": 5,
 		"health": 5,
-		"text": "This minion can only take 1 damage at a time."
+		"text": "This minion can only take 1 damage at a time.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 38682,
@@ -40290,7 +40328,8 @@
 		"set": "Loe",
 		"text": "[x]<b>Passive</b>\nYour hero and your minions\ncan only take 1 damage\nat a time.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -41575,7 +41614,10 @@
 		"cost": 10,
 		"attack": 10,
 		"health": 10,
-		"text": "This minion can only take 1 damage at a time."
+		"text": "This minion can only take 1 damage at a time.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 38843,
@@ -42914,7 +42956,8 @@
 		"text": "Costs Health instead of Mana.",
 		"mechanics": [
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -43902,7 +43945,8 @@
 		"text": "At the start of your turn, deal 4 damage to your hero.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -46507,7 +46551,8 @@
 		"set": "Kara",
 		"text": "Only take 1 damage at a time.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -48937,7 +48982,8 @@
 		"spellSchool": "FIRE",
 		"text": "Deal 5 damage randomly split among all other characters.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -48956,7 +49002,8 @@
 		"spellSchool": "FIRE",
 		"text": "Deal 10 damage randomly split among all other characters.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -50620,7 +50667,8 @@
 		"text": "At the start of your turn, this explodes, dealing 9 damage to your hero.",
 		"mechanics": [
 			"TAUNT",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -50676,7 +50724,8 @@
 		"text": "Deal $5 damage to all characters.",
 		"flavor": "Kazakus has a squad of imps bottling Felfire round-the-clock and he *still* can't keep up with demand.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			40517,
@@ -50943,7 +50992,8 @@
 		"flavor": "The Kabal print this on every package of illicit Mana Crystals: WARNING - DO NOT PUT WITHIN REACH OF ABYSSALS. THIS IS NOT APPROVED FOR USE BY FLAMING DEMONS OF ANY KIND.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			40541,
@@ -51440,7 +51490,8 @@
 		"mechanics": [
 			"IMP",
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -53374,7 +53425,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"otherTags": [
 			"TARGETS_MINION",
@@ -56379,7 +56431,8 @@
 		"flavor": "It's actually only the middle head that's bitter. The others are sweet and spicy.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -59565,7 +59618,8 @@
 		"text": "The next spell you cast this turn costs Health instead of Mana.",
 		"flavor": "Help save mana. Donate blood today!",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -59655,6 +59709,7 @@
 			"BATTLECRY",
 			"DISCOVER",
 			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO",
 			"GENERATES_SPELL"
 		]
 	},
@@ -60962,7 +61017,8 @@
 		"set": "Ungoro",
 		"text": "Your next spell costs Health instead of Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -66452,7 +66508,8 @@
 			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"assembleHalves": {
 			"first": {
@@ -66496,7 +66553,8 @@
 		"flavor": "Kobolds sort books using a gooey decimal system.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -75193,7 +75251,8 @@
 		"text": "At the start of your turn, deal 5 damage to your hero.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"HERO_POWER": 229
@@ -85735,7 +85794,8 @@
 		"flavor": "Like a sloppy joe for vampires.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -87337,7 +87397,8 @@
 		"text": "Deal $4 damage to a minion and your hero.",
 		"flavor": "Might take a few episodes to power up.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			48113,
@@ -87565,7 +87626,8 @@
 		"text": "<b>Deathrattle:</b>\nDeal 1 damage to all characters.",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -88396,7 +88458,8 @@
 		"text": "<b>Passive</b>\nSpells cost Health instead of Mana.",
 		"mechanics": [
 			"HIDE_STATS",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -88498,7 +88561,10 @@
 		],
 		"set": "Gilneas",
 		"cost": 1,
-		"text": "Take 2 damage.\nSummon a 2/2 Treant."
+		"text": "Take 2 damage.\nSummon a 2/2 Treant.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 48311,
@@ -90633,7 +90699,8 @@
 			"MODULAR",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"enchantmentDbfId": 48549
 	},
@@ -91930,7 +91997,8 @@
 		"cost": 5,
 		"text": "<b>Casts When Drawn</b>\nYou take 5 damage.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -94200,6 +94268,7 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO",
 			"GIVES_ARMOR"
 		]
 	},
@@ -94833,7 +94902,8 @@
 		"cost": 0,
 		"text": "All spells cost Health instead of Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -94850,7 +94920,8 @@
 		"set": "Tb",
 		"text": "All spells cost health instead of mana",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -101930,7 +102001,8 @@
 		"spellSchool": "SHADOW",
 		"text": "<b>Casts When Drawn</b>\nTake 3 damage. After you draw, shuffle two copies of this into your deck.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -102238,7 +102310,8 @@
 		"flavor": "This weapon – ow! Requires a little – OWW! Finesse.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -102370,7 +102443,8 @@
 		"flavor": "\"Dude, where's my pizza?!\"",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -103791,7 +103865,8 @@
 		"spellSchool": "FEL",
 		"text": "This turn, your cards cost Health instead of Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -103808,7 +103883,8 @@
 		"text": "This turn, your cards cost Health instead of Mana.",
 		"mechanics": [
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -104019,7 +104095,8 @@
 		"text": "[x]<b>Shrine</b>\nYour spells cost Health\ninstead of Mana.",
 		"mechanics": [
 			"AURA",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -108352,7 +108429,8 @@
 		"text": "<b>Taunt</b>\nThis minion can only take\n1 damage at a time.",
 		"mechanics": [
 			"TAUNT",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -113516,7 +113594,8 @@
 		"text": "Spells cost Health instead of Mana.",
 		"mechanics": [
 			"CANT_BE_SILENCED",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -118917,7 +118996,8 @@
 		"cost": 2,
 		"text": "<b>Casts When Drawn</b>\nTake 3 damage.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -122213,7 +122293,8 @@
 		"flavor": "Tough to do skateboard tricks with four legs.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -123824,7 +123905,8 @@
 		"cost": 1,
 		"text": "<b>Casts When Drawn</b>\nYou take 50 damage.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -125801,7 +125883,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -127618,7 +127701,8 @@
 		"text": "While wires are touching, take 5 damage at the start of your turn.",
 		"mechanics": [
 			"HIDE_STATS",
-			"UNTOUCHABLE"
+			"UNTOUCHABLE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -127639,7 +127723,8 @@
 		"text": "While wires are touching, take 5 damage at the start of your turn.",
 		"mechanics": [
 			"HIDE_STATS",
-			"UNTOUCHABLE"
+			"UNTOUCHABLE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -128104,7 +128189,8 @@
 		"mechanics": [
 			"DUNGEON_PASSIVE_BUFF",
 			"HIDE_STATS",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -128121,7 +128207,8 @@
 		"set": "Dalaran",
 		"text": "Your spells cost Health instead of Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -130382,7 +130469,8 @@
 		"flavor": "Always tail swipes left.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -130524,7 +130612,8 @@
 		"text": "Deal $1 damage to all characters.",
 		"flavor": "You know it’s autumn when the skies rain brimstone and fire. Also: pumpkin spice!",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			54893,
@@ -138066,7 +138155,8 @@
 		"cost": 1,
 		"text": "<b>Casts When Drawn</b>\nYou take 2 damage.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -147500,7 +147590,8 @@
 		"text": "Whenever this minion takes damage, also deal that amount to your hero.",
 		"flavor": "He claims to be \"soulbound,\" but I just think he's clingy.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -149017,7 +149108,8 @@
 		"cost": 2,
 		"text": "[x]Choose an enemy minion. If it\nlives until your next turn, deal\n5 damage to all characters.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"otherTags": [
 			"TARGETS_MINION",
@@ -154365,7 +154457,8 @@
 		"set": "Uldum",
 		"text": "On Tekahn's turn, deal 5 damage to all characters.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -156580,7 +156673,8 @@
 		"text": "[x]Your hero is <b>Immune</b>.\nEach turn, lose 1 Durabilty.\n<b>Deathrattle:</b> Deal 100\ndamage to your hero.",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"IMMUNE"
@@ -162643,7 +162737,8 @@
 		"text": "<b>Deathrattle:</b> Deal 5 damage to your hero.",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -165014,7 +165109,8 @@
 		"text": "Deal 4 damage to your hero at the end of your turn.",
 		"mechanics": [
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -165776,7 +165872,8 @@
 		"text": "Deal $3 damage to your hero. Return two friendly minions that died this game to your hand.",
 		"flavor": "Technically, it’s just really late healing.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			59223,
@@ -169114,7 +169211,8 @@
 		"text": "After you play a Demon, deal 1 damage to your hero and gain +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
@@ -169187,7 +169285,8 @@
 		"text": "[x]After you play a Demon,\ndeal 1 damage to your hero\nand gain +{0}/+{1}, twice.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
@@ -174811,6 +174910,9 @@
 		"set": "Battlegrounds",
 		"cost": 2,
 		"text": "[x]Steal a card from the\nTavern. Take 2 damage.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"relatedCardDbfIds": [
 			80643
 		]
@@ -182433,7 +182535,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -182853,7 +182956,8 @@
 		"flavor": "All of the other Old Gods used to laugh and call him names. They never let poor G'huun join in any Old God games.",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -182869,7 +182973,8 @@
 		"set": "Darkmoon_faire",
 		"text": "Costs Health instead of Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -186774,7 +186879,8 @@
 		"text": "Draw 3 cards. Deal $3 damage to your hero.",
 		"flavor": "\"That's the last time I let an imp spit gasoline into my car.\"",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -186847,7 +186953,8 @@
 		"text": "Can only take 1 damage at a time.",
 		"flavor": "Moonforehead just didn't have the same ring to it.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -189001,7 +189108,8 @@
 		"text": "<b>Battlecry:</b> Deal 5 damage to your hero.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -190190,7 +190298,8 @@
 		"text": "Can't attack.\n<b>Deathrattle:</b> Deal 3 damage to your hero.",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -190796,7 +190905,8 @@
 		"flavor": "\"If I die, I'm taking my hero down with me.\"",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -193261,7 +193371,8 @@
 		"text": "Deal 2 damage to your hero at the end of your turn.",
 		"mechanics": [
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -195051,7 +195162,8 @@
 		"flavor": "Even their teeth are laughing at you.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -195872,7 +195984,8 @@
 		"flavor": "The tooth fairy gig didn't work out.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -197937,7 +198050,8 @@
 		"mechanics": [
 			"CHARGE",
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -210361,7 +210475,8 @@
 		"mechanics": [
 			"IMP",
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			64893,
@@ -216174,7 +216289,8 @@
 		"flavor": "Talk about a name that limits design space.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -222566,7 +222682,8 @@
 		"text": "Can't Attack\n<b>Deathrattle:</b> Deal 10 damage to your hero.",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -223691,7 +223808,8 @@
 		"flavor": "I'd like to be...far away from him!",
 		"mechanics": [
 			"AURA",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -229174,7 +229292,8 @@
 		"spellSchool": "SHADOW",
 		"text": "Deal $2 damage to all characters. If any die, cast this again.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -229797,7 +229916,8 @@
 		"cost": 5,
 		"text": "<b>Casts When Drawn</b>\nYou take 5 damage.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -236140,7 +236260,8 @@
 		"set": "Wailing_caverns",
 		"text": "Costs Health instead of Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -237316,7 +237437,8 @@
 		"text": "Deal $3 damage to ALL characters.",
 		"flavor": "It's spells like these that make it hard for Warlocks to get decent help.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			950,
@@ -237376,7 +237498,8 @@
 		"flavor": "\"INFERNOOOOOOOOOO!\" - Jaraxxus, Eredar Lord of the Burning Legion",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			1019,
@@ -241874,7 +241997,8 @@
 		"text": "Deal $3 damage to ALL characters.",
 		"flavor": "It's spells like these that make it hard for Warlocks to get decent help.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			950,
@@ -241908,7 +242032,8 @@
 		"flavor": "\"INFERNOOOOOOOOOO!\" - Jaraxxus, Eredar Lord of the Burning Legion",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			1019,
@@ -244640,7 +244765,8 @@
 			"BATTLECRY",
 			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"assembleHalves": {
 			"first": {
@@ -245433,7 +245559,8 @@
 		"flavor": "He's not really all that crazy, he is just not as careful with explosives as he should be.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			762,
@@ -245812,7 +245939,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			336,
@@ -249393,7 +249521,8 @@
 		"flavor": "He's not really all that crazy, he is just not as careful with explosives as he should be.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			762,
@@ -249628,7 +249757,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			440,
@@ -250645,7 +250775,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			336,
@@ -251256,7 +251387,8 @@
 		"flavor": "Mannoroth, Magtheridon, and Brutallus may be dead, but it turns out there are a LOT of pit lords.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			783,
@@ -251365,7 +251497,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			1090,
@@ -259422,7 +259555,8 @@
 		"cost": 2,
 		"text": "Deal $5 damage to all characters except Ysera.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -275566,7 +275700,8 @@
 		"cost": 0,
 		"text": "<b>Casts When Drawn</b>\nYou take 4 damage.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -286552,7 +286687,10 @@
 		"set": "Lettuce",
 		"cost": 10,
 		"spellSchool": "SHADOW",
-		"text": "Steal 5 Health from all other characters."
+		"text": "Steal 5 Health from all other characters.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 73102,
@@ -287203,7 +287341,8 @@
 			"DEATHRATTLE",
 			"ELUSIVE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -287933,7 +288072,8 @@
 		"text": "<b>Deathrattle:</b> Deal 30 damage to all characters.",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"DEATHRATTLE"
@@ -294635,7 +294775,8 @@
 		"faction": "NEUTRAL",
 		"text": "[x]Deal 1 damage to your hero.\nReplace a non-<b>Legendary</b>\nenemy minion with a friendly\nDemon that costs (1) less.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -294651,7 +294792,10 @@
 		"set": "The_barrens",
 		"cost": 4,
 		"faction": "NEUTRAL",
-		"text": "[x]Take 1 damage. Replace\na non-Legendary enemy\nminion with a friendly Demon\nthat costs (1) more (up to 10)."
+		"text": "[x]Take 1 damage. Replace\na non-Legendary enemy\nminion with a friendly Demon\nthat costs (1) more (up to 10).",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 73938,
@@ -297466,7 +297610,8 @@
 		"set": "The_barrens",
 		"text": "[x]<b>Passive</b>\nYour cards cost (2) less.\nAfter you play a card,\ntake 2 damage.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -297618,7 +297763,8 @@
 		"text": "[x]After you summon a Demon,\ngive it +2/+2 and deal\n2 damage to your hero.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -298322,7 +298468,8 @@
 		"spellSchool": "SHADOW",
 		"text": "Deal $3 damage to your hero. Return two friendly minions that died this game to your hand.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -301983,7 +302130,8 @@
 		"text": "Deal $3 damage to your hero. Return two friendly minions that died this game to your hand.",
 		"flavor": "Technically, it’s just really late healing.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			59223,
@@ -303394,7 +303542,8 @@
 		"flavor": "He likes to spend his free time in his garden, growing Bloodradish, Bloodcabbage, and his favorite, Bloodbloom.",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -303410,7 +303559,8 @@
 		"set": "Throne_of_tides",
 		"text": "Your cards cost Health instead of Mana this turn.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -306805,7 +306955,8 @@
 		"text": "Deal $3 damage to ALL characters.",
 		"flavor": "It's spells like these that make it hard for Warlocks to get decent help.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			950,
@@ -307076,7 +307227,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -307096,7 +307248,8 @@
 		"text": "Deal $5 damage to all characters.",
 		"flavor": "Kazakus has a squad of imps bottling Felfire round-the-clock and he *still* can't keep up with demand.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			40517,
@@ -307151,7 +307304,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			1090,
@@ -307374,7 +307528,8 @@
 		"text": "Deal $1 damage to all characters.",
 		"flavor": "You know it’s autumn when the skies rain brimstone and fire. Also: pumpkin spice!",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			54893,
@@ -307865,7 +308020,8 @@
 		"flavor": "\"INFERNOOOOOOOOOO!\" - Jaraxxus, Eredar Lord of the Burning Legion",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			1019,
@@ -307983,7 +308139,8 @@
 		"flavor": "The Kabal print this on every package of illicit Mana Crystals: WARNING - DO NOT PUT WITHIN REACH OF ABYSSALS. THIS IS NOT APPROVED FOR USE BY FLAMING DEMONS OF ANY KIND.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			40541,
@@ -310086,7 +310243,8 @@
 		"flavor": "The Kabal print this on every package of illicit Mana Crystals: WARNING - DO NOT PUT WITHIN REACH OF ABYSSALS. THIS IS NOT APPROVED FOR USE BY FLAMING DEMONS OF ANY KIND.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			40541,
@@ -323952,7 +324110,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"DEATHRATTLE",
@@ -328310,6 +328469,9 @@
 		"spellSchool": "FROST",
 		"text": "Until your next turn, your hero can only take 1 damage at a time.",
 		"flavor": "That pillow knows too much…",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"counterpartCards": [
 			77642,
 			118110
@@ -335477,7 +335639,10 @@
 		"set": "Lettuce",
 		"cost": 10,
 		"spellSchool": "SHADOW",
-		"text": "Steal 8 Health from all other characters."
+		"text": "Steal 8 Health from all other characters.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 78089,
@@ -335764,7 +335929,8 @@
 		"set": "Revendreth",
 		"text": "Whenever this takes damage, deal 1 damage to your hero.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -339135,7 +339301,8 @@
 		"text": "[x]<b>Battlecry:</b> Whenever your\nopponent draws a card next\nturn, they take 2 damage.",
 		"flavor": "\"The castle was nice but the fireplaces were too small - 2/5 stars\"",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			78375,
@@ -339251,7 +339418,10 @@
 			"NEUTRAL"
 		],
 		"set": "Revendreth",
-		"text": "Whenever your opponent draws a card next turn, they take 2 damage."
+		"text": "Whenever your opponent draws a card next turn, they take 2 damage.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 78388,
@@ -340583,7 +340753,10 @@
 		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "FEL",
-		"text": "Infect all enemy minions. They take 1 damage at the start of each turn."
+		"text": "Infect all enemy minions. They take 1 damage at the start of each turn.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 78481,
@@ -341881,7 +342054,8 @@
 		"flavor": "Shouldn't have eaten that gas station sushi.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			78641,
@@ -341919,7 +342093,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"availableAsDiamond": true,
 		"counterpartCards": [
@@ -352016,7 +352191,8 @@
 		"set": "The_sunken_city",
 		"text": "Costs Health instead of Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -362122,7 +362298,8 @@
 		"text": "<b>Lifesteal</b>\nInfect all enemy minions. At the end of your turns, they take 2 damage.",
 		"flavor": "And once your blood is at a boil, throw in the plaguetti.",
 		"mechanics": [
-			"END_OF_TURN"
+			"END_OF_TURN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"LIFESTEAL"
@@ -364537,7 +364714,8 @@
 		"spellSchool": "FIRE",
 		"text": "Deal $12 damage to all other characters. <b>Deathblow:</b> Repeat this ability.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 12
@@ -366026,7 +366204,8 @@
 		"text": "Destroy a minion. Deal 3 damage to your hero.",
 		"flavor": "Why is 6 afraid of 7? Because Obliterate 9!",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			82088,
@@ -367302,7 +367481,8 @@
 		"text": "<b>Passive</b>\nAt the start of the game, set your Health to 10. You can only take 1 damage at a time.",
 		"mechanics": [
 			"DUNGEON_PASSIVE_BUFF",
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -367320,7 +367500,8 @@
 		"faction": "NEUTRAL",
 		"text": "At the start of the game, set your Health to 10. You can only take 1 damage at a time.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -368357,7 +368538,8 @@
 		"spellSchool": "FIRE",
 		"text": "Deal $20 damage to all other characters. <b>Deathblow:</b> Repeat this ability.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 20
@@ -374753,7 +374935,8 @@
 		"spellSchool": "FROST",
 		"text": "Deal $40 damage to all characters.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 40
@@ -384178,7 +384361,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DIVINE_SHIELD",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -384200,7 +384384,8 @@
 		"flavor": "Don't hate! Coagulate!",
 		"mechanics": [
 			"DEAL_DAMAGE",
-			"GIVES_DIVINE_SHIELD"
+			"GIVES_DIVINE_SHIELD",
+			"DAMAGES_YOUR_HERO"
 		],
 		"otherTags": [
 			"TARGETS_FRIENDLY_MINION"
@@ -384473,7 +384658,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -390914,7 +391100,8 @@
 		"spellSchool": "FIRE",
 		"text": "Deal $3 damage to all characters. If any die, repeat this.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
@@ -390944,7 +391131,8 @@
 		"spellSchool": "FIRE",
 		"text": "Deal $6 damage to all characters. If any die, repeat this.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6
@@ -390961,7 +391149,8 @@
 		"spellSchool": "FIRE",
 		"text": "Deal $8 damage to all characters. If any die, repeat this.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 8
@@ -390978,7 +391167,8 @@
 		"spellSchool": "FIRE",
 		"text": "Deal $9 damage to all characters. If any die, repeat this.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 9
@@ -390995,7 +391185,8 @@
 		"spellSchool": "FIRE",
 		"text": "Deal $10 damage to all characters. If any die, repeat this.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 10
@@ -404167,7 +404358,8 @@
 			"BATTLECRY",
 			"MANATHIRST",
 			"DEAL_DAMAGE",
-			"RESTORE_HEALTH"
+			"RESTORE_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -404488,7 +404680,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"RUSH",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -406936,7 +407129,8 @@
 		"spellSchool": "SHADOW",
 		"text": "Deal $12 damage to all characters who are not Murlocs.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 12
@@ -416628,7 +416822,8 @@
 		"faction": "NEUTRAL",
 		"text": "<b>Start of Game</b>: Curse a random ability for each Mercenary. They take 20 damage when it is used. \nClear the Bounty for extra rewards.",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 20
@@ -421222,6 +421417,9 @@
 		"mercenaryRole": "CASTER",
 		"text": "At the end of each turn, predict an ability from each enemy. They take 20 damage if they use it.",
 		"flavor": "There are no secrets between us... or refunds.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 20
 		}
@@ -425903,7 +426101,8 @@
 		"flavor": "He prefers listening to bands dead rather than live.",
 		"mechanics": [
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			90484,
@@ -429791,7 +429990,8 @@
 		"cost": 5,
 		"text": "<b>Casts When Drawn</b>\nRandom friendly minions take 5 damage.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -430689,7 +430889,8 @@
 		"spellSchool": "ARCANE",
 		"text": "[x]Deal ${0} damage to a random\nenemy. Gain +3 damage each\ntime you take 20 damage.\n<i>({1} remaining.)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 11,
@@ -430762,7 +430963,8 @@
 		"mechanics": [
 			"CANT_BE_SILENCED",
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -431975,7 +432177,8 @@
 		"text": "Deal $9 damage randomly split among ALL characters.",
 		"flavor": "Most citizens of Darkshire wear those surgical masks to prevent spreading Madness to tourists.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -437484,7 +437687,8 @@
 		"spellSchool": "ARCANE",
 		"text": "[x]Deal ${0} damage to a random\nenemy. Gain +3 damage each\ntime you take 20 damage.\n<i>({1} remaining.)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 10,
@@ -437520,7 +437724,8 @@
 		"spellSchool": "ARCANE",
 		"text": "[x]Deal ${0} damage to a random\nenemy. Gain +3 damage each\ntime you take 20 damage.\n<i>({1} remaining.)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 9,
@@ -437537,7 +437742,8 @@
 		"spellSchool": "ARCANE",
 		"text": "[x]Deal ${0} damage to a random\nenemy. Gain +3 damage each\ntime you take 20 damage.\n<i>({1} remaining.)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
@@ -437554,7 +437760,8 @@
 		"spellSchool": "ARCANE",
 		"text": "[x]Deal ${0} damage to a random\nenemy. Gain +3 damage each\ntime you take 20 damage.\n<i>({1} remaining.)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 5,
@@ -441334,7 +441541,8 @@
 		"health": 0,
 		"text": "<b>Start of Game</b>: Curse a random ability for each Mercenary. They take 20 damage when it is used.",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -441869,7 +442077,8 @@
 		"cost": 3,
 		"text": "Deal $6 damage to\nall characters.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -447332,7 +447541,8 @@
 		"set": "Tb",
 		"text": "<b>Deathrattle:</b> Spread to a neighbor, then deal 5 damage to your hero.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"DEATHRATTLE"
@@ -447569,7 +447779,8 @@
 		"text": "While this is in your hand, take 2 damage at the start of your turn.",
 		"mechanics": [
 			"EVIL_GLOW",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -448051,7 +448262,8 @@
 		"text": "[x]Infect a minion with\n\"<b>Deathrattle:</b> Deal 3\ndamage to your hero,\nthen infect a neighbor.\"",
 		"flavor": "Varieties include viscous and extra viscous.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"otherTags": [
 			"TARGETS_MINION"
@@ -448740,7 +448952,8 @@
 		"set": "Tb",
 		"text": "<b>Deathrattle:</b> Infect a neighbor, then deal 3 damage to your hero.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"DEATHRATTLE"
@@ -464041,7 +464254,8 @@
 		"text": "Costs Health instead\nof Mana.",
 		"flavor": "The blood of my enemies makes for some great fertilizer!",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"isTreant": true
 	},
@@ -477305,7 +477519,8 @@
 		"set": "Path_of_arthas",
 		"text": "At the end of your opponent's turns, take 2 damage.",
 		"mechanics": [
-			"LIFESTEAL"
+			"LIFESTEAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -487623,7 +487838,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"RUSH",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -498328,6 +498544,9 @@
 		"set": "Lettuce",
 		"cost": 3,
 		"text": "<b>Passive:</b> Gatling Wand gains +3 more damage each time you take 20 damage.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
 		},
@@ -500097,7 +500316,8 @@
 		"health": 0,
 		"text": "<b>Start of Game</b>: Curse a random ability for each Mercenary. They take 10 damage when it is used.",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -500117,7 +500337,8 @@
 		"health": 0,
 		"text": "<b>Start of Game</b>: Curse a random ability for each Mercenary. They take 5 damage when it is used.",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -500136,7 +500357,8 @@
 		"faction": "NEUTRAL",
 		"text": "<b>Start of Game</b>: Curse a random ability for each Mercenary. They take 10 damage when it is used. \nClear the Bounty for extra rewards.",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 10
@@ -500158,7 +500380,8 @@
 		"faction": "NEUTRAL",
 		"text": "<b>Start of Game</b>: Curse a random ability for each Mercenary. They take 5 damage when it is used. \nClear the Bounty for extra rewards.",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 5
@@ -504639,7 +504862,8 @@
 		"text": "[x]<b>Battlecry:</b> Give your other\nDemons +2/+2 and deal\n2 damage to your hero,\ntwice.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 99197,
 		"premium": true
@@ -504668,7 +504892,8 @@
 		"text": "Two <b>Refreshes</b> each turn cost Health instead of Gold. <i>(2 left!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -504864,7 +505089,8 @@
 		"text": "Four <b>Refreshes</b> each turn cost Health instead of Gold.\n<i>(4 left!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4
@@ -505050,7 +505276,8 @@
 		"text": "[x]<b><b>Battlecry:</b> Discover</b>\n2 Demons. Deal damage\nto your hero equal to their\nTiers.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 99232,
 		"premium": true,
@@ -510467,7 +510694,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -510520,7 +510748,8 @@
 		"flavor": "Shouldn't have eaten that gas station sushi.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"otherTags": [
 			"TARGETS_ENEMY"
@@ -510707,7 +510936,8 @@
 			"BATTLECRY",
 			"IMP",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -510915,7 +511145,8 @@
 		"flavor": "Mannoroth, Magtheridon, and Brutallus may be dead, but it turns out there are a LOT of pit lords.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -510938,7 +511169,8 @@
 		"text": "<b>Lifesteal</b>\nInfect all enemy minions. At the end of your turns, they take 2 damage.",
 		"flavor": "And once your blood is at a boil, throw in the plaguetti.",
 		"mechanics": [
-			"END_OF_TURN"
+			"END_OF_TURN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"LIFESTEAL"
@@ -510957,7 +511189,8 @@
 		"set": "Path_of_arthas",
 		"text": "At the end of your opponent's turns, take 2 damage.",
 		"mechanics": [
-			"LIFESTEAL"
+			"LIFESTEAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -511281,7 +511514,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"availableAsDiamond": true
 	},
@@ -511298,7 +511532,8 @@
 		"set": "Darkmoon_faire",
 		"text": "Costs Health instead of Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -514068,7 +514303,8 @@
 		"text": "Enemy minions cost Health instead of Mana next turn.",
 		"flavor": "No! My rock-hard chiseled abs!",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -516159,7 +516395,8 @@
 		"text": "<b>Battlecry:</b> Deal 1 damage to your hero.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsPremiumDbfId": 101104
 	},
@@ -516185,7 +516422,8 @@
 		"text": "<b>Battlecry:</b> Deal 1 damage to your hero twice.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 101103,
 		"premium": true
@@ -518332,7 +518570,8 @@
 		"set": "Ulduar",
 		"text": "Your cards cost Health instead of Mana this turn.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -518495,7 +518734,8 @@
 		"health": 3,
 		"text": "This costs Health instead of Gold to buy.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsPremiumDbfId": 101558
 	},
@@ -518544,7 +518784,8 @@
 		"health": 6,
 		"text": "This costs Health instead of Gold to buy.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 101556,
 		"premium": true
@@ -520726,7 +520967,8 @@
 		"text": "<b>Casts When Drawn</b>\nTake 2 damage.\nRestore 2 Health\nto the enemy hero.",
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
-			"RESTORE_HEALTH"
+			"RESTORE_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -520743,7 +520985,8 @@
 		"cost": 1,
 		"text": "<b>Casts When Drawn</b>\nTake 2 damage.\nSummon a 2/2 Undead for your opponent.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"relatedCardDbfIds": [
 			78608
@@ -520763,7 +521006,8 @@
 		"cost": 1,
 		"text": "[x]<b>Casts When Drawn</b>\nTake 2 damage.\nYour next card costs\n(1) more <i>(up to 10)</i>.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -521517,6 +521761,9 @@
 		"set": "Battlegrounds",
 		"faction": "NEUTRAL",
 		"text": "[x]Start at 5 Health and 5\nGold. Your hero can only\ntake 1 damage at a time.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
 		}
@@ -524337,7 +524584,8 @@
 		"text": "Deal $4 damage to a minion and your hero.",
 		"flavor": "Might take a few episodes to power up.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			48113,
@@ -525860,7 +526108,8 @@
 		"faction": "NEUTRAL",
 		"text": "[x]At the start of the game,\ntake 25 damage.\nAfter another hero dies,\nregain 5 Health.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -526239,7 +526488,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -527267,7 +527517,8 @@
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
 			"RUSH",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			1939,
@@ -528614,7 +528865,8 @@
 		"text": "Deal $13 damage randomly split among ALL characters.",
 		"flavor": "Most citizens of Darkshire wear those surgical masks to prevent spreading Madness to tourists.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			38456,
@@ -528765,7 +529017,8 @@
 		"flavor": "Even after all this time, Gul'dan still makes Cho'gall go get donuts and coffee.",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			38464,
@@ -529767,7 +530020,8 @@
 		"flavor": "An effective way to freeze someone's soul is to just freeze their body.",
 		"mechanics": [
 			"FREEZE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"otherTags": [
 			"TARGETS_MINION"
@@ -530549,7 +530803,8 @@
 		"set": "Caverns_of_time",
 		"text": "Costs Health instead of Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -538340,7 +538595,8 @@
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsPremiumDbfId": 103689
 	},
@@ -538368,7 +538624,8 @@
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 103688,
 		"premium": true
@@ -542050,7 +542307,8 @@
 		"isBaconPool": true,
 		"text": "Gain 1 Gold.\nThis costs Health to\nbuy instead of Gold.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -545130,7 +545388,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -549060,7 +549319,8 @@
 		"text": "Draw 2 cards. Deal $3 damage to your hero. Shuffle 2 copies of this into your deck.",
 		"flavor": "Whenever you cast this, we make a new Nemsy portrait.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -550418,7 +550678,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"BG_SPELL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
@@ -550448,7 +550709,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"BG_SPELL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -551002,7 +551264,8 @@
 		"text": "[x]Whenever this minion takes\ndamage, also deal that\namount to your hero.",
 		"flavor": "Squish. SquiSH. sQUIIIISH. Oops. Squish?",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -553747,7 +554010,8 @@
 		"mechanics": [
 			"ELUSIVE",
 			"RUSH",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -554670,7 +554934,8 @@
 		"text": "[x]<b><b>Deathrattle:</b> Freeze</b> 3\nrandom enemies. Any\nthat were already <b>Frozen</b>\n take 5 damage instead.",
 		"flavor": "Alongside Eliza Goreblade and Peggy Brittlebone, the three Pirate Sisters terrorize the sea.",
 		"mechanics": [
-			"DEATHRATTLE"
+			"DEATHRATTLE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"FREEZE"
@@ -554946,7 +555211,8 @@
 		"text": "Deal $2 damage\nto a minion. Deal $2 damage to your hero.\n<i>(3 Drinks left!)</i>",
 		"flavor": "Delectable tea, or deadly poison?",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"otherTags": [
 			"TARGETS_MINION"
@@ -559810,7 +560076,8 @@
 		"flavor": "Arch-rival of the Boogiemonster.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"relatedCardDbfIds": [
 			107798
@@ -559981,7 +560248,8 @@
 		"text": "Give a minion +3/+3 and \"At the start of your turn, deal 3 damage to your hero.\"",
 		"flavor": "Most souvenirs are considered tacky and soulless. This one is certainly not one of those things!",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"otherTags": [
 			"TARGETS_FRIENDLY_MINION"
@@ -560026,7 +560294,8 @@
 		"set": "Perils_in_paradise",
 		"text": "+3/+3 and \"At the start of your turn, deal 3 damage to your hero.\"",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -563592,7 +563861,8 @@
 		"spellSchool": "SHADOW",
 		"text": "Deal $2 damage\nto a minion. Deal $2 damage to your hero.\n<i>(2 Drinks left!)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"otherTags": [
 			"TARGETS_MINION"
@@ -563618,7 +563888,8 @@
 		"spellSchool": "SHADOW",
 		"text": "Deal $2 damage\nto a minion. Deal $2 damage to your hero.\n<i>(Last Drink!)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"otherTags": [
 			"TARGETS_MINION"
@@ -571461,7 +571732,8 @@
 		"flavor": "Excuse me, I believe you have my stapler…",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -575342,6 +575614,7 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO",
 			"GIVES_ARMOR"
 		]
 	},
@@ -587904,7 +588177,8 @@
 		"set": "Tb",
 		"text": "The next minion you play this turn costs Health instead of Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -588641,7 +588915,8 @@
 		"text": "[x]<b>Passive.</b> The first card you\nplay each turn that didn't\nstart in your deck costs\nHealth instead of Mana.",
 		"mechanics": [
 			"HIDE_STATS",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true,
 		"questRewardDbfId": 113051
@@ -589376,7 +589651,8 @@
 		"mechanics": [
 			"IMP",
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -589791,7 +590067,8 @@
 		"text": "[x]One Demon each turn\ncosts Health instead of\nGold to buy. <i>(1 left!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
@@ -589820,7 +590097,8 @@
 		"text": "[x]Two Demons each turn\ncost Health instead of\nGold to buy. <i>(2 left!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -591195,7 +591473,8 @@
 		"text": "Destroy a minion. Deal 3 damage to your hero.",
 		"flavor": "Why is 6 afraid of 7? Because Obliterate 9!",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			82088,
@@ -592153,7 +592432,8 @@
 		"text": "[x]<b>Passive.</b> The first card you\nplay each turn that didn't\nstart in your deck costs\nHealth instead of Mana.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -592491,7 +592771,8 @@
 		"mechanics": [
 			"IMP",
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			64893,
@@ -592774,7 +593055,8 @@
 		"mechanics": [
 			"CANT_BE_SILENCED",
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -592915,7 +593197,8 @@
 		"set": "Tb",
 		"text": "[x]<b>Passive.</b> The first card you\nplay each turn that didn't\nstart in your deck costs\nHealth instead of Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -602820,7 +603103,8 @@
 		"flavor": "The rotten apple doesn't fall far from the corrupted world tree.",
 		"mechanics": [
 			"DEAL_DAMAGE",
-			"RESTORE_HEALTH"
+			"RESTORE_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -602943,7 +603227,8 @@
 		"text": "At the end of your turn, deal $3 damage to your hero.",
 		"mechanics": [
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -614457,7 +614742,8 @@
 			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"assembleHalves": {
 			"first": {
@@ -615824,7 +616110,8 @@
 			"BG_DUO_EXCLUSIVE",
 			"END_OF_TURN_TRIGGER",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsPremiumDbfId": 117358
 	},
@@ -615851,7 +616138,8 @@
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 117357,
 		"premium": true
@@ -616213,7 +616501,8 @@
 		"flavor": "He prefers listening to bands dead rather than live.",
 		"mechanics": [
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			90484,
@@ -620595,7 +620884,8 @@
 		"text": "[x]Every fourth card you\nbuy costs Health instead\nof Gold. <i>({0} left!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
@@ -625490,6 +625780,9 @@
 		"spellSchool": "FROST",
 		"text": "Until your next turn, your hero can only take 1 damage at a time.",
 		"flavor": "That pillow knows too much…",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"counterpartCards": [
 			77642,
 			118110
@@ -627250,7 +627543,8 @@
 		"text": "[x]<b>Battlecry:</b> Whenever your\nopponent draws a card next\nturn, they take 2 damage.",
 		"flavor": "\"The castle was nice but the fireplaces were too small - 2/5 stars\"",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			78375,
@@ -628589,6 +628883,7 @@
 			"DEATHRATTLE",
 			"TAUNT",
 			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO",
 			"GENERATES_SPELL",
 			"GENERATES_FEL_SPELL"
 		]
@@ -628606,7 +628901,8 @@
 		"set": "Lost_city_of_ungoro",
 		"text": "Costs Health instead of Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -643653,7 +643949,8 @@
 		"flavor": "Just a timehop, timeskip, and a timejump away.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"relatedCardDbfIds": [
 			120483
@@ -643674,7 +643971,8 @@
 		"text": "<b>Casts When Drawn</b>\nDeal $3 damage to\nyour hero.",
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -645673,7 +645971,8 @@
 		"text": "[x]Whenever you cast a Tavern\nspell, deal 1 damage to\nyour hero and give your\nDemons +1/+1.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsPremiumDbfId": 120665
 	},
@@ -645699,7 +645998,8 @@
 		"text": "[x]Whenever you cast a Tavern\nspell, deal 1 damage to your\nhero and give your\n Demons +1/+1, twice.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 120664,
 		"premium": true
@@ -646122,7 +646422,8 @@
 		"text": "[x]One Demon each turn\ncosts Health instead of\nGold to buy. <i>({0} left!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
@@ -650260,6 +650561,7 @@
 		"mechanics": [
 			"DISCOVER",
 			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO",
 			"GENERATES_SPELL"
 		]
 	},
@@ -650284,7 +650586,8 @@
 		"text": "Fill your hand with random Undead.\nThey cost Health instead of Mana this turn.",
 		"flavor": "We don't talk about it.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -650332,7 +650635,8 @@
 		"text": "Costs Health instead of Mana.",
 		"mechanics": [
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -650545,7 +650849,8 @@
 		"text": "[x]One Tavern spell each turn\ncosts Health instead of\nGold to buy. <i>({0} left!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
@@ -650565,7 +650870,8 @@
 		"spellSchool": "LESSER_TRINKET",
 		"text": "[x]Gain 2 Gold and take\n2 damage. At the start\nof each turn, repeat this\n<i>(if possible)</i>.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -650871,7 +651177,8 @@
 		"text": "<b>Battlecry:</b> <b>Refresh</b> the Tavern with 2 extra Tavern spells. They cost Health instead of Gold.",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4
@@ -650903,7 +651210,8 @@
 		"text": "[x]<b>Battlecry:</b> <b>Refresh</b> the\nTavern with 2 extra Tavern\nspells. They cost Health\ninstead of Gold.",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 121054,
 		"premium": true,
@@ -653962,7 +654270,8 @@
 		"set": "Battlegrounds",
 		"text": "Costs Health instead of Gold.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -656231,7 +656540,8 @@
 		"flavor": "Shouldn't have eaten that gas station sushi.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"counterpartCards": [
 			78641,
@@ -667818,7 +668128,8 @@
 		"set": "Og",
 		"text": "Costs Health instead of Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -673350,7 +673661,8 @@
 		"health": 1,
 		"text": "[x]When summoned, get a\n random {0}-Cost minion.\n It costs Health this turn.\n <i><b>Herald</b> twice to upgrade.</i>",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -673709,7 +674021,8 @@
 		"health": 1,
 		"text": "[x]When summoned, get a\n random {0}-Cost minion.\n It costs Health this turn.\n <i><b>Herald</b> twice to upgrade.</i>",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -674991,7 +675304,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -675836,6 +676150,7 @@
 		"flavor": "The skeleton belongs to the person who last tried to use it.",
 		"mechanics": [
 			"DISCOVER",
+			"DAMAGES_YOUR_HERO",
 			"GENERATES_SPELL"
 		],
 		"availableAsSignature": true
@@ -685009,7 +685324,8 @@
 		"health": 1,
 		"text": "[x]When summoned, get a\n random {0}-Cost minion.\n It costs Health this turn.\n <i><b>Herald</b> twice to upgrade.</i>",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -691218,7 +691534,8 @@
 		"set": "Violet_hold",
 		"text": "Costs Health instead of Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -701292,7 +701609,8 @@
 		"flavor": "Don't hate! Coagulate!",
 		"mechanics": [
 			"DEAL_DAMAGE",
-			"GIVES_DIVINE_SHIELD"
+			"GIVES_DIVINE_SHIELD",
+			"DAMAGES_YOUR_HERO"
 		],
 		"otherTags": [
 			"TARGETS_FRIENDLY_MINION"
@@ -703963,7 +704281,8 @@
 		"text": "Costs Health this turn.",
 		"mechanics": [
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -705168,7 +705487,8 @@
 		"health": 1,
 		"text": "<b>Feedback Loop:</b> Deal 1 damage to all characters. Repeat for each sound effect you've triggered this turn.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -705759,7 +706079,8 @@
 		"text": "<b>Casts When Drawn</b>\nDeal 2 damage\nto your hero.",
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -708402,7 +708723,8 @@
 		"text": "<b><b>Combo</b>:</b> Draw a card\nand deal 2 damage to\nyour hero.",
 		"mechanics": [
 			"COMBO",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -710853,7 +711175,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"availableAsDiamond": true,
 		"counterpartCards": [
@@ -716755,7 +717078,8 @@
 		"set": "Cataclysm",
 		"text": "Costs Health instead of Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -717628,7 +717952,8 @@
 		"cost": 0,
 		"text": "Refresh your options. <i>(20% chance to take\n5 damage!)</i>",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -718158,7 +718483,8 @@
 		"text": "[x]After you <b>Refresh</b> {1} times,\nthe highest-Tier minion in the\nTavern costs Health instead\nof Gold to buy. <i>({0} left!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,

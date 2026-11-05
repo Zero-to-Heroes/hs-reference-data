@@ -5741,7 +5741,8 @@
 		"spellSchool": "NATURE",
 		"text": "Cause $5 de dano a todos os personagens, exceto Ysera.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -6223,7 +6224,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ian Ameling",
 		"counterpartCards": [
@@ -8024,7 +8026,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"counterpartCards": [
@@ -14645,7 +14648,8 @@
 		"flavor": "Ele não é tão louco assim. Só não toma tanto cuidado com os explosivos quanto deveria.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mike Sass",
 		"counterpartCards": [
@@ -15473,7 +15477,8 @@
 		"flavor": "Mannoroth, Magtheridon e Brutallus podem estar mortos, mas parece que existem MUITOS lordes abissais.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Glenn Rane",
 		"counterpartCards": [
@@ -19031,7 +19036,8 @@
 		"text": "Cause $3 de dano a TODOS os personagens.",
 		"flavor": "É por causa de feitiços como este que os bruxos não conseguem muita ajuda.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Chippy",
 		"counterpartCards": [
@@ -20443,7 +20449,8 @@
 		"flavor": "\"INFERNOOOOOOOOOO!\" - Jaraxxus, lorde Eredar da Legião Ardente",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan & Gabor",
 		"counterpartCards": [
@@ -21782,7 +21789,8 @@
 			"BATTLECRY",
 			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"assembleHalves": {
@@ -27893,7 +27901,8 @@
 		"mechanics": [
 			"CHARGE",
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -30329,7 +30338,8 @@
 		"text": "No início do seu turno, cause 1 de dano ao seu herói.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -30414,7 +30424,8 @@
 		"text": "No início do seu turno, cause 1 de dano ao seu herói.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -30499,7 +30510,8 @@
 		"text": "No início do seu turno, cause 1 de dano ao seu herói.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -31984,7 +31996,8 @@
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
 			"RUSH",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Aleksi Briclot",
 		"counterpartCards": [
@@ -35489,7 +35502,8 @@
 		"flavor": "Caramba, bombardeiro, sossega aí, pô.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"audio2": {
@@ -39161,7 +39175,8 @@
 		"cost": 6,
 		"text": "<b>Lançado ao Comprar</b> \nVocê recebe 10 de dano.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Chris Seaman"
 	},
@@ -43011,7 +43026,8 @@
 		"cost": 1,
 		"text": "Enquanto estiver na sua mão, receba 1 de dano no início do seu turno.",
 		"mechanics": [
-			"EVIL_GLOW"
+			"EVIL_GLOW",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -45449,7 +45465,8 @@
 		"cost": 3,
 		"text": "Enquanto este card estiver na sua mão, receba 3 de dano no início do seu turno.",
 		"mechanics": [
-			"EVIL_GLOW"
+			"EVIL_GLOW",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -50654,7 +50671,8 @@
 		"text": "Sempre que este lacaio receber dano, cause a mesma quantidade de dano ao seu herói.",
 		"flavor": "Depois de jogar contra 5 Azucrinatrons, qualquer guarda normal vira um Guarda Colérico.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Sojin Hwang",
 		"audio2": {
@@ -57400,6 +57418,9 @@
 		"spellSchool": "SHADOW",
 		"text": "Conceda ao oponente um card \"Amaldiçoado!\".\nEnquanto o possuir, ele receberá 2 de dano a cada turno dele.",
 		"flavor": "Eis o que acontece quando Rafaam bate o dedão do pé numa quina.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"artist": "Alex Horley Orlandelli",
 		"relatedCardDbfIds": [
 			2998
@@ -59210,7 +59231,8 @@
 		"text": "Enquanto este card estiver na sua mão, receba 2 de dano no início do seu turno.",
 		"mechanics": [
 			"EVIL_GLOW",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jim Nelson"
 	},
@@ -59904,7 +59926,8 @@
 		"spellSchool": "SHADOW",
 		"text": "<b>Lançado ao Comprar</b> \nVocê recebe 7 de dano.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Slawomir Maniak"
 	},
@@ -60862,7 +60885,10 @@
 		],
 		"set": "Loe",
 		"cost": 0,
-		"text": "Receba 10 de dano ou nenhum dano, aleatoriamente."
+		"text": "Receba 10 de dano ou nenhum dano, aleatoriamente.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 16456,
@@ -60876,7 +60902,10 @@
 		],
 		"set": "Loe",
 		"cost": 0,
-		"text": "Receba 5 de dano."
+		"text": "Receba 5 de dano.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 16804,
@@ -61277,7 +61306,8 @@
 		"set": "Loe",
 		"text": "<b>Passivo:</b> Seu herói só pode receber 1 de dano por vez.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -62444,7 +62474,8 @@
 		"spellSchool": "FIRE",
 		"text": "Cause $5 de dano a TODOS os personagens.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -62529,7 +62560,8 @@
 		"spellSchool": "FIRE",
 		"text": "Cause $10 de dano dividido aleatoriamente entre TODOS os personagens.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -63472,7 +63504,8 @@
 		"text": "Seu herói só pode receber 1 de dano por vez.",
 		"flavor": "Tente vestir. Espera, deixa eu pegar minha câmera.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mike Sass",
 		"audio2": {
@@ -65937,7 +65970,8 @@
 		"text": "Cause $13 de dano dividido aleatoriamente entre TODOS os personagens.",
 		"flavor": "A maioria dos habitantes da Vila Sombria usa as máscaras cirúrgicas para evitar que turistas sejam contagiados pela Loucura.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"counterpartCards": [
@@ -66080,7 +66114,8 @@
 		"flavor": "Mesmo depois de tanto tempo, Gul'dan ainda insiste em mandar Cho'gall comprar o pão na chapa e o café.",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"counterpartCards": [
@@ -69128,6 +69163,9 @@
 		"attack": 5,
 		"health": 5,
 		"text": "Este lacaio só pode receber 1 de dano por vez.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -69712,7 +69750,8 @@
 		"set": "Loe",
 		"text": "<b>Passivo:</b> Seu herói e seus lacaios só podem receber 1 de dano por vez.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -71905,6 +71944,9 @@
 		"attack": 10,
 		"health": 10,
 		"text": "Este lacaio só pode receber 1 de dano por vez.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -74149,7 +74191,8 @@
 		"text": "Custa Vida em vez de Mana.",
 		"mechanics": [
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -75982,7 +76025,8 @@
 		"text": "No início do seu turno, cause 4 de dano ao seu herói.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -81144,7 +81188,8 @@
 		"set": "Kara",
 		"text": "Só recebe 1 de dano por vez.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -85262,7 +85307,8 @@
 		"spellSchool": "FIRE",
 		"text": "Cause 5 de dano dividido aleatoriamente entre todos os outros personagens.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -85281,7 +85327,8 @@
 		"spellSchool": "FIRE",
 		"text": "Cause 10 de dano dividido aleatoriamente entre todos os outros personagens.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -88081,7 +88128,8 @@
 		"text": "No início do seu turno, explode, causando 9 de dano ao seu herói.",
 		"mechanics": [
 			"TAUNT",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -88175,7 +88223,8 @@
 		"text": "Cause $5 de dano a todos os personagens.",
 		"flavor": "Kazakus tem um esquadrão de diabretes engarrafando Fogovil sem parar e nem assim consegue dar conta da demanda.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Arthur Bozonnet",
 		"counterpartCards": [
@@ -88580,7 +88629,8 @@
 		"flavor": "O Kabal escreve isso em todos os pacotes de Cristais de Mana ilícitos: ATENÇÃO, MANTENHA FORA DO ALCANCE DOS ABISSAIS. NÃO SÃO APROVADOS PARA O USO COM DEMÔNIOS VOADORES DE NENHUM TIPO.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Luke Mancini",
 		"counterpartCards": [
@@ -89398,7 +89448,8 @@
 		"mechanics": [
 			"IMP",
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jon Neimeister",
 		"audio2": {
@@ -93308,7 +93359,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"otherTags": [
@@ -97987,7 +98039,8 @@
 		"flavor": "Você leva dano por causa da cabeça do meio, que é sacana. As outras são gente boa.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mark Gibbons",
 		"audio2": {
@@ -102548,7 +102601,8 @@
 		"text": "O próximo feitiço que você lançar neste turno custa Vida em vez de Mana.",
 		"flavor": "Ajude a salvar o mana. Doe sangue hoje mesmo!",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Tyler Walpole"
 	},
@@ -102664,6 +102718,7 @@
 			"BATTLECRY",
 			"DISCOVER",
 			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO",
 			"GENERATES_SPELL"
 		],
 		"artist": "Slawomir Maniak",
@@ -105048,7 +105103,8 @@
 		"set": "Ungoro",
 		"text": "Seu próximo feitiço custa Vida em vez de Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Tyler Walpole"
 	},
@@ -113849,7 +113905,8 @@
 			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Steve Prescott",
 		"assembleHalves": {
@@ -113939,7 +113996,8 @@
 		"flavor": "Kobolds usam um sistema decimal bem nojento para organizar os livros.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Matt Dixon",
 		"audio2": {
@@ -127709,7 +127767,8 @@
 		"text": "No início do seu turno, cause 5 de dano ao seu herói.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"HERO_POWER": 229
@@ -143273,7 +143332,8 @@
 		"flavor": "A única bebida que ela sabe preparar é sangria.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Qinghao Wu",
 		"audio2": {
@@ -146324,7 +146384,8 @@
 		"text": "Cause $4 de dano a um lacaio e ao seu herói.",
 		"flavor": "Só explode depois que pegar o espírito da coisa.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan Boros",
 		"counterpartCards": [
@@ -146758,7 +146819,8 @@
 		"text": "<b>Último Suspiro:</b> Cause 1 de dano a todos os personagens.",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "A. J. Nazzaro",
 		"audio2": {
@@ -148109,7 +148171,8 @@
 		"text": "<b>Passivo:</b> Feitiços custam Vida em vez de mana.",
 		"mechanics": [
 			"HIDE_STATS",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -148283,7 +148346,10 @@
 		],
 		"set": "Gilneas",
 		"cost": 1,
-		"text": "Receba 2 de dano. Evoque um Arvoroso 2/2."
+		"text": "Receba 2 de dano. Evoque um Arvoroso 2/2.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 48311,
@@ -151779,7 +151845,8 @@
 			"MODULAR",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"enchantmentDbfId": 48549,
 		"artist": "Dan Scott",
@@ -153930,7 +153997,8 @@
 		"cost": 5,
 		"text": "<b>Lançado ao Comprar</b> \nVocê recebe 5 de dano.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ivan Fomin"
 	},
@@ -157186,6 +157254,7 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO",
 			"GIVES_ARMOR"
 		],
 		"artist": "David Kegg",
@@ -158020,7 +158089,8 @@
 		"cost": 0,
 		"text": "Todos os feitiços custam Vida em vez de Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -158037,7 +158107,8 @@
 		"set": "Tb",
 		"text": "Todos os feitiços custam Vida em vez de mana",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -169720,7 +169791,8 @@
 		"spellSchool": "SHADOW",
 		"text": "<b>Lançado ao Comprar</b>\nReceba 3 de dano. Depois que comprar, coloque duas cópias deste card no seu deck.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera"
 	},
@@ -170486,7 +170558,8 @@
 		"flavor": "Esta arma — ai! — podia ser mais — AAAI! — refinada.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Akkapoj T."
 	},
@@ -170644,7 +170717,8 @@
 		"flavor": "\"Quem pegou minha pizza?!\"",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan Boros",
 		"audio2": {
@@ -173032,7 +173106,8 @@
 		"spellSchool": "FEL",
 		"text": "Neste turno, seus cards custam Vida em vez\nde Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec"
 	},
@@ -173050,7 +173125,8 @@
 		"text": "Neste turno, seus cards custam Vida em vez\nde Mana.",
 		"mechanics": [
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec"
 	},
@@ -173462,7 +173538,8 @@
 		"text": "<b>Santuário</b>\nSeus feitiços custam Vida em vez de mana.",
 		"mechanics": [
 			"AURA",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Daria Tuzova",
 		"audio2": {
@@ -180069,7 +180146,8 @@
 		"text": "<b>Provocar</b>\nEste lacaio só pode receber 1 de dano por vez.",
 		"mechanics": [
 			"TAUNT",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "M. Alvares & M. Azevedo",
 		"audio2": {
@@ -188712,7 +188790,8 @@
 		"text": "Feitiços custam Vida em vez de mana.",
 		"mechanics": [
 			"CANT_BE_SILENCED",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -197899,7 +197978,8 @@
 		"cost": 2,
 		"text": "<b>Lançado ao Comprar</b>\nReceba 3 de dano.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -202636,7 +202716,8 @@
 		"flavor": "É meio difícil andar de skate com quatro pernas.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Eric Braddock",
 		"audio2": {
@@ -205448,7 +205529,8 @@
 		"cost": 1,
 		"text": "<b>Lançado ao Comprar</b>\nVocê recebe 50\nde dano.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -210282,7 +210364,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -212875,7 +212958,8 @@
 		"text": "Enquanto os fios estiverem se tocando, receba 5 de dano no início do seu turno.",
 		"mechanics": [
 			"HIDE_STATS",
-			"UNTOUCHABLE"
+			"UNTOUCHABLE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -212896,7 +212980,8 @@
 		"text": "Enquanto os fios estiverem se tocando, receba 5 de dano no início do seu turno.",
 		"mechanics": [
 			"HIDE_STATS",
-			"UNTOUCHABLE"
+			"UNTOUCHABLE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -213465,7 +213550,8 @@
 		"mechanics": [
 			"DUNGEON_PASSIVE_BUFF",
 			"HIDE_STATS",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -213482,7 +213568,8 @@
 		"set": "Dalaran",
 		"text": "Seus feitiços custam Vida em vez de mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -218801,7 +218888,8 @@
 		"flavor": "Nunca um dragão gostou tanto de ver as coisas pegando fogo.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Dave Allsop",
 		"audio2": {
@@ -219050,7 +219138,8 @@
 		"text": "Cause $1 de dano a todos os personagens.",
 		"flavor": "A gente sabe que chegou o outono quando cai chuva de fogo e enxofre do céu. E purê de abóbora!",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Daria Tuzova",
 		"counterpartCards": [
@@ -229896,7 +229985,8 @@
 		"cost": 1,
 		"text": "<b>Lançado ao Comprar</b>\nVocê recebe 2 de dano.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -245406,7 +245496,8 @@
 		"text": "Sempre que este lacaio receber dano, cause a mesma quantidade de dano ao seu herói.",
 		"flavor": "Ele diz que é \"vinculado\", mas para mim isso é carência.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec",
 		"audio2": {
@@ -248193,7 +248284,8 @@
 		"cost": 2,
 		"text": "Escolha um lacaio inimigo. Se ele viver até seu próximo turno, cause 5 de dano a todos os personagens.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"otherTags": [
 			"TARGETS_MINION",
@@ -263022,7 +263114,8 @@
 		"set": "Uldum",
 		"text": "No turno de Tekahn, cause 5 de dano a todos os personagens.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -265938,7 +266031,8 @@
 		"text": "Seu herói fica <b>Imune</b>.\nA cada turno, perca 1 de Durabilidade. <b>Último Suspiro:</b> Cause 100 de dano ao seu herói.",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"IMMUNE"
@@ -277694,7 +277788,8 @@
 		"text": "<b>Último Suspiro:</b> Cause 5 de dano ao seu herói.",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -281142,7 +281237,8 @@
 		"text": "Cause 4 de dano ao seu herói no final do seu turno.",
 		"mechanics": [
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -282324,7 +282420,8 @@
 		"text": "Cause $3 de dano ao seu herói. Devolva dois lacaios aliados mortos nesta partida à sua mão.",
 		"flavor": "Tecnicamente falando, é só uma cura muito atrasada.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Slawomir Maniak",
 		"counterpartCards": [
@@ -289653,7 +289750,8 @@
 		"text": "Depois que você jogar\num Demônio, cause 1\nde dano ao seu herói e receba +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
@@ -289749,7 +289847,8 @@
 		"text": "Depois que você jogar um Demônio, cause 1 de dano ao seu herói e receba +{0}/+{1}, duas vezes.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
@@ -302318,6 +302417,9 @@
 		"set": "Battlegrounds",
 		"cost": 2,
 		"text": "Roube um card da Taverna. Receba 2 de dano.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"relatedCardDbfIds": [
 			80643
 		]
@@ -318992,7 +319094,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -319620,7 +319723,8 @@
 		"flavor": "Todos os outros Deuses Antigos riam do seu nariz. E o pobre G'huun ficava muito infeliz.",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jaemin Kim",
 		"audio2": {
@@ -319665,7 +319769,8 @@
 		"set": "Darkmoon_faire",
 		"text": "Custa Vida em vez de mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -327633,7 +327738,8 @@
 		"text": "Compre 3 cards. Cause $3 de dano ao seu herói.",
 		"flavor": "\"Essa é a última vez que eu deixo um diabrete cuspir gasolina no meu carro.\"",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Anton Zemskov"
 	},
@@ -327731,7 +327837,8 @@
 		"text": "Só pode receber 1 de dano por vez.",
 		"flavor": "Testa Lunar não tinha o mesmo apelo.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan Boros",
 		"audio2": {
@@ -330885,7 +330992,8 @@
 		"text": "<b>Grito de Guerra:</b>\nCause 5 de dano\nao seu herói.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec"
 	},
@@ -334509,7 +334617,8 @@
 		"text": "Não pode atacar.\n<b>Último Suspiro:</b>\nCause 3 de dano\nao seu herói.",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -335448,7 +335557,8 @@
 		"flavor": "\"Se eu morrer, meu herói cai comigo.\"",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"audio2": {
@@ -340001,7 +340111,8 @@
 		"text": "Cause 2 de dano ao seu herói no final do seu turno.",
 		"mechanics": [
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -344323,7 +344434,8 @@
 		"flavor": "Nunca um sorriso de mostrar os dentes foi tão ameaçador.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jeremy Cranford",
 		"audio2": {
@@ -345805,7 +345917,8 @@
 		"flavor": "O bico de fada do dente não deu certo.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"audio2": {
@@ -350281,7 +350394,8 @@
 		"mechanics": [
 			"CHARGE",
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -378101,7 +378215,8 @@
 		"mechanics": [
 			"IMP",
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "L. Lullabi & K. Turovec",
 		"counterpartCards": [
@@ -386887,7 +387002,8 @@
 		"flavor": "Estamos chegando no limite dos superlativos possíveis.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"audio2": {
@@ -394615,7 +394731,8 @@
 		"text": "Não pode atacar.\n<b>Último Suspiro:</b>\nCause 10 de dano\nao seu herói.",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_death": {
@@ -396084,7 +396201,8 @@
 		"flavor": "Eu queria estar... bem longe dele!",
 		"mechanics": [
 			"AURA",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -407140,7 +407258,8 @@
 		"spellSchool": "SHADOW",
 		"text": "Cause $2 de dano a todos os personagens. Se algum morrer, lance esta habilidade de novo.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -407910,7 +408029,8 @@
 		"cost": 5,
 		"text": "<b>Lançado ao Comprar</b>\nVocê recebe 5 de dano.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -423805,7 +423925,8 @@
 		"set": "Wailing_caverns",
 		"text": "Custa Vida em vez de mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -426045,7 +426166,8 @@
 		"text": "Cause $3 de dano a TODOS os personagens.",
 		"flavor": "É por causa de feitiços como este que os bruxos não conseguem muita ajuda.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Chippy",
 		"counterpartCards": [
@@ -426150,7 +426272,8 @@
 		"flavor": "\"INFERNOOOOOOOOOO!\" - Jaraxxus, lorde Eredar da Legião Ardente",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan & Gabor",
 		"counterpartCards": [
@@ -433204,7 +433327,8 @@
 		"text": "Cause $3 de dano a TODOS os personagens.",
 		"flavor": "É por causa de feitiços como este que os bruxos não conseguem muita ajuda.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Chippy",
 		"counterpartCards": [
@@ -433273,7 +433397,8 @@
 		"flavor": "\"INFERNOOOOOOOOOO!\" - Jaraxxus, lorde Eredar da Legião Ardente",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan & Gabor",
 		"counterpartCards": [
@@ -437754,7 +437879,8 @@
 			"BATTLECRY",
 			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"assembleHalves": {
@@ -439412,7 +439538,8 @@
 		"flavor": "Ele não é tão louco assim. Só não toma tanto cuidado com os explosivos quanto deveria.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mike Sass",
 		"counterpartCards": [
@@ -440124,7 +440251,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ian Ameling",
 		"counterpartCards": [
@@ -446599,7 +446727,8 @@
 		"flavor": "Ele não é tão louco assim. Só não toma tanto cuidado com os explosivos quanto deveria.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mike Sass",
 		"counterpartCards": [
@@ -447031,7 +447160,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"counterpartCards": [
@@ -448598,7 +448728,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ian Ameling",
 		"counterpartCards": [
@@ -449657,7 +449788,8 @@
 		"flavor": "Mannoroth, Magtheridon e Brutallus podem estar mortos, mas parece que existem MUITOS lordes abissais.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Glenn Rane",
 		"counterpartCards": [
@@ -449816,7 +449948,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"counterpartCards": [
@@ -463620,7 +463753,8 @@
 		"cost": 2,
 		"text": "Cause $5 de dano a todos os personagens, exceto Ysera.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -494225,7 +494359,8 @@
 		"cost": 0,
 		"text": "<b>Lançado ao Comprar</b>\nVocê recebe 4 de dano.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -513699,7 +513834,10 @@
 		"set": "Lettuce",
 		"cost": 10,
 		"spellSchool": "SHADOW",
-		"text": "Roube 5 de Vida de todos os outros personagens."
+		"text": "Roube 5 de Vida de todos os outros personagens.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 73102,
@@ -516494,7 +516632,8 @@
 			"DEATHRATTLE",
 			"ELUSIVE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -517592,7 +517731,8 @@
 		"text": "<b>Último Suspiro:</b> Cause 30 de dano a todos os personagens.",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"DEATHRATTLE"
@@ -532246,7 +532386,8 @@
 		"faction": "NEUTRAL",
 		"text": "Cause 1 de dano ao seu herói. Substitua um lacaio inimigo não <b>Lendário</b> por um Demônio aliado que custa (1) a menos.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -532262,7 +532403,10 @@
 		"set": "The_barrens",
 		"cost": 4,
 		"faction": "NEUTRAL",
-		"text": "Receba 1 de dano. Substitua um lacaio inimigo não Lendário por um Demônio aliado que custa (1) a mais (até 10)."
+		"text": "Receba 1 de dano. Substitua um lacaio inimigo não Lendário por um Demônio aliado que custa (1) a mais (até 10).",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 73938,
@@ -538736,7 +538880,8 @@
 		"set": "The_barrens",
 		"text": "<b>Passivo:</b> Seus cards custam (2) a menos. Depois que você jogar um card, receba 2 de dano.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -538914,7 +539059,8 @@
 		"text": "Depois que você evocar um Demônio, conceda-lhe +2/+2 e cause 2 de dano ao seu herói.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -539871,7 +540017,8 @@
 		"spellSchool": "SHADOW",
 		"text": "Cause $3 de dano ao seu herói. Devolva dois lacaios aliados mortos nesta partida à sua mão.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -545268,7 +545415,8 @@
 		"text": "Cause $3 de dano ao seu herói. Devolva dois lacaios aliados mortos nesta partida à sua mão.",
 		"flavor": "Tecnicamente falando, é só uma cura muito atrasada.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Slawomir Maniak",
 		"counterpartCards": [
@@ -548113,7 +548261,8 @@
 		"flavor": "Ele passa o tempo livre no jardim, cultivando nabo-de-sangue, repolho-de-sangue e o preferido dele, broto-de-sangue.",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"audio2": {
@@ -548200,7 +548349,8 @@
 		"set": "Throne_of_tides",
 		"text": "Seus cards custam Vida em vez de mana neste turno.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -554488,7 +554638,8 @@
 		"text": "Cause $3 de dano a TODOS os personagens.",
 		"flavor": "É por causa de feitiços como este que os bruxos não conseguem muita ajuda.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Chippy",
 		"counterpartCards": [
@@ -554905,7 +555056,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Steve Prescott",
 		"audio2": {
@@ -554971,7 +555123,8 @@
 		"text": "Cause $5 de dano a todos os personagens.",
 		"flavor": "Kazakus tem um esquadrão de diabretes engarrafando Fogovil sem parar e nem assim consegue dar conta da demanda.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Arthur Bozonnet",
 		"counterpartCards": [
@@ -555070,7 +555223,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"counterpartCards": [
@@ -555469,7 +555623,8 @@
 		"text": "Cause $1 de dano a todos os personagens.",
 		"flavor": "A gente sabe que chegou o outono quando cai chuva de fogo e enxofre do céu. E purê de abóbora!",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Daria Tuzova",
 		"counterpartCards": [
@@ -556371,7 +556526,8 @@
 		"flavor": "\"INFERNOOOOOOOOOO!\" - Jaraxxus, lorde Eredar da Legião Ardente",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan & Gabor",
 		"counterpartCards": [
@@ -556539,7 +556695,8 @@
 		"flavor": "O Kabal escreve isso em todos os pacotes de Cristais de Mana ilícitos: ATENÇÃO, MANTENHA FORA DO ALCANCE DOS ABISSAIS. NÃO SÃO APROVADOS PARA O USO COM DEMÔNIOS VOADORES DE NENHUM TIPO.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Luke Mancini",
 		"counterpartCards": [
@@ -559547,7 +559704,8 @@
 		"flavor": "O Kabal escreve isso em todos os pacotes de Cristais de Mana ilícitos: ATENÇÃO, MANTENHA FORA DO ALCANCE DOS ABISSAIS. NÃO SÃO APROVADOS PARA O USO COM DEMÔNIOS VOADORES DE NENHUM TIPO.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Luke Mancini",
 		"counterpartCards": [
@@ -581485,7 +581643,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"DEATHRATTLE",
@@ -589908,6 +590067,9 @@
 		"spellSchool": "FROST",
 		"text": "Até seu próximo turno, seu herói só pode receber 1 ponto de dano por vez.",
 		"flavor": "Se esse travesseiro falasse...",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"artist": "Jakub Kasper",
 		"counterpartCards": [
 			77642,
@@ -602278,7 +602440,10 @@
 		"set": "Lettuce",
 		"cost": 10,
 		"spellSchool": "SHADOW",
-		"text": "Roube 8 de Vida de todos os outros personagens."
+		"text": "Roube 8 de Vida de todos os outros personagens.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 78089,
@@ -602653,7 +602818,8 @@
 		"set": "Revendreth",
 		"text": "Sempre que este receber dano, cause 1 de dano ao seu herói.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -608906,7 +609072,8 @@
 		"text": "<b>Grito de Guerra:</b> No turno seguinte, sempre que seu oponente comprar um card, ele recebe 2 de dano.",
 		"flavor": "\"O castelo é bacana, mas as lareiras são muito pequenas - 2/5 estrelas\"",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ian Ameling",
 		"counterpartCards": [
@@ -609095,7 +609262,10 @@
 			"NEUTRAL"
 		],
 		"set": "Revendreth",
-		"text": "No turno seguinte, sempre que seu oponente comprar um card, ele recebe 2 de dano."
+		"text": "No turno seguinte, sempre que seu oponente comprar um card, ele recebe 2 de dano.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 78388,
@@ -611172,7 +611342,10 @@
 		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "FEL",
-		"text": "Infecte todos os lacaios inimigos. Eles recebem 1 de dano no início de cada turno."
+		"text": "Infecte todos os lacaios inimigos. Eles recebem 1 de dano no início de cada turno.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 78481,
@@ -613207,7 +613380,8 @@
 		"flavor": "Aquele sushi do posto de gasolina não caiu bem.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vlad Botos",
 		"counterpartCards": [
@@ -613279,7 +613453,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"availableAsDiamond": true,
@@ -635733,7 +635908,8 @@
 		"set": "The_sunken_city",
 		"text": "Custa Vida em vez de mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -655406,7 +655582,8 @@
 		"text": "<b>Roubar Vida</b>. Infecte todos os lacaios inimigos. No final dos seus turnos, eles recebem 2 de dano.",
 		"flavor": "E quando o seu sangue ferver, jogue praguetti.",
 		"mechanics": [
-			"END_OF_TURN"
+			"END_OF_TURN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"referencedTags": [
@@ -658241,7 +658418,8 @@
 		"spellSchool": "FIRE",
 		"text": "Cause $12 de dano a todos os outros personagens. <b>Golpe Fatal:</b> Repita esta habilidade.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 12
@@ -660233,7 +660411,8 @@
 		"text": "Destrua um lacaio. Cause 3 de dano ao seu herói.",
 		"flavor": "O 7 perguntou se o 9 nove tava em casa e ele respondeu: \"Oi, tô.\"",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Dan Scott",
 		"counterpartCards": [
@@ -661596,7 +661775,8 @@
 		"text": "<b>Passivo:</b> No início da partida, mude sua Vida para 10. Você só pode receber 1 de dano por vez.",
 		"mechanics": [
 			"DUNGEON_PASSIVE_BUFF",
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -661614,7 +661794,8 @@
 		"faction": "NEUTRAL",
 		"text": "No início da partida, mude sua Vida para 10. Você só pode receber 1 de dano por vez.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -662840,7 +663021,8 @@
 		"spellSchool": "FIRE",
 		"text": "Cause $20 de dano a todos os outros personagens. <b>Golpe Fatal:</b> Repita esta habilidade.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 20
@@ -675722,7 +675904,8 @@
 		"spellSchool": "FROST",
 		"text": "Cause $40 de dano a todos os personagens.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 40
@@ -695836,7 +696019,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DIVINE_SHIELD",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vika Yarova",
 		"audio2": {
@@ -695897,7 +696081,8 @@
 		"flavor": "Vamos coagular, não odiar!",
 		"mechanics": [
 			"DEAL_DAMAGE",
-			"GIVES_DIVINE_SHIELD"
+			"GIVES_DIVINE_SHIELD",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vika Yarova",
 		"otherTags": [
@@ -696226,7 +696411,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "BOSi Studio",
 		"audio2": {
@@ -705097,7 +705283,8 @@
 		"spellSchool": "FIRE",
 		"text": "Cause $3 de dano a todos os personagens. Se algum morrer, repita isso.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
@@ -705127,7 +705314,8 @@
 		"spellSchool": "FIRE",
 		"text": "Cause $6 de dano a todos os personagens. Se algum morrer, repita isso.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6
@@ -705144,7 +705332,8 @@
 		"spellSchool": "FIRE",
 		"text": "Cause $8 de dano a todos os personagens. Se algum morrer, repita isso.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 8
@@ -705161,7 +705350,8 @@
 		"spellSchool": "FIRE",
 		"text": "Cause $9 de dano a todos os personagens. Se algum morrer, repita isso.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 9
@@ -705178,7 +705368,8 @@
 		"spellSchool": "FIRE",
 		"text": "Cause $10 de dano a todos os personagens. Se algum morrer, repita isso.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 10
@@ -727482,7 +727673,8 @@
 			"BATTLECRY",
 			"MANATHIRST",
 			"DEAL_DAMAGE",
-			"RESTORE_HEALTH"
+			"RESTORE_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Paul Mafayon",
 		"audio2": {
@@ -728070,7 +728262,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"RUSH",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Matt Dixon",
 		"audio2": {
@@ -731988,7 +732181,8 @@
 		"spellSchool": "SHADOW",
 		"text": "Cause $12 de dano a todos os personagens que não são Murlocs.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 12
@@ -745464,7 +745658,8 @@
 		"faction": "NEUTRAL",
 		"text": "<b>Início da Partida:</b> Amaldiçoe uma habilidade aleatória de cada Mercenário. Eles recebem 20 de dano quando ela for usada. Conclua o contrato para ganhar recompensas extras.",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 20
@@ -752229,6 +752424,9 @@
 		"mercenaryRole": "CASTER",
 		"text": "No final de cada turno, preveja uma habilidade de cada inimigo. Eles recebem 20 de dano se usarem a habilidade.",
 		"flavor": "Não há segredos entre nós... nem reembolsos.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 20
 		},
@@ -761842,7 +762040,8 @@
 		"flavor": "Nunca gostou dessa história de apresentação \"ao vivo\". Sempre preferiu \"ao morto\".",
 		"mechanics": [
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Porubov",
 		"counterpartCards": [
@@ -767116,7 +767315,8 @@
 		"cost": 5,
 		"text": "<b>Lançado ao Comprar</b>\nLacaios aliados aleatórios recebem 5 de dano.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ivan Fomin"
 	},
@@ -770366,7 +770566,8 @@
 		"spellSchool": "ARCANE",
 		"text": "Cause ${0} de dano a um inimigo aleatório. Receba +3 de dano cada vez que você receber 20 de dano. <i>(Resta: {1}.)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 11,
@@ -770439,7 +770640,8 @@
 		"mechanics": [
 			"CANT_BE_SILENCED",
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -771914,7 +772116,8 @@
 		"text": "Cause $9 de dano dividido aleatoriamente entre TODOS os personagens.",
 		"flavor": "A maioria dos habitantes da Vila Sombria usa as máscaras cirúrgicas para evitar que turistas sejam contagiados pela Loucura.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera"
 	},
@@ -782309,7 +782512,8 @@
 		"spellSchool": "ARCANE",
 		"text": "Cause ${0} de dano a um inimigo aleatório. Receba +3 de dano cada vez que você receber 20 de dano. <i>(Resta: {1}.)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 10,
@@ -782345,7 +782549,8 @@
 		"spellSchool": "ARCANE",
 		"text": "Cause ${0} de dano a um inimigo aleatório. Receba +3 de dano cada vez que você receber 20 de dano. <i>(Resta: {1}.)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 9,
@@ -782362,7 +782567,8 @@
 		"spellSchool": "ARCANE",
 		"text": "Cause ${0} de dano a um inimigo aleatório. Receba +3 de dano cada vez que você receber 20 de dano. <i>(Resta: {1}.)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
@@ -782379,7 +782585,8 @@
 		"spellSchool": "ARCANE",
 		"text": "Cause ${0} de dano a um inimigo aleatório. Receba +3 de dano cada vez que você receber 20 de dano. <i>(Resta: {1}.)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 5,
@@ -791050,7 +791257,8 @@
 		"health": 0,
 		"text": "<b>Início da Partida:</b> Amaldiçoe uma habilidade aleatória de cada Mercenário. Eles recebem 20 de dano quando ela for usada.",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true,
 		"audio2": {
@@ -791853,7 +792061,8 @@
 		"cost": 3,
 		"text": "Cause $6 de dano a todos os personagens.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mooncolony"
 	},
@@ -800612,7 +800821,8 @@
 		"set": "Tb",
 		"text": "<b>Último Suspiro:</b> Espalhe para um lacaio adjacente, então cause 5 de dano ao seu herói.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"DEATHRATTLE"
@@ -800880,7 +801090,8 @@
 		"text": "Enquanto este card estiver na sua mão, receba 2 de dano no início do seu turno.",
 		"mechanics": [
 			"EVIL_GLOW",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -801616,7 +801827,8 @@
 		"text": "Infecte um lacaio com \"<b>Último Suspiro:</b> Cause 3 de dano ao seu herói, depois infecte um adjacente.\"",
 		"flavor": "Também há a variedade viscosa e ultraviscosa.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"otherTags": [
 			"TARGETS_MINION"
@@ -802582,7 +802794,8 @@
 		"set": "Tb",
 		"text": "<b>Último Suspiro:</b> Infecte um adjacente, então cause 3 de dano ao seu herói.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"DEATHRATTLE"
@@ -829235,7 +829448,8 @@
 		"text": "Custa Vida em vez de mana.",
 		"flavor": "O sangue dos meus inimigos é um fertilizante do bom!",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ian Ameling",
 		"isTreant": true,
@@ -849297,7 +849511,8 @@
 		"set": "Path_of_arthas",
 		"text": "No final de cada turno do oponente, receba 2 de dano.",
 		"mechanics": [
-			"LIFESTEAL"
+			"LIFESTEAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -868914,7 +869129,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"RUSH",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Max Grecke",
 		"audio2": {
@@ -890455,6 +890671,9 @@
 		"set": "Lettuce",
 		"cost": 3,
 		"text": "<b>Passivo:</b> Varinha Giratória recebe +3 a mais de dano a cada vez que você receber 20 de dano.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
 		},
@@ -893889,7 +894108,8 @@
 		"health": 0,
 		"text": "<b>Início da Partida:</b> Amaldiçoe uma habilidade aleatória de cada Mercenário. Eles recebem 10 de dano quando ela for usada.",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true,
 		"audio2": {
@@ -893932,7 +894152,8 @@
 		"health": 0,
 		"text": "<b>Início da Partida:</b> Amaldiçoe uma habilidade aleatória de cada Mercenário. Eles recebem 5 de dano quando ela for usada.",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true,
 		"audio2": {
@@ -893974,7 +894195,8 @@
 		"faction": "NEUTRAL",
 		"text": "<b>Início da Partida:</b> Amaldiçoe uma habilidade aleatória de cada Mercenário. Eles recebem 10 de dano quando ela for usada. Conclua o contrato para ganhar recompensas extras.",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 10
@@ -893996,7 +894218,8 @@
 		"faction": "NEUTRAL",
 		"text": "<b>Início da Partida:</b> Amaldiçoe uma habilidade aleatória de cada Mercenário. Eles recebem 5 de dano quando ela for usada. Conclua o contrato para ganhar recompensas extras.",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 5
@@ -902631,7 +902854,8 @@
 		"text": "<b>Grito de Guerra:</b> Conceda +2/+2 aos seus outros Demônios e cause 2 de dano ao seu herói duas vezes.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Grafit Studio",
 		"battlegroundsNormalDbfId": 99197,
@@ -902684,7 +902908,8 @@
 		"text": "Duas <b>Atualizações</b> a cada turno custam Vida em vez de Ouro. <i>(Resta: 2!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -903025,7 +903250,8 @@
 		"text": "Quatro <b>Atualizações</b> a cada turno custam Vida em vez de Ouro. <i>(Resta: 4!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4
@@ -903315,7 +903541,8 @@
 		"text": "<b><b>Grito de Guerra:</b> Descubra</b> 2 Demônios. Cause dano igual ao Grau deles ao seu herói.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Grace Liu",
 		"battlegroundsNormalDbfId": 99232,
@@ -911680,7 +911907,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"audio2": {
@@ -911767,7 +911995,8 @@
 		"flavor": "Aquele sushi do posto de gasolina não caiu bem.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vlad Botos",
 		"otherTags": [
@@ -912081,7 +912310,8 @@
 			"BATTLECRY",
 			"IMP",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Steve Prescott",
 		"audio2": {
@@ -912391,7 +912621,8 @@
 		"flavor": "Mannoroth, Magtheridon e Brutallus podem estar mortos, mas parece que existem MUITOS lordes abissais.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Glenn Rane",
 		"audio2": {
@@ -912438,7 +912669,8 @@
 		"text": "<b>Roubar Vida</b>. Infecte todos os lacaios inimigos. No final dos seus turnos, eles recebem 2 de dano.",
 		"flavor": "E quando o seu sangue ferver, jogue praguetti.",
 		"mechanics": [
-			"END_OF_TURN"
+			"END_OF_TURN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"referencedTags": [
@@ -912477,7 +912709,8 @@
 		"set": "Path_of_arthas",
 		"text": "No final de cada turno do oponente, receba 2 de dano.",
 		"mechanics": [
-			"LIFESTEAL"
+			"LIFESTEAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -913045,7 +913278,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"availableAsDiamond": true,
@@ -913101,7 +913335,8 @@
 		"set": "Darkmoon_faire",
 		"text": "Custa Vida em vez de mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -918043,7 +918278,8 @@
 		"text": "Lacaios inimigos custam Vida em vez de mana no turno seguinte.",
 		"flavor": "Essa não! Meu tanquinho de pedra!",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ryan Bowlin"
 	},
@@ -921248,7 +921484,8 @@
 		"text": "<b>Grito de Guerra:</b> Cause 1 de dano ao seu herói.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jaemin Kim",
 		"battlegroundsPremiumDbfId": 101104,
@@ -921298,7 +921535,8 @@
 		"text": "<b>Grito de Guerra:</b>\nCause 1 de dano ao seu herói duas vezes.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jaemin Kim",
 		"battlegroundsNormalDbfId": 101103,
@@ -925102,7 +925340,8 @@
 		"set": "Ulduar",
 		"text": "Seus cards custam Vida em vez de mana neste turno.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -925406,7 +925645,8 @@
 		"health": 3,
 		"text": "Este custa Vida em vez de Ouro para comprar.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsPremiumDbfId": 101558,
 		"audio2": {
@@ -925479,7 +925719,8 @@
 		"health": 6,
 		"text": "Este custa Vida em vez de Ouro para comprar.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 101556,
 		"premium": true,
@@ -937354,7 +937595,8 @@
 		"text": "<b>Lançado ao Comprar</b>\nReceba 2 de dano. O herói inimigo recupera 2 de Vida.",
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
-			"RESTORE_HEALTH"
+			"RESTORE_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Slawomir Maniak"
 	},
@@ -937372,7 +937614,8 @@
 		"cost": 1,
 		"text": "<b>Lançado ao Comprar</b>\nReceba 2 de dano. Evoque um Morto-Vivo 2/2 para o oponente.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Slawomir Maniak",
 		"relatedCardDbfIds": [
@@ -937393,7 +937636,8 @@
 		"cost": 1,
 		"text": "<b>Lançado ao Comprar</b>\nReceba 2 de dano. Seu próximo card custa (1) a mais <i>(até 10)</i>.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Slawomir Maniak"
 	},
@@ -938666,6 +938910,9 @@
 		"set": "Battlegrounds",
 		"faction": "NEUTRAL",
 		"text": "Comece com 5 de Vida e 5 de Ouro. Seu herói só pode receber 1 de dano por vez.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
 		},
@@ -943855,7 +944102,8 @@
 		"text": "Cause $4 de dano a um lacaio e ao seu herói.",
 		"flavor": "Só explode depois que pegar o espírito da coisa.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan Boros",
 		"counterpartCards": [
@@ -946596,7 +946844,8 @@
 		"faction": "NEUTRAL",
 		"text": "No início da partida, receba 25 de dano. Recupere 5 de Vida depois que outro herói morrer.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Tanamaes Leejierasaes"
 	},
@@ -947175,7 +947424,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec",
 		"audio2": {
@@ -948886,7 +949136,8 @@
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
 			"RUSH",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Aleksi Briclot",
 		"counterpartCards": [
@@ -951508,7 +951759,8 @@
 		"text": "Cause $13 de dano dividido aleatoriamente entre TODOS os personagens.",
 		"flavor": "A maioria dos habitantes da Vila Sombria usa as máscaras cirúrgicas para evitar que turistas sejam contagiados pela Loucura.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"counterpartCards": [
@@ -951773,7 +952025,8 @@
 		"flavor": "Mesmo depois de tanto tempo, Gul'dan ainda insiste em mandar Cho'gall comprar o pão na chapa e o café.",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"counterpartCards": [
@@ -953802,7 +954055,8 @@
 		"flavor": "Um jeito eficiente de congelar a alma de alguém? É só congelar o corpo também.",
 		"mechanics": [
 			"FREEZE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jakub Kasper",
 		"otherTags": [
@@ -954933,7 +955187,8 @@
 		"set": "Caverns_of_time",
 		"text": "Custa Vida em vez de Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -969471,7 +969726,8 @@
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Guilherme Freitas",
 		"battlegroundsPremiumDbfId": 103689,
@@ -969523,7 +969779,8 @@
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Guilherme Freitas",
 		"battlegroundsNormalDbfId": 103688,
@@ -979724,7 +979981,8 @@
 		"isBaconPool": true,
 		"text": "Receba 1 de Ouro. Este custa Vida em vez de Ouro para comprar.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ivan Fomin"
 	},
@@ -984423,7 +984681,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mooncolony"
 	},
@@ -993123,7 +993382,8 @@
 		"text": "Compre 2 cards. Cause $3 de dano ao seu herói. Coloque 2 cópias deste card no seu deck.",
 		"flavor": "Sempre que lançar este feitiço, vamos criar um novo retrato da Nemsis.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mooncolony"
 	},
@@ -995086,7 +995346,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"BG_SPELL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
@@ -995139,7 +995400,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"BG_SPELL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -995871,7 +996133,8 @@
 		"text": "Sempre que este lacaio receber dano, cause a mesma quantidade de dano ao seu herói.",
 		"flavor": "Aperta. Apeeeerta. ApertAAA... epa! Aperta?",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"audio2": {
@@ -1001694,7 +1001957,8 @@
 		"mechanics": [
 			"ELUSIVE",
 			"RUSH",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Brian Despain",
 		"audio2": {
@@ -1003084,7 +1003348,8 @@
 		"text": "<b><b>Último Suspiro:</b> Congele</b> 3 inimigos aleatórios.\nSe algum deles já estiver <b>Congelado</b>, em vez disso receba 5 de dano.",
 		"flavor": "Ela, Eliza Lâmina Sangrenta e Peggy Ossofraco são as três irmãs piratas que aterrorizam os mares.",
 		"mechanics": [
-			"DEATHRATTLE"
+			"DEATHRATTLE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Porubov",
 		"referencedTags": [
@@ -1003463,7 +1003728,8 @@
 		"text": "Cause $2 de dano a um lacaio. Cause $2 de dano ao seu herói. <i>(Restam 3 Bebidas!)</i>",
 		"flavor": "Um chá agradável ou um veneno mortal?",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec",
 		"otherTags": [
@@ -1017538,7 +1017804,8 @@
 		"flavor": "Arqui-inimigo do Monstro do Salão de Dança.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Juan Calle",
 		"relatedCardDbfIds": [
@@ -1017899,7 +1018166,8 @@
 		"text": "Conceda +3/+3 e \"No início do seu turno, cause 3 de dano ao seu herói\" a um lacaio.",
 		"flavor": "A maioria das lembrancinhas são consideradas cafonas e sem graça. Essa aqui com certeza não é uma dessas!",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Stone",
 		"otherTags": [
@@ -1017974,7 +1018242,8 @@
 		"set": "Perils_in_paradise",
 		"text": "+3/+3 e \"No início do seu turno, cause 3 de dano ao seu herói.\"",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1027388,7 +1027657,8 @@
 		"spellSchool": "SHADOW",
 		"text": "Cause $2 de dano a um lacaio. Cause $2 de dano ao seu herói. <i>(Restam 2 Bebidas!)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec",
 		"otherTags": [
@@ -1027424,7 +1027694,8 @@
 		"spellSchool": "SHADOW",
 		"text": "Cause $2 de dano a um lacaio. Cause $2 de dano ao seu herói. <i>(Última Bebida!)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec",
 		"otherTags": [
@@ -1045969,7 +1046240,8 @@
 		"flavor": "Licença, acho que você ficou com meu grampeador...",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Studio Hive"
 	},
@@ -1057783,6 +1058055,7 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO",
 			"GIVES_ARMOR"
 		]
 	},
@@ -1097444,7 +1097717,8 @@
 		"set": "Tb",
 		"text": "[x]O próximo lacaio que\nvocê jogar neste turno\ncusta Vida em vez\nde Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_death": {
@@ -1098291,7 +1098565,8 @@
 		"text": "<b>Passivo</b>\nO primeiro card que você jogar a cada turno que não começou no seu deck custa Vida\nem vez de mana.",
 		"mechanics": [
 			"HIDE_STATS",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true,
 		"questRewardDbfId": 113051
@@ -1099443,7 +1099718,8 @@
 		"mechanics": [
 			"IMP",
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1100240,7 +1100516,8 @@
 		"text": "A cada turno, um Demônio custa Vida em vez de\nOuro para comprar. <i>(Resta: 1!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
@@ -1100293,7 +1100570,8 @@
 		"text": "A cada turno, dois Demônios custam Vida\nem vez de Ouro para comprar. <i>(Resta: 2!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -1102902,7 +1103180,8 @@
 		"text": "Destrua um lacaio. Cause 3 de dano ao seu herói.",
 		"flavor": "O 7 perguntou se o 9 nove estava em casa e ele respondeu: \"Oi, tô.\"",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Dan Scott",
 		"counterpartCards": [
@@ -1104495,7 +1104774,8 @@
 		"text": "<b>Passivo</b>\nO primeiro card que você jogar a cada turno que não começou no seu deck custa Vida\nem vez de mana.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1104956,7 +1105236,8 @@
 		"mechanics": [
 			"IMP",
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "L. Lullabi & K. Turovec",
 		"counterpartCards": [
@@ -1105352,7 +1105633,8 @@
 		"mechanics": [
 			"CANT_BE_SILENCED",
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1105517,7 +1105799,8 @@
 		"set": "Tb",
 		"text": "<b>Passivo</b>\nO primeiro card que você jogar a cada turno que não começou no seu deck custa Vida\nem vez de mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1127390,7 +1127673,8 @@
 		"flavor": "Fruta da árvore do mundo corrompida... corrompidinha é.",
 		"mechanics": [
 			"DEAL_DAMAGE",
-			"RESTORE_HEALTH"
+			"RESTORE_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vlad Botos"
 	},
@@ -1127548,7 +1127832,8 @@
 		"text": "No final do seu turno, cause $3 de dano ao seu herói.",
 		"mechanics": [
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1156007,7 +1156292,8 @@
 			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Steve Prescott",
 		"assembleHalves": {
@@ -1158431,7 +1158717,8 @@
 			"BG_DUO_EXCLUSIVE",
 			"END_OF_TURN_TRIGGER",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Joseph Weston",
 		"battlegroundsPremiumDbfId": 117358,
@@ -1158482,7 +1158769,8 @@
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 117357,
 		"premium": true,
@@ -1159024,7 +1159312,8 @@
 		"flavor": "Nunca gostou dessa história de apresentação \"ao vivo\". Sempre preferiu \"ao morto\".",
 		"mechanics": [
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Porubov",
 		"counterpartCards": [
@@ -1165499,7 +1165788,8 @@
 		"text": "Cada quarto card que você comprar custará Vida em vez de Ouro. <i>(Resta: {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
@@ -1172929,6 +1173219,9 @@
 		"spellSchool": "FROST",
 		"text": "Até seu próximo turno, seu herói só pode receber 1 ponto de dano por vez.",
 		"flavor": "Se esse travesseiro falasse...",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"artist": "Jakub Kasper",
 		"counterpartCards": [
 			77642,
@@ -1175868,7 +1176161,8 @@
 		"text": "<b>Grito de Guerra:</b> No turno seguinte, sempre que seu oponente comprar um card, ele recebe 2 de dano.",
 		"flavor": "\"O castelo é bacana, mas as lareiras são muito pequenas - 2/5 estrelas\"",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ian Ameling",
 		"counterpartCards": [
@@ -1177968,6 +1178262,7 @@
 			"DEATHRATTLE",
 			"TAUNT",
 			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO",
 			"GENERATES_SPELL",
 			"GENERATES_FEL_SPELL"
 		],
@@ -1178009,7 +1178304,8 @@
 		"set": "Lost_city_of_ungoro",
 		"text": "Custa Vida em vez de Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1214074,7 +1214370,8 @@
 		"flavor": "Nada como um belo escalda-pés depois de séculos de caminhada.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"relatedCardDbfIds": [
@@ -1214134,7 +1214431,8 @@
 		"text": "<b>Lançado ao Comprar</b> \nCause $3 de dano\nao seu herói.",
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Stefan Bogdasarov"
 	},
@@ -1217335,7 +1217633,8 @@
 		"text": "Sempre que você lançar um feitiço da Taverna, cause 1 de dano ao seu herói e conceda +1/+1 aos seus Demônios.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Stu Harrington",
 		"battlegroundsPremiumDbfId": 120665,
@@ -1217385,7 +1217684,8 @@
 		"text": "Sempre que você lançar\num feitiço da Taverna,\ncause 1 de dano ao seu herói e conceda +1/+1 aos seus Demônios duas vezes.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 120664,
 		"premium": true,
@@ -1218112,7 +1218412,8 @@
 		"text": "A cada turno, um Demônio custa Vida em vez de Ouro para comprar. <i>(Resta: {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
@@ -1224191,6 +1224492,7 @@
 		"mechanics": [
 			"DISCOVER",
 			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO",
 			"GENERATES_SPELL"
 		],
 		"artist": "Brian Despain",
@@ -1224225,7 +1224527,8 @@
 		"text": "Encha sua mão de Mortos-Vivos aleatórios. Eles custam Vida em vez de Mana neste turno.",
 		"flavor": "Esse é um assunto que preferimos não comentar.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "A. J. Nazzaro"
 	},
@@ -1224313,7 +1224616,8 @@
 		"text": "Custa Vida em vez de Mana.",
 		"mechanics": [
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1224635,7 +1224939,8 @@
 		"text": "A cada turno, um feitiço da Taverna custa Vida em vez de Ouro para comprar.\n<i>(Resta: {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
@@ -1224655,7 +1224960,8 @@
 		"spellSchool": "LESSER_TRINKET",
 		"text": "Receba 2 de Ouro e receba 2 de dano. No início de cada turno, repita isso <i>(se possível)</i>.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Topdog Entertainment"
 	},
@@ -1224986,7 +1225292,8 @@
 		"text": "<b>Grito de Guerra:</b> <b>Atualize</b> a Taverna com 2 feitiços da Taverna a mais. Eles custam Vida em vez de Ouro.",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4
@@ -1225042,7 +1225349,8 @@
 		"text": "<b>Grito de Guerra:</b> <b>Atualize</b> a Taverna com 2 feitiços da Taverna a mais. Eles custam Vida em vez de Ouro.",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 121054,
 		"premium": true,
@@ -1229832,7 +1230140,8 @@
 		"set": "Battlegrounds",
 		"text": "Custa Vida em vez de Ouro.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1244017,7 +1244326,8 @@
 		"flavor": "Aquele sushi do posto de gasolina não caiu bem.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vlad Botos",
 		"counterpartCards": [
@@ -1265301,7 +1265611,8 @@
 		"set": "Og",
 		"text": "Custa Vida em vez de Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1282743,7 +1283054,8 @@
 		"health": 1,
 		"text": "Quando evocado, receba um lacaio de Custo {0} aleatório.\nEle custa Vida neste turno.\n<i><b>Proclame</b> duas vezes para aprimorar. </i>",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -1283904,7 +1284216,8 @@
 		"health": 1,
 		"text": "Quando evocado, receba um lacaio de Custo {0} aleatório.\nEle custa Vida neste turno.\n<i><b>Proclame</b> duas vezes para aprimorar. </i>",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -1286525,7 +1286838,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Luke Mancini",
 		"audio2": {
@@ -1288074,6 +1288388,7 @@
 		"flavor": "Agora só falta encontrar a Porta-mestra.",
 		"mechanics": [
 			"DISCOVER",
+			"DAMAGES_YOUR_HERO",
 			"GENERATES_SPELL"
 		],
 		"artist": "Kevin Sidharta",
@@ -1303811,7 +1304126,8 @@
 		"health": 1,
 		"text": "Quando evocado, receba um lacaio de Custo {0} aleatório.\nEle custa Vida neste turno.\n<i><b>Proclame</b> duas vezes para aprimorar. </i>",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -1315056,7 +1315372,8 @@
 		"set": "Violet_hold",
 		"text": "Custa Vida em vez de Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1341307,7 +1341624,8 @@
 		"flavor": "Vamos coagular,\nnão odiar!",
 		"mechanics": [
 			"DEAL_DAMAGE",
-			"GIVES_DIVINE_SHIELD"
+			"GIVES_DIVINE_SHIELD",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vika Yarova",
 		"otherTags": [
@@ -1345692,7 +1346010,8 @@
 		"text": "Custa Vida neste turno.",
 		"mechanics": [
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1348454,7 +1348773,8 @@
 		"health": 1,
 		"text": "<b>Microfonia:</b> Cause 1 de dano a todos os personagens. Repita para cada efeito sonoro que você ativou neste turno.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -1349663,7 +1349983,8 @@
 		"text": "<b>Lançado ao Comprar</b> Cause 2 de dano\nao seu herói.",
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Stefan Bogdasarov"
 	},
@@ -1353650,7 +1353971,8 @@
 		"text": "<b><b>Combo</b>:</b> Compre um card e cause 2 de dano ao seu herói.",
 		"mechanics": [
 			"COMBO",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vladimir Kafanov"
 	},
@@ -1357647,7 +1357969,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"availableAsDiamond": true,
@@ -1375790,7 +1376113,8 @@
 		"set": "Cataclysm",
 		"text": "Custa Vida em vez de Mana.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1376828,7 +1377152,8 @@
 		"cost": 0,
 		"text": "Restaure suas opções. <i>(20% de chance de receber 5 de dano!)</i>",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -1377417,7 +1377742,8 @@
 		"text": "Depois que você <b>Atualizar</b> {1} vezes, o lacaio de Grau mais alto da Taverna é comprado com Vida em vez de Ouro. <i>(Resta: {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,

@@ -5741,7 +5741,8 @@
 		"spellSchool": "NATURE",
 		"text": "[x]イセラを除く\n全てのキャラクターに\n$5ダメージを与える。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -6223,7 +6224,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ian Ameling",
 		"counterpartCards": [
@@ -8024,7 +8026,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"counterpartCards": [
@@ -14645,7 +14648,8 @@
 		"flavor": "ヤツは別にイカレてるわけじゃない。ただ、爆発物の扱いが滅茶苦茶いいかげんなだけだ。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mike Sass",
 		"counterpartCards": [
@@ -15473,7 +15477,8 @@
 		"flavor": "マノロス、マグゼリドン、そしてブルータラスは死んだようだが、実のところピットロードはごまんといるそうだ。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Glenn Rane",
 		"counterpartCards": [
@@ -19031,7 +19036,8 @@
 		"text": "[x]全てのキャラクターに\n$3ダメージを与える。",
 		"flavor": "こういう呪文があるから、ウォーロックはいつも十分な助けを得るのに苦労するんだ。自業自得だが。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Chippy",
 		"counterpartCards": [
@@ -20443,7 +20449,8 @@
 		"flavor": "「焦熱地獄ゥゥゥーーーッ！」―ジャラクサス、焦熱の軍団のエレダーロード",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan & Gabor",
 		"counterpartCards": [
@@ -21782,7 +21789,8 @@
 			"BATTLECRY",
 			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"assembleHalves": {
@@ -27893,7 +27901,8 @@
 		"mechanics": [
 			"CHARGE",
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -30329,7 +30338,8 @@
 		"text": "[x]自分のターンの開始時\n自分のヒーローに\n 1ダメージを与える。",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -30414,7 +30424,8 @@
 		"text": "[x]自分のターンの開始時\n自分のヒーローに\n 1ダメージを与える。",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -30499,7 +30510,8 @@
 		"text": "[x]自分のターンの開始時\n自分のヒーローに\n 1ダメージを与える。",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -31984,7 +31996,8 @@
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
 			"RUSH",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Aleksi Briclot",
 		"counterpartCards": [
@@ -35489,7 +35502,8 @@
 		"flavor": "畜生、ボンバー、落ち着けよ。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"audio2": {
@@ -39161,7 +39175,8 @@
 		"cost": 6,
 		"text": "[x]<b>自動詠唱</b>\n自分は10ダメージを\n受ける。",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Chris Seaman"
 	},
@@ -43011,7 +43026,8 @@
 		"cost": 1,
 		"text": "このカードが\n自分の手札にある場合\n自分のターンの開始時に\n1ダメージを受ける。",
 		"mechanics": [
-			"EVIL_GLOW"
+			"EVIL_GLOW",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -45449,7 +45465,8 @@
 		"cost": 3,
 		"text": "このカードが\n自分の手札にある場合\n自分のターンの開始時に\n3ダメージを受ける。",
 		"mechanics": [
-			"EVIL_GLOW"
+			"EVIL_GLOW",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -50654,7 +50671,8 @@
 		"text": "[x]このミニオンが\nダメージを受ける度\n自分のヒーローも等しい\n ダメージを受ける。",
 		"flavor": "元は普通の衛兵だったのが、マジウザ・オ・トロン5体を相手にしたために、この激怒の化身になってしまったといううわさがある。",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Sojin Hwang",
 		"audio2": {
@@ -57400,6 +57418,9 @@
 		"spellSchool": "SHADOW",
 		"text": "[x]相手に「呪われた！」\nカード1枚を与える。\n「呪われた！」カードが手札に\nある場合、自分のターンに\n2ダメージを受ける。",
 		"flavor": "足の小指をタンスの角にぶつけた時、ラファームは呪いの言葉を吐き、その歩みものろくなる。",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"artist": "Alex Horley Orlandelli",
 		"relatedCardDbfIds": [
 			2998
@@ -59210,7 +59231,8 @@
 		"text": "このカードが自分の手札にある場合\n自分のターンの開始時に2ダメージを受ける。",
 		"mechanics": [
 			"EVIL_GLOW",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jim Nelson"
 	},
@@ -59904,7 +59926,8 @@
 		"spellSchool": "SHADOW",
 		"text": "<b>自動詠唱</b>\n自分は7ダメージを\n受ける。",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Slawomir Maniak"
 	},
@@ -60862,7 +60885,10 @@
 		],
 		"set": "Loe",
 		"cost": 0,
-		"text": "10ダメージ\n受けるか、ダメージなしか、確率は\n五分五分だ。"
+		"text": "10ダメージ\n受けるか、ダメージなしか、確率は\n五分五分だ。",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 16456,
@@ -60876,7 +60902,10 @@
 		],
 		"set": "Loe",
 		"cost": 0,
-		"text": "5ダメージを受ける。"
+		"text": "5ダメージを受ける。",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 16804,
@@ -61277,7 +61306,8 @@
 		"set": "Loe",
 		"text": "[x]<b>常時発動</b>\n自分のヒーローは\n一度に1ダメージ\nしか受けない。",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -62444,7 +62474,8 @@
 		"spellSchool": "FIRE",
 		"text": "[x]全てのキャラクターに\n$5ダメージを与える。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -62529,7 +62560,8 @@
 		"spellSchool": "FIRE",
 		"text": "[x]合計$10ダメージを\nキャラクターに\n ランダムに振り分ける。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -63472,7 +63504,8 @@
 		"text": "自分のヒーローは\n一度に1ダメージしか受けない。",
 		"flavor": "装備してみな。あー待った、カメラ準備させて。",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mike Sass",
 		"audio2": {
@@ -65937,7 +65970,8 @@
 		"text": "[x]合計$13ダメージを\n全てのキャラクターに\n ランダムに振り分ける。",
 		"flavor": "ダークシャイアのほとんどの住民は、観光客に狂気を染さないようマスクを着用している。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"counterpartCards": [
@@ -66080,7 +66114,8 @@
 		"flavor": "どれだけ時代が廻ろうとも、グルダンは今でもチョ＝ガルをパシらせてドーナツとコーヒーを買わせる。",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"counterpartCards": [
@@ -69128,6 +69163,9 @@
 		"attack": 5,
 		"health": 5,
 		"text": "このミニオンは\n一度に1ダメージしか受けない。",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -69712,7 +69750,8 @@
 		"set": "Loe",
 		"text": "[x]<b>常時発動</b>\n自分のヒーローと\n味方のミニオンは\n一度に1ダメージ\nしか受けない。",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -71905,6 +71944,9 @@
 		"attack": 10,
 		"health": 10,
 		"text": "このミニオンは\n一度に1ダメージしか受けない。",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -74149,7 +74191,8 @@
 		"text": "マナの代わりに体力を消費する。",
 		"mechanics": [
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -75982,7 +76025,8 @@
 		"text": "自分のターンの開始時\n自分のヒーローに\n4ダメージを与える。",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -81144,7 +81188,8 @@
 		"set": "Kara",
 		"text": "一度に1ダメージしか受けない。",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -85262,7 +85307,8 @@
 		"spellSchool": "FIRE",
 		"text": "[x]合計5ダメージを\n自身を除くキャラクターに\n ランダムに振り分ける。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -85281,7 +85327,8 @@
 		"spellSchool": "FIRE",
 		"text": "[x]合計10ダメージを\n自身を除くキャラクターに\n ランダムに振り分ける。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -88081,7 +88128,8 @@
 		"text": "自分のターンの開始時に爆発し、自分のヒーローに9ダメージを与える。",
 		"mechanics": [
 			"TAUNT",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -88175,7 +88223,8 @@
 		"text": "[x]全てのキャラクターに\n$5ダメージを与える。",
 		"flavor": "カザカスは24時間体制でインプたちをフル稼働させてフェルファイアを瓶詰めさせているが、なお供給が追い付かない。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Arthur Bozonnet",
 		"counterpartCards": [
@@ -88580,7 +88629,8 @@
 		"flavor": "カバールの全ての違法マナクリスタルのパッケージには、こう印刷されている。「警告: 奈落の悪鬼の手の届かないところに保管して下さい。あらゆる種類の炎の悪魔による使用は認可されていません。」",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Luke Mancini",
 		"counterpartCards": [
@@ -89398,7 +89448,8 @@
 		"mechanics": [
 			"IMP",
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jon Neimeister",
 		"audio2": {
@@ -93308,7 +93359,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"otherTags": [
@@ -97987,7 +98039,8 @@
 		"flavor": "実は「ビター」なのは真ん中の頭だけで、他の頭はそれぞれ「スイート」と「スパイシー」味だ。",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mark Gibbons",
 		"audio2": {
@@ -102548,7 +102601,8 @@
 		"text": "このターン中に\n自分が次に使用する\n呪文はマナの代わり\nに体力を消費する。",
 		"flavor": "察しはついてます。おそらく唱える者の血…血液を消費しろ…というのでしょう！",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Tyler Walpole"
 	},
@@ -102664,6 +102718,7 @@
 			"BATTLECRY",
 			"DISCOVER",
 			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO",
 			"GENERATES_SPELL"
 		],
 		"artist": "Slawomir Maniak",
@@ -105048,7 +105103,8 @@
 		"set": "Ungoro",
 		"text": "自分が次に使用する呪文は、マナの代わりに体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Tyler Walpole"
 	},
@@ -113849,7 +113905,8 @@
 			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Steve Prescott",
 		"assembleHalves": {
@@ -113939,7 +113996,8 @@
 		"flavor": "こいつは「司書」になれば弟子に威張れると思って司書の学校にいったんだが、そこで出会えたのは「弟子丸暮らし」とか何とかいうわけのわからない概念だけだった。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Matt Dixon",
 		"audio2": {
@@ -127709,7 +127767,8 @@
 		"text": "[x]自分のターンの開始時\n自分のヒーローに\n 5ダメージを与える。",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"HERO_POWER": 229
@@ -143273,7 +143332,8 @@
 		"flavor": "実に血的な女性だ。",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Qinghao Wu",
 		"audio2": {
@@ -146324,7 +146384,8 @@
 		"text": "[x]ミニオン1体と\n自分のヒーローに\n$4ダメージを与える。",
 		"flavor": "この発明は当初「減鬼魂」と呼ばれていたが、構えてから発射できるまで何話も引き延ばされそうだ、という理由で変えられた。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan Boros",
 		"counterpartCards": [
@@ -146758,7 +146819,8 @@
 		"text": "<b>断末魔:</b>\n全てのキャラクターに1ダメージを\n与える。",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "A. J. Nazzaro",
 		"audio2": {
@@ -148109,7 +148171,8 @@
 		"text": "[x]<b>常時発動</b>\n全ての呪文はマナの\n代わりに体力を\n消費する。",
 		"mechanics": [
 			"HIDE_STATS",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -148283,7 +148346,10 @@
 		],
 		"set": "Gilneas",
 		"cost": 1,
-		"text": "[x]2ダメージを受ける。\n2/2の「トレント」を\n1体召喚する。"
+		"text": "[x]2ダメージを受ける。\n2/2の「トレント」を\n1体召喚する。",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 48311,
@@ -151779,7 +151845,8 @@
 			"MODULAR",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"enchantmentDbfId": 48549,
 		"artist": "Dan Scott",
@@ -153930,7 +153997,8 @@
 		"cost": 5,
 		"text": "<b>自動詠唱</b>\n自分は5ダメージを\n受ける。",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ivan Fomin"
 	},
@@ -157186,6 +157254,7 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO",
 			"GIVES_ARMOR"
 		],
 		"artist": "David Kegg",
@@ -158020,7 +158089,8 @@
 		"cost": 0,
 		"text": "全ての呪文はマナの代わりに\n体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -158037,7 +158107,8 @@
 		"set": "Tb",
 		"text": "全ての呪文はマナの代わりに体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -169720,7 +169791,8 @@
 		"spellSchool": "SHADOW",
 		"text": "[x]<b>自動詠唱</b>\n3ダメージを受ける。\nこのカードを引いた後\nこれのコピー2枚を\n 自分のデッキに混ぜる。",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera"
 	},
@@ -170486,7 +170558,8 @@
 		"flavor": "この武器を――痛ッ！…使いこなすには――ぐぇっ！…腕が必要さー。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Akkapoj T."
 	},
@@ -170644,7 +170717,8 @@
 		"flavor": "「おい、俺の分のピザは？！」",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan Boros",
 		"audio2": {
@@ -173032,7 +173106,8 @@
 		"spellSchool": "FEL",
 		"text": "[x]このターンの間\n自分のカードは\nマナの代わりに\n 体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec"
 	},
@@ -173050,7 +173125,8 @@
 		"text": "このターンの間、自分のカードはマナの代わりに体力を消費する。",
 		"mechanics": [
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec"
 	},
@@ -173462,7 +173538,8 @@
 		"text": "<b>ミコシ</b>\n自分の呪文は\nマナの代わりに\n 体力を消費する。",
 		"mechanics": [
 			"AURA",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Daria Tuzova",
 		"audio2": {
@@ -180069,7 +180146,8 @@
 		"text": "[x]<b>挑発</b>\nこのミニオンは\n一度に1ダメージしか\n受けない。",
 		"mechanics": [
 			"TAUNT",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "M. Alvares & M. Azevedo",
 		"audio2": {
@@ -188712,7 +188790,8 @@
 		"text": "呪文はマナの代わりに体力を消費する。",
 		"mechanics": [
 			"CANT_BE_SILENCED",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -197899,7 +197978,8 @@
 		"cost": 2,
 		"text": "[x]<b>自動詠唱</b>\n 3ダメージを受ける。",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -202636,7 +202716,8 @@
 		"flavor": "得物が長すぎるんで、獲物以外にも当たっちまうだけさ。必ずあんたに当たるって？被害妄想も程々にな。",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Eric Braddock",
 		"audio2": {
@@ -205448,7 +205529,8 @@
 		"cost": 1,
 		"text": "[x]<b>自動詠唱</b>\n自分は50ダメージを\n受ける。",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -210282,7 +210364,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -212875,7 +212958,8 @@
 		"text": "[x]2本のワイヤーが\n接触している場合\n自分のターンの開始時に\n 5ダメージを受ける。",
 		"mechanics": [
 			"HIDE_STATS",
-			"UNTOUCHABLE"
+			"UNTOUCHABLE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -212896,7 +212980,8 @@
 		"text": "[x]2本のワイヤーが\n接触している場合\n自分のターンの開始時に\n 5ダメージを受ける。",
 		"mechanics": [
 			"HIDE_STATS",
-			"UNTOUCHABLE"
+			"UNTOUCHABLE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -213465,7 +213550,8 @@
 		"mechanics": [
 			"DUNGEON_PASSIVE_BUFF",
 			"HIDE_STATS",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -213482,7 +213568,8 @@
 		"set": "Dalaran",
 		"text": "自分の呪文はマナの代わりに体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -218801,7 +218888,8 @@
 		"flavor": "「ネザーウィング占い」って知ってるか？\nこいつに尻尾を左に振られたら、あんたはフラれる。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Dave Allsop",
 		"audio2": {
@@ -219050,7 +219138,8 @@
 		"text": "[x]全てのキャラクターに\n$1ダメージを与える。",
 		"flavor": "空から硫黄と炎が降って来ると、秋だなぁ、って感じるよな。あと、パンプキンパイ用スパイスな！",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Daria Tuzova",
 		"counterpartCards": [
@@ -229896,7 +229985,8 @@
 		"cost": 1,
 		"text": "<b>自動詠唱</b>\n自分は2ダメージを\n受ける。",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -245406,7 +245496,8 @@
 		"text": "[x]このミニオンが\nダメージを受ける度\n自分のヒーローも等しい\n ダメージを受ける。",
 		"flavor": "「結魂」とか難しいこと言ってるが、ただのヤンデレってヤツじゃないかな。",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec",
 		"audio2": {
@@ -248193,7 +248284,8 @@
 		"cost": 2,
 		"text": "[x]敵のミニオン1体を選択。\nそれが次の自分のターン\nまで生き延びた場合\n全てのキャラクターに\n5ダメージを与える。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"otherTags": [
 			"TARGETS_MINION",
@@ -263022,7 +263114,8 @@
 		"set": "Uldum",
 		"text": "テカーンのターンになると全てのキャラクターに5ダメージを与える。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -265938,7 +266031,8 @@
 		"text": "[x]自分のヒーローは<b>無敵</b>。\n毎ターン耐久度を1失う。\n<b>断末魔:</b>\n自分のヒーローに\n 100ダメージを与える。",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"IMMUNE"
@@ -277694,7 +277788,8 @@
 		"text": "[x]<b>断末魔:</b>\n自分のヒーローに\n 5ダメージを与える。",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -281142,7 +281237,8 @@
 		"text": "自分のターンの終了時、自分のヒーローに4ダメージを与える。",
 		"mechanics": [
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -282324,7 +282420,8 @@
 		"text": "[x]自分のヒーローに\n$3ダメージを与える。\nこの対戦で死亡した\n味方のミニオンを2体まで\n自分の手札に戻す。",
 		"flavor": "論理的には、かなり遅くなってからの治療と言えないこともない。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Slawomir Maniak",
 		"counterpartCards": [
@@ -289653,7 +289750,8 @@
 		"text": "[x]自分が悪魔を手札から\n使用した後、自分の\nヒーローに1ダメージを与え\n+{0}/+{1}を獲得する。",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
@@ -289749,7 +289847,8 @@
 		"text": "[x]自分が悪魔を手札から\n使用した後、2回自分の\nヒーローに1ダメージを与え\n+{0}/+{1}を獲得する。",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
@@ -302318,6 +302417,9 @@
 		"set": "Battlegrounds",
 		"cost": 2,
 		"text": "[x]酒場のカードを\n1枚奪う。\n 2ダメージ受ける。",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"relatedCardDbfIds": [
 			80643
 		]
@@ -318992,7 +319094,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -319620,7 +319723,8 @@
 		"flavor": "真っ赤なお腹の グフーン神は\n実は旧神の まがい物",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jaemin Kim",
 		"audio2": {
@@ -319665,7 +319769,8 @@
 		"set": "Darkmoon_faire",
 		"text": "マナの代わりに体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -327633,7 +327738,8 @@
 		"text": "[x]カードを3枚引く。\n自分のヒーローに\n$3ダメージを与える。",
 		"flavor": "「インプにガソリンを車に吐きつけられるのは、もうこりごりだよ」",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Anton Zemskov"
 	},
@@ -327731,7 +327837,8 @@
 		"text": "一度に1ダメージしか受けない。",
 		"flavor": "いや、「ムーンデコ」だとあんまり強そうじゃないからさ。",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan Boros",
 		"audio2": {
@@ -330885,7 +330992,8 @@
 		"text": "[x]<b>雄叫び:</b>\n自分のヒーローに\n 5ダメージを与える。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec"
 	},
@@ -334509,7 +334617,8 @@
 		"text": "攻撃できない。\n<b>断末魔:</b>\n自分のヒーローに\n 3ダメージを与える。",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -335448,7 +335557,8 @@
 		"flavor": "「わーが死ぬ時は、わーのヒーローも道連れどー！」",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"audio2": {
@@ -340001,7 +340111,8 @@
 		"text": "自分のターンの終了時、自分のヒーローに2ダメージを与える。",
 		"mechanics": [
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -344323,7 +344434,8 @@
 		"flavor": "みんなが笑ってる　ハイエナも笑ってる\nガルルルルル　今日も一つの命が大荒野に還った。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jeremy Cranford",
 		"audio2": {
@@ -345805,7 +345917,8 @@
 		"flavor": "「アンドゥインの『魂』も盗もう。勝手すぎるかな」\n「グッド！」",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"audio2": {
@@ -350281,7 +350394,8 @@
 		"mechanics": [
 			"CHARGE",
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -378101,7 +378215,8 @@
 		"mechanics": [
 			"IMP",
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "L. Lullabi & K. Turovec",
 		"counterpartCards": [
@@ -386887,7 +387002,8 @@
 		"flavor": "デザインの幅を狭めるようなカード名だよな。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"audio2": {
@@ -394615,7 +394731,8 @@
 		"text": "[x]攻撃できない。\n<b>断末魔:</b>\n自分のヒーローに\n 10ダメージを与える。",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_death": {
@@ -396084,7 +396201,8 @@
 		"flavor": "お願い お願い 近寄らないで",
 		"mechanics": [
 			"AURA",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -407140,7 +407258,8 @@
 		"spellSchool": "SHADOW",
 		"text": "[x]全てのキャラクターに\n$$2ダメージを与える。\n1体でも死んだ場合\n再度これを使用する。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -407910,7 +408029,8 @@
 		"cost": 5,
 		"text": "<b>自動詠唱</b>\n自分は5ダメージを\n受ける。",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -423805,7 +423925,8 @@
 		"set": "Wailing_caverns",
 		"text": "マナの代わりに体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -426045,7 +426166,8 @@
 		"text": "[x]全てのキャラクターに\n$3ダメージを与える。",
 		"flavor": "こういう呪文があるから、ウォーロックはいつも十分な助けを得るのに苦労するんだ。自業自得だが。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Chippy",
 		"counterpartCards": [
@@ -426150,7 +426272,8 @@
 		"flavor": "「焦熱地獄ゥゥゥーーーッ！」―ジャラクサス、焦熱の軍団のエレダーロード",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan & Gabor",
 		"counterpartCards": [
@@ -433204,7 +433327,8 @@
 		"text": "[x]全てのキャラクターに\n$3ダメージを与える。",
 		"flavor": "こういう呪文があるから、ウォーロックはいつも十分な助けを得るのに苦労するんだ。自業自得だが。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Chippy",
 		"counterpartCards": [
@@ -433273,7 +433397,8 @@
 		"flavor": "「焦熱地獄ゥゥゥーーーッ！」―ジャラクサス、焦熱の軍団のエレダーロード",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan & Gabor",
 		"counterpartCards": [
@@ -437754,7 +437879,8 @@
 			"BATTLECRY",
 			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"assembleHalves": {
@@ -439412,7 +439538,8 @@
 		"flavor": "ヤツは別にイカレてるわけじゃない。ただ、爆発物の扱いが滅茶苦茶いいかげんなだけだ。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mike Sass",
 		"counterpartCards": [
@@ -440124,7 +440251,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ian Ameling",
 		"counterpartCards": [
@@ -446599,7 +446727,8 @@
 		"flavor": "ヤツは別にイカレてるわけじゃない。ただ、爆発物の扱いが滅茶苦茶いいかげんなだけだ。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mike Sass",
 		"counterpartCards": [
@@ -447031,7 +447160,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"counterpartCards": [
@@ -448598,7 +448728,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ian Ameling",
 		"counterpartCards": [
@@ -449657,7 +449788,8 @@
 		"flavor": "マノロス、マグゼリドン、そしてブルータラスは死んだようだが、実のところピットロードはごまんといるそうだ。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Glenn Rane",
 		"counterpartCards": [
@@ -449816,7 +449948,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"counterpartCards": [
@@ -463620,7 +463753,8 @@
 		"cost": 2,
 		"text": "[x]イセラを除く\n全てのキャラクターに\n$5ダメージを与える。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -494225,7 +494359,8 @@
 		"cost": 0,
 		"text": "[x]<b>自動詠唱</b>\n自分は4ダメージを\n受ける。",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -513699,7 +513834,10 @@
 		"set": "Lettuce",
 		"cost": 10,
 		"spellSchool": "SHADOW",
-		"text": "[x]自身を除く全ての\nキャラクターから\n体力を5ずつ奪う。"
+		"text": "[x]自身を除く全ての\nキャラクターから\n体力を5ずつ奪う。",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 73102,
@@ -516494,7 +516632,8 @@
 			"DEATHRATTLE",
 			"ELUSIVE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -517592,7 +517731,8 @@
 		"text": "[x]<b>断末魔:</b>\n全てのキャラクターに\n30ダメージを\n与える。",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"DEATHRATTLE"
@@ -532246,7 +532386,8 @@
 		"faction": "NEUTRAL",
 		"text": "[x]自分のヒーローに1ダメージを\n与える。<b>レジェンド</b>ではない\n敵のミニオン1体を破壊し\nコストが（1）低い悪魔を\n自陣に召喚する。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -532262,7 +532403,10 @@
 		"set": "The_barrens",
 		"cost": 4,
 		"faction": "NEUTRAL",
-		"text": "[x]1ダメージを受ける。\nレジェンドではない敵の\nミニオン1体を破壊し\nコストが（1）高い悪魔を\n自陣に召喚する。\n（悪魔の最大コスト10）"
+		"text": "[x]1ダメージを受ける。\nレジェンドではない敵の\nミニオン1体を破壊し\nコストが（1）高い悪魔を\n自陣に召喚する。\n（悪魔の最大コスト10）",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 73938,
@@ -538736,7 +538880,8 @@
 		"set": "The_barrens",
 		"text": "[x]<b>常時発動</b>\n自分のカードのコストが\n（2）減る。自分がカードを\n手札から使用した後\n2ダメージを受ける。",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -538914,7 +539059,8 @@
 		"text": "[x]自分が悪魔を召喚した後\nそれに+2/+2を付与し\n自分のヒーローに\n 2ダメージを与える。",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -539871,7 +540017,8 @@
 		"spellSchool": "SHADOW",
 		"text": "[x]自分のヒーローに\n$3ダメージを与える。\nこの対戦で死亡した\n味方のミニオンを2体まで\n自分の手札に戻す。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -545268,7 +545415,8 @@
 		"text": "[x]自分のヒーローに\n$3ダメージを与える。\nこの対戦で死亡した\n味方のミニオンを2体まで\n自分の手札に戻す。",
 		"flavor": "論理的には、かなり遅くなってからの治療と言えないこともない。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Slawomir Maniak",
 		"counterpartCards": [
@@ -548113,7 +548261,8 @@
 		"flavor": "自宅の庭でブラッドラディッシュやブラッドキャベツ、そしてお気に入りのブラッドブルームを育てて余暇を過ごすのが好きなんだ。",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"audio2": {
@@ -548200,7 +548349,8 @@
 		"set": "Throne_of_tides",
 		"text": "このターンの間、自分のカードはマナの代わりに体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -554488,7 +554638,8 @@
 		"text": "[x]全てのキャラクターに\n$3ダメージを与える。",
 		"flavor": "こういう呪文があるから、ウォーロックはいつも十分な助けを得るのに苦労するんだ。自業自得だが。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Chippy",
 		"counterpartCards": [
@@ -554905,7 +555056,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Steve Prescott",
 		"audio2": {
@@ -554971,7 +555123,8 @@
 		"text": "[x]全てのキャラクターに\n$5ダメージを与える。",
 		"flavor": "カザカスは24時間体制でインプたちをフル稼働させてフェルファイアを瓶詰めさせているが、なお供給が追い付かない。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Arthur Bozonnet",
 		"counterpartCards": [
@@ -555070,7 +555223,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"counterpartCards": [
@@ -555469,7 +555623,8 @@
 		"text": "[x]全てのキャラクターに\n$1ダメージを与える。",
 		"flavor": "空から硫黄と炎が降って来ると、秋だなぁ、って感じるよな。あと、パンプキンパイ用スパイスな！",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Daria Tuzova",
 		"counterpartCards": [
@@ -556371,7 +556526,8 @@
 		"flavor": "「焦熱地獄ゥゥゥーーーッ！」―ジャラクサス、焦熱の軍団のエレダーロード",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan & Gabor",
 		"counterpartCards": [
@@ -556539,7 +556695,8 @@
 		"flavor": "カバールの全ての違法マナクリスタルのパッケージには、こう印刷されている。「警告: 奈落の悪鬼の手の届かないところに保管して下さい。あらゆる種類の炎の悪魔による使用は認可されていません」",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Luke Mancini",
 		"counterpartCards": [
@@ -559547,7 +559704,8 @@
 		"flavor": "カバールの全ての違法マナクリスタルのパッケージには、こう印刷されている。「警告: 奈落の悪鬼の手の届かないところに保管して下さい。あらゆる種類の炎の悪魔による使用は認可されていません」",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Luke Mancini",
 		"counterpartCards": [
@@ -581485,7 +581643,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"DEATHRATTLE",
@@ -589908,6 +590067,9 @@
 		"spellSchool": "FROST",
 		"text": "[x]次の自分のターンまで\n自分のヒーローは一度に\n1ダメージしか受けない。",
 		"flavor": "あのクッションは知り過ぎている…",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"artist": "Jakub Kasper",
 		"counterpartCards": [
 			77642,
@@ -602278,7 +602440,10 @@
 		"set": "Lettuce",
 		"cost": 10,
 		"spellSchool": "SHADOW",
-		"text": "[x]自身を除く全ての\nキャラクターから\n体力を8ずつ奪う。"
+		"text": "[x]自身を除く全ての\nキャラクターから\n体力を8ずつ奪う。",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 78089,
@@ -602653,7 +602818,8 @@
 		"set": "Revendreth",
 		"text": "このミニオンがダメージを受ける度、自分のヒーローに1ダメージを与える。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -608906,7 +609072,8 @@
 		"text": "[x]<b>雄叫び:</b>\n相手は次のターンの間\nカードを引く度に\n 2ダメージを受ける。",
 		"flavor": "「城は良かったが、暖炉が小さすぎた - ★★☆☆☆」",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ian Ameling",
 		"counterpartCards": [
@@ -609095,7 +609262,10 @@
 			"NEUTRAL"
 		],
 		"set": "Revendreth",
-		"text": "相手は次のターンの間、カードを引く度に2ダメージを受ける。"
+		"text": "相手は次のターンの間、カードを引く度に2ダメージを受ける。",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 78388,
@@ -611172,7 +611342,10 @@
 		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "FEL",
-		"text": "[x]敵のミニオン全てを\n汚染する。それらは\n各ターンの開始時\n 1ダメージを受ける。"
+		"text": "[x]敵のミニオン全てを\n汚染する。それらは\n各ターンの開始時\n 1ダメージを受ける。",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 78481,
@@ -613207,7 +613380,8 @@
 		"flavor": "「そういえば…あの店の鶏ささみ…中赤くて生みたいだったっけ…」",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vlad Botos",
 		"counterpartCards": [
@@ -613279,7 +613453,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"availableAsDiamond": true,
@@ -635733,7 +635908,8 @@
 		"set": "The_sunken_city",
 		"text": "マナの代わりに体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -655406,7 +655582,8 @@
 		"text": "[x]<b>生命奪取</b>\n敵のミニオン全てを\n汚染する。それらは\n自分のターンの終了時\n2ダメージを受ける。",
 		"flavor": "血が沸騰したら、塩を一つかみ入れてからスコジッティを茹でましょう。",
 		"mechanics": [
-			"END_OF_TURN"
+			"END_OF_TURN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"referencedTags": [
@@ -658241,7 +658418,8 @@
 		"spellSchool": "FIRE",
 		"text": "[x]自身を除く全ての\nキャラクターに\n$12ダメージを与える。\n<b>殺撃:</b> この能力を\n繰り返す。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 12
@@ -660233,7 +660411,8 @@
 		"text": "[x]ミニオン1体を\n破壊する。\n自分のヒーローに\n3ダメージを与える。",
 		"flavor": "そう、静電気でバチッと。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Dan Scott",
 		"counterpartCards": [
@@ -661596,7 +661775,8 @@
 		"text": "[x]<b>常時発動</b>\n対戦の開始時\n自分の体力を10にする。\n自分は一度に\n1ダメージしか受けない。",
 		"mechanics": [
 			"DUNGEON_PASSIVE_BUFF",
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -661614,7 +661794,8 @@
 		"faction": "NEUTRAL",
 		"text": "対戦の開始時、自分の体力を10にする。自分は一度に1ダメージしか受けない。",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -662840,7 +663021,8 @@
 		"spellSchool": "FIRE",
 		"text": "[x]自身を除く全ての\nキャラクターに\n$20ダメージを与える。\n<b>殺撃:</b> この能力を\n繰り返す。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 20
@@ -675722,7 +675904,8 @@
 		"spellSchool": "FROST",
 		"text": "[x]全てのキャラクターに\n$40ダメージを与える。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 40
@@ -695836,7 +696019,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DIVINE_SHIELD",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vika Yarova",
 		"audio2": {
@@ -695897,7 +696081,8 @@
 		"flavor": "雷電\n飛燕\n月光",
 		"mechanics": [
 			"DEAL_DAMAGE",
-			"GIVES_DIVINE_SHIELD"
+			"GIVES_DIVINE_SHIELD",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vika Yarova",
 		"otherTags": [
@@ -696226,7 +696411,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "BOSi Studio",
 		"audio2": {
@@ -705097,7 +705283,8 @@
 		"spellSchool": "FIRE",
 		"text": "[x]全てのキャラクターに\n$$3ダメージを与える。\n1体でも死んだ場合\nこれを繰り返す。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
@@ -705127,7 +705314,8 @@
 		"spellSchool": "FIRE",
 		"text": "[x]全てのキャラクターに\n$$6ダメージを与える。\n1体でも死んだ場合\nこれを繰り返す。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6
@@ -705144,7 +705332,8 @@
 		"spellSchool": "FIRE",
 		"text": "[x]全てのキャラクターに\n$$8ダメージを与える。\n1体でも死んだ場合\nこれを繰り返す。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 8
@@ -705161,7 +705350,8 @@
 		"spellSchool": "FIRE",
 		"text": "[x]全てのキャラクターに\n$$9ダメージを与える。\n1体でも死んだ場合\nこれを繰り返す。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 9
@@ -705178,7 +705368,8 @@
 		"spellSchool": "FIRE",
 		"text": "[x]全てのキャラクターに\n$$10ダメージを与える。\n1体でも死んだ場合\nこれを繰り返す。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 10
@@ -727482,7 +727673,8 @@
 			"BATTLECRY",
 			"MANATHIRST",
 			"DEAL_DAMAGE",
-			"RESTORE_HEALTH"
+			"RESTORE_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Paul Mafayon",
 		"audio2": {
@@ -728070,7 +728262,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"RUSH",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Matt Dixon",
 		"audio2": {
@@ -731988,7 +732181,8 @@
 		"spellSchool": "SHADOW",
 		"text": "[x]マーロックではない\n全てのキャラクターに\n$12ダメージを与える。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 12
@@ -745464,7 +745658,8 @@
 		"faction": "NEUTRAL",
 		"text": "[x]<b>対戦開始時:</b>\n各傭兵のランダムな能力1つを\n呪う。その能力を使った傭兵は\n20ダメージを受ける。賞金稼ぎ\n完了時に追加報酬を得る。",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 20
@@ -752229,6 +752424,9 @@
 		"mercenaryRole": "CASTER",
 		"text": "[x]各ターンの終了時\n敵それぞれの能力1つを\n予想する。敵は\nその能力を使うと\n20ダメージを受ける。",
 		"flavor": "我々の間に秘密はない…返金もしない。",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 20
 		},
@@ -761842,7 +762040,8 @@
 		"flavor": "彼はバンドの生演奏よりも死演奏を好む。",
 		"mechanics": [
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Porubov",
 		"counterpartCards": [
@@ -767116,7 +767315,8 @@
 		"cost": 5,
 		"text": "[x]<b>自動詠唱</b>\nランダムな\n味方のミニオンが\n5ダメージを受ける。",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ivan Fomin"
 	},
@@ -770366,7 +770566,8 @@
 		"spellSchool": "ARCANE",
 		"text": "[x]ランダムな敵1体に\n${0}ダメージを与える。自分\nが20ダメージ受けるごとに\nダメージ+3を獲得する。\n<i>（あと{1}）</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 11,
@@ -770439,7 +770640,8 @@
 		"mechanics": [
 			"CANT_BE_SILENCED",
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -771914,7 +772116,8 @@
 		"text": "[x]合計$9ダメージを\n全てのキャラクターに\n ランダムに振り分ける。",
 		"flavor": "ダークシャイアのほとんどの住民は、観光客に狂気を染さないようマスクを着用している。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera"
 	},
@@ -782309,7 +782512,8 @@
 		"spellSchool": "ARCANE",
 		"text": "[x]ランダムな敵1体に\n${0}ダメージを与える。自分\nが20ダメージ受けるごとに\nダメージ+3を獲得する。\n<i>（あと{1}）</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 10,
@@ -782345,7 +782549,8 @@
 		"spellSchool": "ARCANE",
 		"text": "[x]ランダムな敵1体に\n${0}ダメージを与える。自分\nが20ダメージ受けるごとに\nダメージ+3を獲得する。\n<i>（あと{1}）</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 9,
@@ -782362,7 +782567,8 @@
 		"spellSchool": "ARCANE",
 		"text": "[x]ランダムな敵1体に\n${0}ダメージを与える。自分\nが20ダメージ受けるごとに\nダメージ+3を獲得する。\n<i>（あと{1}）</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
@@ -782379,7 +782585,8 @@
 		"spellSchool": "ARCANE",
 		"text": "[x]ランダムな敵1体に\n${0}ダメージを与える。自分\nが20ダメージ受けるごとに\nダメージ+3を獲得する。\n<i>（あと{1}）</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 5,
@@ -791050,7 +791257,8 @@
 		"health": 0,
 		"text": "[x]<b>対戦開始時:</b>\n各傭兵のランダムな能力\n1つを呪う。その能力を\n使った傭兵は20ダメージ\nを受ける。",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true,
 		"audio2": {
@@ -791853,7 +792061,8 @@
 		"cost": 3,
 		"text": "[x]全てのキャラクターに\n$6ダメージを与える。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mooncolony"
 	},
@@ -800612,7 +800821,8 @@
 		"set": "Tb",
 		"text": "<b>断末魔:</b> 隣接する者1体に拡大し、自分のヒーローに5ダメージを与える。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"DEATHRATTLE"
@@ -800880,7 +801090,8 @@
 		"text": "このカードが自分の手札にある場合、自分のターンの開始時に2ダメージを受ける。",
 		"mechanics": [
 			"EVIL_GLOW",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -801616,7 +801827,8 @@
 		"text": "[x]ミニオン1体を感染させ\n「<b>断末魔:</b> 自分のヒーローに\n3ダメージを与えてから\n隣接する者1体に感染する」\nを付与する。",
 		"flavor": "「ねばねばリッチ」「どろどろリッチ」などのバリエーションもある。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"otherTags": [
 			"TARGETS_MINION"
@@ -802582,7 +802794,8 @@
 		"set": "Tb",
 		"text": "<b>断末魔:</b> 隣接する者1体に感染し、自分のヒーローに3ダメージを与える。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"DEATHRATTLE"
@@ -829235,7 +829448,8 @@
 		"text": "マナの代わりに体力を消費する。",
 		"flavor": "敵の流す血は、最高の肥料になる！",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ian Ameling",
 		"isTreant": true,
@@ -849297,7 +849511,8 @@
 		"set": "Path_of_arthas",
 		"text": "相手のターンの終了時、2ダメージを受ける。",
 		"mechanics": [
-			"LIFESTEAL"
+			"LIFESTEAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -868914,7 +869129,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"RUSH",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Max Grecke",
 		"audio2": {
@@ -890455,6 +890671,9 @@
 		"set": "Lettuce",
 		"cost": 3,
 		"text": "[x]<b>常時発動</b>\n「ガトリングワンド」は自分が\n20ダメージ受けるごとに\nダメージをさらに\n+3獲得する。",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
 		},
@@ -893889,7 +894108,8 @@
 		"health": 0,
 		"text": "[x]<b>対戦開始時:</b>\n各傭兵のランダムな能力\n1つを呪う。その能力を\n使った傭兵は10ダメージ\nを受ける。",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true,
 		"audio2": {
@@ -893932,7 +894152,8 @@
 		"health": 0,
 		"text": "[x]<b>対戦開始時:</b>\n各傭兵のランダムな能力\n1つを呪う。その能力を\n使った傭兵は5ダメージ\nを受ける。",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true,
 		"audio2": {
@@ -893974,7 +894195,8 @@
 		"faction": "NEUTRAL",
 		"text": "[x]<b>対戦開始時:</b>\n各傭兵のランダムな能力1つを\n呪う。その能力を使った傭兵は\n10ダメージを受ける。賞金稼ぎ\n完了時に追加報酬を得る。",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 10
@@ -893996,7 +894218,8 @@
 		"faction": "NEUTRAL",
 		"text": "[x]<b>対戦開始時:</b>\n各傭兵のランダムな能力1つを\n呪う。その能力を使った傭兵は\n5ダメージを受ける。賞金稼ぎ\n完了時に追加報酬を得る。",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 5
@@ -902631,7 +902854,8 @@
 		"text": "[x]<b>雄叫び:</b>\n2回、自身を除く味方の\n悪魔全てに+2/+2を\n付与し、自分のヒーローに\n 2ダメージを与える。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Grafit Studio",
 		"battlegroundsNormalDbfId": 99197,
@@ -902684,7 +902908,8 @@
 		"text": "[x]各ターン2回の\n<b>入替</b>は、ゴールドの\n代わりに体力を消費する。\n<i>（あと2回！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -903025,7 +903250,8 @@
 		"text": "[x]各ターン4回の\n<b>入替</b>は、ゴールドの\n代わりに体力を消費する。\n<i>（あと4回！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4
@@ -903315,7 +903541,8 @@
 		"text": "[x]<b>雄叫び:</b>\n悪魔2体を<b>発見</b>する。\nそれらのグレードに等しい\nダメージを自分の\nヒーローに与える。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Grace Liu",
 		"battlegroundsNormalDbfId": 99232,
@@ -911680,7 +911907,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"audio2": {
@@ -911767,7 +911995,8 @@
 		"flavor": "「そういえば…あの店の鶏ささみ…中赤くて生みたいだったっけ…」",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vlad Botos",
 		"otherTags": [
@@ -912081,7 +912310,8 @@
 			"BATTLECRY",
 			"IMP",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Steve Prescott",
 		"audio2": {
@@ -912391,7 +912621,8 @@
 		"flavor": "マノロス、マグゼリドン、そしてブルータラスは死んだようだが、実のところピットロードはごまんといるそうだ。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Glenn Rane",
 		"audio2": {
@@ -912438,7 +912669,8 @@
 		"text": "[x]<b>生命奪取</b>\n敵のミニオン全てを\n汚染する。それらは\n自分のターンの終了時\n2ダメージを受ける。",
 		"flavor": "血が沸騰したら、塩を一つかみ入れてからスコジッティを茹でましょう。",
 		"mechanics": [
-			"END_OF_TURN"
+			"END_OF_TURN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"referencedTags": [
@@ -912477,7 +912709,8 @@
 		"set": "Path_of_arthas",
 		"text": "相手のターンの終了時、2ダメージを受ける。",
 		"mechanics": [
-			"LIFESTEAL"
+			"LIFESTEAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -913045,7 +913278,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"availableAsDiamond": true,
@@ -913101,7 +913335,8 @@
 		"set": "Darkmoon_faire",
 		"text": "マナの代わりに体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -918043,7 +918278,8 @@
 		"text": "次のターンの間\n敵のミニオンは\nマナの代わりに\n体力を消費する。",
 		"flavor": "「そんな！鍛え続けてきた俺の腹筋が…大胸筋が…全身の筋金が――肉に…\n筋肉にぃぃぃ！」",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ryan Bowlin"
 	},
@@ -921248,7 +921484,8 @@
 		"text": "[x]<b>雄叫び:</b>\n自分のヒーローに\n 1ダメージを与える。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jaemin Kim",
 		"battlegroundsPremiumDbfId": 101104,
@@ -921298,7 +921535,8 @@
 		"text": "[x]<b>雄叫び:</b>\n自分のヒーローに2回\n 1ダメージを与える。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jaemin Kim",
 		"battlegroundsNormalDbfId": 101103,
@@ -925102,7 +925340,8 @@
 		"set": "Ulduar",
 		"text": "このターンの間、自分のカードはマナの代わりに体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -925406,7 +925645,8 @@
 		"health": 3,
 		"text": "[x]これを買うには\nゴールドの代わりに\n体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsPremiumDbfId": 101558,
 		"audio2": {
@@ -925479,7 +925719,8 @@
 		"health": 6,
 		"text": "[x]これを買うには\nゴールドの代わりに\n体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 101556,
 		"premium": true,
@@ -937354,7 +937595,8 @@
 		"text": "[x]<b>自動詠唱</b>\n 2ダメージを受ける。\n敵のヒーローの体力が\n2回復する。",
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
-			"RESTORE_HEALTH"
+			"RESTORE_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Slawomir Maniak"
 	},
@@ -937372,7 +937614,8 @@
 		"cost": 1,
 		"text": "[x]<b>自動詠唱</b>\n2ダメージを受ける。\n相手に2/2の\nアンデッドを召喚する。",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Slawomir Maniak",
 		"relatedCardDbfIds": [
@@ -937393,7 +937636,8 @@
 		"cost": 1,
 		"text": "[x]<b>自動詠唱</b>\n2ダメージを受ける。\n自分が次に使用する\nカードのコストが\n（1）増える。<i>（最大10）</i>",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Slawomir Maniak"
 	},
@@ -938666,6 +938910,9 @@
 		"set": "Battlegrounds",
 		"faction": "NEUTRAL",
 		"text": "[x]体力5、\n5ゴールドで開始。\n自分のヒーローは一度に\n1ダメージしか受けない。",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
 		},
@@ -943855,7 +944102,8 @@
 		"text": "[x]ミニオン1体と\n自分のヒーローに\n$4ダメージを与える。",
 		"flavor": "この発明は当初「減鬼魂」と呼ばれていたが、構えてから発射できるまで何話も引き延ばされそうだ、という理由で変えられた。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan Boros",
 		"counterpartCards": [
@@ -946596,7 +946844,8 @@
 		"faction": "NEUTRAL",
 		"text": "[x]対戦の開始時\n25ダメージを受ける。\n他のヒーローが死ぬ度に\n体力を5回復する。",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Tanamaes Leejierasaes"
 	},
@@ -947175,7 +947424,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec",
 		"audio2": {
@@ -948886,7 +949136,8 @@
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
 			"RUSH",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Aleksi Briclot",
 		"counterpartCards": [
@@ -951508,7 +951759,8 @@
 		"text": "[x]合計$13ダメージを\n全てのキャラクターに\nランダムに振り分ける。",
 		"flavor": "ダークシャイアのほとんどの住民は、観光客に狂気を染さないようマスクを着用している。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"counterpartCards": [
@@ -951773,7 +952025,8 @@
 		"flavor": "どれだけ時代が廻ろうとも、グルダンは今でもチョ＝ガルをパシらせてドーナツとコーヒーを買わせる。",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"counterpartCards": [
@@ -953802,7 +954055,8 @@
 		"flavor": "手っ取り早く魂を凍結させるには、体を凍結させればいい。",
 		"mechanics": [
 			"FREEZE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jakub Kasper",
 		"otherTags": [
@@ -954933,7 +955187,8 @@
 		"set": "Caverns_of_time",
 		"text": "マナの代わりに体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -969471,7 +969726,8 @@
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Guilherme Freitas",
 		"battlegroundsPremiumDbfId": 103689,
@@ -969523,7 +969779,8 @@
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Guilherme Freitas",
 		"battlegroundsNormalDbfId": 103688,
@@ -979724,7 +979981,8 @@
 		"isBaconPool": true,
 		"text": "[x]1ゴールドを獲得する。\nこれを買うには\nゴールドの代わりに\n体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ivan Fomin"
 	},
@@ -984423,7 +984681,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mooncolony"
 	},
@@ -993123,7 +993382,8 @@
 		"text": "[x]カードを2枚引く。\n自分のヒーローに\n$3ダメージを与える。\nこれのコピー2枚を\n自分のデッキに混ぜる。",
 		"flavor": "皆さんがこれを使う度に、我々はネムシーの新ポートレートを制作します。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mooncolony"
 	},
@@ -995086,7 +995346,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"BG_SPELL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
@@ -995139,7 +995400,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"BG_SPELL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -995871,7 +996133,8 @@
 		"text": "[x]このミニオンが\nダメージを受ける度\n自分のヒーローも等しい\n ダメージを受ける。",
 		"flavor": "あっ 精神支配という方法が あっ最も簡単で あっあっ 一般的なあっ",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"audio2": {
@@ -1001694,7 +1001957,8 @@
 		"mechanics": [
 			"ELUSIVE",
 			"RUSH",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Brian Despain",
 		"audio2": {
@@ -1003084,7 +1003348,8 @@
 		"text": "[x]<b>断末魔:</b>\nランダムな敵3体を\n<b>凍結</b>させる。既に<b>凍結</b>\nしていた対象は代わりに\n 5ダメージを受ける。",
 		"flavor": "彼女は悪辣提督イライザ・ゴアブレード、義足の義賊ペギー・ブリトルボーンと共に海賊三姉妹を結成し、海を脅かしている。",
 		"mechanics": [
-			"DEATHRATTLE"
+			"DEATHRATTLE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Porubov",
 		"referencedTags": [
@@ -1003463,7 +1003728,8 @@
 		"text": "[x]ミニオン1体に\n$2ダメージを与える。\n自分のヒーローに\n$2ダメージを与える。\n<i>（残り3杯！）</i>",
 		"flavor": "美味しいお茶か、致死い毒か？",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec",
 		"otherTags": [
@@ -1017538,7 +1017804,8 @@
 		"flavor": "ブギ・モンスターの宿敵。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Juan Calle",
 		"relatedCardDbfIds": [
@@ -1017899,7 +1018166,8 @@
 		"text": "[x]ミニオン1体に\n+3/+3と「自分のターン\nの開始時、自分のヒーロー\nに3ダメージを与える」\nを付与する。",
 		"flavor": "お土産品のほとんどは、無意味で心がこもってないと思われてる。だがこれはそういうつまらないお土産とは大違いだ！",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Stone",
 		"otherTags": [
@@ -1017974,7 +1018242,8 @@
 		"set": "Perils_in_paradise",
 		"text": "+3/+3、自分のターンの開始時、自分のヒーローに3ダメージを与える。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1027388,7 +1027657,8 @@
 		"spellSchool": "SHADOW",
 		"text": "[x]ミニオン1体に\n$2ダメージを与える。\n自分のヒーローに\n$2ダメージを与える。\n<i>（残り2杯！）</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec",
 		"otherTags": [
@@ -1027424,7 +1027694,8 @@
 		"spellSchool": "SHADOW",
 		"text": "[x]ミニオン1体に\n$2ダメージを与える。\n自分のヒーローに\n$2ダメージを与える。\n<i>（最後の1杯！）</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec",
 		"otherTags": [
@@ -1045969,7 +1046240,8 @@
 		"flavor": "針で留めるのか？それともフェルの力で留めるイマドキの針ナシ方式なのか？",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Studio Hive"
 	},
@@ -1057783,6 +1058055,7 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO",
 			"GIVES_ARMOR"
 		]
 	},
@@ -1097444,7 +1097717,8 @@
 		"set": "Tb",
 		"text": "[x]このターン中に自分が\n次に使用するミニオンは\nマナの代わりに\n体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_death": {
@@ -1098291,7 +1098565,8 @@
 		"text": "[x]<b>常時発動</b>\n各ターン最初に使用する、\n対戦開始時に自分のデッキに\n無かったカードは、マナの\n代わりに体力を消費する。",
 		"mechanics": [
 			"HIDE_STATS",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true,
 		"questRewardDbfId": 113051
@@ -1099443,7 +1099718,8 @@
 		"mechanics": [
 			"IMP",
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1100240,7 +1100516,8 @@
 		"text": "[x]毎ターン、悪魔1体が\nゴールドの代わりに\n 体力を消費する。\n<i>（あと1体！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
@@ -1100293,7 +1100570,8 @@
 		"text": "[x]毎ターン、悪魔2体が\nゴールドの代わりに\n 体力を消費する。\n<i>（あと2体！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -1102902,7 +1103180,8 @@
 		"text": "[x]ミニオン1体を\n破壊する。\n自分のヒーローに\n3ダメージを与える。",
 		"flavor": "そう、静電気でバチッと。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Dan Scott",
 		"counterpartCards": [
@@ -1104495,7 +1104774,8 @@
 		"text": "<b>常時発動</b>。各ターン最初に使用する、対戦開始時に自分のデッキに無かったカードは、マナの代わりに体力を消費する。",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1104956,7 +1105236,8 @@
 		"mechanics": [
 			"IMP",
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "L. Lullabi & K. Turovec",
 		"counterpartCards": [
@@ -1105352,7 +1105633,8 @@
 		"mechanics": [
 			"CANT_BE_SILENCED",
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1105517,7 +1105799,8 @@
 		"set": "Tb",
 		"text": "<b>常時発動</b>。各ターン最初に使用する、対戦開始時に自分のデッキに無かったカードは、マナの代わりに体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1127390,7 +1127673,8 @@
 		"flavor": "1日1個のリンゴで医者いらず、なんていうがこりゃ例外だな。",
 		"mechanics": [
 			"DEAL_DAMAGE",
-			"RESTORE_HEALTH"
+			"RESTORE_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vlad Botos"
 	},
@@ -1127548,7 +1127832,8 @@
 		"text": "[x]自分のターンの終了時\n自分のヒーローに\n $3ダメージを与える。",
 		"mechanics": [
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1156007,7 +1156292,8 @@
 			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Steve Prescott",
 		"assembleHalves": {
@@ -1158431,7 +1158717,8 @@
 			"BG_DUO_EXCLUSIVE",
 			"END_OF_TURN_TRIGGER",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Joseph Weston",
 		"battlegroundsPremiumDbfId": 117358,
@@ -1158482,7 +1158769,8 @@
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 117357,
 		"premium": true,
@@ -1159024,7 +1159312,8 @@
 		"flavor": "彼はバンドの生演奏よりも死演奏を好む。",
 		"mechanics": [
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Porubov",
 		"counterpartCards": [
@@ -1165499,7 +1165788,8 @@
 		"text": "[x]自分が買うカードの\nコストは4回目ごとに\nゴールドではなく\n体力になる。\n<i>（あと{0}回！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
@@ -1172929,6 +1173219,9 @@
 		"spellSchool": "FROST",
 		"text": "[x]次の自分のターンまで\n自分のヒーローは一度に\n1ダメージしか受けない。",
 		"flavor": "あのクッションは知り過ぎている…",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"artist": "Jakub Kasper",
 		"counterpartCards": [
 			77642,
@@ -1175868,7 +1176161,8 @@
 		"text": "[x]<b>雄叫び:</b>\n相手は次のターンの間\nカードを引く度に\n 2ダメージを受ける。",
 		"flavor": "「城は良かったが、暖炉が小さすぎた - ★★☆☆☆」",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ian Ameling",
 		"counterpartCards": [
@@ -1177968,6 +1178262,7 @@
 			"DEATHRATTLE",
 			"TAUNT",
 			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO",
 			"GENERATES_SPELL",
 			"GENERATES_FEL_SPELL"
 		],
@@ -1178009,7 +1178304,8 @@
 		"set": "Lost_city_of_ungoro",
 		"text": "マナの代わりに体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1214074,7 +1214370,8 @@
 		"flavor": "時間の三段跳びだ。",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"relatedCardDbfIds": [
@@ -1214134,7 +1214431,8 @@
 		"text": "[x]<b>自動詠唱</b>\n自分のヒーローに\n$3ダメージを与える。",
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Stefan Bogdasarov"
 	},
@@ -1217335,7 +1217633,8 @@
 		"text": "[x]自分が酒場の呪文を\n手札から使用する度\n自分のヒーローに\n1ダメージを与え\n味方の悪魔に\n+1/+1を付与する。",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Stu Harrington",
 		"battlegroundsPremiumDbfId": 120665,
@@ -1217385,7 +1217684,8 @@
 		"text": "[x]自分が酒場の呪文を\n手札から使用する度\n2回、自分のヒーローに\n1ダメージを与え\n味方の悪魔に\n+1/+1を付与する。",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 120664,
 		"premium": true,
@@ -1218112,7 +1218412,8 @@
 		"text": "[x]毎ターン、悪魔1体が\nゴールドの代わりに\n 体力を消費する。\n<i>（あと{0}体！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
@@ -1224191,6 +1224492,7 @@
 		"mechanics": [
 			"DISCOVER",
 			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO",
 			"GENERATES_SPELL"
 		],
 		"artist": "Brian Despain",
@@ -1224225,7 +1224527,8 @@
 		"text": "[x]自分の手札を\nランダムなアンデッドで\nいっぱいにする。この\nターンの間、それはマナの\n代わりに体力を消費する。",
 		"flavor": "話さないでおこう。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "A. J. Nazzaro"
 	},
@@ -1224313,7 +1224616,8 @@
 		"text": "マナの代わりに体力を消費した。",
 		"mechanics": [
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1224635,7 +1224939,8 @@
 		"text": "[x]毎ターン酒場の呪文の1つは\nゴールドの代わりに\n 体力を消費する。\n<i>（あと{0}枚！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
@@ -1224655,7 +1224960,8 @@
 		"spellSchool": "LESSER_TRINKET",
 		"text": "[x]2ゴールドを獲得し\n2ダメージを受ける。\n各ターンの開始時\nこれを繰り返す。\n<i>（可能な限り）</i>",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Topdog Entertainment"
 	},
@@ -1224986,7 +1225292,8 @@
 		"text": "[x]<b>雄叫び:</b>\n酒場を<b>入替</b>し、酒場の\n呪文を2つ追加で並べる。\nそれはゴールドの代わりに\n体力を消費する。",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4
@@ -1225042,7 +1225349,8 @@
 		"text": "[x]<b>雄叫び:</b>\n酒場を<b>入替</b>し、酒場の\n呪文を2つ追加で並べる。\nそれらはゴールドの代わりに\n体力を消費する。",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 121054,
 		"premium": true,
@@ -1229832,7 +1230140,8 @@
 		"set": "Battlegrounds",
 		"text": "ゴールドの代わりに体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1244017,7 +1244326,8 @@
 		"flavor": "「そういえば…あの店の鶏ささみ…中赤くて生みたいだったっけ…」",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vlad Botos",
 		"counterpartCards": [
@@ -1265301,7 +1265611,8 @@
 		"set": "Og",
 		"text": "マナの代わりに体力を消費する。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1282743,7 +1283054,8 @@
 		"health": 1,
 		"text": "[x]召喚された時、ランダムな\nコスト{0}のミニオン1体を\n得る。それはこのターンで\n体力を消費する。<i>2回<b>伝令</b>で\n アップグレードする。 </i>",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -1283904,7 +1284216,8 @@
 		"health": 1,
 		"text": "[x]召喚された時、ランダムな\nコスト{0}のミニオン1体を\n得る。それはこのターンで\n体力を消費する。<i>2回<b>伝令</b>で\n アップグレードする。 </i>",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -1286525,7 +1286838,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Luke Mancini",
 		"audio2": {
@@ -1288074,6 +1288388,7 @@
 		"flavor": "スケルトンの出どころは、前回これを使おうとした人物だ。",
 		"mechanics": [
 			"DISCOVER",
+			"DAMAGES_YOUR_HERO",
 			"GENERATES_SPELL"
 		],
 		"artist": "Kevin Sidharta",
@@ -1303811,7 +1304126,8 @@
 		"health": 1,
 		"text": "[x]召喚された時、ランダムな\nコスト{0}のミニオン1体を\n得る。それはこのターンで\n体力を消費する。<i>2回<b>伝令</b>で\n アップグレードする。 </i>",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -1315056,7 +1315372,8 @@
 		"set": "Violet_hold",
 		"text": "マナの代わりに体力を消費した。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1341307,7 +1341624,8 @@
 		"flavor": "雷電\n飛燕\n月光",
 		"mechanics": [
 			"DEAL_DAMAGE",
-			"GIVES_DIVINE_SHIELD"
+			"GIVES_DIVINE_SHIELD",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vika Yarova",
 		"otherTags": [
@@ -1345692,7 +1346010,8 @@
 		"text": "このターンの間、体力を消費する。",
 		"mechanics": [
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1348454,7 +1348773,8 @@
 		"health": 1,
 		"text": "[x]<b>フィードバック・ループ:</b> 全ての\nキャラクターに1ダメージを\n与える。このターンの間\n自分が発動した音響効果の\n 数だけこれを繰り返す。",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -1349663,7 +1349983,8 @@
 		"text": "[x]<b>自動詠唱</b>\n自分のヒーローに\n2ダメージを与える。",
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Stefan Bogdasarov"
 	},
@@ -1353650,7 +1353971,8 @@
 		"text": "[x]<b><b>コンボ</b>:</b>\nカードを1枚引き\n自分のヒーローに\n 2ダメージを与える。",
 		"mechanics": [
 			"COMBO",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vladimir Kafanov"
 	},
@@ -1357647,7 +1357969,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"availableAsDiamond": true,
@@ -1375790,7 +1376113,8 @@
 		"set": "Cataclysm",
 		"text": "マナの代わりに体力を消費した。",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1376828,7 +1377152,8 @@
 		"cost": 0,
 		"text": "[x]選択肢を入れ替える。\n<i>（20%の確率で\n5ダメージを受ける！）</i>",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -1377417,7 +1377742,8 @@
 		"text": "[x]{1}回<b>入替</b>した後\n酒場で最もグレードの高い\nミニオン1体はゴールドの\n代わりに体力を消費する。\n<i>（あと{0}回！）</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,

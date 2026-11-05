@@ -5741,7 +5741,8 @@
 		"spellSchool": "NATURE",
 		"text": "Наносит $5 ед. урона всем целям, кроме Изеры.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -6223,7 +6224,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ian Ameling",
 		"counterpartCards": [
@@ -8024,7 +8026,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"counterpartCards": [
@@ -14645,7 +14648,8 @@
 		"flavor": "На самом деле, он не чокнутый. Просто он не очень осторожен с взрывчатыми веществами.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mike Sass",
 		"counterpartCards": [
@@ -15473,7 +15477,8 @@
 		"flavor": "Маннорот, Магтеридон и Бруталл мертвы. Но похоже, в преисподней ОЧЕНЬ много владык.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Glenn Rane",
 		"counterpartCards": [
@@ -19031,7 +19036,8 @@
 		"text": "Наносит $3 ед. урона ВСЕМ персонажам.",
 		"flavor": "Из-за подобных заклинаний у чернокнижников плохая репутация.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Chippy",
 		"counterpartCards": [
@@ -20443,7 +20449,8 @@
 		"flavor": "«ПЕКЛО!» – Джараксус, эредарский повелитель Пылающего Легиона.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan & Gabor",
 		"counterpartCards": [
@@ -21782,7 +21789,8 @@
 			"BATTLECRY",
 			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"assembleHalves": {
@@ -27893,7 +27901,8 @@
 		"mechanics": [
 			"CHARGE",
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -30329,7 +30338,8 @@
 		"text": "В начале вашего хода наносит 1 ед. урона вашему герою.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -30414,7 +30424,8 @@
 		"text": "В начале вашего хода наносит 1 ед. урона вашему герою.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -30499,7 +30510,8 @@
 		"text": "В начале вашего хода наносит 1 ед. урона вашему герою.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -31984,7 +31996,8 @@
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
 			"RUSH",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Aleksi Briclot",
 		"counterpartCards": [
@@ -35489,7 +35502,8 @@
 		"flavor": "Ему бы валерьяночки попить...",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"audio2": {
@@ -39161,7 +39175,8 @@
 		"cost": 6,
 		"text": "<b>При взятии</b>\nвы получаете 10 ед. урона.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Chris Seaman"
 	},
@@ -43011,7 +43026,8 @@
 		"cost": 1,
 		"text": "Пока эта карта у вас в руке, ваш герой получает 1 ед. урона в начале вашего хода.",
 		"mechanics": [
-			"EVIL_GLOW"
+			"EVIL_GLOW",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -45449,7 +45465,8 @@
 		"cost": 3,
 		"text": "Пока эта карта у вас в руке, ваш герой получает 3 ед. урона в начале вашего хода.",
 		"mechanics": [
-			"EVIL_GLOW"
+			"EVIL_GLOW",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -50654,7 +50671,8 @@
 		"text": "Когда это существо получает урон, оно наносит такой же урон вашему герою.",
 		"flavor": "Когда на поле боя побывает пять Раздражаторов, любой страж станет гневным.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Sojin Hwang",
 		"audio2": {
@@ -57400,6 +57418,9 @@
 		"spellSchool": "SHADOW",
 		"text": "[x]Противник получает карту\n«Проклятие!» Пока она находится\nв его руке, он получает 2 ед.\n урона в начале своего хода.",
 		"flavor": "Вот, что случается, когда Рафаам ударяется ногой о дверной косяк.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"artist": "Alex Horley Orlandelli",
 		"relatedCardDbfIds": [
 			2998
@@ -59210,7 +59231,8 @@
 		"text": "Пока эта карта у вас в руке, ваш герой получает 2 ед. урона в начале вашего хода.",
 		"mechanics": [
 			"EVIL_GLOW",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jim Nelson"
 	},
@@ -59904,7 +59926,8 @@
 		"spellSchool": "SHADOW",
 		"text": "<b>При взятии</b>\nвы получаете 7 ед. урона.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Slawomir Maniak"
 	},
@@ -60862,7 +60885,10 @@
 		],
 		"set": "Loe",
 		"cost": 0,
-		"text": "Вы получаете 10 ед. урона или не получаете никакого урона."
+		"text": "Вы получаете 10 ед. урона или не получаете никакого урона.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 16456,
@@ -60876,7 +60902,10 @@
 		],
 		"set": "Loe",
 		"cost": 0,
-		"text": "Вы получаете 5 ед. урона."
+		"text": "Вы получаете 5 ед. урона.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 16804,
@@ -61277,7 +61306,8 @@
 		"set": "Loe",
 		"text": "<b>Пассивный эффект:</b> ваш герой получает только 1 ед. урона от любого источника.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -62444,7 +62474,8 @@
 		"spellSchool": "FIRE",
 		"text": "Наносит $5 ед. урона ВСЕМ персонажам.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -62529,7 +62560,8 @@
 		"spellSchool": "FIRE",
 		"text": "Наносит $10 ед. урона, случайно распределяемого между ВСЕМИ персонажами.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -63472,7 +63504,8 @@
 		"text": "Ваш герой получает только 1 ед. урона от любого источника.",
 		"flavor": "Ух ты, надо примерить! Погоди, я камеру достану...",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mike Sass",
 		"audio2": {
@@ -65937,7 +65970,8 @@
 		"text": "Наносит $13 ед. урона, случайно распределяемого между ВСЕМИ целями.",
 		"flavor": "Большинство жителей Темнолесья носят маски, чтобы не заразить безумием туристов.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"counterpartCards": [
@@ -66080,7 +66114,8 @@
 		"flavor": "Даже годы спустя Гул'дан гоняет Чо'Галла за кофе и плюшками.",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"counterpartCards": [
@@ -69128,6 +69163,9 @@
 		"attack": 5,
 		"health": 5,
 		"text": "Это существо получает только 1 ед. урона от любого источника.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -69712,7 +69750,8 @@
 		"set": "Loe",
 		"text": "<b>Пассивный эффект:</b> ваш герой и ваши существа получают только 1 ед. урона от любого источника.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -71905,6 +71944,9 @@
 		"attack": 10,
 		"health": 10,
 		"text": "Это существо получает только 1 ед. урона от любого источника.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"audio2": {
 			"BASIC_attack": {
 				"Attack": {
@@ -74149,7 +74191,8 @@
 		"text": "Расходует здоровье, а не ману.",
 		"mechanics": [
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -75982,7 +76025,8 @@
 		"text": "В начале вашего хода наносит 4 ед. урона вашему герою.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -81144,7 +81188,8 @@
 		"set": "Kara",
 		"text": "Только 1 ед. урона от любого источника.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -85262,7 +85307,8 @@
 		"spellSchool": "FIRE",
 		"text": "Наносит 5 ед. урона, случайно распределяемого между всеми прочими персонажами.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -85281,7 +85327,8 @@
 		"spellSchool": "FIRE",
 		"text": "Наносит 10 ед. урона, случайно распределяемого между всеми прочими персонажами.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -88081,7 +88128,8 @@
 		"text": "В начале вашего хода взрывается, нанося 9 ед. урона вашему герою.",
 		"mechanics": [
 			"TAUNT",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -88175,7 +88223,8 @@
 		"text": "Наносит $5 ед. урона всем персонажам.",
 		"flavor": "Ему это зелье целая толпа бесов по бутылкам разливает. И все равно не поспевают за спросом.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Arthur Bozonnet",
 		"counterpartCards": [
@@ -88580,7 +88629,8 @@
 		"flavor": "Не зря ведь пишут на всех упаковках контрабандных кристаллов маны: «ВНИМАНИЕ! ДЕРЖАТЬ ПОДАЛЬШЕ ОТ АБИССАЛОВ И ИНЫХ ПЫЛАЮЩИХ ДЕМОНОВ!»",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Luke Mancini",
 		"counterpartCards": [
@@ -89398,7 +89448,8 @@
 		"mechanics": [
 			"IMP",
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jon Neimeister",
 		"audio2": {
@@ -93308,7 +93359,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"otherTags": [
@@ -97987,7 +98039,8 @@
 		"flavor": "Во всем виновата средняя голова.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mark Gibbons",
 		"audio2": {
@@ -102548,7 +102601,8 @@
 		"text": "Ваше следующее заклинание на этом ходу расходует здоровье, а не ману.",
 		"flavor": "Помогите спасти ману. Станьте донором крови прямо сейчас!",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Tyler Walpole"
 	},
@@ -102664,6 +102718,7 @@
 			"BATTLECRY",
 			"DISCOVER",
 			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO",
 			"GENERATES_SPELL"
 		],
 		"artist": "Slawomir Maniak",
@@ -105048,7 +105103,8 @@
 		"set": "Ungoro",
 		"text": "Ваше следующее заклинание будет расходовать здоровье, а не ману.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Tyler Walpole"
 	},
@@ -113849,7 +113905,8 @@
 			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Steve Prescott",
 		"assembleHalves": {
@@ -113939,7 +113996,8 @@
 		"flavor": "Библиотекарей в империи кобольдов первым делом долго учат не чихать на работе.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Matt Dixon",
 		"audio2": {
@@ -127709,7 +127767,8 @@
 		"text": "В начале вашего хода наносит 5 ед. урона вашему герою.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"HERO_POWER": 229
@@ -143273,7 +143332,8 @@
 		"flavor": "Просто подходит и пинает по щиколотке.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Qinghao Wu",
 		"audio2": {
@@ -146324,7 +146384,8 @@
 		"text": "Наносит $4 ед. урона существу и вашему герою.",
 		"flavor": "Готовится к взрыву полтора сезона.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan Boros",
 		"counterpartCards": [
@@ -146758,7 +146819,8 @@
 		"text": "<b>Предсмертный хрип:</b> наносит 1 ед. урона всем персонажам.",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "A. J. Nazzaro",
 		"audio2": {
@@ -148109,7 +148171,8 @@
 		"text": "<b>Пассивный эффект:</b> заклинания расходуют здоровье, а не ману.",
 		"mechanics": [
 			"HIDE_STATS",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -148283,7 +148346,10 @@
 		],
 		"set": "Gilneas",
 		"cost": 1,
-		"text": "Вы получаете 2 ед. урона и призываете древня 2/2."
+		"text": "Вы получаете 2 ед. урона и призываете древня 2/2.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 48311,
@@ -151779,7 +151845,8 @@
 			"MODULAR",
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"enchantmentDbfId": 48549,
 		"artist": "Dan Scott",
@@ -153930,7 +153997,8 @@
 		"cost": 5,
 		"text": "<b>При взятии</b>\nвы получаете\n5 ед. урона.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ivan Fomin"
 	},
@@ -157186,6 +157254,7 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO",
 			"GIVES_ARMOR"
 		],
 		"artist": "David Kegg",
@@ -158020,7 +158089,8 @@
 		"cost": 0,
 		"text": "Все заклинания расходуют здоровье, а не ману.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -158037,7 +158107,8 @@
 		"set": "Tb",
 		"text": "Все заклинания расходуют здоровье, а не ману.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -169720,7 +169791,8 @@
 		"spellSchool": "SHADOW",
 		"text": "<b>При взятии</b> вы получаете 3 ед. урона. После того как вы берете эту карту, замешивает две ее копии в колоду.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera"
 	},
@@ -170486,7 +170558,8 @@
 		"flavor": "Изначально использовался в качестве чесалки.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Akkapoj T."
 	},
@@ -170644,7 +170717,8 @@
 		"flavor": "«Куда лезешь без очереди?»",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan Boros",
 		"audio2": {
@@ -173032,7 +173106,8 @@
 		"spellSchool": "FEL",
 		"text": "Ваши карты на этом ходу расходуют здоровье, а не ману.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec"
 	},
@@ -173050,7 +173125,8 @@
 		"text": "Ваши карты на этом ходу расходуют здоровье, а не ману.",
 		"mechanics": [
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec"
 	},
@@ -173462,7 +173538,8 @@
 		"text": "<b>Идол</b>. Ваши заклинания расходуют здоровье, а не ману.",
 		"mechanics": [
 			"AURA",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Daria Tuzova",
 		"audio2": {
@@ -180069,7 +180146,8 @@
 		"text": "<b>Провокация</b>. Не может получить более 1 ед. урона за раз.",
 		"mechanics": [
 			"TAUNT",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "M. Alvares & M. Azevedo",
 		"audio2": {
@@ -188712,7 +188790,8 @@
 		"text": "Заклинания расходуют здоровье, а не ману.",
 		"mechanics": [
 			"CANT_BE_SILENCED",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -197899,7 +197978,8 @@
 		"cost": 2,
 		"text": "<b>При взятии</b> вы получаете 3 ед. урона.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -202636,7 +202716,8 @@
 		"flavor": "Он просто не очень аккуратно замахивается.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Eric Braddock",
 		"audio2": {
@@ -205448,7 +205529,8 @@
 		"cost": 1,
 		"text": "<b>При взятии</b>\nвы получаете 50 ед. урона.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -210282,7 +210364,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -212875,7 +212958,8 @@
 		"text": "Когда провода касаются друг друга, вы получаете 5 ед. урона в начале вашего хода.",
 		"mechanics": [
 			"HIDE_STATS",
-			"UNTOUCHABLE"
+			"UNTOUCHABLE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -212896,7 +212980,8 @@
 		"text": "Когда провода касаются друг друга, вы получаете 5 ед. урона в начале вашего хода.",
 		"mechanics": [
 			"HIDE_STATS",
-			"UNTOUCHABLE"
+			"UNTOUCHABLE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -213465,7 +213550,8 @@
 		"mechanics": [
 			"DUNGEON_PASSIVE_BUFF",
 			"HIDE_STATS",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -213482,7 +213568,8 @@
 		"set": "Dalaran",
 		"text": "Ваши заклинания расходуют здоровье, а не ману.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -218801,7 +218888,8 @@
 		"flavor": "Вся стратегия дракону под хвост!",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Dave Allsop",
 		"audio2": {
@@ -219050,7 +219138,8 @@
 		"text": "Наносит $1 ед. урона\nвсем персонажам.",
 		"flavor": "Если с неба летит горящая сера и сыпятся угли — значит, пришла осень. Пора готовить тыкву!",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Daria Tuzova",
 		"counterpartCards": [
@@ -229896,7 +229985,8 @@
 		"cost": 1,
 		"text": "<b>При взятии</b>\nвы получаете 2 ед. урона.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -245406,7 +245496,8 @@
 		"text": "Когда это существо получает урон, оно наносит такой же урон вашему герою.",
 		"flavor": "«Мне плохо — значит, и тебе должно быть плохо!»",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec",
 		"audio2": {
@@ -248193,7 +248284,8 @@
 		"cost": 2,
 		"text": "Выберите существо противника. Если оно доживет до вашего следующего хода, наносит 5 ед. урона всем персонажам.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"otherTags": [
 			"TARGETS_MINION",
@@ -263022,7 +263114,8 @@
 		"set": "Uldum",
 		"text": "На ходу Текана наносит 5 ед. урона всем персонажам.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -265938,7 +266031,8 @@
 		"text": "Ваш герой <b>неуязвим</b>. Теряет 1 ед. прочности каждый ход. <b>Предсмертный хрип:</b> наносит 100 ед. урона вашему герою.",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"IMMUNE"
@@ -277694,7 +277788,8 @@
 		"text": "<b>Предсмертный хрип:</b> наносит 5 ед. урона вашему герою.",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -281142,7 +281237,8 @@
 		"text": "В конце вашего хода наносит вашему герою 4 ед. урона.",
 		"mechanics": [
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -282324,7 +282420,8 @@
 		"text": "Наносит $3 ед. урона вашему герою. Возвращает в руку двух ваших существ, погибших в этом матче.",
 		"flavor": "В сущности, это просто запоздалое исцеление.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Slawomir Maniak",
 		"counterpartCards": [
@@ -289653,7 +289750,8 @@
 		"text": "Когда вы разыгрываете демона, наносит 1 ед. урона вашему герою и получает +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
@@ -289749,7 +289847,8 @@
 		"text": "Когда вы разыгрываете демона, дважды наносит 1 ед. урона вашему герою и получает +{0}/+{1}.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2,
@@ -302318,6 +302417,9 @@
 		"set": "Battlegrounds",
 		"cost": 2,
 		"text": "Вы крадете карту из таверны и получаете 2 ед. урона.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"relatedCardDbfIds": [
 			80643
 		]
@@ -318992,7 +319094,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -319620,7 +319723,8 @@
 		"flavor": "Все Древние боги смеялись над ним и давали обидные прозвища. Бедняжку Г'ууна никогда не брали в игру.",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jaemin Kim",
 		"audio2": {
@@ -319665,7 +319769,8 @@
 		"set": "Darkmoon_faire",
 		"text": "Расходует здоровье, а не ману.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -327633,7 +327738,8 @@
 		"text": "Вы берете 3 карты. Наносит $3 ед. урона вашему герою.",
 		"flavor": "«Больше не стану заправляться у огненного беса».",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Anton Zemskov"
 	},
@@ -327731,7 +327837,8 @@
 		"text": "Получает только 1 ед. урона от любого источника.",
 		"flavor": "Остальное отскакивает от лба.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan Boros",
 		"audio2": {
@@ -330885,7 +330992,8 @@
 		"text": "<b>Боевой клич:</b>\nнаносит 5 ед. урона вашему герою.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec"
 	},
@@ -334509,7 +334617,8 @@
 		"text": "Не может атаковать. <b>Предсмертный хрип:</b> наносит 3 ед. урона вашему герою.",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -335448,7 +335557,8 @@
 		"flavor": "«Я не собираюсь умирать в одиночку!»",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"audio2": {
@@ -340001,7 +340111,8 @@
 		"text": "В конце вашего хода наносит вашему герою 2 ед. урона.",
 		"mechanics": [
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -344323,7 +344434,8 @@
 		"flavor": "Даже их зубы смеются над вами.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jeremy Cranford",
 		"audio2": {
@@ -345805,7 +345917,8 @@
 		"flavor": "Как зубная фея, только серьезнее.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"audio2": {
@@ -350281,7 +350394,8 @@
 		"mechanics": [
 			"CHARGE",
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -378101,7 +378215,8 @@
 		"mechanics": [
 			"IMP",
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "L. Lullabi & K. Turovec",
 		"counterpartCards": [
@@ -386887,7 +387002,8 @@
 		"flavor": "С таким названием карты эффект очевиден.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"audio2": {
@@ -394615,7 +394731,8 @@
 		"text": "Не может атаковать. <b>Предсмертный хрип:</b> наносит 10 ед. урона вашему герою.",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_death": {
@@ -396084,7 +396201,8 @@
 		"flavor": "Хочу быть... подальше от него!",
 		"mechanics": [
 			"AURA",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -407140,7 +407258,8 @@
 		"spellSchool": "SHADOW",
 		"text": "Наносит $2 ед. урона всем существам и наемникам. Если хотя бы одна из них погибает, эффект повторяется.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -407910,7 +408029,8 @@
 		"cost": 5,
 		"text": "<b>При взятии</b>\nвы получаете 5 ед. урона.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -423805,7 +423925,8 @@
 		"set": "Wailing_caverns",
 		"text": "Расходует здоровье, а не ману.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -426045,7 +426166,8 @@
 		"text": "Наносит $3 ед. урона ВСЕМ персонажам.",
 		"flavor": "Из-за подобных заклинаний у чернокнижников плохая репутация.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Chippy",
 		"counterpartCards": [
@@ -426150,7 +426272,8 @@
 		"flavor": "«ПЕКЛО!» – Джараксус, эредарский повелитель Пылающего Легиона.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan & Gabor",
 		"counterpartCards": [
@@ -433204,7 +433327,8 @@
 		"text": "Наносит $3 ед. урона ВСЕМ персонажам.",
 		"flavor": "Из-за подобных заклинаний у чернокнижников плохая репутация.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Chippy",
 		"counterpartCards": [
@@ -433273,7 +433397,8 @@
 		"flavor": "«ПЕКЛО!» – Джараксус, эредарский повелитель Пылающего Легиона.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan & Gabor",
 		"counterpartCards": [
@@ -437754,7 +437879,8 @@
 			"BATTLECRY",
 			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"assembleHalves": {
@@ -439412,7 +439538,8 @@
 		"flavor": "На самом деле, он не чокнутый. Просто он не очень осторожен с взрывчатыми веществами.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mike Sass",
 		"counterpartCards": [
@@ -440124,7 +440251,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ian Ameling",
 		"counterpartCards": [
@@ -446599,7 +446727,8 @@
 		"flavor": "На самом деле, он не чокнутый. Просто он не очень осторожен с взрывчатыми веществами.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mike Sass",
 		"counterpartCards": [
@@ -447031,7 +447160,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"counterpartCards": [
@@ -448598,7 +448728,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ian Ameling",
 		"counterpartCards": [
@@ -449657,7 +449788,8 @@
 		"flavor": "Маннорот, Магтеридон и Бруталл мертвы. Но похоже, в преисподней ОЧЕНЬ много владык.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Glenn Rane",
 		"counterpartCards": [
@@ -449816,7 +449948,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"counterpartCards": [
@@ -463620,7 +463753,8 @@
 		"cost": 2,
 		"text": "Наносит $5 ед. урона всем персонажам, кроме Изеры.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -494225,7 +494359,8 @@
 		"cost": 0,
 		"text": "<b>При взятии</b> вы получаете 4 ед. урона.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -513699,7 +513834,10 @@
 		"set": "Lettuce",
 		"cost": 10,
 		"spellSchool": "SHADOW",
-		"text": "Похищает 5 ед. здоровья у всех прочих существ и наемников."
+		"text": "Похищает 5 ед. здоровья у всех прочих существ и наемников.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 73102,
@@ -516494,7 +516632,8 @@
 			"DEATHRATTLE",
 			"ELUSIVE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -517592,7 +517731,8 @@
 		"text": "<b>Предсмертный хрип:</b> наносит 30 ед. урона всем существам и наемникам.",
 		"mechanics": [
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"DEATHRATTLE"
@@ -532246,7 +532386,8 @@
 		"faction": "NEUTRAL",
 		"text": "Наносит 1 ед. урона вашему герою. Заменяет выбранное <b>нелегендарное</b> существо противника вашим демоном на (1) дешевле.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -532262,7 +532403,10 @@
 		"set": "The_barrens",
 		"cost": 4,
 		"faction": "NEUTRAL",
-		"text": "Наносит 1 ед. урона вашему герою. Заменяет нелегендарное существо противника вашим демоном на (1) дороже (но не дороже 10)."
+		"text": "Наносит 1 ед. урона вашему герою. Заменяет нелегендарное существо противника вашим демоном на (1) дороже (но не дороже 10).",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 73938,
@@ -538736,7 +538880,8 @@
 		"set": "The_barrens",
 		"text": "<b>Пассивный эффект:</b>\nваши карты стоят на (2) меньше. После того как вы разыгрываете карту, вы получаете 2 ед. урона.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -538914,7 +539059,8 @@
 		"text": "После того как вы призываете демона, дает ему +2/+2 и наносит 2 ед. урона вашему герою.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -539871,7 +540017,8 @@
 		"spellSchool": "SHADOW",
 		"text": "Наносит $3 ед. урона вашему герою. Возвращает в руку двух ваших существ, погибших в этом матче.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -545268,7 +545415,8 @@
 		"text": "Наносит $3 ед. урона вашему герою. Возвращает в руку двух ваших существ, погибших в этом матче.",
 		"flavor": "В сущности, это просто запоздалое исцеление.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Slawomir Maniak",
 		"counterpartCards": [
@@ -548113,7 +548261,8 @@
 		"flavor": "Он любит возиться в саду, выращивая кровавый редис, кровавую капусту и, конечно же, кровоцвет.",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"audio2": {
@@ -548200,7 +548349,8 @@
 		"set": "Throne_of_tides",
 		"text": "Ваши карты на этом ходу расходуют здоровье вместо маны.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -554488,7 +554638,8 @@
 		"text": "Наносит $3 ед. урона ВСЕМ существам и героям.",
 		"flavor": "Из-за подобных заклинаний у чернокнижников плохая репутация.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Chippy",
 		"counterpartCards": [
@@ -554905,7 +555056,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Steve Prescott",
 		"audio2": {
@@ -554971,7 +555123,8 @@
 		"text": "Наносит $5 ед. урона всем персонажам.",
 		"flavor": "Ему это зелье целая толпа бесов по бутылкам разливает. И все равно не поспевают за спросом.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Arthur Bozonnet",
 		"counterpartCards": [
@@ -555070,7 +555223,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"counterpartCards": [
@@ -555469,7 +555623,8 @@
 		"text": "Наносит $1 ед. урона\nвсем персонажам.",
 		"flavor": "Если с неба летит горящая сера и сыпятся угли — значит, пришла осень. Пора готовить тыкву!",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Daria Tuzova",
 		"counterpartCards": [
@@ -556371,7 +556526,8 @@
 		"flavor": "«ПЕКЛО!» – Джараксус, эредарский повелитель Пылающего Легиона.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan & Gabor",
 		"counterpartCards": [
@@ -556539,7 +556695,8 @@
 		"flavor": "Не зря ведь пишут на всех упаковках контрабандных кристаллов маны: «ВНИМАНИЕ! ДЕРЖАТЬ ПОДАЛЬШЕ ОТ АБИССАЛОВ И ИНЫХ ПЫЛАЮЩИХ ДЕМОНОВ!»",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Luke Mancini",
 		"counterpartCards": [
@@ -559547,7 +559704,8 @@
 		"flavor": "Не зря ведь пишут на всех упаковках контрабандных кристаллов маны: «ВНИМАНИЕ! ДЕРЖАТЬ ПОДАЛЬШЕ ОТ АБИССАЛОВ И ИНЫХ ПЫЛАЮЩИХ ДЕМОНОВ!»",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Luke Mancini",
 		"counterpartCards": [
@@ -581485,7 +581643,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"DEATHRATTLE",
@@ -589908,6 +590067,9 @@
 		"spellSchool": "FROST",
 		"text": "До начала вашего следующего хода ваш герой получает только 1 ед. урона от любого источника.",
 		"flavor": "Та подушка слишком много знает...",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"artist": "Jakub Kasper",
 		"counterpartCards": [
 			77642,
@@ -602278,7 +602440,10 @@
 		"set": "Lettuce",
 		"cost": 10,
 		"spellSchool": "SHADOW",
-		"text": "Похищает 8 ед. здоровья у всех прочих существ и наемников."
+		"text": "Похищает 8 ед. здоровья у всех прочих существ и наемников.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 78089,
@@ -602653,7 +602818,8 @@
 		"set": "Revendreth",
 		"text": "Когда это существо получает урон, наносит 1 ед. урона вашему герою.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -608906,7 +609072,8 @@
 		"text": "<b>Боевой клич:</b> ваш противник будет получать по 2 ед. урона за каждую карту, взятую на следующем ходу.",
 		"flavor": "«Неплохой замок, но камины слишком маленькие — ставлю две звезды».",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ian Ameling",
 		"counterpartCards": [
@@ -609095,7 +609262,10 @@
 			"NEUTRAL"
 		],
 		"set": "Revendreth",
-		"text": "Ваш противник будет получать по 2 ед. урона за каждую карту, взятую на следующем ходу."
+		"text": "Ваш противник будет получать по 2 ед. урона за каждую карту, взятую на следующем ходу.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 78388,
@@ -611172,7 +611342,10 @@
 		"cost": 2,
 		"faction": "NEUTRAL",
 		"spellSchool": "FEL",
-		"text": "Заражает всех существ противника. Они получают 1 ед. урона в начале каждого хода."
+		"text": "Заражает всех существ противника. Они получают 1 ед. урона в начале каждого хода.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		]
 	},
 	{
 		"dbfId": 78481,
@@ -613207,7 +613380,8 @@
 		"flavor": "Лучше было не есть суши на заправке...",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vlad Botos",
 		"counterpartCards": [
@@ -613279,7 +613453,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"availableAsDiamond": true,
@@ -635733,7 +635908,8 @@
 		"set": "The_sunken_city",
 		"text": "Расходует здоровье, а не ману.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -655406,7 +655582,8 @@
 		"text": "<b>Похищение жизни</b>. Заражает всех существ противника. В конце ваших ходов они получают 2 ед. урона.",
 		"flavor": "А когда ваша кровь закипит, бросайте чумакароны.",
 		"mechanics": [
-			"END_OF_TURN"
+			"END_OF_TURN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"referencedTags": [
@@ -658241,7 +658418,8 @@
 		"spellSchool": "FIRE",
 		"text": "Наносит $12 ед. урона всем прочим существам и наемникам. <b>Добивание:</b> эффект повторяется.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 12
@@ -660233,7 +660411,8 @@
 		"text": "Уничтожает существо. Наносит 3 ед. урона вашему герою.",
 		"flavor": "Бойся. Или не бойся. Результат один.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Dan Scott",
 		"counterpartCards": [
@@ -661596,7 +661775,8 @@
 		"text": "<b>Пассивный эффект:</b> <b>в начале матча</b> делает ваш запас здоровья равным 10. Вы получаете только 1 ед. урона от любого источника.",
 		"mechanics": [
 			"DUNGEON_PASSIVE_BUFF",
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -661614,7 +661794,8 @@
 		"faction": "NEUTRAL",
 		"text": "<b>Начало матча:</b> ваш запас здоровья становится равным 10. Вы получаете только 1 ед. урона от любого источника.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -662840,7 +663021,8 @@
 		"spellSchool": "FIRE",
 		"text": "Наносит $20 ед. урона всем прочим существам и наемникам. <b>Добивание:</b> эффект повторяется.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 20
@@ -675722,7 +675904,8 @@
 		"spellSchool": "FROST",
 		"text": "Наносит $40 ед. урона всем существам и наемникам.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 40
@@ -695836,7 +696019,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DIVINE_SHIELD",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vika Yarova",
 		"audio2": {
@@ -695897,7 +696081,8 @@
 		"flavor": "Не злись! Коагулируй!",
 		"mechanics": [
 			"DEAL_DAMAGE",
-			"GIVES_DIVINE_SHIELD"
+			"GIVES_DIVINE_SHIELD",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vika Yarova",
 		"otherTags": [
@@ -696226,7 +696411,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "BOSi Studio",
 		"audio2": {
@@ -705097,7 +705283,8 @@
 		"spellSchool": "FIRE",
 		"text": "Наносит $3 ед. урона всем существам. Если существо погибает, эффект повторяется.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
@@ -705127,7 +705314,8 @@
 		"spellSchool": "FIRE",
 		"text": "Наносит $6 ед. урона всем существам. Если существо погибает, эффект повторяется.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6
@@ -705144,7 +705332,8 @@
 		"spellSchool": "FIRE",
 		"text": "Наносит $8 ед. урона всем существам. Если существо погибает, эффект повторяется.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 8
@@ -705161,7 +705350,8 @@
 		"spellSchool": "FIRE",
 		"text": "Наносит $9 ед. урона всем существам. Если существо погибает, эффект повторяется.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 9
@@ -705178,7 +705368,8 @@
 		"spellSchool": "FIRE",
 		"text": "Наносит $10 ед. урона всем существам. Если существо погибает, эффект повторяется.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 10
@@ -727482,7 +727673,8 @@
 			"BATTLECRY",
 			"MANATHIRST",
 			"DEAL_DAMAGE",
-			"RESTORE_HEALTH"
+			"RESTORE_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Paul Mafayon",
 		"audio2": {
@@ -728070,7 +728262,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"RUSH",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Matt Dixon",
 		"audio2": {
@@ -731988,7 +732181,8 @@
 		"spellSchool": "SHADOW",
 		"text": "Наносит $12 ед. урона всем, кроме мурлоков.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 12
@@ -745464,7 +745658,8 @@
 		"faction": "NEUTRAL",
 		"text": "<b>Начало матча</b>: проклинает случайную способность каждого наемника. Применяя эту способность, они получают 20 ед. урона. Выполните поручение, чтобы получить дополнительную награду.",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 20
@@ -752229,6 +752424,9 @@
 		"mercenaryRole": "CASTER",
 		"text": "В конце каждого хода предсказывает способности противников. Они получают 20 ед. урона, если их используют.",
 		"flavor": "Между нами нет секретов... но деньги не верну.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 20
 		},
@@ -761842,7 +762040,8 @@
 		"flavor": "Он предпочитает музыкантов, которые уже умерли.",
 		"mechanics": [
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Porubov",
 		"counterpartCards": [
@@ -767116,7 +767315,8 @@
 		"cost": 5,
 		"text": "<b>При взятии</b> наносит вашим случайным существам 5 ед. урона.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ivan Fomin"
 	},
@@ -770366,7 +770566,8 @@
 		"spellSchool": "ARCANE",
 		"text": "Наносит ${0} ед. урона случайному противнику. +3 к урону каждый раз, когда вы получаете 20 ед. урона. <i>(Еще {1}.)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 11,
@@ -770439,7 +770640,8 @@
 		"mechanics": [
 			"CANT_BE_SILENCED",
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -771914,7 +772116,8 @@
 		"text": "Наносит $9 ед. урона, случайно распределяемого между ВСЕМИ персонажами.",
 		"flavor": "Большинство жителей Темнолесья носят маски, чтобы не заразить безумием туристов.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera"
 	},
@@ -782309,7 +782512,8 @@
 		"spellSchool": "ARCANE",
 		"text": "Наносит ${0} ед. урона случайному противнику. +3 к урону каждый раз, когда вы получаете 20 ед. урона. <i>(Еще {1}.)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 10,
@@ -782345,7 +782549,8 @@
 		"spellSchool": "ARCANE",
 		"text": "Наносит ${0} ед. урона случайному противнику. +3 к урону каждый раз, когда вы получаете 20 ед. урона. <i>(Еще {1}.)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 9,
@@ -782362,7 +782567,8 @@
 		"spellSchool": "ARCANE",
 		"text": "Наносит ${0} ед. урона случайному противнику. +3 к урону каждый раз, когда вы получаете 20 ед. урона. <i>(Еще {1}.)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 6,
@@ -782379,7 +782585,8 @@
 		"spellSchool": "ARCANE",
 		"text": "Наносит ${0} ед. урона случайному противнику. +3 к урону каждый раз, когда вы получаете 20 ед. урона. <i>(Еще {1}.)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 5,
@@ -791050,7 +791257,8 @@
 		"health": 0,
 		"text": "<b>Начало матча:</b> проклинает случайную способность каждого наемника. Применяя эту способность, они получают 20 ед. урона.",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true,
 		"audio2": {
@@ -791853,7 +792061,8 @@
 		"cost": 3,
 		"text": "Наносит $6 ед. урона всем персонажам.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mooncolony"
 	},
@@ -800612,7 +800821,8 @@
 		"set": "Tb",
 		"text": "<b>Предсмертный хрип:</b> переходит на соседнее существо, затем наносит 5 ед. урона вашему герою.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"DEATHRATTLE"
@@ -800880,7 +801090,8 @@
 		"text": "Пока эта карта у вас в руке, ваш герой получает 2 ед. урона в начале вашего хода.",
 		"mechanics": [
 			"EVIL_GLOW",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -801616,7 +801827,8 @@
 		"text": "Заражает существо и дает ему «<b>Предсмертный хрип:</b> наносит 3 ед. урона вашему герою, затем заражает соседнее существо».",
 		"flavor": "Бывают липкими и очень-очень липкими.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"otherTags": [
 			"TARGETS_MINION"
@@ -802582,7 +802794,8 @@
 		"set": "Tb",
 		"text": "<b>Предсмертный хрип:</b> заражает соседнее существо, затем наносит 3 ед. урона вашему герою.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"referencedTags": [
 			"DEATHRATTLE"
@@ -829235,7 +829448,8 @@
 		"text": "Расходует здоровье вместо маны.",
 		"flavor": "Кровь моих врагов — отличное удобрение!",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ian Ameling",
 		"isTreant": true,
@@ -849297,7 +849511,8 @@
 		"set": "Path_of_arthas",
 		"text": "В конце ходов вашего противника получает 2 ед. урона.",
 		"mechanics": [
-			"LIFESTEAL"
+			"LIFESTEAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -868914,7 +869129,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"RUSH",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Max Grecke",
 		"audio2": {
@@ -890455,6 +890671,9 @@
 		"set": "Lettuce",
 		"cost": 3,
 		"text": "<b>Пассивный эффект:</b> «Палочка-стрелялочка» получает +3 к урону каждый раз, когда вы получаете 20 ед. урона.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
 		},
@@ -893889,7 +894108,8 @@
 		"health": 0,
 		"text": "<b>Начало матча</b>: проклинает случайную способность каждого наемника. Применяя эту способность, они получают 10 ед. урона.",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true,
 		"audio2": {
@@ -893932,7 +894152,8 @@
 		"health": 0,
 		"text": "<b>Начало матча</b>: проклинает случайную способность каждого наемника. Применяя эту способность, они получают 5 ед. урона.",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true,
 		"audio2": {
@@ -893974,7 +894195,8 @@
 		"faction": "NEUTRAL",
 		"text": "<b>Начало матча</b>: проклинает случайную способность каждого наемника. Применяя эту способность, они получают 10 ед. урона. Выполните поручение, чтобы получить дополнительную награду.",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 10
@@ -893996,7 +894218,8 @@
 		"faction": "NEUTRAL",
 		"text": "<b>Начало матча</b>: проклинает случайную способность каждого наемника. Применяя эту способность, они получают 5 ед. урона. Выполните поручение, чтобы получить дополнительную награду.",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 5
@@ -902631,7 +902854,8 @@
 		"text": "<b>Боевой клич:</b>\nдругие ваши демоны\nполучают +2/+2. Наносит 2 ед. урона вашему герою. Срабатывает дважды.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Grafit Studio",
 		"battlegroundsNormalDbfId": 99197,
@@ -902684,7 +902908,8 @@
 		"text": "Два <b>обновления</b> на каждом ходу расходуют здоровье, [x]а не золото. <i>(Еще 2!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -903025,7 +903250,8 @@
 		"text": "Четыре <b>обновления</b>\nна каждом ходу\nрасходуют здоровье, [x]а не золото. <i>(Еще 4!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4
@@ -903315,7 +903541,8 @@
 		"text": "<b>Боевой клич:</b> вы <b>раскапываете</b> 2 демонов. Наносит вашему герою урон, равный их уровням.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Grace Liu",
 		"battlegroundsNormalDbfId": 99232,
@@ -911680,7 +911907,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Horley Orlandelli",
 		"audio2": {
@@ -911767,7 +911995,8 @@
 		"flavor": "Лучше было не есть суши на заправке...",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vlad Botos",
 		"otherTags": [
@@ -912081,7 +912310,8 @@
 			"BATTLECRY",
 			"IMP",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Steve Prescott",
 		"audio2": {
@@ -912391,7 +912621,8 @@
 		"flavor": "Маннорот, Магтеридон и Бруталл мертвы. Но похоже, в преисподней ОЧЕНЬ много владык.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Glenn Rane",
 		"audio2": {
@@ -912438,7 +912669,8 @@
 		"text": "<b>Похищение жизни</b>. Заражает всех существ противника. В конце ваших ходов они получают 2 ед. урона.",
 		"flavor": "А когда ваша кровь закипит, бросайте чумакароны.",
 		"mechanics": [
-			"END_OF_TURN"
+			"END_OF_TURN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"referencedTags": [
@@ -912477,7 +912709,8 @@
 		"set": "Path_of_arthas",
 		"text": "В конце ходов вашего противника получает 2 ед. урона.",
 		"mechanics": [
-			"LIFESTEAL"
+			"LIFESTEAL",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -913045,7 +913278,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"availableAsDiamond": true,
@@ -913101,7 +913335,8 @@
 		"set": "Darkmoon_faire",
 		"text": "Расходует здоровье, а не ману.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -918043,7 +918278,8 @@
 		"text": "На следующем ходу противник, разыгрывая существ, расходует здоровье вместо маны.",
 		"flavor": "О нет! Мой великолепный каменный пресс превратился... в мясо?!",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ryan Bowlin"
 	},
@@ -921248,7 +921484,8 @@
 		"text": "<b>Боевой клич:</b>\nнаносит 1 ед. урона вашему герою.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jaemin Kim",
 		"battlegroundsPremiumDbfId": 101104,
@@ -921298,7 +921535,8 @@
 		"text": "<b>Боевой клич:</b> наносит 1 ед. урона вашему герою дважды.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jaemin Kim",
 		"battlegroundsNormalDbfId": 101103,
@@ -925102,7 +925340,8 @@
 		"set": "Ulduar",
 		"text": "Ваши карты на этом ходу расходуют здоровье вместо маны.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -925406,7 +925645,8 @@
 		"health": 3,
 		"text": "Это существо покупается за здоровье, а не за золото.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsPremiumDbfId": 101558,
 		"audio2": {
@@ -925479,7 +925719,8 @@
 		"health": 6,
 		"text": "Это существо покупается за здоровье, а не за золото.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 101556,
 		"premium": true,
@@ -937354,7 +937595,8 @@
 		"text": "<b>При взятии</b> вы получаете 2 ед. урона. Ваш противник восстанавливает 2 ед. здоровья.",
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
-			"RESTORE_HEALTH"
+			"RESTORE_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Slawomir Maniak"
 	},
@@ -937372,7 +937614,8 @@
 		"cost": 1,
 		"text": "<b>При взятии</b> вы получаете 2 ед. урона. Ваш противник призывает нежить 2/2.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Slawomir Maniak",
 		"relatedCardDbfIds": [
@@ -937393,7 +937636,8 @@
 		"cost": 1,
 		"text": "<b>При взятии</b> вы получаете 2 ед. урона. Ваша следующая карта стоит на (1) больше <i>(вплоть до 10)</i>.",
 		"mechanics": [
-			"CASTS_WHEN_DRAWN"
+			"CASTS_WHEN_DRAWN",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Slawomir Maniak"
 	},
@@ -938666,6 +938910,9 @@
 		"set": "Battlegrounds",
 		"faction": "NEUTRAL",
 		"text": "Вы начинаете матч с 5 ед. здоровья и 5 золотыми. Вы получаете только по 1 ед. урона от любого источника.",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
 		},
@@ -943855,7 +944102,8 @@
 		"text": "Наносит $4 ед. урона выбранному существу и вашему герою.",
 		"flavor": "Готовится к взрыву полтора сезона.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Zoltan Boros",
 		"counterpartCards": [
@@ -946596,7 +946844,8 @@
 		"faction": "NEUTRAL",
 		"text": "В начале матча вы получаете 25 ед. урона. Вы восполняете 5 ед. здоровья, когда погибает другой герой.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Tanamaes Leejierasaes"
 	},
@@ -947175,7 +947424,8 @@
 		"mechanics": [
 			"BATTLECRY",
 			"DEATHRATTLE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec",
 		"audio2": {
@@ -948886,7 +949136,8 @@
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
 			"RUSH",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Aleksi Briclot",
 		"counterpartCards": [
@@ -951508,7 +951759,8 @@
 		"text": "Наносит $13 ед. урона, случайно распределяемого между ВСЕМИ персонажами.",
 		"flavor": "Большинство жителей Темнолесья носят маски, чтобы не заразить безумием туристов.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"counterpartCards": [
@@ -951773,7 +952025,8 @@
 		"flavor": "Даже годы спустя Гул'дан гоняет Чо'Галла за кофе и плюшками.",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"counterpartCards": [
@@ -953802,7 +954055,8 @@
 		"flavor": "Лучший способ заморозить душу – это заморозить тело!",
 		"mechanics": [
 			"FREEZE",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Jakub Kasper",
 		"otherTags": [
@@ -954933,7 +955187,8 @@
 		"set": "Caverns_of_time",
 		"text": "Расходует здоровье вместо маны.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -969471,7 +969726,8 @@
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Guilherme Freitas",
 		"battlegroundsPremiumDbfId": 103689,
@@ -969523,7 +969779,8 @@
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Guilherme Freitas",
 		"battlegroundsNormalDbfId": 103688,
@@ -979724,7 +979981,8 @@
 		"isBaconPool": true,
 		"text": "Вы получаете 1 золотой. Это заклинание покупается за здоровье, а не за золото.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ivan Fomin"
 	},
@@ -984423,7 +984681,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mooncolony"
 	},
@@ -993123,7 +993382,8 @@
 		"text": "Вы берете 2 карты. Наносит $3 ед. урона вашему герою. Вы замешиваете 2 копии этой карты в свою колоду.",
 		"flavor": "Каждый раз, когда вы применяете это, мы меняем портрет Немси.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mooncolony"
 	},
@@ -995086,7 +995346,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"BG_SPELL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
@@ -995139,7 +995400,8 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"BG_SPELL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -995871,7 +996133,8 @@
 		"text": "Когда это существо получает урон, оно наносит такой же урон вашему герою.",
 		"flavor": "Не верьте ей: такой массаж не помогает от головной боли, а очень даже наоборот.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"audio2": {
@@ -1001694,7 +1001957,8 @@
 		"mechanics": [
 			"ELUSIVE",
 			"RUSH",
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Brian Despain",
 		"audio2": {
@@ -1003084,7 +1003348,8 @@
 		"text": "<b>Предсмертный хрип:</b> <b>замораживает</b> 3 случайных противников. Уже <b>замороженные</b> вместо этого получают 5 ед. урона.",
 		"flavor": "Покоряет моря вместе со своими двумя сестрами — Элизой Кровавый Клинок и Пегги Хрупкая Кость.",
 		"mechanics": [
-			"DEATHRATTLE"
+			"DEATHRATTLE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Porubov",
 		"referencedTags": [
@@ -1003463,7 +1003728,8 @@
 		"text": "Наносит $2 ед. урона\n существу и $2 ед. урона вашему герою.\n<i>(Еще 3 напитка!)</i>",
 		"flavor": "Что это: вкусный чай или смертельный яд?",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec",
 		"otherTags": [
@@ -1017538,7 +1017804,8 @@
 		"flavor": "Заклятый враг Буги-вуги-монстра.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Juan Calle",
 		"relatedCardDbfIds": [
@@ -1017899,7 +1018166,8 @@
 		"text": "Существо получает +3/+3 и «В начале вашего хода наносит 3 ед. урона вашему герою».",
 		"flavor": "Большинство сувениров — дешевые безделушки, в которые никто не вкладывал души. Но этот — совсем другое дело.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Alex Stone",
 		"otherTags": [
@@ -1017974,7 +1018242,8 @@
 		"set": "Perils_in_paradise",
 		"text": "+3/+3. В начале вашего хода наносит 3 ед. урона вашему герою.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1027388,7 +1027657,8 @@
 		"spellSchool": "SHADOW",
 		"text": "Наносит $2 ед. урона\n существу и $2 ед. урона вашему герою.\n<i>(Еще 2 напитка!)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec",
 		"otherTags": [
@@ -1027424,7 +1027694,8 @@
 		"spellSchool": "SHADOW",
 		"text": "Наносит $2 ед. урона\n существу и $2 ед. урона вашему герою.\n<i>(Последний напиток!)</i>",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Turovec",
 		"otherTags": [
@@ -1045969,7 +1046240,8 @@
 		"flavor": "Простите... Кажется, у вас мой степлер...",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Studio Hive"
 	},
@@ -1057783,6 +1058055,7 @@
 		"mechanics": [
 			"TRIGGER_VISUAL",
 			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO",
 			"GIVES_ARMOR"
 		]
 	},
@@ -1097444,7 +1097717,8 @@
 		"set": "Tb",
 		"text": "Следующее существо, которое вы разыграете на этом ходу, будет расходовать здоровье вместо маны.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_death": {
@@ -1098291,7 +1098565,8 @@
 		"text": "<b>Пассивный эффект:</b> на каждом ходу первая разыгранная вами карта, которой не было в колоде в начале матча, расходует здоровье вместо маны.",
 		"mechanics": [
 			"HIDE_STATS",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true,
 		"questRewardDbfId": 113051
@@ -1099443,7 +1099718,8 @@
 		"mechanics": [
 			"IMP",
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1100240,7 +1100516,8 @@
 		"text": "[x]Один демон на каждом ходу\n покупается за здоровье,\nа не за золото.\n<i>(Еще 1!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
@@ -1100293,7 +1100570,8 @@
 		"text": "Два демона на каждом ходу покупаются за здоровье, а не за золото. <i>(Еще 2!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -1102902,7 +1103180,8 @@
 		"text": "Уничтожает существо. Наносит 3 ед. урона вашему герою.",
 		"flavor": "Бойся. Или не бойся. Результат один.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Dan Scott",
 		"counterpartCards": [
@@ -1104495,7 +1104774,8 @@
 		"text": "<b>Пассивный эффект:</b> на каждом ходу первая разыгранная вами карта, которой не было в колоде в начале матча, расходует здоровье вместо маны.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1104956,7 +1105236,8 @@
 		"mechanics": [
 			"IMP",
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "L. Lullabi & K. Turovec",
 		"counterpartCards": [
@@ -1105352,7 +1105633,8 @@
 		"mechanics": [
 			"CANT_BE_SILENCED",
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1105517,7 +1105799,8 @@
 		"set": "Tb",
 		"text": "<b>Пассивный эффект:</b> на каждом ходу первая разыгранная вами карта, которой не было в колоде в начале матча, расходует здоровье вместо маны.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1127390,7 +1127673,8 @@
 		"flavor": "Гнилое яблоко от оскверненного Древа Жизни далеко не падает.",
 		"mechanics": [
 			"DEAL_DAMAGE",
-			"RESTORE_HEALTH"
+			"RESTORE_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vlad Botos"
 	},
@@ -1127548,7 +1127832,8 @@
 		"text": "В конце вашего хода наносит $3 ед. урона вашему герою.",
 		"mechanics": [
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1156007,7 +1156292,8 @@
 			"CRAFTABLE_OUTPUT_POWER",
 			"IMP",
 			"TAUNT",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Steve Prescott",
 		"assembleHalves": {
@@ -1158431,7 +1158717,8 @@
 			"BG_DUO_EXCLUSIVE",
 			"END_OF_TURN_TRIGGER",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Joseph Weston",
 		"battlegroundsPremiumDbfId": 117358,
@@ -1158482,7 +1158769,8 @@
 		"mechanics": [
 			"END_OF_TURN_TRIGGER",
 			"END_OF_TURN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 117357,
 		"premium": true,
@@ -1159024,7 +1159312,8 @@
 		"flavor": "Он предпочитает музыкантов, которые уже умерли.",
 		"mechanics": [
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Konstantin Porubov",
 		"counterpartCards": [
@@ -1165499,7 +1165788,8 @@
 		"text": "Каждая четвертая карта покупается за здоровье, а не за золото. <i>(Еще {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 3
@@ -1172929,6 +1173219,9 @@
 		"spellSchool": "FROST",
 		"text": "До начала вашего следующего хода ваш герой получает только 1 ед. урона от любого источника.",
 		"flavor": "Та подушка слишком много знает...",
+		"mechanics": [
+			"DAMAGES_YOUR_HERO"
+		],
 		"artist": "Jakub Kasper",
 		"counterpartCards": [
 			77642,
@@ -1175868,7 +1176161,8 @@
 		"text": "<b>Боевой клич:</b> ваш противник будет получать по 2 ед. урона за каждую карту, взятую на следующем ходу.",
 		"flavor": "«Неплохой замок, но камины слишком маленькие — ставлю две звезды».",
 		"mechanics": [
-			"BATTLECRY"
+			"BATTLECRY",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Ian Ameling",
 		"counterpartCards": [
@@ -1177968,6 +1178262,7 @@
 			"DEATHRATTLE",
 			"TAUNT",
 			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO",
 			"GENERATES_SPELL",
 			"GENERATES_FEL_SPELL"
 		],
@@ -1178009,7 +1178304,8 @@
 		"set": "Lost_city_of_ungoro",
 		"text": "Расходует здоровье,\nа не ману.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1214074,7 +1214370,8 @@
 		"flavor": "Вприпрыжку по временным линиям.",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Mauricio Herrera",
 		"relatedCardDbfIds": [
@@ -1214134,7 +1214431,8 @@
 		"text": "[x]<b>При взятии</b>: наносит\n$3 ед. урона вашему герою.",
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Stefan Bogdasarov"
 	},
@@ -1217335,7 +1217633,8 @@
 		"text": "[x]Когда вы применяете заклинание\nиз таверны, наносит 1 ед. урона\n вашему герою, а ваши\n демоны получают +1/+1.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Stu Harrington",
 		"battlegroundsPremiumDbfId": 120665,
@@ -1217385,7 +1217684,8 @@
 		"text": "[x]Когда вы применяете заклинание\nиз таверны, дважды наносит\n1 ед. урона вашему герою,\nа ваши демоны\nполучают +1/+1.",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 120664,
 		"premium": true,
@@ -1218112,7 +1218412,8 @@
 		"text": "[x]Один демон на каждом ходу\n покупается за здоровье,\nа не за золото.\n<i>(Еще {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
@@ -1224191,6 +1224492,7 @@
 		"mechanics": [
 			"DISCOVER",
 			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO",
 			"GENERATES_SPELL"
 		],
 		"artist": "Brian Despain",
@@ -1224225,7 +1224527,8 @@
 		"text": "Заполняет вашу руку случайными существами-нежитью. Они расходуют здоровье вместо маны на этом ходу.",
 		"flavor": "Не будем об этом.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "A. J. Nazzaro"
 	},
@@ -1224313,7 +1224616,8 @@
 		"text": "Расходует здоровье,\nа не ману.",
 		"mechanics": [
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1224635,7 +1224939,8 @@
 		"text": "Одно заклинание таверны\nна каждом ходу покупается\nза здоровье, а не за золото. <i>(Еще {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 1
@@ -1224655,7 +1224960,8 @@
 		"spellSchool": "LESSER_TRINKET",
 		"text": "[x]Вы получаете 2 золотых.\nГерой получает 2 ед. урона.\nВ начале каждого хода\nэффект повторяется\n<i> (если это возможно)</i>.",
 		"mechanics": [
-			"TRIGGER_VISUAL"
+			"TRIGGER_VISUAL",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Topdog Entertainment"
 	},
@@ -1224986,7 +1225292,8 @@
 		"text": "<b>Боевой клич:</b> <b>обновляет</b> таверну, добавляя еще 2 заклинания\nтаверны. Они покупаются [x] за здоровье, а не за золото.",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4
@@ -1225042,7 +1225349,8 @@
 		"text": "<b>Боевой клич:</b> <b>обновляет</b> таверну, добавляя еще 2 заклинания\nиз таверны. Они покупаются\n[x]за здоровье, а не за золото.",
 		"mechanics": [
 			"BATTLECRY",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"battlegroundsNormalDbfId": 121054,
 		"premium": true,
@@ -1229832,7 +1230140,8 @@
 		"set": "Battlegrounds",
 		"text": "Расходует здоровье,\nа не золото.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1244017,7 +1244326,8 @@
 		"flavor": "Не стоило есть суши на заправке...",
 		"mechanics": [
 			"BATTLECRY",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vlad Botos",
 		"counterpartCards": [
@@ -1265301,7 +1265611,8 @@
 		"set": "Og",
 		"text": "Расходует здоровье, а не ману.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1282743,7 +1283054,8 @@
 		"health": 1,
 		"text": "После призыва вы получаете случайное существо за ({0}). Оно расходует здоровье на этом ходу. <i><b>Возвестите</b> дважды, чтобы улучшить.</i>",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -1283904,7 +1284216,8 @@
 		"health": 1,
 		"text": "После призыва вы получаете случайное существо за ({0}). Оно расходует здоровье на этом ходу. <i><b>Возвестите</b> дважды, чтобы улучшить.</i>",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -1286525,7 +1286838,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"IMP",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Luke Mancini",
 		"audio2": {
@@ -1288074,6 +1288388,7 @@
 		"flavor": "Скелет принадлежит тому, кто пытался использовать этот ключ в прошлый раз.",
 		"mechanics": [
 			"DISCOVER",
+			"DAMAGES_YOUR_HERO",
 			"GENERATES_SPELL"
 		],
 		"artist": "Kevin Sidharta",
@@ -1303811,7 +1304126,8 @@
 		"health": 1,
 		"text": "После призыва вы получаете случайное существо за ({0}). Оно расходует здоровье на этом ходу. <i><b>Возвестите</b> дважды, чтобы улучшить.</i>",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 2
@@ -1315056,7 +1315372,8 @@
 		"set": "Violet_hold",
 		"text": "Расходует здоровье, а не ману.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1341307,7 +1341624,8 @@
 		"flavor": "Не злись! Коагулируй!",
 		"mechanics": [
 			"DEAL_DAMAGE",
-			"GIVES_DIVINE_SHIELD"
+			"GIVES_DIVINE_SHIELD",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vika Yarova",
 		"otherTags": [
@@ -1345692,7 +1346010,8 @@
 		"text": "Расходует здоровье до конца хода.",
 		"mechanics": [
 			"TAG_ONE_TURN_EFFECT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1348454,7 +1348773,8 @@
 		"health": 1,
 		"text": "<b>Цикл обратной связи:</b>\nнаносит 1 ед. урона всем существам. Повторяется за каждый вызванный на этом ходу звук.",
 		"mechanics": [
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"audio2": {
 			"BASIC_attack": {
@@ -1349663,7 +1349983,8 @@
 		"text": "[x]<b>При взятии</b>: \nнаносит 2 ед. урона\nвашему герою.",
 		"mechanics": [
 			"CASTS_WHEN_DRAWN",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Stefan Bogdasarov"
 	},
@@ -1353650,7 +1353971,8 @@
 		"text": "<b><b>Серия приемов</b>:</b>\nвы берете карту,\nа ваш герой получает 2 ед. урона.",
 		"mechanics": [
 			"COMBO",
-			"DEAL_DAMAGE"
+			"DEAL_DAMAGE",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "Vladimir Kafanov"
 	},
@@ -1357647,7 +1357969,8 @@
 		"mechanics": [
 			"DEATHRATTLE",
 			"TAUNT",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"artist": "James Ryman",
 		"availableAsDiamond": true,
@@ -1375790,7 +1376113,8 @@
 		"set": "Cataclysm",
 		"text": "Расходует здоровье, а не ману.",
 		"mechanics": [
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		]
 	},
 	{
@@ -1376828,7 +1377152,8 @@
 		"cost": 0,
 		"text": "[x]Обновляет доступные\nвам варианты.\n<i>(20% вероятность\nполучить 5 ед. урона!)</i>",
 		"mechanics": [
-			"HIDE_STATS"
+			"HIDE_STATS",
+			"DAMAGES_YOUR_HERO"
 		],
 		"hideStats": true
 	},
@@ -1377417,7 +1377742,8 @@
 		"text": "После того как вы <b>обновляете</b> таверну {1} раз, существо самого высокого уровня в таверне покупается за здоровье, а не за золото.<i>(Еще {0}!)</i>",
 		"mechanics": [
 			"TRIGGER_VISUAL",
-			"COSTS_HEALTH"
+			"COSTS_HEALTH",
+			"DAMAGES_YOUR_HERO"
 		],
 		"tags": {
 			"TAG_SCRIPT_DATA_NUM_1": 4,
