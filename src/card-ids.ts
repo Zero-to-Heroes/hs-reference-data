@@ -1,4 +1,4 @@
-export enum CardIds {
+export const enum CardIds {
 	DemonhunterTrainee = 'AIBot_DemonHunterTrainee_001_hb',
 	DruidTrainee = 'AIBot_DruidTrainee_002_hb',
 	FireFestivalRagnarosTavernBrawl = 'AIBot_Event_Ragnaros_FireFestival_02m',
