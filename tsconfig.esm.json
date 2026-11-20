@@ -1,0 +1,14 @@
+{
+	// ES module build, published next to the CommonJS one and exposed through the "module" field.
+	// Bundlers (esbuild, webpack) prefer it; Node keeps loading "main" (CommonJS).
+	// Why: with CommonJS only, esbuild converts the package once per importing file
+	// (`__toESM(require(...))`), each conversion building its own getter per export.
+	// In Firestone that was 1554 importers x 141 exports, ~15 MB of heap per window.
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"module": "ES2020",
+		"outDir": "./dist/esm",
+		// Types come from the CommonJS build ("types": "dist/public-api.d.ts")
+		"declaration": false
+	}
+}

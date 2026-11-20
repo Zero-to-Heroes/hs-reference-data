@@ -3,14 +3,15 @@
 	"version": "3.0.221",
 	"description": "",
 	"scripts": {
-		"build": "rm -rf dist && tsc",
-		"publish-version": "rm -rf dist && tsc && rm -rf dist/node_modules && npm publish --access public"
+		"build": "rm -rf dist && tsc && tsc -p tsconfig.esm.json",
+		"publish-version": "rm -rf dist && tsc && tsc -p tsconfig.esm.json && rm -rf dist/node_modules dist/esm/node_modules && npm publish --access public"
 	},
 	"repository": {},
 	"author": "",
 	"license": "MIT",
 	"private": false,
 	"main": "dist/public-api.js",
+	"module": "dist/esm/public-api.js",
 	"types": "dist/public-api.d.ts",
 	"files": [
 		"dist/**/*"
