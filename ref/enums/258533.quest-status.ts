@@ -1,0 +1,12 @@
+export enum QuestStatus {
+	UNKNOWN = 0,
+	NEW = 1,
+	ACTIVE = 2,
+	COMPLETED = 3,
+	REWARD_GRANTED = 4,
+	REWARD_ACKED = 5,
+	REROLLED = 6,
+	RESET = 7,
+	ABANDONED = 8,
+	EXPIRED = 9,
+}
